@@ -1,5 +1,5 @@
 ---
-title: Configure the time interval for a Discovery Operations Monitor visualization
+title: Configure the time interval for a visualization
 description: Update the data collection time interval for individual visualizations on the Discovery Operations Monitor dashboard. By default, each visualization displays data in 15-minute intervals.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/discovery/config-interval-disco-op-mon.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 1
 breadcrumb: [Discovery Operations Monitor dashboard, Discovery Admin Workspace Insights, Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
-# Configure the time interval for a Discovery Operations Monitor visualization
+# Configure the time interval for a visualization
 
 Update the data collection time interval for individual visualizations on the Discovery Operations Monitor dashboard. By default, each visualization displays data in 15-minute intervals.
 
@@ -56,7 +56,7 @@ Role required: discovery\_admin
 
 [Discovery Operations Monitor dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/disco-operations-monitor.md)
 
-[Configure the date range for a Discovery Operations Monitor visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/config-time-frame-disco-op-mon.md)
+[Configure the date range for a visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/config-time-frame-disco-op-mon.md)
 
 [Creating dashboards and other common dashboard tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/common-dashboard-tasks.md)
 

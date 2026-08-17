@@ -1,6 +1,6 @@
 ---
 title: Exploring Collaborative Work Management
-description: Collaborative Work Management \(CWM\) is a work management tool that centralizes tasks, documentation, and planning in a single workspace, helping knowledge workers, project managers, and agile teams manage work without switching between applications.
+description: Collaborative Work Management \(CWM\) is a work management tool that centralizes tasks, documentation, and planning in a single workspace. It helps knowledge workers, project managers, and agile teams manage work without switching between applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/collaborative-work-management/exploring-cwm.html
 release: yokohama
@@ -14,7 +14,7 @@ breadcrumb: [Collaborative Work Management, Strategic Portfolio Management]
 
 # Exploring Collaborative Work Management
 
-Collaborative Work Management \(CWM\) is a work management tool that centralizes tasks, documentation, and planning in a single workspace, helping knowledge workers, project managers, and agile teams manage work without switching between applications.
+Collaborative Work Management \(CWM\) is a work management tool that centralizes tasks, documentation, and planning in a single workspace. It helps knowledge workers, project managers, and agile teams manage work without switching between applications.
 
 ## Collaborative Work Management overview
 
@@ -30,7 +30,7 @@ CWM integrates with the broader ServiceNow AI Platform, connecting to other Serv
 
 |User|Description|
 |----|-----------|
-|Knowledge worker/Team member|Creates and manages tasks on Boards, collaborates on Docs, and tracks personal work in My Space. Uses [Now Assist for Collaborative Work Management \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-collaborative-work-management-cwm/now-assist-for-cwm-landing.md) to reduce manual overhead in task creation and formula building.|
+|Knowledge worker/Team member|Creates and manages tasks on Boards, collaborates on Docs, and tracks personal work in My Space. Uses [ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-collaborative-work-management-cwm/now-assist-for-cwm-landing.md) to reduce manual overhead in task creation and formula building.|
 |Project manager|Organizes work into Spaces and Boards, tracks progress across teams, and connects work to business goals and the Strategic Planning workspace.|
 |Agile practitioner|Plans and runs sprints, manages backlogs, generates scrum tasks from user stories, and tracks cross-team dependencies.|
 

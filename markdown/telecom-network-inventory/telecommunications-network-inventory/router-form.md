@@ -341,7 +341,7 @@ The following fields are available only in the Server form in the Configuration 
 |Disk space \(GB\)|Amount of disk space, in gigabytes \(GB\).|
 |CPU core count|Number of cores per CPU​.|
 
-To learn about the Asset attribute fields, see .
+To learn about the Asset attribute fields, see [Asset and CI management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/c_ManagingAssets.md).
 
 To learn about the remaining configuration fields that are common to most of the Inventory menu forms, see [Commonly used network asset instance configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/commonly-used-tni-configuration-fields.md).
 

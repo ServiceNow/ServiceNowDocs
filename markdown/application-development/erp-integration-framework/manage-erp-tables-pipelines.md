@@ -1,5 +1,5 @@
 ---
-title: Managing ERP development pipelines in Zero Copy Connector for ERP
+title: Managing ERP development pipelines in ERP Canvas
 description: Move your ERP \(Enterprise Resource Planning\) systems, ERP models, tables, operations, and flows from a development instance to a production environment when they're ready.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-integration-framework/manage-erp-tables-pipelines.html
@@ -9,10 +9,10 @@ classification: erp-integration-framework
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Using ERP models, extraction tables, and remote tables, Zero Copy Connector for ERP, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Using ERP models, extraction tables, and remote tables, ERP Canvas, Building low-code applications, Developing your application, Building applications]
 ---
 
-# Managing ERP development pipelines in Zero Copy Connector for ERP
+# Managing ERP development pipelines in ERP Canvas
 
 Move your ERP \(Enterprise Resource Planning\) systems, ERP models, tables, operations, and flows from a development instance to a production environment when they're ready.
 

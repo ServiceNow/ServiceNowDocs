@@ -20,16 +20,13 @@ ServiceNow® Telecommunications Service Operations Management \(TSOM\) integrate
 ## Additional resources
 
 -   Learn more about what's new and changed, see the [Telecommunications Service Operations Management \(TSOM\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/telecommunications-service-operations-management-rn.md).
--   Review the multiple TM Forum \(TMF\) Open APIs supported for the product, see .
--   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow).
--   Get step-by-step guidance to help with your ServiceNow® implementations, upgrades, and more, see [Best Practices](https://mynow.servicenow.com/now/best-practices/home).
+-   Review the multiple TM Forum \(TMF\) Open APIs supported for the product, see [TMF APIs for TMT](https://www.servicenow.com/docs/access?context=tmt-api-reference&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US).
+-   Log in to your ServiceNow® account and find additional information about implementing and deploying Telecommunications Service Operations Management features at the [Best Practices Library](https://mynow.servicenow.com/now/best-practices/home).
 -   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/telecommunications-service-management/what-is-servicenow-telecommunications?id=learning_course_prev&course_id=34950e3d53e00b58c2245a01a0490e6d&s=1&ssa=3).
--   Find useful resources related to your role and explore general guidelines at the [ServiceNow Impact](https://www.servicenow.com/success.html).
--   Connect with other Telecommunications Service Operations Management users at [Now Community](https://www.servicenow.com/community/).
--   Access Telecommunications Service Operations Management product page from [https://www.servicenow.com/products/telecommunications-service-operations.html](https://www.servicenow.com/products/telecommunications-service-operations.html).
--   Explore the CI classes and relationships that represent telecom network elements in the CMDB at .
+-   Find useful resources related to your role and explore general guidelines at [ServiceNow Impact](https://www.servicenow.com/success.html).
+-   Connect with other Telecommunications Service Operations Management users at [Now Community](https://www.servicenow.com/community/forums/searchpage/tab/message?advanced=false&allow_punctuation=false&q=tsom).
 
--   **[Handling the external events using Telecommunications API notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-service-ops/telecommunications-service-operations-management/telecommunications-api-notification.md)**  
+-   **[Handling external events using Telecommunications API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-service-ops/telecommunications-service-operations-management/telecommunications-api-notification.md)**  
 Use the Telecommunications API notification to receive the external events that occurring in the customer network system so that you can promptly respond to them in the ServiceNow AI Platform.
 -   **[TSOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-service-ops/telecom-visibility/tsom-visibility.md)**  
 The TSOM Visibility solution is built on the foundational principles of ITOM Visibility, leveraging its proven frameworks for discovering and mapping IT resources.

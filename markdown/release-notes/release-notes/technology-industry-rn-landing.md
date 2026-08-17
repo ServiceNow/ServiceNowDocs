@@ -19,14 +19,14 @@ The Telecommunications industry solution includes the following applications:
 -   Telecommunications Service Management connects your entire telecommunications operations, from network to customer, with one platform to deliver proactive care and maximize the availability and quality of service. It includes the following applications:
     -   Service Exchange
     -   Proactive Service Experience Workflows
-    -   Customer Success Management
+    -   Account Lifecycle Events
     -   Customer Service Problem Management
 -   Sales CRM for Telecommunications. See [Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/sales-order-management-rn-landing.md).
 -   Telecommunications Network Inventory
 -   Telecommunications Service Operations Management
 -   Strategic Portfolio Management for Telecom
 -   Field Service Management for Telecommunications
--   Now Assist for Telecommunications, Media and Technology \(TMT\)
+-   ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
 
 ## Technology products and applications
 
@@ -35,15 +35,15 @@ The Technology industry solution includes the following applications:
 -   Technology Service Management connects your entire technology operations, from network to customer, with one platform to deliver proactive care and maximize the availability and quality of service. It includes the following applications:
     -   Service Exchange
     -   Proactive Service Experience Workflows
-    -   Customer Success Management
+    -   Account Lifecycle Events
     -   Technology Product Support Case
 -   Sales and Order ManagementSales CRM for Technology Providers. See [Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/sales-order-management-rn-landing.md).
--   Now Assist for Telecommunications, Media and Technology \(TMT\)
+-   ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
 
--   **[Customer Success Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/account-lifecycle-rn.md)**  
-The ServiceNow® Customer Success Management application helps you to streamline your onboarding process, define and track objectives and outcomes, identify and mitigate risks, and increase renewal rates. Customer Success Management was enhanced and updated in the Yokohama release.
--   **[Now Assist for Telecommunications, Media and Technology \(TMT\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/now-assist-for-tmt-rn.md)**  
-The ServiceNow® Now Assist for TMT application enriches purpose-built industry workflows with generative AI to supercharge insights, actions, and self-service experiences. Now Assist for TMT was enhanced and updated in the Yokohama release.
+-   **[Account Lifecycle Events release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/account-lifecycle-rn.md)**  
+The ServiceNow® Account Lifecycle Events application helps you to streamline your onboarding process, define and track objectives and outcomes, identify and mitigate risks, and increase renewal rates. Account Lifecycle Events was enhanced and updated in the Yokohama release.
+-   **[ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/now-assist-for-tmt-rn.md)**  
+The ServiceNow® ServiceNow Otto for TMT application enriches purpose-built industry workflows with generative AI to supercharge insights, actions, and self-service experiences. ServiceNow Otto for TMT was enhanced and updated in the Yokohama release.
 -   **[Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/proactive-service-experience-workflows-rn.md)**  
 The ServiceNow® Proactive Service Experience Workflows helps your technical support teams identify your impacted customers, communicate directly with them, escalate a case if needed, and auto-generate cases for faster issue resolution. Proactive Service Experience Workflows was enhanced and updated in the Yokohama release.
 -   **[Service Exchange release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/service-bridge-rn.md)**  

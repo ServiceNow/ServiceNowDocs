@@ -1,6 +1,6 @@
 ---
 title: Connecting CWM with Strategic Planning or Portfolio Planning
-description: Configure Strategic Planning or Portfolio Planning to include CWM Boards so that you can plan, roadmap, and associate goals to Boards in a portfolio plan.For the lens that you want to use to build portfolio plans, update the configuration to include CWM Board as a planning item in Strategic Planning or Portfolio Planning.Add the lens entity field to the CWM Board form so users can link Boards and have them appear in the right portfolio plan in Strategic Planning or Portfolio Planning workspaces.Link CWM Boards to a lens entity so that these Boards appear in the corresponding portfolio plans in Strategic Planning or Portfolio Planning workspaces.
+description: Configure Strategic Planning or Portfolio Planning to include CWM Boards so that you can plan, roadmap, and associate goals to Boards in a portfolio plan.For the lens that you want to use to build portfolio plans, update the configuration to include CWM Board as a planning item in Strategic Planning or Portfolio Planning.Add the lens entity field to the CWM Board form. This lets users link Boards and have them appear in the right portfolio plan in Strategic Planning or Portfolio Planning workspaces.Link CWM Boards to a lens entity so that these Boards appear in the corresponding portfolio plans in Strategic Planning or Portfolio Planning workspaces.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/collaborative-work-management/connect-cwm-spw.html
 release: yokohama
@@ -57,7 +57,7 @@ All default lenses support CWM Board as a planning item. For example, if you are
 
 ## Configure CWM Board form layout
 
-Add the lens entity field to the CWM Board form so users can link Boards and have them appear in the right portfolio plan in Strategic Planning or Portfolio Planning workspaces.
+Add the lens entity field to the CWM Board form. This lets users link Boards and have them appear in the right portfolio plan in Strategic Planning or Portfolio Planning workspaces.
 
 ### Before you begin
 

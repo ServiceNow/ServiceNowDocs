@@ -9,7 +9,7 @@ classification: now-assist-for-software-asset-management-sam
 topic_type: concept
 last_updated: "2025-02-25"
 reading_time_minutes: 2
-breadcrumb: [Now Assist for Software Asset Management \(SAM\), Software Asset Management, IT Asset Management]
+breadcrumb: [ServiceNow Otto for Software Asset Management \(SAM\), Software Asset Management, IT Asset Management]
 ---
 
 # Using agentic workflows in Now Assist for SAM
@@ -84,12 +84,12 @@ Looking for an AI agent?
 -   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/find-ai-agents.md).
 -   To find agents that might not be installed on your instance, visit the [AI Agent Marketplace](https://store.servicenow.com/store/ai-marketplace) on the ServiceNow Store.
 
--   **[Now Assist for Software Asset Management \(SAM\) AI agent collection to help manage software asset request agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/now-assist-for-software-asset-management-sam/now-assist-sam-fulfill-sw-asset-requests-workflow.md)**  
+-   **[ServiceNow Otto for Software Asset Management \(SAM\) AI agent collection to help manage software asset request agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/now-assist-for-software-asset-management-sam/now-assist-sam-fulfill-sw-asset-requests-workflow.md)**  
 Use the Help manage software request agentic workflow to fulfill a software request by either allocating the available entitlements or generating a purchase order for the software model.
--   **[Now Assist for Software Asset Management \(SAM\) AI agent collection to create software reclamation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/now-assist-for-software-asset-management-sam/now-assist-sam-create-software-reclamation-rule-workflow.md)**  
+-   **[ServiceNow Otto for Software Asset Management \(SAM\) AI agent collection to create software reclamation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/now-assist-for-software-asset-management-sam/now-assist-sam-create-software-reclamation-rule-workflow.md)**  
 Use the Create software reclamation rule agentic workflow to automatically create reclamation rules to aggregate usage records and to identify unused software products that lack reclamation rules but are viable candidates.
--   **[Now Assist for Software Asset Management \(SAM\) AI agent collection to evaluate software removal candidate agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/now-assist-for-software-asset-management-sam/now-assist-sam-evaluate-removal-candidate-workflow.md)**  
+-   **[ServiceNow Otto for Software Asset Management \(SAM\) AI agent collection to evaluate software removal candidate agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/now-assist-for-software-asset-management-sam/now-assist-sam-evaluate-removal-candidate-workflow.md)**  
 Use the Evaluate software removal candidate agentic workflow to assess installed or subscription-based software for potential removal by analyzing their usage over a specified period and determining the total number eligible for removal. After user confirmation, the workflow initiates the eligible removal candidate for reclamation.
 
-**Parent Topic:**[Now Assist for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/now-assist-for-software-asset-management-sam/now-assist-sam.md)
+**Parent Topic:**[ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/now-assist-for-software-asset-management-sam/now-assist-sam.md)
 

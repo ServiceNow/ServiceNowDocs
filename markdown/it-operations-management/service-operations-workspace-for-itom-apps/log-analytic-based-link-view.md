@@ -9,7 +9,7 @@ classification: service-operations-workspace-for-itom-apps
 topic_type: concept
 last_updated: "2025-03-10"
 reading_time_minutes: 1
-breadcrumb: [Viewing links between alerts in alert groups in Express List, Express List in the Service Operations Workspace for ITOM, Using Service Operations Workspace for ITOM, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
+breadcrumb: [Viewing links between alerts in alert groups in Express List, Express List in the Service Operations Workspace for ITOM, Using Service Operations Workspace for ITOM, Service Operations Workspace for ITOM, ITOM Health, IT Operations Management]
 ---
 
 # Viewing links between alerts in log analytics-based alert groups

@@ -1,6 +1,6 @@
 ---
-title: Summarize a chat conversation by using Now Assist for IT Service Management \(ITSM\)
-description: Summarize the Virtual Agent chat conversation between a live agent and a requester in Service Operations Workspace for ITSM. You can generate the summary by using the chat summarization skill in Now Assist for IT Service Management \(ITSM\).
+title: Summarize a chat conversation by using ServiceNow Otto for IT Service Management \(ITSM\)
+description: Summarize the Virtual Agent chat conversation between a live agent and a requester in Service Operations Workspace for ITSM. You can generate the summary by using the chat summarization skill in ServiceNow Otto for IT Service Management \(ITSM\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/now-assist-for-it-service-management-itsm/generate-chat-summary-interaction-now-assist-itsm.html
 release: yokohama
@@ -10,12 +10,12 @@ topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 2
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
-breadcrumb: [Use generative AI skills, Now Assist for IT Service Management \(ITSM\), IT Service Management]
+breadcrumb: [Use generative AI skills, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 
-# Summarize a chat conversation by using Now Assist for IT Service Management \(ITSM\)
+# Summarize a chat conversation by using ServiceNow Otto for IT Service Management \(ITSM\)
 
-Summarize the Virtual Agent chat conversation between a live agent and a requester in Service Operations Workspace for ITSM. You can generate the summary by using the chat summarization skill in Now Assist for IT Service Management \(ITSM\).
+Summarize the Virtual Agent chat conversation between a live agent and a requester in Service Operations Workspace for ITSM. You can generate the summary by using the chat summarization skill in ServiceNow Otto for IT Service Management \(ITSM\).
 
 ## Before you begin
 

@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 3
 keywords: [ServiceNow, Health Log Analytics, HLA, data input, configuration]
-breadcrumb: [Configuring data inputs for Health Log Analytics manually, Set up data inputs for Health Log Analytics manually, Setting up Health Log Analytics on your ServiceNow instance, Configuring Health Log Analytics, Health Log Analytics, ITOM AIOps, IT Operations Management]
+breadcrumb: [Configuring data inputs for Health Log Analytics manually, Set up data inputs for Health Log Analytics manually, Setting up Health Log Analytics on your ServiceNow instance, Configuring Health Log Analytics, Health Log Analytics, ITOM Health, IT Operations Management]
 ---
 
 # Configure GCP PubSub data inputs

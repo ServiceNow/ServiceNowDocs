@@ -1,6 +1,6 @@
 ---
-title: Getting notifications for ERP Semantic Mining connection updates
-description: ERP Semantic Mining \(ERP-CM\) can email you about the success and failures of ERP \(Enterprise Resource Planning\) system connections.
+title: Getting notifications for ERP Customization Mining connection updates
+description: ERP Customization Mining \(ERP-CM\) can email you about the success and failures of ERP \(Enterprise Resource Planning\) system connections.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-customization-mining/erpcm-notifications.html
 release: yokohama
@@ -9,12 +9,12 @@ classification: erp-customization-mining
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configuring ERP Semantic Mining, ERP Semantic Mining \(ERP-CM\), Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Configuring ERP Customization Mining, ERP Customization Mining \(ERP-CM\), Building low-code applications, Developing your application, Building applications]
 ---
 
-# Getting notifications for ERP Semantic Mining connection updates
+# Getting notifications for ERP Customization Mining connection updates
 
-ERP Semantic Mining \(ERP-CM\) can email you about the success and failures of ERP \(Enterprise Resource Planning\) system connections.
+ERP Customization Mining \(ERP-CM\) can email you about the success and failures of ERP \(Enterprise Resource Planning\) system connections.
 
 ## Notifications for success and failure
 
@@ -29,7 +29,7 @@ The notification email you receive contains a link that takes you to the record 
 
 Notification emails aren’t enabled by default, and you must configure them for yourself in your ServiceNow AI Platform preferences. For details on configuring notifications, see [Configure notifications for ERP-CM tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/erpcm-enable-notifications.md).
 
-Before you can set up notifications for yourself, your admin must add you to the ERP Semantic Mining Notification group. For more information, see [Add a user to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AddAUserToAGroup.md).
+Before you can set up notifications for yourself, your admin must add you to the ERP Customization Mining Notification group. For more information, see [Add a user to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AddAUserToAGroup.md).
 
 ## Notifications also appear in the Notifications table
 
@@ -39,5 +39,5 @@ Notifications appear in the Notifications table, which you can access by navigat
 
 The ECM Statistical Data Extractor flow in Workflow Studio runs automatically to power notifications. You don't need to do anything to activate the flow, but you can customize it in Workflow Studio. For more information, see [Edit a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/flow-edit.md).
 
-**Parent Topic:**[Configuring ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/configuring-ecm.md)
+**Parent Topic:**[Configuring ERP Customization Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/configuring-ecm.md)
 

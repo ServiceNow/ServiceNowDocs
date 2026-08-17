@@ -76,15 +76,15 @@ If you’re using Software Asset Workspace, the option to create the Rally integ
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d216385e431">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d217798e431">
 
 Interface
 
-</th><th align="left" id="d216385e434">
+</th><th align="left" id="d217798e434">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d216385e440">
+</th></tr></thead><tbody><tr><td id="d217798e440">
 
 **Core UI**
 
@@ -95,7 +95,7 @@ Action
 3.  Select **Rally Integration Profile**.
 
 
-</td></tr><tr><td id="d216385e482">
+</td></tr><tr><td id="d217798e482">
 
 **Software Asset Workspace**
 

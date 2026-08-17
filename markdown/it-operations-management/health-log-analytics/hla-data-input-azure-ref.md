@@ -9,7 +9,7 @@ classification: health-log-analytics
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 5
-breadcrumb: [Data input configuration field descriptions, Health Log Analytics reference, Health Log Analytics, ITOM AIOps, IT Operations Management]
+breadcrumb: [Data input configuration field descriptions, Health Log Analytics reference, Health Log Analytics, ITOM Health, IT Operations Management]
 ---
 
 # Microsoft Azure Log Analytics data input configuration fields

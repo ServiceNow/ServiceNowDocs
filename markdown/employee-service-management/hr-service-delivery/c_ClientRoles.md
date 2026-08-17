@@ -25,7 +25,7 @@ ServiceNow provides these roles and modifying them is not recommended. These rol
 
 Both roles contains conditions depending on the type of user:
 
--   Alumni \(only used when you have the Alumni Center installed\). For more information, see [Setting up your Alumni Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/asc-configure.md).
+-   Alumni \(only used when you have the Alumni Service Center installed\). For more information, see [Setting up your Alumni Service Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/asc-configure.md).
 -   Contingent
 -   Contractor
 -   Employee

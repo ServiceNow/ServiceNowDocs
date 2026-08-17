@@ -1,6 +1,6 @@
 ---
-title: Now Assist for RPA Hub
-description: Use the Now Assist for RPA Hub application to transform your automation development process. You can create automations, activities, and automation logic additions from text instructions and preview options.
+title: ServiceNow Otto for RPA Hub
+description: Use the ServiceNow Otto for RPA Hub application to transform your automation development process. You can create automations, activities, and automation logic additions from text instructions and preview options.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/rpa-hub/rpa-now-assist-studio.html
 release: yokohama
@@ -13,19 +13,19 @@ keywords: [Now Assist, generative AI]
 breadcrumb: [Robotic Process Automation \(RPA\) Hub, Data and Automation]
 ---
 
-# Now Assist for RPA Hub
+# ServiceNow Otto for RPA Hub
 
-Use the Now Assist for RPA Hub application to transform your automation development process. You can create automations, activities, and automation logic additions from text instructions and preview options.
+Use the ServiceNow Otto for RPA Hub application to transform your automation development process. You can create automations, activities, and automation logic additions from text instructions and preview options.
 
 ## Get started
 
 <table id="table_axm_pfv_sdc" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about Now Assist for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/explore-now-assist-rpa-hub.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about ServiceNow Otto for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/explore-now-assist-rpa-hub.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Set up the Now Assist for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/configure-now-assist-rpa-hub.md) application to get started
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Set up the ServiceNow Otto for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/configure-now-assist-rpa-hub.md) application to get started
 
 </td></tr><tr><td>
 
@@ -51,7 +51,7 @@ Use the Now Assist for RPA Hub application to transform your automation developm
 
 ## Available LLMs
 
-You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for RPA bot generation skill. You can set skill-level preferences in the [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/exploring-large-language-models.md).
+You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for RPA bot generation skill. You can set skill-level preferences in the [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/exploring-large-language-models.md).
 
 ## AI limitations
 

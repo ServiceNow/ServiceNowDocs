@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/yokohama-patch-10.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 52
 breadcrumb: [Available patches and hotfixes, Learn about the Yokohama release, Yokohama release notes]
 ---
@@ -38,11 +38,11 @@ Yokohama Patch 10 includes fixes for security-related problems that affected cer
 
 ## Changes in Yokohama Patch 10
 
--   **[Sensitive data filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/sensitive-data-filters.md)**
+-   ****
 
     The Discovery Sensitive Data Filters \[discovery\_sensitive\_data\_filter\] table provides a way to help prevent sensitive information from being exposed in the Configuration Management Database \(CMDB\) by applying redaction rules during data collection.
 
--   **[Exploring Federated ID](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/federated-id.md)**
+-   ****
 
     By using the `roles` of the user across the instances, the Federated ID is created and displayed in the **sys\_user\_role** table.
 
@@ -111,9 +111,9 @@ Yokohama Patch 10 includes fixes for security-related problems that affected cer
 
 -   **[Managing the Technology Reference Model in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-portfolio-management/eaw-managing-the-technology-portfolio.md)**
 -   **[Export Technology Reference Model product category data to Excel or CSV](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-portfolio-management/eaw-export-trm-prod-cat-data.md)**
--   **[Managing the Technology Portfolio Management \(TPM\) in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-portfolio-management/eaw-tpm.md)**
+-   **[Managing the Technology Lifecycle Management \(TLM\) in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-portfolio-management/eaw-tpm.md)**
 -   **[Update TPM data for business applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-portfolio-management/update-tpm-data.md)**
--   **[Run a scheduled job to populate Technology Portfolio Management lifecycle record identifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-portfolio-management/eaw-run-job-to-populate-tpm-lifecycle-identifier.md)**
+-   **[Run a scheduled job to populate Technology Lifecycle Management lifecycle record identifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-portfolio-management/eaw-run-job-to-populate-tpm-lifecycle-identifier.md)**
 -   **[Add AI systems to business applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-portfolio-management/eaw-add-ai-systems.md)**
 -   **[Remove AI systems associated with business applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-portfolio-management/eaw-remove-ai-systems-assoc-ba.md)**
 -   **[Exploring the AI Portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-portfolio-management/eaw-exploring-the-ai-portfolio.md)**
@@ -149,11 +149,11 @@ Yokohama Patch 10 includes fixes for security-related problems that affected cer
 
     Learn about the fields of the Data filter form. Use this form to define which records need certification.
 
--   **[Sensitive data filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/sensitive-data-filters.md)**
+-   ****
 
     The Discovery Sensitive Data Filters \[discovery\_sensitive\_data\_filter\] table provides a way to help prevent sensitive information from being exposed in the Configuration Management Database \(CMDB\) by applying redaction rules during data collection.
 
--   **[Exploring Federated ID](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/federated-id.md)**
+-   ****
 
     \[/ul/li/p/ph/title \{"- topic/title "\}\)Federated ID for Roles\(title\]    By using the `roles` of the user across the instances, the Federated ID is created and displayed in the **sys\_user\_role** table.
     

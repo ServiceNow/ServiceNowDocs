@@ -1,6 +1,6 @@
 ---
 title: View and edit the foundation of ERP models
-description: Create a holistic data set by building ERP \(Enterprise Resource Planning\) models in Zero Copy Connector for ERP, which encompasses remote tables and extraction tables from the ERP system, as well as read and update operations.
+description: Create a holistic data set by building ERP \(Enterprise Resource Planning\) models in ERP Canvas, which encompasses remote tables and extraction tables from the ERP system, as well as read and update operations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-integration-framework/view-and-work-with-erp-data-models.html
 release: yokohama
@@ -9,30 +9,30 @@ classification: erp-integration-framework
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 4
-breadcrumb: [Building and managing ERP models to work with ERP data, Using ERP models, extraction tables, and remote tables, Zero Copy Connector for ERP, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Building and managing ERP models to work with ERP data, Using ERP models, extraction tables, and remote tables, ERP Canvas, Building low-code applications, Developing your application, Building applications]
 ---
 
 # View and edit the foundation of ERP models
 
-Create a holistic data set by building ERP \(Enterprise Resource Planning\) models in Zero Copy Connector for ERP, which encompasses remote tables and extraction tables from the ERP system, as well as read and update operations.
+Create a holistic data set by building ERP \(Enterprise Resource Planning\) models in ERP Canvas, which encompasses remote tables and extraction tables from the ERP system, as well as read and update operations.
 
 ## Before you begin
 
-An admin or a user with the sn\_erp\_integration.erp\_admin role must enable the **sn\_erp\_integration.enableModelModification** property for you to edit, customize, and clone ERP models and tables. After enabling the **sn\_erp\_integration.enableModelModification** property, Zero Copy Connector for ERP retrieves all tables and BAPIs \(Business Application Programming Interface\) to use when managing models.The property must be configured for either a non-production or production state. System properties are maintained in the System Property table \[sys\_properties\], which you can access using the module navigator, or directly typing `sys_properties.list` in the Navigator Filter.
+An admin or a user with the sn\_erp\_integration.erp\_admin role must enable the **sn\_erp\_integration.enableModelModification** property for you to edit, customize, and clone ERP models and tables. After enabling the **sn\_erp\_integration.enableModelModification** property, ERP Canvas retrieves all tables and BAPIs \(Business Application Programming Interface\) to use when managing models.The property must be configured for either a non-production or production state. System properties are maintained in the System Property table \[sys\_properties\], which you can access using the module navigator, or directly typing `sys_properties.list` in the Navigator Filter.
 
-**Note:** You must enable the **sn\_erp\_integration.enableModelModification** property on the correct scope. Enabling the **sn\_erp\_integration.enableModelModification** on a production instance can create new metadata records when new models and fields are added in Zero Copy Connector for ERP.
+**Note:** You must enable the **sn\_erp\_integration.enableModelModification** property on the correct scope. Enabling the **sn\_erp\_integration.enableModelModification** on a production instance can create new metadata records when new models and fields are added in ERP Canvas.
 
 Role required: sn\_erp\_integration.erp\_admin, sn\_erp\_integration.erp\_user
 
 ## About this task
 
-Zero Copy Connector for ERP provides a standard set of ERP models, such as SAP Material Stock and SAP Purchase Document. You can also build new models. For a list of standard ERP models, which you must clone to modify, see [Standard ERP models and extraction tables for Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-standard-extraction-tables.md).
+ERP Canvas provides a standard set of ERP models, such as SAP Material Stock and SAP Purchase Document. You can also build new models. For a list of standard ERP models, which you must clone to modify, see [Standard ERP models and extraction tables for ERP Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-standard-extraction-tables.md).
 
 An ERP model functions as a staging area that contains all potential fields you can add to remote and extraction tables, and read and update operations. You can then use the tables and queried data as a data source on the ServiceNow AI Platform.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home**.
+1.  Navigate to **All** &gt; **ERP Canvas** &gt; **ERP Canvas Home**.
 
 2.  Open the ERP models page by selecting the ERP models icon \(\[Omitted image "erpc-data-model-icon.png"\] Alt text: ERP model icon\) in the side panel.
 
@@ -119,7 +119,7 @@ Date and time the model was last updated.
 
     View details for an individual table by selecting the table name in the **Model entities** tab.
 
-    Zero Copy Connector for ERP automatically scans the linked ERP system to retrieve the latest entity data. However, you can select the refresh icon to update the data on demand.
+    ERP Canvas automatically scans the linked ERP system to retrieve the latest entity data. However, you can select the refresh icon to update the data on demand.
 
 <table id="table_g4h_23v_2yb"><thead><tr><th>
 
@@ -170,7 +170,7 @@ Date and time the model entity was last updated.
 
 9.  View and confirm the table entity fields included in the ERP model by selecting the **Entity fields** tab of the ERP model record.
 
-    For a description of the field values, see [Zero Copy Connector for ERP ERP model table field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-erp-data-model-table-fields.md).
+    For a description of the field values, see [ERP Canvas ERP model table field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-erp-data-model-table-fields.md).
 
     \[Omitted image "erpc-material-stock.png"\] Alt text: Table entity fields for an ERP model
 

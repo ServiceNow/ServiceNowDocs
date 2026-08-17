@@ -9,7 +9,7 @@ classification: now-assist-for-it-operations-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Configuring agents and skills for Now Assist for ITOM, Configuring Now Assist for ITOM, Now Assist for ITOM, IT Operations Management]
+breadcrumb: [Configuring agents and skills for ServiceNow Otto for ITOM, Configuring ServiceNow Otto for ITOM, ServiceNow Otto for ITOM, IT Operations Management]
 ---
 
 # Configure the New Relic analysis AI agent
@@ -20,7 +20,7 @@ Configure the New Relic analysis AI agent for the analyze alert impact agentic w
 
 Before configuring the New Relic analysis AI agent, you must do the following:
 
--   [Install Now Assist for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+-   [Install ServiceNow Otto for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 -   [Integrate New Relic with Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/new-relic-events-integration.md).
 -   Copy your New Relic API key.
 
@@ -39,15 +39,15 @@ Role required: connection\_admin and credential\_admin
 
 4.  On the form, fill in the fields.
 
-<table id="choicetable_uv4_x44_gfc"><thead><tr><th align="left" id="d648581e154">
+<table id="choicetable_uv4_x44_gfc"><thead><tr><th align="left" id="d648985e154">
 
 Field
 
-</th><th align="left" id="d648581e157">
+</th><th align="left" id="d648985e157">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d648581e163">
+</th></tr></thead><tbody><tr><td id="d648985e163">
 
 **Connection Name**
 
@@ -55,7 +55,7 @@ Description
 
 Name of your New Relic connection. This name helps you identify it later. For example, New Relic Prod.
 
-</td></tr><tr><td id="d648581e178">
+</td></tr><tr><td id="d648985e178">
 
 **Connection URL**
 
@@ -63,7 +63,7 @@ Name of your New Relic connection. This name helps you identify it later. For ex
 
 URL of the New Relic AI API: `https://nrai-streaming.service.newrelic.com`. The connection URL might vary by region or account.
 
-</td></tr><tr><td id="d648581e193">
+</td></tr><tr><td id="d648985e193">
 
 **API Key**
 
@@ -71,7 +71,7 @@ URL of the New Relic AI API: `https://nrai-streaming.service.newrelic.com`. The 
 
 New Relic API key.
 
-</td></tr><tr><td id="d648581e204">
+</td></tr><tr><td id="d648985e204">
 
 **Header Name**
 
@@ -93,7 +93,7 @@ Activate the New Relic analysis AI agent to use it in the analyze alert impact a
 
 To learn more about using the New Relic analysis AI agent in the analyze alert impact agentic workflowor manage alerts autonomously agentic workflow, see [Use the analyze alert impact agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-use-aia.md)and [Manage alerts autonomously agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/itom-autonomous-operator-workflow.md).
 
-**Parent Topic:**[Configuring agents and skills for Now Assist for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/itom-ai-agent-configuration.md)
+**Parent Topic:**[Configuring agents and skills for ServiceNow Otto for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/itom-ai-agent-configuration.md)
 
 **Related topics**  
 

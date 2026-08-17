@@ -9,7 +9,7 @@ classification: now-assist-for-hrsd
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 4
-breadcrumb: [Use agentic workflows, Now Assist for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
+breadcrumb: [Use agentic workflows, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
 # Generate onboarding ramp-up plan agentic workflow
@@ -108,5 +108,5 @@ Enable the Now Assist skills to allow the system to analyze interview notes and 
 -   **[Add Employee Center to the Now Assist in Virtual Agent display experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/enable-na-va-ec.md)**  
 Enable Now Assist in Virtual Agent to appear in the Employee Center so you can converse with AI agents during a process that's facilitated by an agentic workflow.
 
-**Parent Topic:**[Using agentic workflows in Now Assist for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-ai-agents-use-cases.md)
+**Parent Topic:**[Using agentic workflows in ServiceNow Otto for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-ai-agents-use-cases.md)
 

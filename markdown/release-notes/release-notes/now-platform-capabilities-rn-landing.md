@@ -34,8 +34,8 @@ The ServiceNow® Hermes Messaging Service application enables you to integrate y
 The ServiceNow® Knowledge Management application enables you to share knowledge articles that provide users with information for self-help, troubleshooting, and task resolution. Knowledge Management was enhanced and updated in the Yokohama release.
 -   **[Instance Data Replication release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/instance-data-replication-rn.md)**  
 The ServiceNow® Instance Data Replication \(IDR\) application simplifies the data replication process between instances. Instance Data Replication was enhanced and updated in the Yokohama release.
--   **[Now Assist for Configuration Management Database \(CMDB\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/now-assist-for-cmdb-rn.md)**  
-The ServiceNow® Now Assist for CMDB application displays comprehensive summaries for configuration items \(CIs\) and accelerates the process of remediating duplicate CIs. Now Assist for CMDB was enhanced and updated in the Yokohama release.
+-   **[ServiceNow Otto for Configuration Management Database \(CMDB\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/now-assist-for-cmdb-rn.md)**  
+The ServiceNow® ServiceNow Otto for CMDB application displays comprehensive summaries for configuration items \(CIs\) and accelerates the process of remediating duplicate CIs. ServiceNow Otto for CMDB was enhanced and updated in the Yokohama release.
 -   **[Service Catalog release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/service-catalog-rn.md)**  
 The ServiceNow® Service Catalog application provides a requester view of the available services and products offered by the departments within your organization. Service Catalog was enhanced and updated in the Yokohama release.
 

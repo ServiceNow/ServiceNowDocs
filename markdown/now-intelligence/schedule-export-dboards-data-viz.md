@@ -31,7 +31,8 @@ You can export multiple dashboards and data visualizations together in one sched
 
 |Data visualization or dashboard element|Supported dashboard export formats|Supported data visualization export formats|
 |---------------------------------------|----------------------------------|-------------------------------------------|
-|Calendar reports, Indicator scorecards, Pivot tables, Geomap|None|None|
+|Calendar reports, Indicator scorecards, Geomap|None|None|
+|Pivot tables|PowerPoint, PDF|PowerPoint, PDF, PNG, JPEG, Embedded PNG|
 |Lists|PDF|PDF, Microsoft Excel \(.xls or .xlsx\), Embedded LIST|
 |Other data visualizations|PowerPoint, PDF|PowerPoint, PDF, PNG, JPEG, Embedded PNG|
 |Non-data visualization dashboard elements, like Headings|None|Not applicable|

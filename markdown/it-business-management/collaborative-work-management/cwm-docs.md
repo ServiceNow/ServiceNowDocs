@@ -129,9 +129,9 @@ With the feature of real-time collaboration, edit a Doc page concurrently with m
 
 **Note:** Application performance may degrade with a large number of concurrent editors.
 
-## Draft content using Now Assist for CWM
+## Draft content using ServiceNow Otto for CWM
 
-Generate content with Now Assist for CWM directly in your Docs using custom prompts. In addition, summarize existing sections, elaborate where needed, and refine drafts to help improve your productivity.
+Generate content with ServiceNow Otto for CWM directly in your Docs using custom prompts. In addition, summarize existing sections, elaborate where needed, and refine drafts to help improve your productivity.
 
 You can interact with Now Assist directly in your Doc to create content, add context, or improve existing sections. This helps you draft faster, refine ideas, and keep your work relevant without leaving the page.
 
@@ -171,7 +171,7 @@ You can interact with Now Assist directly in your Doc to create content, add con
     \[Omitted image "cwm-nacm-ask-questions.png"\] Alt text: Ask questions in the context of the document. Here, user asks questions on project budget, in the context of a Project Charter document.
 
 
-## Generate tasks from Docs and add them to Board using Now Assist for CWM
+## Generate tasks from Docs and add them to Board using ServiceNow Otto for CWM
 
 Use the generative AI capabilities of Now Assist to create tasks from the context of your Docs. From the Doc header, select **Create Tasks** and Now Assist generates task recommendations for you and walks you through to add them to the required Board in CWM workspace.
 

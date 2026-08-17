@@ -35,15 +35,15 @@ Role required: sn\_rpa\_fdn.rpa\_release\_manager, sn\_rpa\_fdn.rpa\_developer, 
 
 3.  View a robot calendar either from a robot or from a bot process.
 
-<table id="choicetable_kgc_jxm_frb"><thead><tr><th align="left" id="d243988e156">
+<table id="choicetable_kgc_jxm_frb"><thead><tr><th align="left" id="d244069e156">
 
 Option
 
-</th><th align="left" id="d243988e159">
+</th><th align="left" id="d244069e159">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d243988e165">
+</th></tr></thead><tbody><tr><td id="d244069e165">
 
 **View a robot calendar from a robot**
 
@@ -54,7 +54,7 @@ Action
 3.  In the form header, select **Robot Calendar**.
 
 
-</td></tr><tr><td id="d243988e198">
+</td></tr><tr><td id="d244069e198">
 
 **View a robot calendar from a bot process**
 
@@ -72,15 +72,15 @@ Action
 
 5.  To delete a schedule, perform any of the following tasks.
 
-<table id="choicetable_d1k_kk5_1yb"><thead><tr><th align="left" id="d243988e270">
+<table id="choicetable_d1k_kk5_1yb"><thead><tr><th align="left" id="d244069e270">
 
 Option
 
-</th><th align="left" id="d243988e273">
+</th><th align="left" id="d244069e273">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d243988e279">
+</th></tr></thead><tbody><tr><td id="d244069e279">
 
 **Right-click an event**
 
@@ -90,7 +90,7 @@ Action
 2.  In the Confirmation dialog box, select **Delete schedule**.
 
 
-</td></tr><tr><td id="d243988e303">
+</td></tr><tr><td id="d244069e303">
 
 **Select the event pop-up window**
 

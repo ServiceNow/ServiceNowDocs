@@ -9,7 +9,7 @@ classification: service-level-objective-management
 topic_type: task
 last_updated: "2025-04-08"
 reading_time_minutes: 3
-breadcrumb: [Using SLO Management, Service Level Objective Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Using SLO Management, Service Level Objective Management, ITOM Health, IT Operations Management]
 ---
 
 # Create SLOs, SLIs, and error budget policies

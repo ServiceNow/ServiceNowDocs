@@ -1,6 +1,6 @@
 ---
-title: Available Zero Copy Connector for ERP content packs
-description: The following content packs are available for use in Zero Copy Connector for ERP to implement and deploy applications faster with less manual work.
+title: Available ERP Canvas content packs
+description: The following content packs are available for use in ERP Canvas to implement and deploy applications faster with less manual work.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-integration-framework/erp-canvas-available-content-packs.html
 release: yokohama
@@ -10,12 +10,12 @@ topic_type: concept
 last_updated: "2025-04-16"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, content, pack, content pack]
-breadcrumb: [Zero Copy Connector for ERP content packs, Building and managing ERP models to work with ERP data, Using ERP models, extraction tables, and remote tables, Zero Copy Connector for ERP, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [ERP Canvas content packs, Building and managing ERP models to work with ERP data, Using ERP models, extraction tables, and remote tables, ERP Canvas, Building low-code applications, Developing your application, Building applications]
 ---
 
-# Available Zero Copy Connector for ERP content packs
+# Available ERP Canvas content packs
 
-The following content packs are available for use in Zero Copy Connector for ERP to implement and deploy applications faster with less manual work.
+The following content packs are available for use in ERP Canvas to implement and deploy applications faster with less manual work.
 
 ## ERP Content Pack for Enterprise Data Foundation
 
@@ -43,5 +43,5 @@ The ERP Content Pack for Quote to Cash contains the following:
 |Models|ECC and S/4|Tables or BAPI|
 |Process extensions|ECC and S/4|Tables or BAPI|
 
-**Parent Topic:**[Zero Copy Connector for ERP content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-content-packs.md)
+**Parent Topic:**[ERP Canvas content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-content-packs.md)
 

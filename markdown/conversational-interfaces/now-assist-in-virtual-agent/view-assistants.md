@@ -21,12 +21,12 @@ View and mange all existing chat and voice assistants on your instance.
 
 See [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md).
 
-To view the **Assistants** tab in Assistant Designer, verify that the Now Assist for Platform plugin and/or the Now Assist for Creator plugin is installed. The plugins come with Now Assist products such as Now Assist for ITSM, Now Assist for CSM, and others.
+To view the **Assistants** tab in Assistant Designer, verify that the Now Assist for Platform plugin and/or the ServiceNow Otto for Creator plugin is installed. The plugins come with Now Assist products such as ServiceNow Otto for ITSM, ServiceNow Otto for CSM, and others.
 
 **Note:**
 
 -   With the Now Assist for Platform plugin, you can see all Now Assist in Virtual Agent and Now Assist panel assistants.
--   If you only have the Now Assist for Creator plugin installed, only the Now Assist panel - Developer assistant is shown.
+-   If you only have the ServiceNow Otto for Creator plugin installed, only the Now Assist panel - Developer assistant is shown.
 
 |Assistant type|Activate|Deactivate|Edit|Test|Delete|
 |--------------|--------|----------|----|----|------|

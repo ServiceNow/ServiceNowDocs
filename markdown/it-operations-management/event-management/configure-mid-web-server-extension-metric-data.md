@@ -9,7 +9,7 @@ classification: event-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 3
-breadcrumb: [Configure the MID Web Server extension, MID Web Server, Event Management setup, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Configure the MID Web Server extension, MID Web Server, Event Management setup, Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
 ---
 
 # Configure key-based MID Web Server authentication

@@ -25,7 +25,7 @@ To enable application patterns on the Agent Client Collector, install the follow
 -   Agent Client Collector for Visibility Content
 -   Discovery
 
-Ensure that the agent is connected to a MID Server to enable pattern execution. The MID Server runs the pattern, and each command step is evaluated against the agent as an ad-hoc check who's name begins with **PatternOnTheFlyCheck**.
+Ensure that the agent is connected to a MID Server to enable pattern execution. Pattern execution on an agent is supported only using a MID Server. Each pattern step is executed on the agent as an ad-hoc check; ad-hoc checks are logged on the agent side as **PatternOnTheFlyCheck**.
 
 Set the **sn\_agent.appl\_classification\_behavior** property to **full**, and restart any MID Servers connected to the agent.
 
@@ -162,6 +162,8 @@ Although Oracle GLAS supports Put file operations, the related files are deploye
 
 -   **[Discover java installation data using Agent Client Collector for Visibility Content file-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-file-based-discovery.md)**  
 Discovering java installation data using Agent Client Collector for Visibility Content file-based discovery enables you to discover file information in your system.
+-   **[Discover java installation data using Agent Client Collector for Visibility Content process-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-process-based-discovery.md)**  
+Discovering java installation data using Agent Client Collector for Visibility Content process-based discovery enables you to discover java installation information in your system.
 
 **Parent Topic:**[Using Agent Client Collector for Visibility Content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-v-using-agent-client-collector-for-visibility.md)
 

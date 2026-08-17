@@ -27,19 +27,19 @@ Use the business stakeholder role to read and retrieve data from any table of th
 -   **[Domain separation in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/agile-development/agile-development-2.0-domain-separation.md)**  
 This is an overview of domain separation and how it works with Agile Development 2.0. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 -   **[Related links and lists of assignment group in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/agile-development/related-links-lists-of-assignment-group-in-agile-dev-2.md)**  
-Use the related lists in the Group form for the actions that you need to perform for your assignment group in Agile Development 2.0, such as adding sprints and editing group members.
+Use the related lists in the Group form for the actions that you need to perform for your assignment group in Agile Development 2.0. These actions include adding sprints and editing group members.
 -   **[Related lists for a Product in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/agile-development/related-links-lists-product-agile-2.md)**  
-Use the related lists in the Product form for the actions that you need to perform on your product record in Agile Development 2.0, such as associating releases, themes, epics, stories, or assignment groups.
+Use the related lists in the Product form for the actions that you need to perform on your product record in Agile Development 2.0. These actions include associating releases, themes, epics, stories, or assignment groups.
 -   **[Related lists for a Release in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/agile-development/related-links-lists-for-release-agile-development-2.md)**  
-Use the related lists in the Release form for the actions that you need to perform for your release in Agile Development 2.0, such as associating products, stories, or assignment groups.
+Use the related lists in the Release form for the actions that you need to perform for your release in Agile Development 2.0. These actions include associating products, stories, or assignment groups.
 -   **[Related links and lists for a Story in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/agile-development/agile-2-0-story-related-lists-related-links.md)**  
 Use the related links and related lists on the Story form for the actions that you need to perform on your story in Agile Development 2.0, such as adding scrum tasks, dependencies, or splitting the story.
 -   **[Related lists for a Theme in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/agile-development/related-links-lists-for-theme-in-agile-development-2.md)**  
-Use the related lists on the Theme form for the actions that you need to perform for your theme in Agile Development 2.0, such as associating stories or epics with the theme.
+Use the related lists on the Theme form for the actions that you need to perform for your theme in Agile Development 2.0. These actions include associating stories or epics with the theme.
 -   **[Test version form in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/agile-development/test-version-form.md)**  
 Learn about the fields of the Test version form. Use this form to create and run tests for a story in Agile Development 2.0.
 -   **[Related lists of a test version in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/agile-development/related-lists-of-test-version-in-agile-development-2.md)**  
-Use the related lists in the Test version form for the actions that you need to perform on your test in Agile Development 2.0, such as verifying the test results, viewing other associated test versions and test sets.
+Use the related lists in the Test version form for the actions that you need to perform on your test in Agile Development 2.0. These actions include verifying the test results, viewing other associated test versions and test sets.
 
 **Parent Topic:**[Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/agile-development/agile-landing-page.md)
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 1
 breadcrumb: [Authentication, Access Management]
 ---

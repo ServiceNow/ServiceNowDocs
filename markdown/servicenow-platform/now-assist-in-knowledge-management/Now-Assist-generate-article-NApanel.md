@@ -18,7 +18,7 @@ Generate a new knowledge article for a case or an incident from the Now Assist p
 
 ## Before you begin
 
-For Now Assist for HR Service Delivery \(HRSD\), Knowledge articles are only supported on the HR case record \(sn\_hr\_core\_case\), not on the record from extended tables.
+For ServiceNow Otto for HR Service Delivery \(HRSD\), Knowledge articles are only supported on the HR case record \(sn\_hr\_core\_case\), not on the record from extended tables.
 
 Role required: agent
 

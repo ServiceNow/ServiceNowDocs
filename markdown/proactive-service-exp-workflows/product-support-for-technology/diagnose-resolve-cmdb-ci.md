@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-This task helps you to understand how to execute relevant preconfigured diagnostics tests for a specific CI or a service, without any incident or case. This helps the agents to test a CI or Service standalone. If any issues are found, resolution shall follow the standard process like incident or case as applicable. This task doesn't enable the agent to create any repair or diagnostic task, but only help to run the required test on the fly without any case or incident.
+This task helps you to understand how to execute relevant preconfigured diagnostics tests for a specific CI or a service, without any incident or case. This helps the agents to test a CI or Service standalone. If any issues are found, resolution shall follow the standard process like incident or case as applicable. This task doesn't enable the agent to create repair or diagnostic tasks, but only helps run the required test on the fly without a case or incident.
 
 ## Procedure
 

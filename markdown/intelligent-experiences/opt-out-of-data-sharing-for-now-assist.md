@@ -29,7 +29,7 @@ Role required: sn\_generative\_ai.data\_steward
 
 By default, you are opted in for data sharing. By opting out of the ServiceNow customer data sharing program, you can no longer provide data to improve ServiceNow AI products. By sharing data with the ServiceNow AI development program, you provide relevant data to help improve prediction accuracy, user experience, tailor products to your business needs, and reduce hallucinations for your activated Now Assist skills.
 
-You can choose to opt out a ServiceNow instance from data sharing from the Now Assist Admin console if you don't want to participate. Repeat the opt-out process for all instances that use the Now Assist functionality.
+You can choose to opt out a ServiceNow instance from data sharing from the AI Admin Hub console if you don't want to participate. Repeat the opt-out process for all instances that use the Now Assist functionality.
 
 **Note:** You must opt out of data sharing to turn off ServiceNow ability to gather Customer data for AI and data products.
 
@@ -41,11 +41,11 @@ Opting out can take up to five business days to process.
 
 2.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Settings**.
 
-    If you’re already in the Now Assist Admin console, select the **Settings** tab.
+    If you’re already in the AI Admin Hub console, select the **Settings** tab.
 
 3.  In the Settings panel, select the **Data sharing and processing** &gt; **Data sharing** tab.
 
-    \[Omitted image "naa-data-sharing.png"\] Alt text: Data sharing in Now Assist Admin Settings that shows the data sharing preference. It also provides a data sharing opt-out button.
+    \[Omitted image "naa-data-sharing.png"\] Alt text: Data sharing in AI Admin Hub Settings that shows the data sharing preference. It also provides a data sharing opt-out button.
 
 4.  Select **Opt Out**.
 

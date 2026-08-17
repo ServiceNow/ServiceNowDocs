@@ -248,7 +248,7 @@ Use cases
 
 To see audits, install the plugin for Audit Management \(sn\_audit\)
 
- To see technical risks, install the plugin for Technology Portfolio Management: sn\_apm\_tpm. This plugin has two dependency plugins:
+ To see technical risks, install the plugin for Technology Lifecycle Management: sn\_apm\_tpm. This plugin has two dependency plugins:
 
 -   Application Portfolio Management \(com.snc.apm\)
 -   Software Asset Management \(com.snc.sams\)
@@ -459,7 +459,7 @@ Needs attention
 
 To see alerts and alert data, install the plugin for Event Management \(com.glide.platform\_ml\)
 
- To see technical risks, install the plugin for Technology Portfolio Management: sn\_apm\_tpm. This plugin has two dependency plugins:
+ To see technical risks, install the plugin for Technology Lifecycle Management: sn\_apm\_tpm. This plugin has two dependency plugins:
 
 -   Application Portfolio Management \(com.snc.apm\)
 -   Software Asset Management \(com.snc.sams\)

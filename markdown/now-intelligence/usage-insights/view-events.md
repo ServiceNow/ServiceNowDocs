@@ -1,5 +1,5 @@
 ---
-title: View Usage Insights Events
+title: View User Experience Analytics Events
 description: View user analytics event occurrences to help you analyze core steps within your business processes.These event KPIs are tracked for web and mobile platforms.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/usage-insights/view-events.html
@@ -9,10 +9,10 @@ classification: usage-insights
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Using Usage Insights, User Experience Analytics, Platform Analytics]
+breadcrumb: [Using User Experience Analytics, User Experience Analytics, Platform Analytics]
 ---
 
-# View Usage Insights Events
+# View User Experience Analytics Events
 
 View user analytics event occurrences to help you analyze core steps within your business processes.
 
@@ -22,7 +22,7 @@ Role required: user
 
 ## About this task
 
-Usage Insights automatically detects all screens, gestures, and user actions in your applications. You can view occurrences of user-triggered events including menu selection, button clicking, and swiping.
+User Experience Analytics automatically detects all screens, gestures, and user actions in your applications. You can view occurrences of user-triggered events including menu selection, button clicking, and swiping.
 
 \[Omitted image "uxa-event-properties.png"\] Alt text: Analytics module - Events screen
 

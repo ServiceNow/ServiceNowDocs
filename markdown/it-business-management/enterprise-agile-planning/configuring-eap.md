@@ -1,6 +1,6 @@
 ---
 title: Configuring Enterprise Agile Planning
-description: Activate a configuration, add teams to your Agile structure, and define your planning calendars so that your team can get started with Backlog management and PI planning in EAP.
+description: Activate a configuration, add teams to your Agile structure, and define your planning calendars. Your team can then get started with Backlog management and PI planning in EAP.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/enterprise-agile-planning/configuring-eap.html
 release: yokohama
@@ -14,7 +14,7 @@ breadcrumb: [Enterprise Agile Planning, Strategic Planning, Strategic Portfolio 
 
 # Configuring Enterprise Agile Planning
 
-Activate a configuration, add teams to your Agile structure, and define your planning calendars so that your team can get started with Backlog management and PI planning in EAP.
+Activate a configuration, add teams to your Agile structure, and define your planning calendars. Your team can then get started with Backlog management and PI planning in EAP.
 
 ## Configuration overview
 

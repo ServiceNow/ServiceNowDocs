@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2025-03-24"
 reading_time_minutes: 1
 keywords: [friendly fraud AI agent, friendly fraud agentic AI, friendly fraud agentic workflow]
-breadcrumb: [Using agentic workflows, Now Assist for Financial Services Operations \(FSO\)]
+breadcrumb: [Using agentic workflows, ServiceNow Otto for Financial Services Operations \(FSO\)]
 ---
 
 # Help resolve friendly fraud disputes agentic workflow

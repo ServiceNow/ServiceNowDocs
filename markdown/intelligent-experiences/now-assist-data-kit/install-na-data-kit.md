@@ -1,6 +1,6 @@
 ---
-title: Install Now Assist Data Kit
-description: Install Now Assist Data Kit to create datasets for a data collection.
+title: Install AI Data Kit
+description: Install AI Data Kit to create datasets for a data collection.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/now-assist-data-kit/install-na-data-kit.html
 release: yokohama
@@ -9,12 +9,12 @@ classification: now-assist-data-kit
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configuring Now Assist Data Kit, Now Assist Data Kit, Enable AI experiences]
+breadcrumb: [Configuring AI Data Kit, AI Data Kit, Enable AI experiences]
 ---
 
-# Install Now Assist Data Kit
+# Install AI Data Kit
 
-Install Now Assist Data Kit to create datasets for a data collection.
+Install AI Data Kit to create datasets for a data collection.
 
 ## Before you begin
 
@@ -24,7 +24,7 @@ Role required: admin or sn\_data\_kit.admin
 
 1.  Navigate to **All** &gt; **System Definition** &gt; **Plugins**.
 
-2.  In the Store applications section, select Now Assist Data Kit.
+2.  In the Store applications section, select AI Data Kit.
 
 3.  Select **Install**.
 

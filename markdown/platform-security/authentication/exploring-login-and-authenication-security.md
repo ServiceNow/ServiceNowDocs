@@ -42,7 +42,7 @@ Control several dimensions of the log in and log out process for users, such as 
 
 </td><td>
 
--   [Defining login scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/t_LoginScenarios.md)
+-   [Define login scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/t_LoginScenarios.md)
 -   [Configuring the logout confirmation prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/t_EnableTheLogoutConfirmPrompt.md)
 -   [Installation exits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/r_InstallationExits.md)
 -   [Specify lockout for failed login attempts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/t_LockoutForFailedLogins.md)

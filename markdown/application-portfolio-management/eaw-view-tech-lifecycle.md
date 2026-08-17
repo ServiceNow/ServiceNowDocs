@@ -1,18 +1,18 @@
 ---
 title: View technology lifecycle details
-description: You can view the Technology Portfolio Management \(TPM\) lifecycle timelines in Enterprise Architecture Workspace, to track the different phases of a product’s lifecycle, such as end of support, end of extended support, and end of life.
+description: You can view the Technology Lifecycle Management \(TLM\) lifecycle timelines in Enterprise Architecture Workspace, to track the different phases of a product’s lifecycle, such as end of support, end of extended support, and end of life.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-view-tech-lifecycle.html
 release: yokohama
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Managing the Technology Portfolio Management \(TPM\) in Enterprise Architecture Workspace, Technology Portfolio view, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Managing the Technology Lifecycle Management \(TLM\) in Enterprise Architecture Workspace, Technology Portfolio view, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
 # View technology lifecycle details
 
-You can view the Technology Portfolio Management \(TPM\) lifecycle timelines in Enterprise Architecture Workspace, to track the different phases of a product’s lifecycle, such as end of support, end of extended support, and end of life.
+You can view the Technology Lifecycle Management \(TLM\) lifecycle timelines in Enterprise Architecture Workspace, to track the different phases of a product’s lifecycle, such as end of support, end of extended support, and end of life.
 
 ## Before you begin
 
@@ -22,9 +22,9 @@ Role required: sn\_apm.apm\_user
 
 ## About this task
 
-The TPM lifecycle data enables you to manage your technology portfolio effectively, ensuring your business applications and their related application services are updated or replaced timely.
+The TLM lifecycle data enables you to manage your technology portfolio effectively, ensuring your business applications and their related application services are updated or replaced timely.
 
-**Note:** For each TPM lifecycle phase, the end date of one phase is the start date of the next phase. For information on lifecycle end-date calculation logic, see [View TPM and TRM lifecycle timelines on the Gantt chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-view-tpm-and-trm-lifecycle-timelines-in-gantt-chart.md).
+**Note:** For each TLM lifecycle phase, the end date of one phase is the start date of the next phase. For information on lifecycle end-date calculation logic, see [View TPM and TRM lifecycle timelines on the Gantt chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-view-tpm-and-trm-lifecycle-timelines-in-gantt-chart.md).
 
 ## Procedure
 
@@ -35,5 +35,5 @@ The TPM lifecycle data enables you to manage your technology portfolio effective
 3.  Select **TPM lifecycles**.
 
 
-**Parent Topic:**[Managing the Technology Portfolio Management \(TPM\) in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-tpm.md)
+**Parent Topic:**[Managing the Technology Lifecycle Management \(TLM\) in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-tpm.md)
 

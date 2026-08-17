@@ -1,6 +1,6 @@
 ---
 title: User Experience Analytics data sources for data visualizations
-description: You can show metrics related to Usage Insights in a data visualization component. The available metrics depend on the visualization type.
+description: You can show metrics related to User Experience Analytics in a data visualization component. The available metrics depend on the visualization type.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/uxa-data-sources.html
 release: yokohama
@@ -12,11 +12,11 @@ breadcrumb: [Selecting data sources, Configure, Data visualizations, Platform An
 
 # User Experience Analytics data sources for data visualizations
 
-You can show metrics related to Usage Insights in a data visualization component. The available metrics depend on the visualization type.
+You can show metrics related to User Experience Analytics in a data visualization component. The available metrics depend on the visualization type.
 
-**Note:** Users require the admin, analytics\_admin, or analytics\_viewer role to add Usage Insights data sources to a visualization.
+**Note:** Users require the admin, analytics\_admin, or analytics\_viewer role to add User Experience Analytics data sources to a visualization.
 
-The Usage Insights application, available in the [ServiceNow® Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home), provides several data sources.
+The User Experience Analytics application, available in the [ServiceNow® Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home), provides several data sources.
 
 -   **Events**
 
@@ -47,9 +47,9 @@ The Usage Insights application, available in the [ServiceNow® Store](https://st
     -   Multi Device Users: Users who have created a session with more than one device.
     -   Custom: You define this category by creating at least one condition.
 
-**Important:** You must specify the date range for all Usage Insights data sources on all visualization types.
+**Important:** You must specify the date range for all User Experience Analytics data sources on all visualization types.
 
-The following data visualizations do not support Usage Insights data sources:
+The following data visualizations do not support User Experience Analytics data sources:
 
 -   Calendar
 -   Geomap
@@ -63,7 +63,7 @@ The following data visualizations only support Events.
 -   Pie/Donut
 -   Bar
 
-Time series and score data visualizations support all Usage Insights data sources.
+Time series and score data visualizations support all User Experience Analytics data sources.
 
 <table id="table_g3k_3sh_h1c"><thead><tr><th>
 

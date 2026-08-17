@@ -23,7 +23,7 @@ The Application Configuration Items \(CIs\) class is a key component of an organ
 Many products and applications rely on application CIs for essential tasks. A few key examples are:
 
 -   Service Mapping: Uses application CIs to create service maps
--   ITOM AIOps: Monitors application health and resolves incidents using application CIs
+-   ITOM Health: Monitors application health and resolves incidents using application CIs
 -   IT Asset Management \(ITAM\): Tracks and manages software applications and their associated licenses with application CIs
 -   IT Service Management \(ITSM\): Analyzes service impact and calculates blast radius with application CIs
 -   Enterprise Architecture \(EA\): Leverages application CIs to generate business outcomes

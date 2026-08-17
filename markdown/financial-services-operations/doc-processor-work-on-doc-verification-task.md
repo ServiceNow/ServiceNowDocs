@@ -42,15 +42,15 @@ Role required: admin
 
 7.  Select one of the following options.
 
-<table id="choicetable_t3f_5r1_wnb"><thead><tr><th align="left" id="d114915e171">
+<table id="choicetable_t3f_5r1_wnb"><thead><tr><th align="left" id="d114506e171">
 
 Task
 
-</th><th align="left" id="d114915e174">
+</th><th align="left" id="d114506e174">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d114915e180">
+</th></tr></thead><tbody><tr><td id="d114506e180">
 
 **Verify**
 
@@ -58,7 +58,7 @@ Action
 
 Select **Verify** if the document details are sufficient.
 
-</td></tr><tr><td id="d114915e192">
+</td></tr><tr><td id="d114506e192">
 
 **Reject**
 

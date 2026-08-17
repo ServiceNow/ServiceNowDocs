@@ -63,6 +63,8 @@ Show changes in data over time. Use different time series charts to emphasize di
 Create calendar report visualizations to show and highlight date-driven events.
 -   **[Create a simple list visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-simple-list-ac.md)**  
 List reports display data in the form of an expandable list. For example, an incident report grouped by priority displays only the priority names and a number of records that display if the user selects the priority. You can configure whether lists display expanded or collapsed.
+-   **[Create a list visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-analytics-list.md)**  
+Create a list of table records that can be drilled down to from chart interactions. List visualizations display table data in columns. By default, the columns match the default list view of the table.
 -   **[Create an Indicator Scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-indicator-scorecard.md)**  
 The Indicator Scorecard component enables users to visualize and compare data between multiple Performance Analytics indicators. It highlights the information regarding the last score collected, the change from the previous data point, the trend over time, and the value of the target to achieve.​
 -   **[Create a data visualization from a list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-data-viz-from-list.md)**  

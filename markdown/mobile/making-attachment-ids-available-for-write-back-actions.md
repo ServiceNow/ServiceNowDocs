@@ -7,7 +7,7 @@ release: yokohama
 topic_type: task
 last_updated: "2025-12-08"
 reading_time_minutes: 1
-breadcrumb: [Configure a Lens launcher button, Configuring Now Assist for Mobile, Now Assist for Mobile, Mobile Platform]
+breadcrumb: [Configure a Lens launcher button, Configuring Otto, ServiceNow Otto for Mobile, Mobile Platform]
 ---
 
 # Enable attachment IDs for write-back actions

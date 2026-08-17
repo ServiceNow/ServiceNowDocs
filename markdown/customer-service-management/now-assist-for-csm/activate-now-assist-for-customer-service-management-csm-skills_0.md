@@ -9,14 +9,14 @@ classification: now-assist-for-csm
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 5
-breadcrumb: [Configure, Now Assist for Customer Service Management \(CSM\), Customer Service Management]
+breadcrumb: [Configure, ServiceNow Otto for Customer Service Management \(CSM\), Customer Service Management]
 ---
 
 # Activate Now Assist Skills
 
 Enable Now Assist generative AI skills to provide AI-driven capabilities such as summarization, response suggestions, and sentiment analysis.
 
-This video provides an overview of how you can set up skills and monitor and analyze usage via the Now Assist Admin console.
+This video provides an overview of how you can set up skills and monitor and analyze usage via the AI Admin Hub console.
 
 \[Omitted video\] Description: Now Assist admin console
 

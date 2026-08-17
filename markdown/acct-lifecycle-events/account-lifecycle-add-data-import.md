@@ -7,7 +7,7 @@ release: yokohama
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Data capture and validation, Set up the account onboarding playbook, Configuring account onboarding, Account onboarding, Customer Success Management]
+breadcrumb: [Data capture and validation, Set up the account onboarding playbook, Configuring account onboarding, Account onboarding, Account Lifecycle Events]
 ---
 
 # Add the data import task
@@ -27,9 +27,9 @@ Add the data import task that you’ve configured to the **Account lifecycle onb
     -   Canceled Conditions: Specify the conditions that must be met before the task moves into the canceled state.
     -   Closed Conditions: Specify the conditions that must be met before the task moves into the Closed state.
     -   Onboarding Case: Select the Account Onboarding Case Record trigger to associate this record with the account onboarding case.
-    -   Record View: The name of the Form View that is to be displayed in the Customer Success Management playbook. Enter `tech_pad_imp_task_view` here.
+    -   Record View: The name of the Form View that is to be displayed in the Account Lifecycle Events playbook. Enter `tech_pad_imp_task_view` here.
     -   Responsibility Name: Select the ServiceNow Developer/Admin user role from the list. This role is assigned to the internal team members \(defined in the Assign internal team responsibilities task of the **Initiate** stage of the playbook. See [Set up the account onboarding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-use-playbook.md) for details\). Users with this role can perform the data import task.
-10. Select **Add Field** and enter data in the following fields from the Customer Success Management Import Task table.
+10. Select **Add Field** and enter data in the following fields from the Account Lifecycle Events Import Task table.
 
     -   Source Table: Add the internal name of the staging table. For example, `sn_acct_lc_account_onb_import_locations`.
     -   Target Table: Add the internal name of the target table. For example, `cmn_location`.
@@ -44,5 +44,5 @@ Add the data import task that you’ve configured to the **Account lifecycle onb
 
 11. Ensure that you test the configuration and then select **Activate** to activate the playbook.
 
-After the data import task has been configured, the Customer Success Management playbook can be used to onboard customers. See [Set up the account onboarding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-use-playbook.md) for details.
+After the data import task has been configured, the Account Lifecycle Events playbook can be used to onboard customers. See [Set up the account onboarding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-use-playbook.md) for details.
 

@@ -1,6 +1,6 @@
 ---
 title: Review Now Assist account information
-description: Review your Now Assist license details on the Account page of the Now Assist Admin console to make sure that you're up to date on what's available to you.
+description: Review your Now Assist license details on the Account page of the AI Admin Hub console to make sure that you're up to date on what's available to you.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/review-now-assist-account-information.html
 release: yokohama
@@ -13,7 +13,7 @@ breadcrumb: [Configure general Now Assist settings, Configuring Now Assist setti
 
 # Review Now Assist account information
 
-Review your Now Assist license details on the Account page of the Now Assist Admin console to make sure that you're up to date on what's available to you.
+Review your Now Assist license details on the Account page of the AI Admin Hub console to make sure that you're up to date on what's available to you.
 
 ## Before you begin
 
@@ -27,11 +27,11 @@ From the Account page, you can review the licensing information to verify which 
 
 1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Settings**.
 
-    If you’re already in the Now Assist Admin console, select the **Settings** tab.
+    If you’re already in the AI Admin Hub console, select the **Settings** tab.
 
 2.  In the Settings page, select **Account**.
 
-    \[Omitted image "now-assist-account-overview.png"\] Alt text: Account panel in Now Assist Admin Settings that shows the features that are included with your license.
+    \[Omitted image "now-assist-account-overview.png"\] Alt text: Account panel in AI Admin Hub Settings that shows the features that are included with your license.
 
 3.  In the Account details section of the panel, review what is included with your Now Assist license.
 

@@ -1,6 +1,6 @@
 ---
 title: Configure Service Graph Connector for Nokia Altiplano
-description: This document explains how to configure the Service Graph Connector for Nokia Altiplano using Guided setup to integrate network resource data from the Nokia Altiplano Access Controller \(REST API\) into the ServiceNow CMDB. It includes steps for setup, authentication, and scheduling to confirm accurate integration of network data.This procedure is applicable for initial setup of the Nokia Altiplano.Add Second instance of a Nokia Altiplano and subsequent instances.
+description: Configure the Service Graph Connector for Nokia Altiplano using Guided setup to integrate network resource data from the Nokia Altiplano Access Controller \(REST API\) into the ServiceNow CMDB. The setup includes authentication and scheduling steps.This procedure is applicable for initial setup of the Nokia Altiplano.Add Second instance of a Nokia Altiplano and subsequent instances.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-service-ops/telecom-visibility/configuring-service-graph-connector-nokia-altiplano.html
 release: yokohama
@@ -14,13 +14,13 @@ breadcrumb: [Telecom Discovery using Service Graph Connectors \(SGC\), Exploring
 
 # Configure Service Graph Connector for Nokia Altiplano
 
-This document explains how to configure the Service Graph Connector for Nokia Altiplano using Guided setup to integrate network resource data from the Nokia Altiplano Access Controller \(REST API\) into the ServiceNow CMDB. It includes steps for setup, authentication, and scheduling to confirm accurate integration of network data.
+Configure the Service Graph Connector for Nokia Altiplano using Guided setup to integrate network resource data from the Nokia Altiplano Access Controller \(REST API\) into the ServiceNow CMDB. The setup includes authentication and scheduling steps.
 
 To use Service Graph Connector for Nokia Altiplano, you need a subscription to TSOM.
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Dependencies and requirements
 
@@ -198,7 +198,7 @@ Change the application scope to Service Graph Connector for Nokia Altiplano by s
         3.  Leave the rest of the fields as default, select **Submit**, and then **Mark as Complete**.
         \[Omitted image "telecom-connection-credential-alias.png"\] Alt text: connection and credential alias.
 
-        This enables using the connection by name rather than directly, enabling the collector to extract all active aliases from the CMDB and start performing data collection on the HTTP connection bound to it.
+        This enables using the connection by name rather than directly. The collector can extract all active aliases from the CMDB and start performing data collection on the HTTP connection bound to it.
 
     2.  Create the relevant credentials to access the Nokia Altiplano Controller:
 

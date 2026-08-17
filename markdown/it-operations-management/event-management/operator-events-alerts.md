@@ -9,7 +9,7 @@ classification: event-management
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 4
-breadcrumb: [Event Management Operator Tutorial, Using Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Event Management Operator Tutorial, Using Event Management, Event Management, ITOM Health, IT Operations Management]
 ---
 
 # An overview of alerts for Event Management operators

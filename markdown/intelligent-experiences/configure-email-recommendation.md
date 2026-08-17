@@ -1,5 +1,5 @@
 ---
-title: Configure email reply recommendation in the Now Assist Admin console
+title: Configure email reply recommendation in the AI Admin Hub console
 description: Configure the email recommendation Now Assist skill to enable agents to draft email replies based on contextual information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/configure-email-recommendation.html
@@ -11,7 +11,7 @@ keywords: [Configure, email, reply, Now Assist Admin, console, features, technol
 breadcrumb: [Activate a Now Assist skill, Configuring Now Assist settings and features, Now Assist, Enable AI experiences]
 ---
 
-# Configure email reply recommendation in the Now Assist Admin console
+# Configure email reply recommendation in the AI Admin Hub console
 
 Configure the email recommendation Now Assist skill to enable agents to draft email replies based on contextual information.
 
@@ -27,7 +27,7 @@ The email recommendation skill is available in multiple workflows. The exact ste
 
 1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Now Assist Skills**.
 
-    If you’re already in the Now Assist Admin console, select the **Now Assist Skills** tab.
+    If you’re already in the AI Admin Hub console, select the **Now Assist Skills** tab.
 
 2.  On the navigation panel, select a workflow, such as **Technology**.
 

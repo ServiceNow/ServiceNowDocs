@@ -134,7 +134,7 @@ HR Service Delivery
 
 </td><td>
 
-[Setting up your Alumni Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/asc-configure.md)
+[Setting up your Alumni Service Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/asc-configure.md)
 
 </td></tr><tr><td>
 
@@ -758,7 +758,7 @@ User Experience Analytics
 
 </td><td>
 
-[Roles installed with Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/components-installed-user-exp-analytics.md)
+[Roles installed with User Experience Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/components-installed-user-exp-analytics.md)
 
 </td></tr><tr><td>
 

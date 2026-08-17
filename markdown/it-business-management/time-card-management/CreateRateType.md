@@ -7,7 +7,7 @@ release: yokohama
 product: Time Card Management
 classification: time-card-management
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 1
 breadcrumb: [Time Card management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -37,15 +37,15 @@ For example:
 
 2.  Click **New** and fill the form.
 
-<table id="choicetable_vbp_jpj_l1b"><thead><tr><th align="left" id="d94828e100">
+<table id="choicetable_vbp_jpj_l1b"><thead><tr><th align="left" id="d94396e100">
 
 Field
 
-</th><th align="left" id="d94828e103">
+</th><th align="left" id="d94396e103">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d94828e109">
+</th></tr></thead><tbody><tr><td id="d94396e109">
 
 **Name**
 
@@ -53,7 +53,7 @@ Description
 
 Provide a suitable name for the rate type.
 
-</td></tr><tr><td id="d94828e118">
+</td></tr><tr><td id="d94396e118">
 
 **Description**
 
@@ -61,7 +61,7 @@ Provide a suitable name for the rate type.
 
 \(Optional\) Summarize the purpose of the rate type.
 
-</td></tr><tr><td id="d94828e127">
+</td></tr><tr><td id="d94396e127">
 
 **Active**
 

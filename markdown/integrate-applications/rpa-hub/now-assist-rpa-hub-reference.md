@@ -1,5 +1,5 @@
 ---
-title: Now Assist for RPA Hub reference
+title: ServiceNow Otto for RPA Hub reference
 description: Reference topics include information about the limitations of the Robotic Process Automation \(RPA\) bot generation skill.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/rpa-hub/now-assist-rpa-hub-reference.html
@@ -10,10 +10,10 @@ topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1
 keywords: [Now Assist, generative AI]
-breadcrumb: [Now Assist for RPA Hub, Robotic Process Automation \(RPA\) Hub, Data and Automation]
+breadcrumb: [ServiceNow Otto for RPA Hub, Robotic Process Automation \(RPA\) Hub, Data and Automation]
 ---
 
-# Now Assist for RPA Hub reference
+# ServiceNow Otto for RPA Hub reference
 
 Reference topics include information about the limitations of the Robotic Process Automation \(RPA\) bot generation skill.
 

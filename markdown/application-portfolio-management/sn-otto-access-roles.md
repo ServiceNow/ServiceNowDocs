@@ -1,20 +1,20 @@
 ---
-title: Now Assist for Enterprise Architecture \(EA\) access roles
-description: The following roles help you to configure and use each Now Assist for Enterprise Architecture \(EA\) skill.
+title: ServiceNow Otto for Enterprise Architecture \(EA\) access roles
+description: The following roles help you to configure and use each ServiceNow Otto for Enterprise Architecture \(EA\) skill.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/sn-otto-access-roles.html
 release: yokohama
 topic_type: reference
 last_updated: "2026-04-17"
 reading_time_minutes: 5
-breadcrumb: [Configure, Now Assist for Enterprise Architecture \(EA\), Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Configure, ServiceNow Otto for Enterprise Architecture \(EA\), Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
-# Now Assist for Enterprise Architecture \(EA\) access roles
+# ServiceNow Otto for Enterprise Architecture \(EA\) access roles
 
-The following roles help you to configure and use each Now Assist for Enterprise Architecture \(EA\) skill.
+The following roles help you to configure and use each ServiceNow Otto for Enterprise Architecture \(EA\) skill.
 
-Access to Now Assist for Enterprise Architecture \(EA\) skills is controlled by a combination of the EA Workspace role assigned to the user and, in some cases, additional platform-level or feature-specific roles. The table summarizes each skill, the role required to use it, and whether additional roles are needed.
+Access to ServiceNow Otto for Enterprise Architecture \(EA\) skills is controlled by a combination of the EA Workspace role assigned to the user and, in some cases, additional platform-level or feature-specific roles. The table summarizes each skill, the role required to use it, and whether additional roles are needed.
 
 |Skill|Configure role|Use role|
 |-----|--------------|--------|
@@ -1060,14 +1060,14 @@ Review and modify the auto-populated form fields before submission
 No role required.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configure Now Assist for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/configure-now-assist-ea.md)
+</table>**Parent Topic:**[Configure ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/configure-now-assist-ea.md)
 
 **Related topics**  
 
 
-[Configure Now Assist for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/configure-now-assist-ea.md)
+[Configure ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/configure-now-assist-ea.md)
 
-[Now Assist for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/now-assist-ea.md)
+[ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/now-assist-ea.md)
 
 [Enterprise Architecture Workspace access roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-access-roles.md)
 

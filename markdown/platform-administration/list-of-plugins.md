@@ -31889,7 +31889,7 @@ false
 
 </td></tr><tr><td>
 
-Usage Insights \[com.glide.appsee\]
+User Experience Analytics \[com.glide.appsee\]
 
 </td><td>
 

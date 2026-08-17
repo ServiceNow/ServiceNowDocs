@@ -1,6 +1,6 @@
 ---
-title: Configuring Now Assist Analytics
-description: Configure the Now Assist Analytics dashboard to view the usage, value, and performance indicators of Now Assist.
+title: Configuring AI Analytics
+description: Configure the AI Analytics dashboard to view the usage, value, and performance indicators of Now Assist.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/configuring-now-assist-analytics.html
 release: yokohama
@@ -11,13 +11,13 @@ keywords: [Now Assist Analytics, configuring, GenAI, GenerativeAI, CSM, Customer
 breadcrumb: [Analyzing Now Assist performance, Now Assist, Enable AI experiences]
 ---
 
-# Configuring Now Assist Analytics
+# Configuring AI Analytics
 
-Configure the Now Assist Analytics dashboard to view the usage, value, and performance indicators of Now Assist.
+Configure the AI Analytics dashboard to view the usage, value, and performance indicators of Now Assist.
 
 ## Configuration overview
 
-Now Assist Analytics requires at least one Now Assist application, for example, Now Assist for Customer Service Management \(CSM\), to be installed and configured on your instance. See [Installing Now Assist Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/installing-now-assist-analytics.md) for more information.
+AI Analytics requires at least one Now Assist application, for example, ServiceNow Otto for Customer Service Management \(CSM\), to be installed and configured on your instance. See [Installing AI Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/installing-now-assist-analytics.md) for more information.
 
 The following is an optional configuration task used to map a Now Assist skill to a dashboard.
 
@@ -25,7 +25,7 @@ The following is an optional configuration task used to map a Now Assist skill t
 
 ## Domain Separation
 
-Now Assist Analytics supports domain separation only for indicators using the following data collection jobs.
+AI Analytics supports domain separation only for indicators using the following data collection jobs.
 
 -   \[GenAI Analytics\] Daily Data Collection
 -   \[GenAI Analytics\] Historical Data Collection

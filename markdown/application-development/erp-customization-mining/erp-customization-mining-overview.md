@@ -1,6 +1,6 @@
 ---
-title: ERP Semantic Mining \(ERP-CM\)
-description: The ServiceNow ERP Semantic Mining \(ERP-CM\) product enables Solution Integration consultants to find application candidates with customized code in their ERP \(Enterprise Resource Planning\) system. ERP-CM ranks the candidate suitability for replatforming onto the ServiceNow AI Platform.
+title: ERP Customization Mining \(ERP-CM\)
+description: The ServiceNow ERP Customization Mining \(ERP-CM\) product enables Solution Integration consultants to find application candidates with customized code in their ERP \(Enterprise Resource Planning\) system. ERP-CM ranks the candidate suitability for replatforming onto the ServiceNow AI Platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-customization-mining/erp-customization-mining-overview.html
 release: yokohama
@@ -12,11 +12,11 @@ reading_time_minutes: 3
 breadcrumb: [Building low-code applications, Developing your application, Building applications]
 ---
 
-# ERP Semantic Mining \(ERP-CM\)
+# ERP Customization Mining \(ERP-CM\)
 
-The ServiceNow® ERP Semantic Mining \(ERP-CM\) product enables Solution Integration consultants to find application candidates with customized code in their ERP \(Enterprise Resource Planning\) system. ERP-CM ranks the candidate suitability for replatforming onto the ServiceNow AI Platform.
+The ServiceNow® ERP Customization Mining \(ERP-CM\) product enables Solution Integration consultants to find application candidates with customized code in their ERP \(Enterprise Resource Planning\) system. ERP-CM ranks the candidate suitability for replatforming onto the ServiceNow AI Platform.
 
-Zero Copy Connector for ERP and ERP Semantic Mining \(ERP-CM\) are App Engine for ERP products of ServiceNow. They help organizations modernize and orchestrate legacy code, complimenting processes and integrations that are underserved with the existing system of record, such as SAP. Together, Zero Copy Connector for ERP and ERP-CM make it faster and easier for you to build applications on the ServiceNow AI Platform using data from a legacy ERP system.
+ERP Canvas and ERP Customization Mining \(ERP-CM\) are App Engine for ERP products of ServiceNow. They help organizations modernize and orchestrate legacy code, complimenting processes and integrations that are underserved with the existing system of record, such as SAP. Together, ERP Canvas and ERP-CM make it faster and easier for you to build applications on the ServiceNow AI Platform using data from a legacy ERP system.
 
 Replatforming is the process of scanning legacy ERP system code to find potential candidates to move onto your ServiceNow AI Platform instance as new apps. You can use data from the ERP system as a source for apps built on the ServiceNow AI Platform, improving performance, enhancing security, and reducing maintenance.
 
@@ -26,7 +26,7 @@ The replatforming of legacy code enables innovation on top of the system of reco
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore \[Omitted image "bus-learn.svg"\] Alt text: Learn about ERP Semantic Mining concepts and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/exploring-ecm.md)
+[Explore \[Omitted image "bus-learn.svg"\] Alt text: Learn about ERP Customization Mining concepts and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/exploring-ecm.md)
 
 </td><td>
 
@@ -41,13 +41,13 @@ The replatforming of legacy code enables innovation on top of the system of reco
 [Reference \[Omitted image "bus-rocketship.svg"\] Alt text: Get details about ERP-CM components, such as tables and terminology.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/erp-customization-mining-ref.md)
 
 </td></tr></tbody>
-</table>\[Omitted image "erpcm-landing-page-infographic.png"\] Alt text: ERP Semantic Mining diagnoses your ERP system to identify customizations and recommend next steps in replatforming the apps to the ServiceNow AI Platform.
+</table>\[Omitted image "erpcm-landing-page-infographic.png"\] Alt text: ERP Customization Mining diagnoses your ERP system to identify customizations and recommend next steps in replatforming the apps to the ServiceNow AI Platform.
 
-## Learning resources for ERP Semantic Mining
+## Learning resources for ERP Customization Mining
 
 <table id="table_ink_41j_t1c"><thead><tr><th>
 
-Learn more about ERP Semantic Mining
+Learn more about ERP Customization Mining
 
 </th><th>
 
@@ -55,7 +55,7 @@ ServiceNow resources
 
 </th></tr></thead><tbody><tr><td rowspan="4">
 
-ERP Semantic Mining has a number of training and learning resources for you to get started. \(Some of these resources require logging in to the ServiceNow University site.\)
+ERP Customization Mining has a number of training and learning resources for you to get started. \(Some of these resources require logging in to the ServiceNow University site.\)
 
 </td><td>
 
@@ -74,11 +74,11 @@ ERP Semantic Mining has a number of training and learning resources for you to g
 \[Omitted image "bus-video-play.svg"\] Alt text: [Get to a clean ERP core with ServiceNow ERP Customization Mining](https://learning.servicenow.com/lxp/en/app-engine/ccl1273-k23-lab-get-to-a-clean-erp-core-with-servicenow-erp?id=learning_course_prev&course_id=51c84b14c36e6550cfdf34ee05013166)
 
 </td></tr></tbody>
-</table>## Request ERP Semantic Mining on the store
+</table>## Request ERP Customization Mining on the store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 Before you can use ERP-CM, you must first download ERP-CM from the ServiceNow Store. After you have completed the download, you may need to clear your local cache before ERP-CM appears on your instance.
 
-After you download ERP-CM, install it on your instance. For more information, see [Install ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/install-erp-customization-mining.md).
+After you download ERP-CM, install it on your instance. For more information, see [Install ERP Customization Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/install-erp-customization-mining.md).
 

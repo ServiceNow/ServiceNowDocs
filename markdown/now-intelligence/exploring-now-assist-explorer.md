@@ -18,12 +18,20 @@ AI Data Explorer is your AI companion for instant insights and deep data explora
 
 The objective of AI Data Explorer is to bring your thoughts into one place by empowering users to explore, generate interesting findings, and collaborate seamlessly. This is achieved through an AI-assisted, interactive exploration that serves as a centralized space for data-driven decision making.
 
+**Note:** AI Data Explorer supports English only. Queries in other languages are not supported.
+
 \[Omitted image "explore-explorer.png"\] Alt text: An exploration in Now Assist explorer.
 
 AI Data Explorer can be divided into the following sections:
 
 -   \[Omitted image "callout-1.png"\] Alt text: 1 Exploration list. Expand or hide the list with the show/hide icon \[Omitted image "show-hide-icon.png"\] Alt text: Show/hide icon. The list shows all explorations that you own or that have been shared with you. You can also create a new exploration with the plus \(+\) icon.
--   \[Omitted image "callout-2.png"\] Alt text: 2 Title and action bar. This section includes an editable title for the exploration, buttons for summarizing the exploration and asking a question about data, and a More Options menu for sharing and deleting the exploration. It also shows which other users are currently in the exploration. You can share an exploration only if you own it or it has been shared with you with sharing rights.
+-   \[Omitted image "callout-2.png"\] Alt text: 2 Title and action bar. This section includes the following elements:
+
+    -   An editable title for the exploration
+    -   Buttons for summarizing the exploration and asking a question about data
+    -   A More Options menu for sharing and deleting the exploration.
+    The section also shows which other users are currently in the exploration. You can share an exploration only if you own it or it has been shared with you with sharing rights.
+
 -   \[Omitted image "callout-3.png"\] Alt text: 3 Exploration content. This section displays the results of data exploration queries. The results typically include a data visualization or list and a summary of the contents of that visualization or list. The exploration can also include its purpose or "goal" and any text that the participants have added, such as a discussion about the results.
 
 ## AI Data Explorer users

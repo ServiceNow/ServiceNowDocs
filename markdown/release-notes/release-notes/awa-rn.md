@@ -17,23 +17,23 @@ The ServiceNow® Advanced Work Assignment \(AWA\) application automatically assi
 -   Run assignments on different nodes or cadences for different service channels to improve the AWA application's performance and resilience.
 -   Provide wrap-up codes or notes for interactions or segments that the agent is involved in at the end of a call.
 
-See [Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/awa-application-landing-page.md) for more information.
+See  for more information.
 
 ## New in the Yokohama release
 
--   **[Service channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/awa-service-channels.md)**
+-   ****
 
     Run AWA assignments on different nodes or cadences for different service channels to improve performance and resilience.
 
 
--   **[Using Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/using-awa.md)**
+-   ****
 
     Enable agents with the ability to provide wrap-up codes or notes for interactions or segments that the agent was involved in.
 
 
 ## Activation information
 
-Advanced Work Assignment is a ServiceNow AI Platform feature that is available with activation of the Glide Advanced Work Assignment plugin \(com.glide.awa\). For details, see [Activate Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/awa-activate.md).
+Advanced Work Assignment is a ServiceNow AI Platform feature that is available with activation of the Glide Advanced Work Assignment plugin \(com.glide.awa\). For details, see .
 
 To use the External routing functionality on your instance, you must activate the External Routing Support plugin \(com.glide.awa-external\).
 
@@ -47,7 +47,7 @@ Advanced Work Assignment doesn’t support mobile devices, Internet Explorer, or
 
     The ServiceNow® Now Assist application uses generative AI that is designed to enhance user productivity and efficiency through conversation and proactive experiences.
 
--   **[Configurable Workspace UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/workspace-landing-page.md)**
+-   ****
 
     The ServiceNow® Workspace application provides agents, case managers, help desk professionals, and managers with tools to help answer customer questions and to resolve customer problems.
 

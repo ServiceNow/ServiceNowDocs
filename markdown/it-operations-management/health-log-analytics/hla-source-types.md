@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 2
 keywords: [ServiceNow, Health Log Analytics, HLA, extract, source type, log message, mapping, AI engine]
-breadcrumb: [Additional data input setup tasks, Setting up Health Log Analytics on your ServiceNow instance, Configuring Health Log Analytics, Health Log Analytics, ITOM AIOps, IT Operations Management]
+breadcrumb: [Additional data input setup tasks, Setting up Health Log Analytics on your ServiceNow instance, Configuring Health Log Analytics, Health Log Analytics, ITOM Health, IT Operations Management]
 ---
 
 # Configure source type capabilities

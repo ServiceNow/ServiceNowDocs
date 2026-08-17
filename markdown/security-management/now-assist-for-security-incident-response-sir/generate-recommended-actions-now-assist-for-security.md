@@ -1,5 +1,5 @@
 ---
-title: Generate recommended actions for a security incident with Now Assist for Security Incident Response
+title: Generate recommended actions for a security incident with ServiceNow Otto for Security Incident Response \(SIR\)
 description: Automatically generate the next steps your analysts can take to help them close a security incident in the Security Incident Response Workspace. The recommended steps are based on existing security incidents and knowledge articles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/now-assist-for-security-incident-response-sir/generate-recommended-actions-now-assist-for-security.html
@@ -9,10 +9,10 @@ classification: now-assist-for-security-incident-response-sir
 topic_type: task
 last_updated: "2026-01-14"
 reading_time_minutes: 3
-breadcrumb: [Use generative AI skills, Now Assist for Security Incident Response, Security Operations]
+breadcrumb: [Use generative AI skills, ServiceNow Otto for Security Incident Response \(SIR\), Security Operations]
 ---
 
-# Generate recommended actions for a security incident with Now Assist for Security Incident Response
+# Generate recommended actions for a security incident with ServiceNow Otto for Security Incident Response \(SIR\)
 
 Automatically generate the next steps your analysts can take to help them close a security incident in the Security Incident Response Workspace. The recommended steps are based on existing security incidents and knowledge articles.
 

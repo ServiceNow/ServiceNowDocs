@@ -1,6 +1,6 @@
 ---
-title: Exploring Now Assist for Accounts Payable Operations \(APO\)
-description: With the Now Assist for Accounts Payable Operations \(APO\) application, an account payable \(AP\) fulfiller can use generative AI to summarize the details of a case.
+title: Exploring ServiceNow Otto for Accounts Payable Operations \(APO\)
+description: With the ServiceNow Otto for Accounts Payable Operations \(APO\) application, an account payable \(AP\) fulfiller can use generative AI to summarize the details of a case.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/accounts-payable-operations/exploring-now-assist-apo.html
 release: yokohama
@@ -9,16 +9,16 @@ classification: accounts-payable-operations
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 7
-breadcrumb: [Now Assist for Accounts Payable Operations \(APO\), Accounts Payable Operations, Finance and Supply Chain]
+breadcrumb: [ServiceNow Otto for Accounts Payable Operations \(APO\), Accounts Payable Operations, Finance and Supply Chain]
 ---
 
-# Exploring Now Assist for Accounts Payable Operations \(APO\)
+# Exploring ServiceNow Otto for Accounts Payable Operations \(APO\)
 
-With the Now Assist for Accounts Payable Operations \(APO\) application, an account payable \(AP\) fulfiller can use generative AI to summarize the details of a case.
+With the ServiceNow Otto for Accounts Payable Operations \(APO\) application, an account payable \(AP\) fulfiller can use generative AI to summarize the details of a case.
 
-## Now Assist for APO overview
+## ServiceNow Otto for APO overview
 
-Using the summarization capability of the Now Assist for APO application, an AP fulfiller can auto-map the invoice lines with purchase order lines, get a concise summary of a case quickly, extract invoice details from email and auto-create an invoice processing case.
+Using the summarization capability of the ServiceNow Otto for APO application, an AP fulfiller can auto-map the invoice lines with purchase order lines, get a concise summary of a case quickly, extract invoice details from email and auto-create an invoice processing case.
 
 Cases can be complex and a case summary may enable an AP fulfiller to provide a more concise summary.
 
@@ -26,7 +26,7 @@ Cases can be complex and a case summary may enable an AP fulfiller to provide a 
 
 \[Omitted image "now-assist.png"\] Alt text: now assist
 
-The Now Assist for APO application includes the following:
+The ServiceNow Otto for APO application includes the following:
 
 -   The generative AI skills enable an AP fulfiller to extract the details of an invoice case or inquiry case and suggest resolutions.
 -   The generative AI skills perform the purchase order line-mapping and enable an AP fulfiller to review the mapping results.

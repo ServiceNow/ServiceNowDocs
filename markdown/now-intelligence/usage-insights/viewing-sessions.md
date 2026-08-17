@@ -1,6 +1,6 @@
 ---
 title: Viewing session analytics
-description: The Usage Insights Sessions page in the Data Foundation module lists filterable application sessions that you can drill down into for more detailed insights. Refine the sessions list to focus on data such as selected screens or events for your application.View statistics and timeline details for a specific user session.View overall session statistics for a user, and event timeline details for a user's specific sessions.
+description: The User Experience Analytics Sessions page in the Data Foundation module lists filterable application sessions that you can drill down into for more detailed insights. Refine the sessions list to focus on data such as selected screens or events for your application.View statistics and timeline details for a specific user session.View overall session statistics for a user, and event timeline details for a user's specific sessions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/usage-insights/viewing-sessions.html
 release: yokohama
@@ -9,12 +9,12 @@ classification: usage-insights
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 3
-breadcrumb: [Using Usage Insights, User Experience Analytics, Platform Analytics]
+breadcrumb: [Using User Experience Analytics, User Experience Analytics, Platform Analytics]
 ---
 
 # Viewing session analytics
 
-The Usage Insights Sessions page in the Data Foundation module lists filterable application sessions that you can drill down into for more detailed insights. Refine the sessions list to focus on data such as selected screens or events for your application.
+The User Experience Analytics Sessions page in the Data Foundation module lists filterable application sessions that you can drill down into for more detailed insights. Refine the sessions list to focus on data such as selected screens or events for your application.
 
 To view the Sessions overview, navigate to **Platform Analytics** &gt; **User Experience Analytics**, select an application, and then select the **Data Foundation** &gt; **Sessions** module. Select a User ID in the Sessions list to view that user's sessions.
 
@@ -42,7 +42,7 @@ Duration
 
 </td><td>
 
-Length of time the session lasted.-   **Note:** Usage Insights tracks a maximum session length of four \(4\) hours.
+Length of time the session lasted.-   **Note:** User Experience Analytics tracks a maximum session length of four \(4\) hours.
 
 -   **Note:** On the legacy dashboard, session start times were based on the server clock, which applied uniformly. After the replatforming, session start times are based on the client clock, which can differ slightly between users \(for example, due to local time settings or sync delays\). This can cause a minor variation, typically less than 2%, in total session counts.
 
@@ -114,7 +114,7 @@ You can filter a Users list by date range, user type, and country by default. Us
 
 You can view a breakdown analysis of sessions by grouping them according to country, state, device type, hourly usage, and so on. The Geographic Analytics visualization, which was available until the Xanadu release, has been replaced by this Analysis Breakdown.
 
-**Parent Topic:**[Using Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/using-uxa.md)
+**Parent Topic:**[Using User Experience Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/using-uxa.md)
 
 ## Session Details record
 

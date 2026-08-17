@@ -9,7 +9,7 @@ classification: service-level-objective-management
 topic_type: task
 last_updated: "2025-06-17"
 reading_time_minutes: 1
-breadcrumb: [Using SLO Management, Service Level Objective Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Using SLO Management, Service Level Objective Management, ITOM Health, IT Operations Management]
 ---
 
 # Create a notification destination in SRM
@@ -41,15 +41,15 @@ Create a notification destination to deliver messages to a specific Microsoft Te
 
 4.  Select the **SLO Notification destinations** tab, select **Create a destination**, and then fill out the form.
 
-<table id="choicetable_q13_wwy_vfc"><thead><tr><th align="left" id="d126127e143">
+<table id="choicetable_q13_wwy_vfc"><thead><tr><th align="left" id="d125226e143">
 
 Field
 
-</th><th align="left" id="d126127e146">
+</th><th align="left" id="d125226e146">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d126127e152">
+</th></tr></thead><tbody><tr><td id="d125226e152">
 
 **Channel URL**
 
@@ -57,7 +57,7 @@ Description
 
 Deep link to the relevant Microsoft Teams channel. You can find deep links to channels in Microsoft Teams. They follow this general format: `https://teams.microsoft.com/l/channel/19%abcdef`.
 
-</td></tr><tr><td id="d126127e172">
+</td></tr><tr><td id="d125226e172">
 
 **Destination name**
 

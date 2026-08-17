@@ -1,6 +1,6 @@
 ---
-title: ITOM AIOps
-description: The ServiceNow ITOM AIOps product includes the ServiceNow Event Management and ServiceNow Metric Intelligence applications, which help you track and maintain the health of services in your organization.
+title: ITOM Health
+description: The ServiceNow ITOM Health product includes the ServiceNow Event Management and ServiceNow Metric Intelligence applications, which help you track and maintain the health of services in your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/itom-health-landing-page.html
 release: yokohama
@@ -10,11 +10,11 @@ reading_time_minutes: 2
 breadcrumb: [IT Operations Management]
 ---
 
-# ITOM AIOps
+# ITOM Health
 
-The ServiceNow® ITOM AIOps product includes the ServiceNow® Event Management and ServiceNow® Metric Intelligence applications, which help you track and maintain the health of services in your organization.
+The ServiceNow® ITOM Health product includes the ServiceNow® Event Management and ServiceNow® Metric Intelligence applications, which help you track and maintain the health of services in your organization.
 
-## Features of ITOM AIOps
+## Features of ITOM Health
 
 -   **Event Management**
 
@@ -33,9 +33,9 @@ The ServiceNow® ITOM AIOps product includes the ServiceNow® Event Management a
     Service Operations Workspace for ITOM is a configurable workspace that provides a unified experience for multiple IT Operations Management workflows. Service Operations Workspace for ITOM enables you to manage the life cycle of alerts, including running actions to resolve alerts and identifying the underlying issue of an alert.
 
 
-## ITOM AIOps licensing
+## ITOM Health licensing
 
-The ServiceNow AI Platform® uses a licensing method where your organization is billed for using ITOM AIOps applications. ITOM AIOps and Health Log Analytics are available as separate licenses. The ServiceNow Product Documentation doesn't provide information on prices, packaging, or other details determined by your organization customer contract. For general information about licensing and subscriptions, see [ITOM/OT SU Licensing and subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-su-licensing-landing-page.md).
+The ServiceNow AI Platform® uses a licensing method where your organization is billed for using ITOM Health applications. ITOM Health and Health Log Analytics are available as separate licenses. The ServiceNow Product Documentation doesn't provide information on prices, packaging, or other details determined by your organization customer contract. For general information about licensing and subscriptions, see [ITOM/OT SU Licensing and subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-su-licensing-landing-page.md).
 
 ## Using guided setup to implement IT Operations Management applications
 

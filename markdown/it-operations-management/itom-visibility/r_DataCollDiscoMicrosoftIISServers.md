@@ -65,7 +65,7 @@ To use patterns, verify that the correct pattern is specified in the horizontal 
 
 ## Data collected by Discovery for IIS Web Server
 
-The following data is collected in the IIS Web Server \[cmdb\_ci\_microsoft\_iis\_web\_server\] table:
+The following data is collected in the IIS Web Server \[cmdb\_ci\_microsoft\_iis\_web\_server\] table.
 
 |Label|Field name|
 |-----|----------|
@@ -77,12 +77,16 @@ The following data is collected in the IIS Web Server \[cmdb\_ci\_microsoft\_iis
 
 \*The Type is always IIS.
 
-The following data is collected in the Web site \[cmdb\_ci\_web\_site\] table:
+The following data is collected in the Web site \[cmdb\_ci\_web\_site\] table.
 
 |Label|Field name|Source|
 |-----|----------|------|
 |Name|name|wmi|
 |TCP Port|tcp\_port|wmi|
+
+## Connections found by Service Mapping during top-down discovery
+
+When top-down discovery reaches an IIS server, Service Mapping identifies the specific website and application or virtual directory serving the entry point, not just the IIS server itself. Service Mapping creates a connection from the entry point to the matching IIS Virtual Directory \[cmdb\_ci\_iisdirectory\] CI. The resulting service map shows the application running on IIS rather than a generic host-level node.
 
 **Parent Topic:**[Software discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-visibility/c_Software.md)
 

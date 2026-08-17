@@ -18,7 +18,7 @@ As a CMDB administrator with the sn\_cmdb\_admin role, you can set up data model
 
 ## CMDB administrator tasks overview
 
-1.  [Configure data model recommendations for API clustering in API Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/api-insights/api-insights-config-dm.md)
+1.  [Configure data model recommendations for API clustering in API Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/api-insights/api-insights-config-dm.md).
 
     Set recommendations for clustering related API components to align the organization's data with the desired data model.
 

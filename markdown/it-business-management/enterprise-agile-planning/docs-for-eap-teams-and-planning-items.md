@@ -61,11 +61,11 @@ Dynamic linking also enables adding references to a particular field of a record
 
 You can add references from any ServiceNow table you have access to, with no setup or configuration needed.
 
-This feature reduces the need to switch between multiple ServiceNow applications within your instance and helps maintain a single, reliable source of truth for collaborative work, making it easier for teams to stay aligned and informed.
+This feature reduces the need to switch between multiple ServiceNow applications within your instance and helps maintain a single, reliable source of truth for collaborative work. This makes it easier for teams to stay aligned and informed.
 
-## Draft content using Now Assist for SPM
+## Draft content using ServiceNow Otto for SPM
 
-Generate content with Now Assist for SPM directly in your Docs using custom prompts. In addition, summarize existing sections, elaborate where needed, and refine drafts to help improve your productivity.
+Generate content with ServiceNow Otto for SPM directly in your Docs using custom prompts. In addition, summarize existing sections, elaborate where needed, and refine drafts to help improve your productivity.
 
 You can interact with Now Assist directly in your Doc to create new content, add context, or improve existing sections. This helps you draft faster, refine ideas, and keep your work relevant without leaving the page.
 

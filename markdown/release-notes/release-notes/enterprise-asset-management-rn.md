@@ -21,27 +21,27 @@ The ServiceNow® Enterprise Asset Management application manages the entire life
 -   Get support for hardware models and OT hardware assets in the OT Asset Management workspace.
 -   Benefit from accessibility improvements to create a configurable workspace that supports Web Content Accessibility Guidelines \(WCAG\) 2.1 Level AA conformance.
 
-See [Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/enterprise-asset-management.md) for more information.
+See  for more information.
 
 **Important:** Enterprise Asset Management, Enterprise Asset Management for Healthcare, Operational Technology \(OT\) Asset Management, and Expanded Model and Asset Classes are available in ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Yokohama release
 
--   **[Gain normalization coverage for firmware in your Operational Technology \(OT\) assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/normalizing-firmware-ot-assets.md)**
+-   **Gain normalization coverage for firmware in your Operational Technology \(OT\) assets**
 
     Achieve enhanced normalization across your OT deployments by normalizing the firmware that is embedded into your OT assets. Use the normalized data to track and manage the life cycles of your firmware separately from your OT assets so that you can directly detect and mitigate firmware vulnerabilities. You can view the firmware model details in the OT model management view of the OT Asset Workspace.
 
     **Note:** Firmware normalization is applicable only to OT Asset Management.
 
--   **[Manage hardware models and assets in the Operational Technology \(OT\) Asset Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/ot-asset-ws-otam.md)**
+-   **Manage hardware models and assets in the Operational Technology \(OT\) Asset Management application**
 
     Enable your OT managers to create hardware models and assets in the OT Workspace. You can integrate hardware models and OT assets into such Enterprise Asset Management flows as asset request, asset refresh, stock order, multi-asset onboarding, Return Merchandise Authorization \(RMA\), repair, and disposal. You can also generate maintenance plans and work orders for your OT hardware assets.
 
--   **[Synchronize asset and CIs for Operational Technology \(OT\) assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/asset-ci-sync-ot-assets.md)**
+-   **Synchronize asset and CIs for Operational Technology \(OT\) assets**
 
     Synchronize the MAC addresses between the asset and network adapter CI for OT assets.
 
--   **[License your OT hardware assets using the new resource categories available in OTAM licensing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/licensing-ot-asset-management.md)**
+-   **License your OT hardware assets using the new resource categories available in OTAM licensing**
 
     Access OT Asset Management features and workflows for OT hardware assets through the following hardware resource categories:
 
@@ -57,18 +57,18 @@ See [Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/S
 
     **Note:** The OTAM licensing changes apply only to OT Asset Management.
 
--   **[Manage mission-critical enterprise assets and linear assets for telecommunications networks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/eam-dcnam.md)**
+-   **Manage mission-critical enterprise assets and linear assets for telecommunications networks**
 
     Use the Enterprise Asset Management for Data Center and Network Asset Management \(DCNAM\) application to track and manage mission-critical facility-based enterprise assets and linear assets for telecommunications networks. Get a comprehensive view of these assets throughout their life cycles so that you can help optimize their performance and improve their longevity.
 
--   **[Fulfill Return Merchandise Authorization \(RMA\) requests as a Device as a Service \(DaaS\) provider, vendor, or manufacturer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/eam-providers.md)**
+-   **Fulfill Return Merchandise Authorization \(RMA\) requests as a Device as a Service \(DaaS\) provider, vendor, or manufacturer**
 
     Use the Enterprise Asset Management for Providers application to fulfill the RMA requests that you receive from customers as a DaaS provider, vendor, or manufacturer. The application adds support for RMA response orders, which enable you to track and manage the process of repairing or replacing defective assets for your RMA requests. The application also adds support for inbound asset orders, which enable you to track and manage the process of providing assets for your RMA requests. By managing these orders from a consolidated location, you can streamline your operations and improve efficiency.
 
 
 ## UI changes
 
--   **[MAC address field on the asset form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/asset-fields-eam.md)**
+-   **MAC address field on the asset form**
 
     The asset form shows the **MAC address** field for the following asset classes:
 
@@ -83,25 +83,25 @@ See [Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/S
     -   Hardware
     **Note:** The **MAC address** field is shown on the asset form in Enterprise Asset Workspace and OT Asset Workspace.
 
--   **[Child assets activity and MAC address field in the asset onboarding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/create-asset-onboarding-task-eam.md)**
+-   **Child assets activity and MAC address field in the asset onboarding playbook**
 
     The child assets activity was added to the asset onboarding playbook for preassembled industrial assets. The Asset details activity in the playbook shows the **MAC address** field.
 
     **Note:** These UI changes apply to Enterprise Asset Workspace and OT Asset Workspace.
 
--   **[MAC address field in multi-asset onboarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/asset-onboarding-eam.md)**
+-   **MAC address field in multi-asset onboarding**
 
     The **MAC address** field was added to the Add assets dialog box in multi-asset onboarding through catalog requests and onboarding orders. The Asset details activity in the Multi-asset onboarding playbook shows the MAC address that you provided.
 
     **Note:** This UI change applies to Enterprise Asset Workspace and OT Asset Workspace.
 
--   **[MAC address field in an Advanced Shipment Notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/asn-eam.md)**
+-   **MAC address field in an Advanced Shipment Notification**
 
     The **MAC address** field was added to the Download template for an Advanced Shipment Notification. After a successful import, the MAC address that you provided in the template is added to the Asset \[alm\_asset\] table. The **MAC address** field is also shown on the asset form for all assets except consumables and pallets.
 
     **Note:** This UI change applies to Enterprise Asset Workspace and OT Asset Workspace.
 
--   **[MAC address field in Bulk import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/overview-bulk-import-eam.md)**
+-   **MAC address field in Bulk import**
 
     The **MAC address** field was added to the Download template for the following Bulk import modes:
 
@@ -112,24 +112,24 @@ See [Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/S
 
     **Note:** This UI change applies to Enterprise Asset Workspace and OT Asset Workspace.
 
--   **[MAC address field in Receive Purchase Order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/t_ReceiveAnAsset.md)**
+-   **MAC address field in Receive Purchase Order**
 
     The Capture asset tags dialog box in the Receive Purchase Order shows the **MAC address** field in addition to the Serial number and Asset tag.
 
     **Note:** This UI change applies to Enterprise Asset Workspace and OT Asset Workspace.
 
--   **[OT entity flag](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/ot-asset-ws-otam.md)**
+-   **OT entity flag**
 
     The asset form shows that the OT entity flag set to true for hardware and industrial assets that were created in the OT Asset Workspace.
 
 
 ## Changed in this release
 
--   **[Refresh flow in OT workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/request-eam-assetrefresh.md)**
+-   **Refresh flow in OT workspace**
 
     For single and multi-model refresh orders, the OT manager can edit the replacement model even after the refresh order has been created in the OTAM workspace. Additionally, the sourcing location is also editable.
 
--   **[Reflow for Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/auto-reflow.md)**
+-   ****
 
     The configurable Enterprise Asset Workspace supports reflow, which enables pages and content to be zoomed up to 400% through your browser settings without loss of content or functionality.
 
@@ -143,7 +143,7 @@ Install the following applications by requesting them from ServiceNow Store:
 -   OT Asset Management
 -   Expanded Model and Asset Classes
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Accessibility information
 
@@ -153,7 +153,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 -   **Reflow**
 
-    The configurable workspace supports reflow, which enables pages and content to be zoomed up to 400% through your browser settings without loss of content or functionality. Additionally, content can be enlarged without scrolling in two dimensions at a width equivalent to 320 CSS pixels or a height equivalent to 256 CSS pixels. Page layouts are transformed into a vertical, stacked view automatically when users increase browser zoom to 400%. This enhancement helps users with low vision or who have trouble seeing web content in a browser due to monitor size, device type, poor lighting, or other situations. Reflow can be turned off with a system property for instances, experiences, and pages. See [Reflow for Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/auto-reflow.md) for details.
+    The configurable workspace supports reflow, which enables pages and content to be zoomed up to 400% through your browser settings without loss of content or functionality. Additionally, content can be enlarged without scrolling in two dimensions at a width equivalent to 320 CSS pixels or a height equivalent to 256 CSS pixels. Page layouts are transformed into a vertical, stacked view automatically when users increase browser zoom to 400%. This enhancement helps users with low vision or who have trouble seeing web content in a browser due to monitor size, device type, poor lighting, or other situations. Reflow can be turned off with a system property for instances, experiences, and pages. See  for details.
 
 
 ## Related ServiceNow applications and features
@@ -162,7 +162,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
     The ServiceNow® Field Service Management application enables your organization to manage location-based work more efficiently and safely.
 
--   **[Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/c_ContractManagement.md)**
+-   ****
 
     The ServiceNow® Contract Management application enables you to track and manage your contracts.
 

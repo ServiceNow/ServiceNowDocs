@@ -1,6 +1,6 @@
 ---
-title: Activate Now Assist skills in Now Assist for Operational Sustainability
-description: Activate a skill before you can use the generative AI capabilities for Now Assist for Operational Sustainability Management.
+title: Activate Now Assist skills in ServiceNow Otto for Operational Sustainability
+description: Activate a skill before you can use the generative AI capabilities for ServiceNow Otto for Operational Sustainability Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/environmental-social-governance/activate-now-assist-skills-for-esg.html
 release: yokohama
@@ -10,9 +10,9 @@ reading_time_minutes: 1
 breadcrumb: [Configure, Now Assist, Use, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
-# Activate Now Assist skills in Now Assist for Operational Sustainability
+# Activate Now Assist skills in ServiceNow Otto for Operational Sustainability
 
-Activate a skill before you can use the generative AI capabilities for Now Assist for Operational Sustainability Management.
+Activate a skill before you can use the generative AI capabilities for ServiceNow Otto for Operational Sustainability Management.
 
 ## Before you begin
 
@@ -43,5 +43,5 @@ If you have the sn\_generative\_ai.nsa\_admin role, you can perform the followin
 -   [Make a copy of a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/make-a-copy-of-a-now-assist-skill.md).
 -   [Troubleshoot a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/troubleshoot-a-now-assist-skill.md).
 
-**Parent Topic:**[Configure Now Assist for Operational Sustainability \(formerly ESG\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/configure-now-assist-for-esg.md)
+**Parent Topic:**[Configure ServiceNow Otto for Operational Sustainability \(formerly ESG\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/configure-now-assist-for-esg.md)
 

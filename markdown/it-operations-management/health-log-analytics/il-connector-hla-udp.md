@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 5
 keywords: [UDP, data input, integration, configuration, ServiceNow, Health Log Analytics, HLA]
-breadcrumb: [Set up integrations from Integrations Launchpad, Setting up Health Log Analytics on your ServiceNow instance, Configuring Health Log Analytics, Health Log Analytics, ITOM AIOps, IT Operations Management]
+breadcrumb: [Set up integrations from Integrations Launchpad, Setting up Health Log Analytics on your ServiceNow instance, Configuring Health Log Analytics, Health Log Analytics, ITOM Health, IT Operations Management]
 ---
 
 # Set up a UDP integration for Health Log Analytics

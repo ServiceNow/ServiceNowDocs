@@ -32,15 +32,15 @@ Use a demand as a step to identify cost-saving opportunities on the business app
 
 4.  Select the bubble for the relevant application that you want to create a demand for perform the following.
 
-<table id="choicetable_ebc_3mq_fhc"><thead><tr><th align="left" id="d33603e94">
+<table id="choicetable_ebc_3mq_fhc"><thead><tr><th align="left" id="d33489e94">
 
 Bubble type
 
-</th><th align="left" id="d33603e97">
+</th><th align="left" id="d33489e97">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d33603e103">
+</th></tr></thead><tbody><tr><td id="d33489e103">
 
 **Single bubble**
 
@@ -51,7 +51,7 @@ Action
 
 \[Omitted image "bubble-chart-menu-create-demand.png"\] Alt text: Create demand button highlighted.
 
-</td></tr><tr><td id="d33603e141">
+</td></tr><tr><td id="d33489e141">
 
 **Grouped bubble**
 

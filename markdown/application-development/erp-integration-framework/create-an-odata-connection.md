@@ -1,5 +1,5 @@
 ---
-title: Create an OData connection in Zero Copy Connector for ERP
+title: Create an OData connection in ERP Canvas
 description: Create an OData v2 connection to link to SAP via HTTP so data can be extracted for use in remote tables and extraction tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-integration-framework/create-an-odata-connection.html
@@ -9,10 +9,10 @@ classification: erp-integration-framework
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 5
-breadcrumb: [Connect Zero Copy Connector for ERP to SAP using OData and HTTP, Using ERP models, extraction tables, and remote tables, Zero Copy Connector for ERP, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Connect ERP Canvas to SAP using OData and HTTP, Using ERP models, extraction tables, and remote tables, ERP Canvas, Building low-code applications, Developing your application, Building applications]
 ---
 
-# Create an OData connection in Zero Copy Connector for ERP
+# Create an OData connection in ERP Canvas
 
 Create an OData v2 connection to link to SAP via HTTP so data can be extracted for use in remote tables and extraction tables.
 
@@ -20,13 +20,13 @@ Create an OData v2 connection to link to SAP via HTTP so data can be extracted f
 
 Role required: sn\_erp\_integration.erp\_admin
 
-For information about OData connections in Zero Copy Connector for ERP, see [Connect Zero Copy Connector for ERP to SAP using OData and HTTP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-use-odata-and-http-connection.md) and [OData capabilities supported by Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-data-hub-odata-query-capabilities.md).
+For information about OData connections in ERP Canvas, see [Connect ERP Canvas to SAP using OData and HTTP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-use-odata-and-http-connection.md) and [OData capabilities supported by ERP Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-data-hub-odata-query-capabilities.md).
 
 ## About this task
 
-An admin or a user with the sn\_erp\_integration.erp\_admin role must enable the **sn\_erp\_integration.enableModelModification** property for you to edit, customize, and clone ERP models and tables. After enabling the **sn\_erp\_integration.enableModelModification** property, Zero Copy Connector for ERP retrieves all tables and BAPIs \(Business Application Programming Interface\) to use when managing models.The property must be configured for either a non-production or production state. System properties are maintained in the System Property table \[sys\_properties\], which you can access using the module navigator, or directly typing `sys_properties.list` in the Navigator Filter.
+An admin or a user with the sn\_erp\_integration.erp\_admin role must enable the **sn\_erp\_integration.enableModelModification** property for you to edit, customize, and clone ERP models and tables. After enabling the **sn\_erp\_integration.enableModelModification** property, ERP Canvas retrieves all tables and BAPIs \(Business Application Programming Interface\) to use when managing models.The property must be configured for either a non-production or production state. System properties are maintained in the System Property table \[sys\_properties\], which you can access using the module navigator, or directly typing `sys_properties.list` in the Navigator Filter.
 
-**Note:** You must enable the **sn\_erp\_integration.enableModelModification** property on the correct scope. Enabling the **sn\_erp\_integration.enableModelModification** on a production instance can create new metadata records when new models and fields are added in Zero Copy Connector for ERP.
+**Note:** You must enable the **sn\_erp\_integration.enableModelModification** property on the correct scope. Enabling the **sn\_erp\_integration.enableModelModification** on a production instance can create new metadata records when new models and fields are added in ERP Canvas.
 
 ## Procedure
 
@@ -42,7 +42,7 @@ An admin or a user with the sn\_erp\_integration.erp\_admin role must enable the
 
 4.  Create a system with the HTTP connection.
 
-    For more information, see [Create an ERP system in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/create-an-erp-system.md).
+    For more information, see [Create an ERP system in ERP Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/create-an-erp-system.md).
 
 5.  On the system record, confirm that the heartbeats are successful and the retrieval status is complete.
 
@@ -82,7 +82,7 @@ An admin or a user with the sn\_erp\_integration.erp\_admin role must enable the
 
     \[Omitted image "erpc-odata-create-connection2.png"\] Alt text: Specify inputs screen for the entity.
 
-    For more information, see [Manage input parameters for an Zero Copy Connector for ERP model operation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erpc-manage-model-inputs.md).
+    For more information, see [Manage input parameters for an ERP Canvas model operation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erpc-manage-model-inputs.md).
 
 12. Select **Choose output** to check the information and edit as needed.
 
@@ -165,5 +165,5 @@ An admin or a user with the sn\_erp\_integration.erp\_admin role must enable the
     9.  View and check the output, for example, in **Output Data**, select the **Response** to view the output.
 
 
-**Parent Topic:**[Connect Zero Copy Connector for ERP to SAP using OData and HTTP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-use-odata-and-http-connection.md)
+**Parent Topic:**[Connect ERP Canvas to SAP using OData and HTTP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-use-odata-and-http-connection.md)
 

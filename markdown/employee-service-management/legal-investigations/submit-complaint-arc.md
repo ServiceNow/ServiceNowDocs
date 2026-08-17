@@ -32,15 +32,15 @@ Role required: sn\_lg\_ops.legal\_user
 
 1.  Open the Anonymous Report Center portal either via Employee Center portal or using a direct URL.
 
-<table id="choicetable_bkg_zx3_vfc"><thead><tr><th align="left" id="d360698e74">
+<table id="choicetable_bkg_zx3_vfc"><thead><tr><th align="left" id="d360057e74">
 
 Option
 
-</th><th align="left" id="d360698e77">
+</th><th align="left" id="d360057e77">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d360698e83">
+</th></tr></thead><tbody><tr><td id="d360057e83">
 
 **From Employee Center**
 
@@ -51,7 +51,7 @@ Steps
 3.  In the Ethics and Compliance request category page, click **Anonymous Ethics Complaint**.
 
 
-</td></tr><tr><td id="d360698e128">
+</td></tr><tr><td id="d360057e128">
 
 **Using direct URL that does not require a log in**
 
@@ -59,7 +59,7 @@ Steps
 
 Navigate to the Anonymous Report Center by accessing your instance URL and adding a /arc suffix. For example, https://example.com/arc
 
-</td></tr><tr><td id="d360698e137">
+</td></tr><tr><td id="d360057e137">
 
 **From Legal Service Portal**
 

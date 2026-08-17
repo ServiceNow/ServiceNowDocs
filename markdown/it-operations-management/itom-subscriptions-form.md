@@ -7,7 +7,7 @@ release: yokohama
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [ITOM/OT SU Licensing Reference, ITOM/OT SU Licensing and subscriptions, IT Operations Management]
+breadcrumb: [Reference, ITOM/OT SU Licensing and subscriptions, IT Operations Management]
 ---
 
 # Subscriptions form for the ITOM products
@@ -60,7 +60,7 @@ Allocated
 
 </td><td>
 
-Number of consumed subscription units from a bundle or application \(a la carte\). For bundles, this field shows the highest number of consumed subscription units by applications that are part of the bundle. For example, if ITOM Visibility consumed 300 subscription units and ITOM AIOps consumed 200 subscription units, this field shows 300 for the bundle covering these applications.
+Number of consumed subscription units from a bundle or application \(a la carte\). For bundles, this field shows the highest number of consumed subscription units by applications that are part of the bundle. For example, if ITOM Visibility consumed 300 subscription units and ITOM Health consumed 200 subscription units, this field shows 300 for the bundle covering these applications.
 
  The color code indicates the percentage of the subscription units that your organization consumed. By default, the color code threshold is 90%.
 

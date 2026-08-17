@@ -32,7 +32,7 @@ Data source
 
 </td><td>
 
-You have selected an Indicator or Usage Insights data source in [Create a horizontal or vertical bar data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-bar-ac.md).
+You have selected an Indicator or User Experience Analytics data source in [Create a horizontal or vertical bar data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-bar-ac.md).
 
  **Note:** Only one data source can be defined pareto at any given time.
 

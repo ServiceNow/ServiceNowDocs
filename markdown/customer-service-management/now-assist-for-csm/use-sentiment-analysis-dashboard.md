@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2025-09-25"
 reading_time_minutes: 3
 keywords: [Sentiment Analysis, GenAI Insights, Case Manager Dashboard, Customer Experience, Base system Insights]
-breadcrumb: [Use, Now Assist for Customer Service Management \(CSM\), Customer Service Management]
+breadcrumb: [Use, ServiceNow Otto for Customer Service Management \(CSM\), Customer Service Management]
 ---
 
 # Use sentiment analysis dashboard
@@ -57,10 +57,10 @@ All five of these insights look into each case's short description and the last 
 
 You can select **Related records** to open a new page with a list that shows the corresponding cases referenced in the graph. You can select the refresh icon \[Omitted image "refresh-sync-new.png"\] Alt text: Reload data to see the latest update.
 
-**Parent Topic:**[Using Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
+**Parent Topic:**[Using ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
 
 **Related topics**  
 
 
-[Exploring Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/now-assist-for-csm/now-assist-csm-exploring.md)
+[Exploring ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/now-assist-for-csm/now-assist-csm-exploring.md)
 

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/available-versions.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-07-06"
-reading_time_minutes: 10
+last_updated: "2026-08-13"
+reading_time_minutes: 11
 breadcrumb: [Learn about the Yokohama release, Yokohama release notes]
 ---
 
@@ -26,9 +26,9 @@ Targets are subject to change prior to patching. Target versions change only if 
 
 |Releases|Patch target option|Release notes|
 |--------|-------------------|-------------|
-|Australia|[Australia Patch 2 Hotfix 2a](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3108234)|[Australia](https://www.servicenow.com/docs/r/release-notes/available-versions.html)|
-|Zurich|[Zurich Patch 10 Hotfix 2](https://www.servicenow.com/docs/r/zurich/release-notes/zurich-patch-10-hf-2.html)|[Zurich](https://www.servicenow.com/docs/r/zurich/release-notes/available-versions.html)|
-|Yokohama|[Yokohama Patch 13 Hotfix 4](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3135831)|[Yokohama](https://www.servicenow.com/docs/r/yokohama/release-notes/available-versions.html)|
+|Australia|[Australia Patch 2 Hotfix 3b](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3138484)|[Australia](https://www.servicenow.com/docs/r/release-notes/available-versions.html)|
+|Zurich|[Zurich Patch 10 Hotfix 3a](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3138481)|[Zurich](https://www.servicenow.com/docs/r/zurich/release-notes/available-versions.html)|
+|Yokohama|[Yokohama Patch 13 Hotfix 4a](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3138483)|[Yokohama](https://www.servicenow.com/docs/r/yokohama/release-notes/available-versions.html)|
 
 ## Available versions
 
@@ -52,6 +52,118 @@ Availability
 
 </th></tr></thead><tbody><tr><td>
 
+[Yokohama Patch 13 Hotfix 5a W33](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3147915)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/08/13
+
+</td><td>
+
+Available
+
+</td></tr><tr><td>
+
+[Yokohama Patch 13 Hotfix 5a W32](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3146452)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/08/06
+
+</td><td>
+
+Available
+
+</td></tr><tr><td>
+
+[Yokohama Patch 13 Hotfix 5a](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3143609)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/07/30
+
+</td><td>
+
+Available
+
+</td></tr><tr><td>
+
+[Yokohama Patch 13 Hotfix 5 W33](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3147914)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/08/13
+
+</td><td>
+
+Available
+
+</td></tr><tr><td>
+
+[Yokohama Patch 13 Hotfix 5 W32](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3146437)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/08/06
+
+</td><td>
+
+Available
+
+</td></tr><tr><td>
+
+[Yokohama Patch 13 Hotfix 5](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3142076)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/07/24
+
+</td><td>
+
+Available
+
+</td></tr><tr><td>
+
+[Yokohama Patch 13 Hotfix 4a](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3138483)
+
+</td><td>
+
+Security patch
+
+</td><td>
+
+2026/07/21
+
+</td><td>
+
+Available
+
+</td></tr><tr><td>
+
 [Yokohama Patch 13 Hotfix 4](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3135831)
 
 </td><td>
@@ -64,7 +176,7 @@ Hotfix
 
 </td><td>
 
-Available
+Unavailable
 
 </td></tr><tr><td>
 
@@ -146,7 +258,7 @@ Hotfix
 
 </td><td>
 
-Available
+Unavailable
 
 </td></tr><tr><td>
 
@@ -722,6 +834,22 @@ Unavailable
 
 </td></tr><tr><td>
 
+[Yokohama Patch 6 Hotfix 3](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3139960)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/07/16
+
+</td><td>
+
+Unavailable
+
+</td></tr><tr><td>
+
 [Yokohama Patch 6 Hotfix 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-6-hf-2.md)
 
 </td><td>
@@ -1198,7 +1326,7 @@ For the latest MetricBase on-premise release notes, refer to [KB0748185](https:/
 
 ## Ancillary software releases
 
-For information about latest Password Reset Windows Application, ODBC driver, and all other ancillary software available for download from the ServiceNow Store, see [ServiceNow Store release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+For information about latest Password Reset Windows Application, ODBC driver, and all other ancillary software available for download from the ServiceNow Store, see [ServiceNow Store release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 -   **[Yokohama Patch 13 Hotfix 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-13-hf-2-PO.md)**  
 The Yokohama Patch 13 Hotfix 2 release contains fixes to these problems.

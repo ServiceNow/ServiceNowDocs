@@ -177,7 +177,7 @@ Now Assist
 
 </td><td>
 
-Enables you to address and help solve customer issues. You can generate summaries for records using the natural language interface of the Now Assist panel.The Now Assist panel is configured using the Now Assist Admin console.
+Enables you to address and help solve customer issues. You can generate summaries for records using the natural language interface of the Now Assist panel.The Now Assist panel is configured using the AI Admin Hub console.
 
 </td></tr><tr><td>
 

@@ -58,13 +58,21 @@ Subscription
 
 AWS Account
 
-</td><td rowspan="2">
+</td><td rowspan="4">
 
 [Cloud Service Account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
 
 </td></tr><tr><td>
 
 Azure Subscription
+
+</td></tr><tr><td>
+
+OCI Compartment​
+
+</td></tr><tr><td>
+
+Alibaba Account​
 
 </td></tr><tr><td>
 
@@ -78,19 +86,13 @@ GCP Project
 
 </td></tr><tr><td>
 
-OCI Compartment​
-
-</td><td rowspan="3">
-
-[VMware vCenter Datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
-
-</td></tr><tr><td>
-
-Alibaba Account​
-
-</td></tr><tr><td>
-
 vSphere Datacenter​
+
+</td><td>
+
+[Cloud Service Account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
+
+ [VMware vCenter Datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
 
 </td></tr><tr><td rowspan="5">
 
@@ -266,7 +268,7 @@ AWS EC2 Instance
 
 </td><td rowspan="8">
 
-[Virtual Machine Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md), [Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md), [Hardware Type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
+[Virtual Machine Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md), [Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md), [Hardware Type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md), [Cloud Hardware Type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
 
 </td></tr><tr><td>
 

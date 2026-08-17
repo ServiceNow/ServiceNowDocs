@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2025-09-02"
 reading_time_minutes: 1
 keywords: [ServiceNow, Health Log Analytics, HLA, source types, log source, migrate, export, update set]
-breadcrumb: [Migrating Health Log Analytics data input configurations between instances, Setting up Health Log Analytics on your ServiceNow instance, Configuring Health Log Analytics, Health Log Analytics, ITOM AIOps, IT Operations Management]
+breadcrumb: [Migrating Health Log Analytics data input configurations between instances, Setting up Health Log Analytics on your ServiceNow instance, Configuring Health Log Analytics, Health Log Analytics, ITOM Health, IT Operations Management]
 ---
 
 # Export source types by log source

@@ -1,6 +1,6 @@
 ---
-title: Customize a Now Assist for Supplier Lifecycle Operations \(SLO\) skill for Case summarization
-description: If you have the admin role, you can customize a Now Assist for Supplier Lifecycle Operations \(SLO\) skill. By customizing a skill, supplier managers can use the generative AI skills in Source-to-Pay Workspace and in Core UI.
+title: Customize a ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) skill for Case summarization
+description: If you have the admin role, you can customize a ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) skill. By customizing a skill, supplier managers can use the generative AI skills in Source-to-Pay Workspace and in Core UI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-cust-skill.html
 release: yokohama
@@ -10,12 +10,12 @@ topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 4
 keywords: [generative AI, gen AI, genai, artificial intelligence]
-breadcrumb: [Configure Now Assist for Supplier Lifecycle Operations \(SLO\), Now Assist for Supplier Lifecycle Operations \(SLO\), Supplier Lifecycle Operations, Finance and Supply Chain]
+breadcrumb: [Configure ServiceNow Otto for Supplier Lifecycle Operations \(SLO\), ServiceNow Otto for Supplier Lifecycle Operations \(SLO\), Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 
-# Customize a Now Assist for Supplier Lifecycle Operations \(SLO\) skill for Case summarization
+# Customize a ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) skill for Case summarization
 
-If you have the admin role, you can customize a Now Assist for Supplier Lifecycle Operations \(SLO\) skill. By customizing a skill, supplier managers can use the generative AI skills in Source-to-Pay Workspace and in Core UI.
+If you have the admin role, you can customize a ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) skill. By customizing a skill, supplier managers can use the generative AI skills in Source-to-Pay Workspace and in Core UI.
 
 ## Before you begin
 
@@ -23,13 +23,13 @@ Role required: admin
 
 ## About this task
 
-From the Now Assist Admin console, you can select the input table, related records, and fields for each input template of the Case summarization skill. You can then configure the prompt headers to include them in the general summary.
+From the AI Admin Hub console, you can select the input table, related records, and fields for each input template of the Case summarization skill. You can then configure the prompt headers to include them in the general summary.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Features** to access the **Now Assist Features** tab of the Now Assist Admin console.
+1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Features** to access the **Now Assist Features** tab of the AI Admin Hub console.
 
-2.  In the **Finance and Supply Chain** workflow group, select **Supplier Lifecycle Operations** to view the skill for the Now Assist for SLO feature.
+2.  In the **Finance and Supply Chain** workflow group, select **Supplier Lifecycle Operations** to view the skill for the ServiceNow Otto for SLO feature.
 
 3.  Create a copy of the skill and customize the input fields.
 
@@ -47,7 +47,7 @@ From the Now Assist Admin console, you can select the input table, related recor
 
 4.  In the General details step, fill in the fields.
 
-    For information about the inputs for each skill, see [Skill input for Now Assist for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-skill-input-triggers.md).
+    For information about the inputs for each skill, see [Skill input for ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-skill-input-triggers.md).
 
     1.  Enter a name and description for the skill.
 

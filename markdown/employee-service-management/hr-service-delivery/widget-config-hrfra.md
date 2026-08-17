@@ -25,5 +25,5 @@ These widgets are available only when the Human Resources Scoped App: Core \[com
 
 [Components installed with Enterprise Service Management Integrations Framework]()
 
-[Now Assist for HR Service Delivery \(HRSD\) Virtual Agent topic mapping for Enterprise Service Management Integrations Framework]()
+[ServiceNow Otto for HR Service Delivery \(HRSD\) Virtual Agent topic mapping for Enterprise Service Management Integrations Framework]()
 

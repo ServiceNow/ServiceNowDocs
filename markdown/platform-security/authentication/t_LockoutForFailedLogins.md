@@ -9,7 +9,7 @@ classification: authentication
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Defining login scenarios, Local Authentication, Authentication, Access Management]
+breadcrumb: [Define login scenarios, Local Authentication, Authentication, Access Management]
 ---
 
 # Specify lockout for failed login attempts

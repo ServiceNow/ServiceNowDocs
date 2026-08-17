@@ -83,5 +83,5 @@ The space type is configured. You can select this space type while creating a sp
 
 [Location migration]()
 
-[View workplace service usage analytics with Usage Insights]()
+[View workplace service usage analytics with User Experience Analytics]()
 

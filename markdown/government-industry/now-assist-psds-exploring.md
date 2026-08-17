@@ -1,18 +1,18 @@
 ---
-title: Exploring Now Assist for Public Sector Digital Services \(PSDS\)
-description: With the Now Assist for Public Sector Digital Services \(PSDS\) application, your agents can use generative AI to summarize the details and comment activity of each public service case to get the context of the case. They can also generate the case resolution notes to share with other agents.
+title: Exploring ServiceNow Otto for Public Sector Digital Services \(PSDS\)
+description: With the ServiceNow Otto for Public Sector Digital Services \(PSDS\) application, your agents can use generative AI to summarize the details and comment activity of each public service case to get the context of the case. They can also generate the case resolution notes to share with other agents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/now-assist-psds-exploring.html
 release: yokohama
 topic_type: concept
 last_updated: "2025-09-18"
 reading_time_minutes: 3
-breadcrumb: [Now Assist for PSDS, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [ServiceNow Otto for PSDS, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Exploring Now Assist for Public Sector Digital Services \(PSDS\)
+# Exploring ServiceNow Otto for Public Sector Digital Services \(PSDS\)
 
-With the Now Assist for Public Sector Digital Services \(PSDS\) application, your agents can use generative AI to summarize the details and comment activity of each public service case to get the context of the case. They can also generate the case resolution notes to share with other agents.
+With the ServiceNow Otto for Public Sector Digital Services \(PSDS\) application, your agents can use generative AI to summarize the details and comment activity of each public service case to get the context of the case. They can also generate the case resolution notes to share with other agents.
 
 The following generative AI capabilities are available for an agent:
 
@@ -21,7 +21,7 @@ The following generative AI capabilities are available for an agent:
 
 ## Skills
 
-The Now Assist for PSDS application includes the generative AI skills that enable your agents to understand the case context so that they can propose resolutions to the constituent or approve an application faster.
+The ServiceNow Otto for PSDS application includes the generative AI skills that enable your agents to understand the case context so that they can propose resolutions to the constituent or approve an application faster.
 
 -   **Case summarization**
 

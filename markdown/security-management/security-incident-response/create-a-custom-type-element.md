@@ -44,15 +44,15 @@ Role required: sn\_msi.workspace\_manager
 
 9.  On the Custom content form, fill in the fields.
 
-<table id="choicetable_dyq_gmn_ysb"><thead><tr><th align="left" id="d410749e142">
+<table id="choicetable_dyq_gmn_ysb"><thead><tr><th align="left" id="d414426e142">
 
 Field
 
-</th><th align="left" id="d410749e145">
+</th><th align="left" id="d414426e145">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d410749e151">
+</th></tr></thead><tbody><tr><td id="d414426e151">
 
 **Dynamic content**
 
@@ -60,7 +60,7 @@ Description
 
 Enter the dynamic content such as the template scripts.
 
-</td></tr><tr><td id="d410749e160">
+</td></tr><tr><td id="d414426e160">
 
 **Run time configurable**
 
@@ -68,7 +68,7 @@ Enter the dynamic content such as the template scripts.
 
 Select this check box if the custom element type is run time configurable.
 
-</td></tr><tr><td id="d410749e169">
+</td></tr><tr><td id="d414426e169">
 
 **Runtime config UX App Route**
 

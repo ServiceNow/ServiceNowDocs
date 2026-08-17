@@ -1,5 +1,5 @@
 ---
-title: Request order changes using Now Assist for Order Management
+title: Request order changes using ServiceNow Otto for Order Management
 description: Request expedited delivery for your order in natural language using the Now Assist Virtual Assistant on Business Portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/request-order-changes-now-assist.html
@@ -8,10 +8,10 @@ topic_type: task
 last_updated: "2025-11-04"
 reading_time_minutes: 2
 keywords: [AI features, Now Assist on Business Portal]
-breadcrumb: [AI agents in Order Management, Use, Now Assist for Order Management]
+breadcrumb: [AI agents in Order Management, Use, ServiceNow Otto for Order Management]
 ---
 
-# Request order changes using Now Assist for Order Management
+# Request order changes using ServiceNow Otto for Order Management
 
 Request expedited delivery for your order in natural language using the Now Assist Virtual Assistant on Business Portal.
 
@@ -20,7 +20,7 @@ Request expedited delivery for your order in natural language using the Now Assi
 The following applications must be installed and configured on your ServiceNow instance:
 
 -   Now Assist for Platform \(sn\_genai\_platform\)
--   Now Assist for Order Management \(sn\_now\_assist\_om\)
+-   ServiceNow Otto for Order Management \(sn\_now\_assist\_om\)
 -   Order Case Self Service \(sn\_ord\_case\_ss\)
 
 A working Available-to-Promise \(ATP\) API call must be configured to query your external inventory systems. For more information, see [Configure ATP API for the manage order operations agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/create-atp-api-call.md).
@@ -68,5 +68,5 @@ When you submit a request through the Virtual Assistant, the AI agent performs t
 **Related topics**  
 
 
-[Configuring Now Assist for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/now-assist-for-order-management-configuring.md)
+[Configuring ServiceNow Otto for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/now-assist-for-order-management-configuring.md)
 

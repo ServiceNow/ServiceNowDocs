@@ -1,6 +1,6 @@
 ---
 title: Configuring Now Assist settings and features
-description: Use the Now Assist Admin console to activate the various Now Assist applications and skills that you’re entitled to.
+description: Use the AI Admin Hub console to activate the various Now Assist applications and skills that you’re entitled to.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/configuring-na-landing.html
 release: yokohama
@@ -13,13 +13,13 @@ breadcrumb: [Now Assist, Enable AI experiences]
 
 # Configuring Now Assist settings and features
 
-Use the Now Assist Admin console to activate the various Now Assist applications and skills that you’re entitled to.
+Use the AI Admin Hub console to activate the various Now Assist applications and skills that you’re entitled to.
 
 ## Configuration overview
 
-Use **Settings** on the Now Assist Admin console to activate the plugins, turn on the Now Assist panel and manage data processing, LLMs \(Large language models\), Now Assist Guardian, and view the account settings. You must install at least one Now Assist application before you can configure any skills.
+Use **Settings** on the AI Admin Hub console to activate the plugins, turn on the Now Assist panel and manage data processing, LLMs \(Large language models\), AI Guardian, and view the account settings. You must install at least one Now Assist application before you can configure any skills.
 
-The following example shows the Settings page with three available plugins to install, including Now Assist for Integrated Risk Management \(IRM\).
+The following example shows the Settings page with three available plugins to install, including ServiceNow Otto for Integrated Risk Management \(IRM\).
 
 \[Omitted image "config-now-assist-1.png"\] Alt text: Now Assist settings page that lets you install plugins, activate the Now Assist panel, and view account details.
 
@@ -38,7 +38,7 @@ Edit the configuration of a Now Assist skill to choose the inputs or triggers an
 -   **[Make a copy of a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/make-a-copy-of-a-now-assist-skill.md)**  
 The 'Make a copy' feature enables you to create a copy of a Now Assist skill so that you can experiment with skill settings and configure the skill to fit your business needs.
 -   **[Troubleshoot a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/troubleshoot-a-now-assist-skill.md)**  
-Run diagnostics for a skill on the Now Assist Admin console and get information about the status of your skill configuration.
+Run diagnostics for a skill on the AI Admin Hub console and get information about the status of your skill configuration.
 -   **[Analyzing Now Assist usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-analytics-and-monitoring.md)**  
 Use the Now Assist analytics and monitoring tools in the Overview page to review the summaries, skill usage information, and issues that need your attention.
 -   **[Configure general Now Assist settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/configure-now-assist-admin-settings.md)**  

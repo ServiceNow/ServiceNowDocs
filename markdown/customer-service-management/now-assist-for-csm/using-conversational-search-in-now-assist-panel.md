@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1
 keywords: [generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
-breadcrumb: [Use, Now Assist for Customer Service Management \(CSM\), Customer Service Management]
+breadcrumb: [Use, ServiceNow Otto for Customer Service Management \(CSM\), Customer Service Management]
 ---
 
 # Using conversational search in Now Assist panel
@@ -34,5 +34,5 @@ To use the feature, do the following:
 
 To get started with configuring the Now Assist Q&amp;A Skill, see the step-by step the instructions.
 
-**Parent Topic:**[Using Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
+**Parent Topic:**[Using ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
 

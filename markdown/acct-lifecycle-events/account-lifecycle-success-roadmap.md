@@ -7,7 +7,7 @@ release: yokohama
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Create a success blueprint, Create a success blueprint template, Configure customer success, Customer success, Customer Success Management]
+breadcrumb: [Create a success blueprint, Create a success blueprint template, Configure customer success, Customer success, Account Lifecycle Events]
 ---
 
 # Success initiative roadmap

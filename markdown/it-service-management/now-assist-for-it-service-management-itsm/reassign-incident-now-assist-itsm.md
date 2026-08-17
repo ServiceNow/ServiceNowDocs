@@ -1,5 +1,5 @@
 ---
-title: Summarize an incident when reassigning it by using Now Assist for IT Service Management \(ITSM\)
+title: Summarize an incident when reassigning it by using ServiceNow Otto for IT Service Management \(ITSM\)
 description: Provide information about the incident when assigning it to another agent or assignment group by summarizing all actions until hand off. For example, an agent can summarize an incident when reassigning it to another agent if the incident is incorrectly assigned or needs troubleshooting by another agent or assignment group.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/now-assist-for-it-service-management-itsm/reassign-incident-now-assist-itsm.html
@@ -10,10 +10,10 @@ topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
-breadcrumb: [Summarize an incident, Use generative AI skills, Now Assist for IT Service Management \(ITSM\), IT Service Management]
+breadcrumb: [Summarize an incident, Use generative AI skills, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 
-# Summarize an incident when reassigning it by using Now Assist for IT Service Management \(ITSM\)
+# Summarize an incident when reassigning it by using ServiceNow Otto for IT Service Management \(ITSM\)
 
 Provide information about the incident when assigning it to another agent or assignment group by summarizing all actions until hand off. For example, an agent can summarize an incident when reassigning it to another agent if the incident is incorrectly assigned or needs troubleshooting by another agent or assignment group.
 
@@ -31,15 +31,15 @@ You can reassign an incident in Core UI and Service Operations Workspace for ITS
 
 2.  Perform one of the following steps.
 
-<table id="choicetable_ftd_4w2_lzb"><thead><tr><th align="left" id="d100459e106">
+<table id="choicetable_ftd_4w2_lzb"><thead><tr><th align="left" id="d100485e106">
 
 Option
 
-</th><th align="left" id="d100459e109">
+</th><th align="left" id="d100485e109">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d100459e115">
+</th></tr></thead><tbody><tr><td id="d100485e115">
 
 **From the Overview tab of an incident in Service Operations Workspace for ITSM**
 
@@ -47,7 +47,7 @@ Description
 
 Select **Reassign**.
 
-</td></tr><tr><td id="d100459e132">
+</td></tr><tr><td id="d100485e132">
 
 **From the Details tab of an incident in Service Operations Workspace for ITSM**
 
@@ -57,7 +57,7 @@ Select **Reassign**.
 2.  Select **Save**.
 
 
-</td></tr><tr><td id="d100459e164">
+</td></tr><tr><td id="d100485e164">
 
 **Core UI**
 

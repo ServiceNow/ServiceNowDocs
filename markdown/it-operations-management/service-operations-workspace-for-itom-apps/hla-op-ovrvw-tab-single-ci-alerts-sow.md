@@ -1,5 +1,5 @@
 ---
-title: Information on the Overview tab for a Log Analytics alert
+title: Information on the Log Analytics alert Overview tab
 description: The Overview tab in the Service Operations Workspace helps you understand Log Analytics alerts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-ovrvw-tab-single-ci-alerts-sow.html
@@ -9,10 +9,10 @@ classification: service-operations-workspace-for-itom-apps
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Take action on a Health Log Analytics alert from the Overview tab, Using Service Operations Workspace for ITOM Log Analytics, Using Service Operations Workspace for ITOM, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
+breadcrumb: [Take action on a Health Log Analytics alert from the Overview tab, Using Service Operations Workspace for ITOM Log Analytics, Using Service Operations Workspace for ITOM, Service Operations Workspace for ITOM, ITOM Health, IT Operations Management]
 ---
 
-# Information on the Overview tab for a Log Analytics alert
+# Information on the Log Analytics alert Overview tab
 
 The **Overview** tab in the Service Operations Workspace helps you understand Log Analytics alerts.
 

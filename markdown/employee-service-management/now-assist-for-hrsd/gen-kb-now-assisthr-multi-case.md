@@ -1,6 +1,6 @@
 ---
 title: Generate a knowledge article from multiple cases
-description: Create drafts of knowledge articles from multiple cases with the Now Assist for HR Service Delivery \(HRSD\) application. Use generative AI to gather and create the content from multiple cases so that you can reduce the amount of time that you would have spent manually to get the same information.
+description: Create drafts of knowledge articles from multiple cases with the ServiceNow Otto for HR Service Delivery \(HRSD\) application. Use generative AI to gather and create the content from multiple cases so that you can reduce the amount of time that you would have spent manually to get the same information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/now-assist-for-hrsd/gen-kb-now-assisthr-multi-case.html
 release: yokohama
@@ -9,12 +9,12 @@ classification: now-assist-for-hrsd
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 6
-breadcrumb: [Use generative AI skills, Now Assist for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
+breadcrumb: [Use generative AI skills, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
 # Generate a knowledge article from multiple cases
 
-Create drafts of knowledge articles from multiple cases with the Now Assist for HR Service Delivery \(HRSD\) application. Use generative AI to gather and create the content from multiple cases so that you can reduce the amount of time that you would have spent manually to get the same information.
+Create drafts of knowledge articles from multiple cases with the ServiceNow Otto for HR Service Delivery \(HRSD\) application. Use generative AI to gather and create the content from multiple cases so that you can reduce the amount of time that you would have spent manually to get the same information.
 
 ## Before you begin
 
@@ -25,14 +25,14 @@ Create drafts of knowledge articles from multiple cases with the Now Assist for 
     -   Latest version of Agent Workspace for HR Case Management \[sn\_hr\_agent\_ws\]
     -   Human Resources Scoped App: Lifecycle Events \[com.sn\_hr\_lifecycle\_events\]
     -   Human Resources Scoped App: Employee Relations \[com.sn\_hr\_employee\_relations\]
--   Activate the KB generation skill from the Now Assist Admin console. For more information, see [.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md)
+-   Activate the KB generation skill from the AI Admin Hub console. For more information, see [.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md)
 
 Role required:
 
 -   sn\_hr\_core.case\_reader and sn\_hr\_core.kb\_writer roles to view the **Generate article** option on the HR Case \[sn\_hr\_core\_case\] and its extended tables.
 -   sn\_hr\_le.case\_reader and sn\_hr\_core.kb\_writer roles to view the **Generate article** option on HR Lifecycle Events Cases.
 -   sn\_hr\_er.case\_reader, sn\_hr\_core.kb\_writer roles to view the **Generate article** option on the employee relations cases.
--   You must have the required role for the knowledge base that you selected in the Now Assist Admin configuration.
+-   You must have the required role for the knowledge base that you selected in the AI Admin Hub configuration.
 
 **Note:** For Core UI users, in the **AI search indexed sources**, you must set the **Active** state to **true** for the HR Case \(source: HR Case sn\_hr\_core\_case\) table. The required roles to make this change are the **HR Admin** and **Agent** roles.
 
@@ -80,30 +80,30 @@ You can make a copy of this skill to configure it to meet your business needs. F
     Now Assist has generated your article from multiple cases.
 
 
-**Parent Topic:**[Use Now Assist for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/use-now-assist-hr.md)
+**Parent Topic:**[Use ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/use-now-assist-hr.md)
 
 **Related topics**  
 
 
-[Summarize a chat conversation by using Now Assist for HR Service Delivery \(HRSD\)]()
+[Summarize a chat conversation by using ServiceNow Otto for HR Service Delivery \(HRSD\)]()
 
-[Summarize a Sidebar discussion by using Now Assist for HR Service Delivery \(HRSD\)]()
+[Summarize a Sidebar discussion by using ServiceNow Otto for HR Service Delivery \(HRSD\)]()
 
-[Generate a chat reply recommendation by using Now Assist for HR Service Delivery \(HRSD\)]()
+[Generate a chat reply recommendation by using ServiceNow Otto for HR Service Delivery \(HRSD\)]()
 
 [Generate a knowledge article from HR Agent Workspace with Now Assist]()
 
-[Generate an email reply recommendation by using Now Assist for HR Service Delivery \(HRSD\)]()
+[Generate an email reply recommendation by using ServiceNow Otto for HR Service Delivery \(HRSD\)]()
 
-[Summarize an HR case using Now Assist for HRSD]()
+[Summarize an HR case using ServiceNow Otto for HRSD]()
 
-[Generate resolution notes using Now Assist for HRSD]()
+[Generate resolution notes using ServiceNow Otto for HRSD]()
 
 [View employee summary reports]()
 
 [Summarize actions while transferring an HR case]()
 
-[Use Knowledge Graph in Now Assist for HRSD]()
+[Use Knowledge Graph in ServiceNow Otto for HRSD]()
 
 [Use Galileo Inside to answer HR-related questions]()
 
@@ -111,9 +111,9 @@ You can make a copy of this skill to configure it to meet your business needs. F
 
 [Submit an HR request with Gen AI Virtual Agent]()
 
-[Now Assist for HR Service Delivery \(HRSD\) integration with Enterprise Service Management Integrations Framework]()
+[ServiceNow Otto for HR Service Delivery \(HRSD\) integration with Enterprise Service Management Integrations Framework]()
 
-[Detect sensitive topics by using sensitivity detection in Now Assist for HR Service Delivery \(HRSD\)]()
+[Detect sensitive topics by using sensitivity detection in ServiceNow Otto for HR Service Delivery \(HRSD\)]()
 
-[Analyze sentiments in Now Assist for HR Service Delivery \(HRSD\)]()
+[Analyze sentiments in ServiceNow Otto for HR Service Delivery \(HRSD\)]()
 

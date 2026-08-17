@@ -1,6 +1,6 @@
 ---
-title: Using Now Assist for RPA Hub
-description: If you're a RPA Desktop Design Studio user, you can create automations, activities, and automation logic additions from text instructions and preview options by using the Now Assist for RPA Hub application.
+title: Using ServiceNow Otto for RPA Hub
+description: If you're a RPA Desktop Design Studio user, you can create automations, activities, and automation logic additions from text instructions and preview options by using the ServiceNow Otto for RPA Hub application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/rpa-hub/use-now-assist-rpa-hub.html
 release: yokohama
@@ -10,12 +10,12 @@ topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1
 keywords: [Now Assist, generative AI]
-breadcrumb: [Now Assist for RPA Hub, Robotic Process Automation \(RPA\) Hub, Data and Automation]
+breadcrumb: [ServiceNow Otto for RPA Hub, Robotic Process Automation \(RPA\) Hub, Data and Automation]
 ---
 
-# Using Now Assist for RPA Hub
+# Using ServiceNow Otto for RPA Hub
 
-If you're a RPA Desktop Design Studio user, you can create automations, activities, and automation logic additions from text instructions and preview options by using the Now Assist for RPA Hub application.
+If you're a RPA Desktop Design Studio user, you can create automations, activities, and automation logic additions from text instructions and preview options by using the ServiceNow Otto for RPA Hub application.
 
 Perform the following tasks by using the RPA Desktop Design Studio application.
 

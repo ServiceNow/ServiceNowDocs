@@ -1,6 +1,6 @@
 ---
 title: Mobile analytics viewer \[mobile\_analytics\_viewer\]
-description: View Usage Insights in the application navigator. Assigned users have viewer role permissions for Usage Insights for mobile applications.
+description: View User Experience Analytics in the application navigator. Assigned users have viewer role permissions for User Experience Analytics for mobile applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/usage-insights/uxa-role-5.html
 release: yokohama
@@ -9,12 +9,12 @@ classification: usage-insights
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Roles installed with Usage Insights, User Experience Analytics reference, User Experience Analytics, Platform Analytics]
+breadcrumb: [Roles installed with User Experience Analytics, User Experience Analytics reference, User Experience Analytics, Platform Analytics]
 ---
 
 # Mobile analytics viewer \[mobile\_analytics\_viewer\]
 
-View Usage Insights in the application navigator. Assigned users have viewer role permissions for Usage Insights for mobile applications.
+View User Experience Analytics in the application navigator. Assigned users have viewer role permissions for User Experience Analytics for mobile applications.
 
 ## Contains Roles
 
@@ -34,5 +34,5 @@ None.
 
 For more information, see [User Experience Analytics for mobile applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/mobile/mobile-analytics.md).
 
-**Parent Topic:**[Roles installed with Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/components-installed-user-exp-analytics.md)
+**Parent Topic:**[Roles installed with User Experience Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/components-installed-user-exp-analytics.md)
 

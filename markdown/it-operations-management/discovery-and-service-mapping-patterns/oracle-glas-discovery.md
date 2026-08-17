@@ -16,18 +16,76 @@ breadcrumb: [Available discovery patterns, Discovery patterns used by ITOM Visib
 
 The ServiceNow Discovery application uses the Oracle GLAS Data Collection pattern extensions to discover Oracle GLAS data. This data includes discovered Oracle Database, Middleware, and Java configuration items.
 
-Oracle GLAS Data Collection patterns are extensions of the following patterns:
+The following patterns collect Oracle GLAS data.
 
--   Oracle Database on UNIX and Windows patterns
--   Oracle Middleware on Linux for the following patterns:
-    -   Oracle Tuxedo
-    -   WebLogic
-    -   Linux
--   Oracle Java on Java installation pattern
+<table id="table_nh2_vlb_qjc"><thead><tr><th>
 
-The Oracle Database and Middleware patterns execute the pattern extensions, and the data collected is stored in the ServiceNow tables for GLAS data.
+Pattern
 
-For details on how to view and download the collected Oracle GLAS data, see [Download Oracle Global License Advisory Services \(GLAS\) data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/download-oracle-glas-data.md).
+</th><th>
+
+Extends pattern
+
+</th></tr></thead><tbody><tr><td>
+
+Oracle GLAS Data Collection
+
+</td><td>
+
+-   Oracle DB On Unix
+-   Oracle DB On Windows
+
+</td></tr><tr><td>
+
+Oracle GLAS Data Collection V2
+
+</td><td>
+
+-   Oracle DB On Unix
+-   Oracle DB On Windows
+
+</td></tr><tr><td>
+
+Oracle GLAS - Collect Middleware Data for Tuxedo
+
+</td><td>
+
+Tuxedo
+
+</td></tr><tr><td>
+
+Oracle GLAS - Collect Middleware Data for Weblogic
+
+</td><td>
+
+WebLogic
+
+</td></tr><tr><td>
+
+Oracle GLAS Data Collection for Non-SQL
+
+</td><td>
+
+Linux Server
+
+</td></tr><tr><td>
+
+Oracle GLAS HW Data Collection for Non-SQL
+
+</td><td>
+
+Windows OS - Servers
+
+</td></tr><tr><td>
+
+Java Installation
+
+</td><td>
+
+N/A \(standalone pattern\)
+
+</td></tr></tbody>
+</table>For details on how to view and download the collected Oracle GLAS data, see [Download Oracle Global License Advisory Services \(GLAS\) data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/download-oracle-glas-data.md).
 
 To learn about the supported versions of Oracle, refer to [Detailed information on products discovered by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-visibility/r_SupportedApplications.md).
 
@@ -35,7 +93,7 @@ The Data Collection for Oracle Global Licensing and Advisory Services applicatio
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Prerequisites
 

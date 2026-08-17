@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 7
 breadcrumb: [Microsoft Exchange Online integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -26,25 +26,25 @@ Role required: sn\_si.admin
 
 2.  Locate the Microsoft Exchange Online tile.
 
-3.  Click **Configure**.
+3.  Select **Configure**.
 
     \[Omitted image "ms-7-24-config.png"\] Alt text: Microsoft Exchange Online configuration tile.
 
-4.  In the Microsoft Exchange Online Configuration dialog that is displayed, click **Configure Exchange Online**.
+4.  In the Microsoft Exchange Online Configuration dialog that is displayed, select **Configure Exchange Online**.
 
     An example of a completed and validated form follows the table.
 
     \[Omitted image "ms-configure-tile.png"\] Alt text: Configure Exchange Online link highlighted.
 
-<table id="choicetable_erq_lmy_c2b"><thead><tr><th align="left" id="d296428e137">
+<table id="choicetable_erq_lmy_c2b"><thead><tr><th align="left" id="d299472e137">
 
 Option
 
-</th><th align="left" id="d296428e140">
+</th><th align="left" id="d299472e140">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d296428e146">
+</th></tr></thead><tbody><tr><td id="d299472e146">
 
 **__Connection Settings tab__**
 
@@ -52,7 +52,7 @@ Description
 
  
 
-</td></tr><tr><td id="d296428e157">
+</td></tr><tr><td id="d299472e157">
 
 **Tenant**
 
@@ -60,7 +60,7 @@ Description
 
 The Microsoft Exchange Online tenant that you want to perform searches on. This text is the unique name that appears after @ for email addresses for your organization. For this example, `snowsecops.onmicrosoft.com` is the tenant \(domain\).
 
-</td></tr><tr><td id="d296428e172">
+</td></tr><tr><td id="d299472e172">
 
 **Certificate Thumbprint**
 
@@ -68,7 +68,7 @@ The Microsoft Exchange Online tenant that you want to perform searches on. This 
 
 A certificate thumbprint is a hash of a certificate, computed over all certificate data and its signature. Thumbprints are used as unique identifiers for certificates, in applications when making trust decisions, in configuration files, and displayed in interfaces.
 
-</td></tr><tr><td id="d296428e184">
+</td></tr><tr><td id="d299472e184">
 
 **OAuth Application ID**
 
@@ -76,7 +76,7 @@ A certificate thumbprint is a hash of a certificate, computed over all certifica
 
 The Application \(client\) ID that was generated for the account that you created in the Microsoft Azure portal. For more information, see [Set up your Microsoft Azure account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/ms-azure-account.md).
 
-</td></tr><tr><td id="d296428e213">
+</td></tr><tr><td id="d299472e213">
 
 **OAuth Client Secret**
 
@@ -84,7 +84,7 @@ The Application \(client\) ID that was generated for the account that you create
 
 Password \(client secret\) for the account that you created in the Microsoft Azure portal. For more information, see [Set up your Microsoft Azure account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/ms-azure-account.md).
 
-</td></tr><tr><td id="d296428e241">
+</td></tr><tr><td id="d299472e241">
 
 **__Additional Settings tab__**
 
@@ -92,7 +92,7 @@ Password \(client secret\) for the account that you created in the Microsoft Azu
 
  
 
-</td></tr><tr><td id="d296428e252">
+</td></tr><tr><td id="d299472e252">
 
 **Email Search Window \(days\)**
 
@@ -100,9 +100,9 @@ Password \(client secret\) for the account that you created in the Microsoft Azu
 
 The email search history range in number of days. The integration searches for email messages that have been sent or received in the Microsoft Exchange Online server for the number of calendar days that you enter. You’re required to enter a value between 1-30. 30 days is the default and the maximum number of days you can enter for a search. Entering a low number of days in the search window range improves response time, but you may not capture all matched messages as a result. This global setting is for all searches.
 
-Prior to executing the email search, there are no parameters that permit you to change this value for individual searches.
+Before executing the email search, there are no parameters that permit you to change this value for individual searches.
 
-</td></tr><tr><td id="d296428e269">
+</td></tr><tr><td id="d299472e269">
 
 **Maximum Search Duration**
 
@@ -110,7 +110,7 @@ Prior to executing the email search, there are no parameters that permit you to 
 
 Use this option to set the search timeout threshold. If the timeout threshold is reached, the search ends and no results are displayed. You can specify a default value of 90 minutes and a maximum value of 240 minutes. By setting this threshold, you can avoid endless search loops that could cause performance issues on the Microsoft Exchange Online tenant and the ServiceNow instance.
 
-</td></tr><tr><td id="d296428e284">
+</td></tr><tr><td id="d299472e284">
 
 **Tagging**
 
@@ -124,7 +124,7 @@ Security tag. Default is selected.
 
  For more information, see [Edit security tags for the Microsoft Exchange Online integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/ms-edit-tags.md).
 
-</td></tr><tr><td id="d296428e319">
+</td></tr><tr><td id="d299472e319">
 
 **Recover Deleted Emails**
 
@@ -138,7 +138,7 @@ If you want users to recover the emails you delete, select this check box.
 
 If this check box is selected, depending on how the user's account is configured in Microsoft Exchange Online, the emails you delete using the workflow of this integration are placed in the Deleted Items folder in the mailbox of the user. If an account is configured so that the user can view the Deleted Items folder in their mailbox, the user can recover the emails you delete from their Microsoft Exchange Online account. For more information, see [Recover deleted items or email in Outlook Web App](https://support.office.com/en-us/article/recover-deleted-items-or-email-in-outlook-web-app-c3d8fc15-eeef-4f1c-81df-e27964b7edd4?ui=en-US&rs=en-US&ad=US).
 
-</td></tr><tr><td id="d296428e348">
+</td></tr><tr><td id="d299472e348">
 
 **Search Completion Notification**
 
@@ -146,7 +146,7 @@ If this check box is selected, depending on how the user's account is configured
 
 Select this option to enable notifications when the search is completed. If the **Enable** check box is selected, you’ll receive notifications if any matching emails are found. If the check box is cleared, search completion notifications aren’t sent.
 
-</td></tr><tr><td id="d296428e363">
+</td></tr><tr><td id="d299472e363">
 
 **Approvals**
 
@@ -162,7 +162,7 @@ Request approval to delete emails. Default is cleared.
 
  After a request is submitted to an approval group, only one approval is required from the group to complete the request. Any member of the approval group has approval authority. Having a group with more than one person with approval permission ensures that these requests are processed in a timely way.
 
-</td></tr><tr><td id="d296428e390">
+</td></tr><tr><td id="d299472e390">
 
 **Failure Notifications**
 
@@ -170,30 +170,28 @@ Request approval to delete emails. Default is cleared.
 
 Select the check box to enable failure notifications when the search or delete action fails due to invalid OAuth credentials. If Enabled, failure notifications are sent through email to each member of the failure notifications group when OAuth credentials are invalid. If the check box is cleared, no failure notifications are sent.
 
-</td></tr><tr><td id="d296428e402">
+</td></tr><tr><td id="d299472e402">
 
 **Email Result Threshold**
 
 </td><td>
 
-From version 10.3 or later, you can specify an email delete threshold for approvals. If the number of emails being deleted is greater than or equal to the value specified here, the Delete request must be approved before the Delete action is invoked. If the threshold value is set to 1, every Delete request must be approved.
+If the number of emails being deleted is greater than or equal to the value specified here, the Delete request must be approved before the Delete action is invoked.
+
+ If the threshold value is set to 1, every Delete request must be approved.
+
+ From version 10.3 or later, you can specify an email delete threshold for approvals.
 
 </td></tr></tbody>
-</table>    \[Omitted image "ms-exchange-online-config.png"\] Alt text: Configure the Connection Settings tab
-
-    \[Omitted image "security-tags-failure-notifi.png"\] Alt text: Configure the Additional Settings tab.
-
-5.  Choose one to continue.
+</table>5.  Choose one to continue.
 
     |Option|Description|
     |------|-----------|
     |**Save**|Save your edits. This action doesn’t verify your connection.|
-    |**On the Connection Settings tab, click Validate.**|This action validates your Certificate authentication, your MID server connection, and OAuth credentials. If your credentials are valid, the **Validate** button and both indicators are green.|
+    |**On the Connection Settings tab, select Validate.**|This action validates your Certificate authentication and OAuth credentials. If your credentials are valid, the **Validate** button and both indicators are green.|
 
 
-If an error message is displayed, or one or more of the indicators to the right of the Validate button are red, verify that the user account credentials you entered are valid. Enter your credentials and click **Save** again.
-
-\[Omitted image "ms-validatation-colors.png"\] Alt text: Validation unsuccessful with red indicator.
+If an error message is displayed, or one or more of the indicators to the right of the Validate button are red, verify that the user account credentials you entered are valid. Enter your credentials and select **Save** again.
 
 Refer to the following table for more information about the **Validate** button and the colored icons.
 
@@ -211,7 +209,7 @@ Validate button is green and all the small colored indicators are green.
 
 </td><td>
 
-Indicates that the MID Server connection and the credentials are valid.
+Indicates that the credentials are valid.
 
 </td></tr><tr><td>
 
@@ -227,9 +225,8 @@ Validate button is light red and one or all of the small colored indicators are 
 
 </td><td>
 
--   Exchange Online certificate-based authentication or OAuth credentials button is red: Indicates that the Exchange Online certificate-based authentication or OAuth credentials are invalid.
--   Exchange Online certificate-based authentication and MID Server Ready buttons are red: Indicates that the MID Server isn’t reachable and therefore, Exchange Online certificate-based authentication through the MID Server has failed.
--   Exchange Online certificate-based authentication indicator is red but MID Server Ready button is green: Indicates that the MID Server is active and configured correctly, but the Exchange Online certificate-based authentication are incorrect.
+-   Exchange Online certificate-based authentication indicator is red: Indicates that the Exchange Online certificate-based authentication is invalid.
+-   OAuth credentials indicator is red: Indicates that the OAuth credentials are invalid.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Microsoft Exchange Online integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/ms-exchange-online-lookups.md)

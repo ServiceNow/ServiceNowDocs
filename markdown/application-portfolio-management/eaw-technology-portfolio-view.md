@@ -1,6 +1,6 @@
 ---
 title: Technology Portfolio view
-description: As an Enterprise Architect, use the Technology Portfolio list view in the Enterprise Architecture Workspace to manage your Technology Portfolio Management \(TPM\) lifecycles and risk and your Technology Reference Model \(TRM\) catalog \(software and hardware\).
+description: As an Enterprise Architect, use the Technology Portfolio list view in the Enterprise Architecture Workspace to manage your Technology Lifecycle Management \(TLM\) lifecycles and risk and your Technology Reference Model \(TRM\) catalog \(software and hardware\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-technology-portfolio-view.html
 release: yokohama
@@ -12,7 +12,7 @@ breadcrumb: [Enterprise Architecture Workspace, Enterprise Architecture \(former
 
 # Technology Portfolio view
 
-As an Enterprise Architect, use the Technology Portfolio list view in the Enterprise Architecture Workspace to manage your Technology Portfolio Management \(TPM\) lifecycles and risk and your Technology Reference Model \(TRM\) catalog \(software and hardware\).
+As an Enterprise Architect, use the Technology Portfolio list view in the Enterprise Architecture Workspace to manage your Technology Lifecycle Management \(TLM\) lifecycles and risk and your Technology Reference Model \(TRM\) catalog \(software and hardware\).
 
 **Note:** You can zoom on this page to 200% or 400% through your browser settings without the loss of content or functionality. Page layouts are transformed into a vertical, stacked view automatically.
 
@@ -20,9 +20,9 @@ As an Enterprise Architect, use the Technology Portfolio list view in the Enterp
 
 ## Technology Portfolio Management
 
-You can use Technology Portfolio Management to manage technology life-cycle risks and technology life-cycle exceptions.
+You can use Technology Lifecycle Management to manage technology life-cycle risks and technology life-cycle exceptions.
 
-For more information on Technology Portfolio Management, see [Managing the Technology Portfolio Management \(TPM\) in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-tpm.md).
+For more information on Technology Lifecycle Management, see [Managing the Technology Lifecycle Management \(TLM\) in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-tpm.md).
 
 ## Technology Reference Model
 
@@ -40,8 +40,8 @@ You can see the following tabs on the Technology Portfolio page:
 
 -   **[Managing the Technology Reference Model in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-managing-the-technology-portfolio.md)**  
 You can use the Technology Reference Model \(TRM\) feature in Enterprise Architecture Workspace to define the standards for your software and hardware products and manage unapproved products in your organization.
--   **[Managing the Technology Portfolio Management \(TPM\) in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-tpm.md)**  
-Technology Portfolio Management helps Enterprise Architects to manage technology life-cycle risks and technology life-cycle exceptions. Enterprise Architects can evaluate all their business applications and application services by accessing the discovered technologies and auditing information in the Enterprise Architecture Workspace.
+-   **[Managing the Technology Lifecycle Management \(TLM\) in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-tpm.md)**  
+Technology Lifecycle Management helps Enterprise Architects to manage technology life-cycle risks and technology life-cycle exceptions. Enterprise Architects can evaluate all their business applications and application services by accessing the discovered technologies and auditing information in the Enterprise Architecture Workspace.
 
 **Parent Topic:**[Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/ea-workspace.md)
 

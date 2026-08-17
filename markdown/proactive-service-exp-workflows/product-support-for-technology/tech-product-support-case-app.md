@@ -1,6 +1,6 @@
 ---
-title: Technology Product Support Case application
-description: The Technology Product Support Case application enables technology companies to provide support for digital products and services.
+title: Product Support for Technology application
+description: The Product Support for Technology application enables technology companies to provide support for digital products and services.STRY61560936 Updated name throughout the document.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-case-app.html
 release: yokohama
@@ -12,9 +12,9 @@ reading_time_minutes: 2
 breadcrumb: [Proactive Service Experience Workflows]
 ---
 
-# Technology Product Support Case application
+# Product Support for Technology application
 
-The Technology Product Support Case application enables technology companies to provide support for digital products and services.
+The Product Support for Technology application enables technology companies to provide support for digital products and services.
 
 -   Role required: admin
 -   Plugins required: The following plugins must have been installed:
@@ -49,5 +49,5 @@ The Technology Product Support Case application \(sn\_tech\_product\_support\) i
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 

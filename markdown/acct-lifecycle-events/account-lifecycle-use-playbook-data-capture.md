@@ -7,7 +7,7 @@ release: yokohama
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Set up the account onboarding playbook, Configuring account onboarding, Account onboarding, Customer Success Management]
+breadcrumb: [Set up the account onboarding playbook, Configuring account onboarding, Account onboarding, Account Lifecycle Events]
 ---
 
 # Data capture and validation
@@ -49,7 +49,7 @@ In this task, select the type of activity being performed:
 
  Custom conditions have been defined and field values in these tables like source table, target table, and data source are auto populated in each of these tables. You can use these flows by directly importing data into these tables and publish them when they’re ready. For details on importing data into these tables, see [Import data into the account onboarding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-import-data.md).
 
- These tables have been configured with specific conditions and field values have been auto populated. You can modify these tables, add new tables, and activities depending on your requirements using the Process Automation Designer. See [Configure data validation using the Data Validation Assist table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-data-valid-assist.md) for details.
+ These tables have been configured with specific conditions and field values have been auto populated. You can modify these tables, add new tables, and activities depending on your requirements using the Process Automation Designer. See [Define additional field and record level validations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-data-valid-assist.md) for details.
 
 </td></tr></tbody>
 </table>Review the data in the Summary activity and click **Mark Complete** to move to the next stage.

@@ -43,7 +43,7 @@ A feedback task is created in the following ways:
 
 5.  Create the knowledge article by either selecting an article template or using the default template.
 
-<table id="choicetable_ajx_szw_hkb"><tbody><tr><td id="d500247e155">
+<table id="choicetable_ajx_szw_hkb"><tbody><tr><td id="d500784e155">
 
 **Selected article template**
 
@@ -59,7 +59,7 @@ Select an article template to create a knowledge article using defined fields an
 3.  Select **Create Article**.
  The Create Article dialog box is available if the article versioning and the Knowledge Article Templates features are enabled. For more information, see [Article versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/article-versioning.md) and [Knowledge article templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/knowledge-article-templates.md).
 
-</td></tr><tr><td id="d500247e200">
+</td></tr><tr><td id="d500784e200">
 
 **Default Standard template**
 

@@ -1,6 +1,6 @@
 ---
-title: Now Assist for Supplier Lifecycle Operations \(SLO\)
-description: Use the ServiceNow Now Assist for Supplier Lifecycle Operations \(SLO\) application to guide your supplier managers through a conversation-like experience for their supplier needs.
+title: ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)
+description: Use the ServiceNow ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) application to guide your supplier managers through a conversation-like experience for their supplier needs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo.html
 release: yokohama
@@ -13,23 +13,23 @@ keywords: [generative AI, gen AI, genai, artificial intelligence]
 breadcrumb: [Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 
-# Now Assist for Supplier Lifecycle Operations \(SLO\)
+# ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)
 
-Use the ServiceNow® Now Assist for Supplier Lifecycle Operations \(SLO\) application to guide your supplier managers through a conversation-like experience for their supplier needs.
+Use the ServiceNow® ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) application to guide your supplier managers through a conversation-like experience for their supplier needs.
 
 ## Get started
 
 <table id="table_iht_hgl_5yb" class="nav-card"><tbody><tr><td>
 
-[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn more about Now Assist for SLO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-exploring.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn more about ServiceNow Otto for SLO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-exploring.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the Now Assist for SLO application to get started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-configuring.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the ServiceNow Otto for SLO application to get started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-configuring.md)
 
 </td><td>
 
-[Use\[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:Use generative AI capabilities that are offered by Now Assist for SLO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-using.md)
+[Use\[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:Use generative AI capabilities that are offered by ServiceNow Otto for SLO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-using.md)
 
 </td></tr><tr><td>
 
@@ -51,9 +51,9 @@ Use the ServiceNow® Now Assist for Supplier Lifecycle Operations \(SLO\) applic
 -   Some Now Assist products/features are currently available only for customers in some regions. Be sure to check for availability updates in future releases.
 -   Some AI products and skills are not available in Regulated Markets. For more information, see [KB2593939: Regulated Markets AI Products/Skills Not Available](https://support.servicenow.com/kb?id=kb_article_view&sys_kb_id=e8d7cc82475aba90b7832920326d4362). Be sure to check for availability updates in future releases.
 
-## Supported LLMs for Now Assist for Supplier Lifecycle Operations \(SLO\)
+## Supported LLMs for ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)
 
-You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/exploring-large-language-models.md).
+You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/exploring-large-language-models.md).
 
 ## Troubleshoot and get help
 

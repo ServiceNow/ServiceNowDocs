@@ -1,5 +1,5 @@
 ---
-title: Generate an email response by using Now Assist for Customer Service Management \(CSM\)
+title: Generate an email response by using ServiceNow Otto for Customer Service Management \(CSM\)
 description: Generate an email response that is based on the case and email context by using the Now Assist icon. With email responses, agents can create quick emails or responses, helping minimize errors and ramp up productivity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/now-assist-for-csm/generate-email-reply-recommendations.html
@@ -10,10 +10,10 @@ topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 2
 keywords: [generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
-breadcrumb: [Use, Now Assist for Customer Service Management \(CSM\), Customer Service Management]
+breadcrumb: [Use, ServiceNow Otto for Customer Service Management \(CSM\), Customer Service Management]
 ---
 
-# Generate an email response by using Now Assist for Customer Service Management \(CSM\)
+# Generate an email response by using ServiceNow Otto for Customer Service Management \(CSM\)
 
 Generate an email response that is based on the case and email context by using the Now Assist icon. With email responses, agents can create quick emails or responses, helping minimize errors and ramp up productivity.
 
@@ -38,15 +38,15 @@ An agent can do these actions by using the Now Assist icon:
 
 2.  Choose how to compose an email.
 
-<table id="choicetable_tbz_hyv_bcc"><thead><tr><th align="left" id="d160995e118">
+<table id="choicetable_tbz_hyv_bcc"><thead><tr><th align="left" id="d160787e118">
 
 Method
 
-</th><th align="left" id="d160995e121">
+</th><th align="left" id="d160787e121">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d160995e127">
+</th></tr></thead><tbody><tr><td id="d160787e127">
 
 **Compose email from More actions**
 
@@ -59,7 +59,7 @@ Description
 5.  Get a recommendation that is based on the existing context.
 
 
-</td></tr><tr><td id="d160995e178">
+</td></tr><tr><td id="d160787e178">
 
 **Compose an email from Activity stream**
 
@@ -75,15 +75,15 @@ Description
 
     \[Omitted image "now-assist-email-reply-recommendation.png"\] Alt text: Generated email response.
 
-<table id="choicetable_e5x_3yv_bcc"><thead><tr><th align="left" id="d160995e246">
+<table id="choicetable_e5x_3yv_bcc"><thead><tr><th align="left" id="d160787e246">
 
 Email message window
 
-</th><th align="left" id="d160995e249">
+</th><th align="left" id="d160787e249">
 
 Now Assist icon
 
-</th></tr></thead><tbody><tr><td id="d160995e258">
+</th></tr></thead><tbody><tr><td id="d160787e258">
 
 **Typed response**
 
@@ -98,7 +98,7 @@ Provides the option to change your tone:
 -   Sympathetic
 
 
-</td></tr><tr><td id="d160995e288">
+</td></tr><tr><td id="d160787e288">
 
 **Left blank**
 
@@ -106,7 +106,7 @@ Provides the option to change your tone:
 
 Generates a recommended email reply that is based on the context of the email up to this point.
 
-</td></tr><tr><td id="d160995e297">
+</td></tr><tr><td id="d160787e297">
 
 **Use template**
 
@@ -122,5 +122,5 @@ Shows email template recommendations while composing an email.
 6.  Select **Send Email** or discard the draft if you don’t like the recommendation.
 
 
-**Parent Topic:**[Using Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
+**Parent Topic:**[Using ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
 

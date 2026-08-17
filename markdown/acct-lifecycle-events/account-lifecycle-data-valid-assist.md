@@ -1,5 +1,5 @@
 ---
-title: Configure data validation using the Data Validation Assist table
+title: Define additional field and record level validations
 description: Create field and record level validations in the Data validation assist table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/acct-lifecycle-events/account-lifecycle-data-valid-assist.html
@@ -7,10 +7,10 @@ release: yokohama
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Data capture and validation, Set up the account onboarding playbook, Configuring account onboarding, Account onboarding, Customer Success Management]
+breadcrumb: [Data capture and validation, Set up the account onboarding playbook, Configuring account onboarding, Account onboarding, Account Lifecycle Events]
 ---
 
-# Configure data validation using the Data Validation Assist table
+# Define additional field and record level validations
 
 Create field and record level validations in the Data validation assist table.
 

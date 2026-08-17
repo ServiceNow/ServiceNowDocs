@@ -169,7 +169,7 @@ Business applications
 
 **Note:**
 
-To see Risk data, you must have the Technology Portfolio Management plugin installed \[sn\_apm\_tpm\]. This plugin has two dependency plugins:
+To see Risk data, you must have the Technology Lifecycle Management plugin installed \[sn\_apm\_tpm\]. This plugin has two dependency plugins:
 
 -   Application Portfolio Management \[com.snc.apn\]
 -   Software Asset Management \[com.snc.sams\]

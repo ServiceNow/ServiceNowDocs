@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
 keywords: [AI, Now Assist, similar incidents, historical, resolution]
-breadcrumb: [Using skills in Now Assist for ITOM, Now Assist for ITOM, IT Operations Management]
+breadcrumb: [Using skills in ServiceNow Otto for ITOM, ServiceNow Otto for ITOM, IT Operations Management]
 ---
 
 # Speed up alert resolution with a Now Assist analysis of past related incidents
@@ -22,7 +22,7 @@ Now Assist queries historical records to find past incidents and analyzes their 
 **Note:** An additional Large Language Model \(LLM\) validation layer is added to the AI search capability to improve the accuracy of results returned by AI skills.
 
 -   **[Generate a Now Assist summary of past related incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/nai-analyze-past-incidents.md)**  
-View a Now Assist summary of past incidents on the same or related Configuration Items \(CIs\) and strategies used to resolve them.
+View a Now Assist summary of past incidents related to the current alert, including strategies used to resolve them.
 
-**Parent Topic:**[Using skills in Now Assist for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-use.md)
+**Parent Topic:**[Using skills in ServiceNow Otto for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-use.md)
 

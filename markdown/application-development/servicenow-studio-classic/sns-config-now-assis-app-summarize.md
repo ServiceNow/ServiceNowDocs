@@ -1,6 +1,6 @@
 ---
 title: Configuring Now Assist for app summary generation
-description: Enable the app summary generation skill in the Now Assist for Creator application so that you can get started with summarizing applications.
+description: Enable the app summary generation skill in the ServiceNow Otto for Creator application so that you can get started with summarizing applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/servicenow-studio-classic/sns-config-now-assis-app-summarize.html
 release: yokohama
@@ -15,10 +15,10 @@ breadcrumb: [Now Assist for app summary generation in ServiceNow Studio, Using S
 
 # Configuring Now Assist for app summary generation
 
-Enable the app summary generation skill in the Now Assist for Creator application so that you can get started with summarizing applications.
+Enable the app summary generation skill in the ServiceNow Otto for Creator application so that you can get started with summarizing applications.
 
 -   **[Install Now Assist for app summary generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/sns-app-summarize-install.md)**  
-Install the Now Assist for Creator application so that you can use app summary generation for your organization.
+Install the ServiceNow Otto for Creator application so that you can use app summary generation for your organization.
 
 **Parent Topic:**[Now Assist for app summary generation in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/sns-now-assist-app-summarize-landing.md)
 

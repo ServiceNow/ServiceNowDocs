@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
 keywords: [Now Assist, generative AI]
-breadcrumb: [Configure Now Assist for RPA Hub, Now Assist for RPA Hub, Robotic Process Automation \(RPA\) Hub, Data and Automation]
+breadcrumb: [Configure ServiceNow Otto for RPA Hub, ServiceNow Otto for RPA Hub, Robotic Process Automation \(RPA\) Hub, Data and Automation]
 ---
 
 # Turn on the RPA bot generation skill
@@ -19,17 +19,17 @@ Turn on the Robotic Process Automation \(RPA\) bot generation skill to use gener
 
 ## Before you begin
 
--   Install the Now Assist for RPA Hub application to add the generative AI capability. For more information, see [Configure Now Assist for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/configure-now-assist-rpa-hub.md).
+-   Install the ServiceNow Otto for RPA Hub application to add the generative AI capability. For more information, see [Configure ServiceNow Otto for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/configure-now-assist-rpa-hub.md).
 -   Perform these steps in your ServiceNow instance.
 -   Role required: sn\_nowassist\_admin.nsa\_admin or sn\_skill\_builder.admin
 
 ## About this task
 
-**Important:** The Now Assist for RPA Hub requires a separate subscription to Now Assist for Creator.
+**Important:** The ServiceNow Otto for RPA Hub requires a separate subscription to ServiceNow Otto for Creator.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Now Assist Skills**.
+1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Now Assist Skills**.
 
 2.  In the workflow list, select **Creator**.
 

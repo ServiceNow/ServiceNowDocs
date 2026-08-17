@@ -1,6 +1,6 @@
 ---
-title: Skill inputs and triggers for Now Assist for HR Service Delivery \(HRSD\)
-description: Get a quick overview of the skill inputs and triggers for Now Assist for HR Service Delivery \(HRSD\). By configuring the inputs or triggers for a skill, you can determine how and when a skill is used.
+title: Skill inputs and triggers for ServiceNow Otto for HR Service Delivery \(HRSD\)
+description: Get a quick overview of the skill inputs and triggers for ServiceNow Otto for HR Service Delivery \(HRSD\). By configuring the inputs or triggers for a skill, you can determine how and when a skill is used.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-skill-inputs.html
 release: yokohama
@@ -9,12 +9,12 @@ classification: now-assist-for-hrsd
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 4
-breadcrumb: [Configure, Now Assist for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
+breadcrumb: [Configure, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
-# Skill inputs and triggers for Now Assist for HR Service Delivery \(HRSD\)
+# Skill inputs and triggers for ServiceNow Otto for HR Service Delivery \(HRSD\)
 
-Get a quick overview of the skill inputs and triggers for Now Assist for HR Service Delivery \(HRSD\). By configuring the inputs or triggers for a skill, you can determine how and when a skill is used.
+Get a quick overview of the skill inputs and triggers for ServiceNow Otto for HR Service Delivery \(HRSD\). By configuring the inputs or triggers for a skill, you can determine how and when a skill is used.
 
 ## Overview
 
@@ -149,26 +149,26 @@ Input fields
 -   Work notes
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configure Now Assist for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md)
+</table>**Parent Topic:**[Configure ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md)
 
 **Related topics**  
 
 
-[RCA approvals for Now Assist for HR Service Delivery \(HRSD\)]()
+[RCA approvals for ServiceNow Otto for HR Service Delivery \(HRSD\)]()
 
 [Restrict Now Assist capabilities for employee relations cases]()
 
-[Customize the Now Assist for HRSD skills]()
+[Customize the ServiceNow Otto for HRSD skills]()
 
 [Configure attachment summary]()
 
-[Configure resolution notes generation for Now Assist for HRSD]()
+[Configure resolution notes generation for ServiceNow Otto for HRSD]()
 
 [Configure sensitivity detection]()
 
 [Configure Gen AI Virtual Agent for HRSD]()
 
-[Configure the Now Assist for HRSD Virtual Agent topics]()
+[Configure the ServiceNow Otto for HRSD Virtual Agent topics]()
 
 [Configure HCM agents for HR Service Delivery AI Agent Collection]()
 

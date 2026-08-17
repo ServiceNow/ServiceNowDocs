@@ -1,6 +1,6 @@
 ---
-title: Configure Now Assist for Collaborative Work Management \(CWM\)
-description: If you have the admin role, you can configure the implementation for the Now Assist for CWM application so that your team members can utilize generative AI skills in the CWM workspace.
+title: Configure ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM\)
+description: If you have the admin role, you can configure the implementation for the ServiceNow Otto for CWM application. This lets your team members utilize generative AI skills in the CWM workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/now-assist-for-collaborative-work-management-cwm/configure-now-assist-for-collaborative-work-management.html
 release: yokohama
@@ -12,23 +12,23 @@ reading_time_minutes: 2
 breadcrumb: [Now Assist for CWM, Strategic Portfolio Management]
 ---
 
-# Configure Now Assist for Collaborative Work Management \(CWM\)
+# Configure ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM\)
 
-If you have the admin role, you can configure the implementation for the Now Assist for CWM application so that your team members can utilize generative AI skills in the CWM workspace.
+If you have the admin role, you can configure the implementation for the ServiceNow Otto for CWM application. This lets your team members utilize generative AI skills in the CWM workspace.
 
 ## Before you begin
 
--   The minimum version of CWM application that is required to support Now Assist for CWM features is v6.0.0 and later. If you're on earlier versions, upgrade your app through Application Manager. See [Update an application or plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/update-application-app-mgr.md).
--   Install the Now Assist for Collaborative Work Management \(CWM\) plugin \(sn\_cwm\_ai\). See [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+-   The minimum version of CWM application that is required to support ServiceNow Otto for CWM features is v6.0.0 and later. If you're on earlier versions, upgrade your app through Application Manager. See [Update an application or plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/update-application-app-mgr.md).
+-   Install the ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM\) plugin \(sn\_cwm\_ai\). See [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 -   [Activate Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
 Role required: admin
 
 ## About this task
 
-Use the Now Assist Admin console to configure Now Assist for SPM. All Now Assist for SPM skills are activated by default. If a skill isn't automatically activated or you want to update its configuration, follow the steps below.
+Use the AI Admin Hub console to configure ServiceNow Otto for SPM. All ServiceNow Otto for SPM skills are activated by default. If a skill isn't automatically activated or you want to update its configuration, follow the steps below.
 
-Use the Now Assist Admin console to activate the following skills of Now Assist for CWM.
+Use the AI Admin Hub console to activate the following skills of ServiceNow Otto for CWM.
 
 -   CWM Doc generation and insights
 -   Acceptance criteria generation
@@ -40,7 +40,7 @@ Use the Now Assist Admin console to activate the following skills of Now Assist 
 
 1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills**.
 
-    The **Now Assist Skills** tab of the Now Assist Admin console is displayed.
+    The **Now Assist Skills** tab of the AI Admin Hub console is displayed.
 
 2.  From the **Technology** grouping, select **CWM**.
 
@@ -86,7 +86,7 @@ If you have custom roles that require access to a skill, update the ACLs for tho
 **Related topics**  
 
 
-[Supporting information for Now Assist for Collaborative Work Management \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-collaborative-work-management-cwm/supporting-information-now-assist-for-cwm.md)
+[Supporting information for ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-collaborative-work-management-cwm/supporting-information-now-assist-for-cwm.md)
 
 [skill-inputs-now-assist-for-cwm]
 

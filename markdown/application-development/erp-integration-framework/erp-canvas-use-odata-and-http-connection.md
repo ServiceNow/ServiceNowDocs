@@ -1,5 +1,5 @@
 ---
-title: Connect Zero Copy Connector for ERP to SAP using OData and HTTP
+title: Connect ERP Canvas to SAP using OData and HTTP
 description: Extract data securely from ERP OData v2 APIs using ETL for use in remote tables and extraction tables. OData connects to SAP via HTTP.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-integration-framework/erp-canvas-use-odata-and-http-connection.html
@@ -9,10 +9,10 @@ classification: erp-integration-framework
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 3
-breadcrumb: [Using ERP models, extraction tables, and remote tables, Zero Copy Connector for ERP, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Using ERP models, extraction tables, and remote tables, ERP Canvas, Building low-code applications, Developing your application, Building applications]
 ---
 
-# Connect Zero Copy Connector for ERP to SAP using OData and HTTP
+# Connect ERP Canvas to SAP using OData and HTTP
 
 Extract data securely from ERP OData v2 APIs using ETL for use in remote tables and extraction tables. OData connects to SAP via HTTP.
 
@@ -144,7 +144,7 @@ true \| false
 
 </td><td>
 
-Indicates if CSRF token should be sent for OData calls in Zero Copy Connector for ERP operations.
+Indicates if CSRF token should be sent for OData calls in ERP Canvas operations.
 
 </td><td>
 
@@ -155,21 +155,21 @@ No
 admin or sn\_erp\_integration.erp\_admin
 
 </td></tr></tbody>
-</table>**Note:** To add a new property manually, verify that your scope is set to Zero Copy Connector for ERP, then navigate to sys\_properties.list and select **New**.
+</table>**Note:** To add a new property manually, verify that your scope is set to ERP Canvas, then navigate to sys\_properties.list and select **New**.
 
 ## Heartbeat information
 
 For an ERP system, there are separate heartbeat indicators for RFC and HTTP. When a system is established, the heartbeats become active and the status is updated, including any errors. If the heartbeat calls are successful, BAPI and OData retrieval is triggered in parallel and the status can be seen on the system record. BAPI and table list retrieval is done via RFC. OData retrieval is done via HTTP.
 
-\[Omitted image "erpc-system-heartbeats.png"\] Alt text: Zero Copy Connector for ERP systems page with RFC and HTTP heartbeat status.
+\[Omitted image "erpc-system-heartbeats.png"\] Alt text: ERP Canvas systems page with RFC and HTTP heartbeat status.
 
 ## More information
 
-For more information about using OData in Zero Copy Connector for ERP, see [Create an OData connection in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/create-an-odata-connection.md) and [OData capabilities supported by Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-data-hub-odata-query-capabilities.md).
+For more information about using OData in ERP Canvas, see [Create an OData connection in ERP Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/create-an-odata-connection.md) and [OData capabilities supported by ERP Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-data-hub-odata-query-capabilities.md).
 
--   **[OData capabilities supported by Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-data-hub-odata-query-capabilities.md)**  
-Details about the OData v2 query capabilities supported in Zero Copy Connector for ERP.
--   **[Create an OData connection in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/create-an-odata-connection.md)**  
+-   **[OData capabilities supported by ERP Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-data-hub-odata-query-capabilities.md)**  
+Details about the OData v2 query capabilities supported in ERP Canvas.
+-   **[Create an OData connection in ERP Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/create-an-odata-connection.md)**  
 Create an OData v2 connection to link to SAP via HTTP so data can be extracted for use in remote tables and extraction tables.
 
 **Parent Topic:**[Using ERP models, extraction tables, and remote tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/work-with-erp-systems-connections-and-remote-tables.md)

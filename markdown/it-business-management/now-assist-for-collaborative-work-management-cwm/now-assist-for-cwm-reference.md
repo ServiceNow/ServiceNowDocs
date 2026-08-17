@@ -1,6 +1,6 @@
 ---
-title: Now Assist for Collaborative Work Management \(CWM\) reference
-description: Reference topics provide details on the roles installed with Now Assist for CWM.The CWM AI user role \(sn\_cwm\_ai.cwm\_ai\_user\) enables users to use the generative AI skills that are available with the Now Assist for CWM application.
+title: ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM\) reference
+description: Reference topics provide details on the roles installed with ServiceNow Otto for CWM.The CWM AI user role \(sn\_cwm\_ai.cwm\_ai\_user\) enables users to use the generative AI skills that are available with the ServiceNow Otto for CWM application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/now-assist-for-collaborative-work-management-cwm/now-assist-for-cwm-reference.html
 release: yokohama
@@ -12,13 +12,13 @@ reading_time_minutes: 1
 breadcrumb: [Now Assist for CWM, Strategic Portfolio Management]
 ---
 
-# Now Assist for Collaborative Work Management \(CWM\) reference
+# ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM\) reference
 
-Reference topics provide details on the roles installed with Now Assist for CWM.
+Reference topics provide details on the roles installed with ServiceNow Otto for CWM.
 
-## Roles installed with Now Assist for Collaborative Work Management \(CWM\)
+## Roles installed with ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM\)
 
-The CWM AI user role \(sn\_cwm\_ai.cwm\_ai\_user\) enables users to use the generative AI skills that are available with the Now Assist for CWM application.
+The CWM AI user role \(sn\_cwm\_ai.cwm\_ai\_user\) enables users to use the generative AI skills that are available with the ServiceNow Otto for CWM application.
 
 ### Contains Roles
 

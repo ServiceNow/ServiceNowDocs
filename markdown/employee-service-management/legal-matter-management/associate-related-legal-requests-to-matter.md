@@ -32,15 +32,15 @@ As a collaborator added to a legal matter, you can access and work on the legal 
 
 3.  In the **Lists** tab, open a legal matter by selecting an option under **Matters**.
 
-<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d470239e105">
+<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d469591e105">
 
 Option
 
-</th><th align="left" id="d470239e108">
+</th><th align="left" id="d469591e108">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d470239e114">
+</th></tr></thead><tbody><tr><td id="d469591e114">
 
 **As an assignee**
 
@@ -52,7 +52,7 @@ Steps
 
 The state of the legal matter updates to Work in Progress.
 
-</td></tr><tr><td id="d470239e143">
+</td></tr><tr><td id="d469591e143">
 
 **As a collaborator**
 

@@ -38,7 +38,7 @@ Activate the Event Management plugin \(com.glideapp.itom.snac\) to add an **Aler
 **Related topics**  
 
 
-[Major Incident workbench — the Post Incident Report tab]()
+[Post Incident Report tab]()
 
 [The Communicate tab in the Major Incident workbench]()
 

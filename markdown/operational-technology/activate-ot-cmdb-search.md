@@ -1,18 +1,18 @@
 ---
 title: Activate the OT CMDB Search feature
-description: If you have the admin role, you can configure the Now Assist for Operational Technology Manager \(OTM\) application so that teams can use the Operational Technology \(OT\) Configuration Management Database \(CMDB\) search feature in the Industrial Workspace.
+description: If you have the admin role, you can configure the Operational Technology \(OT\) Manager Foundation application so that teams can use the Operational Technology \(OT\) Configuration Management Database \(CMDB\) search feature in the Industrial Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/operational-technology/activate-ot-cmdb-search.html
 release: yokohama
 topic_type: task
 last_updated: "2025-11-13"
 reading_time_minutes: 2
-breadcrumb: [Configure, Now Assist for Operational Technology Manager \(OTM\), Operational Technology]
+breadcrumb: [Configure, Operational Technology \(OT\) Manager Foundation, Operational Technology]
 ---
 
 # Activate the OT CMDB Search feature
 
-If you have the admin role, you can configure the Now Assist for Operational Technology Manager \(OTM\) application so that teams can use the Operational Technology \(OT\) Configuration Management Database \(CMDB\) search feature in the Industrial Workspace.
+If you have the admin role, you can configure the Operational Technology \(OT\) Manager Foundation application so that teams can use the Operational Technology \(OT\) Configuration Management Database \(CMDB\) search feature in the Industrial Workspace.
 
 ## Before you begin
 
@@ -20,9 +20,9 @@ Role required: admin
 
 ## About this task
 
-Use the Now Assist Admin console to configure Now Assist for OTM. This console contains everything that you must install the plugins and configure the generative AI skills. For additional information, see [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configuring-now-assist.md).
+Use the AI Admin Hub console to configure OT Manager Foundation. This console contains everything that you must install the plugins and configure the generative AI skills. For additional information, see [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configuring-now-assist.md).
 
-The following table lists the features and skills that you can access from the Now Assist Admin console.
+The following table lists the features and skills that you can access from the AI Admin Hub console.
 
 |OTM features|Skills|
 |------------|------|
@@ -30,9 +30,9 @@ The following table lists the features and skills that you can access from the N
 
 ## Procedure
 
-1.  Install the Now Assist for OTM plugin \(sn\_otm\_gen\_ai\).
+1.  Install the OT Manager Foundation plugin \(sn\_otm\_gen\_ai\).
 
-    -   For information about the application dependencies, see [Supporting information for Now Assist for Operational Technology Manager \(OTM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/supporting-information-for-now-assist-otm.md).
+    -   For information about the application dependencies, see [Supporting information for Operational Technology \(OT\) Manager Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/supporting-information-for-now-assist-otm.md).
     -   For information about the installation process, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 2.  Navigate to **All** &gt; **Now Assist Admin**.
 
@@ -65,5 +65,5 @@ The following table lists the features and skills that you can access from the N
     3.  In the **Toggle display** screen, select the **Status** toggle if the toggle isn't already selected.
 
 
-**Parent Topic:**[Configuring Now Assist for Operational Technology Manager \(OTM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/configuring-na-otm.md)
+**Parent Topic:**[Configuring Operational Technology \(OT\) Manager Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/configuring-na-otm.md)
 

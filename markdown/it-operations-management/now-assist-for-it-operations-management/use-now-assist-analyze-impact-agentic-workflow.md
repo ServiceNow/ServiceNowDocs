@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2025-08-10"
 reading_time_minutes: 1
 keywords: [installing Now Assist, AI features, AI products, updating Now Assist, solutions, Now Assist, GenAI, generative AI, configure Now Assist]
-breadcrumb: [Analyze potential impact, Using agentic workflows in Now Assist for ITOM, Now Assist for ITOM, IT Operations Management]
+breadcrumb: [Analyze potential impact, Using agentic workflows in ServiceNow Otto for ITOM, ServiceNow Otto for ITOM, IT Operations Management]
 ---
 
 # Use the Analyze potential impact agentic workflow to assess a change request
@@ -22,8 +22,8 @@ Use the Analyze potential impact agentic workflow to assess the effects of a cha
 Using the Analyze potential impact agentic workflow requires the installation of the following:
 
 -   Service Mapping Plus version 1.16.3.
--   Now Assist for IT Operations Management \(ITOM\) version 2.3.0.
--   Now Assist for IT Service Management \(ITSM\) version 11.1.3.
+-   ServiceNow Otto for IT Operations Management \(ITOM\) version 2.3.0.
+-   ServiceNow Otto for IT Service Management \(ITSM\) version 11.1.3.
 
 Role required: sn\_change\_write
 
@@ -35,15 +35,15 @@ The agent verifies the prerequisites at the beginning of the agentic workflow. I
 
 1.  Either initiate the Analyze potential impact agentic workflow using a change request number or from an open change request.
 
-<table id="choicetable_rkr_bbt_3gc"><thead><tr><th align="left" id="d498024e123">
+<table id="choicetable_rkr_bbt_3gc"><thead><tr><th align="left" id="d498457e123">
 
 Situation
 
-</th><th align="left" id="d498024e126">
+</th><th align="left" id="d498457e126">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d498024e132">
+</th></tr></thead><tbody><tr><td id="d498457e132">
 
 **Change request number is known**
 
@@ -54,7 +54,7 @@ Steps
 3.  When prompted, enter the change request number.
 
 
-</td></tr><tr><td id="d498024e164">
+</td></tr><tr><td id="d498457e164">
 
 **Open change request**
 

@@ -98,5 +98,5 @@ Determines the Reg E resolution days for a case. The default duration is set to 
 **Related topics**  
 
 
-[Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/decision-table.md)
+[bundle-cadev.decision-table]
 

@@ -1,6 +1,6 @@
 ---
-title: Customer Success Management
-description: The ServiceNow Customer Success Management application enables service providers to streamline, automate, and measure critical workflows across the entire enterprise customer journey—from onboarding and adoption to renewals.
+title: Account Lifecycle Events
+description: The ServiceNow Account Lifecycle Events application enables service providers to streamline, automate, and measure critical workflows across the entire enterprise customer journey—from onboarding and adoption to renewals.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-media-technology/account-lifecycle-events-landing.html
 release: yokohama
@@ -10,15 +10,15 @@ reading_time_minutes: 1
 breadcrumb: [Telecommunications, Media, and Technology]
 ---
 
-# Customer Success Management
+# Account Lifecycle Events
 
-The ServiceNow® Customer Success Management application enables service providers to streamline, automate, and measure critical workflows across the entire enterprise customer journey—from onboarding and adoption to renewals.
+The ServiceNow® Account Lifecycle Events application enables service providers to streamline, automate, and measure critical workflows across the entire enterprise customer journey—from onboarding and adoption to renewals.
 
-Watch this short video for an introduction to the Customer Success Management application.
+Watch this short video for an introduction to the Account Lifecycle Events application.
 
 \[Omitted video\] Description: Overview of Account Lifecycle Events
 
-By embedding workflow automation into customer success management, Customer Success Management helps providers enhance customer experiences, accelerate time to value, and maximize return on investment. It also fosters seamless collaboration between the accounts, sales, and delivery teams, all within the unified ServiceNow AI Platform. 
+By embedding workflow automation into customer success management, Account Lifecycle Events helps providers enhance customer experiences, accelerate time to value, and maximize return on investment. It also fosters seamless collaboration between the accounts, sales, and delivery teams, all within the unified ServiceNow AI Platform. 
 
 ## Get started
 
@@ -38,8 +38,8 @@ By embedding workflow automation into customer success management, Customer Succ
 </table>## Additional resources
 
 -   Learn more about what's new and changed, see the [Account Lifecycle Events release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/account-lifecycle-rn.md).
--   Log in to your ServiceNow® account and find additional information about implementing and deploying Customer Service Management features at [Now Create](https://learning.servicenow.com/nowcreate).
--   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow)
--   Find useful resources related to your role and explore best practices at the [Customer Success Center](https://www.servicenow.com/success.html).
--   Connect with other Customer Service Management users at [Now Community](https://www.servicenow.com/community/).
+-   Log in to your ServiceNow® account and find additional information about implementing and deploying Account Lifecycle Events features at the [Best Practices Library](https://mynow.servicenow.com/now/best-practices/home).
+-   Access real time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/now-learning-get-certified?id=amap_detail&achievement_id=57c9e41087152e9024e0bb39dabb35cc&s=1&ssa=3).
+-   Find useful resources related to your role and explore best practices at [ServiceNow Impact](https://www.servicenow.com/impact.html).
+-   Connect with other Account Lifecycle Events users at [Now Community](https://www.servicenow.com/community/technology-provider/ct-p/technology).
 

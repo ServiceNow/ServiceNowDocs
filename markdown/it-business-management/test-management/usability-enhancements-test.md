@@ -37,5 +37,5 @@ Test Management 2.0 provides a new user interface for running tests. The interfa
 
 Test Management 2.0 provides a designated user interface, Test Board, for creating and structuring test plans. As a test manager, you can create a test plan, test cycles, and test execution suites and define the time frame for their execution. The names of the test cycles and execution suites can be edited inline, without leaving the page. Test execution suites can then be filled with tests, and those tests can be assigned to testers.
 
-The test plan work hierarchy item in the Test Board provides a visual representation of the timeline of the test plan and its child tasks using a blue task bar. The length of the task bar pertaining to the test plan increases and decreases depending on the adjustments you make to the duration of its child tasks. You can also manually increase or decrease the duration by dragging the edge of the task bar to the required location.
+The test plan work hierarchy item in the Test Board shows the timeline of the test plan and its child tasks using a blue task bar. The length of the task bar pertaining to the test plan increases and decreases depending on the adjustments you make to the duration of its child tasks. You can also manually increase or decrease the duration by dragging the edge of the task bar to the required location.
 

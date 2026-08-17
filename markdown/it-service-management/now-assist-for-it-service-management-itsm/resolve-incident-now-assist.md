@@ -1,5 +1,5 @@
 ---
-title: Generate the resolution notes for an incident by using Now Assist for IT Service Management \(ITSM\)
+title: Generate the resolution notes for an incident by using ServiceNow Otto for IT Service Management \(ITSM\)
 description: Automatically generate the resolution notes for an incident on demand using the Now Assist context menu. You can improve the quality of the resolution notes by providing a summary of the root cause and the steps taken to resolve the issue. Generating resolution notes lets you provide information about the incident resolution to other agents who might encounter similar issues.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/now-assist-for-it-service-management-itsm/resolve-incident-now-assist.html
@@ -10,10 +10,10 @@ topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 3
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
-breadcrumb: [Use generative AI skills, Now Assist for IT Service Management \(ITSM\), IT Service Management]
+breadcrumb: [Use generative AI skills, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 
-# Generate the resolution notes for an incident by using Now Assist for IT Service Management \(ITSM\)
+# Generate the resolution notes for an incident by using ServiceNow Otto for IT Service Management \(ITSM\)
 
 Automatically generate the resolution notes for an incident on demand using the Now Assist context menu. You can improve the quality of the resolution notes by providing a summary of the root cause andthe steps taken to resolve the issue. Generating resolution notes lets you provide information about the incident resolution to other agents who might encounter similar issues.
 
@@ -36,7 +36,7 @@ Incident resolution notes are generated from the information that you enter in t
 -   Work notes
 -   Additional comments
 
-**Note:** To change resolution notes generation from automatic to manual \(requiring user input\), set the trigger for the skill in the Now Assist Admin console.
+**Note:** To change resolution notes generation from automatic to manual \(requiring user input\), set the trigger for the skill in the AI Admin Hub console.
 
 You can generate incident resolution notes in Core UI and Service Operations Workspace for ITSM.
 
@@ -109,15 +109,15 @@ If you want to check some details about the resolution notes, select the more in
 
 5.  In Core UI or Service Operations Workspace for ITSM, resolve the incident by changing its state.
 
-<table id="choicetable_uh4_l1f_xyb"><thead><tr><th align="left" id="d191995e374">
+<table id="choicetable_uh4_l1f_xyb"><thead><tr><th align="left" id="d192220e374">
 
 Interface
 
-</th><th align="left" id="d191995e377">
+</th><th align="left" id="d192220e377">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d191995e383">
+</th></tr></thead><tbody><tr><td id="d192220e383">
 
 **Core UI**
 
@@ -127,7 +127,7 @@ Procedure
 2.  Update the resolution code and select **Resolve**. The resolution summary is displayed in the **Resolution Information** tab on the Incident form.
 
 
-</td></tr><tr><td id="d191995e408">
+</td></tr><tr><td id="d192220e408">
 
 **Service Operations Workspace for ITSM**
 

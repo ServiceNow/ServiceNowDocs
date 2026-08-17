@@ -1,6 +1,6 @@
 ---
-title: Now Assist for Employee Experience
-description: Use the Now Assist for Employee Experience application so that your employees can have a seamless conversational interaction with Now Assist in Virtual Agent.
+title: ServiceNow Otto for Employee Experience
+description: Use the ServiceNow Otto for Employee Experience application so that your employees can have a seamless conversational interaction with Now Assist in Virtual Agent.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/employee-experience-foundation/now-assisit-employee-exp.html
 release: yokohama
@@ -12,9 +12,9 @@ reading_time_minutes: 4
 breadcrumb: [Unified Employee Experience, Employee Service Management]
 ---
 
-# Now Assist for Employee Experience
+# ServiceNow Otto for Employee Experience
 
-Use the Now Assist for Employee Experience application so that your employees can have a seamless conversational interaction with Now Assist in Virtual Agent.
+Use the ServiceNow Otto for Employee Experience application so that your employees can have a seamless conversational interaction with Now Assist in Virtual Agent.
 
 ## Get started
 

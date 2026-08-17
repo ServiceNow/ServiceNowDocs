@@ -1,18 +1,18 @@
 ---
 title: Configure the account onboarding playbook using Playbooks
-description: Use Playbooks in Workflow Studio to configure the Customer Success Management playbook.
+description: Use Playbooks in Workflow Studio to configure the Account Lifecycle Events playbook.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/acct-lifecycle-events/account-lifecycle-pad.html
 release: yokohama
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configuring account onboarding, Account onboarding, Customer Success Management]
+breadcrumb: [Configuring account onboarding, Account onboarding, Account Lifecycle Events]
 ---
 
 # Configure the account onboarding playbook using Playbooks
 
-Use Playbooks in Workflow Studio to configure the Customer Success Management playbook.
+Use Playbooks in Workflow Studio to configure the Account Lifecycle Events playbook.
 
 In Playbooks, an activity represents one step in your overall business process. You can sequence many activities together in the stages of your process. A stage is made up of many sequenced activities that are grouped in a logical way. You can add or create your own activity definitions, or delete an activity that is not required. For more details, see [Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/exploring-process-automation-designer.md).
 

@@ -1,6 +1,6 @@
 ---
 title: HR service categorization
-description: HR services are categorized under one of the HR Centers of Excellence \(COEs\), which are part of a data model that organizes HR data, services, and processes by functional discipline.Enable or disable an HR Center of Excellence \(COE\) for use. COEs are tables that extend the HR Case \[sn\_hr\_core\_case\] table and part of a functional discipline, such as total rewards or talent management. COEs are also part of HR services that contain topic category and detail.Create or modify an HR topic category to define the first-level of categorization for HR services. Each topic category is associated with a single HR Center of Excellence \(COE\).Create or modify an HR topic detail to define the second-level of categorization for HR services. Each topic detail is associated with a single topic category and HR Center of Excellence \(COE\).Use COE Access Control List \(ACLs\) Configuration to allow specific groups read or write access to HR cases under a specific COE.Place security on a COE to prevent a group from accessing another group's cases.
+description: HR services are categorized under one of the HR Centers of Excellence \(COEs\), which are part of a data model that organizes HR data, services, and processes by functional discipline.Enable or disable an HR Center of Excellence \(COE\) for use. COEs are tables that extend the HR Case \[sn\_hr\_core\_case\] table and part of a functional discipline, such as total rewards or talent management. COEs are also part of HR services that contain topic category and detail.Create or modify an HR topic category to define the first-level of categorization for HR services. Each topic category is associated with a single HR Center of Excellence \(COE\).Create or modify an HR topic detail to define the second-level of categorization for HR services. Each topic detail is associated with a single topic category and HR Center of Excellence \(COE\).Use COE Security Policy configuration to allow specific groups read or write access to HR cases under a specific COE.Place security on a COE to prevent a group from accessing another group's cases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/hr-service-categorization.html
 release: yokohama
@@ -110,7 +110,7 @@ Role required: sn\_hr\_core.admin
 
 ## Configuring HR Service Delivery Center of Excellence \(COE\) security policies
 
-Use COE Access Control List \(ACLs\) Configuration to allow specific groups read or write access to HR cases under a specific COE.
+Use COE Security Policy configuration to allow specific groups read or write access to HR cases under a specific COE.
 
 For example, you don't want the Benefits group to view the cases created by the Compensation group. You create a COE security policy that allows the Compensation group access. Groups that aren't included on the policy cannot access the cases.
 

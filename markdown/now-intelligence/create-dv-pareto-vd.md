@@ -68,14 +68,14 @@ For information about the use of a Pareto bar visualization in a dashboard, see 
 
         You might have a multiple select \(is one of\) or dynamic \(is \(dynamic\)\) operator on the breakdown element filter. These operators require the indicator and breakdown to support them. For more information about the configurations that support these operators, see ["Is one of" and "Is \(Dynamic\)" operators on breakdown conditions in data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/condition-operators-ind-bkdowns.md).
 
-    -   Usage Insights \(available with the User Experience PAR Integration application, to users with a required role\). Choose one of up to three KPIs included with this application, depending on the visualization type. For more information, see [User Experience Analytics data sources for data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/uxa-data-sources.md).
-    **Note:** You can choose multiple data sources for this visualization. However, all data sources must be of the same type: table, indicator, or Usage Insights. For more information, see [Multiple data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/multiple-data-sources.md).
+    -   User Experience Analytics \(available with the User Experience PAR Integration application, to users with a required role\). Choose one of up to three KPIs included with this application, depending on the visualization type. For more information, see [User Experience Analytics data sources for data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/uxa-data-sources.md).
+    **Note:** You can choose multiple data sources for this visualization. However, all data sources must be of the same type: table, indicator, or User Experience Analytics. For more information, see [Multiple data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/multiple-data-sources.md).
 
 6.  Select the options for your data source.
 
     -   If your visualization represents table data, go to [Table data options for pareto bar visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/config-dv-pareto-table-data.md).
     -   If your visualization represents indicator data, go to [Indicator data options for pareto bar visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/config-dv-pareto-ind-data.md).
-    -   If your visualization represents Usage Insights data, go to [Usage Insights for pareto bar visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/config-dv-pareto-uxa-data.md).
+    -   If your visualization represents User Experience Analytics data, go to [User Experience Analytics for pareto bar visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/config-dv-pareto-uxa-data.md).
 7.  Under **Presentation**, provide display and color information.
 
     Under **Display settings**, you can show the data table. This table shows graph and chart data for easier screen reader access. You can also select whether hovering on a data value opens a tooltip with all the data values or only the details of the selected data value.
@@ -255,7 +255,7 @@ Choose the event that occurs when a user clicks in a chart or one of its segment
 
 -   **Go to data view** opens the records view in a Core UI list or KPI Details relevant to the associated segment or visualization. Records do not open in Workspace embedded lists.
 
-Not supported for Usage Insights data sources.
+Not supported for User Experience Analytics data sources.
 
 -   **Go to URL** opens the specified URL, which can be on the instance or external. You have the option of specifying a page name to appear in the tooltip, for those visualizations with tooltips.
 -   **Drill down to chart** \(Visualization Designer only\) Opens a different data visualization that is filtered by the selected data. You can add a drill-down visualization for each metric on the parent visualization.
@@ -280,8 +280,8 @@ Not supported for Usage Insights data sources.
 When you select a table data source for a Pareto bar visualization, the following Data configuration options are available.
 -   **[Indicator data options for pareto bar visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/config-dv-pareto-ind-data.md)**  
 When you select an indicator data source for a Pareto bar visualization, the following Data configuration options are available.
--   **[Usage Insights for pareto bar visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/config-dv-pareto-uxa-data.md)**  
-When you select a Usage Insights data source for a Pareto bar visualization the following Data configuration options are available.
+-   **[User Experience Analytics for pareto bar visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/config-dv-pareto-uxa-data.md)**  
+When you select a User Experience Analytics data source for a Pareto bar visualization the following Data configuration options are available.
 
 **Parent Topic:**[Creating data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/creating-data-visualizations.md)
 

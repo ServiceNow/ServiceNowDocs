@@ -9,7 +9,7 @@ classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-02-24"
 reading_time_minutes: 1
-breadcrumb: [Configure Now Assist for Accounts Payable Operations \(APO\), Now Assist for Accounts Payable Operations \(APO\), Accounts Payable Operations, Finance and Supply Chain]
+breadcrumb: [Configure ServiceNow Otto for Accounts Payable Operations \(APO\), ServiceNow Otto for Accounts Payable Operations \(APO\), Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Configure Accounts payable document classification skill
@@ -31,7 +31,7 @@ Plugins required:
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills** to access the **Now Assist skills for Common Finance &amp; Supply Chain features** tab of the Now Assist Admin console.
+1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills** to access the **Now Assist skills for Common Finance &amp; Supply Chain features** tab of the AI Admin Hub console.
 
 2.  Select **Finance and Supply Chain** &gt; **Accounts Payable Operations** &gt; **Accounts payable document classification** to view the skills for the APO features.
 

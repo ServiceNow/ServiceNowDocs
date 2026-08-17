@@ -38,7 +38,7 @@ An AI icon and tooltip are displayed before the summary which indicate that the 
 
 This feature has the following dependencies:
 
--   Now Assist for CSM \(sn\_csm\_gen\_ai\)
+-   ServiceNow Otto for CSM \(sn\_csm\_gen\_ai\)
 -   UXC Generative AI \(sn\_uxc\_gen\_ai\)
 
 When these plugins are not installed or the chat summary is unavailable, agents can see the entire conversation transcript to access the chat history.
@@ -83,7 +83,7 @@ Starting with the Yokohama release, the Customer Central application \(com.sn\_c
 
 ## Request apps from the ServiceNow Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 **Related topics**  
 

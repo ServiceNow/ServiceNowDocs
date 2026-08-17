@@ -1,6 +1,6 @@
 ---
-title: Customize a KB generation skill in Now Assist for Field Service Management \(FSM\)
-description: If you have the admin role, you can customize the Now Assist for FSM KB generation skill so that agents can use the generative AI skills in CSM/FSM Configurable Workspace and in Core UI.
+title: Customize a KB generation skill in ServiceNow Otto for Field Service Management \(FSM\)
+description: If you have the admin role, you can customize the ServiceNow Otto for FSM KB generation skill so that agents can use the generative AI skills in CSM/FSM Configurable Workspace and in Core UI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/now-assist-for-field-service-management-fsm/cust-now-assist-fsm-skill.html
 release: yokohama
@@ -9,12 +9,12 @@ classification: now-assist-for-field-service-management-fsm
 topic_type: task
 last_updated: "2025-07-01"
 reading_time_minutes: 2
-breadcrumb: [Customizing a skill, Configure Now Assist for Field Service Management \(FSM\), Now Assist for Field Service Management \(FSM\)]
+breadcrumb: [Customizing a skill, Configure ServiceNow Otto for Field Service Management \(FSM\), ServiceNow Otto for Field Service Management \(FSM\)]
 ---
 
-# Customize a KB generation skill in Now Assist for Field Service Management \(FSM\)
+# Customize a KB generation skill in ServiceNow Otto for Field Service Management \(FSM\)
 
-If you have the admin role, you can customize the Now Assist for FSM KB generation skill so that agents can use the generative AI skills in CSM/FSM Configurable Workspace and in Core UI.
+If you have the admin role, you can customize the ServiceNow Otto for FSM KB generation skill so that agents can use the generative AI skills in CSM/FSM Configurable Workspace and in Core UI.
 
 ## Before you begin
 
@@ -22,15 +22,15 @@ Role required: wm\_admin
 
 ## About this task
 
-The out-of-the-box \(OOB\) KB is generated for the following states: Close Complete, Close Incomplete, and WIP. From the Now Assist Admin console, you can duplicate and customize the availability of the KB generation skill.
+The out-of-the-box \(OOB\) KB is generated for the following states: Close Complete, Close Incomplete, and WIP. From the AI Admin Hub console, you can duplicate and customize the availability of the KB generation skill.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills**.
 
-2.  In the **Customer** workflow group, select **FSM** to view the skills for the Now Assist for FSM features.
+2.  In the **Customer** workflow group, select **FSM** to view the skills for the ServiceNow Otto for FSM features.
 
-3.  Create a copy of the Now Assist for FSM KB generation skill and customize the input fields.
+3.  Create a copy of the ServiceNow Otto for FSM KB generation skill and customize the input fields.
 
     1.  On the KB generation skill feature card, select the more actions icon \[Omitted image "more\_actions.png"\] Alt text:.
 

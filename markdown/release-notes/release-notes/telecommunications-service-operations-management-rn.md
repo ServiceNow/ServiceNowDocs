@@ -66,11 +66,11 @@ After installing Telecommunications Service Operations Management TSOM, any cust
 
 ## Activation information
 
-Install Telecommunications Service Operations Management by requesting it from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install Telecommunications Service Operations Management by requesting it from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Related ServiceNow applications and features
 
--   **[Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/c_EM.md)**
+-   ****
 
     The Event Management application helps you to identify health issues across the datacenter on a single management console. It provides alert aggregation and root cause analysis \(RCA\) for discovered services, application services, and automated alert groups. Event Management is available as a separate subscription from the rest of the ServiceNow AI Platform®.
 

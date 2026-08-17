@@ -35,5 +35,5 @@ Role required: admin
 5.  In the message area, enter your updated text and select **Update**.
 
 
-**Parent Topic:**[Types of tracking consent policies in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/uxa-tracking-types.md)
+**Parent Topic:**[Types of tracking consent policies in User Experience Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/uxa-tracking-types.md)
 

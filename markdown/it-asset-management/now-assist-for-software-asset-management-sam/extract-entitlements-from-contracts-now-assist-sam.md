@@ -9,7 +9,7 @@ classification: now-assist-for-software-asset-management-sam
 topic_type: task
 last_updated: "2025-10-24"
 reading_time_minutes: 3
-breadcrumb: [Using Now Assist for Software Asset Management \(SAM\), Now Assist for Software Asset Management \(SAM\), Software Asset Management, IT Asset Management]
+breadcrumb: [Using ServiceNow Otto for Software Asset Management \(SAM\), ServiceNow Otto for Software Asset Management \(SAM\), Software Asset Management, IT Asset Management]
 ---
 
 # Extract entitlements from software contracts using Now Assist for SAM
@@ -52,8 +52,6 @@ You can extract data related to entitlements from an existing or a new contract 
 
 8.  Select **Next** once the extraction process is complete.
 
-    The extract entitlements page opens.
-
     \[Omitted image "extractentitlements.png"\] Alt text: Extract entitlements page
 
 9.  Select the Open tables down arrow next to **Tables**.
@@ -92,5 +90,5 @@ You can extract data related to entitlements from an existing or a new contract 
     The entitlements are successfully created.
 
 
-**Parent Topic:**[Using Now Assist for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/now-assist-for-software-asset-management-sam/using-now-assist-sam.md)
+**Parent Topic:**[Using ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/now-assist-for-software-asset-management-sam/using-now-assist-sam.md)
 

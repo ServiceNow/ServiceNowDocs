@@ -16,7 +16,7 @@ The ServiceNow® Site Reliability Operations application enables the enterprises
 
 Site Reliability Operations and Site Reliability Metrics \(extends SRO\) store applications are replaced with Service Reliability Management application.
 
-See [Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/sr-landing-page.md) for more information.
+See  for more information.
 
 ## Deprecations
 
@@ -24,7 +24,7 @@ Starting with the Yokohama release, Release Management v2 is being prepared for 
 
 ## Related ServiceNow applications and features
 
--   **[Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/sr-landing-page.md)**
+-   ****
 
     Service Reliability Management \(SRM\) helps your organization respond, collaborate, track, and self-remediate when working on alerts and incidents. SRM is available when you have both ITSM Standard and ITOM Operator Professional subscriptions.
 

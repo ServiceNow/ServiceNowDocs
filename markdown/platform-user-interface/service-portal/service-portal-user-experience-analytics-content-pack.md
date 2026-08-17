@@ -25,8 +25,8 @@ The following roles and tasks are associated with this Solution:
 
 For information about additional roles, see .
 
--   **[Usage Insights for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/service-portal/sp-analytics.md)**  
-The Usage Insights application provides views for monitoring usage analytics of your Service Portal applications. Visualize metrics and interactions to better understand the Service Portal user experience and identify how to improve it.
+-   **[User Experience Analytics for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/service-portal/sp-analytics.md)**  
+The User Experience Analytics application provides views for monitoring usage analytics of your Service Portal applications. Visualize metrics and interactions to better understand the Service Portal user experience and identify how to improve it.
 
 **Parent Topic:**[Analyzing portal performance and usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/service-portal/using-portal-analytics.md)
 

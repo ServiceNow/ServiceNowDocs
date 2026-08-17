@@ -9,7 +9,7 @@ classification: service-operations-workspace-for-itom-apps
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Using Service Operations Workspace for ITOM, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
+breadcrumb: [Using Service Operations Workspace for ITOM, Service Operations Workspace for ITOM, ITOM Health, IT Operations Management]
 ---
 
 # Using Service Operations Workspace for ITOM Log Analytics
@@ -20,7 +20,7 @@ View and address the alerts that Health Log Analytics generates in the Service O
 Start the remediation process from the **Overview** tab in the Service Operations Workspace. This tab provides information on alerts, log data that is associated with the anomalous behavior, CIs that generated the triggering metric, and services that are impacted by the alerts.
 -   **[Analyze log lines to identify an alert root cause](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-surrounding-logs-view-concept-sow.md)**  
 When Health Log Analytics identifies an anomaly, viewing the logs that surround the anomaly provides clues about the state of faulting systems. This information can help you narrow down the root cause of an alert.
--   **[Reviewing the logs for an alert on the Log viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-logs-log-viewer-concept-sow.md)**  
+-   **[Reviewing alert logs on the Log viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-logs-log-viewer-concept-sow.md)**  
 The **Log viewer** tab lets you browse the logs for an alert by timestamp or time range, and visualize anomaly frequency within a specific time period. Customizing the displayed data and adjusting time filters enables you to better understand the framework in which the anomaly occurred, helping you find the root cause faster.
 -   **[Adding, changing, or deleting Log Analytics alert rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-operations-workspace-for-itom-apps/hla-alert-rules-manage-sow-itom.md)**  
 Add, change, or delete an alert rule that generates an alert for a specified metric.

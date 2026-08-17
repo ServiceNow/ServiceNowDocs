@@ -9,7 +9,7 @@ classification: now-assist-for-software-asset-management-sam
 topic_type: task
 last_updated: "2025-03-04"
 reading_time_minutes: 1
-breadcrumb: [Using Now Assist for Software Asset Management \(SAM\), Now Assist for Software Asset Management \(SAM\), Software Asset Management, IT Asset Management]
+breadcrumb: [Using ServiceNow Otto for Software Asset Management \(SAM\), ServiceNow Otto for Software Asset Management \(SAM\), Software Asset Management, IT Asset Management]
 ---
 
 # Generate product compliance summaries by using Now Assist for SAM
@@ -50,15 +50,15 @@ When you run reconciliation with grouping, product summarization and recommended
 
 6.  You can perform the following actions on the generated summary.
 
-<table id="choicetable_swv_41f_f2c"><thead><tr><th align="left" id="d164472e158">
+<table id="choicetable_swv_41f_f2c"><thead><tr><th align="left" id="d165328e158">
 
 Action
 
-</th><th align="left" id="d164472e161">
+</th><th align="left" id="d165328e161">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d164472e167">
+</th></tr></thead><tbody><tr><td id="d165328e167">
 
 **Copy to clipboard icon**
 
@@ -66,7 +66,7 @@ Description
 
 Copies the summary to a clipboard.
 
-</td></tr><tr><td id="d164472e176">
+</td></tr><tr><td id="d165328e176">
 
 **Refresh icon**
 
@@ -74,7 +74,7 @@ Copies the summary to a clipboard.
 
 Regenerates the product summary and recommended actions.
 
-</td></tr><tr><td id="d164472e185">
+</td></tr><tr><td id="d165328e185">
 
 **Feedback**
 
@@ -84,5 +84,5 @@ If you found that the summary was helpful, select the helpful icon. If you found
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using Now Assist for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/now-assist-for-software-asset-management-sam/using-now-assist-sam.md)
+**Parent Topic:**[Using ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/now-assist-for-software-asset-management-sam/using-now-assist-sam.md)
 

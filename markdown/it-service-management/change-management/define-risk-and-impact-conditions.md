@@ -1,20 +1,20 @@
 ---
 title: Add or modify risk and impact conditions
-description: You can define risk calculation rules on which the risk and impact of a change are calculated. Best Practice - Change Risk Calculator is activated by default in the base system.
+description: You can define risk calculation rules on which the risk and impact of a change are calculated. Change Management - Change Risk Calculator is activated by default in the base system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/change-management/define-risk-and-impact-conditions.html
 release: yokohama
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 2
+last_updated: "2026-07-17"
+reading_time_minutes: 3
 breadcrumb: [Risk conditions and calculation, Analyze change request risk and impact rating, Reference section for Change Management, Change Management, IT Service Management]
 ---
 
 # Add or modify risk and impact conditions
 
-You can define risk calculation rules on which the risk and impact of a change are calculated. Best Practice - Change Risk Calculator is activated by default in the base system.
+You can define risk calculation rules on which the risk and impact of a change are calculated. Change Management - Change Risk Calculator is activated by default in the base system.
 
 ## Before you begin
 
@@ -102,25 +102,30 @@ Description
 Enter a description of how this risk calculation is applied.
 
 </td></tr></tbody>
-</table>4.  Specify the rule based on your selected rule method.
+</table>    **Important:** If the **Calculated risk** value doesn't update, check the following:
 
-<table id="choicetable_zdq_xvm_lz"><thead><tr><th align="left" id="d225001e223">
+    -   The rule's **Active** check box is selected.
+    -   No rule with a lower **Order** value matched the change request first. The first matching rule wins, and the system ignores later rules.
+    -   If **Use script values** is selected, the script assigns both the **Risk** and **Impact** values.
+4.  Specify the rule based on your selected rule method.
+
+<table id="choicetable_zdq_xvm_lz"><thead><tr><th align="left" id="d225350e260">
 
 Choice
 
-</th><th align="left" id="d225001e226">
+</th><th align="left" id="d225350e263">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d225001e232">
+</th></tr></thead><tbody><tr><td id="d225350e269">
 
 **Condition**
 
 </td><td>
 
-Use the condition builder to add conditions. It is hidden if you selected **Use advanced condition**.
+Use the condition builder to add conditions. Do not use the Keywords field as a filter condition. Risk and impact values are not calculated for keywords. To achieve equivalent filtering, use the **Use advanced condition** option and write a script that performs the text comparison explicitly.**Note:** The **Condition** section is hidden if you selected **Use advanced condition**.
 
-</td></tr><tr><td id="d225001e244">
+</td></tr><tr><td id="d225350e289">
 
 **Use advanced conditions**
 
@@ -128,7 +133,7 @@ Use the condition builder to add conditions. It is hidden if you selected **Use 
 
 Write the script in the **Advanced condition** field using standard business rule syntax. The condition must set the global variable answer to *true* or *false*.
 
-</td></tr><tr><td id="d225001e262">
+</td></tr><tr><td id="d225350e307">
 
 **Use script values**
 

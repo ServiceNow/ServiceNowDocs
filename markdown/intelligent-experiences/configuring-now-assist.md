@@ -1,6 +1,6 @@
 ---
-title: Now Assist Admin console
-description: The Now Assist Admin console provides quick and effortless access to the important information that you need to set up, configure, and monitor Now Assist applications and features.
+title: AI Admin Hub console
+description: The AI Admin Hub console provides quick and effortless access to the important information that you need to set up, configure, and monitor Now Assist applications and features.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/configuring-now-assist.html
 release: yokohama
@@ -11,23 +11,23 @@ keywords: [Configuring, Now Assist Admin, console, ServiceNow AI Platform, GenAI
 breadcrumb: [Exploring Now Assist, Now Assist, Enable AI experiences]
 ---
 
-# Now Assist Admin console
+# AI Admin Hub console
 
-The Now Assist Admin console provides quick and effortless access to the important information that you need to set up, configure, and monitor Now Assist applications and features.
+The AI Admin Hub console provides quick and effortless access to the important information that you need to set up, configure, and monitor Now Assist applications and features.
 
 \[Omitted video\] Description: Introduction to the Now Assist Admin console.
 
-## Now Assist Admin overview
+## AI Admin Hub overview
 
-Begin your exploration of the Now Assist skills in the Now Assist Admin console. This console contains everything that you need to install, configure, and learn about the different generative AI features on the ServiceNow AI Platform.
+Begin your exploration of the Now Assist skills in the AI Admin Hub console. This console contains everything that you need to install, configure, and learn about the different generative AI features on the ServiceNow AI Platform.
 
-The following example shows the Now Assist Admin Overview page.
+The following example shows the AI Admin Hub Overview page.
 
-\[Omitted image "now-assist-admin-console-overview.png"\] Alt text: Now Assist Admin overview panel.
+\[Omitted image "now-assist-admin-console-overview.png"\] Alt text: AI Admin Hub overview panel.
 
-## Now Assist Admin workflow
+## AI Admin Hub workflow
 
-Take five steps to begin using the Now Assist Admin console.
+Take five steps to begin using the AI Admin Hub console.
 
 -   **1. Install plugins.**
 
@@ -37,7 +37,7 @@ Take five steps to begin using the Now Assist Admin console.
 
 -   **2. \(Optional\) Turn on the Now Assist panel.**
 
-    The Now Assist panel integrates the Now Assist skills into the Next Experience UI. By turning on the Now Assist panel directly from the Now Assist Admin console, you enable agents to access skills from anywhere on the ServiceNow AI Platform.
+    The Now Assist panel integrates the Now Assist skills into the Next Experience UI. By turning on the Now Assist panel directly from the AI Admin Hub console, you enable agents to access skills from anywhere on the ServiceNow AI Platform.
 
     For more information about the Now Assist panel, see [Now Assist panel overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-panel-overview.md).
 
@@ -53,11 +53,11 @@ Take five steps to begin using the Now Assist Admin console.
 
     Explore the skills in either list or grid view using the toggle icon. This feature allows you to view detailed information about each skill and activate them without navigating away from the current page. Previously, skills were presented as cards, and this update aims to improve the way you interact with them.
 
-    \[Omitted image "explore-now-assist-4.png"\] Alt text: In the Technology workflow, select the workflow area to see all of the available skills. In this example, the skills for Now Assist for IT Service Management \(ITSM\) are displayed.
+    \[Omitted image "explore-now-assist-4.png"\] Alt text: In the Technology workflow, select the workflow area to see all of the available skills. In this example, the skills for ServiceNow Otto for IT Service Management \(ITSM\) are displayed.
 
-    After deciding which skills best fit your business needs, you can activate them from the console. Some skills require configuration so that you can customize the skill to your needs, such as determining the skill inputs and triggers. You can select the skills that you want to configure in the Now Assist Admin Skills page.
+    After deciding which skills best fit your business needs, you can activate them from the console. Some skills require configuration so that you can customize the skill to your needs, such as determining the skill inputs and triggers. You can select the skills that you want to configure in the AI Admin Hub Skills page.
 
-    The following example shows a step in the guided setup of the skill activation process, which is choosing where to display the skill. Skills can be displayed in-product, including the Core UI and Workspaces, or in the Now Assist panel. You can choose either or both locations. The following diagram shows the process for chat summarization activation in Now Assist Admin.
+    The following example shows a step in the guided setup of the skill activation process, which is choosing where to display the skill. Skills can be displayed in-product, including the Core UI and Workspaces, or in the Now Assist panel. You can choose either or both locations. The following diagram shows the process for chat summarization activation in AI Admin Hub.
 
     \[Omitted image "explore-now-assist-5.png"\] Alt text: Step in the skill activation process: Choosing where to display the skill. You can specify either in-product, the Now Assist panel, or both locations.
 
@@ -74,9 +74,9 @@ Take five steps to begin using the Now Assist Admin console.
     \[Omitted image "explore-now-assist-6.png"\] Alt text: Plugin status shows that three plugins are installed, and three plugins are not installed. The Skills status shows that twelve skills are active, and one skill is inactive.
 
 
-The Now Assist Admin console contains the **Now Assist journey checklist** with additional instructions for implementing Now Assist on your instance.
+The AI Admin Hub console contains the **Now Assist journey checklist** with additional instructions for implementing Now Assist on your instance.
 
-You can consult the following checklist from the Now Assist Admin console Overview page at any time to guide your implementation of Now Assist applications, features, and skills.
+You can consult the following checklist from the AI Admin Hub console Overview page at any time to guide your implementation of Now Assist applications, features, and skills.
 
 \[Omitted image "now-assist-journey-checklist.png"\] Alt text: The Now Assist Journey checklist shows the Now Assist admin journey that was described in the five step workflow of this topic.
 
@@ -85,6 +85,6 @@ You can consult the following checklist from the Now Assist Admin console Overvi
 -   Get an overview of [the Now Assist framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/exploring-now-assist-platform.md).
 -   Discover the [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-panel-overview.md).
 -   Explore the [Now Assist skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-skills/now-assist-skills.md) available.
--   [Activate and configure a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/configure-a-now-assist-skill.md) using the Now Assist Admin console.
+-   [Activate and configure a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/configure-a-now-assist-skill.md) using the AI Admin Hub console.
 -   [Analyze and monitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-analytics-and-monitoring.md) Now Assist skill usage and performance.
 

@@ -9,7 +9,7 @@ classification: upgrade-management
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Upgrade History tool in Upgrade Console, Upgrade Console tools, Using Upgrade Console, Upgrade Console, Upgrade, Administer the ServiceNow AI Platform]
+breadcrumb: [Upgrade History tool in Upgrade Management, Upgrade Management tools, Using Upgrade Management, Upgrade Management, Upgrade, Administer the ServiceNow AI Platform]
 ---
 
 # Reviewing upgrade history
@@ -34,5 +34,5 @@ Reduce the navigating time by directly accessing plugins, application installati
 -   **[Explore upgrade history log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-management/um-explore-history-log.md)**  
 Reduce processing time by extracting all upgrade related logs into a separate file named database-upgrade\_&lt;timestamp&gt;.log. You can also zip the file and attach it to upgrade history.
 
-**Parent Topic:**[Upgrade History tool in Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-management/um-upgrade-history-tool.md)
+**Parent Topic:**[Upgrade History tool in Upgrade Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-management/um-upgrade-history-tool.md)
 

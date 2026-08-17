@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 7
 keywords: [Health Log Analytics, HLA, overview, introduction, architecture, workflow, log data, data input connectors, data sources, ingestion, anomalies]
-breadcrumb: [Exploring Health Log Analytics, Health Log Analytics, ITOM AIOps, IT Operations Management]
+breadcrumb: [Exploring Health Log Analytics, Health Log Analytics, ITOM Health, IT Operations Management]
 ---
 
 # Get started with ServiceNow Health Log Analytics \(HLA\)

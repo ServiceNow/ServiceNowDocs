@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 8
 keywords: [ServiceNow, Health Log Analytics, HLA, logs, mapping, auto-map, data input, source type, JavaScript]
-breadcrumb: [Log data auto-mapping and mapping, Setting up Health Log Analytics on your ServiceNow instance, Configuring Health Log Analytics, Health Log Analytics, ITOM AIOps, IT Operations Management]
+breadcrumb: [Log data auto-mapping and mapping, Setting up Health Log Analytics on your ServiceNow instance, Configuring Health Log Analytics, Health Log Analytics, ITOM Health, IT Operations Management]
 ---
 
 # Map raw log data

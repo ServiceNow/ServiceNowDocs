@@ -9,7 +9,7 @@ classification: now-assist-for-security-incident-response-sir
 topic_type: task
 last_updated: "2025-03-26"
 reading_time_minutes: 3
-breadcrumb: [Resolve security incident, Use agentic workflows, Now Assist for Security Incident Response, Security Operations]
+breadcrumb: [Resolve security incident, Use agentic workflows, ServiceNow Otto for Security Incident Response \(SIR\), Security Operations]
 ---
 
 # Resolve a security incident

@@ -9,7 +9,7 @@ classification: event-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 5
-breadcrumb: [Event rules, Processing Events, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Event rules, Processing Events, Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
 ---
 
 # Set a threshold to suppress alert generation

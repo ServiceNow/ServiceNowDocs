@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2025-01-26"
 reading_time_minutes: 4
 keywords: [Health Log Analytics, data input, connector, configuration, setup]
-breadcrumb: [Health Log Analytics, ITOM AIOps, IT Operations Management]
+breadcrumb: [Health Log Analytics, ITOM Health, IT Operations Management]
 ---
 
 # Configuring Health Log Analytics
@@ -81,5 +81,5 @@ Implement Health Log Analytics on your ServiceNow instance by setting up the dat
 -   **[Administering Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-administer.md)**  
 This section covers tasks involved in Health Log Analytics administration. It provides system administrators with information needed to keep Health Log Analytics running efficiently.
 
-**Parent Topic:**[ITOM AIOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-health-landing-page.md)
+**Parent Topic:**[ITOM Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-health-landing-page.md)
 

@@ -8,7 +8,8 @@ product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
 last_updated: "2026-02-25"
-reading_time_minutes: 2
+reading_time_minutes: 3
+keywords: [Data Foundations data integrations tab, discovery patterns attribute coverage, service graph connectors, suggested data integrations, integration status indicators]
 breadcrumb: [Use Data Foundations advisor, CMDB success advisor, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -29,6 +30,7 @@ Navigate to the CMDB success advisor landing page, and on the Data Foundations c
 |Role|Description|
 |----|-----------|
 |sn\_cmdb\_admin|Required to access the CMDB success advisor.|
+|sn\_cmdb\_user|Provides read-only access to CMDB success advisor pages and data, including the AI-generated summary of the dashboard.|
 |cmdb\_inst\_admin|Required to manage Service Graph Connector connections in SGC Central.|
 
 ## Use cases

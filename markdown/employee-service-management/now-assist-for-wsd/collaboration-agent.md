@@ -1,6 +1,6 @@
 ---
 title: Get space suggestions using the collaboration agent
-description: The Workplace collaboration agent provides space recommendations and insights for collaboration based on employee's workplace presence data, team members or frequent collaborators, attendees in your reservation, and workplace profile \(assigned space\).
+description: The Workplace collaboration agent provides space recommendations based on workplace presence data, team members, frequent collaborators, reservation attendees, and assigned space.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/now-assist-for-wsd/collaboration-agent.html
 release: yokohama
@@ -8,13 +8,13 @@ product: Now Assist for WSD
 classification: now-assist-for-wsd
 topic_type: task
 last_updated: "2026-01-09"
-reading_time_minutes: 6
+reading_time_minutes: 5
 breadcrumb: [Using the workplace collaboration Agent for space suggestions, Using Now Assist in Virtual Agent, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Get space suggestions using the collaboration agent
 
-The Workplace collaboration agent provides space recommendations and insights for collaboration based on employee's workplace presence data, team members or frequent collaborators, attendees in your reservation, and workplace profile \(assigned space\).
+The Workplace collaboration agent provides space recommendations based on workplace presence data, team members, frequent collaborators, reservation attendees, and assigned space.
 
 ## Before you begin
 
@@ -136,13 +136,13 @@ I have reserved this space for you.
 
         -   Location: Employee's building location is derived using the following logic:
             -   The building and floor for today's \(current date\) reservation.
-            -   Employee presence information
-            -   Workplace profile primary location or assigned space
+            -   Employee presence information.
+            -   Workplace profile primary location or assigned space.
 
-                In case, no desks reservation are found, the collaboration agent checks if there is a workplace profile and a location \(desk\) assigned to an employee while making space suggestions near a collaborator. If workplace profile primary location is not available, the collaboration agent determines the collaborators location \(building/space\) based on the employee's workplace presence information.
+                If no desk reservations are found, the collaboration agent checks the workplace profile and assigned location \(desk\). The agent uses this information when making space suggestions near a collaborator. If the workplace profile primary location is not available, the agent determines the collaborator's location \(building/space\) from the employee's workplace presence information.
 
         -   When the employee enters a name, the collaboration agent tries to identify the collaborator. It takes into account the following factors:
-            -   Your team \(this includes your manager. If you are a manager and not an individual contributor, the agent also considers employees reporting to you as your collaborators\).
+            -   Your team \(this includes your manager. If you're a manager and not an individual contributor, the agent also considers employees reporting to you as your collaborators\).
             -   Workplace presence Collaborator information. This includes Employee Presence Routine and Employee Presence Exceptions. For more information, see [Components installed with Workplace Concierge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-concierge/components-installed-with-workplace-concierge.md) and [Set Employee Presence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-concierge/use-workplace-concierge.md)
             -   Your current reservations in the system and invitees added by you.
             -   Your workplace profile and the primary location assigned to you.

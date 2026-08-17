@@ -2969,6 +2969,13 @@ Some properties are available on a system properties form, but some lesser-used 
     -   Type: true \| false
     -   Default value: true
     -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+-   **glide.translated\_html.sanitize\_all\_fields**
+
+    If **true**, all translated\_html elements are sanitized using an HTML sanitizer. If **false**, an element is sanitized only if the dictionary attribute **html\_sanitize** is set to **true**.
+
+    -   Type: true \| false
+    -   Default value: false
+    -   Location: System Property \[sys\_properties\] table
 -   **glide.ts.index.attachment.debug**
 
     If **true**, enables log messages for exceptions that occur when indexing attachments. You can leave this property enabled during normal operations to capture stack trace information about any exceptions.
@@ -3485,10 +3492,10 @@ Some properties are available on a system properties form, but some lesser-used 
     -   Location: System Property \[sys\_properties\] table
 -   **glide.ui.mentions.default\_limit**
 
-    Number of users with same name displayed in Activity Stream Compose editor. When set to true, the default limit takes in a number which determines how many users with the same name are displayed.
+    Number of users with same name displayed in Activity Stream Compose editor.
 
-    -   Type: string
-    -   Default value: true
+    -   Type: integer
+    -   Default value: 5
     -   Location: System Property \[sys\_properties\] table
 -   **glide.ui.mobile\_agents**
 

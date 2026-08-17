@@ -50,7 +50,7 @@ The system provides the default connection and credential alias for the Azure Op
 
         -   Select the connection record that you created in step 3 for the Azure OpenAI alias.
         -   Select the connection record that you created in step 3 for the Google Gemini API alias.
-    2.  In the Credentials field, select the search icon \(\[Omitted image "Banner\_GlobalTextSearchIcon.png"\] Alt text: Lookup using list.\) and then select **New**.
+    2.  In the Credentials field, select the search icon \[Omitted image "Banner\_GlobalTextSearchIcon.png"\] Alt text: Lookup using list. and then select **New**.
 
     3.  From the list of credentials, select a credential type.
 

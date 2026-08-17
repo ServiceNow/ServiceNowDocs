@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 2
 keywords: [HLA installation, installing HLA, installing Health Log Analytics, installing ServiceNow HLA, installing ServiceNow Health Log Analytics]
-breadcrumb: [Configuring Health Log Analytics, Health Log Analytics, ITOM AIOps, IT Operations Management]
+breadcrumb: [Configuring Health Log Analytics, Health Log Analytics, ITOM Health, IT Operations Management]
 ---
 
 # Install Health Log Analytics \(HLA\)
@@ -31,7 +31,7 @@ Role required: admin
 
     To obtain the entitlements, contact your ServiceNow Solution Consultant.
 
-2.  Opt into the ITOM AIOps product.
+2.  Opt into the ITOM Health product.
 
     1.  Go to the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website and search for the Health Log Analytics app.
 

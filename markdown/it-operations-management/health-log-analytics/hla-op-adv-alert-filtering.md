@@ -9,7 +9,7 @@ classification: health-log-analytics
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Health Log Analytics, ITOM AIOps, IT Operations Management]
+breadcrumb: [Health Log Analytics, ITOM Health, IT Operations Management]
 ---
 
 # Reducing noise by adding advanced log alert filters
@@ -38,5 +38,5 @@ For more technical information on log alert filters, see the [Advanced Log Alert
 -   **[Create advanced log alert filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-op-adv-alert-filter-crud.md)**  
 Add advanced log alert filters to scan alerts for conditions that you specify. The filters reduce noise by dropping alerts that do not indicate a significant issue. While developing a filter, you can test, update, publish, or activate the filter at any time.
 
-**Parent Topic:**[ITOM AIOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-health-landing-page.md)
+**Parent Topic:**[ITOM Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-health-landing-page.md)
 

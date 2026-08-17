@@ -187,15 +187,15 @@ If you’re using Software Asset Workspace, the option to create the Confluence 
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d169626e709">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d170482e709">
 
 Interface
 
-</th><th align="left" id="d169626e712">
+</th><th align="left" id="d170482e712">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d169626e718">
+</th></tr></thead><tbody><tr><td id="d170482e718">
 
 **Core UI**
 
@@ -206,7 +206,7 @@ Action
 3.  Select **Confluence Cloud Integration Profile**.
 
 
-</td></tr><tr><td id="d169626e760">
+</td></tr><tr><td id="d170482e760">
 
 **Software Asset Workspace**
 

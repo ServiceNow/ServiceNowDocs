@@ -27,7 +27,7 @@ You can perform the following tasks using the bulk edit feature in the Security 
 -   [Close records in bulk in the Vulnerability Manager Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/vulnerability-manager-workspace/vmws-bulk-edit-close-records.md)
 
 -   **[Using bulk edit in the Security Exposure Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/sem-using-bulk-edit.md)**  
-In the Security Exposure Management Workspace, you can update the state of the records, request exceptions and false positives, and assign records to an assignment group multiple findings simultaneously using the bulk edit feature.
+Bulk edit in the Security Exposure Management Workspace enables you to update the state, request exceptions and false positives, and assign multiple findings to an assignment group simultaneously.
 
 **Parent Topic:**[Using Unified Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/using-unified-security-exposure-management.md)
 

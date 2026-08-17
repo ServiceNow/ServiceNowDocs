@@ -1,6 +1,6 @@
 ---
 title: Clone and edit a ServiceNow skill
-description: Eligible skills provided in ServiceNow Now Assist applications can be cloned in Now Assist Skill Kit so that you can edit the prompt or change the AI service provider. Editing the prompt enables you to arrange the formatting and content of the LLM response.
+description: Eligible skills provided in ServiceNow Now Assist applications can be cloned in AI Skill Kit so that you can edit the prompt or change the AI service provider. Editing the prompt enables you to arrange the formatting and content of the LLM response.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/now-assist-skill-kit/clone-and-edit-servicenow-skill.html
 release: yokohama
@@ -9,12 +9,12 @@ classification: now-assist-skill-kit
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Create a skill, Using Now Assist Skill Kit, Now Assist Skill Kit, Enable AI experiences]
+breadcrumb: [Create a skill, Using AI Skill Kit, AI Skill Kit, Enable AI experiences]
 ---
 
 # Clone and edit a ServiceNow skill
 
-Eligible skills provided in ServiceNow Now Assist applications can be cloned in Now Assist Skill Kit so that you can edit the prompt or change the AI service provider. Editing the prompt enables you to arrange the formatting and content of the LLM response.
+Eligible skills provided in ServiceNow Now Assist applications can be cloned in AI Skill Kit so that you can edit the prompt or change the AI service provider. Editing the prompt enables you to arrange the formatting and content of the LLM response.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: sn\_skill\_builder.admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Skill Kit** &gt; **Home**.
+1.  Navigate to **All** &gt; **AI Skill Kit** &gt; **Home**.
 
 2.  Select **ServiceNow skills**
 

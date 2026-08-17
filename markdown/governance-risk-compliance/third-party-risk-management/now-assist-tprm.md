@@ -1,6 +1,6 @@
 ---
-title: Now Assist for Third-party Risk Management \(TPRM\)
-description: Use the ServiceNow Now Assist for Third-party Risk Management \(TPRM\) application to empower your risk management teams with generative AI-powered capabilities to automate and streamline data collection enabling teams to efficiently gather, validate, and report on third-party risk information.
+title: ServiceNow Otto for Third-party Risk Management \(TPRM\)
+description: Use the ServiceNow ServiceNow Otto for Third-party Risk Management \(TPRM\) application to empower your risk management teams with generative AI-powered capabilities to automate and streamline data collection enabling teams to efficiently gather, validate, and report on third-party risk information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/third-party-risk-management/now-assist-tprm.html
 release: yokohama
@@ -13,23 +13,23 @@ keywords: [Now Assist, agentic AI, generative AI, Gen AI]
 breadcrumb: [Third-party Risk Management, Governance, Risk, and Compliance]
 ---
 
-# Now Assist for Third-party Risk Management \(TPRM\)
+# ServiceNow Otto for Third-party Risk Management \(TPRM\)
 
-Use the ServiceNow® Now Assist for Third-party Risk Management \(TPRM\) application to empower your risk management teams with generative AI-powered capabilities to automate and streamline data collection enabling teams to efficiently gather, validate, and report on third-party risk information.
+Use the ServiceNow® ServiceNow Otto for Third-party Risk Management \(TPRM\) application to empower your risk management teams with generative AI-powered capabilities to automate and streamline data collection enabling teams to efficiently gather, validate, and report on third-party risk information.
 
 ## Get started
 
 <table id="table_iht_hgl_5yb" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about Now Assist for TPRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/exploring-now-assist-tprm.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about ServiceNow Otto for TPRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/exploring-now-assist-tprm.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the Now Assist for TPRM application to get started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/configure-now-assist-for-tprm.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the ServiceNow Otto for TPRM application to get started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/configure-now-assist-for-tprm.md)
 
 </td><td>
 
-[Use TPRM generative AI\[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:Use generative AI capabilities offered by Now Assist for TPRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/using-now-assist-for-tprm.md)
+[Use TPRM generative AI\[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:Use generative AI capabilities offered by ServiceNow Otto for TPRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/using-now-assist-for-tprm.md)
 
 </td></tr></tbody>
 </table>**Important:**

@@ -1,17 +1,17 @@
 ---
 title: Customer Service Management
-description: The ServiceNow Customer Service Management product enables you to provide the service and support that your external customers need. For example, your customers can communicate and receive support through the web, email, chat, telephone, and social media.
+description: The ServiceNow Customer Service Management enables you to provide the service and support that your external customers need. For example, your customers can communicate and receive support through the web, email, chat, telephone, and social media.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/c\_CustomerServiceManagement.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 ---
 
 # Customer Service Management
 
-The ServiceNow® Customer Service Management product enables you to provide the service and support that your external customers need. For example, your customers can communicate and receive support through the web, email, chat, telephone, and social media.
+The ServiceNow® Customer Service Management enables you to provide the service and support that your external customers need. For example, your customers can communicate and receive support through the web, email, chat, telephone, and social media.
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 

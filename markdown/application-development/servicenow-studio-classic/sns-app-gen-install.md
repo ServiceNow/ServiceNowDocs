@@ -1,6 +1,6 @@
 ---
 title: Install Now Assist for app generation in ServiceNow Studio
-description: Install the Now Assist for Creator application so that you can get started with creating an application for your organization.
+description: Install the ServiceNow Otto for Creator application so that you can get started with creating an application for your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/servicenow-studio-classic/sns-app-gen-install.html
 release: yokohama
@@ -15,7 +15,7 @@ breadcrumb: [Configuring Now Assist for app generation in ServiceNow Studio, Now
 
 # Install Now Assist for app generation in ServiceNow Studio
 
-Install the Now Assist for Creator application so that you can get started with creating an application for your organization.
+Install the ServiceNow Otto for Creator application so that you can get started with creating an application for your organization.
 
 ## Before you begin
 
@@ -23,31 +23,31 @@ Role required: admin
 
 ## Procedure
 
-1.  Go to the [Now Assist for Creator](https://store.servicenow.com/sn_appstore_store.do#!/store/application/8178fec0ce0431105a7c9305875b2dca) application listing in the ServiceNow Store.
+1.  Go to the [ServiceNow Otto for Creator](https://store.servicenow.com/sn_appstore_store.do#!/store/application/8178fec0ce0431105a7c9305875b2dca) application listing in the ServiceNow Store.
 
 2.  Review the listing to learn about dependencies, licensing, subscription requirements, and release compatibility.
 
-    In the listing, see that Now Assist for Creator includes Now Assist application generation.
+    In the listing, see that ServiceNow Otto for Creator includes Now Assist application generation.
 
-    \[Omitted image "app-generation-install-na-creator.png"\] Alt text: Now Assist for Creator listing in the ServiceNow Store with application generation skill highlighted.
+    \[Omitted image "app-generation-install-na-creator.png"\] Alt text: ServiceNow Otto for Creator listing in the ServiceNow Store with application generation skill highlighted.
 
-3.  On the Now Assist for Creator application page, select **Buy**.
+3.  On the ServiceNow Otto for Creator application page, select **Buy**.
 
 4.  After your request is approved, open your instance and navigate to **All** &gt; **System Applications** &gt; **All Available Applications** &gt; **All**.
 
-5.  Find and select the Now Assist for Creator application \(sn\_now\_creator\) by using the filter criteria and search bar.
+5.  Find and select the ServiceNow Otto for Creator application \(sn\_now\_creator\) by using the filter criteria and search bar.
 
 6.  Select **Install**.
 
-7.  Verify that Now Assist for Creator is installed.
+7.  Verify that ServiceNow Otto for Creator is installed.
 
-    1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Experiences**.
+    1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Experiences**.
 
     2.  In the workflow list, select **Creator**.
 
     3.  On the App Generation card, verify that the app generation skill is active.
 
-        \[Omitted image "install-now-assist-app-skill-ys2.png"\] Alt text: App Generation Card that displays the app generation skill on the Now Assist Admin skills tab.
+        \[Omitted image "install-now-assist-app-skill-ys2.png"\] Alt text: App Generation Card that displays the app generation skill on the AI Admin Hub skills tab.
 
         If app generation is not active, select **Turn on**.
 
@@ -57,7 +57,7 @@ Role required: admin
 
 8.  Activate the Now Assist panel.
 
-    1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Experiences**.
+    1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Experiences**.
 
     2.  In **Summary**, select **Turn on**.
 
@@ -89,5 +89,5 @@ To begin generating applications, see [Generate apps with Now Assist for app gen
 **Related topics**  
 
 
-[Install Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/install-now-assist-for-creator.md)
+[Install ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/install-now-assist-for-creator.md)
 

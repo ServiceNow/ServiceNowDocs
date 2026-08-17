@@ -25,7 +25,7 @@ To use Dynamic Translation, you must install and activate the application and in
 
 **Note:** Dynamic Translation is not supported in regulated markets.
 
-If you don't see a language and region section of your Now Assist Admin console, make sure that you have installed at least one Now Assist application. This installs or updates the required dependencies to the latest version.
+If you don't see a language and region section of your AI Admin Hub console, make sure that you have installed at least one Now Assist application. This installs or updates the required dependencies to the latest version.
 
 Role required: sn\_generative\_ai.nsa\_admin
 

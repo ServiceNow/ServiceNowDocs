@@ -24,13 +24,13 @@ Grant fulfiller, requester, and supplier user roles to access the Common Finance
 |sn\_fsc\_genai.now\_assist\_fulfiller|Contains fulfiller role to access Finance and Supply Chain common generative AI features|now\_assist\_panel\_user|
 |sn\_fsc\_genai.now\_assist\_requester|Contains requester role to access Finance and Supply Chain common generative AI features| |
 |sn\_fsc\_genai.now\_assist\_supplier|Contains Now Assist supplier role to access Finance and Supply Chain common generative AI features| |
-|Now Assist for Accounts Payable Operations \(APO\)|
+|ServiceNow Otto for Accounts Payable Operations \(APO\)|
 |sn\_ap\_gen\_ai.now\_assist\_fulfiller|Contains fulfiller role to access Now Assist for Accounts Payable Operations|sn\_fsc\_genai.now\_assist\_fulfiller|
 |sn\_ap\_gen\_ai.now\_assist\_supplier|Contains supplier role to access Now Assist features for Accounts Payable Operations|sn\_fsc\_genai.now\_assist\_supplier|
-|Now Assist for Sourcing and Procurement Operations \(SPO\)|
+|ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)|
 |sn\_spend\_gen\_ai.now\_assist\_fulfiller|Contains fulfiller role to access generative AI features for Sourcing and Procurement Operations|sn\_fsc\_genai.now\_assist\_fulfiller|
 |sn\_spend\_gen\_ai.now\_assist\_requester|Contains requester role to access generative AI features for Sourcing and Procurement Operations|sn\_fsc\_genai.now\_assist\_requester|
-|Now Assist for Supplier Lifecycle Operations \(SLO\)|
+|ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)|
 |sn\_supplier\_gen\_ai.now\_assist\_fulfiller|Contains Now Assist fulfiller role to access generative AI features for Supplier Lifecycle Operations|sn\_fsc\_genai.now\_assist\_fulfiller|
 |sn\_supplier\_gen\_ai.now\_assist\_supplier|Contains Now Assist supplier role to access generative AI features for Supplier Collaboration Portal|sn\_fsc\_genai.now\_assist\_supplier|
 

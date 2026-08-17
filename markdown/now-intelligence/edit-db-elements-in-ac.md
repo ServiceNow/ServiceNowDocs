@@ -33,15 +33,15 @@ Role required: dashboard\_admin for all dashboards, or any role for dashboards t
 
 3.  Perform any of the following actions on the element.
 
-<table id="choicetable_gv3_q3r_g5"><thead><tr><th align="left" id="d81860e134">
+<table id="choicetable_gv3_q3r_g5"><thead><tr><th align="left" id="d82460e134">
 
 Action
 
-</th><th align="left" id="d81860e137">
+</th><th align="left" id="d82460e137">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d81860e143">
+</th></tr></thead><tbody><tr><td id="d82460e143">
 
 **Add an element**
 
@@ -61,7 +61,7 @@ You can also select the **Add new element** button on any selected dashboard ele
 4.  Drag to move the widget or resize it.
 
 
-</td></tr><tr><td id="d81860e203">
+</td></tr><tr><td id="d82460e203">
 
 **Save a data visualization to the Visualization Library**
 
@@ -81,7 +81,7 @@ Role required: admin or viz\_creator1.  Select the **Edit** button \(\[Omitted i
 6.  Select **Add to library**.
 The data visualization is available in the Visualization library for use on other dashboards.
 
-</td></tr><tr><td id="d81860e287">
+</td></tr><tr><td id="d82460e287">
 
 **Delete an element from the dashboard**
 
@@ -98,7 +98,7 @@ The data visualization is available in the Visualization library for use on othe
 
  **Note:** There’s no confirmation message. The widget disappears from the dashboard.
 
-</td></tr><tr><td id="d81860e339">
+</td></tr><tr><td id="d82460e339">
 
 **Configure an element**
 
@@ -118,7 +118,7 @@ The data visualization is available in the Visualization library for use on othe
     -   [Simple List component reference](https://developer.servicenow.com/dev.do#!/reference/now-experience/xanadu/shared-components/now-record-list-connected-snapshot/uib-setup)
  **Note:** There are role and ownership requirements for editing a component in a library, such as the Visualization or Filter library. If you change a visualization from the Visualization Library and you have the viz\_creator or admin role, you have the choice to save the change only to the dashboard or to the element in the library. When you change an element in the library, the change is reflected everywhere the element is used. When you change only in the dashboard, you create a new copy of the visualization that exists only in that dashboard.
 
-</td></tr><tr><td id="d81860e429">
+</td></tr><tr><td id="d82460e429">
 
 **Move an element between tabs**
 
@@ -132,7 +132,7 @@ When you have multiple tabs, you can move elements from tab to another or to the
 3.  When you choose **Move to a different tab**, choose the tab and select **Move**.
 
 
-</td></tr><tr><td id="d81860e481">
+</td></tr><tr><td id="d82460e481">
 
 **Add filters to the dashboard**
 
@@ -142,7 +142,7 @@ Role required: analytics\_filter\_admin.Filters let users filter data for all re
 
 For more information, see [Filters in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/interactive-filters-workspace.md).
 
-</td></tr><tr><td id="d81860e502">
+</td></tr><tr><td id="d82460e502">
 
 **Configure a data visualization to follow or not follow filters**
 
@@ -158,7 +158,7 @@ Data visualizations follow filters by default. A data visualization follows filt
 5.  To show a filter icon \(\[Omitted image "InteractiveFilterFilteringIcon.png"\] Alt text: Filter icon\) on the data visualization when it follows an interactive filter, select the **Show filter icon**.
 \[Omitted image "db-config-data-update-ac.png"\] Alt text: Element configuration- Data update section
 
-</td></tr><tr><td id="d81860e565">
+</td></tr><tr><td id="d82460e565">
 
 **Enable chart interaction**
 
@@ -177,7 +177,7 @@ Choose what happens when a user selects a visualization or one of its segments. 
 5.  Select **Go to URL** to open a specified web page.
 
 
-</td></tr><tr><td id="d81860e622">
+</td></tr><tr><td id="d82460e622">
 
 **View the description of a dashboard element**
 
@@ -185,7 +185,7 @@ Choose what happens when a user selects a visualization or one of its segments. 
 
 Point to the element, then select the information icon \(\[Omitted image "icon-info.png"\] Alt text: Information icon\). If the element doesn’t have a description, the info icon doesn’t appear.
 
-</td></tr><tr><td id="d81860e637">
+</td></tr><tr><td id="d82460e637">
 
 **Set drilldown options**
 

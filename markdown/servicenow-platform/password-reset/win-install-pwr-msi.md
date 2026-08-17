@@ -7,7 +7,7 @@ release: yokohama
 product: Password Reset
 classification: password-reset
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 2
 breadcrumb: [Install Password Reset Windows Application, Installing and configuring Password Reset Windows Application, Configure, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -31,6 +31,8 @@ Role required: Windows local administrator
     ```
     msiexec.exe /i PasswordResetWinAppInstall.msi /quiet WRAPPED_ARGUMENTS="/SUPPRESSMSGBOXES /VERYSILENT /NORESTART /PasswordResetLinkURL https://<YourServerName>/$pwd_reset.do?sysparm_url=default /PasswordResetLinkName ""Forgot password?"""
     ```
+
+    **Note:** Verify that the MSI file name `PasswordResetWinAppInstall.msi` matches the name of the installer file that you downloaded from the ServiceNow store. The file name may differ across releases. Update the file name in the command before running it.
 
 3.  Add arguments and replace the default parameter values with the correct values for your organization.
 

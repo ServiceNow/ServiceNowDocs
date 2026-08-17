@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2025-05-16"
 reading_time_minutes: 2
 keywords: [AI agents, agentic AI, agentic workflow]
-breadcrumb: [Now Assist for Security Incident Response, Security Operations]
+breadcrumb: [ServiceNow Otto for Security Incident Response \(SIR\), Security Operations]
 ---
 
 # Using AI agentic workflows in Now Assist for Security Incident Response

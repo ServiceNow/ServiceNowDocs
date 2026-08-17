@@ -16,7 +16,7 @@ breadcrumb: [Telecommunications Service Operations Management]
 
 The TSOM Visibility solution is built on the foundational principles of ITOM Visibility, leveraging its proven frameworks for discovering and mapping IT resources.
 
-In addition to the core ITOM Visibility functionalities, TSOM Visibility introduces a unique telecom-specific layer with tailored applications. These include Telecom Discovery, which leverages the Horizontal Discovery and Telecommunications Discovery Patterns application, Service Graph Connectors \(SGC\), and Telecom Discrepancy Identification &amp; Reconciliation, which incorporates telecom-specific logic introduced by the TSOM Visibility plugin. All components are designed to support the unique hierarchy and resource structures of the telecom data model. This combination enhances the discovery, reconciliation, and management of telecom infrastructure and services across complex multi-vendor, multi-technology networks, IT, and cloud environments.
+In addition to the core ITOM Visibility functionalities, TSOM Visibility introduces a unique telecom-specific layer with tailored applications. These include Telecom Discovery, which leverages the Horizontal Discovery and Telecommunications Discovery Patterns application, and Service Graph Connectors \(SGC\). It also includes Telecom Discrepancy Identification &amp; Reconciliation, which incorporates telecom-specific logic introduced by the TSOM Visibility plugin. All components are designed to support the unique hierarchy and resource structures of the telecom data model. This combination enhances the discovery, reconciliation, and management of telecom infrastructure and services across complex multi-vendor, multi-technology networks, IT, and cloud environments.
 
 **Note:** Additional TSOM applications and APIs related to TSOM Health and AIOps fall outside the scope of the TSOM Visibility solution and will be covered separately.
 
@@ -54,7 +54,7 @@ For more information on the Telecom SGSs, see [Telecom Discovery using Service G
     See [Telecom Discovery using Service Graph Connectors \(SGC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-service-ops/telecom-visibility/telecom-discovery-using-service-graph-connector.md).
 
 
--   Telecommunications Discovery Patterns \(TSOM Patterns\) – These new plugins include patterns for the discovery of standard SNMP-based standalone xNFs \(for example, telecom routers/switches without a management system or those intended to be discovered directly by bypassing their management systems\). They also include custom patterns for verifying specific Cisco and Juniper devices by leveraging their SNMP and CLI accessibility.
+-   Telecommunications Discovery Patterns \(TSOM Patterns\) – These new plugins include patterns for the discovery of standard SNMP-based standalone xNFs. Examples include telecom routers and switches without a management system or those intended to be discovered directly by bypassing their management systems. They also include custom patterns for verifying specific Cisco and Juniper devices by leveraging their SNMP and CLI accessibility.
 -   -   Plugin name: sn\_tsom\_patterns
 -   Plugin description: Telecommunication Discovery Patterns
     See [Telecom Discovery using Telecommunications Discovery Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-service-ops/telecom-visibility/telecom-discovery-using-telecommunication-discovery-pattern.md).
@@ -84,7 +84,7 @@ For more information on the Discovery Admin Workspace, see [Discovery Admin Work
 
 TSOM Visibility enables telecom operators and communication service providers \(CSP\) and providing platform as a service to discover their network resources.
 
-The ServiceNow® Configuration Management Database \(CMDB\) and Telecom Network Inventory \(TNI\) aren’t operational tools. They’re strategic necessities in today’s IT and telecom landscape. Maintaining an accurate and complete CMDB/TNI provides the foundation for delivering critical services and drives multiple outcomes important to telecom operations, such as order/service fulfillment, inventory/asset management, and assurance. Having an up-to-date CMDB/Network Inventory is crucial for enabling high levels of Autonomous Network Operations \(ANO\) and essential for real-time decision-making, automation, and closed-loop operations.
+The ServiceNow® Configuration Management Database \(CMDB\) and Telecom Network Inventory \(TNI\) aren’t operational tools. They’re strategic necessities in today’s IT and telecom landscape. Maintaining an accurate and complete CMDB/TNI provides the foundation for delivering critical services. It drives multiple outcomes important to telecom operations, such as order/service fulfillment, inventory/asset management, and assurance. Having an up-to-date CMDB/Network Inventory is crucial for enabling high levels of Autonomous Network Operations \(ANO\) and essential for real-time decision-making, automation, and closed-loop operations.
 
 ## TSOM Visibility Installation Disclaimer
 
@@ -101,7 +101,7 @@ If you install any of the TSOM Visibility applications \(sn\_sgc\_altiplano\_con
 
 **Note:** An administrator can still upgrade the CMDB CI Class Models store application to Version 1.69.0 at their discretion, regardless of whether their Yokohama instance has TSOM Visibility or even if their instance is on a pre-Yokohama release \(for example, Washington DC or Xanadu\).
 
-**IMPORTANT!** If an administrator deploys CMDB CI Class Models Version 1.69.0—whether or not TSOM Visibility is installed—any customized IRE identification rules applied to one or more of the above-mentioned telecom CIs may be affected. These rules will require careful validation to ensure proper functionality.
+**IMPORTANT!** If an administrator deploys CMDB CI Class Models Version 1.69.0, any customized IRE identification rules applied to one or more of the above-mentioned telecom CIs may be affected. This applies whether or not TSOM Visibility is installed. These rules will require careful validation to ensure proper functionality.
 
 ## TSOM Visibility Licensing
 

@@ -66,11 +66,11 @@ Yokohama Patch 2 includes fixes for security-related problems that affected cert
 
     Select **Hide completed guidance** to hide the guidance recommended for a case resolution.
 
--   **[Exploring Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/exploring-instance-data-replication.md)**
+-   ****
 
     You can only create one scheduled replication set in IDR, with only one outbound entry in that set.
 
--   **[Set up scheduled replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/set-up-scheduled-replication-idr.md)**
+-   ****
 
     You can only create one scheduled replication set, with only one outbound entry in that set.
 

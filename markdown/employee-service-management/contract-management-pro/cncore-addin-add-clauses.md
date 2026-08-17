@@ -48,15 +48,15 @@ Role required: sn\_cm\_core.contract\_config and canvas\_user
 
     A clause cannot be mapped to more than one piece of content.
 
-<table id="choicetable_j14_bd2_2yb"><thead><tr><th align="left" id="d141696e210">
+<table id="choicetable_j14_bd2_2yb"><thead><tr><th align="left" id="d141077e210">
 
 Methods for content and clause mapping
 
-</th><th align="left" id="d141696e213">
+</th><th align="left" id="d141077e213">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d141696e219">
+</th></tr></thead><tbody><tr><td id="d141077e219">
 
 **Use the clause as it is and do not update any of the existing clauses or clause variation**
 
@@ -64,7 +64,7 @@ Steps
 
 In the **Clauses** tab, select **Use this clause** for the clause that you want to use.**Note:** The imported clause is classified as No Change in the ServiceNow instance.
 
-</td></tr><tr><td id="d141696e239">
+</td></tr><tr><td id="d141077e239">
 
 **Create a clause and do not create any clause variation**
 
@@ -87,7 +87,7 @@ In the **Clauses** tab, select **Use this clause** for the clause that you want 
     -   The imported clause is classified as Existing Clause in the ServiceNow instance.
 
 
-</td></tr><tr><td id="d141696e312">
+</td></tr><tr><td id="d141077e312">
 
 **Create a clause variation for an existing clause**
 

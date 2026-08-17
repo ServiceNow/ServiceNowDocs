@@ -7,7 +7,7 @@ release: yokohama
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Synthetic monitoring, ITOM AIOps, IT Operations Management]
+breadcrumb: [Synthetic monitoring, ITOM Health, IT Operations Management]
 ---
 
 # Synthetic monitoring reference
@@ -27,5 +27,5 @@ Read the following to understand what is displayed on the Synthetic monitoring l
 -   **[Details page of a synthetic monitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/monitor-details-page.md)**  
 Read the following to understand how to use the Details page of a synthetic monitor to view the results of its tests.
 
-**Parent Topic:**[ITOM AIOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-health-landing-page.md)
+**Parent Topic:**[ITOM Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-health-landing-page.md)
 

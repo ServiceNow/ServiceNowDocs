@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
 keywords: [Data extraction]
-breadcrumb: [Configure Document Intelligence using Now Assist for Accounts Payable Operations \(APO\), Configure Now Assist for Accounts Payable Operations \(APO\), Now Assist for Accounts Payable Operations \(APO\), Accounts Payable Operations, Finance and Supply Chain]
+breadcrumb: [Configure Document Intelligence using ServiceNow Otto for Accounts Payable Operations \(APO\), Configure ServiceNow Otto for Accounts Payable Operations \(APO\), ServiceNow Otto for Accounts Payable Operations \(APO\), Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Configure data extraction modes
@@ -23,7 +23,7 @@ Role required: sn\_docintel.manager
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills** to access the **Now Assist skills** tab of the Now Assist Admin console.
+1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills** to access the **Now Assist skills** tab of the AI Admin Hub console.
 
 2.  Select &gt; **Finance and Supply Chain** &gt; **Accounts Payable Operations** &gt; **Invoice data extraction** to view the skills for the APO features.
 

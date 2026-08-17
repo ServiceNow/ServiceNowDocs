@@ -1,5 +1,5 @@
 ---
-title: Register a new application at Azure portal for Microsoft Teams connections
+title: Register an application at Azure portal for Microsoft Teams connections
 description: Register a new application at Azure portal for Microsoft Teams integration and grant access to the Azure app.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/security-incident-response/register-teams-app-msim.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-04-01"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Integrate Major Security Incident Management with Microsoft Teams, Integrate, Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
-# Register a new application at Azure portal for Microsoft Teams connections
+# Register an application at Azure portal for Microsoft Teams connections
 
 Register a new application at Azure portal for Microsoft Teams integration and grant access to the Azure app.
 
@@ -38,9 +38,11 @@ Role required: admin, Azure admin
 
 6.  Enter ServiceNow AI Platform® instance redirect URL in the allowed redirect URL field.
 
+    **Note:** Add all three instance redirect URIs if sharing one App Registration across environments.
+
     For example, `https://<<InstanceName>>.service-now.com/oauth_redirect.do`
 
-7.  Click on **Register** and make sure the page is displayed with **Overview** section.
+7.  Select **Register** and make sure the page is displayed with **Overview** section.
 
 8.  Make a note of the Client ID and Tenant ID from the **Essentials** section in the **Overview** page.
 

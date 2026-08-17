@@ -7,7 +7,7 @@ release: yokohama
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configuring account onboarding, Account onboarding, Customer Success Management]
+breadcrumb: [Configuring account onboarding, Account onboarding, Account Lifecycle Events]
 ---
 
 # Set up the account onboarding playbook
@@ -27,7 +27,7 @@ When you open the account onboarding case, you’re directed to the first activi
 -   The activities in each stage in the stacked playbook activity view.
 -   Related items, activity stream, and recommended actions in the contextual side panel. Select the links in the Related items card to navigate to the record page.
 
-The Customer Success Management playbook includes the following stages and activities that can be used in the account onboarding process.
+The Account Lifecycle Events playbook includes the following stages and activities that can be used in the account onboarding process.
 
 -   [Initial setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-use-playbook-initiate.md)
 -   [Data capture and validation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-use-playbook-data-capture.md)

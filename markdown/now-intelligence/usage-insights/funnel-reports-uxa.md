@@ -1,5 +1,5 @@
 ---
-title: Funnel reports in Usage Insights
+title: Funnel reports in User Experience Analytics
 description: Conversion funnels track a specific sequence of actions and show conversion rates and trends in aggregate user behavior to uncover the reasons behind success or failure of a specific in-application user goal. Investigating a conversion funnel can help you measure and optimize the conversion rates of relevant processes within your application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/usage-insights/funnel-reports-uxa.html
@@ -9,10 +9,10 @@ classification: usage-insights
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Using Usage Insights, User Experience Analytics, Platform Analytics]
+breadcrumb: [Using User Experience Analytics, User Experience Analytics, Platform Analytics]
 ---
 
-# Funnel reports in Usage Insights
+# Funnel reports in User Experience Analytics
 
 Conversion funnels track a specific sequence of actions and show conversion rates and trends in aggregate user behavior to uncover the reasons behind success or failure of a specific in-application user goal. Investigating a conversion funnel can help you measure and optimize the conversion rates of relevant processes within your application.
 
@@ -34,8 +34,8 @@ View conversion rates and trends in aggregate user behavior to uncover the reaso
 Edit conversion funnel data to collect or steps to include in your analysis.
 -   **[Delete a conversion funnel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/delete-funnel-step.md)**  
 Easily delete a funnel.
--   **[How Usage Insights matches funnels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/how-funnels-matched.md)**  
-Learn how Usage Insights matches sequences of pages you anticipate users seeing before they reach a goal.
+-   **[How User Experience Analytics matches funnels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/how-funnels-matched.md)**  
+Learn how User Experience Analytics matches sequences of pages you anticipate users seeing before they reach a goal.
 
-**Parent Topic:**[Using Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/using-uxa.md)
+**Parent Topic:**[Using User Experience Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/using-uxa.md)
 

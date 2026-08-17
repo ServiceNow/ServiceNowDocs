@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 4
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
-breadcrumb: [Use generative AI skills, Now Assist for IT Service Management \(ITSM\), IT Service Management]
+breadcrumb: [Use generative AI skills, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 
 # Request the generative AI capabilities in ITSM by using the Now Assist panel
@@ -25,7 +25,7 @@ Role required: itil
 
 ## About this task
 
-You can access the Now Assist panel from the Core UI or Service Operations Workspace for ITSM to request generative AI capabilities for Now Assist for ITSM skills. For information about these skills, see [Skill inputs and triggers for Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-skills.md).
+You can access the Now Assist panel from the Core UI or Service Operations Workspace for ITSM to request generative AI capabilities for ServiceNow Otto for ITSM skills. For information about these skills, see [Skill inputs and triggers for ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-skills.md).
 
 Using the Now Assist panel saves time for an agent; for example, the agent can quickly learn the details of an incident by reading the incident summarization. The summarization gives enough details about the associated interaction so that the requester doesn't have to repeat the same information to the agent. For information about the Now Assist panel, see [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-panel-overview.md).
 
@@ -33,21 +33,21 @@ For information about how to activate the Now Assist panel, see [Activate Now As
 
 ## Procedure
 
-1.  Log in to an instance where Now Assist for IT Service Management \(ITSM\) is installed.
+1.  Log in to an instance where ServiceNow Otto for IT Service Management \(ITSM\) is installed.
 
 2.  Request generative AI capabilities to summarize a chat for an interaction, summarize a chat for an incident that was created from an interaction, summarize an incident, or generate incident resolution notes.
 
     \[Omitted image "itsm-now-assist-panel.png"\] Alt text: Now Assist panel for ITSM skills.
 
-<table id="choicetable_tvj_cqn_xyb"><thead><tr><th align="left" id="d284002e207">
+<table id="choicetable_tvj_cqn_xyb"><thead><tr><th align="left" id="d284535e207">
 
 Option
 
-</th><th align="left" id="d284002e210">
+</th><th align="left" id="d284535e210">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d284002e216">
+</th></tr></thead><tbody><tr><td id="d284535e216">
 
 **Summarize the chat for an interaction**
 
@@ -58,7 +58,7 @@ Description
 3.  In the Now Assist panel, select **Chat Summarization**. A summary of the chat conversation with the live agent is displayed.
 
 
-</td></tr><tr><td id="d284002e252">
+</td></tr><tr><td id="d284535e252">
 
 **Summarize the chat for an incident that is created from an interaction**
 
@@ -69,7 +69,7 @@ Description
 3.  In the Now Assist panel, select **Chat Summarization**. A summary of the chat conversation with the live agent before the incident was created is displayed.
 
 
-</td></tr><tr><td id="d284002e288">
+</td></tr><tr><td id="d284535e288">
 
 **Summarize a Sidebar discussion**
 
@@ -80,7 +80,7 @@ Description
 3.  In the Now Assist panel, select **Sidebar Discussion Summarization**. A summary of the discussion with the live agent is displayed.
 
 
-</td></tr><tr><td id="d284002e327">
+</td></tr><tr><td id="d284535e327">
 
 **Summarize an incident**
 
@@ -91,7 +91,7 @@ Description
 3.  In the Now Assist panel, select **Summarize a record**. An incident summary that helps you quickly understand the incident context is generated.
 
 
-</td></tr><tr><td id="d284002e364">
+</td></tr><tr><td id="d284535e364">
 
 **Summarize a change request**
 
@@ -102,7 +102,7 @@ Description
 3.  In the Now Assist panel, select **Summarize a change request**. A change request summary that helps you quickly understand the change request context is generated.
 
 
-</td></tr><tr><td id="d284002e400">
+</td></tr><tr><td id="d284535e400">
 
 **Change risk explanation**
 
@@ -113,7 +113,7 @@ Description
 3.  In the Now Assist panel, select **Explain change risk**. An explanation of the change request risk that helps you quickly understand the change request risk rating is generated.
 
 
-</td></tr><tr><td id="d284002e436">
+</td></tr><tr><td id="d284535e436">
 
 **Generate incident resolution notes**
 
@@ -124,7 +124,7 @@ Description
 3.  In the Now Assist panel, select **Generate resolution notes**. The incident resolution notes that provide a summary of the steps taken to resolve the issue are generated.
 
 
-</td></tr><tr><td id="d284002e472">
+</td></tr><tr><td id="d284535e472">
 
 **Generate a knowledge article**
 
@@ -135,7 +135,7 @@ Description
 3.  In the Now Assist panel, select **Generate Article**. A Knowledge article is drafted for the incident using task data, comments, and work notes from the activity stream.
 
 
-</td></tr><tr><td id="d284002e511">
+</td></tr><tr><td id="d284535e511">
 
 **Generate chat reply recommendation**
 
@@ -146,7 +146,7 @@ Description
 3.  In the Now Assist panel, select **Generate Chat Reply Recommendation**. The reply that provides a recommendation for the issue in the chat is generated.
 
 
-</td></tr><tr><td id="d284002e547">
+</td></tr><tr><td id="d284535e547">
 
 **Ask questions about an incident**
 
@@ -157,7 +157,7 @@ Description
 3.  In the Now Assist panel, either type in an incident assist topic question, or select **Answer questions about an incident**, and select an incident assist topic. Information requested about the incident is shown.
 
 
-</td></tr><tr><td id="d284002e584">
+</td></tr><tr><td id="d284535e584">
 
 **Use AI agents to complete tasks**
 
@@ -167,7 +167,7 @@ Description
 2.  Follow the on-screen instructions to complete the task.
 
 
-</td></tr><tr><td id="d284002e602">
+</td></tr><tr><td id="d284535e602">
 
 **Add comments or work notes to a task record**
 

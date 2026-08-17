@@ -7,7 +7,7 @@ release: yokohama
 product: Reporting
 classification: reporting
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-07-20"
 reading_time_minutes: 4
 keywords: [related tables, extended tables, dot-walking]
 breadcrumb: [Advanced reporting topics, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
@@ -31,7 +31,7 @@ Role required: report\_admin.
 
 Watch this six-minute video to learn how to include fields on extended tables in reports by starting with the parent table.
 
-
+\[Omitted video\] Description: How to include fields on extended tables that aren't available through dot-walking
 
 The video shows how to create a report with data from multiple tables using the Report Designer. The report contains both incidents and problems, which are child tables of the Task table. Here's how to create the report, Active Incidents and Problems of Priority 1 or 2.
 
@@ -45,7 +45,7 @@ The video shows how to create a report with data from multiple tables using the 
 
     \[Omitted image "report-ext-tables-data.png"\] Alt text: Report on extended tables in Report Designer, Data tab, with report name Active Incidents and Problems of Priority 1 or 2, Source type=Table, and Table=Task
 
-3.  On the **Type** tab, enter **List** in the filter, select the report type, and click **Next**.
+3.  On the **Type** tab, enter **List** in the filter, select the report type, and select **Next**.
 
     The application shows a preliminary version of the report. To view the updated report at any time, select **Run**.
 
@@ -53,9 +53,9 @@ The video shows how to create a report with data from multiple tables using the 
 
     The list report is refreshed with all tasks collapsed into their types.\[Omitted image "ext-table-list-rep-with-all-tasks.png"\] Alt text: List report on the task table showing all task types.
 
-5.  Click the filter icon \(\[Omitted image "icon-filter.png"\] Alt text: Filter icon\) to open the Condition Builder.
+5.  Select the filter icon \(\[Omitted image "icon-filter.png"\] Alt text: Filter icon\) to open the condition builder.
 
-    Use the Condition Builder to limit what the report displays to only the information you want.
+    Use the condition builder to limit what the report displays to only the information you want.
 
 6.  To show only active incidents and problems of priority 1 or 2, set these conditions, and click **Save**.
 
@@ -68,7 +68,7 @@ The video shows how to create a report with data from multiple tables using the 
 
     \[Omitted image "ext-table-list-rep-with-tasks-filtered.png"\] Alt text: List report on the Task table showing only active Incidents and Problems.
 
-7.  Select the columns to display in the report, including the extended table fields Category \[Incident\] and Related Incidents \[Problem\] and click **Save**.
+7.  Select the columns to display in the report, including the extended table fields Category \[Incident\] and Related Incidents \[Problem\] and select **Save**.
 
     \[Omitted image "related-fields-columnns.png"\] Alt text: Available Columns with several columns moved Selected.
 

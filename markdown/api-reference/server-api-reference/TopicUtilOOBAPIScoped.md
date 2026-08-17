@@ -20,7 +20,7 @@ These functions are called when the **Get Topics** button is selected on the Top
 
 Both script includes run in the `sn_api_notif_mgmt` namespace.
 
-For additional information on topics, see [Handling the external events using Telecommunications API notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/telecom-service-ops/telecommunications-api-notification.md).
+For additional information on topics, see [Handling external events using Telecommunications API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/telecom-service-ops/telecommunications-api-notification.md).
 
 **Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/api-server.md)
 

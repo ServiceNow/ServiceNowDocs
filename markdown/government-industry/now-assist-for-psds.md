@@ -1,6 +1,6 @@
 ---
-title: Now Assist for PSDS
-description: With the Now Assist for Public Sector Digital Services \(PSDS\) application, your agents can use generative AI to summarize the details and comment activity of each public service case to get the context of the case. They can also generate the case resolution notes to share with other agents.
+title: ServiceNow Otto for PSDS
+description: With the ServiceNow Otto for Public Sector Digital Services \(PSDS\) application, your agents can use generative AI to summarize the details and comment activity of each public service case to get the context of the case. They can also generate the case resolution notes to share with other agents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/now-assist-for-psds.html
 release: yokohama
@@ -10,23 +10,23 @@ reading_time_minutes: 3
 breadcrumb: [Public Sector Digital Services \(PSDS\)]
 ---
 
-# Now Assist for PSDS
+# ServiceNow Otto for PSDS
 
-With the Now Assist for Public Sector Digital Services \(PSDS\) application, your agents can use generative AI to summarize the details and comment activity of each public service case to get the context of the case. They can also generate the case resolution notes to share with other agents.
+With the ServiceNow Otto for Public Sector Digital Services \(PSDS\) application, your agents can use generative AI to summarize the details and comment activity of each public service case to get the context of the case. They can also generate the case resolution notes to share with other agents.
 
 ## Get started
 
 <table id="table_zzm_tc2_kbc" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about Now Assist for Public Sector Digital Services \(PSDS\).](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/now-assist-psds-exploring.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about ServiceNow Otto for Public Sector Digital Services \(PSDS\).](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/now-assist-psds-exploring.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the Now Assist for Public Sector Digital Services \(PSDS\) application.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/now-assist-psds-configuring.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the ServiceNow Otto for Public Sector Digital Services \(PSDS\) application.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/now-assist-psds-configuring.md)
 
 </td><td>
 
-[Use\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Use generative AI capabilities offered by Now Assist for Public Sector Digital Services \(PSDS\).](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/now-assist-psds-using.md)
+[Use\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Use generative AI capabilities offered by ServiceNow Otto for Public Sector Digital Services \(PSDS\).](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/now-assist-psds-using.md)
 
 </td></tr></tbody>
 </table>**Important:**

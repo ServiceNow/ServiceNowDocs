@@ -14,7 +14,7 @@ breadcrumb: [Set up AWS service accounts, Setting up a cloud service account, Ac
 
 Cloud Discovery and Cloud Provisioning and Governance need access to resources in the Amazon Web Services \(AWS\) service accounts. Learn about different methods of configuring such access.
 
-Cloud Discovery and Cloud Provisioning and Governance access resources in AWS service accounts through MID Servers. You must authorize inbound traffic to Amazon EC2 instances from the MID Server for setting up initial communication. For more information, see [Configure security group inbound rules using the AWS Management Console](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DAX.create-cluster.console.configure-inbound-rules.html).
+Cloud Discovery and Cloud Provisioning and Governance access resources in AWS service accounts through MID Servers. You must authorize inbound traffic to Amazon EC2 instances from the MID Server for setting up initial communication. For more information, see [Configure security group inbound rules using the AWS Management Console](https://docs.aws.amazon.com/vpc/latest/userguide/working-with-security-group-rules.html).
 
 ## Types of AWS credentials
 

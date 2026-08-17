@@ -47,7 +47,7 @@ Use the Sprint Tracking tab of the Agile board in Agile Development 2.0 to track
 -   **[Track sprint progress in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/agile-development/sprint-tracking-list.md)**  
 Track the progress of stories, scrum tasks, and tests for the current sprint from a single consolidated view on the Agile board in Agile Development 2.0.
 -   **[Run tests for a story in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/agile-development/run-test-plan-within-agile.md)**  
-For a story whose tests are marked ready to be run, run those tests and execute all the test steps using the Sprint Tracking tab of the Agile board in Agile Development 2.0.
+For a story whose tests are marked ready to be run, run those tests and execute all the test steps. Do this using the Sprint Tracking tab of the Agile board in Agile Development 2.0.
 -   **[View the test results for a story in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/agile-development/view-test-result-form.md)**  
 Analyze results of the tests that you run on Agile Development 2.0 stories. Troubleshoot failures so that the story can be moved to completion.
 -   **[Report a defect in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/agile-development/create-defect-report.md)**  
@@ -55,7 +55,7 @@ Track issues associated to your product or feature by reporting defects in Agile
 -   **[Create an enhancement request in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/agile-development/create-enhancement-request.md)**  
 Capture enhancement ideas for your feature or product as enhancement requests in Agile Development 2.0 so that you can review and prioritize them later.
 -   **[Set up a triage board in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/agile-development/setup-triage-board.md)**  
-Set up your own triage board to view and manage records that are important to your product, such as problems, incident tasks, defects, or change requests at one place easily.
+Set up your own triage board to view and manage records that are important to your product. These records include problems, incident tasks, defects, or change requests, viewable at one place easily.
 -   **[Triage items and add them to a backlog in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/agile-development/add-triage-board-items-to-backlog-agile-development-2.md)**  
 Review the list of items in your triage board and add them to your Agile Development 2.0 backlog. Based on their priority, you can schedule them in the upcoming sprints for your product teams to work on them.
 

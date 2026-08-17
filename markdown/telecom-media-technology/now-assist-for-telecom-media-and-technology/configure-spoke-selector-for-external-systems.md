@@ -9,7 +9,7 @@ classification: now-assist-for-telecom-media-and-technology
 topic_type: task
 last_updated: "2025-04-14"
 reading_time_minutes: 2
-breadcrumb: [Help remediate bill issues, Customer Service Problem Management agentic workflows, Use agentic workflows, Now Assist for Telecommunications, Media and Technology \(TMT\), Telecommunications, Media, and Technology]
+breadcrumb: [Help remediate bill issues, Customer Service Problem Management agentic workflows, Use agentic workflows, ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\), Telecommunications, Media, and Technology]
 ---
 
 # Configure the spoke selector for external systems

@@ -171,7 +171,7 @@ State
 
 </td><td>
 
-State of the customer service case. To learn more, see [Case states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/r_CustomerServiceCaseStates.md).
+State of the customer service case. To learn more, see Case states.
 
 </td></tr></tbody>
 </table>7.  In the Product Inventory section, review the product inventory items for the selected account.

@@ -9,7 +9,7 @@ classification: service-portal
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Usage Insights for Service Portal, Analytics and Reporting Solutions for Service Portal, Analyzing portal performance and usage, Service Portal, Configure UIs and portals, Configure user experiences]
+breadcrumb: [User Experience Analytics for Service Portal, Analytics and Reporting Solutions for Service Portal, Analyzing portal performance and usage, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
 
 # Activate the privacy notice for unauthenticated users
@@ -53,7 +53,7 @@ The Privacy Notice announcement is displayed to unauthenticated portal users.
 
 \[Omitted image "privacy-notice-example.png"\] Alt text: Privacy Notice announcement in a portal.
 
-**Parent Topic:**[Usage Insights for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/service-portal/sp-analytics.md)
+**Parent Topic:**[User Experience Analytics for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/service-portal/sp-analytics.md)
 
 **Related topics**  
 

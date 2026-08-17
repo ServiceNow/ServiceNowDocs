@@ -28,15 +28,15 @@ Role required: sn\_devops.admin or sn\_devops.tool\_owner
 
 1.  Navigate to **Workspaces** &gt; **DevOps Change Workspace** and use one of the following options to open the Playbook to onboard Agile Development 2.0.
 
-<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d431172e107">
+<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d432280e107">
 
 Option
 
-</th><th align="left" id="d431172e110">
+</th><th align="left" id="d432280e110">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d431172e116">
+</th></tr></thead><tbody><tr><td id="d432280e116">
 
 **Homepage**
 
@@ -46,7 +46,7 @@ Steps
 2.  On the  Connect to a tool  modal, select Agile Development 2.0 from the **Plan** category.
 
 
-</td></tr><tr><td id="d431172e143">
+</td></tr><tr><td id="d432280e143">
 
 **Applications module**
 
@@ -58,7 +58,7 @@ Steps
 4.  On the  Connect to a tool  modal, select Agile Development 2.0 from the **Plan** category.
 
 
-</td></tr><tr><td id="d431172e195">
+</td></tr><tr><td id="d432280e195">
 
 **Tools module**
 

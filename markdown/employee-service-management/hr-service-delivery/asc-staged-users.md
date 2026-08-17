@@ -1,5 +1,5 @@
 ---
-title: Edit staged users for Alumni Center
+title: Edit staged users for Alumni Service Center
 description: Use Staged Alumni to ensure the import set upload and transform process ran correctly. It also ensures that your uploaded alumni are configured with the correct user ID.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/asc-staged-users.html
@@ -9,10 +9,10 @@ classification: hr-service-delivery
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configure, Alumni Center, HR Service Delivery, Employee Service Management]
+breadcrumb: [Configure, Alumni Service Center, HR Service Delivery, Employee Service Management]
 ---
 
-# Edit staged users for Alumni Center
+# Edit staged users for Alumni Service Center
 
 Use **Staged Alumni** to ensure the import set upload and transform process ran correctly. It also ensures that your uploaded alumni are configured with the correct user ID.
 
@@ -132,7 +132,7 @@ Proposed user ID
 
 </td><td>
 
-The user ID created after you fill in the fields and click **Generate Proposed User ID**.The user ID creates based on the personal email address provided with a suffix from the properties. For more information on the suffix, see [Properties for Alumni Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/asc-properties.md).
+The user ID created after you fill in the fields and click **Generate Proposed User ID**.The user ID creates based on the personal email address provided with a suffix from the properties. For more information on the suffix, see [Properties for Alumni Service Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/asc-properties.md).
 
 </td></tr></tbody>
 </table>6.  Select **Save**.
@@ -149,7 +149,7 @@ The user ID created after you fill in the fields and click **Generate Proposed U
 
 12. Select **Import All**.
 
-    For more information about the default state for staged alumni, see [Properties for Alumni Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/asc-properties.md).
+    For more information about the default state for staged alumni, see [Properties for Alumni Service Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/asc-properties.md).
 
     The Import Approved Staged to Alumni scheduled job runs.
 

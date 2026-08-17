@@ -39,15 +39,15 @@ Following are the current limitations for multicurrency.
 
     In the **Currency** field, the current system currency is displayed. For example, if your Functional currency is in USD, the field is displayed as **USD \(Functional\)**.
 
-<table id="choicetable_d3h_yqx_jhc"><thead><tr><th align="left" id="d226793e127">
+<table id="choicetable_d3h_yqx_jhc"><thead><tr><th align="left" id="d226420e127">
 
 Planning item type
 
-</th><th align="left" id="d226793e130">
+</th><th align="left" id="d226420e130">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d226793e136">
+</th></tr></thead><tbody><tr><td id="d226420e136">
 
 **Demands**
 
@@ -64,7 +64,7 @@ Edit investment currency modal is displayed with options to select investment cu
 3.  Define investment currency for the future artifact using the **Investment currency for converted artefact** list.
 
 
-</td></tr><tr><td id="d226793e182">
+</td></tr><tr><td id="d226420e182">
 
 **Other planning items**
 

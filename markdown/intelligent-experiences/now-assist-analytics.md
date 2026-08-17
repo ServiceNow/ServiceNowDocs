@@ -1,6 +1,6 @@
 ---
 title: Analyzing Now Assist performance
-description: Use the Now Assist Analytics dashboard to monitor the usage and performance of generative AI features and capabilities offered under Now Assist.
+description: Use the AI Analytics dashboard to monitor the usage and performance of generative AI features and capabilities offered under Now Assist.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/now-assist-analytics.html
 release: yokohama
@@ -13,27 +13,27 @@ breadcrumb: [Now Assist, Enable AI experiences]
 
 # Analyzing Now Assist performance
 
-Use the Now Assist Analytics dashboard to monitor the usage and performance of generative AI features and capabilities offered under Now Assist.
+Use the AI Analytics dashboard to monitor the usage and performance of generative AI features and capabilities offered under Now Assist.
 
-\[Omitted video\] Description: Monitor the usage, performance, and value of Now Assist Analytics.
+\[Omitted video\] Description: Monitor the usage, performance, and value of AI Analytics.
 
 ## Get started
 
 <table id="table_mtp_clr_gcc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about Now Assist Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/exploring-now-assist-analytics.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about AI Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/exploring-now-assist-analytics.md)
 
 </td><td>
 
-[Configure\[Omitted image "icon-configure-pi.png"\] Alt text:Configure Now Assist Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/configuring-now-assist-analytics.md)
+[Configure\[Omitted image "icon-configure-pi.png"\] Alt text:Configure AI Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/configuring-now-assist-analytics.md)
 
 </td></tr><tr><td>
 
-[Use \[Omitted image "bus-artificial-intelligence.svg"\] Alt text: Use Now Assist Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/using-now-assist-analytics.md)
+[Use \[Omitted image "bus-artificial-intelligence.svg"\] Alt text: Use AI Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/using-now-assist-analytics.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Learn about user roles in Now Assist Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-analytics-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Learn about user roles in AI Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-analytics-reference.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help

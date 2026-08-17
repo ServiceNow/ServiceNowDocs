@@ -1,6 +1,6 @@
 ---
-title: Activate an agentic workflow for Now Assist for Security Incident Response
-description: You must activate the agentic workflows for Now Assist for Security Incident Response from the AI Agent Studio.
+title: Activate an agentic workflow for ServiceNow Otto for Security Incident Response \(SIR\)
+description: You must activate the agentic workflows for ServiceNow Otto for Security Incident Response \(SIR\) from the AI Agent Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/now-assist-for-security-incident-response-sir/now-assist-sir-activate-agentic-workflow.html
 release: yokohama
@@ -9,12 +9,12 @@ classification: now-assist-for-security-incident-response-sir
 topic_type: task
 last_updated: "2025-05-16"
 reading_time_minutes: 1
-breadcrumb: [Use agentic workflows, Now Assist for Security Incident Response, Security Operations]
+breadcrumb: [Use agentic workflows, ServiceNow Otto for Security Incident Response \(SIR\), Security Operations]
 ---
 
-# Activate an agentic workflow for Now Assist for Security Incident Response
+# Activate an agentic workflow for ServiceNow Otto for Security Incident Response \(SIR\)
 
-You must activate the agentic workflows for Now Assist for Security Incident Response from the AI Agent Studio.
+You must activate the agentic workflows for ServiceNow Otto for Security Incident Response \(SIR\) from the AI Agent Studio.
 
 ## Before you begin
 
@@ -42,7 +42,7 @@ Role required: aia-admin
 
 6.  Select the arrow icon to expand the section.
 
-    The sn\_si.analyst role is displayed. This role is supported for the agentic workflows in the Now Assist for Security Incident Response application.
+    The sn\_si.analyst role is displayed. This role is supported for the agentic workflows in the ServiceNow Otto for Security Incident Response \(SIR\) application.
 
 7.  To activate the agentic workflow, select **Save and test**.
 

@@ -9,7 +9,7 @@ classification: service-reliability-management
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [ITOM AIOps, IT Operations Management]
+breadcrumb: [ITOM Health, IT Operations Management]
 ---
 
 # Service Reliability Management
@@ -41,7 +41,7 @@ Service Reliability Management \(SRM\) helps your organization respond, collabor
 </td></tr></tbody>
 </table>## Install from the Store
 
-Install SRM from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install SRM from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 **Note:** When installing from the store, first confirm that you have all the dependencies needed by selecting the Dependencies tab. For more information, see [Install Service Reliability Management from Admin Center or ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/sr-install-sr-store-app.md).
 

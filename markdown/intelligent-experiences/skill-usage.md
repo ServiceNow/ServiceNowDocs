@@ -8,18 +8,18 @@ topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 3
 keywords: [Now Assist, skills, performance, dashboard, indicators, usage, generative AI, Gen AI]
-breadcrumb: [Using Now Assist Analytics, Analyzing Now Assist performance, Now Assist, Enable AI experiences]
+breadcrumb: [Using AI Analytics, Analyzing Now Assist performance, Now Assist, Enable AI experiences]
 ---
 
 # Skills performance
 
 Use the Skills performance dashboard page to view usage and performance indicators of one or more Now Assist skills that are active.
 
-The Skills performance dashboard page contains indicators that help you analyze the usage and performance of active skills. Use the **Date range**, **Product**, and **Skills** filters to break down by date range, Now Assist product, and skill, respectively. The filter selection applies to all visualizations on the page. See [Now Assist Analytics dashboard indicator details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-analytics-dashboard-indicators.md) for information on the data and calculations behind each indicator.
+The Skills performance dashboard page contains indicators that help you analyze the usage and performance of active skills. Use the **Date range**, **Product**, and **Skills** filters to break down by date range, Now Assist product, and skill, respectively. The filter selection applies to all visualizations on the page. See [AI Analytics dashboard indicator details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-analytics-dashboard-indicators.md) for information on the data and calculations behind each indicator.
 
 \[Omitted image "naa-skills-performance.png"\] Alt text: Now Assist skills usage and performance indicators.
 
-The indicators on the Skills performance dashboard page provide the following insights. See [Now Assist Analytics dashboard indicator details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-analytics-dashboard-indicators.md) for information on the data and calculations behind each indicator.
+The indicators on the Skills performance dashboard page provide the following insights. See [AI Analytics dashboard indicator details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-analytics-dashboard-indicators.md) for information on the data and calculations behind each indicator.
 
 -   Skills usage trend visualization for a selected period can reveal skills that have been used more frequently or less frequently.
 -   The Number of actions visualization for a selected period can reveal the scale of Now Assist skill executions. The trend line comparison shows the increasing or decreasing trend from the previous period.
@@ -59,5 +59,5 @@ Use the Skill details dashboard page to view usage and performance indicators of
 -   **[Custom skill details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/custom-skill-details.md)**  
 Use the Custom skill details dashboard page to view usage and performance indicators of custom skills.
 
-**Parent Topic:**[Using Now Assist Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/using-now-assist-analytics.md)
+**Parent Topic:**[Using AI Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/using-now-assist-analytics.md)
 

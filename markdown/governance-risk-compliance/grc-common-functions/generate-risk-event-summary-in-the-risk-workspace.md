@@ -1,6 +1,6 @@
 ---
 title: Generate a risk event summary in the Risk Workspace
-description: Generate a risk event summary using the Now Assist for IRM application in the Risk Workspace. The approvers get the key insights to understand the context quickly, and reduce the time involved in creating summaries manually.
+description: Generate a risk event summary using the ServiceNow Otto for IRM application in the Risk Workspace. The approvers get the key insights to understand the context quickly, and reduce the time involved in creating summaries manually.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/grc-common-functions/generate-risk-event-summary-in-the-risk-workspace.html
 release: yokohama
@@ -14,13 +14,13 @@ breadcrumb: [Use generative AI skills, Now Assist, Common GRC features, Governan
 
 # Generate a risk event summary in the Risk Workspace
 
-Generate a risk event summary using the Now Assist for IRM application in the Risk Workspace. The approvers get the key insights to understand the context quickly, and reduce the time involved in creating summaries manually.
+Generate a risk event summary using the ServiceNow Otto for IRM application in the Risk Workspace. The approvers get the key insights to understand the context quickly, and reduce the time involved in creating summaries manually.
 
 ## Before you begin
 
-Install the Now Assist for IRM application to generate a risk event summary. For more information, see [Now Assist for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/now-assist-for-irm.md).
+Install the ServiceNow Otto for IRM application to generate a risk event summary. For more information, see [ServiceNow Otto for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/now-assist-for-irm.md).
 
-**Note:** The Risk Event Summarization skill is activated by default, unless you manually deactivate it. For more information, see [Activate Now Assist skills in Now Assist for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/activate-na-skills-in-irm.md).
+**Note:** The Risk Event Summarization skill is activated by default, unless you manually deactivate it. For more information, see [Activate Now Assist skills in ServiceNow Otto for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/activate-na-skills-in-irm.md).
 
 Role required: sn\_grc\_risk\_genai.risk\_event\_user
 

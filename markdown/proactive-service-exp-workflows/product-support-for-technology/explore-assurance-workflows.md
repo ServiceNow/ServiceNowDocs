@@ -1,6 +1,6 @@
 ---
 title: Exploring the Proactive Service Experience Workflows
-description: Proactive Service Experience Workflows enhances the Service Operations Workspace to empower agents with automation and visibility, including customer and business context, so that service providers can resolve service issues swiftly and proactively, in the appropriate order, and with complete transparency.
+description: Learn how you can use the Proactive Service Experience Workflows application to automatically initiate workflows that resolve network-initiated incidents and proactively notify impacted customers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/proactive-service-exp-workflows/product-support-for-technology/explore-assurance-workflows.html
 release: yokohama
@@ -14,7 +14,7 @@ breadcrumb: [Proactive Service Experience Workflows]
 
 # Exploring the Proactive Service Experience Workflows
 
-Proactive Service Experience Workflows enhances the Service Operations Workspace to empower agents with automation and visibility, including customer and business context, so that service providers can resolve service issues swiftly and proactively, in the appropriate order, and with complete transparency.
+Learn how you can use the Proactive Service Experience Workflows application to automatically initiate workflows that resolve network-initiated incidents and proactively notify impacted customers.
 
 ## Proactive Service Experience Workflows capabilities
 

@@ -7,8 +7,8 @@ release: yokohama
 product: Task Mining
 classification: task-mining
 topic_type: task
-last_updated: "2024-08-26"
-reading_time_minutes: 2
+last_updated: "2026-03-12"
+reading_time_minutes: 3
 breadcrumb: [Use, Task Mining, Platform Analytics]
 ---
 
@@ -32,7 +32,7 @@ For more information, see [Categorization concepts in Task Mining](https://raw.g
 
 1.  Navigate to **Workspaces** &gt; **Task Mining Workspace**.
 
-2.  Select the Application categorization icon \(\[Omitted image "task-mining-categorization-icon.png"\] Alt text: Task Mining Application categorization icon\).
+2.  Select the Application categorization icon \[Omitted image "task-mining-categorization-icon.png"\].
 
 3.  Add categories to the list available on the categorization rule form to describe the type of work that applications are related to.
 
@@ -62,9 +62,9 @@ For more information, see [Categorization concepts in Task Mining](https://raw.g
 
 5.  Identify which applications to categorize.
 
-    1.  Select the Preview icon \(\[Omitted image "task-mining-preview-icon.png"\] Alt text: Preview icon\) in the **MAX** category.
+    1.  Select the Preview icon \[Omitted image "task-mining-preview-icon.png"\] in the **MAX** category.
 
-    2.  Find the largest value in the **Duration \(sec\)** column and select the Create rule icon \(\[Omitted image "task-mining-create-rule-icon.png"\] Alt text: Create rule icon\) next to the application's name.
+    2.  Find the largest value in the **Duration \(sec\)** column and select the Create rule icon \[Omitted image "task-mining-create-rule-icon.png"\] next to the application's name.
 
         You could also choose to create an application-based rule, for example, by finding an activity with a Microsoft Teams file name.
 
@@ -87,4 +87,8 @@ For more information, see [Categorization concepts in Task Mining](https://raw.g
 
 
 [Refine the presentation of your data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/task-mining/preview-data-based-on-categorization-rules.md)
+
+[Categorization concepts in Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/task-mining/configuration-concepts.md)
+
+[Categorization rule form in Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/task-mining/categorization-rules.md)
 

@@ -20,7 +20,7 @@ Learn about the RPA Desktop Design Studio user interface.
 
 With the RPA Desktop Design Studio home page, you can create and open your automation projects, review your work on these projects, and access resources that help you design automations. The default home page of the RPA Desktop Design Studio is shown in the following example.
 
-Create automations, activities, and automation logic additions from text instructions and preview options using the Now Assist for RPA Hub. For more information, see [Now Assist for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/rpa-now-assist-studio.md).
+Create automations, activities, and automation logic additions from text instructions and preview options using the Now Assist for RPA Hub. For more information, see [ServiceNow Otto for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/rpa-now-assist-studio.md).
 
 \[Omitted image "rpa-studio-home.png"\] Alt text: Home page of RPA Desktop Design Studio.
 
@@ -147,7 +147,7 @@ The area marked in red in the following example is the Design surface. You creat
 
 You can also create automations by dragging the activities and variables from the Project Explorer pane or by dragging methods and events from the Object Explorer pane.
 
-Create automations, activities, and automation logic additions from text instructions and preview options using the Now Assist for RPA Hub. For more information, see [Using Now Assist for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/use-now-assist-rpa-hub.md).
+Create automations, activities, and automation logic additions from text instructions and preview options using the Now Assist for RPA Hub. For more information, see [Using ServiceNow Otto for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/use-now-assist-rpa-hub.md).
 
 \[Omitted image "design-surface.png"\] Alt text: Design surface.
 

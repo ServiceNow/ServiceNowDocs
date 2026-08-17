@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 4
 keywords: [data input connectors]
-breadcrumb: [Configuring Health Log Analytics, Health Log Analytics, ITOM AIOps, IT Operations Management]
+breadcrumb: [Configuring Health Log Analytics, Health Log Analytics, ITOM Health, IT Operations Management]
 ---
 
 # Setting up Health Log Analytics on your ServiceNow instance

@@ -96,7 +96,7 @@ Perform various actions on an incident from the incident list page in Service Op
 -   **[Work on an incident record in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/work-on-incident-sow.md)**  
 If resolving the incident involves creating a problem, change, service request, and so on, you can create them directly from the incident record.
 -   **[Close resolved incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/close-resolved-incident-sow.md)**  
-Close an resolved incident when the user is satisfied with the provided resolution.
+Close a resolved incident when the user is satisfied with the provided resolution.
 -   **[Remedial actions using Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/remedial-actions-playbook.md)**  
 Resolve the CI-related issues using the remedial actions using Playbook in the Investigate tab.
 -   **[Reopen an incident in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/reopen-incident-sow.md)**  
@@ -113,7 +113,7 @@ Reference topics provide additional information about Incident Management in Ser
 
 [Add a user-specific quick link on the ITSM landing page]()
 
-[]()
+[Create a list in Service Operations Workspace]()
 
 [Live Agent chat in Service Operations Workspace]()
 

@@ -1,5 +1,5 @@
 ---
-title: Using the Voice AI agents for Now Assist for Order Management
+title: Using the Voice AI agents for ServiceNow Otto for Order Management
 description: Use the Voice AI agents to create and manage cases for any order-related issues such as expediting orders with voice calls.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/now-assist-order-mgmt-voice-aiagent.html
@@ -7,10 +7,10 @@ release: yokohama
 topic_type: concept
 last_updated: "2025-11-21"
 reading_time_minutes: 1
-breadcrumb: [AI agents in Order Management, Use, Now Assist for Order Management]
+breadcrumb: [AI agents in Order Management, Use, ServiceNow Otto for Order Management]
 ---
 
-# Using the Voice AI agents for Now Assist for Order Management
+# Using the Voice AI agents for ServiceNow Otto for Order Management
 
 Use the Voice AI agents to create and manage cases for any order-related issues such as expediting orders with voice calls.
 

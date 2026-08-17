@@ -1,6 +1,6 @@
 ---
 title: Exploring Now Assist for Playbooks
-description: Use Now Assist to generate playbooks from text directions or images. For example, you can enter directions to generate a playbook outline for managing customer support cases. Playbook Assist is part of the Now Assist for Creator application.
+description: Use Now Assist to generate playbooks from text directions or images. For example, you can enter directions to generate a playbook outline for managing customer support cases. Playbook Assist is part of the ServiceNow Otto for Creator application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/build-workflows/workflow-studio/playbook-assist.html
 release: yokohama
@@ -14,13 +14,13 @@ breadcrumb: [Playbook generation, Exploring playbooks, Exploring Workflow Studio
 
 # Exploring Now Assist for Playbooks
 
-Use Now Assist to generate playbooks from text directions or images. For example, you can enter directions to generate a playbook outline for managing customer support cases. Playbook Assist is part of the Now Assist for Creator application.
+Use Now Assist to generate playbooks from text directions or images. For example, you can enter directions to generate a playbook outline for managing customer support cases. Playbook Assist is part of the ServiceNow Otto for Creator application.
 
-Now Assist for Creator activates the playbook generation skill. Playbook generation gives generative AI capabilities to playbook authors.
+ServiceNow Otto for Creator activates the playbook generation skill. Playbook generation gives generative AI capabilities to playbook authors.
 
 ## Activation
 
-Playbook generation is a skill that is installed with the Now Assist for Creator \(sn\_now\_creator\) application. You can install this application from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
+Playbook generation is a skill that is installed with the ServiceNow Otto for Creator \(sn\_now\_creator\) application. You can install this application from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Supported user interfaces
 

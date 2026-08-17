@@ -35,6 +35,6 @@ Role required: Based on the application that you are configuring, you need the f
 
 -   Configure the CSM Configurable Workspace as per your requirements.
 
-    For more information on what you can configure, see [Set up CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/csm-config-workspace-set-up.md).
+    For more information on what you can configure, see Set up CSM Configurable Workspace.
 
 

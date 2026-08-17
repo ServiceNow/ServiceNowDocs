@@ -1,6 +1,6 @@
 ---
-title: Configure Now Assist for Employee Experience
-description: If you have the admin role, you can configure the Now Assist for Employee Experience application so that employees can use Now Assist in Virtual Agent to quickly check the status of their work through conversations.
+title: Configure ServiceNow Otto for Employee Experience
+description: If you have the admin role, you can configure the ServiceNow Otto for Employee Experience application so that employees can use Now Assist in Virtual Agent to quickly check the status of their work through conversations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/employee-experience-foundation/configure-nowassist-emp-exp.html
 release: yokohama
@@ -10,18 +10,18 @@ topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
 keywords: [NowAssist for Employee Exmperience, Configure NowAssist for Employee Exmperience]
-breadcrumb: [Now Assist for Employee Experience, Unified Employee Experience, Employee Service Management]
+breadcrumb: [ServiceNow Otto for Employee Experience, Unified Employee Experience, Employee Service Management]
 ---
 
-# Configure Now Assist for Employee Experience
+# Configure ServiceNow Otto for Employee Experience
 
-If you have the admin role, you can configure the Now Assist for Employee Experience application so that employees can use Now Assist in Virtual Agent to quickly check the status of their work through conversations.
+If you have the admin role, you can configure the ServiceNow Otto for Employee Experience application so that employees can use Now Assist in Virtual Agent to quickly check the status of their work through conversations.
 
 ## To-do configuration and skills
 
 Your administrators can choose which portal's To-do configuration to apply Now Assist in Virtual Agent by using the **now.assist.todos\_portals** system property.
 
-The Now Assist for Employee Experience application uses Now LLM Service conversation skills. It uses the Now Assist Topic skill in Now Assist in Virtual Agent.
+The ServiceNow Otto for Employee Experience application uses Now LLM Service conversation skills. It uses the Now Assist Topic skill in Now Assist in Virtual Agent.
 
 ## Before you begin
 
@@ -37,9 +37,9 @@ Role required: admin
 
     Use the following details when required:
 
-    -   Name of the application: Now Assist for Employee Experience
+    -   Name of the application: ServiceNow Otto for Employee Experience
     -   ID of the application: sn\_ex\_gen\_ai
-    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 3.  Select **Install**.
 
@@ -50,7 +50,7 @@ Role required: admin
 
 ## Result
 
-The Now Assist for Employee Experience is installed.
+The ServiceNow Otto for Employee Experience is installed.
 
 **Related topics**  
 

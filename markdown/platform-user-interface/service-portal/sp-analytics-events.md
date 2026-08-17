@@ -9,14 +9,14 @@ classification: service-portal
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Usage Insights for Service Portal, Analytics and Reporting Solutions for Service Portal, Analyzing portal performance and usage, Service Portal, Configure UIs and portals, Configure user experiences]
+breadcrumb: [User Experience Analytics for Service Portal, Analytics and Reporting Solutions for Service Portal, Analyzing portal performance and usage, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
 
 # Service Portal events
 
 View Service Portal events to get insight into how a portal is being used in your organization.
 
-Usage Insights automatically detects the gestures and actions of portal users. You can view each occurrence of these events in the Usage Insights application.
+User Experience Analytics automatically detects the gestures and actions of portal users. You can view each occurrence of these events in the User Experience Analytics application.
 
 <table id="table_ls1_gl5_rlb"><thead><tr><th>
 
@@ -119,7 +119,7 @@ Tracks how users attach files to records from portal pages: by navigating the fi
 </td></tr></tbody>
 </table>You can create custom events to be triggered. For more information, see [SNAnalytics - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/SNAnalyticsClientAPI.md)
 
-**Parent Topic:**[Usage Insights for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/service-portal/sp-analytics.md)
+**Parent Topic:**[User Experience Analytics for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/service-portal/sp-analytics.md)
 
 **Related topics**  
 

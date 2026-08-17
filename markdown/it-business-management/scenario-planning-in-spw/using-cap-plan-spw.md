@@ -89,7 +89,7 @@ Consider a group with capacity of 2 FTE and resource manager creates a Group typ
 
 When a resource manager creates a Group type operation resource assignment for time off, this doesn't update the **Operational work** line item but reduces the total available capacity.
 
-Consider the same group for which resource manager creates an operation resource assignment for 25% of the capacity for time off, for a quarter from April to June. The total available capacity of the group for the quarter April to June will be 1.5 FTE, which is 75% of the total capacity after reducing the 25% time off.
+Consider the same group for which resource manager creates an operation resource assignment for 25% of the capacity for time off, for a quarter from April to June. The total available capacity of the group for the quarter April to June will be 1.5 FTE. This is 75% of the total capacity after reducing the 25% time off.
 
 0.5 FTE, which is 25% of total capacity of the group will be reduced.
 

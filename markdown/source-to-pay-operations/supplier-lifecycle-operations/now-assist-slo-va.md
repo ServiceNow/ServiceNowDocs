@@ -1,6 +1,6 @@
 ---
-title: Use Now Assist for Supplier Lifecycle Operations \(SLO\) in a Virtual Agent chat
-description: Use the conversational interface of Now Assist for Supplier Lifecycle Operations \(SLO\) to request contextually relevant generative AI capabilities through a Virtual Agent chat.
+title: Use ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) in a Virtual Agent chat
+description: Use the conversational interface of ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) to request contextually relevant generative AI capabilities through a Virtual Agent chat.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-va.html
 release: yokohama
@@ -10,12 +10,12 @@ topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 6
 keywords: [generative AI, gen AI, genai, artificial intelligence]
-breadcrumb: [Use Now Assist for Supplier Lifecycle Operations \(SLO\), Now Assist for Supplier Lifecycle Operations \(SLO\), Supplier Lifecycle Operations, Finance and Supply Chain]
+breadcrumb: [Use ServiceNow Otto for Supplier Lifecycle Operations \(SLO\), ServiceNow Otto for Supplier Lifecycle Operations \(SLO\), Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 
-# Use Now Assist for Supplier Lifecycle Operations \(SLO\) in a Virtual Agent chat
+# Use ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) in a Virtual Agent chat
 
-Use the conversational interface of Now Assist for Supplier Lifecycle Operations \(SLO\) to request contextually relevant generative AI capabilities through a Virtual Agent chat.
+Use the conversational interface of ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) to request contextually relevant generative AI capabilities through a Virtual Agent chat.
 
 Role required: sn\_supplier\_gen\_ai.now\_assist\_supplier
 
@@ -25,7 +25,7 @@ As a supplier, you can use the predefined topics \(chatbot conversations\) that 
 
 To start a conversation, navigate to **All** &gt; **Supplier Lifecycle Operations** &gt; **Supplier Collaboration Portal** and select the Virtual Agent chat icon \(\[Omitted image "open-chat-window-icon.png"\] Alt text: Chat icon.\).
 
-The following example shows the starting screen for the Now Assist for SLO in a Virtual Agent chat.
+The following example shows the starting screen for the ServiceNow Otto for SLO in a Virtual Agent chat.
 
 \[Omitted image "now-assist-slo-va-start.png"\] Alt text: Show all my options.
 
@@ -129,7 +129,7 @@ Now Assist in Virtual Agent provides your users with an interactive generative A
 
 As an administrator, you can use the Now Assist in Virtual Agent Analytics dashboard to monitor the performance of Now Assist in Virtual Agent as a self-service deflection tool. To learn more, see . Now Assist in Virtual Agent Analytics calculates the conversation deflection rate that is based on the resolution status associated with Now Assist query responses. For more information, see .
 
-For detailed information on Now Assist in Virtual Agent in general, and Now Assist for SLO in particular, see [Explore Now Assist for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-exploring.md).
+For detailed information on Now Assist in Virtual Agent in general, and ServiceNow Otto for SLO in particular, see [Explore ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-exploring.md).
 
-For information on configuring Now Assist for SLO, see [Configure Now Assist for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-configuring.md).
+For information on configuring ServiceNow Otto for SLO, see [Configure ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-configuring.md).
 

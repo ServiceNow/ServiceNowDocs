@@ -41,7 +41,7 @@ The Demand Management process flow consists of the following tasks.
 The demand workbench provides a central location for viewing and assessing business demands.
 -   **[Predictive Intelligence for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/predictive-intelligence-for-demand.md)**  
 The Predictive Intelligence for Demand Management capability uses machine-learning algorithms to search and display similar demands while creating a demand in the Demand form.
--   **[Similar record identification with Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/similar-demand-identification-using-now-assist.md)**  
+-   **[Similar record identification with ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/similar-demand-identification-using-now-assist.md)**  
 Identify similar records is a Now Assist skill that enables you to find the demand records that are contextually similar to your demand. This feature helps to reduce duplicate demands and improves planning efficiency.
 
 **Parent Topic:**[Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/c_DemandManagement.md)

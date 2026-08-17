@@ -8,7 +8,7 @@ product: Security Incident Response
 classification: security-incident-response
 topic_type: reference
 last_updated: "2025-01-30"
-reading_time_minutes: 11
+reading_time_minutes: 12
 breadcrumb: [Install and configure Security Incident Response, Security Incident Response setup, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
@@ -19,6 +19,10 @@ Several types of components are installed when you download and activate the Sec
 **Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/find-components.md).
 
 Demo data is available for this feature.
+
+**Tip:**
+
+For information about plugin dependencies and compatibility, refer to the [ServiceNow Store](https://store.servicenow.com).
 
 ## Properties installed
 
@@ -260,17 +264,17 @@ Full control over all Security Incident Response data. Also administers territor
 
 </td><td>
 
--   assessment\_admin
--   catalog\_admin
--   decision\_table\_admin
--   decision\_table\_reader
--   filter\_admin
--   flow\_designer
--   pd\_author
--   pd\_content\_author
--   pd\_operator
--   skill\_admin
--   skill\_model\_admin
+-   assessment\_admin— Configure assessment metric types and manage assessments. **Access level:** Full admin.
+-   catalog\_admin— Manage Service Catalog items, categories, and variables. **Access level:** Full admin.
+-   decision\_table\_admin— Create and manage Decision Tables used in flows and playbooks. **Access level:** Full admin.
+-   decision\_table\_reader— View Decision Tables. **Access level:** Read-only.
+-   filter\_admin— Create and manage saved filters visible to other users. **Access level:** Full admin.
+-   flow\_designer— Create and manage Flow Designer flows, subflows, and actions. **Access level:** Full admin.
+-   pd\_author— Author and configure Process Automation Designer definitions. **Access level:** Author/configure.
+-   pd\_content\_author— Author content used within Process Automation Designer definitions. **Access level:** Author/configure.
+-   pd\_operator— Run and operate Process Automation Designer definitions. **Access level:** Operate.
+-   skill\_admin— Manage skills used for agent and analyst assignment. **Access level:** Full admin.
+-   skill\_model\_admin— Manage skill-matching models used in auto-assignment. **Access level:** Full admin.
 -   sn\_si.analyst
 -   sn\_si.ingestion\_profile\_admin
 -   sn\_si.knowledge\_admin
@@ -280,13 +284,13 @@ Full control over all Security Incident Response data. Also administers territor
 -   sn\_si.restriction\_access\_manager
 -   sn\_si.special\_access\_read\_manager
 -   sn\_si.special\_access\_write\_manager
--   sn\_ti.malicious\_attachment\_access
--   sn\_ti.observable.admin
--   tags\_admin
--   template\_admin
--   territory\_admin
--   treemap\_admin
--   user\_admin
+-   sn\_ti.malicious\_attachment\_access— Access attachments flagged as malicious. **Access level:** Special access.
+-   sn\_ti.observable.admin— Manage Threat Intelligence observables. **Access level:** Full admin.
+-   tags\_admin— Manage tags across the platform. **Access level:** Full admin.
+-   template\_admin— Manage templates. **Access level:** Full admin.
+-   territory\_admin— Manage territories used for geolocation and dispatch. **Access level:** Full admin.
+-   treemap\_admin— Manage treemap indicators used on dashboards. **Access level:** Full admin.
+-   user\_admin— Create and manage user accounts and group membership. **Access level:** Full admin.
 
 </td></tr><tr><td>
 

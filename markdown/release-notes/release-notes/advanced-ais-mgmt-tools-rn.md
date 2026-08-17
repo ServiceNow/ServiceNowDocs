@@ -24,45 +24,45 @@ The ServiceNow® Advanced AI Search Management Tools application helps AI Search
 -   Analyze search trends from the preceding six months using the AI Search Analytics dashboard's **Date range** interactive filter.
 -   Understand your mobile search traffic with support for the Mobile Platform search application in the AI Search Analytics dashboard's **Search application** interactive filter.
 
-See [Platform Analytics Solution for Advanced AI Search Management Tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/adv-ais-mgmt-tools-content-pack.md) for more information.
+See  for more information.
 
 **Important:** Advanced AI Search Management Tools is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Yokohama release
 
--   **[AI Search analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-search-analytics-dashboard.md)**
+-   ****
 
     The **Search application** interactive filter now allows analysts to review performance metrics and trends for search applications used in Recommended Actions.
 
 
--   **[AI Search analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-search-analytics-dashboard.md)**
+-   ****
 
     The **Search application** interactive filter now allows analysts to review performance metrics and trends for the Mobile Platform search application.
 
 
 ## Changed in this release
 
--   **[AI Search analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-search-analytics-dashboard.md)**
+-   ****
 
     The performance metrics, trends, and charts for this dashboard have been refreshed to offer a cleaner visual experience.
 
 
--   **[AI Search analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-search-analytics-dashboard.md)**
+-   ****
 
     The **Date range** interactive filter now enables you to access data from the last 180 days, rather than the last 90 days.
 
 
 ## Activation information
 
-Install Advanced AI Search Management Tools by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install Advanced AI Search Management Tools by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Additional requirements
 
-You must have the Usage Insights API application installed from the ServiceNow Store to use Advanced AI Search Management Tools.
+You must have the User Experience Analytics API application installed from the ServiceNow Store to use Advanced AI Search Management Tools.
 
 ## Related ServiceNow applications and features
 
--   **[AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/overview-ais.md)**
+-   ****
 
     The ServiceNow AI Search application provides a consumer-grade search engine for ServiceNow Service Portal, ServiceNow Now Mobile®, and ServiceNow Virtual Agent. Intelligent query features help you quickly find the answers you need.
 

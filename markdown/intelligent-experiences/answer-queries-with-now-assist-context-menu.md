@@ -35,5 +35,5 @@ You can also see the option to **Summarize**, **shorten**, **elaborate**, or **c
 **Related topics**  
 
 
-[Generate and improve Docs content with Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/generate-summarize-and-refine-content-of-docs-with-now-assist-spm.md)
+[Generate and improve Docs content with ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/generate-summarize-and-refine-content-of-docs-with-now-assist-spm.md)
 

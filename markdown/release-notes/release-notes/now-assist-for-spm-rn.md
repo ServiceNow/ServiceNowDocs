@@ -1,6 +1,6 @@
 ---
-title: Now Assist for Strategic Portfolio Management \(SPM\) release notes
-description: The ServiceNow Now Assist for Strategic Portfolio Management \(SPM\) application introduces generative AI skills into Strategic Portfolio Management. You can summarize feedback or content in Docs, create stories from epics, generate concise project summaries, create demands through conversations, quickly gain insights into projects, and refine planning item descriptions to enhance clarity and ensure alignment with project goals. Now Assist for Strategic Portfolio Management \(SPM\) is updated in the Yokohama release.
+title: ServiceNow Otto for Strategic Portfolio Management release notes
+description: The ServiceNow ServiceNow Otto for Strategic Portfolio Management application introduces generative AI skills into Strategic Portfolio Management. You can summarize feedback or content in Docs, create stories from epics, generate concise project summaries, create demands through conversations, quickly gain insights into projects, and refine planning item descriptions to enhance clarity and ensure alignment with project goals. ServiceNow Otto for Strategic Portfolio Management is updated in the Yokohama release.
 locale: en-US
 release: yokohama
 topic_type: reference
@@ -8,11 +8,11 @@ last_updated: "2025-01-30"
 reading_time_minutes: 7
 ---
 
-# Now Assist for Strategic Portfolio Management \(SPM\) release notes
+# ServiceNow Otto for Strategic Portfolio Management release notes
 
-The ServiceNow® Now Assist for Strategic Portfolio Management \(SPM\) application introduces generative AI skills into Strategic Portfolio Management. You can summarize feedback or content in Docs, create stories from epics, generate concise project summaries, create demands through conversations, quickly gain insights into projects, and refine planning item descriptions to enhance clarity and ensure alignment with project goals. Now Assist for Strategic Portfolio Management \(SPM\) is updated in the Yokohama release.
+The ServiceNow® ServiceNow Otto for Strategic Portfolio Management application introduces generative AI skills into Strategic Portfolio Management. You can summarize feedback or content in Docs, create stories from epics, generate concise project summaries, create demands through conversations, quickly gain insights into projects, and refine planning item descriptions to enhance clarity and ensure alignment with project goals. ServiceNow Otto for Strategic Portfolio Management is updated in the Yokohama release.
 
-## Now Assist for SPM highlights for the Yokohama release
+## ServiceNow Otto for SPM highlights for the Yokohama release
 
 [Yokohama Patch 11](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-11.md)
 
@@ -29,9 +29,9 @@ The ServiceNow® Now Assist for Strategic Portfolio Management \(SPM\) applicati
 -   Use Google Gemini and Anthropic Claude on AWS as AI model providers for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
 -   Use a decorative loader to elevate visual interest during content loading in Strategic Planning.
 -   Refine the planning item text descriptions by enabling AI assistance.
--   Use Now Assist for SPM AI agents to help optimize workflows, improve productivity, and automate your tasks.
+-   Use ServiceNow Otto for SPM AI agents to help optimize workflows, improve productivity, and automate your tasks.
 
-See [Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/now-assist-spm.md) for more information.
+See [ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/now-assist-spm.md) for more information.
 
 ## New in the Yokohama release
 
@@ -52,7 +52,7 @@ See [Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubus
     -   Receive proactive, AI-based notifications when project milestones or critical tasks could lead to delays using Monitor project task agent. Use the Enable critical task alerts option from planning page to enable the project task monitor AI agent.
     -   Choose the recipients to whom you want to send the project insights email.
 
--   **[New third-party AI model provider options available for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/exploring-large-language-models.md)**
+-   **New third-party AI model provider options available for Now Assist**
 
     Google Gemini 2.0 Flash, Google Gemini 2.5 Pro, and AWS Claude 3.7 Sonnet are available for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI GPT-4.1 and GPT-4.1 mini.
 
@@ -100,24 +100,24 @@ See [Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubus
 
 ## Changed in this release
 
--   **[Changes to Now Assist usage measurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/monitoring-now-assist-usage.md)**
+-   **Changes to Now Assist usage measurement**
 
     Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
--   **[Some Now Assist skills are turned on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md)**
+-   **Some Now Assist skills are turned on by default**
 
     The new default behavior works as follows:
 
     -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
     -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
--   **[Configure ACLs for AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/aia-security-implementation.md)**
+-   **Configure ACLs for AI agents and agentic workflows**
 
     Configure the access control lists for who can discover and trigger AI agents and agentic workflows in their guided setups in AI Agent Studio. You can determine whether an AI agent or agentic workflow behaves as a dynamic user or as an AI user. You can also specify if an AI agent or agentic workflow can be available to all authenticated users or publicly available.
 
 
 ## Activation information
 
-Now Assist features are available with activation of the [Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/now-assist-spm.md) plugin. The Now Assist for SPM application requires a Strategic Portfolio Management \(SPM\) Pro plus license. For more information, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+Now Assist features are available with activation of the [ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/now-assist-spm.md) plugin. The ServiceNow Otto for SPM application requires a Strategic Portfolio Management \(SPM\) Pro plus license. For more information, see .
 
 ## Related ServiceNow applications and features
 
@@ -125,15 +125,15 @@ Now Assist features are available with activation of the [Now Assist for Strateg
 
     ServiceNow® Now Assist uses generative AI to help improve the productivity and efficiency in your organization, deliver better self-service, recommend actions, provide answers, and empower your users to search more effectively.
 
--   **[Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configuring-now-assist.md)**
+-   ****
 
-    The Now Assist Admin console provides you with quick and easy access to the important information that you need to set up, configure, and monitor Now Assist applications and features.
+    The AI Admin Hub console provides you with quick and easy access to the important information that you need to set up, configure, and monitor Now Assist applications and features.
 
--   **[Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-panel-overview.md)**
+-   ****
 
     Use this conversational interface in the EAP workspace to get story recommendations, split or combine stories, and create stories for your epics with the help of generative AI.
 
--   **[Now Assist skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills.md)**
+-   ****
 
     Now Assist products provide generative AI skills that are tailored to meet the needs of users in different workflows, including feedback summarization, content summarization in Docs, demand creation, and epic to story generation.
 

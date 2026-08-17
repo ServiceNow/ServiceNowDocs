@@ -9,7 +9,7 @@ classification: service-operations-workspace-for-itom-apps
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Reviewing the logs for an alert on the Log viewer, Using Service Operations Workspace for ITOM Log Analytics, Using Service Operations Workspace for ITOM, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
+breadcrumb: [Reviewing alert logs on the Log viewer, Using Service Operations Workspace for ITOM Log Analytics, Using Service Operations Workspace for ITOM, Service Operations Workspace for ITOM, ITOM Health, IT Operations Management]
 ---
 
 # Customize the Log viewer table
@@ -65,5 +65,5 @@ This feature is supported in the Health Log Analytics application, Version 20.0.
 
 The **Log viewer** table shows the customized view from the current session onward until you change your preferences.
 
-**Parent Topic:**[Reviewing the logs for an alert on the Log viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-logs-log-viewer-concept-sow.md)
+**Parent Topic:**[Reviewing alert logs on the Log viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-logs-log-viewer-concept-sow.md)
 

@@ -68,11 +68,11 @@ The **Security &amp; Privacy** tab of AI Control Tower offers a dashboard-based 
 
 -   **Prompt injection**
 
-    These charts show prompt injection data provided by Now Assist Guardian. To see data, enable Now Assist Guardian for your instance. For more details, see [Now Assist Guardian analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-guardian-analytics.md).
+    These charts show prompt injection data provided by Now Assist Guardian. To see data, enable Now Assist Guardian for your instance. For more details, see [AI Guardian analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-guardian-analytics.md).
 
 -   **Offensive content**
 
-    These charts show offensive content data provided by Now Assist Guardian. To see data, enable Now Assist Guardian for your instance. For more details, see [Now Assist Guardian analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-guardian-analytics.md).
+    These charts show offensive content data provided by Now Assist Guardian. To see data, enable Now Assist Guardian for your instance. For more details, see [AI Guardian analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-guardian-analytics.md).
 
 
 ## Access map
@@ -104,11 +104,11 @@ The ServiceNow AI security score is a measure of the health of your ServiceNow A
 
     You can exclude an asset from your score by selecting a row and selecting **Mute**. For example, you can mute an AI asset if you determine that remediating the asset’s issue would be a risky change.
 
-<table id="simpletable_nqz_1sl_mhc"><thead><tr><th align="left" id="d108865e19">
+<table id="simpletable_nqz_1sl_mhc"><thead><tr><th align="left" id="d107799e19">
 
 Column
 
-</th><th align="left" id="d108865e22">
+</th><th align="left" id="d107799e22">
 
 Description
 

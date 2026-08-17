@@ -68,15 +68,95 @@ The following attributes in the Cloud DataBase \[cmdb\_ci\_cloud\_database\] tab
 
 The following attributes in the Cloud DataBase Cluster \[cmdb\_ci\_cloud\_db\_cluster\] table are populated by collected data:
 
-|Attribute label|Attribute name|Wiz attribute|
-|---------------|--------------|-------------|
-|Cluster ID|cluster\_id|externalId|
-|Name|name|name|
-|Cluster Type|cluster\_type|kind|
-|Install Status|install\_status|None|
-|Vendor|vendor|None|
+<table id="table_umj_tmb_f1c"><thead><tr><th>
 
-|Parent class|Relationship type|Child class|
+Attribute label
+
+</th><th>
+
+Attribute name
+
+</th><th>
+
+Wiz attribute
+
+</th></tr></thead><tbody><tr><td>
+
+Cluster ID
+
+</td><td>
+
+cluster\_id
+
+</td><td>
+
+-   Mapped to **externalId** for the following services:
+    -   AWS DynamoDB Table
+    -   AWS ElastiCache for Memcached Cluster
+    -   AWS ElastiCache Redis OSS Cluster
+    -   AWS ElastiCache Valkey Cluster​
+    -   AWS MemoryDB Cluster​
+-   Mapped to **name** for the following services:
+    -   AWS DocumentDB Cluster
+    -   AWS Elastic DocumentDB Cluster
+    -   AWS Neptune Cluster
+    -   AWS RDS Aurora MySQL Cluster
+    -   AWS RDS Aurora PostgreSQL Cluster
+    -   AWS RDS MSSQL Server Cluster, AWS RDS MariaDB Cluster
+    -   AWS RDS MySQL Cluster
+    -   AWS RDS Oracle Cluster
+    -   AWS RDS PostgreSQL Cluster
+
+</td></tr><tr><td>
+
+Name
+
+</td><td>
+
+name
+
+</td><td>
+
+name
+
+</td></tr><tr><td>
+
+Cluster Type
+
+</td><td>
+
+cluster\_type
+
+</td><td>
+
+kind
+
+</td></tr><tr><td>
+
+Install Status
+
+</td><td>
+
+install\_status
+
+</td><td>
+
+None
+
+</td></tr><tr><td>
+
+Vendor
+
+</td><td>
+
+vendor
+
+</td><td>
+
+None
+
+</td></tr></tbody>
+</table>|Parent class|Relationship type|Child class|
 |------------|-----------------|-----------|
 |Cloud DataBase Cluster \[cmdb\_ci\_cloud\_db\_cluster\]|Hosted on::Hosts|AWS Datacenter \[cmdb\_ci\_aws\_datacenter\]|
 |Cloud DataBase Cluster \[cmdb\_ci\_cloud\_db\_cluster\]|Reference|Key Value \[cmdb\_key\_value\]|

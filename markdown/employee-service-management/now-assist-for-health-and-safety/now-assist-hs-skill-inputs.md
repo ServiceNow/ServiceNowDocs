@@ -1,6 +1,6 @@
 ---
-title: Skill inputs for Now Assist for Health and Safety
-description: Get a quick overview of the skill inputs for Now Assist for Health and Safety.
+title: Skill inputs for ServiceNow Otto for Health and Safety
+description: Get a quick overview of the skill inputs for ServiceNow Otto for Health and Safety.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-skill-inputs.html
 release: yokohama
@@ -9,12 +9,12 @@ classification: now-assist-for-health-and-safety
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Configure settings, Now Assist for Health and Safety, Health and Safety, Employee Service Management]
+breadcrumb: [Configure settings, ServiceNow Otto for Health and Safety, Health and Safety, Employee Service Management]
 ---
 
-# Skill inputs for Now Assist for Health and Safety
+# Skill inputs for ServiceNow Otto for Health and Safety
 
-Get a quick overview of the skill inputs for Now Assist for Health and Safety.
+Get a quick overview of the skill inputs for ServiceNow Otto for Health and Safety.
 
 ## Overview of skill inputs
 
@@ -67,5 +67,5 @@ Health and Safety action
 Short description
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configuring Now Assist for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-configuring.md)
+</table>**Parent Topic:**[Configuring ServiceNow Otto for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-configuring.md)
 

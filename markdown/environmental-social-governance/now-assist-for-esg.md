@@ -1,6 +1,6 @@
 ---
-title: Now Assist for Operational Sustainability \(formerly ESG\)
-description: Use the Now Assist for Operational Sustainability application to empower your sustainability teams with Generative AI-powered capabilities to automate and streamline data collection, and confirm accurate, auditable reporting at enterprise scale.
+title: ServiceNow Otto for Operational Sustainability \(formerly ESG\)
+description: Use the ServiceNow Otto for Operational Sustainability application to empower your sustainability teams with Generative AI-powered capabilities to automate and streamline data collection, and confirm accurate, auditable reporting at enterprise scale.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/environmental-social-governance/now-assist-for-esg.html
 release: yokohama
@@ -10,9 +10,9 @@ reading_time_minutes: 3
 breadcrumb: [Use, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
-# Now Assist for Operational Sustainability \(formerly ESG\)
+# ServiceNow Otto for Operational Sustainability \(formerly ESG\)
 
-Use the Now Assist for Operational Sustainability application to empower your sustainability teams with Generative AI-powered capabilities to automate and streamline data collection, and confirm accurate, auditable reporting at enterprise scale.
+Use the ServiceNow Otto for Operational Sustainability application to empower your sustainability teams with Generative AI-powered capabilities to automate and streamline data collection, and confirm accurate, auditable reporting at enterprise scale.
 
 ## Get started
 
@@ -30,15 +30,15 @@ Use the Now Assist for Operational Sustainability application to empower your su
 
 </th></tr></thead><tbody><tr><td>
 
-[Exploring Now Assist for Operational Sustainability \(formerly ESG\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/exploring-now-assist-for-esg.md)Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about Now Assist for Operational Sustainability skills
+[Exploring ServiceNow Otto for Operational Sustainability \(formerly ESG\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/exploring-now-assist-for-esg.md)Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about ServiceNow Otto for Operational Sustainability skills
 
 </td><td>
 
-[Configure Now Assist for Operational Sustainability \(formerly ESG\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/configure-now-assist-for-esg.md)Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the Now Assist for Operational Sustainability application to get started
+[Configure ServiceNow Otto for Operational Sustainability \(formerly ESG\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/configure-now-assist-for-esg.md)Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the ServiceNow Otto for Operational Sustainability application to get started
 
 </td><td>
 
-[Using Now Assist for Operational Sustainability \(formerly ESG\) skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/using-now-assist-for-esg-skills.md)Use\[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:Use generative AI capabilities offered by Now Assist for Operational Sustainability
+[Using ServiceNow Otto for Operational Sustainability \(formerly ESG\) skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/using-now-assist-for-esg-skills.md)Use\[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:Use generative AI capabilities offered by ServiceNow Otto for Operational Sustainability
 
 </td></tr><tr><td>
 
@@ -46,7 +46,7 @@ Use the Now Assist for Operational Sustainability application to empower your su
 
 </td><td>
 
-Use Operational Sustainability Management AI agent collection\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Use agentic workflows in Now Assist for Operational Sustainability
+Use Operational Sustainability Management AI agent collection\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Use agentic workflows in ServiceNow Otto for Operational Sustainability
 
 </td><td>
 
@@ -71,12 +71,12 @@ ServiceNow collects and uses the inputs, outputs, and edits to outputs of this a
 
 For more information, see the [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/platform-now-assist-landing.md).
 
--   **[Exploring Now Assist for Operational Sustainability \(formerly ESG\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/exploring-now-assist-for-esg.md)**  
+-   **[Exploring ServiceNow Otto for Operational Sustainability \(formerly ESG\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/exploring-now-assist-for-esg.md)**  
 With the Operational Sustainability Management application, you can use the skills to automate the collection of operational sustainability metric data from utility bill documents.
--   **[Configure Now Assist for Operational Sustainability \(formerly ESG\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/configure-now-assist-for-esg.md)**  
-If you have the admin role, you can configure the Now Assist for Operational Sustainability application so that your users can use the generative AI skills in the Operational Sustainability Workspace.
--   **[Using Now Assist for Operational Sustainability \(formerly ESG\) skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/using-now-assist-for-esg-skills.md)**  
-If you have the sn\_esg\_gen\_ai.docintel\_user role, you can leverage the Now Assist for Operational Sustainability skill to automate the extraction of metrics data from utility invoices. Then map the extracted data to the correct metric definitions and entities.
+-   **[Configure ServiceNow Otto for Operational Sustainability \(formerly ESG\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/configure-now-assist-for-esg.md)**  
+If you have the admin role, you can configure the ServiceNow Otto for Operational Sustainability application so that your users can use the generative AI skills in the Operational Sustainability Workspace.
+-   **[Using ServiceNow Otto for Operational Sustainability \(formerly ESG\) skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/using-now-assist-for-esg-skills.md)**  
+If you have the sn\_esg\_gen\_ai.docintel\_user role, you can leverage the ServiceNow Otto for Operational Sustainability skill to automate the extraction of metrics data from utility invoices. Then map the extracted data to the correct metric definitions and entities.
 
 **Parent Topic:**[Using Operational Sustainability Management \(formerly Environmental, Social, and Governance\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/using-esg.md)
 

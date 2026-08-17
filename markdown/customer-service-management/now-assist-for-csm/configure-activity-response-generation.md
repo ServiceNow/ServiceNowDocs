@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2025-11-05"
 reading_time_minutes: 2
 keywords: [Generative AI, Generative AI for Customer Service Management, generative AI for customer service agents]
-breadcrumb: [Activate Now Assist Skills, Configure, Now Assist for Customer Service Management \(CSM\), Customer Service Management]
+breadcrumb: [Activate Now Assist Skills, Configure, ServiceNow Otto for Customer Service Management \(CSM\), Customer Service Management]
 ---
 
 # Configure activity response generation
@@ -23,7 +23,7 @@ Role required: admin
 
 ## About this task
 
-Use the Now Assist Admin console for configuring the activity response generation skill by selecting inputs, defining access, and activating the skill.
+Use the AI Admin Hub console for configuring the activity response generation skill by selecting inputs, defining access, and activating the skill.
 
 ## Procedure
 

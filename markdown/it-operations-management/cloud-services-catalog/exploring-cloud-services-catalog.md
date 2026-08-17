@@ -36,7 +36,7 @@ The following table lists the benefits of Cloud Services Catalog.
 |Azure DevOps Continuous Integration Continuous Deployment \(CICD\) Pipeline Integration|[Azure DevOps and CI-CD Pipeline Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-services-catalog/integrating-azure-devops-and-cicd-pipeline.md)|
 |Integration of Ansible with Cloud services|[Integrate Ansible](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-services-catalog/integrating-ansible-with-cloud-services-catalog.md)|
 |Microsoft Azure and Amazon AWS Cloud setup|Cloud Setup|
-|Multi-repo support with Terraform Connector app|[Exploring Cloud Services Catalog Terraform Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/exploring-cpg-terraform-connector.md)|
+|Multi-repo support with Terraform Connector app|[Exploring Cloud Provisioning and Governance: Terraform Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/exploring-cpg-terraform-connector.md)|
 
 ## What to do next
 

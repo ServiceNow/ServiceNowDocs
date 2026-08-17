@@ -38,7 +38,7 @@ You can move the story cards into different lanes or add new stories for the tea
 
 4.  Change the state of a story by moving the story from one lane to another.
 
-    If you use triage board and add those records to your backlog, your board could have stories associated to the triaged records. When you move these stories to different lanes on the story board to update their state, the state of the associated story is updated but the state of the original triaged record remains the same. To change the state of the original record, open the story and switch to the original record tab.
+    If you use triage board and add those records to your backlog, your board could have stories associated to the triaged records. When you move these stories to different lanes on the story board to update their state, the state of the associated story is updated. However, the state of the original triaged record remains the same. To change the state of the original record, open the story and switch to the original record tab.
 
     \[Omitted image "defect-from-triage-board-to-backlog.png"\] Alt text: Associated story for a defect added from triage board. The form shows two tabs, one for the original defect and another for the story created for this defect.
 

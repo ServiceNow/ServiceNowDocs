@@ -9,7 +9,7 @@ classification: now-assist-for-field-service-management-fsm
 topic_type: task
 last_updated: "2025-04-15"
 reading_time_minutes: 1
-breadcrumb: [Configure Now Assist for Field Service Management \(FSM\), Now Assist for Field Service Management \(FSM\)]
+breadcrumb: [Configure ServiceNow Otto for Field Service Management \(FSM\), ServiceNow Otto for Field Service Management \(FSM\)]
 ---
 
 # Create an Assistant for Field Service Management

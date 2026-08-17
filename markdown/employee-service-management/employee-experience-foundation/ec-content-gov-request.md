@@ -55,15 +55,15 @@ You can use unified taxonomy to link the request content to a topic so the reque
 
 3.  Fill in the fields on the **Content Request** form.
 
-<table id="choicetable_b4s_qgk_5tb"><thead><tr><th align="left" id="d178761e243">
+<table id="choicetable_b4s_qgk_5tb"><thead><tr><th align="left" id="d178142e243">
 
 Field
 
-</th><th align="left" id="d178761e246">
+</th><th align="left" id="d178142e246">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d178761e252">
+</th></tr></thead><tbody><tr><td id="d178142e252">
 
 **\*Please select the type of communication you'd like to schedule**
 
@@ -75,7 +75,7 @@ How you want your content to be communicated. Your choices are:-   Portal
 -   Other
 
 
-</td></tr><tr><td id="d178761e276">
+</td></tr><tr><td id="d178142e276">
 
 **\*What type of content do you need for your communication?**
 
@@ -107,7 +107,7 @@ The type of content you want communicated. The type of content depends on what t
 
 **Note:** The Content Manager should define what it means to select Other/Other. For example, it could be used for another type of personal communication like company chat.
 
-</td></tr><tr><td id="d178761e355">
+</td></tr><tr><td id="d178142e355">
 
 **What is your desired Topic page?**
 
@@ -115,7 +115,7 @@ The type of content you want communicated. The type of content depends on what t
 
 Enter the topic page you want your content to appear in. This field only appears when you select **Topic Content Selection** from the **What type of content do you need for your communication** drop-down. For more information, see [Dynamic topic pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/dynamic-topic-page.md).
 
-</td></tr><tr><td id="d178761e377">
+</td></tr><tr><td id="d178142e377">
 
 **Which employees should see your communication?**
 
@@ -125,7 +125,7 @@ Who you want your content to be directed to.You can direct your content at all e
 
  You can also have your content and communication target specific employees, groups, divisions, specific roles, or job titles.
 
-</td></tr><tr><td id="d178761e393">
+</td></tr><tr><td id="d178142e393">
 
 **Start date**
 
@@ -133,7 +133,7 @@ Who you want your content to be directed to.You can direct your content at all e
 
 The date you want you content made available.
 
-</td></tr><tr><td id="d178761e402">
+</td></tr><tr><td id="d178142e402">
 
 **End date**
 
@@ -141,7 +141,7 @@ The date you want you content made available.
 
 The date you want your communication to stop.
 
-</td></tr><tr><td id="d178761e411">
+</td></tr><tr><td id="d178142e411">
 
 **What languages will you need the content translated into?**
 
@@ -149,7 +149,7 @@ The date you want your communication to stop.
 
 The language\(s\) you want your content to be created in and made available to your audience.**Note:** The available languages are dependent on what your company has installed.
 
-</td></tr><tr><td id="d178761e423">
+</td></tr><tr><td id="d178142e423">
 
 **Please add any additional reviewers required for your communication \(optional\)**
 
@@ -157,7 +157,7 @@ The language\(s\) you want your content to be created in and made available to y
 
 Click into the field and select people you want to review and approve the content that is created from your request.When approvals are required and the content request item is moved to the **In Review** state, the content request appears under **My tasks** for the reviewers and approvers. The content can be previewed, approved, or don't approve.
 
-</td></tr><tr><td id="d178761e441">
+</td></tr><tr><td id="d178142e441">
 
 **Please add any additional information about your communication \(optional\)**
 
@@ -165,7 +165,7 @@ Click into the field and select people you want to review and approve the conten
 
 Details that can clarify what you want included in the content you are requesting.
 
-</td></tr><tr><td id="d178761e450">
+</td></tr><tr><td id="d178142e450">
 
 **Please add a URL for your call to action button \(optional\)**
 
@@ -173,7 +173,7 @@ Details that can clarify what you want included in the content you are requestin
 
 A URL link you want your audience to select if you are requesting to-do, survey, or any type of action content.
 
-</td></tr><tr><td id="d178761e460">
+</td></tr><tr><td id="d178142e460">
 
 **Add attachments**
 
@@ -205,15 +205,15 @@ Role required: none
 
 3.  Fill in the fields on the **Content Request** form.
 
-<table id="choicetable_tsj_lv5_x5b"><thead><tr><th align="left" id="d178761e581">
+<table id="choicetable_tsj_lv5_x5b"><thead><tr><th align="left" id="d178142e581">
 
 Field
 
-</th><th align="left" id="d178761e584">
+</th><th align="left" id="d178142e584">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d178761e590">
+</th></tr></thead><tbody><tr><td id="d178142e590">
 
 **\*Please select the type of communication you'd like to schedule**
 
@@ -225,7 +225,7 @@ How you want your content to be communicated. Your choices are:-   Portal
 -   Other
 
 
-</td></tr><tr><td id="d178761e614">
+</td></tr><tr><td id="d178142e614">
 
 **\*What type of content do you need for your communication?**
 
@@ -260,7 +260,7 @@ The type of content you want communicated. The type of content depends on what t
 
 **Note:** The Content Manager should define what it means to select Other/Other. For example, it could be used for another type of personal communication like company chat.
 
-</td></tr><tr><td id="d178761e705">
+</td></tr><tr><td id="d178142e705">
 
 **What is your desired Topic page?**
 
@@ -268,7 +268,7 @@ The type of content you want communicated. The type of content depends on what t
 
 Enter the topic page you want your content to appear in. This field only appears when you select **Topic Content Selection** from the **What type of content do you need for your communication** drop-down.For more information, see .
 
-</td></tr><tr><td id="d178761e723">
+</td></tr><tr><td id="d178142e723">
 
 **Which employees should see your communication?**
 
@@ -276,7 +276,7 @@ Enter the topic page you want your content to appear in. This field only appears
 
 Who you want your content to be directed to.
 
-</td></tr><tr><td id="d178761e733">
+</td></tr><tr><td id="d178142e733">
 
 **Start date**
 
@@ -284,7 +284,7 @@ Who you want your content to be directed to.
 
 The date you want you content made available.
 
-</td></tr><tr><td id="d178761e742">
+</td></tr><tr><td id="d178142e742">
 
 **End date**
 
@@ -292,7 +292,7 @@ The date you want you content made available.
 
 The date you want your communication to stop.
 
-</td></tr><tr><td id="d178761e751">
+</td></tr><tr><td id="d178142e751">
 
 **What languages will you need the content translated into?**
 
@@ -300,7 +300,7 @@ The date you want your communication to stop.
 
 The language\(s\) you want your content to be created in and made available to your audience.**Note:** The available languages are dependent on what your company has subscribed to.
 
-</td></tr><tr><td id="d178761e763">
+</td></tr><tr><td id="d178142e763">
 
 **Please add any additional reviewers required for your communication \(optional\)**
 
@@ -312,7 +312,7 @@ Select the **Lock** \[Omitted image "icon-hr-unlock-add-parties.png"\] Alt text:
 
  When approvals are required and the content request item is moved to the **In Review** state, the content request appears under **My tasks** for the reviewers and approvers. The content can be previewed, approved, or rejected.
 
-</td></tr><tr><td id="d178761e802">
+</td></tr><tr><td id="d178142e802">
 
 **Please add any additional information about your communication \(optional\)**
 
@@ -320,7 +320,7 @@ Select the **Lock** \[Omitted image "icon-hr-unlock-add-parties.png"\] Alt text:
 
 Details that can clarify what you want included in the content you are requesting.
 
-</td></tr><tr><td id="d178761e811">
+</td></tr><tr><td id="d178142e811">
 
 **Please add a URL for your call to action button \(optional\)**
 
@@ -328,7 +328,7 @@ Details that can clarify what you want included in the content you are requestin
 
 A URL link you want your audience to select if you are requesting to-do, survey, or any type of action content.
 
-</td></tr><tr><td id="d178761e821">
+</td></tr><tr><td id="d178142e821">
 
 **\[Omitted image "attach-icon.png"\] Alt text: Manage Attachments icon Manage Attachments**
 
@@ -360,15 +360,15 @@ The **Content Request** form can also be used by the content team to delegate wo
 
 2.  Fill in the fields of the Content Request form.
 
-<table id="choicetable_b4s_qgk_5tb"><thead><tr><th align="left" id="d178761e966">
+<table id="choicetable_b4s_qgk_5tb"><thead><tr><th align="left" id="d178142e966">
 
 Field
 
-</th><th align="left" id="d178761e969">
+</th><th align="left" id="d178142e969">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d178761e975">
+</th></tr></thead><tbody><tr><td id="d178142e975">
 
 **Number**
 
@@ -376,7 +376,7 @@ Description
 
 A unique number that identifies the content request. This field pre-fills the content request number and cannot be edited and has a CONREQ prefix followed by a sequential number.
 
-</td></tr><tr><td id="d178761e987">
+</td></tr><tr><td id="d178142e987">
 
 **Assigned to**
 
@@ -388,7 +388,7 @@ The person assigned to create the content from the content request.**Note:** Aft
 
  When you enter an Assigned to person, this person automatically appears as the Assigned to person in a Content Request Item. If you leave this field blank, the Assigned to person on a Content Request Item is also blank.
 
-</td></tr><tr><td id="d178761e1005">
+</td></tr><tr><td id="d178142e1005">
 
 **Assignment group**
 
@@ -400,7 +400,7 @@ The group assigned to create the content from the content request. If you select
 
  When you enter an assignment group in this field, it automatically appears in the **Assignment group** field for a Content Request Item. You can only enter members of that group to the **Assigned to** field for a Content Request Item.
 
-</td></tr><tr><td id="d178761e1033">
+</td></tr><tr><td id="d178142e1033">
 
 **Opened by**
 
@@ -408,7 +408,7 @@ The group assigned to create the content from the content request. If you select
 
 The person who is requesting the creation of content.
 
-</td></tr><tr><td id="d178761e1043">
+</td></tr><tr><td id="d178142e1043">
 
 **Priority**
 
@@ -421,7 +421,7 @@ The urgency associated with the content request. Your choices are:-   1- Critica
 -   5 - Planning
 
 
-</td></tr><tr><td id="d178761e1070">
+</td></tr><tr><td id="d178142e1070">
 
 **State**
 
@@ -436,7 +436,7 @@ The status of the content request.-   New
 -   Cancelled
 
 
-</td></tr><tr><td id="d178761e1104">
+</td></tr><tr><td id="d178142e1104">
 
 **Due date**
 
@@ -444,7 +444,7 @@ The status of the content request.-   New
 
 The date the request for content should be completed.
 
-</td></tr><tr><td id="d178761e1113">
+</td></tr><tr><td id="d178142e1113">
 
 **Short description**
 
@@ -452,7 +452,7 @@ The date the request for content should be completed.
 
 A short description of the content request. The text entered here appears by default in the short description for the content item.
 
-</td></tr><tr><td id="d178761e1122">
+</td></tr><tr><td id="d178142e1122">
 
 **Description**
 
@@ -460,7 +460,7 @@ A short description of the content request. The text entered here appears by def
 
 A longer description of the content request with more details.
 
-</td></tr><tr><td id="d178761e1131">
+</td></tr><tr><td id="d178142e1131">
 
 **Work notes**
 
@@ -468,7 +468,7 @@ A longer description of the content request with more details.
 
 Additional information about the content request.Work notes are useful if additional information is required from the requester.
 
-</td></tr><tr><td id="d178761e1144">
+</td></tr><tr><td id="d178142e1144">
 
 **Additional comments \(Customer visible\)**
 
@@ -516,15 +516,15 @@ You can also access the **Content Request Item** form by selecting a content req
 
 4.  Fill in the fields on the Content Request Item form.
 
-<table id="choicetable_apf_2vq_5tb"><thead><tr><th align="left" id="d178761e1375">
+<table id="choicetable_apf_2vq_5tb"><thead><tr><th align="left" id="d178142e1375">
 
 Fields
 
-</th><th align="left" id="d178761e1378">
+</th><th align="left" id="d178142e1378">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d178761e1384">
+</th></tr></thead><tbody><tr><td id="d178142e1384">
 
 **Number**
 
@@ -532,7 +532,7 @@ Description
 
 A unique number that identifies the content item associated with a content request.
 
-</td></tr><tr><td id="d178761e1393">
+</td></tr><tr><td id="d178142e1393">
 
 **Content Request**
 
@@ -540,7 +540,7 @@ A unique number that identifies the content item associated with a content reque
 
 A unique number that identifies the content request. This field pre-fills the content request number and cannot be edited and has a CONREQ prefix followed by a sequential number.
 
-</td></tr><tr><td id="d178761e1405">
+</td></tr><tr><td id="d178142e1405">
 
 **Content**
 
@@ -550,7 +550,7 @@ The name of the content to fulfill the content request. Select the **Lookup usin
 
  For more information, see [Publishing content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/ec-content-publishing-schedule.md).
 
-</td></tr><tr><td id="d178761e1452">
+</td></tr><tr><td id="d178142e1452">
 
 **Assigned to**
 
@@ -568,7 +568,7 @@ The person assigned to create the content from the content request.This field is
     -   When the **Assigned to** field is manually entered on the content request item. Entering an assigned to person on the content request item does not override the assigned to person on a content request.
 
 
-</td></tr><tr><td id="d178761e1509">
+</td></tr><tr><td id="d178142e1509">
 
 **Assignment group**
 
@@ -580,7 +580,7 @@ The group assigned to create the content from the content request. If you select
 
  When an assignment group is entered in the **Assignment group** field for a Content Request, it automatically appears in this field.
 
-</td></tr><tr><td id="d178761e1534">
+</td></tr><tr><td id="d178142e1534">
 
 **Opened by**
 
@@ -588,7 +588,7 @@ The group assigned to create the content from the content request. If you select
 
 The person who is requesting the creation of content.**Note:** When the state of the content request item is changed to **In review**, the **Opened by** person receives a notification.
 
-</td></tr><tr><td id="d178761e1552">
+</td></tr><tr><td id="d178142e1552">
 
 **Due date**
 
@@ -596,7 +596,7 @@ The person who is requesting the creation of content.**Note:** When the state of
 
 The date the request for content should be completed.
 
-</td></tr><tr><td id="d178761e1561">
+</td></tr><tr><td id="d178142e1561">
 
 **Priority**
 
@@ -609,7 +609,7 @@ The urgency associated with the content request. Your choices are:-   1- Critica
 -   5 - Planning
 
 
-</td></tr><tr><td id="d178761e1588">
+</td></tr><tr><td id="d178142e1588">
 
 **State**
 
@@ -635,7 +635,7 @@ The status of the content request.-   Open
     -   All records associated to the content request item are retained and can still be reviewed after cancellation.
 
 
-</td></tr><tr><td id="d178761e1705">
+</td></tr><tr><td id="d178142e1705">
 
 **Short description**
 
@@ -643,7 +643,7 @@ The status of the content request.-   Open
 
 A short description of the content request. The text entered here appears by default in the short description for the content item.
 
-</td></tr><tr><td id="d178761e1715">
+</td></tr><tr><td id="d178142e1715">
 
 **Description**
 
@@ -651,7 +651,7 @@ A short description of the content request. The text entered here appears by def
 
 A longer description of the content request with more details.
 
-</td></tr><tr><td id="d178761e1724">
+</td></tr><tr><td id="d178142e1724">
 
 **Additional comments \(Customer visible\)**
 

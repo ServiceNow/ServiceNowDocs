@@ -1,5 +1,5 @@
 ---
-title: Summarize and refine Docs content in EAP using Now Assist for SPM
+title: Summarize and refine Docs content in EAP using ServiceNow Otto for SPM
 description: Use Now Assist capabilities to elaborate, shorten, and summarize selected content in Docs, or to get a summary of the whole document in Enterprise Agile Planning \(EAP\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/enterprise-agile-planning/summarize-and-refine-docs-content-in-eap.html
@@ -12,14 +12,14 @@ reading_time_minutes: 2
 breadcrumb: [Collaborate using Docs, Use, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Summarize and refine Docs content in EAP using Now Assist for SPM
+# Summarize and refine Docs content in EAP using ServiceNow Otto for SPM
 
 Use Now Assist capabilities to elaborate, shorten, and summarize selected content in Docs, or to get a summary of the whole document in Enterprise Agile Planning \(EAP\).
 
 ## Before you begin
 
 -   [Create a Doc in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/create-a-doc-in-eap.md).
--   Activate the EAP doc summarization Now Assist skill. See [Configure Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/configure-now-assist-for-spm.md).
+-   Activate the EAP doc summarization Now Assist skill. See [Configure ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/configure-now-assist-for-spm.md).
 
 Role required: sn\_apw\_advanced.eap\_user
 
@@ -31,15 +31,15 @@ If you have custom roles that require access to this skill, update the ACLs for 
 
 2.  Navigate to your Doc.
 
-<table id="choicetable_wz1_jq3_bcc"><thead><tr><th align="left" id="d114897e151">
+<table id="choicetable_wz1_jq3_bcc"><thead><tr><th align="left" id="d114490e151">
 
 Type
 
-</th><th align="left" id="d114897e154">
+</th><th align="left" id="d114490e154">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d114897e160">
+</th></tr></thead><tbody><tr><td id="d114490e160">
 
 **Team Doc**
 
@@ -49,7 +49,7 @@ Actions
 2.  Select the Docs tab and open your Doc.
 
 
-</td></tr><tr><td id="d114897e178">
+</td></tr><tr><td id="d114490e178">
 
 **Planning item Doc**
 
@@ -91,5 +91,5 @@ Actions
     **Important:** Because the output is AI-generated, review it to ensure accuracy.
 
 
-**Parent Topic:**[Using Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/using-now-assist-for-spm.md)
+**Parent Topic:**[Using ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/using-now-assist-for-spm.md)
 

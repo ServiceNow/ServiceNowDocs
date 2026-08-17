@@ -9,7 +9,7 @@ classification: service-operations-workspace-for-itom-apps
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
+breadcrumb: [Service Operations Workspace for ITOM, ITOM Health, IT Operations Management]
 ---
 
 # Configuring Service Operations Workspace for ITOM
@@ -20,7 +20,7 @@ The Service Operations Workspace for ITOM is a centralized hub designed to optim
 
 **Note:** Installing the AIOps Experience application \[sn\_sow\_aiops\] provides you with Service Operations Workspace for ITOM.
 
-If you want information regarding subscriptions for ITOM Service Operations Workspace, check the ITOM AIOps subscription at [Subscription for ITOM Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-license-module.md).
+If you want information regarding subscriptions for ITOM Service Operations Workspace, check the ITOM Health subscription at [Subscription for ITOM Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-license-module.md).
 
 When setting up the Service Operations Workspace, it's crucial to configure both IT Operations Management \(ITOM\) for managing alerts and IT Service Management \(ITSM\) for resolving incidents and delivering services. This integrated setup ensures access to the full range of features, facilitating comprehensive management of IT operations and service quality.
 

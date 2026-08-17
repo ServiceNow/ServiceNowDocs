@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
 keywords: [generative AI for IT Operations Management, generative AI for ITOM, installation]
-breadcrumb: [Configuring Now Assist for ITOM, Now Assist for ITOM, IT Operations Management]
+breadcrumb: [Configuring ServiceNow Otto for ITOM, ServiceNow Otto for ITOM, IT Operations Management]
 ---
 
 # Install the Now Assist for IT Operations Management \(ITOM\) plugin
@@ -33,18 +33,18 @@ Install Now Assist plugins to enable generative AI and agentic AI on your instan
 
 2.  In the search bar, enter `Now Assist for ITOM` and then select **Search**.
 
-3.  Select the Now Assist for ITOM widget and then select **Get** to make this application available for installation on your instance\(s\).
+3.  Select the ServiceNow Otto for ITOM widget and then select **Get** to make this application available for installation on your instance\(s\).
 
-4.  Install the Now Assist for ITOM application.
+4.  Install the ServiceNow Otto for ITOM application.
 
     1.  Navigate to **All** &gt; **System Definition** &gt; **Plugins**.
 
-    2.  Search for Now Assist for IT Operations Management \(ITOM\).
+    2.  Search for ServiceNow Otto for IT Operations Management \(ITOM\).
 
     3.  Select **Install**.
 
 
-**Parent Topic:**[Configuring Now Assist for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-configure.md)
+**Parent Topic:**[Configuring ServiceNow Otto for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-configure.md)
 
 **Related topics**  
 

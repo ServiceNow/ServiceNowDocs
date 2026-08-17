@@ -34,15 +34,15 @@ The supplier document configuration is configured to run based on the run condit
 
 1.  Do one of the following.
 
-<table><thead><tr><th align="left" id="d101950e87">
+<table><thead><tr><th align="left" id="d101851e87">
 
 To
 
-</th><th align="left" id="d101950e90">
+</th><th align="left" id="d101851e90">
 
 Do This
 
-</th></tr></thead><tbody><tr><td id="d101950e96">
+</th></tr></thead><tbody><tr><td id="d101851e96">
 
 **Run a document configuration from the Platform UI**
 
@@ -50,7 +50,7 @@ Do This
 
 Navigate to **All** &gt; **Supplier Lifecycle Operations** &gt; **Administration** &gt; **Document Configuration**
 
-</td></tr><tr><td id="d101950e120">
+</td></tr><tr><td id="d101851e120">
 
 **Run a document configuration from the Source-to-Pay Workspace**
 

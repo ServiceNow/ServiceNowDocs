@@ -9,7 +9,7 @@ classification: health-log-analytics
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Identifying relationships in log data by using log correlators, Health Log Analytics, ITOM AIOps, IT Operations Management]
+breadcrumb: [Use log correlators to find related alerts, Health Log Analytics, ITOM Health, IT Operations Management]
 ---
 
 # Exclude a source from a log correlator
@@ -31,5 +31,5 @@ Role required: evt\_mgmt\_operator or evt\_mgmt\_admin
 4.  In the Actions on selected items list, select **Exclude from this source**.
 
 
-**Parent Topic:**[Identifying relationships in log data by using log correlators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-op-correlator-what-is-a.md)
+**Parent Topic:**[Log correlators for identifying related alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-op-correlator-what-is-a.md)
 

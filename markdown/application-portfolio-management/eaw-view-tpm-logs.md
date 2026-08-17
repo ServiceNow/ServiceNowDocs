@@ -1,6 +1,6 @@
 ---
 title: View TPM logs
-description: Track the progress of Technology Portfolio Management \(TPM\) analysis by examining the TPM Discovered Technology Run Logs \[sn\_apm\_tpm\_discovered\_technology\_run\_log\] table. Each time the analysis is run, an entry is added to this table.
+description: Track the progress of Technology Lifecycle Management \(TLM\) analysis by examining the TPM Discovered Technology Run Logs \[sn\_apm\_tpm\_discovered\_technology\_run\_log\] table. Each time the analysis is run, an entry is added to this table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-view-tpm-logs.html
 release: yokohama
@@ -12,7 +12,7 @@ breadcrumb: [Work with the Setup page in the Enterprise Architecture Workspace, 
 
 # View TPM logs
 
-Track the progress of Technology Portfolio Management \(TPM\) analysis by examining the TPM Discovered Technology Run Logs \[sn\_apm\_tpm\_discovered\_technology\_run\_log\] table. Each time the analysis is run, an entry is added to this table.
+Track the progress of Technology Lifecycle Management \(TLM\) analysis by examining the TPM Discovered Technology Run Logs \[sn\_apm\_tpm\_discovered\_technology\_run\_log\] table. Each time the analysis is run, an entry is added to this table.
 
 ## Before you begin
 
@@ -34,7 +34,7 @@ Role required: sn\_apm.apm\_user
 **Related topics**  
 
 
-[Managing the Technology Portfolio Management \(TPM\) in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-tpm.md)
+[Managing the Technology Lifecycle Management \(TLM\) in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-tpm.md)
 
 [Restart the TPM Discovered Technologies and Lifecycles job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-restart-tpm-scheduled-job.md)
 

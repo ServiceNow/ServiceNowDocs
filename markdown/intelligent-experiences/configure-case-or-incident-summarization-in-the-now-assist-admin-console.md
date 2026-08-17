@@ -1,6 +1,6 @@
 ---
-title: Configure case or incident summarization in the Now Assist Admin console
-description: Configure case or incident summarization by using the guided setup in the Now Assist Admin console. You can choose the input tables and fields as well as customize the prompt output for copies of the record summarization skills.
+title: Configure case or incident summarization in the AI Admin Hub console
+description: Configure case or incident summarization by using the guided setup in the AI Admin Hub console. You can choose the input tables and fields as well as customize the prompt output for copies of the record summarization skills.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/configure-case-or-incident-summarization-in-the-now-assist-admin-console.html
 release: yokohama
@@ -11,9 +11,9 @@ keywords: [Configure, Case, incident, record, summarization, Now Assist, guided 
 breadcrumb: [Make a copy of a Now Assist skill, Configuring Now Assist settings and features, Now Assist, Enable AI experiences]
 ---
 
-# Configure case or incident summarization in the Now Assist Admin console
+# Configure case or incident summarization in the AI Admin Hub console
 
-Configure case or incident summarization by using the guided setup in the Now Assist Admin console. You can choose the input tables and fields as well as customize the prompt output for copies of the record summarization skills.
+Configure case or incident summarization by using the guided setup in the AI Admin Hub console. You can choose the input tables and fields as well as customize the prompt output for copies of the record summarization skills.
 
 \[Omitted video\] Description: Prompt configurability in the Now Assist Admin console for setting up case/incident summarization skill copies
 
@@ -118,7 +118,7 @@ Your customized version of case or incident summarization is active on the insta
 
 ## What to do next
 
-Analyze your skill performance on the Now Assist Admin console to help determine the success of the new version of the skill. Learn more about tracking Now Assist usage at [Monitoring Now Assist usage in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/monitoring-now-assist-usage.md).
+Analyze your skill performance on the AI Admin Hub console to help determine the success of the new version of the skill. Learn more about tracking Now Assist usage at [Monitoring Now Assist usage in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/monitoring-now-assist-usage.md).
 
 **Parent Topic:**[Make a copy of a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/make-a-copy-of-a-now-assist-skill.md)
 

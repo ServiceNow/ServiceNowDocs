@@ -9,7 +9,7 @@ classification: upgrade-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 3
-breadcrumb: [Upgrade Plans tool in Upgrade Console, Upgrade Console tools, Using Upgrade Console, Upgrade Console, Upgrade, Administer the ServiceNow AI Platform]
+breadcrumb: [Upgrade Plans tool in Upgrade Management, Upgrade Management tools, Using Upgrade Management, Upgrade Management, Upgrade, Administer the ServiceNow AI Platform]
 ---
 
 # Building your Upgrade Plan
@@ -41,7 +41,7 @@ Role required: admin
 
 3.  Click **Build** to start the upgrade plan build.
 
-    Upgrade Plan takes up only the app installations by default and publish it on to the app repository. See Upgrade Plan background operations section in [Upgrade Plans tool in Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-management/um-upgrade-plans-tool.md) for more information.
+    Upgrade Plan takes up only the app installations by default and publish it on to the app repository. See Upgrade Plan background operations section in [Upgrade Plans tool in Upgrade Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-management/um-upgrade-plans-tool.md) for more information.
 
     **Note:** Ensure all the applications in the instance are in ready state to be published on to the app repository.
 
@@ -71,7 +71,7 @@ Role required: admin
 
 8.  Click **Publish** to publish the Upgrade Plan.
 
-    See Upgrade Plan background operations section in [Upgrade Plans tool in Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-management/um-upgrade-plans-tool.md) for more information.
+    See Upgrade Plan background operations section in [Upgrade Plans tool in Upgrade Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-management/um-upgrade-plans-tool.md) for more information.
 
     **Note:** Install all the required applications and plugins before publishing the upgrade plan. If you have set the GLIDE\_UPGRADE\_PLAN\_INCLUDE\_SKIPS property to true, you will have to resolve all the skipped records before publishing the upgrade plan. If you want to delete the Upgrade Plan, click **Delete**. The **Delete** option is available only for the Upgrade Plans that are not yet published.
 
@@ -80,7 +80,7 @@ Role required: admin
     The upgrade plan is now ready to be installed in the consumer instance.
 
 
-**Parent Topic:**[Upgrade Plans tool in Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-management/um-upgrade-plans-tool.md)
+**Parent Topic:**[Upgrade Plans tool in Upgrade Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-management/um-upgrade-plans-tool.md)
 
 **Related topics**  
 

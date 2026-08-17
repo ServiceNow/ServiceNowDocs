@@ -22,7 +22,7 @@ Install and configure Now Assist in Catalog Builder.
 Along with the installation of Now Assist in Catalog Builder application, you must activate the Catalog item generation skill.
 
 -   **[Install Now Assist in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/install-now-assist-catalog-generation.md)**  
-Install the Now Assist for Creator application from the ServiceNow® Store to get Now Assist in Catalog Builder.
+Install the ServiceNow Otto for Creator application from the ServiceNow® Store to get Now Assist in Catalog Builder.
 
 **Parent Topic:**[Now Assist in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/now-assist-for-catalog-generation.md)
 

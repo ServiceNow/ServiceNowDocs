@@ -27,6 +27,6 @@ Before configuring the Now Assist Readiness Evaluation app, confirm that the Now
 
 2.  [Configure the Now Assist Readiness Evaluation guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-readiness-evaluation/configure-nare-guided-setup.md)
 
-    Complete the configuration for the five Now Assist jobs. Additional configuration is required to work with the Now Assist for HRSD assessment.
+    Complete the configuration for the five Now Assist jobs. Additional configuration is required to work with the ServiceNow Otto for HRSD assessment.
 
 

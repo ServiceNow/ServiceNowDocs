@@ -8,7 +8,7 @@ product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
 topic_type: concept
 last_updated: "2025-01-30"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Scaled Agile Framework \(SAFe\), Strategic Portfolio Management]
 ---
 

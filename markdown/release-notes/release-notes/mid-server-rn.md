@@ -17,40 +17,40 @@ The ServiceNow® MID Server application enables communication and data transfers
 -   MID Server supports and requires a minimum JRE version 17. The MID Server is bundled with version 17.0.12 and the minimum JRE version supported is 17.0.10.
 -   The MID Server can now be installed on Windows hosts directly as a LocalSystem or non-admin user with Start and Stop permissions.
 
-See [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/mid-server-landing.md) for more information.
+See  for more information.
 
 ## Important information for upgrading MID Server to Yokohama
 
-For the latest MID Server system requirements, see [MID Server system requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/r_MIDServerSystemRequirements.md). The minimum JRE version supported is 17.0.10 and the recommended version is 17.0.12.
+For the latest MID Server system requirements, see MID Server system requirements. The minimum JRE version supported is 17.0.10 and the recommended version is 17.0.12.
 
 If you have installed your own JRE, the upgrade process takes the following actions to verify that the MID Server uses a supported JRE:
 
 -   If a MID Server is using an unsupported version of the JRE when it upgrades, the upgrade process displays a warning message with the minimum and recommended JRE version.
 -   If a supported JRE is running on the MID Server host, the upgraded MID Server uses that version.
 
-All MID Server host machines require access to the download site at `install.service-now.com` to enable auto-upgrades. For additional details, read how the system manages [MID Server upgrades](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/c_UpgradeAndTestMIDServer.md).
+All MID Server host machines require access to the download site at `install.service-now.com` to enable auto-upgrades. For additional details, read how the system manages MID Server upgrades.
 
-Only one Windows MID Server service is permitted according to the executable path. Upgraded Windows MID Servers that have multiple services pointing to the same installation folder can’t start. See [MID Server fails to start](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/mid-startup-fails.md) for more information.
+Only one Windows MID Server service is permitted according to the executable path. Upgraded Windows MID Servers that have multiple services pointing to the same installation folder can’t start. See MID Server fails to start for more information.
 
 For more information about MID Server upgrades, see the following topics:
 
--   [MID Server pre-upgrade check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/c_UpgradeAndTestMIDServer.md): Describes how the AutoUpgrade monitor tests the ability of the MID Server to upgrade on your system before the actual upgrade.
--   [Upgrade the MID Server manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/c_UpgradeAndTestMIDServer.md): Describes how to upgrade your MID Servers manually.
+-   MID Server pre-upgrade check: Describes how the AutoUpgrade monitor tests the ability of the MID Server to upgrade on your system before the actual upgrade.
+-   Upgrade the MID Server manually: Describes how to upgrade your MID Servers manually.
 
 ## New in the Yokohama release
 
--   **[External Credential Storage and Management supports certificate-based authentication for Azure Key Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/mid-azure-key-vault-integration.md)**
+-   **External Credential Storage and Management supports certificate-based authentication for Azure Key Vault**
 
     The External Credential Storage and Management added support for certificate-based authentication when connecting to Azure Key Vault. This provides a more secure and flexible way to authenticate, especially for enterprise environments that prefer certificate credentials over client secrets.
 
 
 ## Changed in this release
 
--   **[MID Server supports and requires a minimum JRE version 17](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/r_MIDServerSystemRequirements.md)**
+-   **MID Server supports and requires a minimum JRE version 17**
 
     The MID Server is compiled using Java 17 and is incompatible with any Java version below 17 for runtime execution. The MID Server is bundled with version 17.0.12 and the minimum JRE version supported is 17.0.10. See the [MID Server JRE Minimum Version Requirement Update to JRE 17 Starting from Yokohama Release \[KB1704368\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1704368) article in the Now Support Knowledge Base for information about required procedures before upgrading the instance.
 
--   **[Improvements when manually installing a MID Server on Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/mid-server-install-prereqs.md)**
+-   **Improvements when manually installing a MID Server on Windows**
 
     The MID Server can now be installed on Windows hosts directly as a LocalSystem or non-admin user with Start and Stop permissions.
 
@@ -65,7 +65,7 @@ MID Server is a ServiceNow AI Platform feature that is active by default.
 
 ## Related ServiceNow applications and features
 
--   **[Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/r-discovery.md)**
+-   **Discovery**
 
     Discovery uses the MID Server to launch probes and patterns that return information to the CMDB about devices and applications running in your environment. Discovery schedules select appropriate MID Servers based on their configured capabilities and assigned IP ranges.
 
@@ -73,23 +73,23 @@ MID Server is a ServiceNow AI Platform feature that is active by default.
 
     Orchestration uses the MID Server to do work on internal and external systems. Orchestration selects MID Servers based on their capabilities and the applications that they’re allowed to use.
 
--   **[Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/c_ServiceMappingOverview.md)**
+-   **Service Mapping**
 
     Service Mapping uses the MID Server to launch patterns that return information about business services running in your environment.
 
--   **[Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/c_EM.md)**
+-   **Event Management**
 
     Event Management uses the MID Server to receive and process events, collect data for root cause analysis \(RCA\), and collect SNMP traps.
 
--   **[Cloud Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/cloud-management-v2-landing-page.md)**
+-   **Cloud Management**
 
     Cloud Management uses the MID Server to collect and process VMware events.
 
--   **[Operational Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/operational-metrics.md)**
+-   **Operational Intelligence**
 
     Operational Intelligence uses MID Server clusters to capture operational metrics data from external data sources and analyze them for anomalies.
 
--   **[Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/hla-landing-page.md)**
+-   **Health Log Analytics**
 
     Health Log Analytics uses the MID Server to collect log data streaming into your instance and helps you identify the root cause of issues.
 

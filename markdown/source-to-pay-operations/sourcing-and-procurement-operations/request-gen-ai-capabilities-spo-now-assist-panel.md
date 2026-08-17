@@ -1,6 +1,6 @@
 ---
-title: Request the generative AI capabilites in Now Assist for Sourcing and Procurement Operations \(SPO\) by using Now Assist panel
-description: Request the contextual generative AI capabilities to summarize procurement-related records in the Now Assist for Sourcing and Procurement Operations \(SPO\) application by using the conversational interface in the Now Assist panel.
+title: Request the generative AI capabilites in ServiceNow Otto for Sourcing and Procurement Operations \(SPO\) by using Now Assist panel
+description: Request the contextual generative AI capabilities to summarize procurement-related records in the ServiceNow Otto for Sourcing and Procurement Operations \(SPO\) application by using the conversational interface in the Now Assist panel.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/request-gen-ai-capabilities-spo-now-assist-panel.html
 release: yokohama
@@ -10,12 +10,12 @@ topic_type: task
 last_updated: "2025-04-29"
 reading_time_minutes: 2
 keywords: [generative AI, gen AI, genai, artificial intelligence]
-breadcrumb: [Using Now Assist for Sourcing and Procurement Operations \(SPO\), Now Assist for Sourcing and Procurement Operations \(SPO\), Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Using ServiceNow Otto for Sourcing and Procurement Operations \(SPO\), ServiceNow Otto for Sourcing and Procurement Operations \(SPO\), Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
-# Request the generative AI capabilites in Now Assist for Sourcing and Procurement Operations \(SPO\) by using Now Assist panel
+# Request the generative AI capabilites in ServiceNow Otto for Sourcing and Procurement Operations \(SPO\) by using Now Assist panel
 
-Request the contextual generative AI capabilities to summarize procurement-related records in the Now Assist for Sourcing and Procurement Operations \(SPO\) application by using the conversational interface in the Now Assist panel.
+Request the contextual generative AI capabilities to summarize procurement-related records in the ServiceNow Otto for Sourcing and Procurement Operations \(SPO\) application by using the conversational interface in the Now Assist panel.
 
 ## Before you begin
 
@@ -33,7 +33,7 @@ For more information about the Now Assist panel, see [Now Assist panel](https://
 
 ## Procedure
 
-1.  Log in to an instance where the Now Assist for SPO application is installed.
+1.  Log in to an instance where the ServiceNow Otto for SPO application is installed.
 
 2.  Navigate to **Workspaces** &gt; **Source-to-Pay Workspace**.
 
@@ -46,15 +46,15 @@ For more information about the Now Assist panel, see [Now Assist panel](https://
     -   Sourcing event summarization for fulfillers
 4.  After you request the generative AI capabilities, you can summarize procurement-related records.
 
-<table id="choicetable_zpy_5dx_dfc"><thead><tr><th align="left" id="d80626e183">
+<table id="choicetable_zpy_5dx_dfc"><thead><tr><th align="left" id="d80527e183">
 
 Option
 
-</th><th align="left" id="d80626e186">
+</th><th align="left" id="d80527e186">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d80626e192">
+</th></tr></thead><tbody><tr><td id="d80527e192">
 
 **Summarize a record**
 
@@ -67,16 +67,16 @@ Description
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using Now Assist for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-using.md)
+**Parent Topic:**[Using ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-using.md)
 
 **Related topics**  
 
 
-[Summarize a record by using Now Assist for Sourcing and Procurement Operations \(SPO\) in Source-to-Pay Workspace]()
+[Summarize a record by using ServiceNow Otto for Sourcing and Procurement Operations \(SPO\) in Source-to-Pay Workspace]()
 
-[Summarize a record by using Now Assist for Sourcing and Procurement Operations \(SPO\) in Shopping Hub]()
+[Summarize a record by using ServiceNow Otto for Sourcing and Procurement Operations \(SPO\) in Shopping Hub]()
 
-[Use the Now Assist for Sourcing and Procurement Operations \(SPO\) skills in a Virtual Agent chat]()
+[Use the ServiceNow Otto for Sourcing and Procurement Operations \(SPO\) skills in a Virtual Agent chat]()
 
 [Generate email responses]()
 

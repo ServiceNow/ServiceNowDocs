@@ -1,6 +1,6 @@
 ---
-title: Using skills in Now Assist for IT Operations Management \(ITOM\)
-description: Use the ServiceNow Now Assist for ITOM application to view alert or incident analyses that Now Assist creates using generative AI.
+title: Using skills in ServiceNow Otto for IT Operations Management \(ITOM\)
+description: Use the ServiceNow ServiceNow Otto for ITOM application to view alert or incident analyses that Now Assist creates using generative AI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-use.html
 release: yokohama
@@ -10,26 +10,26 @@ topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 3
 keywords: [generative AI for IT Operations Management, generative AI for ITOM, alert analysis]
-breadcrumb: [Now Assist for ITOM, IT Operations Management]
+breadcrumb: [ServiceNow Otto for ITOM, IT Operations Management]
 ---
 
-# Using skills in Now Assist for IT Operations Management \(ITOM\)
+# Using skills in ServiceNow Otto for IT Operations Management \(ITOM\)
 
-Use the ServiceNow® Now Assist for ITOM application to view alert or incident analyses that Now Assist creates using generative AI.
+Use the ServiceNow® ServiceNow Otto for ITOM application to view alert or incident analyses that Now Assist creates using generative AI.
 
 Alert analyses include human-readable briefs of the alert and additional technical information to help you investigate the alert more effectively. The analyses are provided in English, irrespective of the language used in the alert description.
 
-For more information about the ServiceNow® Now Assist for IT Operations Management \(ITOM\) application, see [Now Assist for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/now-assist-itom.md).
+For more information about the ServiceNow® ServiceNow Otto for IT Operations Management \(ITOM\) application, see [ServiceNow Otto for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/now-assist-itom.md).
 
 **Important:** Some Now Assist skills, agents, and agentic workflows are turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 ## Domain separation and generative AI
 
-By default, all skills exist in the global domain. When you use Now Assist in a domain-separated environment, users are only able to access data in their domain. For example, if a user uses the summarization skill, Now Assist only uses material that exists in the user's domain when generating that summary. Additionally, there is no co-mingling of data for domain-separated instances when using generative AI skills. The data resides only on the instance, and the shared services used for generative AI do not persist any requests \(prompts\) and responses. For more information, see [Domain separation in the Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/domain-separation-in-the-now-assist-admin-console.md). \(Note that global domain is not the same as global scope. For more information, see [Exploring Next Experience pickers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/next-experience-pickers.md).\)
+By default, all skills exist in the global domain. When you use Now Assist in a domain-separated environment, users are only able to access data in their domain. For example, if a user uses the summarization skill, Now Assist only uses material that exists in the user's domain when generating that summary. Additionally, there is no co-mingling of data for domain-separated instances when using generative AI skills. The data resides only on the instance, and the shared services used for generative AI do not persist any requests \(prompts\) and responses. For more information, see [Domain separation in the AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/domain-separation-in-the-now-assist-admin-console.md). \(Note that global domain is not the same as global scope. For more information, see [Exploring Next Experience pickers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/next-experience-pickers.md).\)
 
 ## Documentation in this section
 
-See the following documentation to learn more about using Now Assist for ITOM skills.
+See the following documentation to learn more about using ServiceNow Otto for ITOM skills.
 
 -   **[View an alert analysis by Now Assist in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/alert-summarization-now-assist.md)**  
 View an alert analysis by Now Assist for an alert on the alert's Overview tab in the Service Operations Workspace. Alert analyses include a human-readable brief of the alert and technical information to help you investigate the alert more effectively.
@@ -48,5 +48,5 @@ Create an incident with a human-readable, AI-generated description from the Expr
 -   **[Speed up alert resolution with a Now Assist analysis of past related incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/nai-past-incidents.md)**  
 Use Now Assist to investigate relevant past incidents and present effective strategies used to resolve them.
 
-**Parent Topic:**[Now Assist for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/now-assist-itom.md)
+**Parent Topic:**[ServiceNow Otto for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/now-assist-itom.md)
 

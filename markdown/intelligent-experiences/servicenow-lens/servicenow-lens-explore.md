@@ -40,7 +40,7 @@ ServiceNow AI Lens can do the following tasks automatically for you:
 
 Now Assist for Platform includes the AI-powered ServiceNow AI Lens skill to read, understand, respond, and act on visual data such as hand-written texts, images, and websites and take powerful actions to boost productivity.
 
-Admins can enable the ServiceNow AI Lens skill in the Now Assist Admin console. Once enabled, users can perform the following actions:
+Admins can enable the ServiceNow AI Lens skill in the AI Admin Hub console. Once enabled, users can perform the following actions:
 
 -   Create or update ServiceNow records by auto-filling forms using the extracted data.
 -   Preview the extracted data.
@@ -53,7 +53,7 @@ The ServiceNow AI Lens application requires a Workflow Data Fabric \(previously 
 
 ## Available LLMs
 
-You can use Azure OpenAI, Google Gemini, or Anthropic Claude on AWS as the AI model provider for ServiceNow AI Lens skill. You can set skill-level preferences in the [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/servicenow-large-language-model-now-llm/exploring-large-language-models.md).
+You can use Azure OpenAI, Google Gemini, or Anthropic Claude on AWS as the AI model provider for ServiceNow AI Lens skill. You can set skill-level preferences in the [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/servicenow-large-language-model-now-llm/exploring-large-language-models.md).
 
 ## What to explore next
 

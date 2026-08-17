@@ -48,11 +48,11 @@ AI compliance refers to the adherence to regulatory requirements, standards, and
 
 ## AI Control Tower
 
-AI Control Tower is a centralized governance hub for managing AI models, agents, and compliance across the ServiceNow AI Platform. It provides visibility into model usage, performance, risk and compliance, and is integrated with Now Assist Admin console.
+AI Control Tower is a centralized governance hub for managing AI models, agents, and compliance across the ServiceNow AI Platform. It provides visibility into model usage, performance, risk and compliance, and is integrated with AI Admin Hub console.
 
 ## AI governance
 
-AI governance refers to the set of policies, procedures, and standards that guide the development, deployment, and use of AI systems within an organization. It ensures that AI systems are aligned with organizational values, comply with regulatory requirements, and are used in a responsible and transparent manner. In ServiceNow AI Platform, you can manage AI governance through AI Control Tower, AI Trust Guard, and role-based access in Now Assist Admin console.
+AI governance refers to the set of policies, procedures, and standards that guide the development, deployment, and use of AI systems within an organization. It ensures that AI systems are aligned with organizational values, comply with regulatory requirements, and are used in a responsible and transparent manner. In ServiceNow AI Platform, you can manage AI governance through AI Control Tower, AI Trust Guard, and role-based access in AI Admin Hub console.
 
 ## AI steward
 
@@ -64,7 +64,7 @@ Small, interactable number next to AI-generated content in the Now Assist panel 
 
 ## custom skill
 
-A user-defined AI capability tailored to meet specific business needs. Custom skills are created using Now Assist Skill Kit, which allows for a user to define input data, prompts, LLM providers and deployment areas for custom skills.
+A user-defined AI capability tailored to meet specific business needs. Custom skills are created using AI Skill Kit, which allows for a user to define input data, prompts, LLM providers and deployment areas for custom skills.
 
 ## dynamic translation
 
@@ -102,17 +102,17 @@ A feature in Now Assist that allows users to order catalog items from the servic
 
 ## native translation
 
-A feature in Now Assist that uses the LLMs provided by the Now LLM Service to generate responses in the user's preferred language. You can enable and configure it in the Now Assist Admin console.
+A feature in Now Assist that uses the LLMs provided by the Now LLM Service to generate responses in the user's preferred language. You can enable and configure it in the AI Admin Hub console.
 
 ## Now Assist
 
 Now Assist refers to generative AI experiences on the ServiceNow AI Platform. With Now Assist, you can improve productivity and efficiency in your organization with better self-service, faster answers and recommended actions, and empower users to search more effectively.
 
-## Now Assist Admin console
+## AI Admin Hub console
 
 A console for administrators to quickly set up, configure, and monitor generative AI features and capabilities offered under Now Assist.
 
-## Now Assist Analytics
+## AI Analytics
 
 A dashboard that provides insights into the usage, value, and performance of Now Assist and self-service experiences powered by Now Assist.
 
@@ -120,7 +120,7 @@ A dashboard that provides insights into the usage, value, and performance of Now
 
 A generative AI feature that assists agents in creating and editing emails and chat replies, available in the Next Experience for specific workflows.
 
-## Now Assist Guardian
+## AI Guardian
 
 A feature that monitors and evaluates content created with generative AI to protect users from harmful, offensive, or inappropriate content. It can log incidents and prevent such content from being displayed.
 
@@ -130,7 +130,7 @@ A conversational interface to summarize chat, case, or incident or generate reso
 
 ## Now Assist skill
 
-A predefined capability within Now Assist that uses generative AI to perform tasks such as generating summaries, resolution notes, and so on. Now Assist skills are provided with Now Assist plugins such as Now Assist for Customer Service Management \(CSM\). You can create custom skills using Now Assist Skill Kit.
+A predefined capability within Now Assist that uses generative AI to perform tasks such as generating summaries, resolution notes, and so on. Now Assist skills are provided with Now Assist plugins such as ServiceNow Otto for Customer Service Management \(CSM\). You can create custom skills using AI Skill Kit.
 
 ## Now LLM Service
 
@@ -138,7 +138,7 @@ The Now LLM Service provides access to specialized large language models \(LLMs\
 
 ## offensive content detection
 
-A guardrail in Now Assist Guardian that logs and blocks offensive, harmful, or inappropriate content.
+A guardrail in AI Guardian that logs and blocks offensive, harmful, or inappropriate content.
 
 ## Orchestrator
 
@@ -146,7 +146,7 @@ The AI agent orchestrator is a specialized agent that plans, coordinates, and ma
 
 ## prompt injection detection
 
-A security feature in Now Assist Guardian that identifies and prevents malicious inputs from being used to manipulate AI-generated responses.
+A security feature in AI Guardian that identifies and prevents malicious inputs from being used to manipulate AI-generated responses.
 
 ## q&amp;a genius result
 

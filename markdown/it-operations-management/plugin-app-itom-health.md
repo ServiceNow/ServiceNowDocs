@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/plugin-app-itom-health.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 10
-breadcrumb: [Applying the CSDM guidelines to ITOM AIOps, ITOM AIOps, IT Operations Management]
+breadcrumb: [Applying the CSDM guidelines to ITOM AIOps, ITOM Health, IT Operations Management]
 ---
 
 # Plugins or applications installed with ITOM AIOps
@@ -56,7 +56,7 @@ Tables that list the plugins or applications that are installed with ITOM AIOps 
 |--------------------------|-----------|
 |Service Operations Workspace Core \(sn\_sow\)|Core capabilities and workspace configurations for Service Operations Workspace.|
 |Event Management Core \(sn\_em\_ai\)|Enables you to track and monitor alerts in the ServiceNow Agent Workspace.|
-|Service Operations Workspace Integrations launchpad \(sn\_itom\_integ\_app\)|Provides a new and enhanced experience for viewing, configuring, and managing all your available ITOM AIOps integrations.|
+|Service Operations Workspace Integrations launchpad \(sn\_itom\_integ\_app\)|Provides a new and enhanced experience for viewing, configuring, and managing all your available ITOM Health integrations.|
 |Service Operations Workspace Alert Mngmt \(sn\_sow\_em\)|A detailed alert record page with supplementary data such as Quick Overview, Playbook, and Metrics tabs.|
 |Service Operations Workspace Express List \(sn\_itom\_aiops\_list\)|A centralized and consolidated platform that enables operators to triage, analyze, and remediate alerts, all in one place. Express List provides a live view of alerts, dynamic filtering, a preview panel with additional context and essential details about each alert, and automated technical analysis using Now Assist.|
 |Service Operations Workspace Log Analytics \(sn\_sow\_hla\)|A log viewer in Service Operations Workspace. The application also includes the custom Elasticsearch data source for Performance Analytics \(PA\) dashboards.|
@@ -134,5 +134,5 @@ Tables that list the plugins or applications that are installed with ITOM AIOps 
 
 [Plugins activated with ITOM Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/plugin-itom-optimization.md)
 
-[Applications installed with Now Assist for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/app-now-assist-itom.md)
+[Applications installed with ServiceNow Otto for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/app-now-assist-itom.md)
 

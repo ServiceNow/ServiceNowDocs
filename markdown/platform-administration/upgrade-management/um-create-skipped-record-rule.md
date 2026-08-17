@@ -9,7 +9,7 @@ classification: upgrade-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Upgrade Skipped Record Rules Editor tool in Upgrade Console, Upgrade Console tools, Using Upgrade Console, Upgrade Console, Upgrade, Administer the ServiceNow AI Platform]
+breadcrumb: [Upgrade Skipped Record Rules Editor tool in Upgrade Management, Upgrade Management tools, Using Upgrade Management, Upgrade Management, Upgrade, Administer the ServiceNow AI Platform]
 ---
 
 # Create a skipped record rule
@@ -111,7 +111,7 @@ Add a comment on the conditions being set.
 
 You can now run the skipped record rules either automatically during an upgrade or can run on demand on the skipped records. See [Execute a skipped record rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-management/um-execute-skipped-record-rule.md) for more information.
 
-**Parent Topic:**[Upgrade Skipped Record Rules Editor tool in Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-management/um-skipped-rules-tool.md)
+**Parent Topic:**[Upgrade Skipped Record Rules Editor tool in Upgrade Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-management/um-skipped-rules-tool.md)
 
 **Related topics**  
 

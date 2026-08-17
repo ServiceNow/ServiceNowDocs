@@ -23,7 +23,7 @@ Map a field of your preference for a Jira project.
 
 ## About this task
 
-If you have a custom field for a Jira project that you want to map with a field in Agile Development 2.0, you can create custom field map configuration that would apply only to this Jira project.
+If you have a custom field for a Jira project that you want to map with a field in Agile Development 2.0, you can create custom field map configuration. This configuration applies only to this Jira project.
 
 If you have a custom field that is applicable to all Jira projects of a specific project type, see [Apply custom map configuration to multiple Jira projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/atlassian-jira-integrations-common/apply-custom-field-map-to-all-jira-projects.md).The following field types are supported for custom field map configuration:
 

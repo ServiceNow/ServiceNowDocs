@@ -10,7 +10,7 @@ topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 4
 keywords: [data input process, listeners, pullers, passive data inputs, active data inputs, native ServiceNow data inputs]
-breadcrumb: [Health Log Analytics reference, Health Log Analytics, ITOM AIOps, IT Operations Management]
+breadcrumb: [Health Log Analytics reference, Health Log Analytics, ITOM Health, IT Operations Management]
 ---
 
 # Supported data inputs for Health Log Analytics

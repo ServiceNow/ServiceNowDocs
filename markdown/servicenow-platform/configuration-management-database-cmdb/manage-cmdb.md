@@ -65,7 +65,7 @@ Populate the CMDB by importing and integrating third-party data into the CMDB, i
 
 -   [Whitepaper: CMDB Design &amp; Configuration](https://support.servicenow.com/kb_view.do?sysparm_article=KB0552861)
 -   [Whitepaper: CMDB Design](https://support.servicenow.com/kb_view.do?sysparm_article=KB0552867)
--   [White Paper: ServiceNow CMDB - Unlocking the Power of Configuration Management](https://www.servicenow.com/community/servicenow-ai-platform-forum/white-paper-servicenow-cmdb-unlocking-the-power-of-configuration/td-p/3037771)
+-   [White Paper: ServiceNow CMDB - Unlocking the Power of Configuration Management](https://www.servicenow.com/community/servicenow-ai-platform-forum/white-paper-servicenow-cmdb-unlocking-the-power-of-configuration/m-p/3037771)
 -   [Whitepaper: CMDB Design Guidance](http://www.servicenow.com/content/dam/servicenow/documents/whitepapers/wp-cmdb-design-guidance.pdf)
 -   [CMDB 101 - What is a configuration management database and why do you need one?](https://community.servicenow.com/community?id=community_blog&sys_id=e913125fdbd9d7404837f3231f9619de) \(ServiceNow® Community post\)
 -   [KB0546686: CMDB Resources Page](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0546686)

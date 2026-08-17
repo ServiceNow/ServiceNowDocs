@@ -109,7 +109,7 @@ app\_engine\_admin
 
 </td></tr><tr><td>
 
-Now Assist for Creator
+ServiceNow Otto for Creator
 
 </td><td>
 
@@ -117,7 +117,7 @@ now.assist.creator
 
 </td><td>
 
-Grants users access to Now Assist for Creator skills to create forms in Creator Studio.
+Grants users access to ServiceNow Otto for Creator skills to create forms in Creator Studio.
 
 </td></tr></tbody>
 </table>**Note:**

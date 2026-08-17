@@ -25,7 +25,7 @@ Select a table whose records you wish to display. Filter by predefined or custom
 -   **[Select an indicator data source for a data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/select-indicator-data-source.md)**  
 Select a Performance Analytics indicator \(KPI\) to display in your data visualization. You can filter the indicator scores by breakdowns.
 -   **[User Experience Analytics data sources for data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/uxa-data-sources.md)**  
-You can show metrics related to Usage Insights in a data visualization component. The available metrics depend on the visualization type.
+You can show metrics related to User Experience Analytics in a data visualization component. The available metrics depend on the visualization type.
 -   **[Multiple data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/multiple-data-sources.md)**  
 Some visualization types support multiple data sources, while others do not. If your data visualization supports multiple data sources, the data sources must all be of the same type: all tables, all indicators, or all another type.
 

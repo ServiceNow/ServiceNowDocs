@@ -1,6 +1,6 @@
 ---
-title: Tracked web analytics fields for Usage Insights
-description: Usage Insights collects data from web applications. These tables list the fields that are tracked. Reports and charts are generated from these fields.
+title: Tracked web analytics fields for User Experience Analytics
+description: User Experience Analytics collects data from web applications. These tables list the fields that are tracked. Reports and charts are generated from these fields.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/usage-insights/uxa-tracked-web-analytics.html
 release: yokohama
@@ -12,9 +12,9 @@ reading_time_minutes: 2
 breadcrumb: [Tracked analytics fields and cookies, User privacy, tracking, and consent, Configuring User Experience Analytics, User Experience Analytics, Platform Analytics]
 ---
 
-# Tracked web analytics fields for Usage Insights
+# Tracked web analytics fields for User Experience Analytics
 
-Usage Insights collects data from web applications. These tables list the fields that are tracked. Reports and charts are generated from these fields.
+User Experience Analytics collects data from web applications. These tables list the fields that are tracked. Reports and charts are generated from these fields.
 
 For more information about using the data, see [Viewing user analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/viewing-user-data.md).
 

@@ -9,7 +9,7 @@ classification: now-assist-for-configuration-management-database-cmdb
 topic_type: task
 last_updated: "2026-02-05"
 reading_time_minutes: 1
-breadcrumb: [Use agentic workflows, Now Assist for Configuration Management Database \(CMDB\), CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Use agentic workflows, ServiceNow Otto for Configuration Management Database \(CMDB\), CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Create a CI using Now Assist
@@ -20,9 +20,9 @@ The Create configuration item agentic workflow accepts your natural language req
 
 Role required:
 
--   Now Assist for CMDB v2.4 and earlier: sn\_cmdb\_editor and now\_assist\_panel\_user
--   Starting with Now Assist for CMDB v2.5: sn\_cmdb\_admin and now\_assist\_panel\_user
--   Starting with Now Assist for CMDB v3.0: sn\_cmdb\_editor and now\_assist\_panel\_user
+-   ServiceNow Otto for CMDB v2.4 and earlier: sn\_cmdb\_editor and now\_assist\_panel\_user
+-   Starting with ServiceNow Otto for CMDB v2.5: sn\_cmdb\_admin and now\_assist\_panel\_user
+-   Starting with ServiceNow Otto for CMDB v3.0: sn\_cmdb\_editor and now\_assist\_panel\_user
 
 ## About this task
 
@@ -46,5 +46,5 @@ To learn more about using the Now Assist panel, see [Working in the Now Assist p
 2.  Enter the class of CI to create and then continue by answering the Now Assist questions.
 
 
-**Parent Topic:**[Using agentic workflows in Now Assist for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-using.md)
+**Parent Topic:**[Using agentic workflows in ServiceNow Otto for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-using.md)
 

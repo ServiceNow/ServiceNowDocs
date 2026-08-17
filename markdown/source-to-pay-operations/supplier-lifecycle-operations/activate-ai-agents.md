@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2025-04-24"
 reading_time_minutes: 1
 keywords: [Now Assist, generative AI, AI Agents, agentic ai, SLO AI Agent, SLO Agentic AI]
-breadcrumb: [AI driven supplier onboarding, Use Now Assist for Supplier Lifecycle Operations \(SLO\), Now Assist for Supplier Lifecycle Operations \(SLO\), Supplier Lifecycle Operations, Finance and Supply Chain]
+breadcrumb: [AI driven supplier onboarding, Use ServiceNow Otto for Supplier Lifecycle Operations \(SLO\), ServiceNow Otto for Supplier Lifecycle Operations \(SLO\), Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 
 # Activate AI agents individually

@@ -1,6 +1,6 @@
 ---
-title: Supporting information for Now Assist for Legal Service Delivery \(LSD\)
-description: Get a quick overview of the important information that is related to the Now Assist for Legal Service Delivery \(LSD\) application.
+title: Supporting information for ServiceNow Otto for Legal Service Delivery \(LSD\)
+description: Get a quick overview of the important information that is related to the ServiceNow Otto for Legal Service Delivery \(LSD\) application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-support-info.html
 release: yokohama
@@ -10,20 +10,20 @@ topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
 keywords: [Now Assist, generative AI]
-breadcrumb: [Explore, Now Assist for Legal Service Delivery \(LSD\), Legal Service Delivery, Employee Service Management]
+breadcrumb: [Explore, ServiceNow Otto for Legal Service Delivery \(LSD\), Legal Service Delivery, Employee Service Management]
 ---
 
-# Supporting information for Now Assist for Legal Service Delivery \(LSD\)
+# Supporting information for ServiceNow Otto for Legal Service Delivery \(LSD\)
 
-Get a quick overview of the important information that is related to the Now Assist for Legal Service Delivery \(LSD\) application.
+Get a quick overview of the important information that is related to the ServiceNow Otto for Legal Service Delivery \(LSD\) application.
 
 ## Supported versions
 
-Now Assist for LSD is supported starting with Xanadu \(Patch 3\).
+ServiceNow Otto for LSD is supported starting with Xanadu \(Patch 3\).
 
 ## Application information
 
-Activate the Now Assist for LSD store app \(sn\_lg\_gen\_ai\) to use the summarization skills.
+Activate the ServiceNow Otto for LSD store app \(sn\_lg\_gen\_ai\) to use the summarization skills.
 
 This store app has the following dependencies which will be installed automatically:
 
@@ -36,11 +36,11 @@ You need to install the following applications manually:
 -   Legal Counsel Center \(sn\_lg\_cf\_workspace\) - Version 1.5.1 and above
 -   Legal Matter Management \(sn\_lg\_matter\) – Required for Legal Matter summarization
 
-For more information, see [Configure Now Assist for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-configuring.md).
+For more information, see [Configure ServiceNow Otto for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-configuring.md).
 
 ## Supported user interfaces
 
-The Now Assist for LSD application includes the skills that are listed in the following table.
+The ServiceNow Otto for LSD application includes the skills that are listed in the following table.
 
 <table id="table_odd_d2y_wyb"><thead><tr><th>
 
@@ -86,5 +86,5 @@ Global search
 Now Assist Q&amp;A Genius Results
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Explore Now Assist for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-exploring.md)
+</table>**Parent Topic:**[Explore ServiceNow Otto for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-exploring.md)
 

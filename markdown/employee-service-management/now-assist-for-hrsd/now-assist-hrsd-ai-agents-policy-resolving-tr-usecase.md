@@ -1,5 +1,5 @@
 ---
-title: Help resolve tuition requests agentic workflow for Now Assist for HRSD
+title: Help resolve tuition requests agentic workflow for ServiceNow Otto for HRSD
 description: Use the Help resolve tuition requests agentic workflow for faster mean time to repair \(MTTR\) cases that require validation based on policies that are built for tuition reimbursement.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-ai-agents-policy-resolving-tr-usecase.html
@@ -10,10 +10,10 @@ topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 2
 keywords: [Now Assist, generative AI]
-breadcrumb: [Use agentic workflows, Now Assist for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
+breadcrumb: [Use agentic workflows, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
-# Help resolve tuition requests agentic workflow for Now Assist for HRSD
+# Help resolve tuition requests agentic workflow for ServiceNow Otto for HRSD
 
 Use the Help resolve tuition requests agentic workflow for faster mean time to repair \(MTTR\) cases that require validation based on policies that are built for tuition reimbursement.
 
@@ -56,7 +56,7 @@ In the **Select a UI display** workflow, you can enable the Now Assist panel dis
 
 Select this option to receive and review notifications by AI agents in the Now Assist panel. AI agents notify HR agents in the Now Assist panel with the case resolution and summarization notes.
 
-**Parent Topic:**[Using agentic workflows in Now Assist for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-ai-agents-use-cases.md)
+**Parent Topic:**[Using agentic workflows in ServiceNow Otto for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-ai-agents-use-cases.md)
 
 **Related topics**  
 

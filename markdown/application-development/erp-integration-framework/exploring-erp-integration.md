@@ -1,6 +1,6 @@
 ---
-title: Exploring Zero Copy Connector for ERP
-description: Zero Copy Connector for ERP enables you to connect to the ERP \(Enterprise Resource Planning\) system to send updates and extract data to remote tables and extraction tables for use on the ServiceNow AI Platform.
+title: Exploring ERP Canvas
+description: ERP Canvas enables you to connect to the ERP \(Enterprise Resource Planning\) system to send updates and extract data to remote tables and extraction tables for use on the ServiceNow AI Platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-integration-framework/exploring-erp-integration.html
 release: yokohama
@@ -8,49 +8,49 @@ product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: concept
 last_updated: "2025-01-30"
-reading_time_minutes: 10
-breadcrumb: [Zero Copy Connector for ERP, Building low-code applications, Developing your application, Building applications]
+reading_time_minutes: 9
+breadcrumb: [ERP Canvas, Building low-code applications, Developing your application, Building applications]
 ---
 
-# Exploring Zero Copy Connector for ERP
+# Exploring ERP Canvas
 
-Zero Copy Connector for ERP enables you to connect to the ERP \(Enterprise Resource Planning\) system to send updates and extract data to remote tables and extraction tables for use on the ServiceNow AI Platform.
+ERP Canvas enables you to connect to the ERP \(Enterprise Resource Planning\) system to send updates and extract data to remote tables and extraction tables for use on the ServiceNow AI Platform.
 
-## Overview of Zero Copy Connector for ERP
+## Overview of ERP Canvas
 
-Zero Copy Connector for ERP functions as a platform within ServiceNow, offering a unified data model for ERP systems. Zero Copy Connector for ERP enables you to manage tables that contain both standard and custom fields grouped within ERP models. You can send updates to and extract data from ERP tables on the system of record and store it in a remote table or an extraction table, depending on the size of data sets and refresh needs.
+ERP Canvas functions as a platform within ServiceNow, offering a unified data model for ERP systems. ERP Canvas enables you to manage tables that contain both standard and custom fields grouped within ERP models. You can send updates to and extract data from ERP tables on the system of record and store it in a remote table or an extraction table, depending on the size of data sets and refresh needs.
 
 -   Remote tables get their records from running an associated script against an external data source.
 -   Extraction tables retrieve large amounts of data using a scheduled query, and use transform tables to process data for use on the ServiceNow AI Platform.
 
-In addition to retrieving data, Zero Copy Connector for ERP can also update the ERP system using a BAPI \(Business Application Programming Interface\) or OData and an HTTP connection.
+In addition to retrieving data, ERP Canvas can also update the ERP system using a BAPI \(Business Application Programming Interface\) or OData and an HTTP connection.
 
-The unified data model of the ServiceNow AI Platform ensures seamless integration of ERP data into the ServiceNow AI Platform. Zero Copy Connector for ERP streamlines ERP data management, making it accessible and actionable within the ServiceNow AI Platform and ServiceNow instances.
+The unified data model of the ServiceNow AI Platform ensures seamless integration of ERP data into the ServiceNow AI Platform. ERP Canvas streamlines ERP data management, making it accessible and actionable within the ServiceNow AI Platform and ServiceNow instances.
 
-**Note:** Zero Copy Connector for ERP doesn't replicate data into the ServiceNow AI Platform. It mirrors data that lives in the ERP system of record, and remains protected there.
+**Note:** ERP Canvas doesn't replicate data into the ServiceNow AI Platform. It mirrors data that lives in the ERP system of record, and remains protected there.
 
-## Zero Copy Connector for ERP workflow
+## ERP Canvas workflow
 
-1.  Have your administrator use the Connections and Credentials app to configure credentials to connect to the ERP system of record. For more information, see [Configure the Zero Copy Connector for ERP credentials and connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/set-up-erp-integration-connection.md).
-2.  Create an ERP system in Zero Copy Connector for ERP using the connection and credentials alias that you configured. For more information, see [Create an ERP system in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/create-an-erp-system.md).
+1.  Have your administrator use the Connections and Credentials app to configure credentials to connect to the ERP system of record. For more information, see [Configure the ERP Canvas credentials and connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/set-up-erp-integration-connection.md).
+2.  Create an ERP system in ERP Canvas using the connection and credentials alias that you configured. For more information, see [Create an ERP system in ERP Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/create-an-erp-system.md).
 
-    **Note:** The rest of the workflow steps are in Zero Copy Connector for ERP. Build your ERP systems, ERP models, and tables in a development instance, and then promote them to a production instance when you're ready. For more information, see [Managing app deployments using Pipelines and Deployments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/aes-review-apps-p-and-d.md).
+    **Note:** The rest of the workflow steps are in ERP Canvas. Build your ERP systems, ERP models, and tables in a development instance, and then promote them to a production instance when you're ready. For more information, see [Managing app deployments using Pipelines and Deployments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/aes-review-apps-p-and-d.md).
 
-3.  Clone or create an ERP model that scans the specified ERP module in the system of record for available tables and fields. Note the tables and fields in the ERP model for use in extraction and remote tables, as well as for mapping parameters to read and update the system of record.For more information, see [Clone an ERP model in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-clone-data-model.md).
+3.  Clone or create an ERP model that scans the specified ERP module in the system of record for available tables and fields. Note the tables and fields in the ERP model for use in extraction and remote tables, as well as for mapping parameters to read and update the system of record.For more information, see [Clone an ERP model in ERP Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-clone-data-model.md).
 4.  Create read and update operations to connect to the ERP system by adding tables, mapping fields, and building table joins to include additional data in the ERP model. For more information, see the following topics:
     -   [Managing how models read and update the ERP system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erpc-managing-models-read.md)
     -   [Add joins between ERP tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-add-join-data-model.md)
 5.  Work with remote tables to make them available for use as a data source, such as when building apps in App Engine Studio. Remote tables get their records from running an associated script against an external data source. For more information, see the following topics:
-    -   [View and edit ERP remote table details with Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erpi-find-tables.md)
-    -   [Customize fields for an ERP remote table in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-build-remote-table.md)
-    -   [Query a remote table using Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-query-remote-table.md)
+    -   [View and edit ERP remote table details with ERP Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erpi-find-tables.md)
+    -   [Customize fields for an ERP remote table in ERP Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-build-remote-table.md)
+    -   [Query a remote table using ERP Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-query-remote-table.md)
 6.  Work with ETL extraction tables to regularly scan the system of record and extract data to a staging table. Extraction tables retrieve large amounts of data using a scheduled query, and use transform tables to process data for use on the ServiceNow AI Platform.
-    -   Create as many separate extraction tables as needed, such as one for each supported country. For more information, see [Extracting and transforming data in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-extraction-tables.md).
+    -   Create as many separate extraction tables as needed, such as one for each supported country. For more information, see [Extracting and transforming data in ERP Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-extraction-tables.md).
     -   You must first create the table transform map that connects the source table \(on the system of record\) to a Glide table on the ServiceNow AI Platform. For more information on creating table transform maps, see [Create a transform map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/t_CreateATransformMap.md).
     -   Extraction processes are configured in the ServiceNow app that uses them, for example, Workflow Studio.
     -   After the extraction process is run, use import sets to map imported data into ServiceNow AI Platform tables. For more information, see [Import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/import-sets-landing-page.md).
 7.  Build flows in Workflow Studio to specify details for when you query or update the ERP \(Enterprise Resource Planning\) system. For more information, see [Building flows to read or update the ERP system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-build-flow-operation.md).
-8.  Move the ERP systems, ERP models, tables, operations, and flows to a production environment when they're ready. For more information, see [Managing ERP development pipelines in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/manage-erp-tables-pipelines.md).
+8.  Move the ERP systems, ERP models, tables, operations, and flows to a production environment when they're ready. For more information, see [Managing ERP development pipelines in ERP Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/manage-erp-tables-pipelines.md).
 9.  Use the ERP data as the data source when building apps on the ServiceNow AI Platform using:
     -   App Engine Studio: For more information, see [Create a data model for your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/add-data.md).
     -   Flows in Workflow Studio: For more information, see [Configuring flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/configuring-flow-designer.md).
@@ -59,7 +59,7 @@ The unified data model of the ServiceNow AI Platform ensures seamless integratio
     -   UI Builder: For more information, see [Dynamically expose data in UI Builder pages \(advanced feature\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/data-resources.md).
     -   Workspace Builder: For more information, see [Configure a record page for a workspace in Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/workspace-builder/configure-record-page-workspace.md).
 
-## Benefits of Zero Copy Connector for ERP
+## Benefits of ERP Canvas
 
 <table id="table_cjc_j1y_mwb"><thead><tr><th>
 
@@ -79,7 +79,7 @@ Configure connections to the system of record
 
 </td><td>
 
-[Working with ERP systems in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-work-with-systems.md)
+[Working with ERP systems in ERP Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-work-with-systems.md)
 
 </td><td>
 
@@ -103,7 +103,7 @@ Work with and query remote tables to view ERP data on the system of record
 
 </td><td>
 
-[Using ERP remote tables in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-work-with-remote-tables.md)
+[Using ERP remote tables in ERP Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-work-with-remote-tables.md)
 
 </td><td>
 
@@ -116,12 +116,12 @@ Access standard remote tables
 
 </td><td>
 
-[Standard remote tables for Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erpi-standard-remote-tables.md)
+[Standard remote tables for ERP Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erpi-standard-remote-tables.md)
 
 </td><td>
 
 -   sn\_erp\_integration.erp\_user
--   Additional, table-specific roles are required. For more information, see [Zero Copy Connector for ERP roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-roles.md).
+-   Additional, table-specific roles are required. For more information, see [ERP Canvas roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-roles.md).
 
 </td></tr><tr><td>
 
@@ -129,18 +129,18 @@ Configure extraction tables to regularly pull custom data from the ERP system
 
 </td><td>
 
-[Extracting and transforming data in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-extraction-tables.md)
+[Extracting and transforming data in ERP Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-extraction-tables.md)
 
 </td><td>
 
 sn\_erp\_integration.erp\_admin
 
 </td></tr></tbody>
-</table>## Additional resources for Zero Copy Connector for ERP
+</table>## Additional resources for ERP Canvas
 
 <table id="table_flh_vjt_gtb"><thead><tr><th>
 
-Learn more about Zero Copy Connector for ERP
+Learn more about ERP Canvas
 
 </th><th>
 
@@ -148,7 +148,7 @@ ServiceNow resources
 
 </th></tr></thead><tbody><tr><td rowspan="3">
 
-Zero Copy Connector for ERP is a ServiceNow app that enables you to simplify the use of ERP data from the system of record, such as SAP.
+ERP Canvas is a ServiceNow app that enables you to simplify the use of ERP data from the system of record, such as SAP.
 
 </td><td>
 
@@ -165,16 +165,16 @@ Zero Copy Connector for ERP is a ServiceNow app that enables you to simplify the
 \[Omitted image "bus-application-developer.svg"\] Alt text: [Video: Unlock the full potential of your ERP system](https://www.youtube.com/watch?v=R66HqYLfEc8)
 
 </td></tr></tbody>
-</table>-   **[Identifying ERP candidates to replatform with Zero Copy Connector for ERP and ERP-CM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erpi-and-ecm-together.md)**  
-Zero Copy Connector for ERP enables you to connect to your ERP \(Enterprise Resource Planning\) system of record, and to organize its data.
--   **[Zero Copy Connector for ERP custom field example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/ecm-example-case.md)**  
-Zero Copy Connector for ERP helps you identify custom ERP \(Enterprise Resource Planning\) apps and fields in the system of record to access their data on the ServiceNow AI Platform. The ERP system can have both standard and custom fields that are accessed by Zero Copy Connector for ERP.
--   **[Zero Copy Connector for ERP and security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-and-security.md)**  
-In addition to role-based security and access control, Zero Copy Connector for ERP protects personally identifiable data in other ways.
+</table>-   **[Identifying ERP candidates to replatform with ERP Canvas and ERP-CM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erpi-and-ecm-together.md)**  
+ERP Canvas enables you to connect to your ERP \(Enterprise Resource Planning\) system of record, and to organize its data.
+-   **[ERP Canvas custom field example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/ecm-example-case.md)**  
+ERP Canvas helps you identify custom ERP \(Enterprise Resource Planning\) apps and fields in the system of record to access their data on the ServiceNow AI Platform. The ERP system can have both standard and custom fields that are accessed by ERP Canvas.
+-   **[ERP Canvas and security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-and-security.md)**  
+In addition to role-based security and access control, ERP Canvas protects personally identifiable data in other ways.
 -   **[Guided tours in ERP Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/guided-tours-in-erp-canvas.md)**  
-Learn about Zero Copy Connector for ERP guided tours, including how to access and take them to build your knowledge of Zero Copy Connector for ERP.
--   **[Get help with Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-get-help-now.md)**  
-To get help with Zero Copy Connector for ERP, your ServiceNow instance, plugins, permissions, and more, watch a short video to contact the ServiceNow admin who works in your company.
+Learn about ERP Canvas guided tours, including how to access and take them to build your knowledge of ERP Canvas.
+-   **[Get help with ERP Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-get-help-now.md)**  
+To get help with ERP Canvas, your ServiceNow instance, plugins, permissions, and more, watch a short video to contact the ServiceNow admin who works in your company.
 
-**Parent Topic:**[Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-integration-overview.md)
+**Parent Topic:**[ERP Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-integration-overview.md)
 

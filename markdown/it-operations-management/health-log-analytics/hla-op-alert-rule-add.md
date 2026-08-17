@@ -9,7 +9,7 @@ classification: health-log-analytics
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Using alert rules to control when Health Log Analytics generates alerts, Health Log Analytics, ITOM AIOps, IT Operations Management]
+breadcrumb: [Using alert rules to control when Health Log Analytics generates alerts, Health Log Analytics, ITOM Health, IT Operations Management]
 ---
 
 # Add a Log Analytics alert rule

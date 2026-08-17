@@ -9,7 +9,7 @@ classification: service-operations-workspace-for-itom-apps
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Filtering the alert display in the Express List pane, Express List in the Service Operations Workspace for ITOM, Using Service Operations Workspace for ITOM, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
+breadcrumb: [Filtering the alert display in the Express List pane, Express List in the Service Operations Workspace for ITOM, Using Service Operations Workspace for ITOM, Service Operations Workspace for ITOM, ITOM Health, IT Operations Management]
 ---
 
 # Filter the Express List display using attributes

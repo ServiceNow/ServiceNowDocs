@@ -30,7 +30,7 @@ Assign the now\_assist\_explorer\_user role, and activate the AI Data Explorer s
 
 1.  Grant the now\_assist\_explorer\_user role to users who need to explore data with AI Data Explorer.
 
-2.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills**.
+2.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Skills**.
 
 3.  In the product area pane, select **Data and Analytics** &gt; **Analytics**.
 

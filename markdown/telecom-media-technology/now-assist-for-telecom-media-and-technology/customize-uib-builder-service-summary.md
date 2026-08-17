@@ -9,7 +9,7 @@ classification: now-assist-for-telecom-media-and-technology
 topic_type: task
 last_updated: "2025-08-06"
 reading_time_minutes: 1
-breadcrumb: [Generate summary for a product inventory, Using Now Assist for Telecommunications, Media and Technology \(TMT\), Now Assist for Telecommunications, Media and Technology \(TMT\), Telecommunications, Media, and Technology]
+breadcrumb: [Generate summary for a product inventory, Using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\), ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\), Telecommunications, Media, and Technology]
 ---
 
 # Customize a summary card for service summary
@@ -28,7 +28,7 @@ Role required: Admin
 
 3.  Select **here** if you see the notice that says:
 
-    This record is in the Now Assist for Telecommunications, Media and Technology \(TMT\) application, but Global is the current application. To edit this record, click **here**.
+    This record is in the ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) application, but Global is the current application. To edit this record, click **here**.
 
     \[Omitted image "now-assist-wwna-quick-action.png"\] Alt text: generate record summary.
 
@@ -41,5 +41,5 @@ Role required: Admin
 5.  Select **Update**.
 
 
-**Parent Topic:**[Generate service summary for a product inventory using Now Assist for Telecommunications, Media and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-summarize-knowledge-graph.md)
+**Parent Topic:**[Generate service summary for a product inventory using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-summarize-knowledge-graph.md)
 

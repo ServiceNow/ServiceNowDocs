@@ -67,7 +67,7 @@ The following AI capabilities are available to a contract fulfiller:
     For more information on activating the skill, see [Configure Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/confg-na-in-cmpro.md).
 
 
-You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/exploring-large-language-models.md).
+You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/exploring-large-language-models.md).
 
 ## Now Assist in Contract Management users
 
@@ -112,7 +112,7 @@ The following workflow shows how different users work together to configure and 
 
 1.  The contract AI administrator installs the Now Assist in Contract Management plugin \(sn\_cm\_gen\_ai\).
 2.  The contract AI administrator assigns users to the roles of contract AI fulfiller and contract AI configurator.
-3.  The contract AI configurator configures and activates the Contract metadata extraction skill in the Now Assist Admin console.
+3.  The contract AI configurator configures and activates the Contract metadata extraction skill in the AI Admin Hub console.
 4.  In the system properties, the administrator specifies whether the metadata extraction should be automatically or manually initiated.
 5.  When a contract repository record is created with a signed contract, a contract manager with the sn\_cm\_gen\_ai.ai\_contract\_fulfiller role initiates the metadata extraction process.
 
@@ -132,7 +132,7 @@ The following sample end-to-end workflow shows how different users work together
 
 1.  The contract AI administrator installs the Now Assist in Contract Management application.
 2.  The contract AI administrator assigns users to the roles of contract AI fulfiller and contract AI configurator.
-3.  The contract AI configurator configures and activates the contract analysis skill in the Now Assist Admin console.
+3.  The contract AI configurator configures and activates the contract analysis skill in the AI Admin Hub console.
 4.  The contract AI configurator maps the question groups to the active clauses in the clause library, maps the questions to the expected responses, and then maps the use case to specific tables.
 5.  The contract AI fulfiller initiates the contract analysis by using Now Assist in Contract Management.
 6.  The Now Assist in Contract Management application analyzes the contract and identifies the non-standard and missing clauses.

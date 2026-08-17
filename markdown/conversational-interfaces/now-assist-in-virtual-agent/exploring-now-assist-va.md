@@ -41,11 +41,11 @@ For more examples of having a conversation with Now Assist in Virtual Agent, see
 
 \[Omitted image "NAinVA-view-all-topics.png"\] Alt text: View all topics shows all Virtual Agent Designer topics.
 
-Now Assist in Virtual Agent skills are available in the Now Assist Admin console. For full catalog functionality in the chat window, enable the generative AI experience for catalog item request submissions. For more information, see [Configure Now Assist in Conversational Catalog Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/now-assist-in-virtual-agent/configure-gen-ai-catalog-item.md).
+Now Assist in Virtual Agent skills are available in the AI Admin Hub console. For full catalog functionality in the chat window, enable the generative AI experience for catalog item request submissions. For more information, see [Configure Now Assist in Conversational Catalog Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/now-assist-in-virtual-agent/configure-gen-ai-catalog-item.md).
 
 The skill picker is configurable based on the user's requirements. For example, a user can change the **View all topics** label in the skill picker and add or remove the bullet list of promoted assets from the skill selection message.
 
-\[Omitted image "NA-skills-platform.png"\] Alt text: Features tab in the Now Assist Admin console, showing Conversational experience skill card.
+\[Omitted image "NA-skills-platform.png"\] Alt text: Features tab in the AI Admin Hub console, showing Conversational experience skill card.
 
 ## Benefits
 
@@ -53,12 +53,12 @@ Now Assist in Virtual Agent provides the following benefits.
 
 |Benefit|Feature|User|
 |-------|-------|----|
-|Configure Now Assist in Virtual Agent in a few minutes, from either the Conversational Interfaces console or the Now Assist Admin console.|[Guided setup experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md)|virtual\_agent\_admin or admin|
+|Configure Now Assist in Virtual Agent in a few minutes, from either the Conversational Interfaces console or the AI Admin Hub console.|[Guided setup experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md)|virtual\_agent\_admin or admin|
 |Now Assist skills can be turned on within the guided setup.|[Activate a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configure-a-now-assist-skill.md)|virtual\_agent\_admin or admin|
 |Deploy Now Assist in Virtual Agent on multiple portals using the chat widget, the mobile app, and Microsoft Teams.|[Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md)|virtual\_agent\_admin or admin|
 |Generative AI enhances the user search experience with the ability to generate answers and enabling the user to select the **Show more results** option for a new search.|[Now Assist Q&amp;A Genius Results skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/now-assist-in-virtual-agent/using-now-assist-in-va.md)|requesters|
 |Give users in-chat access to available options in the Service Catalog.|[Now Assist Multi-Turn Catalog Ordering skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/now-assist-in-virtual-agent/using-now-assist-in-va.md)|requesters|
 |Now Assist lets Virtual Agent switch easily between requests, using plain language when new queries are made in the same conversation.|[Mid-topic switching during Now Assist in Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/now-assist-in-virtual-agent/intent-switching-na-va.md)|requesters|
 |Monitor performance metrics for Now Assist in Virtual Agent from the Conversational Interfaces console.|[Conversational Interfaces console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/exploring-ci.md)|virtual\_agent\_admin or admin|
-|Monitor value metrics \(Now Assist usage versus Now Assist in Virtual Agent\) from the Now Assist Admin console.|[Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configuring-now-assist.md)|virtual\_agent\_admin or admin|
+|Monitor value metrics \(Now Assist usage versus Now Assist in Virtual Agent\) from the AI Admin Hub console.|[AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configuring-now-assist.md)|virtual\_agent\_admin or admin|
 

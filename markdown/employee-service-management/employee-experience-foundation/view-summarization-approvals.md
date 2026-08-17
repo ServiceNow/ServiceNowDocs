@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
 keywords: [generative AI for Employee Center, generative AI for UEX, Summarization for Employee Center, Summarization]
-breadcrumb: [Use, Now Assist for Employee Experience, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Use, ServiceNow Otto for Employee Experience, Unified Employee Experience, Employee Service Management]
 ---
 
 # View summarization for approvals
@@ -31,7 +31,7 @@ Role required:approver\_user, sn\_request\_read, sn\_write
 
     The details are displayed in the card with the summary
 
-3.  See Now Assist for Employee Experience generated summaries.
+3.  See ServiceNow Otto for Employee Experience generated summaries.
 
     -   Click the **Summarize** button when the trigger is manual.
 
@@ -41,12 +41,12 @@ Role required:approver\_user, sn\_request\_read, sn\_write
 
         \[Omitted image "uex-using-task-summarize-auto.png"\] Alt text: Automated summarization on NowAssist for Employee Experience
 
-    For more information on how to configure, see [Activate Now Assist for Employee Experience skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/activate-now-assist-skills-uex.md)
+    For more information on how to configure, see [Activate ServiceNow Otto for Employee Experience skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/activate-now-assist-skills-uex.md)
 
 4.  Select **Approve** or **Reject**.
 
 
-**Parent Topic:**[Using Now Assist for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/use-now-assist-for-emp-exp.md)
+**Parent Topic:**[Using ServiceNow Otto for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/use-now-assist-for-emp-exp.md)
 
 **Related topics**  
 
@@ -57,5 +57,5 @@ Role required:approver\_user, sn\_request\_read, sn\_write
 
 [Check company news and events]()
 
-[Activate Now Assist for Employee Experience skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/activate-now-assist-skills-uex.md)
+[Activate ServiceNow Otto for Employee Experience skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/activate-now-assist-skills-uex.md)
 

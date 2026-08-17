@@ -9,7 +9,7 @@ classification: event-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configuring Express List views for users and user groups, Manage and monitor alerts, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Configuring Express List views for users and user groups, Manage and monitor alerts, Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
 ---
 
 # Assign users and groups to predefined Express List views
@@ -30,15 +30,15 @@ Role required: evt\_mgmt\_admin
 
 3.  Assign users or groups to the selected Express List view.
 
-<table id="choicetable_jg5_jrj_k1c"><thead><tr><th align="left" id="d203730e107">
+<table id="choicetable_jg5_jrj_k1c"><thead><tr><th align="left" id="d202806e107">
 
 Task
 
-</th><th align="left" id="d203730e110">
+</th><th align="left" id="d202806e110">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d203730e116">
+</th></tr></thead><tbody><tr><td id="d202806e116">
 
 **Assign a user to the selected Express List view**
 
@@ -49,7 +49,7 @@ Procedure
 3.  Select the user and then select the save icon \(\[Omitted image "save-icon.png"\] Alt text: Save icon.\).
 
 
-</td></tr><tr><td id="d203730e161">
+</td></tr><tr><td id="d202806e161">
 
 **Assign a user group to the selected Express List view**
 

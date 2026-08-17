@@ -1,5 +1,5 @@
 ---
-title: Generate a chat reply recommendation by using Now Assist for HR Service Delivery \(HRSD\)
+title: Generate a chat reply recommendation by using ServiceNow Otto for HR Service Delivery \(HRSD\)
 description: Generate a reply based on the context of the chat conversation using Now Assist icon. Chat reply recommendations can help provide agents with quick replies to common questions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/now-assist-for-hrsd/chat-recommendations-nahr.html
@@ -9,10 +9,10 @@ classification: now-assist-for-hrsd
 topic_type: task
 last_updated: "2025-03-03"
 reading_time_minutes: 5
-breadcrumb: [Use generative AI skills, Now Assist for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
+breadcrumb: [Use generative AI skills, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
-# Generate a chat reply recommendation by using Now Assist for HR Service Delivery \(HRSD\)
+# Generate a chat reply recommendation by using ServiceNow Otto for HR Service Delivery \(HRSD\)
 
 Generate a reply based on the context of the chat conversation using Now Assist icon. Chat reply recommendations can help provide agents with quick replies to common questions.
 
@@ -27,7 +27,7 @@ You can do these actions by using the Now Assist icon:
 -   Generate a recommended reply that is based on the context of the conversation.
 -   Refine the recommendation by elaborating or shortening the response.
 
-**Note:** The Chat reply recommendation skill can be found in the **HRSD** tab under the **Employee** group in Now Assist Admin.
+**Note:** The Chat reply recommendation skill can be found in the **HRSD** tab under the **Employee** group in AI Admin Hub.
 
 **Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
@@ -47,15 +47,15 @@ You can make a copy of this skill to configure it to meet your business needs. F
 
 4.  In the chat message window, either type a response, or leave blank, and then select the Now Assist icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon for Now Assist.
 
-<table id="choicetable_nbt_cxv_bcc"><thead><tr><th align="left" id="d381262e160">
+<table id="choicetable_nbt_cxv_bcc"><thead><tr><th align="left" id="d380629e160">
 
 Chat message window
 
-</th><th align="left" id="d381262e163">
+</th><th align="left" id="d380629e163">
 
 Now Assist icon
 
-</th></tr></thead><tbody><tr><td id="d381262e171">
+</th></tr></thead><tbody><tr><td id="d380629e171">
 
 **Typed response**
 
@@ -67,7 +67,7 @@ Provides the option to refine your response:
 -   Shorten
 
 
-</td></tr><tr><td id="d381262e191">
+</td></tr><tr><td id="d380629e191">
 
 **Left blank**
 
@@ -87,30 +87,30 @@ Generates a recommended reply that is based on the context of the conversation u
 7.  End the chat by selecting **End Chat**.
 
 
-**Parent Topic:**[Use Now Assist for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/use-now-assist-hr.md)
+**Parent Topic:**[Use ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/use-now-assist-hr.md)
 
 **Related topics**  
 
 
-[Summarize a chat conversation by using Now Assist for HR Service Delivery \(HRSD\)]()
+[Summarize a chat conversation by using ServiceNow Otto for HR Service Delivery \(HRSD\)]()
 
-[Summarize a Sidebar discussion by using Now Assist for HR Service Delivery \(HRSD\)]()
+[Summarize a Sidebar discussion by using ServiceNow Otto for HR Service Delivery \(HRSD\)]()
 
 [Generate a knowledge article from HR Agent Workspace with Now Assist]()
 
 [Generate a knowledge article from multiple cases]()
 
-[Generate an email reply recommendation by using Now Assist for HR Service Delivery \(HRSD\)]()
+[Generate an email reply recommendation by using ServiceNow Otto for HR Service Delivery \(HRSD\)]()
 
-[Summarize an HR case using Now Assist for HRSD]()
+[Summarize an HR case using ServiceNow Otto for HRSD]()
 
-[Generate resolution notes using Now Assist for HRSD]()
+[Generate resolution notes using ServiceNow Otto for HRSD]()
 
 [View employee summary reports]()
 
 [Summarize actions while transferring an HR case]()
 
-[Use Knowledge Graph in Now Assist for HRSD]()
+[Use Knowledge Graph in ServiceNow Otto for HRSD]()
 
 [Use Galileo Inside to answer HR-related questions]()
 
@@ -118,9 +118,9 @@ Generates a recommended reply that is based on the context of the conversation u
 
 [Submit an HR request with Gen AI Virtual Agent]()
 
-[Now Assist for HR Service Delivery \(HRSD\) integration with Enterprise Service Management Integrations Framework]()
+[ServiceNow Otto for HR Service Delivery \(HRSD\) integration with Enterprise Service Management Integrations Framework]()
 
-[Detect sensitive topics by using sensitivity detection in Now Assist for HR Service Delivery \(HRSD\)]()
+[Detect sensitive topics by using sensitivity detection in ServiceNow Otto for HR Service Delivery \(HRSD\)]()
 
-[Analyze sentiments in Now Assist for HR Service Delivery \(HRSD\)]()
+[Analyze sentiments in ServiceNow Otto for HR Service Delivery \(HRSD\)]()
 

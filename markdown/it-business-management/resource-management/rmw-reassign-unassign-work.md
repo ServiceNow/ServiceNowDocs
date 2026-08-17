@@ -73,7 +73,7 @@ Consider a development task spanning from January 1, 2024 to September 30, 2024 
 
 Tom has actual hours captured from January 1, 2024 through March 31, 2024 and will be unavailable for next 2 months.
 
-As a resource manager, you can either reassign this task in it's entirety starting from April 1, 2024 till September 30, 2024 to Raj, who has the same primary attributes. Or reassign the task from April 1, 2024 to May 31, 2024 to Raj, leaving the rest of the assignment to Tom.
+As a resource manager, you can either reassign this task in its entirety starting from April 1, 2024 till September 30, 2024 to Raj. Raj has the same primary attributes. Or reassign the task from April 1, 2024 to May 31, 2024 to Raj, leaving the rest of the assignment to Tom.
 
 The actual hours captured by Tom are retained even though the task is reassigned. Raj can capture the actuals hours for the assigned period after completing the work.
 

@@ -85,7 +85,7 @@ Supported ServiceNow® versions: Yokohama and beyond.
 -   **[Service Graph Connector for Nokia Altiplano](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-service-ops/telecom-visibility/service-graph-connector-for-nokia-altiplano.md)**  
 Use the Service Graph Connector for Nokia Altiplano Access Network SDN Controller to pull in data from the Nokia Altiplano software into your ServiceNow instance using REST APIs.
 -   **[Configure Service Graph Connector for Nokia Altiplano](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-service-ops/telecom-visibility/configuring-service-graph-connector-nokia-altiplano.md)**  
-This document explains how to configure the Service Graph Connector for Nokia Altiplano using Guided setup to integrate network resource data from the Nokia Altiplano Access Controller \(REST API\) into the ServiceNow CMDB. It includes steps for setup, authentication, and scheduling to confirm accurate integration of network data.
+Configure the Service Graph Connector for Nokia Altiplano using Guided setup to integrate network resource data from the Nokia Altiplano Access Controller \(REST API\) into the ServiceNow CMDB. The setup includes authentication and scheduling steps.
 
 **Parent Topic:**[Exploring Telecom Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-service-ops/telecom-visibility/exploring-telecom-discovery.md)
 

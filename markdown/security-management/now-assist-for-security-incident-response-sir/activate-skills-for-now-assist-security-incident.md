@@ -1,5 +1,5 @@
 ---
-title: Configure a skill for Now Assist for Security Incident Response
+title: Configure a skill for ServiceNow Otto for Security Incident Response \(SIR\)
 description: Configure and review the details for a skill in the Guided Setup. You can deactivate, edit, and reactivate a skill from the Guided Setup.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/now-assist-for-security-incident-response-sir/activate-skills-for-now-assist-security-incident.html
@@ -10,10 +10,10 @@ topic_type: task
 last_updated: "2026-01-15"
 reading_time_minutes: 4
 keywords: [Now Assist Security Operations, skill configuration]
-breadcrumb: [Configure, Now Assist for Security Incident Response, Security Operations]
+breadcrumb: [Configure, ServiceNow Otto for Security Incident Response \(SIR\), Security Operations]
 ---
 
-# Configure a skill for Now Assist for Security Incident Response
+# Configure a skill for ServiceNow Otto for Security Incident Response \(SIR\)
 
 Configure and review the details for a skill in the Guided Setup. You can deactivate, edit, and reactivate a skill from the Guided Setup.
 
@@ -31,7 +31,7 @@ Role required: admin
 
 2.  With **Technology** selected in the navigation panel, select **Security Operations** from the list.
 
-    The Now Assist skills for Security Operations page is displayed. The Now Assist for Security Incident Response skills are active by default and supported for Now Assist for Security Incident Response.
+    The Now Assist skills for Security Operations page is displayed. The ServiceNow Otto for Security Incident Response \(SIR\) skills are active by default and supported for ServiceNow Otto for Security Incident Response \(SIR\).
 
     -   Security incident recommended actions
 
@@ -64,7 +64,7 @@ Role required: admin
 
         If you choose to modify fields, select only the supported options from the lists provided as part of your input data.
 
-        If you modify the inputs or triggers for a skill, you determine how and when a skill is used. You can't modify a skill's input data source. The data source contains the tables and fields that the skill relies on. However, you can copy a skill and customize it. For more information, see [Customize a Now Assist for Security Incident Response skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/now-assist-for-security-incident-response-sir/cust-now-assist-security-incident-skill.md).
+        If you modify the inputs or triggers for a skill, you determine how and when a skill is used. You can't modify a skill's input data source. The data source contains the tables and fields that the skill relies on. However, you can copy a skill and customize it. For more information, see [Customize a ServiceNow Otto for Security Incident Response \(SIR\) skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/now-assist-for-security-incident-response-sir/cust-now-assist-security-incident-skill.md).
 
 5.  Select **Save and continue** to go to the next step in the Guided Setup.
 
@@ -74,15 +74,15 @@ Role required: admin
 
 8.  Choose one of the following options to define availability.
 
-<table id="choicetable_e25_bvj_1cc"><thead><tr><th align="left" id="d394828e304">
+<table id="choicetable_e25_bvj_1cc"><thead><tr><th align="left" id="d398467e304">
 
 Option
 
-</th><th align="left" id="d394828e307">
+</th><th align="left" id="d398467e307">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d394828e313">
+</th></tr></thead><tbody><tr><td id="d398467e313">
 
 **Skill is always available**
 
@@ -90,7 +90,7 @@ Description
 
 Skill is always available to users.
 
-</td></tr><tr><td id="d394828e322">
+</td></tr><tr><td id="d398467e322">
 
 **Customize skill availability**
 
@@ -103,15 +103,15 @@ The skill is available only when certain conditions are met \(Default\).Use the 
 
 10. Choose **Select display** to determine where you'd like to display the skill.
 
-<table id="choicetable_x1c_5b2_1cc"><thead><tr><th align="left" id="d394828e357">
+<table id="choicetable_x1c_5b2_1cc"><thead><tr><th align="left" id="d398467e357">
 
 Option
 
-</th><th align="left" id="d394828e360">
+</th><th align="left" id="d398467e360">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d394828e366">
+</th></tr></thead><tbody><tr><td id="d398467e366">
 
 **In-product**
 
@@ -119,7 +119,7 @@ Description
 
 Now Assist skills are displayed on forms and workspaces.
 
-</td></tr><tr><td id="d394828e377">
+</td></tr><tr><td id="d398467e377">
 
 **User roles**
 
@@ -127,7 +127,7 @@ Now Assist skills are displayed on forms and workspaces.
 
 Select the expand icon \(\[Omitted image "icon-expand.png"\] Alt text: Expand icon.\)
 
-</td></tr><tr><td id="d394828e393">
+</td></tr><tr><td id="d398467e393">
 
 **Now Assist panel**
 
@@ -137,7 +137,7 @@ Now Assist skills are available in the Now Assist panel. **Note:** If you don't 
 
 The security incident recommended actions and post-incident analysis skills are not available from the Now Assist panel.
 
-</td></tr><tr><td id="d394828e423">
+</td></tr><tr><td id="d398467e423">
 
 **Conversational experiences**
 
@@ -150,7 +150,7 @@ Verify where the skill is displayed and add roles for who can view it.Select **N
 
 12. Add or remove roles.
 
-    By default, the sn\_si.analyst and sn\_si.manager roles are added and can see the results from automated skills generation. You can add or remove roles only if you [Customize a Now Assist for Security Incident Response skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/now-assist-for-security-incident-response-sir/cust-now-assist-security-incident-skill.md).
+    By default, the sn\_si.analyst and sn\_si.manager roles are added and can see the results from automated skills generation. You can add or remove roles only if you [Customize a ServiceNow Otto for Security Incident Response \(SIR\) skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/now-assist-for-security-incident-response-sir/cust-now-assist-security-incident-skill.md).
 
 13. Review your choices and select **Activate** to complete the configuration for the skill.
 

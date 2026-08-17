@@ -41,8 +41,8 @@ The integration process for CSPM with the external service test management syste
 
         **Note:**
 
-        -   If the test run is configured as hierarchical in the decision table, the system sends all the child service test runs in the hierarchy to the external system that is configured in the application spoke selector.
-        -   If the test run is configured as non-hierarchical in the decision table, the systems send only the individual test run to the external system that is configured in the application spoke selector.
+        -   If the test run is hierarchical in the decision table, the system sends all child service test runs to the external system configured in the application spoke selector.
+        -   If the test run is non-hierarchical in the decision table, the systems send only the individual test run to the external system configured in the application spoke selector.
         To learn more about spokes, see [Building spokes using Spoke Generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/spoke-builder.md).
 
 3.  If the fulfillment request is successful, a response is received from the external system and is captured in the Test Run table \(sn\_st\_mgmt\_test\).

@@ -18,13 +18,13 @@ The ServiceNow® Service Observability application helps operations teams triage
 -   Centralize critical signals and bridge workflows to help increase agility and reliability.
 -   Calculate the blast radius and help reduce mean time to resolution \(MTTR\) by viewing changes to your application and the underlying infrastructure.
 
-See [Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/service-observability.md) for more information.
+See  for more information.
 
 **Important:** Service Observability is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## Service Observability features
 
--   **[Create and manage data mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/create-and-manage-observability-data-mappings.md)**
+-   ****
 
     Map services in the CMDB Workspace to the data from a connected application performance monitoring \(APM\) data source. Service Observability supports Dynatrace and New Relic. This mapping lets you view metrics from entities deep within your system, like a database or host, that might be affecting the health of a service.
 
@@ -32,11 +32,11 @@ See [Service Observability](https://raw.githubusercontent.com/ServiceNow/Service
 
     Starting in version 1.7.3, you can map Business Services and Service Offerings to APM data. Service Offerings are not available in Xanadu.
 
--   **[View overall service health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/view-overall-service-health.md)**
+-   ****
 
     Use the Overview tab to view rate, error, and duration \(RED\) metrics from the APM related to a service. You can also view related open alerts, incidents, and change requests from the Configuration Management Database \(CMDB\) to help identify possible causes and blast radius.
 
--   **[View service health metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/view-service-health-metrics.md)**
+-   ****
 
     View the extended health metrics for a service on the new **Observability** tab when issues are found on the **Overview** tab. In addition to the extended health metrics, you can view host and database metrics related to the service based on the configured data mappings.
 
@@ -51,15 +51,15 @@ See [Service Observability](https://raw.githubusercontent.com/ServiceNow/Service
 
 ## UI changes
 
--   **[New Overview tab in the SOW](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/view-overall-service-health.md)**
+-   **New Overview tab in the SOW**
 
     After services are activated for the **Overview** tab in Service Observability, the Service Details page in SOW now shows reliability metrics from Service Reliability Management \(SRM\) as well as metrics from Service Observability.
 
--   **[New Observability tab in the SOW](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/view-service-health-metrics.md)**
+-   **New Observability tab in the SOW**
 
     The **Observability** tab on the Service Details page in SOW shows related metrics from connected APM vendors.
 
--   **[Admin Center support for activating services and data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/activate-teams-and-services.md)**
+-   **Admin Center support for activating services and data sources**
 
     You can activate services to use in Service Observability and then connect and map APM data sources to those services.
 
@@ -70,7 +70,7 @@ See [Service Observability](https://raw.githubusercontent.com/ServiceNow/Service
 
 ## Activation information
 
-Install Service Observability by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install Service Observability by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Additional requirements
 
@@ -78,11 +78,11 @@ For the best experience, an APM instance should be installed and an API Key Cred
 
 ## Related ServiceNow applications and features
 
--   **[Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/sow-landing-page-itom.md)**
+-   ****
 
     You can access Service Observability from the Service Details page of the SOW.
 
--   **[Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/sr-landing-page.md)**
+-   ****
 
     You can view the reliability metrics of SRM in the same view as Service Observability, giving you a holistic view of service health. Services that are activated for Service Observability are also activated for SRM. Starting in version 1.6.4, services no longer need to be registered with SRM to use them in Service Observability.
 

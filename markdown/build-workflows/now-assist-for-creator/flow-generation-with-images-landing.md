@@ -24,7 +24,7 @@ Create a flow or a subflow from an image by using Now Assist.
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Activate the Now Assist for Creator plugin and the flow generation with images skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/now-assist-for-creator/turn-on-the-flow-generation-with-images-skill.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Activate the ServiceNow Otto for Creator plugin and the flow generation with images skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/now-assist-for-creator/turn-on-the-flow-generation-with-images-skill.md)
 
 </td></tr><tr><td>
 
@@ -32,7 +32,7 @@ Create a flow or a subflow from an image by using Now Assist.
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about Now Assist for Creator roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/now-assist-for-creator/creator-roles-1.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about ServiceNow Otto for Creator roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/now-assist-for-creator/creator-roles-1.md)
 
 </td></tr></tbody>
 </table>**Important:**

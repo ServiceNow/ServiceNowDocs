@@ -33,11 +33,10 @@ Watch this short video for an introduction to the Service Exchange application.\
 </table>## Additional resources
 
 -   Learn more about what's new and changed, see the [Service Exchange release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/service-bridge-rn.md).
--   Review the multiple TM Forum \(TMF\) Open APIs supported for the product, see .
 -   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/telecommunications-service-management/service-bridge-for-implementers?id=learning_path_prev&path_id=995e40f5c3008ad45922751ce00131cf&s=1&ssa=3).
--   Get step-by-step guidance to help with your ServiceNow® implementations, upgrades, and more, see [Best Practices](https://mynow.servicenow.com/now/best-practices/home).
+-   Log in to your ServiceNow® account and find additional information about implementing and deploying Service Exchange features at the [Best Practices Library](https://mynow.servicenow.com/now/best-practices/home).
 -   Connect with other Service Exchange users at [Now Community](https://www.servicenow.com/community/technology-provider/ct-p/technology).
--   Find useful resources related to your role and explore general guidelines at the [ServiceNow Impact](https://www.servicenow.com/success.html).
--   View KB articles at [Service Exchange Knowledge Base.](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1509053)
--   Access Service Exchange product page from [Service Exchange product](https://www.servicenow.com/products/service-bridge.html).
+-   Find useful resources related to your role and explore general guidelines at [ServiceNow Impact](https://www.servicenow.com/success.html).
+-   View KB articles at the [Service Exchange Knowledge Base.](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1509053)
+-   View Service Exchange product related information at the [Service Exchange product page](https://www.servicenow.com/products/service-bridge.html).
 

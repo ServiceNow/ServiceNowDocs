@@ -7,7 +7,7 @@ release: yokohama
 topic_type: task
 last_updated: "2025-11-14"
 reading_time_minutes: 1
-breadcrumb: [Configure, Now Assist for Order Management]
+breadcrumb: [Configure, ServiceNow Otto for Order Management]
 ---
 
 # Enable the manage order operations agent on the Business Portal
@@ -53,7 +53,7 @@ Role required: sn\_aia.Admin
 
 The chat assistant is activated in the Business Portal.
 
-**Parent Topic:**[Configuring Now Assist for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/now-assist-for-order-management-configuring.md)
+**Parent Topic:**[Configuring ServiceNow Otto for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/now-assist-for-order-management-configuring.md)
 
 **Related topics**  
 

@@ -8,9 +8,9 @@ product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
 last_updated: "2025-12-16"
-reading_time_minutes: 6
+reading_time_minutes: 5
 keywords: [ServiceNow, Health Log Analytics, HLA, Amazon CloudWatch, integration, configuration]
-breadcrumb: [Set up integrations from Integrations Launchpad, Setting up Health Log Analytics on your ServiceNow instance, Configuring Health Log Analytics, Health Log Analytics, ITOM AIOps, IT Operations Management]
+breadcrumb: [Set up integrations from Integrations Launchpad, Setting up Health Log Analytics on your ServiceNow instance, Configuring Health Log Analytics, Health Log Analytics, ITOM Health, IT Operations Management]
 ---
 
 # Set up an Amazon CloudWatch integration for Health Log Analytics
@@ -65,16 +65,14 @@ You set up integrations through the Integrations Launchpad in Service Operations
 
 10. Select **Test and save** to save the integration to the database and test connectivity.
 
+    If an error is returned, adjust the configuration as suggested in the error message and try again. When the test succeed, continue with the next step.
+
 11. Do one of the following:
 
     -   If you completed all the prerequisites before starting the configuration, select **Activate**.
 
-        In the pop-up window, select **Test &amp; Save** to save the integration to the database and test connectivity. If an error is returned, adjust the configuration as suggested in the error message and then try to activate the integration again.
+        The integration is activated and the **Overview** tab is displayed. On the Integrations Launchpad, the integration tile is available in the **Installed integrations** tab.
 
-        When the test is successful, you can activate the integration either with or without AI-powered capabilities. Select the appropriate option:
-
-        -   **Activate with AI** enables AI-powered automatic mapping of log data. When the integration is activated successfully, the **Overview** tab is displayed. Now Assist collects and analyzes log data. An AI icon indicates that Now Assist auto-maps log data to service instances and components for contextual alert generation.
-        -   **Activate** activates the integration without AI-powered mapping. The integration is activated and the **Overview** tab is displayed.
     -   If you didn't complete all the prior requirements, select **Save draft**.
 
         The system saves the integration as a draft in the Integrations Launchpad. It appears in the **Installed integrations** tab, under **Waiting for your action**. You can complete the prerequisites and activate the integration later. For more information, see [Activate a draft integration in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/il-connector-hla-activate-draft.md).
@@ -89,8 +87,6 @@ On the **Overview** tab, do the following:
     -   [Log data auto-mapping and mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-input-automapping.md)
     -   [Source type structure adjustment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-source-type-structure-adjustment.md)
     -   [Review logs on the Log Viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-logs-log-viewer-concept-sow.md)
-
-If you activated the integration with AI, verify that AI correctly auto-mapped log data to service instances and components. To do this, select **View mapping** under **Log context mapping**. You can override the AI mapping by selecting a different log field from each list. For more information, see [Map logs to service instances, components, source types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/il-connector-hla-map-business-context.md).
 
 **Parent Topic:**[Setting up Health Log Analytics on your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-implement.md)
 

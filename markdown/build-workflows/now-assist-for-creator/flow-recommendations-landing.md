@@ -24,7 +24,7 @@ Select the next component in your flow from a list of AI-generated recommendatio
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Activate the Now Assist for Creator plugin and the flow recommendations skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Activate the ServiceNow Otto for Creator plugin and the flow recommendations skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)
 
 </td></tr><tr><td>
 
@@ -32,7 +32,7 @@ Select the next component in your flow from a list of AI-generated recommendatio
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about Now Assist for Creator roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/now-assist-for-creator/creator-roles-1.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about ServiceNow Otto for Creator roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/now-assist-for-creator/creator-roles-1.md)
 
 </td></tr></tbody>
 </table>## AI limitations

@@ -1,5 +1,5 @@
 ---
-title: Sample Glide query for ERP data in Zero Copy Connector for ERP
+title: Sample Glide query for ERP data in ERP Canvas
 description: Access data from the ERP \(Enterprise Resource Planning\) system of record through the Glide API.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-integration-framework/erp-canvas-sample-glide-query-code.html
@@ -9,10 +9,10 @@ classification: erp-integration-framework
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Zero Copy Connector for ERP reference, Zero Copy Connector for ERP, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [ERP Canvas reference, ERP Canvas, Building low-code applications, Developing your application, Building applications]
 ---
 
-# Sample Glide query for ERP data in Zero Copy Connector for ERP
+# Sample Glide query for ERP data in ERP Canvas
 
 Access data from the ERP \(Enterprise Resource Planning\) system of record through the Glide API.
 
@@ -26,5 +26,5 @@ sap_customer_gr.getValue('name');
 
 ```
 
-**Parent Topic:**[Zero Copy Connector for ERP reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-integration-reference.md)
+**Parent Topic:**[ERP Canvas reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-integration-reference.md)
 

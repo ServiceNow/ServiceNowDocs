@@ -16,7 +16,7 @@ breadcrumb: [Build Agent, Use AI capabilities in custom applications, Developing
 Configure Build Agent on your instance.
 
 -   **[Install Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/install-build-agent.md)**  
-Install the Now Assist for Creator application from the ServiceNow Store to get Build Agent.
+Install the ServiceNow Otto for Creator application from the ServiceNow Store to get Build Agent.
 -   **[Connect Figma MCP server to Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/connect-figma-mcp-server-to-build-agent.md)**  
 Connect the Figma MCP server to the Build Agent to accelerate the conversion of Figma designs into enterprise-grade applications on the ServiceNow AI Platform.
 

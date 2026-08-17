@@ -7,7 +7,7 @@ release: yokohama
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Set up the account onboarding playbook, Configuring account onboarding, Account onboarding, Customer Success Management]
+breadcrumb: [Set up the account onboarding playbook, Configuring account onboarding, Account onboarding, Account Lifecycle Events]
 ---
 
 # Create an account onboarding case

@@ -94,5 +94,5 @@ The workplace location is blocked for the specified period. You can’t make any
 
 [Location migration]()
 
-[View workplace service usage analytics with Usage Insights]()
+[View workplace service usage analytics with User Experience Analytics]()
 

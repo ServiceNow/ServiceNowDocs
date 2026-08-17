@@ -105,14 +105,14 @@ See [Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow
 
     Access the specific Doc page that you are @-mentioned in by selecting **View Doc** in the notification email, eliminating the need to look through multiple pages in the Doc.
 
--   **[Reflow for Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/auto-reflow.md)**
+-   ****
 
     The CWM workspace supports reflow, which enables pages and content to be zoomed up to 400% through your browser settings without loss of content or functionality.
 
 
 ## Activation information
 
-Install Collaborative Work Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install Collaborative Work Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Accessibility information
 
@@ -126,14 +126,14 @@ Install Collaborative Work Management by requesting it from the ServiceNow Store
 
     This enhancement helps users with low vision or who have trouble seeing web content in a browser due to monitor size, device type, poor lighting, or other situations. Reflow can be turned off with a system property for instances, experiences, and pages.
 
-    See [Reflow for Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/auto-reflow.md) for details.
+    See  for details.
 
 
 ## Related ServiceNow applications and features
 
--   **[Now Assist for Collaborative Work Management \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/now-assist-for-cwm-landing.md)**
+-   **[ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/now-assist-for-cwm-landing.md)**
 
-    Now Assist for CWM application uses generative AI skills to save time and improve efficiency for the actions you perform within the CWM workspace.
+    ServiceNow Otto for CWM application uses generative AI skills to save time and improve efficiency for the actions you perform within the CWM workspace.
 
 -   **[Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/alignment-planner-workspace-landing-page.md)**
 

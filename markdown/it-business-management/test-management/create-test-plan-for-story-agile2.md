@@ -36,7 +36,7 @@ Create a test, add steps to the test, and create and maintain different versions
 
 4.  Click **Add Test**.
 
-5.  To link an existing test to a story instead of creating a new one, open the story record from the sprint list and locate the **Tests** related list to add the pre-existing test.
+5.  To link an existing test rather than creating one, open the story record from the sprint list and locate the **Tests** related list to add the test.
 
     To create a standalone test to link later, see [Create a test in Test Management 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/test-management/create-test2.md).
 

@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
 keywords: [generative AI for IT Operations Management, generative AI for ITOM, alert group analysis, Express List]
-breadcrumb: [Using skills in Now Assist for ITOM, Now Assist for ITOM, IT Operations Management]
+breadcrumb: [Using skills in ServiceNow Otto for ITOM, ServiceNow Otto for ITOM, IT Operations Management]
 ---
 
 # View an alert group analysis by Now Assist in Express List
@@ -21,7 +21,7 @@ View an alert group analysis created by ServiceNow® Now Assist using generative
 
 Install the ITOM plugin in the Now Assist feature. For more information, see [Install the Now Assist for IT Operations Management \(ITOM\) plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/install-now-assist-itom.md).
 
-View important information about the ServiceNow® Now Assist for IT Operations Management \(ITOM\) application in [Now Assist for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/now-assist-itom.md).
+View important information about the ServiceNow® ServiceNow Otto for IT Operations Management \(ITOM\) application in [ServiceNow Otto for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/now-assist-itom.md).
 
 Role required: evt\_mgmt\_operator
 
@@ -65,7 +65,7 @@ Refresh the alert analysis.**Note:** Refreshing regenerates the results. Past re
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using skills in Now Assist for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-use.md)
+**Parent Topic:**[Using skills in ServiceNow Otto for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-use.md)
 
 **Related topics**  
 

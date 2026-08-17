@@ -16,7 +16,7 @@ The ServiceNow® Public Sector Digital Services application enables government a
 
 -   Review requests for grants, and create new grant programs using Grants Management.
 -   Connect multiple ServiceNow instances to provide seamless support and service experiences across the Public Sector​ using for Service Bridge for Public Sector Digital Services.
--   Utilize the Chat summarization skill, powered by Now LLM Service, to auto-generate chat summaries for customer-agent interactions in the Now Assist for Public Sector Digital Services \(PSDS\) application.
+-   Utilize the Chat summarization skill, powered by Now LLM Service, to auto-generate chat summaries for customer-agent interactions in the ServiceNow Otto for Public Sector Digital Services \(PSDS\) application.
 
 See [Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/government-industry/bun-public-sector-landing-page.md) for more information.
 
@@ -36,9 +36,9 @@ After the upgrade, certain public sector menus and menu items in the CSM Configu
 
     Connect multiple ServiceNow instances to provide seamless support and service experiences across the Public Sector​ using Service Bridge for Public Sector Digital Services. Service Bridge enables unified case collaboration across agencies, streamlined approval workflows for funding distribution, and real-time crisis coordination with dynamic task management. Agencies can share citizen &amp; agency data securely through ​compliance-driven access.​​​
 
--   **[Post-chat summarization in Now Assist for Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/government-industry/now-assist-psds-summarize-chat.md)**
+-   **[Post-chat summarization in ServiceNow Otto for Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/government-industry/now-assist-psds-summarize-chat.md)**
 
-    Condense chat records into short summaries using the chat summarization skill in the Now Assist for PSDS application. Agents can use the chat summarization skill to generate chat records for a case, auto-populate the chat summary into the Interaction section of the case record, and obtain a summary of the main points discussed during the chat, helping them propose a case resolution. The Now Assist for PSDS application brings generative AI chat summarization to Public Sector Digital Services.
+    Condense chat records into short summaries using the chat summarization skill in the ServiceNow Otto for PSDS application. Agents can use the chat summarization skill to generate chat records for a case, auto-populate the chat summary into the Interaction section of the case record, and obtain a summary of the main points discussed during the chat, helping them propose a case resolution. The ServiceNow Otto for PSDS application brings generative AI chat summarization to Public Sector Digital Services.
 
 
 ## Changed in this release
@@ -50,7 +50,7 @@ After the upgrade, certain public sector menus and menu items in the CSM Configu
 
 ## Activation information
 
-Install Public Sector Digital Services applications by requesting them from the ServiceNow Store. For details on installing the applications, see [Configuring Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/government-industry/configuring-public-sector-digital-services.md). Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install Public Sector Digital Services applications by requesting them from the ServiceNow Store. For details on installing the applications, see [Configuring Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/government-industry/configuring-public-sector-digital-services.md). Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Related ServiceNow applications and features
 

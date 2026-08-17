@@ -46,63 +46,63 @@ Yokohama Patch 6
 -   Knowledge Graph creates a complex data model called Knowledge Graph schema with numerous entities and their relation within a few steps.
 -   Knowledge Graph admins can use Knowledge Graph to create and manage the Knowledge Graph schemas. These Knowledge Graph schemas are the customized Knowledge Graph that consist of nodes, node properties, and edges.
 
-See [Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/knowledge-graph-landing.md) for more information.
+See  for more information.
 
 **Important:** Knowledge Graph is enabled automatically in your BU Generative AI Application. For details, see the "Activation information" section of these release notes.
 
 ## Knowledge Graph features
 
--   **[Test a Knowledge Graph schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/test-a-knowledge-graph-schema.md)**
+-   ****
 
     Enter a query and test the Knowledge Graph schema using different LLM options. You can also add previous conversations before you run the query.
 
 
--   **[Access Knowledge Graph Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/access-knowledge-graph-designer.md)**
+-   ****
 
     Knowledge Graph now has a new NLQ graph schema available prebuilt along with user profile schema. See [KB article](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2069778) for schema attributes.
 
 
--   **[Leverage Knowledge Graph prebuilt integration with Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/example-use-case-for-knowledge-graph.md)**
+-   ****
 
     Knowledge Graph provides the following new prebuilt integrations:
 
     -   Integration with Now Assist Virtual Agent: Helps requesters with personalized responses on people queries and Natural Language queries. Also supports people citation card.
 
--   **[Leverage Knowledge Graph prebuild integration with AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/leverage-knowledge-graph-prebuild-integration-with-agentic-ai.md)**
+-   ****
 
     Knowledge Graph provides the following prebuilt integrations:
 
     -   Integration with Now Assist AI agents for User Context: Helps users with personalized responses.
     -   Integration with AI agents as a tool: Used to perform specific tasks that are assigned to the AI agents.
 
--   **[Exploring Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/exploring-knowledge-graph.md)**
+-   ****
 
     Knowledge Graph helps requesters with personalized responses using its Integration with Now Assist Virtual Agent for User Context.
 
     Use Knowledge Graph integration with Now Assist Virtual Agent for Slot filling to helps pre-fill the slots for Virtual Agent topics using Natural Language Querying feature of Knowledge Graph.
 
--   **[Leverage Knowledge Graph prebuilt integration with Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/example-use-case-for-knowledge-graph.md)**
+-   ****
 
     Use the Knowledge Graph integrations with Now Assist Virtual Agent to utilize Knowledge Graph APIs built with LLM models, for personalized responses and slot-filling fields to execute LLM topics and skills in Virtual Agent.
 
--   **[Using Knowledge Graph Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/using-knowledge-graph-designer.md)**
+-   ****
 
     Use Knowledge Graph designer to manage Knowledge Graph schemas, their nodes, node properties and edges. You can also use the interface to create, edit, duplicate, or delete a Knowledge Graph schema.
 
 
 ## Changed in this release
 
--   **[Changes to Now Assist usage measurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/monitoring-now-assist-usage.md)**
+-   **Changes to Now Assist usage measurement**
 
     Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
--   **[Some Now Assist skills are turned on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md)**
+-   **Some Now Assist skills are turned on by default**
 
     The new default behavior works as follows:
 
     -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
     -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
--   **[Configure ACLs for AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/aia-security-implementation.md)**
+-   **Configure ACLs for AI agents and agentic workflows**
 
     Configure the access control lists for who can discover and trigger AI agents and agentic workflows in their guided setups in AI Agent Studio. You can determine whether an AI agent or agentic workflow behaves as a dynamic user or as an AI user. You can also specify if an AI agent or agentic workflow can be available to all authenticated users or publicly available.
 
@@ -121,7 +121,7 @@ Ensure that your instance is upgraded to XP7.
 
     ServiceNow® Now Assist uses generative AI that is designed to enhance user productivity and efficiency through conversation and proactive experiences.
 
--   **[Now Assist in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/now-assist-ais.md)**
+-   ****
 
     The Now Assist in AI Search ServiceNow® Store application combines the power of search with the Now LLM Service generative AI model to answer questions in user searches with actionable AI-generated summaries of relevant Knowledge articles.
 

@@ -9,7 +9,7 @@ classification: event-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 3
-breadcrumb: [Event Management Connectors domain personalization, Event Management Integrations, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Event Management Connectors domain personalization, Event Management Integrations, Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
 ---
 
 # Personalize domains for pull connector events to use in event creation
@@ -62,15 +62,15 @@ Role required: evt\_mgmt\_admin
 
 9.  In the Connector Instance Values list, provide a value in the **Value** field of the parameters.
 
-<table id="choicetable_bfv_4yr_3zb"><thead><tr><th align="left" id="d643269e323">
+<table id="choicetable_bfv_4yr_3zb"><thead><tr><th align="left" id="d643641e323">
 
 Parameter
 
-</th><th align="left" id="d643269e326">
+</th><th align="left" id="d643641e326">
 
 Value
 
-</th></tr></thead><tbody><tr><td id="d643269e332">
+</th></tr></thead><tbody><tr><td id="d643641e332">
 
 **__payloadDomainInfoFieldValue__**
 
@@ -78,7 +78,7 @@ Value
 
 The value that will be used to match the domain record. For example, ServiceNow.
 
-</td></tr><tr><td id="d643269e342">
+</td></tr><tr><td id="d643641e342">
 
 **__payloadDomainInfoFieldName__**
 

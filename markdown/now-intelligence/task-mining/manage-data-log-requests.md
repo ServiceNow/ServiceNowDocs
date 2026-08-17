@@ -7,7 +7,7 @@ release: yokohama
 product: Task Mining
 classification: task-mining
 topic_type: task
-last_updated: "2024-08-26"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Requesting workstation user data, Use, Task Mining, Platform Analytics]
 ---
@@ -24,7 +24,7 @@ Role required: sn\_tm\_core.power\_user, sn\_tm\_core.admin
 
 1.  Navigate to **Workspaces** &gt; **Task Mining Workspace**.
 
-2.  Select the Data icon \(\[Omitted image "task-mining-data-icon.png"\] Alt text: Task Mining Data icon\).
+2.  Select the Data icon \[Omitted image "task-mining-data-icon.png"\].
 
 3.  Under **Data Request**, select **All**.
 

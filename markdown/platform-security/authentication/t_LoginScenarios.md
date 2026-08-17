@@ -1,5 +1,5 @@
 ---
-title: Defining login scenarios
+title: Define login scenarios
 description: You can direct all users to the same page after login.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/authentication/t\_LoginScenarios.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 2
+last_updated: "2026-03-12"
+reading_time_minutes: 1
 breadcrumb: [Local Authentication, Authentication, Access Management]
 ---
 
-# Defining login scenarios
+# Define login scenarios
 
 You can direct all users to the same page after login.
 
@@ -21,12 +21,6 @@ You can direct all users to the same page after login.
 Role required: admin
 
 ## About this task
-
-When users log on to an instance directly, such as going to http://\{instance\_name\}.service-now.com/, the system does the following:
-
-1.  Accesses the value in the property **glide.entry.page.script**. The default value of the property is derived from a script include named CMSEntryPage.
-2.  Directs the user to the instance login page if the entry page requires a login.
-3.  Applies login rules, if any, to the user.
 
 To force the system to direct all users to the same page after login:
 

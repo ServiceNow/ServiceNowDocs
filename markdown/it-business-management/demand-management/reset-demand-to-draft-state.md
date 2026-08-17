@@ -70,5 +70,5 @@ A demand can be reset to Draft from the Completed, Approved, Screening, or Submi
 
 [PPM PIWB template - Find similar demands]()
 
-[Identify similar records using Now Assist for Strategic Portfolio Management \(SPM\)]()
+[Identify similar records using ServiceNow Otto for Strategic Portfolio Management]()
 

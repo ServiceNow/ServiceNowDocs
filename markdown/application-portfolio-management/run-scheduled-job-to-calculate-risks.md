@@ -18,7 +18,7 @@ The risks on the product model and business application is time dependent. Based
 
 **Important:**
 
-Starting with the Xanadu release, the legacy Technology Portfolio Management module is moved to the Enterprise Architecture Workspace. To learn more, see [Managing the Technology Portfolio Management \(TPM\) in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-tpm.md).
+Starting with the Xanadu release, the legacy Technology Lifecycle Management module is moved to the Enterprise Architecture Workspace. To learn more, see [Managing the Technology Lifecycle Management \(TLM\) in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-tpm.md).
 
 Role required: admin
 

@@ -9,7 +9,7 @@ classification: health-log-analytics
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Health Log Analytics, ITOM AIOps, IT Operations Management]
+breadcrumb: [Health Log Analytics, ITOM Health, IT Operations Management]
 ---
 
 # Influencing anomaly detection with lexical keywords
@@ -40,5 +40,5 @@ Manage the keywords that Health Log Analytics looks for in your log data.
 -   **[View the lexical keywords that generate alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-op-lexical-keywords-manage.md)**  
 View the list of lexical keywords that can indicate important issues in log entries.
 
-**Parent Topic:**[ITOM AIOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-health-landing-page.md)
+**Parent Topic:**[ITOM Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-health-landing-page.md)
 

@@ -9,7 +9,7 @@ classification: now-assist-for-wsd
 topic_type: concept
 last_updated: "2025-08-25"
 reading_time_minutes: 5
-breadcrumb: [Using AI agent workflows in Now Assist for WSD, Now Assist for Workplace Service Delivery \(WSD\), Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Using AI agent workflows in Now Assist for WSD, Now Assist for WSD, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Optimize cleaning activities agent overview

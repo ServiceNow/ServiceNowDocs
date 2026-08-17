@@ -9,7 +9,7 @@ classification: now-assist-for-wsd
 topic_type: concept
 last_updated: "2025-09-07"
 reading_time_minutes: 4
-breadcrumb: [Using AI agent workflows in Now Assist for WSD, Now Assist for Workplace Service Delivery \(WSD\), Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Using AI agent workflows in Now Assist for WSD, Now Assist for WSD, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Manage temporary space closures agentic workflow
@@ -18,7 +18,7 @@ This team of AI agents temporarily block a location when there’s an emergency 
 
 ## Manage temporary space closures workflow overview
 
-AI agent executes maintenance tasks, blocks a room for maintenance, and moves any existing reservation to another location when the emergency workplace maintenance requested is assigned to a user in the Workplace Event Planners assignment group. For more information, see [Submit an emergency maintenance request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-case-management/submit-emergency-maint-request.md).
+When an emergency workplace maintenance request is assigned to a user in the Workplace Event Planners assignment group, the AI agent executes maintenance tasks and blocks the room for maintenance. The agent moves any existing reservation to another location. For more information, see [Submit an emergency maintenance request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-case-management/submit-emergency-maint-request.md).
 
 The team of AI agents block a room for emergency maintenance and move any existing reservations from the blocked location to another location. Multi-building and group reservations are also handled by the agents. AI agents send notification to Workplace Event planners using the Now Assist panel. The team of AI agents autonomously perform the following:
 

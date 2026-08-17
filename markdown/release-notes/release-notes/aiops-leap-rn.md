@@ -21,50 +21,50 @@ The ServiceNow® AIOps LEAP application uses AI driven insights to create standa
 -   Use published LEAP in SOW to resolve a new incident quickly.
 -   Use a value dashboard for performance analysis and enhancement.
 
-See [AIOps Learning Enhanced Automation Playbook \(LEAP\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/aiops-leap.md) for more information.
+See  for more information.
 
 **Important:** AIOps LEAP is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## AIOps LEAP features
 
--   **[Incident clustering and comprehensive summaries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/aiops-leap-features.md)**
+-   **Incident clustering and comprehensive summaries**
 
     AIOps LEAP smartly categorizes IT incidents based on short descriptions and assignment groups. It uses historical data to get a deeper understanding of issues and summarizes them into actionable resolutions. AIOps LEAP consolidates information from different incidents to help with decision making and serves as a repository of knowledge.
 
--   **[Group incidents to create automation opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/aiops-leap-features.md)**
+-   **Group incidents to create automation opportunities**
 
     AIOps LEAP uses the ServiceNow® GAF \(Group Action Framework\) plugin to organize and group incidents based on specific parameters. These groups are clusters or automation opportunities. They are created by analyzing incident data such as work notes and resolution notes. AIOps LEAP uses these automation opportunities to generate resolution steps to help solve similar future incidents.
 
--   **[Automation recommendations and playbook generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/aiops-leap-features.md)**
+-   **Automation recommendations and playbook generation**
 
     AIOps LEAP identifies frequent issues and offers automation recommendations to address them. It streamlines and optimizes operational processes by creating actionable playbooks based on historical data and resolution workflows. Additionally, it builds a knowledge base by documenting workflows and solutions through detailed resolution steps, enabling further analysis, learning, and continuous improvement. These resolution steps can be shared across teams to facilitate collaboration and enhance operational efficiency, even without formal playbook creation. Thus, automated playbook generation is a valuable output of the AIOps LEAP platform.
 
 
 ## New in the Yokohama release
 
--   **[Enhanced opportunities page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/aiops-leap-features.md)**
+-   **Enhanced opportunities page**
 
     Enhancements &amp; Design changes to load all opportunities and enable to select all cards.
 
 
 ## UI changes
 
--   **[Pin automation opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/aiops-leap-features.md)**
+-   **Pin automation opportunities**
 
     You can pin the automation opportunities required for ease of access and research.
 
--   **[Automation feedback and tracking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/aiops-leap-features.md)**
+-   **Automation feedback and tracking**
 
     You can provide your feedback on the available resolution steps and playbooks. Each activity on the automation activity is tracked and recorded.
 
--   **[Filters for automation opportunities and playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/aiops-leap-features.md)**
+-   **Filters for automation opportunities and playbooks**
 
     You can customize filters on the automation opportunity dashboard to filter them according your requirement for analysis. These filters are retained even when the page is refreshed.
 
 
 ## AIOps LEAP Activation information
 
-Install AIOps LEAP by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install AIOps LEAP by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 Use one of the following steps to activate **AIOps LEAP**.
 
@@ -105,9 +105,9 @@ You should have the following dependencies installed:
 
 ## Related ServiceNow applications and features
 
--   **[Now Assist for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/now-assist-itom.md)**
+-   ****
 
-    The ServiceNow® Now Assist for IT Operations Management \(ITOM\) application uses generative AI to provide alert analyses in Event Management. Alert analysis include a human-readable brief of the alert and technical information to help you investigate the alert more effectively.
+    The ServiceNow® ServiceNow Otto for IT Operations Management \(ITOM\) application uses generative AI to provide alert analyses in Event Management. Alert analysis include a human-readable brief of the alert and technical information to help you investigate the alert more effectively.
 
 
 **Parent Topic:**[IT Operations Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/it-operations-management-rn-landing.md)

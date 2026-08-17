@@ -30,7 +30,7 @@ Role required: admin
 
     It is likely to already be active, especially if you installed and activated a Now Assist application and plugin that has Now Assist for Platform as a dependency.
 
-2.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills**.
+2.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Skills**.
 
 3.  In the product area pane, select **Data and analytics** &gt; **Analytics**.
 

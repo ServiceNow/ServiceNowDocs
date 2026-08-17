@@ -1,6 +1,6 @@
 ---
-title: Configure Now Assist for RPA Hub
-description: If you have the admin role, you can configure the Now Assist for RPA Hub application so that your human agents or users can get started with developing automations faster.
+title: Configure ServiceNow Otto for RPA Hub
+description: If you have the admin role, you can configure the ServiceNow Otto for RPA Hub application so that your human agents or users can get started with developing automations faster.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/rpa-hub/configure-now-assist-rpa-hub.html
 release: yokohama
@@ -10,58 +10,58 @@ topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 2
 keywords: [Now Assist, generative AI]
-breadcrumb: [Now Assist for RPA Hub, Robotic Process Automation \(RPA\) Hub, Data and Automation]
+breadcrumb: [ServiceNow Otto for RPA Hub, Robotic Process Automation \(RPA\) Hub, Data and Automation]
 ---
 
-# Configure Now Assist for RPA Hub
+# Configure ServiceNow Otto for RPA Hub
 
-If you have the admin role, you can configure the Now Assist for RPA Hub application so that your human agents or users can get started with developing automations faster.
+If you have the admin role, you can configure the ServiceNow Otto for RPA Hub application so that your human agents or users can get started with developing automations faster.
 
 ## Before you begin
 
--   Review the Now Assist for RPA Hub application listing in ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
+-   Review the ServiceNow Otto for RPA Hub application listing in ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
 -   Perform these steps in your ServiceNow instance.
 -   Role required: admin
 
 ## About this task
 
-**Important:** The Now Assist for RPA Hub requires a separate subscription to Now Assist for Creator.
+**Important:** The ServiceNow Otto for RPA Hub requires a separate subscription to ServiceNow Otto for Creator.
 
 Refer to the [Now Assist Overview](https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/legal/sn-assist-overview.pdf) to see the prebuilt skills that exist and are currently available for purchase in ServiceNow Now Assist packages and to review the number of assists consumed.
 
 ## Procedure
 
-1.  Perform any of the following tasks to install the Now Assist for RPA Hub application.
+1.  Perform any of the following tasks to install the ServiceNow Otto for RPA Hub application.
 
-<table id="choicetable_b2q_dpq_y2c"><thead><tr><th align="left" id="d117649e113">
+<table id="choicetable_b2q_dpq_y2c"><thead><tr><th align="left" id="d117697e113">
 
 Option
 
-</th><th align="left" id="d117649e116">
+</th><th align="left" id="d117697e116">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d117649e122">
+</th></tr></thead><tbody><tr><td id="d117697e122">
 
 **From Now Assist Admin**
 
 </td><td>
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Settings** &gt; **Plugins**.
-2.  On the **Available for you** tab, select **Now Assist for RPA Hub**.
+1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Settings** &gt; **Plugins**.
+2.  On the **Available for you** tab, select **ServiceNow Otto for RPA Hub**.
 3.  Select **Get plugins**.
-4.  In the Install Now Assist for RPA Hub plugins, select **Install Plugin**.
+4.  In the Install ServiceNow Otto for RPA Hub plugins, select **Install Plugin**.
 5.  Select **Install**.
 
 
-</td></tr><tr><td id="d117649e184">
+</td></tr><tr><td id="d117697e184">
 
 **From System Applications**
 
 </td><td>
 
 1.  Navigate to **All** &gt; **System Applications** &gt; **All Available Applications** &gt; **All**.
-2.  Find the Now Assist for RPA Hub application \(sn\_rpa\_na\) using the filter criteria and search bar.
+2.  Find the ServiceNow Otto for RPA Hub application \(sn\_rpa\_na\) using the filter criteria and search bar.
 
 You can search for the application by its name or ID. If you cannot find the application, you might have to request it from the ServiceNow Store.
 
@@ -79,7 +79,7 @@ In the Install dialog box that is displayed, any dependencies that are installed
 </table>
 ## Result
 
-To view the installed plugins, navigate to **All** &gt; **Now Assist Admin** &gt; **Settings** &gt; **Plugins**. You can view Now Assist for RPA Hub in the Installed tab.\[Omitted image "installed-narh-plugin.png"\] Alt text: Plugins tab that displays the Now Assist for RPA Hub as installed.
+To view the installed plugins, navigate to **All** &gt; **AI Admin Hub** &gt; **Settings** &gt; **Plugins**. You can view ServiceNow Otto for RPA Hub in the Installed tab.\[Omitted image "installed-narh-plugin.png"\] Alt text: Plugins tab that displays the ServiceNow Otto for RPA Hub as installed.
 
 ## What to do next
 

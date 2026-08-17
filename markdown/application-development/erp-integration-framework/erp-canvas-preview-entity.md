@@ -1,6 +1,6 @@
 ---
-title: Preview a model entity in Zero Copy Connector for ERP
-description: Preview read table entities in Zero Copy Connector for ERP to examine and verify the entity before adding it to a model.
+title: Preview a model entity in ERP Canvas
+description: Preview read table entities in ERP Canvas to examine and verify the entity before adding it to a model.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-integration-framework/erp-canvas-preview-entity.html
 release: yokohama
@@ -8,13 +8,13 @@ product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: task
 last_updated: "2025-03-28"
-reading_time_minutes: 3
-breadcrumb: [Add a read, update, or create entity to a model in Zero Copy Connector for ERP, Building and managing ERP models to work with ERP data, Using ERP models, extraction tables, and remote tables, Zero Copy Connector for ERP, Building low-code applications, Developing your application, Building applications]
+reading_time_minutes: 2
+breadcrumb: [Add a read, update, or create entity to a model in ERP Canvas, Building and managing ERP models to work with ERP data, Using ERP models, extraction tables, and remote tables, ERP Canvas, Building low-code applications, Developing your application, Building applications]
 ---
 
-# Preview a model entity in Zero Copy Connector for ERP
+# Preview a model entity in ERP Canvas
 
-Preview read table entities in Zero Copy Connector for ERP to examine and verify the entity before adding it to a model.
+Preview read table entities in ERP Canvas to examine and verify the entity before adding it to a model.
 
 ## Before you begin
 
@@ -24,7 +24,7 @@ Previewing a model entity is available starting in the Yokohama Patch 3 \(May 20
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home**.
+1.  Navigate to **All** &gt; **ERP Canvas** &gt; **ERP Canvas Home**.
 
 2.  Open the ERP model page by selecting the ERP model icon \[Omitted image "erpc-data-model-icon.png"\] in the side panel.
 
@@ -95,7 +95,7 @@ After viewing tables, select **Manage entities**, then **Select entity**. In **S
 
 \[Omitted image "erpc-preview-entity-manage-entities.png"\] Alt text: Manage model page with manage entities option highlighted.
 
-For detailed information about adding entities, see [Add a read, update, or create entity to a model in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erpc-add-entity-to-model-op.md).
+For detailed information about adding entities, see [Add a read, update, or create entity to a model in ERP Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erpc-add-entity-to-model-op.md).
 
-**Parent Topic:**[Add a read, update, or create entity to a model in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erpc-add-entity-to-model-op.md)
+**Parent Topic:**[Add a read, update, or create entity to a model in ERP Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erpc-add-entity-to-model-op.md)
 

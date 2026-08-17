@@ -30,15 +30,15 @@ If you’re using Software Asset Workspace, the option to create user subscripti
 
 1.  Navigate to the Create New Software Subscription form.
 
-<table id="choicetable_sw5_ydb_ddc"><thead><tr><th align="left" id="d151481e77">
+<table id="choicetable_sw5_ydb_ddc"><thead><tr><th align="left" id="d152325e77">
 
 Interface
 
-</th><th align="left" id="d151481e80">
+</th><th align="left" id="d152325e80">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d151481e86">
+</th></tr></thead><tbody><tr><td id="d152325e86">
 
 **Core UI**
 
@@ -46,7 +46,7 @@ Action
 
 Navigate to **All** &gt; **Software Asset** &gt; **Software Subscriptions**.
 
-</td></tr><tr><td id="d151481e108">
+</td></tr><tr><td id="d152325e108">
 
 **Software Asset Workspace**
 

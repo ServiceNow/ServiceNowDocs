@@ -1,6 +1,6 @@
 ---
-title: Using Now Assist for Integrated Risk Management \(IRM\) skills
-description: Use the generative AI skills that are supported by the Now Assist for Integrated Risk Management \(IRM\) application for quick actions with issues.
+title: Using ServiceNow Otto for Integrated Risk Management \(IRM\) skills
+description: Use the generative AI skills that are supported by the ServiceNow Otto for Integrated Risk Management \(IRM\) application for quick actions with issues.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/grc-common-functions/using-now-assist-for-irm-to-summarize-issues.html
 release: yokohama
@@ -13,23 +13,23 @@ keywords: [Now Assist, generative AI]
 breadcrumb: [Now Assist, Common GRC features, Governance, Risk, and Compliance]
 ---
 
-# Using Now Assist for Integrated Risk Management \(IRM\) skills
+# Using ServiceNow Otto for Integrated Risk Management \(IRM\) skills
 
-Use the generative AI skills that are supported by the Now Assist for Integrated Risk Management \(IRM\) application for quick actions with issues.
+Use the generative AI skills that are supported by the ServiceNow Otto for Integrated Risk Management \(IRM\) application for quick actions with issues.
 
-Now Assist for IRM leverages generative AI to streamline risk and compliance processes. It provides pre-built skills and supports custom skill development for tasks like summarization, recommendations, and rationalization.
+ServiceNow Otto for IRM leverages generative AI to streamline risk and compliance processes. It provides pre-built skills and supports custom skill development for tasks like summarization, recommendations, and rationalization.
 
 **Important:** Some Now Assist skills, agents, and agentic workflows are turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
-These skills are configured via the Now Assist Admin console.
+These skills are configured via the AI Admin Hub console.
 
-By default, all skills exist in the global domain. When you use Now Assist in a domain-separated environment, users are only able to access data in their domain. For example, if a user uses the summarization skill, Now Assist only uses material that exists in the user's domain when generating that summary. Additionally, there is no co-mingling of data for domain-separated instances when using generative AI skills. The data resides only on the instance, and the shared services used for generative AI do not persist any requests \(prompts\) and responses. For more information, see [Domain separation in the Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/domain-separation-in-the-now-assist-admin-console.md). \(Note that global domain is not the same as global scope. For more information, see [Exploring Next Experience pickers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/next-experience-pickers.md).\)
+By default, all skills exist in the global domain. When you use Now Assist in a domain-separated environment, users are only able to access data in their domain. For example, if a user uses the summarization skill, Now Assist only uses material that exists in the user's domain when generating that summary. Additionally, there is no co-mingling of data for domain-separated instances when using generative AI skills. The data resides only on the instance, and the shared services used for generative AI do not persist any requests \(prompts\) and responses. For more information, see [Domain separation in the AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/domain-separation-in-the-now-assist-admin-console.md). \(Note that global domain is not the same as global scope. For more information, see [Exploring Next Experience pickers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/next-experience-pickers.md).\)
 
 For more information on language support, see [Multilingual service for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/translation-for-now-assist.md) and [Multilingual support for ServiceNow generative AI products](https://www.servicenow.com/community/now-assist-articles/multilingual-support-for-servicenow-generative-ai-products/ta-p/3099258).
 
-## Modify the instructions for Now Assist for IRM skills
+## Modify the instructions for ServiceNow Otto for IRM skills
 
-Starting with the Yokohama patch 3 release, users who have Now Assist for IRM installed can use the skills powered by Now Assist for IRM.
+Starting with the Yokohama patch 3 release, users who have ServiceNow Otto for IRM installed can use the skills powered by ServiceNow Otto for IRM.
 
 To modify the prompts for the skills, follow the steps that are mentioned in [KB1806035](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1806035).
 

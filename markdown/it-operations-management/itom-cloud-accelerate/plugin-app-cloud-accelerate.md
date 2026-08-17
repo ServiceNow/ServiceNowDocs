@@ -22,7 +22,7 @@ The CSC Content Pack plugin \(sn\_itom\_csc\_cp\) provides the required predefin
 
 |Plugin or application name|Description|
 |--------------------------|-----------|
-|Cloud Services Catalog Terraform Connector \(sn\_cmp\_terraform\)|Integrates Terraform Open Source, Terraform Enterprise, and Terraform Cloud with ITOM Cloud Provisioning and Governance \(CPG\), enabling you to provision and manage services in multiple clouds like AWS, Azure, GCP, and VMware. The Terraform templates are codified as cloud template catalogs that you can use to provision cloud resources.|
+|Cloud Provisioning and Governance: Terraform Connector \(sn\_cmp\_terraform\)|Integrates Terraform Open Source, Terraform Enterprise, and Terraform Cloud with ITOM Cloud Provisioning and Governance \(CPG\), enabling you to provision and manage services in multiple clouds like AWS, Azure, GCP, and VMware. The Terraform templates are codified as cloud template catalogs that you can use to provision cloud resources.|
 |Cloud Discovery Workspace \(sn\_cloud\_ops\_ws\)|Offers a comprehensive solution to manage the cloud operations of your organization.|
 |Cloud Provisioning and Governance \(com.snc.cloud.mgmt\)|Provides a single interface to access cloud resources, publish cloud offerings to a catalog, and manage the use of those resources.|
 |Guided Setup \(sn\_ads\_setup\)|Enables you to step through the initial configuration of any product or application that provides a Guided Setup module. Guided Setup assists you with planning the roll-out of a product and performing the basic configuration necessary to go live.|
@@ -92,5 +92,5 @@ The CCG Content Pack plugin \(sn\_itom\_ccg\_cp\) provides optional predefined c
 
 [Plugins activated with ITOM Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/plugin-itom-optimization.md)
 
-[Applications installed with Now Assist for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/app-now-assist-itom.md)
+[Applications installed with ServiceNow Otto for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/app-now-assist-itom.md)
 

@@ -1,6 +1,6 @@
 ---
 title: Tracking controls and data collection behavior
-description: Understand what happens when you opt out of the consent pop-up in the Usage Insights UI
+description: Understand what happens when you opt out of the consent pop-up in the User Experience Analytics UI
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/usage-insights/uxa-tracking-controls-and-data-collection-behavior.html
 release: yokohama
@@ -14,15 +14,15 @@ breadcrumb: [Types of tracking consent policies, User privacy, tracking, and con
 
 # Tracking controls and data collection behavior
 
-Understand what happens when you opt out of the consent pop-up in the Usage Insights UI
+Understand what happens when you opt out of the consent pop-up in the User Experience Analytics UI
 
-When an end-user opts out of data collection via the consent pop-up in their Usage Insights UI, their individual session timeline and interaction details are no longer visible in the Usage Insights dashboard. However, their hashed user ID and session data continue to be collected and included in aggregate metrics \(such as Active Users, Sessions, and Average Session Duration\) so that these counts remain accurate. This is called Basic Tracking.
+When an end-user opts out of data collection via the consent pop-up in their User Experience Analytics UI, their individual session timeline and interaction details are no longer visible in the User Experience Analytics dashboard. However, their hashed user ID and session data continue to be collected and included in aggregate metrics \(such as Active Users, Sessions, and Average Session Duration\) so that these counts remain accurate. This is called Basic Tracking.
 
 The consent pop-up remains a transparency and compliance tool. Customers can configure the consent message language and link to their own privacy policy. The pop-up is not required by default but can be enabled per the customer's compliance requirements.
 
-When an admin disables Usage Insights on the instance \(via the glide.analytics.enabled system property\), the Usage Insights dashboard is no longer accessible and no analytics data is displayed. The behavior is functionally the same as opting out via the consent pop-up: underlying data is still collected to support aggregate metric calculations.
+When an admin disables User Experience Analytics on the instance \(via the glide.analytics.enabled system property\), the User Experience Analytics dashboard is no longer accessible and no analytics data is displayed. The behavior is functionally the same as opting out via the consent pop-up: underlying data is still collected to support aggregate metric calculations.
 
-**Note:** To fully disable all Usage Insights data collection for an instance, contact ServiceNow® Support by creating a case through Now Support \(support.servicenow.com\). Note that fully disabling data collection means the instance will no longer contribute to aggregated usage metrics used to monitor service health, facilitate feature delivery, and help customers benefit from the latest platform capabilities.
+**Note:** To fully disable all User Experience Analytics data collection for an instance, contact ServiceNow® Support by creating a case through Now Support \(support.servicenow.com\). Note that fully disabling data collection means the instance will no longer contribute to aggregated usage metrics used to monitor service health, facilitate feature delivery, and help customers benefit from the latest platform capabilities.
 
-**Parent Topic:**[Types of tracking consent policies in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/uxa-tracking-types.md)
+**Parent Topic:**[Types of tracking consent policies in User Experience Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/uxa-tracking-types.md)
 

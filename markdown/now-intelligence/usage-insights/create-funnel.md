@@ -9,7 +9,7 @@ classification: usage-insights
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Conversion funnels, Using Usage Insights, User Experience Analytics, Platform Analytics]
+breadcrumb: [Conversion funnels, Using User Experience Analytics, User Experience Analytics, Platform Analytics]
 ---
 
 # Create a conversion funnel
@@ -34,7 +34,7 @@ Role required: Users with the analytics\_viewer, portal\_analytics\_viewer, mobi
 
 6.  From the **Step Type** options, select steps you want to measure, and screens, events, or actions as applicable.
 
-<table id="choicetable_fsr_qbg_wjb"><tbody><tr><td id="d83358e119">
+<table id="choicetable_fsr_qbg_wjb"><tbody><tr><td id="d83958e119">
 
 **Event Trigger**
 
@@ -42,7 +42,7 @@ Role required: Users with the analytics\_viewer, portal\_analytics\_viewer, mobi
 
 Select [User Analytics Events KPIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/view-events.md) to measure. To match a selected event by a certain property, select **Filter properties**, select a property from the drop down, and enter a value for the property.
 
-</td></tr><tr><td id="d83358e141">
+</td></tr><tr><td id="d83958e141">
 
 **Session Start \(1st\)**
 
@@ -50,7 +50,7 @@ Select [User Analytics Events KPIs](https://raw.githubusercontent.com/ServiceNow
 
 Select to measure users' first sessions.
 
-</td></tr><tr><td id="d83358e150">
+</td></tr><tr><td id="d83958e150">
 
 **Session Start \(any\)**
 
@@ -68,5 +68,5 @@ Select to measure any user sessions.
 9.  Select **Add** to finish the funnel.
 
 
-**Parent Topic:**[Funnel reports in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/funnel-reports-uxa.md)
+**Parent Topic:**[Funnel reports in User Experience Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/funnel-reports-uxa.md)
 

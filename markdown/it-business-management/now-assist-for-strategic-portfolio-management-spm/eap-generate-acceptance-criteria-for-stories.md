@@ -1,5 +1,5 @@
 ---
-title: Generate acceptance criteria for EAP stories using Now Assist for Strategic Portfolio Management \(SPM\)
+title: Generate acceptance criteria for EAP stories using ServiceNow Otto for Strategic Portfolio Management
 description: Create clear, comprehensive, and testable acceptance criteria for user stories without writing them manually in Enterprise Agile Planning \(EAP\). Review and refine suggested options to ensure they meet your requirements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/eap-generate-acceptance-criteria-for-stories.html
@@ -9,21 +9,21 @@ classification: now-assist-for-strategic-portfolio-management-spm
 topic_type: task
 last_updated: "2025-12-03"
 reading_time_minutes: 1
-breadcrumb: [Using Now Assist for Strategic Portfolio Management \(SPM\), Now Assist for Strategic Portfolio Management \(SPM\), Strategic Portfolio Management]
+breadcrumb: [Using ServiceNow Otto for Strategic Portfolio Management, ServiceNow Otto for Strategic Portfolio Management, Strategic Portfolio Management]
 ---
 
-# Generate acceptance criteria for EAP stories using Now Assist for Strategic Portfolio Management \(SPM\)
+# Generate acceptance criteria for EAP stories using ServiceNow Otto for Strategic Portfolio Management
 
 Create clear, comprehensive, and testable acceptance criteria for user stories without writing them manually in Enterprise Agile Planning \(EAP\). Review and refine suggested options to ensure they meet your requirements.
 
 ## Before you begin
 
-Ensure that Now Assist for SPM is installed in your instance and that the following two skills are active:
+Ensure that ServiceNow Otto for SPM is installed in your instance and that the following two skills are active:
 
 -   Acceptance criteria generation
 -   Refine records
 
-For more information, see [Configure Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/configure-now-assist-for-spm.md).
+For more information, see [Configure ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/configure-now-assist-for-spm.md).
 
 Role required: sn\_apw\_advanced.eap\_user
 
@@ -57,5 +57,5 @@ For an EAP story, you can generate acceptance criteria by selecting **Generate a
 7.  Save the Story form.
 
 
-**Parent Topic:**[Using Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/using-now-assist-for-spm.md)
+**Parent Topic:**[Using ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/using-now-assist-for-spm.md)
 

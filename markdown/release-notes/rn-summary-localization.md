@@ -30,7 +30,7 @@ AI Search
 
 </td><td>
 
-AI Search supports international languages. For details of language support by feature, see [Internationalization support for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/international-language-support-ais.md).
+AI Search supports international languages. For details of language support by feature, see .
 
 </td></tr><tr><td>
 
@@ -102,7 +102,7 @@ Now Assist in AI Search
 
 </td><td>
 
-Now Assist in AI Search supports [Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/dynamic-translation-overview.md) in Now Assist Genius Results. For details, see [Dynamic Translation for Now Assist Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/dynamic-translation-na-gr.md) and [Dynamic Translation for Now Assist Actions Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/dynamic-translation-na-actions-gr.md).
+Now Assist in AI Search supports  in Now Assist Genius Results. For details, see  and .
 
 </td></tr><tr><td>
 
@@ -110,7 +110,7 @@ Now Assist in Virtual Agent
 
 </td><td>
 
-[Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/dynamic-translation-overview.md) is supported for non-streaming Now Assist Virtual Agent conversations. For details, see [Configure multilingual service for Now Assist applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/enable-dynamic-translation-for-now-assist-applications.md) and .
+ is supported for non-streaming Now Assist Virtual Agent conversations. For details, see  and .
 
 </td></tr><tr><td>
 

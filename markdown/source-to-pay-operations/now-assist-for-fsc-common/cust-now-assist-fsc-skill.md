@@ -1,6 +1,6 @@
 ---
 title: Customize a Now Assist for Common Finance and Supply Chain features skill
-description: If you have the admin role, you can customize a Now Assist for Sourcing and Procurement Operations \(SPO\) skill so that fulfillers and requesters can use the generative AI skills in Source-to-Pay Workspace, Shopping Hub, and in Core UI.
+description: If you have the admin role, you can customize a ServiceNow Otto for Sourcing and Procurement Operations \(SPO\) skill so that fulfillers and requesters can use the generative AI skills in Source-to-Pay Workspace, Shopping Hub, and in Core UI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/now-assist-for-fsc-common/cust-now-assist-fsc-skill.html
 release: yokohama
@@ -14,7 +14,7 @@ breadcrumb: [Configure Now Assist for Common FSC features, Now Assist for Common
 
 # Customize a Now Assist for Common Finance and Supply Chain features skill
 
-If you have the admin role, you can customize a Now Assist for Sourcing and Procurement Operations \(SPO\) skill so that fulfillers and requesters can use the generative AI skills in Source-to-Pay Workspace, Shopping Hub, and in Core UI.
+If you have the admin role, you can customize a ServiceNow Otto for Sourcing and Procurement Operations \(SPO\) skill so that fulfillers and requesters can use the generative AI skills in Source-to-Pay Workspace, Shopping Hub, and in Core UI.
 
 ## Before you begin
 
@@ -22,11 +22,11 @@ Role required: admin
 
 ## About this task
 
-From the Now Assist Admin console, you can select the input table, related records, and fields for each input template of the Summarization for fulfillers skill, and then configure the prompt headers to include in the general summary.
+From the AI Admin Hub console, you can select the input table, related records, and fields for each input template of the Summarization for fulfillers skill, and then configure the prompt headers to include in the general summary.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills** to access the **Now Assist Skills** tab of the Now Assist Admin console.
+1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills** to access the **Now Assist Skills** tab of the AI Admin Hub console.
 
 2.  In the **Finance and Supply Chain** workflow group, select **Common Finance and Supply Chain features** to view the skills for the Now Assist for Common Finance and Supply Chain features.
 
@@ -40,7 +40,7 @@ From the Now Assist Admin console, you can select the input table, related recor
 
 4.  In the General details step, fill in the fields.
 
-    For information about the inputs and triggers for each skill, see [Skill inputs for Now Assist for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/input-triggers-now-assist-spo.md).
+    For information about the inputs and triggers for each skill, see [Skill inputs for ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/input-triggers-now-assist-spo.md).
 
     1.  Enter a name and description for the skill.
 

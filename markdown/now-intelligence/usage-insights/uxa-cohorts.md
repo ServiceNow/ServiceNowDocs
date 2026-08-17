@@ -1,5 +1,5 @@
 ---
-title: Cohort analysis in Usage Insights
+title: Cohort analysis in User Experience Analytics
 description: A cohort is a group of users separated from other users by similar traits or actions. Cohorts enable you to analyze how many users complete a predetermined sequence of actions so you can track conversion rates.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/usage-insights/uxa-cohorts.html
@@ -9,10 +9,10 @@ classification: usage-insights
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Using Usage Insights, User Experience Analytics, Platform Analytics]
+breadcrumb: [Using User Experience Analytics, User Experience Analytics, Platform Analytics]
 ---
 
-# Cohort analysis in Usage Insights
+# Cohort analysis in User Experience Analytics
 
 A cohort is a group of users separated from other users by similar traits or actions. Cohorts enable you to analyze how many users complete a predetermined sequence of actions so you can track conversion rates.
 
@@ -25,5 +25,5 @@ Edit cohort session data to include in your analysis.
 -   **[Delete a cohort](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/delete-action-cohort.md)**  
 Easily delete a cohort report.
 
-**Parent Topic:**[Using Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/using-uxa.md)
+**Parent Topic:**[Using User Experience Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/using-uxa.md)
 

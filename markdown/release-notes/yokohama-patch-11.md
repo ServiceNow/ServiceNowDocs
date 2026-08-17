@@ -42,11 +42,11 @@ Yokohama Patch 11 includes fixes for security-related problems that affected cer
 
     For Now Assist new features and changes, see [Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/now-assist-rn-landing.md).
 
--   **[Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/application-manager.md)**
+-   ****
 
     Getting started with Application Manager
 
--   **[Exploring Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/exploring-application-manager.md)**
+-   ****
 
     and filter
 
@@ -60,7 +60,7 @@ Yokohama Patch 11 includes fixes for security-related problems that affected cer
 
 
 
--   **[Application Manager available for you tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/available-for-you-app-mgr.md)**
+-   ****
 
     The **Available for you** tab displays all applications, products, and plugins.
 
@@ -94,13 +94,13 @@ Yokohama Patch 11 includes fixes for security-related problems that affected cer
 
         Applications that are currently in a trial period.
 
--   **[Application Manager application details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/app-details-app-mgr.md)**
+-   ****
 
     Application state indicators, if applicable
 
-    The application details page for Now Assist applications includes a Now Assist suite version selector instead of an application version selector. For more information about Now Assist suites, see [Now Assist suite versions in the Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-suites-app-mgr.md).
+    The application details page for Now Assist applications includes a Now Assist suite version selector instead of an application version selector. For more information about Now Assist suites, see .
 
--   **[Dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/app-details-app-mgr.md)**
+-   ****
 
     Application details include information about required dependencies, including whether each dependency is installed, available to install, or not yet licensed.
 
@@ -128,32 +128,32 @@ Yokohama Patch 11 includes fixes for security-related problems that affected cer
 
     When you update a Now Assist application to a new version, the Application Manager uses Now Assist suites to verify compatibility with any other Now Assist applications in your instance.
 
--   **[Application Manager reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/app-mgr-reference.md)**
+-   ****
 
     Reference topics provide information to help understand Application Manager status indicators.
 
--   **[Application state indicators in Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/app-mgr-state-indicators.md)**
+-   ****
 
     Application detail page headers display indicators with additional information about the state of that application. Indicators tell you about any specific requirements, limitations, or blockers related to installing the application.
 
--   **[Internationalization support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/explore-language-support-ais.md)**
--   **[Authentication factors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/authentication-factors.md)**
+-   ****
+-   ****
 
     Authentication factors help identify and verify callers, allowing only authorized users to access AI voice agents on the ServiceNow AI Platform.
 
--   **[Time-based one-time password \(TOTP\) authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/totp-authenticator-apps.md)**
--   **[Push notification - Okta Verify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/push-notification-okta-verify.md)**
--   **[Configure push notification \(Okta Verify\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/configure-okta-verify-push-notification.md)**
--   **[SoftPIN authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/softpin-authentication.md)**
--   **[Configure Soft PIN](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/configure-soft-pin.md)**
--   **[SMS One-time passcode \(OTP\) authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/sms-otp-authentication.md)**
--   **[Knowledge-based authentication \(Security Questions\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/knowledge-based-authentication.md)**
--   **[Receiving hardware and consumable assets at stockrooms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/stockroom-receiving-ham.md)**
+-   ****
+-   ****
+-   ****
+-   ****
+-   ****
+-   ****
+-   ****
+-   ****
 
     You can receive assets from a purchase order line starting from the Zurich release, as well as Yokohama Patch 11 and Xanadu Patch 10 or later.
 
--   **[Getting apps and trials from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/getting-apps-trials.md)**
--   **[Get a free application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/store-get-free-app.md), [Buy a ServiceNow application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/buy-servicenow-app.md), and [Buy a partner application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/buy-partner-app.md)**
+-   ****
+-   **, , and **
 
     If the application displays the "App Terms Not Accepted" state indicator in the Application Manager, accept the custom terms and conditions from the ServiceNow Store
 

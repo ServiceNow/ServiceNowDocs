@@ -19,11 +19,11 @@ Install Now Assist plugins to enable generative AI on your instance.
 
 Role required: admin
 
-Follow these instructions to get started with Now Assist Admin:
+Follow these instructions to get started with AI Admin Hub:
 
 1.  To get started with Now Assist, you must install at least one Now Assist application on your instance.
-2.  License any Now Assist software from the ServiceNow Store and install it through the Application Manager to access Now Assist Admin.
-3.  The Now Assist Admin console guides your implementation, starting with installation.
+2.  License any Now Assist software from the ServiceNow Store and install it through the Application Manager to access AI Admin Hub.
+3.  The AI Admin Hub console guides your implementation, starting with installation.
 4.  Check out the [Now Assist Journey Checklist for more information.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/configuring-now-assist.md)
 
 ## About this task
@@ -38,7 +38,7 @@ For details about available Now Assist Suites and their compatibility with Servi
 
 1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Settings**.
 
-    If you’re already in Now Assist Admin, select the **Settings** tab.
+    If you’re already in AI Admin Hub, select the **Settings** tab.
 
 2.  On the **Settings** page, select **Plugins**.
 
@@ -86,15 +86,15 @@ For details about available Now Assist Suites and their compatibility with Servi
 
 11. Install the application now or schedule installation for a later time.
 
-<table><thead><tr><th align="left" id="d111338e446">
+<table><thead><tr><th align="left" id="d110272e446">
 
 Installation option
 
-</th><th align="left" id="d111338e449">
+</th><th align="left" id="d110272e449">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d111338e455">
+</th></tr></thead><tbody><tr><td id="d110272e455">
 
 **Install now**
 
@@ -104,7 +104,7 @@ Procedure
 2.  Select **Install**.
 
 
-</td></tr><tr><td id="d111338e479">
+</td></tr><tr><td id="d110272e479">
 
 **Install later**
 
@@ -116,7 +116,7 @@ Procedure
 
 
 </td></tr></tbody>
-</table>12. Return to the Now Assist Admin console.
+</table>12. Return to the AI Admin Hub console.
 
 13. In the dialog box, select **Refresh**.
 

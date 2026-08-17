@@ -27,11 +27,11 @@ The following actions are available for a chart interaction:
 
     Opens a view of the data appropriate to the data type. For information about the views for each data source, see [Data views for different data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/visualization-drilldown-in-config-ws.md).
 
-    **Note:** Go to data view is the default interaction for all supported data sources. Usage Insights data is not supported.
+    **Note:** Go to data view is the default interaction for all supported data sources. User Experience Analytics data is not supported.
 
 -   **Go to URL**
 
-    Opens the URL you specify. This URL can be on the instance or external to it. Where relevant, you can specify the name of the page that is opened in a tooltip. Go to URL is the default interaction for Usage Insights data sources.
+    Opens the URL you specify. This URL can be on the instance or external to it. Where relevant, you can specify the name of the page that is opened in a tooltip. Go to URL is the default interaction for User Experience Analytics data sources.
 
 -   **Apply as filter**
 
@@ -71,7 +71,7 @@ All
 
 </td><td>
 
-All that the visualization supports except Usage Insights
+All that the visualization supports except User Experience Analytics
 
 </td></tr><tr><td>
 

@@ -38,7 +38,7 @@ Deleting unnecessary EVAM view configurations from the configuration bundle make
 
     The list of view configurations that are associated with the selected bundle are displayed.
 
-5.  Select the More Actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text:\), and then select **Delete** at the end of the view configuration row that you want to delete.
+5.  Select the More Actions icon \[Omitted image "more-actions-icon.png"\] Alt text:, and then select **Delete** at the end of the view configuration row that you want to delete.
 
 
 ## Result

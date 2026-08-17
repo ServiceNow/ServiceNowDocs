@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
 keywords: [Resolve supplier questions workflow]
-breadcrumb: [Inquiry resolution provider AI agent, Using AI agents in Now Assist for Accounts Payable Operations, Now Assist for Accounts Payable Operations \(APO\), Accounts Payable Operations, Finance and Supply Chain]
+breadcrumb: [Inquiry resolution provider AI agent, Using AI agents in Now Assist for Accounts Payable Operations, ServiceNow Otto for Accounts Payable Operations \(APO\), Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Work with the Inquiry resolution provider

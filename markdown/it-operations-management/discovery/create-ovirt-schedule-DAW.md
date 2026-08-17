@@ -7,7 +7,7 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-07-27"
 reading_time_minutes: 3
 keywords: [Discovery, Admin, Workspace]
 breadcrumb: [Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
@@ -23,9 +23,9 @@ Verify the following:
 
 -   You have at least one validated MID Server with a status of **Up**. The MID Server must reach the IP ranges that you intend to discover. You can install the MID Server by using [Use MID Server guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/use-mid-server-guidedsetup.md) or by manually downloading and running the installer. For details, see the MID Server installation instructions for [Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/t_InstallAMIDServerOnLinux.md) and [Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/mid-server-install-prereqs.md).
 -   The MID Server used for Cloud Discovery is configured with the Cloud Management capability.
--   You have configured an oVirt user in the oVirt Administration Portal with the roles and permissions required so that the MID Server can access the cloud resources you plan to discover.
+-   You have configured an oVirt user in the oVirt Administration Portal with the required roles and permissions. This configuration enables the MID Server to access the cloud resources you plan to discover.
 -   You have created suitable credentials in the ServiceNow AI Platform to connect with the oVirt user that you want to use for discovery. For more information, see [Oracle Linux Virtualization Manager and Red Hat Virtualization discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/red-hat-virtualization-discovery.md).
--   You're using Discovery Admin Workspace v1.13.0.
+-   You're using Discovery Admin Workspace v1.13.0 or later.
 
 Role required: discovery\_admin
 
@@ -53,15 +53,15 @@ Role required: discovery\_admin
 
 8.  Select a cloud account.
 
-<table id="choicetable_bbl_3zw_zgc"><thead><tr><th align="left" id="d69290e328">
+<table id="choicetable_bbl_3zw_zgc"><thead><tr><th align="left" id="d67965e316">
 
 Option
 
-</th><th align="left" id="d69290e331">
+</th><th align="left" id="d67965e319">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d69290e337">
+</th></tr></thead><tbody><tr><td id="d67965e325">
 
 **Existing cloud account**
 
@@ -69,13 +69,13 @@ Description
 
 Select an existing cloud account on your instance. Once an account is selected, the **Account name** and **Manager URL** fields auto-populate.
 
-</td></tr><tr><td id="d69290e352">
+</td></tr><tr><td id="d67965e340">
 
 **New cloud account**
 
 </td><td>
 
-Add a new cloud account to your instance by entering an account name and Manager URL.**Note:**
+Add a cloud account to your instance by entering an account name and Manager URL.**Note:**
 
 -   The Manager URL is the URL you use to access the oVirt Administration Portal.
 -   Example: `https://my-manager-instance.com:433`

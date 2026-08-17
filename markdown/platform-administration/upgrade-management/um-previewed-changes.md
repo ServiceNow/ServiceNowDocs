@@ -9,7 +9,7 @@ classification: upgrade-management
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Upgrade Preview tool in Upgrade Console, Upgrade Console tools, Using Upgrade Console, Upgrade Console, Upgrade, Administer the ServiceNow AI Platform]
+breadcrumb: [Upgrade Preview tool in Upgrade Management, Upgrade Management tools, Using Upgrade Management, Upgrade Management, Upgrade, Administer the ServiceNow AI Platform]
 ---
 
 # Preview predicted changes
@@ -94,5 +94,5 @@ Related record
 Record that the changelist entry applies to
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Upgrade Preview tool in Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-management/um-upgrade-preview-tool.md)
+</table>**Parent Topic:**[Upgrade Preview tool in Upgrade Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-management/um-upgrade-preview-tool.md)
 

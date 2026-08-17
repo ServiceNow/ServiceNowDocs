@@ -7,7 +7,7 @@ release: yokohama
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Customer Success Management reference, Customer Success Management]
+breadcrumb: [Account Lifecycle Events reference, Account Lifecycle Events]
 ---
 
 # Customer success flows
@@ -37,5 +37,5 @@ This section includes the customer success flows.
 |Scheduled a Follow-Up|Demo subflow: Run internal actions to help improve the overall engagement health with this customer. Follow the attached playbook to drive next steps and recommended actions.|
 |Setup next Quarterly Business Review|Demo subflow: Run internal actions to help improve the overall engagement health with this customer. Follow the attached playbook to drive next steps and recommended actions.|
 
-**Parent Topic:**[Customer Success Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-reference.md)
+**Parent Topic:**[Account Lifecycle Events reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-reference.md)
 

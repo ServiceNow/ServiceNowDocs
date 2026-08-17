@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2025-10-22"
 reading_time_minutes: 5
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
-breadcrumb: [Agentic AI in the DEX application, Use agentic AI in IT Service Management, Now Assist for IT Service Management \(ITSM\), IT Service Management]
+breadcrumb: [Agentic AI in the DEX application, Use agentic AI in IT Service Management, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 
 # DEX issue diagnosis and resolution agentic workflow
@@ -29,7 +29,7 @@ Using the DEX issue diagnosis and resolution agentic workflow:
 
 To access the DEX issue diagnosis and resolution agentic workflow, make sure that you install the following applications:
 
--   Now Assist for IT Service Management \(ITSM\) \(sn\_itsm\_gen\_ai\) plugin.
+-   ServiceNow Otto for IT Service Management \(ITSM\) \(sn\_itsm\_gen\_ai\) plugin.
 -   Digital End-User Experience application. For more information, see [Install Digital End-User Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-end-user-experience-dex/install-app-device-health.md) and [Configuring Digital End-User Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-end-user-experience-dex/config-dex-console.md).
 
 ## Roles required to access the agentic workflow

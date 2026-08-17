@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
 keywords: [Express List, Event Management, Alert, Now Assist]
-breadcrumb: [Viewing an alert group analysis by Now Assist in Express List, Express List in the Service Operations Workspace for ITOM, Using Service Operations Workspace for ITOM, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
+breadcrumb: [Viewing an alert group analysis by Now Assist in Express List, Express List in the Service Operations Workspace for ITOM, Using Service Operations Workspace for ITOM, Service Operations Workspace for ITOM, ITOM Health, IT Operations Management]
 ---
 
 # View an alert group analysis by Now Assist in Express List
@@ -20,9 +20,9 @@ View an alert group analysis created by Now Assist using generative AI. The anal
 ## Before you begin
 
 -   Install the ITOM plugin in the Now Assist feature. For more information, see [Install the Now Assist for IT Operations Management \(ITOM\) plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/install-now-assist-itom.md).
--   View important information about the Now Assist for IT Operations Management \(ITOM\) application in [Now Assist for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/now-assist-itom.md).
+-   View important information about the ServiceNow Otto for IT Operations Management \(ITOM\) application in [ServiceNow Otto for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/now-assist-itom.md).
 
-**Note:** Currently, Now Assist for ITOM only analyzes tag-based, CMDB, Log Analytics, Mixed, and Network Traffic-based alert groups. For all other alert group types, it only analyzes the parent alert.
+**Note:** Currently, ServiceNow Otto for ITOM only analyzes tag-based, CMDB, Log Analytics, Mixed, and Network Traffic-based alert groups. For all other alert group types, it only analyzes the parent alert.
 
 Role required: evt\_mgmt\_operator
 

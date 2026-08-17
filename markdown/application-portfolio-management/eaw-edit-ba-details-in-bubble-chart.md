@@ -28,15 +28,15 @@ Role required: sn\_apm.apm\_analyst
 
 4.  Select the business application that you want to edit details for.
 
-<table id="choicetable_ebc_3mq_fhc"><thead><tr><th align="left" id="d26885e87">
+<table id="choicetable_ebc_3mq_fhc"><thead><tr><th align="left" id="d26771e87">
 
 Bubble type
 
-</th><th align="left" id="d26885e90">
+</th><th align="left" id="d26771e90">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d26885e96">
+</th></tr></thead><tbody><tr><td id="d26771e96">
 
 **Single bubble**
 
@@ -44,7 +44,7 @@ Action
 
 Select a single bubble. The side panel appears and the business application details are displayed.**Note:** Select **Full details** to view more details about the business application.
 
-</td></tr><tr><td id="d26885e110">
+</td></tr><tr><td id="d26771e110">
 
 **Grouped bubble**
 

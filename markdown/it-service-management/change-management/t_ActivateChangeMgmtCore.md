@@ -7,7 +7,7 @@ release: yokohama
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-07-17"
 reading_time_minutes: 5
 breadcrumb: [Change Management plugins, Configure, Change Management, IT Service Management]
 ---
@@ -53,7 +53,7 @@ You can activate one or more of the following [plugins](https://raw.githubuserco
 
 -   State model \(com.snc.change\_management.state\_model\)
 -   Change Management - Collision Detector \(com.snc.change.collision\)
--   Best practice - change risk calculator \(com.snc.bestpractice.change\_risk\)
+-   Change Management - change risk calculator \(com.snc.bestpractice.change\_risk\)
 -   Change risk assessment \(com.snc.change\_management.risk\_assessment\)
 -   Standard change catalog \(com.snc.change\_management.standard\_change\_catalog\)
 -   Best practice - bulk CI changes \(com.snc.bestpractice.bulkchange\)

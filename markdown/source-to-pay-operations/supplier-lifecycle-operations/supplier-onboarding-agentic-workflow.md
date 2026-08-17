@@ -1,5 +1,5 @@
 ---
-title: AI driven supplier onboarding using Now Assist for SLO
+title: AI driven supplier onboarding using ServiceNow Otto for SLO
 description: Use the AI driven supplier onboarding playbook to automate onboarding tasks such as supplier registration, information validation, and task list generation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/supplier-lifecycle-operations/supplier-onboarding-agentic-workflow.html
@@ -10,10 +10,10 @@ topic_type: concept
 last_updated: "2025-04-22"
 reading_time_minutes: 3
 keywords: [Now Assist, generative AI, AI Agents, agentic ai, SLO AI Agent, SLO Agentic AI]
-breadcrumb: [Use Now Assist for Supplier Lifecycle Operations \(SLO\), Now Assist for Supplier Lifecycle Operations \(SLO\), Supplier Lifecycle Operations, Finance and Supply Chain]
+breadcrumb: [Use ServiceNow Otto for Supplier Lifecycle Operations \(SLO\), ServiceNow Otto for Supplier Lifecycle Operations \(SLO\), Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 
-# AI driven supplier onboarding using Now Assist for SLO
+# AI driven supplier onboarding using ServiceNow Otto for SLO
 
 Use the AI driven supplier onboarding playbook to automate onboarding tasks such as supplier registration, information validation, and task list generation.
 

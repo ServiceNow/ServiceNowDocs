@@ -41,7 +41,7 @@ Role required: admin
 
     **Tip:** You can also access the Agentic AI Assessment Guided Setup screen by navigating directly to **All** &gt; **Now Assist Readiness Evaluation** &gt; **Guided Setup**.
 
-    Three sections appear: Scheduled Jobs, Restricted Caller Access Privileges, and System Properties. The Restricted Caller Access Privileges and System Properties sections are only applicable if you want to work with Now Assist for HR Service Delivery \(HRSD\).
+    Three sections appear: Scheduled Jobs, Restricted Caller Access Privileges, and System Properties. The Restricted Caller Access Privileges and System Properties sections are only applicable if you want to work with ServiceNow Otto for HR Service Delivery \(HRSD\).
 
 7.  Select **Start** in the Scheduled Jobs section.
 

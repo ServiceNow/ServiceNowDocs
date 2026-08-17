@@ -9,7 +9,7 @@ classification: service-observability
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [ITOM AIOps, IT Operations Management]
+breadcrumb: [ITOM Health, IT Operations Management]
 ---
 
 # Service Observability

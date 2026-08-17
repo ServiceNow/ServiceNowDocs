@@ -9,7 +9,7 @@ classification: health-log-analytics
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 4
-breadcrumb: [Health Log Analytics reference, Health Log Analytics, ITOM AIOps, IT Operations Management]
+breadcrumb: [Health Log Analytics reference, Health Log Analytics, ITOM Health, IT Operations Management]
 ---
 
 # Health Log Analytics self-health checks, notifications, and proposed actions

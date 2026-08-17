@@ -52,15 +52,15 @@ For more information, see [Document Intelligence workspace with Now Assist](http
 
     For more information on extracting fields, see [Extract fields using the Document Intelligence workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/document-intelligence/doc-intel-workspace.md).
 
-<table id="choicetable_k5x_lfh_b2c"><thead><tr><th align="left" id="d43480e184">
+<table id="choicetable_k5x_lfh_b2c"><thead><tr><th align="left" id="d43353e184">
 
 Option
 
-</th><th align="left" id="d43480e187">
+</th><th align="left" id="d43353e187">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d43480e193">
+</th></tr></thead><tbody><tr><td id="d43353e193">
 
 **Edit the field**
 
@@ -68,7 +68,7 @@ Description
 
 To change the field value, type a new value in the field.
 
-</td></tr><tr><td id="d43480e205">
+</td></tr><tr><td id="d43353e205">
 
 **Mark the field as missing in the document**
 
@@ -76,7 +76,7 @@ To change the field value, type a new value in the field.
 
 If you can’t find an appropriate match in the document, select **Missing in the document** in the field options menu. To undo, select the **Edit** icon \(\[Omitted image "icon-docintel-edit.png"\] Alt text: Edit icon.\) in the field.
 
-</td></tr><tr><td id="d43480e229">
+</td></tr><tr><td id="d43353e229">
 
 **Mark the field as reviewed**
 
@@ -86,7 +86,7 @@ The field will be marked as complete when you move to the next field.
 
  If needed, select the **Reviewed** icon \(\[Omitted image "icon-docintel-completed.png"\] Alt text: Completed icon.\) to mark the field as unreviewed.
 
-</td></tr><tr><td id="d43480e253">
+</td></tr><tr><td id="d43353e253">
 
 **Flag the field**
 

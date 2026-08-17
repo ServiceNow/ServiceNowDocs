@@ -21,7 +21,7 @@ Role required: sn\_generative\_ai.nsa\_admin
 
 ## About this task
 
-Prompt injection attacks are a type of cybersecurity attack where someone tries to override the initial instructions of an LLM to cause unintended behaviors. Now Assist Guardian detect and log these prompt injection attack attempts across all generative AI applications and features. You can also configure the prompt injection detection guardrail to block the AI-generated response when an attack is detected in addition to logging it.
+Prompt injection attacks are a type of cybersecurity attack where someone tries to override the initial instructions of an LLM to cause unintended behaviors. AI Guardian detect and log these prompt injection attack attempts across all generative AI applications and features. You can also configure the prompt injection detection guardrail to block the AI-generated response when an attack is detected in addition to logging it.
 
 You can export logs for review. For more information, see [Export Now Assist Guardian logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/export-now-assist-guardian-logs.md).
 

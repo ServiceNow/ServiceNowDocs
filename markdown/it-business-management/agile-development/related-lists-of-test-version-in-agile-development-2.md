@@ -1,6 +1,6 @@
 ---
 title: Related lists of a test version in Agile Development 2.0
-description: Use the related lists in the Test version form for the actions that you need to perform on your test in Agile Development 2.0, such as verifying the test results, viewing other associated test versions and test sets.
+description: Use the related lists in the Test version form for the actions that you need to perform on your test in Agile Development 2.0. These actions include verifying the test results, viewing other associated test versions and test sets.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/agile-development/related-lists-of-test-version-in-agile-development-2.html
 release: yokohama
@@ -14,7 +14,7 @@ breadcrumb: [Reference, Agile Development 2.0, Strategic Portfolio Management]
 
 # Related lists of a test version in Agile Development 2.0
 
-Use the related lists in the Test version form for the actions that you need to perform on your test in Agile Development 2.0, such as verifying the test results, viewing other associated test versions and test sets.
+Use the related lists in the Test version form for the actions that you need to perform on your test in Agile Development 2.0. These actions include verifying the test results, viewing other associated test versions and test sets.
 
 |Related list|Description|
 |------------|-----------|

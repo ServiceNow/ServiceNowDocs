@@ -7,7 +7,7 @@ release: yokohama
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Risk portfolio dashboard, Using customer success, Customer success, Customer Success Management]
+breadcrumb: [Risk portfolio dashboard, Using customer success, Customer success, Account Lifecycle Events]
 ---
 
 # Risk and issues page

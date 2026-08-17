@@ -1,6 +1,6 @@
 ---
-title: Now Assist Data Kit
-description: Use ServiceNowNow Assist Data Kit to add datasets to a data catalog. The curated data works with ServiceNow SDK to enable the AI skill development and evaluation.
+title: AI Data Kit
+description: Use ServiceNowAI Data Kit to add datasets to a data catalog. The curated data works with ServiceNow SDK to enable the AI skill development and evaluation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/now-assist-data-kit/now-assist-data-kit-landing.html
 release: yokohama
@@ -12,27 +12,27 @@ reading_time_minutes: 2
 breadcrumb: [Enable AI experiences]
 ---
 
-# Now Assist Data Kit
+# AI Data Kit
 
-Use ServiceNow®Now Assist Data Kit to add datasets to a data catalog. The curated data works with ServiceNow SDK to enable the AI skill development and evaluation.
+Use ServiceNow®AI Data Kit to add datasets to a data catalog. The curated data works with ServiceNow SDK to enable the AI skill development and evaluation.
 
 \[Omitted video\] Description: Now Assist Data Kit user journey
 
 ## Get started
 
-Now Assist Data KitNow Assist Data Kit
+AI Data KitAI Data Kit
 
 <table id="table_zhp_snh_jcc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-data-kit/exploring-now-assist-data-kit.md)\[Omitted image "bus-explore.svg"\] Alt text: Learn how Now Assist Data Kit can help create custom datasets
+[Explore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-data-kit/exploring-now-assist-data-kit.md)\[Omitted image "bus-explore.svg"\] Alt text: Learn how AI Data Kit can help create custom datasets
 
 </td><td>
 
-[Configure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-data-kit/configuring-now-assist-data-kit.md)\[Omitted image "bus-sdlc.svg"\] Alt text: Configure Now Assist Data Kit for prompts and skills
+[Configure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-data-kit/configuring-now-assist-data-kit.md)\[Omitted image "bus-sdlc.svg"\] Alt text: Configure AI Data Kit for prompts and skills
 
 </td><td>
 
-[Use](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-data-kit/using-now-assist-data-kit.md)\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Use Now Assist Data Kit to create datasets to add to data collections
+[Use](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-data-kit/using-now-assist-data-kit.md)\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Use AI Data Kit to create datasets to add to data collections
 
 </td></tr><tr><td>
 
@@ -44,7 +44,7 @@ Now Assist Data KitNow Assist Data Kit
 
 </td><td>
 
-[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-data-kit/na-data-kit-reference.md)\[Omitted image "bus-learn.svg"\] Alt text:Reference information for Now Assist Data Kit
+[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-data-kit/na-data-kit-reference.md)\[Omitted image "bus-learn.svg"\] Alt text:Reference information for AI Data Kit
 
 </td></tr></tbody>
 </table>**Important:** Some Now Assist products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Please check for availability updates in future releases.
@@ -53,7 +53,7 @@ Now Assist Data KitNow Assist Data Kit
 
 ## Troubleshoot and get help
 
--   [Ask questions and explore other resources for Now Assist Data Kit in the ServiceNow Community](https://www.servicenow.com/community/)
+-   [Ask questions and explore other resources for AI Data Kit in the ServiceNow Community](https://www.servicenow.com/community/)
 -   [Search the Known Error Portal for known error articles](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0597477)
 -   [Contact Customer Service and Support](https://support.servicenow.com/now)
 

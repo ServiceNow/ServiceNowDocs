@@ -1,6 +1,6 @@
 ---
 title: Scrum tasks for stories in CWM
-description: Extend your agile workflow in CWM by breaking user stories into scrum tasks, giving your team the granularity needed to estimate effort, distribute work, and track daily progress through a sprint.
+description: Extend your agile workflow in CWM by breaking user stories into scrum tasks. This gives your team the granularity needed to estimate effort, distribute work, and track daily progress through a sprint.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/collaborative-work-management/managing-scrum-tasks-for-stories-cwm.html
 release: yokohama
@@ -8,16 +8,16 @@ product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 4
 keywords: [scrum tasks, stories, agile, CWM, sprint, Kanban, Now Assist, AI generation]
 breadcrumb: [Agile in CWM, Use, Collaborative Work Management, Strategic Portfolio Management]
 ---
 
 # Scrum tasks for stories in CWM
 
-Extend your agile workflow in CWM by breaking user stories into scrum tasks, giving your team the granularity needed to estimate effort, distribute work, and track daily progress through a sprint.
+Extend your agile workflow in CWM by breaking user stories into scrum tasks. This gives your team the granularity needed to estimate effort, distribute work, and track daily progress through a sprint.
 
-In CWM, scrum tasks represent the individual units of work that make up a user story. While stories capture a feature or requirement from the user's perspective, scrum tasks break that story into steps that team members can pick up and complete independently during a sprint. Scrum tasks are always associated with a parent story and aren't a standalone work items on the board.
+In CWM, scrum tasks represent the individual units of work that make up a user story. While stories capture a feature or requirement from the user's perspective. Scrum tasks break that story into steps that team members can pick up and complete independently during a sprint. Scrum tasks are always associated with a parent story and aren't a standalone work items on the board.
 
 ## Creating scrum tasks
 
@@ -47,7 +47,7 @@ Quick filters on the Kanban board let teams focus on specific sprints, states, o
 -   Deleting a scrum task in CWM doesn’t delete the underlying record.
 -   You can't add scrum tasks if the scrum task work type is disabled in your ServiceNow instance.
 -   You can't add scrum tasks if you have just the Viewer access to the CWM Board.
--   If scrum tasks were previously imported through Connected work before upgrading to v9.0.0, and stories are then imported through Connected work after the upgrade, duplicate scrum tasks may appear on the board. To resolve this, remove the existing configuration for scrum tasks in Connected work for your Board.
+-   If scrum tasks were previously imported through Connected work before upgrading to v9.0.0. If stories are then imported through Connected work after the upgrade, duplicate scrum tasks may appear on the board. To resolve this, remove the existing configuration for scrum tasks in Connected work for your Board.
 
 -   **[Add scrum tasks to a story in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/collaborative-work-management/add-scrum-tasks-to-a-story-cwm.md)**  
 Break down a user story into scrum tasks in Collaborative Work Management \(CWM\) to distribute work across team members and track daily progress during a sprint.

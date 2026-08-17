@@ -1,5 +1,5 @@
 ---
-title: Add or update a shared component in a component library
+title: Add shared component in a component library
 description: Add or update a shared component in a component library.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/devops-family/cdm-comp-library-add-component.html
@@ -12,7 +12,7 @@ reading_time_minutes: 2
 breadcrumb: [Sharing components among applications — Component libraries, Using DevOps Config, DevOps Config, IT Service Management]
 ---
 
-# Add or update a shared component in a component library
+# Add shared component in a component library
 
 Add or update a shared component in a component library.
 
@@ -24,7 +24,7 @@ Role required: cdm\_editor or cdm\_admin
 
 ## About this task
 
-You can also add a component to the library as a shared component from a request. For more information, see [Accept or reject a component request for inclusion in a component library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/devops-family/cdm-comp-library-request-approval.md).
+You can also add a component to the library as a shared component from a request. For more information, see [Accept or reject a component request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/devops-family/cdm-comp-library-request-approval.md).
 
 ## Procedure
 
@@ -54,7 +54,7 @@ You can also add a component to the library as a shared component from a request
 
 7.  Add a file node to the component.
 
-    For more information on adding files, see [Manage files in the config data model using file nodes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/devops-family/cdm-manage-file-config-data-file-node.md).
+    For more information on adding files, see [Manage files using file nodes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/devops-family/cdm-manage-file-config-data-file-node.md).
 
 8.  Select the more actions icon \(\[Omitted image "icon-actions-menu.png"\] Alt text: More actions icon.\) for a component to rename or delete it.
 

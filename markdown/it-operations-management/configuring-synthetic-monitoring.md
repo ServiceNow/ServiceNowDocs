@@ -7,7 +7,7 @@ release: yokohama
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Synthetic monitoring, ITOM AIOps, IT Operations Management]
+breadcrumb: [Synthetic monitoring, ITOM Health, IT Operations Management]
 ---
 
 # Configuring synthetic monitoring
@@ -27,5 +27,5 @@ Edit or delete synthetic monitors after creating them.
 -   **[Create synthetic monitors from incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/create-synthetic-monitors-from-incidents.md)**  
 Create synthetic monitors from incidents to proactively track endpoint failures and reduce repeat occurrences.
 
-**Parent Topic:**[ITOM AIOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-health-landing-page.md)
+**Parent Topic:**[ITOM Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-health-landing-page.md)
 

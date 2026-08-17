@@ -9,7 +9,7 @@ classification: health-log-analytics
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Health Log Analytics, ITOM AIOps, IT Operations Management]
+breadcrumb: [Health Log Analytics, ITOM Health, IT Operations Management]
 ---
 
 # Analyzing the logs that surround the anomaly
@@ -24,12 +24,12 @@ You can modify the time range of the displayed log lines, for example to investi
 
 **Note:** Logs that surround the anomaly are retained and available for 30 days after the creation of the alert. The system does not delete these logs when the global retention period of logs expires. When the retention period expires, the surrounding logs are available only on the **Surrounding logs** tab and not in the Log viewer.
 
-Health Log Analytics enables you to view the anomalous log data graphically on the Log viewer, accessed from the Service Operations Workspace. The Log viewer displays a chart of the frequency of anomalous log lines during one minute before and one minute after the Log Analytics alert and lists the associated log lines. It automatically shows the query that relates to the anomaly, the selected component, and the appropriate time filter. For more information, see [Reviewing the logs for an alert on the Log viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-op-logs-log-viewer-concept.md).
+Health Log Analytics enables you to view the anomalous log data graphically on the Log viewer, accessed from the Service Operations Workspace. The Log viewer displays a chart of the frequency of anomalous log lines during one minute before and one minute after the Log Analytics alert and lists the associated log lines. It automatically shows the query that relates to the anomaly, the selected component, and the appropriate time filter. For more information, see [Reviewing alert logs on the Log viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-op-logs-log-viewer-concept.md).
 
 -   **[Analyze log lines that surround an anomaly](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-op-surrounding-logs-view.md)**  
 View the log lines around an anomaly to help you identify the root cause of a Log Analytics alert.
 
-**Parent Topic:**[ITOM AIOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-health-landing-page.md)
+**Parent Topic:**[ITOM Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-health-landing-page.md)
 
 **Related topics**  
 

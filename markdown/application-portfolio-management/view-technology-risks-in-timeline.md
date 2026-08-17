@@ -18,7 +18,7 @@ View the internal and external life-cycle phases of all technologies or the prod
 
 **Important:**
 
-Starting with the Xanadu release, the legacy Technology Portfolio Management module is moved to the Enterprise Architecture Workspace. To learn more, see [Gantt view of TPM and TRM lifecycle timelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-gantt-view-of-tpm-and-trm-lifecycle-timelines.md).
+Starting with the Xanadu release, the legacy Technology Lifecycle Management module is moved to the Enterprise Architecture Workspace. To learn more, see [Gantt view of TPM and TRM lifecycle timelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-gantt-view-of-tpm-and-trm-lifecycle-timelines.md).
 
 To view your data in the TPM timeline view:
 

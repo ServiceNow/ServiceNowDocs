@@ -18,7 +18,7 @@ Use Proactive Triggers to create and view context-specific messages and use rele
 
 ## Before you begin
 
-**Note:** The Proactive Triggers feature \[sn\_pt\] is available as an app and must be installed from the ServiceNow Store. This feature is only available after you've installed and updated the Omni-Experience Standard Feature Set to the latest version through the ServiceNow Store. Subsequent updates are also available there. Visit the ServiceNow Store website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+**Note:** The Proactive Triggers feature \[sn\_pt\] is available as an app and must be installed from the ServiceNow Store. This feature is only available after you've installed and updated the Omni-Experience Standard Feature Set to the latest version through the ServiceNow Store. Subsequent updates are also available there. Visit the ServiceNow Store website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 For conceptual information about Proactive Triggers, see [Exploring Proactive Triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/product-support-for-technology/proactive-triggers.md).
 

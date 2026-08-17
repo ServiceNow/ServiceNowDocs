@@ -55,15 +55,15 @@ When you modify an agentic workflow, AI agent, or tool, make sure that you updat
 
 4.  Analyze and enrich regulatory alerts by adding enriched insights or generating recommended impacted areas.
 
-<table id="choicetable_hf2_xq3_zgc"><thead><tr><th align="left" id="d360626e251">
+<table id="choicetable_hf2_xq3_zgc"><thead><tr><th align="left" id="d360588e251">
 
 Option
 
-</th><th align="left" id="d360626e254">
+</th><th align="left" id="d360588e254">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d360626e260">
+</th></tr></thead><tbody><tr><td id="d360588e260">
 
 **Add enriched insights**
 
@@ -78,7 +78,7 @@ In the Now Assist panel, ask the agent to enrich a regulatory alert with web sou
 -   You can discard the overview and create your own summary manually.
 
 
-</td></tr><tr><td id="d360626e298">
+</td></tr><tr><td id="d360588e298">
 
 **Recommend impacted areas**
 
@@ -101,7 +101,7 @@ In the Now Assist panel, ask the agent to check for recommended impacted areas f
 **Related topics**  
 
 
-[Using agentic workflows in Now Assist for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/using-agentic-ai-workflows.md)
+[Using agentic workflows in ServiceNow Otto for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/using-agentic-ai-workflows.md)
 
 [Activate the get regulatory analysis agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/activate-rcm-agent-workflow.md)
 

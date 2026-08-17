@@ -8,7 +8,7 @@ product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 9
+reading_time_minutes: 8
 breadcrumb: [Onboarding tools and apps, Manage, DevOps Change Velocity, IT Service Management]
 ---
 
@@ -57,7 +57,7 @@ For example, if the Plan import request failed \(after all retries\), we will pr
 -   Specify the count of retries to auto-attempt, in case the import request page fails in the **Maximum retries per page, while importing** field. If after all the automatic retries, page does not succeed, the import request will process the remaining pages. The overall status of the import request reflects as errored.
 -   You can manually retry attempting a failed import by clicking the **Retry import** button, on the failed import request page,
 
-**Parent Topic:**[Additional information for onboarding DevOps tools and apps using the Service catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/devops-change-velocity/onboard-tools-self-service-catalog.md)
+**Parent Topic:**[Onboarding DevOps tools and apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/devops-change-velocity/onboard-tools-self-service-catalog.md)
 
 ## Polling schedule and configuration
 

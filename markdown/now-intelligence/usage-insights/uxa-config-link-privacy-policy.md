@@ -1,6 +1,6 @@
 ---
 title: Configure link to your privacy policy
-description: The privacy policy link is shown when Usage Insights is enabled and users choose to enable or disable tracking.
+description: The privacy policy link is shown when User Experience Analytics is enabled and users choose to enable or disable tracking.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/usage-insights/uxa-config-link-privacy-policy.html
 release: yokohama
@@ -14,7 +14,7 @@ breadcrumb: [Types of tracking consent policies, User privacy, tracking, and con
 
 # Configure link to your privacy policy
 
-The privacy policy link is shown when Usage Insights is enabled and users choose to enable or disable tracking.
+The privacy policy link is shown when User Experience Analytics is enabled and users choose to enable or disable tracking.
 
 ## Before you begin
 
@@ -35,5 +35,5 @@ Role required: admin
 5.  Select **Update**.
 
 
-**Parent Topic:**[Types of tracking consent policies in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/uxa-tracking-types.md)
+**Parent Topic:**[Types of tracking consent policies in User Experience Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/uxa-tracking-types.md)
 

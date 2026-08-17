@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2025-04-07"
 reading_time_minutes: 2
 keywords: [AI agents, agentic AI]
-breadcrumb: [Use agentic workflows, Now Assist for Sourcing and Procurement Operations \(SPO\), Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Use agentic workflows, ServiceNow Otto for Sourcing and Procurement Operations \(SPO\), Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Help fulfill procurement requests agentic workflow

@@ -46,7 +46,7 @@ For more information on the components, see [Components installed with Manufactu
     -   Sales promotion claim management \[sn\_sls\_prm\_clm\_mgt\]
     -   Manufacturing repair claim management \[sn\_repr\_claim\_mgmt\]
     -   Manufacturing recall claim management \[sn\_rcl\_claim\_mgmt\]
-    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 3.  If you're prompted, follow the links to the ServiceNow Store to get any additional entitlements for dependencies.
 

@@ -34,15 +34,15 @@ The task must be in **Assigned** state for an agent to accept or reject the task
 
 3.  Accept or reject the task.
 
-<table id="choicetable_mqd_4y5_djb"><thead><tr><th align="left" id="d103904e107">
+<table id="choicetable_mqd_4y5_djb"><thead><tr><th align="left" id="d103725e107">
 
 To
 
-</th><th align="left" id="d103904e110">
+</th><th align="left" id="d103725e110">
 
 Do the following
 
-</th></tr></thead><tbody><tr><td id="d103904e116">
+</th></tr></thead><tbody><tr><td id="d103725e116">
 
 **Accept the task**
 
@@ -50,7 +50,7 @@ Do the following
 
 Click **Accept**. The work order task moves to **Accepted** state.
 
-</td></tr><tr><td id="d103904e131">
+</td></tr><tr><td id="d103725e131">
 
 **Reject the task.**
 

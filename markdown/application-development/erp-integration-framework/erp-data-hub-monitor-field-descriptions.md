@@ -1,6 +1,6 @@
 ---
-title: Zero Copy Connector for ERP Monitor field descriptions
-description: The Zero Copy Connector for ERP Monitor enables you to track ERP transactions and their progress.
+title: ERP Canvas Monitor field descriptions
+description: The ERP Canvas Monitor enables you to track ERP transactions and their progress.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-integration-framework/erp-data-hub-monitor-field-descriptions.html
 release: yokohama
@@ -9,14 +9,14 @@ classification: erp-integration-framework
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Zero Copy Connector for ERP field descriptions, Zero Copy Connector for ERP reference, Zero Copy Connector for ERP, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [ERP Canvas field descriptions, ERP Canvas reference, ERP Canvas, Building low-code applications, Developing your application, Building applications]
 ---
 
-# Zero Copy Connector for ERP Monitor field descriptions
+# ERP Canvas Monitor field descriptions
 
-The Zero Copy Connector for ERP Monitor enables you to track ERP transactions and their progress.
+The ERP Canvas Monitor enables you to track ERP transactions and their progress.
 
-For process details, see [Monitor Zero Copy Connector for ERP logged extraction and remote lookup transactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/monitor-erp-data-hub-logged-extraction-and-remote-lookup-transactions.md).
+For process details, see [Monitor ERP Canvas logged extraction and remote lookup transactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/monitor-erp-data-hub-logged-extraction-and-remote-lookup-transactions.md).
 
 <table id="table_uk4_144_2dc"><thead><tr><th>
 
@@ -58,7 +58,7 @@ Source
 
 </td><td>
 
-Source table in Zero Copy Connector for ERP. For example, sn\_erp\_integration\_etl\_extraction\_task or sn\_erp\_integration\_remote\_table.
+Source table in ERP Canvas. For example, sn\_erp\_integration\_etl\_extraction\_task or sn\_erp\_integration\_remote\_table.
 
 </td></tr><tr><td>
 
@@ -117,5 +117,5 @@ Updated
 The date and time the transaction was last changed.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Zero Copy Connector for ERP field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-field-descriptions.md)
+</table>**Parent Topic:**[ERP Canvas field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-field-descriptions.md)
 

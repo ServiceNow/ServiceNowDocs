@@ -1,5 +1,5 @@
 ---
-title: Now Assist for Telecommunications, Media and Technology \(TMT\) Recommend risk signal solutions agentic workflow
+title: ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) Recommend risk signal solutions agentic workflow
 description: Use the Recommend risk signal solutions agentic workflow to monitor and mitigate risks in customer engagements with minimal user intervention.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-resolve-risk.html
@@ -9,10 +9,10 @@ classification: now-assist-for-telecom-media-and-technology
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Customer success agentic workflows, Use agentic workflows, Now Assist for Telecommunications, Media and Technology \(TMT\), Telecommunications, Media, and Technology]
+breadcrumb: [Customer success agentic workflows, Use agentic workflows, ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\), Telecommunications, Media, and Technology]
 ---
 
-# Now Assist for Telecommunications, Media and Technology \(TMT\) Recommend risk signal solutions agentic workflow
+# ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) Recommend risk signal solutions agentic workflow
 
 Use the Recommend risk signal solutions agentic workflow to monitor and mitigate risks in customer engagements with minimal user intervention.
 

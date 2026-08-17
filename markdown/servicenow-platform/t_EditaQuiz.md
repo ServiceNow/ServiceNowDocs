@@ -31,15 +31,15 @@ You can only edit a quiz that has the same application scope as that of your cur
 
 1.  Open the quiz: Group the Service Details form with one of the following options.
 
-<table id="choicetable_zxq_kwh_br"><thead><tr><th align="left" id="d483842e84">
+<table id="choicetable_zxq_kwh_br"><thead><tr><th align="left" id="d484342e84">
 
 Option
 
-</th><th align="left" id="d483842e87">
+</th><th align="left" id="d484342e87">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d483842e93">
+</th></tr></thead><tbody><tr><td id="d484342e93">
 
 **__Quizzes__ &gt; __Quiz Designer__**
 
@@ -47,7 +47,7 @@ Action
 
 Point to the menu icon in the quiz header bar and select **Load Quiz**.
 
-</td></tr><tr><td id="d483842e117">
+</td></tr><tr><td id="d484342e117">
 
 **__Quizzes__ &gt; __Quizzes__**
 
@@ -55,7 +55,7 @@ Point to the menu icon in the quiz header bar and select **Load Quiz**.
 
 Right-click a quiz in the list and select **Quiz Designer**.
 
-</td></tr><tr><td id="d483842e141">
+</td></tr><tr><td id="d484342e141">
 
 **__Quizzes__ &gt; __Quizzes__**
 

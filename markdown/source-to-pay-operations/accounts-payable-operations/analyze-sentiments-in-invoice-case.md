@@ -1,6 +1,6 @@
 ---
 title: Analyze sentiments in invoice cases
-description: Use the Sentiment Analysis skill in Now Assist for Accounts Payable Operations \(APO\) to analyze requester's response and determine the sentiment associated with an invoice case.
+description: Use the Sentiment Analysis skill in ServiceNow Otto for Accounts Payable Operations \(APO\) to analyze requester's response and determine the sentiment associated with an invoice case.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/accounts-payable-operations/analyze-sentiments-in-invoice-case.html
 release: yokohama
@@ -9,12 +9,12 @@ classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-03-05"
 reading_time_minutes: 1
-breadcrumb: [Using Now Assist for Accounts Payable Operations \(APO\), Now Assist for Accounts Payable Operations \(APO\), Accounts Payable Operations, Finance and Supply Chain]
+breadcrumb: [Using ServiceNow Otto for Accounts Payable Operations \(APO\), ServiceNow Otto for Accounts Payable Operations \(APO\), Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Analyze sentiments in invoice cases
 
-Use the Sentiment Analysis skill in Now Assist for Accounts Payable Operations \(APO\) to analyze requester's response and determine the sentiment associated with an invoice case.
+Use the Sentiment Analysis skill in ServiceNow Otto for Accounts Payable Operations \(APO\) to analyze requester's response and determine the sentiment associated with an invoice case.
 
 ## Before you begin
 
@@ -43,14 +43,14 @@ Role required: sn\_slm.fulfiller, sn\_slm.owner, or sn\_slm.admin
     Invoice cases display Sentiment analysis.
 
 
-**Parent Topic:**[Using Now Assist for Accounts Payable Operations \(APO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/accounts-payable-operations/using-now-assist-apo.md)
+**Parent Topic:**[Using ServiceNow Otto for Accounts Payable Operations \(APO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/accounts-payable-operations/using-now-assist-apo.md)
 
 **Related topics**  
 
 
-[Summarize a record by using Now Assist for Accounts Payable Operations \(APO\)]()
+[Summarize a record by using ServiceNow Otto for Accounts Payable Operations \(APO\)]()
 
-[Use Now Assist for Accounts Payable Operations \(APO\) in a Virtual Agent chat]()
+[Use ServiceNow Otto for Accounts Payable Operations \(APO\) in a Virtual Agent chat]()
 
 [Use Invoice inquiry solution generator skill]()
 

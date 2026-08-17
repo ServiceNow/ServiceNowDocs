@@ -1,5 +1,5 @@
 ---
-title: Skill inputs for Now Assist for Telecommunications, Media and Technology \(TMT\)
+title: Skill inputs for ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
 description: Use inputs for each skill to configure how and when a skill is used.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-skill-inputs.html
@@ -9,14 +9,14 @@ classification: now-assist-for-telecom-media-and-technology
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 7
-breadcrumb: [Configure, Now Assist for Telecommunications, Media and Technology \(TMT\), Telecommunications, Media, and Technology]
+breadcrumb: [Configure, ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\), Telecommunications, Media, and Technology]
 ---
 
-# Skill inputs for Now Assist for Telecommunications, Media and Technology \(TMT\)
+# Skill inputs for ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
 
 Use inputs for each skill to configure how and when a skill is used.
 
-## Overview of Now Assist for TMT
+## Overview of ServiceNow Otto for TMT
 
 Depending on the selected skill, you can configure inputs. These settings determine how a skill is used. An input identifies the data that is used for a skill, such as the table and fields that are used to generate a service problem case summary, resolution notes summary, customer service summary, and test summary.
 
@@ -129,11 +129,11 @@ The customer service summary skill helps user to get information on the customer
 -   General details
 -   Graph questionnaire
 
-    To add or modify the queries, see [Configure the graph questionnaire Now Assist for Telecommunications, Media and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-configure-graph-questionnaire.md).
+    To add or modify the queries, see [Configure the graph questionnaire ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-configure-graph-questionnaire.md).
 
 -   Customize prompt
 
-    To customize the prompt, see [Customize a skill in Now Assist for TMT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-customize.md).
+    To customize the prompt, see [Customize a skill in ServiceNow Otto for TMT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-customize.md).
 
 -   Define access
 -   Select display

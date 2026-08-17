@@ -7,7 +7,7 @@ release: yokohama
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Using customer success, Customer success, Customer Success Management]
+breadcrumb: [Using customer success, Customer success, Account Lifecycle Events]
 ---
 
 # Create a task in Microsoft Dynamics CRM
@@ -50,5 +50,5 @@ Role required: sn\_acct\_lc.ale\_success\_agent
     -   Microsoft Dynamics CRM spoke \(see [Microsoft Dynamics CRM Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/microsoft-dynamics-crm-spoke.md)\).
         -   Decision table as per the requirement
         -   Webhook \(Dynamics Webhook Callbacks\)
-    -   Customer Success Management application has been configured for Microsoft Dynamics CRM integration. See [Integrating with Microsoft Dynamics CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-crm-integration.md) for details.
+    -   Account Lifecycle Events application has been configured for Microsoft Dynamics CRM integration. See [Integrating with Microsoft Dynamics CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-crm-integration.md) for details.
 

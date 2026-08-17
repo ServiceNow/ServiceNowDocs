@@ -1,6 +1,6 @@
 ---
-title: Configure Email response generation skill in Now Assist for Accounts Payable Operations \(APO\)
-description: If you have the admin role, you can configure the Email response generation skill in Now Assist for Accounts Payable Operations \(APO\) so that an accounts payable \(AP\) fulfiller can use the generative AI skills in Source-to-Pay Workspace to draft professional responses automatically.
+title: Configure Email response generation skill in ServiceNow Otto for Accounts Payable Operations \(APO\)
+description: If you have the admin role, you can configure the Email response generation skill in ServiceNow Otto for Accounts Payable Operations \(APO\) so that an accounts payable \(AP\) fulfiller can use the generative AI skills in Source-to-Pay Workspace to draft professional responses automatically.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/accounts-payable-operations/config-email-apo.html
 release: yokohama
@@ -9,12 +9,12 @@ classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-02-12"
 reading_time_minutes: 1
-breadcrumb: [Configure Now Assist for Accounts Payable Operations \(APO\), Now Assist for Accounts Payable Operations \(APO\), Accounts Payable Operations, Finance and Supply Chain]
+breadcrumb: [Configure ServiceNow Otto for Accounts Payable Operations \(APO\), ServiceNow Otto for Accounts Payable Operations \(APO\), Accounts Payable Operations, Finance and Supply Chain]
 ---
 
-# Configure Email response generation skill in Now Assist for Accounts Payable Operations \(APO\)
+# Configure Email response generation skill in ServiceNow Otto for Accounts Payable Operations \(APO\)
 
-If you have the admin role, you can configure the Email response generation skill in Now Assist for Accounts Payable Operations \(APO\) so that an accounts payable \(AP\) fulfiller can use the generative AI skills in Source-to-Pay Workspace to draft professional responses automatically.
+If you have the admin role, you can configure the Email response generation skill in ServiceNow Otto for Accounts Payable Operations \(APO\) so that an accounts payable \(AP\) fulfiller can use the generative AI skills in Source-to-Pay Workspace to draft professional responses automatically.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills** to access the **Now Assist skills** tab of the Now Assist Admin console.
+1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills** to access the **Now Assist skills** tab of the AI Admin Hub console.
 
 2.  In the **Finance and Supply Chain** workflow group, select **Accounts Payable Operations** to view the skills for the APO features.
 

@@ -1,6 +1,6 @@
 ---
 title: Recommendations and similar candidates in ERP-CM
-description: The record for each candidate in ERP Semantic Mining \(ERP-CM\) displays information on suggested next steps and similar candidates to help you in replatforming an ERP \(Enterprise Resource Planning\) app.
+description: The record for each candidate in ERP Customization Mining \(ERP-CM\) displays information on suggested next steps and similar candidates to help you in replatforming an ERP \(Enterprise Resource Planning\) app.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-customization-mining/erpcm-recommendations-and-similar-candidates.html
 release: yokohama
@@ -9,12 +9,12 @@ classification: erp-customization-mining
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Exploring ERP Semantic Mining, ERP Semantic Mining \(ERP-CM\), Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Exploring ERP Customization Mining, ERP Customization Mining \(ERP-CM\), Building low-code applications, Developing your application, Building applications]
 ---
 
 # Recommendations and similar candidates in ERP-CM
 
-The record for each candidate in ERP Semantic Mining \(ERP-CM\) displays information on suggested next steps and similar candidates to help you in replatforming an ERP \(Enterprise Resource Planning\) app.
+The record for each candidate in ERP Customization Mining \(ERP-CM\) displays information on suggested next steps and similar candidates to help you in replatforming an ERP \(Enterprise Resource Planning\) app.
 
 ## Recommended actions for candidates
 
@@ -24,7 +24,7 @@ For example, you may need to create a workflow in Workflow Studio for one candid
 
 Each recommended action has an estimated effort, which is a numerical score that assesses how well the ServiceNow AI Platform has matching functionality. Green actions require little-to-no effort, while red actions are more difficult.
 
-\[Omitted image "ecm-recommendations-tab.png"\] Alt text: ERP Semantic Mining candidates page with recommendations tab displayed.
+\[Omitted image "ecm-recommendations-tab.png"\] Alt text: ERP Customization Mining candidates page with recommendations tab displayed.
 
 For more information on recommended actions, see [Check candidate recommendations in ERP-CM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/erpcm-work-with-recommendations.md).
 
@@ -34,5 +34,5 @@ For each candidate, ERP-CM displays a **Similar candidates** tab, which lists ea
 
 Similar candidates are helpful when planning how to best replatform a legacy app. When you replatform a custom app from the system of record, you don't have to replicate the old app exactly. Use the replatforming process to design a better app, perhaps one that addresses the needs of multiple similar candidates in a single, new app built using low-code tools on the ServiceNow AI Platform.
 
-**Parent Topic:**[Exploring ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/exploring-ecm.md)
+**Parent Topic:**[Exploring ERP Customization Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/exploring-ecm.md)
 

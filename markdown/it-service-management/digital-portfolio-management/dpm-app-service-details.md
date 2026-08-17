@@ -1,6 +1,6 @@
 ---
 title: View application service details
-description: View information about application services that may impact your solutions. Each Digital Portfolio Management \(DPM\) page presents the application service life-cycle phase information in tabs, primarily Run and Info. The Risk tab displays when you have the Technology Portfolio Management plugin \[sn\_apm\_tpm\] installed.
+description: View information about application services that may impact your solutions. Each Digital Portfolio Management \(DPM\) page presents the application service life-cycle phase information in tabs, primarily Run and Info. The Risk tab displays when you have the Technology Lifecycle Management plugin \[sn\_apm\_tpm\] installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/digital-portfolio-management/dpm-app-service-details.html
 release: yokohama
@@ -14,7 +14,7 @@ breadcrumb: [Digital Portfolio Management life-cycle management, Exploring Digit
 
 # View application service details
 
-View information about application services that may impact your solutions. Each Digital Portfolio Management \(DPM\) page presents the application service life-cycle phase information in tabs, primarily Run and Info. The Risk tab displays when you have the Technology Portfolio Management plugin \[sn\_apm\_tpm\] installed.
+View information about application services that may impact your solutions. Each Digital Portfolio Management \(DPM\) page presents the application service life-cycle phase information in tabs, primarily Run and Info. The Risk tab displays when you have the Technology Lifecycle Management plugin \[sn\_apm\_tpm\] installed.
 
 As you view the following tables, keep in mind that what you are able to see in DPM depends on what your product license permits from the source application. See [Digital Portfolio Management related applications and data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-portfolio-management/dpm-related-products.md) for the required installs and plugins to see each data element.
 
@@ -168,9 +168,9 @@ A list of the offerings that depend on this application service. The number of o
 </td></tr></tbody>
 </table>## Risk tab
 
-To see the Risk tab, you must have the Technology Portfolio Management plugin \[sn\_apm\_tpm\] installed. The Risk tab displays the Technology Lifecycle Risk using donut reports and lists for application services software and hardware models.
+To see the Risk tab, you must have the Technology Lifecycle Management plugin \[sn\_apm\_tpm\] installed. The Risk tab displays the Technology Lifecycle Risk using donut reports and lists for application services software and hardware models.
 
-**Note:** The Technology Portfolio Management plugin \[sn\_apm\_tpm\] has two dependency plugins:
+**Note:** The Technology Lifecycle Management plugin \[sn\_apm\_tpm\] has two dependency plugins:
 
 -   Application Portfolio Management \[com.snc.apn\]
 -   Software Asset Management \[com.snc.sams\]

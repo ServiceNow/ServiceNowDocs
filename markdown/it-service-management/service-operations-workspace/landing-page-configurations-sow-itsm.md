@@ -26,7 +26,7 @@ Configure the header message that is part of the greeting text on the landing pa
 Change the image of the space man to an image your choice.
 -   **[Configure the donut color in the Overview section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/customize-donut-color.md)**  
 Create a visual experience that works the best for donuts in the **Overview** section.
--   **[Configure the donuts in the tier 1 landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/customize-first-level-cards.md)**  
+-   **[Configure tier 1 landing page metric cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/customize-first-level-cards.md)**  
 Configure the data displayed in donuts in the **Overview** section of the tier 1 landing page.
 -   **[Configure the donuts in the tier 2 landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/configure-donut-tier2-landing-page.md)**  
 Configure the data displayed in donuts in the **Overview** section of the tier 2 landing page.

@@ -42,15 +42,15 @@ The map editor does not support the following actions:
 
 1.  While editing a map, specify whether to create or modify a connection.
 
-<table id="choicetable_cb2_gjb_l2c"><thead><tr><th align="left" id="d471978e132">
+<table id="choicetable_cb2_gjb_l2c"><thead><tr><th align="left" id="d472446e132">
 
 Action
 
-</th><th align="left" id="d471978e135">
+</th><th align="left" id="d472446e135">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d471978e141">
+</th></tr></thead><tbody><tr><td id="d472446e141">
 
 **Create a connection**
 
@@ -62,7 +62,7 @@ Take one of the following actions:
 -   Select a CI for the connection \(either the parent or the child\) and then select the Manage connection icon \[Omitted image "icon-um-edit-connection.png"\].
 
 
-</td></tr><tr><td id="d471978e166">
+</td></tr><tr><td id="d472446e166">
 
 **Modify an existing connection**
 
@@ -74,7 +74,7 @@ Take one of the following actions:
 -   Select a CI for the connection \(either the parent or the child\) and then select the Attributes icon \[Omitted image "icon-um-attributes-panel.png"\]. All connections for the CI are listed in boxes. \[Omitted image "um-editor-attrib-card-cxn.png"\] Select **Change**.
 
 
-</td></tr><tr><td id="d471978e195">
+</td></tr><tr><td id="d472446e195">
 
 **Delete a connection**
 

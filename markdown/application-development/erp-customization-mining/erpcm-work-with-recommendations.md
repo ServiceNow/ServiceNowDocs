@@ -1,6 +1,6 @@
 ---
 title: Check candidate recommendations in ERP-CM
-description: Check the actions that ERP Semantic Mining \(ERP-CM\) suggests to improve the ease of replatforming an ERP \(Enterprise Resource Planning\) candidate.
+description: Check the actions that ERP Customization Mining \(ERP-CM\) suggests to improve the ease of replatforming an ERP \(Enterprise Resource Planning\) candidate.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-customization-mining/erpcm-work-with-recommendations.html
 release: yokohama
@@ -9,12 +9,12 @@ classification: erp-customization-mining
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Finding and working with candidates to replatform, ERP Semantic Mining \(ERP-CM\), Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Finding and working with candidates to replatform, ERP Customization Mining \(ERP-CM\), Building low-code applications, Developing your application, Building applications]
 ---
 
 # Check candidate recommendations in ERP-CM
 
-Check the actions that ERP Semantic Mining \(ERP-CM\) suggests to improve the ease of replatforming an ERP \(Enterprise Resource Planning\) candidate.
+Check the actions that ERP Customization Mining \(ERP-CM\) suggests to improve the ease of replatforming an ERP \(Enterprise Resource Planning\) candidate.
 
 ## Before you begin
 
@@ -44,7 +44,7 @@ For example, you may need to create a workflow in Workflow Studio for one candid
 
 5.  Select a **Recommended action URL** to open the relevant destination on the ServiceNow AI Platform in a new browser tab.
 
-    For example, if the recommendation is to read an extraction table, select the **Recommended action** link to open the ERP model in Zero Copy Connector for ERP, where you can add the suggested table.
+    For example, if the recommendation is to read an extraction table, select the **Recommended action** link to open the ERP model in ERP Canvas, where you can add the suggested table.
 
 
 **Parent Topic:**[Finding and working with candidates to replatform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/work-with-candidates.md)

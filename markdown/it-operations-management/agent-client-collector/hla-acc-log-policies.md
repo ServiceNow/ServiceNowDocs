@@ -1,24 +1,25 @@
 ---
 title: Create an Agent Client Collector log policy
-description: Create a new ACC log policy when no default policy exists for the CI that you want Agent Client Collector to monitor.
+description: Create an ACC log policy when no default policy exists for the CI you want Agent Client Collector to monitor.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/agent-client-collector/hla-acc-log-policies.html
 release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 5
+keywords: [ACC log policy, log path configuration, monitored CIs, log streaming, policy definition, log analytics]
 breadcrumb: [Agent Client Collector log policies, Agent Client Collector Log Analytics, Agent Client Collector, IT Operations Management]
 ---
 
 # Create an Agent Client Collector log policy
 
-Create a new ACC log policy when no default policy exists for the CI that you want Agent Client Collector to monitor.
+Create an ACC log policy when no default policy exists for the CI you want Agent Client Collector to monitor.
 
 ## Before you begin
 
--   The Agent Client Collector Log Analytics \(ACC-L\) application, available from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home), must be installed. For more information, see [Agent Client Collector installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-installation.md).
+-   The Agent Client Collector Log Analytics \(ACC-L\) application, available from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home), must be installed. For more information, see [Agent Client Collector Installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-installation.md).
 -   The Agent Client Collector comes with the default **servicenow** user. Ensure that this user has read access to enable Agent Client Collector to view all the configured log paths. For example, the Agent Client Collector **servicenow** user that comes installed with the base system does not have permissions to view the paths to `/var/log/` in Linux and `C:\Windows\System32` in Windows. For information about configuring permissions for the **servicenow** user, see the [ACC-L Permission Denied issues \[KB1117271\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1117271) article in the Now Support Knowledge Base.
 
 Role required: agent\_client\_collector\_admin
@@ -29,7 +30,7 @@ Role required: agent\_client\_collector\_admin
 
     The **Policies** page displays all Log Analytics policies. For a list of the policies that come with the base system, see [Agent Client Collector Log Analytics default policies and checks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-log-analytics-policies-checks.md).
 
-2.  Click **New**.
+2.  Select **New**.
 
     **Note:** For general information about creating an ACC policy, see [Create an Agent Client Collector policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/create-edit-policies.md).
 
@@ -39,8 +40,8 @@ Role required: agent\_client\_collector\_admin
     |-----|-----------|
     |Name|A descriptive name for the policy.|
     |Description|Description of the policy.|
-    |Publish status|Hard coded as **Draft**, which means that the policy has not yet been published. You cannot edit this field.|
-    |Hierarchy|Hard coded as **None**. When a child policy is added to the policy, the value changes to **Parent**. Child policies have a value of **Child**.|
+    |Publish status|Hard-coded as **Draft**, which means that the policy has not yet been published. You cannot edit this field.|
+    |Hierarchy|Hard-coded as **None**. When a child policy is added to the policy, the value changes to **Parent**. Child policies have a value of **Child**.|
 
 4.  On the **Checks** tab, associate the log policy with the relevant log shipper check.
 
@@ -166,5 +167,5 @@ For more information, see the Log input [Configuration options](https://www.elas
 
 ## What to do next
 
-[Ensure that the data input is streaming data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/accl-verify-log-streaming.md).
+[Verify that the data input is streaming data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/accl-verify-log-streaming.md).
 

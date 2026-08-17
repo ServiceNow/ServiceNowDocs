@@ -1,5 +1,5 @@
 ---
-title: Customize the issue summarization skill in Now Assist for Integrated Risk Management \(IRM\)
+title: Customize the issue summarization skill in ServiceNow Otto for Integrated Risk Management \(IRM\)
 description: If you have the admin role, you can customize the issue summarization skill so that users can use the generative AI skills in Risk Workspace and in Core UI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/grc-common-functions/customize-issue-summarization-skill.html
@@ -13,7 +13,7 @@ keywords: [Now Assist, generative AI]
 breadcrumb: [Configure, Now Assist, Common GRC features, Governance, Risk, and Compliance]
 ---
 
-# Customize the issue summarization skill in Now Assist for Integrated Risk Management \(IRM\)
+# Customize the issue summarization skill in ServiceNow Otto for Integrated Risk Management \(IRM\)
 
 If you have the admin role, you can customize the issue summarization skill so that users can use the generative AI skills in Risk Workspace and in Core UI.
 
@@ -23,11 +23,11 @@ Role required: admin
 
 ## About this task
 
-From the Now Assist Admin console, you can select the input data in various states for the skill and then configure the prompt headers to include them in the summary.
+From the AI Admin Hub console, you can select the input data in various states for the skill and then configure the prompt headers to include them in the summary.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Admin Center** &gt; **Now Assist Admin** &gt; **Now Assist Skills** tab in the Now Assist Admin console.
+1.  Navigate to **All** &gt; **Admin Center** &gt; **Now Assist Admin** &gt; **Now Assist Skills** tab in the AI Admin Hub console.
 
 2.  In the **Technology** workflow group, view the skills for Risk &amp; Sustainability.
 

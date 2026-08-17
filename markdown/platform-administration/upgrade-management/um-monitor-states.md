@@ -9,7 +9,7 @@ classification: upgrade-management
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Explore Upgrade Monitor in Upgrade Console, Upgrade Console summary, Exploring Upgrade Console, Upgrade Console, Upgrade, Administer the ServiceNow AI Platform]
+breadcrumb: [Explore Upgrade Monitor in Upgrade Management, Upgrade Management summary, Exploring Upgrade Management, Upgrade Management, Upgrade, Administer the ServiceNow AI Platform]
 ---
 
 # Upgrade Monitor schedule states

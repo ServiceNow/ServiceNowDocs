@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2025-09-25"
 reading_time_minutes: 3
 keywords: [Trending Topics, GenAI Insights, Case Manager Dashboard, Customer Sentiment, Base system Insights]
-breadcrumb: [Use, Now Assist for Customer Service Management \(CSM\), Customer Service Management]
+breadcrumb: [Use, ServiceNow Otto for Customer Service Management \(CSM\), Customer Service Management]
 ---
 
 # View trending topics dashboard
@@ -82,7 +82,7 @@ Automatically generated insights give you information about general trends and i
 
 You can select **Related record** to open a new page with a list that shows the corresponding cases referenced in the graph and select the refresh icon \[Omitted image "refresh-sync-new.png"\] Alt text: Refresh data icon to see the most recent update.
 
-**Parent Topic:**[Using Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
+**Parent Topic:**[Using ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
 
 **Related topics**  
 

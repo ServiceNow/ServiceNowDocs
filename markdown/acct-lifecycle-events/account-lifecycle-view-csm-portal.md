@@ -1,18 +1,18 @@
 ---
 title: View account onboarding cases in the Customer Service Portal
-description: View Customer Success Management onboarding case records or case task records on the Customer Service Management \(CSM\) portal.
+description: View Account Lifecycle Events onboarding case records or case task records on the Customer Service Management \(CSM\) portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/acct-lifecycle-events/account-lifecycle-view-csm-portal.html
 release: yokohama
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Using account onboarding, Account onboarding, Customer Success Management]
+breadcrumb: [Using account onboarding, Account onboarding, Account Lifecycle Events]
 ---
 
 # View account onboarding cases in the Customer Service Portal
 
-View Customer Success Management onboarding case records or case task records on the Customer Service Management \(CSM\) portal.
+View Account Lifecycle Events onboarding case records or case task records on the Customer Service Management \(CSM\) portal.
 
 ## Before you begin
 
@@ -60,7 +60,7 @@ Role required:
 
     The following details are displayed for each case task:
 
-    -   Header section that provides information about the case task including case number, parent, or onboarding case with which the task is associated, the account name, and status of the task.
+    -   Header section that provides information about the case task including case number, parent onboarding case, account name, and task status.
     -   The left-hand section provides the following details:
         -   General instructions: Provides a short description and a detailed case description. Select **View More** to view all the details related to the case.
         -   Shared articles: Shows articles that have been shared with you. Select the article link to view details.

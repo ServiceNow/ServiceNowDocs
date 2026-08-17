@@ -9,7 +9,7 @@ classification: now-assist-for-hrsd
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Configure, Now Assist for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
+breadcrumb: [Configure, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
 # Restrict Now Assist capabilities for employee relations cases
@@ -29,26 +29,26 @@ Restrict the Now Assist capabilities for your employee relations cases and defin
 3.  On the **Define Availability** tab, modify the condition and add **Task type is not Employee Relations Case**.
 
 
-**Parent Topic:**[Configure Now Assist for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md)
+**Parent Topic:**[Configure ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md)
 
 **Related topics**  
 
 
-[Skill inputs and triggers for Now Assist for HR Service Delivery \(HRSD\)]()
+[Skill inputs and triggers for ServiceNow Otto for HR Service Delivery \(HRSD\)]()
 
-[RCA approvals for Now Assist for HR Service Delivery \(HRSD\)]()
+[RCA approvals for ServiceNow Otto for HR Service Delivery \(HRSD\)]()
 
-[Customize the Now Assist for HRSD skills]()
+[Customize the ServiceNow Otto for HRSD skills]()
 
 [Configure attachment summary]()
 
-[Configure resolution notes generation for Now Assist for HRSD]()
+[Configure resolution notes generation for ServiceNow Otto for HRSD]()
 
 [Configure sensitivity detection]()
 
 [Configure Gen AI Virtual Agent for HRSD]()
 
-[Configure the Now Assist for HRSD Virtual Agent topics]()
+[Configure the ServiceNow Otto for HRSD Virtual Agent topics]()
 
 [Configure HCM agents for HR Service Delivery AI Agent Collection]()
 

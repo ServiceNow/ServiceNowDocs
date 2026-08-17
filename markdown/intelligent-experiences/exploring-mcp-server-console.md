@@ -48,7 +48,7 @@ The following infographic shows the workflow for AI administrators to get starte
 
 6.  Employees use clients, such as AI agents, to prompt the server for data from the instance or to perform an action on the instance.
 
-**Note:** With AI Gateway in AI Control Tower, AI administrators can monitor MCP server access and view metrics for servers and their tools. For more information, see [AI Gateway](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/ai-gateway-overview.md).
+**Note:** With AI Gateway in AI Control Tower, AI administrators can monitor MCP server access and view metrics for servers and their tools. For more information, see .
 
 ## MCP Server Console benefits
 

@@ -1,6 +1,6 @@
 ---
-title: Now Assist for Accounts Payable Operations \(APO\)
-description: Use the ServiceNow Now Assist for APO application to help your fulfillers become more productive and efficient as they work. Through generative AI, you can enable your fulfillers to automatically create cases, summarize and ingest the invoices, and then use workflows to perform end-to-end invoice processing.
+title: ServiceNow Otto for Accounts Payable Operations \(APO\)
+description: Use the ServiceNow ServiceNow Otto for APO application to help your fulfillers become more productive and efficient as they work. Through generative AI, you can enable your fulfillers to automatically create cases, summarize and ingest the invoices, and then use workflows to perform end-to-end invoice processing.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/accounts-payable-operations/now-assist-apo.html
 release: yokohama
@@ -12,27 +12,27 @@ reading_time_minutes: 3
 breadcrumb: [Accounts Payable Operations, Finance and Supply Chain]
 ---
 
-# Now Assist for Accounts Payable Operations \(APO\)
+# ServiceNow Otto for Accounts Payable Operations \(APO\)
 
-Use the ServiceNow® Now Assist for APO application to help your fulfillers become more productive and efficient as they work. Through generative AI, you can enable your fulfillers to automatically create cases, summarize and ingest the invoices, and then use workflows to perform end-to-end invoice processing.
+Use the ServiceNow® ServiceNow Otto for APO application to help your fulfillers become more productive and efficient as they work. Through generative AI, you can enable your fulfillers to automatically create cases, summarize and ingest the invoices, and then use workflows to perform end-to-end invoice processing.
 
 ## Get started
 
 <table id="table_yd4_xmc_wcc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about Now Assist for APO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/accounts-payable-operations/exploring-now-assist-apo.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about ServiceNow Otto for APO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/accounts-payable-operations/exploring-now-assist-apo.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the Now Assist for APO application to get started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/accounts-payable-operations/configuring-now-assist-apo.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the ServiceNow Otto for APO application to get started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/accounts-payable-operations/configuring-now-assist-apo.md)
 
 </td><td>
 
-[Use\[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:Use the generative AI capabilities that are offered by Now Assist for APO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/accounts-payable-operations/using-now-assist-apo.md)
+[Use\[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:Use the generative AI capabilities that are offered by ServiceNow Otto for APO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/accounts-payable-operations/using-now-assist-apo.md)
 
 </td></tr><tr><td>
 
-[Use Accounts Payable OperationsAI agent collection\[Omitted image "bus-explore.svg"\] Alt text:Use agentic workflows in Now Assist for APO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/accounts-payable-operations/using-apo-ai-agents.md)
+[Use Accounts Payable OperationsAI agent collection\[Omitted image "bus-explore.svg"\] Alt text:Use agentic workflows in ServiceNow Otto for APO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/accounts-payable-operations/using-apo-ai-agents.md)
 
 </td><td>
 

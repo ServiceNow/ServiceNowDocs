@@ -7,7 +7,7 @@ release: yokohama
 topic_type: concept
 last_updated: "2025-11-07"
 reading_time_minutes: 2
-breadcrumb: [Use agentic AI in the OTM application, Now Assist for Operational Technology Manager \(OTM\), Operational Technology]
+breadcrumb: [Use agentic AI in the OTM application, Operational Technology \(OT\) Manager Foundation, Operational Technology]
 ---
 
 # Import the OT device spreadsheet into OT CMDB agentic workflow
@@ -48,5 +48,5 @@ The Import OT device spreadsheet into OT CMDB agentic workflow uses the OT Excel
 -   **[Upload, validate, and import the OT device inventory spreadsheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/upload-import-validate-ot-device-inventory-spreadsheet.md)**  
 Chat with an AI agent in the Now Assist panel to begin the process for uploading, validating, and importing your Operational Technology \(OT\) device data into the OT CMDB.
 
-**Parent Topic:**[Use agentic AI for Now Assist for Operational Technology Manager \(OTM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/now-assist-for-otm-use-cases.md)
+**Parent Topic:**[Use agentic AI for Operational Technology \(OT\) Manager Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/now-assist-for-otm-use-cases.md)
 

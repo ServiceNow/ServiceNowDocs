@@ -37,7 +37,7 @@ For more information about Live Agent chat integration, see [Move from Connect S
 
 [Add a user-specific quick link on the ITSM landing page]()
 
-[]()
+[Create a list in Service Operations Workspace]()
 
 [Interaction Management in Service Operations Workspace]()
 

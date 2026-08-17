@@ -7,7 +7,7 @@ release: yokohama
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2025-07-31"
 reading_time_minutes: 8
 breadcrumb: [Reviewing customer or partner accounts in Proactive Service Experience Workflows, Using Proactive Service Experience Workflows, Proactive Service Experience Workflows]
 ---
@@ -106,13 +106,13 @@ This dashboard displays metrics that provide users a summary of the effectivenes
 |Overdue SLAs|Number of open service level agreements \(SLAs\) with the **Has breached** field activated.|
 |SLAs expiring today|Number of service level agreements \(SLAs\) that are scheduled to reach their deadline or expiration on the current day.|
 |My team Average SLAs age|Average duration between start\_time and end\_time for all SLAs marked as achieved or completed within a specific team, filtered by the assignment groups associated with the logged-in user.|
-|My team Opened SLAs|Total number of service level agreements \(SLAs\) that are either in progress or paused, specific to a team and filtered according to the assignment groups of the logged-in user.|
+|My team Opened SLAs|Total number of SLAs that are either in progress or paused, specific to a team and filtered according to the assignment groups of the logged-in user.|
 |My team overdue SLAs|Total number of service level agreements \(SLAs\) marked as breached within a specific team, filtered based on the assignment groups linked to the logged-in user.|
-|My team SLAs expiring today|Total number of service level agreements \(SLAs\) within a specific team scheduled to reach their deadline or expire today, filtered based on the assignment groups linked to the logged-in user.|
+|My team SLAs expiring today|Total number of SLAs within a specific team scheduled to reach their deadline or expire today, filtered based on the assignment groups linked to the logged-in user.|
 
 ## Proactive Service dashboard
 
-The Proactive Service dashboard offers a detailed overview of the influence of incidents, changes, and key records on organizational operations and the extent to which it has transitioned towards a mature service delivery model.
+The Proactive Service dashboard offers a detailed overview of the influence of incidents, changes, and key records on organizational operations. It also shows the extent to which the organization has transitioned towards a mature service delivery model.
 
 ## Proactive Service indicators
 

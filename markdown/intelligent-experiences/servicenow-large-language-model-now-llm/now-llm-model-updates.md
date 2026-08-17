@@ -23,7 +23,7 @@ Large language models \(LLMs\) are complex machine-learning models that are trai
 
 Model cards explain the specific model's context, intended use, training data, limitations, and other important information.
 
-These model cards are for skills that use the Now LLM Service. There are certain skills, such as Now Assist Multi-Turn Catalog Ordering, that use Azure OpenAI instead. To see what LLM a skill is using, you can check the skill list in the Now Assist Admin console and review the LLM service column.
+These model cards are for skills that use the Now LLM Service. There are certain skills, such as Now Assist Multi-Turn Catalog Ordering, that use Azure OpenAI instead. To see what LLM a skill is using, you can check the skill list in the AI Admin Hub console and review the LLM service column.
 
 -   **[Model card for ServiceNow text-to-text LLM](https://downloads.docs.servicenow.com/resource/enus/infocard/text-to-text-llm.pdf)**
 

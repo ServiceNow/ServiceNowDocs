@@ -16,7 +16,7 @@ breadcrumb: [Using the Career Conversations application, Career Conversations, T
 
 As a manager, use the growth conversation preparation AI agent to streamline your employee growth discussions. Leverage this agent to gather key employee talent activity and journeys data to get a clear, structured summary that helps you prepare for the conversation faster and effectively. Rely on data-driven talking points, so every growth conversation is focused, meaningful, and impactful.
 
-**Note:** For the Growth conversation preparation AI agent to work, you need to be on 3.5.2 version of Career Conversations and have the Now Assist for HR Service Delivery \(HRSD\) plugin which will install Now Assist for Talent and HR Talent AI Agent Collection.
+**Note:** For the Growth conversation preparation AI agent to work, you need to be on 3.5.2 version of Career Conversations and have the ServiceNow Otto for HR Service Delivery \(HRSD\) plugin which will install Now Assist for Talent and HR Talent AI Agent Collection.
 
 |Agentic AI feature|AI agents|Description|
 |------------------|---------|-----------|

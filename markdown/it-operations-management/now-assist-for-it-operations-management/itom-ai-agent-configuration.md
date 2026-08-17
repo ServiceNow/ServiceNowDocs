@@ -1,5 +1,5 @@
 ---
-title: Configuring agents and skills for Now Assist for ITOM
+title: Configuring agents and skills for ServiceNow Otto for ITOM
 description: Configure observability AI agents and skills for the analyze alert impact agentic workflow or manage alerts autonomously agentic workflow. Once configured, they gather information to help you investigate alerts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/now-assist-for-it-operations-management/itom-ai-agent-configuration.html
@@ -9,10 +9,10 @@ classification: now-assist-for-it-operations-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Configuring Now Assist for ITOM, Now Assist for ITOM, IT Operations Management]
+breadcrumb: [Configuring ServiceNow Otto for ITOM, ServiceNow Otto for ITOM, IT Operations Management]
 ---
 
-# Configuringagents and skills for Now Assist for ITOM
+# Configuringagents and skills for ServiceNow Otto for ITOM
 
 Configure observability AI agentsand skills for the analyze alert impact agentic workflowor manage alerts autonomously agentic workflow. Once configured, they gather information to help you investigate alerts.
 
@@ -29,5 +29,5 @@ Configure the New Relic analysis AI agent for the analyze alert impact agentic w
 -   **[Configure the manage alerts autonomously agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/configure-manage-alerts-autonomously-workflow.md)**  
 Configure an alert management rule to operate the manage alerts autonomously agentic workflow manually or automatically.
 
-**Parent Topic:**[Configuring Now Assist for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-configure.md)
+**Parent Topic:**[Configuring ServiceNow Otto for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-configure.md)
 

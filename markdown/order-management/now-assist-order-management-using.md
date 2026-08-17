@@ -1,5 +1,5 @@
 ---
-title: Using Now Assist for Order Management
+title: Using ServiceNow Otto for Order Management
 description: Use agents in an agentic workflow or as standalone agents to achieve specific automated outcomes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/now-assist-order-management-using.html
@@ -7,14 +7,14 @@ release: yokohama
 topic_type: concept
 last_updated: "2025-11-17"
 reading_time_minutes: 1
-breadcrumb: [Now Assist for Order Management]
+breadcrumb: [ServiceNow Otto for Order Management]
 ---
 
-# Using Now Assist for Order Management
+# Using ServiceNow Otto for Order Management
 
 Use agents in an agentic workflow or as standalone agents to achieve specific automated outcomes.
 
-If you have an agent role, you can summarize the order details and generate the order resolution notes with the Now Assist for Order Management application.
+If you have an agent role, you can summarize the order details and generate the order resolution notes with the ServiceNow Otto for Order Management application.
 
 Summarize complex orders across products, services, and fulfillment tasks, enabling agents to quickly understand status, take the right actions, and avoid navigating fragmented views to make next steps easier and improving productivity.
 
@@ -29,5 +29,5 @@ Generate a summary of a complex order for faster, more accurate decision-making 
 -   **[Standalone agents in Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/now-assist-om-ai-agents.md)**  
 Use AI agents in Order Management to complete sales and order-related tasks autonomously.
 
-**Parent Topic:**[Now Assist for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/now-assist-order-management.md)
+**Parent Topic:**[ServiceNow Otto for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/now-assist-order-management.md)
 

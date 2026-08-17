@@ -1,6 +1,6 @@
 ---
-title: Setting up your Alumni Center
-description: Set up your Alumni Center so you can communicate with your former employees or non-employees.
+title: Setting up your Alumni Service Center
+description: Set up your Alumni Service Center so you can communicate with your former employees or non-employees.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/asc-configure.html
 release: yokohama
@@ -8,32 +8,32 @@ product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 2
-breadcrumb: [Alumni Center, HR Service Delivery, Employee Service Management]
+reading_time_minutes: 3
+breadcrumb: [Alumni Service Center, HR Service Delivery, Employee Service Management]
 ---
 
-# Setting up your Alumni Center
+# Setting up your Alumni Service Center
 
-Set up your Alumni Center so you can communicate with your former employees or non-employees.
+Set up your Alumni Service Center so you can communicate with your former employees or non-employees.
 
-The following plugins must be activated prior to activating the Alumni Center \(sn\_asc\) plugin:
+The following plugins must be activated prior to activating the Alumni Service Center \(sn\_asc\) plugin:
 
 -   Human Resources Scoped App: Core \(com.sn\_hr\_core\)
 -   Employee Center \(sn\_ex\_sp\)
 
 For more information on requesting activation of a plugin, see [Request a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_RequestAPlugin.md).
 
-To set up Alumni Center, you must request activation for the following: Explicit Roles \(com.glide.explicit\_roles\). The Alumni Center uses this plugin to help segregate external users from internal users.
+To set up Alumni Service Center, you must request activation for the following: Explicit Roles \(com.glide.explicit\_roles\). The Alumni Service Center uses this plugin to help segregate external users from internal users.
 
-**Note:** The Explicit Roles \(com.glide.explicit\_roles\) plugin must be activated before activating the Alumni Center \(sn\_asc\). For information on installing a ServiceNow Store application, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_InstallApplications.md).
+**Note:** The Explicit Roles \(com.glide.explicit\_roles\) plugin must be activated before activating the Alumni Service Center \(sn\_asc\). For information on installing a ServiceNow Store application, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_InstallApplications.md).
 
 -   **Roles installed**
 
-    By activating the Alumni Center \[sn\_asc\] plugin, the following roles install and are required to configure your Alumni Center:
+    By activating the Alumni Service Center \[sn\_asc\] plugin, the following roles install and are required to configure your Alumni Service Center:
 
 <table id="table_pp1_gvf_tmb"><thead><tr><th>
 
-Alumni Center role
+Alumni Service Center role
 
 </th><th>
 
@@ -45,17 +45,17 @@ Contains roles
 
 </th></tr></thead><tbody><tr><td>
 
-Alumni Center admin \[sn\_asc.admin\]
+Alumni Service Center admin \[sn\_asc.admin\]
 
 </td><td>
 
-Lets you configure all aspects of Alumni Center.
+Lets you configure all aspects of Alumni Service Center.
 
 </td><td>
 
 -   Role delegator \[role\_delegator\]
 -   Skill user \[skill\_user\]
--   Alumni Center manager \[sn\_asc.manager\]
+-   Alumni Service Center manager \[sn\_asc.manager\]
 -   Live feed administrator \[live\_feed\_admin\]
 -   Chat administrator \[chat\_admin\}
 -   Service Portal administrator \[sp\_admin\]
@@ -64,15 +64,15 @@ Lets you configure all aspects of Alumni Center.
 
 </td></tr><tr><td>
 
-Alumni Center Alumni \[sn\_asc.alumni\]
+Alumni Service Center Alumni \[sn\_asc.alumni\]
 
 </td><td>
 
-Lets you access Alumni Center as an alumnus.
+Lets you access Alumni Service Center as an alumnus.
 
 </td><td>
 
-External Alumni Center user \[snc\_external\]
+External Alumni Service Center user \[snc\_external\]
 
 </td></tr><tr><td>
 
@@ -80,21 +80,21 @@ Alumni Manager \[sn\_asc.manager\]
 
 </td><td>
 
-Lets you manage Alumni Center, which includes alumni records and some of the import process.
+Lets you manage Alumni Service Center, which includes alumni records and some of the import process.
 
 </td><td>
 
 Content Delivery manager \[sn\_cd.content\_manager\]
 
 </td></tr></tbody>
-</table>-   **Alumni Center – Service Portal configuration update**
+</table>-   **Alumni Service Center – Service Portal configuration update**
 
-    After upgrading the latest platform version or the Alumni Center Store App version, manually update the following three fields in the Alumni Center – Service Portal record to preserve your customizations. These values do not update automatically.
+    After upgrading the latest platform version or the Alumni Service Center Store App version, manually update the following three fields in the Alumni Service Center – Service Portal record to preserve your customizations. These values do not update automatically.
 
     -   Home page: asc\_home
     -   Main menu: Alumni Center Header
     -   Theme: Alumni Center Coral Theme
-    \[Omitted image "alumni-service-portal-config.png"\] Alt text: Service Portal configuration for Alumni Center
+    \[Omitted image "alumni-service-portal-config.png"\] Alt text: Service Portal configuration for Alumni Service Center
 
 -   **Supported task types**
 
@@ -110,9 +110,9 @@ Content Delivery manager \[sn\_cd.content\_manager\]
     -   View video
 -   **Adding content**
 
-    The Alumni Center uses the same widgets as the HR Service Delivery Employee Center. For more information, see [Employee Center widget instance options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/emp-center-topic-inst-options.md).
+    The Alumni Service Center uses the same widgets as the HR Service Delivery Employee Center. For more information, see [Employee Center widget instance options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/emp-center-topic-inst-options.md).
 
-    Use Content Publishing to add and display content to your Alumni Center. For more information, see [Content Publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/ec-publish-content.md).
+    Use Content Publishing to add and display content to your Alumni Service Center. For more information, see [Content Publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/ec-publish-content.md).
 
     To add content as part of a campaign, use **Content Automation**. For more information, see [Working on Campaigns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/ecpro-campaigns.md).
 

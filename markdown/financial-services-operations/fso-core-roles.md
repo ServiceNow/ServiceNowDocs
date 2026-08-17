@@ -141,7 +141,7 @@ Universal role for financial services agent. All other agent roles in Financial 
 
 Location manager contributor\[sn\_bom.location\_manager\_contributor\]
 
-**Note:** The Business Location plugin must additionally be activated for this role to be enabled. For more information, see [Activate business locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/activate-business-location.md)
+**Note:** The Business Location plugin must additionally be activated for this role to be enabled. For more information, see Activate business locations
 
 </td><td>
 

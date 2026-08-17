@@ -9,7 +9,7 @@ classification: service-operations-workspace-for-itom-apps
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Express List in the Service Operations Workspace for ITOM, Using Service Operations Workspace for ITOM, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
+breadcrumb: [Express List in the Service Operations Workspace for ITOM, Using Service Operations Workspace for ITOM, Service Operations Workspace for ITOM, ITOM Health, IT Operations Management]
 ---
 
 # Acknowledge viewed alerts in Express List
@@ -36,15 +36,15 @@ Use Acknowledge to denote that the alert is known, and can temporarily be ignore
 
     You can acknowledge alerts regardless of whether you are working in the main pane or in the preview panel. The preview panel opens only when a single alert or alert group is selected.
 
-<table id="choicetable_s4j_1yg_vzb"><thead><tr><th align="left" id="d215826e99">
+<table id="choicetable_s4j_1yg_vzb"><thead><tr><th align="left" id="d214902e99">
 
 Location
 
-</th><th align="left" id="d215826e102">
+</th><th align="left" id="d214902e102">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d215826e108">
+</th></tr></thead><tbody><tr><td id="d214902e108">
 
 **The Express List pane**
 
@@ -61,7 +61,7 @@ To display the individual alerts inside a group, select the chevron icon \(\[Omi
 2.  From the **Close** drop-down list at the top right of the alert list, select **Acknowledge**.
 
 
-</td></tr><tr><td id="d215826e161">
+</td></tr><tr><td id="d214902e161">
 
 **The Express List preview panel for group alerts**
 

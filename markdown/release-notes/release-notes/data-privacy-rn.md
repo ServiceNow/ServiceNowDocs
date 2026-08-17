@@ -18,7 +18,7 @@ The ServiceNow® Data Privacy application enables you to classify sensitive data
 -   Sanitize sensitive data from Now Assist prompts without impacting response.
 -   Discover sensitive data from attachments using enhanced Data Discovery jobs.
 
-See [Platform Privacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/privacy-landing-page.md) for more information.
+See  for more information.
 
 **Important:** Data Privacy is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
@@ -28,22 +28,22 @@ Licensing changes enable you to install Data Discovery, Data Discovery APIs, Dat
 
 ## New in the Yokohama release
 
--   **[AL/ML Based Data Discovery for Real Time Anonymization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/now-assist-for-data-privacy-landing.md)**
+-   **AL/ML Based Data Discovery for Real Time Anonymization**
 
     Use AI/ML data discovery using Named Entity Recognition \(NER\) models to discover sensitive data that does not follow a pattern like name, address, organizations, and more; and run real-time anonymization.
 
--   **[Configuring Data Privacy for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/configure-now-assist-data-privacy.md)**
+-   **Configuring Data Privacy for Now Assist**
 
     Sanitize sensitive data entered in Now Assist prompts to prevent data leakage without impacting the response.
 
--   **[Discover sensitive data from attachments.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/configure-data-discovery-jobs.md)**
+-   **Discover sensitive data from attachments.**
 
     Discover and report on sensitive data from attachments.
 
 
 ## Activation information
 
-Data Privacy is available with activation of the Data Privacy Plugin \(sn\_dp\_store\_app\). For details, see [Activate data privacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/dps-activate-data-privacy.md).
+Data Privacy is available with activation of the Data Privacy Plugin \(sn\_dp\_store\_app\). For details, see .
 
 **Parent Topic:**[ServiceNow AI Platform security release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/now-platform-security-rn-landing.md)
 

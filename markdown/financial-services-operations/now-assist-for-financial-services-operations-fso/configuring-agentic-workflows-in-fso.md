@@ -1,6 +1,6 @@
 ---
 title: Configuring agentic workflows in Financial Services Operations
-description: Activate and modify agentic workflows for Now Assist for FSO in AI Agent Studio.
+description: Activate and modify agentic workflows for ServiceNow Otto for FSO in AI Agent Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/now-assist-for-financial-services-operations-fso/configuring-agentic-workflows-in-fso.html
 release: yokohama
@@ -10,12 +10,12 @@ topic_type: concept
 last_updated: "2025-04-17"
 reading_time_minutes: 1
 keywords: [configuring fso agentic workflows, configuring fso ai agents]
-breadcrumb: [Configuring Now Assist for FSO, Now Assist for Financial Services Operations \(FSO\)]
+breadcrumb: [Configuring ServiceNow Otto for FSO, ServiceNow Otto for Financial Services Operations \(FSO\)]
 ---
 
 # Configuring agentic workflows in Financial Services Operations
 
-Activate and modify agentic workflows for Now Assist for FSO in AI Agent Studio.
+Activate and modify agentic workflows for ServiceNow Otto for FSO in AI Agent Studio.
 
 ## Activating agentic workflows
 
@@ -42,7 +42,7 @@ To modify an agentic workflow, you must first [duplicate the agentic workflow](h
 
 For more information on activating agentic workflows, triggers, and agents, see [Activate an agentic workflow template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/activate-aia-use-case.md) and [Modify an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/modify-ai-agent.md).
 
-For more information on agentic workflows in FSO, see [Using agentic workflows in Now Assist for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/now-assist-for-financial-services-operations-fso/using-ai-agent-use-cases-in-now-assist-for-fso.md).
+For more information on agentic workflows in FSO, see [Using agentic workflows in ServiceNow Otto for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/now-assist-for-financial-services-operations-fso/using-ai-agent-use-cases-in-now-assist-for-fso.md).
 
 ## Choosing a language model service provider
 

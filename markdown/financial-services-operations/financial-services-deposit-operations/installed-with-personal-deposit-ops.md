@@ -43,8 +43,8 @@ Enables the extension of tables from the Customer Service Management application
 |-----------------|-----------|
 |Financial Services Operations Core|Stores the customer data that is needed to make deposit service requests. For more information, see [Financial Services Operations Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-operations-core-data-model.md).|
 |Financial Services Document Management|Enables the management of Document Services tasks that are used in Financial Services Personal Deposit Operations workflows. For more information, see [Integrating with Document Processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/integrating-with-document-processor.md).|
-|Playbooks for Customer Service Management|Provides a way to visualize business process workflows in a simple, task-oriented view, ensuring consistent responses to commonly encountered situations. For more information, see [Playbooks for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/customer-service-case-playbooks.md).|
-|CSM Contributor User|Enables middle office teams to create cases for customer requests. For more information, see [CSM Contributor User](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/config-contributor-user.md) [Configure Contributor Users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/config-contributor-user.md).|
+|Playbooks for Customer Service Management|Provides a way to visualize business process workflows in a simple, task-oriented view, ensuring consistent responses to commonly encountered situations. For more information, see Playbooks for Customer Service Management.|
+|CSM Contributor User|Enables middle office teams to create cases for customer requests. For more information, see CSM Contributor User Configure Contributor Users.|
 
 ## Roles installed
 

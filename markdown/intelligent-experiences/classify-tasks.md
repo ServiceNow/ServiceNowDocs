@@ -22,7 +22,7 @@ The agents, tools, and triggers that are associated with the Classify tasks agen
 
 ## Prerequisites and setup
 
-To access this workflow, you must have Now Assist for Platform installed on your instance, which you can get if you install any other Now Assist application, such as Now Assist for IT Service Management \(ITSM\).
+To access this workflow, you must have Now Assist for Platform installed on your instance, which you can get if you install any other Now Assist application, such as ServiceNow Otto for IT Service Management \(ITSM\).
 
 For this agentic workflow to behave as expected, you must also configure Group Action Framework \(GAF\). See [Set up AI Search for Group Action Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/setup-ai-search-gaf.md) and [Configure Group Action Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/configure-gaf.md) for more information on getting started with GAF.
 

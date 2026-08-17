@@ -1,6 +1,6 @@
 ---
-title: Now Assist for Order Management release notes
-description: The ServiceNow Now Assist for Order Management application brings platform AI capabilities to Sales Customer Relationship Management. Now Assist for Order Management is a new application in the Yokohama release.
+title: ServiceNow Otto for Order Management release notes
+description: The ServiceNow ServiceNow Otto for Order Management application brings platform AI capabilities to Sales Customer Relationship Management. ServiceNow Otto for Order Management is a new application in the Yokohama release.
 locale: en-US
 release: yokohama
 topic_type: reference
@@ -8,11 +8,11 @@ last_updated: "2026-01-14"
 reading_time_minutes: 4
 ---
 
-# Now Assist for Order Management release notes
+# ServiceNow Otto for Order Management release notes
 
-The ServiceNow® Now Assist for Order Management application brings platform AI capabilities to Sales Customer Relationship Management. Now Assist for Order Management is a new application in the Yokohama release.
+The ServiceNow® ServiceNow Otto for Order Management application brings platform AI capabilities to Sales Customer Relationship Management. ServiceNow Otto for Order Management is a new application in the Yokohama release.
 
-## Now Assist for Order Management highlights for the Yokohama release
+## ServiceNow Otto for Order Management highlights for the Yokohama release
 
 [Yokohama Patch 11](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-11.md)
 
@@ -21,11 +21,11 @@ The ServiceNow® Now Assist for Order Management application brings platform AI 
 -   Enable business-to-business \(B2B\) customers to submit order cases autonomously from the Business Portal by simply describing their needs in natural language using the manage order operations agent.
 -   Summarize complex orders across products, services, and fulfillment tasks, enabling agents to quickly understand status, take the right actions, and avoid navigating fragmented views to make next steps easier and improving productivity.
 
-See [Now Assist for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/now-assist-order-management.md) for more information.
+See [ServiceNow Otto for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/now-assist-order-management.md) for more information.
 
-**Important:** Now Assist for Order Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+**Important:** ServiceNow Otto for Order Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## Now Assist for Order Management features
+## ServiceNow Otto for Order Management features
 
 -   **[Enable the manage order operations agent in the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/enable-manage-order-operations-ai-agent.md)**
 
@@ -48,24 +48,24 @@ See [Now Assist for Order Management](https://raw.githubusercontent.com/ServiceN
 
 ## Changed in this release
 
--   **[Changes to Now Assist usage measurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/monitoring-now-assist-usage.md)**
+-   **Changes to Now Assist usage measurement**
 
     Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
--   **[Some Now Assist skills are turned on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md)**
+-   **Some Now Assist skills are turned on by default**
 
     The new default behavior works as follows:
 
     -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
     -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
--   **[Configure ACLs for AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/aia-security-implementation.md)**
+-   **Configure ACLs for AI agents and agentic workflows**
 
     Configure the access control lists for who can discover and trigger AI agents and agentic workflows in their guided setups in AI Agent Studio. You can determine whether an AI agent or agentic workflow behaves as a dynamic user or as an AI user. You can also specify if an AI agent or agentic workflow can be available to all authenticated users or publicly available.
 
 
 ## Activation information
 
-Request the Now Assist for Order Management application from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/application/b75a55a63f71b6108428dd8d001f8bca) and install it using the Application Manager. For more information, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_InstallApplications.md).
+Request the ServiceNow Otto for Order Management application from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/application/b75a55a63f71b6108428dd8d001f8bca) and install it using the Application Manager. For more information, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_InstallApplications.md).
 
 ## Related ServiceNow applications and features
 
@@ -73,15 +73,15 @@ Request the Now Assist for Order Management application from the [ServiceNow Sto
 
     Help improve the productivity and efficiency in your organization, deliver better self-service, recommend actions, provide answers, and empower your users to search more effectively.
 
--   **[Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configuring-now-assist.md)**
+-   ****
 
-    Use the Now Assist Admin console to provide you with quick and effortless access to the important information that you need to set up, configure, and monitor Now Assist applications and features.
+    Use the AI Admin Hub console to provide you with quick and effortless access to the important information that you need to set up, configure, and monitor Now Assist applications and features.
 
--   **[Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-panel-overview.md)**
+-   ****
 
     Use this conversational interface in the CSM Configurable Workspace to summarize a chat, a case, or resolution notes so that you can get the context of this information more quickly.
 
--   **[Now Assist skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills.md)**
+-   ****
 
     Use the Now Assist products to provide agentic AI skills to meet the needs of users in different workflows, including case or incident summarization, chat summarization, resolution notes generation, and code generation.
 

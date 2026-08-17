@@ -1,6 +1,6 @@
 ---
-title: Now Assist for HR Service Delivery \(HRSD\)
-description: Use the ServiceNow Now Assist for HR Service Delivery \(HRSD\) application to summarize the case information, generate resolution notes, and summarize the chat information for an interaction. You can enable your agents to understand the chat and case context so that they can propose quicker resolutions to your requesters.
+title: ServiceNow Otto for HR Service Delivery \(HRSD\)
+description: Use the ServiceNow ServiceNow Otto for HR Service Delivery \(HRSD\) application to summarize the case information, generate resolution notes, and summarize the chat information for an interaction. You can enable your agents to understand the chat and case context so that they can propose quicker resolutions to your requesters.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/now-assist-for-hrsd/now-assist-hrsd.html
 release: yokohama
@@ -12,15 +12,15 @@ reading_time_minutes: 3
 breadcrumb: [HR Service Delivery, Employee Service Management]
 ---
 
-# Now Assist for HR Service Delivery \(HRSD\)
+# ServiceNow Otto for HR Service Delivery \(HRSD\)
 
-Use the ServiceNow® Now Assist for HR Service Delivery \(HRSD\) application to summarize the case information, generate resolution notes, and summarize the chat information for an interaction. You can enable your agents to understand the chat and case context so that they can propose quicker resolutions to your requesters.
+Use the ServiceNow® ServiceNow Otto for HR Service Delivery \(HRSD\) application to summarize the case information, generate resolution notes, and summarize the chat information for an interaction. You can enable your agents to understand the chat and case context so that they can propose quicker resolutions to your requesters.
 
 ## Get started
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn about the generative AI skills and capabilities offered by Now Assist for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/explore-now-assist-hr.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn about the generative AI skills and capabilities offered by ServiceNow Otto for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/explore-now-assist-hr.md)
 
 </td><td>
 
@@ -28,11 +28,11 @@ Use the ServiceNow® Now Assist for HR Service Delivery \(HRSD\) application to 
 
 </td><td>
 
-[Use \[Omitted image "bus-task-list.svg"\] Alt text: Provide higher levels of service by using the generative AI skills and capabilities that are offered by Now Assist for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/use-now-assist-hr.md)
+[Use \[Omitted image "bus-task-list.svg"\] Alt text: Provide higher levels of service by using the generative AI skills and capabilities that are offered by ServiceNow Otto for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/use-now-assist-hr.md)
 
 </td></tr><tr><td>
 
-[Use Agent Collection\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Use agentic workflows in Now Assist for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-ai-agents-use-cases.md)
+[Use Agent Collection\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Use agentic workflows in ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-ai-agents-use-cases.md)
 
 </td><td>
 

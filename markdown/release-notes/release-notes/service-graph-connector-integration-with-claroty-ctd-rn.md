@@ -49,13 +49,13 @@ See [Service Graph Connector Integration for Claroty CTD](https://raw.githubuser
 
 ## Activation information
 
-Install Service Graph Connector Integration for Claroty CTD by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install Service Graph Connector Integration for Claroty CTD by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 **Note:** Claroty CTD v5.1 is also supported for the Service Graph Connector Integration for Claroty CTD application.
 
 ## Related ServiceNow applications and features
 
--   **[CMDB CI Class Models store app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/cmdb-ci-class-models.md)**
+-   **CMDB CI Class Models store app**
 
     Operational Technology classes are imported with the Configuration Management Database \(CMDB\) configuration item \(CI\) classes.
 

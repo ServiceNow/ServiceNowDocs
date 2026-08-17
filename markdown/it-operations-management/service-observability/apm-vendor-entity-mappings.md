@@ -9,7 +9,7 @@ classification: service-observability
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Service Observability reference, Service Observability, ITOM AIOps, IT Operations Management]
+breadcrumb: [Service Observability reference, Service Observability, ITOM Health, IT Operations Management]
 ---
 
 # APM vendor entity mappings for Service Observability

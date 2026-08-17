@@ -7,8 +7,8 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 3
+last_updated: "2026-07-27"
+reading_time_minutes: 4
 keywords: [Discovery, Admin, Workspace]
 breadcrumb: [Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -23,9 +23,9 @@ Verify the following:
 
 -   You have at least one validated MID Server with a status of **Up**. The MID Server must reach the IP ranges that you intend to discover. You can install the MID Server by using [Use MID Server guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/use-mid-server-guidedsetup.md) or by manually downloading and running the installer. For details, see the MID Server installation instructions for [Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/t_InstallAMIDServerOnLinux.md) and [Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/mid-server-install-prereqs.md).
 -   The MID Server used for Cloud Discovery is configured with the Cloud Management capability.
--   You have configured an OpenStack user in the Keystone identity service with the required roles for the project so that the MID Server can access the selected cloud resources you plan to discover.
+-   You have configured an OpenStack user with the required roles for the project so that the MID Server can access the selected cloud resources you plan to discover. You can create this user through the Horizon dashboard, the OpenStack CLI, or directly through the Keystone API. All three methods write the user to the Keystone identity service.
 -   You have created suitable credentials in the ServiceNow AI Platform to connect with the OpenStack user that you want to use for discovery. For more information, see [OpenStack resource discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/openstack-discovery.md).
--   You're using Discovery Admin Workspace v1.13.0.
+-   You're using Discovery Admin Workspace v1.13.0 or later.
 
 Role required: discovery\_admin
 
@@ -53,15 +53,15 @@ Role required: discovery\_admin
 
 8.  Select a cloud account.
 
-<table id="choicetable_bbl_3zw_zgc"><thead><tr><th align="left" id="d691336e314">
+<table id="choicetable_bbl_3zw_zgc"><thead><tr><th align="left" id="d691842e310">
 
 Option
 
-</th><th align="left" id="d691336e317">
+</th><th align="left" id="d691842e313">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d691336e323">
+</th></tr></thead><tbody><tr><td id="d691842e319">
 
 **Existing cloud account**
 
@@ -69,7 +69,7 @@ Description
 
 Select an existing cloud account on your instance. Once an account is selected, the **Account name**, **OpenStack Account ID**, and **Cloud URL** fields auto-populate.
 
-</td></tr><tr><td id="d691336e341">
+</td></tr><tr><td id="d691842e337">
 
 **New cloud account**
 

@@ -1,5 +1,5 @@
 ---
-title: Exploring Now Assist for Workplace Service Delivery \(WSD\)
+title: Exploring Now Assist for WSD
 description: The Now Assist in Virtual Agent assists Workplace Service Delivery workplace employees to book meeting spaces conveniently and quickly.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/now-assist-for-wsd/now-assist-wsd-overview.html
@@ -9,20 +9,20 @@ classification: now-assist-for-wsd
 topic_type: concept
 last_updated: "2025-09-07"
 reading_time_minutes: 1
-breadcrumb: [Now Assist for Workplace Service Delivery \(WSD\), Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Now Assist for WSD, Workplace Service Delivery, Employee Service Management]
 ---
 
-# Exploring Now Assist for Workplace Service Delivery \(WSD\)
+# Exploring Now Assist for WSD
 
 The Now Assist in Virtual Agent assists Workplace Service Delivery workplace employees to book meeting spaces conveniently and quickly.
 
-## Now Assist for Workplace Service Delivery \(WSD\) overview
+## Now Assist for WSD overview
 
-Now Assist for Workplace Service Delivery \(WSD\) provides workplace users with a streamlined, conversational experience based on generative AI. Workplace employees can submit a workplace reservation request to reserve a space and add services to a reservation. Now Assist for Workplace Service Delivery \(WSD\) enhances the user experience by combining AI Search with Now Assist in Virtual Agent generative AI chat skills.
+Now Assist for WSD provides workplace users with a streamlined, conversational experience based on generative AI. Workplace employees can submit a workplace reservation request to reserve a space and add services to a reservation. Now Assist for WSD enhances the user experience by combining AI Search with Now Assist in Virtual Agent generative AI chat skills.
 
 The generative AI capabilities provides a human-like conversational experience for Workplace Reservation Management reservation request submissions.
 
-## Now Assist for Workplace Service Delivery \(WSD\) users
+## Now Assist for WSD users
 
 <table id="table_m53_kg3_ydc"><thead><tr><th>
 
@@ -38,7 +38,7 @@ Workplace Reservation Management administrators
 
 </td><td>
 
-The Now Assist for Workplace Service Delivery \(WSD\) retrieves details from Workplace Reservation Management and provides workplace users by leveraging the Now Assist Gen AI capabilities.
+The Now Assist for WSD retrieves details from Workplace Reservation Management and provides workplace users by leveraging the Now Assist Gen AI capabilities.
 
  -   Reserving a space for meeting
 -   Adding co-workers to a reservation
@@ -60,7 +60,7 @@ The following Agentic AI workflows are available for Now Assist for WSD:-   Mana
 </td></tr></tbody>
 </table>## What to explore next
 
-To learn more about configuring and using Now Assist for Workplace Service Delivery \(WSD\), see:
+To learn more about configuring and using ServiceNow Otto for Workplace Service Delivery \(WSD\), see:
 
 -   [Configuring Now Assist for WSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-wsd/now-assist-wsd-configuring.md)
 -   [Using Now Assist for WSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-wsd/now-assist-wsd-using.md)

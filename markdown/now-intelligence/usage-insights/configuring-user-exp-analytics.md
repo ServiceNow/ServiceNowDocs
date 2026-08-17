@@ -1,6 +1,6 @@
 ---
 title: Configuring User Experience Analytics
-description: An admin can configure which ServiceNow applications to track in the Usage Insights application as well as user tracking consent policies.
+description: An admin can configure which ServiceNow applications to track in the User Experience Analytics application as well as user tracking consent policies.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/usage-insights/configuring-user-exp-analytics.html
 release: yokohama
@@ -14,26 +14,26 @@ breadcrumb: [User Experience Analytics, Platform Analytics]
 
 # Configuring User Experience Analytics
 
-An admin can configure which ServiceNow applications to track in the Usage Insights application as well as user tracking consent policies.
+An admin can configure which ServiceNow applications to track in the User Experience Analytics application as well as user tracking consent policies.
 
 ## Configuration overview
 
-For Next Experience and Core UI, application tracking is enabled by default. On Service Portal, Usage Insights, requires enabling.
+For Next Experience and Core UI, application tracking is enabled by default. On Service Portal, User Experience Analytics, requires enabling.
 
-## Usage Insights plugin
+## User Experience Analytics plugin
 
-The Usage Insights plugin \(com.glide.appsee\) is activated by default in the ServiceNow AI Platform in new and upgraded instances. The plugin is responsible for:
+The User Experience Analytics plugin \(com.glide.appsee\) is activated by default in the ServiceNow AI Platform in new and upgraded instances. The plugin is responsible for:
 
--   Checking hourly for new applications to register with the ServiceNow Usage Insights server
--   Providing access to Usage Insights functionality.
+-   Checking hourly for new applications to register with the ServiceNow User Experience Analytics server
+-   Providing access to User Experience Analytics functionality.
 
-    **Note:** Usage Insights is not supported for on-prem instances.
+    **Note:** User Experience Analytics is not supported for on-prem instances.
 
 
--   **[Enable Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/config-analytics-settings.md)**  
-You can enable or disable Usage Insights for specific applications on the Usage Insights settings table.
--   **[User privacy, tracking, and user consent management in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/user-exp-analytics-track-options.md)**  
-Usage Insights relies on tracking user activity to measure the adoption, retention, and usage of KPIs \(key performance indicators\) to help you make better product and implementation decisions.
+-   **[Enable User Experience Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/config-analytics-settings.md)**  
+You can enable or disable User Experience Analytics for specific applications on the User Experience Analytics settings table.
+-   **[User privacy, tracking, and user consent management in User Experience Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/user-exp-analytics-track-options.md)**  
+User Experience Analytics relies on tracking user activity to measure the adoption, retention, and usage of KPIs \(key performance indicators\) to help you make better product and implementation decisions.
 
 **Parent Topic:**[User Experience Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/user-exp-analytics-landing.md)
 

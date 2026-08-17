@@ -24,7 +24,7 @@ Role required: admin
 
 ## About this task
 
-If the AI Search Analytics dashboard doesn't load, you must configure tracking of Usage Insights data in the Service Portal. This configuration is a prerequisite for the dashboard.
+If the AI Search Analytics dashboard doesn't load, you must configure tracking of User Experience Analytics data in the Service Portal. This configuration is a prerequisite for the dashboard.
 
 ## Procedure
 
@@ -34,7 +34,7 @@ If the AI Search Analytics dashboard doesn't load, you must configure tracking o
 
 3.  Select **Create Analytics Settings**.
 
-4.  On the Usage Insights Settings form, select the **Enable Unauthenticated User Tracking** option, then select **Update**.
+4.  On the User Experience Analytics Settings form, select the **Enable Unauthenticated User Tracking** option, then select **Update**.
 
 
 ## Result

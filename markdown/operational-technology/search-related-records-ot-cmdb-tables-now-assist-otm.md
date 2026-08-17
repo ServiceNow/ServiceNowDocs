@@ -7,7 +7,7 @@ release: yokohama
 topic_type: task
 last_updated: "2025-11-07"
 reading_time_minutes: 2
-breadcrumb: [Use, Now Assist for Operational Technology Manager \(OTM\), Operational Technology]
+breadcrumb: [Use, Operational Technology \(OT\) Manager Foundation, Operational Technology]
 ---
 
 # Search for related records in an OT CMDB table
@@ -26,7 +26,7 @@ Role required: now\_assist\_panel\_user and cmdb\_ot\_viewer
 
 The OT CMDB search feature leverages the following:
 
--   Now Assist for CMDB's Search CMDB agentic workflow
+-   ServiceNow Otto for CMDB's Search CMDB agentic workflow
 
     **Important:** This agentic workflow is turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
@@ -77,5 +77,5 @@ When more than five OT device records appear in the search results based on your
 
 \[Omitted image "ot-cmdb-search.png"\] Alt text: Search results for OT PLCs are using the OT CMDB search function
 
-**Parent Topic:**[Using Now Assist for Operational Technology Manager \(OTM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/using-now-assist-for-otm.md)
+**Parent Topic:**[Using Operational Technology \(OT\) Manager Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/using-now-assist-for-otm.md)
 

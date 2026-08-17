@@ -7,7 +7,7 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 2
 breadcrumb: [Discovery setup, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -26,7 +26,7 @@ The setup is organized into the four distinct phases: Learn, Crawl, Walk, and Ru
 
 -   **Learn**
 
-    The Learn phase is the first step in the guided setup. This phase helps you develop a foundational understanding of Discovery by exploring its core principles, learning about various techniques, and identifying the prerequisites needed to proceed with the setup.
+    The Learn phase is the first step in the guided setup. It covers core principles, techniques, and prerequisites for Discovery.
 
 -   **Crawl**
 

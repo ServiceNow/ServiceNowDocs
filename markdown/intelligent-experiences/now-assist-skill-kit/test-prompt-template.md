@@ -9,7 +9,7 @@ classification: now-assist-skill-kit
 topic_type: task
 last_updated: "2025-09-16"
 reading_time_minutes: 2
-breadcrumb: [Using Now Assist Skill Kit, Now Assist Skill Kit, Enable AI experiences]
+breadcrumb: [Using AI Skill Kit, AI Skill Kit, Enable AI experiences]
 ---
 
 # Test a prompt
@@ -22,7 +22,7 @@ Role required: sn\_skill\_builder.admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Skill Kit** &gt; **Home**.
+1.  Navigate to **All** &gt; **AI Skill Kit** &gt; **Home**.
 
 2.  Select the skill that you created the prompt for.
 
@@ -54,7 +54,7 @@ After you test your prompt, you must finalize and publish it. To learn more abou
 
 If you have not configured the deployment settings for your skill, see [Configure skill deployment settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-skill-kit/configure-skill-settings.md).
 
-**Parent Topic:**[Using Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-skill-kit/using-now-assist-skill-kit.md)
+**Parent Topic:**[Using AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-skill-kit/using-now-assist-skill-kit.md)
 
 **Related topics**  
 

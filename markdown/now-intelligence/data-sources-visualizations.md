@@ -55,15 +55,15 @@ An indicator, also called a key performance indicator \(KPI\), is a record of th
 
 </td></tr><tr><td>
 
-Usage Insights
+User Experience Analytics
 
 </td><td>
 
-Activated by default. However, to include Usage Insights data sources in your visualizations, you need the Usage Insights in PAR Integration application from the ServiceNow® Store.
+Activated by default. However, to include User Experience Analytics data sources in your visualizations, you need the User Experience Analytics in PAR Integration application from the ServiceNow® Store.
 
 </td><td>
 
-The ServiceNow® Usage Insights application provides dashboard views for monitoring usage analytics of your web applications as well as Virtual Agent, ServiceNow mobile, and Service Portal applications. Visualize metrics and interactions to better understand the user experience, and create more intuitive journeys for your users.For more general information about Usage Insights, see [User Experience Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/user-exp-analytics-landing.md). For more information specific to data visualizations, see [User Experience Analytics data sources for data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/uxa-data-sources.md).
+The ServiceNow® User Experience Analytics application provides dashboard views for monitoring usage analytics of your web applications as well as Virtual Agent, ServiceNow mobile, and Service Portal applications. Visualize metrics and interactions to better understand the user experience, and create more intuitive journeys for your users.For more general information about User Experience Analytics, see [User Experience Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/user-exp-analytics-landing.md). For more information specific to data visualizations, see [User Experience Analytics data sources for data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/uxa-data-sources.md).
 
 </td></tr><tr><td>
 

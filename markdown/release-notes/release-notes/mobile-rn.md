@@ -55,7 +55,7 @@ See [Mobile Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDoc
 
     Use AI agents in your mobile app to boost live agent productivity. AI agents handle tasks from automated responses to complex problem-solving with human-like intelligence.
 
--   **[Now Assist in the Virtual Agent mobile client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/mobile/now-assist-mobile-va.md)Mobile Virtual Agent&gt;**
+-   **[ServiceNow Otto in the Virtual Agent mobile client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/mobile/now-assist-mobile-va.md)Mobile Virtual Agent&gt;**
 
     Use the following enhancement added to Virtual Agent:
 

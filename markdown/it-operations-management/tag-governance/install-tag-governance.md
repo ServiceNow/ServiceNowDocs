@@ -9,7 +9,7 @@ classification: tag-governance
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configuring Tag Governance, Tag Governance, ITOM Visibility, IT Operations Management]
+breadcrumb: [Configure, Tag Governance, ITOM Visibility, IT Operations Management]
 ---
 
 # Install Tag Governance

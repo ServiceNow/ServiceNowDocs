@@ -1,6 +1,6 @@
 ---
 title: Configure SAP for ERP-CM
-description: Enable SQLM \(SQL Monitor\) on the productive system and confirm that ST03 \(Workload Monitor\) is collected for daily workloads before you can install ERP Semantic Mining \(ERP-CM\).
+description: Enable SQLM \(SQL Monitor\) on the productive system and confirm that ST03 \(Workload Monitor\) is collected for daily workloads before you can install ERP Customization Mining \(ERP-CM\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-customization-mining/ecm-configure-sap-system.html
 release: yokohama
@@ -9,12 +9,12 @@ classification: erp-customization-mining
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configuring ERP Semantic Mining, ERP Semantic Mining \(ERP-CM\), Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Configuring ERP Customization Mining, ERP Customization Mining \(ERP-CM\), Building low-code applications, Developing your application, Building applications]
 ---
 
 # Configure SAP for ERP-CM
 
-Enable SQLM \(SQL Monitor\) on the productive system and confirm that ST03 \(Workload Monitor\) is collected for daily workloads before you can install ERP Semantic Mining \(ERP-CM\).
+Enable SQLM \(SQL Monitor\) on the productive system and confirm that ST03 \(Workload Monitor\) is collected for daily workloads before you can install ERP Customization Mining \(ERP-CM\).
 
 ## Before you begin
 
@@ -49,5 +49,5 @@ Role required: none
     2.  Verify that the **Workload data** field is set to **Daily**.
 
 
-**Parent Topic:**[Configuring ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/configuring-ecm.md)
+**Parent Topic:**[Configuring ERP Customization Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/configuring-ecm.md)
 

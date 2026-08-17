@@ -113,7 +113,7 @@ scrum\_user
 
 -   **Committed Points**
 
-    Indicates the committed scope \(in number of story points\) of the sprint. Together with the adjacent Scope widget, these widgets let you see difference between the scope committed at the start of the sprint and the current scope of the sprint.
+    Indicates the committed scope \(in number of story points\) of the sprint. Together with the adjacent Scope widget, these widgets show the difference between the sprint's committed and current scope.
 
     **Note:** This widget is not visible by default. You can add it from Reports to your dashboard. For more information, see [Edit a responsive dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/t_EditADashboard.md).
 

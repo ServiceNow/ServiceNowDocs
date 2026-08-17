@@ -59,15 +59,15 @@ If the issuer refuse the acquirer’s pre-arbitration request, the acquirer can 
 
 13. Select your response in the **Response outcome** field.
 
-<table id="choicetable_pcd_wkt_nfc"><thead><tr><th align="left" id="d87699e225">
+<table id="choicetable_pcd_wkt_nfc"><thead><tr><th align="left" id="d87290e225">
 
 Option
 
-</th><th align="left" id="d87699e228">
+</th><th align="left" id="d87290e228">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d87699e234">
+</th></tr></thead><tbody><tr><td id="d87290e234">
 
 **Resolved**
 
@@ -75,7 +75,7 @@ Description
 
 The arbitration is accepted and the outcome is resolved.
 
-</td></tr><tr><td id="d87699e243">
+</td></tr><tr><td id="d87290e243">
 
 **Unresolved**
 

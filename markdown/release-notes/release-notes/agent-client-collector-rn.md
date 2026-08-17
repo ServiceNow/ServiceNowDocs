@@ -19,25 +19,25 @@ The ServiceNow® Agent Client Collector application enables you to monitor the s
 -   Use a custom CA to enable Kubernetes Visibility Agent Informer to communicate with the instance when using a custom root Certificate Authority \(CA\).
 -   Configure Agent Client Collector without a MID Server by ßusing MID-less configuration.
 
-See [Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/acc-landing-page.md) for more information.
+See  for more information.
 
 **Important:** Agent Client Collector is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Yokohama release
 
--   **[Scan your resource directories for file attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/directory-scan-checks-policies.md)**
+-   **Scan your resource directories for file attributes**
 
     Starting in version 3.13.0, run a check to receive information on the directory file's integrity, size, space, response time, and age.
 
--   **[Conserve MID Server resources by using MID-less installation for Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/acc-itom-cloud-services.md)**
+-   **Conserve MID Server resources by using MID-less installation for Agent Client Collector**
 
     Starting in version 3.6.5, conserve MID Server resources for more persistent features by using the MID-less installation when installing Agent Client Collector. With this installation, you don't need a MID Server in your system architecture.
 
--   **[Create tasks to address Agent Client Collector errors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/create-error-task.md)**
+-   **Create tasks to address Agent Client Collector errors**
 
     Starting in version 4.3.0, create tasks to resolve errors relating to the Agent Client Collector. Tasks are assigned to personnel who investigate the underlying issues and work to resolve the errors.
 
--   **[Use a proxy server with MID-less installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/acc-yml-options.md)**
+-   **Use a proxy server with MID-less installation**
 
     Starting in version 4.3.0, enable using a proxy server when installing Agent Client Collector without a MID Server.
 
@@ -49,42 +49,42 @@ See [Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/Servic
 
     Starting in version 1.3.0, discover java file information using Agent Client Collector for Visibility Content \(ACC-VC\) file based discovery. File based discovery locates java files that are installed on the system but not running, enabling retrieval of data used for licensing and auditing.
 
--   **[Enable high volume upgrade of agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/acc-high-volume-upgrade.md)**
+-   **Enable high volume upgrade of agents**
 
     Starting in version 4.3.0, enhance efficiency by performing high-volume upgrade of large numbers of Agent Client Collector installations at once.
 
--   **[Block event creation for non-existent entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/prevent-events-nonexistent-entities.md)**
+-   ****
 
     Starting in version 3.13.0, block the creation of events and alerts if the process monitoring and log files don't exist in their indicated location.
 
--   **[Control how check results are sent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/create-edit-policies.md)**
+-   **Control how check results are sent**
 
     Starting in version 3.6.5, configure the circumstances when check results are sent.
 
--   **[Configure and receive notifications of agent key expiration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/agent-registration-key-configuration.md)**
+-   **Configure and receive notifications of agent key expiration**
 
     Starting in version 3.6.5, receive notifications that indicate when an agent registration key is expiring.
 
--   **[Monitor network host availability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/network-host-availability-check.md)**
+-   **Monitor network host availability**
 
     Starting in version 4.1.0, use a new check to verify network host availability.
 
--   **[Identify software running on Linux and Windows devices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/acc-visibility-checks-policies.md)**
+-   **Identify software running on Linux and Windows devices**
 
     Starting in version 4.1.0, identify the software that is running on your Linux and Windows servers and devices by using file-based Discovery. File-based Discovery enables you to maintain the records of your software licenses and helps you to evaluate any threats from unwanted files.
 
--   **[Store ServiceNow instance credentials in the Google Cloud Secret Manager when the Informer uses Google Kubernetes Engine \(GKE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/cnov-deploy-prepare.md)**
+-   **Store ServiceNow instance credentials in the Google Cloud Secret Manager when the Informer uses Google Kubernetes Engine \(GKE\)**
 
     If your organization uses Google Kubernetes Engine \(GKE\) you can store the secret in Google Cloud Secret Manager. The Kubernetes Visibility Agent Informer can then pull the ServiceNow credentials for accessing your instance from the Google Cloud Secret Manager.
 
--   **[Use a custom CA to enable the Informer to communicate with the ServiceNow instance when using a custom root CA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/cnov-deploy-prepare.md)**
+-   **Use a custom CA to enable the Informer to communicate with the ServiceNow instance when using a custom root CA**
 
     Mount a custom certificate authority into the Kubernetes Visibility Agent Informer pod to enable the Informer to communicate with the instance when a custom root CA is used.
 
 
 ## Changed in this release
 
--   **[Explore metrics with Metric Explorer independent of Agent Client Collector Monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/agent-workspace-ops-intelligence.md)**
+-   **Explore metrics with Metric Explorer independent of Agent Client Collector Monitoring**
 
     Starting in version 4.1.0, view and monitor metric data with Metric Explorer, even if you have not installed Agent Client Collector Monitoring.
 

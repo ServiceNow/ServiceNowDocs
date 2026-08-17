@@ -1,39 +1,39 @@
 ---
 title: Install Build Agent
-description: Install the Now Assist for Creator application from the ServiceNow Store to get Build Agent.
+description: Install the ServiceNow Otto for Creator application from the ServiceNow Store to get Build Agent.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/install-build-agent.html
 release: yokohama
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 1
 breadcrumb: [Configure, Build Agent, Use AI capabilities in custom applications, Developing your application, Building applications]
 ---
 
 # Install Build Agent
 
-Install the Now Assist for Creator application from the ServiceNow Store to get Build Agent.
+Install the ServiceNow Otto for Creator application from the ServiceNow Store to get Build Agent.
 
 ## Before you begin
 
--   Review the [Now Assist for Creator](https://store.servicenow.com/sn_appstore_store.do#!/store/application/8178fec0ce0431105a7c9305875b2dca) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
+-   Review the [ServiceNow Otto for Creator](https://store.servicenow.com/sn_appstore_store.do#!/store/application/8178fec0ce0431105a7c9305875b2dca) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
 -   Build Agent supports Anthropic Claude on AWS, Azure OpenAI, and Google Gemini.
 
 Role required: admin
 
 ## Procedure
 
-1.  From the Now Assist for Creator application page on the ServiceNow Store, select **Buy**.
+1.  From the ServiceNow Otto for Creator application page on the ServiceNow Store, select **Buy**.
 
 2.  After approval has been granted, on your instance, navigate to **All** &gt; **System Applications** &gt; **All Available Applications** &gt; **All**.
 
-3.  Using the search bar, search for the Now Assist for Creator application \(sn\_now\_creator\).
+3.  Using the search bar, search for the ServiceNow Otto for Creator application \(sn\_now\_creator\).
 
 4.  Select **Install**.
 
 5.  Enable the Build Agent skill:
 
-    1.  Navigate to **Admin** &gt; **Now Assist Admin**.
+    1.  Navigate to **Admin** &gt; **AI Admin Hub**.
 
     2.  Go to the **Now Assist Skills** tab and select **Creator**.
 

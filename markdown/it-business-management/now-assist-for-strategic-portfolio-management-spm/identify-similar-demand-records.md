@@ -1,5 +1,5 @@
 ---
-title: Identify similar records using Now Assist for Strategic Portfolio Management \(SPM\)
+title: Identify similar records using ServiceNow Otto for Strategic Portfolio Management
 description: Detect similar demand records using the identify similar records Now Assist skill. The skill detects similar demand records based on contextual similarity in the name, description, and business case content.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/identify-similar-demand-records.html
@@ -10,10 +10,10 @@ topic_type: task
 last_updated: "2025-11-04"
 reading_time_minutes: 1
 keywords: [Now Assist skill, Now Assist, Gen AI, Generative AI, SPM, Strategic Portfolio Management, Identify similar demand records]
-breadcrumb: [Using Now Assist for Strategic Portfolio Management \(SPM\), Now Assist for Strategic Portfolio Management \(SPM\), Strategic Portfolio Management]
+breadcrumb: [Using ServiceNow Otto for Strategic Portfolio Management, ServiceNow Otto for Strategic Portfolio Management, Strategic Portfolio Management]
 ---
 
-# Identify similar records using Now Assist for Strategic Portfolio Management \(SPM\)
+# Identify similar records using ServiceNow Otto for Strategic Portfolio Management
 
 Detect similar demand records using the identify similar records Now Assist skill. The skill detects similar demand records based on contextual similarity in the name, description, and business case content.
 
@@ -55,5 +55,5 @@ The similar demands identified by Now Assist are displayed in the top banner and
 
 View the full details of the identified similar demand records by selecting the demand number link from the Similar Demands related list.
 
-**Parent Topic:**[Using Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/using-now-assist-for-spm.md)
+**Parent Topic:**[Using ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/using-now-assist-for-spm.md)
 

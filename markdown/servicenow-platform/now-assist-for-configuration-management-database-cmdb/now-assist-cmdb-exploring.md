@@ -1,6 +1,6 @@
 ---
 title: Exploring Now Assist for CMDB
-description: With the Now Assist for Configuration Management Database \(CMDB\) application, you can use Agentic AI to search the CMDB, summarize discovery, ownership and related information for a CI, and fix failed SGC import sets. You can also follow step-by-step guidance to help you remediate duplicate CIs, improve CMDB data accuracy, completeness, and health .
+description: With the ServiceNow Otto for Configuration Management Database \(CMDB\) application, you can use Agentic AI to search the CMDB, summarize discovery, ownership and related information for a CI, and fix failed SGC import sets. You can also follow step-by-step guidance to help you remediate duplicate CIs, improve CMDB data accuracy, completeness, and health .
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-exploring.html
 release: yokohama
@@ -9,25 +9,25 @@ classification: now-assist-for-configuration-management-database-cmdb
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 7
-breadcrumb: [Now Assist for Configuration Management Database \(CMDB\), CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [ServiceNow Otto for Configuration Management Database \(CMDB\), CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Exploring Now Assist for CMDB
 
-With the Now Assist for Configuration Management Database \(CMDB\) application, you can use Agentic AI to search the CMDB, summarize discovery, ownership and related information for a CI, and fix failed SGC import sets. You can also follow step-by-step guidance to help you remediate duplicate CIs, improve CMDB data accuracy, completeness, and health .
+With the ServiceNow Otto for Configuration Management Database \(CMDB\) application, you can use Agentic AI to search the CMDB, summarize discovery, ownership and related information for a CI, and fix failed SGC import sets. You can also follow step-by-step guidance to help you remediate duplicate CIs, improve CMDB data accuracy, completeness, and health .
 
-## Supporting information for Now Assist for CMDB
+## Supporting information for ServiceNow Otto for CMDB
 
-Now Assist for CMDB is supported starting with Xanadu patch 3.
+ServiceNow Otto for CMDB is supported starting with Xanadu patch 3.
 
-Now Assist for CMDB supports the following LLM models:
+ServiceNow Otto for CMDB supports the following LLM models:
 
 -   Gemini
 -   Claude
 
 ## Now Assist for CMDB
 
-Now Assist for CMDB provides the following abilities:
+ServiceNow Otto for CMDB provides the following abilities:
 
 -   **Create configuration item agentic workflow**
 
@@ -51,9 +51,9 @@ Now Assist for CMDB provides the following abilities:
 
 -   **Summarize CMDB readiness skill**
 
-    View an AI-generated summary of the CMDB success advisor for HAM dashboard data. The summary highlights the key findings on CMDB data accuracy, completeness, and health, and recommends remediation actions to address the findings.
+    View an AI-generated summary of the CMDB success advisor for HAM or CMDB success advisor for Data Foundations dashboard data. The summary highlights the key findings on CMDB data accuracy, completeness, and health, and recommends remediation actions to address the findings.
 
-    The skill works alongside the HAM tab of the CMDB success advisor dashboard. Each time you change the dashboard filters, you can regenerate the summary against the updated selection.
+    The skill works alongside the HAM or Data Foundations tab of the CMDB success advisor dashboard. Each time you change the dashboard filters, you can regenerate the summary against the updated selection.
 
     To learn more, see [Summarize CMDB readiness with the Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-skill-summ-rdy.md).
 
@@ -96,8 +96,8 @@ Now Assist for CMDB provides the following abilities:
     To learn more, see [Let Now Assist help you to manage duplicate CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-mng-dupe-cis-skill.md).
 
 
--   **[Supporting information for Now Assist for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-supporting-info.md)**  
-Get a quick overview of the important information that is related to the Now Assist for CMDB application.
+-   **[Supporting information for ServiceNow Otto for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-supporting-info.md)**  
+Get a quick overview of the important information that is related to the ServiceNow Otto for CMDB application.
 
-**Parent Topic:**[Now Assist for Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-landing-cmdb.md)
+**Parent Topic:**[ServiceNow Otto for Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-landing-cmdb.md)
 

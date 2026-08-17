@@ -22,7 +22,7 @@ The agents, tools, and triggers that are associated with the Analyze task trends
 
 ## Prerequisites and setup
 
-To access this workflow, you must have Now Assist for Platform installed on your instance, which you can get if you install any other Now Assist application, such as Now Assist for IT Service Management \(ITSM\).
+To access this workflow, you must have Now Assist for Platform installed on your instance, which you can get if you install any other Now Assist application, such as ServiceNow Otto for IT Service Management \(ITSM\).
 
 For this agentic workflow to behave as expected, you should have at least 500 records on your task table.
 

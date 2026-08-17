@@ -1,6 +1,6 @@
 ---
-title: Customize a Now Assist for Sourcing and Procurement Operations \(SPO\) skill
-description: If you have the admin role, you can customize a Now Assist for Sourcing and Procurement Operations \(SPO\) skill so that fulfillers and requesters can use the generative AI skills in Source-to-Pay Workspace, Shopping Hub, and in Core UI.
+title: Customize a ServiceNow Otto for Sourcing and Procurement Operations \(SPO\) skill
+description: If you have the admin role, you can customize a ServiceNow Otto for Sourcing and Procurement Operations \(SPO\) skill so that fulfillers and requesters can use the generative AI skills in Source-to-Pay Workspace, Shopping Hub, and in Core UI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/cust-now-assist-spo-skill.html
 release: yokohama
@@ -10,12 +10,12 @@ topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 6
 keywords: [Now Assist for SPO skills, Customize a Now Assist for Sourcing and Procurement Operations skill]
-breadcrumb: [Configure, Now Assist for Sourcing and Procurement Operations \(SPO\), Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Configure, ServiceNow Otto for Sourcing and Procurement Operations \(SPO\), Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
-# Customize a Now Assist for Sourcing and Procurement Operations \(SPO\) skill
+# Customize a ServiceNow Otto for Sourcing and Procurement Operations \(SPO\) skill
 
-If you have the admin role, you can customize a Now Assist for Sourcing and Procurement Operations \(SPO\) skill so that fulfillers and requesters can use the generative AI skills in Source-to-Pay Workspace, Shopping Hub, and in Core UI.
+If you have the admin role, you can customize a ServiceNow Otto for Sourcing and Procurement Operations \(SPO\) skill so that fulfillers and requesters can use the generative AI skills in Source-to-Pay Workspace, Shopping Hub, and in Core UI.
 
 ## Before you begin
 
@@ -23,13 +23,13 @@ Role required: admin
 
 ## About this task
 
-From the Now Assist Admin console, you can select the input table, related records, and fields for each input template of the Summarization for fulfillers skill, and then configure the prompt headers to include in the general summary.
+From the AI Admin Hub console, you can select the input table, related records, and fields for each input template of the Summarization for fulfillers skill, and then configure the prompt headers to include in the general summary.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills** to access the **Now Assist Skills** tab of the Now Assist Admin console.
+1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills** to access the **Now Assist Skills** tab of the AI Admin Hub console.
 
-2.  In the **Finance and Supply Chain** workflow group, select **Sourcing and Procurement Operations** to view the skills for the Now Assist for SPO features.
+2.  In the **Finance and Supply Chain** workflow group, select **Sourcing and Procurement Operations** to view the skills for the ServiceNow Otto for SPO features.
 
 3.  Create a copy of a skill and customize the input fields.
 
@@ -41,7 +41,7 @@ From the Now Assist Admin console, you can select the input table, related recor
 
 4.  In the General details step, fill in the fields.
 
-    For information about the inputs and triggers for each skill, see [Skill inputs for Now Assist for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/input-triggers-now-assist-spo.md).
+    For information about the inputs and triggers for each skill, see [Skill inputs for ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/input-triggers-now-assist-spo.md).
 
     1.  Enter a name and description for the skill.
 
@@ -195,12 +195,12 @@ Requester SR closed
     -   Sourcing event
     -   Purchase order
 
-**Parent Topic:**[Configure Now Assist for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/configure-now-assist-for-spo.md)
+**Parent Topic:**[Configure ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/configure-now-assist-for-spo.md)
 
 **Related topics**  
 
 
-[Skill inputs for Now Assist for Sourcing and Procurement Operations \(SPO\)]()
+[Skill inputs for ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)]()
 
 [Approve restricted caller access privileges manually]()
 

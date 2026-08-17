@@ -99,7 +99,7 @@ Risks
 The Risks tab on the entity record page displays the following:-   **Directly related risks**: List all risks that are directly associated with the entity.
 -   **Suggested risks**: List all risks suggested by the Risk Suggestion AI Agent.
 
-**Note:** The **Suggested risks** option is only available when Now Assist for Integrated Risk Management \(IRM\) plugin is installed.
+**Note:** The **Suggested risks** option is only available when ServiceNow Otto for Integrated Risk Management \(IRM\) plugin is installed.
 
 -   **All risks**: List all directly related risks and downstream risks.
 

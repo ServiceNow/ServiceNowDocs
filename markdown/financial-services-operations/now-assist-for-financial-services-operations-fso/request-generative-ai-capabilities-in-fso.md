@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
 keywords: [generative AI for financial services operations now assist panel, generative AI for FSO now assist panel]
-breadcrumb: [Using generative AI, Now Assist for Financial Services Operations \(FSO\)]
+breadcrumb: [Using generative AI, ServiceNow Otto for Financial Services Operations \(FSO\)]
 ---
 
 # Request generative AI capabilities in Financial Services Operations by using the Now Assist panel
@@ -23,7 +23,7 @@ Next Experience must be enabled in the instance. For more information, see [Next
 
 Role required: sn\_bom\_credit\_card.dispute\_agent, sn\_bom\_credit\_card.dispute\_manager, sn\_bom\_credit\_card.dispute\_viewer, sn\_bom\_credit\_card.contributor, sn\_bom.b2c\_agent, sn\_bom.b2b\_agent, sn\_bom.adjuster, or sn\_bom.fnol\_representative
 
-**Note:** These roles are the default list of roles that are defined for this task. Administrators can modify the list of roles in the Now Assist Admin console.
+**Note:** These roles are the default list of roles that are defined for this task. Administrators can modify the list of roles in the AI Admin Hub console.
 
 ## About this task
 
@@ -35,7 +35,7 @@ For more information about the Now Assist panel, see [Now Assist panel](https://
 
 1.  Navigate to **Workspaces** &gt; **Financial Services Workspace**.
 
-2.  Log in to an instance where the Now Assist for FSO application is installed.
+2.  Log in to an instance where the ServiceNow Otto for FSO application is installed.
 
 3.  Request the generative AI capabilities in FSO for a case by selecting the Now Assist icon \(\[Omitted image "icon-ai-sparkle.png"\] Alt text: Now assist icon.\).
 
@@ -43,15 +43,15 @@ For more information about the Now Assist panel, see [Now Assist panel](https://
 
 4.  After you request the generative AI capabilities, summarize a case or use the Help resolve friendly fraud agentic workflow.
 
-<table id="choicetable_zrx_zlr_mbc"><thead><tr><th align="left" id="d28017e225">
+<table id="choicetable_zrx_zlr_mbc"><thead><tr><th align="left" id="d27608e225">
 
 Option
 
-</th><th align="left" id="d28017e228">
+</th><th align="left" id="d27608e228">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d28017e234">
+</th></tr></thead><tbody><tr><td id="d27608e234">
 
 **Summarize a case**
 
@@ -62,7 +62,7 @@ Description
 3.  In the Now Assist panel, select **Summarize a record**.
 
 
-</td></tr><tr><td id="d28017e270">
+</td></tr><tr><td id="d27608e270">
 
 **Use the Help resolve friendly fraud agentic workflow**
 

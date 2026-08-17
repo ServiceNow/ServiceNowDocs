@@ -1,20 +1,20 @@
 ---
 title: Define Location
-description: Define a geographic location to provide more context to other TISC entities.
+description: Define a geographic location to provide more context to other STIX Domain Objects \(SDOs\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/threat-intelligence-security-center/tisc-define-location.html
 release: yokohama
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 5
 breadcrumb: [Location, Threat Entities, TISC Library Repository, Threat Intel Library, Use, Threat Intelligence Security Center, Security Operations]
 ---
 
 # Define Location
 
-Define a geographic location to provide more context to other TISC entities.
+Define a geographic location to provide more context to other STIX Domain Objects \(SDOs\).
 
 ## Before you begin
 
@@ -154,7 +154,7 @@ TLP
 
 </td><td>
 
-TLP is used to ensure that sensitive information is shared with the appropriate audience. It employs four colors \(White, Green, Amber, and Red\) to indicate different degrees of sensitivity.
+TLP \(Traffic Light Protocol\) is used to ensure that sensitive information is shared with the appropriate audience. It employs four colors \(White, Green, Amber, and Red\) to indicate different degrees of sensitivity.
 
 </td></tr><tr><td>
 
@@ -284,6 +284,12 @@ This property specifies that the identity object that describes the entity had c
     |Taxonomies|
     |Select Taxonomy|Select a Taxonomy that is associated with this location.|
     |Add Taxonomy Values|Add Taxonomy values that are associated with this location.|
+
+8.  If you want to delete any record then, select **Delete** to delete the aggregated record.
+
+    When you select this action, then it will remove all the related records, except the original source data, and trigger re aggregation.
+
+    **Note:** A confirmation message will appear to verify that you want to delete the aggregated record. If you also want to delete the source records and prevent re aggregation, select the **Delete Source Records** check box. This action will remove all the associated source records.
 
 
 ## What to do next

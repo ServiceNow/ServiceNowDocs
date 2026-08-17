@@ -15,7 +15,7 @@ breadcrumb: [ServiceNow AI implementation, Enable AI experiences]
 
 Now Assist leverages the power of the ServiceNow AI Platform to deliver AI solutions. Ensure that your instance is ready to take advantage of AI capabilities by preparing Platform applications, such as Service Catalog and AI Search.
 
-Installing a Now Assist product such as Now Assist for IT Service Management \(ITSM\) gives you access to AI capabilities in Platform applications as well as capabilities specific to your product workflow. It's important to ensure that the appropriate Platform applications are ready for Now Assist. To prepare your instance for Now Assist, review the following topics:
+Installing a Now Assist product such as ServiceNow Otto for IT Service Management \(ITSM\) gives you access to AI capabilities in Platform applications as well as capabilities specific to your product workflow. It's important to ensure that the appropriate Platform applications are ready for Now Assist. To prepare your instance for Now Assist, review the following topics:
 
 -   [Knowledge Base readiness for Now Assist on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/sn-ai-impl-kb-readiness.md)
 -   [Service Catalog readiness for Now Assist on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/sn-ai-impl-srvc-catalog.md)
@@ -32,7 +32,7 @@ After ensuring that your AI policy, your data, and your applications are ready, 
 
     For more information, see [Evaluating version requirements and dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/versions-dependencies.md).
 
-3.  Install Now Assist products from the Now Assist Admin console.
+3.  Install Now Assist products from the AI Admin Hub console.
 
     For more information, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/install-now-assist-feature-plugins.md).
 

@@ -1,6 +1,6 @@
 ---
-title: Explore Now Assist for Sourcing and Procurement Operations \(SPO\)
-description: Now Assist for Sourcing and Procurement Operations \(SPO\) is an application that adds generative AI capabilities to the Source-to-Pay Workspace to help requesters and procurement teams work more efficiently.
+title: Explore ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)
+description: ServiceNow Otto for Sourcing and Procurement Operations \(SPO\) is an application that adds generative AI capabilities to the Source-to-Pay Workspace to help requesters and procurement teams work more efficiently.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-exploring.html
 release: yokohama
@@ -10,20 +10,20 @@ topic_type: concept
 last_updated: "2026-02-24"
 reading_time_minutes: 3
 keywords: [Explore Now Assist for Sourcing and Procurement Operations]
-breadcrumb: [Now Assist for Sourcing and Procurement Operations \(SPO\), Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [ServiceNow Otto for Sourcing and Procurement Operations \(SPO\), Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
-# Explore Now Assist for Sourcing and Procurement Operations \(SPO\)
+# Explore ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)
 
-Now Assist for Sourcing and Procurement Operations \(SPO\) is an application that adds generative AI capabilities to the Source-to-Pay Workspace to help requesters and procurement teams work more efficiently.
+ServiceNow Otto for Sourcing and Procurement Operations \(SPO\) is an application that adds generative AI capabilities to the Source-to-Pay Workspace to help requesters and procurement teams work more efficiently.
 
-## Overview of Now Assist for Sourcing and Procurement Operations \(SPO\)
+## Overview of ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)
 
-Now Assist for Sourcing and Procurement Operations \(SPO\) uses generative AI to handle procurement requests and understand records, which helps procurement teams improve visibility, reduce manual effort, and make faster, smarter decisions throughout the procurement process.
+ServiceNow Otto for Sourcing and Procurement Operations \(SPO\) uses generative AI to handle procurement requests and understand records, which helps procurement teams improve visibility, reduce manual effort, and make faster, smarter decisions throughout the procurement process.
 
-Now Assist for Sourcing and Procurement Operations \(SPO\) includes the following capabilities:
+ServiceNow Otto for Sourcing and Procurement Operations \(SPO\) includes the following capabilities:
 
--   Provides AI-assisted conversational intake, enabling requesters to submit procurement requests in natural language. Now Assist for SPO uses procurement-related topics to route requests to the appropriate intake process and helps requesters submit accurate requests without relying on fulfillers.
+-   Provides AI-assisted conversational intake, enabling requesters to submit procurement requests in natural language. ServiceNow Otto for SPO uses procurement-related topics to route requests to the appropriate intake process and helps requesters submit accurate requests without relying on fulfillers.
 -   Produces generative AI-powered record summaries that help requesters and fulfillers quickly interpret completed actions, status, and next steps.
 -   Embeds summary access across procurement experiences, including Source-to-Pay Workspace, Shopping Hub, and the Now Assist panel.
 -   Monitors requester sentiment across active procurement cases, enabling procurement specialists to identify, prioritize, and manage sensitive requests proactively
@@ -33,7 +33,7 @@ Now Assist for Sourcing and Procurement Operations \(SPO\) includes the followin
 
 \[Omitted image "now-assist-spo-explore.png"\] Alt text: Skills available on Now Assist for Sourcing and Procurement Operations.
 
-The following skills are available in Now Assist for Sourcing and Procurement Operations \(SPO\).
+The following skills are available in ServiceNow Otto for Sourcing and Procurement Operations \(SPO\).
 
 -   Skills available for requesters:
 
@@ -64,17 +64,17 @@ The following skills are available in Now Assist for Sourcing and Procurement Op
     **Note:** A fulfiller with the sn\_spend\_gen\_ai.now\_assist\_fulfiller role can use these summarization skills in Source-to-Pay Workspace.
 
 
-For more information about setting up Now Assist for SPO, see [Configure Now Assist for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/configure-now-assist-for-spo.md).
+For more information about setting up ServiceNow Otto for SPO, see [Configure ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/configure-now-assist-for-spo.md).
 
-As a requester, you can use Now Assist for SPO to:
+As a requester, you can use ServiceNow Otto for SPO to:
 
 -   Submit purchase requisitions
 -   Sourcing requests
 -   Request for products or services that aren't available in the catalog
 
-For guidance on using these capabilities in Now Assist for SPO, see [Using Now Assist for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-using.md).
+For guidance on using these capabilities in ServiceNow Otto for SPO, see [Using ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-using.md).
 
-Now Assist for SPO is also available in Virtual Agent, where it uses large language models \(LLMs\) and generative AI skills to enhance conversational experiences. These capabilities help improve deflection rates and reduce the manual effort required for Natural Language Understanding \(NLU\) topic discovery.
+ServiceNow Otto for SPO is also available in Virtual Agent, where it uses large language models \(LLMs\) and generative AI skills to enhance conversational experiences. These capabilities help improve deflection rates and reduce the manual effort required for Natural Language Understanding \(NLU\) topic discovery.
 
 For detailed information about Now Assist in Virtual Agent and how to use generative AI skills in your conversations, see [Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/now-assist-in-va-landing.md).
 

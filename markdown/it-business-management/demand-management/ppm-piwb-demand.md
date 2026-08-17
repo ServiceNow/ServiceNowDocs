@@ -64,5 +64,5 @@ Role required: piwb\_manager
 
 [Train the similarity solution for Demand Management to find similar demands]()
 
-[Identify similar records using Now Assist for Strategic Portfolio Management \(SPM\)]()
+[Identify similar records using ServiceNow Otto for Strategic Portfolio Management]()
 

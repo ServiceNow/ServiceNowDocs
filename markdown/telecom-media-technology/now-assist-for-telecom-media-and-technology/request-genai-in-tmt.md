@@ -9,7 +9,7 @@ classification: now-assist-for-telecom-media-and-technology
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Using Now Assist for Telecommunications, Media and Technology \(TMT\), Now Assist for Telecommunications, Media and Technology \(TMT\), Telecommunications, Media, and Technology]
+breadcrumb: [Using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\), ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\), Telecommunications, Media, and Technology]
 ---
 
 # Request the generative AI capabilities in TMT using the Now Assist panel
@@ -30,7 +30,7 @@ For more information about the Now Assist panel, see [Now Assist panel](https://
 
 ## Procedure
 
-1.  Log in to an instance where the Now Assist for TMT application is installed.
+1.  Log in to an instance where the ServiceNow Otto for TMT application is installed.
 
 2.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** &gt; **Lists** &gt; **Service Problem Case** &gt; **All**.
 
@@ -43,5 +43,5 @@ For more information about the Now Assist panel, see [Now Assist panel](https://
     -   To summarize the service problem case, select **Summarize a record**.
     -   To generate the service problem case resolution notes, select **Generate resolution notes**.
 
-**Parent Topic:**[Using Now Assist for Telecommunications, Media and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spm-using.md)
+**Parent Topic:**[Using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spm-using.md)
 

@@ -1,6 +1,6 @@
 ---
 title: Summarize supplier performance in Source-to-Pay Workspace
-description: Generate comprehensive performance summary including overall performance scores, trends, and action items by using the supplier performance summarization skill in the Now Assist for Supplier Lifecycle Operations \(SLO\) application.
+description: Generate comprehensive performance summary including overall performance scores, trends, and action items by using the supplier performance summarization skill in the ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/supplier-lifecycle-operations/summarize-supp-perf.html
 release: yokohama
@@ -9,12 +9,12 @@ classification: supplier-lifecycle-operations
 topic_type: task
 last_updated: "2026-02-19"
 reading_time_minutes: 1
-breadcrumb: [Use Now Assist for Supplier Lifecycle Operations \(SLO\), Now Assist for Supplier Lifecycle Operations \(SLO\), Supplier Lifecycle Operations, Finance and Supply Chain]
+breadcrumb: [Use ServiceNow Otto for Supplier Lifecycle Operations \(SLO\), ServiceNow Otto for Supplier Lifecycle Operations \(SLO\), Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 
 # Summarize supplier performance in Source-to-Pay Workspace
 
-Generate comprehensive performance summary including overall performance scores, trends, and action items by using the supplier performance summarization skill in the Now Assist for Supplier Lifecycle Operations \(SLO\) application.
+Generate comprehensive performance summary including overall performance scores, trends, and action items by using the supplier performance summarization skill in the ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) application.
 
 ## Before you begin
 

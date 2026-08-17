@@ -26,13 +26,13 @@ Create and manage custom applications in a simple, low-code environment.
 
     Use Creator Studio to quickly create a request/fulfill app based on Service Catalog using helpful templates.
 
--   **[Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-integration-overview.md)**
+-   **[ERP Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-integration-overview.md)**
 
-    Use Zero Copy Connector for ERP to connect to an ERP \(Enterprise Resource Planning\) system, create an ERP model, and extract data from the ERP system, such as sales orders, data records, and purchase documents. You can then use the ERP data when building low-code apps on the ServiceNow AI Platform.
+    Use ERP Canvas to connect to an ERP \(Enterprise Resource Planning\) system, create an ERP model, and extract data from the ERP system, such as sales orders, data records, and purchase documents. You can then use the ERP data when building low-code apps on the ServiceNow AI Platform.
 
--   **[ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/erp-customization-mining-overview.md)**
+-   **[ERP Customization Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/erp-customization-mining-overview.md)**
 
-    Use ERP Semantic Mining to find the custom applications in your ERP system for platform migration, such as from SAP to the ServiceNow AI Platform.
+    Use ERP Customization Mining to find the custom applications in your ERP system for platform migration, such as from SAP to the ServiceNow AI Platform.
 
 -   **[ServiceNow CLI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-cli/servicenow-cli.md)**
 

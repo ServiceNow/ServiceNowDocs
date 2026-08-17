@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2025-08-05"
 reading_time_minutes: 5
 keywords: [installing Now Assist, AI features, AI products, updating Now Assist, solutions, Now Assist, GenAI, generative AI, configure Now Assist]
-breadcrumb: [Using agentic workflows in Now Assist for ITOM, Now Assist for ITOM, IT Operations Management]
+breadcrumb: [Using agentic workflows in ServiceNow Otto for ITOM, ServiceNow Otto for ITOM, IT Operations Management]
 ---
 
 # Analyze potential impact agentic workflow
@@ -97,7 +97,7 @@ Based on the candidate number, and the analysis, the output summary is provided 
 -   **[Use the Analyze potential impact agentic workflow to assess a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/use-now-assist-analyze-impact-agentic-workflow.md)**  
 Use the Analyze potential impact agentic workflow to assess the effects of a change request. This workflow highlights the potential impacted servers and suggested services to help you identify risks, benefits, and make any necessary adjustments.
 
-**Parent Topic:**[Using agentic workflows in Now Assist for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-ai-agent-workflows.md)
+**Parent Topic:**[Using agentic workflows in ServiceNow Otto for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-ai-agent-workflows.md)
 
 **Previous topic:**[Use the analyze alert impact agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-use-aia.md)
 

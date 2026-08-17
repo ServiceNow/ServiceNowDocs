@@ -24,7 +24,7 @@ Use role masking to:
 -   Empower users to follow least-access principles when an agentic workflow or AI agent executes on behalf of a dynamic user.
 -   Limit roles that agentic workflows, AI agents, and skills inherit from users and can be applied when a user invokes them.
 
-    For more information about configuring skills, see [Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-skill-kit/now-assist-skill-kit-landing.md).
+    For more information about configuring skills, see [AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-skill-kit/now-assist-skill-kit-landing.md).
 
 -   Reduce the risk of AI solutions accessing the resources that they shouldn't, therefore helping prevent agentic overreach into sensitive data or capabilities beyond what the user is allowed.
 -   Expand the security configurations to increase functionality of agentic products while reducing security risks by enforcing governance for elevated or scoped roles.

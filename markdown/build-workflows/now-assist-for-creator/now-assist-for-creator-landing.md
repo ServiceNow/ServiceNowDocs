@@ -1,6 +1,6 @@
 ---
 title: Now Assist for Creator
-description: Now Assist for Creator includes generative AI skills that can make developing on the ServiceNow AI Platform more efficient.
+description: ServiceNow Otto for Creator includes generative AI skills that can make developing on the ServiceNow AI Platform more efficient.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/build-workflows/now-assist-for-creator/now-assist-for-creator-landing.html
 release: yokohama
@@ -14,13 +14,13 @@ breadcrumb: [Build workflows]
 
 # Now Assist for Creator
 
-Now Assist for Creator includes generative AI skills that can make developing on the ServiceNow AI Platform more efficient.
+ServiceNow Otto for Creator includes generative AI skills that can make developing on the ServiceNow AI Platform more efficient.
 
 ## Get started
 
 <table id="table_jb4_kgc_r1c_ddd" class="nav-card"><tbody><tr><td>
 
-[Install\[Omitted image "bus-sdlc.svg"\] Alt text:Install Now Assist for Creator.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/now-assist-for-creator/install-now-assist-for-creator.md)
+[Install\[Omitted image "bus-sdlc.svg"\] Alt text:Install ServiceNow Otto for Creator.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/now-assist-for-creator/install-now-assist-for-creator.md)
 
 </td><td>
 

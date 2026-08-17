@@ -9,7 +9,7 @@ classification: service-level-objective-management
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Service Level Objective Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Service Level Objective Management, ITOM Health, IT Operations Management]
 ---
 
 # Using SLO Management

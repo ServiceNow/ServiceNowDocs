@@ -1,6 +1,6 @@
 ---
 title: Related lists for a Product in Agile Development 2.0
-description: Use the related lists in the Product form for the actions that you need to perform on your product record in Agile Development 2.0, such as associating releases, themes, epics, stories, or assignment groups.
+description: Use the related lists in the Product form for the actions that you need to perform on your product record in Agile Development 2.0. These actions include associating releases, themes, epics, stories, or assignment groups.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/agile-development/related-links-lists-product-agile-2.html
 release: yokohama
@@ -14,7 +14,7 @@ breadcrumb: [Reference, Agile Development 2.0, Strategic Portfolio Management]
 
 # Related lists for a Product in Agile Development 2.0
 
-Use the related lists in the Product form for the actions that you need to perform on your product record in Agile Development 2.0, such as associating releases, themes, epics, stories, or assignment groups.
+Use the related lists in the Product form for the actions that you need to perform on your product record in Agile Development 2.0. These actions include associating releases, themes, epics, stories, or assignment groups.
 
 The Product form related lists help you organize your agile work. Agile Development 2.0 extends the standard Scrum framework with Themes, which are a high-level organizational structure above Epics.
 

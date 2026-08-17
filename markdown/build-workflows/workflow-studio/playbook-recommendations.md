@@ -20,7 +20,7 @@ Get AI-generated recommendations for placeholder activities. The system generate
 
 ## Activation
 
-Now Assist Recommendations is a skill installed with the Now Assist for Creator \(sn\_now\_creator\) application. You can install this application from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
+Now Assist Recommendations is a skill installed with the ServiceNow Otto for Creator \(sn\_now\_creator\) application. You can install this application from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Benefits
 

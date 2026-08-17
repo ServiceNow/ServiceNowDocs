@@ -20,7 +20,7 @@ The Service Graphs Connector for Nokia Altiplano pulls in asset inventory data \
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Nokia Altiplano SGC Architecture
 
@@ -42,7 +42,7 @@ Supported Nokia Altiplano Controller minimum versions: 24.6.
 The following are examples on how you can use the Nokia Altiplano Service Graph Connector:
 
 -   **The Nokia Altiplano Service Graph Connector** can be used to pull data from the Nokia Altiplano Access Controller via REST API \(through a MID Server\), confirming that the CMDB is populated with accurate, up-to-date information about physical network resources such as OLTs and ONTs, among others. This integration provides a telecom-model-aligned view of network resources and their relationships.
--   **Future Capabilities**: In upcoming releases, the Nokia Altiplano Service Graph Connector expands its capabilities to discover not only physical resources but also logical resources and services/connections, enabling a more comprehensive view of both the physical and logical aspects of the network. It will also support event-driven discovery, where the Altiplano Controller notifies the ServiceNow instance \(via the MID Server\) about a change and sequentially triggers a discovery task.
+-   **Future Capabilities**: In upcoming releases, the Nokia Altiplano Service Graph Connector expands its capabilities to discover physical resources, logical resources, and services/connections. This expansion enables a more comprehensive view of both the physical and logical aspects of the network. The connector will also support event-driven discovery. In this mode, the Altiplano Controller notifies the ServiceNow instance \(via the MID Server\) about a change and sequentially triggers a discovery task.
 -   Ability to configure and save synchronization schedules.
 
 ## Guided setup
@@ -270,7 +270,7 @@ ONU CI Class, Valid values: ONU or ONT
 
 </td></tr></tbody>
 </table>
-## Examples of Retrieving Data from Nokia Altiplano via REST API
+## Retrieving Data from Nokia Altiplano via REST API
 
 Examples of Retrieving Data from Nokia Altiplano via REST API.
 

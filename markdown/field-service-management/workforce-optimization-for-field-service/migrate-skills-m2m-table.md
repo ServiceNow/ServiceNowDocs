@@ -32,15 +32,15 @@ In the Field Service Management application, the work order task assignments don
 
 1.  [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) with the following settings.
 
-<table id="choicetable_i5b_yht_wcb"><thead><tr><th align="left" id="d57540e85">
+<table id="choicetable_i5b_yht_wcb"><thead><tr><th align="left" id="d57366e85">
 
 Option
 
-</th><th align="left" id="d57540e88">
+</th><th align="left" id="d57366e88">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d57540e94">
+</th></tr></thead><tbody><tr><td id="d57366e94">
 
 **Create a system property for a table in the Customer Service Management application.**
 
@@ -52,7 +52,7 @@ Make sure that you are logged in to the Customer Service Management application.
 
 In the **Suffix** field, enter the name of the system property as follows:**com.snc.skills\_management.&lt;table\_name&gt;\_migrate\_skills**, where &lt;table\_name&gt; is the name of a case task table from which the skills need to be copied.
 
-</td></tr><tr><td id="d57540e119">
+</td></tr><tr><td id="d57366e119">
 
 **Create a system property for a table in the Field Service Management application.**
 

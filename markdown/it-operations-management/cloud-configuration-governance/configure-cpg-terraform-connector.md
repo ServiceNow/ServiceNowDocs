@@ -1,6 +1,6 @@
 ---
-title: Configuring Cloud Services Catalog Terraform Connector
-description: Understand the high-level workflow for configuring the Cloud Services Catalog Terraform Connector application.
+title: Configuring Cloud Provisioning and Governance: Terraform Connector
+description: Understand the high-level workflow for configuring the Cloud Provisioning and Governance: Terraform Connector application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/cloud-configuration-governance/configure-cpg-terraform-connector.html
 release: yokohama
@@ -9,16 +9,16 @@ classification: cloud-configuration-governance
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Cloud Services Catalog Terraform Connector, Support for continuous delivery \(configuration management\), Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Optimization, IT Operations Management]
+breadcrumb: [Cloud Provisioning and Governance: Terraform Connector, Support for continuous delivery \(configuration management\), Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Optimization, IT Operations Management]
 ---
 
-# Configuring Cloud Services Catalog Terraform Connector
+# Configuring Cloud Provisioning and Governance: Terraform Connector
 
-Understand the high-level workflow for configuring the Cloud Services Catalog Terraform Connector application.
+Understand the high-level workflow for configuring the Cloud Provisioning and Governance: Terraform Connector application.
 
-Perform the following steps to configure the Cloud Services Catalog Terraform Connector application:
+Perform the following steps to configure the Cloud Provisioning and Governance: Terraform Connector application:
 
-1.  Install Cloud Services Catalog Terraform Connector. For more information, see [Install Cloud Services Catalog Terraform Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/install-cpg-terraform-connector.md).
+1.  Install Cloud Provisioning and Governance: Terraform Connector. For more information, see [Install Cloud Provisioning and Governance: Terraform Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/install-cpg-terraform-connector.md).
 2.  If you want to use a minor or patch version of Terraform Open Source, Terraform Enterprise, or Terraform Cloud, add the minor or patch version to the workload config provider record. For more information, see [Add support for minor or patch versions of the Terraform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/terraform-use-minor-patch-version-cli.md).
 3.  To use Terraform Open Source as a config provider for Cloud Provisioning and Governance, do the following:
     1.  Assign Terraform capability to the MID Server. For more information, see [Configure MID Server capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/t_ConfigureCapabilities.md).

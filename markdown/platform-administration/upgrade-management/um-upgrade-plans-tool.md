@@ -1,5 +1,5 @@
 ---
-title: Upgrade Plans tool in Upgrade Console
+title: Upgrade Plans tool in Upgrade Management
 description: Accelerate your upgrades using the Upgrade Plan that automates the installation of applications during upgrades, giving you a seamless upgrade experience. It helps you define applications and target versions to be installed in your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/upgrade-management/um-upgrade-plans-tool.html
@@ -9,10 +9,10 @@ classification: upgrade-management
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Upgrade Console tools, Using Upgrade Console, Upgrade Console, Upgrade, Administer the ServiceNow AI Platform]
+breadcrumb: [Upgrade Management tools, Using Upgrade Management, Upgrade Management, Upgrade, Administer the ServiceNow AI Platform]
 ---
 
-# Upgrade Plans tool in Upgrade Console
+# Upgrade Plans tool in Upgrade Management
 
 Accelerate your upgrades using the Upgrade Plan that automates the installation of applications during upgrades, giving you a seamless upgrade experience. It helps you define applications and target versions to be installed in your instance.
 
@@ -29,22 +29,22 @@ Prepare your instance upgrade with Upgrade Plan by determining all the applicati
 -   **[Apply Upgrade Plan on your upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-management/um-apply-upgrade-plan.md)**  
 Apply the selected upgrade plan to your instance upgrade.
 
-**Parent Topic:**[Upgrade Console tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-management/um-tools.md)
+**Parent Topic:**[Upgrade Management tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-management/um-tools.md)
 
 **Related topics**  
 
 
-[ATF Test Generator and Cloud Runner tool in Upgrade Console]()
+[ATF Test Generator and Cloud Runner tool in Upgrade Management]()
 
-[Cloning tool in Upgrade Console]()
+[Cloning tool in Upgrade Management]()
 
-[Upgrade History tool in Upgrade Console]()
+[Upgrade History tool in Upgrade Management]()
 
-[Upgrade Monitor tool in Upgrade Console]()
+[Upgrade Monitor tool in Upgrade Management]()
 
-[Now Support in Upgrade Console]()
+[Now Support in Upgrade Management]()
 
-[Upgrade Preview tool in Upgrade Console]()
+[Upgrade Preview tool in Upgrade Management]()
 
-[Upgrade Skipped Record Rules Editor tool in Upgrade Console]()
+[Upgrade Skipped Record Rules Editor tool in Upgrade Management]()
 

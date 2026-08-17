@@ -1,6 +1,6 @@
 ---
 title: Reserve a space using Now Assist in Virtual Agent
-description: The Reserve Space Virtual Agent topic enables you to create a reservation using Now Assist for Workplace Service Delivery \(WSD\). You can also add services to your reservation.
+description: The Reserve Space Virtual Agent topic enables you to create a reservation using the Now Assist for WSD. You can also add services to your reservation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/now-assist-for-wsd/wsd-reserve-a-space-now-assist-va.html
 release: yokohama
@@ -9,12 +9,12 @@ classification: now-assist-for-wsd
 topic_type: task
 last_updated: "2025-09-07"
 reading_time_minutes: 9
-breadcrumb: [Use, Now Assist for Workplace Service Delivery \(WSD\), Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Use, Now Assist for WSD, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Reserve a space using Now Assist in Virtual Agent
 
-The Reserve Space Virtual Agent topic enables you to create a reservation using Now Assist for Workplace Service Delivery \(WSD\). You can also add services to your reservation.
+The Reserve Space Virtual Agent topic enables you to create a reservation using the Now Assist for WSD. You can also add services to your reservation.
 
 ## Before you begin
 
@@ -65,7 +65,7 @@ Role required: sn\_wsd\_core.workplace\_user
     -   End time: 11 am
     Since, there is no date provided, the employee is asked by the bot to indicate the date.
 
-    For example, If the employee enters "I want a space on next Monday from 9 am to 11 am." The building information is not provided in this input, so the bot asks to indicate the building. The Date is calculated based using the input "Next Monday" and start and end time. The more information an employee provides, less inputs are required by the bot to process and create a reservation.
+    For example, if the employee enters "I want a space on next Monday from 9 am to 11 am," the building information isn't provided. The bot asks the employee to indicate the building. The date is calculated using the input "Next Monday" and start and end time. The more information an employee provides, the fewer inputs the bot requires to process and create a reservation.
 
 8.  The Now Assist in Virtual Agent bot instructs you to select the type of reservation that you want to make.
 

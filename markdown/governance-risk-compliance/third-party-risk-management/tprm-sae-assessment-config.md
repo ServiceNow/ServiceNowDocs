@@ -233,7 +233,7 @@ For more information, see [Configure scoring for an assessment](https://raw.gith
 
 </td></tr><tr><td>
 
-Set up Unified Content Management
+Set up Unified Content Management.
 
 </td><td>
 
@@ -242,18 +242,6 @@ This task is optional. Install the Unified Content Management application. If yo
 For more information, see [Managing TPRM SAE templates with Unified Content Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/tprm-integrating-ucm.md) and [Activate or update Smart Assessment templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/activate_sae_ucm.md).
 
 Role required: sn\_vdr\_risk\_asmt.vendor\_risk\_admin
-
-</td></tr><tr><td>
-
-Set up Smart Assessment Response Assist skill
-
-</td><td>
-
-This task is optional.Set up the Smart Assessment Response Assist skill to generate initial draft responses from relevant assessment documents. This helps maintain consistency because responses are based on the same source materials for each assessment.
-
-Install Now Assist for Smart Assessment Engine and set up the Smart Assessment Response Assist skill.
-
-For more information, see
 
 </td></tr></tbody>
 </table>

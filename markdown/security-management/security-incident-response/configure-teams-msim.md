@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-04-01"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Integrate Major Security Incident Management with Microsoft Teams, Integrate, Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -21,6 +21,8 @@ Set up Major Security Incident Management with Microsoft Teams connection.
 Prerequisite: Make sure that you have registered an application in Azure Active Directory with required delegate permissions.
 
 Role required: admin
+
+**Note:** This Administration UI path replaces the manual System OAuth and Connections &amp; Credentials configuration steps. For more information, see [Establish MS Teams Graph connection on ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/msim-micorsoft-team-requirements.md).
 
 ## Procedure
 
@@ -53,6 +55,8 @@ Role required: admin
         |Client Secret|The secret string of the application used for requesting a token.|
 
 4.  Select **Configure &amp; Get OAuth Token**.
+
+    **Note:** Some permissions require admin consent. Azure admin credentials may be needed the first time to grant consent; subsequent token requests can use any valid user credentials.
 
     A login prompt appears to provide your Microsoft account details.
 

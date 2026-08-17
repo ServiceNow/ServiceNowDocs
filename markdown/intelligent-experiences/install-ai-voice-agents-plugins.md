@@ -20,7 +20,7 @@ Role required: sn\_aia\_admin
 
 ## About this task
 
-AI voice agents aren’t standalone applications that you can install directly. To enable AI voice agents on your instance, you must install and activate Now Assist for Voice, which is the base application for platform AI voice agents. To enable ITSM and HR AI voice agents, you must install and activate Now Assist for IT Service Management \(ITSM\) and Now Assist for HR Service Delivery \(HRSD\) applications along with the corresponding voice plugins.
+AI voice agents aren’t standalone applications that you can install directly. To enable AI voice agents on your instance, you must install and activate Now Assist for Voice, which is the base application for platform AI voice agents. To enable ITSM and HR AI voice agents, you must install and activate ServiceNow Otto for IT Service Management \(ITSM\) and ServiceNow Otto for HR Service Delivery \(HRSD\) applications along with the corresponding voice plugins.
 
 ## Procedure
 

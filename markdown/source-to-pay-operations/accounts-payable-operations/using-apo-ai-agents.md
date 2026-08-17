@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
 keywords: [Agentic AI]
-breadcrumb: [Now Assist for Accounts Payable Operations \(APO\), Accounts Payable Operations, Finance and Supply Chain]
+breadcrumb: [ServiceNow Otto for Accounts Payable Operations \(APO\), Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Using AI agents in Now Assist for Accounts Payable Operations

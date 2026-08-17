@@ -274,11 +274,11 @@ Third-party admin contains this role.
 
 For more information on SAE related roles, see [Roles in Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/smart-assessment-engine/sae-roles-defined.md).
 
-## Roles required for using Now Assist for Third-party Risk Management \(TPRM\)
+## Roles required for using ServiceNow Otto for Third-party Risk Management \(TPRM\)
 
-A user with the Third-party Assessment reviewer \[sn\_vdr\_risk\_asmt.vendor\_assessment\_reviewer\] role can use the Now Assist for TPRM skills.
+A user with the Third-party Assessment reviewer \[sn\_vdr\_risk\_asmt.vendor\_assessment\_reviewer\] role can use the ServiceNow Otto for TPRM skills.
 
-The TPRM GenAI User \[sn\_tprm\_genai.nowassist\_user\] role is granted to Third-party Assessment reviewers \[sn\_vdr\_risk\_asmt.vendor\_assessment\_reviewer\] automatically after you install the Now Assist for TPRM application. For more information about a Now Assist for TPRM, see [Now Assist for Third-party Risk Management \(TPRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/now-assist-tprm.md).
+The TPRM GenAI User \[sn\_tprm\_genai.nowassist\_user\] role is granted to Third-party Assessment reviewers \[sn\_vdr\_risk\_asmt.vendor\_assessment\_reviewer\] automatically after you install the ServiceNow Otto for TPRM application. For more information about a ServiceNow Otto for TPRM, see [ServiceNow Otto for Third-party Risk Management \(TPRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/now-assist-tprm.md).
 
 **Parent Topic:**[Third-party Risk Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/tprm-reference.md)
 

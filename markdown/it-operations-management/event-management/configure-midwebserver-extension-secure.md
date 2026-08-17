@@ -9,7 +9,7 @@ classification: event-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Configure the MID Web Server extension, MID Web Server, Event Management setup, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Configure the MID Web Server extension, MID Web Server, Event Management setup, Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
 ---
 
 # Configure a secure MID Web Server extension
@@ -36,15 +36,15 @@ Role required: agent\_client\_collector\_admin
 
     The MID Web Server unified keystore is the most efficient option. If you want to enable backward compatibility and the ability to store keypairs in an additional keystore, use the Web server keystore \(which allows you to use the MID unified keystore as well\).
 
-<table id="choicetable_ezm_tvg_dsb"><thead><tr><th align="left" id="d90992e151">
+<table id="choicetable_ezm_tvg_dsb"><thead><tr><th align="left" id="d89806e151">
 
 Option
 
-</th><th align="left" id="d90992e154">
+</th><th align="left" id="d89806e154">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d90992e160">
+</th></tr></thead><tbody><tr><td id="d89806e160">
 
 **MID unified keystore**
 
@@ -57,7 +57,7 @@ For more information, see the **Install custom certificates in the MID Server un
 
 **Important:** Leaving the **Keystore Certificate Alias** field empty causes connecting clients to skip certificate verification. Instead, the MID Server uses its own self-signed certificate.
 
-</td></tr><tr><td id="d90992e203">
+</td></tr><tr><td id="d89806e203">
 
 **Web server keystore**
 

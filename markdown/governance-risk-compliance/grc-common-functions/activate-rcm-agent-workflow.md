@@ -19,7 +19,7 @@ Configure and activate the get regulatory analysis agentic workflow that uses AI
 
 ## Before you begin
 
-Install the Now Assist for IRM plugin \(sn\_irm\_gen\_ai\).
+Install the ServiceNow Otto for IRM plugin \(sn\_irm\_gen\_ai\).
 
 The regulatory alert recommendation and summarization skills are required to generate enriched insights and identify impacted areas. For more information, see [AI-generated recommendations for a regulatory alert skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/recommendations-for-a-regulatory-alert.md) and [AI-driven regulatory alert summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/regulatory-alert-summarization.md).
 

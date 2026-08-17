@@ -9,7 +9,7 @@ classification: health-log-analytics
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Enhancing the CMDB with host data found in logs, Administering Health Log Analytics, Configuring Health Log Analytics, Health Log Analytics, ITOM AIOps, IT Operations Management]
+breadcrumb: [Enhancing the CMDB with host data found in logs, Administering Health Log Analytics, Configuring Health Log Analytics, Health Log Analytics, ITOM Health, IT Operations Management]
 ---
 
 # Field descriptions for log-based CI candidates

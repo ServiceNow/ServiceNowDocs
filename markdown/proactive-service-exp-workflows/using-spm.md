@@ -18,7 +18,7 @@ Customer Service agents can use the CSM/FSM Configurable Workspace or Customer S
 
 -   **[Create a service problem case from the workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/create-service-problem-case.md)**  
 Create a service problem case for a customer raised issue so that an agent can work on it and resolve the service-related problem.
--   **[Create a service problem case from the Customer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/create-a-product-case-from-the-customer-service-portal.md)**  
+-   **[Create a service problem case in the Customer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/create-a-product-case-from-the-customer-service-portal.md)**  
 Customers can create a service problem case to report an issue about the service from the Customer Service Portal.
 -   **[Diagnose and resolve a service problem case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/work-on-service-problem-case.md)**  
 As a customer service agent, review, diagnose, resolve, and close a service problem case for the service-related issue experienced by the customer.

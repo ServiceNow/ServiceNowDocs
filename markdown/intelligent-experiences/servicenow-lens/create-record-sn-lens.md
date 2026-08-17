@@ -117,15 +117,15 @@ Role required: lens\_user
 
     Only the field types that are supported by ServiceNow AI Lens get auto-populated with the extracted data. If the form doesn't have field types that are supported, then ServiceNow AI Lens won’t update the record. For more information about the supported fields, see [Field types supported](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/servicenow-lens/field-types-supported.md).
 
-<table id="choicetable_jjf_zx2_s2c"><thead><tr><th align="left" id="d51839e520">
+<table id="choicetable_jjf_zx2_s2c"><thead><tr><th align="left" id="d51712e520">
 
 Option
 
-</th><th align="left" id="d51839e523">
+</th><th align="left" id="d51712e523">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d51839e529">
+</th></tr></thead><tbody><tr><td id="d51712e529">
 
 **If the auto-filled text looks good**
 
@@ -133,7 +133,7 @@ Action
 
 Save the record by right-clicking on the form header and then selecting **Save**.
 
-</td></tr><tr><td id="d51839e541">
+</td></tr><tr><td id="d51712e541">
 
 **If the auto-filled text requires changes**
 

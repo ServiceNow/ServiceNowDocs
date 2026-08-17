@@ -1,6 +1,6 @@
 ---
 title: Activate the TPRM issue summarization skill
-description: Activate the TPRM summarization skill from Now Assist for TPRM to generate a brief summary of a TPRM issue by selecting the specific fields that you would like included in the summary.
+description: Activate the TPRM summarization skill from ServiceNow Otto for TPRM to generate a brief summary of a TPRM issue by selecting the specific fields that you would like included in the summary.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/third-party-risk-management/tprm-summarize-an-issue.html
 release: yokohama
@@ -15,17 +15,17 @@ breadcrumb: [Configure, Now Assist, Third-party Risk Management, Governance, Ris
 
 # Activate the TPRM issue summarization skill
 
-Activate the TPRM summarization skill from Now Assist for TPRM to generate a brief summary of a TPRM issue by selecting the specific fields that you would like included in the summary.
+Activate the TPRM summarization skill from ServiceNow Otto for TPRM to generate a brief summary of a TPRM issue by selecting the specific fields that you would like included in the summary.
 
 ## Before you begin
 
-Install the Now Assist for TPRM plugin \(sn\_tprm\_gen\_ai\).
+Install the ServiceNow Otto for TPRM plugin \(sn\_tprm\_gen\_ai\).
 
 Role required: admin
 
 ## About this task
 
-**Important:** After installing Now Assist for TPRM, all Now Assist for TPRM skills are activated by default.
+**Important:** After installing ServiceNow Otto for TPRM, all ServiceNow Otto for TPRM skills are activated by default.
 
 By default, a TPRM issue in the Third-party Risk Management application shows the options to create a summary in any state. After you generate the summary, you can choose to share the summary and populate the Work notes of the TPRM issue. Adding the summary to the work notes helps the risk analyst to get a quick glance at the latest summary version.
 

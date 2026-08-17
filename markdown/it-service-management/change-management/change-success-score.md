@@ -46,7 +46,7 @@ This dashboard displays trends in the resolution efficiency for the change model
 Change Success score uses Performance Analytics indicators for data collection. Indicators define a performance measurement taken at regular intervals of a business service, an activity, or organizational behavior. These performance measurements result in a series of indicator scores over time.
 -   **[Success score calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/change-score-calculation.md)**  
 To calculate the success score, formula indicators are provided. These indicators apply the multiplication operation to the data collected by the automated indicators to arrive at the final score.
--   **[Success score rating](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/change-success-score-rating.md)**  
+-   **[Configure success score rating](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/change-success-score-rating.md)**  
 Based on the change success score rating, a color and text is associated that is displayed as part of the Change Success Score card. By default, four success score ratings are available with a specific score range.
 
 **Parent Topic:**[Configuring Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/configure-change-management.md)

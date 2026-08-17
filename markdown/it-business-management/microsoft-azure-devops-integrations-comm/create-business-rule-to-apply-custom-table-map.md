@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-After you create a custom table map for an Azure DevOps process type, create a business rule similar to Synch Story with Azure DevOps to support export of information using this new table map to Azure DevOps.
+After you create a custom table map for an Azure DevOps process type, create a business rule to support export of information using this new table map to Azure DevOps.
 
 ## Procedure
 

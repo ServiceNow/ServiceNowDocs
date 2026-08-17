@@ -20,16 +20,13 @@ You can install the CMDB success advisor application \(sn\_cmdb\_advisor\) if yo
 
 -   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 -   Make sure that you have the required entitlements and that all dependent applications are installed on your instance.
--   Review the [CMDB success advisor](https://store.servicenow.com/store/app/db28ec5b87bba254221e8409dabb355c) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
+-   Review the [CMDB success advisor](https://store.servicenow.com/store/app/db28ec5b87bba254221e8409dabb355c) application listing in the ServiceNow Store for information about dependencies, licensing or subscription requirements, and release compatibility.
 
 Role required: admin
 
 ## About this task
 
-The following items are installed with CMDB success advisor:
-
--   Scheduled jobs
--   Tables
+The following items are installed with CMDB success advisor: scheduled jobs and tables.
 
 For more information, see [Components installed with CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-components-installed.md).
 

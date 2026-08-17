@@ -1,6 +1,6 @@
 ---
 title: Customize Now Assist context menu for skills
-description: If you have the admin role, you can customize a Now Assist for Customer Service Management \(CSM\) skill so that agents can use the generative AI skills in CSM Configurable Workspace and in Core UI.
+description: If you have the admin role, you can customize a ServiceNow Otto for Customer Service Management \(CSM\) skill so that agents can use the generative AI skills in CSM Configurable Workspace and in Core UI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/now-assist-for-csm/customize-now-assist-context-menu-for-skills.html
 release: yokohama
@@ -10,12 +10,12 @@ topic_type: task
 last_updated: "2025-11-06"
 reading_time_minutes: 2
 keywords: [generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
-breadcrumb: [Configure, Now Assist for Customer Service Management \(CSM\), Customer Service Management]
+breadcrumb: [Configure, ServiceNow Otto for Customer Service Management \(CSM\), Customer Service Management]
 ---
 
 # Customize Now Assist context menu for skills
 
-If you have the admin role, you can customize a Now Assist for Customer Service Management \(CSM\) skill so that agents can use the generative AI skills in CSM Configurable Workspace and in Core UI.
+If you have the admin role, you can customize a ServiceNow Otto for Customer Service Management \(CSM\) skill so that agents can use the generative AI skills in CSM Configurable Workspace and in Core UI.
 
 ## Before you begin
 
@@ -23,7 +23,7 @@ Role required: admin
 
 **Note:**
 
-The Now Assist context menu configuration is accessible through the Now Assist Experiences in Now Assist Admin console. After activating the relevant skills, users are prompted to visit the Case NACM Config however, in the base system , configuration is already active. By default, it is configured to utilize extended tables for the resolution notes and activity response generation skill that is provided in the base system.
+The Now Assist context menu configuration is accessible through the Now Assist Experiences in AI Admin Hub console. After activating the relevant skills, users are prompted to visit the Case NACM Config however, in the base system , configuration is already active. By default, it is configured to utilize extended tables for the resolution notes and activity response generation skill that is provided in the base system.
 
 Case NACM Config is currently only available for resolution notes and activity response generation skill.
 

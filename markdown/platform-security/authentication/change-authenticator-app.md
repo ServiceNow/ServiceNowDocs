@@ -9,7 +9,7 @@ classification: authentication
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Authenticator Applications, Using MFA, Multi-factor authentication, Authentication, Access Management]
+breadcrumb: [Authenticator applications, Using MFA, Multi-factor authentication, Authentication, Access Management]
 ---
 
 # Change Authenticator app

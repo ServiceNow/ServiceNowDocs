@@ -9,7 +9,7 @@ classification: discovery
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Certificate integrations and notifications, Configuring Certificate Inventory and Management, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
+breadcrumb: [Certificate integrations and notifications, Configure, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
 
 # Receive certificate notifications on Slack

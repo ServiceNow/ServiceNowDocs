@@ -1,6 +1,6 @@
 ---
-title: Now Assist for Customer Service Management \(CSM\)
-description: Use the ServiceNow Now Assist for Customer Service Management \(CSM\) application to summarize the case information, generate the case resolution notes, and summarize the chat for an interaction. You can enable your agents to understand the chat and case context so that they can propose quicker resolutions to your customers.
+title: ServiceNow Otto for Customer Service Management \(CSM\)
+description: Use the ServiceNow ServiceNow Otto for Customer Service Management \(CSM\) application to summarize the case information, generate the case resolution notes, and summarize the chat for an interaction. You can enable your agents to understand the chat and case context so that they can propose quicker resolutions to your customers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/now-assist-for-csm/now-assist-csm.html
 release: yokohama
@@ -13,23 +13,23 @@ keywords: [generative AI, generative AI for Customer Service Management, generat
 breadcrumb: [Customer Service Management]
 ---
 
-# Now Assist for Customer Service Management \(CSM\)
+# ServiceNow Otto for Customer Service Management \(CSM\)
 
-Use the ServiceNow® Now Assist for Customer Service Management \(CSM\) application to summarize the case information, generate the case resolution notes, and summarize the chat for an interaction. You can enable your agents to understand the chat and case context so that they can propose quicker resolutions to your customers.
+Use the ServiceNow® ServiceNow Otto for Customer Service Management \(CSM\) application to summarize the case information, generate the case resolution notes, and summarize the chat for an interaction. You can enable your agents to understand the chat and case context so that they can propose quicker resolutions to your customers.
 
 ## Get started
 
 <table id="table_iht_hgl_5yb" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about Now Assist for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/now-assist-for-csm/now-assist-csm-exploring.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about ServiceNow Otto for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/now-assist-for-csm/now-assist-csm-exploring.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the Now Assist for CSM application to get started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/now-assist-for-csm/now-assist-csm-configuring.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the ServiceNow Otto for CSM application to get started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/now-assist-for-csm/now-assist-csm-configuring.md)
 
 </td><td>
 
-[Use Customer Service Management generative AI\[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:Use generative AI capabilities offered by Now Assist for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
+[Use Customer Service Management generative AI\[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:Use generative AI capabilities offered by ServiceNow Otto for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
 
 </td></tr><tr><td>
 
@@ -37,7 +37,7 @@ Use the ServiceNow® Now Assist for Customer Service Management \(CSM\) applicat
 
 </td><td>
 
-[Use CSM AI agent collection \[Omitted image "bus-ai-sparkle.svg"\] Alt text:Use the AI agent use cases in Now Assist for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/now-assist-for-csm/csm-ai-agents-use-cases.md)
+[Use CSM AI agent collection \[Omitted image "bus-ai-sparkle.svg"\] Alt text:Use the AI agent use cases in ServiceNow Otto for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/now-assist-for-csm/csm-ai-agents-use-cases.md)
 
 </td><td>
 

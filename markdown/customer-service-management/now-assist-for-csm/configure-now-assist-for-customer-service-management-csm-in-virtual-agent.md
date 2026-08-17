@@ -1,6 +1,6 @@
 ---
-title: Configure Now Assist for Customer Service Management \(CSM\) in Virtual Agent
-description: Use Now Assist for CSM in Virtual Agent to provide users a content-driven generative AI experience.
+title: Configure ServiceNow Otto for Customer Service Management \(CSM\) in Virtual Agent
+description: Use ServiceNow Otto for CSM in Virtual Agent to provide users a content-driven generative AI experience.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/now-assist-for-csm/configure-now-assist-for-customer-service-management-csm-in-virtual-agent.html
 release: yokohama
@@ -10,12 +10,12 @@ topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
 keywords: [generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
-breadcrumb: [Configure, Now Assist for Customer Service Management \(CSM\), Customer Service Management]
+breadcrumb: [Configure, ServiceNow Otto for Customer Service Management \(CSM\), Customer Service Management]
 ---
 
-# Configure Now Assist for Customer Service Management \(CSM\) in Virtual Agent
+# Configure ServiceNow Otto for Customer Service Management \(CSM\) in Virtual Agent
 
-Use Now Assist for CSM in Virtual Agent to provide users a content-driven generative AI experience.
+Use ServiceNow Otto for CSM in Virtual Agent to provide users a content-driven generative AI experience.
 
 ## Before you begin
 
@@ -25,7 +25,7 @@ To ensure LLM-based appointment booking works in Customer Service Management, th
 
 ## About this task
 
-There are 6 main steps to configure Now Assist for CSM in Virtual Agent:
+There are 6 main steps to configure ServiceNow Otto for CSM in Virtual Agent:
 
 1.  [Activate Virtual Agent for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/activate-virtual-agent-csm.md)
 2.  [Configure Now Assist in Virtual Agent.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/configure-now-assist-va.md)

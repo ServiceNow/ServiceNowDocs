@@ -7,7 +7,7 @@ release: yokohama
 topic_type: concept
 last_updated: "2025-02-07"
 reading_time_minutes: 3
-breadcrumb: [Using Now Assist Analytics, Analyzing Now Assist performance, Now Assist, Enable AI experiences]
+breadcrumb: [Using AI Analytics, Analyzing Now Assist performance, Now Assist, Enable AI experiences]
 ---
 
 # User search analyzer
@@ -18,7 +18,7 @@ The User search analyzer dashboard page contains indicators that help admins und
 
 \[Omitted image "naa-usa-full-page.png"\] Alt text: User search analyzer dashboard page.
 
-The indicators on the User search analyzer dashboard page provide the following insights. See [Now Assist Analytics dashboard indicator details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-analytics-dashboard-indicators.md) for information on the data and calculations behind each indicator.
+The indicators on the User search analyzer dashboard page provide the following insights. See [AI Analytics dashboard indicator details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-analytics-dashboard-indicators.md) for information on the data and calculations behind each indicator.
 
 -   Search queries that yielded Knowledge Base articles and catalog items as genius results.
 -   Distribution of search queries by the source that they originated from, for example, Now Assist in Virtual Agent, Service Portal.
@@ -89,5 +89,5 @@ The indicators on the User search analyzer dashboard page provide the following 
     \[Omitted image "naa-usa-top-five-queries-with-catalog%20items.png"\] Alt text: Top 5 queries resulting in catalog items as genius results indicator.
 
 
-**Parent Topic:**[Using Now Assist Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/using-now-assist-analytics.md)
+**Parent Topic:**[Using AI Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/using-now-assist-analytics.md)
 

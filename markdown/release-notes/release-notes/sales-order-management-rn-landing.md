@@ -25,10 +25,10 @@ Also, agents can use the Case Management for Order Operations application to dis
 
 -   **[Lead Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/lead-management-rn.md)**  
 The ServiceNow® Lead Management application enables your sales development representatives to create and manage leads. Lead Management was enhanced and updated in the Yokohama release.
--   **[Now Assist for Order Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/now-assist-for-order-management-rn.md)**  
-The ServiceNow® Now Assist for Order Management application brings platform AI capabilities to Sales Customer Relationship Management. Now Assist for Order Management is a new application in the Yokohama release.
--   **[Now Assist for Sales Force Automation \(SFA\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/now-assist-for-sales-and-order-management-rn.md)**  
-The ServiceNow® Now Assist for SFA application brings platform AI capabilities to Sales Customer Relationship Management. Now Assist for SFA is a new application in the Yokohama release.
+-   **[ServiceNow Otto for Order Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/now-assist-for-order-management-rn.md)**  
+The ServiceNow® ServiceNow Otto for Order Management application brings platform AI capabilities to Sales Customer Relationship Management. ServiceNow Otto for Order Management is a new application in the Yokohama release.
+-   **[ServiceNow Otto for Sales Automation release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/now-assist-for-sales-and-order-management-rn.md)**  
+The ServiceNow® ServiceNow Otto for Sales Automation application brings platform AI capabilities to Sales Customer Relationship Management. ServiceNow Otto for Sales Automation is a new application in the Yokohama release.
 -   **[Opportunity Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/opportunity-management-rn.md)**  
 The ServiceNow® Opportunity Management application enables your sales agents and account executives to create and manage opportunities that identify and track the potential sales for your customers. Opportunity Management was enhanced and updated in the Yokohama release.
 -   **[Order Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/order-manangement-rn.md)**  

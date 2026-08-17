@@ -1,6 +1,6 @@
 ---
-title: Using Now Assist for Sourcing and Procurement Operations \(SPO\)
-description: For your requesters' purchasing needs, the Now Assist for SPO Virtual Agent searches against the existing products in the product catalog and displays the available products.
+title: Using ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)
+description: For your requesters' purchasing needs, the ServiceNow Otto for SPO Virtual Agent searches against the existing products in the product catalog and displays the available products.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-using.html
 release: yokohama
@@ -9,12 +9,12 @@ classification: sourcing-and-procurement-operations
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 4
-breadcrumb: [Now Assist for Sourcing and Procurement Operations \(SPO\), Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [ServiceNow Otto for Sourcing and Procurement Operations \(SPO\), Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
-# Using Now Assist for Sourcing and Procurement Operations \(SPO\)
+# Using ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)
 
-For your requesters' purchasing needs, the Now Assist for SPO Virtual Agent searches against the existing products in the product catalog and displays the available products.
+For your requesters' purchasing needs, the ServiceNow Otto for SPO Virtual Agent searches against the existing products in the product catalog and displays the available products.
 
 If a product is found with or without a price in the catalog, the requester can then fill out the intake questions through a simple conversation, and then submit the purchase request after reviewing the summary of responses. They can also edit a response before submitting.
 
@@ -36,22 +36,22 @@ Now Assist in Virtual Agent provides your users with an interactive generative A
 
 As an administrator, you can use the Now Assist in Virtual Agent Analytics dashboard to monitor the performance of Now Assist in Virtual Agent as a self-service deflection tool. To learn more, see . Now Assist in Virtual Agent Analytics calculates the conversation deflection rate based on the resolution status associated with Now Assist query responses. For more information, see .
 
-For detailed information on Now Assist in Virtual Agent in general, and Now Assist for SPO in particular, see [Explore Now Assist for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-exploring.md).
+For detailed information on Now Assist in Virtual Agent in general, and ServiceNow Otto for SPO in particular, see [Explore ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-exploring.md).
 
-For information on configuring Now Assist for SPO, see [Configure Now Assist for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/configure-now-assist-for-spo.md).
+For information on configuring ServiceNow Otto for SPO, see [Configure ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/configure-now-assist-for-spo.md).
 
--   **[Summarize a record by using Now Assist for Sourcing and Procurement Operations \(SPO\) in Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-summarize-record.md)**  
-As a fulfiller, summarize procurement-related records to know about their status, progress, and action items by using the record summarization skills in the Now Assist for Sourcing and Procurement Operations \(SPO\) application.
--   **[Summarize a record by using Now Assist for Sourcing and Procurement Operations \(SPO\) in Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-summarize-shopping.md)**  
-As a shopper, summarize sourcing request, purchase requisition, and purchase order records to know about their status, progress, and action items by using the record summarization skills in the Now Assist for Sourcing and Procurement Operations \(SPO\) application.
--   **[Request the generative AI capabilites in Now Assist for Sourcing and Procurement Operations \(SPO\) by using Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/request-gen-ai-capabilities-spo-now-assist-panel.md)**  
-Request the contextual generative AI capabilities to summarize procurement-related records in the Now Assist for Sourcing and Procurement Operations \(SPO\) application by using the conversational interface in the Now Assist panel.
--   **[Use the Now Assist for Sourcing and Procurement Operations \(SPO\) skills in a Virtual Agent chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-va-using.md)**  
-Request the contextual generative AI capabilities by using the conversational interface in the Now Assist for Sourcing and Procurement Operations \(SPO\) in a Virtual Agent chat.
+-   **[Summarize a record by using ServiceNow Otto for Sourcing and Procurement Operations \(SPO\) in Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-summarize-record.md)**  
+As a fulfiller, summarize procurement-related records to know about their status, progress, and action items by using the record summarization skills in the ServiceNow Otto for Sourcing and Procurement Operations \(SPO\) application.
+-   **[Summarize a record by using ServiceNow Otto for Sourcing and Procurement Operations \(SPO\) in Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-summarize-shopping.md)**  
+As a shopper, summarize sourcing request, purchase requisition, and purchase order records to know about their status, progress, and action items by using the record summarization skills in the ServiceNow Otto for Sourcing and Procurement Operations \(SPO\) application.
+-   **[Request the generative AI capabilites in ServiceNow Otto for Sourcing and Procurement Operations \(SPO\) by using Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/request-gen-ai-capabilities-spo-now-assist-panel.md)**  
+Request the contextual generative AI capabilities to summarize procurement-related records in the ServiceNow Otto for Sourcing and Procurement Operations \(SPO\) application by using the conversational interface in the Now Assist panel.
+-   **[Use the ServiceNow Otto for Sourcing and Procurement Operations \(SPO\) skills in a Virtual Agent chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-va-using.md)**  
+Request the contextual generative AI capabilities by using the conversational interface in the ServiceNow Otto for Sourcing and Procurement Operations \(SPO\) in a Virtual Agent chat.
 -   **[Generate email responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/email-response-na-spo.md)**  
 Enables procurement specialists and buyers to generate professional, accurate email responses using Now Assist. By minimizing manual drafting and review, it helps procurement specialists and buyers respond to requester inquiries more efficiently and focus on higher-value procurement tasks.
 -   **[Analyze sentiment in procurement cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/analyze-sentiments-na-spo.md)**  
 Analyze requester sentiments on active procurement cases to help procurement specialists quickly identify, prioritize, and track sensitive requests.
 
-**Parent Topic:**[Now Assist for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo.md)
+**Parent Topic:**[ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo.md)
 

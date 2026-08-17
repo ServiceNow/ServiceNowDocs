@@ -1,18 +1,18 @@
 ---
-title: Enable Now Assist Guardian in AI agents
-description: Identify and block offensive messages that are sent by human agents automatically by enabling Now Assist Guardian in AI agents. With this capability, you can help reduce your agentic workflow or test from being exposed to harmful content.
+title: Enable AI Guardian in AI agents
+description: Identify and block offensive messages that are sent by human agents automatically by enabling AI Guardian in AI agents. With this capability, you can help reduce your agentic workflow or test from being exposed to harmful content.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/enable-aia-na-guardian.html
 release: yokohama
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 2
 breadcrumb: [Configuring Now Assist AI agents, Now Assist AI agents, Enable AI experiences]
 ---
 
-# Enable Now Assist Guardian in AI agents
+# Enable AI Guardian in AI agents
 
-Identify and block offensive messages that are sent by human agents automatically by enabling Now Assist Guardian in AI agents. With this capability, you can help reduce your agentic workflow or test from being exposed to harmful content.
+Identify and block offensive messages that are sent by human agents automatically by enabling AI Guardian in AI agents. With this capability, you can help reduce your agentic workflow or test from being exposed to harmful content.
 
 ## Before you begin
 
@@ -20,9 +20,9 @@ Role required: admin
 
 ## About this task
 
-The Now Assist Guardian, which is a ServiceNow AI Platform capability in the Now Assist panel, is a set of guardrails that are designed to intercept and mitigate offensive, sensitive, or security-related issues that may arise during interactions with the Now Assist application.
+The AI Guardian, which is a ServiceNow AI Platform capability in the Now Assist panel, is a set of guardrails that are designed to intercept and mitigate offensive, sensitive, or security-related issues that may arise during interactions with the Now Assist application.
 
-For example, let's say that Now Assist Guardian detects an offensive message in the execution plan of an agentic workflow. When you try to trigger the plan or test it, Now Assist Guardian can step in to terminate the plan or test because it detected harmful content at the first step of the execution plan.
+For example, let's say that AI Guardian detects an offensive message in the execution plan of an agentic workflow. When you try to trigger the plan or test it, AI Guardian can step in to terminate the plan or test because it detected harmful content at the first step of the execution plan.
 
 \[Omitted image "aia-offnsv-msg-dtctn-exction-trmntn.png"\] Alt text: Offensive message is detected during the execution plan and the execution of the agentic workflow is terminated.
 
@@ -61,7 +61,7 @@ For more information about the different guardrails, see [Now Assist Guardian](h
 
     1.  In the AI Agent Studio, navigate to **Settings** &gt; **Prompt Injection** and select **Configure**.
 
-        You’re directed to the Now Assist Admin page to configure the Prompt Injection.
+        You’re directed to the AI Admin Hub page to configure the Prompt Injection.
 
         \[Omitted image "aia-prompt-injection-new.png"\] Alt text: Prompt Injection page in AI Agent Studio.
 

@@ -9,7 +9,7 @@ classification: event-management
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 14
-breadcrumb: [Event Management reference, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Event Management reference, Event Management, ITOM Health, IT Operations Management]
 ---
 
 # Components installed with Event Management
@@ -636,7 +636,7 @@ Event Management License Usage\[em\_unique\_nodes\]
 
 </td><td>
 
-When events are received by ITOM AIOps, an entry is added or updated in this table based on the monitored target specified in the received message. The entry links to its corresponding CMDB CI. If none is found, the entry is assigned **Type = Unknown**.
+When events are received by ITOM Health, an entry is added or updated in this table based on the monitored target specified in the received message. The entry links to its corresponding CMDB CI. If none is found, the entry is assigned **Type = Unknown**.
 
 </td></tr><tr><td>
 

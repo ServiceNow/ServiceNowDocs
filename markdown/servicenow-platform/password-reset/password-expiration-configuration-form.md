@@ -18,7 +18,7 @@ The Password Expiration Configuration form allows you to define how frequently u
 
 ## Access the Password Expiration Configuration form
 
-To access the **Password Expiration Configuration** form, navigate to **All** &gt; **System Properties** &gt; **Password Expiration**.
+To access the **Password Expiration Configuration** form, navigate to **All** &gt; **Password Reset** &gt; **Processes**.
 
 <table id="table_gr2_vhw_rsb"><thead><tr><th>
 

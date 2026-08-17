@@ -1,6 +1,6 @@
 ---
-title: Configure Now Assist for Integrated Risk Management \(IRM\)
-description: If you have the admin role, you can configure Now Assist for IRM so that your agents can use the generative AI skills in the IRM workspace.
+title: Configure ServiceNow Otto for Integrated Risk Management \(IRM\)
+description: If you have the admin role, you can configure ServiceNow Otto for IRM so that your agents can use the generative AI skills in the IRM workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/grc-common-functions/configure-now-assist-for-irm.html
 release: yokohama
@@ -13,23 +13,23 @@ keywords: [configure]
 breadcrumb: [Now Assist, Common GRC features, Governance, Risk, and Compliance]
 ---
 
-# Configure Now Assist for Integrated Risk Management \(IRM\)
+# Configure ServiceNow Otto for Integrated Risk Management \(IRM\)
 
-If you have the admin role, you can configure Now Assist for IRM so that your agents can use the generative AI skills in the IRM workspace.
+If you have the admin role, you can configure ServiceNow Otto for IRM so that your agents can use the generative AI skills in the IRM workspace.
 
-## Now Assist for IRM Configuration overview
+## ServiceNow Otto for IRM Configuration overview
 
-**Important:** After installing Now Assist for IRM, all Now Assist for IRM skills and agentic workflows are activated by default.
+**Important:** After installing ServiceNow Otto for IRM, all ServiceNow Otto for IRM skills and agentic workflows are activated by default.
 
-Use the Now Assist Admin console to configure Now Assist for IRM. This console contains everything that you need to install plugins and configure the generative AI skills. For additional information, see [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configuring-now-assist.md).
+Use the AI Admin Hub console to configure ServiceNow Otto for IRM. This console contains everything that you need to install plugins and configure the generative AI skills. For additional information, see [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configuring-now-assist.md).
 
 For earlier versions, go to [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/application-manager.md) to upgrade it to a later version.
 
 For information about configuring generative AI skills and prompts, see [General guidelines for writing instructions for generative AI large language models \(LLMs\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/capabilities-bundle-landingpage.md).
 
-## Now Assist for IRM plugins
+## ServiceNow Otto for IRM plugins
 
-Activate the Now Assist for IRM store app \(sn\_irm\_gen\_ai\) to use the skills and agentic workflows.
+Activate the ServiceNow Otto for IRM store app \(sn\_irm\_gen\_ai\) to use the skills and agentic workflows.
 
 This store app has the following dependencies:
 

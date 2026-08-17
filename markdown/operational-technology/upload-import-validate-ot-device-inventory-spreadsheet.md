@@ -7,7 +7,7 @@ release: yokohama
 topic_type: task
 last_updated: "2025-11-07"
 reading_time_minutes: 3
-breadcrumb: [Import your device spreadsheet into OT CMDB, Use agentic AI in the OTM application, Now Assist for Operational Technology Manager \(OTM\), Operational Technology]
+breadcrumb: [Import your device spreadsheet into OT CMDB, Use agentic AI in the OTM application, Operational Technology \(OT\) Manager Foundation, Operational Technology]
 ---
 
 # Upload, validate, and import the OT device inventory spreadsheet

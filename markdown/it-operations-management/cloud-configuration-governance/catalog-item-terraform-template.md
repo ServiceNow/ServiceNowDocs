@@ -7,9 +7,9 @@ release: yokohama
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Using Cloud Services Catalog Terraform Connector, Cloud Services Catalog Terraform Connector, Support for continuous delivery \(configuration management\), Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Optimization, IT Operations Management]
+breadcrumb: [Using Cloud Provisioning and Governance: Terraform Connector, Cloud Provisioning and Governance: Terraform Connector, Support for continuous delivery \(configuration management\), Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Optimization, IT Operations Management]
 ---
 
 # Create a catalog item from the Terraform template
@@ -18,6 +18,7 @@ Create a catalog item from the Terraform template to request cloud resource prov
 
 ## Before you begin
 
+-   Ensure that the Terraform template contains only one provider. Templates with multiple providers or provider aliases will fail validation.
 -   Ensure that an appropriate Terraform config provider is available. For more information on creating the config provider, see [Create a Terraform Open Source config provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/setup-cpg-terraform-connector-for-terraform-open-source.md) and [Create a Terraform Enterprise or Terraform Cloud config provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/setup-cpg-terraform-connector-for-terraform-enterprise.md).
 -   Ensure that the Terraform template is working \(that is, you can directly use the template with the Terraform system to provision the specified cloud resources\). For more information on Terraform templates, see the [Terraform language documentation](https://www.terraform.io/language).
 -   Ensure that the provider block of the Terraform template adheres to the following syntax:
@@ -104,14 +105,14 @@ Create a catalog item from the Terraform template to request cloud resource prov
 
         -   **organization** is the name of the Microsoft Azure DevOps organization.
         -   **project** is the name of the Microsoft Azure DevOps project.
-    For more information on the API credentials, see [Cloud Services Catalog Terraform Connector API Key Credentials form reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/cpg-terraform-connector-api-key-credentials-form-reference.md).
+    For more information on the API credentials, see [Cloud Provisioning and Governance: Terraform Connector API Key Credentials form reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/cpg-terraform-connector-api-key-credentials-form-reference.md).
 
 
 Role required: sn\_cmp.cloud\_service\_designer
 
 ## About this task
 
-The Cloud Services Catalog Terraform Connector app supports the following Terraform data types:
+The Cloud Provisioning and Governance: Terraform Connector app supports the following Terraform data types:
 
 -   string
 -   number
@@ -204,5 +205,5 @@ Name of the Terraform config provider that you want to use.
 
 Verify that the catalog item appears in the Cloud User Portal.
 
-**Parent Topic:**[Using Cloud Services Catalog Terraform Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/using-ccg-terraform-connector.md)
+**Parent Topic:**[Using Cloud Provisioning and Governance: Terraform Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/using-ccg-terraform-connector.md)
 

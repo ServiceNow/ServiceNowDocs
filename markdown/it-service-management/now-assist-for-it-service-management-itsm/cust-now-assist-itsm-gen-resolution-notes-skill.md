@@ -1,6 +1,6 @@
 ---
-title: Customize a Now Assist for IT Service Management \(ITSM\) resolution notes generation skill
-description: If you have the admin role, you can customize a Now Assist for IT Service Management \(ITSM\) skill so that agents can use the generative AI skills in Service Operations Workspace for ITSM and in Core UI.
+title: Customize a ServiceNow Otto for IT Service Management \(ITSM\) resolution notes generation skill
+description: If you have the admin role, you can customize a ServiceNow Otto for IT Service Management \(ITSM\) skill so that agents can use the generative AI skills in Service Operations Workspace for ITSM and in Core UI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/now-assist-for-it-service-management-itsm/cust-now-assist-itsm-gen-resolution-notes-skill.html
 release: yokohama
@@ -10,12 +10,12 @@ topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 5
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
-breadcrumb: [Configure, Now Assist for IT Service Management \(ITSM\), IT Service Management]
+breadcrumb: [Configure, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 
-# Customize a Now Assist for IT Service Management \(ITSM\) resolution notes generation skill
+# Customize a ServiceNow Otto for IT Service Management \(ITSM\) resolution notes generation skill
 
-If you have the admin role, you can customize a Now Assist for IT Service Management \(ITSM\) skill so that agents can use the generative AI skills in Service Operations Workspace for ITSM and in Core UI.
+If you have the admin role, you can customize a ServiceNow Otto for IT Service Management \(ITSM\) skill so that agents can use the generative AI skills in Service Operations Workspace for ITSM and in Core UI.
 
 ## Before you begin
 
@@ -23,7 +23,7 @@ Role required: sn\_nowassist\_admin.nsa\_admin
 
 ## About this task
 
-From the Now Assist Admin console, you can select the input tables, related lists, and fields for each input template of the resolution notes generation skill.
+From the AI Admin Hub console, you can select the input tables, related lists, and fields for each input template of the resolution notes generation skill.
 
 ## Procedure
 
@@ -47,7 +47,7 @@ From the Now Assist Admin console, you can select the input tables, related list
 
 5.  In the **Define trigger** screen, enable the **User triggered** button if user input is required before resolution notes are generated.
 
-    For information about the inputs and triggers for this skill, see [Skill inputs and triggers for Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-skills.md).
+    For information about the inputs and triggers for this skill, see [Skill inputs and triggers for ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-skills.md).
 
 6.  Select **Save and continue**.
 

@@ -81,7 +81,7 @@ To keep the XML attributes and enclosing text in their original format when expo
 
 [Uploading your config data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/devops-family/cdm-upload-process.md)
 
-[Add the nodes that will contain config data to a new CDM application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/devops-family/cdm-data-structure-add-for-upload.md)
+[Add nodes with config data to CDM application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/devops-family/cdm-data-structure-add-for-upload.md)
 
 [Parsing of CSV files in CDM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/devops-family/cdm-parsing-csv-file.md)
 

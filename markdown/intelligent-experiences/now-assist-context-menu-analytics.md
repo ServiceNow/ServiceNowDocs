@@ -7,7 +7,7 @@ release: yokohama
 topic_type: concept
 last_updated: "2025-02-07"
 reading_time_minutes: 2
-breadcrumb: [Using Now Assist Analytics, Analyzing Now Assist performance, Now Assist, Enable AI experiences]
+breadcrumb: [Using AI Analytics, Analyzing Now Assist performance, Now Assist, Enable AI experiences]
 ---
 
 # Now Assist context menu analytics
@@ -18,7 +18,7 @@ The Now Assist context menu dashboard helps admins to evaluate the effectivene
 
 \[Omitted image "naa-nacm.png"\] Alt text: Now Assist context menu dashboard page.
 
-The indicators on the Now Assist context menu dashboard page provide the following insights. See [Now Assist Analytics dashboard indicator details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-analytics-dashboard-indicators.md) for information on the data and calculations behind each indicator.
+The indicators on the Now Assist context menu dashboard page provide the following insights. See [AI Analytics dashboard indicator details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-analytics-dashboard-indicators.md) for information on the data and calculations behind each indicator.
 
 -   Count and distribution of context menu actions in a date range. This indicator reveals the scale of usage, and the most and least used actions.
 -   Acceptance and feedback on context menu actions. This indicator reveals actions that were accepted or rejected by the users with a positive or negative feedback.
@@ -61,5 +61,5 @@ The indicators on the Now Assist context menu dashboard page provide the followi
     \[Omitted image "naa-nacm-responses-by-feedback.png"\] Alt text: Responses by feedback indicator.
 
 
-**Parent Topic:**[Using Now Assist Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/using-now-assist-analytics.md)
+**Parent Topic:**[Using AI Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/using-now-assist-analytics.md)
 

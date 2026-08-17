@@ -1,6 +1,6 @@
 ---
-title: Now Assist for Customer Service Management \(CSM\) release notes
-description: The ServiceNow Now Assist for CSM application brings generative AI to Customer Service Management \(CSM\). You can improve productivity and efficiency by delivering better self-service, recommending actions, and delivering answers. Now Assist for CSM was enhanced and updated in the Yokohama release.
+title: ServiceNow Otto for Customer Service Management \(CSM\) release notes
+description: The ServiceNow ServiceNow Otto for CSM application brings generative AI to Customer Service Management \(CSM\). You can improve productivity and efficiency by delivering better self-service, recommending actions, and delivering answers. ServiceNow Otto for CSM was enhanced and updated in the Yokohama release.
 locale: en-US
 release: yokohama
 topic_type: reference
@@ -8,11 +8,11 @@ last_updated: "2025-01-30"
 reading_time_minutes: 10
 ---
 
-# Now Assist for Customer Service Management \(CSM\) release notes
+# ServiceNow Otto for Customer Service Management \(CSM\) release notes
 
-The ServiceNow® Now Assist for CSM application brings generative AI to Customer Service Management \(CSM\). You can improve productivity and efficiency by delivering better self-service, recommending actions, and delivering answers. Now Assist for CSM was enhanced and updated in the Yokohama release.
+The ServiceNow® ServiceNow Otto for CSM application brings generative AI to Customer Service Management \(CSM\). You can improve productivity and efficiency by delivering better self-service, recommending actions, and delivering answers. ServiceNow Otto for CSM was enhanced and updated in the Yokohama release.
 
-## Now Assist for CSM highlights for the Yokohama release
+## ServiceNow Otto for CSM highlights for the Yokohama release
 
 [Yokohama Patch 11](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-11.md)
 
@@ -27,7 +27,7 @@ The ServiceNow® Now Assist for CSM application brings generative AI to Customer
 
 [Yokohama Patch 6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-6.md)
 
--   Enable security in Now Assist for CSM and AI agents and agentic workflows by enforcing access control lists \(ACLs\) and user identity-based permissions.
+-   Enable security in ServiceNow Otto for CSM and AI agents and agentic workflows by enforcing access control lists \(ACLs\) and user identity-based permissions.
 
 [Yokohama Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-3.md)
 
@@ -46,15 +46,15 @@ Yokohama Early Availability
 -   Help requesters find solutions by using Genius Results to reduce the number of cases created and decrease the effort needed by agents to close them.
 -   Use the Now Assist panel global skill search to ask questions and fetch answers from knowledge articles.
 
-See [Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/now-assist-csm.md) for more information.
+See [ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/now-assist-csm.md) for more information.
 
-**Important:** Now Assist for CSM is available in ServiceNow Store. For details, see the "Activation information" section of these release notes.
+**Important:** ServiceNow Otto for CSM is available in ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Yokohama release
 
 -   **[Enabled the is\_template property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/clone-the-now-assist-for-csm-skills.md)**
 
-    Enabled the is\_template property for all Now Assist skills to ensure consistent cloning. Added the ability to clone any base system GenAI skill and customize it in the Now Assist Skill Kit \(NASK\) to reduce setup time and simplify skill modification. Applies to all Now Assist for CSM skills.
+    Enabled the is\_template property for all Now Assist skills to ensure consistent cloning. Added the ability to clone any base system GenAI skill and customize it in the Now Assist Skill Kit \(NASK\) to reduce setup time and simplify skill modification. Applies to all ServiceNow Otto for CSM skills.
 
 -   **Access Sentiment analysis dashboard in Core UI**
 
@@ -85,9 +85,9 @@ See [Now Assist for Customer Service Management \(CSM\)](https://raw.githubuserc
 
     Implement security on AI agents and agentic workflows through ACLs and user identities.
 
--   **[Now Assist for CSM Gen AI security directives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/configure-chat-summarization-in-now-assist_0.md)**
+-   **[ServiceNow Otto for CSM Gen AI security directives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/configure-chat-summarization-in-now-assist_0.md)**
 
-    Implement security in Now Assist for CSM skills through ACLs and user identities.
+    Implement security in ServiceNow Otto for CSM skills through ACLs and user identities.
 
 
 [Yokohama Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-3.md)
@@ -155,9 +155,9 @@ Yokohama Early Availability
 
 -   **[Unified admin experience for Now Assist skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/clone-the-now-assist-for-csm-skills.md)**
 
-    Skills cloned in Now Assist Admin console can now be edited in Now Assist Skill Kit. This update unifies the admin experience across Now Assist Admin and Now Assist Skill Kit, enabling users to add headers, configure prompts, and manage Now Assist skills in one location. The migration supports case summarization and resolution notes generation.
+    Skills cloned in AI Admin Hub console can now be edited in Now Assist Skill Kit. This update unifies the admin experience across AI Admin Hub and Now Assist Skill Kit, enabling users to add headers, configure prompts, and manage Now Assist skills in one location. The migration supports case summarization and resolution notes generation.
 
--   **[Role configuration required for agentic workflows and AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/aia-role-masking.md)**
+-   **Role configuration required for agentic workflows and AI agents**
 
     Agentic workflows and AI agents included with Now Assist applications require additional security configuration. If you select **Users with selected roles** for your user access security controls for an agentic workflow or AI agent, you must add the installed roles, or they will not execute. Data access settings must also include these roles. See the documentation for the agentic workflow or AI agent for the specific roles you must add.
 
@@ -190,10 +190,10 @@ Yokohama Early Availability
 
 -   **[Chat reply recommendation enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/generate-chat-reply-recommendations.md)**
 
-    Added the chat reply recommendation enhancements to respond in a conversational tone and get feature parity in the Now Assist Admin console:
+    Added the chat reply recommendation enhancements to respond in a conversational tone and get feature parity in the AI Admin Hub console:
 
     -   Refined the AI-generated reply recommendation to create the best answer for your users by applying tone changes in the Now Assist context menu. Additional tone options, including casual, formal, and sympathetic, are available.
-    -   Added parity with the chat summarization Now Assist Admin console capabilities. The Now Assist Admin console can specify the portal and channels for chat reply recommendations and assign additional support roles.
+    -   Added parity with the chat summarization AI Admin Hub console capabilities. The AI Admin Hub console can specify the portal and channels for chat reply recommendations and assign additional support roles.
 -   **[Case summarization enhancement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/summarize-a-call-by-using-now-assist-for-customer-service-management-csm.md)**
 
     Detailed feedback option is now available for negative feedback \[Omitted image "thumbs-down-outline-24.svg"\] Alt text: thumbs down icon in the generated case summary.
@@ -203,15 +203,15 @@ Yokohama Early Availability
 
 ## Activation information
 
-Now Assist features are available with activation of the Now Assist for CSM plugin. For more information, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+Now Assist features are available with activation of the ServiceNow Otto for CSM plugin. For more information, see .
 
-Starting with Vancouver Patch 4, Now Assist for CSM is supported.
+Starting with Vancouver Patch 4, ServiceNow Otto for CSM is supported.
 
 Starting with Xanadu Patch 7, Customer Service Management AI agent collection is supported.
 
 ## Additional requirements
 
-The Now Assist for CSM application requires a Customer Service Management Pro Plus or Enterprise Plus license.
+The ServiceNow Otto for CSM application requires a Customer Service Management Pro Plus or Enterprise Plus license.
 
 ## Related ServiceNow applications and features
 
@@ -219,15 +219,15 @@ The Now Assist for CSM application requires a Customer Service Management Pro Pl
 
     Help improve the productivity and efficiency in your organization, deliver better self-service, recommend actions, provide answers, and empower your users to search more effectively.
 
--   **[Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configuring-now-assist.md)**
+-   ****
 
-    Use the Now Assist Admin console to provide you with quick and easy access to the important information that you need to set up, configure, and monitor Now Assist applications and features.
+    Use the AI Admin Hub console to provide you with quick and easy access to the important information that you need to set up, configure, and monitor Now Assist applications and features.
 
--   **[Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-panel-overview.md)**
+-   ****
 
     Use this conversational interface in CSM Configurable Workspace to summarize a chat, a case, or resolution notes so that you can get the context of this information more quickly.
 
--   **[Now Assist skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills.md)**
+-   ****
 
     Use the Now Assist products to provide generative AI skills to meet the needs of users in different workflows, including case or incident summarization, chat summarization, resolution notes generation, and code generation.
 

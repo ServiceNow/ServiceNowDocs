@@ -1,6 +1,6 @@
 ---
-title: Summarize an incident by using Now Assist for IT Service Management \(ITSM\)
-description: Quickly understand the incident context and respond to a requester’s inquiries by using the incident summarization skill in the Now Assist for IT Service Management \(ITSM\) application.
+title: Summarize an incident by using ServiceNow Otto for IT Service Management \(ITSM\)
+description: Quickly understand the incident context and respond to a requester’s inquiries by using the incident summarization skill in the ServiceNow Otto for IT Service Management \(ITSM\) application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/now-assist-for-it-service-management-itsm/summarize-incident-now-assist.html
 release: yokohama
@@ -10,12 +10,12 @@ topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 2
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
-breadcrumb: [Use generative AI skills, Now Assist for IT Service Management \(ITSM\), IT Service Management]
+breadcrumb: [Use generative AI skills, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 
-# Summarize an incident by using Now Assist for IT Service Management \(ITSM\)
+# Summarize an incident by using ServiceNow Otto for IT Service Management \(ITSM\)
 
-Quickly understand the incident context and respond to a requester’s inquiries by using the incident summarization skill in the Now Assist for IT Service Management \(ITSM\) application.
+Quickly understand the incident context and respond to a requester’s inquiries by using the incident summarization skill in the ServiceNow Otto for IT Service Management \(ITSM\) application.
 
 ## Before you begin
 
@@ -59,15 +59,15 @@ You can summarize an incident in Core UI and Service Operations Workspace for IT
 
 3.  When you're finished summarizing an incident, you can add it to the work notes, expand or collapse it, provide feedback, copy it, or view information about it.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d125811e221">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d125888e221">
 
 Option
 
-</th><th align="left" id="d125811e224">
+</th><th align="left" id="d125888e224">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d125811e230">
+</th></tr></thead><tbody><tr><td id="d125888e230">
 
 **Save the summary information by adding it to the incident work notes**
 
@@ -78,7 +78,7 @@ Procedure
 3.  Select **Save to Work notes**.
 
 
-</td></tr><tr><td id="d125811e257">
+</td></tr><tr><td id="d125888e257">
 
 **Expand or collapse the summary**
 
@@ -86,7 +86,7 @@ Procedure
 
 Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: expand card icon.\) to view the complete summary or the collapse card icon \(\[Omitted image "icon-collapse.png"\] Alt text: collapse card icon.\) to view a collapsed summary.
 
-</td></tr><tr><td id="d125811e278">
+</td></tr><tr><td id="d125888e278">
 
 **Provide feedback for the summary**
 
@@ -94,7 +94,7 @@ Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: expa
 
 If you think that the summary was helpful, select the helpful icon \(\[Omitted image "icon-helpful.png"\] Alt text: Helpful icon.\). If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).**Note:** This feedback improves the generative AI model and can help to improve future versions of this skill.
 
-</td></tr><tr><td id="d125811e301">
+</td></tr><tr><td id="d125888e301">
 
 **Copy the incident summary**
 
@@ -102,7 +102,7 @@ If you think that the summary was helpful, select the helpful icon \(\[Omitted i
 
 If you want to reuse the summary, select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text: Copy to clipboard icon.\).
 
-</td></tr><tr><td id="d125811e317">
+</td></tr><tr><td id="d125888e317">
 
 **View the information about the incident summary**
 

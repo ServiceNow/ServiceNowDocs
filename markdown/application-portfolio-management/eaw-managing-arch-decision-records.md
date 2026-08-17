@@ -41,9 +41,9 @@ Some features of ADR are:
     \[Omitted image "adr-version-dropdown.png"\] Alt text: ADR artifact content page with the version drop-down highlighted
 
 
-## Summarize ADR content using Now Assist for Enterprise Architecture \(EA\)
+## Summarize ADR content using ServiceNow Otto for Enterprise Architecture \(EA\)
 
-Use Now Assist capabilities to elaborate, shorten, and summarize selected content in ADRs, or to get a summary of the whole ADR. For more information, see [Using Now Assist for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/using-now-assist-for-ea.md)
+Use Now Assist capabilities to elaborate, shorten, and summarize selected content in ADRs, or to get a summary of the whole ADR. For more information, see [Using ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/using-now-assist-for-ea.md)
 
 -   **[Add or edit an architectural decision record \(ADR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-create-edit-adr.md)**  
 Create or update an artifact of the type architectural decision record \(ADR\) to align it with your business requirements.

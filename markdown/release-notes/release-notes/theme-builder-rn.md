@@ -19,28 +19,28 @@ The ServiceNow® Theme Builder application enables you to tailor the visual expe
 -   As of Theme Builder version 5.1, customize the colors of empty state illustrations from within Theme Builder.
 -   As of Theme Builder version 5.1, use your own custom images by overriding the default empty state illustrations.
 
-See [Working with themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/next-experience-theming.md) for more information.
+See  for more information.
 
 **Important:** Theme Builder is available by default starting in the Yokohama release and upgrades are available in ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Yokohama release
 
--   **[Align with your brand by using the Unified Navigation component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/edit-unified-navigation-component.md)**
+-   ****
 
     Customize the Unified Navigation component from within Theme Builder by using the following new features:
 
     -   Quickly view how the Unified Navigation component will look in your theme by using the Preview pane.
     -   Use the Component Configuration menu to view any shared styling between subcomponents.
     -   View the background color of your subcomponent and see how it renders in relation to the Unified Navigation component by using the updated canvas color feature.
--   **[Use the double-click feature to quickly access the Component Editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/tb-edit-components.md)**
+-   **Use the double-click feature to quickly access the Component Editor**
 
     Double-click a component tile to access the Component Editor where you can continue to make style adjustments to subcomponents, variants, or interactions.
 
--   **[Adjust the Unified Navigation component to meet accessibility standards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/tb-adjust-component-wcag.md)**
+-   **Adjust the Unified Navigation component to meet accessibility standards**
 
     As of Theme Builder version 5.1, the Accessibility Inspector now displays the total number of accessibility errors with contrast issues for the Unified Navigation component and subcomponents. See the Accessibility section for details.
 
--   **[Adapt the theme-able illustrations to seamlessly integrate with your brand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/working-with-image-styles.md)**
+-   **Adapt the theme-able illustrations to seamlessly integrate with your brand**
 
     As of Theme Builder version 5.1, use the new Image styles feature to enhance your theme in the following ways:
 
@@ -49,19 +49,19 @@ See [Working with themes in Next Experience](https://raw.githubusercontent.com/S
 
 ## UI changes
 
--   **[Navigation updated](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/tb-edit-components.md)**
+-   **Navigation updated**
 
     The **Return to component overview** link within the Component Editor is replaced with breadcrumb-style navigation for a more contextual navigation experience.
 
--   **[Component Editor button replaced](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/tb-edit-components.md)**
+-   **Component Editor button replaced**
 
     The **Go to Component Editor** button is now labeled either **Style variants**, **Style subcomponents**, or **Style interactions** depending on the selected component. The Component Editor behaves in the same way despite this UI change.
 
--   **[Component Editor Interactions States panel updated](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/tb-edit-components.md)**
+-   **Component Editor Interactions States panel updated**
 
     The Interaction States panel within the Component Editor now refers to either **Interactions** or **Subcomponents**.
 
--   **[New Image styles tab added to Editor page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/working-with-image-styles.md)**
+-   **New Image styles tab added to Editor page**
 
     As of Theme Builder version 5.1, the Editor page has the following additional options:
 
@@ -74,18 +74,18 @@ Starting with the Yokohama release, Theme Builder is included as a core plugin w
 
 ## Accessibility information
 
--   **[Adjust the Unified Navigation component to meet accessibility standards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/tb-adjust-component-wcag.md)**
+-   **Adjust the Unified Navigation component to meet accessibility standards**
 
     The Accessibility Inspector, which detects and guides you through fixing contrast issues in your theme, now includes accessibility errors for the Unified Navigation component and subcomponents.
 
 
 ## Related ServiceNow applications and features
 
--   **[Build apps using App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/aes-overview.md)**
+-   **Build apps using App Engine Studio**
 
     Use ServiceNow® App Engine Studio for developing rich web applications to store information, automate business processes, and solve business problems.
 
--   **[UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/ui-builder-overview.md)**
+-   **UI Builder**
 
     Use ServiceNow® UI Builder to build pages for workspaces that are generated with App Engine Studio or custom web experiences by using Next Experience Components and custom web components.
 

@@ -1,6 +1,6 @@
 ---
-title: Now Assist for Workplace Service Delivery \(WSD\)
-description: Now Assist for Workplace Service Delivery \(WSD\) elevates your Workplace Services experience with generative AI capabilities.
+title: Now Assist for WSD
+description: Now Assist for WSD elevates your Workplace Services experience with generative AI capabilities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/now-assist-for-wsd/now-assist-wsd-landing.html
 release: yokohama
@@ -12,15 +12,15 @@ reading_time_minutes: 4
 breadcrumb: [Workplace Service Delivery, Employee Service Management]
 ---
 
-# Now Assist for Workplace Service Delivery \(WSD\)
+# Now Assist for WSD
 
-Now Assist for Workplace Service Delivery \(WSD\) elevates your Workplace Services experience with generative AI capabilities.
+Now Assist for WSD elevates your Workplace Services experience with generative AI capabilities.
 
 ## Get started
 
 <table id="table_xwb_rqh_ydc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-wsd/now-assist-wsd-landing.md)Learn more about [Exploring Now Assist for Workplace Service Delivery \(WSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-wsd/now-assist-wsd-overview.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-wsd/now-assist-wsd-landing.md)Learn more about [Exploring Now Assist for WSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-wsd/now-assist-wsd-overview.md)
 
 </td><td>
 
@@ -28,14 +28,16 @@ Now Assist for Workplace Service Delivery \(WSD\) elevates your Workplace Servic
 
 </td></tr><tr><td>
 
-[Using AI agent workflows in Now Assist for WSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-wsd/now-assist-wsd-using-agentic-use-cases.md)\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Use the AI agent use cases in Now Assist for Workplace Service Delivery \(WSD\)
+[Using AI agent workflows in Now Assist for WSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-wsd/now-assist-wsd-using-agentic-use-cases.md)\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Use the AI agent use cases in ServiceNow Otto for Workplace Service Delivery \(WSD\)
 
 </td><td>
 
 [Using\[Omitted image "bus-integration-and-apis.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-wsd/now-assist-wsd-using.md) Use generative AI capabilities offered by [Using Now Assist for WSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-wsd/now-assist-wsd-using.md)
 
 </td></tr></tbody>
-</table>You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/exploring-large-language-models.md).
+</table>**Note:** Starting with Zurich Patch 12, the Now Assist feature is now ServiceNow Otto for Workplace Service Delivery \(WSD\).
+
+You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/exploring-large-language-models.md).
 
 **Important:**
 

@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 6
 keywords: [Generative AI, generative AI for Customer Service Management, generative AI for customer service agents, AI agents for Customer Service Management Triage cases agentic workflow]
-breadcrumb: [Agentic AI workflows in CSM, Now Assist for Customer Service Management \(CSM\), Customer Service Management]
+breadcrumb: [Agentic AI workflows in CSM, ServiceNow Otto for Customer Service Management \(CSM\), Customer Service Management]
 ---
 
 # Customer Service Management AI agent collection triage cases agentic workflow

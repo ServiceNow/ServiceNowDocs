@@ -1,6 +1,6 @@
 ---
-title: Supporting information for Now Assist for Customer Service Management \(CSM\)
-description: Get a quick overview of the important information that is related to the Now Assist for Customer Service Management \(CSM\) application.
+title: Supporting information for ServiceNow Otto for Customer Service Management \(CSM\)
+description: Get a quick overview of the important information that is related to the ServiceNow Otto for Customer Service Management \(CSM\) application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/now-assist-for-csm/now-assist-csm-supporting-info.html
 release: yokohama
@@ -9,24 +9,24 @@ classification: now-assist-for-csm
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Explore, Now Assist for Customer Service Management \(CSM\), Customer Service Management]
+breadcrumb: [Explore, ServiceNow Otto for Customer Service Management \(CSM\), Customer Service Management]
 ---
 
-# Supporting information for Now Assist for Customer Service Management \(CSM\)
+# Supporting information for ServiceNow Otto for Customer Service Management \(CSM\)
 
-Get a quick overview of the important information that is related to the Now Assist for Customer Service Management \(CSM\) application.
+Get a quick overview of the important information that is related to the ServiceNow Otto for Customer Service Management \(CSM\) application.
 
 ## Supported versions
 
-Now Assist for CSM is supported starting with Vancouver Patch 4.
+ServiceNow Otto for CSM is supported starting with Vancouver Patch 4.
 
 ## Supported language models
 
-You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/exploring-large-language-models.md).
+You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/exploring-large-language-models.md).
 
 ## Supported user interfaces
 
-The Now Assist for CSM application includes the skills that are listed in the following table.
+The ServiceNow Otto for CSM application includes the skills that are listed in the following table.
 
 <table id="table_odd_d2y_wyb"><thead><tr><th>
 
@@ -71,7 +71,7 @@ Core UI
 </td></tr></tbody>
 </table>## Languages supported
 
-Now Assist for CSM supports the following languages across all skills:
+ServiceNow Otto for CSM supports the following languages across all skills:
 
 -   German
 -   French
@@ -84,7 +84,7 @@ Now Assist for CSM supports the following languages across all skills:
 
 For more info, see [Configure multilingual service for Now Assist applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/enable-dynamic-translation-for-now-assist-applications.md)
 
-## Role masking for Now Assist for CSM agentic workflows, AI agents, and skills
+## Role masking for ServiceNow Otto for CSM agentic workflows, AI agents, and skills
 
 Role masking is used to restrict user access to agentic workflows, standalone AI agents, and skills. This ensures that users only receive the permissions necessary for their tasks, enhancing security and reducing the risk of unauthorized access.
 
@@ -111,7 +111,7 @@ By applying both ACL permissions and role masking, the system ensures a secure a
 
 ## Application information
 
-Activate the Now Assist for CSM store app \(sn\_csm\_gen\_ai\) to use the chat and case summarization skills and to generate case resolution notes.
+Activate the ServiceNow Otto for CSM store app \(sn\_csm\_gen\_ai\) to use the chat and case summarization skills and to generate case resolution notes.
 
 This store app has the following dependencies:
 
@@ -122,9 +122,9 @@ Activate the applications in the following order:
 
 1.  Customer Service
 2.  UXC Generative AI
-3.  Now Assist for CSM
+3.  ServiceNow Otto for CSM
 
-For more information, see [Configuring Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/now-assist-for-csm/now-assist-csm-configuring.md).
+For more information, see [Configuring ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/now-assist-for-csm/now-assist-csm-configuring.md).
 
-**Parent Topic:**[Exploring Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/now-assist-for-csm/now-assist-csm-exploring.md)
+**Parent Topic:**[Exploring ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/now-assist-for-csm/now-assist-csm-exploring.md)
 

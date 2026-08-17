@@ -1,5 +1,5 @@
 ---
-title: Generate correlation insights from the Security Incident Response Workspace with Now Assist for Security Incident Response
+title: Generate correlation insights from the Security Incident Response Workspace with ServiceNow Otto for Security Incident Response \(SIR\)
 description: Generate and view correlation insights in the Security Incident Response Workspace to help you connect past events to the security incident you are working on.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/now-assist-for-security-incident-response-sir/generate-correlation-insights-now-assist-sir-entry-points.html
@@ -9,10 +9,10 @@ classification: now-assist-for-security-incident-response-sir
 topic_type: task
 last_updated: "2025-04-22"
 reading_time_minutes: 2
-breadcrumb: [Explore correlation insights, Use generative AI skills, Now Assist for Security Incident Response, Security Operations]
+breadcrumb: [Explore correlation insights, Use generative AI skills, ServiceNow Otto for Security Incident Response \(SIR\), Security Operations]
 ---
 
-# Generate correlation insights from the Security Incident Response Workspace with Now Assist for Security Incident Response
+# Generate correlation insights from the Security Incident Response Workspace with ServiceNow Otto for Security Incident Response \(SIR\)
 
 Generate and view correlation insights in the Security Incident Response Workspace to help you connect past events to the security incident you are working on.
 

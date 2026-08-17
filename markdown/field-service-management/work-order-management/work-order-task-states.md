@@ -7,8 +7,8 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 1
+last_updated: "2026-03-12"
+reading_time_minutes: 2
 breadcrumb: [Configuring work order tasks, Setting up work orders and tasks, Configuring Field Service Management, Field Service Management]
 ---
 
@@ -80,7 +80,10 @@ Closed Complete
 
 </td><td>
 
-The work order task was completed to specification.**Note:** The substate of Closed Complete is Complete.
+The work order task was completed to specification.**Note:**
+
+-   The substate of Closed Complete is Complete.
+-   If the Field Service Quality Management plugin \(com.sn\_fsm\_quality\) is activated and the task meets the criteria for quality review, the substate is set to Pending review instead of Complete when the task is closed. A reviewer can approve the task, which sets the substate to Complete, or send it back to the agent requesting more information, which sets the substate to Needs information. Once the agent updates the task, it returns to the Pending review substate for the reviewer. For more information, see [Configuring Field Service Quality Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/config-quality-mgmt.md).
 
 </td></tr><tr><td>
 

@@ -9,6 +9,7 @@ classification: configuration-management-database-cmdb
 topic_type: concept
 last_updated: "2025-08-07"
 reading_time_minutes: 2
+keywords: [Data Foundations settings tab, Data Manager ownership policies, reconciliation rules for attribute ownership, CI class manager configuration, principal class settings alignment]
 breadcrumb: [Use Data Foundations advisor, CMDB success advisor, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -26,8 +27,6 @@ The CMDB success advisor for Data Foundations evaluates your current configurati
 
 Settings are categorized as `Ideal` or `Requires attention`, enabling you to prioritize actions and maintain a healthy CMDB for Data Foundations.
 
-For a quick reference to validate CMDB settings for Data Foundations, see [Settings checklist for Data Foundations in CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-settings-checklist.md).
-
 ## Access settings
 
 Navigate to the CMDB success advisor landing page, and on the Data Foundations card, select **View insights**. Select the **Settings** tab to access settings-related details. For more information, see [Access CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-access.md).
@@ -37,6 +36,8 @@ Navigate to the CMDB success advisor landing page, and on the Data Foundations c
 ## Required roles
 
 You need the sn\_cmdb\_admin role to access the CMDB success advisor for Data Foundations.
+
+The sn\_cmdb\_user role also provides read-only access to CMDB success advisor pages and data, including the AI-generated summary of the dashboard.
 
 To manage business rules, change the application scope from CMDB success advisor to Global in the [application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/c_ApplicationPicker.md).
 
@@ -59,7 +60,7 @@ CMDB administrator
 </td><td>
 
 -   Make sure Data Manager ownership policies are configured for all principal classes
--   Verify reconciliation rules prevent lower-quality sources from overwriting high-quality CI data
+-   Verify reconciliation rules help prevent lower-quality sources from overwriting high-quality CI data
 -   Identify CI classes with no Data Manager policy coverage and remediate gaps
 -   Align CMDB settings with CSDM to support service mapping and dependency tracking
 

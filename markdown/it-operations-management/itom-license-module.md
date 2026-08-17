@@ -1,18 +1,18 @@
 ---
 title: Subscriptions for IT Operations Management
-description: The ServiceNow AI Platform uses a licensing method where your organization is billed for using the following IT Operations Management products: ServiceNow ITOM Visibility, ServiceNow ITOM Discovery, ServiceNow ITOM AIOps, ServiceNow Health Log Analytics, ServiceNow ITOM Optimization, and ServiceNow ITOM Cloud Accelerate.
+description: The ServiceNow AI Platform uses a licensing method where your organization is billed for using the following IT Operations Management products: ServiceNow ITOM Visibility, ServiceNow ITOM Discovery, ServiceNow ITOM Health, ServiceNow Health Log Analytics, ServiceNow ITOM Optimization, and ServiceNow ITOM Cloud Accelerate.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/itom-license-module.html
 release: yokohama
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Exploring ITOM/OT SU Licensing, ITOM/OT SU Licensing and subscriptions, IT Operations Management]
+breadcrumb: [Explore, ITOM/OT SU Licensing and subscriptions, IT Operations Management]
 ---
 
 # Subscriptions for IT Operations Management
 
-The ServiceNow AI Platform® uses a licensing method where your organization is billed for using the following IT Operations Management products: ServiceNow® ITOM Visibility, ServiceNow® ITOM Discovery, ServiceNow® ITOM AIOps, ServiceNow® Health Log Analytics, ServiceNow® ITOM Optimization, and ServiceNow® ITOM Cloud Accelerate.
+The ServiceNow AI Platform® uses a licensing method where your organization is billed for using the following IT Operations Management products: ServiceNow® ITOM Visibility, ServiceNow® ITOM Discovery, ServiceNow® ITOM Health, ServiceNow® Health Log Analytics, ServiceNow® ITOM Optimization, and ServiceNow® ITOM Cloud Accelerate.
 
 For licensing purposes, licensable resources are assigned to CI categories. License usage is measured using subscription units, which may cover a different number of resources, depending on the resource CI category. The customer contract for your organization determines the CI categories from the available options, and also the ratios of CI allocation for subscription units in each CI category. Information from the customer contract is synchronized with the ServiceNow platform. The latest version of ServiceNow® ITOM/OT SU Licensing supports the following CI categories:
 
@@ -46,15 +46,15 @@ ServiceNow® charges for the following IT Operations Management products:
 
     ITOM Discovery provides the count of CIs found by ServiceNow® Discovery and brought in by Service Graph Connectors.
 
--   **ITOM AIOps**
+-   **ITOM Health**
 
-    The ServiceNow® ITOM AIOps product includes the ServiceNow® Event Management and ServiceNow® Metric Intelligence applications, which help you track and maintain the health of services in your organization.
+    The ServiceNow® ITOM Health product includes the ServiceNow® Event Management and ServiceNow® Metric Intelligence applications, which help you track and maintain the health of services in your organization.
 
-    ITOM AIOps reports the number of CIs, where it captures alerts, events, and metric data. ITOM AIOps reports the CI count for all CI categories.
+    ITOM Health reports the number of CIs, where it captures alerts, events, and metric data. ITOM Health reports the CI count for all CI categories.
 
 -   **Health Log Analytics**
 
-    Health Log Analytics CI count is based on log data received from licensable resource types. The consumption is reflected in ITOM AIOps as well as in Health Log Analytics. For that reason, you need the ITOM AIOps subscription in addition to the Health Log Analytics subscription.
+    Health Log Analytics CI count is based on log data received from licensable resource types. The consumption is reflected in ITOM Health as well as in Health Log Analytics. For that reason, you need the ITOM Health subscription in addition to the Health Log Analytics subscription.
 
 -   **ITOM Cloud Accelerate**
 

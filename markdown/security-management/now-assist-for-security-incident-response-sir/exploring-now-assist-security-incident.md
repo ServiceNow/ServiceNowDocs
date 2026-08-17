@@ -1,6 +1,6 @@
 ---
-title: Exploring Now Assist for Security Incident Response
-description: Your security analysts can use intelligent workflows and ServiceNow generative AI skills to help them triage, investigate, and close security incidents within the flow of their work with the Now Assist for Security Incident Response application.
+title: Exploring ServiceNow Otto for Security Incident Response \(SIR\)
+description: Your security analysts can use intelligent workflows and ServiceNow generative AI skills to help them triage, investigate, and close security incidents within the flow of their work with the ServiceNow Otto for Security Incident Response \(SIR\) application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/now-assist-for-security-incident-response-sir/exploring-now-assist-security-incident.html
 release: yokohama
@@ -9,14 +9,14 @@ classification: now-assist-for-security-incident-response-sir
 topic_type: concept
 last_updated: "2025-04-02"
 reading_time_minutes: 5
-breadcrumb: [Now Assist for Security Incident Response, Security Operations]
+breadcrumb: [ServiceNow Otto for Security Incident Response \(SIR\), Security Operations]
 ---
 
-# Exploring Now Assist for Security Incident Response
+# Exploring ServiceNow Otto for Security Incident Response \(SIR\)
 
-Your security analysts can use intelligent workflows and ServiceNow generative AI skills to help them triage, investigate, and close security incidents within the flow of their work with the Now Assist for Security Incident Response application.
+Your security analysts can use intelligent workflows and ServiceNow generative AI skills to help them triage, investigate, and close security incidents within the flow of their work with the ServiceNow Otto for Security Incident Response \(SIR\) application.
 
-## Now Assist for Security Incident Response overview
+## ServiceNow Otto for Security Incident Response \(SIR\) overview
 
 With generative AI skills and agentic workflows, your security analysts have the option to:
 
@@ -34,7 +34,7 @@ With generative AI skills and agentic workflows, your security analysts have the
 
 Security analysts can share findings, incident details, and closure notes with other analysts, managers, and key stakeholders.
 
-## Now Assist for Security Incident Response users
+## ServiceNow Otto for Security Incident Response \(SIR\) users
 
 <table id="table_vxr_4cq_xbc"><thead><tr><th>
 
@@ -53,7 +53,7 @@ Security analysts and managers
 Preview security incident details, see their potential impact, and view the key remediation actions already taken with security incident summaries using generative AI. Summaries and recommended next steps \(actions\) give analysts and managers a head start with their investigations and help with closing security incidents.Automatically generate a draft of closure notes using generative AI. Closure notes for security incidents are created quickly based on remediation and containment activities, in addition to other relevant details that are related to their closure.
 
 </td></tr></tbody>
-</table>## Now Assist for Security Incident Response benefits
+</table>## ServiceNow Otto for Security Incident Response \(SIR\) benefits
 
 <table id="table_yxr_4cq_xbc"><thead><tr><th>
 
@@ -188,14 +188,14 @@ admin
 </td></tr></tbody>
 </table>## What to explore next
 
-To learn more about configuring and using Now Assist for Security Incident Response, see:
+To learn more about configuring and using ServiceNow Otto for Security Incident Response \(SIR\), see:
 
--   [Configuring Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/now-assist-for-security-incident-response-sir/configuring-now-assist-for-security-operations.md)
--   [Summarize a security incident with Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/now-assist-for-security-incident-response-sir/summarize-security-incident-now-assist-sec-incident.md)
--   [Generate closure notes for a security incident with Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/now-assist-for-security-incident-response-sir/generate-closure-notes-si-now-assist-sec-incident.md)
+-   [Configuring ServiceNow Otto for Security Incident Response \(SIR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/now-assist-for-security-incident-response-sir/configuring-now-assist-for-security-operations.md)
+-   [Summarize a security incident with ServiceNow Otto for Security Incident Response \(SIR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/now-assist-for-security-incident-response-sir/summarize-security-incident-now-assist-sec-incident.md)
+-   [Generate closure notes for a security incident with ServiceNow Otto for Security Incident Response \(SIR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/now-assist-for-security-incident-response-sir/generate-closure-notes-si-now-assist-sec-incident.md)
 -   [Generate correlation insights with Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/now-assist-for-security-incident-response-sir/generating-insights-for-now-assist-for-security.md)
--   [Generate recommended actions for a security incident with Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/now-assist-for-security-incident-response-sir/generate-recommended-actions-now-assist-for-security.md)
--   [Generate a post-incident analysis for a security incident with Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/now-assist-for-security-incident-response-sir/generate-pia-report-now-assist-security-incident.md)
+-   [Generate recommended actions for a security incident with ServiceNow Otto for Security Incident Response \(SIR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/now-assist-for-security-incident-response-sir/generate-recommended-actions-now-assist-for-security.md)
+-   [Generate a post-incident analysis for a security incident with ServiceNow Otto for Security Incident Response \(SIR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/now-assist-for-security-incident-response-sir/generate-pia-report-now-assist-security-incident.md)
 -   [Analyze security operations metrics agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/now-assist-for-security-incident-response-sir/assess-metrics-sir-aiagent.md)
 -   [Inputs and triggers for Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/now-assist-for-security-incident-response-sir/input-triggers-now-assist-security-incident.md)
 

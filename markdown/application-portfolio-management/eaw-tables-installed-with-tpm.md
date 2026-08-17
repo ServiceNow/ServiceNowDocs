@@ -1,20 +1,20 @@
 ---
-title: Tables installed with TPM in the EA Workspace
-description: Several types of tables are installed with Technology Portfolio Management.
+title: Tables installed with TLM in the EA Workspace
+description: Several types of tables are installed with Technology Lifecycle Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-tables-installed-with-tpm.html
 release: yokohama
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Activate the Technology Portfolio Management \(TPM\) plugin, Managing the Technology Portfolio Management \(TPM\) in Enterprise Architecture Workspace, Technology Portfolio view, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Activate the Technology Lifecycle Management \(TLM\) plugin, Managing the Technology Lifecycle Management \(TLM\) in Enterprise Architecture Workspace, Technology Portfolio view, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
-# Tables installed with TPM in the EA Workspace
+# Tables installed with TLM in the EA Workspace
 
-Several types of tables are installed with Technology Portfolio Management.
+Several types of tables are installed with Technology Lifecycle Management.
 
-The following tables are installed with the Technology Portfolio Management \(TPM\) plugin:
+The following tables are installed with the Technology Lifecycle Management \(TLM\) plugin:
 
 <table id="table_pzc_h55_yzb"><thead><tr><th>
 
@@ -65,5 +65,5 @@ TPM Technology Risk \[sn\_apm\_tpm\_technology\_risk\]
 Stores the TPM technology risk information.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Activate the Technology Portfolio Management \(TPM\) plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-install-tpm.md)
+</table>**Parent Topic:**[Activate the Technology Lifecycle Management \(TLM\) plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-install-tpm.md)
 

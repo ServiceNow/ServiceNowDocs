@@ -1,6 +1,6 @@
 ---
-title: Zero Copy Connector for ERP remote table form field descriptions
-description: The Remote table form in Zero Copy Connector for ERP enables you to create and edit remote tables in the ERP \(Enterprise Resource Planning\) model.
+title: ERP Canvas remote table form field descriptions
+description: The Remote table form in ERP Canvas enables you to create and edit remote tables in the ERP \(Enterprise Resource Planning\) model.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-integration-framework/erp-canvas-remote-table-descriptions.html
 release: yokohama
@@ -9,14 +9,14 @@ classification: erp-integration-framework
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Zero Copy Connector for ERP field descriptions, Zero Copy Connector for ERP reference, Zero Copy Connector for ERP, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [ERP Canvas field descriptions, ERP Canvas reference, ERP Canvas, Building low-code applications, Developing your application, Building applications]
 ---
 
-# Zero Copy Connector for ERP remote table form field descriptions
+# ERP Canvas remote table form field descriptions
 
-The Remote table form in Zero Copy Connector for ERP enables you to create and edit remote tables in the ERP \(Enterprise Resource Planning\) model.
+The Remote table form in ERP Canvas enables you to create and edit remote tables in the ERP \(Enterprise Resource Planning\) model.
 
-For process details, see [View and edit ERP remote table details with Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erpi-find-tables.md).
+For process details, see [View and edit ERP remote table details with ERP Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erpi-find-tables.md).
 
 <table id="table_ep5_44s_wxb"><thead><tr><th>
 
@@ -58,7 +58,7 @@ ERP system
 
 </td><td>
 
-ERP system that the remote table is linked to. The connected system represents the ERP instance that is linked to the model, enabling data flow and interaction between the model and the connected ERP system. For more information, see [Create an ERP system in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/create-an-erp-system.md).
+ERP system that the remote table is linked to. The connected system represents the ERP instance that is linked to the model, enabling data flow and interaction between the model and the connected ERP system. For more information, see [Create an ERP system in ERP Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/create-an-erp-system.md).
 
 </td></tr><tr><td>
 
@@ -77,5 +77,5 @@ Updated
 Date and time the remote table record was last saved.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Zero Copy Connector for ERP field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-field-descriptions.md)
+</table>**Parent Topic:**[ERP Canvas field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-field-descriptions.md)
 

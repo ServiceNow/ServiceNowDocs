@@ -9,7 +9,7 @@ classification: employee-experience-foundation
 topic_type: task
 last_updated: "2025-09-01"
 reading_time_minutes: 1
-breadcrumb: [Company News &amp; Events AI Agent, Use AI Agents, Now Assist for Employee Experience, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Company News &amp; Events AI Agent, Use AI Agents, ServiceNow Otto for Employee Experience, Unified Employee Experience, Employee Service Management]
 ---
 
 # Activate Company News and Events AI Agent

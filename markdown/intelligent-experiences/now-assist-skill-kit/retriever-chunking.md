@@ -9,7 +9,7 @@ classification: now-assist-skill-kit
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Add a retriever, Add a tool, Create a prompt, Using Now Assist Skill Kit, Now Assist Skill Kit, Enable AI experiences]
+breadcrumb: [Add a retriever, Add a tool, Create a prompt, Using AI Skill Kit, AI Skill Kit, Enable AI experiences]
 ---
 
 # Retriever chunking and reranking
@@ -26,7 +26,7 @@ To set up the chunking and reranking options for a retriever, you must have a re
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Skill Kit** &gt; **Home**.
+1.  Navigate to **All** &gt; **AI Skill Kit** &gt; **Home**.
 
 2.  Select the skill that you’re adding a retriever to.
 

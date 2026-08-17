@@ -359,7 +359,7 @@ Provides streamlined cross-team collaboration and enables legal professionals to
 
 </td><td>
 
-Now Assist for Sourcing and Procurement Operations \(SPO\)\[com.sn\_spend\_gen\_ai\]
+ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)\[com.sn\_spend\_gen\_ai\]
 
 </td><td>
 

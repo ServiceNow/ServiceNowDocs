@@ -17,7 +17,7 @@ The ServiceNow® Data Management capabilities enable you to manage the growth of
 -   View insights into storage consumption on your instance and implement data management policies directly from the Data Management Console.
 -   Automatically delete older or unwanted records with improved table cleaner scalability.
 
-See [Data Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/c_DataManagement.md) for more information.
+See  for more information.
 
 ## Important information for upgrading Data Management to Yokohama
 
@@ -27,18 +27,18 @@ See [Data Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDoc
 
 ## New in the Yokohama release
 
--   **[Data Management Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/viewing-data-usage.md)**
+-   **Data Management Console**
 
     View a summary of storage consumption on your instance and manage the growth of data directly from the Data Management Console.
 
--   **[Table cleaner scalability improvements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/deleting-older-records.md)**
+-   **Table cleaner scalability improvements**
 
     Automatically delete older or unwanted records at scale.
 
 
 ## Changed in this release
 
--   **[Data Management Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/viewing-data-usage.md)**
+-   **Data Management Console**
 
     You can now access data usage on your instance by navigating to **All** &gt; **System Data Management** &gt; **Data Management Console**.
 

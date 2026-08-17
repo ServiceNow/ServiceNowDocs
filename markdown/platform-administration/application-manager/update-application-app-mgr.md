@@ -51,15 +51,15 @@ Role required: admin or sn\_appclient.app\_client\_user
 
 7.  Install the update now or schedule installation for a later time.
 
-<table id="choicetable_a33_l3m_yfc"><thead><tr><th align="left" id="d90762e223">
+<table id="choicetable_a33_l3m_yfc"><thead><tr><th align="left" id="d90775e223">
 
 Installation option
 
-</th><th align="left" id="d90762e226">
+</th><th align="left" id="d90775e226">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d90762e232">
+</th></tr></thead><tbody><tr><td id="d90775e232">
 
 **Install now**
 
@@ -69,7 +69,7 @@ Procedure
 2.  Select **Install**.
 
 
-</td></tr><tr><td id="d90762e256">
+</td></tr><tr><td id="d90775e256">
 
 **Install later**
 

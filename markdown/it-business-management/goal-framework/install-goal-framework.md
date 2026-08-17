@@ -32,7 +32,7 @@ Role required: admin
 
 2.  Find the Goal Framework or Goal Framework for SPM application using the filter criteria and search bar.
 
-    You can search for the application by its name or ID \(sn\_gf or sn\_gfa\). If you can’t find an application, you may have to request it from ServiceNow store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release note information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+    You can search for the application by its name or ID \(sn\_gf or sn\_gfa\). If you can’t find an application, you may have to request it from ServiceNow store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release note information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 3.  Click **Install**.
 

@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2025-02-12"
 reading_time_minutes: 4
 keywords: [Now Assist, genAI, Generative AI, adoption, indicators, usage, actions]
-breadcrumb: [Using Now Assist Analytics, Analyzing Now Assist performance, Now Assist, Enable AI experiences]
+breadcrumb: [Using AI Analytics, Analyzing Now Assist performance, Now Assist, Enable AI experiences]
 ---
 
 # Usage and adoption
@@ -21,7 +21,7 @@ The Usage summary page includes indicators on total and daily Now Assist actions
 
 \[Omitted image "naa-usage-summary.png"\] Alt text: Usage and adoption dashboard page.
 
-The indicators on the Usage and adoption dashboard page provide the following insights. See [Now Assist Analytics dashboard indicator details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-analytics-dashboard-indicators.md) for information on data source and calculations behind each indicator on the page.
+The indicators on the Usage and adoption dashboard page provide the following insights. See [AI Analytics dashboard indicator details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-analytics-dashboard-indicators.md) for information on data source and calculations behind each indicator on the page.
 
 -   Skills engagement trend for a selected period can reveal skills that have been used more frequently or less frequently.
 -   Total and daily actions for a selected period can reveal the scale of Now Assist actions executed. The trend line in the visualization shows periods of increased or declining engagement.
@@ -31,7 +31,7 @@ The indicators on the Usage and adoption dashboard page provide the following in
 
 -   **Total Now Assist actions**
 
-    This area of the dashboard shows the total number of Now Assist actions in the selected date range. A single use of a Now Assist skill represents an action. Select a filter combination to view the number of actions by products or Now Assist channels. For example, you can view the number of Now Assist actions executed through the Now Assist in Virtual Agent channel for Now Assist for Customer Service Management \(CSM\) product.
+    This area of the dashboard shows the total number of Now Assist actions in the selected date range. A single use of a Now Assist skill represents an action. Select a filter combination to view the number of actions by products or Now Assist channels. For example, you can view the number of Now Assist actions executed through the Now Assist in Virtual Agent channel for ServiceNow Otto for Customer Service Management \(CSM\) product.
 
     \[Omitted image "naa-total-now-assist-actions.png"\] Alt text: Total Now Assist actions indicator.
 
@@ -99,5 +99,5 @@ The indicators on the Usage and adoption dashboard page provide the following in
     \[Omitted image "naa-error-details.png"\] Alt text: Error details indicator.
 
 
-**Parent Topic:**[Using Now Assist Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/using-now-assist-analytics.md)
+**Parent Topic:**[Using AI Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/using-now-assist-analytics.md)
 

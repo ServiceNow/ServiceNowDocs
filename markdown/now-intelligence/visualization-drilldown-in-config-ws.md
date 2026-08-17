@@ -42,9 +42,9 @@ When the chart interaction for a data visualization is set to Go to data, intera
 
 **Important:** **Go to data** chart interactions for MetricBase require the Metric Explorer for Service Operations \(sn\_sow\_metric\_exp\) plugin.
 
-## Usage Insights
+## User Experience Analytics
 
-Usage Insights does not support **Go to data** chart interactions.
+User Experience Analytics does not support **Go to data** chart interactions.
 
 **Parent Topic:**[Chart interactions in a data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/dv-chart-interactions.md)
 

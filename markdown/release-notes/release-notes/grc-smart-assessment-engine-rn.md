@@ -24,48 +24,48 @@ The ServiceNow® Smart Assessment Engine \(SAE\) application is designed to stre
 -   Benefit from accessibility improvements to create a configurable workspace that supports Web Content Accessibility Guidelines \(WCAG\) 2.1 Level AA conformance.
 -   Descriptive images are now supported in the guidance section for questions.
 
-See [Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/smart-asmnt-engine-landing-page.md) for more information.
+See  for more information.
 
 **Important:** Smart Assessment Engine is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Yokohama release
 
--   **[Copy an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/sae-asmnt-template-duplicate.md)**
+-   ****
 
     Create a copy of an existing smart assessment template, including all questions, sections, and existing configurations. This feature enables you to duplicate a fully configured assessment, so you don't need to recreate the content. You can then customize the copied template to fit new requirements or scenarios.
 
--   **[Filter unanswered questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/sae-respond-to-asmnt.md#fig_ztw_wm2_ndc)**
+-   **Filter unanswered questions**
 
     Filter questions in the assessments to display only unanswered questions, helping you focus on the remaining questions.
 
--   **[Using the template designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/sae-template-designer.md)**
+-   ****
 
     Search for text within assessment sections, subsections, or questions, enabling you to locate specific information or keywords. This feature enhances navigation and enables you to find relevant content without manually scrolling through the entire assessment.
 
--   **[Auto-copy responses to all templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/combine-assessments.md)**
+-   **Auto-copy responses to all templates**
 
     Replicate your responses across all applicable assessments while combining assessments by enabling the auto-copy feature. It saves time and effort by copying your answers consistently without the need for manual repetition.
 
--   **[Automate responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/automate-response.md)**
+-   **Automate responses**
 
     Set up automatic responses for questions to enable assessors to complete assessments efficiently. You can either create default responses for all question types or define a script to fetch and map the values or data to responses.
 
--   **[Assessment scoring and analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/scoring-in-assessments.md)**
+-   **Assessment scoring and analysis**
 
     Calculate meaningful scores for assessment responses at the assessment, section, or subsection levels. These scores can then be used for reporting.
 
--   **[Post-assessment automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/impact-automation.md)**
+-   **Post-assessment automation**
 
     Automate actions based on assessment responses. Template designers can predefine actions using a rule engine, such as updating fields, creating follow-up assessments, or generating other records.
 
--   **[Descriptive images in assessment questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/sae-q-text-create.md)**
+-   **Descriptive images in assessment questions**
 
     Attach descriptive images in the guidance section of the assessment questions. This means that template managers can include helpful visuals to assist respondents, making the instructions clearer and easier to understand.
 
 
 ## Activation information
 
-Install Smart Assessment Engine by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install Smart Assessment Engine by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Accessibility information
 

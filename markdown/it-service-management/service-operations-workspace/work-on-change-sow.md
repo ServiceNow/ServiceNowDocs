@@ -28,15 +28,15 @@ Role required: itil
 
 2.  Perform any of the following actions on the change record page.
 
-<table id="choicetable_hvj_ccg_vsb"><thead><tr><th align="left" id="d310550e74">
+<table id="choicetable_hvj_ccg_vsb"><thead><tr><th align="left" id="d311187e74">
 
 Option
 
-</th><th align="left" id="d310550e77">
+</th><th align="left" id="d311187e77">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d310550e83">
+</th></tr></thead><tbody><tr><td id="d311187e83">
 
 **Create change tasks for delegation**
 
@@ -44,7 +44,7 @@ Description
 
 In the **Overview** tab, select **Add Task**. For more information about creating a change task, see [Create a change task in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/create-change-task-sow.md).
 
-</td></tr><tr><td id="d310550e105">
+</td></tr><tr><td id="d311187e105">
 
 **Compose an email from the change**
 
@@ -52,7 +52,7 @@ In the **Overview** tab, select **Add Task**. For more information about creatin
 
 Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text: more actions icon\) and select **Compose Email**.
 
-</td></tr><tr><td id="d310550e123">
+</td></tr><tr><td id="d311187e123">
 
 **Create outage**
 
@@ -60,7 +60,7 @@ Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt tex
 
 Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text: more actions icon\) and select **Create Outage**.
 
-</td></tr><tr><td id="d310550e141">
+</td></tr><tr><td id="d311187e141">
 
 **Refresh impacted Services on a change request form**
 
@@ -68,7 +68,7 @@ Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt tex
 
 Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text: more actions icon\) and select **Refresh Impacted Services**. For information about refreshing impacted services, see [Refresh impacted services and CIs for Change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/refresh-impacted-services-cis.md).
 
-</td></tr><tr><td id="d310550e167">
+</td></tr><tr><td id="d311187e167">
 
 **Cancel the change**
 
@@ -76,7 +76,7 @@ Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt tex
 
 Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text: more actions icon\) and select **Cancel**.
 
-</td></tr><tr><td id="d310550e185">
+</td></tr><tr><td id="d311187e185">
 
 **Delete the change**
 
@@ -84,7 +84,7 @@ Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt tex
 
 Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text: more actions icon\) and select select **Delete**.
 
-</td></tr><tr><td id="d310550e203">
+</td></tr><tr><td id="d311187e203">
 
 **Copy the record page URL to easily access the record**
 
@@ -92,7 +92,7 @@ Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt tex
 
 Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text: more actions icon\) and select **Copy URL**.
 
-</td></tr><tr><td id="d310550e221">
+</td></tr><tr><td id="d311187e221">
 
 **View the record information such as SLAs**
 
@@ -100,7 +100,7 @@ Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt tex
 
 From the contextual side panel, select the record Information icon \(\[Omitted image "record-info-icon.png"\] Alt text: record Information icon\).
 
-</td></tr><tr><td id="d310550e236">
+</td></tr><tr><td id="d311187e236">
 
 **Attach a record that helps in quick resolution of the change**
 
@@ -110,7 +110,7 @@ From the contextual side panel, select the record Information icon \(\[Omitted i
 2.  Search for a resource and perform the required action, for example, link the change to an incident.
 
 
-</td></tr><tr><td id="d310550e260">
+</td></tr><tr><td id="d311187e260">
 
 **Collaborate using Microsoft Teams**
 
@@ -118,7 +118,7 @@ From the contextual side panel, select the record Information icon \(\[Omitted i
 
 From the contextual side panel, select the collaborate icon \(\[Omitted image "collaborate-sidebar.png"\] Alt text: collaborate icon\).
 
-</td></tr><tr><td id="d310550e279">
+</td></tr><tr><td id="d311187e279">
 
 **Add attachments**
 
@@ -126,7 +126,7 @@ From the contextual side panel, select the collaborate icon \(\[Omitted image "c
 
 From the contextual side panel, select the attachments icon \(\[Omitted image "attachment-icon.png"\] Alt text: attachments icon\).**Note:** The added attachments are displayed in the activity stream in the **Compose** section.
 
-</td></tr><tr><td id="d310550e300">
+</td></tr><tr><td id="d311187e300">
 
 **Create templates for reuse**
 
@@ -134,7 +134,7 @@ From the contextual side panel, select the attachments icon \(\[Omitted image "a
 
 From the contextual side panel, select the templates icon \(\[Omitted image "template-icon.png"\] Alt text: templates icon\) and create a template or reuse an existing one.
 
-</td></tr><tr><td id="d310550e315">
+</td></tr><tr><td id="d311187e315">
 
 **Approve the change**
 
@@ -142,7 +142,7 @@ From the contextual side panel, select the templates icon \(\[Omitted image "tem
 
 Select **Related records** tab, select **Approvers**.
 
-</td></tr><tr><td id="d310550e333">
+</td></tr><tr><td id="d311187e333">
 
 **Implement the change**
 
@@ -150,7 +150,7 @@ Select **Related records** tab, select **Approvers**.
 
 Select  **Implement**  to put the change request into action. The change request state changes to  **Implement**. The workflow creates two change tasks: **Implement**  and  **Post-implementation testing**. Review the change tasks and assign them to a user or group, as appropriate.
 
-</td></tr><tr><td id="d310550e357">
+</td></tr><tr><td id="d311187e357">
 
 **Review a change request**
 
@@ -160,7 +160,7 @@ Select  **Review**  after reviewing the details on the change request.
 
  The change request is moved to the  **Review**  state. All open change tasks are set to  **Canceled**.
 
-</td></tr><tr><td id="d310550e381">
+</td></tr><tr><td id="d311187e381">
 
 **Close a change request**
 

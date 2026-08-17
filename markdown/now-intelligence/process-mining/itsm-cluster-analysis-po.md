@@ -16,7 +16,7 @@ breadcrumb: [Content pack for ITSM, Activate Process Mining content packs, Activ
 
 The Process Mining application provides solution definitions for incidents, problems, change requests, and requested items. You can use these definitions to configure cluster analysis for those work items.
 
-**Important:** This feature is available with the ServiceNow Store Process Mining ITSM content pack v1.2. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+**Important:** This feature is available with the ServiceNow Store Process Mining ITSM content pack v1.2. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Clustering solution definition configurations
 

@@ -81,9 +81,9 @@ Install Telecommunications Network Inventory by requesting it from the ServiceNo
 
 ## Related ServiceNow applications and features
 
--   **[Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/c_ITILConfigurationManagement.md)**
+-   ****
 
-    With the [Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/c_ITILConfigurationManagement.md) application, build logical representations of assets, services, and the relationships between them that comprises the infrastructure of your organization. Details about these components are stored in the CMDB, which you can use to monitor the following infrastructure, helping promote integrity, stability, and continuous service operation.
+    With the Configuration Management Database \(CMDB\) application, build logical representations of assets, services, and the relationships between them that comprises the infrastructure of your organization. Details about these components are stored in the CMDB, which you can use to monitor the following infrastructure, helping promote integrity, stability, and continuous service operation.
 
 
 **Parent Topic:**[Telecommunications, Media, and Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/technology-industry-rn-landing.md)

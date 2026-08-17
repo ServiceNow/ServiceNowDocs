@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
-breadcrumb: [Agentic AI in the ITSM application, Use agentic AI in IT Service Management, Now Assist for IT Service Management \(ITSM\), IT Service Management]
+breadcrumb: [Agentic AI in the ITSM application, Use agentic AI in IT Service Management, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 
 # IT Service Management AI agent collection Notify users with Twilio agentic workflow

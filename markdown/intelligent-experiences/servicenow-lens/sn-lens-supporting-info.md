@@ -47,7 +47,7 @@ ServiceNow AI Lens skill
 </td></tr></tbody>
 </table>## Licensing requirements
 
-The ServiceNow AI Lens application requires a Now Assist for Creator or Now Assist for Platform license.
+The ServiceNow AI Lens application requires a ServiceNow Otto for Creator or Now Assist for Platform license.
 
 ## Application information
 

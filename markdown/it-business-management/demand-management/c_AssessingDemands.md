@@ -55,5 +55,5 @@ The roadmap is an interactive visualization tool that shows all demands that are
 
 [PPM PIWB template - Find similar demands]()
 
-[Identify similar records using Now Assist for Strategic Portfolio Management \(SPM\)]()
+[Identify similar records using ServiceNow Otto for Strategic Portfolio Management]()
 

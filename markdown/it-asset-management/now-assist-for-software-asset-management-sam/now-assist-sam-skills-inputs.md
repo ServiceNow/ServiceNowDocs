@@ -1,6 +1,6 @@
 ---
-title: Skill inputs and triggers for Now Assist for Software Asset Management \(SAM\)
-description: Get a quick overview of the skill inputs and triggers for Now Assist for Software Asset Management \(SAM\). By configuring the inputs or triggers for a skill, you can determine how and when a skill is used.
+title: Skill inputs and triggers for ServiceNow Otto for Software Asset Management \(SAM\)
+description: Get a quick overview of the skill inputs and triggers for ServiceNow Otto for Software Asset Management \(SAM\). By configuring the inputs or triggers for a skill, you can determine how and when a skill is used.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/now-assist-for-software-asset-management-sam/now-assist-sam-skills-inputs.html
 release: yokohama
@@ -8,13 +8,13 @@ product: Now Assist for Software Asset Management \(SAM\)
 classification: now-assist-for-software-asset-management-sam
 topic_type: reference
 last_updated: "2025-01-30"
-reading_time_minutes: 6
-breadcrumb: [Configure Now Assist for Software Asset Management \(SAM\), Now Assist for Software Asset Management \(SAM\), Software Asset Management, IT Asset Management]
+reading_time_minutes: 10
+breadcrumb: [Configure ServiceNow Otto for Software Asset Management \(SAM\), ServiceNow Otto for Software Asset Management \(SAM\), Software Asset Management, IT Asset Management]
 ---
 
-# Skill inputs and triggers for Now Assist for Software Asset Management \(SAM\)
+# Skill inputs and triggers for ServiceNow Otto for Software Asset Management \(SAM\)
 
-Get a quick overview of the skill inputs and triggers for Now Assist for Software Asset Management \(SAM\). By configuring the inputs or triggers for a skill, you can determine how and when a skill is used.
+Get a quick overview of the skill inputs and triggers for ServiceNow Otto for Software Asset Management \(SAM\). By configuring the inputs or triggers for a skill, you can determine how and when a skill is used.
 
 ## Now Assist for SAM skills and triggers overview
 
@@ -22,7 +22,7 @@ Depending on the selected skill, you can configure the inputs or triggers. These
 
 ## Publisher compliance summarization skill
 
-For the publisher compliance summarization skill, select the triggers that determine when a publisher compliance summary is generated. You can also select the properties that control how a publisher compliance summary is displayed. To display the publisher compliance summary, you need to select the **Display** toggle button on the Choose where to display page while configuring Now Assist for SAM. For details on the **Display** toggle button, see [Configure Now Assist for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/now-assist-for-software-asset-management-sam/configure-now-assist-sam.md).
+For the publisher compliance summarization skill, select the triggers that determine when a publisher compliance summary is generated. You can also select the properties that control how a publisher compliance summary is displayed. To display the publisher compliance summary, you need to select the **Display** toggle button on the Choose where to display page while configuring Now Assist for SAM. For details on the **Display** toggle button, see [Configure ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/now-assist-for-software-asset-management-sam/configure-now-assist-sam.md).
 
 The following table lists the triggers that determine when a publisher compliance summary is generated and how a publisher compliance summary is displayed.
 
@@ -38,9 +38,37 @@ The following table lists the inputs for the publisher compliance summarization 
 |Software Lifecycle Report \[sam\_sw\_product\_lifecycle\_report\]|Product life-cycle details for all the software products that are installed in your environment.|
 |Dashboards|Dashboards include Discovered inventory, Normalization and content, and Health check.|
 
-## Product compliance summarization skill
+The following table lists the plugin and store app dependencies for the Publisher compliance summarization skill in the Yokohama release.
 
-For the product compliance summarization skill, select the triggers that determine when a product compliance summary is generated. You can also select the properties that control how a product compliance summary is displayed. To display the product compliance summary, you need to select the **Display** toggle button on the Choose where to display page while configuring Now Assist for SAM. For details on the **Display** toggle button, see [Configure Now Assist for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/now-assist-for-software-asset-management-sam/configure-now-assist-sam.md).
+<table id="table_pub_comp_plugins"><thead><tr><th>
+
+Release
+
+</th><th>
+
+Plugin
+
+</th><th>
+
+Store App with Version
+
+</th></tr></thead><tbody><tr><td>
+
+Yokohama Patch 0
+
+</td><td>
+
+-   Software Asset Management Professional \[com.snc.samp\]
+-   Software asset workspace \[sn\_sam\_workspace\]
+
+</td><td>
+
+Now Assist for SAM \[sn\_now\_assist\_sam\] - 1.0.0
+
+</td></tr></tbody>
+</table>## Product compliance summarization skill
+
+For the product compliance summarization skill, select the triggers that determine when a product compliance summary is generated. You can also select the properties that control how a product compliance summary is displayed. To display the product compliance summary, you need to select the **Display** toggle button on the Choose where to display page while configuring Now Assist for SAM. For details on the **Display** toggle button, see [Configure ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/now-assist-for-software-asset-management-sam/configure-now-assist-sam.md).
 
 The following table lists the triggers that determine when a product compliance summary is generated and how a product compliance summary is displayed.
 
@@ -118,9 +146,37 @@ Software Installation table \[cmdb\_sam\_sw\_install\]
 Contains information on all software installed in your environment.
 
 </td></tr></tbody>
+</table>The following table lists the plugin and store app dependencies for the Product compliance summarization skill in the Yokohama release.
+
+<table id="table_prod_comp_plugins"><thead><tr><th>
+
+Release
+
+</th><th>
+
+Plugin
+
+</th><th>
+
+Store App with Version
+
+</th></tr></thead><tbody><tr><td>
+
+Yokohama Patch 3
+
+</td><td>
+
+-   Software Asset Management Professional \[com.snc.samp\]
+-   Software asset workspace \[sn\_sam\_workspace\]
+
+</td><td>
+
+Now Assist for SAM \[sn\_now\_assist\_sam\] - 2.0.3
+
+</td></tr></tbody>
 </table>## Recommended actions skill
 
-For the recommended actions skill, select the triggers that determine when a list of recommended actions is generated. You can also select the properties that control how recommended actions is displayed. To display recommended actions, you need to select the **Display** toggle button on the Choose where to display page while configuring Now Assist for SAM. For details on the **Display** toggle button, see [Configure Now Assist for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/now-assist-for-software-asset-management-sam/configure-now-assist-sam.md).
+For the recommended actions skill, select the triggers that determine when a list of recommended actions is generated. You can also select the properties that control how recommended actions is displayed. To display recommended actions, you need to select the **Display** toggle button on the Choose where to display page while configuring Now Assist for SAM. For details on the **Display** toggle button, see [Configure ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/now-assist-for-software-asset-management-sam/configure-now-assist-sam.md).
 
 The following table lists the triggers that determine when recommended actions are generated and how the list of recommended actions is displayed.
 
@@ -294,6 +350,34 @@ SAP System Users \[samp\_sap\_system\_user\]
  Removal Candidates \[samp\_sw\_reclamation\_candidate\]
 
 </td></tr></tbody>
+</table>The following table lists the plugin and store app dependencies for the Recommended actions skill in the Yokohama release.
+
+<table id="table_rec_actions_plugins"><thead><tr><th>
+
+Release
+
+</th><th>
+
+Plugin
+
+</th><th>
+
+Store App with Version
+
+</th></tr></thead><tbody><tr><td>
+
+Yokohama Patch 3
+
+</td><td>
+
+-   Software Asset Management Professional \[com.snc.samp\]
+-   Software asset workspace \[sn\_sam\_workspace\]
+
+</td><td>
+
+Now Assist for SAM \[sn\_now\_assist\_sam\] - 2.0.3
+
+</td></tr></tbody>
 </table>## SaaS user resolution skill
 
 The following table lists the trigger for the SaaS user resolution skill.
@@ -321,7 +405,36 @@ User resolution rules are automatically generated upon the activation of the Saa
 |-----|-----------|
 |List of fields with the **String** and **Email** type.|User \[sys\_user\]|
 
-## Contract entitlement data extraction skill
+The following table lists the plugin and store app dependencies for the SaaS user resolution skill in the Yokohama release.
+
+<table id="table_saas_user_res_plugins"><thead><tr><th>
+
+Release
+
+</th><th>
+
+Plugin
+
+</th><th>
+
+Store App with Version
+
+</th></tr></thead><tbody><tr><td>
+
+Yokohama Patch 11
+
+</td><td>
+
+-   Software Asset Management Professional \[com.snc.samp\]
+-   Software asset workspace \[sn\_sam\_workspace\]
+
+</td><td>
+
+-   Now Assist for SAM \[sn\_now\_assist\_sam\] - 4.4.5
+-   Software Asset Management - SaaS License Management \[sn\_sam\_saas\_int\] - 15.0.19
+
+</td></tr></tbody>
+</table>## Contract entitlement data extraction skill
 
 <table id="table_r52_v2r_2hc"><thead><tr><th>
 
@@ -346,5 +459,152 @@ An entitlement is automatically generated from a contract when the user manually
 |-----|-----------|
 |The contract document|The contract document that the user uploads that is used for extracting the entitlement information.|
 
-**Parent Topic:**[Configure Now Assist for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/now-assist-for-software-asset-management-sam/configure-now-assist-sam.md)
+The following table lists the plugin and store app dependencies for the Contract entitlement data extraction skill in the Yokohama release.
+
+<table id="table_contract_ent_plugins"><thead><tr><th>
+
+Release
+
+</th><th>
+
+Plugin
+
+</th><th>
+
+Store App with Version
+
+</th></tr></thead><tbody><tr><td>
+
+Yokohama Patch 13
+
+</td><td>
+
+-   Software Asset Management Professional \[com.snc.samp\]
+-   Software asset workspace \[sn\_sam\_workspace\]
+
+</td><td>
+
+Now Assist for SAM \[sn\_now\_assist\_sam\] - 4.4.10
+
+</td></tr></tbody>
+</table>## Error log summarization skill
+
+The Error log summarization skill transforms raw and cluttered application logs into clean, structured error summaries through systematic analysis. The skill identifies error patterns and classifies failure types such as API, code, infrastructure, database, and configuration. It traces root causes through stack traces and extracts key technical details while filtering out irrelevant log information. This skill also processes complex log traces that contain multiple errors, timeouts, exceptions, and system failures. It provides concise, actionable error summaries that enable faster debugging and issue resolution. The skill handles various log formats and error patterns across different technology stacks, making it essential while dealing with production incidents.
+
+The following table lists the trigger for the Error log summarization skill.
+
+<table id="table_err_log_sum_trig"><thead><tr><th>
+
+Trigger
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+User triggered
+
+</td><td>
+
+Error log summary is generated when the user manually triggers the skill by selecting **Troubleshoot** on the SaaS integration profile page.
+
+</td></tr></tbody>
+</table>The following table lists the inputs for the Error log summarization skill.
+
+|Input|Description|
+|-----|-----------|
+|Outbound HTTP Logs \[sys\_outbound\_http\_log\]|4xx and 5xx outbound request and response details, scoped by hostname, job sys\_id, and time window.|
+|Flow Execution Context \[sys\_flow\_context\]|Most recent errored flow or subflow execution context for the failing job or validate-connection action.|
+|Action Type Definition \[sys\_hub\_action\_type\_definition\]|Resolves the internal name and scope of the action into the flow source sys\_id that is used for context lookup.|
+|Integration Profile \[samp\_sw\_subscription\_profile\]|Profile metadata and custom properties such as action name, scope, validate timestamps, and troubleshooting parameters that scope the log queries.|
+|Step-Level Execution Reports|Per-step inputs, outputs, and error details that are fetched through FlowExecutionSummaryUtil for the errored context.|
+
+The following table lists the plugin and store app dependencies for the Error log summarization skill in the Yokohama release.
+
+<table id="table_err_log_sum_plugins"><thead><tr><th>
+
+Release
+
+</th><th>
+
+Plugin
+
+</th><th>
+
+Store App with Version
+
+</th></tr></thead><tbody><tr><td>
+
+Yokohama Patch 13
+
+</td><td>
+
+Software Asset Management Professional \[com.snc.samp\]
+
+</td><td>
+
+-   Software Asset Management - SaaS License Management \[sn\_sam\_saas\_int\] - 15.4.2
+-   Now Assist for SAM \[sn\_now\_assist\_sam\] - 4.4.10
+
+</td></tr></tbody>
+</table>## Error resolution recommendation skill
+
+The Error resolution recommendation skill synthesizes the error summary that is produced by the Error log summarization skill with available knowledge resources to generate prioritized, step-by-step resolution guidance. The skill correlates identified errors with knowledge base articles, historical solutions, support cases, and web search results to recommend the most effective troubleshooting approach. The skill consolidates information from multiple sources, removes redundant steps, and sequences actions from quick fixes to comprehensive solutions based on failure type, system impact, and resolution probability.
+
+The following table lists the trigger for the Error resolution recommendation skill.
+
+<table id="table_err_res_rec_trig"><thead><tr><th>
+
+Trigger
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Auto triggered
+
+</td><td>
+
+Resolution recommendations are automatically generated after the Error log summarization skill produces an error summary.
+
+</td></tr></tbody>
+</table>The following table lists the inputs for the Error resolution recommendation skill.
+
+|Input|Description|
+|-----|-----------|
+|Error summary|Consolidated error signature such as status codes, messages, failing action, and profile context that is produced by the Error log summarization skill.|
+|Web search results|External guidance, vendor documentation, and API deprecation or known-issue references that are matched to the error signature.|
+
+The following table lists the plugin and store app dependencies for the Error resolution recommendation skill in the Yokohama release.
+
+<table id="table_err_res_rec_plugins"><thead><tr><th>
+
+Release
+
+</th><th>
+
+Plugin
+
+</th><th>
+
+Store App with Version
+
+</th></tr></thead><tbody><tr><td>
+
+Yokohama Patch 13
+
+</td><td>
+
+Software Asset Management Professional \[com.snc.samp\]
+
+</td><td>
+
+-   Software Asset Management - SaaS License Management \[sn\_sam\_saas\_int\] - 15.4.2
+-   Now Assist for SAM \[sn\_now\_assist\_sam\] - 4.4.10
+
+</td></tr></tbody>
+</table>**Parent Topic:**[Configure ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/now-assist-for-software-asset-management-sam/configure-now-assist-sam.md)
 

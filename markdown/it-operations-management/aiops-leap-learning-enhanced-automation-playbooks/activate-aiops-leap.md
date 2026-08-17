@@ -9,7 +9,7 @@ classification: aiops-leap-learning-enhanced-automation-playbooks
 topic_type: task
 last_updated: "2025-03-13"
 reading_time_minutes: 1
-breadcrumb: [Configuring AIOps LEAP, AIOps Learning Enhanced Automation Playbook \(LEAP\), Now Assist for ITOM, IT Operations Management]
+breadcrumb: [Configuring AIOps LEAP, AIOps Learning Enhanced Automation Playbook \(LEAP\), ServiceNow Otto for ITOM, IT Operations Management]
 ---
 
 # Activate AIOps LEAP
@@ -24,15 +24,15 @@ Role required: System admin or AIOps LEAP admin
 
 1.  Activate **AIOps LEAP** with one of the following options.
 
-<table id="choicetable_bng_jxt_q2c"><thead><tr><th align="left" id="d192513e88">
+<table id="choicetable_bng_jxt_q2c"><thead><tr><th align="left" id="d191441e88">
 
 Options
 
-</th><th align="left" id="d192513e93">
+</th><th align="left" id="d191441e93">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d192513e100">
+</th></tr></thead><tbody><tr><td id="d191441e100">
 
 **Workspaces**
 
@@ -43,9 +43,9 @@ Steps
 3.  On the LEAP installer card, select **Activate skill**.
 
 
-</td></tr><tr><td id="d192513e142">
+</td></tr><tr><td id="d191441e142">
 
-**Now Assist Admin**
+**AI Admin Hub**
 
 </td><td>
 

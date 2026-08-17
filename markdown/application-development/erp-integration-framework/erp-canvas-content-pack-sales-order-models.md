@@ -1,6 +1,6 @@
 ---
-title: Zero Copy Connector for ERP Quote to Cash content pack models
-description: The Zero Copy Connector for ERP Quote to Cash content pack contains models you may need when interacting with an SAP system.
+title: ERP Canvas Quote to Cash content pack models
+description: The ERP Canvas Quote to Cash content pack contains models you may need when interacting with an SAP system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-integration-framework/erp-canvas-content-pack-sales-order-models.html
 release: yokohama
@@ -10,12 +10,12 @@ topic_type: reference
 last_updated: "2025-04-16"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, content, pack, content pack, model]
-breadcrumb: [Zero Copy Connector for ERP Quote to Cash content pack, Zero Copy Connector for ERP content packs, Building and managing ERP models to work with ERP data, Using ERP models, extraction tables, and remote tables, Zero Copy Connector for ERP, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [ERP Canvas Quote to Cash content pack, ERP Canvas content packs, Building and managing ERP models to work with ERP data, Using ERP models, extraction tables, and remote tables, ERP Canvas, Building low-code applications, Developing your application, Building applications]
 ---
 
-# Zero Copy Connector for ERP Quote to Cash content pack models
+# ERP Canvas Quote to Cash content pack models
 
-The Zero Copy Connector for ERP Quote to Cash content pack contains models you may need when interacting with an SAP system.
+The ERP Canvas Quote to Cash content pack contains models you may need when interacting with an SAP system.
 
 ## Quote to Cash content pack models
 
@@ -25,5 +25,5 @@ The Zero Copy Connector for ERP Quote to Cash content pack contains models you m
 |Create Sales Order|Create a sales order with one or more items.|
 |Read Sales Order|Retrieve sales order details based on sales order number.|
 
-**Parent Topic:**[Zero Copy Connector for ERP Quote to Cash content pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-sales-order-content-pack.md)
+**Parent Topic:**[ERP Canvas Quote to Cash content pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-sales-order-content-pack.md)
 

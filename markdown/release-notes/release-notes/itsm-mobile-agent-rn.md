@@ -21,13 +21,13 @@ Starting in the 9.1 release, you can do the following:
 -   Set the incident impact and urgency levels to set the incident priority level automatically.
 -   Redirect from the mobile web browser to the ITSM Mobile Agent app seamlessly when opening and viewing different task records.
 
-See [ITSM Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/itsm-mobile-agent.md) for more information.
+See  for more information.
 
 **Important:** ITSM Mobile Agent is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Yokohama release
 
--   **[Summarize the incident record and activity information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/gen-inc-rec-task-summariz.md)**
+-   **Summarize the incident record and activity information**
 
     When adding work notes to an incident record, use the GenAI task summarization capabilities to summarize an incident record and activity information, such as the issue details or actions taken.
 
@@ -36,13 +36,13 @@ See [ITSM Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowD
     -   My team applet
     -   Major incidents
     -   My work
-    To enable this feature in ITSM Mobile Agent, you must configure the Incident summarization skill in Now Assist for ITSM.
+    To enable this feature in ITSM Mobile Agent, you must configure the Incident summarization skill in ServiceNow Otto for ITSM.
 
--   **[Set alert tones for incident with different priority levels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/set-alert-tones-incident-priority.md)**
+-   **Set alert tones for incident with different priority levels**
 
     Set alert tones for incident with different priority levels. The alert tone can notify you of important actions so you can respond to them quickly.
 
--   **[Email notification redirection behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/my-work-application.md)**
+-   **Email notification redirection behavior**
 
     Redirect from the mobile web browser to the ITSM Mobile Agent app seamlessly when opening and viewing different task records. This feature is applicable on the following type of records:
 
@@ -55,14 +55,14 @@ See [ITSM Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowD
 
     -   The ITSM Mobile Agent application is installed on the mobile device.
     -   The **Enable universal links** \(**glide.sg.universal\_links.enabled**\) system property is set to `true`.
--   **[Set the incident impact, urgency, and priority levels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/create-incident-mobile.md)**
+-   **Set the incident impact, urgency, and priority levels**
 
     Automatically set the incident priority level by defining the impact and urgency levels. This feature determines an incident priority level by maintaining uniform synchronization and consistency between the priority, impact, and urgency levels. When you edit the **Impact** and **Urgency** fields, you must add to the **Work notes** field.
 
 
 ## Activation information
 
-Install ITSM Mobile Agent by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install ITSM Mobile Agent by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 **Parent Topic:**[IT Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/it-service-management-rn-landing.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Handling the external events using Telecommunications API notification
+title: Handling external events using Telecommunications API
 description: Use the Telecommunications API notification to receive the external events that occurring in the customer network system so that you can promptly respond to them in the ServiceNow AI Platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-service-ops/telecommunications-service-operations-management/telecommunications-api-notification.html
@@ -12,7 +12,7 @@ reading_time_minutes: 4
 breadcrumb: [Telecommunications Service Operations Management]
 ---
 
-# Handling the external events using Telecommunications API notification
+# Handling external events using Telecommunications API
 
 Use the Telecommunications API notification to receive the external events that occurring in the customer network system so that you can promptly respond to them in the ServiceNow AI Platform.
 
@@ -41,10 +41,10 @@ The following steps help to configure the Telecommunications API notification in
 
 1.  [Create a topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-service-ops/telecommunications-service-operations-management/create-topic-API-notification.md): You can create topics either by manually typing the external message details or automatically collecting the available topics from the external system.
 2.  [Create a topic subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-service-ops/telecommunications-service-operations-management/create-subscription-api-notification.md): You subscribe to the available topics for incoming notifications from the external system, based on the customer preference. Additionally, you generate the callback URL and register the subscription.
-3.  [Activate the endpoint of the Telecommunications Alarm Management Open API connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-service-ops/telecommunications-service-operations-management/activate-endpoint-in-the-telecommunications-alarm-management-open-api.md): To receive responses from the external system, activate the subscribed endpoints of the Telecommunications Alarm Management Open API connection in the Workflow Studio.
+3.  [Activate Telecom Alarm Management endpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-service-ops/telecommunications-service-operations-management/activate-endpoint-in-the-telecommunications-alarm-management-open-api.md): To receive responses from the external system, activate the subscribed endpoints of the Telecommunications Alarm Management Open API connection in the Workflow Studio.
 4.  Provide the callback URL to the external system for receiving notifications. Customer can also reuse the callback URL. When requests from TMF 688 hit the Callback URL, it initiates the Default Alarm Event Notification Trigger flow to create an event.
 
-    To learn more about the functions to handle Event Notification Management Open API requests that are triggered by external trigger definitions to create, update, and delete events, see [Event Notification Management Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/event_open-api.md) and [TMFTopicEventAPIUtilOOB - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/tmftopiceventapiutiloobScopedAPI.md).
+    External trigger definitions create, update, and delete events. For more information about the functions to handle Event Notification Management Open API requests, see [Event Notification Management Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/event_open-api.md). See also [TMFTopicEventAPIUtilOOB - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/tmftopiceventapiutiloobScopedAPI.md).
 
 
 This workflow creates an event in the Event Management application. To learn more about using Event Management, see [Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/c_EM.md).
@@ -53,7 +53,7 @@ This workflow creates an event in the Event Management application. To learn mor
 Create a topic and publish the incoming notifications from the external system to the topic. By creating the topics, subscribers can select the topics to which they want to subscribe.
 -   **[Create a topic subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-service-ops/telecommunications-service-operations-management/create-subscription-api-notification.md)**  
 Subscribe to the topic in the ServiceNow AI Platform that you want respond to the incoming notification from the external system. By subscribing to the topic, the subscriber receives the notifications based on the topics that you subscribe to.
--   **[Activate the endpoint of the Telecommunications Alarm Management Open API connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-service-ops/telecommunications-service-operations-management/activate-endpoint-in-the-telecommunications-alarm-management-open-api.md)**  
+-   **[Activate Telecom Alarm Management endpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-service-ops/telecommunications-service-operations-management/activate-endpoint-in-the-telecommunications-alarm-management-open-api.md)**  
 Activate the endpoint of the Telecommunications Alarm Management Open API connection. By activating the endpoint, you receive the incoming notifications from the external system for the topic that you registered.
 -   **[Telecommunications API notification user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-service-ops/telecommunications-service-operations-management/alarm-management-user-roles.md)**  
 Administrators can assign user roles to grant access to the API notification database tables. The following standard roles for the Topic \[sn\_api\_notif\_mgmt\_topic\] and Topic Subscription \[sn\_api\_notif\_mgmt\_subscription\] tables are included in the ServiceNow system.

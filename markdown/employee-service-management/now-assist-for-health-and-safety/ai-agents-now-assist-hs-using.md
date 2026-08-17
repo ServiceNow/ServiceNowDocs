@@ -9,7 +9,7 @@ classification: now-assist-for-health-and-safety
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Now Assist for Health and Safety, Health and Safety, Employee Service Management]
+breadcrumb: [ServiceNow Otto for Health and Safety, Health and Safety, Employee Service Management]
 ---
 
 # Using AI agents in Now Assist for Health and Safety Incident Management

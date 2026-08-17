@@ -1,6 +1,6 @@
 ---
 title: Standard ERP-CM fields within remote tables
-description: The standard ERP \(Enterprise Resource Planning\) remote tables available for use in ERP Semantic Mining \(ERP-CM\) contain fields from additional SAP tables.
+description: The standard ERP \(Enterprise Resource Planning\) remote tables available for use in ERP Customization Mining \(ERP-CM\) contain fields from additional SAP tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-customization-mining/standard-ecm-tables-within-tables.html
 release: yokohama
@@ -9,12 +9,12 @@ classification: erp-customization-mining
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 5
-breadcrumb: [ERP-CM standard tables and fields, ERP Semantic Mining reference, ERP Semantic Mining \(ERP-CM\), Building low-code applications, Developing your application, Building applications]
+breadcrumb: [ERP-CM standard tables and fields, ERP Customization Mining reference, ERP Customization Mining \(ERP-CM\), Building low-code applications, Developing your application, Building applications]
 ---
 
 # Standard ERP-CM fields within remote tables
 
-The standard ERP \(Enterprise Resource Planning\) remote tables available for use in ERP Semantic Mining \(ERP-CM\) contain fields from additional SAP tables.
+The standard ERP \(Enterprise Resource Planning\) remote tables available for use in ERP Customization Mining \(ERP-CM\) contain fields from additional SAP tables.
 
 The standard remote tables contain the following additional fields. For details on the standard tables, see [Standard remote tables for ERP-CM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/erp-ecm-standard-remote-tables.md).
 

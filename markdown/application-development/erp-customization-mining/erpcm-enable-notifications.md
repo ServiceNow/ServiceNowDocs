@@ -1,6 +1,6 @@
 ---
 title: Configure notifications for ERP-CM tasks
-description: Enable notifications to find out when ERP Semantic Mining \(ERP-CM\) succeeds or fails in a mining job for the ERP \(Enterprise Resource Planning\) system of record.
+description: Enable notifications to find out when ERP Customization Mining \(ERP-CM\) succeeds or fails in a mining job for the ERP \(Enterprise Resource Planning\) system of record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-customization-mining/erpcm-enable-notifications.html
 release: yokohama
@@ -9,16 +9,16 @@ classification: erp-customization-mining
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Configuring ERP Semantic Mining, ERP Semantic Mining \(ERP-CM\), Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Configuring ERP Customization Mining, ERP Customization Mining \(ERP-CM\), Building low-code applications, Developing your application, Building applications]
 ---
 
 # Configure notifications for ERP-CM tasks
 
-Enable notifications to find out when ERP Semantic Mining \(ERP-CM\) succeeds or fails in a mining job for the ERP \(Enterprise Resource Planning\) system of record.
+Enable notifications to find out when ERP Customization Mining \(ERP-CM\) succeeds or fails in a mining job for the ERP \(Enterprise Resource Planning\) system of record.
 
 ## Before you begin
 
-Before you can set up notifications for yourself, your admin must add you to the ERP Semantic Mining Notification group. For more information, see [Add a user to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AddAUserToAGroup.md).
+Before you can set up notifications for yourself, your admin must add you to the ERP Customization Mining Notification group. For more information, see [Add a user to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AddAUserToAGroup.md).
 
 Role required: sn\_erp\_mining.erp\_admin, sn\_erp\_mining.erp\_user
 
@@ -94,5 +94,5 @@ Select the notification that you want. The options are:-   **ERP Extraction Comp
 
 The notification email you receive contains a link that takes you to the record for the customization mining job. You can view the progress of its tasks by selecting the **Show training progress** Related Link. The tasks there also appear in the Connection tasks overview list on the **Overview** tab of the Connection status page. You could then select to **Show matching** on a day's **Task period** value in the Connection tasks overview list to see the status of all tasks for that day.
 
-**Parent Topic:**[Configuring ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/configuring-ecm.md)
+**Parent Topic:**[Configuring ERP Customization Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/configuring-ecm.md)
 

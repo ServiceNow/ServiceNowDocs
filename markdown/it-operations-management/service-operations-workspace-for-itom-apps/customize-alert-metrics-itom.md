@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
 keywords: [Alert metrics in SOW ITOM, Metric trends in SOW ITOM]
-breadcrumb: [Service Operations Workspace, Configuring Service Operations Workspace for ITOM, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
+breadcrumb: [Service Operations Workspace, Configuring Service Operations Workspace for ITOM, Service Operations Workspace for ITOM, ITOM Health, IT Operations Management]
 ---
 
 # View alert metric trends in Service Operations Workspace

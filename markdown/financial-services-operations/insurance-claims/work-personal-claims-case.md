@@ -20,7 +20,7 @@ An adjuster can review a claim to verify documents, evaluate claim coverages, de
 
 Role required: sn\_ins\_claim\_pers.auto\_adjuster
 
-**Important:** To access the Claim workspace, Fraud score, and Summary adjuster workspace related tabs, you must activate the CSM default record page. By default, the page is set to inactive. To determine the default page for displaying records in CSM Configurable Workspace, see [CSM Configurable Workspace record pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/csm-config-workspace-record-pages.md)
+**Important:** To access the Claim workspace, Fraud score, and Summary adjuster workspace related tabs, you must activate the CSM default record page. By default, the page is set to inactive. To determine the default page for displaying records in CSM Configurable Workspace, see CSM Configurable Workspace record pages
 
 Update and close the adjuster tasks of the claim case.
 
@@ -30,15 +30,15 @@ Update and close the adjuster tasks of the claim case.
 
 2.  Open the task one of the following ways.
 
-<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d101265e77">
+<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d100856e77">
 
 Option
 
-</th><th align="left" id="d101265e80">
+</th><th align="left" id="d100856e80">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d101265e86">
+</th></tr></thead><tbody><tr><td id="d100856e86">
 
 **From the landing page**
 
@@ -46,7 +46,7 @@ Steps
 
 Select a task from the All open claims list.
 
-</td></tr><tr><td id="d101265e95">
+</td></tr><tr><td id="d100856e95">
 
 **From the Personal auto claim adjuster tasks list**
 
@@ -62,15 +62,15 @@ Select a task from the All open claims list.
 
 4.  Work on the adjuster task by completing various actions from the claim workspace.
 
-<table id="claim-workspace-actions-table"><thead><tr><th align="left" id="d101265e146">
+<table id="claim-workspace-actions-table"><thead><tr><th align="left" id="d100856e146">
 
 Claim task
 
-</th><th align="left" id="d101265e149">
+</th><th align="left" id="d100856e149">
 
 Claim workspace actions
 
-</th></tr></thead><tbody><tr><td id="d101265e158">
+</th></tr></thead><tbody><tr><td id="d100856e158">
 
 **To add a document verification task**
 
@@ -81,7 +81,7 @@ Claim workspace actions
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d101265e188">
+</td></tr><tr><td id="d100856e188">
 
 **To verify a document**
 
@@ -89,7 +89,7 @@ Claim workspace actions
 
 Select **Verify** to verify the document or **Reject** to reject the submitted document for verification.
 
-</td></tr><tr><td id="d101265e203">
+</td></tr><tr><td id="d100856e203">
 
 **To add claim coverage**
 
@@ -102,7 +102,7 @@ Select **Verify** to verify the document or **Reject** to reject the submitted d
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d101265e239">
+</td></tr><tr><td id="d100856e239">
 
 **To add a reserve or payment**
 
@@ -115,7 +115,7 @@ Select **Verify** to verify the document or **Reject** to reject the submitted d
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d101265e273">
+</td></tr><tr><td id="d100856e273">
 
 **To add an ad-hoc claim task**
 
@@ -126,7 +126,7 @@ Select **Verify** to verify the document or **Reject** to reject the submitted d
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d101265e300">
+</td></tr><tr><td id="d100856e300">
 
 **To submit a reserve or payment amount for approval**
 
@@ -136,7 +136,7 @@ Select **Approve** to approve or **Reject** to reject the reserve or payment amo
 2.  Select **Submit**.
 
 
-</td></tr><tr><td id="d101265e329">
+</td></tr><tr><td id="d100856e329">
 
 **To refer a claim for fraud evaluation**
 
@@ -144,7 +144,7 @@ Select **Approve** to approve or **Reject** to reject the reserve or payment amo
 
 Select **Send to SIU**.
 
-</td></tr><tr><td id="d101265e341">
+</td></tr><tr><td id="d100856e341">
 
 **To submit a claim settlement decision**
 

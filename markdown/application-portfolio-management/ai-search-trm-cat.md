@@ -14,7 +14,7 @@ breadcrumb: [Working with the publishing center, Enterprise Architecture Workspa
 
 Use the Now Assist panel to search published Technology Reference Model \(TRM\) catalog records using natural language queries.
 
-Installing the May 2026 EA Workspace update with Now Assist for EA automatically registers the TRM catalog as a searchable source in AI Search. You can then use the Now Assist panel to ask natural language questions about your published TRM catalog records and get answers with citations linked to the source knowledge articles.
+Installing the May 2026 EA Workspace update with ServiceNow Otto for EA automatically registers the TRM catalog as a searchable source in AI Search. You can then use the Now Assist panel to ask natural language questions about your published TRM catalog records and get answers with citations linked to the source knowledge articles.
 
 For example, you can ask the Now Assist panel questions such as *List all published TRM products* and receive a summarized response with references to the relevant catalog records.
 
@@ -43,7 +43,7 @@ Before you can search TRM catalog records using AI Search, verify the following 
 
 -   AI Search is activated. Navigate to **All** and search for **AI Search Status**. The status page must display **AI Search is ready**.
 -   Now Assist panel is enabled. Navigate to **Now Assist admin** &gt; **Now Assist Experiences** &gt; **Now Assist panel** and verify that the panel is turned on. For instructions, see [Activate Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/activate-now-assist-panel.md).
--   Install the Now Assist for EA plugin. For instructions, see [Configure Now Assist for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/configure-now-assist-ea.md).
+-   Install the ServiceNow Otto for EA plugin. For instructions, see [Configure ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/configure-now-assist-ea.md).
 -   At least one TRM catalog is published to a knowledge base. AI Search returns results only for published records. See [Publish a TRM catalog to the knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/publish-trm-cat-to-kb.md).
 
 -   **[Index previously published TRM catalog records for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/index-archive-pub-trm-cat.md)**  

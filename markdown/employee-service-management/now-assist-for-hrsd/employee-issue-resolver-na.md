@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2025-04-07"
 reading_time_minutes: 3
 keywords: [AI agents, agentic AI]
-breadcrumb: [Use agentic workflows, Now Assist for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
+breadcrumb: [Use agentic workflows, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
 # Resolve HR cases agentic workflow
@@ -76,5 +76,5 @@ The AI agent creates a fulfillment plan for a given HR case by fetching HR case 
 -   **[Generate a fulfillment plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/generate-rp.md)**  
 Auto-generate a fulfillment/execution plan for a case, helping in faster resolution of the HR case.
 
-**Parent Topic:**[Using agentic workflows in Now Assist for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-ai-agents-use-cases.md)
+**Parent Topic:**[Using agentic workflows in ServiceNow Otto for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-ai-agents-use-cases.md)
 

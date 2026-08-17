@@ -7,7 +7,7 @@ release: yokohama
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Using customer success, Customer success, Customer Success Management]
+breadcrumb: [Using customer success, Customer success, Account Lifecycle Events]
 ---
 
 # View customer success cases in the Customer Service Portal

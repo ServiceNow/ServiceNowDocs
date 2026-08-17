@@ -1,6 +1,6 @@
 ---
-title: Summarize a case by using Now Assist for Supplier Lifecycle Operations \(SLO\) in Source-to-Pay Workspace
-description: Summarize supplier-related cases to learn more about their status, progress, and action items by using the supplier case summarization skill in the Now Assist for Supplier Lifecycle Operations \(SLO\) application.
+title: Summarize a case by using ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) in Source-to-Pay Workspace
+description: Summarize supplier-related cases to learn more about their status, progress, and action items by using the supplier case summarization skill in the ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-summarize-case.html
 release: yokohama
@@ -10,12 +10,12 @@ topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 2
 keywords: [generative AI, gen AI, genai, artificial intelligence]
-breadcrumb: [Use Now Assist for Supplier Lifecycle Operations \(SLO\), Now Assist for Supplier Lifecycle Operations \(SLO\), Supplier Lifecycle Operations, Finance and Supply Chain]
+breadcrumb: [Use ServiceNow Otto for Supplier Lifecycle Operations \(SLO\), ServiceNow Otto for Supplier Lifecycle Operations \(SLO\), Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 
-# Summarize a case by using Now Assist for Supplier Lifecycle Operations \(SLO\) in Source-to-Pay Workspace
+# Summarize a case by using ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) in Source-to-Pay Workspace
 
-Summarize supplier-related cases to learn more about their status, progress, and action items by using the supplier case summarization skill in the Now Assist for Supplier Lifecycle Operations \(SLO\) application.
+Summarize supplier-related cases to learn more about their status, progress, and action items by using the supplier case summarization skill in the ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) application.
 
 ## Before you begin
 
@@ -55,15 +55,15 @@ You can use the supplier case summarization skill in either Core UI or Source-to
     -   **Next steps**: Lists the actions that the supplier managers must take next.
 7.  When you finish summarizing a case, you can add it to the work notes, expand or collapse it, provide feedback, copy it, or view information about it.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d37432e209">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d37333e209">
 
 Option
 
-</th><th align="left" id="d37432e212">
+</th><th align="left" id="d37333e212">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d37432e218">
+</th></tr></thead><tbody><tr><td id="d37333e218">
 
 **Save the summary information by adding it to the record work notes**
 
@@ -74,7 +74,7 @@ Procedure
 3.  Select **Save to work notes**.
 
 
-</td></tr><tr><td id="d37432e245">
+</td></tr><tr><td id="d37333e245">
 
 **Expand or collapse the summary**
 
@@ -82,7 +82,7 @@ Procedure
 
 Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: Expand card icon.\) or the collapse card icon \(\[Omitted image "icon-collapse.png"\] Alt text: Collapse card icon.\) to see more details or fewer summary details.
 
-</td></tr><tr><td id="d37432e266">
+</td></tr><tr><td id="d37333e266">
 
 **Provide feedback for the summary**
 
@@ -90,7 +90,7 @@ Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: Expa
 
 If you think that the summary was helpful, select the helpful icon \(\[Omitted image "icon-helpful.png"\] Alt text: Helpful icon.\). If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).This feedback improves the generative AI model and can help to improve the future versions of this skill.
 
-</td></tr><tr><td id="d37432e289">
+</td></tr><tr><td id="d37333e289">
 
 **Copy the record summary**
 
@@ -98,7 +98,7 @@ If you think that the summary was helpful, select the helpful icon \(\[Omitted i
 
 Select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text: Copy to clipboard icon.\) to use the record summary information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d37432e305">
+</td></tr><tr><td id="d37333e305">
 
 **View the information about the record summary**
 
@@ -106,7 +106,7 @@ Select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text: 
 
 If you want to check some details about the summary, select the more info icon \(\[Omitted image "icon-more-info.png"\] Alt text: More info icon.\).
 
-</td></tr><tr><td id="d37432e320">
+</td></tr><tr><td id="d37333e320">
 
 **Refresh the record summary**
 

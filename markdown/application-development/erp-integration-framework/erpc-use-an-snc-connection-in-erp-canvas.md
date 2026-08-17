@@ -1,5 +1,5 @@
 ---
-title: Use an SNC connection in Zero Copy Connector for ERP
+title: Use an SNC connection in ERP Canvas
 description: Use Secure Network Communication \(SNC\) for data communications between ServiceNow MID Server and SAP systems.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-integration-framework/erpc-use-an-snc-connection-in-erp-canvas.html
@@ -9,10 +9,10 @@ classification: erp-integration-framework
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configuring Zero Copy Connector for ERP, Zero Copy Connector for ERP, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Configuring ERP Canvas, ERP Canvas, Building low-code applications, Developing your application, Building applications]
 ---
 
-# Use an SNC connection in Zero Copy Connector for ERP
+# Use an SNC connection in ERP Canvas
 
 Use Secure Network Communication \(SNC\) for data communications between ServiceNow MID Server and SAP systems.
 
@@ -28,8 +28,8 @@ SNC is used to:
 
 SNC operates within the SAP NetWeaver Application Server \(AS\) environment. It utilizes the GSS-API \(Generic Security Services Application Program Interface\) to integrate with external security libraries and products. Commonly used security libraries include Kerberos-based solutions and SAP's own Secure Login Library \(SLL\).
 
--   **[Configure an SNC connection in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erpc-configure-an-snc-connection-in-erp-canvas.md)**  
+-   **[Configure an SNC connection in ERP Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erpc-configure-an-snc-connection-in-erp-canvas.md)**  
 Learn how to set up SNC, including preparing the environment, configuring the SAP system, and testing the configuration.
 
-**Parent Topic:**[Configuring Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-integration-configuration-overview.md)
+**Parent Topic:**[Configuring ERP Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-integration-configuration-overview.md)
 

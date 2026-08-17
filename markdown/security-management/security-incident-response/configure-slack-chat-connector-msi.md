@@ -43,3 +43,5 @@ Chat message activity is recorded and displayed on the Collaboration tab of the 
 
 [Configure Microsoft Teams]()
 
+[Customize SI to MSI flows \(optional\)]()
+

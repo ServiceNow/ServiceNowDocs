@@ -74,7 +74,7 @@ Guided Tours provide step-by-step instructions on your ServiceNow® instance to 
 
 [Configuring Attended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/rda-runtime-setup.md)
 
-[Configure Now Assist for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/configure-now-assist-rpa-hub.md)
+[Configure ServiceNow Otto for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/configure-now-assist-rpa-hub.md)
 
 [Configuring RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/rpa-studio-configure.md)
 

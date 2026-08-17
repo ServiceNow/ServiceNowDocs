@@ -7,7 +7,7 @@ release: yokohama
 topic_type: task
 last_updated: "2026-02-09"
 reading_time_minutes: 2
-breadcrumb: [Configuring synthetic monitoring, Synthetic monitoring, ITOM AIOps, IT Operations Management]
+breadcrumb: [Configuring synthetic monitoring, Synthetic monitoring, ITOM Health, IT Operations Management]
 ---
 
 # Create synthetic monitors from incidents

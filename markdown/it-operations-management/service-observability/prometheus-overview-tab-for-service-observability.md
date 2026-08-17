@@ -9,7 +9,7 @@ classification: service-observability
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Prometheus templates, Service Observability templates, Service Observability reference, Service Observability, ITOM AIOps, IT Operations Management]
+breadcrumb: [Prometheus templates, Service Observability templates, Service Observability reference, Service Observability, ITOM Health, IT Operations Management]
 ---
 
 # Prometheus Overview tab for Service Observability

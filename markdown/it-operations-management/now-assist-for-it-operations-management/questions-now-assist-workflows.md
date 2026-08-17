@@ -1,6 +1,6 @@
 ---
 title: Questions for the analyze alert impact agentic workflow
-description: Questions to ask about alerts in the Now Assist for IT Operations Management \(ITOM\) analyze alert impact agentic workflow.
+description: Questions to ask about alerts in the ServiceNow Otto for IT Operations Management \(ITOM\) analyze alert impact agentic workflow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/now-assist-for-it-operations-management/questions-now-assist-workflows.html
 release: yokohama
@@ -9,12 +9,12 @@ classification: now-assist-for-it-operations-management
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Now Assist for ITOM reference, Now Assist for ITOM, IT Operations Management]
+breadcrumb: [ServiceNow Otto for ITOM reference, ServiceNow Otto for ITOM, IT Operations Management]
 ---
 
 # Questions for the analyze alert impact agentic workflow
 
-Questions to ask about alerts in the Now Assist for IT Operations Management \(ITOM\) analyze alert impact agentic workflow.
+Questions to ask about alerts in the ServiceNow Otto for IT Operations Management \(ITOM\) analyze alert impact agentic workflow.
 
 ## Questions organized by alert source
 
@@ -64,5 +64,5 @@ New Relic
 -   Who owns the impacted entity for this alert?
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Now Assist for IT Operations Management \(ITOM\) reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-reference.md)
+</table>**Parent Topic:**[ServiceNow Otto for IT Operations Management \(ITOM\) reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-reference.md)
 

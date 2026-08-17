@@ -1,6 +1,6 @@
 ---
 title: Generate a risk assessment summary
-description: Generate a risk assessment summary that is based on your inherent risks, residual risks, target risks, and control effectiveness data by using the Now Assist for IRM application. Your approvers get the key insights to understand the context quickly, and you reduce the time involved in creating summaries manually.
+description: Generate a risk assessment summary that is based on your inherent risks, residual risks, target risks, and control effectiveness data by using the ServiceNow Otto for IRM application. Your approvers get the key insights to understand the context quickly, and you reduce the time involved in creating summaries manually.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/grc-common-functions/generate-risk-assessment-summary-genai.html
 release: yokohama
@@ -14,11 +14,11 @@ breadcrumb: [Use generative AI skills, Now Assist, Common GRC features, Governan
 
 # Generate a risk assessment summary
 
-Generate a risk assessment summary that is based on your inherent risks, residual risks, target risks, and control effectiveness data by using the Now Assist for IRM application. Your approvers get the key insights to understand the context quickly, and you reduce the time involved in creating summaries manually.
+Generate a risk assessment summary that is based on your inherent risks, residual risks, target risks, and control effectiveness data by using the ServiceNow Otto for IRM application. Your approvers get the key insights to understand the context quickly, and you reduce the time involved in creating summaries manually.
 
 ## Before you begin
 
-Install the Now Assist for IRM application to generate a risk assessment summary. For more information, see [Now Assist for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/now-assist-for-irm.md).
+Install the ServiceNow Otto for IRM application to generate a risk assessment summary. For more information, see [ServiceNow Otto for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/now-assist-for-irm.md).
 
 **Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 

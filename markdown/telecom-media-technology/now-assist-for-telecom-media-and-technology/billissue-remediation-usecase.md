@@ -1,5 +1,5 @@
 ---
-title: Now Assist for Telecommunications, Media and Technology \(TMT\) AI agent collection Help remediate bill issues agentic workflow
+title: ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) AI agent collection Help remediate bill issues agentic workflow
 description: Use the Help remediate bill issues agentic workflow to handle the billing inquiry case requests and recommend better plans based on the customer usage.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-media-technology/now-assist-for-telecom-media-and-technology/billissue-remediation-usecase.html
@@ -9,10 +9,10 @@ classification: now-assist-for-telecom-media-and-technology
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Customer Service Problem Management agentic workflows, Use agentic workflows, Now Assist for Telecommunications, Media and Technology \(TMT\), Telecommunications, Media, and Technology]
+breadcrumb: [Customer Service Problem Management agentic workflows, Use agentic workflows, ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\), Telecommunications, Media, and Technology]
 ---
 
-# Now Assist for Telecommunications, Media and Technology \(TMT\) AI agent collection Help remediate bill issues agentic workflow
+# ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) AI agent collection Help remediate bill issues agentic workflow
 
 Use the Help remediate bill issues agentic workflow to handle the billing inquiry case requests and recommend better plans based on the customer usage.
 

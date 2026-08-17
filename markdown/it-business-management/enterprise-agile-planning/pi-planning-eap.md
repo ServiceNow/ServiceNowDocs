@@ -67,7 +67,7 @@ As with Backlog, you can change the **Type** of work items displayed and create 
 Use the following tasks to get started with PI Planning within Enterprise Agile Planning.
 
 -   **[Plan work for an ART in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/plan-work-for-teams-using-planning-board-in-eap.md)**  
-Plan work across all teams in an ART for multiple Planning Intervals, coordinate with different teams to manage dependencies and resolve blockers in real-time using the Planning board in Enterprise Agile Planning.
+Plan work across all teams in an ART for multiple Planning Intervals. Coordinate with different teams to manage dependencies and resolve blockers in real-time using the Planning board in Enterprise Agile Planning.
 -   **[Work item dependencies in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/work-item-dependencies-in-eap.md)**  
 Learn about work item dependencies and how they're shown on the Planning board for a team in Enterprise Agile Planning.
 -   **[Personalize the EAP Planning board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/personalize-cards-in-eap-planning-board.md)**  

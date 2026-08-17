@@ -1,6 +1,6 @@
 ---
-title: Using Zero Copy Connector for ERP content packs
-description: Learn how to use Zero Copy Connector for ERP content packs, from cloning a model to working within a scope. Content pack models and process extensions are examples.
+title: Using ERP Canvas content packs
+description: Learn how to use ERP Canvas content packs, from cloning a model to working within a scope. Content pack models and process extensions are examples.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-integration-framework/erp-canvas-using-content-packs.html
 release: yokohama
@@ -8,13 +8,13 @@ product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: task
 last_updated: "2025-04-17"
-reading_time_minutes: 4
-breadcrumb: [Zero Copy Connector for ERP content packs, Building and managing ERP models to work with ERP data, Using ERP models, extraction tables, and remote tables, Zero Copy Connector for ERP, Building low-code applications, Developing your application, Building applications]
+reading_time_minutes: 3
+breadcrumb: [ERP Canvas content packs, Building and managing ERP models to work with ERP data, Using ERP models, extraction tables, and remote tables, ERP Canvas, Building low-code applications, Developing your application, Building applications]
 ---
 
-# Using Zero Copy Connector for ERP content packs
+# Using ERP Canvas content packs
 
-Learn how to use Zero Copy Connector for ERP content packs, from cloning a model to working within a scope. Content pack models and process extensions are examples.
+Learn how to use ERP Canvas content packs, from cloning a model to working within a scope. Content pack models and process extensions are examples.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: sn\_erp\_integration.erp\_admin
 
 Follow these steps to create an application in a new application scope and clone a content pack model within that same scope. Using this process packages the application with its own scope and a cloned model that you can edit. Working in a scope creates ownership of the application and cloned model. The owner can give access to others to edit the application and cloned model.
 
-Before completing the procedure, it may be helpful to review the list of [Available Zero Copy Connector for ERP content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-available-content-packs.md) and to [Explore an Zero Copy Connector for ERP content pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-explore-a-content-pack.md) to review its contents.
+Before completing the procedure, it may be helpful to review the list of [Available ERP Canvas content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-available-content-packs.md) and to [Explore an ERP Canvas content pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-explore-a-content-pack.md) to review its contents.
 
 ## Procedure
 
@@ -47,7 +47,7 @@ Before completing the procedure, it may be helpful to review the list of [Availa
 
     4.  Select **Update**.
 
-3.  Navigate to **All** &gt; **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home**.
+3.  Navigate to **All** &gt; **ERP Canvas** &gt; **ERP Canvas Home**.
 
 4.  Open the ERP models page by selecting the ERP models icon \(\[Omitted image "erpc-data-model-icon.png"\] Alt text: ERP model icon\) in the side panel.
 
@@ -81,7 +81,7 @@ Before completing the procedure, it may be helpful to review the list of [Availa
 
         \[Omitted image "erpc-cloned-success-content-pack-model.png"\] Alt text: Model page with success message highlighted.
 
-        For more information about cloning models, see [Clone an ERP model in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-clone-data-model.md).
+        For more information about cloning models, see [Clone an ERP model in ERP Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-clone-data-model.md).
 
     4.  Select the **Models** tab.
 
@@ -96,5 +96,5 @@ Before completing the procedure, it may be helpful to review the list of [Availa
 
 Explore the new, cloned model and make changes as needed. For example, edit the mappings, inputs, or outputs. For more information, see [Building and managing ERP models to work with ERP data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/work-with-erp-data-models.md).
 
-**Parent Topic:**[Zero Copy Connector for ERP content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-content-packs.md)
+**Parent Topic:**[ERP Canvas content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-content-packs.md)
 

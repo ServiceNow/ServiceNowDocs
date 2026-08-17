@@ -29,9 +29,9 @@ The Now Assist Assessment Home Page tab details the go or no-go status for Now A
 
 -   Now Assist for AI Search
 -   Now Assist for Virtual Agent
--   Now Assist for IT Service Management \(ITSM\)
--   Now Assist for Customer Service Management \(CSM\)
--   Now Assist for HR Service Delivery \(HRSD\)
+-   ServiceNow Otto for IT Service Management \(ITSM\)
+-   ServiceNow Otto for Customer Service Management \(CSM\)
+-   ServiceNow Otto for HR Service Delivery \(HRSD\)
 
 \[Omitted image "nare-home-na-assessment-home-page.png"\] Alt text: Now Assist Assessment Home Page showing green Go buttons for all five supported Now Assist products.
 

@@ -1,5 +1,5 @@
 ---
-title: Now Assist for Telecommunications, Media and Technology \(TMT\) AI agent collection trigger risk mitigation touchpoint
+title: ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) AI agent collection trigger risk mitigation touchpoint
 description: Use the Trigger risk mitigation touchpoint agentic workflow to schedule and edit a touchpoint meeting for a specific user.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-touchpoint-meeting-scheduler.html
@@ -9,10 +9,10 @@ classification: now-assist-for-telecom-media-and-technology
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Customer success agentic workflows, Use agentic workflows, Now Assist for Telecommunications, Media and Technology \(TMT\), Telecommunications, Media, and Technology]
+breadcrumb: [Customer success agentic workflows, Use agentic workflows, ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\), Telecommunications, Media, and Technology]
 ---
 
-# Now Assist for Telecommunications, Media and Technology \(TMT\) AI agent collection trigger risk mitigation touchpoint
+# ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) AI agent collection trigger risk mitigation touchpoint
 
 Use the Trigger risk mitigation touchpoint agentic workflow to schedule and edit a touchpoint meeting for a specific user.
 

@@ -1,6 +1,6 @@
 ---
-title: Standard remote tables for Zero Copy Connector for ERP
-description: Zero Copy Connector for ERP accesses several standard remote tables for ERP \(Enterprise Resource Planning\) models.
+title: Standard remote tables for ERP Canvas
+description: ERP Canvas accesses several standard remote tables for ERP \(Enterprise Resource Planning\) models.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-integration-framework/erpi-standard-remote-tables.html
 release: yokohama
@@ -8,15 +8,15 @@ product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: reference
 last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Zero Copy Connector for ERP standard tables, fields, and models, Zero Copy Connector for ERP reference, Zero Copy Connector for ERP, Building low-code applications, Developing your application, Building applications]
+reading_time_minutes: 1
+breadcrumb: [ERP Canvas standard tables, fields, and models, ERP Canvas reference, ERP Canvas, Building low-code applications, Developing your application, Building applications]
 ---
 
-# Standard remote tables for Zero Copy Connector for ERP
+# Standard remote tables for ERP Canvas
 
-Zero Copy Connector for ERP accesses several standard remote tables for ERP \(Enterprise Resource Planning\) models.
+ERP Canvas accesses several standard remote tables for ERP \(Enterprise Resource Planning\) models.
 
-The following remote tables are available through Zero Copy Connector for ERP and ERP-CM.
+The following remote tables are available through ERP Canvas and ERP-CM.
 
 |Label|Name|ERP module|
 |-----|----|----------|
@@ -62,5 +62,5 @@ sap_customer_gr.getValue('name');
 
 ```
 
-**Parent Topic:**[Zero Copy Connector for ERP standard tables, fields, and models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-standard-tables-and-fields-landing.md)
+**Parent Topic:**[ERP Canvas standard tables, fields, and models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-standard-tables-and-fields-landing.md)
 

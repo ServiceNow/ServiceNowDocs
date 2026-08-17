@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 2
 keywords: [Create a demand,]
-breadcrumb: [Using Now Assist for Strategic Portfolio Management \(SPM\), Now Assist for Strategic Portfolio Management \(SPM\), Strategic Portfolio Management]
+breadcrumb: [Using ServiceNow Otto for Strategic Portfolio Management, ServiceNow Otto for Strategic Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Create demands by using the conversational experience
@@ -85,10 +85,10 @@ Using the context that you provided, Virtual Agent automatically matches it to t
     The conversation is now complete.
 
 
-**Parent Topic:**[Using Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/using-now-assist-for-spm.md)
+**Parent Topic:**[Using ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/using-now-assist-for-spm.md)
 
 **Related topics**  
 
 
-[bundle-convint.using-now-assist-in-va]
+[Using Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/using-now-assist-in-va.md)
 

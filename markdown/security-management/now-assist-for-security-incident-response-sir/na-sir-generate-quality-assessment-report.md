@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Generate quality assessment report, quality report, security incident quality analysis]
-breadcrumb: [Explore Security Incident Quality Assessment, Use generative AI skills, Now Assist for Security Incident Response, Security Operations]
+breadcrumb: [Explore Security Incident Quality Assessment, Use generative AI skills, ServiceNow Otto for Security Incident Response \(SIR\), Security Operations]
 ---
 
 # Generate a quality assessment report

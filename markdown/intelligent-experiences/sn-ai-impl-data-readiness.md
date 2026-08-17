@@ -38,7 +38,7 @@ Follow these tips to assess your organization's data readiness:
     For details, see [Service Catalog readiness for Now Assist on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/sn-ai-impl-srvc-catalog.md).
 
 -   Use the Now Assist Readiness Evaluation app to assess catalog, case, and knowledge data.
--   Use the Now Assist Data Kit to curate and cleanse data sources.
+-   Use the AI Data Kit to curate and cleanse data sources.
 -   Align stakeholders \(data owners, product managers, engineers\) around shared standards for AI-ready data.
 
     For details, see [AI governance for Now Assist on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/sn-ai-impl-governance.md).
@@ -52,9 +52,9 @@ Data readiness assessments can be time-consuming and manual, especially when eva
 
 For more information, see [Now Assist Readiness Evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-readiness-evaluation/now-assist-readiness-evaluation-landing-page.md).
 
-Install Now Assist Readiness Evaluation by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install Now Assist Readiness Evaluation by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
-## Now Assist Data Kit
+## AI Data Kit
 
-If the base system Now Assist skills don't fit your needs, use the Now Assist Data Kit to curate, cleanse, and manage data for AI evaluations. You can create custom datasets and data collections that can be used in Now Assist Skill Kit for evaluation. For more information, see [Now Assist Data Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-data-kit/now-assist-data-kit-landing.md).
+If the base system Now Assist skills don't fit your needs, use the AI Data Kit to curate, cleanse, and manage data for AI evaluations. You can create custom datasets and data collections that can be used in AI Skill Kit for evaluation. For more information, see [AI Data Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-data-kit/now-assist-data-kit-landing.md).
 

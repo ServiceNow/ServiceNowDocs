@@ -58,7 +58,7 @@ EAP user \[sn\_apw\_advanced.eap\_user\]
 -   sn\_apw\_advanced.eap\_read\_only
 -   now\_assist\_panel\_user
 
-This role is available only with the Now Assist for SPM plugin.
+This role is available only with the ServiceNow Otto for SPM plugin.
 
 
 </td></tr><tr><td>

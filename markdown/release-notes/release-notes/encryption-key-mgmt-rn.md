@@ -18,7 +18,7 @@ The ServiceNow® Encryption Key Management application protects your data by usi
 -   Use Access Observer to help plan for and troubleshoot Field Encryption implementations.
 -   Edge Encryption administrators can use the new process to migrate from Edge Encryption to Field Encryption.
 
-See [Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/encryption.md) for more information.
+See  for more information.
 
 ## Important information for upgrading to Yokohama
 
@@ -29,15 +29,15 @@ See [Key Management Framework](https://raw.githubusercontent.com/ServiceNow/Serv
 
 ## New in the Yokohama release
 
--   **[Column Level Encryption is now Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/column-level-encryption-landing.md)**
+-   **Column Level Encryption is now Field Encryption**
 
     Column Level Encryption has been rebranded to Field Encryption Starter \(FES\), while Column Level Encryption Enterprise is now Field Encryption Enterprise \(FEE\).
 
--   **[Access observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/access-observer.md)**
+-   ****
 
     Use access observer to understand the people and processes that access data on your instance.
 
--   **[Improved migration process from Edge Encryption to Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/column-level-encryption-landing.md)**
+-   **Improved migration process from Edge Encryption to Field Encryption**
 
     Use the new process for migration from Edge Encryption to Field Encryption \(formerly Column Level Encryption\). This improved workflow ensures that your data migrates from Edge Encryption to Field encryption without spending time in an unencrypted state.
 
@@ -46,27 +46,27 @@ See [Key Management Framework](https://raw.githubusercontent.com/ServiceNow/Serv
 
 The Platform Encryption subscription bundle is a group commercial entitlement that includes Field Encryption Enterprise and Cloud Encryption.
 
-Field Encryption Enterprise is the unlimited license of Field Encryption. The Enterprise plugin is available with the activation of the com.glide.now.platform.encryption plugin. For details, see [Encryption and Key Management subscription bundle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/encryption-sku.md).
+Field Encryption Enterprise is the unlimited license of Field Encryption. The Enterprise plugin is available with the activation of the com.glide.now.platform.encryption plugin. For details, see Encryption and Key Management subscription bundle.
 
 ## Related ServiceNow applications and features
 
--   **[Encryption and Key Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/encryption.md)**
+-   **Encryption and Key Management**
 
     Encryption is a cryptographic procedure that converts plain text into cipher text, which helps prevent anyone but the intended recipient from reading that data.
 
--   **[Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/understanding-kmf.md)**
+-   **Key Management Framework**
 
     The Key Management Framework lets you fully customize and manage how cryptographic operations are performed on your instance.
 
--   **[Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/code-signing-landing.md)**
+-   **Code Signing**
 
     Code Signing creates digital signatures for the data, which are later checked to confirm the authenticity and integrity of the data. Code Signing is a module licensed as a component of Vault.
 
--   **[Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/edge-encryption.md)**
+-   ****
 
     Edge Encryption encrypts sensitive data on your company premises before sending it over the internet to your instance \(encrypted in flight\), where it remains encrypted at rest.
 
--   **[Cloud Encryption with Key Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/dare-overview.md)**
+-   ****
 
     Cloud Encryption offers encrypted storage for the database by using block encryption, with enhanced key management. Cloud Encryption is available with the Platform Encryption subscription bundle and the ServiceNow Vault subscription bundle.
 

@@ -22,7 +22,7 @@ This skill uses Generative AI application capabilities to provide answers to the
 
 The Now Assist Conversational Help skill displays as **Get Help** on the Now Assist panel.
 
-**Note:** The Get Help feature is available as a part of Now Assist entitlements and no new subscription is required. The feature is enabled by default and you can turn it off in the Now Assist Admin **Settings**. The ServiceNow Now LLM Service \(Large Language Model\) is the default model provider for this Now Assist skill to retrieve precise answers to the users' questions.
+**Note:** The Get Help feature is available as a part of Now Assist entitlements and no new subscription is required. The feature is enabled by default and you can turn it off in the AI Admin Hub **Settings**. The ServiceNow Now LLM Service \(Large Language Model\) is the default model provider for this Now Assist skill to retrieve precise answers to the users' questions.
 
 You can ask your question in two ways:
 

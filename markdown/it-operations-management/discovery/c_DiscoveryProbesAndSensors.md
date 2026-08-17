@@ -123,8 +123,8 @@ Several discovery probes and their associated sensors are included with Discover
 If you customized a probe or sensor and upgraded to a new version of an instance, you need to realign the versions of the customized probe and sensor to the most current version.
 -   **[Discovery multiprobes and multisensors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/r_MultiprobesIncludedWithDiscovery.md)**  
 Multiprobes contain one or more simple probes configured to extract specific information from manageable devices by executing multiple queries with a single authentication.
--   **[Example custom Discovery probe and sensor: populate a CI with text file values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/t_CustomProbeTextFile.md)**  
-This custom Discovery probe helps you if you need to read a text file from a Windows computer and populate a CI in the CMDB with the values from the file.
+-   **[Example: Custom Discovery probe to populate a CI from a text file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/t_CustomProbeTextFile.md)**  
+This custom Discovery probe reads a text file from a Windows computer and populates a configuration item \(CI\) in the CMDB with the values from the file.
 
 **Parent Topic:**[Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/r-discovery.md)
 

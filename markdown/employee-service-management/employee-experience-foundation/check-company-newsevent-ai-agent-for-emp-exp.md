@@ -9,7 +9,7 @@ classification: employee-experience-foundation
 topic_type: concept
 last_updated: "2025-08-19"
 reading_time_minutes: 2
-breadcrumb: [Use AI Agents, Now Assist for Employee Experience, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Use AI Agents, ServiceNow Otto for Employee Experience, Unified Employee Experience, Employee Service Management]
 ---
 
 # Company News &amp; Events AI Agent
@@ -18,7 +18,7 @@ Use this agent to enable users to check their company-related latest news and up
 
 Verify that you have the following plugins:
 
--   Now Assist for Employee Experience version 2.0.3 and later.
+-   ServiceNow Otto for Employee Experience version 2.0.3 and later.
 
     The AI Agents for Employee Experience is automatically installed with the updated version.
 
@@ -62,5 +62,5 @@ To activate, refer to [Activate Company News and Events AI Agent](https://raw.gi
 -   **[Activate Company News and Events AI Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/enable-company-news-and-events-ai-agent.md)**  
 Activate the Company News and Events AI Agent to enable users to check news and events in Now Assist in Virtual Agent.
 
-**Parent Topic:**[Using AI Agents with Now Assist for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/using-ai-agent-in-now-assist-for-empexp.md)
+**Parent Topic:**[Using AI Agents with ServiceNow Otto for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/using-ai-agent-in-now-assist-for-empexp.md)
 

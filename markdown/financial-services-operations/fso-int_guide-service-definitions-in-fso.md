@@ -41,7 +41,7 @@ The following are the main components needed to create a service definition:
 **Related topics**  
 
 
-[Service definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/csm-service-definitions.md)
+[bundle-csm.csm-service-definitions]
 
 [Configure service definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/configure-service-definitions.md)
 

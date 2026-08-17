@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/platf
 release: yokohama
 topic_type: reference
 last_updated: "2025-01-30"
-reading_time_minutes: 12
+reading_time_minutes: 13
 breadcrumb: [Reference, Platform Analytics experience, Platform Analytics]
 ---
 
@@ -52,7 +52,7 @@ The following attributes are shared by all of the roles:
 -   None of the roles are assigned to a group by default.
 -   None of the roles require users to be allocated as part of a paid subscription, although a paid subscription is required for most Performance Analytics functionality.
 -   None of the roles are elevated, meaning none grant access to High Security Settings.
--   All of the roles are included in the base system, except for analytics\_admin and sn\_process\_optimization\_analyst, which are included with Usage Insights and Process Mining, respectively.
+-   All of the roles are included in the base system, except for analytics\_admin and sn\_process\_optimization\_analyst, which are included with User Experience Analytics and Process Mining, respectively.
 
 **Tip:** Try to assign the least inclusive role that still provides the necessary access. For example, if you want a user to be able to create data visualizations in the library and share them with users, but not schedule their export, grant that user viz\_creator and not viz\_admin.
 
@@ -78,7 +78,7 @@ admin
 
 </td><td>
 
-Can create dashboards. Can create data visualizations in the Visualization Designer, which are automatically saved to the Library. Can edit, duplicate, share, and delete any dashboard and data visualizations. Can add filters to the filter library or edit or delete any filter. Has Usage Insights administrator privileges.
+Can create dashboards. Can create data visualizations in the Visualization Designer, which are automatically saved to the Library. Can edit, duplicate, share, and delete any dashboard and data visualizations. Can add filters to the filter library or edit or delete any filter. Has User Experience Analytics administrator privileges.
 
 </td><td>
 
@@ -94,7 +94,7 @@ platform\_analytics\_admin
 
 </td><td>
 
-Role for administrative privileges in the Platform Analytics experience. This role includes administrative privileges for products and features that are part of Platform Analytics, including Performance Analytics and Usage Insights. Has the rights of all roles listed here except report\_admin rights to Core UI reports.
+Role for administrative privileges in the Platform Analytics experience. This role includes administrative privileges for products and features that are part of Platform Analytics, including Performance Analytics and User Experience Analytics. Has the rights of all roles listed here except report\_admin rights to Core UI reports.
 
  Equivalent to admin role from a security perspective.
 
@@ -118,11 +118,11 @@ analytics\_admin
 
 </td><td>
 
-Role for Usage Insights administrative privileges
+Role for User Experience Analytics administrative privileges
 
 </td><td>
 
-All other Usage Insights admin and viewer roles. For more information, see [Roles installed with Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/components-installed-user-exp-analytics.md).
+All other User Experience Analytics admin and viewer roles. For more information, see [Roles installed with User Experience Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/components-installed-user-exp-analytics.md).
 
 </td><td>
 
@@ -683,7 +683,7 @@ analytics\_filter\_admin or higher
 
 [Performance Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/r_PARoles.md)
 
-[Roles installed with Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/components-installed-user-exp-analytics.md)
+[Roles installed with User Experience Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/components-installed-user-exp-analytics.md)
 
 [Reporting roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/reporting/reporting-roles.md)
 

@@ -1,5 +1,5 @@
 ---
-title: ERP Semantic Mining snapshot prerequisite check
+title: ERP Customization Mining snapshot prerequisite check
 description: Before snapshot import and export in ERP-CM, a check is performed automatically to confirm that other related processes aren’t in progress.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-customization-mining/erpcm-snapshot-prerequisite-check.html
@@ -9,14 +9,14 @@ classification: erp-customization-mining
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [ERP Semantic Mining reference, ERP Semantic Mining \(ERP-CM\), Building low-code applications, Developing your application, Building applications]
+breadcrumb: [ERP Customization Mining reference, ERP Customization Mining \(ERP-CM\), Building low-code applications, Developing your application, Building applications]
 ---
 
-# ERP Semantic Mining snapshot prerequisite check
+# ERP Customization Mining snapshot prerequisite check
 
 Before snapshot import and export in ERP-CM, a check is performed automatically to confirm that other related processes aren’t in progress.
 
-For process details, see [Create a snapshot to share and save data in ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/create-a-snapshot-to-share-and-save-data.md).
+For process details, see [Create a snapshot to share and save data in ERP Customization Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/create-a-snapshot-to-share-and-save-data.md).
 
 <table id="table_bgl_xmh_2dc"><thead><tr><th>
 
@@ -65,5 +65,5 @@ Snapshot is created when all tasks for all Collector entries are completed. Diff
  If user wants to delete all data, or attach a new system, 'table flush trigger' flow will wait for the snapshot to be created.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[ERP Semantic Mining reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/erp-customization-mining-ref.md)
+</table>**Parent Topic:**[ERP Customization Mining reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/erp-customization-mining-ref.md)
 

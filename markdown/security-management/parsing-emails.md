@@ -59,7 +59,7 @@ Role required: sn\_sec\_cmn.admin
 
     2.  Fill in the fields on the form, as appropriate.
 
-<table id="choicetable_nhl_vjt_zv"><tbody><tr><td id="d306736e343">
+<table id="choicetable_nhl_vjt_zv"><tbody><tr><td id="d310100e343">
 
 **Field**
 
@@ -67,7 +67,7 @@ Role required: sn\_sec\_cmn.admin
 
 Description
 
-</td></tr><tr><td id="d306736e355">
+</td></tr><tr><td id="d310100e355">
 
 **Store value in a field or a related list**
 
@@ -79,7 +79,7 @@ Select where to find the value. Choices include:-   Store the value into a field
 
 **Note:** If the destination table does not have any related lists, this field is not displayed.
 
-</td></tr><tr><td id="d306736e378">
+</td></tr><tr><td id="d310100e378">
 
 **Field**
 
@@ -91,7 +91,7 @@ For choice fields, matches are made to existing choices using the underlying cho
 
 For reference fields, an entry is set only when a value matching the display name of the record or a valid `sys_id` is found. For more information, see [Reference fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/c_ReferenceField.md).
 
-</td></tr><tr><td id="d306736e411">
+</td></tr><tr><td id="d310100e411">
 
 **Related list**
 
@@ -99,7 +99,7 @@ For reference fields, an entry is set only when a value matching the display nam
 
 When **Store value in a field or related list** is set to **Link to this value in a related list** or **Link to this value, creating a new record if a matching record does not exist**, this field specifies the related list to add information to.
 
-</td></tr><tr><td id="d306736e432">
+</td></tr><tr><td id="d310100e432">
 
 **Value field**
 
@@ -107,7 +107,7 @@ When **Store value in a field or related list** is set to **Link to this value i
 
 When **Store value in a field or related list** is set to **Link to this value in a related list** or **Link to this value, creating a new record if a matching record does not exist**, this field specifies the field within the table displayed in the related list. It is used to look up and find an existing record. For example, if your related list is **Affected CIs**, this field can contain **Name** or **Fully Qualified Domain Name**, or any other field in the CI record to be used to look up the CI added to the **Affected CIs** list.
 
-</td></tr><tr><td id="d306736e467">
+</td></tr><tr><td id="d310100e467">
 
 **Relationship data**
 
@@ -115,7 +115,7 @@ When **Store value in a field or related list** is set to **Link to this value i
 
 When **Store value in a field or related list** is set to **Link to this value in a related list**, a record is created to link that record \(such as a security incident\) to the value \(a CI, an Observable, and so on.\). This field specifies any additional information \(field and value pairs\) that should be added to the linking record. For example, adding an Observable for a source IP, specify that this IP is the source, rather than destination IP. For multiple values, use a ^ separator, for example, type= Source IP^Active=true.
 
-</td></tr><tr><td id="d306736e485">
+</td></tr><tr><td id="d310100e485">
 
 **New record data**
 
@@ -123,7 +123,7 @@ When **Store value in a field or related list** is set to **Link to this value i
 
 When **Store value in a field or related list** is set to **Link to this value, creating a new record if a matching record does not exist**, if no related record matching the parsed value is found, a record is created. This field specifies the static data to add to that record. For **Affected CI**s, if no matching CIs are found a CI record is created\). When that happens, the value found in the email, is set to the **Value** field in the CI record. You can set additional data – a note indicating why the CI was created, some information about what type of CIs you are working with and, so on. A sample would be: description=Created by Malware Scanner email parser^type=autodetect.
 
-</td></tr><tr><td id="d306736e509">
+</td></tr><tr><td id="d310100e509">
 
 **Search for value**
 
@@ -137,7 +137,7 @@ Select the location in the email to search. Choices include:-   **At the start o
 
  Information that is in a header or footer, applying to all records, is searched for in the entire email body. The information that differs between records is searched for only within the section.
 
-</td></tr><tr><td id="d306736e565">
+</td></tr><tr><td id="d310100e565">
 
 **Value separator**
 
@@ -145,7 +145,7 @@ Select the location in the email to search. Choices include:-   **At the start o
 
 When **Store value in a field or related list** is set to **Link to this value in a related list** or **Link to this value, creating a new record if a matching record does not exist**, this field specifies the separator to use for lists of items. for example a comma or semicolon when the data from the email is a list of IP addresses.
 
-</td></tr><tr><td id="d306736e586">
+</td></tr><tr><td id="d310100e586">
 
 **Value prefix**
 
@@ -153,7 +153,7 @@ When **Store value in a field or related list** is set to **Link to this value i
 
 The text that always precedes the value placed within this field to extract.
 
-</td></tr><tr><td id="d306736e598">
+</td></tr><tr><td id="d310100e598">
 
 **End of value**
 
@@ -161,7 +161,7 @@ The text that always precedes the value placed within this field to extract.
 
 Select what indicates the end of the value. Choices include: **End of line**, **End of email** \(brings in all remaining text in the email\), or **Until** \(stops when it finds the specified text\), or **Until** \(stops when it finds the specified text\).
 
-</td></tr><tr><td id="d306736e623">
+</td></tr><tr><td id="d310100e623">
 
 **Value suffix**
 
@@ -171,7 +171,7 @@ When the **End of Value** is set to **Until**, this field specifies what text al
 
  For example, looking for a value that comes after “The affected computer is” and before “.” will parse out “AB123” from “The demented bunny virus has been found. The affected computer is AB123. Estimated time of infection was 3:45PM” in an email.
 
-</td></tr><tr><td id="d306736e644">
+</td></tr><tr><td id="d310100e644">
 
 **Value transform**
 
@@ -179,7 +179,7 @@ When the **End of Value** is set to **Until**, this field specifies what text al
 
 Choose the field transformation entry to apply. Converts the value found in the email into a different value, used to fill in choice fields, occasionally reference, and other fields.
 
-</td></tr><tr><td id="d306736e656">
+</td></tr><tr><td id="d310100e656">
 
 **Order**
 
@@ -187,7 +187,7 @@ Choose the field transformation entry to apply. Converts the value found in the 
 
 The order in which the field transforms run, from lowest to highest. A field transform with an order entry of 100 is attempted first. Only if that field transform fails to find a value will a field transform with a higher order \(200\) on the same field run.
 
-</td></tr><tr><td id="d306736e665">
+</td></tr><tr><td id="d310100e665">
 
 **Email transform**
 
@@ -195,7 +195,7 @@ The order in which the field transforms run, from lowest to highest. A field tra
 
 The transform this field transform belongs to.
 
-</td></tr><tr><td id="d306736e674">
+</td></tr><tr><td id="d310100e674">
 
 **Destination table**
 
@@ -203,7 +203,7 @@ The transform this field transform belongs to.
 
 Destination table of the email transform. It contains informational data from the email transform.
 
-</td></tr><tr><td id="d306736e683">
+</td></tr><tr><td id="d310100e683">
 
 **Active**
 

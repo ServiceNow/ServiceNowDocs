@@ -7,7 +7,7 @@ release: yokohama
 product: Task Mining
 classification: task-mining
 topic_type: reference
-last_updated: "2024-08-06"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Platform Analytics]
 ---

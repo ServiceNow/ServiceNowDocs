@@ -42,15 +42,15 @@ You can associate a monetary benefit plan with a non-monetary benefit plan and v
 
 7.  Associate a monetary or non-monetary benefit plan.
 
-<table id="choicetable_CreateAnEpic"><thead><tr><th align="left" id="d269639e128">
+<table id="choicetable_CreateAnEpic"><thead><tr><th align="left" id="d269266e128">
 
 Option
 
-</th><th align="left" id="d269639e131">
+</th><th align="left" id="d269266e131">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d269639e137">
+</th></tr></thead><tbody><tr><td id="d269266e137">
 
 **Associate an existing benefit plan**
 
@@ -58,7 +58,7 @@ Action
 
 On the Benefit Plan form, fill in the **Associated benefit** field with the benefit plan that you want to associate.
 
-</td></tr><tr><td id="d269639e149">
+</td></tr><tr><td id="d269266e149">
 
 **Associate a new benefit plan**
 

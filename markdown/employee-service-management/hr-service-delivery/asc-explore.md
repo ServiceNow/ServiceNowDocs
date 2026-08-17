@@ -1,6 +1,6 @@
 ---
-title: Exploring the Alumni Center
-description: Use the Alumni Center to discover resources that keep you connected, update your profile, access HR services, stay informed with company news, and browse job listings.
+title: Exploring the Alumni Service Center
+description: Use the Alumni Service Center to discover resources that keep you connected, update your profile, access HR services, stay informed with company news, and browse job listings.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/asc-explore.html
 release: yokohama
@@ -9,12 +9,12 @@ classification: hr-service-delivery
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Alumni Center, HR Service Delivery, Employee Service Management]
+breadcrumb: [Alumni Service Center, HR Service Delivery, Employee Service Management]
 ---
 
-# Exploring the Alumni Center
+# Exploring the Alumni Service Center
 
-Use the Alumni Center to discover resources that keep you connected, update your profile, access HR services, stay informed with company news, and browse job listings.
+Use the Alumni Service Center to discover resources that keep you connected, update your profile, access HR services, stay informed with company news, and browse job listings.
 
 The Alumni home page serves as a central hub for former employees to update their details, manage preferences, and access personalized job recommendations. It also offers quick links to alumni services, news, resources, and tasks, helping you stay connected and engaged.
 

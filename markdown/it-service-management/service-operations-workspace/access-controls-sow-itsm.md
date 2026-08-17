@@ -34,7 +34,7 @@ Landing pages provide an agent with quick visibility into the work assigned, ann
 -   **[Configure the audience for the SOW landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/configure-audience-sow-landing-page.md)**  
 Define who can access your SOW landing pages. You can targeted experiences for audiences such as agents and managers.
 -   **[Configure service desk groups to access the Service Operations Workspace landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/configure-service-desk-groups-sow.md)**  
-Ensure that the right users have access to the Service Operations Workspace landing page.
+Confirm that the right users have access to the Service Operations Workspace landing page.
 
 **Parent Topic:**[Getting started with Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/getting-started-sow.md)
 

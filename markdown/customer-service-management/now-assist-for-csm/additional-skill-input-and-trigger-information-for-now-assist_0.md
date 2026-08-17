@@ -9,7 +9,7 @@ classification: now-assist-for-csm
 topic_type: concept
 last_updated: "2025-06-03"
 reading_time_minutes: 1
-breadcrumb: [Configure, Now Assist for Customer Service Management \(CSM\), Customer Service Management]
+breadcrumb: [Configure, ServiceNow Otto for Customer Service Management \(CSM\), Customer Service Management]
 ---
 
 # Additional skill input and trigger information

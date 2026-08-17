@@ -1,6 +1,6 @@
 ---
-title: Zero Copy Connector for ERP scheduled extraction field descriptions
-description: The Scheduled extraction form in Zero Copy Connector for ERP enables you to create and edit jobs to extract data at regular intervals.
+title: ERP Canvas scheduled extraction field descriptions
+description: The Scheduled extraction form in ERP Canvas enables you to create and edit jobs to extract data at regular intervals.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-integration-framework/erp-data-hub-scheduled-extraction-field-descriptions.html
 release: yokohama
@@ -8,15 +8,15 @@ product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: reference
 last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [Zero Copy Connector for ERP field descriptions, Zero Copy Connector for ERP reference, Zero Copy Connector for ERP, Building low-code applications, Developing your application, Building applications]
+reading_time_minutes: 2
+breadcrumb: [ERP Canvas field descriptions, ERP Canvas reference, ERP Canvas, Building low-code applications, Developing your application, Building applications]
 ---
 
-# Zero Copy Connector for ERP scheduled extraction field descriptions
+# ERP Canvas scheduled extraction field descriptions
 
-The Scheduled extraction form in Zero Copy Connector for ERP enables you to create and edit jobs to extract data at regular intervals.
+The Scheduled extraction form in ERP Canvas enables you to create and edit jobs to extract data at regular intervals.
 
-For process details, see [Create a scheduled extraction in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erpc-create-a-scheduled-extraction.md).
+For process details, see [Create a scheduled extraction in ERP Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erpc-create-a-scheduled-extraction.md).
 
 <table id="table_rgs_xr5_bdc"><thead><tr><th>
 
@@ -117,5 +117,5 @@ Generate an encoded query script to use on the extraction table to fetch the dat
 The script entered in **Generate encoded query script** takes precedence over information entered into the **Encoded query** field. You can append the encoded query to the script \(as in the example\).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Zero Copy Connector for ERP field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-field-descriptions.md)
+</table>**Parent Topic:**[ERP Canvas field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-field-descriptions.md)
 

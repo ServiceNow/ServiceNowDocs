@@ -1,6 +1,6 @@
 ---
 title: Pure Storage FlashArray discovery
-description: The Discovery and Service Mapping Patterns application uses the Pure Storage Flash Array pattern to find Pure Storage FlashArray on your infrastructure. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+description: The Discovery and Service Mapping Patterns application uses the Pure Storage pattern to find Pure Storage FlashArray on your infrastructure. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/discovery-and-service-mapping-patterns/flasharray-discovery.html
 release: yokohama
@@ -15,13 +15,13 @@ breadcrumb: [Available discovery patterns, Discovery patterns used by ITOM Visib
 
 # Pure Storage FlashArray discovery
 
-The Discovery and Service Mapping Patterns application uses the Pure Storage Flash Array pattern to find Pure Storage FlashArray on your infrastructure. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+The Discovery and Service Mapping Patterns application uses the Pure Storage pattern to find Pure Storage FlashArray on your infrastructure. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 **Note:** Starting March 2024, the pattern execution is disabled by default. To create a CI for Pure Storage FlashArray, synchronize the pattern to the MID Server.
 
 ## Request new or enhanced Patterns on the ServiceNow® Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/application/06a71b1367e4130051c9027e2685ef1e/1.6.0?referer=%2Fstore%2Fsearch%3Flistingtype%3Dallintegrations%25253Bancillary_app%25253Bcertified_apps%25253Bcontent%25253Bindustry_solution%25253Boem%25253Butility%25253Btemplate%26q%3DPatterns&sl=sh) to view all the available updates and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/application/06a71b1367e4130051c9027e2685ef1e/1.6.0?referer=%2Fstore%2Fsearch%3Flistingtype%3Dallintegrations%25253Bancillary_app%25253Bcertified_apps%25253Bcontent%25253Bindustry_solution%25253Boem%25253Butility%25253Btemplate%26q%3DPatterns&sl=sh) to view all the available updates and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Prerequisites
 
@@ -34,7 +34,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 -   **Verify the permissions to run REST API calls**
 
-    The Pure Storage Flash Array pattern supports the API 2.17 version.
+    The Pure Storage Flash Array pattern supports the API 2.17 version. Note that the `/api/1.17/auth/apitoken` endpoint uses an earlier API version than the rest of the API calls.
 
     -   `/api/1.17/auth/apitoken`
     -   `/api/2.17/auth/session`
@@ -299,13 +299,13 @@ Operational status of the resource. Default value is Operational.
 
 ## CI relationships
 
-|CI|Relationship type|CI|
-|---|-----------------|---|
+The Pure Storage pattern creates CI relationships and references to support Pure Storage FlashArray discovery. References link to records in other tables and don't appear in the CI Relationship \[cmdb\_rel\_ci\] table.
+
+|CI|Relationship|CI|
+|---|------------|---|
 |Disk \[cmdb\_ci\_disk\]|Contains::Contained by|Storage Server \[cmdb\_ci\_storage\_server\]|
 |Fibre Channel Export \[cmdb\_ci\_fc\_export\]|Hosted on::Hosts|Storage Server \[cmdb\_ci\_storage\_server\]|
-|Fibre Channel Export \[cmdb\_ci\_fc\_export\]|References|Storage Cluster Node \[cmdb\_ci\_storage\_cluster\_node\]|
 |iSCSI Export \[cmdb\_ci\_iscsi\_export\]|Hosted on::Hosts|Storage Server \[cmdb\_ci\_storage\_server\]|
-|iSCSI Export \[cmdb\_ci\_iscsi\_export\]|References|Storage Cluster Node \[cmdb\_ci\_storage\_cluster\_node\]|
 |Network Adapter \[cmdb\_ci\_network\_adapter\]|Owns::Owned by|Storage Server \[cmdb\_ci\_storage\_server\]|
 |Storage Cluster Node \[cmdb\_ci\_storage\_cluster\_node\]|Cluster of::Cluster|Storage Cluster \[cmdb\_ci\_storage\_cluster\]|
 |Storage Controller \[cmdb\_ci\_storage\_controller\]|Controller for::Controlled by|Storage Server \[cmdb\_ci\_storage\_server\]|
@@ -314,7 +314,19 @@ Operational status of the resource. Default value is Operational.
 |Storage Server \[cmdb\_ci\_storage\_server\]|Runs on::Runs|Storage Cluster \[cmdb\_ci\_storage\_cluster\]|
 |Storage Volume \[cmdb\_ci\_storage\_volume\]|Contains::Contained by|Storage Cluster Node \[cmdb\_ci\_storage\_cluster\_node\]|
 |Storage Volume \[cmdb\_ci\_storage\_volume\]|Contains::Contained by|Storage Server \[cmdb\_ci\_storage\_server\]|
-|Storage Volume \[cmdb\_ci\_storage\_volume\]|References|Storage Pool \[cmdb\_ci\_storage\_pool\]|
+
+|CI|Field|Referenced CI|
+|---|-----|-------------|
+|Fibre Channel Export \[cmdb\_ci\_fc\_export\]|Hosted by \[hosted\_by\]|Storage Server \[cmdb\_ci\_storage\_server\]|
+|Fibre Channel Export \[cmdb\_ci\_fc\_export\]|Storage \[storage\]|Storage Cluster Node \[cmdb\_ci\_storage\_cluster\_node\]|
+|iSCSI Export \[cmdb\_ci\_iscsi\_export\]|Hosted by \[hosted\_by\]|Storage Server \[cmdb\_ci\_storage\_server\]|
+|iSCSI Export \[cmdb\_ci\_iscsi\_export\]|Storage \[storage\]|Storage Cluster Node \[cmdb\_ci\_storage\_cluster\_node\]|
+|Network Adapter \[cmdb\_ci\_network\_adapter\]|Configuration Item \[cmdb\_ci\]|Storage Server \[cmdb\_ci\_storage\_server\]|
+|Disk \[cmdb\_ci\_disk\]|Computer \[computer\]|Storage Server \[cmdb\_ci\_storage\_server\]|
+|Storage Controller \[cmdb\_ci\_storage\_controller\]|Computer \[computer\]|Storage Server \[cmdb\_ci\_storage\_server\]|
+|Storage Pool \[cmdb\_ci\_storage\_pool\]|Hosted by \[hosted\_by\]|Storage Server \[cmdb\_ci\_storage\_server\]|
+|Storage Volume \[cmdb\_ci\_storage\_volume\]|Computer \[computer\]|Storage Server \[cmdb\_ci\_storage\_server\]|
+|Storage Volume \[cmdb\_ci\_storage\_volume\]|Provided by \[provided\_by\]|Storage Pool \[cmdb\_ci\_storage\_pool\]|
 
 **Parent Topic:**[Available discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
 

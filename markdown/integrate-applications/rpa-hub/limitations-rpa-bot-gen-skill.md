@@ -10,7 +10,7 @@ topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 3
 keywords: [Now Assist, generative AI]
-breadcrumb: [Now Assist for RPA Hub reference, Now Assist for RPA Hub, Robotic Process Automation \(RPA\) Hub, Data and Automation]
+breadcrumb: [ServiceNow Otto for RPA Hub reference, ServiceNow Otto for RPA Hub, Robotic Process Automation \(RPA\) Hub, Data and Automation]
 ---
 
 # Limitations of Robotic Process Automation \(RPA\) bot generation skill
@@ -64,5 +64,5 @@ The limitations of the RPA bot generation skill are as follows.
     If the large language model \(LLM\) returns a method that doesn’t exist in the RPA Desktop Design Studio, then such methods are displayed as unknown components in the generated automation workflow.
 
 
-**Parent Topic:**[Now Assist for RPA Hub reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/now-assist-rpa-hub-reference.md)
+**Parent Topic:**[ServiceNow Otto for RPA Hub reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/now-assist-rpa-hub-reference.md)
 

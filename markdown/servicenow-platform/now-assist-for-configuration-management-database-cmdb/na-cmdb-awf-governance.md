@@ -9,7 +9,7 @@ classification: now-assist-for-configuration-management-database-cmdb
 topic_type: concept
 last_updated: "2025-12-01"
 reading_time_minutes: 4
-breadcrumb: [Use agentic workflows, Now Assist for Configuration Management Database \(CMDB\), CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Use agentic workflows, ServiceNow Otto for Configuration Management Database \(CMDB\), CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Getting advice from Now Assist on CMDB governance
@@ -62,5 +62,5 @@ Looking for an AI agent?
 -   **[Get advice on CMDB governance from Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-awf-cmdb-governance.md)**  
 Work through the process of improving CMDB data accuracy, completeness, and health. The objective is to ensure that users can trust the data that they use for their work.
 
-**Parent Topic:**[Using agentic workflows in Now Assist for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-using.md)
+**Parent Topic:**[Using agentic workflows in ServiceNow Otto for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-using.md)
 

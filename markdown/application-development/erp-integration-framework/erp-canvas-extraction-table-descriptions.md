@@ -1,6 +1,6 @@
 ---
-title: Zero Copy Connector for ERP extraction table field descriptions
-description: The Extraction table form in Zero Copy Connector for ERP enables you to create and edit extraction tables in the ERP \(Enterprise Resource Planning\) model.
+title: ERP Canvas extraction table field descriptions
+description: The Extraction table form in ERP Canvas enables you to create and edit extraction tables in the ERP \(Enterprise Resource Planning\) model.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-integration-framework/erp-canvas-extraction-table-descriptions.html
 release: yokohama
@@ -9,14 +9,14 @@ classification: erp-integration-framework
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Zero Copy Connector for ERP field descriptions, Zero Copy Connector for ERP reference, Zero Copy Connector for ERP, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [ERP Canvas field descriptions, ERP Canvas reference, ERP Canvas, Building low-code applications, Developing your application, Building applications]
 ---
 
-# Zero Copy Connector for ERP extraction table field descriptions
+# ERP Canvas extraction table field descriptions
 
-The Extraction table form in Zero Copy Connector for ERP enables you to create and edit extraction tables in the ERP \(Enterprise Resource Planning\) model.
+The Extraction table form in ERP Canvas enables you to create and edit extraction tables in the ERP \(Enterprise Resource Planning\) model.
 
-For process details, see [Add a new ERP extraction table in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-add-new-extraction-table.md).
+For process details, see [Add a new ERP extraction table in ERP Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-add-new-extraction-table.md).
 
 <table id="table_cv1_h3z_wxb"><thead><tr><th>
 
@@ -95,5 +95,5 @@ Long text
 Any additional text to describe the ERP extraction table.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Zero Copy Connector for ERP field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-field-descriptions.md)
+</table>**Parent Topic:**[ERP Canvas field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-field-descriptions.md)
 

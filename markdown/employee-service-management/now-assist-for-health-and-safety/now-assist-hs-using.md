@@ -1,6 +1,6 @@
 ---
-title: Using Now Assist for Health and Safety
-description: If you have a safety agent or manager role, you can summarize the safety incidents with the Now Assist for Health and Safety application.
+title: Using ServiceNow Otto for Health and Safety
+description: If you have a safety agent or manager role, you can summarize the safety incidents with the ServiceNow Otto for Health and Safety application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-using.html
 release: yokohama
@@ -9,10 +9,10 @@ classification: now-assist-for-health-and-safety
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Now Assist for Health and Safety, Health and Safety, Employee Service Management]
+breadcrumb: [ServiceNow Otto for Health and Safety, Health and Safety, Employee Service Management]
 ---
 
-# Using Now Assist for Health and Safety
+# Using ServiceNow Otto for Health and Safety
 
-If you have a safety agent or manager role, you can summarize the safety incidents with the Now Assist for Health and Safety application.
+If you have a safety agent or manager role, you can summarize the safety incidents with the ServiceNow Otto for Health and Safety application.
 

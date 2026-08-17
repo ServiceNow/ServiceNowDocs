@@ -18,7 +18,7 @@ Use the ServiceNow® API Service Graph Connector for MuleSoft to import API deta
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Key features
 
@@ -28,9 +28,9 @@ The API Insights workspace provides a centralized interface where you can analyz
 
 ## Supported ServiceNow versions
 
--   Xanadu
 -   Yokohama
 -   Zurich
+-   Australia
 
 ## Use cases
 

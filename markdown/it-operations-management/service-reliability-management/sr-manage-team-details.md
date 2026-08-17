@@ -9,7 +9,7 @@ classification: service-reliability-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Add an SRM team, Working with SRM teams, Using Service Reliability Management, Service Reliability Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Add an SRM team, Working with SRM teams, Using Service Reliability Management, Service Reliability Management, ITOM Health, IT Operations Management]
 ---
 
 # Manage your SRM team details

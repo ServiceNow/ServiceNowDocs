@@ -40,7 +40,7 @@ Role required: sn\_cwm.cwm\_user
 ## What to do next
 
 -   Add more tasks to the Board and assign them to yourself or members of your team.
--   Edit the information of your task from the side panel by clicking the short description to open it or directly from the grid through inline editing by double-clicking a cell.
+-   Edit the information of your task from the side panel by clicking the short description to open it. Alternatively, edit it directly from the grid through inline editing by double-clicking a cell.
 -   Rearrange your tasks on the Board by using the drag-and-drop feature.
 -   Share tasks by their URL using the **Copy task link** option from the row context menu of the task. This way, when a user clicks the shared URL, the task opens in the side panel in the context of the Board that it belongs to.
 

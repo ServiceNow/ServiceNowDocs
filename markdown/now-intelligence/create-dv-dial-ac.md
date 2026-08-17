@@ -68,12 +68,12 @@ For information about the use of a Dial visualization in a dashboard, see [the D
 
         You might have a multiple select \(is one of\) or dynamic \(is \(dynamic\)\) operator on the breakdown element filter. These operators require the indicator and breakdown to support them. For more information about the configurations that support these operators, see ["Is one of" and "Is \(Dynamic\)" operators on breakdown conditions in data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/condition-operators-ind-bkdowns.md).
 
-    -   Usage Insights \(available with the User Experience PAR Integration application, to users with a required role\). Choose one of up to three KPIs included with this application, depending on the visualization type. For more information, see [User Experience Analytics data sources for data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/uxa-data-sources.md).
+    -   User Experience Analytics \(available with the User Experience PAR Integration application, to users with a required role\). Choose one of up to three KPIs included with this application, depending on the visualization type. For more information, see [User Experience Analytics data sources for data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/uxa-data-sources.md).
 6.  Select the options for your data source.
 
     -   If your visualization represents table data, go to [Table data options for dial visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/config-dv-dial-table-data.md).
     -   If your visualization represents indicator data, go to [Indicator data options for dial visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/config-dv-dial-ind-data.md).
-    -   If your visualization represents Usage Insights data, go to [Usage Insights data options for dial visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/config-dv-dial-uxa-data.md).
+    -   If your visualization represents User Experience Analytics data, go to [User Experience Analytics data options for dial visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/config-dv-dial-uxa-data.md).
 7.  Under **Presentation**, provide display and color information.
 
 <table id="table_gvk_2mr_qtb"><thead><tr><th>
@@ -172,7 +172,7 @@ Choose the event that occurs when a user clicks in a chart or one of its segment
 
 -   **Go to data view** opens the records view in a Core UI list or KPI Details relevant to the associated segment or visualization. Records do not open in Workspace embedded lists.
 
-Not supported for Usage Insights data sources.
+Not supported for User Experience Analytics data sources.
 
 -   **Go to URL** opens the specified URL, which can be on the instance or external. You have the option of specifying a page name to appear in the tooltip, for those visualizations with tooltips.
 -   **Drill down to chart** \(Visualization Designer only\) Opens a different data visualization that is filtered by the selected data. You can add a drill-down visualization for each metric on the parent visualization.
@@ -195,8 +195,8 @@ Not supported for Usage Insights data sources.
 When you select a table data source for a dial visualization, the following Data configuration options are available.
 -   **[Indicator data options for dial visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/config-dv-dial-ind-data.md)**  
 When you select an indicator data source for a dial visualization, the following Data configuration options are available.
--   **[Usage Insights data options for dial visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/config-dv-dial-uxa-data.md)**  
-When you select a Usage Insights data source for a dial visualization, the following Data configuration options are available.
+-   **[User Experience Analytics data options for dial visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/config-dv-dial-uxa-data.md)**  
+When you select a User Experience Analytics data source for a dial visualization, the following Data configuration options are available.
 -   **[Dial visualization example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/dv-example-dial.md)**  
 Dial visualizations show where a single value lies across a range from minimum to maximum expected values. Visually, a "needle" points to the value, and the dial is colored in for values up to the needle.
 

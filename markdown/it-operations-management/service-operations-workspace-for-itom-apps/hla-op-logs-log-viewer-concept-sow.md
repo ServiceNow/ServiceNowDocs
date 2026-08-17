@@ -1,5 +1,5 @@
 ---
-title: Reviewing the logs for an alert on the Log viewer
+title: Reviewing alert logs on the Log viewer
 description: The Log viewer tab lets you browse the logs for an alert by timestamp or time range, and visualize anomaly frequency within a specific time period. Customizing the displayed data and adjusting time filters enables you to better understand the framework in which the anomaly occurred, helping you find the root cause faster.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-logs-log-viewer-concept-sow.html
@@ -9,10 +9,10 @@ classification: service-operations-workspace-for-itom-apps
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 3
-breadcrumb: [Using Service Operations Workspace for ITOM Log Analytics, Using Service Operations Workspace for ITOM, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
+breadcrumb: [Using Service Operations Workspace for ITOM Log Analytics, Using Service Operations Workspace for ITOM, Service Operations Workspace for ITOM, ITOM Health, IT Operations Management]
 ---
 
-# Reviewing the logs for an alert on the Log viewer
+# Reviewing alert logs on the Log viewer
 
 The **Log viewer** tab lets you browse the logs for an alert by timestamp or time range, and visualize anomaly frequency within a specific time period. Customizing the displayed data and adjusting time filters enables you to better understand the framework in which the anomaly occurred, helping you find the root cause faster.
 

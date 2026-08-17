@@ -1,18 +1,18 @@
 ---
-title: Use agentic workflows in Now Assist for Sales Force Automation \(SFA\)
-description: Use the Now Assist for Sales Force Automation \(SFA\) AI agent collection to complete tasks autonomously.
+title: Use agentic workflows in ServiceNow Otto for Sales Automation
+description: Use the ServiceNow Otto for Sales Automation AI agent collection to complete tasks autonomously.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/using-agentic-worklflows-in-lead-management.html
 release: yokohama
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Now Assist for SOM]
 ---
 
-# Use agentic workflows in Now Assist for Sales Force Automation \(SFA\)
+# Use agentic workflows in ServiceNow Otto for Sales Automation
 
-Use the Now Assist for Sales Force Automation \(SFA\) AI agent collection to complete tasks autonomously.
+Use the ServiceNow Otto for Sales Automation AI agent collection to complete tasks autonomously.
 
 The Help nurture new leads agentic workflow works with a team of AI agents to assist you with managing the life cycle of leads, either independently or under supervision.
 
@@ -74,5 +74,5 @@ Looking for an AI agent?
 -   **[Help nurture new leads agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/help-nurture-new-leads-agentic-workflow.md)**  
 Use the Help nurture new leads agentic workflow to process the entire lead record process.
 
-**Parent Topic:**[Now Assist for Sales Force Automation \(SFA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/now-assist-for-sales-and-order-management-som.md)
+**Parent Topic:**[ServiceNow Otto for Sales Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/now-assist-for-sales-and-order-management-som.md)
 

@@ -9,7 +9,7 @@ classification: now-assist-for-it-operations-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Configuring agents and skills for Now Assist for ITOM, Configuring Now Assist for ITOM, Now Assist for ITOM, IT Operations Management]
+breadcrumb: [Configuring agents and skills for ServiceNow Otto for ITOM, Configuring ServiceNow Otto for ITOM, ServiceNow Otto for ITOM, IT Operations Management]
 ---
 
 # Configure the Kentik analysis AI agent
@@ -20,7 +20,7 @@ Configure the Kentik analysis AI agent for the analyze alert impact agentic work
 
 Before configuring the Kentik analysis AI agent, you must do the following:
 
--   [Install Now Assist for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+-   [Install ServiceNow Otto for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 -   [Integrate Kentik alerts with Event Management](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2113973).
 -   Copy your Kentik connection URL, API token, and the email address associated with the API token.
 
@@ -59,7 +59,7 @@ Activate the Kentik analysis AI agent to use it in the analyze alert impact agen
 
 To learn more about using the Kentik analysis AI agent in the analyze alert impact agentic workflowor manage alerts autonomously agentic workflow, see [Use the analyze alert impact agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-use-aia.md)and [Manage alerts autonomously agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/itom-autonomous-operator-workflow.md).
 
-**Parent Topic:**[Configuring agents and skills for Now Assist for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/itom-ai-agent-configuration.md)
+**Parent Topic:**[Configuring agents and skills for ServiceNow Otto for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/itom-ai-agent-configuration.md)
 
 **Related topics**  
 

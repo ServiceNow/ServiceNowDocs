@@ -7,7 +7,7 @@ release: yokohama
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Set up the account onboarding playbook, Configuring account onboarding, Account onboarding, Customer Success Management]
+breadcrumb: [Set up the account onboarding playbook, Configuring account onboarding, Account onboarding, Account Lifecycle Events]
 ---
 
 # Development and automation
@@ -45,7 +45,7 @@ The following activities are available with the base system:-   Setup account re
 
 **Note:** If you have selected any of the Service Exchange integration options in the Initial Setup stage, the relevant activities are displayed and you can configure them as required.
 
-These are demo tasks and can be configured according to your requirements. You can add or delete tasks, and modify them as required. In the Related work activity, you can create ad-hoc tasks if required. See [Configure simple Customer Success Management playbook tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-configure-simple.md) for details on simple configuration tasks.
+These are demo tasks and can be configured according to your requirements. You can add or delete tasks, and modify them as required. In the Related work activity, you can create ad-hoc tasks if required. See [Configure simple Account Lifecycle Events playbook tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-configure-simple.md) for details on simple configuration tasks.
 
 </td></tr></tbody>
 </table>Review the data and click **Mark Complete** to move to the next stage.

@@ -7,7 +7,7 @@ release: yokohama
 product: Agile Development
 classification: agile-development
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 1
 breadcrumb: [Assignment groups in Agile Development 2.0, Use, Agile Development 2.0, Strategic Portfolio Management]
 ---

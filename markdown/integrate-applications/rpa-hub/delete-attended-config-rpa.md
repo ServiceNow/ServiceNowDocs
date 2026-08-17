@@ -38,15 +38,15 @@ If you delete an attended configuration record, the associated mapping records a
 
 3.  Navigate to the Attended Configuration record either from the Attended Configuration menu list or from an attended bot process record's related list.
 
-<table id="choicetable_uqv_q52_vzb"><thead><tr><th align="left" id="d433271e134">
+<table id="choicetable_uqv_q52_vzb"><thead><tr><th align="left" id="d433485e134">
 
 Option
 
-</th><th align="left" id="d433271e137">
+</th><th align="left" id="d433485e137">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d433271e143">
+</th></tr></thead><tbody><tr><td id="d433485e143">
 
 **From an Attended Configuration menu list**
 
@@ -56,7 +56,7 @@ Action
 2.  Open an attended configuration record.
 
 
-</td></tr><tr><td id="d433271e170">
+</td></tr><tr><td id="d433485e170">
 
 **From an attended bot process record's related list**
 

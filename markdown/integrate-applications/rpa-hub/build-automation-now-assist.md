@@ -1,6 +1,6 @@
 ---
 title: Build an automation with Now Assist
-description: Enhance the automation logic with text instructions, either in an empty activity or by selecting a component in an existing one by using the Now Assist for RPA Hub application.
+description: Enhance the automation logic with text instructions, either in an empty activity or by selecting a component in an existing one by using the ServiceNow Otto for RPA Hub application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/rpa-hub/build-automation-now-assist.html
 release: yokohama
@@ -10,24 +10,24 @@ topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 5
 keywords: [Now Assist, generative AI]
-breadcrumb: [Using Now Assist for RPA Hub, Now Assist for RPA Hub, Robotic Process Automation \(RPA\) Hub, Data and Automation]
+breadcrumb: [Using ServiceNow Otto for RPA Hub, ServiceNow Otto for RPA Hub, Robotic Process Automation \(RPA\) Hub, Data and Automation]
 ---
 
 # Build an automation with Now Assist
 
-Enhance the automation logic with text instructions, either in an empty activity or by selecting a component in an existing one by using the Now Assist for RPA Hub application.
+Enhance the automation logic with text instructions, either in an empty activity or by selecting a component in an existing one by using the ServiceNow Otto for RPA Hub application.
 
 ## Before you begin
 
 Set up the RPA Desktop Design Studio application and add the ServiceNow instance details. For more information, see [Set up RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/set-up-rpa-studio.md).
 
-To access the Now Assist for RPA Hub feature in RPA Desktop Design Studio, perform the following steps:
+To access the ServiceNow Otto for RPA Hub feature in RPA Desktop Design Studio, perform the following steps:
 
--   Install the Now Assist for RPA Hub application to add the generative AI capability. For more information, see [Configure Now Assist for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/configure-now-assist-rpa-hub.md).
+-   Install the ServiceNow Otto for RPA Hub application to add the generative AI capability. For more information, see [Configure ServiceNow Otto for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/configure-now-assist-rpa-hub.md).
 -   Turn on the RPA bot generation skill to use the generative AI capability. For more information, see [Turn on the RPA bot generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/turn-rpa-bot-generation-skill.md).
 -   After activating the RPA bot generation skill, relaunch the RPA Desktop Design Studio application to apply the modified settings.
 
-If you skip these steps, the Now Assist for RPA Hub feature doesn’t appear in RPA Desktop Design Studio.
+If you skip these steps, the ServiceNow Otto for RPA Hub feature doesn’t appear in RPA Desktop Design Studio.
 
 Familiarize yourself with the RPA bot generation skill concepts. For more information, see [Robotic Process Automation \(RPA\) bot generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/rpa-bot-generation.md).
 
@@ -45,15 +45,15 @@ If there are multiple control output ports for a component, the generated automa
 
 1.  In the RPA Desktop Design Studio, extend the automation logic with in-line prompting from the component level or from the design surface.
 
-<table id="choicetable_lsf_npv_ydc"><thead><tr><th align="left" id="d517491e182">
+<table id="choicetable_lsf_npv_ydc"><thead><tr><th align="left" id="d517705e182">
 
 Option
 
-</th><th align="left" id="d517491e185">
+</th><th align="left" id="d517705e185">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d517491e191">
+</th></tr></thead><tbody><tr><td id="d517705e191">
 
 **From component level**
 
@@ -68,7 +68,7 @@ You can also use the keyboard shortcut Ctrl+Enter to open the in-line prompting 
 
  If you access in-line prompting from the component level, the automation workflow is generated to the default control output port of the component.
 
-</td></tr><tr><td id="d517491e242">
+</td></tr><tr><td id="d517705e242">
 
 **From design surface**
 
@@ -97,15 +97,15 @@ If you access in-line prompting from the design surface, the generated automatio
 
 3.  In the Build with Now Assist window, close the window, cancel the workflow generation, reject an automation, or accept the automation preview.
 
-<table id="choicetable_tkm_2nn_4dc"><thead><tr><th align="left" id="d517491e369">
+<table id="choicetable_tkm_2nn_4dc"><thead><tr><th align="left" id="d517705e369">
 
 Option
 
-</th><th align="left" id="d517491e372">
+</th><th align="left" id="d517705e372">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d517491e378">
+</th></tr></thead><tbody><tr><td id="d517705e378">
 
 **Close**
 
@@ -113,7 +113,7 @@ Procedure
 
 If you want to close the Build with Now Assist window, select the close icon \(\[Omitted image "close-now-assist-rpa-icon.png"\] Alt text: Close icon.\), and then select **Close Now Assist** in the confirmation window.The generated automation workflow is discarded.
 
-</td></tr><tr><td id="d517491e401">
+</td></tr><tr><td id="d517705e401">
 
 **Stop generating**
 
@@ -121,7 +121,7 @@ If you want to close the Build with Now Assist window, select the close icon \(\
 
 If you want to cancel the workflow generation or update the instruction, select **Stop generating**. You can update the Now Assist instructions and select the enter icon \(\[Omitted image "enter-inline-prompt-icon.png"\] Alt text: Enter icon.\).
 
-</td></tr><tr><td id="d517491e422">
+</td></tr><tr><td id="d517705e422">
 
 **Reject**
 
@@ -129,7 +129,7 @@ If you want to cancel the workflow generation or update the instruction, select 
 
 If you aren’t satisfied with the automation preview, select **Reject**. Each time you build or rebuild an automation, the operation counts as an assist tracked by your Now Assist subscription. To track your Now Assist usage, see [Monitoring Now Assist usage in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/monitoring-now-assist-usage.md).
 
-</td></tr><tr><td id="d517491e444">
+</td></tr><tr><td id="d517705e444">
 
 **Accept**
 

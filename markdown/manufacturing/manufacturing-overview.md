@@ -41,8 +41,8 @@ The  ServiceNow® Manufacturing Commercial Operations \(MCO\) enables you to o
 </table>## Additional resources
 
 -   Learn more about what's new and changed at [Manufacturing Commercial Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/manufacturing-commercial-operations-rn.md).
--   Log in to your ServiceNow® account and find additional information about implementing and deploying Customer Service Management features at [Now Create](https://learning.servicenow.com/nowcreate).
+-   Log in to your ServiceNow® account and find additional information about implementing and deploying Manufacturing Commercial Operations features at the [Best Practices Library](https://mynow.servicenow.com/now/best-practices/home).
 -   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow)
--   Find useful resources related to your role and explore best practices at the [Customer Success Center](https://www.servicenow.com/success.html).
--   Connect with other Customer Service Management users at [Now Community](https://www.servicenow.com/community/).
+-   Find useful resources related to your role and explore best practices at [ServiceNow Impact](https://www.servicenow.com/impact.html).
+-   Connect with other Manufacturing Commercial Operations users at [Now Community](https://www.servicenow.com/community/manufacturing/ct-p/manufacturing).
 

@@ -5,7 +5,7 @@ locale: en-US
 release: yokohama
 topic_type: reference
 last_updated: "2025-04-08"
-reading_time_minutes: 33
+reading_time_minutes: 32
 ---
 
 # Now Assist in Virtual Agent release notes
@@ -180,7 +180,7 @@ See [Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/S
 
     Customize and configure the Search Toggle Button Label for enhanced chat's full-page experience. Additionally, you can configure the Enable Unread Conversation Count Display and Left Panel Header Label for enhanced chat and enhanced chat's full-page experience.
 
--   **[New third-party AI model provider options available for all Now Assist applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/exploring-large-language-models.md)**
+-   **New third-party AI model provider options available for all Now Assist applications**
 
     Google Gemini and AWS Claude are available for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
 
@@ -205,11 +205,11 @@ See [Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/S
 
     Two system properties were added to enable the suggested queries feature: **sn\_nowassist\_va.enable\_suggested\_queries** and **sn\_nowassist\_va.max\_suggested\_queries**.
 
--   **[Configure AI search answers OneExtend capability for web search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configure-ai-search-answers-capability-for-web-search.md)**
+-   **Configure AI search answers OneExtend capability for web search**
 
     Configure the AI Search answers capability via `sys_one_extend_capability.list` to establish the web search AI provider and work with API keys, if needed.
 
--   **[Expanding AI provider support for web search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configure-ai-search-answers-capability-for-web-search.md)**
+-   **Expanding AI provider support for web search**
 
     OpenAI, Perplexity, and Google Gemini support web search.
 
@@ -252,7 +252,7 @@ See [Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/S
         -   Fallback options don't apply to Now Assist panel Platform assistant.
         -   Enable web search mode to allow users to search the web from within a chat window.
     -   Now Assist panel Developer assistant: Not applicable.
--   **[Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-panel-overview.md)**
+-   ****
 
     Use the enhanced Now Assist panel for a more intuitive and personalized experience. The updated Now Assist panel is re-sizable and can be moved anywhere on the ServiceNow AI platform.
 
@@ -338,7 +338,7 @@ See [Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/S
 
     Enable suggested actions in Now Assist in Virtual Agent so that users are offered options for what they can do after completing a prior action. Suggested actions is applicable to standard and enhanced chat, mobile, and Microsoft Teams.
 
--   **[Web Search custom skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/web-search-custom-skill.md)**
+-   **Web Search custom skill**
 
     Use the Web Search custom skill to query the internet for information using a third-party AI. The skill triggers when the LLM and AI Search cannot provide an answer. Both values are shown in the System Properties \[sys\_properties\] table item **sn\_nowassist\_va.websearch\_fallback\_enabled**. Set a chosen definition \(such as Perplexity\) to `true` in the AI Search answers OneExtend capability along with its matching API in the Credentials list. You can set one definition and credential to true at any one time.
 
@@ -347,11 +347,11 @@ See [Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/S
 
     Stream LLM response messages as they’re generated instead of the response text appearing all at once to end users. Responses stream in either one letter or one word at a time.
 
--   **[Benefit from Knowledge Graph integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/exploring-knowledge-graph.md)**
+-   **Benefit from Knowledge Graph integration**
 
     Receive fewer Virtual Agent slot-fill questions during conversations whenever Knowledge Graph is activated.
 
--   **[Receive personalized synthesized response answers with Knowledge Graph integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/access-knowledge-graph-designer.md)**
+-   **Receive personalized synthesized response answers with Knowledge Graph integration**
 
     Discover more personalized conversational catalog, topic, subflows, or action responses and receive more personalized answers for Q&amp;A Knowledge Base synthesized responses. Personalized responses may appear depending on whether the questions or requests sent to Virtual Agent trigger the Knowledge Graph user profile schema. These personalized responses are slot-filled based on the following table and column attributes:
 
@@ -487,7 +487,7 @@ See [Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/S
 -   **[UI enhanced chat updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/nava-enhanced-chat.md)**
     -   Dynamic processing messages for agentic conversations are now consolidated under one View AI Steps header rather than under several View AI Steps headers.
     -   The **View all options** link shows below the suggested or promoted topics cards on the greeting topic in Now Assist in Virtual Agent and Now Assist panel's enhanced chat. At least one suggested or promoted asset has to be enabled for this link to show.
-    -   The auto-complete suggestion type in the Ask Now Assist header appears at the top of the portal search bar's drop-down list. The results in the Ask Now Assist header can now show more targeted search results from AI Search rather than the GlideRecord. The entered search term can appear highlighted in bold after you have configured AI Search as the source for Ask Now Assist suggestions. For more information about this configuration, see [Configure AI Search as the source for Ask Now Assist suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/configure-ai-search-source-ask-now-assist-suggestions.md).
+    -   The auto-complete suggestion type in the Ask Now Assist header appears at the top of the portal search bar's drop-down list. The results in the Ask Now Assist header can now show more targeted search results from AI Search rather than the GlideRecord. The entered search term can appear highlighted in bold after you have configured AI Search as the source for Ask Now Assist suggestions. For more information about this configuration, see .
     -   The static and dynamic choice nodes now appear differently in standard and enhanced chat depending on the number of choices for single-select options. For example:
         -   2-5 choices appear as pills
         -   6 or more choices appear as a choice list with a scroll bar
@@ -533,13 +533,13 @@ See [Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/S
 
 ## Changed in this release
 
--   **[Changes to Now Assist usage measurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/monitoring-now-assist-usage.md)**
+-   **Changes to Now Assist usage measurement**
 
     Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
--   **[Conversational Platform Now Assist skills are active by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills.md)**
+-   **Conversational Platform Now Assist skills are active by default**
 
-    The following Platform Now Assist skills are active by default and no longer visible in Now Assist Admin console:
+    The following Platform Now Assist skills are active by default and no longer visible in AI Admin Hub console:
 
     -   Now Assist Multi-Turn Catalog Ordering
     -   Now Assist Q&amp;A Genius Results
@@ -569,7 +569,7 @@ See [Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/S
 
 -   **[Profanity recognition response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/nava-enhanced-chat.md)**
 
-    If Now Assist Guardian is enabled and the end user's request contains profane content, the Virtual Agent responds with a message prompt to re-enter an appropriate request without profanity or offensive content.
+    If AI Guardian is enabled and the end user's request contains profane content, the Virtual Agent responds with a message prompt to re-enter an appropriate request without profanity or offensive content.
 
 
 -   **[Standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/nava-standard-chat.md)**
@@ -577,7 +577,7 @@ See [Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/S
     The existing Now Assist in Virtual Agent LLM conversational behavior received a terminology update and is now referred to as standard chat.
 
 
--   **[Dynamic Translation calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/translation-for-now-assist.md)**
+-   **Dynamic Translation calls**
 
     If native translation is enabled, a Dynamic Translation call is only made if an unsupported language for native translation is used.
 
@@ -595,36 +595,36 @@ See [Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/S
 
 Now Assist features are available with activation of any Now Assist plugin from the ServiceNow Store. The following products are available:
 
--   [Now Assist for Accounts Payable Operations \(APO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/source-to-pay-operations/now-assist-apo.md)
--   [Now Assist for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/add-ai-to-custom-apps-with-now-assist-for-app-engine-enterprise.md)
--   [Now Assist for Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/now-assist-landing-cmdb.md)
--   [Now Assist for Collaborative Work Management \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/now-assist-for-cwm-landing.md)
--   [Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/now-assist-for-creator-landing.md)
--   [Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/now-assist-csm.md)
--   [Now Assist for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/now-assisit-employee-exp.md)
--   [Now Assist for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-portfolio-management/now-assist-ea.md)
--   [Now Assist for Operational Sustainability \(formerly ESG\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/environmental-social-governance/now-assist-for-esg.md)
--   [Now Assist for Field Service Management \(FSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/field-service-management/now-assist-fsm.md)
--   [Now Assist for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/financial-services-operations/now-assist-for-financial-services-operations.md)
--   [Now Assist for Hardware Asset Management \(HAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/now-assist-ham.md)
--   [Now Assist for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/now-assist-hs-landing.md)
--   [Now Assist for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/now-assist-hrsd.md)
--   [Now Assist for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/now-assist-for-irm.md)
--   [Now Assist for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/now-assist-itom.md)
--   [Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/now-assist-itsm.md)
--   [Now Assist for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/now-assist-lsd-landing.md)
--   [Now Assist for Operational Technology Manager \(OTM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/operational-technology/now-assist-for-otm-landing.md)
--   [Now Assist for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/now-assist-order-management.md)
--   [Now Assist for PSDS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/government-industry/now-assist-for-psds.md)
--   [Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/security-management/now-assist-security-incident-landing.md)
--   [Now Assist for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/now-assist-sam.md)
--   [Now Assist for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/source-to-pay-operations/now-assist-slo.md)
--   [Now Assist for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/source-to-pay-operations/now-assist-spo.md)
--   [Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/now-assist-spm.md)
--   [Now Assist for Telecommunications, Media and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/telecom-media-technology/now-assist-spmc.md)
--   [Now Assist for Third-party Risk Management \(TPRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/now-assist-tprm.md)
--   [Now Assist for Workplace Service Delivery \(WSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/now-assist-wsd-landing.md)
--   [Now Assist for Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/security-management/now-assist-for-vulnerability-response-landing.md)
+-   [ServiceNow Otto for Accounts Payable Operations \(APO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/source-to-pay-operations/now-assist-apo.md)
+-   
+-   
+-   [ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/now-assist-for-cwm-landing.md)
+-   
+-   [ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/now-assist-csm.md)
+-   
+-   [ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-portfolio-management/now-assist-ea.md)
+-   [ServiceNow Otto for Operational Sustainability \(formerly ESG\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/environmental-social-governance/now-assist-for-esg.md)
+-   [ServiceNow Otto for Field Service Management \(FSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/field-service-management/now-assist-fsm.md)
+-   [ServiceNow Otto for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/financial-services-operations/now-assist-for-financial-services-operations.md)
+-   
+-   
+-   
+-   
+-   
+-   
+-   
+-   [Operational Technology \(OT\) Manager Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/operational-technology/now-assist-for-otm-landing.md)
+-   [ServiceNow Otto for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/now-assist-order-management.md)
+-   [ServiceNow Otto for PSDS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/government-industry/now-assist-for-psds.md)
+-   [ServiceNow Otto for Security Incident Response \(SIR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/security-management/now-assist-security-incident-landing.md)
+-   
+-   [ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/source-to-pay-operations/now-assist-slo.md)
+-   [ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/source-to-pay-operations/now-assist-spo.md)
+-   [ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/now-assist-spm.md)
+-   [ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/telecom-media-technology/now-assist-spmc.md)
+-   
+-   
+-   [ServiceNow Otto for Unified Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/security-management/now-assist-for-vulnerability-response-landing.md)
 
 For more information, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/configure-now-assist-va.md).
 
@@ -638,7 +638,7 @@ Now Assist in Virtual Agent supports various browsers, including Google Chrome a
 
 ## Localization information
 
-[Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/dynamic-translation-overview.md) is supported for non-streaming Now Assist Virtual Agent conversations. For details, see [Configure multilingual service for Now Assist applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/enable-dynamic-translation-for-now-assist-applications.md) and .
+ is supported for non-streaming Now Assist Virtual Agent conversations. For details, see  and .
 
 ## Related ServiceNow applications and features
 
@@ -646,7 +646,7 @@ Now Assist in Virtual Agent supports various browsers, including Google Chrome a
 
     ServiceNow® Now Assist uses agentic AI that is designed to enhance user productivity and efficiency through conversation and proactive experiences.
 
--   **[Now Assist in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/now-assist-ais.md)**
+-   ****
 
     The Now Assist in AI Search ServiceNow® Store application combines the power of search with the Now LLM Service agentic AI model to answer questions in user searches with actionable AI-generated summaries of relevant Knowledge articles.
 

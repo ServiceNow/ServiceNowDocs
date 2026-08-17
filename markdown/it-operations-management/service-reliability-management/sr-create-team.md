@@ -9,7 +9,7 @@ classification: service-reliability-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Working with SRM teams, Using Service Reliability Management, Service Reliability Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Working with SRM teams, Using Service Reliability Management, Service Reliability Management, ITOM Health, IT Operations Management]
 ---
 
 # Add an SRM team
@@ -36,15 +36,15 @@ The ServiceNow system administrator can set up teams in your workspace using a d
 
 3.  Create a new team or add an existing one.
 
-<table id="choicetable_m4k_fmf_n1c"><thead><tr><th align="left" id="d89256e121">
+<table id="choicetable_m4k_fmf_n1c"><thead><tr><th align="left" id="d88070e121">
 
 Option
 
-</th><th align="left" id="d89256e124">
+</th><th align="left" id="d88070e124">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d89256e130">
+</th></tr></thead><tbody><tr><td id="d88070e130">
 
 **Add a new team**
 
@@ -58,7 +58,7 @@ For more information on the field descriptions, see [Create team form](https://r
 3.  Select **Add team**.
 
 
-</td></tr><tr><td id="d89256e169">
+</td></tr><tr><td id="d88070e169">
 
 **Register an existing team**
 

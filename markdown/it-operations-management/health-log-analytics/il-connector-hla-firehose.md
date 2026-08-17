@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 5
 keywords: [AWS Firehose, data input, integration, configuration, ServiceNow, Health Log Analytics, HLA]
-breadcrumb: [Set up integrations from Integrations Launchpad, Setting up Health Log Analytics on your ServiceNow instance, Configuring Health Log Analytics, Health Log Analytics, ITOM AIOps, IT Operations Management]
+breadcrumb: [Set up integrations from Integrations Launchpad, Setting up Health Log Analytics on your ServiceNow instance, Configuring Health Log Analytics, Health Log Analytics, ITOM Health, IT Operations Management]
 ---
 
 # Set up an Amazon Data Firehose \(MID-less\) integration for Health Log Analytics
@@ -62,7 +62,7 @@ You set up integrations through the Integrations Launchpad in Service Operations
 9.  Do one of the following:
 
     -   If you completed all the prerequisites before starting the configuration, activate the integration either with or without AI-powered capabilities. Select the appropriate option:
-        -   **Activate with AI** enables AI-powered automatic mapping of log data. When the integration is activated successfully, the **Overview** tab is displayed and Now Assist collects and analyzes log data. An AI icon indicates that Now Assist auto-maps log data to service instances and components for contextual alert generation.
+        -   **Activate with AI** enables AI-powered automatic mapping of log data. When the integration is activated successfully, the **Overview** tab is displayed and ServiceNow Otto collects and analyzes log data. An AI icon indicates that ServiceNow Otto auto-maps log data to service instances and components for contextual alert generation.
         -   **Activate** activates the integration without AI-powered mapping. The integration is activated and the **Overview** tab is displayed.
     -   If you didn't complete all the prior requirements, select **Save draft**.
 

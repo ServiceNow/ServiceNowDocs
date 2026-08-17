@@ -24,7 +24,7 @@ Role required: now.assist.creator
 
 ## Procedure
 
-1.  Navigate to any script editor enabled with Now Assist for Code.
+1.  Navigate to any script editor enabled with ServiceNow Otto for Code.
 
 2.  In the script editor, select a code and then select the **Quick Actions** button.
 

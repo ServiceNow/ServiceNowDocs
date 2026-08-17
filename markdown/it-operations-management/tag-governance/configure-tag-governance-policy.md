@@ -9,7 +9,7 @@ classification: tag-governance
 topic_type: task
 last_updated: "2025-08-03"
 reading_time_minutes: 1
-breadcrumb: [Establishing Tag Governance policies, Using Tag Governance, Tag Governance, ITOM Visibility, IT Operations Management]
+breadcrumb: [Establish tag policies, Use, Tag Governance, ITOM Visibility, IT Operations Management]
 ---
 
 # Configure a tag policy for Tag Governance

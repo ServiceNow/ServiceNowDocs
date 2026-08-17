@@ -16,20 +16,20 @@ The ServiceNow® Domain Separation application enables you to separate data, pro
 
 Enable domain separation in live environments by using the Post-Production Domain Separation Activation Utility.
 
-See [Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/domain-sep-landing-page.md) for more information.
+See  for more information.
 
 **Important:** Domain Separation is available in ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Yokohama release
 
--   **[Post-Production Domain Separation Activation Utility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/post-prod-domain-sep-utility.md)**
+-   ****
 
     Begin using domain separation on a live environment with the guided Post-Production Domain Separation Activation Utility.
 
 
 ## Activation information
 
-Domain Separation is a ServiceNow AI Platform feature that is available with activation of the com.glide.domain.activation\_utility. For details, see [Domain separation plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/domain-sep-plugin.md).
+Domain Separation is a ServiceNow AI Platform feature that is available with activation of the com.glide.domain.activation\_utility. For details, see .
 
 **Parent Topic:**[ServiceNow AI Platform security release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/now-platform-security-rn-landing.md)
 

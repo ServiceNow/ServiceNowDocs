@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Configure File Explorer Component, Configure, Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -45,15 +45,17 @@ Role required: sn\_msi.workspace\_admin
 
 4.  Define the security incident **Condition** values.
 
-    \[Omitted image "folder-templates-file-explorer.png"\] Alt text: Folder templates
-
 5.  **Update** the record.
 
     The sub folders are created with the defined values.
 
 6.  Click the desired **Sub folder**.
 
-    If you don't create a sub folder with an appropriate name then the sub folders names are created as **Default** in the **Subfolder Configurations** section. \[Omitted image "folder-templates-subfolders.png"\] Alt text: Subfolders. The same folder structure will be created automatically in the Microsoft SharePoint using the same access privileges that are configured on the **Folder Templates** page.
+    If you don't create a sub folder with an appropriate name then the sub folders names are created as **Default** in the **Subfolder Configurations** section. . The same folder structure will be created automatically in the Microsoft SharePoint using the same access privileges that are configured on the **Folder Templates** page.
+
+    Example default sub-folders: Documents, Logs, Legal Docs, System Images.
+
+    **Important:** All users and groups added to a sub-folder must have a valid Microsoft Account to access SharePoint folders.
 
     **Note:**
 

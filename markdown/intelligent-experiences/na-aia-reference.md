@@ -20,7 +20,7 @@ The following roles are installed with Now Assist AI agents with a compatible No
 
 |Role|Description|
 |----|-----------|
-|AI Agent Admin \[sn\_aia.admin\]|Administrator of the application. A user with the sn\_aia\_admin role can create, read, update, and delete records.|
+|AI Agent admin \[sn\_aia.admin\]|Administrator of the application. A user with the sn\_aia\_admin role can create, read, update, and delete records.|
 |AI Agent Viewer \[sn\_aia.viewer\]|Read-only access to the application. A user with the sn\_aia\_viewer role has read and report access on all tables.|
 |agent\_role\_config\_admin|With this role, user can access and modify Agent role configurations with AI Agent Admin \[sn\_aia\_admin\] being the parent role.|
 |agent\_role\_config\_viewer|Can view the Agent role configurations with AI Agent Viewer \[sn\_aia\_viewer\] being the parent role.|
@@ -280,7 +280,7 @@ mcp\_guardian\_check
 
 </td><td>
 
-Enables guardian check for MCP Client when the value is set to **true**.The default value is **false**.
+Determines whether Now Assist Guardian runs on MCP tool executions.You can enable guardian check for MCP Client when the value is set to **true**. The default value is **false**.
 
 **Note:** To enable guardian check for MCP Client, ensure that you enable Now Assist guardian on **AI Agent Studio** &gt; **Settings** page.
 
@@ -425,18 +425,6 @@ Actions to take by the agentic workflow after it has finished executing. Each re
 </td><td>
 
 no\_followup\_close\_conversation
-
-</td></tr><tr><td>
-
-mcp\_guardian\_check
-
-</td><td>
-
-Determines whether Now Assist Guardian runs on MCP tool executions
-
-</td><td>
-
-false
 
 </td></tr><tr><td>
 

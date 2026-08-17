@@ -19,13 +19,13 @@ Configure the recommendation skill from Now Assist to generate the recommendatio
 
 ## Before you begin
 
-Install the Now Assist for IRM plugin \(sn\_irm\_gen\_ai\).
+Install the ServiceNow Otto for IRM plugin \(sn\_irm\_gen\_ai\).
 
 Role required: admin or sn\_nowassist\_admin.nsa\_admin
 
 ## About this task
 
-**Important:** After installing Now Assist for IRM, all Now Assist for IRM skills and agentic workflows are activated by default.
+**Important:** After installing ServiceNow Otto for IRM, all ServiceNow Otto for IRM skills and agentic workflows are activated by default.
 
 Recommendation skills help regulatory analysts quickly identify impacted areas by generating AI-driven suggestions based on the content of a regulatory alert. These skills can be configured to be available at all times or conditionally triggered depending on the alert’s status. They’re typically accessible when the alert is in any state except Closed or Cancelled. To generate meaningful recommendations, the LLM analyzes defined data sources and input fields. After recommendations are generated, you can accept or dismiss them individually, with accepted recommendations helping to streamline impact analysis and improve compliance accuracy. For more information, see [Recommendation contexts and templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/recommendation-contexts.md).
 
@@ -120,15 +120,15 @@ Template used for this skill.
 </td></tr></tbody>
 </table>5.  Define the user roles that can access the skill by selecting **Define access** and specifying a User access option.
 
-<table id="choicetable_mvq_4wl_tgc"><thead><tr><th align="left" id="d34449e344">
+<table id="choicetable_mvq_4wl_tgc"><thead><tr><th align="left" id="d34408e344">
 
 Option
 
-</th><th align="left" id="d34449e347">
+</th><th align="left" id="d34408e347">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d34449e353">
+</th></tr></thead><tbody><tr><td id="d34408e353">
 
 **Any authenticated user**
 
@@ -136,7 +136,7 @@ Description
 
 Any user that has successfully logged in can access this skill.
 
-</td></tr><tr><td id="d34449e362">
+</td></tr><tr><td id="d34408e362">
 
 **Select Roles**
 

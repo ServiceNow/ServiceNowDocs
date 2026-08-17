@@ -102,7 +102,7 @@ See [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/
 
 -   **[Custom skills in Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/managing-custom-skills.md)**
 
-    View skills created in Now Assist Skill Kit in Virtual Agent Designer.
+    View skills created in AI Skill Kit in Virtual Agent Designer.
 
 -   **[Chat surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/ci-conversational-chat-surveys.md)**
 
@@ -147,7 +147,7 @@ See [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/
     The **Test** button in the Virtual Agent Designer canvas directly opens up the chat widget.
 
 
--   **[Dynamic Translation calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/translation-for-now-assist.md)**
+-   **Dynamic Translation calls**
 
     For Now Assist, if native translation is enabled, a Dynamic Translation call is only made if an unsupported language for native translation is used.
 
@@ -197,7 +197,7 @@ The ServiceNow® Localization Framework is integrated in Virtual Agent.
     -   ServiceNow® IT Service Management
     -   ServiceNow® Project Portfolio Management
     -   ServiceNow® Universal Request
--   **[Natural Language Understanding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/nlu-landing.md)**
+-   ****
 
     Virtual Agent integrates with the Natural Language Understanding \(NLU\) application, which provides the NLU Workbench for creating NLU models. Virtual Agent uses these models to recognize and process user utterances, intents, and entities in bot conversations.
 

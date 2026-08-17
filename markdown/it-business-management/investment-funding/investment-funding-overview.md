@@ -40,7 +40,7 @@ Keeping the investment and investment entity separate provides the following adv
 
 A generic investment is an investment that is tied an owner without being associated to any entity. You can fund any entity or other generic investment from a generic investment.
 
-For example, as the CEO of a company you might want to set aside some funds for a training or research initiative and there might not be a transaction table to enable such an entity. You could then create a generic entity to fund the investment.
+For example, as the CEO of a company you might want to set aside some funds for a training or research initiative. However, there might not be a transaction table to enable such an entity. You could then create a generic entity to fund the investment.
 
 ## Top-down and bottom-up funding
 

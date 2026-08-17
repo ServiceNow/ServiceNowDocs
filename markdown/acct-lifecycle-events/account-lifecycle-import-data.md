@@ -1,18 +1,18 @@
 ---
 title: Import data into the account onboarding playbook
-description: As part of the Customer Success Management process, you can import, configure, and publish data.
+description: As part of the Account Lifecycle Events process, you can import, configure, and publish data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/acct-lifecycle-events/account-lifecycle-import-data.html
 release: yokohama
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 3
-breadcrumb: [Data capture and validation, Set up the account onboarding playbook, Configuring account onboarding, Account onboarding, Customer Success Management]
+breadcrumb: [Data capture and validation, Set up the account onboarding playbook, Configuring account onboarding, Account onboarding, Account Lifecycle Events]
 ---
 
 # Import data into the account onboarding playbook
 
-As part of the Customer Success Management process, you can import, configure, and publish data.
+As part of the Account Lifecycle Events process, you can import, configure, and publish data.
 
 ## Before you begin
 
@@ -20,7 +20,7 @@ As part of the Customer Success Management process, you can import, configure, a
 
 ## About this task
 
-After completing the first stage in the Customer Success Management playbook, you can continue with the **Data Capture &amp; Validation** stage. In the header section, you can see the account name, person it is assigned to, days remaining, account status, and the data import status. Several default tables have been configured with the base system.
+After completing the first stage in the Account Lifecycle Events playbook, you can continue with the **Data Capture &amp; Validation** stage. In the header section, you can see the account name, person it is assigned to, days remaining, account status, and the data import status. Several default tables have been configured with the base system.
 
 To import data into these default tables, follow these steps:
 

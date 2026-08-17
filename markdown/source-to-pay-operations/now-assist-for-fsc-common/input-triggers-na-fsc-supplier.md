@@ -31,7 +31,7 @@ The Now Assist for Common Finance and Supply Chain features includes the Supplie
 
 Inputs for the Supplier summarization for fulfillers skill identify the table and fields used when the summary is generated for a supplier.
 
-The following table lists the inputs for the Supplier summarization for fulfillers skill from the Choose input for suppliers in the Now Assist Admin console.
+The following table lists the inputs for the Supplier summarization for fulfillers skill from the Choose input for suppliers in the AI Admin Hub console.
 
 <table id="table_c1c_hlg_lgc"><thead><tr><th>
 

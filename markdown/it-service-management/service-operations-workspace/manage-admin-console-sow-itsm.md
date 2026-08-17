@@ -36,15 +36,15 @@ The Admin Center consists of the following tabs:
 
 3.  Select any of the following options.
 
-<table id="choicetable_lg2_mrt_cyb"><thead><tr><th align="left" id="d225707e138">
+<table id="choicetable_lg2_mrt_cyb"><thead><tr><th align="left" id="d226088e138">
 
 Option
 
-</th><th align="left" id="d225707e141">
+</th><th align="left" id="d226088e141">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d225707e147">
+</th></tr></thead><tbody><tr><td id="d226088e147">
 
 **Migrate configurations and customizations from ITSM Agent Workspace to SOW for ITSM**
 
@@ -52,7 +52,7 @@ Description
 
 On the **Overview** tab, from the **Initial Setup** section, select the **Migrate from ITSM Agent Workspace to SOW** option. For information about this migration utility, see [Migration from ITSM Agent Workspace to Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/migration-from-itsm-aw-sow.md).
 
-</td></tr><tr><td id="d225707e187">
+</td></tr><tr><td id="d226088e187">
 
 **Configure the landing page**
 
@@ -73,7 +73,7 @@ On the **Overview** tab, from the **Initial Setup** section, select the **Migrat
         -   For tier 1 agents, visibility of the Getting started section that provides an overview of key features in Service Operations Workspace.
 For information about landing page customizations, see [Customizing Service Operations Workspace for ITSM to align with your requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/customize-sow-landing-page.md).
 
-</td></tr><tr><td id="d225707e302">
+</td></tr><tr><td id="d226088e302">
 
 **Configure the availability and order of contextual side panel tabs for record pages**
 
@@ -87,7 +87,7 @@ For information about landing page customizations, see [Customizing Service Oper
 
 **Note:** Ensure that the user's scope is set to that of the app route.
 
-</td></tr><tr><td id="d225707e354">
+</td></tr><tr><td id="d226088e354">
 
 **Configure the incident record page**
 
@@ -116,7 +116,7 @@ For information about landing page customizations, see [Customizing Service Oper
 
  For information about incident record page customizations, see [Customize the incident record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/customize-the-incident-record-page.md).
 
-</td></tr><tr><td id="d225707e521">
+</td></tr><tr><td id="d226088e521">
 
 **Configure the Major Incident Management features**
 
@@ -133,7 +133,7 @@ For information about landing page customizations, see [Customizing Service Oper
     -   Timeline configurations for post incident report.
 For more information on the configurations of features in Major Incident Management in Admin Center, see [Configuring Major Incident Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/configuring-mim-in-sow.md).
 
-</td></tr><tr><td id="d225707e589">
+</td></tr><tr><td id="d226088e589">
 
 **Configure the Problem Management features**
 
@@ -145,7 +145,7 @@ For more information on the configurations of features in Major Incident Managem
     -   Problem task record: configure the problem task record UI elements and the visible data content. For more information, see [Customize forms within a form component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/learn-by-example-edit-form-component.md)
 
 
-</td></tr><tr><td id="d225707e639">
+</td></tr><tr><td id="d226088e639">
 
 **Configure the Change Management features**
 
@@ -175,7 +175,7 @@ For more information on the configurations of features in Major Incident Managem
     -   Change task record: Configure the change task record UI elements and the visible data content. For more information, see [Customize forms within a form component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/learn-by-example-edit-form-component.md).
 
 
-</td></tr><tr><td id="d225707e830">
+</td></tr><tr><td id="d226088e830">
 
 **Configure the On-Call Scheduling features**
 
@@ -194,7 +194,7 @@ For more information on the configurations of features in Major Incident Managem
 
 **Note:** You can restart a skipped configuration.
 
-</td></tr><tr><td id="d225707e950">
+</td></tr><tr><td id="d226088e950">
 
 **Configure the Service Reliability Management sections**
 
@@ -210,7 +210,7 @@ For more information on the configurations of features in Major Incident Managem
 
 For information about Service Reliability Management configurations, see [Service Operations Workspace setup for SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/sr-sow-admin-setup.md).
 
-</td></tr><tr><td id="d225707e1019">
+</td></tr><tr><td id="d226088e1019">
 
 **Configure the Notify features**
 

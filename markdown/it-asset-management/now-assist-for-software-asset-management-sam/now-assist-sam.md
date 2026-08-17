@@ -1,6 +1,6 @@
 ---
-title: Now Assist for Software Asset Management \(SAM\)
-description: Use the Now Assist for Software Asset Management \(SAM\) application to integrate generative AI capabilities into your daily workflow, thereby minimizing manual tasks while enhancing compliance visibility and optimization insights.
+title: ServiceNow Otto for Software Asset Management \(SAM\)
+description: Use the ServiceNow Otto for Software Asset Management \(SAM\) application to integrate generative AI capabilities into your daily workflow, thereby minimizing manual tasks while enhancing compliance visibility and optimization insights.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/now-assist-for-software-asset-management-sam/now-assist-sam.html
 release: yokohama
@@ -12,9 +12,9 @@ reading_time_minutes: 4
 breadcrumb: [Software Asset Management, IT Asset Management]
 ---
 
-# Now Assist for Software Asset Management \(SAM\)
+# ServiceNow Otto for Software Asset Management \(SAM\)
 
-Use the Now Assist for Software Asset Management \(SAM\) application to integrate generative AI capabilities into your daily workflow, thereby minimizing manual tasks while enhancing compliance visibility and optimization insights.
+Use the ServiceNow Otto for Software Asset Management \(SAM\) application to integrate generative AI capabilities into your daily workflow, thereby minimizing manual tasks while enhancing compliance visibility and optimization insights.
 
 ## Get started
 
@@ -62,13 +62,13 @@ ServiceNow collects and uses the inputs, outputs, and edits to outputs of this a
 
 For more information, see the [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/platform-now-assist-landing.md).
 
--   **[Exploring Now Assist for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/now-assist-for-software-asset-management-sam/exploring-now-assist-sam.md)**  
-With the Now Assist for Software Asset Management \(SAM\) application, Software Asset Management managers can use generative AI capabilities for tasks such as generating compliance summaries, optimization recommendations, and automating SaaS user resolution.
--   **[Configure Now Assist for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/now-assist-for-software-asset-management-sam/configure-now-assist-sam.md)**  
-If you have the admin role, you can configure the Now Assist for Software Asset Management \(SAM\) application so that Software Asset Management managers can use the generative AI capabilities in the Software Asset Workspace.
+-   **[Exploring ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/now-assist-for-software-asset-management-sam/exploring-now-assist-sam.md)**  
+With the ServiceNow Otto for Software Asset Management \(SAM\) application, Software Asset Management managers can use generative AI capabilities for tasks such as generating compliance summaries, optimization recommendations, and automating SaaS user resolution.
+-   **[Configure ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/now-assist-for-software-asset-management-sam/configure-now-assist-sam.md)**  
+If you have the admin role, you can configure the ServiceNow Otto for Software Asset Management \(SAM\) application so that Software Asset Management managers can use the generative AI capabilities in the Software Asset Workspace.
 -   **[Using agentic workflows in Now Assist for SAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/now-assist-for-software-asset-management-sam/using-now-assist-sam-ai-agents-usecases.md)**  
 Use the Now Assist for SAM AI agent collection to complete tasks autonomously.
--   **[Using Now Assist for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/now-assist-for-software-asset-management-sam/using-now-assist-sam.md)**  
+-   **[Using ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/now-assist-for-software-asset-management-sam/using-now-assist-sam.md)**  
 If you have a Software Asset Management manager role, you can use generative AI capabilities to streamline your daily Software Asset Management workflow.
 
 **Parent Topic:**[Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/c_SoftwareAssetMgmt.md)

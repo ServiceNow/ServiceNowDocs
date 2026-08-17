@@ -64,7 +64,7 @@ Key performance indicator \(KPI\) data from PA that comes with the base system. 
 
 </td><td>
 
-Technology Portfolio Management \(TPM\)
+Technology Lifecycle Management \(TLM\)
 
 </td><td>
 

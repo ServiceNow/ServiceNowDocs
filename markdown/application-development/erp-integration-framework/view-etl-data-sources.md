@@ -1,6 +1,6 @@
 ---
 title: View ERP extraction tables
-description: Work with ETL \(extract, transform, and load\) processes in Zero Copy Connector for ERP to extract large amounts of ERP \(Enterprise Resource Planning\) data from the ERP system. Extracted data is stored in Glide tables in the ServiceNow AI Platform.
+description: Work with ETL \(extract, transform, and load\) processes in ERP Canvas to extract large amounts of ERP \(Enterprise Resource Planning\) data from the ERP system. Extracted data is stored in Glide tables in the ServiceNow AI Platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-integration-framework/view-etl-data-sources.html
 release: yokohama
@@ -9,12 +9,12 @@ classification: erp-integration-framework
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Extracting and transforming data in Zero Copy Connector for ERP, Using ERP models, extraction tables, and remote tables, Zero Copy Connector for ERP, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Extracting and transforming data in ERP Canvas, Using ERP models, extraction tables, and remote tables, ERP Canvas, Building low-code applications, Developing your application, Building applications]
 ---
 
 # View ERP extraction tables
 
-Work with ETL \(extract, transform, and load\) processes in Zero Copy Connector for ERP to extract large amounts of ERP \(Enterprise Resource Planning\) data from the ERP system. Extracted data is stored in Glide tables in the ServiceNow AI Platform.
+Work with ETL \(extract, transform, and load\) processes in ERP Canvas to extract large amounts of ERP \(Enterprise Resource Planning\) data from the ERP system. Extracted data is stored in Glide tables in the ServiceNow AI Platform.
 
 ## Before you begin
 
@@ -26,7 +26,7 @@ ERP extraction tables extract and save data to a transform table on the ServiceN
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home**.
+1.  Navigate to **All** &gt; **ERP Canvas** &gt; **ERP Canvas Home**.
 
 2.  Open the ERP extraction tables page by selecting the ERP extraction tables icon \(\[Omitted image "erpc-extraction-table-icon.png"\] Alt text: ERP extraction tables navigation icon\) in the side panel.
 
@@ -84,5 +84,5 @@ ERP model used in the ETL extraction.Select the ERP model name to view the detai
 
 After the extraction process is run, use import sets to map imported data into ServiceNow AI Platform tables. For more information, see [Import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/import-sets-landing-page.md).
 
-**Parent Topic:**[Extracting and transforming data in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-extraction-tables.md)
+**Parent Topic:**[Extracting and transforming data in ERP Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-extraction-tables.md)
 

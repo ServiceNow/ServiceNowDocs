@@ -28,7 +28,7 @@ Role required: resource\_user, resource\_manager, it\_project\_manager, demand\_
 
 1.  Create a resource plan using one of the following options.
 
-<table id="choicetable_dws_ntk_xp"><tbody><tr><td id="d51886e119">
+<table id="choicetable_dws_ntk_xp"><tbody><tr><td id="d51426e119">
 
 **From Allocation Workbench**
 
@@ -39,7 +39,7 @@ Role required: resource\_user, resource\_manager, it\_project\_manager, demand\_
 3.  In the Allocation workbench, click the **New Plan** located in the top-right corner.
 
 
-</td></tr><tr><td id="d51886e155">
+</td></tr><tr><td id="d51426e155">
 
 **From Resource tab in project workspace**
 
@@ -49,7 +49,7 @@ Role required: resource\_user, resource\_manager, it\_project\_manager, demand\_
 2.  On the **Resources** tab, click **New**.
 
 
-</td></tr><tr><td id="d51886e189">
+</td></tr><tr><td id="d51426e189">
 
 **From a project form**
 
@@ -60,7 +60,7 @@ Role required: resource\_user, resource\_manager, it\_project\_manager, demand\_
 3.  In the **Resource Plan** related list, click **New**.
 
 
-</td></tr><tr><td id="d51886e228">
+</td></tr><tr><td id="d51426e228">
 
 **From a demand form**
 
@@ -72,7 +72,7 @@ Role required: resource\_user, resource\_manager, it\_project\_manager, demand\_
 4.  On the Resource Plans page, click **New**.
 
 
-</td></tr><tr><td id="d51886e273">
+</td></tr><tr><td id="d51426e273">
 
 **From a project task**
 
@@ -85,7 +85,7 @@ Role required: resource\_user, resource\_manager, it\_project\_manager, demand\_
 5.  In the **Resource Plan** related list, click **New**.
 
 
-</td></tr><tr><td id="d51886e325">
+</td></tr><tr><td id="d51426e325">
 
 **From an existing resource plan**
 

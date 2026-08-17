@@ -43,15 +43,15 @@ Role required: sn\_imt\_checkin.checkin\_admin or admin
 
 4.  On the **When to run** tab, specify when the outreach should be sent.
 
-<table id="eo-table-when-to-run"><thead><tr><th align="left" id="d180118e166">
+<table id="eo-table-when-to-run"><thead><tr><th align="left" id="d179499e166">
 
 Option
 
-</th><th align="left" id="d180118e169">
+</th><th align="left" id="d179499e169">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d180118e175">
+</th></tr></thead><tbody><tr><td id="d179499e175">
 
 **To send the notification on demand**
 
@@ -59,7 +59,7 @@ Action
 
 Keep the default **Mode** value of **None**. The outreach is sent when you select **Send Notification**.
 
-</td></tr><tr><td id="d180118e193">
+</td></tr><tr><td id="d179499e193">
 
 **To schedule the notification**
 
@@ -84,15 +84,15 @@ The outreach messages reference a send time based on the time zone of the user s
 
 5.  Identify who will receive the outreach notification through either the Emergency Outreach or Safe Workplace application.
 
-<table id="choicetable_mxq_4sk_jmb"><thead><tr><th align="left" id="d180118e300">
+<table id="choicetable_mxq_4sk_jmb"><thead><tr><th align="left" id="d179499e300">
 
 App
 
-</th><th align="left" id="d180118e303">
+</th><th align="left" id="d179499e303">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d180118e309">
+</th></tr></thead><tbody><tr><td id="d179499e309">
 
 **Emergency Outreach standalone**
 
@@ -100,7 +100,7 @@ Action
 
 On the Select targeted audience tab, select the combination of users to send the outreach notification to. Choose from user lists, groups, departments, locations, or other search filters such as building, cost center, or country code.
 
-</td></tr><tr><td id="d180118e324">
+</td></tr><tr><td id="d179499e324">
 
 **Safe Workplace**
 
@@ -117,15 +117,15 @@ On the Safe Workplace **Audience** tab, select the name of the audience to send 
 
 8.  On the **Content configuration** tab, specify how to send the outreach notification.
 
-<table id="choicetable_frh_152_jmb"><thead><tr><th align="left" id="d180118e381">
+<table id="choicetable_frh_152_jmb"><thead><tr><th align="left" id="d179499e381">
 
 Option
 
-</th><th align="left" id="d180118e384">
+</th><th align="left" id="d179499e384">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d180118e390">
+</th></tr></thead><tbody><tr><td id="d179499e390">
 
 **Disable the email notification**
 
@@ -133,7 +133,7 @@ Action
 
 Clear the **Email** check box.
 
-</td></tr><tr><td id="d180118e402">
+</td></tr><tr><td id="d179499e402">
 
 **Select a different notification**
 
@@ -141,7 +141,7 @@ Clear the **Email** check box.
 
 Click the lookup icon \(\[Omitted image "icon-lookup.png"\] Alt text: Click icon to look up a notification\) and select **Daily Health Verification**.
 
-</td></tr><tr><td id="d180118e421">
+</td></tr><tr><td id="d179499e421">
 
 **Review and edit the introductory message**
 
@@ -149,7 +149,7 @@ Click the lookup icon \(\[Omitted image "icon-lookup.png"\] Alt text: Click icon
 
 Modify the subject and body. The notification includes the link to the daily health verification form that the user can submit in the instance or mobile app.
 
-</td></tr><tr><td id="d180118e433">
+</td></tr><tr><td id="d179499e433">
 
 **Send a mobile push notification**
 
@@ -162,7 +162,7 @@ The check box is active if the ServiceNow NowMobile App Screens and Applet Launc
 2.  Modify the push message text as desired.
  Push notifications use the ServiceNow Request Application notification device. When mobile application is registered to an instance, this notification device is automatically created in the user's notification preferences. Ensure that this device is active for the users that you want to receive the push notification.
 
-</td></tr><tr><td id="d180118e463">
+</td></tr><tr><td id="d179499e463">
 
 **Send an SMS notification**
 
@@ -178,7 +178,7 @@ The check box is active if the ServiceNow NowMobile App Screens and Applet Launc
 
  SMS reply options are dynamically populated from the Response Options table \[sn\_imt\_checkin\_response\_option\].
 
-</td></tr><tr><td id="d180118e504">
+</td></tr><tr><td id="d179499e504">
 
 **Use a custom notification channel**
 

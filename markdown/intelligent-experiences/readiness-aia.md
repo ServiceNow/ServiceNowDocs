@@ -21,7 +21,7 @@ The Issue Readiness AI agent takes the information on a record, analyzes it, det
 
 ## Prerequisites and setup
 
-To access this AI agent, you must have Now Assist Agent for Platform installed on your instance, which is installed with any other Now Assist application, such as Now Assist for IT Service Management \(ITSM\).
+To access this AI agent, you must have Now Assist Agent for Platform installed on your instance, which is installed with any other Now Assist application, such as ServiceNow Otto for IT Service Management \(ITSM\).
 
 ## Role masking
 

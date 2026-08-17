@@ -1,6 +1,6 @@
 ---
-title: Usage Insights for pages and screens
-description: The Pages module for UI Analysis in Usage Insights shows analytics specific to pages on the web-based UI in terms of page use and navigation. View user action, performance, and navigation details for each web page to identify pages where users might be having issues and optimize workflows accordingly.See user actions, performance and navigation analytics for each page.
+title: User Experience Analytics for pages and screens
+description: The Pages module for UI Analysis in User Experience Analytics shows analytics specific to pages on the web-based UI in terms of page use and navigation. View user action, performance, and navigation details for each web page to identify pages where users might be having issues and optimize workflows accordingly.See user actions, performance and navigation analytics for each page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/usage-insights/view-pages.html
 release: yokohama
@@ -9,12 +9,12 @@ classification: usage-insights
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Using Usage Insights, User Experience Analytics, Platform Analytics]
+breadcrumb: [Using User Experience Analytics, User Experience Analytics, Platform Analytics]
 ---
 
-# Usage Insights for pages and screens
+# User Experience Analytics for pages and screens
 
-The Pages module for UI Analysis in Usage Insights shows analytics specific to pages on the web-based UI in terms of page use and navigation. View user action, performance, and navigation details for each web page to identify pages where users might be having issues and optimize workflows accordingly.
+The Pages module for UI Analysis in User Experience Analytics shows analytics specific to pages on the web-based UI in terms of page use and navigation. View user action, performance, and navigation details for each web page to identify pages where users might be having issues and optimize workflows accordingly.
 
 The analogous module for mobile applications is Screens. For more information, see [User Experience Analytics for mobile applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/mobile/mobile-analytics.md).
 

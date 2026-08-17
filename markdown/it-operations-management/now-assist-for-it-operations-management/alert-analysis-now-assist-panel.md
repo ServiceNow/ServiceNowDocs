@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
 keywords: [Generative AI for IT Operations Management, Generative AI for ITOM, alert analysis, Now Assist panel]
-breadcrumb: [Using skills in Now Assist for ITOM, Now Assist for ITOM, IT Operations Management]
+breadcrumb: [Using skills in ServiceNow Otto for ITOM, ServiceNow Otto for ITOM, IT Operations Management]
 ---
 
 # Launch an alert analysis from the Now Assist panel
@@ -20,7 +20,7 @@ Initiate an alert analysis from the Now Assist panel. The alert analysis display
 ## Before you begin
 
 -   Install the ITOM plugin in the Now Assist feature. For more information, see [Install the Now Assist for IT Operations Management \(ITOM\) plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/install-now-assist-itom.md).
--   View important information about the ServiceNow® Now Assist for IT Operations Management \(ITOM\) application in [Now Assist for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/now-assist-itom.md).
+-   View important information about the ServiceNow® ServiceNow Otto for IT Operations Management \(ITOM\) application in [ServiceNow Otto for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/now-assist-itom.md).
 
 For comprehensive information about the Now Assist panel, see [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-panel-overview.md).
 
@@ -36,15 +36,15 @@ Role required: evt\_mgmt\_operator
 
 4.  Initiate an alert analysis from the Now Assist panel using one of the available methods.
 
-<table id="choicetable_jyk_xts_5cc"><thead><tr><th align="left" id="d558248e190">
+<table id="choicetable_jyk_xts_5cc"><thead><tr><th align="left" id="d558823e190">
 
 Launch an alert analysis
 
-</th><th align="left" id="d558248e193">
+</th><th align="left" id="d558823e193">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d558248e199">
+</th></tr></thead><tbody><tr><td id="d558823e199">
 
 **From the list**
 
@@ -60,7 +60,7 @@ The Now Assist panel displays.
 
 The alert analysis displays in the panel.
 
-</td></tr><tr><td id="d558248e240">
+</td></tr><tr><td id="d558823e240">
 
 **From an alert form**
 
@@ -81,5 +81,5 @@ The alert analysis displays in the panel.
     For example: `Summarize the analysis` or `Show alert severity`.
 
 
-**Parent Topic:**[Using skills in Now Assist for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-use.md)
+**Parent Topic:**[Using skills in ServiceNow Otto for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-use.md)
 

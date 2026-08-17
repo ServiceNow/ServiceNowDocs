@@ -27,15 +27,15 @@ Create and manage monetary benefit plans to capture the potential benefits while
 
 2.  Create a monetary benefit plan using one of the options.
 
-<table id="choicetable_b1n_bmf_khc"><thead><tr><th align="left" id="d286987e88">
+<table id="choicetable_b1n_bmf_khc"><thead><tr><th align="left" id="d286645e88">
 
 Option
 
-</th><th align="left" id="d286987e91">
+</th><th align="left" id="d286645e91">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d286987e97">
+</th></tr></thead><tbody><tr><td id="d286645e97">
 
 **Using Monetary benefit plan related list**
 
@@ -46,7 +46,7 @@ Procedure
 
 \[Omitted image "fin-slct-monetary-benefit-plan-gif.gif"\] Alt text: GIF showing selection of Monetary Benefit Plans related link.
 
-</td></tr><tr><td id="d286987e127">
+</td></tr><tr><td id="d286645e127">
 
 **Using finanicals record page**
 

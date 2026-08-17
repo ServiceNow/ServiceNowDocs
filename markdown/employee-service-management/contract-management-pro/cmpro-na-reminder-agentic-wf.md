@@ -46,7 +46,7 @@ The AI agent uses Now Assist contract metadata extraction skill to extract key m
 
 The following workflow explains the metadata extraction and contract reminder setup process.
 
-1.  As a Contract Admin with the AI role, activate the contract metadata extraction skill in the Now Assist Admin console.
+1.  As a Contract Admin with the AI role, activate the contract metadata extraction skill in the AI Admin Hub console.
 2.  As a Contract Admin, activate the business rules.
 3.  The metadata extraction process is automatically initiated when a contract record is created.
 4.  Once the extraction is complete, the Contract Manager with the AI role receives a notification indicating that the metadata is ready for review.
@@ -68,7 +68,7 @@ The AI agent uses Now Assist contract obligation extraction skill to extract key
 
 The following workflow explains the obligation extraction process.
 
-1.  As a Contract Admin with the AI role, activate the contract obligation extraction skill in the Now Assist Admin console.
+1.  As a Contract Admin with the AI role, activate the contract obligation extraction skill in the AI Admin Hub console.
 2.  As a Contract Admin, activate the business rules.
 3.  The obligation extraction process is automatically initiated when a contract record is created.
 4.  Once the extraction is complete, the Contract Manager with the AI role receives a notification indicating that obligations are ready for review.

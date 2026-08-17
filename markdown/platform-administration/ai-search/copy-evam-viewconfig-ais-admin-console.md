@@ -38,7 +38,7 @@ If the view configuration is shared and you need to modify the result-card inter
 
     The list of view configurations that are associated with the selected bundle are displayed.
 
-5.  Hover over the desired view configuration and select the More Actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text:\) and then select **Create a copy**.
+5.  Hover over the desired view configuration and select the More Actions icon \[Omitted image "more-actions-icon.png"\] Alt text: and then select **Create a copy**.
 
 6.  In the Copy view config dialog box, review the auto-populated values and then select **Copy**.
 

@@ -1,6 +1,6 @@
 ---
-title: Check and troubleshoot the data refresh status for ERP Semantic Mining
-description: Check the data refresh status to find out when ERP Semantic Mining \(ERP-CM\) most recently loaded ERP \(Enterprise Resource Planning\) data from the system of record.
+title: Check and troubleshoot the data refresh status for ERP Customization Mining
+description: Check the data refresh status to find out when ERP Customization Mining \(ERP-CM\) most recently loaded ERP \(Enterprise Resource Planning\) data from the system of record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-customization-mining/erpcm-check-data-connection.html
 release: yokohama
@@ -9,12 +9,12 @@ classification: erp-customization-mining
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 3
-breadcrumb: [Configuring ERP Semantic Mining, ERP Semantic Mining \(ERP-CM\), Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Configuring ERP Customization Mining, ERP Customization Mining \(ERP-CM\), Building low-code applications, Developing your application, Building applications]
 ---
 
-# Check and troubleshoot the data refresh status for ERP Semantic Mining
+# Check and troubleshoot the data refresh status for ERP Customization Mining
 
-Check the data refresh status to find out when ERP Semantic Mining \(ERP-CM\) most recently loaded ERP \(Enterprise Resource Planning\) data from the system of record.
+Check the data refresh status to find out when ERP Customization Mining \(ERP-CM\) most recently loaded ERP \(Enterprise Resource Planning\) data from the system of record.
 
 ## Before you begin
 
@@ -24,7 +24,7 @@ Role required: sn\_erp\_mining.erp\_admin and sn\_erp\_mining.erp\_user
 
 To verify that ServiceNow AI Platform® is synchronized with the ERP system of record, ServiceNow AI Platform reloads data every 24 hours from the system of record.
 
-You can receive email notifications for connection task success and failures. For more information, see [Getting notifications for ERP Semantic Mining connection updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/erpcm-notifications.md).
+You can receive email notifications for connection task success and failures. For more information, see [Getting notifications for ERP Customization Mining connection updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/erpcm-notifications.md).
 
 ## Procedure
 
@@ -38,22 +38,22 @@ You can receive email notifications for connection task success and failures. Fo
 
     |Field|Definition|
     |-----|----------|
-    |Credential alias|Alias of the connection credentials configured in Zero Copy Connector for ERP.|
+    |Credential alias|Alias of the connection credentials configured in ERP Canvas.|
     |Updated by|Name of the last account to update the connection credentials.|
     |ERP heartbeat|Indicates whether a ping to the connection is currently successful.|
     |Task execution|Indicates whether ServiceNow AI Platform® is currently attempting to connect to the instance.|
 
 4.  View a refined subset of connection tasks by selecting one of the following tabs.
 
-<table id="choicetable_s1g_n5l_zwb"><thead><tr><th align="left" id="d162985e209">
+<table id="choicetable_s1g_n5l_zwb"><thead><tr><th align="left" id="d162761e209">
 
 Tab
 
-</th><th align="left" id="d162985e212">
+</th><th align="left" id="d162761e212">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d162985e218">
+</th></tr></thead><tbody><tr><td id="d162761e218">
 
 **All tasks**
 
@@ -61,7 +61,7 @@ Description
 
 Log list of all connection tasks.
 
-</td></tr><tr><td id="d162985e227">
+</td></tr><tr><td id="d162761e227">
 
 **Task issues**
 
@@ -69,7 +69,7 @@ Log list of all connection tasks.
 
 Log list of all connection tasks that have an **Error** or **Warning** status.
 
-</td></tr><tr><td id="d162985e242">
+</td></tr><tr><td id="d162761e242">
 
 **Snapshots**
 
@@ -113,5 +113,5 @@ List of scan results that have been saved, exported, and imported.
     \[Omitted image "ecm-connection-status-page.png"\] Alt text: Refresh the issues list or active connection tasks
 
 
-**Parent Topic:**[Configuring ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/configuring-ecm.md)
+**Parent Topic:**[Configuring ERP Customization Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/configuring-ecm.md)
 

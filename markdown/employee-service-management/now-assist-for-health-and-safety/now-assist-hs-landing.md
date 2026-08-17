@@ -1,6 +1,6 @@
 ---
-title: Now Assist for Health and Safety
-description: Use the ServiceNow Now Assist for Health and Safety application to summarize a health and safety incident. You can enable your safety agent and safety manager to generate concise, informative flash reports that can be quickly shared with relevant stakeholders.
+title: ServiceNow Otto for Health and Safety
+description: Use the ServiceNow ServiceNow Otto for Health and Safety application to summarize a health and safety incident. You can enable your safety agent and safety manager to generate concise, informative flash reports that can be quickly shared with relevant stakeholders.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-landing.html
 release: yokohama
@@ -12,23 +12,23 @@ reading_time_minutes: 3
 breadcrumb: [Health and Safety, Employee Service Management]
 ---
 
-# Now Assist for Health and Safety
+# ServiceNow Otto for Health and Safety
 
-Use the ServiceNow® Now Assist for Health and Safety application to summarize a health and safety incident. You can enable your safety agent and safety manager to generate concise, informative flash reports that can be quickly shared with relevant stakeholders.
+Use the ServiceNow® ServiceNow Otto for Health and Safety application to summarize a health and safety incident. You can enable your safety agent and safety manager to generate concise, informative flash reports that can be quickly shared with relevant stakeholders.
 
 ## Get started
 
 <table id="table_sdb_fgb_1dc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about Now Assist for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-exploring.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about ServiceNow Otto for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-exploring.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the Now Assist for Health and Safety application to get started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-configuring.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the ServiceNow Otto for Health and Safety application to get started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-configuring.md)
 
 </td><td>
 
-[Use\[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:Use generative AI capabilities offered by Now Assist for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-using.md)
+[Use\[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:Use generative AI capabilities offered by ServiceNow Otto for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-using.md)
 
 </td></tr></tbody>
 </table>**Important:**

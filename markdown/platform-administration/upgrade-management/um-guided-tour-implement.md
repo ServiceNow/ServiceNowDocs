@@ -1,5 +1,5 @@
 ---
-title: Access guided setup for Upgrade Console
+title: Access guided setup for Upgrade Management
 description: Follow the guided setup steps to experience the seamless upgrade on your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/upgrade-management/um-guided-tour-implement.html
@@ -9,10 +9,10 @@ classification: upgrade-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configuring Upgrade Console, Upgrade Console, Upgrade, Administer the ServiceNow AI Platform]
+breadcrumb: [Configuring Upgrade Management, Upgrade Management, Upgrade, Administer the ServiceNow AI Platform]
 ---
 
-# Access guided setup for Upgrade Console
+# Access guided setup for Upgrade Management
 
 Follow the guided setup steps to experience the seamless upgrade on your instance.
 
@@ -22,7 +22,7 @@ Role required: admin
 
 ## Procedure
 
-1.  Access Upgrade Console by one of the following ways.
+1.  Access Upgrade Management by one of the following ways.
 
     |Option|Navigation|
     |------|----------|
@@ -31,19 +31,19 @@ Role required: admin
 
     **Note:** By default, you are in the Overview tab at the end of this step.
 
-    The Upgrade Console landing page shows up.
+    The Upgrade Management landing page shows up.
 
 2.  Access the guided setup in one of the following ways.
 
-<table id="choicetable_rvp_hgn_sdb"><thead><tr><th align="left" id="d223812e128">
+<table id="choicetable_rvp_hgn_sdb"><thead><tr><th align="left" id="d223803e128">
 
 Option
 
-</th><th align="left" id="d223812e131">
+</th><th align="left" id="d223803e131">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d223812e137">
+</th></tr></thead><tbody><tr><td id="d223803e137">
 
 **Using Get started button**
 
@@ -53,7 +53,7 @@ Steps
 2.  Select the Guided Setup version you want to implement on your instance.
 
 
-</td></tr><tr><td id="d223812e158">
+</td></tr><tr><td id="d223803e158">
 
 **Using Guided tab option**
 
@@ -72,5 +72,5 @@ Complete the pre-upgrade tasks for a successful upgrade experience on your insta
 -   **[Implement post-upgrade activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-management/um-post-upgrade-activities.md)**  
 Implement the post-upgrade tasks for a successful upgrade completion on your instance.
 
-**Parent Topic:**[Configuring Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-management/um-configure.md)
+**Parent Topic:**[Configuring Upgrade Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-management/um-configure.md)
 

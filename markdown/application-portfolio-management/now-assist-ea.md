@@ -1,6 +1,6 @@
 ---
-title: Now Assist for Enterprise Architecture \(EA\)
-description: Use the ServiceNow Now Assist for Enterprise Architecture \(EA\) application to summarize Architectural Decision Records \(ADR\) and help gather insights into business applications in the Enterprise Architecture Workspace.
+title: ServiceNow Otto for Enterprise Architecture \(EA\)
+description: Use the ServiceNow ServiceNow Otto for Enterprise Architecture \(EA\) application to summarize Architectural Decision Records \(ADR\) and help gather insights into business applications in the Enterprise Architecture Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/now-assist-ea.html
 release: yokohama
@@ -10,9 +10,9 @@ reading_time_minutes: 4
 breadcrumb: [Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
-# Now Assist for Enterprise Architecture \(EA\)
+# ServiceNow Otto for Enterprise Architecture \(EA\)
 
-Use the ServiceNow® Now Assist for Enterprise Architecture \(EA\) application to summarize Architectural Decision Records \(ADR\) and help gather insights into business applications in the Enterprise Architecture Workspace.
+Use the ServiceNow® ServiceNow Otto for Enterprise Architecture \(EA\) application to summarize Architectural Decision Records \(ADR\) and help gather insights into business applications in the Enterprise Architecture Workspace.
 
 ## Get started
 
@@ -26,7 +26,7 @@ Use the ServiceNow® Now Assist for Enterprise Architecture \(EA\) application t
 
 </td><td>
 
-[Use AI agents\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Use the AI agent use cases in Now Assist for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/using-na-ea-ai-agents.md)
+[Use AI agents\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Use the AI agent use cases in ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/using-na-ea-ai-agents.md)
 
 </td></tr><tr><td>
 
@@ -67,16 +67,16 @@ ServiceNow collects and uses the inputs, outputs, and edits to outputs of this a
 
 For more information, see the [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/platform-now-assist-landing.md).
 
--   **[Exploring Now Assist for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/exploring-now-assist-for-ea.md)**  
-With the Now Assist for Enterprise Architecture \(EA\) application, you can generate a summary of Architectural Decision Records \(ADR\) or gather insights into business applications in the Enterprise Architecture Workspace.
--   **[Configure Now Assist for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/configure-now-assist-ea.md)**  
-If you have the admin role, you can configure the Now Assist for Enterprise Architecture \(EA\) to enable generative AI skills in Enterprise Architecture Workspace \(EA\).
--   **[Using Now Assist for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/using-now-assist-for-ea.md)**  
-With the Now Assist for Enterprise Architecture \(EA\) application, you can summarize Architectural decision records \(ADR\) and help gather insights into business applications in the Enterprise Architecture Workspace.
--   **[Using AI agent agentic workflow in Now Assist for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/using-na-ea-ai-agents.md)**  
+-   **[Exploring ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/exploring-now-assist-for-ea.md)**  
+With the ServiceNow Otto for Enterprise Architecture \(EA\) application, you can generate a summary of Architectural Decision Records \(ADR\) or gather insights into business applications in the Enterprise Architecture Workspace.
+-   **[Configure ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/configure-now-assist-ea.md)**  
+If you have the admin role, you can configure the ServiceNow Otto for Enterprise Architecture \(EA\) to enable generative AI skills in Enterprise Architecture Workspace \(EA\).
+-   **[Using ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/using-now-assist-for-ea.md)**  
+With the ServiceNow Otto for Enterprise Architecture \(EA\) application, you can summarize Architectural decision records \(ADR\) and help gather insights into business applications in the Enterprise Architecture Workspace.
+-   **[Using AI agent agentic workflow in ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/using-na-ea-ai-agents.md)**  
 Use the AI agents in Enterprise Architecture to help complete tasks autonomously.
 -   **[Now Assist for Enterprise Architecture reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/now-assist-ea-reference.md)**  
-Reference information to provide additional information about tables, roles, and properties installed with Now Assist for Enterprise Architecture \(EA\).
+Reference information to provide additional information about tables, roles, and properties installed with ServiceNow Otto for Enterprise Architecture \(EA\).
 
 **Parent Topic:**[Enterprise Architecture \(formerly Application Portfolio Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/application-portfolio-management.md)
 

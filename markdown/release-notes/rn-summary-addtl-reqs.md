@@ -41,7 +41,7 @@ Advanced AI Search Management Tools
 
 </td><td>
 
-You must have the Usage Insights API application installed from the ServiceNow Store to use Advanced AI Search Management Tools.
+You must have the User Experience Analytics API application installed from the ServiceNow Store to use Advanced AI Search Management Tools.
 
 </td></tr><tr><td>
 
@@ -73,7 +73,7 @@ Now Assist AI agents
 
 </td><td>
 
-You must first install the supported Now Assist version of ServiceNow to be able to use the Now Assist AI agents. For more information, see [Install Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/install-ai-agents-plugins.md).
+You must first install the supported Now Assist version of ServiceNow to be able to use the Now Assist AI agents. For more information, see .
 
 Enable the Next Experience UI Framework before you can use the Now Assist panel.
 
@@ -91,7 +91,7 @@ Now Assist for App Engine
 
 </td><td>
 
-Check your entitlements to determine whether you have access to the Now Assist for App Engine application.
+Check your entitlements to determine whether you have access to the ServiceNow Otto for App Engine application.
 
 </td></tr><tr><td>
 
@@ -99,7 +99,7 @@ Now Assist for Customer Service Management \(CSM\)
 
 </td><td>
 
-The Now Assist for CSM application requires a Customer Service Management Pro Plus or Enterprise Plus license.
+The ServiceNow Otto for CSM application requires a Customer Service Management Pro Plus or Enterprise Plus license.
 
 </td></tr><tr><td>
 
@@ -107,7 +107,7 @@ Now Assist for Field Service Management \(FSM\)
 
 </td><td>
 
-The Now Assist for FSM application requires Field Service Management.
+The ServiceNow Otto for FSM application requires Field Service Management.
 
 </td></tr><tr><td>
 
@@ -115,7 +115,7 @@ Now Assist for Financial Services Operations \(FSO\)
 
 </td><td>
 
-The Now Assist for FSO application requires a Financial Services Operations Professional Plus or Enterprise Plus license.
+The ServiceNow Otto for FSO application requires a Financial Services Operations Professional Plus or Enterprise Plus license.
 
 </td></tr><tr><td>
 
@@ -123,7 +123,7 @@ Now Assist for Hardware Asset Management \(HAM\)
 
 </td><td>
 
-The Now Assist for Hardware Asset Management \(HAM\) application requires the Hardware Asset Management Pro plus license.
+The ServiceNow Otto for Hardware Asset Management \(HAM\) application requires the Hardware Asset Management Pro plus license.
 
 </td></tr><tr><td>
 
@@ -131,7 +131,7 @@ Now Assist for IT Operations Management \(ITOM\)
 
 </td><td>
 
-The Now Assist for ITOM application requires an ITOM Pro Plus or Enterprise Plus license.
+The ServiceNow Otto for ITOM application requires an ITOM Pro Plus or Enterprise Plus license.
 
 </td></tr><tr><td>
 
@@ -139,7 +139,7 @@ Now Assist for IT Service Management \(ITSM\)
 
 </td><td>
 
-The Now Assist for ITSM application requires an IT Service Management Pro Plus or Enterprise Plus license.
+The ServiceNow Otto for ITSM application requires an IT Service Management Pro Plus or Enterprise Plus license.
 
 </td></tr><tr><td>
 
@@ -263,7 +263,7 @@ ServiceNow SDK
 
 </td><td>
 
-You must have Node.js and Node Package Manager \(npm\) installed to install the ServiceNow SDK. For more information, see [Install the ServiceNow SDK in an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/install-servicenow-sdk.md).
+You must have Node.js and Node Package Manager \(npm\) installed to install the ServiceNow SDK. For more information, see .
 
 </td></tr><tr><td>
 
@@ -289,7 +289,7 @@ Synthetic monitoring
 
 You must do the following before you can use synthetic monitoring:
 
--   If you have version 1.0, configure at least one proxy agent on the Agent Client Collector. These agents should be the ones you use to monitor the health and performance of the services to be monitored. For more information about proxy agents, see [Using proxy agents in Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/proxy-agent.md).
+-   If you have version 1.0, configure at least one proxy agent on the Agent Client Collector. These agents should be the ones you use to monitor the health and performance of the services to be monitored. For more information about proxy agents, see .
 
 Starting with version 1.2, you can run tests from your local Glide instance instead of a proxy agent.
 
@@ -310,7 +310,7 @@ Usage Insights
 
 </td><td>
 
-Customer must use ADC v3 to access the new Usage Insights experience. Customers on ADC v2 will have access to the Xanadu version of Usage Insights.
+Customer must use ADC v3 to access the new User Experience Analytics experience. Customers on ADC v2 will have access to the Xanadu version of User Experience Analytics.
 
 </td></tr><tr><td>
 
@@ -318,7 +318,7 @@ Zero Copy Connector for ERP
 
 </td><td>
 
-SAP ECC and S/4 HANA are currently the only available systems that integrate with Zero Copy Connector for ERP.
+SAP ECC and S/4 HANA are currently the only available systems that integrate with ERP Canvas.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Release notes summaries for Yokohama features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/release-notes-summaries.md)

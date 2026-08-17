@@ -9,7 +9,7 @@ classification: tag-governance
 topic_type: task
 last_updated: "2025-06-26"
 reading_time_minutes: 1
-breadcrumb: [Using Tag Governance, Tag Governance, ITOM Visibility, IT Operations Management]
+breadcrumb: [Use, Tag Governance, ITOM Visibility, IT Operations Management]
 ---
 
 # Add or delete a tag category for Tag Categorization
@@ -34,15 +34,15 @@ Role required: tag\_governance\_admin
 
 3.  Add or delete a tag category.
 
-<table id="choicetable_eks_y2x_yfc"><thead><tr><th align="left" id="d531752e129">
+<table id="choicetable_eks_y2x_yfc"><thead><tr><th align="left" id="d532339e129">
 
 Action
 
-</th><th align="left" id="d531752e132">
+</th><th align="left" id="d532339e132">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d531752e138">
+</th></tr></thead><tbody><tr><td id="d532339e138">
 
 **Add a tag category**
 
@@ -61,7 +61,7 @@ Description
 8.  Select **Submit** on the CI tag category - New Record page.
 
 
-</td></tr><tr><td id="d531752e199">
+</td></tr><tr><td id="d532339e199">
 
 **Delete a tag category**
 

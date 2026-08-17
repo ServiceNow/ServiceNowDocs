@@ -16,13 +16,13 @@ breadcrumb: [Task fields for measuring work time, Default date and time fields, 
 
 The Task \[task\] table provides a time-tracking field called **Time worked**.
 
-\[Omitted image "TimeTimeworked.png"\] Alt text:
+\[Omitted image "TimeTimeworked.png"\] Alt text: Time worked field
 
-This field measures how long a record has been viewed to track work time on a ticket. Any table that extends Task can use this field. To add the field, configure the form.
+This field measures how long a record has been viewed to track work time on a ticket. Any table that extends Task can use this field. To use this field, you must first add it to the form by configuring the form layout. The Time worked field does not appear on forms by default.
 
-As the record is viewed, the timer counts upward. To pause the timer, click the stop icon \(\[Omitted image "TimerStop.png"\] Alt text: Stop icon\).
+As the record is viewed, the timer counts upward. To pause the timer, click the stop icon \(\[Omitted image "TimerStop.png"\] Alt text:\).
 
-To resume the timer, click the start icon \(\[Omitted image "TimerStart.png"\] Alt text: Start icon\).
+To resume the timer, click the start icon \(\[Omitted image "TimerStart.png"\] Alt text:\).
 
 When you save a task, the amount of new time in the timer is used to generate a record on the Time Worked \[task\_time\_worked\] table. You can view this table as a related list on the task form.
 

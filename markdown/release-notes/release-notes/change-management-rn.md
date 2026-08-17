@@ -22,7 +22,7 @@ See [Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowD
 
 ## New in the Yokohama release
 
--   **[User role for service desk agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/installed-with-cm-itsm-roles.md)**
+-   **User role for service desk agents**
 
     With the sn\_service\_desk\_agent user role, increase operational efficiency by streamlining the process of asking about, gathering, and verifying information, as well as delivering quick resolutions. This role is designed for tier 1 service desk agents and is accessible when the ITSM Roles plugin \(com.snc.itsm.roles\) installed.
 
@@ -37,11 +37,11 @@ See [Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowD
 
     The sn\_service\_desk\_agent user role can be used starting with Service Operations Workspace version 6.1.
 
--   **[Change model Type field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/t_CreateAChange.md)**
+-   **Change model Type field**
 
     A new **Model** option has been added to the change model Type field to help users identify a change that is controlled by a change model. **Model** is the default if a Type has not been set for the change request of a certain change model.
 
--   **[No default Risk value for change requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/t_CreateAChange.md)**
+-   **No default Risk value for change requests**
 
     There is no longer a default value for the Risk field on the Change Request table. The Risk value is set to **-- None --** until the risk is evaluated for the change request. This change ensures that no risk value is pre-assigned, allowing for a more accurate assessment before advancing the change
 
@@ -49,7 +49,7 @@ See [Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowD
 
     Ensure mandatory fields are completed before advancing through states for a change request, as defined by the Change Model. This feature enables change managers to mandate the completion of required fields before states can progress according to the Change Model.
 
--   **[Deny-unless ACLs on core tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/features-itsm-enhanced-security-change.md)**
+-   **Deny-unless ACLs on core tables**
 
     Prevent unauthorized access to change\_request and change\_task tables using deny-unless ACLs. The deny-unless ACLs restrict access on these tables for a non-authenticated user to perform actions such as read, write, delete, or create.
 

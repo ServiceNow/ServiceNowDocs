@@ -27,9 +27,9 @@ Role required: sn\_cm\_gen\_ai.ai\_contract\_admin
 
 ## About this task
 
-Use the Now Assist Admin console to configure Now Assist in Contract Management. The console contains everything that you need to configure the Now Assist skills. For more information, see [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configuring-now-assist.md).
+Use the AI Admin Hub console to configure Now Assist in Contract Management. The console contains everything that you need to configure the Now Assist skills. For more information, see [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configuring-now-assist.md).
 
-The following table lists the feature and skills available for Contract Management Pro in the Now Assist Admin console.
+The following table lists the feature and skills available for Contract Management Pro in the AI Admin Hub console.
 
 <table id="table_xpw_w43_t2c"><thead><tr><th>
 
@@ -52,7 +52,7 @@ Contract Management Pro
 </td></tr></tbody>
 </table>The Conversational contract search and insights skill is listed in the **Other** category of Now Assist skills page. To configure it, see [Configure Conversational contract search and insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-conf-converse-skill.md).
 
-You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/exploring-large-language-models.md).
+You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/exploring-large-language-models.md).
 
 ## Procedure
 
@@ -60,7 +60,7 @@ You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure Open
 
     -   For information about the plugin installation process, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
     -   For information about the plugin dependencies and plugin activation order, see [Application information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-support-info-na.md).
-2.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills** to access the **Now Assist Skills** tab of the Now Assist Admin console.
+2.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills** to access the **Now Assist Skills** tab of the AI Admin Hub console.
 
 3.  Navigate to **Employee** &gt; **CM Pro**.
 
@@ -103,11 +103,11 @@ Configure system properties and use cases for metadata extraction so that a cont
 -   **[Configuring contract analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-conf-contract-analysis.md)**  
 Configure use cases with associated field groups and fields, and map them to clauses and expected responses. Now Assist uses the applicable use case to analyze a contract document and identify non-standard and missing clauses.
 -   **[Configuring contract obligation extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-conf-obligation-extraction.md)**  
-Configure and map use cases for the contract obligation extraction skill in the Now Assist Admin console to automatically extract key contractual obligations from signed contracts.
+Configure and map use cases for the contract obligation extraction skill in the AI Admin Hub console to automatically extract key contractual obligations from signed contracts.
 -   **[Configuring agentic workflows in Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-conf-agentic-workflow.md)**  
 Configure agentic workflows in Now Assist in Contract Management so that contract fulfillers can use the AI agents to perform specific tasks autonomously.
 -   **[Post-upgrade steps for Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-na-upgrade-steps.md)**  
-If you are upgrading to Now Assist in Contract Management starting with Yokohama \(Patch 3\) from a previous version and you have customized use cases, run a fix script to migrate the existing data to the Now Assist Admin console.
+If you are upgrading to Now Assist in Contract Management starting with Yokohama \(Patch 3\) from a previous version and you have customized use cases, run a fix script to migrate the existing data to the AI Admin Hub console.
 
 **Parent Topic:**[Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-now-assit-landing.md)
 

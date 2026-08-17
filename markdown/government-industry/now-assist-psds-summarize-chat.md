@@ -1,18 +1,18 @@
 ---
-title: Summarize a chat conversation using Now Assist for Public Sector Digital Services \(PSDS\)
-description: Generate a summary of the Virtual Agent chat history and the chat conversation between a live agent and a customer using the chat summarization skill in Now Assist for Public Sector Digital Services \(PSDS\).
+title: Summarize a chat conversation using ServiceNow Otto for Public Sector Digital Services \(PSDS\)
+description: Generate a summary of the Virtual Agent chat history and the chat conversation between a live agent and a customer using the chat summarization skill in ServiceNow Otto for Public Sector Digital Services \(PSDS\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/now-assist-psds-summarize-chat.html
 release: yokohama
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Use, Now Assist for PSDS, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Use, ServiceNow Otto for PSDS, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Summarize a chat conversation using Now Assist for Public Sector Digital Services \(PSDS\)
+# Summarize a chat conversation using ServiceNow Otto for Public Sector Digital Services \(PSDS\)
 
-Generate a summary of the Virtual Agent chat history and the chat conversation between a live agent and a customer using the chat summarization skill in Now Assist for Public Sector Digital Services \(PSDS\).
+Generate a summary of the Virtual Agent chat history and the chat conversation between a live agent and a customer using the chat summarization skill in ServiceNow Otto for Public Sector Digital Services \(PSDS\).
 
 ## About this task
 

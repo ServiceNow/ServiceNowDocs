@@ -1,5 +1,5 @@
 ---
-title: Explore Upgrade Preview in Upgrade Console
+title: Explore Upgrade Preview in Upgrade Management
 description: Leverage the Upgrade Preview module to conduct in-depth assessments of your ServiceNow instance prior to an upgrade. Explore how different release versions may affect your current configurations and fine-tune your upgrade plan accordingly.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/upgrade-management/um-upgrade-preview-explore.html
@@ -9,10 +9,10 @@ classification: upgrade-management
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 6
-breadcrumb: [Upgrade Console summary, Exploring Upgrade Console, Upgrade Console, Upgrade, Administer the ServiceNow AI Platform]
+breadcrumb: [Upgrade Management summary, Exploring Upgrade Management, Upgrade Management, Upgrade, Administer the ServiceNow AI Platform]
 ---
 
-# Explore Upgrade Preview in Upgrade Console
+# Explore Upgrade Preview in Upgrade Management
 
 Leverage the Upgrade Preview module to conduct in-depth assessments of your ServiceNow instance prior to an upgrade. Explore how different release versions may affect your current configurations and fine-tune your upgrade plan accordingly.
 
@@ -171,5 +171,5 @@ Percentage of passing ATF tests that ran in the last 30 days.-   Most recent ATF
  **Note:** Only the tests which are finished and have passed are considered for the ATF results. If one test runs more than once, only the recent execution is considered in the results.
 
 </td></tr></tbody>
-</table>See [Upgrade Preview tool in Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-management/um-upgrade-preview-tool.md) for more information.
+</table>See [Upgrade Preview tool in Upgrade Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-management/um-upgrade-preview-tool.md) for more information.
 

@@ -47,15 +47,15 @@ Role required: admin
 
 2.  Execute the rules on demand using either of the following ways.
 
-<table id="choicetable_rvp_hgn_sdb"><thead><tr><th align="left" id="d280587e144">
+<table id="choicetable_rvp_hgn_sdb"><thead><tr><th align="left" id="d280511e144">
 
 Option
 
-</th><th align="left" id="d280587e147">
+</th><th align="left" id="d280511e147">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d280587e153">
+</th></tr></thead><tbody><tr><td id="d280511e153">
 
 **Using Run Now**
 
@@ -66,7 +66,7 @@ Steps
 
 **Note:** When you select **Run Now**, a progress bar shows up to display the progress of the rule execution.
 
-</td></tr><tr><td id="d280587e179">
+</td></tr><tr><td id="d280511e179">
 
 **Using View Latest Upgrade History tab**
 

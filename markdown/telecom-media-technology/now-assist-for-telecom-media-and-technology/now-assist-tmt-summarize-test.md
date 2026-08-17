@@ -1,5 +1,5 @@
 ---
-title: Summarize test for a service problem case using Now Assist for Telecommunications, Media and Technology \(TMT\)
+title: Summarize test for a service problem case using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
 description: Generate the test run summary for a service problem case record to quickly understand the context of test outcomes and the root cause of the problem.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-summarize-test.html
@@ -9,10 +9,10 @@ classification: now-assist-for-telecom-media-and-technology
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Using Now Assist for Telecommunications, Media and Technology \(TMT\), Now Assist for Telecommunications, Media and Technology \(TMT\), Telecommunications, Media, and Technology]
+breadcrumb: [Using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\), ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\), Telecommunications, Media, and Technology]
 ---
 
-# Summarize test for a service problem case using Now Assist for Telecommunications, Media and Technology \(TMT\)
+# Summarize test for a service problem case using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
 
 Generate the test run summary for a service problem case record to quickly understand the context of test outcomes and the root cause of the problem.
 
@@ -49,15 +49,15 @@ The test summarization skill checks the test results record to determine if ther
 
 6.  After you're finished summarizing the test for the service problem case, manage the results.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d28221e159">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d28180e159">
 
 Option
 
-</th><th align="left" id="d28221e162">
+</th><th align="left" id="d28180e162">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d28221e168">
+</th></tr></thead><tbody><tr><td id="d28180e168">
 
 **Expand or collapse the summary**
 
@@ -67,7 +67,7 @@ Procedure
 -   See fewer summary details by selecting the collapse card icon \(\[Omitted image "icon-collapse.png"\] Alt text: Collapse card icon.\).
 
 
-</td></tr><tr><td id="d28221e198">
+</td></tr><tr><td id="d28180e198">
 
 **Provide feedback for the summary**
 
@@ -77,7 +77,7 @@ Procedure
 -   If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).
  This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d28221e231">
+</td></tr><tr><td id="d28180e231">
 
 **Copy the test summary**
 
@@ -85,7 +85,7 @@ Procedure
 
 Select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text: Copy to clipboard icon.\) to use the case summary information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d28221e246">
+</td></tr><tr><td id="d28180e246">
 
 **Refresh the test summary**
 
@@ -101,5 +101,5 @@ Fetch the latest test run summary by selecting the refresh icon \(\[Omitted imag
     -   To set the results, select **Save**.
     -   To go back to the test results list, select **Cancel**.
 
-**Parent Topic:**[Using Now Assist for Telecommunications, Media and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spm-using.md)
+**Parent Topic:**[Using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spm-using.md)
 

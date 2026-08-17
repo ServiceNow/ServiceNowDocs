@@ -7,7 +7,7 @@ release: yokohama
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Customer Success Management]
+breadcrumb: [Account Lifecycle Events]
 ---
 
 # Account onboarding

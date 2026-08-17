@@ -7,7 +7,7 @@ release: yokohama
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Setup the data context engine, Configure customer success, Customer success, Customer Success Management]
+breadcrumb: [Setup the data context engine, Configure customer success, Customer success, Account Lifecycle Events]
 ---
 
 # Set up the context engine mapper

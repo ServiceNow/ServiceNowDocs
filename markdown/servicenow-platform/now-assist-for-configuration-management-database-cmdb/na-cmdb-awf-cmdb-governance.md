@@ -9,7 +9,7 @@ classification: now-assist-for-configuration-management-database-cmdb
 topic_type: task
 last_updated: "2025-10-27"
 reading_time_minutes: 1
-breadcrumb: [Get advice on CMDB governance, Use agentic workflows, Now Assist for Configuration Management Database \(CMDB\), CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Get advice on CMDB governance, Use agentic workflows, ServiceNow Otto for Configuration Management Database \(CMDB\), CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Get advice on CMDB governance from Now Assist

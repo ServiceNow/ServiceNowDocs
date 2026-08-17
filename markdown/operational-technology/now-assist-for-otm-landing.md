@@ -1,6 +1,6 @@
 ---
-title: Now Assist for Operational Technology Manager \(OTM\)
-description: Use the Now Assist for Operational Technology Manager \(OTM\) application to help streamline processes in the Industrial Workspace related to your Operational Technology \(OT\) device data.
+title: Operational Technology \(OT\) Manager Foundation
+description: Use the Operational Technology \(OT\) Manager Foundation application to help streamline processes in the Industrial Workspace related to your Operational Technology \(OT\) device data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/operational-technology/now-assist-for-otm-landing.html
 release: yokohama
@@ -10,25 +10,25 @@ reading_time_minutes: 3
 breadcrumb: [Operational Technology]
 ---
 
-# Now Assist for Operational Technology Manager \(OTM\)
+# Operational Technology \(OT\) Manager Foundation
 
-Use the Now Assist for Operational Technology Manager \(OTM\) application to help streamline processes in the Industrial Workspace related to your Operational Technology \(OT\) device data.
+Use the Operational Technology \(OT\) Manager Foundation application to help streamline processes in the Industrial Workspace related to your Operational Technology \(OT\) device data.
 
 ## Get started
 
 <table id="table_iht_hgl_5yb" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about Now Assist for OTM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/exploring-now-assist-for-otm.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about OT Manager Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/exploring-now-assist-for-otm.md)
 
 </td><td>
 
 [Configure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/configuring-na-otm.md)
 
- [\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the Now Assist for OTM application to get started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/configuring-na-otm.md)
+ [\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the OT Manager Foundation application to get started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/configuring-na-otm.md)
 
 </td><td>
 
-[Use\[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:Use generative AI capabilities offered by Now Assist for OTM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/using-now-assist-for-otm.md)
+[Use\[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:Use generative AI capabilities offered by OT Manager Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/using-now-assist-for-otm.md)
 
 </td></tr><tr><td>
 
@@ -38,7 +38,7 @@ Use the Now Assist for Operational Technology Manager \(OTM\) application to hel
 
 [Use the OTM AI agent collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/now-assist-for-otm-use-cases.md)
 
- [\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Use agentic workflows for Now Assist for OTM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/now-assist-for-otm-use-cases.md)
+ [\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Use agentic workflows for OT Manager Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/now-assist-for-otm-use-cases.md)
 
 </td><td>
 

@@ -65,7 +65,7 @@ See the [solution brief](https://www.servicenow.com/content/dam/servicenow-asset
 -   Watch features demonstrated via [DemoNow](https://www.servicenow.com/lpdem/demonow.html).
 -   For information on how to request and set up Operational Technology, see
     -   [Configuring the Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/operational-technology-manager/configuring-operational-technology-manager.md)
-    -   [Configuring Now Assist for Operational Technology Manager \(OTM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/configuring-na-otm.md)
+    -   [Configuring Operational Technology \(OT\) Manager Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/configuring-na-otm.md)
     -   [Configuring the Industrial Process Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/industrial-process-manager/configuring-manufacturing-process-mgr.md)
     -   [Configuring Operational Technology Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/operational-technology-vulnerability-response/configuring-oper-tech-vulnerability-response.md)
     -   [Configuring Operational Technology Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/operational-technology-incident-management/configuring-operational-technology-incident-mgt.md)
@@ -79,7 +79,7 @@ See the [solution brief](https://www.servicenow.com/content/dam/servicenow-asset
 ## Applications
 
 -   [Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/operational-technology-manager/operational-technology-manager.md)
--   [Now Assist for Operational Technology Manager \(OTM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/now-assist-for-otm-landing.md)
+-   [Operational Technology \(OT\) Manager Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/now-assist-for-otm-landing.md)
 -   [Industrial Process Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/industrial-process-manager/industrial-process-manager-overview.md)
 -   [Operational Technology Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/operational-technology-vulnerability-response/oper-tech-vulnerability-response-landing-page.md)
 -   [Operational Technology Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/operational-technology-incident-management/operational-technology-incident-management-landing-page.md)

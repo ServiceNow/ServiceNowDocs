@@ -28,15 +28,15 @@ Role required: sn\_cm\_core.contract\_fulfiller
 
 3.  Modify the supporting documents.
 
-<table id="choicetable_phr_kxb_gzb"><thead><tr><th align="left" id="d646012e67">
+<table id="choicetable_phr_kxb_gzb"><thead><tr><th align="left" id="d645363e67">
 
 Action
 
-</th><th align="left" id="d646012e70">
+</th><th align="left" id="d645363e70">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d646012e76">
+</th></tr></thead><tbody><tr><td id="d645363e76">
 
 **Add supporting documents**
 
@@ -44,7 +44,7 @@ Steps
 
 [Add supporting documents to the contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-ss-add-suprt-doc.md)
 
-</td></tr><tr><td id="d646012e90">
+</td></tr><tr><td id="d645363e90">
 
 **Reclassify supporting documents**
 
@@ -52,7 +52,7 @@ Steps
 
 [Reclassify supporting documents in the contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-nss-reclassify-supdoc.md)
 
-</td></tr><tr><td id="d646012e104">
+</td></tr><tr><td id="d645363e104">
 
 **Remove the supporting document**
 

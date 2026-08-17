@@ -7,7 +7,7 @@ release: yokohama
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configuring ITOM/OT SU Licensing, ITOM/OT SU Licensing and subscriptions, IT Operations Management]
+breadcrumb: [Configure, ITOM/OT SU Licensing and subscriptions, IT Operations Management]
 ---
 
 # Update ServiceNow ITOM/OT SU Licensing

@@ -51,12 +51,12 @@ After the extraction and data mapping you can view the following:
 -   The ability to override extracted data and provide justification if needed.
 -   The original utility bill attached as evidence for audit and compliance.
 
-**Parent Topic:**[Exploring Now Assist for Operational Sustainability \(formerly ESG\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/exploring-now-assist-for-esg.md)
+**Parent Topic:**[Exploring ServiceNow Otto for Operational Sustainability \(formerly ESG\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/exploring-now-assist-for-esg.md)
 
 **Related topics**  
 
 
 [Activate the document intelligence for utility invoices skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/activate-the-document-intelligence-for-utility-invoices-skill.md)
 
-[Using Now Assist for Operational Sustainability \(formerly ESG\) skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/using-now-assist-for-esg-skills.md)
+[Using ServiceNow Otto for Operational Sustainability \(formerly ESG\) skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/using-now-assist-for-esg-skills.md)
 

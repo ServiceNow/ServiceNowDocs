@@ -18,7 +18,7 @@ Select a template to support your API's structure.
 
 These templates provide you with options that are based on API structures that are widely used by security tool vendors. When you select a template, you’re choosing a configuration that aligns with industry-standard ways of organizing and communicating with APIs. By selecting a common response format \(JSON\), HTTP methods \(GET or POST\), and well-known pagination strategies, connecting with a wide variety of security tools is easier, because you’re using familiar and widely adopted API patterns.
 
-Starting with Yokohama Patch 11, you have the option to get guidance for selecting a template with a Now Assist skill for this step. See [Exploring Now Assist for Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/now-assist-for-vulnerability-response-vr/exploring-ai-for-now-assist-for-vulnerability-response.md) for more information about the generative AI skill and [Using Now Assist for Vulnerability Response in Security Posture Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/now-assist-for-vulnerability-response-vr/using-now-assist-api-connector.md) about using the skill in connector framework.
+Starting with Yokohama Patch 11, you have the option to get guidance for selecting a template with a Now Assist skill for this step. See [Exploring ServiceNow Otto for Unified Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/now-assist-for-vulnerability-response-vr/exploring-ai-for-now-assist-for-vulnerability-response.md) for more information about the generative AI skill and [Using ServiceNow Otto for Unified Security Exposure Management in Security Posture Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/now-assist-for-vulnerability-response-vr/using-now-assist-api-connector.md) about using the skill in connector framework.
 
 Role required: sn\_sec\_spc\_core.developer
 
@@ -26,23 +26,23 @@ Role required: sn\_sec\_spc\_core.developer
 
 1.  Select one to continue.
 
-<table id="choicetable_pbd_cny_2hc"><thead><tr><th align="left" id="d135672e108">
+<table id="choicetable_pbd_cny_2hc"><thead><tr><th align="left" id="d136833e108">
 
 Option
 
-</th><th align="left" id="d135672e111">
+</th><th align="left" id="d136833e111">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d135672e117">
+</th></tr></thead><tbody><tr><td id="d136833e117">
 
 **Select Use Now Assist**
 
 </td><td>
 
-See [Create an API connector with Now Assist for Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/now-assist-for-vulnerability-response-vr/select-api-template.md) for the steps for using Now Assist.
+See [Create an API connector with ServiceNow Otto for Unified Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/now-assist-for-vulnerability-response-vr/select-api-template.md) for the steps for using Now Assist.
 
-</td></tr><tr><td id="d135672e139">
+</td></tr><tr><td id="d136833e139">
 
 **Select one option from a list and __Apply__ to view the template cards that match your selections.**
 

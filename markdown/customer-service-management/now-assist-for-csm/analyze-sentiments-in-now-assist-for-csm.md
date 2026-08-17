@@ -1,6 +1,6 @@
 ---
-title: Analyze sentiments in Now Assist for Customer Service Management \(CSM\)
-description: Make informed decisions on cases based on requester's sentiment and the reasoning behind it in the Now Assist for Customer Service Management \(CSM\) application.
+title: Analyze sentiments in ServiceNow Otto for Customer Service Management \(CSM\)
+description: Make informed decisions on cases based on requester's sentiment and the reasoning behind it in the ServiceNow Otto for Customer Service Management \(CSM\) application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/now-assist-for-csm/analyze-sentiments-in-now-assist-for-csm.html
 release: yokohama
@@ -10,12 +10,12 @@ topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2
 keywords: [generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
-breadcrumb: [Use, Now Assist for Customer Service Management \(CSM\), Customer Service Management]
+breadcrumb: [Use, ServiceNow Otto for Customer Service Management \(CSM\), Customer Service Management]
 ---
 
-# Analyze sentiments in Now Assist for Customer Service Management \(CSM\)
+# Analyze sentiments in ServiceNow Otto for Customer Service Management \(CSM\)
 
-Make informed decisions on cases based on requester's sentiment and the reasoning behind it in the Now Assist for Customer Service Management \(CSM\) application.
+Make informed decisions on cases based on requester's sentiment and the reasoning behind it in the ServiceNow Otto for Customer Service Management \(CSM\) application.
 
 ## Before you begin
 
@@ -91,5 +91,5 @@ The CSM Configurable Workspace form view appears.
     3.  Select the information icon \[Omitted image "icon-more-info.png"\] Alt text: The information icon provides an explanation for why a particular sentiment has been assigned and then select the refresh icon \[Omitted image "refresh-sync-new.png"\] Alt text: Refresh overview data icon to see the updated sentiment scale \(Very Positive, Positive, Neutral, Negative, or Very Negative\)and sentiment trend.
 
 
-**Parent Topic:**[Using Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
+**Parent Topic:**[Using ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
 

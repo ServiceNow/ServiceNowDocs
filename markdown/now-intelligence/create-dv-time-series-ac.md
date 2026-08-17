@@ -78,14 +78,14 @@ For an example of creating a time series visualization, see [Time series visuali
         You might have a multiple select \(is one of\) or dynamic \(is \(dynamic\)\) operator on the breakdown element filter. These operators require the indicator and breakdown to support them. For more information about the configurations that support these operators, see ["Is one of" and "Is \(Dynamic\)" operators on breakdown conditions in data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/condition-operators-ind-bkdowns.md).
 
     -   MetricBase \(available if MetricBase is enabled\). When you select a MetricBase data source, you have the option of constructing a custom filter for it using conditions and related list conditions, as with Table data sources.
-    -   Usage Insights \(available with the User Experience PAR Integration application, to users with a required role\). Choose one of up to three KPIs included with this application, depending on the visualization type. For more information, see [User Experience Analytics data sources for data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/uxa-data-sources.md).
-    **Note:** You can select multiple data sources for this visualization, but they must be of the same type: table, indicator, Usage Insights, or MetricBase. For more information, see [Multiple data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/multiple-data-sources.md).
+    -   User Experience Analytics \(available with the User Experience PAR Integration application, to users with a required role\). Choose one of up to three KPIs included with this application, depending on the visualization type. For more information, see [User Experience Analytics data sources for data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/uxa-data-sources.md).
+    **Note:** You can select multiple data sources for this visualization, but they must be of the same type: table, indicator, User Experience Analytics, or MetricBase. For more information, see [Multiple data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/multiple-data-sources.md).
 
 6.  Select the options for your data source.
 
     -   If your visualization represents table data, go to [Table data options for time series data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/config-dv-time-series-table-data.md).
     -   If your visualization represents indicator data, go to [Indicator data options for time series visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/config-dv-time-series-ind-data.md).
-    -   If your visualization represents Usage Insights data, go to [Usage Insights data options for time series visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/config-dv-time-series-uxa-data.md).
+    -   If your visualization represents User Experience Analytics data, go to [User Experience Analytics data options for time series visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/config-dv-time-series-uxa-data.md).
     -   If your visualization represents MetricBase data, go to [MetricBase data options for time series visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/config-dv-time-series-mb-data.md).
 7.  Under **Presentation**, provide display and color information.
 
@@ -293,7 +293,7 @@ Choose the event that occurs when a user clicks in a chart or one of its segment
 
 -   **Go to data view** opens the records view in a Core UI list or KPI Details relevant to the associated segment or visualization. Records do not open in Workspace embedded lists.
 
-Not supported for Usage Insights data sources.
+Not supported for User Experience Analytics data sources.
 
 -   **Go to URL** opens the specified URL, which can be on the instance or external. You have the option of specifying a page name to appear in the tooltip, for those visualizations with tooltips.
 -   **Drill down to chart** \(Visualization Designer only\) Opens a different data visualization that is filtered by the selected data. You can add a drill-down visualization for each metric on the parent visualization.
@@ -320,8 +320,8 @@ Time series visualizations can emphasize the trend in the data or specific chang
 The following Data configuration options are available for all time series type visualizations of table data.
 -   **[Indicator data options for time series visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/config-dv-time-series-ind-data.md)**  
 The following Data configuration options are available for all time series type visualizations of indicator scores.
--   **[Usage Insights data options for time series visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/config-dv-time-series-uxa-data.md)**  
-The following Data configuration options are available for all time series type visualizations of Usage Insights data.
+-   **[User Experience Analytics data options for time series visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/config-dv-time-series-uxa-data.md)**  
+The following Data configuration options are available for all time series type visualizations of User Experience Analytics data.
 -   **[MetricBase data options for time series visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/config-dv-time-series-mb-data.md)**  
 The following data options are available for all time series type visualizations of MetricBase data.
 -   **[Display settings for different time series charts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/display-settings-ts-charts.md)**  

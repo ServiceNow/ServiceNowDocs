@@ -183,15 +183,15 @@ You can't edit the **Shared** option and add or remove the users in the **Author
 
 6.  Provide access to users.
 
-<table id="choicetable_uvn_mw3_wbc"><thead><tr><th align="left" id="d608104e870">
+<table id="choicetable_uvn_mw3_wbc"><thead><tr><th align="left" id="d608359e870">
 
 Option
 
-</th><th align="left" id="d608104e873">
+</th><th align="left" id="d608359e873">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d608104e879">
+</th></tr></thead><tbody><tr><td id="d608359e879">
 
 **Provide access to all users in the Managed by group**
 
@@ -199,7 +199,7 @@ Action
 
 Select the **Shared** option.
 
-</td></tr><tr><td id="d608104e891">
+</td></tr><tr><td id="d608359e891">
 
 **Provide access to the selected users in the Managed by group**
 

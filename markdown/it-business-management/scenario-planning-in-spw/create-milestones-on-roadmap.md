@@ -29,15 +29,15 @@ For the timeline of your portfolio plan or free-form roadmap, create milestones 
 
 1.  Navigate to **Workspaces** &gt; **Strategic Planning Workspace** &gt; **Portfolio Planning** and open your roadmap.
 
-<table id="choicetable_vwv_t4z_5wb"><thead><tr><th align="left" id="d264515e93">
+<table id="choicetable_vwv_t4z_5wb"><thead><tr><th align="left" id="d264142e93">
 
 Roadmap type
 
-</th><th align="left" id="d264515e96">
+</th><th align="left" id="d264142e96">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d264515e102">
+</th></tr></thead><tbody><tr><td id="d264142e102">
 
 **Portfolio plan roadmap**
 
@@ -47,7 +47,7 @@ Navigation
 2.  From the Planning section, select **Roadmap**.
 
 
-</td></tr><tr><td id="d264515e123">
+</td></tr><tr><td id="d264142e123">
 
 **Free-form roadmap**
 

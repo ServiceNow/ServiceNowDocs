@@ -23,7 +23,7 @@ Turn on the subflows and actions skill to run subflows and actions from Now Assi
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Now Assist Features**.
+1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Now Assist Features**.
 
 2.  In the workflow list, select **Platform**.
 

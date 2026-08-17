@@ -31,15 +31,15 @@ The asset or inventory\_user role can only access the Asset Audits \[sn\_hamp\_a
 
 1.  Create an audit.
 
-<table id="choicetable_upl_qst_ywb"><thead><tr><th align="left" id="d144679e80">
+<table id="choicetable_upl_qst_ywb"><thead><tr><th align="left" id="d145523e80">
 
 Interface
 
-</th><th align="left" id="d144679e83">
+</th><th align="left" id="d145523e83">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d144679e89">
+</th></tr></thead><tbody><tr><td id="d145523e89">
 
 **Core UI**
 
@@ -49,7 +49,7 @@ Action
 2.  Select **New**.
  **Important:** If you have set the **sn\_hamp.migrate\_hamaudit** system property value to **true**, to enable audit enhancements in your ServiceNow® instance, you can't create an asset audit record from the core UI. Audit enhancements feature is available with Hardware Asset Management version 15.0.0 onwards.
 
-</td></tr><tr><td id="d144679e135">
+</td></tr><tr><td id="d145523e135">
 
 **Hardware Asset Workspace**
 

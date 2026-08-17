@@ -1,5 +1,5 @@
 ---
-title: Skill input for Now Assist for Supplier Lifecycle Operations \(SLO\)
+title: Skill input for ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)
 description: You can configure some of the inputs for a generative AI skill. Inputs permit you to determine how and when a skill is used.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-skill-input-triggers.html
@@ -10,10 +10,10 @@ topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 1
 keywords: [generative AI, gen AI, genai, artificial intelligence]
-breadcrumb: [Configure Now Assist for Supplier Lifecycle Operations \(SLO\), Now Assist for Supplier Lifecycle Operations \(SLO\), Supplier Lifecycle Operations, Finance and Supply Chain]
+breadcrumb: [Configure ServiceNow Otto for Supplier Lifecycle Operations \(SLO\), ServiceNow Otto for Supplier Lifecycle Operations \(SLO\), Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 
-# Skill input for Now Assist for Supplier Lifecycle Operations \(SLO\)
+# Skill input for ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)
 
 You can configure some of the inputs for a generative AI skill. Inputs permit you to determine how and when a skill is used.
 
@@ -23,15 +23,15 @@ Inputs identify the data used for a skill. Inputs include the table and fields u
 
 You can modify inputs, but you can't modify a skill's data source. The data source contains the tables and fields that the skill relies on.
 
-## Now Assist skill for Now Assist for SLO
+## Now Assist skill for ServiceNow Otto for SLO
 
-The Now Assist for SLO includes the Supplier case summarization skill.
+The ServiceNow Otto for SLO includes the Supplier case summarization skill.
 
 ## Supplier case summarization skill
 
 Inputs for the Supplier case summarization skill identify the table and fields that are used when the summary is generated for a supplier request.
 
-The following table lists the inputs for the Supplier case summarization skill from the Choose input for supplier request page in the Now Assist Admin console.
+The following table lists the inputs for the Supplier case summarization skill from the Choose input for supplier request page in the AI Admin Hub console.
 
 <table id="table_arz_fk3_1cc"><thead><tr><th>
 

@@ -9,7 +9,7 @@ classification: accounts-payable-operations
 topic_type: task
 last_updated: "2025-11-13"
 reading_time_minutes: 1
-breadcrumb: [Using Now Assist for Accounts Payable Operations \(APO\), Now Assist for Accounts Payable Operations \(APO\), Accounts Payable Operations, Finance and Supply Chain]
+breadcrumb: [Using ServiceNow Otto for Accounts Payable Operations \(APO\), ServiceNow Otto for Accounts Payable Operations \(APO\), Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Use Invoice inquiry solution generator skill
@@ -22,7 +22,7 @@ Role required: admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Features** to access the **Now Assist Features** tab of the Now Assist Admin console.
+1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Features** to access the **Now Assist Features** tab of the AI Admin Hub console.
 
 2.  Expand the **Finance and Supply Chain** workflow group and select **Accounts Payable Operations**.\[Omitted image "invoice-inquiry-solution-generate.png"\] Alt text: Invoice inquiry solution generator skill
 
@@ -35,14 +35,14 @@ Role required: admin
 
 The invoice and related inquiry data is analyzed by AI skills, AI agent, and case and auto-recommends resolution, which will be reviewed by the AP agent resulting in automatic updating of case closure notes.
 
-**Parent Topic:**[Using Now Assist for Accounts Payable Operations \(APO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/accounts-payable-operations/using-now-assist-apo.md)
+**Parent Topic:**[Using ServiceNow Otto for Accounts Payable Operations \(APO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/accounts-payable-operations/using-now-assist-apo.md)
 
 **Related topics**  
 
 
-[Summarize a record by using Now Assist for Accounts Payable Operations \(APO\)]()
+[Summarize a record by using ServiceNow Otto for Accounts Payable Operations \(APO\)]()
 
-[Use Now Assist for Accounts Payable Operations \(APO\) in a Virtual Agent chat]()
+[Use ServiceNow Otto for Accounts Payable Operations \(APO\) in a Virtual Agent chat]()
 
 [Use purchase order line mapping]()
 

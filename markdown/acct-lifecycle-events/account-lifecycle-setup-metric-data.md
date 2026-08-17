@@ -7,14 +7,14 @@ release: yokohama
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configure customer success, Customer success, Customer Success Management]
+breadcrumb: [Configure customer success, Customer success, Account Lifecycle Events]
 ---
 
 # Setup the data context engine
 
 Define and measure metrics to calculate the health score or generate risk signals for one or more engagements.
 
-Data is collected either from performance indicators or external sources as defined in the data source and is used to calculate the health score, generate risk signals, or create success outcomes. The following diagram shows the high level data model.
+Data is collected from performance indicators or external sources as defined in the data source. This data is used to calculate the health score, generate risk signals, or create success outcomes. The following diagram shows the high-level data model.
 
 \[Omitted image "account-lifecycle-data-context-engine.png"\] Alt text: Data context engine flow
 

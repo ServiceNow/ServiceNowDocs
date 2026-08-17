@@ -16,7 +16,7 @@ breadcrumb: [Now Assist for code generation, Scripting, Building pro-code applic
 
 Learn about how AI-generated code can empower developers scripting on the ServiceNow AI Platform.
 
-Now Assist for Code supports both the Now LLM Service and Azure OpenAI model providers.
+ServiceNow Otto for Code supports both the Now LLM Service and Azure OpenAI model providers.
 
 This capability is a part of Creator Pro Plus offering and includes the following skills:
 
@@ -29,7 +29,7 @@ You can switch between Now LLM Services and Azure OpenAI. For more information, 
 
 ## Code generation overview
 
-Now Assist for Creator activates the code generation skill. With code generation, you provide text describing the code to generate and get code suggestions in the JavaScript editor on forms in the ServiceNow AI Platform and in Script steps in Workflow Studio. Developers with varying levels of experience in scripting on the ServiceNow AI Platform can benefit from using code generation to get started writing custom scripts or iterate on scripts more efficiently.
+ServiceNow Otto for Creator activates the code generation skill. With code generation, you provide text describing the code to generate and get code suggestions in the JavaScript editor on forms in the ServiceNow AI Platform and in Script steps in Workflow Studio. Developers with varying levels of experience in scripting on the ServiceNow AI Platform can benefit from using code generation to get started writing custom scripts or iterate on scripts more efficiently.
 
 To generate code suggestions, you describe the goal of the code to generate in the Code with Now Assist dialog box. The code suggestion appears in the lines following your prompt but isn’t added to your script until it's accepted.
 
@@ -57,7 +57,7 @@ Optionally, you can turn on code completion functionality to use code or single-
 
 ## Code autocomplete overview
 
-The autocomplete feature of Now Assist for Code provides you with contextually relevant code suggestions while typing.
+The autocomplete feature of ServiceNow Otto for Code provides you with contextually relevant code suggestions while typing.
 
 **Note:** It takes a few seconds for the code suggestions to appear.
 

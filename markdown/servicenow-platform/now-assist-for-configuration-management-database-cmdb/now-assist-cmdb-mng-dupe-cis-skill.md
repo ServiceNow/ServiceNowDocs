@@ -9,7 +9,7 @@ classification: now-assist-for-configuration-management-database-cmdb
 topic_type: task
 last_updated: "2026-02-05"
 reading_time_minutes: 2
-breadcrumb: [Use generative AI skills, Now Assist for Configuration Management Database \(CMDB\), CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Use generative AI skills, ServiceNow Otto for Configuration Management Database \(CMDB\), CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Let Now Assist help you to manage duplicate CIs

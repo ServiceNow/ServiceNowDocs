@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/in
 release: yokohama
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 17
+reading_time_minutes: 18
 breadcrumb: [Unified Security Exposure Management, Security Operations]
 ---
 
@@ -179,7 +179,7 @@ Match assets and import endpoint vulnerabilities to create vulnerable items.
 
 </td><td>
 
-[Understanding the Microsoft Threat and Vulnerability Management Vulnerability integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/vulnerability-response/mstvm-integration.md)
+[Understanding the Microsoft Threat and Vulnerability Management Vulnerability integrations for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/vulnerability-response/mstvm-integration.md)
 
 </td><td>
 
@@ -203,7 +203,7 @@ Import vulnerabilities into ServiceNow Operational Technology Vulnerability Resp
 
 </td><td>
 
-[Understanding the Vulnerability Response patch orchestration integration with Microsoft SCCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/vulnerability-response/mspatch-integration.md)
+[Vulnerability Response patch orchestration integration with Microsoft SCCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/vulnerability-response/mspatch-integration.md)
 
 </td><td>
 
@@ -1181,6 +1181,54 @@ Ingest vulnerabilities from scanning tools, provide Zafran enrichment and then l
 
 Partner
 
+</td></tr><tr><td>
+
+Armis
+
+</td><td>
+
+Early Warning for Security Exposure Management
+
+</td><td>
+
+Vulnerability Response - Intelligence
+
+</td><td>
+
+Enrich vulnerability entries with intelligence on imminent exploitation, so you can prioritize CVEs that threat actors are actively targeting.
+
+</td><td>
+
+[Early Warning for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/armis-early-warning-integration.md)
+
+</td><td>
+
+ServiceNow
+
+</td></tr><tr><td>
+
+Armis
+
+</td><td>
+
+Fix Intelligence for Security Exposure Management
+
+</td><td>
+
+Vulnerability Response - Intelligence
+
+</td><td>
+
+Enrich host findings with normalized fix information from Armis™ Centrix™ for ViPR, and remediate by fix instead of one finding at a time.
+
+</td><td>
+
+[Fix Intelligence for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/fix-intel-for-usem-landing.md)
+
+</td><td>
+
+ServiceNow
+
 </td></tr><tr><td colspan="6">
 
 Patch orchestration in solution management
@@ -1203,7 +1251,7 @@ Ingest the patch details and correlate the patch, solution, and asset details to
 
 </td><td>
 
-[Understanding the Vulnerability Response patch orchestration integration with Microsoft SCCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/vulnerability-response/mspatch-integration.md)
+[Vulnerability Response patch orchestration integration with Microsoft SCCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/vulnerability-response/mspatch-integration.md)
 
 </td><td>
 
@@ -1451,7 +1499,7 @@ Import the cloud resource configuration issues from Microsoft Defender for Cloud
 
 </td><td>
 
-[Microsoft Defender for Cloud Integration for Security Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/vulnerability-response/cc_asc_overview.md)
+[Understanding the Microsoft Defender for Cloud integrations for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/vulnerability-response/cc_asc_overview.md)
 
 </td><td>
 

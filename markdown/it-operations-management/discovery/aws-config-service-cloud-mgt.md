@@ -7,7 +7,7 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2025-06-17"
+last_updated: "2026-07-09"
 reading_time_minutes: 3
 breadcrumb: [AWS events-driven discovery, Discovery for AWS, Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -132,6 +132,14 @@ URL of the ServiceNow Cloud Events REST API.Ensure that the URL adheres to the f
 
 ```
 https://<username>:<user_password>@<instance_URL>/api/now/cloud_event
+```
+
+Use the alternate endpoint if there is any expectation of high load from AWS. High load on default endpoint can significantly slow down the instance as default endpoint is also used for other transactions.
+
+Ensure that the URL adheres to the following syntax:
+
+```
+https://<username>:<user_password>@<instance_URL>/api/now/cloud_event?sysparm_rest_integration_pool=true
 ```
 
 </td></tr></tbody>

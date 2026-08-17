@@ -1,6 +1,6 @@
 ---
-title: Exploring Now Assist for HR Service Delivery \(HRSD\)
-description: With the Now Assist for HR Service Delivery \(HRSD\) application, your agents can summarize the customer chat conversations and case details to get the context of the case, generate the case resolution notes, and wrap up cases faster.
+title: Exploring ServiceNow Otto for HR Service Delivery \(HRSD\)
+description: With the ServiceNow Otto for HR Service Delivery \(HRSD\) application, your agents can summarize the customer chat conversations and case details to get the context of the case, generate the case resolution notes, and wrap up cases faster.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/now-assist-for-hrsd/explore-now-assist-hr.html
 release: yokohama
@@ -9,14 +9,14 @@ classification: now-assist-for-hrsd
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 7
-breadcrumb: [Now Assist for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
+breadcrumb: [ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
-# Exploring Now Assist for HR Service Delivery \(HRSD\)
+# Exploring ServiceNow Otto for HR Service Delivery \(HRSD\)
 
-With the Now Assist for HR Service Delivery \(HRSD\) application, your agents can summarize the customer chat conversations and case details to get the context of the case, generate the case resolution notes, and wrap up cases faster.
+With the ServiceNow Otto for HR Service Delivery \(HRSD\) application, your agents can summarize the customer chat conversations and case details to get the context of the case, generate the case resolution notes, and wrap up cases faster.
 
-## Now Assist for HR Service Delivery \(HRSD\) Overview
+## ServiceNow Otto for HR Service Delivery \(HRSD\) Overview
 
 The following generative AI capabilities are available for an agent:
 
@@ -29,11 +29,11 @@ The following generative AI capabilities are available for employees or administ
 -   Get direct and actionable responses on customer-specific content by using generative AI in search.
 -   Enhance self-service by using the new Now LLM Service powered Virtual Agent experience with a simplified set-up experience.
 
-You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/exploring-large-language-models.md).
+You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/exploring-large-language-models.md).
 
-## Now Assist for HR Service Delivery \(HRSD\) Skills
+## ServiceNow Otto for HR Service Delivery \(HRSD\) Skills
 
-The Now Assist for HRSD application includes the generative AI skills and features that enable your agents to understand the chat and case context so that they can propose resolutions to the requester more quickly.
+The ServiceNow Otto for HRSD application includes the generative AI skills and features that enable your agents to understand the chat and case context so that they can propose resolutions to the requester more quickly.
 
 -   **Chat summarization**
 
@@ -44,7 +44,7 @@ The Now Assist for HRSD application includes the generative AI skills and featur
     -   Live Agent to Live Agent handoff summary: Summarizes the conversation when a live agent hands off a chat to another live agent and displays the summary in the Active Chat window. An agent can view a summary of the actions that were taken by a customer before hand off to another live agent.
     -   Chat wrap up summary: Accelerates the wrap-up time by populating the full chat summary when a conversation ends.
     -   Chat wrap up short description: Accelerates the wrap-up time by populating the short description that summarizes the requester issues when the conversation ends​.
-    For information on activating the chat summarization skill, see [Configure chat summarization and chat reply recommendation skills in the Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configure-chat-summarization-in-the-now-assist-admin-console.md). For information on how to use the skill on Agent Workspace for HR Case Management, see [Summarize a chat conversation by using Now Assist for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-chat.md).
+    For information on activating the chat summarization skill, see [Configure chat summarization and chat reply recommendation skills in the AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configure-chat-summarization-in-the-now-assist-admin-console.md). For information on how to use the skill on Agent Workspace for HR Case Management, see [Summarize a chat conversation by using ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-chat.md).
 
     The following example shows an AI-generated chat summary.
 
@@ -58,7 +58,7 @@ The Now Assist for HRSD application includes the generative AI skills and featur
 
     Provides an agent with a concise summary of a case, including the issue, actions that were taken, SLA, attachment summary and resolution information, depending on the state of the case. An agent can view a case summary to understand the case context, refresh the summary, and post the summary to the case work notes.
 
-    For information on activating the case summarization skill, see [Configure case or incident summarization in the Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configure-case-or-incident-summarization-in-the-now-assist-admin-console.md). For information on how to use the skill on Agent Workspace for HR Case Management or Core UI, see [Summarize an HR case using Now Assist for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-summarize-case.md).
+    For information on activating the case summarization skill, see [Configure case or incident summarization in the AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configure-case-or-incident-summarization-in-the-now-assist-admin-console.md). For information on how to use the skill on Agent Workspace for HR Case Management or Core UI, see [Summarize an HR case using ServiceNow Otto for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-summarize-case.md).
 
     The following example shows an AI-generated case summary.
 
@@ -68,7 +68,7 @@ The Now Assist for HRSD application includes the generative AI skills and featur
 
     Automatically generates the resolution notes for an agent when the state of a case is changed to Closed Complete. An agent can accept the AI-generated notes or edit the notes before saving it to the case.
 
-    For information on activating the resolution notes skill, see [Configure Now Assist for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md). For information on how to use the skill on Agent Workspace for HR Case Management, see [Generate resolution notes using Now Assist for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-res-note.md).
+    For information on activating the resolution notes skill, see [Configure ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md). For information on how to use the skill on Agent Workspace for HR Case Management, see [Generate resolution notes using ServiceNow Otto for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-res-note.md).
 
     The following example shows the AI-generated resolution notes.
 
@@ -83,7 +83,7 @@ The Now Assist for HRSD application includes the generative AI skills and featur
 
 ## Redirection for sensitive topics
 
-Certain subjects, such as workplace safety or employee compensation, might not be suited for generative AI conversations. Now Assist for HR Service Delivery \(HRSD\) includes out-of-the-box filters to detect sensitive topics.
+Certain subjects, such as workplace safety or employee compensation, might not be suited for generative AI conversations. ServiceNow Otto for HR Service Delivery \(HRSD\) includes out-of-the-box filters to detect sensitive topics.
 
 The admin activates the filters or creates custom filters to enable the Virtual agent to detect if these kinds of subjects are included in the conversation and offer the following redirection options:
 

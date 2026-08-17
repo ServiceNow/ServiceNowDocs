@@ -9,7 +9,7 @@ classification: now-assist-for-financial-services-operations-fso
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Exploring Now Assist for FSO, Now Assist for Financial Services Operations \(FSO\)]
+breadcrumb: [Exploring ServiceNow Otto for FSO, ServiceNow Otto for Financial Services Operations \(FSO\)]
 ---
 
 # Form Data Collector
@@ -71,5 +71,5 @@ Generate a question in a conversational format using Now LLM and present it to t
 
 **Note:** Only UI policies are supported for field iteration in a form. Client scripts are currently not supported.
 
-**Parent Topic:**[Exploring Now Assist for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/now-assist-for-financial-services-operations-fso/exploring-now-assist-for-financial-services-operations-fso.md)
+**Parent Topic:**[Exploring ServiceNow Otto for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/now-assist-for-financial-services-operations-fso/exploring-now-assist-for-financial-services-operations-fso.md)
 

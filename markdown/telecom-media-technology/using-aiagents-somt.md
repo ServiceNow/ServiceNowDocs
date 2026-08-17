@@ -1,18 +1,18 @@
 ---
-title: Using agentic workflows in Now Assist for Sales CRM for Telecommunications
-description: Use the Now Assist for Sales CRM for Telecommunications to complete tasks autonomously.
+title: Using agentic workflows in ServiceNow Otto for Sales Customer Relationship Management for Telecommunications
+description: Use the ServiceNow Otto for Sales Customer Relationship Management for Telecommunications to complete tasks autonomously.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-media-technology/using-aiagents-somt.html
 release: yokohama
 topic_type: concept
 last_updated: "2025-10-27"
 reading_time_minutes: 1
-breadcrumb: [Now Assist for Sales CRM for Telecommunications, Telecommunications, Media, and Technology]
+breadcrumb: [ServiceNow Otto for Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology]
 ---
 
-# Using agentic workflows in Now Assist for Sales CRM for Telecommunications
+# Using agentic workflows in ServiceNow Otto for Sales Customer Relationship Management for Telecommunications
 
-Use the Now Assist for Sales CRM for Telecommunications to complete tasks autonomously.
+Use the ServiceNow Otto for Sales Customer Relationship Management for Telecommunications to complete tasks autonomously.
 
 Enable security implementation to execute AI agents and agentic workflows through access control lists \(ACLs\) and user identities. ACLs provide the Run As capability to let agents and agentic workflows execute actions either as a dynamic user or as an AI user. For more information, see [Implement access control in Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/aia-security-implementation.md).
 

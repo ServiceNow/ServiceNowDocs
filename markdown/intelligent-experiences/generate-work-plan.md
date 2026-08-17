@@ -34,7 +34,7 @@ The agents, tools, and triggers that are associated with the Generate my work pl
 
 ## Prerequisites and setup
 
-To access this workflow, you must have Now Assist for Platform installed on your instance, which you can get if you install any other Now Assist application, such as Now Assist for IT Service Management \(ITSM\).
+To access this workflow, you must have Now Assist for Platform installed on your instance, which you can get if you install any other Now Assist application, such as ServiceNow Otto for IT Service Management \(ITSM\).
 
 Now LLM is not a supported LLM provider for the Generate my work plan agentic workflow.
 

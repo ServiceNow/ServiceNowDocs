@@ -1,6 +1,6 @@
 ---
-title: How ERP Semantic Mining determines candidate score and potential
-description: ERP Semantic Mining \(ERP-CM\) generates a score to rank the potential for replatforming legacy ERP \(Enterprise Resource Planning\) candidates onto the ServiceNow AI Platform.
+title: How ERP Customization Mining determines candidate score and potential
+description: ERP Customization Mining \(ERP-CM\) generates a score to rank the potential for replatforming legacy ERP \(Enterprise Resource Planning\) candidates onto the ServiceNow AI Platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-customization-mining/erpcm-potential-and-recommendations.html
 release: yokohama
@@ -9,12 +9,12 @@ classification: erp-customization-mining
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Exploring ERP Semantic Mining, ERP Semantic Mining \(ERP-CM\), Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Exploring ERP Customization Mining, ERP Customization Mining \(ERP-CM\), Building low-code applications, Developing your application, Building applications]
 ---
 
-# How ERP Semantic Mining determines candidate score and potential
+# How ERP Customization Mining determines candidate score and potential
 
-ERP Semantic Mining \(ERP-CM\) generates a score to rank the potential for replatforming legacy ERP \(Enterprise Resource Planning\) candidates onto the ServiceNow AI Platform.
+ERP Customization Mining \(ERP-CM\) generates a score to rank the potential for replatforming legacy ERP \(Enterprise Resource Planning\) candidates onto the ServiceNow AI Platform.
 
 Every candidate has an ERP module specified in the candidate details in ERP-CM. The ERP module is used to evaluate the potential score of the candidate for replatforming, as well as the remote tables and extraction tables the model contains.
 
@@ -23,14 +23,14 @@ Every candidate has an ERP module specified in the candidate details in ERP-CM. 
 
 **Note:**
 
-Admins must first configure the connection to the ERP system in Zero Copy Connector for ERP. For more information, see [Working with ERP systems in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-work-with-systems.md).
+Admins must first configure the connection to the ERP system in ERP Canvas. For more information, see [Working with ERP systems in ERP Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-work-with-systems.md).
 
 ## High and low scores for candidate potential
 
 ERP-CM evaluates candidates based on how well their tables and fields are supported by the ServiceNow AI Platform.
 
 -   A high potential indicates that ERP-CM can immediately use remote tables and extraction tables that match the ERP model for the application candidate without making additional changes.
--   A low potential indicates that the application candidate matches few of the remote tables and extraction tables in the ERP models in Zero Copy Connector for ERP.
+-   A low potential indicates that the application candidate matches few of the remote tables and extraction tables in the ERP models in ERP Canvas.
 
 ## How scores are calculated
 
@@ -50,5 +50,5 @@ The candidate potential score is calculated using the following metrics:
 -   Unsupported table extensions: The number of custom app tables that are also suggested as model extensions.
 -   Model inaccuracy: The number of tables supported by relevant ERP models that aren’t used by custom apps, and are passed through a sigmoid function.
 
-**Parent Topic:**[Exploring ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/exploring-ecm.md)
+**Parent Topic:**[Exploring ERP Customization Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/exploring-ecm.md)
 

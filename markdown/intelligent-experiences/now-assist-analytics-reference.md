@@ -1,6 +1,6 @@
 ---
-title: Now Assist Analytics reference
-description: Now Assist Analytics reference topics include information about user roles and details of the indicators on the dashboard.
+title: AI Analytics reference
+description: AI Analytics reference topics include information about user roles and details of the indicators on the dashboard.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/now-assist-analytics-reference.html
 release: yokohama
@@ -11,7 +11,7 @@ keywords: [Now Assist Analytics, reference, user roles, domain separation, Gener
 breadcrumb: [Analyzing Now Assist performance, Now Assist, Enable AI experiences]
 ---
 
-# Now Assist Analytics reference
+# AI Analytics reference
 
-Now Assist Analytics reference topics include information about user roles and details of the indicators on the dashboard.
+AI Analytics reference topics include information about user roles and details of the indicators on the dashboard.
 

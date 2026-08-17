@@ -39,11 +39,11 @@ Choose one of these tiles to get started.
 
 </td><td>
 
-[Now Assist Data Kit\[Omitted image "bus-database.svg"\] Alt text:Add datasets to a data catalog.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-data-kit/now-assist-data-kit-landing.md)
+[AI Data Kit\[Omitted image "bus-database.svg"\] Alt text:Add datasets to a data catalog.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-data-kit/now-assist-data-kit-landing.md)
 
 </td></tr><tr><td>
 
-[Now Assist Skill Kit\[Omitted image "bus-innovation.svg"\] Alt text:Create custom skills and prompts for your Now Assist experience.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-skill-kit/now-assist-skill-kit-landing.md)
+[AI Skill Kit\[Omitted image "bus-innovation.svg"\] Alt text:Create custom skills and prompts for your Now Assist experience.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-skill-kit/now-assist-skill-kit-landing.md)
 
 </td><td>
 
@@ -102,15 +102,15 @@ ServiceNow AI agents can solve essential business challenges autonomously, accel
 
 Use AI Agent Studio to create, manage, and test AI agents and use cases all in one place. The main Overview page has three sections that give you what you need to understand, begin, and continue developing AI agents and use cases.
 
-## Now Assist Data Kit
+## AI Data Kit
 
-If the base system Now Assist skills don't fit your needs, you can use Now Assist Data Kit to create custom datasets and data collections that can be used in Now Assist Skill Kit for evaluation.
+If the base system Now Assist skills don't fit your needs, you can use AI Data Kit to create custom datasets and data collections that can be used in AI Skill Kit for evaluation.
 
 \[Omitted image "na-data-kit-infographic.png"\] Alt text: Now Assist Data kit workflow
 
-## Now Assist Skill Kit
+## AI Skill Kit
 
-Use Now Assist Skill Kit to create custom skills. These custom skills give you greater flexibility in the Now Assist environment.
+Use AI Skill Kit to create custom skills. These custom skills give you greater flexibility in the Now Assist environment.
 
 \[Omitted image "nask-user-journey.png"\] Alt text: Define your LLM provider, then develop custom skills by specifying input sources and configuring the prompt. Test with data from your instance, and then deploy your new skill.
 

@@ -1,18 +1,18 @@
 ---
-title: Configuring Now Assist for Mobile
-description: Install and configure skills for Now Assist in Mobile.
+title: Configuring Otto for Mobile
+description: Install and configure skills for ServiceNow Otto in Mobile.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/configuring-now-assist-mobile.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-07-14"
 reading_time_minutes: 1
-breadcrumb: [Now Assist for Mobile, Mobile Platform]
+breadcrumb: [ServiceNow Otto for Mobile, Mobile Platform]
 ---
 
-# Configuring Now Assist for Mobile
+# Configuring Otto for Mobile
 
-Install and configure skills for Now Assist in Mobile.
+Install and configure skills for ServiceNow Otto in Mobile.
 
 -   **[Configure mobile resolution notes generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/configure-resolution-notes.md)**  
 Generate the resolution notes that summarize work orders for mobile.

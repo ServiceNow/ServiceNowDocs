@@ -1,6 +1,6 @@
 ---
-title: Configuring Q&amp;A Genius Results in Now Assist for Legal Service Delivery \(LSD\)
-description: By using Q&amp;A Genius Results in the Now Assist for Legal Service Delivery \(LSD\) application, you can quickly find the most optimal information in Employee Center, Legal Counsel Center, and global search.
+title: Configuring Q&amp;A Genius Results in ServiceNow Otto for Legal Service Delivery \(LSD\)
+description: By using Q&amp;A Genius Results in the ServiceNow Otto for Legal Service Delivery \(LSD\) application, you can quickly find the most optimal information in Employee Center, Legal Counsel Center, and global search.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-cofig-gen-results.html
 release: yokohama
@@ -10,12 +10,12 @@ topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
 keywords: [Now Assist, generative AI]
-breadcrumb: [Configure, Now Assist for Legal Service Delivery \(LSD\), Legal Service Delivery, Employee Service Management]
+breadcrumb: [Configure, ServiceNow Otto for Legal Service Delivery \(LSD\), Legal Service Delivery, Employee Service Management]
 ---
 
-# Configuring Q&amp;A Genius Results in Now Assist for Legal Service Delivery \(LSD\)
+# Configuring Q&amp;A Genius Results in ServiceNow Otto for Legal Service Delivery \(LSD\)
 
-By using Q&amp;A Genius Results in the Now Assist for Legal Service Delivery \(LSD\) application, you can quickly find the most optimal information in Employee Center, Legal Counsel Center, and global search.
+By using Q&amp;A Genius Results in the ServiceNow Otto for Legal Service Delivery \(LSD\) application, you can quickly find the most optimal information in Employee Center, Legal Counsel Center, and global search.
 
 ## Q&amp;A Genius Results overview
 
@@ -25,11 +25,11 @@ The Q&amp;A Genius Results capability enables request fulfillers and legal users
 
 ## Q&amp;A Genius Results configuration
 
-For Legal Counsel Center, the Q&amp;A Genius Results feature is activated by default when you install and activate AI Search and the Now Assist for Legal Service Delivery \(LSD\) application.
+For Legal Counsel Center, the Q&amp;A Genius Results feature is activated by default when you install and activate AI Search and the ServiceNow Otto for Legal Service Delivery \(LSD\) application.
 
 For global search and Employee Center, you must enable Q&amp;A Genius Results manually. For more information, see [Enabling Now Assist Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/enabling-now-assist-qa-grs.md) and [Enable Now Assist genius results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/na-qa-activate.md).
 
 For more information on the other supported search engines, see [Search in Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-service-delivery/lsd-search-overview.md).
 
-**Parent Topic:**[Configure Now Assist for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-configuring.md)
+**Parent Topic:**[Configure ServiceNow Otto for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-configuring.md)
 

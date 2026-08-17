@@ -1,18 +1,18 @@
 ---
-title: Domain separation and Customer Success Management
-description: If any conkeyrefs are broken, re-add them from the doc/source/reuse/domain-separation/domain-separation-overview.dita file.In the short description, edit the first sentence to state whether domain separation is supported or not and add the application name. Keep the conkeyref at the end that describes domain separation.Domain separation is supported for Customer Success Management. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
+title: Domain separation and Account Lifecycle Events
+description: If any conkeyrefs are broken, re-add them from the doc/source/reuse/domain-separation/domain-separation-overview.dita file.In the short description, edit the first sentence to state whether domain separation is supported or not and add the application name. Keep the conkeyref at the end that describes domain separation.Domain separation is supported for Account Lifecycle Events. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/acct-lifecycle-events/account-lifecycle-domain-separation.html
 release: yokohama
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Customer Success Management reference, Customer Success Management]
+breadcrumb: [Account Lifecycle Events reference, Account Lifecycle Events]
 ---
 
-# Domain separation and Customer Success Management
+# Domain separation and Account Lifecycle Events
 
-Domain separation is supported for Customer Success Management. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
+Domain separation is supported for Account Lifecycle Events. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 
 ## Support level: Basic
 
@@ -26,19 +26,19 @@ Sample use case: When a service provider \(SP\) uses chat to respond to a tenant
 
 For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/domain-separated-apps.md).
 
-## Customer Success Management domain separation overview
+## Account Lifecycle Events domain separation overview
 
-With the Customer Success Management application, you can create onboarding cases and related onboarding case tasks, track objectives, outcomes, and define documented plans to ensure success. The account onboarding case and related tasks support domain separation at the account level. Engagements, objectives, outcomes , initiatives, success cases, risk signals and internal plays are domain separated at the account level.
+With the Account Lifecycle Events application, you can create onboarding cases and related onboarding case tasks, track objectives, outcomes, and define documented plans to ensure success. The account onboarding case and related tasks support domain separation at the account level. Engagements, objectives, outcomes , initiatives, success cases, risk signals and internal plays are domain separated at the account level.
 
-## How domain separation works in Customer Success Management
+## How domain separation works in Account Lifecycle Events
 
 -   Account onboarding cases, account lifecycle tasks, and account lifecycle import case tasks are domain separated using the account domain.
 -   All other staging tables used for the Data Import are not domain separated.
 -   All customer success tables are domain separated.
 
-## Setting up domain separation in Customer Success Management
+## Setting up domain separation in Account Lifecycle Events
 
-Domain separation for Customer Success Management requires the domain separation plugin and enabling the csm\_auto\_account\_domain\_generation domain separation property. For more information on setting up domain separation, see [Domain separation and Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/domain-separation-customer-service.md).
+Domain separation for Account Lifecycle Events requires the domain separation plugin and enabling the csm\_auto\_account\_domain\_generation domain separation property. For more information on setting up domain separation, see [Domain separation and Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/domain-separation-customer-service.md).
 
 ## Domain separated tables
 
@@ -55,7 +55,7 @@ Domain separation for Customer Success Management requires the domain separation
 -   Internal play \[sn\_acct\_lc\_internal\_play\]
 -   Internal play task \[sn\_acct\_lc\_internal\_play\_task\]
 
-**Parent Topic:**[Customer Success Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-reference.md)
+**Parent Topic:**[Account Lifecycle Events reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-reference.md)
 
 **Related topics**  
 

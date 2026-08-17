@@ -31,7 +31,7 @@ The Now Assist for Common Finance and Supply Chain features includes the Purchas
 
 Inputs for the Purchase order summarization for fulfillers skill identify the table and fields used when the summary is generated for a purchase order.
 
-The following table lists the inputs for the Purchase order summarization for fulfillers skill from the Choose input for purchase order page in the Now Assist Admin console.
+The following table lists the inputs for the Purchase order summarization for fulfillers skill from the Choose input for purchase order page in the AI Admin Hub console.
 
 <table id="table_arz_fk3_1cc"><thead><tr><th>
 

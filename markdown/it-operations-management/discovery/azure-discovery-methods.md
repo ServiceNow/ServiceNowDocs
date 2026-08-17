@@ -229,7 +229,7 @@ cmdb\_ci\_cloud\_file\_share
 
 </td></tr><tr><td>
 
-Microsoft.Web/sites/functions
+microsoft.web/sites \(kind matches regex functionapp.\*\)
 
 </td><td>
 
@@ -453,7 +453,7 @@ cmdb\_ci\_cloud\_table\_service
 
 </td></tr><tr><td>
 
-microsoft.web/sites
+microsoft.web/sites \(kind doesn't contain functionapp\)
 
 </td><td>
 
@@ -461,7 +461,7 @@ Yes
 
 </td><td>
 
-No
+Yes
 
 </td><td>
 

@@ -1,6 +1,6 @@
 ---
 title: Post-upgrade steps for Now Assist in Contract Management
-description: If you are upgrading to Now Assist in Contract Management starting with Yokohama \(Patch 3\) from a previous version and you have customized use cases, run a fix script to migrate the existing data to the Now Assist Admin console.
+description: If you are upgrading to Now Assist in Contract Management starting with Yokohama \(Patch 3\) from a previous version and you have customized use cases, run a fix script to migrate the existing data to the AI Admin Hub console.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/contract-management-pro/cmpro-na-upgrade-steps.html
 release: yokohama
@@ -14,7 +14,7 @@ breadcrumb: [Configure, Now Assist in CM Pro, Contract Management Pro, Employee 
 
 # Post-upgrade steps for Now Assist in Contract Management
 
-If you are upgrading to Now Assist in Contract Management starting with Yokohama \(Patch 3\) from a previous version and you have customized use cases, run a fix script to migrate the existing data to the Now Assist Admin console.
+If you are upgrading to Now Assist in Contract Management starting with Yokohama \(Patch 3\) from a previous version and you have customized use cases, run a fix script to migrate the existing data to the AI Admin Hub console.
 
 ## Before you begin
 
@@ -26,7 +26,7 @@ Role required: admin
 
 2.  In the **Name** field, search for `Upsert DI skill config`.
 
-3.  In the script, add the use case ids that you want to migrate to the Now Assist Admin console.
+3.  In the script, add the use case ids that you want to migrate to the AI Admin Hub console.
 
     \[Omitted image "cmpro-na-upgrade-script.png"\] Alt text: Use case ids added tn the script box of the fix script.
 

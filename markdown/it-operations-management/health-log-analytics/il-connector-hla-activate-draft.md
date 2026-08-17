@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-02"
 reading_time_minutes: 1
 keywords: [ServiceNow, Health Log Analytics, HLA, draft, integration, activation]
-breadcrumb: [Set up integrations from Integrations Launchpad, Setting up Health Log Analytics on your ServiceNow instance, Configuring Health Log Analytics, Health Log Analytics, ITOM AIOps, IT Operations Management]
+breadcrumb: [Set up integrations from Integrations Launchpad, Setting up Health Log Analytics on your ServiceNow instance, Configuring Health Log Analytics, Health Log Analytics, ITOM Health, IT Operations Management]
 ---
 
 # Activate a draft integration in Health Log Analytics
@@ -49,7 +49,7 @@ Role required: evt\_mgmt\_admin
 
         **Note:** This option is only available if your integration supports activation with AI capabilities.
 
-        The integration is activated with AI capabilities enabled and the **Overview** tab is displayed. Now Assist collects and analyzes log data, and an icon indicates that it auto-maps log data to service instances and components for contextual alert generation.
+        The integration is activated with AI capabilities enabled and the **Overview** tab is displayed. ServiceNow Otto collects and analyzes log data, and an icon indicates that it auto-maps log data to service instances and components for contextual alert generation.
 
     The integration tile is available in the **Installed integrations** tab on the Integrations Launchpad
 

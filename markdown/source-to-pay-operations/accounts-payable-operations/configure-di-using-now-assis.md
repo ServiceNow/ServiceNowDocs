@@ -1,5 +1,5 @@
 ---
-title: Configure Document Intelligence using Now Assist for Accounts Payable Operations \(APO\)
+title: Configure Document Intelligence using ServiceNow Otto for Accounts Payable Operations \(APO\)
 description: Configure Document Intelligence using Now Assist skill in Accounts Payable Operations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/accounts-payable-operations/configure-di-using-now-assis.html
@@ -9,10 +9,10 @@ classification: accounts-payable-operations
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Configure Now Assist for Accounts Payable Operations \(APO\), Now Assist for Accounts Payable Operations \(APO\), Accounts Payable Operations, Finance and Supply Chain]
+breadcrumb: [Configure ServiceNow Otto for Accounts Payable Operations \(APO\), ServiceNow Otto for Accounts Payable Operations \(APO\), Accounts Payable Operations, Finance and Supply Chain]
 ---
 
-# Configure Document Intelligence using Now Assist for Accounts Payable Operations \(APO\)
+# Configure Document Intelligence using ServiceNow Otto for Accounts Payable Operations \(APO\)
 
 Configure Document Intelligence using Now Assist skill in Accounts Payable Operations.
 
@@ -31,7 +31,7 @@ Plugins required:
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills** to access the **Now Assist skills for Common Finance &amp; Supply Chain features** tab of the Now Assist Admin console.
+1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills** to access the **Now Assist skills for Common Finance &amp; Supply Chain features** tab of the AI Admin Hub console.
 
 2.  Select **Finance and Supply Chain** &gt; **Accounts Payable Operations** &gt; **Invoice data extraction** to view the skills for the APO features.
 

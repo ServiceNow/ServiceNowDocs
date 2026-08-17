@@ -1,6 +1,6 @@
 ---
-title: Skill inputs for Now Assist for Strategic Portfolio Management \(SPM\)
-description: Learn about the inputs of each skill for the Now Assist for Strategic Portfolio Management \(SPM\) application. By configuring the inputs for a skill, you can determine how and when a skill is used.
+title: Skill inputs for ServiceNow Otto for Strategic Portfolio Management
+description: Learn about the inputs of each skill for the ServiceNow Otto for Strategic Portfolio Management application. By configuring the inputs for a skill, you can determine how and when a skill is used.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/skill-inputs-for-now-assist-for-spm.html
 release: yokohama
@@ -10,14 +10,14 @@ topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 2
 keywords: [Inputs for Now Assist for SPM, Inputs for the feedback summarization skill]
-breadcrumb: [Configure, Now Assist for Strategic Portfolio Management \(SPM\), Strategic Portfolio Management]
+breadcrumb: [Configure, ServiceNow Otto for Strategic Portfolio Management, Strategic Portfolio Management]
 ---
 
-# Skill inputs for Now Assist for Strategic Portfolio Management \(SPM\)
+# Skill inputs for ServiceNow Otto for Strategic Portfolio Management
 
-Learn about the inputs of each skill for the Now Assist for Strategic Portfolio Management \(SPM\) application. By configuring the inputs for a skill, you can determine how and when a skill is used.
+Learn about the inputs of each skill for the ServiceNow Otto for Strategic Portfolio Management application. By configuring the inputs for a skill, you can determine how and when a skill is used.
 
-## Now Assist for Strategic Portfolio Management \(SPM\) Overview
+## ServiceNow Otto for Strategic Portfolio Management Overview
 
 Depending on the selected skill, you can configure inputs. These settings determine how a skill is used. An input identifies the data that is used for a skill, such as the table and fields that are used to generate a feedback summary. If you have the admin role and any input fields are editable, you can modify the input data for a skill.
 
@@ -149,13 +149,13 @@ Product idea \[sn\_align\_core\_product\_idea\]
 </table>**Related topics**  
 
 
-[Configure Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/configure-now-assist-for-spm.md)
+[Configure ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/configure-now-assist-for-spm.md)
 
-[Exploring Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/exploring-now-assist-for-spm.md)
+[Exploring ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/exploring-now-assist-for-spm.md)
 
-[Using AI agent or agentic workflows in Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/using-na-spm-ai-agents.md)
+[Using AI agent or agentic workflows in ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/using-na-spm-ai-agents.md)
 
-[Using Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/using-now-assist-for-spm.md)
+[Using ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/using-now-assist-for-spm.md)
 
-[Now Assist for SPM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/now-assist-spm-reference.md)
+[ServiceNow Otto for SPM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/now-assist-spm-reference.md)
 

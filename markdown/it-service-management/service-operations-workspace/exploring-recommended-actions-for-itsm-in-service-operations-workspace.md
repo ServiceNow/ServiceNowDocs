@@ -43,7 +43,7 @@ For incident records, selecting the Recommendations icon \(\[Omitted image "reco
 
 For other records, selecting the Recommendations icon \(\[Omitted image "recommended-actions-icon.png"\] Alt text: Recommended Actions icon.\) displays only the AI-powered search results, as shown in the following diagram.\[Omitted image "AI-search\_powered\_recommendations.png"\] Alt text: AI-powered search results
 
-For more information, see [Get Guidance based recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/get-guidance-based-recommendations.md).
+For more information, see [Get guidance-based recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/get-guidance-based-recommendations.md).
 
 Agents can view field-level recommendations in the fields of an incident form in Service Operations Workspace. If you're on version prior to 4.2, the recommendations appeared as messages below the field.
 
@@ -57,7 +57,7 @@ Starting from the version 4.2, field recommendations appear in a drop-down when 
 
 ## Request apps on the Store
 
-Visit the  [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do)  website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the  [ServiceNow Store release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the  [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do)  website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the  [ServiceNow Store release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Recommended Actions for ITSM application details
 

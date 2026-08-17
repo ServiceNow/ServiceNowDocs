@@ -1,6 +1,6 @@
 ---
-title: Install ERP Semantic Mining
-description: Install the ERP Semantic Mining \(ERP-CM\) application \(sn\_erp\_mining\) if you have the admin role from the ServiceNow Store.
+title: Install ERP Customization Mining
+description: Install the ERP Customization Mining \(ERP-CM\) application \(sn\_erp\_mining\) if you have the admin role from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-customization-mining/install-erp-customization-mining.html
 release: yokohama
@@ -9,12 +9,12 @@ classification: erp-customization-mining
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configuring ERP Semantic Mining, ERP Semantic Mining \(ERP-CM\), Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Configuring ERP Customization Mining, ERP Customization Mining \(ERP-CM\), Building low-code applications, Developing your application, Building applications]
 ---
 
-# Install ERP Semantic Mining
+# Install ERP Customization Mining
 
-Install the ERP Semantic Mining \(ERP-CM\) application \(sn\_erp\_mining\) if you have the admin role from the ServiceNow Store.
+Install the ERP Customization Mining \(ERP-CM\) application \(sn\_erp\_mining\) if you have the admin role from the ServiceNow Store.
 
 ## Before you begin
 
@@ -24,12 +24,12 @@ You must:
 
     For more information, see [Licensing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/licensing.md).
 
--   Install Zero Copy Connector for ERP. Use the application to configure connections to the system of record, as well as ERP \(Enterprise Resource Planning\) data models.
+-   Install ERP Canvas. Use the application to configure connections to the system of record, as well as ERP \(Enterprise Resource Planning\) data models.
 -   Configure the JCO connector before you install ERP-CM. See the SAP documentation for more information.
 
 The following plugins are required:
 
--   Zero Copy Connector for ERP
+-   ERP Canvas
 -   Predictive Intelligence
 
 Role required: admin
@@ -42,7 +42,7 @@ Role required: admin
 
     You can access the Store by navigating to **System Applications** &gt; **All Available Applications** &gt; **Available To Obtain From Store**.
 
-2.  Search for ERP Semantic Mining and select **Install**.
+2.  Search for ERP Customization Mining and select **Install**.
 
 3.  Select **Load demo data** to create demo data in the app.
 
@@ -55,10 +55,10 @@ The installation is complete. Select **Close** to return to the ServiceNow Store
 
 ## What to do next
 
-After you install ERP-CM, ERP data from the connected system of record populates the ERP extraction tables in Zero Copy Connector for ERP. For example, ERP application activity, Collector directory data, and Namespace data. You can then incorporate extracted data into ERP data models and remote tables for use as a data source when building apps on ServiceNow. For more information, see the following topics:
+After you install ERP-CM, ERP data from the connected system of record populates the ERP extraction tables in ERP Canvas. For example, ERP application activity, Collector directory data, and Namespace data. You can then incorporate extracted data into ERP data models and remote tables for use as a data source when building apps on ServiceNow. For more information, see the following topics:
 
 -   [View ERP extraction tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/view-etl-data-sources.md)
--   [Standard ERP models and extraction tables for Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-standard-extraction-tables.md)
+-   [Standard ERP models and extraction tables for ERP Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-standard-extraction-tables.md)
 
-**Parent Topic:**[Configuring ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/configuring-ecm.md)
+**Parent Topic:**[Configuring ERP Customization Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/configuring-ecm.md)
 

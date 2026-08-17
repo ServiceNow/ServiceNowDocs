@@ -17,15 +17,15 @@ The ServiceNow® Notify application provides support for SMS and voice channels 
 -   Enhanced security for all client-callable script includes by enabling switching off the sandbox mode.
 -   Enhanced security access for Notify tables.
 
-See [Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/notify-landing-page.md) for more information.
+See  for more information.
 
 ## New in the Yokohama release
 
--   **[Deny-Unless ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/acl-denial-behavior.md)**
+-   ****
 
     Enhance the security of Notify tables by restricting access for non-authenticated users through Deny ACLs.
 
--   **[Enhanced security for client-callable script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/r_NotifyRoles.md)**
+-   **Enhanced security for client-callable script includes**
 
     Enhanced security for all client-callable script includes by introducing the ability to switch off the sandbox mode, providing greater control and protection against unauthorized script execution for Notify tables.
 

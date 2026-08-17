@@ -163,11 +163,11 @@ Agent
 
 </td></tr><tr><td>
 
-[Now Assist for PSDS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/now-assist-psds-using.md)
+[ServiceNow Otto for PSDS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/now-assist-psds-using.md)
 
 </td><td>
 
-Use Now Assist for PSDS to summarize case information and generate case resolution notes. Enable your agents to understand case context so that they can propose resolutions to your constituents.
+Use ServiceNow Otto for PSDS to summarize case information and generate case resolution notes. Enable your agents to understand case context so that they can propose resolutions to your constituents.
 
 </td><td>
 

@@ -1,6 +1,6 @@
 ---
-title: Properties for Alumni Center
-description: Use properties to control the behavior of the Alumni Center.
+title: Properties for Alumni Service Center
+description: Use properties to control the behavior of the Alumni Service Center.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/asc-properties.html
 release: yokohama
@@ -9,12 +9,12 @@ classification: hr-service-delivery
 topic_type: task
 last_updated: "2026-04-01"
 reading_time_minutes: 1
-breadcrumb: [Configure, Alumni Center, HR Service Delivery, Employee Service Management]
+breadcrumb: [Configure, Alumni Service Center, HR Service Delivery, Employee Service Management]
 ---
 
-# Properties for Alumni Center
+# Properties for Alumni Service Center
 
-Use properties to control the behavior of the Alumni Center.
+Use properties to control the behavior of the Alumni Service Center.
 
 ## Before you begin
 
@@ -40,7 +40,7 @@ sn\_asc.top\_alumni\_services
 
 </td><td>
 
-HR services that are to be displayed in the **Request top alumni services** widget in the Alumni Center home page.
+HR services that are to be displayed in the **Request top alumni services** widget in the Alumni Service Center home page.
 
 </td></tr><tr><td>
 

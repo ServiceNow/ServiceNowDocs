@@ -1,6 +1,6 @@
 ---
-title: Using ERP remote tables in Zero Copy Connector for ERP
-description: ERP \(Enterprise Resource Planning\) remote tables in Zero Copy Connector for ERP enable you to view and query data from the ERP system of record on the ServiceNow AI Platform.
+title: Using ERP remote tables in ERP Canvas
+description: ERP \(Enterprise Resource Planning\) remote tables in ERP Canvas enable you to view and query data from the ERP system of record on the ServiceNow AI Platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-integration-framework/erp-canvas-work-with-remote-tables.html
 release: yokohama
@@ -9,33 +9,33 @@ classification: erp-integration-framework
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Using ERP models, extraction tables, and remote tables, Zero Copy Connector for ERP, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Using ERP models, extraction tables, and remote tables, ERP Canvas, Building low-code applications, Developing your application, Building applications]
 ---
 
-# Using ERP remote tables in Zero Copy Connector for ERP
+# Using ERP remote tables in ERP Canvas
 
-ERP \(Enterprise Resource Planning\) remote tables in Zero Copy Connector for ERP enable you to view and query data from the ERP system of record on the ServiceNow AI Platform.
+ERP \(Enterprise Resource Planning\) remote tables in ERP Canvas enable you to view and query data from the ERP system of record on the ServiceNow AI Platform.
 
-**Note:** Zero Copy Connector for ERP doesn't replicate data into the ServiceNow AI Platform. It mirrors data that lives in the ERP system of record, and remains protected there.
+**Note:** ERP Canvas doesn't replicate data into the ServiceNow AI Platform. It mirrors data that lives in the ERP system of record, and remains protected there.
 
 ## Remote tables are linked to ERP models
 
-Each ERP remote table is connected to one ERP model, which links the remote table to the ERP system and other related values. When you build a remote table, you can add any of the fields that Zero Copy Connector for ERP finds when scanning the ERP system of record, which is connected through the ERP model. Scanning for and adding fields ensures that all necessary fields are available, such as when using the table as a data source when building an app.
+Each ERP remote table is connected to one ERP model, which links the remote table to the ERP system and other related values. When you build a remote table, you can add any of the fields that ERP Canvas finds when scanning the ERP system of record, which is connected through the ERP model. Scanning for and adding fields ensures that all necessary fields are available, such as when using the table as a data source when building an app.
 
 The connected ERP model, which is defined on the remote table **Details** tab, controls the available fields on the remote table. If you change the ERP model for a remote table, the available fields change as well.
 
 ## Limitations of remote tables
 
-To ensure data integrity, you can't create new remote tables in Zero Copy Connector for ERP, but you can clone existing ERP models and extend standard ERP remote tables to customize them. For more information, see [Clone an ERP model in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-clone-data-model.md).
+To ensure data integrity, you can't create new remote tables in ERP Canvas, but you can clone existing ERP models and extend standard ERP remote tables to customize them. For more information, see [Clone an ERP model in ERP Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-clone-data-model.md).
 
-ERP remote tables have a limit of 1,000 records. If you need a larger amount of data, use an ERP extraction table. For more information, see [Extracting and transforming data in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-extraction-tables.md).
+ERP remote tables have a limit of 1,000 records. If you need a larger amount of data, use an ERP extraction table. For more information, see [Extracting and transforming data in ERP Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-extraction-tables.md).
 
--   **[View and edit ERP remote table details with Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erpi-find-tables.md)**  
-View and edit details for ERP \(Enterprise Resource Planning\) remote tables in Zero Copy Connector for ERP, such as their attachment settings and short descriptions.
--   **[Customize fields for an ERP remote table in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-build-remote-table.md)**  
-Add or remove columns in remote tables in Zero Copy Connector for ERP to create your ERP \(Enterprise Resource Planning\) model. For example, remove fields with sensitive information, such as birthdays.
--   **[Query a remote table using Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-query-remote-table.md)**  
-Query ERP \(Enterprise Resource Planning\) remote tables from a system of record directly from the **All** menu using Zero Copy Connector for ERP.
+-   **[View and edit ERP remote table details with ERP Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erpi-find-tables.md)**  
+View and edit details for ERP \(Enterprise Resource Planning\) remote tables in ERP Canvas, such as their attachment settings and short descriptions.
+-   **[Customize fields for an ERP remote table in ERP Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-build-remote-table.md)**  
+Add or remove columns in remote tables in ERP Canvas to create your ERP \(Enterprise Resource Planning\) model. For example, remove fields with sensitive information, such as birthdays.
+-   **[Query a remote table using ERP Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-query-remote-table.md)**  
+Query ERP \(Enterprise Resource Planning\) remote tables from a system of record directly from the **All** menu using ERP Canvas.
 
 **Parent Topic:**[Using ERP models, extraction tables, and remote tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/work-with-erp-systems-connections-and-remote-tables.md)
 

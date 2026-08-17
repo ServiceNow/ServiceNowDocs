@@ -16,6 +16,10 @@ breadcrumb: [Using time configuration, Time configuration, Configure core featur
 
 Wherever users have a choice of time zone, the choices are populated using the **Time Zone** choice list on the `User [sys_user]` table. Not all time zones appear by default.
 
+## Before you begin
+
+Role required: admin
+
 ## About this task
 
 To add or remove time zones from the list of time zones:
@@ -26,7 +30,7 @@ To add or remove time zones from the list of time zones:
 
     Notice that the default time zone is **System \(America/Los\_Angeles\)**.
 
-2.  Right-click **Time zone**, and then select Personalize Choices.
+2.  Right-click the Time zone label, and then select **Configure Choices**.
 
 3.  Highlight the desired time zone from the **Available** or **Selected** lists, and then **Add** or **Remove** the time zones as needed.
 

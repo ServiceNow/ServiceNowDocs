@@ -19,34 +19,34 @@ The ServiceNow® Next Experience application delivers an intuitive, personalized
 -   Quickly locate and adjust your user preferences by using the new streamlined search function.
 -   User preference icons now adopt your theme colors.
 
-See [Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/next-experience-landing-page.md) for more information.
+See  for more information.
 
 ## New in the Yokohama release
 
--   **[Fuzzy search results returned within the Unified Navigation menus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/using-the-next-experience-global-header.md)**
+-   **Fuzzy search results returned within the Unified Navigation menus**
 
     Find relevant search results even with shortened text by using the fuzzy results filter, which ranks results based on their similarity to your search query. Adjust the minimum accuracy score to help fine-tune filter behavior.
 
--   **[Customizing the Next Experience keyboard shortcuts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/customize-keyboard-shortcuts.md)**
+-   **Customizing the Next Experience keyboard shortcuts**
 
     Assign specific actions to unique key combinations to quickly execute tasks. See the Accessibility information section for details.
 
--   **[Activity stream user preference available](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/next-experience-workspace-preferences.md)**
+-   **Activity stream user preference available**
 
     Enable the activity stream to automatically expand all activities from within the Workspace user preference group.
 
--   **[Next Experience keyboard shortcuts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/next-experience-keyboard-shortcuts.md)**
+-   ****
 
     Use a new keyboard shortcut to open and close the Now Assist panel and another keyboard shortcut to enable Now Assist voice input mode.
 
 
 ## UI changes
 
--   **[Enable keyboard focus on truncated text user preference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/next-experience-accessibility-preferences.md)**
+-   **Enable keyboard focus on truncated text user preference**
 
     The "Enable keyboard focus on truncated text" user preference has been updated to "Enable keyboard focus on text that displays a tooltip."
 
--   **[Improved keyboard shortcut modal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/using-the-next-experience-global-header.md)**
+-   **Improved keyboard shortcut modal**
 
     The keyboard shortcut menu has improved usability in the following ways:
 
@@ -56,7 +56,7 @@ See [Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNow
 
 ## Changed in this release
 
--   **[Next Experience preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/set-up-preferences-next-experience.md)**
+-   ****
 
     The new user preference panel provides a more efficient, streamlined way for you to work. Use the new search bar to locate your preferences. A wider modal displays all preference groups and when you select a group, all the individual preferences that are related to it appear in the same window.
 
@@ -73,11 +73,11 @@ The Yokohama release doesn't support Internet Explorer 11. The iOS version of Fi
 
 ## Accessibility information
 
--   **[Customize Next Experience keyboard shortcuts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/customize-keyboard-shortcuts.md)**
+-   **Customize Next Experience keyboard shortcuts**
 
     Create your own keyboard shortcuts for frequently used actions.
 
--   **[Next Experience keyboard shortcuts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/next-experience-keyboard-shortcuts.md)**
+-   ****
 
     **Keyboard shortcuts categorized**: Keyboard shortcuts for each page are now organized into categories: Page Action, Page Navigation, Global Navigation, and General.
 
@@ -85,13 +85,13 @@ The Yokohama release doesn't support Internet Explorer 11. The iOS version of Fi
 
     **Accessibility improvements for keyboard interactions**: Use the right and left arrow keys to expand and collapse rows.
 
--   **[Configure Next Experience accessibility preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/next-experience-accessibility-preferences.md)**
+-   ****
 
     **Voice input for Now Assist**
 
     A new user preference activates voice-to-text input in the Now Assist panel. With this feature, you can use your voice to access Now Assist skills in the Now Assist panel in any supported language.
 
-    This preference appears only if your system administrator has enabled the voice input for the Now Assist feature for your instance. For more information, see [Enable voice input for the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/enable-voice-input-for-now-assist-panel.md).
+    This preference appears only if your system administrator has enabled the voice input for the Now Assist feature for your instance. For more information, see .
 
     Once your system administrator has enabled voice input for your instance, the "Enable voice input for the Now Assist panel" user preference is displayed.
 

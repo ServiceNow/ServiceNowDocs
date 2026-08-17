@@ -1,6 +1,6 @@
 ---
 title: Exploring Now Assist in Regulatory Change Management \(RCM\)
-description: With Now Assist in Regulatory Change Management, part of the Now Assist for Integrated Risk Management \(IRM\) application, you can use agentic workflows and generative AI skills that streamline the analysis, summarization, and impact assessment of regulatory alerts. These capabilities empower compliance teams to act swiftly and accurately on regulatory changes.
+description: With Now Assist in Regulatory Change Management, part of the ServiceNow Otto for Integrated Risk Management \(IRM\) application, you can use agentic workflows and generative AI skills that streamline the analysis, summarization, and impact assessment of regulatory alerts. These capabilities empower compliance teams to act swiftly and accurately on regulatory changes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/regulatory-change-management-service-portal/rcm-exploring-now-assist-for-irm.html
 release: yokohama
@@ -15,7 +15,7 @@ breadcrumb: [Explore, Regulatory Change Management, Governance, Risk, and Compli
 
 # Exploring Now Assist in Regulatory Change Management \(RCM\)
 
-With Now Assist in Regulatory Change Management, part of the Now Assist for Integrated Risk Management \(IRM\) application, you can use agentic workflows and generative AI skills that streamline the analysis, summarization, and impact assessment of regulatory alerts. These capabilities empower compliance teams to act swiftly and accurately on regulatory changes.
+With Now Assist in Regulatory Change Management, part of the ServiceNow Otto for Integrated Risk Management \(IRM\) application, you can use agentic workflows and generative AI skills that streamline the analysis, summarization, and impact assessment of regulatory alerts. These capabilities empower compliance teams to act swiftly and accurately on regulatory changes.
 
 ## Now Assist in RCM overview
 
@@ -187,12 +187,12 @@ This application uses artificial intelligence \(AI\) and machine learning, which
 
 ## What to explore next
 
-To learn more about configuring and using Now Assist in Regulatory Change Management and Now Assist for IRM, see:
+To learn more about configuring and using Now Assist in Regulatory Change Management and ServiceNow Otto for IRM, see:
 
--   [Exploring Now Assist for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/exploring-now-assist-for-irm.md)
--   [Configure Now Assist for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/configure-now-assist-for-irm.md)
--   [Using Now Assist for Integrated Risk Management \(IRM\) skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/using-now-assist-for-irm-to-summarize-issues.md)
--   [Using agentic workflows in Now Assist for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/using-agentic-ai-workflows.md)
+-   [Exploring ServiceNow Otto for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/exploring-now-assist-for-irm.md)
+-   [Configure ServiceNow Otto for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/configure-now-assist-for-irm.md)
+-   [Using ServiceNow Otto for Integrated Risk Management \(IRM\) skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/using-now-assist-for-irm-to-summarize-issues.md)
+-   [Using agentic workflows in ServiceNow Otto for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/using-agentic-ai-workflows.md)
 -   [AI-driven regulatory alert summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/regulatory-alert-summarization.md)
 -   [AI-generated recommendations for a regulatory alert skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/recommendations-for-a-regulatory-alert.md)
 -   [Activate the Regulatory alert summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/summarize-a-regulatory-alert.md)

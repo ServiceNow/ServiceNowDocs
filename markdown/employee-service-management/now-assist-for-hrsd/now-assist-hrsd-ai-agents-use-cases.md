@@ -1,5 +1,5 @@
 ---
-title: Using agentic workflows in Now Assist for HRSD
+title: Using agentic workflows in ServiceNow Otto for HRSD
 description: Use the HR Service Delivery AI agent collection to complete tasks autonomously.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-ai-agents-use-cases.html
@@ -10,10 +10,10 @@ topic_type: concept
 last_updated: "2025-03-07"
 reading_time_minutes: 4
 keywords: [Now Assist, generative AI]
-breadcrumb: [Now Assist for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
+breadcrumb: [ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
-# Using agentic workflows in Now Assist for HRSD
+# Using agentic workflows in ServiceNow Otto for HRSD
 
 Use the HR Service Delivery AI agent collection to complete tasks autonomously.
 
@@ -200,7 +200,7 @@ Looking for an AI agent?
 
 **Important:** Some Now Assist skills, agents, and agentic workflows are turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
--   **[Help resolve tuition requests agentic workflow for Now Assist for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-ai-agents-policy-resolving-tr-usecase.md)**  
+-   **[Help resolve tuition requests agentic workflow for ServiceNow Otto for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-ai-agents-policy-resolving-tr-usecase.md)**  
 Use the Help resolve tuition requests agentic workflow for faster mean time to repair \(MTTR\) cases that require validation based on policies that are built for tuition reimbursement.
 -   **[Resolve HR cases agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/employee-issue-resolver-na.md)**  
 Use the Resolve HR cases agentic workflow to evaluate case criticality and retrieve relevant knowledge articles to resolve HR cases, and generate a fulfillment plan for an HR case, minimizing the need for agent intervention.
@@ -209,5 +209,5 @@ The Generate onboarding ramp-up plan agentic workflow is an AI-powered solution 
 -   **[HCM AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/conversational-agents.md)**  
 Place requests to the Human Capital Management \(HCM\) system using the HR Service Delivery AI agent collection.
 
-**Parent Topic:**[Now Assist for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/now-assist-hrsd.md)
+**Parent Topic:**[ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/now-assist-hrsd.md)
 

@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2025-04-06"
 reading_time_minutes: 2
 keywords: [AI Agents, Agentic AI]
-breadcrumb: [Using agentic workflows in Now Assist for ITOM, Now Assist for ITOM, IT Operations Management]
+breadcrumb: [Using agentic workflows in ServiceNow Otto for ITOM, ServiceNow Otto for ITOM, IT Operations Management]
 ---
 
 # Triage and analyze alerts agentic workflow
@@ -50,9 +50,9 @@ The Triage and analyze alerts agentic workflow uses a team of AI agents to perfo
 |Related incidents analysis AI agent|Analyze past incidents and provide insights on common assignments and summarized resolution notes.|
 |Alert verification AI agent|Assess data completeness and determine whether the alert is suitable for analysis.|
 
-**Parent Topic:**[Using agentic workflows in Now Assist for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-ai-agent-workflows.md)
+**Parent Topic:**[Using agentic workflows in ServiceNow Otto for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-ai-agent-workflows.md)
 
-**Previous topic:**[Using agentic workflows in Now Assist for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-ai-agent-workflows.md)
+**Previous topic:**[Using agentic workflows in ServiceNow Otto for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-ai-agent-workflows.md)
 
 **Next topic:**[Analyze alert impact agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-agentic-aia.md)
 

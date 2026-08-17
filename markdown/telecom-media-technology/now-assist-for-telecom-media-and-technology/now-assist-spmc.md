@@ -1,6 +1,6 @@
 ---
-title: Now Assist for Telecommunications, Media and Technology \(TMT\)
-description: Use the ServiceNow Now Assist for Telecommunications, Media and Technology \(TMT\) application to summarize service problem cases, account onboarding cases, engagements, touchpoints, generate the case resolution notes, and summarize tests. You can enable your agents to understand the case context and test results so that they can propose quicker resolutions to your customers. Additionally, you can automate transformation mapping between provider and consumer instances in Service Exchange.
+title: ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
+description: Use the ServiceNow ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) application to summarize service problem cases, account onboarding cases, engagements, touchpoints, generate the case resolution notes, and summarize tests. You can enable your agents to understand the case context and test results so that they can propose quicker resolutions to your customers. Additionally, you can automate transformation mapping between provider and consumer instances in Service Exchange.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spmc.html
 release: yokohama
@@ -12,9 +12,9 @@ reading_time_minutes: 4
 breadcrumb: [Telecommunications, Media, and Technology]
 ---
 
-# Now Assist for Telecommunications, Media and Technology \(TMT\)
+# ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
 
-Use the ServiceNow® Now Assist for Telecommunications, Media and Technology \(TMT\) application to summarize service problem cases, account onboarding cases, engagements, touchpoints, generate the case resolution notes, and summarize tests. You can enable your agents to understand the case context and test results so that they can propose quicker resolutions to your customers. Additionally, you can automate transformation mapping between provider and consumer instances in Service Exchange.
+Use the ServiceNow® ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) application to summarize service problem cases, account onboarding cases, engagements, touchpoints, generate the case resolution notes, and summarize tests. You can enable your agents to understand the case context and test results so that they can propose quicker resolutions to your customers. Additionally, you can automate transformation mapping between provider and consumer instances in Service Exchange.
 
 ## Get started
 
@@ -28,7 +28,7 @@ Use the ServiceNow® Now Assist for Telecommunications, Media and Technology \(T
 
 </td><td>
 
-[Use Now Assist for TMT generative AI\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Use generative AI capabilities offered by Now Assist for Telecommunications, Media and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spm-using.md)
+[Use Now Assist for TMT generative AI\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Use generative AI capabilities offered by ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spm-using.md)
 
 </td></tr><tr><td>
 

@@ -7,7 +7,7 @@ release: yokohama
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configuring account onboarding, Account onboarding, Customer Success Management]
+breadcrumb: [Configuring account onboarding, Account onboarding, Account Lifecycle Events]
 ---
 
 # Set up Recommended Actions for account onboarding
@@ -20,7 +20,7 @@ Role required: sn\_acct\_lc.agent
 
 ## Procedure
 
-1.  Create a rule in Recommended Actions for Customer Success Management.
+1.  Create a rule in Recommended Actions for Account Lifecycle Events.
 
     For more information, see [Create a rule in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/ra-csm-rules-create.md).
 

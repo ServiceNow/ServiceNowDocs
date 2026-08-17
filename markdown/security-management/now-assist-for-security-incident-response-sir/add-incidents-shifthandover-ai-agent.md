@@ -9,7 +9,7 @@ classification: now-assist-for-security-incident-response-sir
 topic_type: concept
 last_updated: "2025-08-19"
 reading_time_minutes: 1
-breadcrumb: [Use agentic workflows, Now Assist for Security Incident Response, Security Operations]
+breadcrumb: [Use agentic workflows, ServiceNow Otto for Security Incident Response \(SIR\), Security Operations]
 ---
 
 # Generate SIR Shift Handover Report

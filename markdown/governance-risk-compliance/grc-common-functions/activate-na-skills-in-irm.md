@@ -1,6 +1,6 @@
 ---
-title: Activate Now Assist skills in Now Assist for Integrated Risk Management \(IRM\)
-description: Activate a skill before you can use the generative AI capabilities for the Now Assist for Integrated Risk Management \(IRM\) application.
+title: Activate Now Assist skills in ServiceNow Otto for Integrated Risk Management \(IRM\)
+description: Activate a skill before you can use the generative AI capabilities for the ServiceNow Otto for Integrated Risk Management \(IRM\) application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/grc-common-functions/activate-na-skills-in-irm.html
 release: yokohama
@@ -13,13 +13,13 @@ keywords: [Now Assist, generative AI]
 breadcrumb: [Configure, Now Assist, Common GRC features, Governance, Risk, and Compliance]
 ---
 
-# Activate Now Assist skills in Now Assist for Integrated Risk Management \(IRM\)
+# Activate Now Assist skills in ServiceNow Otto for Integrated Risk Management \(IRM\)
 
-Activate a skill before you can use the generative AI capabilities for the Now Assist for Integrated Risk Management \(IRM\) application.
+Activate a skill before you can use the generative AI capabilities for the ServiceNow Otto for Integrated Risk Management \(IRM\) application.
 
 ## Before you begin
 
-Install the Now Assist for IRM plugin \(sn\_irm\_gen\_ai\).
+Install the ServiceNow Otto for IRM plugin \(sn\_irm\_gen\_ai\).
 
 Role required: sn\_nowassist\_admin.nsa\_admin
 

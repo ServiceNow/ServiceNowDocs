@@ -36,7 +36,7 @@ Core UI dashboards are those created in the classic UI featuring visualizations 
 
 Platform Analytics dashboards are created using either UI Builder or the inline dashboard editor. These dashboards support all objects in the element library, such as data visualizations, filters, and rich text. In a tabbed dashboard, these contents can be placed in a tab or above the tabs. Filters placed above the tabs apply to content on all the tabs.
 
-When you create Platform Analytics dashboards, you can add any existing element that you have rights to, or create a new element from within the dashboard. These elements include data-agnostic visualizations based on indicators, table data, MetricBase data, and Usage Insights.
+When you create Platform Analytics dashboards, you can add any existing element that you have rights to, or create a new element from within the dashboard. These elements include data-agnostic visualizations based on indicators, table data, MetricBase data, and User Experience Analytics.
 
 Platform Analytics dashboards also provide Proactive Insights that support more informed decision making. Insights explore correlations and highlight potential changes and issues before they turn into problems.​ For more information, see [Proactive analytics insights on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/proactive-analytics/proactive-analytics.md).
 

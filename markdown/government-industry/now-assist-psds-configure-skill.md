@@ -1,5 +1,5 @@
 ---
-title: Configure a skill in Now Assist for Public Sector Digital Services \(PSDS\)
+title: Configure a skill in ServiceNow Otto for Public Sector Digital Services \(PSDS\)
 description: Configure the triggers, settings, and display locations for Now Assist skills to enable GenAI capabilities across the Public Sector Digital Services agent platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/now-assist-psds-configure-skill.html
@@ -7,22 +7,22 @@ release: yokohama
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Configure, Now Assist for PSDS, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Configure, ServiceNow Otto for PSDS, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Configure a skill in Now Assist for Public Sector Digital Services \(PSDS\)
+# Configure a skill in ServiceNow Otto for Public Sector Digital Services \(PSDS\)
 
 Configure the triggers, settings, and display locations for Now Assist skills to enable GenAI capabilities across the Public Sector Digital Services agent platform.
 
 ## About this task
 
-The following skills can be enabled and customized in Now Assist for PSDS:
+The following skills can be enabled and customized in ServiceNow Otto for PSDS:
 
 -   AI Agents
 -   Chat Summarization
 -   Case Summarization
 
-The Now Assist Admin console contains everything that you need to install the plugins and configure the generative AI skills. For additional information, see [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configuring-now-assist.md)
+The AI Admin Hub console contains everything that you need to install the plugins and configure the generative AI skills. For additional information, see [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configuring-now-assist.md)
 
 ## Before you begin
 
@@ -30,17 +30,17 @@ Role required: admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Features** to access the **Features** tab of the Now Assist Admin console.
+1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Features** to access the **Features** tab of the AI Admin Hub console.
 
     \[Omitted image "nowassist\_psds\_admin.png"\] Alt text: Menu dropdown showing Now Assist Admin
 
-2.  Activate and configure the skills for the Now Assist for PSDS.
+2.  Activate and configure the skills for the ServiceNow Otto for PSDS.
 
-    The following Now Assist for PSDS skills can be customized:
+    The following ServiceNow Otto for PSDS skills can be customized:
 
     -   Case Summarization
     -   Chat Summarization
-    These features are grouped under the **Customer** workflow group. Select **PSDS** in the dropdown to access the skills for Now Assist for Public Sector Digital Services \(PSDS\). Each feature has its associated skills.
+    These features are grouped under the **Customer** workflow group. Select **PSDS** in the dropdown to access the skills for ServiceNow Otto for Public Sector Digital Services \(PSDS\). Each feature has its associated skills.
 
     \[Omitted image "now-assist-psds-panel.png"\] Alt text: Menu dropdown showing PSDS in the list of Now Assist Products
 
@@ -95,7 +95,7 @@ You can go back to the Now Assist Features page to configure another skill.
 
 [Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/platform-now-assist-landing.md)
 
-[Install and configure Now Assist for Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/now-assist-psds-configuring.md)
+[Install and configure ServiceNow Otto for Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/now-assist-psds-configuring.md)
 
-[Using Now Assist for Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/now-assist-psds-using.md)
+[Using ServiceNow Otto for Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/now-assist-psds-using.md)
 

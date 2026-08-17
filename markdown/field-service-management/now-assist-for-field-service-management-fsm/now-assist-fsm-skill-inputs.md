@@ -1,5 +1,5 @@
 ---
-title: Skill inputs for Now Assist for Field Service Management \(FSM\)
+title: Skill inputs for ServiceNow Otto for Field Service Management \(FSM\)
 description: Use the inputs for each skill to configure how a skill is used.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/now-assist-for-field-service-management-fsm/now-assist-fsm-skill-inputs.html
@@ -9,10 +9,10 @@ classification: now-assist-for-field-service-management-fsm
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configure Now Assist for Field Service Management \(FSM\), Now Assist for Field Service Management \(FSM\)]
+breadcrumb: [Configure ServiceNow Otto for Field Service Management \(FSM\), ServiceNow Otto for Field Service Management \(FSM\)]
 ---
 
-# Skill inputs for Now Assist for Field Service Management \(FSM\)
+# Skill inputs for ServiceNow Otto for Field Service Management \(FSM\)
 
 Use the inputs for each skill to configure how a skill is used.
 

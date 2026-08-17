@@ -1,6 +1,6 @@
 ---
-title: Customize a summarization skill in Now Assist for Legal Service Delivery \(LSD\)
-description: If you have the admin role, you can customize a Now Assist for Legal Service Delivery \(LSD\) skill so that you can use the generative AI skills in Legal Counsel Center and in Core UI.
+title: Customize a summarization skill in ServiceNow Otto for Legal Service Delivery \(LSD\)
+description: If you have the admin role, you can customize a ServiceNow Otto for Legal Service Delivery \(LSD\) skill so that you can use the generative AI skills in Legal Counsel Center and in Core UI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-customize-skill.html
 release: yokohama
@@ -10,12 +10,12 @@ topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 8
 keywords: [Now Assist, generative AI]
-breadcrumb: [Configure, Now Assist for Legal Service Delivery \(LSD\), Legal Service Delivery, Employee Service Management]
+breadcrumb: [Configure, ServiceNow Otto for Legal Service Delivery \(LSD\), Legal Service Delivery, Employee Service Management]
 ---
 
-# Customize a summarization skill in Now Assist for Legal Service Delivery \(LSD\)
+# Customize a summarization skill in ServiceNow Otto for Legal Service Delivery \(LSD\)
 
-If you have the admin role, you can customize a Now Assist for Legal Service Delivery \(LSD\) skill so that you can use the generative AI skills in Legal Counsel Center and in Core UI.
+If you have the admin role, you can customize a ServiceNow Otto for Legal Service Delivery \(LSD\) skill so that you can use the generative AI skills in Legal Counsel Center and in Core UI.
 
 ## Before you begin
 
@@ -23,17 +23,17 @@ Role required: admin
 
 ## About this task
 
-From the Now Assist Admin console, you can select the input table, related records, and fields for each input template of the request summarization skill, and then configure the prompt headers to include in the general summary.
+From the AI Admin Hub console, you can select the input table, related records, and fields for each input template of the request summarization skill, and then configure the prompt headers to include in the general summary.
 
 The Legal Request summarization and Legal Matter summarization skills are available in the base system with the required configurations. To create a customized skill, create a copy of the skills available in the base system and modify the configurations. When the customized skill is activated, the parent skill is automatically deactivated.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills** to access the **Now Assist Skills** tab of the Now Assist Admin console.
+1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills** to access the **Now Assist Skills** tab of the AI Admin Hub console.
 
 2.  Navigate to **Employee** &gt; **LSD**.
 
-3.  Create a copy of the Now Assist for LSD feature summarization skill for customization.
+3.  Create a copy of the ServiceNow Otto for LSD feature summarization skill for customization.
 
     1.  On the feature card that is associated with the skill that you would like to activate, select the More actions icon \[Omitted image "more-actions-icon.png"\] Alt text: More actions icon for the skill in the Active skills section and create a copy that you can customize by selecting **Make a copy**.
 
@@ -43,7 +43,7 @@ The Legal Request summarization and Legal Matter summarization skills are availa
 
 4.  In the General details step, fill in the fields.
 
-    For information about the inputs for each skill, see [Skill inputs for Now Assist for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-skill-inputs.md).
+    For information about the inputs for each skill, see [Skill inputs for ServiceNow Otto for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-skill-inputs.md).
 
     1.  Enter a name and description for the skill.
 
@@ -248,5 +248,5 @@ Resolved
 -   **[Configure variables for Now Assist summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-legal-service-delivery/configure-variables-for-now-assist-summarization.md)**  
 Configure the variables of the practice areas that you want to be considered as inputs for legal request or matter summarization by using the Now Assist application.
 
-**Parent Topic:**[Configure Now Assist for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-configuring.md)
+**Parent Topic:**[Configure ServiceNow Otto for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-configuring.md)
 

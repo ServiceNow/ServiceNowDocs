@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 7
 keywords: [ServiceNow, Health Log Analytics, HLA, data input, configuration]
-breadcrumb: [Configuring data inputs for Health Log Analytics manually, Set up data inputs for Health Log Analytics manually, Setting up Health Log Analytics on your ServiceNow instance, Configuring Health Log Analytics, Health Log Analytics, ITOM AIOps, IT Operations Management]
+breadcrumb: [Configuring data inputs for Health Log Analytics manually, Set up data inputs for Health Log Analytics manually, Setting up Health Log Analytics on your ServiceNow instance, Configuring Health Log Analytics, Health Log Analytics, ITOM Health, IT Operations Management]
 ---
 
 # Configure Rsyslog, Filebeat, or Winlogbeat data inputs
@@ -152,7 +152,7 @@ Existing Filebeat data input configuration files in HLA are compatible with File
 **Related topics**  
 
 
-[Configure advanced settings for Rsyslog, Splunk, or TCP data inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-input-adv-rsyslog-splunk.md)
+[Configure advanced settings for Rsyslog, Splunk, TCP data inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-input-adv-rsyslog-splunk.md)
 
 [Configure advanced settings for Beats data inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-input-adv-beats.md)
 

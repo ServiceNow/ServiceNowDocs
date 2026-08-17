@@ -7,7 +7,7 @@ release: yokohama
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: concept
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 1
 breadcrumb: [Create an invoice line manually, Create an invoice manually, Work with invoices, Using Accounts Payable Invoice Processing, Using Accounts Payable Operations, Accounts Payable Operations, Finance and Supply Chain]
 ---

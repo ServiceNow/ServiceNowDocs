@@ -34,15 +34,15 @@ Benchmarks is a ServiceNow AI Platform feature that is active by default. The ne
 
 ## Related ServiceNow applications and features
 
--   **[Performance Analytics \(Indicator data sources\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/pa-overview.md)**
+-   ****
 
     The ServiceNow® Performance Analytics application is an in-platform solution that enables organizations to create management dashboards, report on KPIs and metrics, and answer key business questions to help increase quality and reduce the costs of service delivery.
 
--   **[Success Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/success-dashboard-indicator-landing.md)**
+-   **Success Dashboard**
 
     The ServiceNow® Success Dashboard enables the leadership team and process owners to gain insights into the performance of their ServiceNow® IT Service Management \(ITSM\) implementation using the KPIs defined by the ServiceNow AI Platform®.
 
--   **[Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/cim-landing-page.md)**
+-   ****
 
     Use the ServiceNow® Continual Improvement Management application to request improvement opportunities and implement phases and tasks to meet performance goals, track progress, and measure success.
 

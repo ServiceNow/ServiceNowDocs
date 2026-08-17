@@ -18,7 +18,7 @@ This broad control addresses high level design considerations and key elements t
 
 -   **[Certificate based authentication not enforced \[New in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-certificate-based-authentication-not-enforced.md)**  
 The **glide.authenticate.mutual.enabled** property enables certificate based authentication, a type of mutual authentication for inbound REST connections to REST and SOAP APIs in the ServiceNow AI Platform.
--   **[Check impersonation on ACL evaluation in HR App \[New in Security Center 1.3 and updated in 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-check-impersonation-on-acl-evaluation-in-hr-app-plugin-applicability-human-resources-scoped-app.md)**  
+-   **[Check impersonation on ACL evaluation in HR App \[New in Security Center 1.3 and updated in 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-check-impersonation-on-acl.md)**  
 Use the **sn\_hr\_core.impersonateCheck** property to prevent a user from impersonating another user and accessing their HR information.
 -   **[Disable local login for users with Single Sign-On \(SSO\) enabled](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-disable-local-login-for-users-with-single-sign-on-sso-enabled.md)**  
 Update user records to disable local login for users with Single Sign-On \(SSO\) enabled.

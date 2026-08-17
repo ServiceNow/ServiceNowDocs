@@ -63,10 +63,6 @@ The FieldReadConfiguration structure enables you to configure which fields to fe
 The FieldWriteOptions class provides functions that set the options for updating or creating fields in a record on a ServiceNow instance.
 -   **[Filter structure - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/FilteriOSStructure.md)**  
 The Filter structure provides the ability to configure filters that define the data to return in the return results of a REST endpoint query.
--   **[NowAnalyticsService protocol - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/NowAnalyticsServiceiOSProtocol.md)**  
-The NowAnalyticsService protocol provides functions that enable you to configure analytics properties, user settings, and events for managing the collection of user analytics data.
--   **[NowAnalyticsServiceDelegate protocol - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/NowAnalyticsServiceDeliOSProtocol.md)**  
-The NowAnalyticsServiceDelegate protocol provides callback functions that provide information about the starting and ending of a user session and screen change detection.
 -   **[NowAPIEndpoint protocol - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/NowAPIEndpointiOSProtocol.md)**  
 The NowAPIEndpoint protocol provides an interface for accessing any publicly exposed ServiceNow REST APIs.
 -   **[NowAPIService class - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/NowAPIServiceiOSAPI.md)**  

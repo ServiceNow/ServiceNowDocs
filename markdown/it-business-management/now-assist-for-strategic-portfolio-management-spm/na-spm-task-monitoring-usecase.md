@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 2
 keywords: [Monitor project tasks, AI Agents, Agentic AI]
-breadcrumb: [AI agents, Now Assist for Strategic Portfolio Management \(SPM\), Strategic Portfolio Management]
+breadcrumb: [AI agents, ServiceNow Otto for Strategic Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Strategic Portfolio Management AI agents for the monitor project tasks agentic workflow
@@ -37,7 +37,7 @@ If you want to change this agentic workflow, you can [duplicate it](https://raw.
 
 ## Monitor project tasks agentic workflow
 
-Autonomously generate a project insights email using AI agents. To use Monitor project tasks, make sure that the project insights generation skill is active. For more information on how to activate the skill, see [Configure Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/configure-now-assist-for-spm.md).
+Autonomously generate a project insights email using AI agents. To use Monitor project tasks, make sure that the project insights generation skill is active. For more information on how to activate the skill, see [Configure ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/configure-now-assist-for-spm.md).
 
 To access the Monitor project tasks agentic workflow:
 

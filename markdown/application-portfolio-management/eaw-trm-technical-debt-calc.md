@@ -14,7 +14,7 @@ breadcrumb: [Manage TRM technical debt, Managing the Technology Reference Model 
 
 A TRM technical debt indicates the unapproved usage of a software. The technical debts table \[sn\_apm\_trm\_standards\_technical\_debt\], displays the TRM products and associated business applications details, and the reason for the technical debt.
 
-To view the TRM technical debts, you require Technology Portfolio Management \[sn\_apm\_tpm\] store application and SAM Foundation \[com.snc.sams\] plugin.
+To view the TRM technical debts, you require Technology Lifecycle Management \[sn\_apm\_tpm\] store application and SAM Foundation \[com.snc.sams\] plugin.
 
 Technical debts are created at two levels if any of the following conditions are met. The Level 2 is checked only if the system property **sn\_apm\_trm.is\_product\_life\_cycle\_tech\_debt\_enabled** is set to True.
 

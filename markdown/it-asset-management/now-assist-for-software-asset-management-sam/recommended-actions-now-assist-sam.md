@@ -9,7 +9,7 @@ classification: now-assist-for-software-asset-management-sam
 topic_type: task
 last_updated: "2025-03-04"
 reading_time_minutes: 2
-breadcrumb: [Using Now Assist for Software Asset Management \(SAM\), Now Assist for Software Asset Management \(SAM\), Software Asset Management, IT Asset Management]
+breadcrumb: [Using ServiceNow Otto for Software Asset Management \(SAM\), ServiceNow Otto for Software Asset Management \(SAM\), Software Asset Management, IT Asset Management]
 ---
 
 # Generate recommended actions for products by using Now Assist for SAM
@@ -59,15 +59,15 @@ When you run reconciliation with grouping, product summarization and recommended
 
 7.  You can perform the following actions on the generated recommended actions.
 
-<table id="choicetable_swv_41f_f2c"><thead><tr><th align="left" id="d210976e175">
+<table id="choicetable_swv_41f_f2c"><thead><tr><th align="left" id="d212389e175">
 
 Action
 
-</th><th align="left" id="d210976e178">
+</th><th align="left" id="d212389e178">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d210976e184">
+</th></tr></thead><tbody><tr><td id="d212389e184">
 
 **Regenerate icon**
 
@@ -77,7 +77,7 @@ Regenerates the list of recommended actions.
 
  You can find this icon in the top right corner of the Recommended actions box.
 
-</td></tr><tr><td id="d210976e199">
+</td></tr><tr><td id="d212389e199">
 
 **Feedback**
 
@@ -95,5 +95,5 @@ If you found that the recommended actions was helpful, select the helpful icon. 
     Once you have dismissed all the actions, a message appears mentioning that all recommendations have been dismissed.
 
 
-**Parent Topic:**[Using Now Assist for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/now-assist-for-software-asset-management-sam/using-now-assist-sam.md)
+**Parent Topic:**[Using ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/now-assist-for-software-asset-management-sam/using-now-assist-sam.md)
 

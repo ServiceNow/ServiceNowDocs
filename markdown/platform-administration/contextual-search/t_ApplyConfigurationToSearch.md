@@ -7,7 +7,7 @@ release: yokohama
 product: Contextual Search
 classification: contextual-search
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Configuring contextual search, Contextual search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -73,11 +73,11 @@ Value of the operator is used in the Zing search engine to instruct how to combi
 
 
 </td></tr></tbody>
-</table>4.  To edit the value of any property, click the property name and in the Search Resource Context Property form, update the **Value** field to `true` or `false`.
+</table>4.  To edit the value of any property, select the property name and in the Search Resource Context Property form, update the **Value** field to `true` or `false`.
 
     \[Omitted image "search-resource-context-property.png"\] Alt text: Search resource context property
 
-5.  Click **Update**.
+5.  Select **Update**.
 
 
 **Parent Topic:**[Configuring contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/contextual-search/configuring-contextual-search.md)

@@ -1,6 +1,6 @@
 ---
-title: Configure Now Assist for Software Asset Management \(SAM\)
-description: If you have the admin role, you can configure the Now Assist for Software Asset Management \(SAM\) application so that Software Asset Management managers can use the generative AI capabilities in the Software Asset Workspace.
+title: Configure ServiceNow Otto for Software Asset Management \(SAM\)
+description: If you have the admin role, you can configure the ServiceNow Otto for Software Asset Management \(SAM\) application so that Software Asset Management managers can use the generative AI capabilities in the Software Asset Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/now-assist-for-software-asset-management-sam/configure-now-assist-sam.html
 release: yokohama
@@ -9,12 +9,12 @@ classification: now-assist-for-software-asset-management-sam
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Now Assist for Software Asset Management \(SAM\), Software Asset Management, IT Asset Management]
+breadcrumb: [ServiceNow Otto for Software Asset Management \(SAM\), Software Asset Management, IT Asset Management]
 ---
 
-# Configure Now Assist for Software Asset Management \(SAM\)
+# Configure ServiceNow Otto for Software Asset Management \(SAM\)
 
-If you have the admin role, you can configure the Now Assist for Software Asset Management \(SAM\) application so that Software Asset Management managers can use the generative AI capabilities in the Software Asset Workspace.
+If you have the admin role, you can configure the ServiceNow Otto for Software Asset Management \(SAM\) application so that Software Asset Management managers can use the generative AI capabilities in the Software Asset Workspace.
 
 ## Before you begin
 
@@ -22,17 +22,17 @@ Role required: admin
 
 ## About this task
 
-Use the Now Assist Admin console to configure Now Assist for SAM. This console contains everything that you need to install the plugins and configure the generative AI skills. For additional information, see [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configuring-now-assist.md).
+Use the AI Admin Hub console to configure Now Assist for SAM. This console contains everything that you need to install the plugins and configure the generative AI skills. For additional information, see [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configuring-now-assist.md).
 
-Domain separation is supported in Now Assist for Software Asset Management \(SAM\). For details, see [Domain separation in the Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/domain-separation-in-the-now-assist-admin-console.md).
+Domain separation is supported in ServiceNow Otto for Software Asset Management \(SAM\). For details, see [Domain separation in the AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/domain-separation-in-the-now-assist-admin-console.md).
 
 Starting with the Zurich Patch 4 release, generative AI skills for Now Assist for SAM are automatically activated on your instance by default and require no configuration. However, if you deactivate a skill, you need to manually reactivate that skill by following the specified procedure.
 
 ## Procedure
 
-1.  Install the Now Assist for Software Asset Management \(SAM\) plugin \(sn\_now\_assist\_sam\).
+1.  Install the ServiceNow Otto for Software Asset Management \(SAM\) plugin \(sn\_now\_assist\_sam\).
 
-2.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills** to access the **Now Assist Skills** tab of the Now Assist Admin console.
+2.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills** to access the **Now Assist Skills** tab of the AI Admin Hub console.
 
 3.  Select **SAM** under the **Technology** workflow group.
 
@@ -56,13 +56,13 @@ Starting with the Zurich Patch 4 release, generative AI skills for Now Assist fo
 
 8.  In the Review and activate section, review your choices and select **Activate**.
 
-    The Successfully activated message box opens and the skill is activated. You're ready to use the skill in the Software Asset Workspace. For details on using the skills, see [Using Now Assist for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/now-assist-for-software-asset-management-sam/using-now-assist-sam.md).
+    The Successfully activated message box opens and the skill is activated. You're ready to use the skill in the Software Asset Workspace. For details on using the skills, see [Using ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/now-assist-for-software-asset-management-sam/using-now-assist-sam.md).
 
 
--   **[Install Now Assist for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/now-assist-for-software-asset-management-sam/install-now-assist-sam.md)**  
-If you have the admin role, you can install the Now Assist for Software Asset Management \(SAM\) application. The Now Assist for Software Asset Management \(SAM\) application integrates generative AI capabilities into your daily workflow tasks.
--   **[Skill inputs and triggers for Now Assist for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/now-assist-for-software-asset-management-sam/now-assist-sam-skills-inputs.md)**  
-Get a quick overview of the skill inputs and triggers for Now Assist for Software Asset Management \(SAM\). By configuring the inputs or triggers for a skill, you can determine how and when a skill is used.
+-   **[Install ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/now-assist-for-software-asset-management-sam/install-now-assist-sam.md)**  
+If you have the admin role, you can install the ServiceNow Otto for Software Asset Management \(SAM\) application. The ServiceNow Otto for Software Asset Management \(SAM\) application integrates generative AI capabilities into your daily workflow tasks.
+-   **[Skill inputs and triggers for ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/now-assist-for-software-asset-management-sam/now-assist-sam-skills-inputs.md)**  
+Get a quick overview of the skill inputs and triggers for ServiceNow Otto for Software Asset Management \(SAM\). By configuring the inputs or triggers for a skill, you can determine how and when a skill is used.
 
-**Parent Topic:**[Now Assist for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/now-assist-for-software-asset-management-sam/now-assist-sam.md)
+**Parent Topic:**[ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/now-assist-for-software-asset-management-sam/now-assist-sam.md)
 

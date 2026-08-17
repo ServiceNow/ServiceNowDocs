@@ -1,5 +1,5 @@
 ---
-title: Register on the Alumni Center website
+title: Register on the Alumni Service Center website
 description: As an external user, sign up using a personal email address and other details to self-register as alumni.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/alumni-self-registration.html
@@ -9,10 +9,10 @@ classification: hr-service-delivery
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Using your Alumni Center, Alumni Center, HR Service Delivery, Employee Service Management]
+breadcrumb: [Using your Alumni Service Center, Alumni Service Center, HR Service Delivery, Employee Service Management]
 ---
 
-# Register on the Alumni Center website
+# Register on the Alumni Service Center website
 
 As an external user, sign up using a personal email address and other details to self-register as alumni.
 
@@ -22,7 +22,7 @@ Role required: sn\_asc.alumni
 
 ## Procedure
 
-1.  Navigate to Alumni Center website.
+1.  Navigate to Alumni Service Center website.
 
 2.  Select **Register as alumni** on the login page.
 

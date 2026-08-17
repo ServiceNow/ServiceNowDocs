@@ -1,6 +1,6 @@
 ---
-title: Configure Now Assist for Supplier Lifecycle Operations \(SLO\)
-description: If you have the admin role, you can configure the Now Assist for Supplier Lifecycle Operations \(SLO\) application so that your supplier managers can use the generative AI skills in Source-to-Pay Workspace and in Core UI.
+title: Configure ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)
+description: If you have the admin role, you can configure the ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) application so that your supplier managers can use the generative AI skills in Source-to-Pay Workspace and in Core UI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-configuring.html
 release: yokohama
@@ -10,12 +10,12 @@ topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 2
 keywords: [generative AI, gen AI, genai, artificial intelligence]
-breadcrumb: [Now Assist for Supplier Lifecycle Operations \(SLO\), Supplier Lifecycle Operations, Finance and Supply Chain]
+breadcrumb: [ServiceNow Otto for Supplier Lifecycle Operations \(SLO\), Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 
-# Configure Now Assist for Supplier Lifecycle Operations \(SLO\)
+# Configure ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)
 
-If you have the admin role, you can configure the Now Assist for Supplier Lifecycle Operations \(SLO\) application so that your supplier managers can use the generative AI skills in Source-to-Pay Workspace and in Core UI.
+If you have the admin role, you can configure the ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) application so that your supplier managers can use the generative AI skills in Source-to-Pay Workspace and in Core UI.
 
 ## Before you begin
 
@@ -23,29 +23,29 @@ Role required: admin
 
 ## About this task
 
-Use the Now Assist Admin console to configure Now Assist for SLO. This console contains everything that you need to install the plugins and configure the generative AI skills. For additional information, see [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configuring-now-assist.md).
+Use the AI Admin Hub console to configure ServiceNow Otto for SLO. This console contains everything that you need to install the plugins and configure the generative AI skills. For additional information, see [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configuring-now-assist.md).
 
-The following table lists the feature and skill that you can access from the Now Assist Admin console.
+The following table lists the feature and skill that you can access from the AI Admin Hub console.
 
-|Now Assist for SLO feature|Skill|
-|--------------------------|-----|
+|ServiceNow Otto for SLO feature|Skill|
+|-------------------------------|-----|
 |Case summarization|Supplier case summarization|
 
 \[Omitted image "now-assist-slo.png"\] Alt text: Now Assist skills for SLO section, showing the Case summarization feature card.
 
 ## Procedure
 
-1.  Install the Now Assist for Supplier Lifecycle Operations \(SLO\) plugin \(com.snc.sn\_supplier\_gen\_ai\).
+1.  Install the ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) plugin \(com.snc.sn\_supplier\_gen\_ai\).
 
-    -   For information about the plugin dependencies and plugin activation order, see [Supporting information for Now Assist for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-supporting-info.md).
+    -   For information about the plugin dependencies and plugin activation order, see [Supporting information for ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-supporting-info.md).
     -   For information about the installation process, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
-2.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Features** to access the **Now Assist Features** tab of the Now Assist Admin console.
+2.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Features** to access the **Now Assist Features** tab of the AI Admin Hub console.
 
 3.  Expand the **Finance and Supply Chain** workflow group and select **Supplier Lifecycle Operations**.
 
     The Supplier Lifecycle Operations feature is located under the Finance and Supply Chain workflow group. Each feature has its associated skill.
 
-4.  Activate and configure the Supplier case summarization skill for Now Assist for Supplier Lifecycle Operations \(SLO\).
+4.  Activate and configure the Supplier case summarization skill for ServiceNow Otto for Supplier Lifecycle Operations \(SLO\).
 
 <table id="table_bcq_z34_tcc"><thead><tr><th>
 
@@ -76,15 +76,15 @@ Supplier case summarization
 
 9.  Define the availability of the skill by selecting **Define Availability**, and then selecting one of the following options.
 
-<table id="choicetable_e25_bvj_1cc"><thead><tr><th align="left" id="d28135e354">
+<table id="choicetable_e25_bvj_1cc"><thead><tr><th align="left" id="d28036e354">
 
 Option
 
-</th><th align="left" id="d28135e357">
+</th><th align="left" id="d28036e357">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d28135e363">
+</th></tr></thead><tbody><tr><td id="d28036e363">
 
 **Skill is always available**
 
@@ -92,7 +92,7 @@ Description
 
 The skill is available to users at all times.
 
-</td></tr><tr><td id="d28135e372">
+</td></tr><tr><td id="d28036e372">
 
 **Customize skill availability**
 

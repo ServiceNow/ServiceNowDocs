@@ -1,5 +1,5 @@
 ---
-title: Summarize test for a technology product support case using Now Assist for Telecommunications, Media and Technology \(TMT\)
+title: Summarize test for a technology product support case using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
 description: Generate the test run summary for a technology product support case record to understand the context of test outcomes and the root cause of the problem.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-summarize-tech-support-case.html
@@ -9,10 +9,10 @@ classification: now-assist-for-telecom-media-and-technology
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 3
-breadcrumb: [Using Now Assist for Telecommunications, Media and Technology \(TMT\), Now Assist for Telecommunications, Media and Technology \(TMT\), Telecommunications, Media, and Technology]
+breadcrumb: [Using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\), ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\), Telecommunications, Media, and Technology]
 ---
 
-# Summarize test for a technology product support case using Now Assist for Telecommunications, Media and Technology \(TMT\)
+# Summarize test for a technology product support case using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
 
 Generate the test run summary for a technology product support case record to understand the context of test outcomes and the root cause of the problem.
 
@@ -55,15 +55,15 @@ The test summarization skill checks the test results record to determine if ther
 
 6.  After you're finished summarizing the test for the technology product support case, manage the results.
 
-<table id="choicetable_ebh_5tm_vdc"><thead><tr><th align="left" id="d29285e187">
+<table id="choicetable_ebh_5tm_vdc"><thead><tr><th align="left" id="d29244e187">
 
 Option
 
-</th><th align="left" id="d29285e190">
+</th><th align="left" id="d29244e190">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d29285e196">
+</th></tr></thead><tbody><tr><td id="d29244e196">
 
 **Expand or collapse the summary**
 
@@ -73,7 +73,7 @@ Procedure
 -   See fewer summary details by selecting the collapse card icon \(\[Omitted image "icon-collapse.png"\] Alt text: Collapse card icon.\).
 
 
-</td></tr><tr><td id="d29285e226">
+</td></tr><tr><td id="d29244e226">
 
 **Provide feedback for the summary**
 
@@ -83,7 +83,7 @@ Procedure
 -   If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).
  This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d29285e259">
+</td></tr><tr><td id="d29244e259">
 
 **Copy the test summary**
 
@@ -91,7 +91,7 @@ Procedure
 
 Select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text: Copy to clipboard icon.\) to use the case summary information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d29285e274">
+</td></tr><tr><td id="d29244e274">
 
 **Refresh the test summary**
 
@@ -107,5 +107,5 @@ Fetch the latest test run summary by selecting the refresh icon \(\[Omitted imag
     -   To set the results, select **Save**.
     -   To go back to the test results list, select **Cancel**.
 
-**Parent Topic:**[Using Now Assist for Telecommunications, Media and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spm-using.md)
+**Parent Topic:**[Using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spm-using.md)
 

@@ -1,18 +1,18 @@
 ---
-title: Activate the Technology Portfolio Management \(TPM\) plugin
-description: Activate the Technology Portfolio Management \(TPM\) store application that you purchased from the ServiceNow Store to make it available on your instance.
+title: Activate the Technology Lifecycle Management \(TLM\) plugin
+description: Activate the Technology Lifecycle Management \(TLM\) store application that you purchased from the ServiceNow Store to make it available on your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-install-tpm.html
 release: yokohama
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Managing the Technology Portfolio Management \(TPM\) in Enterprise Architecture Workspace, Technology Portfolio view, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Managing the Technology Lifecycle Management \(TLM\) in Enterprise Architecture Workspace, Technology Portfolio view, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
-# Activate the Technology Portfolio Management \(TPM\) plugin
+# Activate the Technology Lifecycle Management \(TLM\) plugin
 
-Activate the Technology Portfolio Management \(TPM\) store application that you purchased from the ServiceNow Store to make it available on your instance.
+Activate the Technology Lifecycle Management \(TLM\) store application that you purchased from the ServiceNow Store to make it available on your instance.
 
 ## Before you begin
 
@@ -37,12 +37,12 @@ Role required: admin
 5.  Select **Install**.
 
 
--   **[Tables installed with TPM in the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-tables-installed-with-tpm.md)**  
-Several types of tables are installed with Technology Portfolio Management.
--   **[Business rules for TPM in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-tpm-business-rules.md)**  
-Several types of business rules are added with Technology Portfolio Management.
--   **[Scheduled jobs for TPM in the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-tpm-scheduled-jobs.md)**  
-Several types of scheduled jobs are added for Technology Portfolio Management.
+-   **[Tables installed with TLM in the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-tables-installed-with-tpm.md)**  
+Several types of tables are installed with Technology Lifecycle Management.
+-   **[Business rules for TLM in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-tpm-business-rules.md)**  
+Several types of business rules are added with Technology Lifecycle Management.
+-   **[Scheduled jobs for TLM in the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-tpm-scheduled-jobs.md)**  
+Several types of scheduled jobs are added for Technology Lifecycle Management.
 
-**Parent Topic:**[Managing the Technology Portfolio Management \(TPM\) in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-tpm.md)
+**Parent Topic:**[Managing the Technology Lifecycle Management \(TLM\) in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-tpm.md)
 

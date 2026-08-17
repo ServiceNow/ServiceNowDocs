@@ -89,10 +89,10 @@ Now Assist governance is specified in the following tools:
 
     For more information, see [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/ai-control-tower-landing.md).
 
--   **Now Assist Admin console**
+-   **AI Admin Hub console**
 
-    The Now Assist Admin console is key to managing AI governance by configuring policies, enforcing data handling rules, and ensuring compliance with security and privacy standards. Admins oversee provider policies at the skill level, track usage analytics like success rates and adoption, and collaborate with AI stewards and business SMEs to align AI with organizational goals. They also connect governance committees with technical teams to support smooth policy execution.
+    The AI Admin Hub console is key to managing AI governance by configuring policies, enforcing data handling rules, and ensuring compliance with security and privacy standards. Admins oversee provider policies at the skill level, track usage analytics like success rates and adoption, and collaborate with AI stewards and business SMEs to align AI with organizational goals. They also connect governance committees with technical teams to support smooth policy execution.
 
-    For more information, see [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/configuring-now-assist.md).
+    For more information, see [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/configuring-now-assist.md).
 
 

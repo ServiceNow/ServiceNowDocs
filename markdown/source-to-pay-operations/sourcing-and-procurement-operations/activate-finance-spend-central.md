@@ -49,7 +49,7 @@ Install the following applications in the suggested sequence to get started with
 16. Risk Assessments Integration for Sourcing and Procurement Operations \[sn\_spend\_vrm\]
 17. Project Costing for Sourcing and Procurement Operations \[sn\_spend\_ppm\]
 18. Source-to-Pay Operations with Contract Management Pro \[snc.sn\_spend\_clm\]
-19. Now Assist for Sourcing and Procurement Operations \(SPO\) \[sn\_spend\_gen\_ai\]
+19. ServiceNow Otto for Sourcing and Procurement Operations \(SPO\) \[sn\_spend\_gen\_ai\]
 20. Advanced Work Assignment for Source-to-Pay Operations \[snc.sn\_spend\_awa\]
 21. Process Mining for Source-to-Pay Operations \[sn\_s2p\_mining\]
 22. Primary Data Integration with SAP \[sn\_sap\_data\_int\]
@@ -67,7 +67,7 @@ For more information on these applications and their dependencies, see [Applicat
 
 2.  In the search bar, use the filter criteria to find the application.
 
-    You can search for the application by its name or ID. If you can't find an application, you can request it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+    You can search for the application by its name or ID. If you can't find an application, you can request it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 3.  Select **Install**.
 

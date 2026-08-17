@@ -1,6 +1,6 @@
 ---
 title: Turn on the playbook generation skill
-description: Turn on the Now Assist for Creator playbook generation skill to use generative AI to create playbook outlines.
+description: Turn on the ServiceNow Otto for Creator playbook generation skill to use generative AI to create playbook outlines.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/build-workflows/workflow-studio/turn-on-playbook-generation-skill.html
 release: yokohama
@@ -14,20 +14,20 @@ breadcrumb: [Configuring Playbook Assist, Playbook generation, Exploring playboo
 
 # Turn on the playbook generation skill
 
-Turn on the Now Assist for Creator playbook generation skill to use generative AI to create playbook outlines.
+Turn on the ServiceNow Otto for Creator playbook generation skill to use generative AI to create playbook outlines.
 
 ## Before you begin
 
--   Install the Now Assist for Creator application
+-   Install the ServiceNow Otto for Creator application
 -   Role required: admin
 
 ## About this task
 
-**Important:** The playbook generation skill requires a separate subscription to Now Assist for Creator.
+**Important:** The playbook generation skill requires a separate subscription to ServiceNow Otto for Creator.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Features**.
+1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Features**.
 
 2.  In the workflow list, select **Creator**.
 

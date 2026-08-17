@@ -18,9 +18,9 @@ Install the Now Assist in Contract Management plugin \(sn\_cm\_gen\_ai\) and act
 
 ## About this task
 
-Use the Now Assist console to enable Now Assist in Contract Management. This console contains everything that you need to install the plugin and activate the generative AI skills. For additional information, see [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configuring-now-assist.md).
+Use the Now Assist console to enable Now Assist in Contract Management. This console contains everything that you need to install the plugin and activate the generative AI skills. For additional information, see [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configuring-now-assist.md).
 
-The following skills are available for Contract Management in the Now Assist Admin console.
+The following skills are available for Contract Management in the AI Admin Hub console.
 
 -   Contract metadata extraction
 -   Contract analysis
@@ -35,7 +35,7 @@ Role required: sn\_cm\_gen\_ai.ai\_contract\_admin
 
     -   For information about the plugin installation process, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
     -   For information about the plugin dependencies and plugin activation order, see [Application information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/cncore-support-info-na.md#cmpro-na-app-info).
-2.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills** to access the **Now Assist Skills** tab of the Now Assist Admin console.
+2.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills** to access the **Now Assist Skills** tab of the AI Admin Hub console.
 
 3.  Navigate to **Employee** &gt; **CM Pro**.
 

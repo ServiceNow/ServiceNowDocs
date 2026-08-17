@@ -9,7 +9,7 @@ classification: health-log-analytics
 topic_type: concept
 last_updated: "2025-01-29"
 reading_time_minutes: 2
-breadcrumb: [Health Log Analytics, ITOM AIOps, IT Operations Management]
+breadcrumb: [Health Log Analytics, ITOM Health, IT Operations Management]
 ---
 
 # Health Log Analytics reference
@@ -55,5 +55,5 @@ This section describes the fields on the Log correlators form.
 -   **[Information on the Alert Insight Similar Alerts tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-op-alrt-inst-simlr-alrts-tab.md)**  
 View the list of alerts that are provided by the Alert Insight feature on the **Alert Insight Similar Alerts** tab. The Alert Insight feature generates the information to help you resolve the alert.
 
-**Parent Topic:**[ITOM AIOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-health-landing-page.md)
+**Parent Topic:**[ITOM Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-health-landing-page.md)
 

@@ -1,6 +1,6 @@
 ---
 title: Using AI agent workflows in Now Assist for WSD
-description: Agentic workflows in Now Assist for WSD help complete workplace tasks autonomously.
+description: Agentic workflows in Now Assist for WSD completes workplace tasks autonomously.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/now-assist-for-wsd/now-assist-wsd-using-agentic-use-cases.html
 release: yokohama
@@ -9,12 +9,12 @@ classification: now-assist-for-wsd
 topic_type: concept
 last_updated: "2025-09-10"
 reading_time_minutes: 4
-breadcrumb: [Now Assist for Workplace Service Delivery \(WSD\), Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Now Assist for WSD, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Using AI agent workflows in Now Assist for WSD
 
-Agentic workflows in Now Assist for WSD help complete workplace tasks autonomously.
+Agentic workflows in Now Assist for WSD completes workplace tasks autonomously.
 
 <table id="table_gyx_brq_l2c"><thead><tr><th>
 
@@ -123,5 +123,5 @@ The Optimize cleaning activities agent performs cleaning activities on a workpla
 -   **[Automate map updates agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-wsd/automate-map-updates-agent-ai.md)**  
 This AI agent helps map admins configure the map during bulk updates to Indoor Mapping.
 
-**Parent Topic:**[Now Assist for Workplace Service Delivery \(WSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-wsd/now-assist-wsd-landing.md)
+**Parent Topic:**[Now Assist for WSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-wsd/now-assist-wsd-landing.md)
 

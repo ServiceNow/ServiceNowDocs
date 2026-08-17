@@ -1,6 +1,6 @@
 ---
-title: Now Assist for Security Incident Response release notes
-description: The ServiceNow Now Assist for Security Incident Response application can help your security analysts resolve security incidents autonomously with intelligent workflows and generative AI skills. Now Assist for Security Incident Response was enhanced and updated in the Yokohama release.
+title: ServiceNow Otto for Security Incident Response \(SIR\) release notes
+description: The ServiceNow ServiceNow Otto for Security Incident Response \(SIR\) application can help your security analysts resolve security incidents autonomously with intelligent workflows and generative AI skills. ServiceNow Otto for Security Incident Response \(SIR\) was enhanced and updated in the Yokohama release.
 locale: en-US
 release: yokohama
 topic_type: reference
@@ -8,11 +8,11 @@ last_updated: "2026-01-30"
 reading_time_minutes: 9
 ---
 
-# Now Assist for Security Incident Response release notes
+# ServiceNow Otto for Security Incident Response \(SIR\) release notes
 
-The ServiceNow® Now Assist for Security Incident Response application can help your security analysts resolve security incidents autonomously with intelligent workflows and generative AI skills. Now Assist for Security Incident Response was enhanced and updated in the Yokohama release.
+The ServiceNow® ServiceNow Otto for Security Incident Response \(SIR\) application can help your security analysts resolve security incidents autonomously with intelligent workflows and generative AI skills. ServiceNow Otto for Security Incident Response \(SIR\) was enhanced and updated in the Yokohama release.
 
-## Now Assist for Security Incident Response highlights for the Yokohama release
+## ServiceNow Otto for Security Incident Response \(SIR\) highlights for the Yokohama release
 
 [Yokohama Patch 11](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-11.md)
 
@@ -43,14 +43,14 @@ The ServiceNow® Now Assist for Security Incident Response application can help 
     -   Generate recommended actions to resolve security incidents.
     -   Generate a post-incident analysis.
     -   Generate correlation insights to help you connect current incidents to past events. By identifying the affected users, configuration items \(CIs\), or observables \(IP addresses and file hashes\) from existing incidents, you can help to triage new security incidents.
-    For more information, see [Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/security-management/now-assist-security-incident-landing.md).
+    For more information, see [ServiceNow Otto for Security Incident Response \(SIR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/security-management/now-assist-security-incident-landing.md).
 
 
-**Important:** Now Assist for Security Incident Response is available in ServiceNow Store. For details, see the "Activation information" section of these release notes.
+**Important:** ServiceNow Otto for Security Incident Response \(SIR\) is available in ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## Important information for upgrading Now Assist for Security Incident Response to Yokohama
+## Important information for upgrading ServiceNow Otto for Security Incident Response \(SIR\) to Yokohama
 
-For more information about required applications for Now Assist for Security Incident Response, see [Supporting information for Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/security-management/supporting-information-now-assist-security-incident.md).
+For more information about required applications for ServiceNow Otto for Security Incident Response \(SIR\), see [Supporting information for ServiceNow Otto for Security Incident Response \(SIR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/security-management/supporting-information-now-assist-security-incident.md).
 
 **Note:**
 
@@ -60,7 +60,7 @@ Upgrading the Now Assist plugins activate any designated skills that were previo
 -   If you have previously toggled a skill from active and then back to inactive or have updated any roles for that skill, that skill remains inactive upon upgrading.
 -   You maintain full control over deactivating individual skills at any time after activation.
 
-Starting with version 2.0.1, the name of the Now Assist for Security Operations application in ServiceNow® Store and in your ServiceNow AI Platform® instance has changed to Now Assist for Security Incident Response. You must upgrade to version 2.0.1 to access the following features:
+Starting with version 2.0.1, the name of the Now Assist for Security Operations application in ServiceNow® Store and in your ServiceNow AI Platform® instance has changed to ServiceNow Otto for Security Incident Response \(SIR\). You must upgrade to version 2.0.1 to access the following features:
 
 -   Generate resolution notes in the Now Assist context menu.
 -   Generate correlation insights for a security incident investigation from the Now Assist panel.
@@ -69,11 +69,11 @@ The AI Search application must be enabled so that the recommended actions skill 
 
 ## New in the Yokohama release
 
--   **[Role configuration required for agentic workflows and AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/aia-role-masking.md)**
+-   **Role configuration required for agentic workflows and AI agents**
 
     Agentic workflows and AI agents included with Now Assist applications require additional security configuration. If you select **Users with selected roles** for your user access security controls for an agentic workflow or AI agent, you must add the installed roles, or they will not execute. Data access settings must also include these roles. See the documentation for the agentic workflow or AI agent for the specific roles you must add.
 
--   **[Some Now Assist skills are turned on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md)**
+-   **Some Now Assist skills are turned on by default**
 
     The new default behavior works as follows:
 
@@ -88,7 +88,7 @@ The AI Search application must be enabled so that the recommended actions skill 
 
     The AI Agent helps add security incident details to a shift handover report. The agent populates the different sections of the shift handover with appropriate content by identifying the relevant details from the security incident. The AI agent can fetch details of the security incident and identify if the analyst has access to the shift handover record. The AI agent can generate content for each section of the shift handover record and asks for analysts feedback on the content. The AI agent refines the content based on the feedback and saves the content to the records on approval.
 
--   **[New third-party AI model provider options available for all Now Assist applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/exploring-large-language-models.md)**
+-   **New third-party AI model provider options available for all Now Assist applications**
 
     Google Gemini and AWS Claude are available for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
 
@@ -136,25 +136,25 @@ The AI Search application must be enabled so that the recommended actions skill 
 
 Yokohama Patch 3
 
--   **[Generate recommended actions for a security incident with Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/security-management/generate-recommended-actions-now-assist-for-security.md)**
+-   **[Generate recommended actions for a security incident with ServiceNow Otto for Security Incident Response \(SIR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/security-management/generate-recommended-actions-now-assist-for-security.md)**
 
     Introduced a new UI card **Show More** to enhance the visibility of recommended actions. As a security analyst, you can now access additional context along with further recommended steps to assist in the analysis and investigation of security incidents.
 
 
 -   **[Now Assist for Security Incident Response application name change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/security-management/activate-skills-for-now-assist-security-incident.md)**
 
-    Starting with version 2.0.1, the Now Assist for Security Operations application in the ServiceNow® Store and in your ServiceNow AI Platform® instance has changed to the Now Assist for Security Incident Response application.
+    Starting with version 2.0.1, the Now Assist for Security Operations application in the ServiceNow® Store and in your ServiceNow AI Platform® instance has changed to the ServiceNow Otto for Security Incident Response \(SIR\) application.
 
 
 ## Changed in this release
 
--   **[Changes to Now Assist usage measurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/monitoring-now-assist-usage.md)**
+-   **Changes to Now Assist usage measurement**
 
     Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
--   **[Some Now Assist skills are now turned on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md)**
+-   **Some Now Assist skills are now turned on by default**
 
-    The following Now Assist skills for Now Assist for Security Incident Response and Now Assist for Vulnerability Response are activated by default.
+    The following Now Assist skills for ServiceNow Otto for Security Incident Response \(SIR\) and ServiceNow Otto for Unified Security Exposure Management are activated by default.
 
     -   Security incident summarization \(SIR\)
     -   Resolution notes generation \(SIR\)
@@ -166,14 +166,14 @@ Yokohama Patch 3
 
     -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
     -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
--   **[Configure ACLs for AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/aia-security-implementation.md)**
+-   **Configure ACLs for AI agents and agentic workflows**
 
     Configure the access control lists for who can discover and trigger AI agents and agentic workflows in their guided setups in AI Agent Studio. You can determine whether an AI agent or agentic workflow behaves as a dynamic user or as an AI user. You can also specify if an AI agent or agentic workflow can be available to all authenticated users or publicly available.
 
 
 ## Activation information
 
-Install Now Assist for Security Incident Response by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install ServiceNow Otto for Security Incident Response \(SIR\) by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 **Parent Topic:**[Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/now-assist-rn-landing.md)
 

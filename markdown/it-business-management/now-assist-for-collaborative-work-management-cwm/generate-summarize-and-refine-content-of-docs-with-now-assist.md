@@ -1,6 +1,6 @@
 ---
-title: Generate and improve Docs content with Now Assist for Collaborative Work Management \(CWM\)
-description: Use Now Assist within your Docs to generate new content, summarize or expand sections, and refine drafts. Avoid starting Docs from scratch, save time, and keep your content relevant. Generate content with Now Assist for CWM directly in your Docs using custom prompts. In addition, summarize existing sections, elaborate where needed, and refine drafts to help improve your productivity.
+title: Generate and improve Docs content with ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM\)
+description: Use Now Assist within your Docs to generate new content, summarize or expand sections, and refine drafts. Avoid starting Docs from scratch, save time, and keep your content relevant. Generate content with ServiceNow Otto for CWM directly in your Docs using custom prompts. In addition, summarize existing sections, elaborate where needed, and refine drafts to help improve your productivity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/now-assist-for-collaborative-work-management-cwm/generate-summarize-and-refine-content-of-docs-with-now-assist.html
 release: yokohama
@@ -12,9 +12,9 @@ reading_time_minutes: 2
 breadcrumb: [Use, Now Assist for CWM, Strategic Portfolio Management]
 ---
 
-# Generate and improve Docs content with Now Assist for Collaborative Work Management \(CWM\)
+# Generate and improve Docs content with ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM\)
 
-Generate content with Now Assist for CWM directly in your Docs using custom prompts. In addition, summarize existing sections, elaborate where needed, and refine drafts to help improve your productivity.
+Generate content with ServiceNow Otto for CWM directly in your Docs using custom prompts. In addition, summarize existing sections, elaborate where needed, and refine drafts to help improve your productivity.
 
 ## Before you begin
 
@@ -34,15 +34,15 @@ You can interact with Now Assist directly in your Doc to create new content, add
 
 3.  From your Doc, open the page you want to work with and use Now Assist for any of your use cases.
 
-<table id="choicetable_l3j_vx2_lgc"><thead><tr><th align="left" id="d262402e116">
+<table id="choicetable_l3j_vx2_lgc"><thead><tr><th align="left" id="d262029e116">
 
 Choice
 
-</th><th align="left" id="d262402e119">
+</th><th align="left" id="d262029e119">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d262402e125">
+</th></tr></thead><tbody><tr><td id="d262029e125">
 
 **Work with content of the whole page**
 
@@ -58,7 +58,7 @@ Some examples are:
     -   For product teams: **Analyze the customer feedback comments in this Doc, group into top 5 themes, and suggest top 3 enhancements for highest impact.**
  **Note:** Now Assist uses the context from your Doc page to generate a response.
 
-</td></tr><tr><td id="d262402e173">
+</td></tr><tr><td id="d262029e173">
 
 **Refine, elaborate, or improve the existing content within the page**
 
@@ -74,7 +74,7 @@ Some examples are:
     -   **Rewrite this in a casual tone.**
 \[Omitted image "na-inline-open-text.png"\] Alt text: Now Assist inline prompt for selected content on the page.
 
-</td></tr><tr><td id="d262402e221">
+</td></tr><tr><td id="d262029e221">
 
 **Take assistance on a blank page**
 
@@ -91,7 +91,7 @@ Some examples are:
 
 \[Omitted image "na-blank-page-nacm.png"\] Alt text: Creating first draft for a page using Now Assist.
 
-</td></tr><tr><td id="d262402e268">
+</td></tr><tr><td id="d262029e268">
 
 **Answer questions in the context of this Doc**
 

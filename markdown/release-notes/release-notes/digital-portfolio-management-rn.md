@@ -20,39 +20,39 @@ The ServiceNow® Digital Portfolio Management Workspace enables you to view and 
 -   Updated the key performance indicator \(KPI\) behavior so that you can drill down on time series KPI information and use an Active flag to hide KPIs in a KPI group.
 -   Updated the DPM data model to improve visibility and reporting when an incident, problem, or change is in the application service's Impacted services or Affected CIs related list. The updated model rolls up the incidents, problems, and changes so that you can see the impacts in related business applications \(in the KPIs and Needs attention panels\).
 
-See [Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/dpm-landing.md) for more information.
+See  for more information.
 
 **Important:** Digital Portfolio Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Yokohama release
 
--   **[Use the Admin Center in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/dpm-admin-center.md)**
+-   ****
 
     Use the added Troubleshoot tab on the DPM Admin Center landing page to help you recalculate availability results and indicators for service offerings. You select a specific time period for the recalculation and then you can check the progress in the event log.
 
--   **[Configure personal portfolio solution cards in the DPM Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/dpm-configure-solution-cards.md)**
+-   ****
 
     Configure the fields that are displayed on the personal portfolio solution cards in the DPM Workspace. Solution cards display information about the four main types of solutions \(service, service offering, business application, and application service\). This configuration determines the fields that are displayed on each solution card.
 
--   **[View relationships of business applications and application services in the DPM Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/dpm-view-related-records.md)**
+-   ****
 
     See all incidents, problems, and changes that are related to your business applications and application services. You can view the data in these areas:
 
     -   The DPM Admin Center
     -   In the DPM Workspace, in the Needs attention panels and in the life-cycle tabs that present key performance indicator \(KPI\) data.
--   **[KPI groups in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/dpm-configure-kpi.md)**
+-   ****
 
     Added the ability to select the spark lines \(time series chart\) for a KPI indicator to open its details.
 
--   **[Update KPIs in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/dpm-kpi-descriptions.md)**
+-   ****
 
     Added an Active flag so that you can hide KPIs in a KPI group from the DPM Workspace. The Active flag is available for all KPIs so that you can hide an individual KPI even when it's part of a larger KPI group.
 
--   **[View application service details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/dpm-app-service-details.md)**
+-   ****
 
-    Expanded the DPM data model so that when an incident, problem, or change is in the application service's Impacted services or Affected CIs related list, the updates roll up to the related business application. You can see the impacts in the related business application's KPIs and Needs attention panels\). For more information, see [Work with Needs attention panels in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/dpm-needs-attn-panels.md).
+    Expanded the DPM data model so that when an incident, problem, or change is in the application service's Impacted services or Affected CIs related list, the updates roll up to the related business application. You can see the impacts in the related business application's KPIs and Needs attention panels\). For more information, see .
 
--   **[Work with lists in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/dpm-list-modules.md)**
+-   ****
 
     Use the updated logic in the list address bar to copy the link of any list item to share that list with others. The list address includes a unique list ID for every list item. This updated logic applies wherever lists are used in the DPM Workspace:
 
@@ -61,23 +61,23 @@ See [Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/
 
 ## Activation information
 
-Install Digital Portfolio Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install Digital Portfolio Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Related ServiceNow applications and features
 
--   **[Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/SPM2-landing-page.md)**
+-   **Service Portfolio Management**
 
     Use the ServiceNow® Service Portfolio Management application to set up and manage your services and offerings, and then organize them in portfolios. In the Digital Portfolio Management application, you can view the health and status of those portfolios and track them in one centralized location.
 
--   **[Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/pa-overview.md)**
+-   **Performance Analytics**
 
     Use ServiceNow® Performance Analytics to create reports on key performance indicators \(KPIs\) to monitor and analyze metrics.
 
--   **[Digital Portfolio Management related applications and data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/dpm-related-products.md)**
+-   **Digital Portfolio Management related applications and data sources**
 
     Other related ServiceNow applications bring in data from your services, service offerings, business applications, and application services for you to view all of them in your unified workspace view. All the related applications are optional and aren't required to use Digital Portfolio Management. This topic also offers links to Knowledge Base articles with more data source information.
 
--   **[Service Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/service-builder.md)**
+-   **Service Builder**
 
     As you view service information in Digital Portfolio Management, you can create and edit services and service offerings with quick access to the ServiceNow® Service Builder application.
 

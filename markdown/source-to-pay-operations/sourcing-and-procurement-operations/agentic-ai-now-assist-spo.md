@@ -1,6 +1,6 @@
 ---
 title: Use agentic workflows in Now Assist for Sourcing and Procurement Operations
-description: Use agentic workflows in Now Assist for Sourcing and Procurement Operations \(SPO\) to streamline procurement through intelligent product recommendations, guided checkout, off-catalog purchasing, and access to detailed product information. These workflows also assist with procurement-related inquiries and help you track associated records efficiently.
+description: Use agentic workflows in ServiceNow Otto for Sourcing and Procurement Operations \(SPO\) to streamline procurement through intelligent product recommendations, guided checkout, off-catalog purchasing, and access to detailed product information. These workflows also assist with procurement-related inquiries and help you track associated records efficiently.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/agentic-ai-now-assist-spo.html
 release: yokohama
@@ -10,12 +10,12 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [Now Assist, generative AI, AI Agents]
-breadcrumb: [Now Assist for Sourcing and Procurement Operations \(SPO\), Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [ServiceNow Otto for Sourcing and Procurement Operations \(SPO\), Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Use agentic workflows in Now Assist for Sourcing and Procurement Operations
 
-Use agentic workflows in Now Assist for Sourcing and Procurement Operations \(SPO\) to streamline procurement through intelligent product recommendations, guided checkout, off-catalog purchasing, and access to detailed product information. These workflows also assist with procurement-related inquiries and help you track associated records efficiently.
+Use agentic workflows in ServiceNow Otto for Sourcing and Procurement Operations \(SPO\) to streamline procurement through intelligent product recommendations, guided checkout, off-catalog purchasing, and access to detailed product information. These workflows also assist with procurement-related inquiries and help you track associated records efficiently.
 
 <table id="table_bqn_lt4_x2c"><thead><tr><th>
 
@@ -82,5 +82,5 @@ Use the Now Assist AI‑powered chat experience in the Employee Center to submit
 -   **[Update the product category or spend category in the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/update-product-spend-category.md)**  
 Use the Now Assist panel to update the product category or spend category for purchase requisitions, sourcing requests, or purchase orders directly from the Source-to-Pay Workspace.
 
-**Parent Topic:**[Now Assist for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo.md)
+**Parent Topic:**[ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo.md)
 

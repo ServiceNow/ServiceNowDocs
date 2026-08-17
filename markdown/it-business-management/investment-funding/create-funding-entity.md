@@ -139,7 +139,7 @@ Condition to filter users that are listed in the **Owner** field in the Investme
 </td></tr></tbody>
 </table>4.  Click the **Unlock fundable entities** icon to enable the selection of entities that can be funded by the current entity.
 
-    For example, a portfolio entity can fund a program, a program can fund a project, a project can request from a program, and a program can request from a portfolio.
+    For example, a portfolio entity can fund a program, a program can fund a project, and a project can request from a program. Similarly, a program can request from a portfolio.
 
 5.  Add the entities to the **Fundable entities** list.
 

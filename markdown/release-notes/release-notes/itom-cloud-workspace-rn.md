@@ -20,13 +20,13 @@ The ServiceNow® Cloud Account Management \(CAM\) application automates account 
 -   Scan accounts for configuration violations and take appropriate actions for weak passwords, pending certifications, undefined account ownership, discovery schedules, and so on.
 -   Provision both Terraform Cloud/Terraform Enterprise and cloud native interface accounts.
 
-See [Cloud Account Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/cam-landing.md) for more information.
+See  for more information.
 
 **Important:** Cloud Account Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## Cloud Account Management features
 
--   **[About data visualization in Cloud Account Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/about-data-visualzation-cam.md)**
+-   ****
 
     Identify account violations and their severity using prebuilt policies in the Cloud Configuration Governance component. These scans support AWS, Azure, and GCP accounts. Confirm compliance and strengthen security by automatically detecting violations and categorizing them by severity across multiple cloud platforms.
 
@@ -36,31 +36,31 @@ See [Cloud Account Management](https://raw.githubusercontent.com/ServiceNow/Serv
 
     **Note:** Tracking of cloud account spending only works when you've a Cloud Cost Management Workspace subscription.
 
--   **[About provision modes in Cloud Account Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/about-provision-modes.md)**
+-   ****
 
     Take advantage of flexible infrastructure management through provision mode, which also supports both Terraform Cloud/Terraform Enterprise \(supported in AWS\) and cloud native interface \(supported in AWS and Azure\).
 
--   **[Set up suspension of an AWS account using service control policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/configure-suspension-policy.md)[Set up suspension of a subscription using Azure policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/configuring-lock-unlock-policy-for-azure.md)**
+-   ****
 
     Suspend and reactivate accounts quickly in response to security or operational issues by leveraging a predefined AWS or Azure policy.
 
--   **[Add an unmanaged cloud account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/add-unmanaged-account-cam.md)**
+-   ****
 
     Confirm consistent governance across all accounts with the ability to onboard accounts \(AWS and Azure\) created outside the CAM workflow, even for accounts that weren’t initially created through CAM.
 
--   **[Set up Terraform API key in ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/admin-setup.md)**
+-   ****
 
     Automate account provisioning and management using popular tools through integration with Terraform Cloud/Terraform Enterprise and AWS APIs.
 
--   **[Update cloud account details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/update-account-ownership.md)**
+-   ****
 
     Manage account ownership for an account and optionally propagate the change to all CIs associated with that account.
 
--   **[Certify an account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/certify-account.md)**
+-   ****
 
     Promote compliance with organizational standards by certifying cloud accounts using defined data certification processes.
 
--   **[Review request policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/viewing-pace-policy.md)**
+-   ****
 
     Set guardrails for processes like account approval, budget approval, and configuration assignments through customizable default automated policies. Manage these policies using the existing Policy as Code Engine component.
 
@@ -69,7 +69,7 @@ See [Cloud Account Management](https://raw.githubusercontent.com/ServiceNow/Serv
 
 ## Activation information
 
-Install Cloud Workspace \( sn\_itom\_cam\) by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install Cloud Workspace \( sn\_itom\_cam\) by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Accessibility information
 
@@ -81,19 +81,19 @@ Localization is applicable to CAM in all languages supported by the ServiceNow A
 
 ## Related ServiceNow applications and features
 
--   **[Cloud Configuration Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/cloud-configuration-governance.md)**
+-   ****
 
     The CCG Content Pack application provides a set of ready-to-use policies that enable you to check the configuration settings of cloud resources in your organization to identify configuration violations.
 
--   **[Cloud Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/cloud-insights-landing-page.md)**
+-   **Cloud Insights**
 
     The ServiceNow® Cloud Cost Management application enables you to analyze all costs that are associated with your cloud assets. You can use this information to optimize operations and reduce your cloud spend.
 
--   **[Manage PaCE policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/pace-admin-manage-policies.md)**
+-   ****
 
     Cloud Account Management confirms compliance through account certification and offers customizable policies for general and budget approvals and for configuration assignment, supported by the Policy as Code Engine component.
 
--   **[Process Automation Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/process-automation-designer.md)**
+-   **Process Automation Designer**
 
     ServiceNow® Playbooks enables process owners to author cross-enterprise workflows and create a single, unified process. You can also use Playbooks to provide end users with a simplified, task-oriented view of your process.
 

@@ -1,6 +1,6 @@
 ---
-title: Generate the resolution notes for a case by using Now Assist for Customer Service Management \(CSM\)
-description: Generate the resolution notes for a case, propose the resolution to the customer, and add the resolution information to the case record by using the resolution notes generation skill in the Now Assist for Customer Service Management \(CSM\) application. By generating the resolution notes, you can wrap up cases faster and provide information about the case resolution to other agents who might encounter similar issues.
+title: Generate the resolution notes for a case by using ServiceNow Otto for Customer Service Management \(CSM\)
+description: Generate the resolution notes for a case, propose the resolution to the customer, and add the resolution information to the case record by using the resolution notes generation skill in the ServiceNow Otto for Customer Service Management \(CSM\) application. By generating the resolution notes, you can wrap up cases faster and provide information about the case resolution to other agents who might encounter similar issues.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/now-assist-for-csm/now-assist-csm-generate-resolution.html
 release: yokohama
@@ -10,12 +10,12 @@ topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 2
 keywords: [generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
-breadcrumb: [Generate resolution notes in case form, Use, Now Assist for Customer Service Management \(CSM\), Customer Service Management]
+breadcrumb: [Generate resolution notes in case form, Use, ServiceNow Otto for Customer Service Management \(CSM\), Customer Service Management]
 ---
 
-# Generate the resolution notes for a case by using Now Assist for Customer Service Management \(CSM\)
+# Generate the resolution notes for a case by using ServiceNow Otto for Customer Service Management \(CSM\)
 
-Generate the resolution notes for a case, propose the resolution to the customer, and add the resolution information to the case record by using the resolution notes generation skill in the Now Assist for Customer Service Management \(CSM\) application. By generating the resolution notes, you can wrap up cases faster and provide information about the case resolution to other agents who might encounter similar issues.
+Generate the resolution notes for a case, propose the resolution to the customer, and add the resolution information to the case record by using the resolution notes generation skill in the ServiceNow Otto for Customer Service Management \(CSM\) application. By generating the resolution notes, you can wrap up cases faster and provide information about the case resolution to other agents who might encounter similar issues.
 
 ## Before you begin
 

@@ -64,5 +64,5 @@ Moving and resizing bubbles in the bubble chart updates the corresponding values
 
 [PPM PIWB template - Find similar demands]()
 
-[Identify similar records using Now Assist for Strategic Portfolio Management \(SPM\)]()
+[Identify similar records using ServiceNow Otto for Strategic Portfolio Management]()
 

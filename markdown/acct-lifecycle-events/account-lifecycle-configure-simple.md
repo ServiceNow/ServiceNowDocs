@@ -1,5 +1,5 @@
 ---
-title: Configure simple Customer Success Management playbook tasks
+title: Configure simple Account Lifecycle Events playbook tasks
 description: You can configure simple playbook tasks using the Playbooks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/acct-lifecycle-events/account-lifecycle-configure-simple.html
@@ -7,10 +7,10 @@ release: yokohama
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configure the account onboarding playbook using Playbooks, Configuring account onboarding, Account onboarding, Customer Success Management]
+breadcrumb: [Configure the account onboarding playbook using Playbooks, Configuring account onboarding, Account onboarding, Account Lifecycle Events]
 ---
 
-# Configure simple Customer Success Management playbook tasks
+# Configure simple Account Lifecycle Events playbook tasks
 
 You can configure simple playbook tasks using the Playbooks.
 
@@ -23,7 +23,7 @@ Role required:
 
 ## About this task
 
-You can add, modify, and delete any tasks for the Customer Success Management playbook using the Process Automation Designer. For example, if you want to configure one of the tasks in the Development &amp; Automation lane, perform the following steps.
+You can add, modify, and delete any tasks for the Account Lifecycle Events playbook using the Process Automation Designer. For example, if you want to configure one of the tasks in the Development &amp; Automation lane, perform the following steps.
 
 ## Procedure
 
@@ -43,7 +43,7 @@ You can add, modify, and delete any tasks for the Customer Success Management pl
 
 7.  Select the Automation tab and select **Accounts Lifecycle Task** table.
 
-8.  Add all required fields and any other fields that must be populated for this task in the Customer Success Management playbook.
+8.  Add all required fields and any other fields that must be populated for this task in the Account Lifecycle Events playbook.
 
 9.  Select **Done** and then **Activate**.
 

@@ -16,7 +16,7 @@ The ServiceNow® ITOM Optimization application automates the cloud workflows tha
 
 Legacy workflows have been upgraded and seamlessly migrated to the advanced Workflow Studio to align with the latest standards and ensure modern compliance. Additionally, all default \(Out of Box\) workflows have been redesigned to provide enhanced performance, improved usability, and a more streamlined experience.
 
-See [ITOM Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/itom-optimization-landing-page.md) for more information.
+See  for more information.
 
 ## UI changes
 
@@ -66,19 +66,19 @@ For details, see the [Application/Plugin Deprecation Process \[KB0867184\]](http
 
     Cloud Migration Assessment enables you to plan, organize, and track the process of relocating your enterprise IT resources and workloads to cloud platforms.
 
--   **[Cloud Discovery Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/cow-landing-page.md)**
+-   ****
 
     Cloud Operations Workspace offers a comprehensive solution to manage the cloud operations of your organization.
 
--   **[ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/itom-visibility-landing-page.md)**
+-   **ITOM Visibility**
 
     The ITOM Visibility product consists of Discovery, Service Mapping and Tag Governance. For more information, see [Discovery](https://www.servicenow.com/docs/access?context=r-discovery&version=xanadu), [Service Mapping](https://www.servicenow.com/docs/access?context=c_ServiceMappingOverview&version=xanadu), [Tag Governance](https://www.servicenow.com/docs/access?context=tag-governance&version=xanadu), Certificate Inventory and Management, Service Graph Connectors, CMDB 360, and Firewall Audits and Reporting. Discovery and [Service Mapping](https://www.servicenow.com/docs/access?context=c_ServiceMappingOverview&version=xanadu) give you a unified, connected view of your entire IT network and the services that it supports.
 
--   **[ITOM/OT SU Licensing and subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/itom-su-licensing-landing-page.md)**
+-   **ITOM/OT SU Licensing and subscriptions**
 
     ITOM/OT SU Licensing enables you to view the total number of licenses assigned to your applications.
 
--   **Third-party products that integrate with the [Cloud Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/csc-home.md):**
+-   **Third-party products that integrate with the Cloud Service Catalog:**
 
     Extend the capabilities of ITOM Cloud Accelerate and its connectors by integrating the following third-party products with it:
 

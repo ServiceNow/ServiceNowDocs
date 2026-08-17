@@ -20,6 +20,8 @@ Role required: admin, ml\_admin
 
 ## About this task
 
+**Note:** Support for creating new regression solutions was deprecated in the Washington DC release. You can train and edit any existing solutions, but you can't initiate new ones. The following information is provided for legacy context. For more information see [Create and train a regression solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/create-regression-solution.md).
+
 The Estimated Time to Resolve a Case definition is available by default. You can train this available definition to complete a solution and make predictions. You can change some of the default settings such as the fields, a filter, and the training frequency. For more information on creating and training a solution, see the following.
 
 [Create and train a regression solution.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/create-regression-solution.md)

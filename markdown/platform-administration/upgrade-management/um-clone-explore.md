@@ -1,5 +1,5 @@
 ---
-title: Explore Cloning in Upgrade Console
+title: Explore Cloning in Upgrade Management
 description: The System Clone application facilitates the creation of exact copies of instance databases. This process is frequently employed to replicate production instances into pre-production environments for thorough testing of proposed changes. The cloned data is derived from the most recent nightly backup, ensuring data accuracy and consistency.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/upgrade-management/um-clone-explore.html
@@ -9,10 +9,10 @@ classification: upgrade-management
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Upgrade Console summary, Exploring Upgrade Console, Upgrade Console, Upgrade, Administer the ServiceNow AI Platform]
+breadcrumb: [Upgrade Management summary, Exploring Upgrade Management, Upgrade Management, Upgrade, Administer the ServiceNow AI Platform]
 ---
 
-# Explore Cloning in Upgrade Console
+# Explore Cloning in Upgrade Management
 
 The System Clone application facilitates the creation of exact copies of instance databases. This process is frequently employed to replicate production instances into pre-production environments for thorough testing of proposed changes. The cloned data is derived from the most recent nightly backup, ensuring data accuracy and consistency.
 
@@ -20,5 +20,5 @@ The System Clone application facilitates the creation of exact copies of instanc
 
 **Note:** A new, unified admin experience for cloning data between instances is now available in the Clone Admin Console. This enhanced console builds upon our existing clone engine and provides improved visibility into one of our most frequently used automations. In addition to streamlining the cloning process, the console offers a range of other enhancements.
 
-See [Cloning tool in Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-management/um-cloning-tool.md) for more information.
+See [Cloning tool in Upgrade Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-management/um-cloning-tool.md) for more information.
 

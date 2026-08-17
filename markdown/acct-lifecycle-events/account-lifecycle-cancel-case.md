@@ -7,7 +7,7 @@ release: yokohama
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configuring account onboarding, Account onboarding, Customer Success Management]
+breadcrumb: [Configuring account onboarding, Account onboarding, Account Lifecycle Events]
 ---
 
 # Close or cancel an account onboarding case

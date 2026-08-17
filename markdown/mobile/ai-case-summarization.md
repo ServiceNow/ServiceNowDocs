@@ -1,35 +1,25 @@
 ---
-title: Now Assist on Input Form Screen
-description: Use a variety of Now Assist skills with your mobile input form screens.
+title: Mobile resolution notes generation
+description: Use ServiceNow Otto on mobile devices to generate resolution notes that summarize work orders.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/ai-case-summarization.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-04-24"
+last_updated: "2026-07-22"
 reading_time_minutes: 1
-breadcrumb: [Exploring Now Assist for Mobile, Now Assist for Mobile, Mobile Platform]
+keywords: [Now Assist, generative AI, Otto]
+breadcrumb: [Exploring Otto, ServiceNow Otto for Mobile, Mobile Platform]
 ---
 
-# Now Assist on Input Form Screen
+# Mobile resolution notes generation
 
-Use a variety of Now Assist skills with your mobile input form screens.
+Use ServiceNow Otto® on mobile devices to generate resolution notes that summarize work orders.
 
-## Skills
+Agents can save time and improve their productivity by enabling Otto to generate resolution notes, rather than manually entering them in their work order records. Agents can edit the notes before they submit them and save them to the work order record.
 
--   **Record Resolution**
+This feature is only available with select BU plugins and is currently available with [ServiceNow Otto for Field Service Management \(FSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/field-service-management/now-assist-fsm.md).
 
-    Use Now Assist to assist in resolving records. Agents can save time and improve their productivity by enabling Now Assist skills such as resolution notes generation. Agents can edit generated notes before they submit them and save them to their work order record. Resolution notes can be configured to be generated either manually or automatically.
+This example shows a work order where Otto generated the closure notes about a printer replacement. Agents can edit or delete generated notes before submitting the resolution notes. For more information, see [Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/platform-now-assist-landing.md).
 
--   **Record summarization**
-
-    Use Now Assist to summarize activity and record information for a specific record. After the information is generated, you can edit and add the information into your work notes. Record summarization includes Now Assist skills such as task summarization and incident summarization.
-
-    \[Omitted image "resolution-notes.png"\] Alt text: Banner explaining that the displayed closure notes were created with Now Assist.
-
-    Summaries will generate using record fields such as short description, state, priority, resolution notes, existing work notes, and comments.
-
-    Record summarization is only available with select BU plugins and is currently available with [Now Assist for Field Service Management \(FSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/field-service-management/now-assist-fsm.md).
-
-    This example shows a work order where Now Assist generated the closure notes about a printer replacement. Agents can edit or delete generated notes before submitting the resolution notes. For more information, see [Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/platform-now-assist-landing.md).
-
+\[Omitted image "resolution-notes.png"\] Alt text: Banner explaining that the displayed closure notes were created with Otto.
 

@@ -9,7 +9,7 @@ classification: product-support-for-technology
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 3
-breadcrumb: [Exploring the Proactive Service Experience Workflows, Proactive Service Experience Workflows]
+breadcrumb: [Explore, Proactive Service Experience Workflows]
 ---
 
 # Proactive Service Experience Workflows and Incident Management within the Service Operations Workspace

@@ -32,11 +32,13 @@ Efficiently identify and resolve service problems experienced by the customers w
 [Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about domain separation and components installed with Customer Service Problem Management.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/cspm-reference.md)
 
 </td></tr></tbody>
-</table>## Troubleshoot and get help
+</table>## Additional resources
 
--   [Ask questions and explore other resources for Customer Service Problem Management in the ServiceNow Community](https://www.servicenow.com/community/)
--   [Search the Known Error Portal for known error articles](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0597477)
--   [Contact Customer Service and Support](https://support.servicenow.com/now)
+-   Learn more about what's new and changed, see the [Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/proactive-service-experience-workflows-rn.md).
+-   Log in to your ServiceNow® account and find additional information about implementing and deploying Customer Service Problem Management features at the [Best Practices Library](https://mynow.servicenow.com/now/best-practices/home).
+-   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/lxp-search?id=search&q=service%20problem%20management&spa=1)
+-   Find useful resources related to your role and explore best practices at [ServiceNow Impact](https://www.servicenow.com/success.html).
+-   Connect with other Customer Service Problem Management users at [Now Community](https://www.servicenow.com/community/telecom/ct-p/telecommunication).
 
 -   **[Exploring Customer Service Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/explore-spm.md)**  
 Learn how you, as a service provider, can use the Customer Service Problem Management \(CSPM\) application to streamline the resolution process for handling service-related problems experienced by your customers.

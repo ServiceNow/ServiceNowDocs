@@ -23,12 +23,12 @@ Role required: admin
 
 ## About this task
 
-Use the Now Assist Admin console to configure Now Assist for Common Finance and Supply Chain features. This console contains everything that you need to install the plugins and configure the agentic AI skills. For additional information, see [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configuring-now-assist.md).
+Use the AI Admin Hub console to configure Now Assist for Common Finance and Supply Chain features. This console contains everything that you need to install the plugins and configure the agentic AI skills. For additional information, see [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configuring-now-assist.md).
 
-The following table lists the Now Assist for Common Finance and Supply Chain features and skills that you can access from the Now Assist Admin console.
+The following table lists the Now Assist for Common Finance and Supply Chain features and skills that you can access from the AI Admin Hub console.
 
-|Now Assist for SPO skills|Description|
-|-------------------------|-----------|
+|ServiceNow Otto for SPO skills|Description|
+|------------------------------|-----------|
 |Purchase order summarization for fulfillers|Summarize purchase orders and keep fulfillers informed on their status, progress, and required actions.|
 
 \[Omitted image "now-assist-for-fsc.png"\] Alt text: Now Assist skills for Common Finance and Supply Chain features section, showing the Purchase order summarization for fulfillers feature card.
@@ -39,7 +39,7 @@ The following table lists the Now Assist for Common Finance and Supply Chain fea
 
     -   For information about the plugin dependencies and plugin activation order, see [Supporting information for Now Assist for Common Finance and Supply Chain features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/now-assist-for-fsc-common/now-assist-fsc-supporting-info.md).
     -   For information about the installation process, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
-2.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills** to access the **Now Assist Skills** tab of the Now Assist Admin console.
+2.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills** to access the **Now Assist Skills** tab of the AI Admin Hub console.
 
 3.  Expand the **Finance &amp; Supply Chain** workflow group and select **Common Finance and Supply Chain features**.
 
@@ -61,15 +61,15 @@ The following table lists the Now Assist for Common Finance and Supply Chain fea
 
 10. Select **Define Availability** and choose one of the following options.
 
-<table id="choicetable_e25_bvj_1cc"><thead><tr><th align="left" id="d107871e337">
+<table id="choicetable_e25_bvj_1cc"><thead><tr><th align="left" id="d107772e337">
 
 Option
 
-</th><th align="left" id="d107871e340">
+</th><th align="left" id="d107772e340">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d107871e346">
+</th></tr></thead><tbody><tr><td id="d107772e346">
 
 **Skill is always available**
 
@@ -77,7 +77,7 @@ Description
 
 Skill is always available to users.
 
-</td></tr><tr><td id="d107871e355">
+</td></tr><tr><td id="d107772e355">
 
 **Customize skill availability**
 
@@ -90,15 +90,15 @@ The skill is available only when the certain conditions are met \(Default\).Use 
 
 12. Choose **Select display** to determine where you'd like to display the skill.
 
-<table id="choicetable_x1c_5b2_1cc"><thead><tr><th align="left" id="d107871e391">
+<table id="choicetable_x1c_5b2_1cc"><thead><tr><th align="left" id="d107772e391">
 
 Option
 
-</th><th align="left" id="d107871e394">
+</th><th align="left" id="d107772e394">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d107871e400">
+</th></tr></thead><tbody><tr><td id="d107772e400">
 
 **In-product desktop**
 
@@ -106,7 +106,7 @@ Description
 
 The Purchase order summarization for fulfiller skillis displayed in the Source-to-Pay Workspace for Sourcing and Procurement Operations, Supplier Lifecycle Operations, and Accounts Payable Operations.
 
-</td></tr><tr><td id="d107871e421">
+</td></tr><tr><td id="d107772e421">
 
 **Now Assist panel**
 
@@ -125,7 +125,7 @@ Now Assist skills are available in the Now Assist panel. Turn on multi-language 
 
 
 -   **[Customize a Now Assist for Common Finance and Supply Chain features skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/now-assist-for-fsc-common/cust-now-assist-fsc-skill.md)**  
-If you have the admin role, you can customize a Now Assist for Sourcing and Procurement Operations \(SPO\) skill so that fulfillers and requesters can use the generative AI skills in Source-to-Pay Workspace, Shopping Hub, and in Core UI.
+If you have the admin role, you can customize a ServiceNow Otto for Sourcing and Procurement Operations \(SPO\) skill so that fulfillers and requesters can use the generative AI skills in Source-to-Pay Workspace, Shopping Hub, and in Core UI.
 -   **[Skill inputs for Now Assist for Common Finance and Supply Chain features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/now-assist-for-fsc-common/input-triggers-now-assist-fsc.md)**  
 You can configure some of the inputs for a generative AI skill. Inputs permit you to determine how and when a skill is used.
 -   **[Customize supplier summarization for fulfillers skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/now-assist-for-fsc-common/cust-na-fsc-supplier-skill.md)**  

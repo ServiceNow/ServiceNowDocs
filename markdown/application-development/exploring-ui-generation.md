@@ -16,7 +16,7 @@ Learn about how AI-generated UI experiences can empower developers building on t
 
 ## UI generation overview
 
-Now Assist for Creator activates the UI generation skill. With UI generation, you provide text describing the UI experience and AI-powered Now Assist can get it started for you. Users with varying levels of experience can benefit from using UI generation to get started building experiences more efficiently.
+ServiceNow Otto for Creator activates the UI generation skill. With UI generation, you provide text describing the UI experience and AI-powered Now Assist can get it started for you. Users with varying levels of experience can benefit from using UI generation to get started building experiences more efficiently.
 
 ## UI generation workflow
 
@@ -36,7 +36,7 @@ To generate a UI experience, you describe the table, chart type, and navigation 
 
 ## Client script summarization overview
 
-Now Assist for Creator activates the client script summarization skill within the UI Builder. This skill provides you with both a high-level summary and a detailed explanation of a client script.
+ServiceNow Otto for Creator activates the client script summarization skill within the UI Builder. This skill provides you with both a high-level summary and a detailed explanation of a client script.
 
 ## Client script summarization workflow
 

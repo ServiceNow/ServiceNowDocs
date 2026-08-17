@@ -18,7 +18,7 @@ Test Board gives you a comprehensive view of your test plans and enables you to 
 
 In Test Board, you can:
 
--   Aggregate all your test plans and view them as cards at a single location. Each card displays key details of your test plan such as the start and end date, percentage of tests that have passed, percentage of tests that have failed, percentage of tests that have been blocked, and number of days left for completion.
+-   Aggregate all your test plans and view them as cards at a single location. Each card displays key details of your test plan . These details include the start and end date, and the percentage of tests passed, failed, or blocked, along with the number of days left for completion.
 -   Search for specific test plans by defining filter conditions such as name, duration, or owner.
 -   Track, manage, and complete your test plans from a single interface, which saves you time and effort.
     1.  [Define how a product or feature must be tested by creating a test plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/test-management/create-test-plan.md).
@@ -35,7 +35,7 @@ You can structure a test plan in the Test Board **Planning** tab, which provides
 
     In addition, you can:
 
-    -   Modify the attributes \(such as start and end time\) of the test plan, test cycles, and test execution suites rather than opening each form and modifying the field values one by one.
+    -   Modify the attributes \(such as start and end time\) of the test plan, test cycles, and test execution suites instead of editing each form individually.
     -   Add or delete test cycles and test execution suites, adjust their start and end dates, and then assess the overall progress of the test plan.
     -   Configure the columns displayed in the Test plan work item hierarchy.
 -   **Gantt chart**

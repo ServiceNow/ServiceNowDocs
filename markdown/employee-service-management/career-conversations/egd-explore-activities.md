@@ -22,7 +22,7 @@ Career Conversations is an application closely integrated with Talent Developmen
 
 Go to the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do) website to discover the new apps, solutions, and integrations that you can get.
 
-For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 -   **[Career Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/career-conversations/egd-activities-conversations-module.md)**  
 The Career Conversations application supports dialogue between subordinates and their leaders. This application enables your employees to engage in meaningful conversations that are focused on the employee's growth and development.

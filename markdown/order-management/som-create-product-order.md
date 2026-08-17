@@ -41,15 +41,15 @@ When you start an order, a pop-up prompts you for order information. You can cho
 
     -   To create an order for an account, select the **Account**.
     -   To create an order for a consumer, select the **Consumer** name.
-<table id="choicetable_wss_lcm_11c"><thead><tr><th align="left" id="d43389e136">
+<table id="choicetable_wss_lcm_11c"><thead><tr><th align="left" id="d43253e136">
 
 To
 
-</th><th align="left" id="d43389e139">
+</th><th align="left" id="d43253e139">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d43389e145">
+</th></tr></thead><tbody><tr><td id="d43253e145">
 
 **Create an order for an account**
 
@@ -60,7 +60,7 @@ Enter the following:-   Order Type: Order type can be service or customer.
 -   Order action: Select the type of order action.
 
 
-</td></tr><tr><td id="d43389e165">
+</td></tr><tr><td id="d43253e165">
 
 **Create an order for a consumer**
 

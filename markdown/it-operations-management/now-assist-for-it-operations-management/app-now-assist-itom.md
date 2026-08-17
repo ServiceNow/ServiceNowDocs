@@ -1,6 +1,6 @@
 ---
-title: Applications installed with Now Assist for ITOM
-description: Table that lists applications installed with the Now Assist for IT Operations Management \(ITOM\) application. When you update your application, any newly required application dependencies are installed.
+title: Applications installed with ServiceNow Otto for ITOM
+description: Table that lists applications installed with the ServiceNow Otto for IT Operations Management \(ITOM\) application. When you update your application, any newly required application dependencies are installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/now-assist-for-it-operations-management/app-now-assist-itom.html
 release: yokohama
@@ -10,12 +10,12 @@ topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 1
 keywords: [Generative AI for IT Operations Management, generative AI for ITOM, Now Assist, applications installed, dependencies]
-breadcrumb: [Now Assist for ITOM reference, Now Assist for ITOM, IT Operations Management]
+breadcrumb: [ServiceNow Otto for ITOM reference, ServiceNow Otto for ITOM, IT Operations Management]
 ---
 
-# Applications installed with Now Assist for ITOM
+# Applications installed with ServiceNow Otto for ITOM
 
-Table that lists applications installed with the Now Assist for IT Operations Management \(ITOM\) application. When you update your application, any newly required application dependencies are installed.
+Table that lists applications installed with the ServiceNow Otto for IT Operations Management \(ITOM\) application. When you update your application, any newly required application dependencies are installed.
 
 |Application name|Description|
 |----------------|-----------|
@@ -24,7 +24,7 @@ Table that lists applications installed with the Now Assist for IT Operations Ma
 |AI agents for Observability \(sn\_obs\_aia\)|Helps IT operators assess business and application service impact, and formulate probable cause theories. Helps prioritize investigations by analyzing data from ServiceNow and collaborating with third-party AI agents from leading APM and observability vendors.|
 |AIOps LEAP \(sn\_itom\_leap\)|AIOps LEAP \(Learning-Enhanced Automation Playbook\) leverages AI-driven insights to mine historical incident data, dynamically prioritize tasks, and generate actionable resolution playbooks.|
 
-**Parent Topic:**[Now Assist for IT Operations Management \(ITOM\) reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-reference.md)
+**Parent Topic:**[ServiceNow Otto for IT Operations Management \(ITOM\) reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-reference.md)
 
 **Related topics**  
 

@@ -9,7 +9,7 @@ classification: service-level-objective-management
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [SLO Management reference, Service Level Objective Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [SLO Management reference, Service Level Objective Management, ITOM Health, IT Operations Management]
 ---
 
 # Visualizations in the Service reliability dashboard

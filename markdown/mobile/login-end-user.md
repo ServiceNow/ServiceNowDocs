@@ -36,15 +36,15 @@ If you download the mobile app from an enterprise mobility management \(EMM\) su
 
 2.  In the instance address field, enter the instance address in one of two ways.
 
-<table id="choicetable_dvq_y41_fwb"><thead><tr><th align="left" id="d44583e109">
+<table id="choicetable_dvq_y41_fwb"><thead><tr><th align="left" id="d44775e109">
 
 Option
 
-</th><th align="left" id="d44583e112">
+</th><th align="left" id="d44775e112">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d44583e118">
+</th></tr></thead><tbody><tr><td id="d44775e118">
 
 **Manual entry**
 
@@ -54,7 +54,7 @@ Type the instance address in the instance address field.
 
 **Note:** You don't need to include  `.service-now.com ` at the end of the instance name.
 
-</td></tr><tr><td id="d44583e135">
+</td></tr><tr><td id="d44775e135">
 
 **Scan QR code**
 

@@ -18,16 +18,16 @@ Turn on the flow recommendations skill to get recommendations for the next step 
 
 ## Before you begin
 
--   Install the Now Assist for Creator application. See [Install Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/now-assist-for-creator/install-now-assist-for-creator.md).
+-   Install the ServiceNow Otto for Creator application. See [Install ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/now-assist-for-creator/install-now-assist-for-creator.md).
 -   Role required: admin
 
 ## About this task
 
-**Important:** The Flow recommendations skill requires a separate subscription to Now Assist for Creator.
+**Important:** The Flow recommendations skill requires a separate subscription to ServiceNow Otto for Creator.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills**.
+1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Skills**.
 
 2.  In the workflow list, select **Creator**.
 

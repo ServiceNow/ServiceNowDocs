@@ -1,5 +1,5 @@
 ---
-title: Cloud Services Catalog Terraform Connector Terraform Catalog Item Task form reference
+title: Cloud Provisioning and Governance: Terraform Connector Terraform Catalog Item Task form reference
 description: Use the Terraform Catalog Item Task form to specify the action you want to take to resolve the catalog item change task.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/cloud-configuration-governance/cpg-terraform-connector-catalog-item-task-form.html
@@ -9,10 +9,10 @@ classification: cloud-configuration-governance
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Cloud Services Catalog Terraform Connector reference, Cloud Services Catalog Terraform Connector, Support for continuous delivery \(configuration management\), Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Optimization, IT Operations Management]
+breadcrumb: [Cloud Provisioning and Governance: Terraform Connector reference, Cloud Provisioning and Governance: Terraform Connector, Support for continuous delivery \(configuration management\), Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Optimization, IT Operations Management]
 ---
 
-# Cloud Services Catalog Terraform Connector Terraform Catalog Item Task form reference
+# Cloud Provisioning and Governance: Terraform Connector Terraform Catalog Item Task form reference
 
 Use the Terraform Catalog Item Task form to specify the action you want to take to resolve the catalog item change task.
 
@@ -80,5 +80,5 @@ Work Notes
 Any notes that you want to enter for the task record.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Cloud Services Catalog Terraform Connector reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/cpg-terraform-connector-reference.md)
+</table>**Parent Topic:**[Cloud Provisioning and Governance: Terraform Connector reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/cpg-terraform-connector-reference.md)
 

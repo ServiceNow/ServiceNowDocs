@@ -7,7 +7,7 @@ release: yokohama
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 3
-breadcrumb: [Create a success blueprint template, Configure customer success, Customer success, Customer Success Management]
+breadcrumb: [Create a success blueprint template, Configure customer success, Customer success, Account Lifecycle Events]
 ---
 
 # Create a success blueprint
@@ -76,7 +76,7 @@ Role required: sn\_acct\_lc.ale\_success\_agent
     -   Metrics such as Assigned to, Priority, Category, Number of Tasks, and Days remaining are shown on the timeline.
 13. Click the \[Omitted image "icon-menu-square.png"\] Alt text: icon and select one of the following options:
 
-    -   Add objectives: Select and add any optional objectives you want add to your success blueprint. Select the objective to be added, click **Next**. Use the Toggle option to select any of the optional outcomes, enter other mandatory details, and click **Save Objective** and then click **Create** to add the objective along with the outcome to the success blueprint.
+    -   Add objectives: Select and add any optional objectives you want add to your success blueprint. Select the objective to be added and click **Next**. Use the Toggle option to select any of the optional outcomes and enter other mandatory details. Click **Save Objective** and then click **Create** to add the objective along with the outcome to the success blueprint.
     -   Add outcomes: Select any optional outcomes that you want to add to your success blueprint.
 14. Click the \[Omitted image "open-link-right-outline-24.svg"\] Alt text: icon to drill down to the [Success objective record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-view-success-object.md).
 

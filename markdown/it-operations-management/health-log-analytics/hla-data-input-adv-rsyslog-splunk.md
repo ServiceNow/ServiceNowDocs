@@ -1,5 +1,5 @@
 ---
-title: Configure advanced settings for Rsyslog, Splunk, or TCP data inputs
+title: Configure advanced settings for Rsyslog, Splunk, TCP data inputs
 description: Manually configure advanced settings for data inputs that use Rsyslog, Splunk, or TCP agents in Health Log Analytics.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/health-log-analytics/hla-data-input-adv-rsyslog-splunk.html
@@ -9,10 +9,10 @@ classification: health-log-analytics
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Advanced data input configuration, Setting up Health Log Analytics on your ServiceNow instance, Configuring Health Log Analytics, Health Log Analytics, ITOM AIOps, IT Operations Management]
+breadcrumb: [Advanced data input configuration, Setting up Health Log Analytics on your ServiceNow instance, Configuring Health Log Analytics, Health Log Analytics, ITOM Health, IT Operations Management]
 ---
 
-# Configure advanced settings for Rsyslog, Splunk, or TCP data inputs
+# Configure advanced settings for Rsyslog, Splunk, TCP data inputs
 
 Manually configure advanced settings for data inputs that use Rsyslog, Splunk, or TCP agents in Health Log Analytics.
 
@@ -24,7 +24,7 @@ Role required: evt\_mgmt\_admin
 
 You can set system parameters for reading log data that determine the actions that the system performs on log data arriving on the MID Server. For example, you can set the time zone to use if a log lacks a timestamp. If no advanced settings are configured, the system uses the default values.
 
-For information about how to change settings that were configured when the data input was created, such as adding a new path or changing the data input's MID Server destination or port, see [Modify data input configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-input-modify.md).
+For information about how to change settings that were configured when the data input was created, see [Modify data input configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-input-modify.md).
 
 ## Procedure
 
@@ -52,7 +52,7 @@ For information about how to change settings that were configured when the data 
 
     Health Log Analytics adds the data input record to the Data Inputs table.
 
-7.  Ensure that the data input is configured correctly by selecting **Test connection**.
+7.  Verify that the data input is configured correctly by selecting **Test connection**.
 
     Health Log Analytics tries to connect the MID Server to the data repository.
 

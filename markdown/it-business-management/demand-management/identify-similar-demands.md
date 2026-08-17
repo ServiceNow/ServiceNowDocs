@@ -1,5 +1,5 @@
 ---
-title: Identify similar records using Now Assist for Strategic Portfolio Management \(SPM\)
+title: Identify similar records using ServiceNow Otto for Strategic Portfolio Management
 description: Detect similar demand records using the identify similar records Now Assist skill. This skill detects similar demand records based on contextual similarity in the name, description, and business case content.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/demand-management/identify-similar-demands.html
@@ -13,7 +13,7 @@ keywords: [Now Assist skill, Now Assist, Gen AI, Generative AI, SPM, Strategic P
 breadcrumb: [Use, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
-# Identify similar records using Now Assist for Strategic Portfolio Management \(SPM\)
+# Identify similar records using ServiceNow Otto for Strategic Portfolio Management
 
 Detect similar demand records using the identify similar records Now Assist skill. This skill detects similar demand records based on contextual similarity in the name, description, and business case content.
 

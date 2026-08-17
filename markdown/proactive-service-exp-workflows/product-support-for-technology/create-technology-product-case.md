@@ -1,5 +1,5 @@
 ---
-title: Create a technology product support case from the Customer Service Portal
+title: Create a technology product case
 description: Customers can create a technology product case to report an issue about the service from the Customer Service Portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/proactive-service-exp-workflows/product-support-for-technology/create-technology-product-case.html
@@ -9,10 +9,10 @@ classification: product-support-for-technology
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Technology Product Support Case application, Proactive Service Experience Workflows]
+breadcrumb: [Technology Product Support Case, Proactive Service Experience Workflows]
 ---
 
-# Create a technology product support case from the Customer Service Portal
+# Create a technology product case
 
 Customers can create a technology product case to report an issue about the service from the Customer Service Portal.
 

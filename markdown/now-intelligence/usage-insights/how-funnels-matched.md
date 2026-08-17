@@ -1,6 +1,6 @@
 ---
-title: How Usage Insights matches funnels
-description: Learn how Usage Insights matches sequences of pages you anticipate users seeing before they reach a goal.
+title: How User Experience Analytics matches funnels
+description: Learn how User Experience Analytics matches sequences of pages you anticipate users seeing before they reach a goal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/usage-insights/how-funnels-matched.html
 release: yokohama
@@ -9,14 +9,14 @@ classification: usage-insights
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Conversion funnels, Using Usage Insights, User Experience Analytics, Platform Analytics]
+breadcrumb: [Conversion funnels, Using User Experience Analytics, User Experience Analytics, Platform Analytics]
 ---
 
-# How Usage Insights matches funnels
+# How User Experience Analytics matches funnels
 
-Learn how Usage Insights matches sequences of pages you anticipate users seeing before they reach a goal.
+Learn how User Experience Analytics matches sequences of pages you anticipate users seeing before they reach a goal.
 
-Usage Insights bases funnel matching on unique users, and not on sessions, so steps can be matched between sessions. For example, a user may start the first step of a funnel in their first session, and continue the next step in another session. Users are counted only once for a selected time range, and step completions are only counted once per user.
+User Experience Analytics bases funnel matching on unique users, and not on sessions, so steps can be matched between sessions. For example, a user may start the first step of a funnel in their first session, and continue the next step in another session. Users are counted only once for a selected time range, and step completions are only counted once per user.
 
 A funnel measures users who complete a funnel step within 30 days, so a user can complete step \#2 on January 1, then step \#3 on January 30, to be counted.
 
@@ -40,9 +40,9 @@ The user is returned when selecting Sunday-Thursday, Monday-Thursday, Tuesday-Th
 
 This behavior is true both for reviewing individual sessions, and for the aggregated user count.
 
-Usage Insights shows all sessions that progress through the funnel for the selected step, excluding ignored occurrences, and can show multiple sessions of a user.
+User Experience Analytics shows all sessions that progress through the funnel for the selected step, excluding ignored occurrences, and can show multiple sessions of a user.
 
 When filtering by application versions, the analysis shows only the users who performed their first action from the selected version.
 
-**Parent Topic:**[Funnel reports in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/funnel-reports-uxa.md)
+**Parent Topic:**[Funnel reports in User Experience Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/funnel-reports-uxa.md)
 

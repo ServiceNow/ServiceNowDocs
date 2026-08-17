@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/web-mobile-component-conversion.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 2
+last_updated: "2026-03-12"
+reading_time_minutes: 1
 breadcrumb: [Using the Mobile App Builder, Mobile App Builder, Mobile app building tools, Building mobile apps, Mobile Platform]
 ---
 
@@ -16,9 +16,9 @@ Use guided UI to configure native mobile components using an existing web compon
 
 \[Omitted image "web-mobile-conversion.png"\] Alt text: window with option to choose to either create a screen from scratch of use web to mobile
 
-Web to mobile streamlines the component creation process by enabling you to select an existing web component to serve as a template instead of building a new record screen from the ground up. Currently, web conversion supports generating a record screen with a details screen segment.
+Web to mobile streamlines the component creation process by enabling you to select an existing web component to serve as a template instead of creating a record screen from scratch. Currently, web conversion only supports generating a record screen with a details screen segment.
 
-## Selecting a card
+## Selecting a Card
 
 Choose what card will serve as the template for your mobile record screen. You can choose from three different options and preview how each will look before confirming your selection.
 
@@ -30,20 +30,20 @@ Choose what card will serve as the template for your mobile record screen. You c
 
     Start with a basic card template that has the essential components to get you started. You can preview the card and make changes before confirming your selection.
 
--   **Use Now Assist**
+-   **Use ServiceNow Otto®**
 
-    Use AI-powered Now Assist to create a card for your record screen. Now Assist uses semantic search to populate the card with the fields that best match your web component. You can preview the generated card and make changes before confirming your selection. If you want to see more options, you can ask Now Assist to regenerate the card with different fields.
-
-    Records created using Now Assist have a sparkle icon \(\[Omitted image "mab-sparkle-icon-na.png"\] Alt text: sparkle icon\) next to their name to indicate they were generated using AI. Once the records have been edited and reviewed, the indicator disappears.
+    Use AI-powered ServiceNow Otto to create a card for your record screen. Otto will use semantic search to populate the card with the fields that best match your web component. You can preview the generated card and make changes before confirming your selection. If you want to see more options, you can ask Otto to regenerate the card with different fields.
 
 
-## Mobile component preview
+Records created using Otto will have a sparkle icon \(\[Omitted image "na-sparkle.png"\] Alt text:\)next to their name to indicate they were generated using AI. Once the records have been edited and reviewed, the indicator will disappear.
 
-\[Omitted image "web-mobile-preview.png"\] Alt text: visual preview of your new mobile component
+## Previewing your generated record
 
-The web to mobile selection page presents a list of all available tables and web forms that can be used as templates. When selecting a web component to serve as the template, a preview of the new record is generated. You can freely switch between the existing card, generic card, and Now Assist generated card previews to compare them and see which option looks best. Selecting **Looks good, continue** generates the relevant records using the selected card.
+\[Omitted image "web-mobile-preview.png"\] Alt text: Visual preview of your new mobile component.
 
-The generated records have an icon \(\[Omitted image "mab-generated-icon.png"\] Alt text: icon for generated records\) next to their name to indicate that they were automatically generated. Once the records have been edited and reviewed, the indicator disappears.
+The web to mobile selection page presents a list of all available tables and web forms that can be used as templates. When selecting a web component to serve as the template, a preview of the new record is generated.
+
+You can freely switch between the existing card, generic card, and Otto generated card previews to compare them and see which option looks best. Selecting **Looks good, continue** will generate the relevant records using the selected card.
 
 \[Omitted image "web-mobile-generated-record.png"\] Alt text: generated mobile record screen
 

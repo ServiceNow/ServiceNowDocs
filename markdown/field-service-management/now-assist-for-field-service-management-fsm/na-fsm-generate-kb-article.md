@@ -9,7 +9,7 @@ classification: now-assist-for-field-service-management-fsm
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 3
-breadcrumb: [Using Now Assist for Field Service Management \(FSM\), Now Assist for Field Service Management \(FSM\)]
+breadcrumb: [Using ServiceNow Otto for Field Service Management \(FSM\), ServiceNow Otto for Field Service Management \(FSM\)]
 ---
 
 # Generate a knowledge article from the CSM/FSM Configurable Workspace and classic environment with Now Assist
@@ -28,7 +28,7 @@ The following system property configurations are required so that agents can use
 To enable an agent to see the Now Assist experience on the Create Article page, ensure that the following knowledge base generation criteria is configured:
 
 -   The Customer workflow, FSM, and Platform workflow knowledge skills are activated.
--   In the Now Assist Admin console, ensure that the following criteria are in place:
+-   In the AI Admin Hub console, ensure that the following criteria are in place:
     -   The table record and input fields must be specified.
     -   Conditions for the skill availability must be specified from the list of attributes.
     -   Display of the knowledge base generation feature In-product and the Now Assist panel must be specified.
@@ -58,7 +58,7 @@ In the FSM Configurable Workspace and classic environment, you can generate the
 
 4.  In the Create article modal, select a knowledge base and an Article template, if displayed.
 
-    **Note:** If no options are displayed, the default template selected by your administrator in the Now Assist Admin console is used.
+    **Note:** If no options are displayed, the default template selected by your administrator in the AI Admin Hub console is used.
 
 5.  Select **Create Article**.
 
@@ -85,5 +85,5 @@ In the FSM Configurable Workspace and classic environment, you can generate the
     The Now Assist success message disappears indicating that it is no longer a Now LLM Service generated article.
 
 
-**Parent Topic:**[Using Now Assist for Field Service Management \(FSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/now-assist-for-field-service-management-fsm/using-now-assist-fsm.md)
+**Parent Topic:**[Using ServiceNow Otto for Field Service Management \(FSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/now-assist-for-field-service-management-fsm/using-now-assist-fsm.md)
 

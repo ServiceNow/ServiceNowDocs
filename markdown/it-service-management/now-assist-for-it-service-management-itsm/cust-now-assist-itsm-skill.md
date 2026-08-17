@@ -1,6 +1,6 @@
 ---
-title: Customize a Now Assist for IT Service Management \(ITSM\) skill
-description: If you have the admin role, you can customize a Now Assist for IT Service Management \(ITSM\) skill so that agents can use the generative AI skills in Service Operations Workspace for ITSM and in Core UI.
+title: Customize a ServiceNow Otto for IT Service Management \(ITSM\) skill
+description: If you have the admin role, you can customize a ServiceNow Otto for IT Service Management \(ITSM\) skill so that agents can use the generative AI skills in Service Operations Workspace for ITSM and in Core UI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/now-assist-for-it-service-management-itsm/cust-now-assist-itsm-skill.html
 release: yokohama
@@ -10,12 +10,12 @@ topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 8
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
-breadcrumb: [Configure, Now Assist for IT Service Management \(ITSM\), IT Service Management]
+breadcrumb: [Configure, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 
-# Customize a Now Assist for IT Service Management \(ITSM\) skill
+# Customize a ServiceNow Otto for IT Service Management \(ITSM\) skill
 
-If you have the admin role, you can customize a Now Assist for IT Service Management \(ITSM\) skill so that agents can use the generative AI skills in Service Operations Workspace for ITSM and in Core UI.
+If you have the admin role, you can customize a ServiceNow Otto for IT Service Management \(ITSM\) skill so that agents can use the generative AI skills in Service Operations Workspace for ITSM and in Core UI.
 
 ## Before you begin
 
@@ -23,7 +23,7 @@ Role required: sn\_nowassist\_admin.nsa\_admin
 
 ## About this task
 
-From the Now Assist Admin console, you can select the input tables, related lists, and fields for each input template of the incident summarization skill.
+From the AI Admin Hub console, you can select the input tables, related lists, and fields for each input template of the incident summarization skill.
 
 ## Procedure
 
@@ -33,7 +33,7 @@ From the Now Assist Admin console, you can select the input tables, related list
 
 3.  In the **Technology** feature group, select **ITSM** from the product list.
 
-4.  Activate and copy the Now Assist for ITSM feature skill for customization.
+4.  Activate and copy the ServiceNow Otto for ITSM feature skill for customization.
 
     1.  On the feature card that is associated with the skill that you would like to activate, select **View details**.
 
@@ -53,7 +53,7 @@ From the Now Assist Admin console, you can select the input tables, related list
 
 5.  In the General details step, fill in the fields.
 
-    For information about the inputs and triggers for each skill, see [Skill inputs and triggers for Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-skills.md).
+    For information about the inputs and triggers for each skill, see [Skill inputs and triggers for ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-skills.md).
 
     1.  Enter a name and description for the skill.
 
@@ -162,7 +162,7 @@ Activity: Attachment
 
 </td><td>
 
-Summarizes attachments in the Incident summarization skill record using Document Intelligence. For supported types, see [Customize a Now Assist for IT Service Management \(ITSM\) Incident Summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/now-assist-for-it-service-management-itsm/cust-now-assist-itsm-record-summ-skill.md)
+Summarizes attachments in the Incident summarization skill record using Document Intelligence. For supported types, see [Customize a ServiceNow Otto for IT Service Management \(ITSM\) Incident Summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/now-assist-for-it-service-management-itsm/cust-now-assist-itsm-record-summ-skill.md)
 
 </td></tr></tbody>
 </table>    4.  Select **Save and continue** to go to the next step.

@@ -18,7 +18,7 @@ The SAP Concur spoke is built by Bristlecone, Inc. Manage expenses, payments, pu
 
 ## Request apps on Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html). Starting on March 1st 2022, all SAP spokes will be available only on the Store.
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html). Starting on March 1st 2022, all SAP spokes will be available only on the Store.
 
 ## Integration Hub subscription
 
@@ -30,7 +30,7 @@ This spoke was built for SAP Concur API versions v3.0 and v4.0, but may be compa
 
 ## Spoke version
 
-SAP Concur spoke v2.3.2 is the latest version.
+SAP Concur spoke v2.3.3 is the latest version.
 
 ## Spoke requirements
 

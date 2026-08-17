@@ -1,5 +1,5 @@
 ---
-title: Standalone AI Agents in Now Assist for Integrated Risk Management \(IRM\) skills
+title: Standalone AI Agents in ServiceNow Otto for Integrated Risk Management \(IRM\) skills
 description: Use AI agents in Governance, Risk, and Compliance to complete IT-related tasks autonomously.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/grc-common-functions/standalone-ai-agents-in-risk-sustainability.html
@@ -13,13 +13,13 @@ keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
 breadcrumb: [Use agentic AI, Now Assist, Common GRC features, Governance, Risk, and Compliance]
 ---
 
-# Standalone AI Agents in Now Assist for Integrated Risk Management \(IRM\) skills
+# Standalone AI Agents in ServiceNow Otto for Integrated Risk Management \(IRM\) skills
 
 Use AI agents in Governance, Risk, and Compliance to complete IT-related tasks autonomously.
 
-## Standalone agents in Now Assist for Integrated Risk Management \(IRM\)
+## Standalone agents in ServiceNow Otto for Integrated Risk Management \(IRM\)
 
-The following AI agents are available in the Now Assist for IRM application:
+The following AI agents are available in the ServiceNow Otto for IRM application:
 
 -   Report a GRC issue AI agent
 

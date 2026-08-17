@@ -64,7 +64,7 @@ For more information, see the [Project Workspace release notes](https://raw.gith
 
 Project Portfolio Management is available with activation of the PPM Standard \(com.snc.financial\_planning\_pmo\) plugin. For more information on activation, see [Activate PPM Standard \( Project Portfolio Management \)](https://www.webstg.servicenow.com/docs/access?topicname=t_ActivateProjectPortfolioSuiteWithFinancials&version=washingtondc&pubname=washingtondc-it-business-management).
 
-Install Strategic Spend Tracking for PPM by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install Strategic Spend Tracking for PPM by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Related ServiceNow applications and features
 

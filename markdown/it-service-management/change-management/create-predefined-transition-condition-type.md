@@ -41,6 +41,10 @@ Role required: change\_manager
 
 4.  Select **Submit**.
 
-5.  
+5.  Open the **Change Model**, select the relevant **Model State** and either add or edit a Model State Transition that references the condition type.
+
+    **Note:** Creating a condition type does not enable a transition on its own. To apply it, select the condition type in the **Requires** field of a model state transition condition.
+
+
 **Parent Topic:**[Create a Change model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/create-a-change-model.md)
 

@@ -9,7 +9,7 @@ classification: event-management
 topic_type: task
 last_updated: "2026-06-16"
 reading_time_minutes: 5
-breadcrumb: [Apache Kafka Consumer Connector, Configure a pull connector, Configure Event Management connectors, Event Management Integrations, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Apache Kafka Consumer Connector, Configure a pull connector, Configure Event Management connectors, Event Management Integrations, Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
 ---
 
 # Configure the Apache Kafka Consumer connector

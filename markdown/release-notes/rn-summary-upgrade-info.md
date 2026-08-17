@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/rn-summa
 release: yokohama
 topic_type: reference
 last_updated: "2026-06-13"
-reading_time_minutes: 22
+reading_time_minutes: 21
 breadcrumb: [Release notes summaries for Yokohama features, Release notes for upgrading from Xanadu, Learn about the Yokohama release, Yokohama release notes]
 ---
 
@@ -38,7 +38,7 @@ AI Search
 
 </td><td>
 
-When you upgrade to Yokohama from an earlier release, make knowledge block content searchable by reindexing all your indexed sources that include knowledge articles. For details on reindexing, see [Perform a full table index or reindex for a single AI Search indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/index-single-source-ais.md) or [Perform a full table index or reindex for multiple AI Search indexed sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/index-multiple-sources-ais.md).
+When you upgrade to Yokohama from an earlier release, make knowledge block content searchable by reindexing all your indexed sources that include knowledge articles. For details on reindexing, see  or .
 
 </td></tr><tr><td>
 
@@ -56,7 +56,7 @@ App Engine Studio
 
 Due to a new process for assigning groups in AEMC, the same version of the Application Intake plugin must be activated on each of your instances.
 
-For more information, see [App Readiness and Compliance Report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/app-readiness-report.md).
+For more information, see .
 
 </td></tr><tr><td>
 
@@ -83,7 +83,7 @@ Automated Test Framework
 
 Copy and customize quick start tests provided by the ServiceNow AI Platform® to validate that your instance works after you make any configuration changes. For example, if you apply an upgrade or develop an application.
 
-The tests can produce a pass result only when you run them on a base system without any customizations and with the default demo data that is provided with the application or feature plugin. To apply a quick start test to your instance-specific data, copy the quick start test and add your custom data. For more information, see [Available quick start tests by application or feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/available-quick-start-tests.md).
+The tests can produce a pass result only when you run them on a base system without any customizations and with the default demo data that is provided with the application or feature plugin. To apply a quick start test to your instance-specific data, copy the quick start test and add your custom data. For more information, see .
 
 </td></tr><tr><td>
 
@@ -117,7 +117,7 @@ DevOps Change Velocity
 
 </td><td>
 
-If you are a new customer or are using a zBoot instance and you want to create type-based workflow change requests in DevOps Change Velocity, you must add the**com.snc.change\_management.change\_model.type\_compatibility** property and set it to True. For more information, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
+If you are a new customer or are using a zBoot instance and you want to create type-based workflow change requests in DevOps Change Velocity, you must add the**com.snc.change\_management.change\_model.type\_compatibility** property and set it to True. For more information, see .
 
 If you are an upgrading customer, you must run the **ReConfigure Bitbucket Server Repositories for PullRequest** job to re-configure your existing Bitbucket Server or Bitbucket Data Center repositories so that pull request records can be imported. You can navigate to **All &gt; System Definition &gt; Scheduled Jobs** to search for this job and run it.
 
@@ -204,7 +204,7 @@ Instance Data Replication
 
 </td><td>
 
-Improve the performance and processing efficiency of Instance Data Replication \(IDR\) by upgrading your replication sets to V2, which uses Hermes Messaging Service. For details, see [Upgrading legacy replication sets to V2 in Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/upgrading-legacy-replication-sets-v2.md).
+Improve the performance and processing efficiency of Instance Data Replication \(IDR\) by upgrading your replication sets to V2, which uses Hermes Messaging Service. For details, see .
 
 Log rotation is automatically enabled for the Replication Payload Error \[idr\_replication\_payload\_error\] table after the upgrade. By default, the log rotation schedule is comprised of seven shards, with five days for each shard. All log entries in this table created before the upgrade are automatically truncated.
 
@@ -214,21 +214,21 @@ MID Server
 
 </td><td>
 
-For the latest MID Server system requirements, see [MID Server system requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/r_MIDServerSystemRequirements.md). The minimum JRE version supported is 17.0.10 and the recommended version is 17.0.12.
+For the latest MID Server system requirements, see MID Server system requirements. The minimum JRE version supported is 17.0.10 and the recommended version is 17.0.12.
 
 If you have installed your own JRE, the upgrade process takes the following actions to verify that the MID Server uses a supported JRE:
 
 -   If a MID Server is using an unsupported version of the JRE when it upgrades, the upgrade process displays a warning message with the minimum and recommended JRE version.
 -   If a supported JRE is running on the MID Server host, the upgraded MID Server uses that version.
 
-All MID Server host machines require access to the download site at `install.service-now.com` to enable auto-upgrades. For additional details, read how the system manages [MID Server upgrades](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/c_UpgradeAndTestMIDServer.md).
+All MID Server host machines require access to the download site at `install.service-now.com` to enable auto-upgrades. For additional details, read how the system manages MID Server upgrades.
 
-Only one Windows MID Server service is permitted according to the executable path. Upgraded Windows MID Servers that have multiple services pointing to the same installation folder can’t start. See [MID Server fails to start](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/mid-startup-fails.md) for more information.
+Only one Windows MID Server service is permitted according to the executable path. Upgraded Windows MID Servers that have multiple services pointing to the same installation folder can’t start. See MID Server fails to start for more information.
 
 For more information about MID Server upgrades, see the following topics:
 
--   [MID Server pre-upgrade check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/c_UpgradeAndTestMIDServer.md): Describes how the AutoUpgrade monitor tests the ability of the MID Server to upgrade on your system before the actual upgrade.
--   [Upgrade the MID Server manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/c_UpgradeAndTestMIDServer.md): Describes how to upgrade your MID Servers manually.
+-   MID Server pre-upgrade check: Describes how the AutoUpgrade monitor tests the ability of the MID Server to upgrade on your system before the actual upgrade.
+-   Upgrade the MID Server manually: Describes how to upgrade your MID Servers manually.
 
 </td></tr><tr><td>
 
@@ -246,7 +246,7 @@ Now Assist Analytics
 
 </td><td>
 
-Now Assist Analytics is installed and updated when you install or update any Now Assist application. If you have issues installing or updating applications, see this [knowledge article](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1637452) for steps that may address your issue. Otherwise, you can make a Support case.
+AI Analytics is installed and updated when you install or update any Now Assist application. If you have issues installing or updating applications, see this [knowledge article](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1637452) for steps that may address your issue. Otherwise, you can make a Support case.
 
 </td></tr><tr><td>
 
@@ -284,7 +284,7 @@ Now Assist for Security Incident Response
 
 </td><td>
 
-For more information about required applications for Now Assist for Security Incident Response, see [Supporting information for Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/security-management/supporting-information-now-assist-security-incident.md).
+For more information about required applications for ServiceNow Otto for Security Incident Response \(SIR\), see [Supporting information for ServiceNow Otto for Security Incident Response \(SIR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/security-management/supporting-information-now-assist-security-incident.md).
 
 **Note:**
 
@@ -294,7 +294,7 @@ Upgrading the Now Assist plugins activate any designated skills that were previo
 -   If you have previously toggled a skill from active and then back to inactive or have updated any roles for that skill, that skill remains inactive upon upgrading.
 -   You maintain full control over deactivating individual skills at any time after activation.
 
-Starting with version 2.0.1, the name of the Now Assist for Security Operations application in ServiceNow® Store and in your ServiceNow AI Platform® instance has changed to Now Assist for Security Incident Response. You must upgrade to version 2.0.1 to access the following features:
+Starting with version 2.0.1, the name of the Now Assist for Security Operations application in ServiceNow® Store and in your ServiceNow AI Platform® instance has changed to ServiceNow Otto for Security Incident Response \(SIR\). You must upgrade to version 2.0.1 to access the following features:
 
 -   Generate resolution notes in the Now Assist context menu.
 -   Generate correlation insights for a security incident investigation from the Now Assist panel.
@@ -307,7 +307,7 @@ Now Assist for Vulnerability Response
 
 </td><td>
 
-For more information about required applications for Now Assist for Vulnerability Response, see [Supporting information for Now Assist for Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/security-management/supporting-information-now-assist-vr.md).
+For more information about required applications for ServiceNow Otto for Unified Security Exposure Management, see [Supporting information for ServiceNow Otto for Unified Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/security-management/supporting-information-now-assist-vr.md).
 
 **Note:**
 
@@ -323,14 +323,14 @@ Now Assist in Contract Management
 
 </td><td>
 
-If you’re upgrading to Now Assist in Contract Management starting with Yokohama Patch 3 from a previous version and you have customized use cases, run a fix script to migrate the existing data to the Now Assist Admin console.
+If you’re upgrading to Now Assist in Contract Management starting with Yokohama Patch 3 from a previous version and you have customized use cases, run a fix script to migrate the existing data to the AI Admin Hub console.
 
 1.  Navigate to **All** &gt; **System Definition** &gt; **Fix Scripts**.
 2.  In the **Name** field, search for `Upsert DI skill config`.
-3.  In the script, add the use case ids that you want to migrate to the Now Assist Admin console.
+3.  In the script, add the use case ids that you want to migrate to the AI Admin Hub console.
 4.  Select **Run Fix Script**.
 
-For more information, see [Post-upgrade steps for Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/cmpro-na-upgrade-steps.md).
+For more information, see .
 
 </td></tr><tr><td>
 
@@ -395,7 +395,7 @@ The following upgrade information is applicable only when you’re upgrading fro
 
 Based on the number of records in the application file table, you may experience a delay while upgrading the RPA Hub applications from Tokyo or earlier releases to Yokohama.
 
-Before upgrading RPA Hub to Yokohama, you must set the value of the **glide.rollback.blacklist.TableParentChange.change** system property to **false**. If this property doesn't exist in the System Property \[sys\_properties\] table, add the property and set its value to false. For more information on how to add a property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
+Before upgrading RPA Hub to Yokohama, you must set the value of the **glide.rollback.blacklist.TableParentChange.change** system property to **false**. If this property doesn't exist in the System Property \[sys\_properties\] table, add the property and set its value to false. For more information on how to add a property, see .
 
 After you upgrade to Yokohama, the bot process definitions change to the new structure, which is the bot process configuration.
 
@@ -436,7 +436,7 @@ Ensure that the following applications have compatible upgraded versions:
 -   Service Operations Workspace ITSM Applications application \(sn\_sow\_itsm\_cont\)
 -   Service Operations Workspace ITOM Applications application \(sn\_sow\_itom\_cont\)
 
-For more information on compatible versions, see [Version compatibility between Service Operations Workspace for ITSM and Service Operations Workspace ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/sow-itsm-itom-version.md).
+For more information on compatible versions, see .
 
 </td></tr><tr><td>
 
@@ -444,7 +444,7 @@ ServiceNow IDE
 
 </td><td>
 
-ServiceNow IDE version 1.1.4 is active by default on instances on the Yokohama release. Update to ServiceNow IDE version 2.0 or later to use the latest features. For information about updating ServiceNow IDE, see [Updating applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/updating-apps-app-manager.md).
+ServiceNow IDE version 1.1.4 is active by default on instances on the Yokohama release. Update to ServiceNow IDE version 2.0 or later to use the latest features. For information about updating ServiceNow IDE, see .
 
 </td></tr><tr><td>
 
@@ -452,7 +452,7 @@ ServiceNow SDK
 
 </td><td>
 
-Upgrade to the latest version of the ServiceNow SDK with the `now-sdk upgrade` command. For more information, see [Upgrade the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/upgrade-servicenow-sdk.md).
+Upgrade to the latest version of the ServiceNow SDK with the `now-sdk upgrade` command. For more information, see .
 
 ServiceNow SDK version 3.0 supports integrating with ServiceNow instances beginning with the Washington DC release.
 
@@ -496,7 +496,7 @@ Subscription Management
 
 </td><td>
 
-Subscription Management version 4.1 is active by default on all instances of the Yokohama release. Update to Subscription Management version 6.0.2 or later to use the latest features. For more information about updating Subscription Management, see [Update an application or plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/update-application-app-mgr.md).
+Subscription Management version 4.1 is active by default on all instances of the Yokohama release. Update to Subscription Management version 6.0.2 or later to use the latest features. For more information about updating Subscription Management, see .
 
 </td></tr><tr><td>
 
@@ -532,10 +532,10 @@ Usage Insights
 
 </td><td>
 
--   The Usage Insights module is moved under Platform Analytics.
+-   The User Experience Analytics module is moved under Platform Analytics.
 -   Custom user properties must be reconfigured.
 -   Default country and user consent policies are updated to No Consent Required.
--   The Usage Insights UI and navigation structure are reworked.
+-   The User Experience Analytics UI and navigation structure are reworked.
 
 </td></tr><tr><td>
 
@@ -560,7 +560,7 @@ Workforce Optimization for ITSM
 
 </td><td>
 
--   **[Enhanced security to access Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/components-installed-workforce-optimization-itsm.md)**
+-   **Enhanced security to access Workforce Optimization for ITSM**
 
 When you upgrade to the Yokohama release, you have the option to turn on enhanced security for the Workforce Optimization for ITSM application. To get the enhanced security, you must contact Now Support to install the ITSM Enhanced Security Features plugin \(com.snc.itsm.enhanced\_security\). After you install the plugin, you need the roles listed here to access the respective features.
 

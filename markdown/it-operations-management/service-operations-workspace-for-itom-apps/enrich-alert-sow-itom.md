@@ -9,7 +9,7 @@ classification: service-operations-workspace-for-itom-apps
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 11
-breadcrumb: [Alert automation in Service Operations Workspace for ITOM, Using Service Operations Workspace for ITOM, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
+breadcrumb: [Alert automation in Service Operations Workspace for ITOM, Using Service Operations Workspace for ITOM, Service Operations Workspace for ITOM, ITOM Health, IT Operations Management]
 ---
 
 # Create Enrich automation
@@ -75,15 +75,15 @@ For users familiar with the classic Event Management experience, enrich automati
     -   **Extract alert fields**: Retrieves alert field values from the event payload and places them in an alert output field.
     -   **Copy or compose fields**: Merges various alert fields, tags and text to generate a composed alert output.
     -   **Change alert values**: Maps the current value of alert fields to specified new values.
-<table id="choicetable_p43_zvd_s1c"><thead><tr><th align="left" id="d320338e269">
+<table id="choicetable_p43_zvd_s1c"><thead><tr><th align="left" id="d319170e269">
 
 Option
 
-</th><th align="left" id="d320338e272">
+</th><th align="left" id="d319170e272">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d320338e278">
+</th></tr></thead><tbody><tr><td id="d319170e278">
 
 **__Extract alert fields__**
 
@@ -114,7 +114,7 @@ If you want to add an alert tag, select the **Set as a tag** check box.
 
  To include additional fields for extraction, select **+ Add fields**.
 
-</td></tr><tr><td id="d320338e386">
+</td></tr><tr><td id="d319170e386">
 
 **__Copy or compose fields__**
 
@@ -132,7 +132,7 @@ For easier grouping, you can select a tag from the menu. If you want to use the 
 
  To create additional alert data compositions, select **+ Add fields**.
 
-</td></tr><tr><td id="d320338e450">
+</td></tr><tr><td id="d319170e450">
 
 **__Change alert values__**
 
@@ -145,7 +145,7 @@ For easier grouping, you can select a tag from the menu. If you want to use the 
 
 To add more field values, select **+ Add value** and to add more fields to map, select **+ Add field to map**.
 
-</td></tr><tr><td id="d320338e495">
+</td></tr><tr><td id="d319170e495">
 
 **Improve configuration item \(CI\) identification**
 

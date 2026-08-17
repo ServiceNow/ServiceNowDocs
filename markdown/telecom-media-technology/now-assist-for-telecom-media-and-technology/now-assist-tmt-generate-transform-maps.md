@@ -1,6 +1,6 @@
 ---
-title: Automate transforms with Now Assist for TMT
-description: Use the Now Assist for TMT Transform Mapping Assist feature to automatically transform inbound and outbound data between provider and consumer tables.
+title: Automate transforms with ServiceNow Otto for TMT
+description: Use the ServiceNow Otto for TMT Transform Mapping Assist feature to automatically transform inbound and outbound data between provider and consumer tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-generate-transform-maps.html
 release: yokohama
@@ -9,12 +9,12 @@ classification: now-assist-for-telecom-media-and-technology
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Using Now Assist for Telecommunications, Media and Technology \(TMT\), Now Assist for Telecommunications, Media and Technology \(TMT\), Telecommunications, Media, and Technology]
+breadcrumb: [Using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\), ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\), Telecommunications, Media, and Technology]
 ---
 
-# Automate transforms with Now Assist for TMT
+# Automate transforms with ServiceNow Otto for TMT
 
-Use the Now Assist for TMT Transform Mapping Assist feature to automatically transform inbound and outbound data between provider and consumer tables.
+Use the ServiceNow Otto for TMT Transform Mapping Assist feature to automatically transform inbound and outbound data between provider and consumer tables.
 
 ## Before you begin
 
@@ -35,7 +35,7 @@ The Transform Mapping Assist skill is designed to do the following:
 
 2.  Click **New** and create a simple transform.
 
-    See [Create a transform in Service Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/service-exchange/service-bridge-v2-create-transform.md) for instructions. The Now Assist for TMT Transform Assist Mapping can be used only with simple transforms.
+    See [Create a transform in Service Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/service-exchange/service-bridge-v2-create-transform.md) for instructions. The ServiceNow Otto for TMT Transform Assist Mapping can be used only with simple transforms.
 
 3.  Select the provider and consumer tables and the related fields.
 
@@ -54,5 +54,5 @@ The Transform Mapping Assist skill is designed to do the following:
         Click **OK** to continue with the mapping. If no mappings are found, an error message is displayed. You can either review the configuration settings and modify as required or create the mappings manually.
 
 
-**Parent Topic:**[Using Now Assist for Telecommunications, Media and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spm-using.md)
+**Parent Topic:**[Using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spm-using.md)
 

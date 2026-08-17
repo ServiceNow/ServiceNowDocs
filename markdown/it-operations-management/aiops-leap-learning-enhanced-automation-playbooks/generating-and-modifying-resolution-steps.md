@@ -7,9 +7,9 @@ release: yokohama
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 1
-breadcrumb: [Using AIOps LEAP, AIOps Learning Enhanced Automation Playbook \(LEAP\), Now Assist for ITOM, IT Operations Management]
+breadcrumb: [Using AIOps LEAP, AIOps Learning Enhanced Automation Playbook \(LEAP\), ServiceNow Otto for ITOM, IT Operations Management]
 ---
 
 # Generate and modify resolution steps in AIOps LEAP

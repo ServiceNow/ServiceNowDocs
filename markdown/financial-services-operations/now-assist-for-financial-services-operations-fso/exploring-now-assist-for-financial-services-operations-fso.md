@@ -1,6 +1,6 @@
 ---
-title: Exploring Now Assist for Financial Services Operations \(FSO\)
-description: With the Now Assist for Financial Services Operations \(FSO\) application, use agentic AI to summarize case details, enhance disputes intake with Disputes intake via Virtual Agent, and leverage agentic workflows.
+title: Exploring ServiceNow Otto for Financial Services Operations \(FSO\)
+description: With the ServiceNow Otto for Financial Services Operations \(FSO\) application, use agentic AI to summarize case details, enhance disputes intake with Disputes intake via Virtual Agent, and leverage agentic workflows.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/now-assist-for-financial-services-operations-fso/exploring-now-assist-for-financial-services-operations-fso.html
 release: yokohama
@@ -10,14 +10,14 @@ topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 5
 keywords: [generative AI for FSO overview, generative AI for financial service operations overview, generative AI for financial service operations sensitive data handling]
-breadcrumb: [Now Assist for Financial Services Operations \(FSO\)]
+breadcrumb: [ServiceNow Otto for Financial Services Operations \(FSO\)]
 ---
 
-# Exploring Now Assist for Financial Services Operations \(FSO\)
+# Exploring ServiceNow Otto for Financial Services Operations \(FSO\)
 
-With the Now Assist for Financial Services Operations \(FSO\) application, use agentic AI to summarize case details, enhance disputes intake with Disputes intake via Virtual Agent, and leverage agentic workflows.
+With the ServiceNow Otto for Financial Services Operations \(FSO\) application, use agentic AI to summarize case details, enhance disputes intake with Disputes intake via Virtual Agent, and leverage agentic workflows.
 
-## Now Assist for Financial Services Operations \(FSO\) overview
+## ServiceNow Otto for Financial Services Operations \(FSO\) overview
 
 The following AI capabilities are available:
 
@@ -27,7 +27,7 @@ The following AI capabilities are available:
 
 ## Skills
 
-The Now Assist for Financial Services Operations \(FSO\) application includes the following skills:
+The ServiceNow Otto for Financial Services Operations \(FSO\) application includes the following skills:
 
 -   **Case summarization**
 
@@ -118,10 +118,10 @@ By using the Now Assist panel, agents can aid in decision-making and case handli
 
 Personally identifiable information and other sensitive data can be masked so that it doesn't appear in agentic AI prompts. Placeholder text is sent with the prompt instead, and that placeholder text is replaced with the original text after the response has been received. This two-way masking helps ensure that your users see the correct values, but the Now LLM Service isn't exposed to any sensitive information. For more information, see .
 
-**Important:** Exercise caution when using Now Assist for FSO with cases that contain sensitive data or other regulated workloads, such as healthcare claims. Now Assist for FSO shouldn’t be used for processing protected health information \(PHI\). When using Now Assist for FSO in a protected industry, validate and test the generated results in accordance with corresponding legislation and requirements. See [AI limitations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/now-assist-for-financial-services-operations-fso/now-assist-for-financial-services-operations.md) for more information.
+**Important:** Exercise caution when using ServiceNow Otto for FSO with cases that contain sensitive data or other regulated workloads, such as healthcare claims. ServiceNow Otto for FSO shouldn’t be used for processing protected health information \(PHI\). When using ServiceNow Otto for FSO in a protected industry, validate and test the generated results in accordance with corresponding legislation and requirements. See [AI limitations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/now-assist-for-financial-services-operations-fso/now-assist-for-financial-services-operations.md) for more information.
 
 -   **[Form Data Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/now-assist-for-financial-services-operations-fso/learn-about-the-form-data-collector.md)**  
 Learn about the Form Data Collector application that is used to assist with populating case form fields during a customer's interaction with a Virtual Agent chatbot.
 
-**Parent Topic:**[Now Assist for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/now-assist-for-financial-services-operations-fso/now-assist-for-financial-services-operations.md)
+**Parent Topic:**[ServiceNow Otto for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/now-assist-for-financial-services-operations-fso/now-assist-for-financial-services-operations.md)
 

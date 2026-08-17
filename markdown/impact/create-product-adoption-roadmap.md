@@ -35,15 +35,15 @@ Role required: Impact admin, Platform Owner, Impact Portfolio Owner, and Impact 
 
 5.  In the **How do you want to start?** section, indicate whether you want to create the roadmap from a template or manually.
 
-<table id="choicetable_ncv_thk_s2c"><thead><tr><th align="left" id="d70606e170">
+<table id="choicetable_ncv_thk_s2c"><thead><tr><th align="left" id="d70601e170">
 
 How do you want to start?
 
-</th><th align="left" id="d70606e173">
+</th><th align="left" id="d70601e173">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d70606e179">
+</th></tr></thead><tbody><tr><td id="d70601e179">
 
 **Create from a Template**
 
@@ -54,7 +54,7 @@ Actions
 
 **Note:** You can access product adoption roadmap templates with pre-defined sequence of capabilities for ITSM, ITOM, and Security Operations.
 
-</td></tr><tr><td id="d70606e214">
+</td></tr><tr><td id="d70601e214">
 
 **Create a roadmap manually**
 

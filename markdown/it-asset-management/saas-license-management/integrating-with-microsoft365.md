@@ -213,15 +213,15 @@ If you’re using Software Asset Workspace, the option to create the Microsoft D
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d218685e733">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d220235e733">
 
 Interface
 
-</th><th align="left" id="d218685e736">
+</th><th align="left" id="d220235e736">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d218685e742">
+</th></tr></thead><tbody><tr><td id="d220235e742">
 
 **Core UI**
 
@@ -232,7 +232,7 @@ Action
 3.  Select **Microsoft Dynamics 365 and Power Apps Integration Profile**.
 
 
-</td></tr><tr><td id="d218685e784">
+</td></tr><tr><td id="d220235e784">
 
 **Software Asset Workspace**
 

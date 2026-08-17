@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1
 keywords: [SOW ITOM on-call scheduling]
-breadcrumb: [Configuring Service Operations Workspace for ITOM, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
+breadcrumb: [Configuring Service Operations Workspace for ITOM, Service Operations Workspace for ITOM, ITOM Health, IT Operations Management]
 ---
 
 # On-call scheduling in Service Operations Workspace for ITOM

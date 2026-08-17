@@ -17,11 +17,11 @@ The ServiceNow® Problem Management application helps you identify the cause of 
 -   Increase operational efficiency of tier 1 service desk agents with the dedicated sn\_service\_desk\_agent role.
 -   Simplify the management of problems and problem tasks using Problem Management models.
 
-See [Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/c_ProblemManagement.md) for more information.
+See  for more information.
 
 ## New in the Yokohama release
 
--   **[User role for service desk agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/prob-roles-instld-itsm-roles.md)**
+-   **User role for service desk agents**
 
     With the sn\_service\_desk\_agent user role, increase operational efficiency by streamlining the process of asking about, gathering, and verifying information, as well as delivering quick resolutions. This role is designed for tier 1 service desk agents and is accessible when the ITSM Roles plugin \(com.snc.itsm.roles\) installed.
 
@@ -36,7 +36,7 @@ See [Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNow
 
     The sn\_service\_desk\_agent user role can be used starting with Service Operations Workspace version 6.1.
 
--   **[Problem Models for Streamlined Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/problem-mgmt-models.md)**
+-   **Problem Models for Streamlined Problem Management**
 
     Problem Management models are used to simplify management of problems and problem tasks. These models provide an efficient way to configure state transitions and define conditions to move from one state to another.
 

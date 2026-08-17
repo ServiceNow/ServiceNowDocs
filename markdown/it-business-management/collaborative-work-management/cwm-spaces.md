@@ -34,7 +34,7 @@ CWM provides two kinds of Spaces: A personal Space that can be accessed only by 
 
     Use the Search option to quickly find and open any Space, Board or Doc.
 
-    Also, the Search bar displays all the recent Spaces, Boards, and Docs that you've navigated to within the CWM workspace so that you can quickly select from the recent items without having to search for them again.
+    Also, the Search bar displays all the recent Spaces, Boards, and Docs that you've navigated to within the CWM workspace. You can quickly select from the recent items without having to search for them again.
 
     \[Omitted image "cwm-search.png"\] Alt text: Quick search feature in CWM.
 
@@ -77,7 +77,7 @@ Create more task Boards, docs, and organize them into folders to manage the work
 
 -   **Managing Space permissions for task assignees and other users**
 
-    As a Space owner or editor, while assigning tasks to your team members, you can identify users who don’t have access to the workspace through a lock icon next to the user name. This icon is visible in the List view of the Board in the columns of type People such as **Assigned to**, **Additional Assignee**, and **Assignment group**.
+    As a Space owner or editor, while assigning tasks to your team members, you can identify users who don’t have access to the workspace. A lock icon appears next to the user name for these users. This icon is visible in the List view of the Board in the columns of type People such as **Assigned to**, **Additional Assignee**, and **Assignment group**.
 
     \[Omitted image "cwm-board-users-lock-icon.png"\] Alt text: Lock icon to indicate no access for a user.
 

@@ -527,7 +527,7 @@ Use this task to customize and configure the **Investigate** tab of the Incident
 
 On the **Investigate** tab of the Incident record in the Service Operations Workspace, click the get latest metrics icon \(\[Omitted image "get-latest-matrix.png"\] Alt text: get latest matrix refresh\) to refresh and view the customizations. For more information, see [Incident Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/incident-sow.md).
 
-## Configure the collection rules for the Investigate tab
+## Configure Investigate tab collection rules
 
 Configure the collection rules and map the rules to the metric definitions in the Investigate Framework module. This configuration enables you to define when the CI related metrics information is automatically retrieved on the **Investigate** tab of the Incident record.
 

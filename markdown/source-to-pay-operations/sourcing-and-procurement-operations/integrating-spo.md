@@ -20,11 +20,11 @@ Extend the capabilities of Sourcing and Procurement Operations and connect with 
 
 Sourcing and Procurement Operations \(SPO\) supports the following integrations:
 
--   **Now Assist for Sourcing and Procurement Operations \(SPO\)**
+-   **ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)**
 
-    Use the Now Assist for Sourcing and Procurement Operations \(SPO\) application to guide your requesters through a conversation-like experience for their procurement needs. The application uses procurement-related topics to route requesters to the appropriate intake channels, and then through conversation, helps to submit their requests.
+    Use the ServiceNow Otto for Sourcing and Procurement Operations \(SPO\) application to guide your requesters through a conversation-like experience for their procurement needs. The application uses procurement-related topics to route requesters to the appropriate intake channels, and then through conversation, helps to submit their requests.
 
-    For more information on this, see [Now Assist for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo.md).
+    For more information on this, see [ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo.md).
 
 -   **Source-to-Pay Operations with Contract Management Pro**
 

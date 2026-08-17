@@ -1,6 +1,6 @@
 ---
-title: Activate a Now Assist for Health and Safety skill
-description: Activate a Now Assist for Health and Safety skill to enable the safety team to use the generative AI skills from Health and Safety Workspace and the Core UI.
+title: Activate a ServiceNow Otto for Health and Safety skill
+description: Activate a ServiceNow Otto for Health and Safety skill to enable the safety team to use the generative AI skills from Health and Safety Workspace and the Core UI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-activate-skill.html
 release: yokohama
@@ -9,22 +9,22 @@ classification: now-assist-for-health-and-safety
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Configure settings, Now Assist for Health and Safety, Health and Safety, Employee Service Management]
+breadcrumb: [Configure settings, ServiceNow Otto for Health and Safety, Health and Safety, Employee Service Management]
 ---
 
-# Activate a Now Assist for Health and Safety skill
+# Activate a ServiceNow Otto for Health and Safety skill
 
-Activate a Now Assist for Health and Safety skill to enable the safety team to use the generative AI skills from Health and Safety Workspace and the Core UI.
+Activate a ServiceNow Otto for Health and Safety skill to enable the safety team to use the generative AI skills from Health and Safety Workspace and the Core UI.
 
 ## Before you begin
 
-[Install Now Assist for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-install.md).
+[Install ServiceNow Otto for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-install.md).
 
 Role required: admin
 
 ## About this task
 
-The following table lists the skill that you can access from the Now Assist Admin console.
+The following table lists the skill that you can access from the AI Admin Hub console.
 
 |Health and Safety feature|Skill|
 |-------------------------|-----|
@@ -38,7 +38,7 @@ Now LLM Service is currently the only provider for this Now Assist application's
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills** to access the **Now Assist Skills** tab of the Now Assist Admin console.
+1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills** to access the **Now Assist Skills** tab of the AI Admin Hub console.
 
 2.  From the workflow list, select **Employee** and then select **Health and Safety**.
 
@@ -48,7 +48,7 @@ Now LLM Service is currently the only provider for this Now Assist application's
 
 5.  In the Choose Input section, review inputs for the selected skill.
 
-    For information about the inputs for the skill, see [Skill inputs for Now Assist for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-skill-inputs.md).\[Omitted image "na-hs-skill-inputs.png"\] Alt text: Choose input data screen for skills.
+    For information about the inputs for the skill, see [Skill inputs for ServiceNow Otto for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-skill-inputs.md).\[Omitted image "na-hs-skill-inputs.png"\] Alt text: Choose input data screen for skills.
 
 6.  Select **Save and continue** to go to the next step.
 
@@ -73,5 +73,5 @@ Now LLM Service is currently the only provider for this Now Assist application's
     \[Omitted image "na-hs-active-skill.png"\] Alt text: Active skills section displaying the active status for the Health and Safety incident summarization skill.
 
 
-**Parent Topic:**[Configuring Now Assist for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-configuring.md)
+**Parent Topic:**[Configuring ServiceNow Otto for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-configuring.md)
 

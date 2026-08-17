@@ -1,6 +1,6 @@
 ---
 title: Add legal request tables for data indexing
-description: Add the legal request tables to be considered for data indexing for AI Search in the Now Assist for Legal Service Delivery \(LSD\) application. The legal request tables are indexed so that you can get relevant AI Search results for the legal records.
+description: Add the legal request tables to be considered for data indexing for AI Search in the ServiceNow Otto for Legal Service Delivery \(LSD\) application. The legal request tables are indexed so that you can get relevant AI Search results for the legal records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/now-assist-for-legal-service-delivery/add-tables-legal-requests.html
 release: yokohama
@@ -10,12 +10,12 @@ topic_type: task
 last_updated: "2025-04-10"
 reading_time_minutes: 1
 keywords: [Now Assist, Configure AI Agents]
-breadcrumb: [Configuring the Triage legal requests agentic workflow, Agentic workflow, Now Assist for Legal Service Delivery \(LSD\), Legal Service Delivery, Employee Service Management]
+breadcrumb: [Configuring the Triage legal requests agentic workflow, Agentic workflow, ServiceNow Otto for Legal Service Delivery \(LSD\), Legal Service Delivery, Employee Service Management]
 ---
 
 # Add legal request tables for data indexing
 
-Add the legal request tables to be considered for data indexing for AI Search in the Now Assist for Legal Service Delivery \(LSD\) application. The legal request tables are indexed so that you can get relevant AI Search results for the legal records.
+Add the legal request tables to be considered for data indexing for AI Search in the ServiceNow Otto for Legal Service Delivery \(LSD\) application. The legal request tables are indexed so that you can get relevant AI Search results for the legal records.
 
 ## Before you begin
 

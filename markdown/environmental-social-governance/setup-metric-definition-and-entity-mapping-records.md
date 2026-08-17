@@ -20,7 +20,7 @@ Role required: sn\_nowassist\_admin.nsa\_admin
 
 ## About this task
 
--   Preconfigured metric definitions with corresponding entity mappings are provided to simplify the initial setup for Now Assist for Operational Sustainability Management. The four preconfigured metric definitions are water, waste, electricity, and natural gas consumption.
+-   Preconfigured metric definitions with corresponding entity mappings are provided to simplify the initial setup for ServiceNow Otto for Operational Sustainability Management. The four preconfigured metric definitions are water, waste, electricity, and natural gas consumption.
 -   If the preconfigured metric definitions don’t meet your requirements, you can create a new or use an existing metric definition. Then update the Metric Definition table and create or update mapping records to link the new definition to the appropriate record identifiers. When using custom metric definitions, confirm that all relevant mapping records are updated to reference the new definitions for accurate data association.
 -   The metric definition must be activated before using the Document Intelligence for Utility Invoices skill.
 

@@ -1,5 +1,5 @@
 ---
-title: Use agentic AI for Now Assist for Operational Technology Manager \(OTM\)
+title: Use agentic AI for Operational Technology \(OT\) Manager Foundation
 description: Use the Operational Technology Manager \(OTM\) AI agent within an agentic workflow to complete tasks autonomously.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/operational-technology/now-assist-for-otm-use-cases.html
@@ -7,10 +7,10 @@ release: yokohama
 topic_type: concept
 last_updated: "2025-11-21"
 reading_time_minutes: 2
-breadcrumb: [Now Assist for Operational Technology Manager \(OTM\), Operational Technology]
+breadcrumb: [Operational Technology \(OT\) Manager Foundation, Operational Technology]
 ---
 
-# Use agentic AI for Now Assist for Operational Technology Manager \(OTM\)
+# Use agentic AI for Operational Technology \(OT\) Manager Foundation
 
 Use the Operational Technology Manager \(OTM\) AI agent within an agentic workflow to complete tasks autonomously.
 
@@ -46,7 +46,7 @@ OT Excel import task AI agent
 
 **Note:**
 
-You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/exploring-large-language-models.md).
+You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/exploring-large-language-models.md).
 
 ## Security implementation considerations
 
@@ -76,5 +76,5 @@ Looking for an AI agent?
 -   **[Import the OT device spreadsheet into OT CMDB agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/now-assist-otm-aiagents-import-ot-device-workflow.md)**  
 Use the Import OT device spreadsheet into OT CMDB agentic workflow to automate the upload, validation, and import of your OT device data into the OT CMDB.
 
-**Parent Topic:**[Now Assist for Operational Technology Manager \(OTM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/now-assist-for-otm-landing.md)
+**Parent Topic:**[Operational Technology \(OT\) Manager Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/now-assist-for-otm-landing.md)
 

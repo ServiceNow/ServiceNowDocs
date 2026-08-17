@@ -133,7 +133,7 @@ File attachments for the fallout record. Click **Browse** to add the file as an 
 
 [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/flow-designer.md)
 
-[Flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/flows.md)
+[bundle-crworkflow.flows]
 
 [Create a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/create-flow.md)
 

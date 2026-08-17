@@ -7,7 +7,7 @@ release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Agent Client Collector Framework reference, Agent Client Collector Framework, Agent Client Collector, IT Operations Management]
 ---
@@ -38,7 +38,7 @@ log-retention-duration
 
 </td><td>
 
-Maximum age, in days, of the log file before it is rotated out of the system's storage.Default: **3**
+Maximum age, in days, of the log file before it is rotated out of the system's storage.Default: **72h**
 
 </td></tr><tr><td>
 

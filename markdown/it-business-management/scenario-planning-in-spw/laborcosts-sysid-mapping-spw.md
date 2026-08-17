@@ -29,7 +29,7 @@ Consider you removed the out-of-box cost types and created the following two lab
 
 Once these new cost types are created, the system automatically assigns them unique sys\_ids. These sys\_ids are not same as the deleted defaults.
 
-To ensure the system continues to recognize these new cost types for workflows, reporting, or calculations, you must manually updated in the sn\_plng\_att\_core.labor\_costtype\_sysid\_mapping system property with the new sys\_ids.
+To ensure the system recognizes these new cost types for workflows, reporting, or calculations, you must manually update the sn\_plng\_att\_core.labor\_costtype\_sysid\_mapping system property with the new sys\_ids.
 
 Omitting this update may result in system errors or incomplete data processing in cost-related operations.
 

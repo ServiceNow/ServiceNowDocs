@@ -162,15 +162,15 @@ If you’re using Software Asset Workspace, the option to create the Jira integr
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d182943e656">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d183809e656">
 
 Interface
 
-</th><th align="left" id="d182943e659">
+</th><th align="left" id="d183809e659">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d182943e665">
+</th></tr></thead><tbody><tr><td id="d183809e665">
 
 **Core UI**
 
@@ -181,7 +181,7 @@ Action
 3.  Select **Jira Integration Profile**.
 
 
-</td></tr><tr><td id="d182943e707">
+</td></tr><tr><td id="d183809e707">
 
 **Software Asset Workspace**
 
@@ -540,15 +540,15 @@ If you’re using Software Asset Workspace, the option to create the Jira integr
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d182943e2293">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d183809e2293">
 
 Interface
 
-</th><th align="left" id="d182943e2296">
+</th><th align="left" id="d183809e2296">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d182943e2302">
+</th></tr></thead><tbody><tr><td id="d183809e2302">
 
 **Core UI**
 
@@ -559,7 +559,7 @@ Action
 3.  Select **Jira Integration Profile**.
 
 
-</td></tr><tr><td id="d182943e2344">
+</td></tr><tr><td id="d183809e2344">
 
 **Software Asset Workspace**
 

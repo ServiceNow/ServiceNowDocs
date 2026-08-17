@@ -19,13 +19,13 @@ Activate and then configure the summarization skill from Now Assist to generate 
 
 ## Before you begin
 
-Install the Now Assist for IRM plugin \(sn\_irm\_gen\_ai\).
+Install the ServiceNow Otto for IRM plugin \(sn\_irm\_gen\_ai\).
 
 Role required: admin or sn\_nowassist\_admin.nsa\_admin
 
 ## About this task
 
-**Important:** After installing Now Assist for IRM, all Now Assist for IRM skills and agentic workflows are activated by default.
+**Important:** After installing ServiceNow Otto for IRM, all ServiceNow Otto for IRM skills and agentic workflows are activated by default.
 
 To summarize a regulatory alert, you must specify the fields from which the summary must obtain information. For example, while choosing the input data for the summary, you can specify the following fields from which data must be obtained:
 

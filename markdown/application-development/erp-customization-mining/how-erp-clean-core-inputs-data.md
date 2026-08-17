@@ -1,6 +1,6 @@
 ---
 title: How ERP-CM extracts and processes data
-description: ERP Semantic Mining \(ERP-CM\) retrieves data from the ERP \(Enterprise Resource Planning\) system using extractors and processes it before the data is available on the ServiceNow AI Platform.
+description: ERP Customization Mining \(ERP-CM\) retrieves data from the ERP \(Enterprise Resource Planning\) system using extractors and processes it before the data is available on the ServiceNow AI Platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-customization-mining/how-erp-clean-core-inputs-data.html
 release: yokohama
@@ -9,12 +9,12 @@ classification: erp-customization-mining
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Exploring ERP Semantic Mining, ERP Semantic Mining \(ERP-CM\), Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Exploring ERP Customization Mining, ERP Customization Mining \(ERP-CM\), Building low-code applications, Developing your application, Building applications]
 ---
 
 # How ERP-CM extracts and processes data
 
-ERP Semantic Mining \(ERP-CM\) retrieves data from the ERP \(Enterprise Resource Planning\) system using extractors and processes it before the data is available on the ServiceNow AI Platform.
+ERP Customization Mining \(ERP-CM\) retrieves data from the ERP \(Enterprise Resource Planning\) system using extractors and processes it before the data is available on the ServiceNow AI Platform.
 
 Use an SAP extractor to analyze the ERP data sources and validate the syntax. The following extractors are available to retrieve data from the ERP system:
 
@@ -121,5 +121,5 @@ sn\_erp\_mining\_erp\_application
  sn\_erp\_mining\_erp\_application\_usage
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Exploring ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/exploring-ecm.md)
+</table>**Parent Topic:**[Exploring ERP Customization Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/exploring-ecm.md)
 

@@ -9,7 +9,7 @@ classification: now-assist-for-configuration-management-database-cmdb
 topic_type: task
 last_updated: "2026-02-06"
 reading_time_minutes: 1
-breadcrumb: [Use generative AI skills, Now Assist for Configuration Management Database \(CMDB\), CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Use generative AI skills, ServiceNow Otto for Configuration Management Database \(CMDB\), CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # View CI information with the Now Assist CI summarization skill
@@ -40,15 +40,15 @@ This procedure describes how you can manually access the skill in Core UI or in 
 
 3.  Provide feedback, copy the summary text to the clipboard, or refresh the summary.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d395016e139">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d394418e139">
 
 Option
 
-</th><th align="left" id="d395016e142">
+</th><th align="left" id="d394418e142">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d395016e148">
+</th></tr></thead><tbody><tr><td id="d394418e148">
 
 **Provide feedback for the summary**
 
@@ -56,7 +56,7 @@ Procedure
 
 If you think that the summary was helpful, select thumbs-up \[Omitted image "icon-thumbs-up.png"\]. If you think that the summary wasn’t helpful, select thumbs-down \[Omitted image "icon-thumbs-down.png"\].This feedback improves the Agentic AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the Agentic AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d395016e163">
+</td></tr><tr><td id="d394418e163">
 
 **Copy the summary**
 
@@ -64,7 +64,7 @@ If you think that the summary was helpful, select thumbs-up \[Omitted image "ico
 
 Select the copy to clipboard icon \[Omitted image "icon-clipboard.png"\] to use the summary information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d395016e175">
+</td></tr><tr><td id="d394418e175">
 
 **Refresh the summary**
 

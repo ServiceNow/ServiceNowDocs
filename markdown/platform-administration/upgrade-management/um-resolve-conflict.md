@@ -9,7 +9,7 @@ classification: upgrade-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Upgrade Monitor tool in Upgrade Console, Upgrade Console tools, Using Upgrade Console, Upgrade Console, Upgrade, Administer the ServiceNow AI Platform]
+breadcrumb: [Upgrade Monitor tool in Upgrade Management, Upgrade Management tools, Using Upgrade Management, Upgrade Management, Upgrade, Administer the ServiceNow AI Platform]
 ---
 
 # Resolve conflicts for an individual record
@@ -53,5 +53,5 @@ From the Upgrade Details form, you can review an individual record affected by t
 -   **[Resolve Conflicts form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-management/um-resolve-conflicts-form.md)**  
 The Resolve Conflicts form you compare to the base system version with the customized version of a record and reconcile the differences.
 
-**Parent Topic:**[Upgrade Monitor tool in Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-management/um-upgrade-monitor-tool.md)
+**Parent Topic:**[Upgrade Monitor tool in Upgrade Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-management/um-upgrade-monitor-tool.md)
 

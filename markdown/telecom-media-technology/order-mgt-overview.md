@@ -42,8 +42,8 @@ Reference\[Omitted image "bus-learn.svg"\] Alt text: Get details about component
 </table>## Additional resources
 
 -   Learn more about what's new and changed, see the [Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/sales-order-management-rn-landing.md).
--   Log in to your ServiceNow® account and find additional information about implementing and deploying Sales CRM features at [Now Create](https://learning.servicenow.com/nowcreate).
+-   Log in to your ServiceNow® account and find additional information about implementing and deploying Sales CRM features at the [Best Practices Library](https://mynow.servicenow.com/now/best-practices/home).
 -   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow).
--   Find useful resources related to your role and explore best practices at the [Customer Success Center](https://www.servicenow.com/success.html).
--   Connect with other Customer Service Management users at [Now Community](https://www.servicenow.com/community/).
+-   Find useful resources related to your role and explore best practices at [ServiceNow Impact](https://www.servicenow.com/impact.html).
+-   Connect with other Sales CRM users at [Now Community](https://www.servicenow.com/community/sales-customer-relationship/ct-p/sales-order-management).
 

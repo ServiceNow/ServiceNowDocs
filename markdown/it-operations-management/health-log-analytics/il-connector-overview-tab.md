@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 4
 keywords: [log data, streaming, sources, status, overview, integration, ServiceNow, Health Log Analytics, HLA]
-breadcrumb: [Monitor log data flow and optimize integration settings, Set up integrations from Integrations Launchpad, Setting up Health Log Analytics on your ServiceNow instance, Configuring Health Log Analytics, Health Log Analytics, ITOM AIOps, IT Operations Management]
+breadcrumb: [Monitor log data flow and optimize integration settings, Set up integrations from Integrations Launchpad, Setting up Health Log Analytics on your ServiceNow instance, Configuring Health Log Analytics, Health Log Analytics, ITOM Health, IT Operations Management]
 ---
 
 # Review log data streaming status for an integration
@@ -93,7 +93,7 @@ Log Viewer
 
 </td><td>
 
-Opens the **Log Viewer**, which shows the frequency of anomalies in the log data during a specific time period. For more information, see [Reviewing the logs for an alert on the Log viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-op-logs-log-viewer-concept.md). **Note:** The Log Viewer option appears only if the Service Operations Workspace Log Analytics application is installed.
+Opens the **Log Viewer**, which shows the frequency of anomalies in the log data during a specific time period. For more information, see [Reviewing alert logs on the Log viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-op-logs-log-viewer-concept.md). **Note:** The Log Viewer option appears only if the Service Operations Workspace Log Analytics application is installed.
 
 </td></tr></tbody>
 </table>7.  When you have resolved any data streaming issues and fixed the configuration, select **Test and save**.

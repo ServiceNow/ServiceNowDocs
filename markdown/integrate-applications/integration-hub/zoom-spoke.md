@@ -18,7 +18,7 @@ Create and manage Zoom meetings with the Zoom spoke from your ServiceNow instanc
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Integration Hub subscription
 
@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Zoom spoke v4.8.0 is the latest version.
+Zoom spoke v4.8.1 is the latest version.
 
 ## Supported versions
 
@@ -113,7 +113,7 @@ The Zoom spoke adds the Zoom application to your instance and includes the modul
 
 The Zoom spoke provides you with actions so that you can automate Zoom tasks when events occur in the ServiceNow AI Platform. Th available actions are described in the following table.
 
-<table id="table_fzt_sqk_4hc"><thead><tr><th>
+<table id="table_ftn_f4z_yjc"><thead><tr><th>
 
 Category
 
@@ -211,7 +211,7 @@ Retrieves the metadata of countries and their ISO codes.
 
 </td></tr><tr><td>
 
-Look up account call logs stream
+Look up Account Call History Stream
 
 </td><td>
 
@@ -271,7 +271,7 @@ phone:read:list\_users:admin
 
 </td></tr><tr><td>
 
-Look up user call logs stream
+Look up User Call History Stream
 
 </td><td>
 

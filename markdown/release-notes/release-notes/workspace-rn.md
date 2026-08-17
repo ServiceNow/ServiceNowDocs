@@ -20,19 +20,19 @@ The ServiceNow® Workspace application provides agents, case managers, help desk
 -   Use lists that have additional condition builder fields, infinite scroll, live updates, and saved temporary lists.
 -   Provide role-based access control for viewing and editing tables in the Activity stream.
 
-See [Workspace UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/workspace-landing-page.md) for more information.
+See Workspace UI for more information.
 
 ## New in the Yokohama release
 
--   **[Configure keyboard shortcut for response templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-response-templates.md)**
+-   **Configure keyboard shortcut for response templates**
 
     Use a keyboard shortcut to add response templates to journal fields within a form.
 
--   **[Create collapsible content for email templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-collapsible-email-templates.md)**
+-   **Create collapsible content for email templates**
 
     Hide email content behind an ellipsis in email templates.
 
--   **[Configure the email composer in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/enable-next-experience-email-client-core-ui.md)**
+-   **Configure the email composer in Core UI**
 
     Access the latest Workspace features for email composer in the Core UI.
 
@@ -51,15 +51,15 @@ See [Workspace UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/y
 
     Sort form templates in the Templates list by the last used templates or in alphabetical order.
 
--   **[Preview the relevant templates in the email composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/use-email-templates-in-the-compose-email-page.md)**
+-   **Preview the relevant templates in the email composer**
 
     Preview relevant email templates, response templates, and quick messages that are listed in the email composer's Apply templates modal.
 
--   **[View a total count of drafts in the email composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/review-draft-emails.md)**
+-   **View a total count of drafts in the email composer**
 
     A badge on the View drafts icon displays the total count of your drafts that are available in the email composer.
 
--   **[Preview all drafts available in the email composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/review-draft-emails.md)**
+-   **Preview all drafts available in the email composer**
 
     Preview all drafts that are available in the email composer's View drafts modal instead of your three most recent drafts.
 
@@ -71,7 +71,7 @@ See [Workspace UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/y
 
     The Compose text area expands dynamically to fit the parent container in the side-by-side view and modeless dialog.
 
--   **[Customize the multi-record associator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/set-up-resizing-for-select-modals-in-configurable-workspace.md)**
+-   **Customize the multi-record associator**
 
     Resize the multi-record associator and adjust the number of rows that are shown per page in the multi-record associator.
 
@@ -106,11 +106,11 @@ See [Workspace UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/y
 
 ## Changed in this release
 
--   **[Context-based suggestions with @mentions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/set-up-at-mentions.md)**
+-   **Context-based suggestions with @mentions**
 
     Receive suggestions for users with access to the record when using @ mentions.
 
--   **[Expand all tiles in the Activity stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/activity-stream-expand-tiles.md)**
+-   **Expand all tiles in the Activity stream**
 
     Set a user preference to keep all tiles in the Activity stream expanded across cases and user sessions.
 
@@ -118,7 +118,7 @@ See [Workspace UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/y
 
     Data filters and access rules provide role-based access control for viewing and editing tables in the Activity stream.
 
--   **[Multiple records added from the multi-record associator load in the background](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/set-up-asynchronous-record-addition.md)**
+-   **Multiple records added from the multi-record associator load in the background**
 
     Work on a record while the multiple records that were selected from the multi-record associator are added in the background.
 
@@ -142,7 +142,7 @@ See [Workspace UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/y
 
     The **is within hierarchy** field in the condition builder enables you to filter your list within a hierarchy instead of only direct reports.
 
--   **[AI filter assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/use-ai-filter-assist.md)**
+-   **AI filter assist**
 
     Convert everyday language into an encoded query with AI filter assist.
 
@@ -157,7 +157,7 @@ Workspace doesn’t support mobile devices, Internet Explorer, or Microsoft Edge
 
 ## Accessibility information
 
--   **[Screen Summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/use-screen-summarization.md)**
+-   **Screen Summarization**
 
     Screen Summarization is a feature that supports visually impaired and low-vision users by providing AI-generated summaries of workspace pages and their sections. The summaries can be read aloud with a screen reader to help reduce navigation and comprehension time.
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 7
 breadcrumb: [Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -18,7 +18,7 @@ The Diagnostics page helps you prioritize and address errors and anomalies in IP
 
 To access the Discovery Admin Workspace Diagnostics page, navigate to **Workspaces** &gt; **Discovery Admin Workspace** &gt; **Diagnostics**.
 
-**Note:** The capabilities described here are available in Discovery Admin Workspace v1.17.0.
+**Note:** The capabilities described here are available starting with Discovery Admin Workspace v1.17.0.
 
 ## Key features
 
@@ -28,7 +28,7 @@ To access the Discovery Admin Workspace Diagnostics page, navigate to **Workspac
 
     **Important:** This tab only displays anomalies when anomaly detection is enabled. Starting with v1.11.0, anomaly detection requires a minimum of five CIs to trigger. For more information, see the [https://support.servicenow.com/kb?id=kb\_article\_view&amp;sysparm\_article=KB2601541](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2601541) article in the Now Support Knowledge Base.
 
-    Select the **More options** icon \(\[Omitted image "icon-menu-sow.png"\] Alt text: More options icon\), then select **Refresh** to refresh the data for each visualization in this section.
+    Select the **More Options** icon \(\[Omitted image "icon-menu-sow.png"\]\), then select **Refresh** to refresh the data for each visualization in this section.
 
 <table id="table_e1w_2dh_z2c"><thead><tr><th>
 
@@ -120,7 +120,7 @@ Number of Discovery schedules that had a long run time.**Note:** The threshold f
 
     The error records can also be filtered with the **Filter by** and **Has task** drop-down menus. In the **Filter** menu, you can choose to show only errors related to CMDB, Configuration, Credentials, Internal, or Network. Multiple categories can be selected at the same time. The **Has task** menu shows either all error records, error records that have a task, or error records without a task.
 
-    For each entry in the **Discovery errors** table, the **Total Errors** number can be selected to navigate to the **Error Stats Page**. This page displays information on the error and provides **Instructions**, and an associated Knowledge Base article when available. If the error has an associated task, the task number is displayed in the header and can be accessed by selecting the button. The **Action** drop-down menu provides suggested actions based on the type of error. In the **Errors** table, the **Action on selected** drop-down menu can ignore errors for individual IP addresses, retry their discovery, add them to the global exclusion list, or check their Shazzam port status.
+    For each entry in the **Discovery errors** table, the **Total Errors** number can be selected to navigate to the **Error Stats Page**. This page displays information on the error and provides **Instructions**, and an associated Knowledge Base article when available. If the error has an associated task, the task number is displayed in the header and can be accessed by selecting the button. The **Action** drop-down menu provides suggested actions based on the type of error. In the **Errors** table, use the **Action on selected** list to select an action for individual IP addresses. Available actions include ignoring errors, retrying discovery, adding addresses to the global exclusion list, or checking their Shazzam port status.
 
 -   **Case Management tab**
 

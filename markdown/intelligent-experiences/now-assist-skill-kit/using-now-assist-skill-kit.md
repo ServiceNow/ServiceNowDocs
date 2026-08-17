@@ -1,6 +1,6 @@
 ---
-title: Using Now Assist Skill Kit
-description: Use Now Assist Skill Kit to create and publish prompts and custom skills for Now Assist.
+title: Using AI Skill Kit
+description: Use AI Skill Kit to create and publish prompts and custom skills for Now Assist.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/now-assist-skill-kit/using-now-assist-skill-kit.html
 release: yokohama
@@ -9,14 +9,14 @@ classification: now-assist-skill-kit
 topic_type: concept
 last_updated: "2026-05-19"
 reading_time_minutes: 4
-breadcrumb: [Now Assist Skill Kit, Enable AI experiences]
+breadcrumb: [AI Skill Kit, Enable AI experiences]
 ---
 
-# Using Now Assist Skill Kit
+# Using AI Skill Kit
 
-Use Now Assist Skill Kit to create and publish prompts and custom skills for Now Assist.
+Use AI Skill Kit to create and publish prompts and custom skills for Now Assist.
 
-Building a custom skill in Now Assist Skill Kit is a sequential process. The following steps take you from an empty skill through to activation, where end users can trigger it from the platform.
+Building a custom skill in AI Skill Kit is a sequential process. The following steps take you from an empty skill through to activation, where end users can trigger it from the platform.
 
 ## Create a skill
 
@@ -44,7 +44,7 @@ Before publishing, test your prompt against real records on your instance to ver
 
 ## Publish and activate
 
-When your skill is ready, finalize the prompt and publish it. Publishing makes the skill visible to a Now Assist admin, who then activates it in Now Assist Admin to make it available to your users.
+When your skill is ready, finalize the prompt and publish it. Publishing makes the skill visible to a Now Assist admin, who then activates it in AI Admin Hub to make it available to your users.
 
 -   [Finalize and publish a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-skill-kit/publish-skill.md)
 -   [Activate a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-skill-kit/activate-skill.md)
@@ -64,13 +64,13 @@ Use prompt assistance to get a jump start with your prompt development by select
 -   **[Test a prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-skill-kit/test-prompt-template.md)**  
 After you create a prompt for your custom skill, test the prompt template before you finalize it. Testing the prompt verifies that you’re seeing the expected prompt results before it’s activated.
 -   **[Evaluate a prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-skill-kit/evaluate-prompt.md)**  
-Use the Now Assist Skill Kit evaluation tools to evaluate the effectiveness of your skill prompts.
+Use the AI Skill Kit evaluation tools to evaluate the effectiveness of your skill prompts.
 -   **[Finalize and publish a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-skill-kit/publish-skill.md)**  
 When you’re satisfied with your prompt, you can publish your custom skill. Publishing the skill enables a Now Assist admin to activate it.
 -   **[Activate a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-skill-kit/activate-skill.md)**  
-After you create and publish a custom skill, you must activate it in Now Assist Admin. Activating the skill enables you to trigger the skill within the UI.
+After you create and publish a custom skill, you must activate it in AI Admin Hub. Activating the skill enables you to trigger the skill within the UI.
 -   **[Call a custom skill from a script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-skill-kit/call-custom-skill-from-script.md)**  
 You can use a script to call a custom skill.
 
-**Parent Topic:**[Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-skill-kit/now-assist-skill-kit-landing.md)
+**Parent Topic:**[AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-skill-kit/now-assist-skill-kit-landing.md)
 

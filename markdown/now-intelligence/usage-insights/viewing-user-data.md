@@ -9,7 +9,7 @@ classification: usage-insights
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Using Usage Insights, User Experience Analytics, Platform Analytics]
+breadcrumb: [Using User Experience Analytics, User Experience Analytics, Platform Analytics]
 ---
 
 # Viewing user analytics
@@ -34,7 +34,7 @@ User ID
 
 </td><td>
 
-Automatically generated number assigned to each unique user tracked by Usage Insights. Select the User ID to view the user's sessions and Activity timeline.
+Automatically generated number assigned to each unique user tracked by User Experience Analytics. Select the User ID to view the user's sessions and Activity timeline.
 
 </td></tr><tr><td>
 
@@ -101,5 +101,5 @@ You can filter the Users list by date range, User type, and Country by default. 
 
 **Note:** The Add filter options use a logical AND operator, meaning that the results must meet both the criteria in the default filters AND the criteria in the additional filters to be included in the visualizations.
 
-**Parent Topic:**[Using Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/using-uxa.md)
+**Parent Topic:**[Using User Experience Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/using-uxa.md)
 

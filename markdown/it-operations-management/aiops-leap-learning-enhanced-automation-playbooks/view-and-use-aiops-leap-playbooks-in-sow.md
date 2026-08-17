@@ -9,7 +9,7 @@ classification: aiops-leap-learning-enhanced-automation-playbooks
 topic_type: task
 last_updated: "2026-01-09"
 reading_time_minutes: 1
-breadcrumb: [Using AIOps LEAP, AIOps Learning Enhanced Automation Playbook \(LEAP\), Now Assist for ITOM, IT Operations Management]
+breadcrumb: [Using AIOps LEAP, AIOps Learning Enhanced Automation Playbook \(LEAP\), ServiceNow Otto for ITOM, IT Operations Management]
 ---
 
 # Use AIOps LEAP playbooks in Service Operations Workspace \(SOW\)

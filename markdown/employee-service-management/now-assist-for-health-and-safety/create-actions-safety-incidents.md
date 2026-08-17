@@ -9,7 +9,7 @@ classification: now-assist-for-health-and-safety
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Use AI agents, Now Assist for Health and Safety, Health and Safety, Employee Service Management]
+breadcrumb: [Use AI agents, ServiceNow Otto for Health and Safety, Health and Safety, Employee Service Management]
 ---
 
 # Create actions for safety incidents agentic workflow

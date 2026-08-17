@@ -80,7 +80,7 @@ Report types can include:
 
 ## Now Assist document skills
 
-If your organization uses DMS and Now Assist for TPRM, you can leverage AI-driven skills to streamline document-heavy workflows. These capabilities reduce manual effort, improve accuracy, and accelerate risk tasks. Now Assist for Document Management and Now Assist for TPRM offer the following key skills:
+If your organization uses DMS and ServiceNow Otto for TPRM, you can leverage AI-driven skills to streamline document-heavy workflows. These capabilities reduce manual effort, improve accuracy, and accelerate risk tasks. Now Assist for Document Management and ServiceNow Otto for TPRM offer the following key skills:
 
 -   TPRM issue summarization– Condenses complex third-party risk issues into actionable summaries, helping risk analysts review and respond faster.
 

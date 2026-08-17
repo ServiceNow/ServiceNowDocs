@@ -1,6 +1,6 @@
 ---
-title: Managing the Technology Portfolio Management \(TPM\) in Enterprise Architecture Workspace
-description: Technology Portfolio Management helps Enterprise Architects to manage technology life-cycle risks and technology life-cycle exceptions. Enterprise Architects can evaluate all their business applications and application services by accessing the discovered technologies and auditing information in the Enterprise Architecture Workspace.
+title: Managing the Technology Lifecycle Management \(TLM\) in Enterprise Architecture Workspace
+description: Technology Lifecycle Management helps Enterprise Architects to manage technology life-cycle risks and technology life-cycle exceptions. Enterprise Architects can evaluate all their business applications and application services by accessing the discovered technologies and auditing information in the Enterprise Architecture Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-tpm.html
 release: yokohama
@@ -10,9 +10,9 @@ reading_time_minutes: 10
 breadcrumb: [Technology Portfolio view, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
-# Managing the Technology Portfolio Management \(TPM\) in Enterprise Architecture Workspace
+# Managing the Technology Lifecycle Management \(TLM\) in Enterprise Architecture Workspace
 
-Technology Portfolio Management helps Enterprise Architects to manage technology life-cycle risks and technology life-cycle exceptions. Enterprise Architects can evaluate all their business applications and application services by accessing the discovered technologies and auditing information in the Enterprise Architecture Workspace.
+Technology Lifecycle Management helps Enterprise Architects to manage technology life-cycle risks and technology life-cycle exceptions. Enterprise Architects can evaluate all their business applications and application services by accessing the discovered technologies and auditing information in the Enterprise Architecture Workspace.
 
 **Note:** You can zoom on this page to 200% or 400% through your browser settings without the loss of content or functionality. Page layouts are transformed into a vertical, stacked view automatically.
 
@@ -30,23 +30,23 @@ Creating an inventory of all technologies used in the enterprise helps to:
 
 The data for the software products are populated from the Computer \(CMDB\_CI\_Computer\) and all similar instances of the table, Docker Container \(CMDB\_CI\_Docker\_Container\), and Serverless Hardwares \(CMDB\_CI\_Serverless\_Hardware\) tables, by default. However, if you want to include other CMDB tables that contain software products, you must update the system property **sn\_apm\_tpm.configurationItemsWithSoftwareInstalls**. For information on how to update the system property, see [Update the system property for CMDB software products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-update-system-property-gather-software-cmdb.md).
 
-## Installing the Technology Portfolio Management plugin
+## Installing the Technology Lifecycle Management plugin
 
-For instructions to install Technology Portfolio Management, see [Activate the Technology Portfolio Management \(TPM\) plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-install-tpm.md).
+For instructions to install Technology Lifecycle Management, see [Activate the Technology Lifecycle Management \(TLM\) plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-install-tpm.md).
 
 **Important:** Technology Portfolio Management \(TPM\) fetches the hardware life-cycle data for your enterprise. To fetch the software life-cycle data, you must activate the Software Asset Management \(SAM\) Professional plugin. Before installing the SAM Foundation plugin, carefully review the [Software Asset Management Foundation plugin migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/c_SAMMigrationSAMF.md) documentation.
 
-## TPM indicators in EA Workspace
+## TLM indicators in EA Workspace
 
-The following are the indicators for Technology Portfolio Management \(TPM\) in EA Workspace:
+The following are the indicators for Technology Lifecycle Management \(TLM\) in EA Workspace:
 
 |Indicator|Description|
 |---------|-----------|
 |Technology Lifecycle Risk \[sn\_apm\_tpm\_technology\_risk\]|Calculates the lifecycle risk score for business applications.|
 
-## TPM reference model in EA Workspace
+## TLM reference model in EA Workspace
 
-In EA Workspace, the Technology Portfolio Management enables you to align technologies using the **Update TPM data** action from a business application record or using the schedule job **Populate TPM Discovered Technologies and Lifecycles**.
+In EA Workspace, the Technology Lifecycle Management enables you to align technologies using the **Update TPM data** action from a business application record or using the schedule job **Populate TPM Discovered Technologies and Lifecycles**.
 
 \[Omitted image "new-tpm-ref-model.png"\] Alt text: TPM Reference Model in Enterprise Architecture Workspace
 
@@ -61,15 +61,15 @@ The following is the technology discovery and alignment process for business app
     \[Omitted image "eaw-tpm-serv-con-item-asso.png"\] Alt text: Service Configuration Item Associations
 
 -   For each computer identified in the Service Configuration Item Associations \[svc\_ci\_assoc\] table, you can see the installed software by selecting the Software Installations tab. Also, if a Hardware Model is associated with the computer, you can see the Hardware type details in the TPM Discovered Technologies tab.
--   For each software install, you can see the associated discovery model. The software discovery models must be of a product type Licensable or Unknown and they must be normalized or manually normalized to get any appropriate information. You can also also use the **sn\_apm\_tpm.softwareDiscoveryModelProductFilterForTPMsystem** property to gather data on non-licensable software products. For information see, [Filter software results using an encoded query in TPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/use-tpm-encoded-query.md).
+-   For each software install, you can see the associated discovery model. The software discovery models must be of a product type Licensable or Unknown and they must be normalized or manually normalized to get any appropriate information. You can also also use the **sn\_apm\_tpm.softwareDiscoveryModelProductFilterForTPMsystem** property to gather data on non-licensable software products. For information see, [Filter software results using an encoded query in TLM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/use-tpm-encoded-query.md).
 -   For each discovery model, create a TPM Discovered Technology record.
--   When you create a record for the TPM Discovered Technology, it triggers the creation of an associated TPM Technology Lifecycles record and it fetches the lifecycle information for the hardware or software technology. An unique TPM lifecycle record identifier is also generated. On selecting the record identifier, more information on the TPM lifecycle record is displayed.
+-   When you create a record for the TPM Discovered Technology, it triggers the creation of an associated TPM Technology Lifecycles record and it fetches the lifecycle information for the hardware or software technology. An unique TLM lifecycle record identifier is also generated. On selecting the record identifier, more information on the TLM lifecycle record is displayed.
 
     \[Omitted image "tpm-lifecycle-record.png"\] Alt text: TPM lifecycle record identifier highlighted on the Technology Portfolio page.
 
     **Note:**
 
-    TPM lifecycle record identifiers are automatically generated on creating a TPM record using the Technology Portfolio Management \(sn\_apm\_tpm\) plugin version 1.9.0. However, for TPM lifecycle records generated using previous versions of the TPM plugin don't have any lifecycle record identifiers. The TPM record identifiers of these TPM lifecycle records must be generated using the Populate Number field in TPM Discovered Technologies job. For information, see [Run a scheduled job to populate Technology Portfolio Management lifecycle record identifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-run-job-to-populate-tpm-lifecycle-identifier.md).
+    TLM lifecycle record identifiers are automatically generated on creating a TLM record using the Technology Lifecycle Management \(sn\_apm\_tpm\) plugin version 1.9.0. However, for TLM lifecycle records generated using previous versions of the TLM plugin don't have any lifecycle record identifiers. The TLM record identifiers of these TLM lifecycle records must be generated using the Populate Number field in TPM Discovered Technologies job. For information, see [Run a scheduled job to populate Technology Lifecycle Management lifecycle record identifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-run-job-to-populate-tpm-lifecycle-identifier.md).
 
 
 \[Omitted image "eaw-tpm-lifecycle-process.png"\] Alt text: TPM lifecycle process in EA Workspace
@@ -123,24 +123,24 @@ The application services \(composed of software products and hardware models\) h
 
 In the Enterprise Architecture Workspace Dashboard, the 'Top 10 business applications with normalized TPM risk' widget shows the top 10 business applications having normalized TPM risk. For more details, see [Working with the Enterprise Architecture Workspace dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-workspace-dashboard.md).
 
--   **[Activate the Technology Portfolio Management \(TPM\) plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-install-tpm.md)**  
-Activate the Technology Portfolio Management \(TPM\) store application that you purchased from the ServiceNow Store to make it available on your instance.
--   **[Filter software results using an encoded query in TPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/use-tpm-encoded-query.md)**  
+-   **[Activate the Technology Lifecycle Management \(TLM\) plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-install-tpm.md)**  
+Activate the Technology Lifecycle Management \(TLM\) store application that you purchased from the ServiceNow Store to make it available on your instance.
+-   **[Filter software results using an encoded query in TLM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/use-tpm-encoded-query.md)**  
 Filter out unwanted software products and reduce the number of results to skip unwanted software and their lifecycles to be shown in the **Lifecycle Timeline** view of a business application. By default, the TPM picks licensable software. Use this encoded query when you want TPM to include other software \(non-licensable\) and filter the result.
 -   **[Update TPM data for business applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/update-tpm-data.md)**  
-Manually update the Technology Portfolio Management \(TPM\) lifecycle data including end of support date, end of extended support date, and end of life date for your software and hardware models for your business applications and application services.
+Manually update the Technology Lifecycle Management \(TLM\) lifecycle data including end of support date, end of extended support date, and end of life date for your software and hardware models for your business applications and application services.
 -   **[Restart the TPM Discovered Technologies and Lifecycles job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-restart-tpm-scheduled-job.md)**  
 You can restart the **TPM Discovered Technologies and Lifecycles** job if it encounters any interruptions or failures.
 -   **[View technology lifecycle details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-view-tech-lifecycle.md)**  
-You can view the Technology Portfolio Management \(TPM\) lifecycle timelines in Enterprise Architecture Workspace, to track the different phases of a product’s lifecycle, such as end of support, end of extended support, and end of life.
+You can view the Technology Lifecycle Management \(TLM\) lifecycle timelines in Enterprise Architecture Workspace, to track the different phases of a product’s lifecycle, such as end of support, end of extended support, and end of life.
 -   **[View TPM risk details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-view-tech-risk.md)**  
-View all the Technology Portfolio Management \(TPM\) risk data for software products that are facing high and moderate technology risks.
+View all the Technology Lifecycle Management \(TLM\) risk data for software products that are facing high and moderate technology risks.
 -   **[Update the system property for CMDB software products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-update-system-property-gather-software-cmdb.md)**  
-You can optionally customize the default values of the **sn\_apm\_tpm.configurationItemsWithSoftwareInstalls** system property, to capture the details of Technology Portfolio Management \(TPM\) software products that aren’t stored in the default CMDB tables, Computer \(CMDB\_CI\_Computer\) and all similar instances of the table, Docker Container \(CMDB\_CI\_Docker\_Container\), and Serverless Hardwares \(CMDB\_CI\_Serverless\_Hardware\).
+You can optionally customize the default values of the **sn\_apm\_tpm.configurationItemsWithSoftwareInstalls** system property, to capture the details of Technology Lifecycle Management \(TLM\) software products that aren’t stored in the default CMDB tables, Computer \(CMDB\_CI\_Computer\) and all similar instances of the table, Docker Container \(CMDB\_CI\_Docker\_Container\), and Serverless Hardwares \(CMDB\_CI\_Serverless\_Hardware\).
 -   **[Working with technology portfolio audit details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-view-technology-portfolio-audit-risk.md)**  
 The  **Technology portfolio audit** tab shows audit information for your applications. An entry in this table indicates that at least one lifecycle for that software product or hardware model was either approximated, or not found, or doesn’t exist.
--   **[Run a scheduled job to populate Technology Portfolio Management lifecycle record identifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-run-job-to-populate-tpm-lifecycle-identifier.md)**  
-Run the Populate Number field in TPM Discovered Technologies job to populate missing Technology Portfolio Management \(TPM\) lifecycle record identifiers.
+-   **[Run a scheduled job to populate Technology Lifecycle Management lifecycle record identifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-run-job-to-populate-tpm-lifecycle-identifier.md)**  
+Run the Populate Number field in TPM Discovered Technologies job to populate missing Technology Lifecycle Management \(TLM\) lifecycle record identifiers.
 
 **Parent Topic:**[Technology Portfolio view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-technology-portfolio-view.md)
 

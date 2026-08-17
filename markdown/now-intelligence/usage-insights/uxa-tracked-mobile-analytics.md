@@ -1,6 +1,6 @@
 ---
-title: Tracked mobile analytics fields for Usage Insights
-description: Usage Insights collects data from mobile applications on your mobile device. These tables list fields that are tracked in the mobile applications. Reports and charts are generated from these fields.
+title: Tracked mobile analytics fields for User Experience Analytics
+description: User Experience Analytics collects data from mobile applications on your mobile device. These tables list fields that are tracked in the mobile applications. Reports and charts are generated from these fields.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/usage-insights/uxa-tracked-mobile-analytics.html
 release: yokohama
@@ -12,9 +12,9 @@ reading_time_minutes: 2
 breadcrumb: [Tracked analytics fields and cookies, User privacy, tracking, and consent, Configuring User Experience Analytics, User Experience Analytics, Platform Analytics]
 ---
 
-# Tracked mobile analytics fields for Usage Insights
+# Tracked mobile analytics fields for User Experience Analytics
 
-Usage Insights collects data from mobile applications on your mobile device. These tables list fields that are tracked in the mobile applications. Reports and charts are generated from these fields.
+User Experience Analytics collects data from mobile applications on your mobile device. These tables list fields that are tracked in the mobile applications. Reports and charts are generated from these fields.
 
 For more information about using the data, see [Viewing user analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/viewing-user-data.md).
 
@@ -22,7 +22,7 @@ For more information about using the data, see [Viewing user analytics](https://
 
 |Name|Description|Sample output value|
 |----|-----------|-------------------|
-|User ID|Usage Insights internal user ID \(sequential ID\) |1|
+|User ID|User Experience Analytics internal user ID \(sequential ID\) |1|
 |Hashed User ID|SHA256 hash of the user's ServiceNow sys\_id |f4a9baa650ab13d429b185d12b14fcf5c |
 |Session ID|Unique session ID |5a2b73857345abc3546243 |
 |Session Index |Sequential index of the specific user's session |5|
@@ -34,7 +34,7 @@ For more information about using the data, see [Viewing user analytics](https://
 |ROM Version |The ROM version \(only for Android\) |4.3.9|
 |Operating System Version |Version of the device's operating system |iOS 16.5|
 |Network connectivity |WiFi / Cellular |WiFi|
-|UserID |Usage Insights internal user ID \(sequential ID\) |1|
+|UserID |User Experience Analytics internal user ID \(sequential ID\) |1|
 |Hashed User ID|SHA256 hash of the user's ServiceNow sys\_id |f4a9baa650ab13d429abacf9f8c78d14fcf5c |
 |AppSysId|Application sys\_id|e5d8a2df53112110a40fddeeff7b1243|
 |AppVersion|Application version|1.2|

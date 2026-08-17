@@ -19,16 +19,16 @@ Access and select the LLM \(large language model\) provider used for various Now
 
 Role required: admin, sn\_nowassist\_admin.nsa\_admin
 
-This feature is available in Now Assist Admin version 6.2 and Yokohama patch 6 onwards.
+This feature is available in AI Admin Hub version 6.2 and Yokohama patch 6 onwards.
 
 To enable the model provider selection, ensure that the skill is available in that region. The configuration controls for the approved model providers and corresponding compliant skills for specific regions are approved in AI Control Tower by the AI steward. For example, to update the model provider for Now Assist Q&amp;A Genius Results, ensure that all the skills under Conversational skills are available and active in the region.
 
-As per the AI Control Tower settings, the model provider selection is available at multiple levels, including skill, skill group, and instance levels in Now Assist Admin. Therefore, in a situation where a skill is not compliant or a model provider is unavailable in a particular region, Now Assist Admin console presents the admin persona with alternate region scope options seeking approval permissions to proceed with model provider selection. For example: You opt to switch to another model provider to use a particular Now Assist skill. Consider, the region scope must be changed to global location for the skill to work. Here, you can proceed only after consenting to the region scope change.
+As per the AI Control Tower settings, the model provider selection is available at multiple levels, including skill, skill group, and instance levels in AI Admin Hub. Therefore, in a situation where a skill is not compliant or a model provider is unavailable in a particular region, AI Admin Hub console presents the admin persona with alternate region scope options seeking approval permissions to proceed with model provider selection. For example: You opt to switch to another model provider to use a particular Now Assist skill. Consider, the region scope must be changed to global location for the skill to work. Here, you can proceed only after consenting to the region scope change.
 
 **Note:** For regulated markets:
 
--   The **Manage LLM** option will not be available to customers on the Now Assist Admin user interface.
--   Only Now LLM Service skills will be available to customers. Any skill that leverages external providers \(e.g., Azure\) will be hidden on the Now Assist Admin console. With the exception of NSC region, skills leveraging Azure OpenAI is available to the users.
+-   The **Manage LLM** option will not be available to customers on the AI Admin Hub user interface.
+-   Only Now LLM Service skills will be available to customers. Any skill that leverages external providers \(e.g., Azure\) will be hidden on the AI Admin Hub console. With the exception of NSC region, skills leveraging Azure OpenAI is available to the users.
 
 ## Procedure
 

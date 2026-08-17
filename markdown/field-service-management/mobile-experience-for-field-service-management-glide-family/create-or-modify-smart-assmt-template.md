@@ -30,15 +30,15 @@ Role required: sn\_smart\_asmt.template\_manager or sn\_smart\_asmt.assessment\_
 
 2.  Either create a template or select an existing template.
 
-<table id="choicetable_lml_jwt_dcc"><thead><tr><th align="left" id="d133215e100">
+<table id="choicetable_lml_jwt_dcc"><thead><tr><th align="left" id="d133049e100">
 
 Option
 
-</th><th align="left" id="d133215e103">
+</th><th align="left" id="d133049e103">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d133215e109">
+</th></tr></thead><tbody><tr><td id="d133049e109">
 
 **Select an existing template**
 
@@ -48,7 +48,7 @@ Description
 2.  In the **General** tab, select **Settings**.
 
 
-</td></tr><tr><td id="d133215e133">
+</td></tr><tr><td id="d133049e133">
 
 **Create a new template**
 

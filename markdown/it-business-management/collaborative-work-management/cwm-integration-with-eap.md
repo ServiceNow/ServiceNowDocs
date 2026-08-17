@@ -22,7 +22,7 @@ The EAP-CWM integration enables organizations to connect strategic program plann
 
 Using EAP, program managers and release train engineers can define Program Increment \(PI\) objectives, align Epics, Features, and Stories, create sprints for teams, and manage cross-team dependencies. After completing a PI, they can conduct PI retrospectives and update roadmaps for the next cycle. These capabilities ensure that enterprise priorities are clearly structured and traceable across all levels.
 
-By linking EAP to CWM, product owners and team members can plan and execute sprints, manage agile stories alongside operational tasks such as incidents, track progress, and hold team-level retrospectives, all within the same workspace.
+By linking EAP to CWM, product owners and team members can plan and execute sprints, manage agile stories alongside operational tasks such as incidents. They can also track progress and hold team-level retrospectives, all within the same workspace.
 
 This connection between the applications reduces context switching and ensures that both planned and unplanned work is accounted for, without losing alignment to strategic goals. The result is end-to-end transparency where leadership can track progress against PI goals through EAP, while teams maintain flexibility to adapt to changing priorities.
 

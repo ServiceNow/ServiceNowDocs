@@ -7,9 +7,9 @@ release: yokohama
 product: Task Mining
 classification: task-mining
 topic_type: task
-last_updated: "2024-08-26"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Defining the scope of projects, Use, Task Mining, Platform Analytics]
+breadcrumb: [Generating project analysis, Use, Task Mining, Platform Analytics]
 ---
 
 # Refine the presentation of your data
@@ -26,17 +26,19 @@ Role required: sn\_tm\_core.analyst, sn\_tm\_core.power\_user, sn\_tm\_core.admi
 
 2.  Select the name of the project you want to analyze.
 
-3.  Select the **Analysis** tab.
+3.  Select one of the analysis tabs that has charts; either **Task activity** or **Overall activity**.
+
+    \[Omitted image "tm-refine-1.png"\] Alt text: Screenshot showing a project with all analyses available.
 
 4.  Identify uncategorized activities.
 
-    1.  Select the name of the analysis that you want to preview.
+    1.  Use the dates, categories, applications, users, and tasks drop-down selectors to evaluate different views of your charts.
 
-        The analysis opens in a new tab. For more information about reading the analysis, see [Task Mining analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/task-mining/task-mining-dashboard.md).
-
-    2.  Use the time, categories, activities, and users drop-down selectors to evaluate different views of your charts.
+    2.  Select **Apply**.
 
     3.  Make note of any large portion of activities that don’t use user-friendly categorization that might benefit from being categorized.
+
+        \[Omitted image "tm-refine-2.png"\] Alt text: Screenshot showing a categories drop-down selector.
 
 5.  If you find any areas to modify, contact your Task Mining power user to refine categorization based on the data gaps in the charts you identified.
 
@@ -44,4 +46,11 @@ Role required: sn\_tm\_core.analyst, sn\_tm\_core.power\_user, sn\_tm\_core.admi
 ## What to do next
 
 Share the analysis with interested process owners by adding shared users to the project. For more information, see [Share a Task Mining analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/task-mining/share-projects.md).
+
+**Related topics**  
+
+
+[Task Mining analyses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/task-mining/task-mining-dashboard.md)
+
+[Categorize workstation activities to simplify analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/task-mining/define-default-categorization-rules.md)
 

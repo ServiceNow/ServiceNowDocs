@@ -33,7 +33,7 @@ See [Exploring Workforce Optimization for Customer Service](https://raw.githubus
 
 ## Activation information
 
-Install Workforce Optimization for Customer Service by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install Workforce Optimization for Customer Service by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Accessibility information
 
@@ -41,11 +41,11 @@ Screen reader support has been extended to ARIA labels for buttons in CSM Workfo
 
 ## Related ServiceNow applications and features
 
--   **[Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/awa-overview.md)**
+-   **Advanced Work Assignment**
 
     Automatically assign work items to your agents based on their availability, capacity, and skills using ServiceNow® Advanced Work Assignment.
 
--   **[Skills Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/skills-management.md)**
+-   **Skills Management**
 
     Assess the skills that your organization needs, identify gaps, and plan for the hiring and training of your teams using ServiceNow® Skills Management.
 

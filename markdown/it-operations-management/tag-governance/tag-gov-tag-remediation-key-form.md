@@ -9,7 +9,7 @@ classification: tag-governance
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Tag Governance reference, Tag Governance, ITOM Visibility, IT Operations Management]
+breadcrumb: [Reference, Tag Governance, ITOM Visibility, IT Operations Management]
 ---
 
 # Tag Remediation Key form

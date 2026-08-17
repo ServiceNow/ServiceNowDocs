@@ -1,5 +1,5 @@
 ---
-title: Generate closure notes for a security incident with Now Assist for Security Incident Response
+title: Generate closure notes for a security incident with ServiceNow Otto for Security Incident Response \(SIR\)
 description: Automatically generate a draft of the closure notes for a security incident when you close it. The draft is editable and will be reviewed prior to closing the security incident, and it can be used or modified as needed. Closure notes provide information about the resolution of a security incident to other analysts, managers, and key stakeholders.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/now-assist-for-security-incident-response-sir/generate-closure-notes-si-now-assist-sec-incident.html
@@ -10,10 +10,10 @@ topic_type: task
 last_updated: "2026-01-14"
 reading_time_minutes: 3
 keywords: [Now Assist Security Operations]
-breadcrumb: [Use generative AI skills, Now Assist for Security Incident Response, Security Operations]
+breadcrumb: [Use generative AI skills, ServiceNow Otto for Security Incident Response \(SIR\), Security Operations]
 ---
 
-# Generate closure notes for a security incident with Now Assist for Security Incident Response
+# Generate closure notes for a security incident with ServiceNow Otto for Security Incident Response \(SIR\)
 
 Automatically generate a draft of the closure notes for a security incident when you close it. The draft is editable and will be reviewed prior to closing the security incident, and it can be used or modified as needed. Closure notes provide information about the resolution of a security incident to other analysts, managers, and key stakeholders.
 
@@ -37,15 +37,15 @@ If the Close code or Close notes fields are already updated for a security incid
 
 3.  Close the security incident.
 
-<table id="choicetable_dkw_4rr_1cc"><thead><tr><th align="left" id="d293980e130">
+<table id="choicetable_dkw_4rr_1cc"><thead><tr><th align="left" id="d297024e130">
 
 Option
 
-</th><th align="left" id="d293980e133">
+</th><th align="left" id="d297024e133">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d293980e139">
+</th></tr></thead><tbody><tr><td id="d297024e139">
 
 **Close the security incident in legacy Core UI16**
 
@@ -66,7 +66,7 @@ The resolution summary is displayed in the Resolution Information section on the
 
 **Note:** Using the Now Assist Context menu, you can directly add or generate the resolution notes in the **Close notes** section on the incident record itself, when the incident is in the **Review** state. For more information, see the screen shot below.
 
-</td></tr><tr><td id="d293980e209">
+</td></tr><tr><td id="d297024e209">
 
 **Close the security incident from the Security Incident Response Workspace**
 

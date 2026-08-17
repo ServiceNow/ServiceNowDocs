@@ -9,7 +9,7 @@ classification: now-assist-for-financial-services-operations-fso
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Submit a dispute case with Disputes intake via Virtual Agent, Using generative AI, Now Assist for Financial Services Operations \(FSO\)]
+breadcrumb: [Submit a dispute case with Disputes intake via Virtual Agent, Using generative AI, ServiceNow Otto for Financial Services Operations \(FSO\)]
 ---
 
 # Resume a Disputes intake via Virtual Agent dispute case as a customer

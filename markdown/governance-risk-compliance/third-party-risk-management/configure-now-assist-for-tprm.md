@@ -1,6 +1,6 @@
 ---
-title: Configure Now Assist for Third-party Risk Management \(TPRM\)
-description: If you have the admin role, you can configure the Now Assist for Third-party Risk Management \(TPRM\) application so that agents can use the generative AI capabilities in Vendor Management Workspace and Core UI.
+title: Configure ServiceNow Otto for Third-party Risk Management \(TPRM\)
+description: If you have the admin role, you can configure the ServiceNow Otto for Third-party Risk Management \(TPRM\) application so that agents can use the generative AI capabilities in Vendor Management Workspace and Core UI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/third-party-risk-management/configure-now-assist-for-tprm.html
 release: yokohama
@@ -13,21 +13,21 @@ keywords: [configure, Now Assist, Agentic AI, generative AI, Gen AI]
 breadcrumb: [Now Assist, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
 
-# Configure Now Assist for Third-party Risk Management \(TPRM\)
+# Configure ServiceNow Otto for Third-party Risk Management \(TPRM\)
 
-If you have the admin role, you can configure the Now Assist for Third-party Risk Management \(TPRM\) application so that agents can use the generative AI capabilities in Vendor Management Workspace and Core UI.
+If you have the admin role, you can configure the ServiceNow Otto for Third-party Risk Management \(TPRM\) application so that agents can use the generative AI capabilities in Vendor Management Workspace and Core UI.
 
-## Now Assist for Third-party Risk Management \(TPRM\) configuration overview
+## ServiceNow Otto for Third-party Risk Management \(TPRM\) configuration overview
 
-**Important:** After installing Now Assist for TPRM, all Now Assist for TPRM skills are activated by default.
+**Important:** After installing ServiceNow Otto for TPRM, all ServiceNow Otto for TPRM skills are activated by default.
 
-Use the Now Assist Admin console to configure Now Assist for TPRM. This console contains everything that you need to install plugins and configure the generative AI skills. For additional information, see [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configuring-now-assist.md).
+Use the AI Admin Hub console to configure ServiceNow Otto for TPRM. This console contains everything that you need to install plugins and configure the generative AI skills. For additional information, see [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configuring-now-assist.md).
 
 For earlier versions, go to [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/application-manager.md) to upgrade it to a later version.
 
 For information about configuring generative AI skills and prompts, see [Configuring Now Assist settings and features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configuring-na-landing.md).
 
-Install the Now Assist for TPRM \(sn\_tprm\_gen\_ai\) application.
+Install the ServiceNow Otto for TPRM \(sn\_tprm\_gen\_ai\) application.
 
 For information about the installation process, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 

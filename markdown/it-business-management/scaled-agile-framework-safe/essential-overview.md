@@ -1,6 +1,6 @@
 ---
 title: Essential SAFe
-description: With Essential SAFe, you can apply lean and agile principles to your Agile Release Trains and teams, and develop and deliver work with fewer defects in the shortest viable lead time.
+description: Apply lean and agile principles to your Agile Release Trains and teams, and develop and deliver work with fewer defects in the shortest viable lead time.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/scaled-agile-framework-safe/essential-overview.html
 release: yokohama
@@ -14,9 +14,9 @@ breadcrumb: [Scaled Agile Framework \(SAFe\), Strategic Portfolio Management]
 
 # Essential SAFe
 
-With Essential SAFe, you can apply lean and agile principles to your Agile Release Trains and teams, and develop and deliver work with fewer defects in the shortest viable lead time.
+Apply lean and agile principles to your Agile Release Trains and teams, and develop and deliver work with fewer defects in the shortest viable lead time.
 
-Essential SAFe is the most basic configuration of SAFe that works in two levels for both product managers and team members. At the Agile Release Train \(ART\) level, product managers can capture and prioritize features in a centralized backlog, and monitor the progress of features in a visual task board.
+Essential SAFe is the most basic configuration of SAFe that works in two levels for both product managers and team members. At the Agile Release Train \(ART\) level, product managers can capture and prioritize features in a centralized backlog. They can also monitor the progress of features in a visual task board.
 
 At the Team level, team members can implement stories that are decomposed from features. To learn more about the levels, see the SAFe Board section below.
 

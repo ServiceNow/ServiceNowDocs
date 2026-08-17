@@ -1,6 +1,6 @@
 ---
 title: Review TRM lifecycle status in TPM
-description: View the TRM lifecycle information along with the risk and technical debt information in the Technology Portfolio Management page.
+description: View the TRM lifecycle information along with the risk and technical debt information in the Technology Lifecycle Management page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/review-trm-status-tpm-view.html
 release: yokohama
@@ -12,7 +12,7 @@ breadcrumb: [Use, Enterprise Architecture \(formerly Application Portfolio Manag
 
 # Review TRM lifecycle status in TPM
 
-View the TRM lifecycle information along with the risk and technical debt information in the Technology Portfolio Management page.
+View the TRM lifecycle information along with the risk and technical debt information in the Technology Lifecycle Management page.
 
 ## Before you begin
 
@@ -20,7 +20,7 @@ Role required: sn\_apm.apm\_analyst
 
 ## About this task
 
-The lines in the TPM screen indicate the life cycles of the product versions. The lines are color coded, which indicates the stages of risk that the software model is in, at that month or quarter. The TPM page helps you to view the status of business applications and their technical debts.
+The lines in the TLM screen indicate the life cycles of the product versions. The lines are color coded, which indicates the stages of risk that the software model is in, at that month or quarter. The TLM page helps you to view the status of business applications and their technical debts.
 
 ## Procedure
 

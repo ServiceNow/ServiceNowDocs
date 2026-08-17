@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2025-11-11"
 reading_time_minutes: 1
 keywords: [AI agent, Now Assist]
-breadcrumb: [Using AI agents in Now Assist for Accounts Payable Operations, Now Assist for Accounts Payable Operations \(APO\), Accounts Payable Operations, Finance and Supply Chain]
+breadcrumb: [Using AI agents in Now Assist for Accounts Payable Operations, ServiceNow Otto for Accounts Payable Operations \(APO\), Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Recommend invoice owner AI agent

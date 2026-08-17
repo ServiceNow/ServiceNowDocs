@@ -1,5 +1,5 @@
 ---
-title: Install Now Assist for Accounts Payable Operations \(APO\)
+title: Install ServiceNow Otto for Accounts Payable Operations \(APO\)
 description: Install the APO plugin \[sn\_ap\_gen\_ai\] so that an accounts payable \(AP\) fulfiller can use the generative AI skills in Source-to-Pay Workspace and in Core UI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/accounts-payable-operations/install-now-assist-apo.html
@@ -9,10 +9,10 @@ classification: accounts-payable-operations
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 3
-breadcrumb: [Configure Now Assist for Accounts Payable Operations \(APO\), Now Assist for Accounts Payable Operations \(APO\), Accounts Payable Operations, Finance and Supply Chain]
+breadcrumb: [Configure ServiceNow Otto for Accounts Payable Operations \(APO\), ServiceNow Otto for Accounts Payable Operations \(APO\), Accounts Payable Operations, Finance and Supply Chain]
 ---
 
-# Install Now Assist for Accounts Payable Operations \(APO\)
+# Install ServiceNow Otto for Accounts Payable Operations \(APO\)
 
 Install the APO plugin \[sn\_ap\_gen\_ai\] so that an accounts payable \(AP\) fulfiller can use the generative AI skills in Source-to-Pay Workspace and in Core UI.
 
@@ -24,7 +24,7 @@ Install the Document Intelligence for Accounts Payable Operations Content Pack f
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Features** to access the **Now Assist Features** tab of the Now Assist Admin console.
+1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Features** to access the **Now Assist Features** tab of the AI Admin Hub console.
 
 2.  Expand the **Finance and Supply Chain** workflow group and select **Accounts Payable Operations**.
 
@@ -54,15 +54,15 @@ Install the Document Intelligence for Accounts Payable Operations Content Pack f
 
     6.  Select **Define Availability** and choose one of the following options.
 
-<table id="choicetable_rhm_hxq_1fc"><thead><tr><th align="left" id="d141801e258">
+<table id="choicetable_rhm_hxq_1fc"><thead><tr><th align="left" id="d141702e258">
 
 Option
 
-</th><th align="left" id="d141801e261">
+</th><th align="left" id="d141702e261">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d141801e267">
+</th></tr></thead><tbody><tr><td id="d141702e267">
 
 **Skill is always available**
 
@@ -70,7 +70,7 @@ Description
 
 The skill is always available to users.
 
-</td></tr><tr><td id="d141801e276">
+</td></tr><tr><td id="d141702e276">
 
 **Customize skill availability**
 
@@ -83,15 +83,15 @@ The skill is available only when the certain conditions are met \(default\).Use 
 
     2.  Choose **Select display** to determine where you'd like to display the skill.
 
-<table id="choicetable_fhc_qxq_1fc"><thead><tr><th align="left" id="d141801e312">
+<table id="choicetable_fhc_qxq_1fc"><thead><tr><th align="left" id="d141702e312">
 
 Option
 
-</th><th align="left" id="d141801e315">
+</th><th align="left" id="d141702e315">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d141801e321">
+</th></tr></thead><tbody><tr><td id="d141702e321">
 
 **In-product desktop**
 
@@ -99,7 +99,7 @@ Description
 
 Now Assist skills are displayed on forms and workspaces.
 
-</td></tr><tr><td id="d141801e332">
+</td></tr><tr><td id="d141702e332">
 
 **Now Assist panel**
 

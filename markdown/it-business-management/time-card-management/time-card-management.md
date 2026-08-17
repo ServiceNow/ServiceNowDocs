@@ -8,7 +8,7 @@ product: Time Card Management
 classification: time-card-management
 topic_type: concept
 last_updated: "2025-01-30"
-reading_time_minutes: 5
+reading_time_minutes: 6
 breadcrumb: [Project Portfolio Management, Strategic Portfolio Management]
 ---
 
@@ -37,6 +37,14 @@ With the Time Card Management feature:
 -   The time card admin can create and manage [time sheet policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/time-card-management/create-time-sheet-policy.md), and can also approve or reject by exception and process the time sheets. Time card admin can also create or edit time cards of any users if the time cards are in Pending or Rejected state.
 
 **Note:** The [Time Card Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/time-card-management/t_ActivateTimeCardManagement.md) is required to use time cards. Some of the procedures require the project management feature, which activates time cards automatically. For more information, see [Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/c_ProjectApplicationOverview.md) \(com.snc.financial\_planning\_pmo\).
+
+## Assign a time card user to a project or project task
+
+A user who has only the timecard\_user role, and no project role such as it\_project\_user, can be selected in the **Assigned to** field of a project or project task. This behavior is intentional and lets the user submit time against the assigned task from the Time Sheet Portal.
+
+Being assigned to the record gives the time card user read-only access to it. The user can't edit, close, or reassign the project or project task unless they also have a project role such as it\_project\_user.
+
+**Note:** The Business Stakeholder role includes the timecard\_user role. As a result, a user who has the Business Stakeholder role can also be selected in the **Assigned to** field of a project or project task, with the same read-only access. To stop time card users from appearing in the **Assigned to** field, override the reference qualifier on the **Assigned to** field of the project or project task table.
 
 ## Domain separation in Time Card Management
 

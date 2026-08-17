@@ -28,7 +28,7 @@ Ask you administrator to configure the display fields and the knowledge base \(K
 
 ## Prerequisites and setup
 
-To access this AI agent, you must have Now Assist Agent for Requester \(version 3 of the standard plugin\) installed on your instance, which is installed with Now Assist for Platform. You can get Now Assist for Platform when you install any other Now Assist application, such as Now Assist for IT Service Management \(ITSM\).
+To access this AI agent, you must have Now Assist Agent for Requester \(version 3 of the standard plugin\) installed on your instance, which is installed with Now Assist for Platform. You can get Now Assist for Platform when you install any other Now Assist application, such as ServiceNow Otto for IT Service Management \(ITSM\).
 
 The Approval assistance AI agent displays data from the Approvals \[sysapproval\_approver\] table. If the user has been assigned to approve a request, the approval record is shown.
 

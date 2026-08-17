@@ -91,5 +91,5 @@ Configure a space card in the Location Directory, Kiosk Indoor Mapping, or Reser
 
 [Location migration]()
 
-[View workplace service usage analytics with Usage Insights]()
+[View workplace service usage analytics with User Experience Analytics]()
 

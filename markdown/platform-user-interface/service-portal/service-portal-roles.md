@@ -1,6 +1,6 @@
 ---
 title: Service Portal roles
-description: Service Portal installs these roles.Manages the configuration of portals created by Service Portal.Manages posting announcements to portals.Can create Usage Insights settings for Service Portal.Users with this role can view the Analytics Dashboard link and settings within in the application navigator, and have viewer role permissions for portal metrics in the Service Portal Analytics Dashboard.
+description: Service Portal installs these roles.Manages the configuration of portals created by Service Portal.Manages posting announcements to portals.Can create User Experience Analytics settings for Service Portal.Users with this role can view the Analytics Dashboard link and settings within in the application navigator, and have viewer role permissions for portal metrics in the Service Portal Analytics Dashboard.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/service-portal/service-portal-roles.html
 release: yokohama
@@ -65,7 +65,7 @@ None.
 
 ## Portal analytics administrator \[portal\_analytics\_admin\]
 
-Can create Usage Insights settings for Service Portal.
+Can create User Experience Analytics settings for Service Portal.
 
 ### Contains Roles
 

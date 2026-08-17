@@ -18,7 +18,7 @@ Use this dashboard to track the average duration of change requests in the last 
 
 **Important:**
 
-Starting in Xanadu release, the Change dashboard is deprecated. Users can use [Change dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change.md) to view, and track the open changes.
+Starting in Xanadu release, the Core UI Change Velocity dashboard is deprecated. You can use Platform Analytics [Change Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change.md) to view, and track the open changes.
 
 The Change Velocity dashboard is divided into the following tabs for effective usage. The ServiceNow® Performance Analytics capability in the Change Velocity dashboard provides the following benefits:
 

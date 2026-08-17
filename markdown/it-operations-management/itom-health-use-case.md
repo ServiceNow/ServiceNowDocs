@@ -1,26 +1,32 @@
 ---
-title: ITOM AIOps and CSDM tables
-description: ITOM AIOps leverages and maintains CSDM tables, while various ServiceNow products enhance and contribute value to its operations.
+title: CMDB tables used by ITOM AIOps
+description: ITOM AIOps relies on accurate data in CMDB tables to function as expected. Following CSDM guidelines when populating these tables improves the accuracy of service mapping and helps route alerts and incidents correctly.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/itom-health-use-case.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Applying the CSDM guidelines to ITOM AIOps, ITOM AIOps, IT Operations Management]
+keywords: [CMDB tables, CSDM v5, service mapping, CI, configuration items, service instance, Mapped Service Instance table, Configuration Item table, Dynamic CI Group table, alert routing, incident routing]
+breadcrumb: [Applying the CSDM guidelines to ITOM AIOps, ITOM Health, IT Operations Management]
 ---
 
-# ITOM AIOps and CSDM tables
+# CMDB tables used by ITOM AIOps
 
-ITOM AIOps leverages and maintains CSDM tables, while various ServiceNow products enhance and contribute value to its operations.
+ITOM AIOps relies on accurate data in CMDB tables to function as expected. Following CSDM guidelines when populating these tables improves the accuracy of service mapping and helps route alerts and incidents correctly.
 
-## CSDM tables managed by ITOM AIOps
+ITOM AIOps uses the following CMDB tables:
 
-ITOM AIOps manages the following tables:
+-   Mapped Application Service table `[cmdb_ci_service_discovered]`
 
--   Mapped Application Service table \[cmdb\_ci\_service\_discovered\]
--   Configuration Item table \[ci\_\*\]
--   Dynamic CI Group table \[cmdb\_ci\_query\_based\_service\]
+    **Note:** With CSDM v5, the label for the table has changed from Application Service to Service Instance.
 
-\[Omitted image "itom-managed-tables-4.png"\] Alt text: CSDM tables managed by ITOM.
+-   Configuration Item table `[ci_*]`
+-   Dynamic CI Group table `[cmdb_ci_query_based_service]`
+
+The diagram shows a conceptual map of CMDB tables and their relationships, structured according to CSDM guidelines. ITOM AIOps uses only the highlighted elements: the Service Instance table `[cmdb_ci_service_discovered]` and the Dynamic CI Group table `[cmdb_ci_query_based_service]`. The Configuration Item table `[ci_*]` is not highlighted separately, as it represents the broader CI class hierarchy that underlies most elements in the model. The remaining elements in the model support other ServiceNow products and processes, and are shown here for reference only.
+
+\[Omitted image "itom-managed-tables-CSDM-v5.png"\] Alt text: CMDB tables used by ITOM AIOps within the CSDM v5 model.
+
+For more information on the CSDM framework, see [Exploring the CSDM framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/csdm-content-frame-exploring.md).
 

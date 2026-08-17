@@ -1,6 +1,6 @@
 ---
-title: Configuring Service Exchange Now Assist for Telecommunications, Media and Technology \(TMT\)
-description: Configure the Now Assist for Telecommunications, Media and Technology \(TMT\) application so that enterprise providers can use the Service Exchange Mapping Assist feature in the Core UI.
+title: Configuring Service Exchange ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
+description: Configure the ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) application so that enterprise providers can use the Service Exchange Mapping Assist feature in the Core UI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-configuring-servicebridge.html
 release: yokohama
@@ -9,12 +9,12 @@ classification: now-assist-for-telecom-media-and-technology
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configure, Now Assist for Telecommunications, Media and Technology \(TMT\), Telecommunications, Media, and Technology]
+breadcrumb: [Configure, ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\), Telecommunications, Media, and Technology]
 ---
 
-# Configuring Service Exchange Now Assist for Telecommunications, Media and Technology \(TMT\)
+# Configuring Service Exchange ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
 
-Configure the Now Assist for Telecommunications, Media and Technology \(TMT\) application so that enterprise providers can use the Service Exchange Mapping Assist feature in the Core UI.
+Configure the ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) application so that enterprise providers can use the Service Exchange Mapping Assist feature in the Core UI.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: admin
 
 ## Procedure
 
-1.  Install the Now Assist for Telecommunications, Media and Technology \(TMT\) plugin \(sn\_tmt\_gen\_ai\).
+1.  Install the ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) plugin \(sn\_tmt\_gen\_ai\).
 
     -   For information about the plugin dependencies and plugin activation order, see [Application information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-supporting-info.md).
     -   For information about the installation process, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).

@@ -52,8 +52,8 @@ As a workplace admin, you can create knowledge base articles for employees. In t
 Generate and print QR codes for spaces and rooms. Employees can use these codes to make reservation-related actions on the Now Mobile app.
 -   **[Location migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-core/location-migration.md)**  
 Learn how to migrate location data from the ServiceNow Locations table to the Workplace Location table to use them in Workplace Service Delivery applications.
--   **[View workplace service usage analytics with Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-core/appsee-intergration-wsd.md)**  
-The ServiceNow® Usage Insights provides you with qualitative analytics on how the services provided by the Workplace Service Delivery applications are used by the workplace managers, employees, and other workplace users.
+-   **[View workplace service usage analytics with User Experience Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-core/appsee-intergration-wsd.md)**  
+The ServiceNow® User Experience Analytics provides you with qualitative analytics on how the services provided by the Workplace Service Delivery applications are used by the workplace managers, employees, and other workplace users.
 
 **Parent Topic:**[Workplace Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-core/workplace-service-delivery-feat.md)
 

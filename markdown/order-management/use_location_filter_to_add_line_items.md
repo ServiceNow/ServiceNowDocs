@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/use\_location\_filter\_to\_add\_line\_items.html
 release: yokohama
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 1
 breadcrumb: [Location-based transactions for Opportunity Management, Using Opportunity Management, Using Sales Customer Relationship Management applications, Sales Customer Relationship Management]
 ---

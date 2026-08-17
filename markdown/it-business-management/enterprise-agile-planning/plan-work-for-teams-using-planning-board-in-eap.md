@@ -1,6 +1,6 @@
 ---
 title: Plan work for an ART in EAP
-description: Plan work across all teams in an ART for multiple Planning Intervals, coordinate with different teams to manage dependencies and resolve blockers in real-time using the Planning board in Enterprise Agile Planning.
+description: Plan work across all teams in an ART for multiple Planning Intervals. Coordinate with different teams to manage dependencies and resolve blockers in real-time using the Planning board in Enterprise Agile Planning.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/enterprise-agile-planning/plan-work-for-teams-using-planning-board-in-eap.html
 release: yokohama
@@ -14,7 +14,7 @@ breadcrumb: [Perform PI planning, Use, Enterprise Agile Planning, Strategic Plan
 
 # Plan work for an ART in EAP
 
-Plan work across all teams in an ART for multiple Planning Intervals, coordinate with different teams to manage dependencies and resolve blockers in real-time using the Planning board in Enterprise Agile Planning.
+Plan work across all teams in an ART for multiple Planning Intervals. Coordinate with different teams to manage dependencies and resolve blockers in real-time using the Planning board in Enterprise Agile Planning.
 
 ## Before you begin
 

@@ -41,7 +41,7 @@ Create a child connection &amp; credential alias that will be used to connect to
 -   **[Create Personal Access Token in Jira for SPW Jira Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/strategic-planning/create-personal-access-token-pat-in-jira-server-data-center.md)**  
 Create a Personal Access Token \(PAT\) for your Jira Server/Data Center instance, which is later used to create a connection between Strategic Planning and Jira.
 -   **[Create connection and credentials for SPW Jira Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/strategic-planning/create-connection-and-credentials.md)**  
-Using your Jira instance details, create a connection and credential for the child alias, which is used to enable the two-way sync of work item updates between Strategic Planning Workspace and Jira.
+Using your Jira instance details, create a connection and credential for the child alias. This alias is used to enable the two-way sync of work item updates between Strategic Planning Workspace and Jira.
 -   **[Create Jira instance for SPW Jira Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/strategic-planning/create-jira-instance.md)**  
 Create a Jira instance record which is later used to connect Strategic Planning Workspace and Jira.
 

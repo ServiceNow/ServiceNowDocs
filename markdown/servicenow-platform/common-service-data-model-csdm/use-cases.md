@@ -44,7 +44,7 @@ The following topics identify the specific CMDB tables that the products update 
 
     [Common Service Data Model framework for Install Base Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/csdm-framework-for-install-base-management.md)
 
--   **ITOM AIOps**
+-   **ITOM Health**
 
     [Applying the CSDM guidelines to ITOM AIOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/itom-health-use-case-product-view.md)
 

@@ -28,15 +28,15 @@ Role required: resource\_user, resource\_manager, It\_project\_manager
 
 3.  Create resource assignments using one of the following options.
 
-<table id="choicetable_ibq_nxx_bcc"><thead><tr><th align="left" id="d202713e89">
+<table id="choicetable_ibq_nxx_bcc"><thead><tr><th align="left" id="d202340e89">
 
 Option
 
-</th><th align="left" id="d202713e92">
+</th><th align="left" id="d202340e92">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d202713e98">
+</th></tr></thead><tbody><tr><td id="d202340e98">
 
 **Create a resource assignment**
 
@@ -47,7 +47,7 @@ Procedure
 
 For a description of the field names, see [New Resource Assignment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/create-ra-form-rmw.md).
 
-</td></tr><tr><td id="d202713e134">
+</td></tr><tr><td id="d202340e134">
 
 **Create operational resource assignment**
 
@@ -66,7 +66,7 @@ For a description of the field names, see [New Operational Assignment form](http
 
 Resource assignment is created. You can filter and view this assignment in the lower tray of Unassigned tasks.
 
-If an assignment is made for a resource from the resource board and if it's within the selected date range, the assignment shows up nested under the selected resource in real-time.
+An assignment made for a resource from the resource board must be within the selected date range. If so, it shows up nested under the selected resource in real-time.
 
 **Parent Topic:**[Using Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/using-rmw.md)
 

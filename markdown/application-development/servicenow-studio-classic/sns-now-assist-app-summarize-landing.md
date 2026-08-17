@@ -1,6 +1,6 @@
 ---
 title: Now Assist for app summary generation in ServiceNow Studio
-description: Use the ServiceNow Now Assist for Creator application to use generative AI for summarizing an app. With a single button, Now Assist for Creator generates the app summary that you can then copy to the app description, or use to find duplicate apps.
+description: Use the ServiceNow ServiceNow Otto for Creator application to use generative AI for summarizing an app. With a single button, ServiceNow Otto for Creator generates the app summary that you can then copy to the app description, or use to find duplicate apps.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/servicenow-studio-classic/sns-now-assist-app-summarize-landing.html
 release: yokohama
@@ -15,7 +15,7 @@ breadcrumb: [Using ServiceNow Studio, Building applications with ServiceNow Stud
 
 # Now Assist for app summary generation in ServiceNow Studio
 
-Use the ServiceNow® Now Assist for Creator application to use generative AI for summarizing an app. With a single button, Now Assist for Creator generates the app summary that you can then copy to the app description, or use to find duplicate apps.
+Use the ServiceNow® ServiceNow Otto for Creator application to use generative AI for summarizing an app. With a single button, ServiceNow Otto for Creator generates the app summary that you can then copy to the app description, or use to find duplicate apps.
 
 \[Omitted image "now-assist-app-summary.png"\] Alt text: Summarize what an app does
 
@@ -71,13 +71,13 @@ This application requires data to be transferred from ServiceNow customers' indi
 ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information about applications \(and associated application files\) in which App generation was utilized. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
 -   **[Exploring Now Assist for app summary generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/sns-exploring-now-assist-app-summarize.md)**  
-With the Now Assist for Creator application, you can generate a summary of an app. You can then copy the summary to the description for the app, and use it to check for duplicate apps.
+With the ServiceNow Otto for Creator application, you can generate a summary of an app. You can then copy the summary to the description for the app, and use it to check for duplicate apps.
 -   **[Configuring Now Assist for app summary generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/sns-config-now-assis-app-summarize.md)**  
-Enable the app summary generation skill in the Now Assist for Creator application so that you can get started with summarizing applications.
+Enable the app summary generation skill in the ServiceNow Otto for Creator application so that you can get started with summarizing applications.
 -   **[Summarize the contents of an app in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/summarize-an-app-in-servicenow-studio.md)**  
-Generate a summary of your app using Now Assist for Creator in ServiceNow Studio. After reviewing the summary, you can use it as a description for your app.
+Generate a summary of your app using ServiceNow Otto for Creator in ServiceNow Studio. After reviewing the summary, you can use it as a description for your app.
 -   **[Now Assist for app summary generation reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/sns-now-assist-app-summarize-reference.md)**  
-The following roles are required for use with the Now Assist for Creator app summary generation skill.
+The following roles are required for use with the ServiceNow Otto for Creator app summary generation skill.
 
 **Parent Topic:**[Using ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/using-servicenow-studio.md)
 

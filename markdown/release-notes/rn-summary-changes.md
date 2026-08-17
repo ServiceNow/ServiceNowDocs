@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/rn-summa
 release: yokohama
 topic_type: reference
 last_updated: "2026-06-13"
-reading_time_minutes: 135
+reading_time_minutes: 133
 breadcrumb: [Release notes summaries for Yokohama features, Release notes for upgrading from Xanadu, Learn about the Yokohama release, Yokohama release notes]
 ---
 
@@ -30,17 +30,17 @@ AI Control Tower
 
 </td><td>
 
--   **[Changes to Now Assist usage measurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/monitoring-now-assist-usage.md)**
+-   **Changes to Now Assist usage measurement**
 
 Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
--   **[Some Now Assist skills are turned on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md)**
+-   **Some Now Assist skills are turned on by default**
 
 The new default behavior works as follows:
 
     -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
     -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
--   **[Configure ACLs for AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/aia-security-implementation.md)**
+-   **Configure ACLs for AI agents and agentic workflows**
 
 Configure the access control lists for who can discover and trigger AI agents and agentic workflows in their guided setups in AI Agent Studio. You can determine whether an AI agent or agentic workflow behaves as a dynamic user or as an AI user. You can also specify if an AI agent or agentic workflow can be available to all authenticated users or publicly available.
 
@@ -51,32 +51,32 @@ AI Search
 
 </td><td>
 
--   **[Now Assist Multi-Content Response Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/now-assist-multi-content-qna-genius-results.md)**
+-   ****
 
 If you have Now Assist in AI Search installed, Now Assist Multi-Content Response Genius Results are supported in global and workspace search. Activating Now Assist Multi-Content Response Genius Results in global or workspace search profiles overrides all other Genius Result configurations, so that global and workspace searches only display Genius Result answers from Now Assist Multi-Content Response Genius Results. Virtual Agent topic citations from Now Assist Multi-Content Response Genius Result answers in global or workspace search open the selected topic in the Now Assist panel so the user can continue their conversation on that topic.
 
--   **[Search Suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/search-suggestions-overview.md)**
+-   ****
 
 Search administrators with the ais\_admin granular admin role can access all Search Suggestions tables. Assign search administrators this role to eliminate needless propagation of full admin access.
 
--   **[Gain insights into search behavior with a refreshed and updated Search Preview UI.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/search-preview-ui-new.md)**
+-   **Gain insights into search behavior with a refreshed and updated Search Preview UI.**
 
 Preview search query results using settings from a search application configuration or a search profile. Choose between keyword and hybrid search modes. Display search results as individual EVAM cards or as a JSON-format search query response object, with search and syntax highlighting. Review search query behavior and results and specify search query settings with the new Summary, Genius Results, Details, and Profile admin tools.
 
 
--   **[Consumer-grade search experience for search portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/viewing-search-results-ais.md)**
+-   **Consumer-grade search experience for search portals**
 
 The search results page for search portals has been revised to offer a more intuitive and consistent experience. Navigation tabs have been replaced with source facet buckets. All search results now open in a new browser tab, preserving your search in the existing browser tab. Facet buckets now show minimum search result counts, reflecting results removed by late binding content security. Search terms are no longer highlighted in search results.
 
--   **[Consumer-grade search experience for global search and workspace search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/using-ais-next-experience-app.md)**
+-   **Consumer-grade search experience for global search and workspace search**
 
 The search results page for global search and workspace search has been revised to offer a more intuitive and consistent experience. Navigation tabs have been replaced with source facet buckets. All search results now open in a new browser tab, preserving your search in the existing browser tab. Facet buckets now show minimum search result counts, reflecting results removed by late binding content security. A new **glide.ui.ais.show\_all\_facets** system property enables you to display facets from all sources when no source is selected. \(The default behavior is to hide facets until a source is selected.\) Search terms are no longer highlighted in search results.
 
--   **[Sort facet buckets alphabetically](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/create-facet-ais.md)**
+-   **Sort facet buckets alphabetically**
 
 Override the default sorting of facet buckets by their search result counts and display them sorted alphabetically by their labels.
 
--   **[Improved display for grouped attachment search results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/grouping-attachment-srch-results-ais.md)**
+-   **Improved display for grouped attachment search results**
 
 When grouped with their parent search results, attachment search results now appear in collapsed form to save space. If a parent search result includes more than three grouped attachments, you can use the new **Show more** and **Show less** links to control how many attachments are visible.
 
@@ -97,7 +97,7 @@ Methods
 
 </th></tr></thead><tbody><tr><td>
 
-[PDFGenerationAPI - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/PDFGenerationAPIBothAPI.md)
+
 
 </td><td>
 
@@ -119,7 +119,7 @@ Methods
 
 </th></tr></thead><tbody><tr><td>
 
-[PDFGenerationAPI - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/PDFGenerationAPIBothAPI.md)
+
 
 </td><td>
 
@@ -133,7 +133,7 @@ Methods
 </td></tr></tbody>
 </table>|API|Endpoints|
 |---|---------|
-|[Attachment API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/c_AttachmentAPI.md)|POST /now/attachment/file: A new parameter, creation\_time, can be used to capture attachment creation times when the Now Mobile app is offline and the attachment is uploaded to a record at a later time.|
+||POST /now/attachment/file: A new parameter, creation\_time, can be used to capture attachment creation times when the Now Mobile app is offline and the attachment is uploaded to a record at a later time.|
 
 <table id="table_lcr_kmc_tcc"><thead><tr><th>
 
@@ -161,7 +161,7 @@ V1.4
 
 </td><td>
 
-[LeadtoCashCore - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/LeadToCashCoreAPI.md)
+
 
 </td><td>
 
@@ -178,7 +178,7 @@ ATF Test Generator and Cloud Runner
 
 </td><td>
 
-[TestGenerationApi – startJob\(String tableEncodedQuery, String userEncodedQuery, String catalogEncodedQuery, Number maxTestCount, Number maxTestCountPerTable, Number maxTestCountPerItem, String email, Boolean separateUpdateSetPerScope, String scopeForGeneratingTests, String suiteName\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/cloudrnr-TestGenerationAPI-scoped.md)
+
 
 </td><td>
 
@@ -211,7 +211,7 @@ v1.2
 
 </td><td>
 
-[openFrameAPI - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/c_openFrameAPI.md)
+
 
 </td><td>
 
@@ -228,7 +228,7 @@ v2.9.0
 
 </td><td>
 
-[NowChatTheme interface - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/cllent-mobile-api-reference/NowChatThemeColorsAndroidInterface.md)
+
 
 </td><td>
 
@@ -244,7 +244,7 @@ v2.9.0
 
 </td><td>
 
-[NowWebTheme interface - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/cllent-mobile-api-reference/NowWebThemeAndroidInterface.md)
+
 
 </td><td>
 
@@ -260,7 +260,7 @@ v2.9.0
 
 </td><td>
 
-[NowChatThemeable protocol - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/cllent-mobile-api-reference/NowChatThemeableiOSProtocol.md)
+
 
 </td><td>
 
@@ -276,7 +276,7 @@ v2.9.0
 
 </td><td>
 
-[NowWebThemeable protocol - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/cllent-mobile-api-reference/NowWebThemeableiOSProtocol.md)
+
 
 </td><td>
 
@@ -285,7 +285,7 @@ Updated available web view UI color defaults.
 </td></tr></tbody>
 </table>|Application|App Version|Class|Methods|
 |-----------|-----------|-----|-------|
-|ATF Test Generator and Cloud Runner|2.7.2|[TestGenerationApi – startJob\(String tableEncodedQuery, String userEncodedQuery, String catalogEncodedQuery, Number maxTestCount, Number maxTestCountPerTable, Number maxTestCountPerItem, String email, Boolean separateUpdateSetPerScope, String scopeForGeneratingTests, String suiteName\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/cloudrnr-TestGenerationAPI-scoped.md)|Added the **testSuite** parameter allowing you to set the name of the new test suite that is created during test generation.|
+|ATF Test Generator and Cloud Runner|2.7.2||Added the **testSuite** parameter allowing you to set the name of the new test suite that is created during test generation.|
 
 <table id="table_nbf_qmc_tcc"><thead><tr><th>
 
@@ -313,7 +313,7 @@ v2.0.0
 
 </td><td>
 
-[AP Invoice API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/ap-invoice-api.md)
+
 
 </td><td>
 
@@ -330,7 +330,7 @@ ATF Test Generator and Cloud Runner
 
 </td><td>
 
-[Cloud Runner Test Generation - POST /now/sn\_atf\_tg/test\_generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/cloudrunner-testgeneration-api.md)
+
 
 </td><td>
 
@@ -346,7 +346,7 @@ v11.3.0
 
 </td><td>
 
-[Product Order Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/tmf622_product_ordering-api.md)
+
 
 </td><td>
 
@@ -365,7 +365,7 @@ v12.5.0
 
 </td><td>
 
-[Product Inventory Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/product-inventory-open-api.md)
+
 
 </td><td>
 
@@ -383,7 +383,7 @@ v14.1.0
 
 </td><td>
 
-[Product Catalog Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/product-catalog-open-api.md)
+
 
 </td><td>
 
@@ -425,7 +425,7 @@ Adoption Services
 
 </td><td>
 
--   **[Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/guided-setup.md)**
+-   ****
 
 Assign and transfer Guided Setup tasks to relevant users, for execution. This capability requires admin roles.
 
@@ -436,19 +436,19 @@ You can now run the Guided Setup player or builder multiple times.
 Select the multi-run feature while you’re configuring and executing the tasks multiple times.
 
 
--   **[Help Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/help-center.md)**
+-   ****
 
 Navigate to What's New within the Help Center panel across all experiences, including Core UI. Starting in the Yokohama release, configuration support for this new feature is available in classic and custom pages.
 
 This feature isn’t supported for non-Polaris users.
 
 
--   **[Embedded Help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/embedded-help.md)**
+-   ****
 
 Import non-English content without overriding the last uploaded language content.
 
 
--   **[Guided Tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/guided-tours.md)**
+-   ****
 
 Create, edit, or delete Guided Tours from any scoped application including ServiceNow AI Platform.
 
@@ -459,12 +459,12 @@ Advanced AI Search Management Tools
 
 </td><td>
 
--   **[AI Search analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-search-analytics-dashboard.md)**
+-   ****
 
 The performance metrics, trends, and charts for this dashboard have been refreshed to offer a cleaner visual experience.
 
 
--   **[AI Search analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-search-analytics-dashboard.md)**
+-   ****
 
 The **Date range** interactive filter now enables you to access data from the last 180 days, rather than the last 90 days.
 
@@ -475,13 +475,13 @@ Advanced Risk
 
 </td><td>
 
--   **[Some Now Assist skills are turned on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md)**
+-   **Some Now Assist skills are turned on by default**
 
 The new default behavior works as follows:
 
     -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
     -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
--   **[Changes to Now Assist usage measurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/monitoring-now-assist-usage.md)**
+-   **Changes to Now Assist usage measurement**
 
 Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
@@ -492,7 +492,7 @@ Agent Client Collector
 
 </td><td>
 
--   **[Explore metrics with Metric Explorer independent of Agent Client Collector Monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/agent-workspace-ops-intelligence.md)**
+-   **Explore metrics with Metric Explorer independent of Agent Client Collector Monitoring**
 
 Starting in version 4.1.0, view and monitor metric data with Metric Explorer, even if you have not installed Agent Client Collector Monitoring.
 
@@ -577,7 +577,7 @@ Application Manager
 
 </td><td>
 
--   **[Unlicensed application information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/available-for-you-app-mgr.md)**
+-   **Unlicensed application information**
 
 In addition to details about applications that are already licensed, the "Available for you" tab of the Application Manager now includes information about applications that haven't been procured from the ServiceNow Store yet.
 
@@ -588,7 +588,7 @@ Audit Management
 
 </td><td>
 
--   **[Reflow for Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/auto-reflow.md)**
+-   ****
 
 The Audit Management configurable workspace supports reflow, which enables pages and content to be zoomed up to 400% through your browser settings without loss of content or functionality.
 
@@ -599,7 +599,7 @@ Authentication
 
 </td><td>
 
--   **[Multi-factor Authentication enforcement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/mfa-enforcement.md)**
+-   ****
 
 MFA is mandated and is enforced to all the non-SSO login users accessing ServiceNow®.
 
@@ -610,7 +610,7 @@ Business Continuity Management
 
 </td><td>
 
--   **[Using latest assessment template for conducting BIAs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/using-smart-asmt-template.md)**
+-   ****
 
 You can use the latest assessment template to conduct the Business Impact Analysis \(BIA\).
 
@@ -621,7 +621,7 @@ Case management for CSM
 
 </td><td>
 
--   **[Process mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/process-config-builder.md)**
+-   **Process mining**
 
 Use the process mining enhancements to improve processes as needed:
 
@@ -638,17 +638,17 @@ Code Signing
 
 </td><td>
 
--   **[Enhancements to the guardrails check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/cse-ppi-config.md)**
+-   **Enhancements to the guardrails check**
 
 The Code Signing Guardrails check has been improved to enhance signature verification, resulting in more secure workflows. In addition, multiple optimizations have been implemented to improve the performance benchmarks of the Guardrails scan, and log files now feature a more intuitive naming convention, which simplifies file identification within your system.
 
 
--   **[Generate update sets with a maximum size of 10,000 records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/cse-turn-on-cse.md)**
+-   **Generate update sets with a maximum size of 10,000 records**
 
 Code Signing now enforces limits on large update sets to improve the user experience. The maximum size for an update set is 10,000 records.
 
 
--   **[Naming updates for trusted and production instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/code-signing-landing.md)**
+-   **Naming updates for trusted and production instances**
 
 The trusted non-production instance has been renamed to trusted instance, and the protected production instance has been renamed to protected instance. These naming updates have been made to better align with customer usage.
 
@@ -675,7 +675,7 @@ Access task details when you open a task from an assignment email from CWM in a 
 
 Access the specific Doc page that you are @-mentioned in by selecting **View Doc** in the notification email, eliminating the need to look through multiple pages in the Doc.
 
--   **[Reflow for Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/auto-reflow.md)**
+-   ****
 
 The CWM workspace supports reflow, which enables pages and content to be zoomed up to 400% through your browser settings without loss of content or functionality.
 
@@ -686,22 +686,22 @@ Common Core
 
 </td><td>
 
--   **[Column Organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/create-an-audit-report-template.md)**
+-   **Column Organization**
 
 You can select and reorder columns when adding a table into your template by using the Document designer Microsoft Word add-in. You can now organize your content better to meet your reporting needs.
 
--   **[Create content configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/create-content-configurations.md)**
+-   ****
 
 You can add up to 20 columns in a table and content block by using the Document designer application. You now have more flexibility with customizing your table and content block to meet your reporting needs.
 
 
--   **[Some Now Assist skills are turned on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md)**
+-   **Some Now Assist skills are turned on by default**
 
 The new default behavior works as follows:
 
     -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
     -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
--   **[Changes to Now Assist usage measurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/monitoring-now-assist-usage.md)**
+-   **Changes to Now Assist usage measurement**
 
 Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
@@ -712,7 +712,7 @@ Compliance Case Management
 
 </td><td>
 
--   **[Roles updated for smart assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/roles-compliance-case-management.md)**
+-   **Roles updated for smart assessment**
 
 The following roles in Compliance Case Management have been updated with respect to smart assessments.
 
@@ -720,7 +720,7 @@ The following roles in Compliance Case Management have been updated with respect
     -   sn\_comp\_case.compliance\_case\_analyst
     -   sn\_comp\_case.compliance\_case\_business\_user
     -   sn\_comp\_case.compliance\_case\_manager
--   **[Reflow for Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/auto-reflow.md)**
+-   ****
 
 The Compliance Management configurable workspace supports reflow, which enables pages and content to be zoomed up to 400% through your browser settings without loss of content or functionality.
 
@@ -731,57 +731,57 @@ Configuration Management Database \(CMDB\)
 
 </td><td>
 
--   **[Access changes for the sn\_cmdb\_editor and sn\_cmdb\_admin user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/installed-with-cmdb-workspace.md)**
-    -   Starting with Yokohama Patch 4 \(zbooted or upgraded\), access has been reduced for the sn\_cmdb\_editor \(CMDB Editor\) and the sn\_cmdb\_admin \(CMDB Admin\) user roles which are used in [CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/cmdb-workspace.md). The sn\_cmdb\_editor and sn\_cmdb\_admin user roles no longer have create, update, or delete access to records in the Configuration Item \[cmdb\_ci\] class.
+-   **Access changes for the sn\_cmdb\_editor and sn\_cmdb\_admin user roles**
+    -   Starting with Yokohama Patch 4 \(zbooted or upgraded\), access has been reduced for the sn\_cmdb\_editor \(CMDB Editor\) and the sn\_cmdb\_admin \(CMDB Admin\) user roles which are used in CMDB Workspace. The sn\_cmdb\_editor and sn\_cmdb\_admin user roles no longer have create, update, or delete access to records in the Configuration Item \[cmdb\_ci\] class.
     -   Starting with Yokohama Patch 6 \(zbooted or upgraded\), you must manually run the scheduled job '**Remove CMDB Roles from ITIL roles and Add CUD access to sn\_cmdb\_admin/sn\_cmdb\_editor roles** to configure the sn\_cmdb\_admin and the sn\_cmdb\_editor user roles with the permissions that are necessary for performing some CMDB Workspace tasks.
 
 This scheduled job modifies user roles as follows:
 
         -   Updates the itil user role to no longer contain the sn\_cmdb\_editor user role, and updates the itil\_admin user role to no longer contain the sn\_cmdb\_admin user role.
         -   If those permissions don't exist, updates the sn\_cmdb\_admin and the sn\_cmdb\_editor user roles with create, update, and delete access to the Configuration Item \[cmdb\_ci\] class. For more information about the 'Remove CMDB Roles from ITIL roles and Add CUD access to sn\_cmdb\_admin/sn\_cmdb\_editor roles' scheduled job, see [Remove sn\_cmdb\_admin from itil\_admin and sn\_cmdb\_editor from itil, and then add create/update/delete access to cmdb\_ci table for sn\_cmdb\_admin / sn\_cmdb\_editor \[KB2290506\]](https://support.servicenow.com/kb_view_customer.do?sysparm_article=KB2290506).
--   **[CMDB Workspace v6.3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/cmdb-workspace.md)**
-    -   Apply the filters that were previously available only to the coverage charts to all charts in the Discovery sources tile in the CMDB 360 dashboard. For example, you can filter out non-CMDB tables or include records only from principal classes. For more information, see [CMDB 360 experience in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/cmdb360-exp-cmdb-workspace.md).
-    -   Use a condition builder or a custom script to narrow down the list of de-duplication tasks that are assigned to a template. For more information, see [Create a de-duplication template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/workspc-dedup-create-template.md).
-    -   Use the new **Allow empty field values** option to allow or disallow certification of empty value fields when creating a certification policy type in CMDB Data Manager. For more information, see [Create a CMDB Data Manager policy in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/data-manager-create-policy-wrkspc.md).
--   **[CMDB Workspace v6.4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/cmdb-workspace.md)**
+-   **CMDB Workspace v6.3**
+    -   Apply the filters that were previously available only to the coverage charts to all charts in the Discovery sources tile in the CMDB 360 dashboard. For example, you can filter out non-CMDB tables or include records only from principal classes. For more information, see .
+    -   Use a condition builder or a custom script to narrow down the list of de-duplication tasks that are assigned to a template. For more information, see .
+    -   Use the new **Allow empty field values** option to allow or disallow certification of empty value fields when creating a certification policy type in CMDB Data Manager. For more information, see .
+-   **CMDB Workspace v6.4**
 
-You can now use dot-walking when setting assignments for the User Field or User Group Field options for CMDB Data Manager policies \(such as Certification\). Also, when converting legacy certification schedules into Data Manager Certification policies, existing dot-walking settings are preserved. For more information, see [Create a CMDB Data Manager policy in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/data-manager-create-policy-wrkspc.md).
+You can now use dot-walking when setting assignments for the User Field or User Group Field options for CMDB Data Manager policies \(such as Certification\). Also, when converting legacy certification schedules into Data Manager Certification policies, existing dot-walking settings are preserved. For more information, see .
 
--   **[CMDB Workspace v7.4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/cmdb-workspace.md)**
+-   **CMDB Workspace v7.4**
 
 In the CMDB Workspace version 7.4, you can now do the following tasks:
 
-    -   Manually create a CI in CMDB Workspace that complies with its class identification rule and other class requirements, and is tested for uniqueness in CMDB, to help ensure that the CI is valid and maintains the integrity of CMDB. For more information, see [Create a CI manually in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/create-ci-manual-cmdb-workspace.md).
+    -   Manually create a CI in CMDB Workspace that complies with its class identification rule and other class requirements, and is tested for uniqueness in CMDB, to help ensure that the CI is valid and maintains the integrity of CMDB. For more information, see .
     -   Set the CMDB Health dashboard to use the legacy methods to calculate the completeness, correctness, and compliance KPIs. That legacy calculation method relies on settings of proportional weights of metrics within the aggregated score of KPIs and was used up until the Washington DC release. By default, those weights aren’t used in the calculations of KPI scores.
 
 Also, the CMDB Health dashboard now shows the overall score, which by default, is a simple average of the aggregated scores of the completeness, correctness, and compliance KPIs.
 
--   **[CMDB Workspace v7.5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/cmdb-workspace.md)**
+-   **CMDB Workspace v7.5**
 
 In the CMDB Workspace version 7.5, you can now do the following tasks:
 
-    -   Delete CMDB Data Manager retirement definitions in CMDB Workspace \(other than the cmdb\_ci retirement definition\). For more information, see [Delete a CMDB Data Manager retirement definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/data-manager-manage-ret-def-wrkspc.md).
-    -   Configure a CMDB Data Manager certification policy to disallow reviewers, to update fields' value while reviewing CIs in a certification task. Administrators can clear the **Allow updates to field values** option to prevent reviewers from updating non-compliant field values into compliance, resulting in rejecting those CIs. For more information, see [Create a CMDB Data Manager policy in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/data-manager-create-policy-wrkspc.md).
-    -   Schedule a de-duplication template for daily, weekly, monthly, or periodic runs for continuous remediation of duplicate CIs. For more information, see [Schedule a de-duplication template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/workspc-dedup-schedule-template.md).
-    -   Receive notifications from CMDB Data Manager about certification and attestation tasks, that are incomplete or overdue. For more information, see [Components related to CMDB Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/components-cmdb-data-manager.md).
-    -   Review and process tasks of your direct reports and of members of any user group that you manage. For more information about accessing these tasks in CMDB Data Manager, see [My Work view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/cmdb-workspace-govern-view.md).
-    -   Reject a CMDB Data Manager life-cycle task in CMDB Workspace. For more information, see [Review CMDB Data Manager tasks in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/data-manager-review-task-wrkspc.md).
-    -   Use the Create CI experience with a preset class when drilling down a class in the CI Summary chart on the Home view of CMDB Workspace. For more information about creating CIs manually while applying IRE processes, see [Create a CI manually in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/create-ci-manual-cmdb-workspace.md).
--   **[Update to the Walk stage reports on the CSDM Data Foundations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/csdm-datafdn-dash-walk-tab.md)**
+    -   Delete CMDB Data Manager retirement definitions in CMDB Workspace \(other than the cmdb\_ci retirement definition\). For more information, see Delete a CMDB Data Manager retirement definition.
+    -   Configure a CMDB Data Manager certification policy to disallow reviewers, to update fields' value while reviewing CIs in a certification task. Administrators can clear the **Allow updates to field values** option to prevent reviewers from updating non-compliant field values into compliance, resulting in rejecting those CIs. For more information, see .
+    -   Schedule a de-duplication template for daily, weekly, monthly, or periodic runs for continuous remediation of duplicate CIs. For more information, see .
+    -   Receive notifications from CMDB Data Manager about certification and attestation tasks, that are incomplete or overdue. For more information, see .
+    -   Review and process tasks of your direct reports and of members of any user group that you manage. For more information about accessing these tasks in CMDB Data Manager, see .
+    -   Reject a CMDB Data Manager life-cycle task in CMDB Workspace. For more information, see .
+    -   Use the Create CI experience with a preset class when drilling down a class in the CI Summary chart on the Home view of CMDB Workspace. For more information about creating CIs manually while applying IRE processes, see .
+-   **Update to the Walk stage reports on the CSDM Data Foundations dashboard**
 
 The Technical Service Offerings with Support Group or Change Group report now includes data that meets the **sys\_class \_name = offering** parameter.
 
--   **[Table label changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/cmdb-tables-details.md)**
+-   **Table label changes**
 
 The following table labels have changed:
 
     -   The label for the cmdb\_ci\_service\_auto table is now Service Instance instead of Application Service.
     -   The label for the cmdb\_ci\_service\_technical table is now Technology management service instead of Technical service.
--   **[Class descriptions showing in the user interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/cmdb-tables-details.md)**
+-   **Class descriptions showing in the user interface**
 
 The descriptions for the base system classes are now integrated into CI Class Manager and appear in the **Description** field, on the Basic Info page for a class.
 
--   **[Reflow for configurable workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/auto-reflow.md)**
+-   **Reflow for configurable workspace**
 
 The CMDB configurable workspace supports reflow, which enables pages and content to be zoomed up to 400% through your browser settings without loss of content or functionality.
 
@@ -792,11 +792,11 @@ Continuous Authorization and Monitoring
 
 </td><td>
 
--   **[Generate the OSCAL SSP model of an authorization package](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/generate-oscal-models.md)**
+-   **Generate the OSCAL SSP model of an authorization package**
 
 Export the SSP model of an authorization package in the OSCAL format. The exported report contains only the control objectives linked to the authorization package and their additional information, such as inherited controls and the hierarchy of the control objectives.
 
--   **[Generate ATO artifacts in Microsoft Word and HTML templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/generate-ato-artifacts-cam-ws.md)**
+-   **Generate ATO artifacts in Microsoft Word and HTML templates**
 
 Use the Document designer plugin \(com.sn\_grc\_doc\_design\) to create report templates in Microsoft Word. A new property module has been introduced to select the template type as a Microsoft Word template in addition to an HTML template.
 
@@ -807,25 +807,25 @@ Contract Management Pro
 
 </td><td>
 
--   **[Select contract type while initiating a third-party contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/cncore-initiate-non-ss-cnt.md)**
+-   **Select contract type while initiating a third-party contract**
 
 In the Initiate contract window, the **Type** field appears when you select the **Third party paper** option. You can specify whether the contract request is for a single contract or multiple contracts.
 
 If you select **Single contract**, a **Contract type** field appears where you can define the type of contract document. This field isn’t available when you select **Multiple contracts**.
 
--   **[Classify contract requests as a single or multiple contracts type based on selected documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/snlc-submit-request-tpc.md)**
+-   **Classify contract requests as a single or multiple contracts type based on selected documents**
 
 When you're creating a third-party contract review request from Employee Portal, you can now select a single contract document to classify it as a single contract type. By selecting multiple contract documents, you can classify them as a multiple contracts type. The **Type** field in the contract request reflects this selection by displaying either **Single contract** or **Multiple contracts**.
 
--   **[Use scripts to define additional conditions for a clause variation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/cncore-add-clauses-doc-tmplt.md)**
+-   **Use scripts to define additional conditions for a clause variation**
 
 You can now define the clause conditions on the fields and variables of a table that isn’t directly linked to the contract template table. The **Advanced script** check box in the Clause Variation form enables you to add custom logic to determine when a clause variation is used in a contract.
 
--   **[Configure tables in a contract template to append or add fields from related tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/cncore-append-data-table.md)**
+-   **Configure tables in a contract template to append or add fields from related tables**
 
 You can now use scripts to insert additional data from the related table fields into the dynamic tables of a contract. The **Advanced script** check box in the Column Mapping form enables you to configure dynamic tables in a contract template to display additional data from related table fields by appending it to existing columns or adding it as new columns.
 
--   **[Contract Management Pro configurations are available on the Contract Request table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/cncore-create-ct-word-addin.md)**
+-   **Contract Management Pro configurations are available on the Contract Request table**
 
 You can now set up the following Contract Management Pro configurations directly on the Contract Request \[sn\_cm\_core\_contract\_request\] table to centralize the configuration on a single table and improve consistency and reusability across business units:
 
@@ -840,7 +840,7 @@ The Contract Request table is automatically selected for a new configuration. Yo
 
 **Note:** To avoid configuration issues, ensure that you select the same table across all related configurations.
 
--   **[Configure dynamic tables for contract template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/cncore-addin-table.md)**
+-   **Configure dynamic tables for contract template**
 
 You can now set up the contract template on the Contract Request \[sn\_cm\_core\_contract\_request\] table. When you select the Contract Request table, the **Table** tab in the Microsoft Word add-in displays an additional field, called the **Parent request table** field, that you can use to select the source parent request table.
 
@@ -848,31 +848,31 @@ Additionally, the **Table** field has been renamed to **Lookup table** where you
 
 If the template isn’t based on the Contract Request table, only the **Lookup table** field is shown.
 
--   **[Signature blocks enabled by default for new contract templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/cncore-create-ct-word-addin.md)**
+-   **Signature blocks enabled by default for new contract templates**
 
 When you’re creating a contract template, the **Signature blocks** check box in the Word Template New Record form is selected by default. If you want to configure the participant-based signatories for the contract template, you can clear the check box.
 
--   **[Copy fields from parent request to contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/cncore-copy-fld-frm-parent.md)**
+-   **Copy fields from parent request to contract request**
 
 You can now configure the ContractManagementExt extension point to automatically copy the required fields from the originating business unit record to the contract request when it’s initiated.
 
--   **[Modify signatories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/cncore-pause-signature.md)**
+-   ****
 
 Enable contract fulfillers to pause an ongoing signature process, make necessary changes to the list or order of signatories, and then resume the process without restarting the entire workflow by using the **Modify Signatories** and **Resume signature** options. This feature is supported only for the Docusign electronic signature provider.
 
--   **[Signature workflow for a contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/cncore-signature-workflow.md)**
+-   ****
 
 The wet signature process has been enhanced for better control and clarity. Wet signature requests are sent one signatory at a time, starting with the first signatory in order. When the signatory signs and returns the document, the fulfiller manages the remaining signatures.
 
--   **[Resend signature request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/cncore-resend-sign-req.md)**
+-   ****
 
 Enable contract fulfillers to manually trigger a signature request when needed, instead of relying on automated reminders by using the **Resend signature request** option.
 
--   **[Configuring signatories in Contract template using Microsoft Word add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/cncore-config-sign-addin.md)**
+-   ****
 
 Signature placeholders in contract templates are now mapped to the e-signature tool tags \(such as Docusign\), instead of signer fields to help accommodate changes in the signatories. The values in the signature blocks are filled in by the signatories during the signing process.
 
--   **[Upload and parse a Microsoft Word document that includes content controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/cncore-upload-doc-addin.md)**
+-   ****
 
 Upload the contract document directly from the Microsoft Word Add-in instead of selecting it from your system.
 
@@ -883,15 +883,15 @@ Creator Studio
 
 </td><td>
 
--   **[Playbooks use only published forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/creator-studio-add-automation.md)**
+-   **Playbooks use only published forms**
 
 As of Creator Studio version 27.2.2, forms must now be published \(marked as ready\) before you can use them to create an automated playbook.
 
--   **[Hide the App Engine Studio template with a new system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/creator-studio-components-installed.md)**
+-   **Hide the App Engine Studio template with a new system property**
 
 As of Creator Studio version 27.2.2, Creator Studio users who have both App Engine Studio \(AES\) and Creator Studio installed will no longer see the AES template when they create an app. Admins can choose to show the AES template using the new **com.glide.creator\_studio.template\_deny\_list** system property.
 
--   **[Form location removed from form creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/creator-studio-edit-form-settings.md)**
+-   **Form location removed from form creation**
 
 Defining the catalogs and topics for a form is now accomplished by modifying the form settings rather than being done during the form creation process. If you haven't defined a location for a form, you are prompted to do so before you can mark it as ready.
 
@@ -913,7 +913,7 @@ Data Management
 
 </td><td>
 
--   **[Data Management Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/viewing-data-usage.md)**
+-   **Data Management Console**
 
 You can now access data usage on your instance by navigating to **All** &gt; **System Data Management** &gt; **Data Management Console**.
 
@@ -965,117 +965,117 @@ DevOps Change Velocity
 
 </td><td>
 
--   **[Simplified onboarding of orchestration tools not supported in the base system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/devops-user-created-orchestration-tool-integration.md)**
+-   **Simplified onboarding of orchestration tools not supported in the base system**
 
 Integrate orchestration tools that aren’t supported in the base system by leveraging a generic framework.
 
--   **[Custom fields for planning tool integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/add-custom-field-for-a-planning-tool-integration.md)**
+-   **Custom fields for planning tool integration**
 
 Add custom fields into your planning tool integration to improve configurability and access business-specific information, which facilitates more informed decision-making.
 
--   **[Additional scans for DevOps Health Scan Content pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/run-health-scan-check.md)**
+-   **Additional scans for DevOps Health Scan Content pack**
 
 Additional set of proactive checks focused on problems that tend to occur before or after an upgrade along with identifying configuration issues like plugin and version incompatibilities, or pipelines that chronically fail, have been added.
 
--   **[Import pull-request records for Bitbucket Server or Bitbucket Data Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/devops-wkspc-bitbucket-tool-conn.md)**
+-   **Import pull-request records for Bitbucket Server or Bitbucket Data Center**
 
 Import pull-request records for Bitbucket Server or Data Center for improved insights and efficiency.
 
--   **[Change request creation with errors in DevOps data retrieval for Harness pipelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/change-request-creation-with-devops-data-retrieval-errors.md)**
+-   **Change request creation with errors in DevOps data retrieval for Harness pipelines**
 
 Enable change request creation even if there is an error in retrieving the DevOps data for a Harness pipeline.
 
--   **[Branch name filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/create-devops-change-request-manual.md)**
+-   **Branch name filter**
 
 Search for build numbers by the branch name while associating DevOps data to a change request in the Service Operations Workspace \(SOW\) or Classic UI.
 
--   **[Test summary name in GitHub Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/servicenow-devops-custom-actions-from-github-marketplace.md)**
+-   **Test summary name in GitHub Actions**
 
 The servicenow-devops-test-report custom action in GitHub now includes an optional test-summary-name parameter to specify the test summary results name.
 
--   **[Token based authentication for Rally](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/configure-webhooks-for-rally-manually.md)**
+-   **Token based authentication for Rally**
 
 Configure webhooks for Rally using token based authentication instead of using the integration username and password.
 
--   **[Renamed variables for Docker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/servicenow-custom-actions-for-gitlab.md)**
+-   **Renamed variables for Docker**
 
 The environmental variables in the Generic Docker actions for DevOps Change Velocity have been renamed by removing the CI prefix for better clarity.
 
--   **[Security scan results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/dev-ops-change-acceleration.md)**
+-   **Security scan results**
 
 Security scan results on the change record associated to a pipeline execution with a linked package are now displayed in the **Security Summaries** tab.
 
--   **[Source of commits in SOW](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/create-change-sow.md)**
+-   **Source of commits in SOW**
 
 View the source of commits like pipeline execution, branch, repository, and so on for a change request in the DevOps data section of the Service Operations Workspace.
 
--   **[Track file changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/sc-github.md)**
+-   **Track file changes**
 
 The **Track file changes** option is now disabled by default when a repository is configured to prevent any potential security risks.
 
--   **[Close code value for a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/dev-ops-administration.md)**
+-   **Close code value for a change request**
 
 Two new properties have been added in DevOps Change Velocity, so that you can specify a close code value for a change request based on the change request completion state when the autoCloseChange parameter is enabled.
 
--   **[Support for MID Server cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/playbook-enter-github-instance-details.md)**
+-   **Support for MID Server cluster**
 
 Improve load balancing and failover protection by selecting a MID Server cluster when connecting to a tool instance associated with a MID Server cluster. This configuration enables multiple MID Servers with relevant capabilities to be grouped.
 
--   **[Improved UX for DevOps Change health scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/run-health-scan-check.md)**
+-   **Improved UX for DevOps Change health scans**
 
 Run health scans and analyze findings efficiently in the DevOps Change workspace with an intuitive and user-friendly interface.
 
--   **[Pipeline association for GitHub Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/sc-github.md)**
+-   **Pipeline association for GitHub Actions**
 
 When onboarding GitHub Actions pipelines through the App onboarding catalog or the onboarding APIs, now only the selected pipelines are associated with the DevOps app. If no pipeline is selected, all pipelines within the specified repository are associated.
 
--   **[Tool connection check status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/devops-reference-error-messages.md)**
+-   **Tool connection check status**
 
 If a tool is marked as Disconnected because of a system-generated failure during an unsuccessful connection check, any subsequent successful check automatically updates the connection status to Connected. If you manually disconnect the tool, the tool status remains Disconnected even if there’s a subsequent successful connection check.
 
--   **[New roles for vulnerability integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/installed-with-dev-ops.md)**
+-   **New roles for vulnerability integration**
     -   The sn\_vul.app\_sec\_manager role is added to the DevOps Tool Owner \[sn\_devops.tool\_owner\] role when the DevOps Vulnerability Integrations plugin \(sn\_devops\_vul\_ints\) is installed.
     -   The sn\_vul\_veracode.configure\_integration role is added to the DevOps Tool Owner \[sn\_devops.tool\_owner\] role when the Vulnerability Response Integration with Veracode plugin \(sn\_vul\_veracode\) is installed.
--   **[Prod deploy commit logic for other step types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/dev-ops-commits-release.md)**
+-   **Prod deploy commit logic for other step types**
 
 Update the **sn\_devops.commit\_rel\_change\_step\_type** property to have other step types, like Test or Deploy, use the same commit logic as Prod Deploy.
 
--   **[Override start and end time of a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/dev-ops-config-change-details.md)**
+-   **Override start and end time of a change request**
 
 Set the  **sn\_devops.change\_request.auto\_close\_allow\_override\_start\_time ** and  **sn\_devops.change\_request.auto\_close\_allow\_override\_end\_time ** properties as false to consider the change request start and end time instead of the pipeline’s when the  autoCloseChange  parameter is enabled in a pipeline.
 
--   **[Node version of DevOps extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/config-dev-ops-extensions-azure.md)**
+-   **Node version of DevOps extension**
 
 The node version of the ServiceNow DevOps  extension has been upgraded to version 20.x in Azure DevOps.
 
--   **[Enhanced pipeline governance in GitLab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/servicenow-custom-actions-for-gitlab.md)**
+-   **Enhanced pipeline governance in GitLab**
 
 View change request details like status, sys\_id, priority in the GitLab console when a change request is created in GitLab using Docker image.
 
--   **[Health scan enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/run-health-scan-check.md)**
+-   **Health scan enhancements**
     -   Identify outdated or prolonged discover and import requests using the DevOps -Stale or Long-Running Discover and Import Requests health check.
     -   Verify whether webhooks have been configured correctly for any tracked repository, pipeline, or plan in  GitHub,  GitLab,  Azure DevOps, and  Jenkins using the DevOps webhook configuration analysis health check.
     -   Identify OAuth app configuration issues for GitHub tools in the connected state using the DevOps webhook configuration analysis health check.
     -   Verify if any scheduled job has been configured to run as an invalid or non-admin user.
     -   Navigate to the Findings list from the DevOps Change Workspace home page by selecting  **View all findings ** in the  Health scan findings  widget. 
--   **[Enhanced JFrog integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/devops-jfrog-connect-workspace.md)**
+-   **Enhanced JFrog integration with DevOps Change Velocity**
 
 Gather JFrog evidence seamlessly and create change records automatically using the improved JFrog integration with DevOps Change Velocity.
 
--   **[Bearer authentication in JFrog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/devops-jfrog-connect-workspace.md)**
+-   **Bearer authentication in JFrog**
 
 Connect to JFrog using the secure bearer token authentication to comply with JFrog’s updated security policies.
 
--   **[HTTP proxy for Docker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/servicenow-custom-actions-for-gitlab.md)**
+-   **HTTP proxy for Docker**
 
 Connect to DevOps Change Velocity through HTTP proxy settings using environment variables in your Docker deployment for instances that run a proxy server.
 
--   **[Health scan enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/run-health-scan-check.md)**
+-   **Health scan enhancements**
     -   Identify any callback processing issues in your instance.
     -   Identify any access control rule \(ACL\) that is incorrectly associated with a role in your instance.
     -   Verify whether all DevOps tables are present in your instance and confirm whether all metadata in sys\_\* tables is present.
     -   Verify whether all DevOps roles in your instance contain all expected roles, including inherited roles.
--   **[Auto close without Change Management - State Model \[Legacy\] plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/dev-ops-change-acceleration.md)**
+-   **Auto close without Change Management - State Model \[Legacy\] plugin**
 
 Change requests can now be auto-closed without requiring you to install the Change Management - State Model \[Legacy\] plugin.
 
@@ -1097,7 +1097,7 @@ Document Intelligence
 
 </td><td>
 
--   **[Document and visual insights AI agent enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/document-and-visual-insights-ai-agent.md)**
+-   **Document and visual insights AI agent enhancements**
 
 Generate a summary of document and image attachments with the document and visual insights AI agent.
 
@@ -1108,15 +1108,15 @@ Document Services
 
 </td><td>
 
--   **[PDF generation and accessibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/pdf-generation-accessibility.md)**
+-   **PDF generation and accessibility**
 
 Export a collection of records or a single record into a PDF format. New system property was added for better accessibility.
 
--   **[Workflow migration for Managed Documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/c_ManagedDocuments.md)**
+-   **Workflow migration for Managed Documents**
 
 Improved usability, low code accessibility, and feature parity due to the newly configured workflows.​
 
--   **[Subflows for Shared drives for Google Drive](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/google-drive-spoke-document-services.md).**
+-   **Subflows for Shared drives for Google Drive.**
 
 Added Spoke subflows for Shared drives in Google Drive.
 
@@ -1133,7 +1133,7 @@ ERP Semantic Mining
 
 [Yokohama Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-1.md)
 
--   **[Faster initialization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/how-erp-clean-core-inputs-data.md)**
+-   **Faster initialization**
 
 In addition to daily total application statistics, the SQLM and APPSTATS initial scan now also retrieves all monthly total application statistics up to the current date.
 
@@ -1144,11 +1144,11 @@ Enterprise Asset Management
 
 </td><td>
 
--   **[Refresh flow in OT workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/request-eam-assetrefresh.md)**
+-   **Refresh flow in OT workspace**
 
 For single and multi-model refresh orders, the OT manager can edit the replacement model even after the refresh order has been created in the OTAM workspace. Additionally, the sourcing location is also editable.
 
--   **[Reflow for Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/auto-reflow.md)**
+-   ****
 
 The configurable Enterprise Asset Workspace supports reflow, which enables pages and content to be zoomed up to 400% through your browser settings without loss of content or functionality.
 
@@ -1159,7 +1159,7 @@ Event Management
 
 </td><td>
 
--   **[Property name changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/enable-alert-grouping.md)**
+-   **Property name changes**
 
 **Enable CMDB Correlation for Alert Aggregation \( CMDB groups\)** \(**sa\_analytics.agg.query\_cmdb\_correlation\_enabled**\) has been renamed **Enable CMDB correlation**.
 
@@ -1169,7 +1169,7 @@ Event Management
 
 **Use all CMDB relations for CMDB group correlation. This property impacts both CMDB group correlation and Alert Similarity on the Alert form** \(**evt\_mgmt.related\_cis\_get\_all\_relation\_types**\) has been renamed **Use all CMDB relations for CMDB group correlation**.
 
--   **[Pull connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/t_EMConfigureConnectorInstance.md)**
+-   **Pull connectors**
 
 Simplifying the setup for Out-of-the-Box \(OOTB\) event rules that come with the pull connectors that have not yet been activated, deactivated, or modified, the Apply additional matching rules option is now enabled by default. If a rule has been previously applied, you must set this option manually.
 
@@ -1180,28 +1180,28 @@ External Content Connectors
 
 </td><td>
 
--   **[Analytics for external content connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/analytics-external-content-connectors.md)**
+-   ****
 
 Analyze connector performance and behavior in a selected time period using the redesigned Analytics page. You can access this page from the connector editor.
 
--   **[Atlassian Jira Cloud connection settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/create-ext-cont-connector-jira.md)**
+-   **Atlassian Jira Cloud connection settings**
 
 The Atlassian Jira Cloud external content connector no longer requires your Atlassian Jira Cloud instance ID as a connection setting.
 
--   **[Microsoft OneDrive connection settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/create-ext-cont-connector-microsoft-onedrive.md)**
+-   **Microsoft OneDrive connection settings**
 
 The Microsoft OneDrive external content connector now accepts certificate SHA1 thumbprint hashes in hexadecimal format as well as in base64-encoded format.
 
--   **[Microsoft SharePoint Online connection settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/create-ext-cont-connector-mspo.md)**
+-   **Microsoft SharePoint Online connection settings**
 
 The Microsoft SharePoint Online external content connector now accepts certificate SHA1 thumbprint hashes in hexadecimal format as well as in base64-encoded format.
 
--   **[Microsoft Teams connection settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/create-ext-cont-connector-msteams.md)**
+-   **Microsoft Teams connection settings**
 
 The Microsoft Teams external content connector now accepts certificate SHA1 thumbprint hashes in hexadecimal format as well as in base64-encoded format.
 
 
--   **[Webcrawler external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/webcrawler-external-content-connector.md)**
+-   ****
 
 The predefined web sources external content connector has been subsumed into the new Webcrawler external content connector, which allows you to specify a custom web source or select a predefined one.
 
@@ -1287,22 +1287,22 @@ Generative AI Controller
 
 </td><td>
 
--   **[Changes to Now Assist usage measurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/monitoring-now-assist-usage.md)**
+-   **Changes to Now Assist usage measurement**
 
 Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
--   **[Some Now Assist skills are turned on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md)**
+-   **Some Now Assist skills are turned on by default**
 
 The new default behavior works as follows:
 
     -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
     -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
--   **[Configure ACLs for AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/aia-security-implementation.md)**
+-   **Configure ACLs for AI agents and agentic workflows**
 
 Configure the access control lists for who can discover and trigger AI agents and agentic workflows in their guided setups in AI Agent Studio. You can determine whether an AI agent or agentic workflow behaves as a dynamic user or as an AI user. You can also specify if an AI agent or agentic workflow can be available to all authenticated users or publicly available.
 
 
--   **[Configure Data Privacy and Data Discovery to protect the personally identifying information \(PII\) of your users.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/configure-now-assist-data-privacy.md)**
+-   **Configure Data Privacy and Data Discovery to protect the personally identifying information \(PII\) of your users.**
 
 Generative AI Controller has changed to use the Data Privacy application instead of the Sensitive Data Handler to help anonymize PII. The process for choosing what gets anonymized and how has shifted to different tables and forms that your administrator must configure for your organization.
 
@@ -1313,7 +1313,7 @@ Hardware Asset Management
 
 </td><td>
 
--   **[Reflow for Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/auto-reflow.md)**
+-   ****
 
 The configurable Hardware Asset Workspace supports reflow, which enables pages and content to be zoomed up to 400% through your browser settings without loss of content or functionality.
 
@@ -1324,7 +1324,7 @@ Health Log Analytics
 
 </td><td>
 
--   **[Component-based alert grouping is deprecated](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/hla-op-log-analytics-alert-types.md)**
+-   **Component-based alert grouping is deprecated**
 
 Starting in version 36.0.19, the adoption of a streamlined two-tier alert model, Log Analytics Group to Single Alert, has replaced component-based alert groups, which have been removed. This model aligns alert representation with the service-level anomalies identified by Health Log Analytics, rather than individual host CIs. The update improves alert visibility, simplifies correlation, and enhances overall alert management efficiency.
 
@@ -1335,17 +1335,17 @@ ITOM AIOps
 
 </td><td>
 
--   **[Enrich automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/enrich-alert-sow-itom.md)**
+-   **Enrich automation**
 
 Introduced a new section **And finally** that contains two radio buttons that replace the previous **Continue running automations of this type** toggle switch.
 
     -   **Run other enrich alert automations** continues running automations with the same filter conditions.
     -   **Don't run other enrich alert automations** halts additional automations after execution, except those owned by other assignment groups.
--   **[Investigate alerts using Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/nai-past-incidents.md)**
+-   **Investigate alerts using Now Assist**
 
 Investigate alerts using Now Assist, which now uses the Retrieval-Augmented Generation \(RAG\) process to enhance alert investigation. This enhancement enables the retrieval of highly relevant past incidents, providing accurate context and actionable insights. Now Assist also notifies users of those involved in past or present efforts to resolve similar issues, promoting collaboration and reducing duplicated efforts.
 
--   **[Component-based alert grouping is deprecated](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/hla-op-log-analytics-alert-types.md)**
+-   **Component-based alert grouping is deprecated**
 
 Starting in version 36.0.19, component-based alert groups are removed as Health Log Analytics adopts a streamlined, two-tier alert model: Log Analytics Group to Single Alert. It aligns alert representation with the service-level anomalies identified by Health Log Analytics, rather than individual host CIs. The update improves alert visibility, simplifies correlation, and enhances overall alert management efficiency.
 
@@ -1356,9 +1356,9 @@ ITOM Cloud Accelerate
 
 </td><td>
 
--   **[Cloud Services Catalog Terraform Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/cpg-terraform-connector-landing-page.md)**
+-   ****
 
-Cloud Provisioning and Governance: Terraform Connector has been renamed Cloud Services Catalog Terraform Connector
+Cloud Provisioning and Governance: Terraform Connector has been renamed Cloud Provisioning and Governance: Terraform Connector
 
 
 </td></tr><tr><td>
@@ -1377,22 +1377,22 @@ ITOM Visibility
 
 </td><td>
 
--   **[Name suggestions for application service candidates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/app-services-name-suggestions.md)**
+-   ****
 
 Experience more accurate name suggestions for application service candidates based on Service Fingerprints in Service Mapping Plus store version 1.15.0.
 
--   **[Limits in Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/components-installed-with-service-mapping.md)**
+-   **Limits in Service Mapping**
 
 Limits in Service Mapping prevent the disabling or deletion of jobs scheduled for the Checkpoint Reaper or the Service Model's Blob Reaper.
 
--   **[Limits in tag-based Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/components-installed-with-service-mapping-plus.md)**
+-   **Limits in tag-based Service Mapping**
 
 Starting with version 1.15.2, experience improved performance in Service Mapping. A new property limits the creation of tag-based service candidates to 200 per service family.
 
--   **[Name update in Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/create-it-services.md)**
+-   **Name update in Service Mapping**
     -   Application Services in the navigation menu has been renamed Service Instances.
     -   The label for the \[cmdb\_ci\_service\_auto\] table has been changed from Application Service to Service Instance.
--   **[Discovery status monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/c_DiscoveryStatus.md)**
+-   **Discovery status monitoring**
 
 Discovery schedules that have no status updates for over a defined number of minutes are analyzed automatically by the Discovery Status Monitor job. By default, this job applies to Discovery schedules that discover configuration items.
 
@@ -1464,7 +1464,7 @@ Incident Management
 
 </td><td>
 
--   **[Email redirection behavior for major incident email notification links](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/email-notif-redirt-inci-major-inci.md)**
+-   **Email redirection behavior for major incident email notification links**
 
 In major incident email notifications, you can now decide where the links to a major incident record are redirected. Instead of a major incident record automatically opening in the classic UI16 interface in Major Incident Management, the record can be opened in SOW. The major incident record link in an email notification opens in SOW only if the following conditions are met:
 
@@ -1473,7 +1473,7 @@ In major incident email notifications, you can now decide where the links to a m
     -   You have the sn\_sow\_user role.
 The ITSM Notifications Redirection \(com.snc.itsm.notifications\_redirection\) plugin is installed and activated automatically to support this behavior.
 
--   **[Email redirection behavior for incident email notification links](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/email-notif-redirt-inci-major-inci.md)**
+-   **Email redirection behavior for incident email notification links**
 
 In incident email notifications, you can now decide where the links to an incident record are redirected. Instead of an incident record automatically opening in the classic UI16 interface in Incident Management, the record can be opened in SOW. The incident record link in an email notification opens in SOW only if you have the sn\_sow\_user role and any of the following conditions are met:
 
@@ -1483,19 +1483,19 @@ The ITSM Notifications Redirection \(com.snc.itsm.notifications\_redirection\) p
 
 To ensure consistency, the email notification templates for incident tasks are also updated to send the notification from Service Operations Workspace \(SOW\) in the same format as sent from classic UI16 interface similar to incident. Also, the template theme is updated to match the Next Experience theme.
 
--   **[Incident and problem workflow changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/incident-management-properties.md)**
+-   **Incident and problem workflow changes**
 
 When a problem is fixed and the **Share fix** option is triggered, the event is added to the **Work notes \(Private\)** field instead of the **Additional comments \(Customer visible\)** field for the incident associated with the problem record.
 
 This feature is available in the base system for the new customers. For existing or upgrade customers, admin must set the **Communicate problem workaround to incident worknotes** \(**com.snc.incident.communicate\_prb\_workaround\_to\_inc\_worknotes**\) system property to `true` to enable the feature.
 
--   **[Changes in the reopening incident behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/reopening-incident.md)**
+-   **Changes in the reopening incident behavior**
 
 Enable the agents with incident write access, callers, requesters, or **Opened by** end users to reopen a resolved incident. Both the caller and the requester can view and use the **Reopen** option on the incident classic UI16 form and the Portal UIs, such as Service Portal and Employee Service Center \(ESC\) portal.
 
 An agent can view and use the **Reopen** option on the incident classic UI16 form to reopen any incident that is assigned to them or to other agents. However, on the Portal UI, an agent can only view and use the **Reopen** option to reopen an incident if it’s assigned to them.
 
--   **[Sorting CIs in incident forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/create-an-incident.md)**
+-   **Sorting CIs in incident forms**
 
 The search performance of the available CIs for the **Configuration item** field on an incident form is enhanced to promote a clean UI and quick loading and sorting of the CIs. The search results that list the CIs are sorted alphabetically by CI name instead of by CI class and then CI name. The **ref\_ac\_order\_by=sys\_class\_name** attribute is removed from the default attributes on the **cmdb\_ci** field of the Task \[task\] table, which increases the performance of the field.
 
@@ -1519,19 +1519,19 @@ Instance Data Replication
 
 </td><td>
 
--   **[Seeding request improvements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/exploring-instance-data-replication.md)**
+-   **Seeding request improvements**
 
 In V2 replication sets, the number of records in a seeding request is now unlimited.
 
--   **[Data comparison improvements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/comparing-replicated-data.md)**
+-   **Data comparison improvements**
 
 In V2 replication sets, the number of records in comparison or reseeding counts is now unlimited.
 
--   **[Reseed missing attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/comparing-replicated-data.md)**
+-   **Reseed missing attachments**
 
 Attachments are now included in data comparison requests.
 
--   **[Seeding performance improvements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/seed-consumer-instance.md)**
+-   **Seeding performance improvements**
 
 Seeding throughput and message queue efficiency has been optimized in IDR.
 
@@ -1555,17 +1555,17 @@ Knowledge Graph
 
 </td><td>
 
--   **[Changes to Now Assist usage measurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/monitoring-now-assist-usage.md)**
+-   **Changes to Now Assist usage measurement**
 
 Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
--   **[Some Now Assist skills are turned on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md)**
+-   **Some Now Assist skills are turned on by default**
 
 The new default behavior works as follows:
 
     -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
     -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
--   **[Configure ACLs for AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/aia-security-implementation.md)**
+-   **Configure ACLs for AI agents and agentic workflows**
 
 Configure the access control lists for who can discover and trigger AI agents and agentic workflows in their guided setups in AI Agent Studio. You can determine whether an AI agent or agentic workflow behaves as a dynamic user or as an AI user. You can also specify if an AI agent or agentic workflow can be available to all authenticated users or publicly available.
 
@@ -1576,11 +1576,11 @@ MID Server
 
 </td><td>
 
--   **[MID Server supports and requires a minimum JRE version 17](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/r_MIDServerSystemRequirements.md)**
+-   **MID Server supports and requires a minimum JRE version 17**
 
 The MID Server is compiled using Java 17 and is incompatible with any Java version below 17 for runtime execution. The MID Server is bundled with version 17.0.12 and the minimum JRE version supported is 17.0.10. See the [MID Server JRE Minimum Version Requirement Update to JRE 17 Starting from Yokohama Release \[KB1704368\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1704368) article in the Now Support Knowledge Base for information about required procedures before upgrading the instance.
 
--   **[Improvements when manually installing a MID Server on Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/mid-server-install-prereqs.md)**
+-   **Improvements when manually installing a MID Server on Windows**
 
 The MID Server can now be installed on Windows hosts directly as a LocalSystem or non-admin user with Start and Stop permissions.
 
@@ -1626,7 +1626,7 @@ Next Experience
 
 </td><td>
 
--   **[Next Experience preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/set-up-preferences-next-experience.md)**
+-   ****
 
 The new user preference panel provides a more efficient, streamlined way for you to work. Use the new search bar to locate your preferences. A wider modal displays all preference groups and when you select a group, all the individual preferences that are related to it appear in the same window.
 
@@ -1947,23 +1947,23 @@ Notifications
 
 </td><td>
 
--   **[Advanced filters in notification preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/advanced-notification-prefrences.md)**
+-   **Advanced filters in notification preferences**
 
 Use notifications filters for categories, delivery channels, active or inactive notifications, subscriptions, and digest enabled notifications.
 
--   **[Support for assignment group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/create-add-assignment-group.md)**
+-   **Support for assignment group**
 
 Send provider notifications for assignment groups and to users that are part of groups stored in sys\_user\_group table.
 
--   **[Advanced condition for provider framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/noti-new-update-notification.md)**
+-   **Advanced condition for provider framework**
 
 Use an advanced condition to send a notification that is based on the current email record, changing field values, or system properties.
 
--   **[Mandatory notifications for provider framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/make-notification-mandatory-provider.md)**
+-   **Mandatory notifications for provider framework**
 
 Make critical notifications mandatory for the provider framework.
 
--   **[Email bounce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/email-bounce.md)**
+-   **Email bounce**
 
 Prevent resending bounced emails to the addresses that are known to generate bounces.
 
@@ -1974,30 +1974,30 @@ Now Assist
 
 </td><td>
 
--   **[Changes to Now Assist usage measurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/monitoring-now-assist-usage.md)**
+-   **Changes to Now Assist usage measurement**
 
 Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
--   **[Some Now Assist skills are turned on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md)**
+-   **Some Now Assist skills are turned on by default**
 
 The new default behavior works as follows:
 
     -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
     -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
--   **[Configure ACLs for AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/aia-security-implementation.md)**
+-   **Configure ACLs for AI agents and agentic workflows**
 
 Configure the access control lists for who can discover and trigger AI agents and agentic workflows in their guided setups in AI Agent Studio. You can determine whether an AI agent or agentic workflow behaves as a dynamic user or as an AI user. You can also specify if an AI agent or agentic workflow can be available to all authenticated users or publicly available.
 
 
--   **[Configure multilingual service for Now Assist applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/enable-dynamic-translation-for-now-assist-applications.md)**
+-   ****
 
 Enable translation settings is now Multilingual service in Now Assist admin console.
 
--   **[Default email client for email recommendation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills.md)**
+-   **Default email client for email recommendation skill**
 
 The Seismic email client is enabled by default on Core UI with the activation of email recommendation. This client provides the Generative AI application features for creating email responses, draft management, and template management.
 
--   **[Now Assist panel response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-panel-overview.md)Now Assist panel response**
+-   **Now Assist panel responseNow Assist panel response**
 
 With the carousel experience removed, the Now Assist panel now generates a synthesized response for any user inquiry. This response includes content from Knowledge articles, flows &amp; actions, skills, and links to those articles, instead of only the Now Assist panel skills.
 
@@ -2008,58 +2008,58 @@ Now Assist AI agents
 
 </td><td>
 
--   **[Changes to Now Assist usage measurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/monitoring-now-assist-usage.md)**
+-   **Changes to Now Assist usage measurement**
 
 Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
--   **[Some Now Assist skills are turned on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md)**
+-   **Some Now Assist skills are turned on by default**
 
 The new default behavior works as follows:
 
     -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
     -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
--   **[Configure ACLs for AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/aia-security-implementation.md)**
+-   **Configure ACLs for AI agents and agentic workflows**
 
 Configure the access control lists for who can discover and trigger AI agents and agentic workflows in their guided setups in AI Agent Studio. You can determine whether an AI agent or agentic workflow behaves as a dynamic user or as an AI user. You can also specify if an AI agent or agentic workflow can be available to all authenticated users or publicly available.
 
--   **[Platform Request status AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/ticket-status-aia.md)**
+-   ****
 
 The request status AI agent provides an AI-generated summary of the most recent comments from the AI agent or other people working on a ticket. You can add attachments to an open ticket or incident to support a request action. To find more information about an open ticket, you can ask the request status AI agent follow-up questions based on previous answers from the agent.
 
--   **[Configuring Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configuring-ai-agents.md)**
+-   ****
 
 Run AI agents and agentic workflows concurrently in AI Agent Background Channel and in Non-interactive mode.
 
--   **[Add a Knowledge Graph to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/add-knowledge-graph.md)**
+-   ****
 
 The Global Graph resource for creating a Knowledge Graph tool has been renamed to Enterprise Graph.
 
 
 [Yokohama Patch 8](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-8.md)
 
--   **[Confirm your web search tool provider data policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/add-web-search-ai-agent.md)**
+-   **Confirm your web search tool provider data policies**
 
 If you select Google as your web search provider for web search AI agent tools, Google will use [Grounding with Google Search](https://cloud.google.com/vertex-ai/generative-ai/docs/grounding/grounding-with-google-search), offered under a Global Standard deployment, and data may be routed to places outside of regions specified on your ServiceNow instance as a result. Consult your organization's data policies before enabling AI agents with web search tools that use Google as the provider.
 
 
--   **[Add version control to instructions sent to the LLM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/version-control.md)**
+-   **Add version control to instructions sent to the LLM**
 
 You can review multiple versions of instructions sent to the LLM when designing your AI agents or agentic workflows. You can choose which version is active to help with testing or evaluating the success of an AI agent or agentic workflow to compare against other versions. Versions are named and ordered by time created for organizational purposes.
 
--   **[Duplicate and edit existing tools when creating new AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/add-tool-aia.md)**
+-   **Duplicate and edit existing tools when creating new AI agents**
 
 When adding a tool to an AI agent, you can select an existing tool instead of creating a new tool from scratch. After an existing tool is added, you can make changes to suit the specific AI agent’s needs.
 
--   **[Now Assist AI agents reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/na-aia-reference.md)**
+-   ****
 
 The **sn\_aia.enable\_agent\_tool\_input\_value\_overrides** system property is migrated to the \[sn\_aia\_property\] agent system property.
 
 
--   **[Monitor more AI agent analytics in the AI Agent Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/ai-agent-dashboard.md)**
+-   **Monitor more AI agent analytics in the AI Agent Analytics dashboard**
 
 Two new pages have been added to the AI Agent Analytics dashboard, giving administrators more indicators, visualizations, and breakdowns to track AI agent performance and usage.
 
--   **[Exploring Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/exploring-ai-agents.md)**
+-   ****
 
 Impersonation in Now Assist records transactions done by an AI agent in the name of the AI agent who executes the agentic workflow.
 
@@ -2070,17 +2070,17 @@ Now Assist Skill Kit
 
 </td><td>
 
--   **[Changes to Now Assist usage measurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/monitoring-now-assist-usage.md)**
+-   **Changes to Now Assist usage measurement**
 
 Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
--   **[Some Now Assist skills are turned on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md)**
+-   **Some Now Assist skills are turned on by default**
 
 The new default behavior works as follows:
 
     -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
     -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
--   **[Configure ACLs for AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/aia-security-implementation.md)**
+-   **Configure ACLs for AI agents and agentic workflows**
 
 Configure the access control lists for who can discover and trigger AI agents and agentic workflows in their guided setups in AI Agent Studio. You can determine whether an AI agent or agentic workflow behaves as a dynamic user or as an AI user. You can also specify if an AI agent or agentic workflow can be available to all authenticated users or publicly available.
 
@@ -2091,17 +2091,17 @@ Now Assist for App Engine
 
 </td><td>
 
--   **[Changes to Now Assist usage measurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/monitoring-now-assist-usage.md)**
+-   **Changes to Now Assist usage measurement**
 
 Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
--   **[Some Now Assist skills are turned on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md)**
+-   **Some Now Assist skills are turned on by default**
 
 The new default behavior works as follows:
 
     -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
     -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
--   **[Configure ACLs for AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/aia-security-implementation.md)**
+-   **Configure ACLs for AI agents and agentic workflows**
 
 Configure the access control lists for who can discover and trigger AI agents and agentic workflows in their guided setups in AI Agent Studio. You can determine whether an AI agent or agentic workflow behaves as a dynamic user or as an AI user. You can also specify if an AI agent or agentic workflow can be available to all authenticated users or publicly available.
 
@@ -2112,17 +2112,17 @@ Now Assist for Collaborative Work Management
 
 </td><td>
 
--   **[Changes to Now Assist usage measurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/monitoring-now-assist-usage.md)**
+-   **Changes to Now Assist usage measurement**
 
 Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
--   **[Some Now Assist skills are turned on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md)**
+-   **Some Now Assist skills are turned on by default**
 
 The new default behavior works as follows:
 
     -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
     -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
--   **[Configure ACLs for AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/aia-security-implementation.md)**
+-   **Configure ACLs for AI agents and agentic workflows**
 
 Configure the access control lists for who can discover and trigger AI agents and agentic workflows in their guided setups in AI Agent Studio. You can determine whether an AI agent or agentic workflow behaves as a dynamic user or as an AI user. You can also specify if an AI agent or agentic workflow can be available to all authenticated users or publicly available.
 
@@ -2133,17 +2133,17 @@ Now Assist for Configuration Management Database \(CMDB\)
 
 </td><td>
 
--   **[Changes to Now Assist usage measurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/monitoring-now-assist-usage.md)**
+-   **Changes to Now Assist usage measurement**
 
 Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
--   **[Some Now Assist skills are turned on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md)**
+-   **Some Now Assist skills are turned on by default**
 
 The new default behavior works as follows:
 
     -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
     -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
--   **[Configure ACLs for AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/aia-security-implementation.md)**
+-   **Configure ACLs for AI agents and agentic workflows**
 
 Configure the access control lists for who can discover and trigger AI agents and agentic workflows in their guided setups in AI Agent Studio. You can determine whether an AI agent or agentic workflow behaves as a dynamic user or as an AI user. You can also specify if an AI agent or agentic workflow can be available to all authenticated users or publicly available.
 
@@ -2154,35 +2154,35 @@ Now Assist for Creator
 
 </td><td>
 
--   **[Changes to Now Assist usage measurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/monitoring-now-assist-usage.md)**
+-   **Changes to Now Assist usage measurement**
 
 Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
--   **[Some Now Assist skills, agents, and agentic workflows are turned on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md)**
+-   **Some Now Assist skills, agents, and agentic workflows are turned on by default**
 
 The skills are automatically available to appropriate role users for the application, such as ITIL roles on incident forms or change forms. This change simply activates the skill and does not touch the roles that may be needed to use the skill. The new default behavior works as follows:
 
     -   New customers: When you install a Now Assist product, designated skills and agentic workflows are turned on automatically.
     -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill, agent, or agentic workflow is turned on automatically \(the AI asset was never configured and turned on, then turned off again\). Previously configured skills and agentic workflows that were turned on, then off, remain inactive.
--   **[Configure ACLs for AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/aia-security-implementation.md)**
+-   **Configure ACLs for AI agents and agentic workflows**
 
 Configure the access control lists for who can discover and trigger AI agents and agentic workflows in their guided setups in AI Agent Studio. You can determine whether an AI agent or agentic workflow behaves as a dynamic user or as an AI user. You can also specify if an AI agent or agentic workflow can be available to all authenticated users or publicly available.
 
 
--   **[More easily identify changes when previewing and updating applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/sns-app-gen-using-landing.md)**
+-   **More easily identify changes when previewing and updating applications**
 
 When previewing an application, any requested changes made by the Now Assist for app generation skill are listed when the preview pane loads.
 
--   **[Edit applications without having to change the scope manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/sns-app-gen-review-apps.md)**
+-   **Edit applications without having to change the scope manually**
 
 When editing applications, the Now Assist for app generation skill now changes the scope that you’re working in to the scope of the application automatically.
 
--   **[More easily query Analytics Generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/analytics-assist-landing-page.md)**
+-   **More easily query Analytics Generation**
 
 Analytics Generation now uses a semantic filter instead of Natural Language Query \(NLQ\), resulting in less rigid requirements for queries.
 
 
--   **[Improved query engine for Analytics Generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/analytics-assist-landing-page.md)**
+-   **Improved query engine for Analytics Generation**
 
 Starting in Yokohama Patch 1, analytics generation supports GPT-4o for generating queries, to provide better accuracy in responses. These improvements include support for up to two levels of dot-walking based on user utterances.
 
@@ -2212,10 +2212,10 @@ Refined the AI-generated reply recommendation to create the best response for us
 
 -   **[Chat reply recommendation enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/generate-chat-reply-recommendations.md)**
 
-Added the chat reply recommendation enhancements to respond in a conversational tone and get feature parity in the Now Assist Admin console:
+Added the chat reply recommendation enhancements to respond in a conversational tone and get feature parity in the AI Admin Hub console:
 
     -   Refined the AI-generated reply recommendation to create the best answer for your users by applying tone changes in the Now Assist context menu. Additional tone options, including casual, formal, and sympathetic, are available.
-    -   Added parity with the chat summarization Now Assist Admin console capabilities. The Now Assist Admin console can specify the portal and channels for chat reply recommendations and assign additional support roles.
+    -   Added parity with the chat summarization AI Admin Hub console capabilities. The AI Admin Hub console can specify the portal and channels for chat reply recommendations and assign additional support roles.
 -   **[Case summarization enhancement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/summarize-a-call-by-using-now-assist-for-customer-service-management-csm.md)**
 
 Detailed feedback option is now available for negative feedback \[Omitted image "thumbs-down-outline-24.svg"\] Alt text: thumbs down icon in the generated case summary.
@@ -2229,17 +2229,17 @@ Now Assist for Enterprise Architecture \(EA\)
 
 </td><td>
 
--   **[Changes to Now Assist usage measurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/monitoring-now-assist-usage.md)**
+-   **Changes to Now Assist usage measurement**
 
 Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
--   **[Some Now Assist skills are turned on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md)**
+-   **Some Now Assist skills are turned on by default**
 
 The new default behavior works as follows:
 
     -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
     -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
--   **[Configure ACLs for AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/aia-security-implementation.md)**
+-   **Configure ACLs for AI agents and agentic workflows**
 
 Configure the access control lists for who can discover and trigger AI agents and agentic workflows in their guided setups in AI Agent Studio. You can determine whether an AI agent or agentic workflow behaves as a dynamic user or as an AI user. You can also specify if an AI agent or agentic workflow can be available to all authenticated users or publicly available.
 
@@ -2250,17 +2250,17 @@ Now Assist for Field Service Management \(FSM\)
 
 </td><td>
 
--   **[Changes to Now Assist usage measurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/monitoring-now-assist-usage.md)**
+-   **Changes to Now Assist usage measurement**
 
 Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
--   **[Some Now Assist skills are turned on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md)**
+-   **Some Now Assist skills are turned on by default**
 
 The new default behavior works as follows:
 
     -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
     -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
--   **[Configure ACLs for AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/aia-security-implementation.md)**
+-   **Configure ACLs for AI agents and agentic workflows**
 
 Configure the access control lists for who can discover and trigger AI agents and agentic workflows in their guided setups in AI Agent Studio. You can determine whether an AI agent or agentic workflow behaves as a dynamic user or as an AI user. You can also specify if an AI agent or agentic workflow can be available to all authenticated users or publicly available.
 
@@ -2276,17 +2276,17 @@ Now Assist for Financial Services Operations \(FSO\)
 
 </td><td>
 
--   **[Role configuration required for agentic workflows and AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/aia-role-masking.md)**
+-   **Role configuration required for agentic workflows and AI agents**
 
 Agentic workflows and AI agents included with Now Assist applications require additional security configuration. If you select **Users with selected roles** for your user access security controls for an agentic workflow or AI agent, you must add the installed roles, or they will not execute. Data access settings must also include these roles. See the documentation for the agentic workflow or AI agent for the specific roles you must add.
 
--   **[Some Now Assist skills are turned on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md)**
+-   **Some Now Assist skills are turned on by default**
 
 The new default behavior works as follows:
 
     -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
     -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
--   **[Changes to Now Assist usage measurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/monitoring-now-assist-usage.md)**
+-   **Changes to Now Assist usage measurement**
 
 Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
@@ -2297,17 +2297,17 @@ Now Assist for HR Service Delivery \(HRSD\)
 
 </td><td>
 
--   **[Changes to Now Assist usage measurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/monitoring-now-assist-usage.md)**
+-   **Changes to Now Assist usage measurement**
 
 Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
--   **[Some Now Assist skills are turned on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md)**
+-   **Some Now Assist skills are turned on by default**
 
 The new default behavior works as follows:
 
     -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
     -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
--   **[Configure ACLs for AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/aia-security-implementation.md)**
+-   **Configure ACLs for AI agents and agentic workflows**
 
 Configure the access control lists for who can discover and trigger AI agents and agentic workflows in their guided setups in AI Agent Studio. You can determine whether an AI agent or agentic workflow behaves as a dynamic user or as an AI user. You can also specify if an AI agent or agentic workflow can be available to all authenticated users or publicly available.
 
@@ -2323,17 +2323,17 @@ Now Assist for Hardware Asset Management \(HAM\)
 
 </td><td>
 
--   **[Changes to Now Assist usage measurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/monitoring-now-assist-usage.md)**
+-   **Changes to Now Assist usage measurement**
 
 Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
--   **[Some Now Assist skills are turned on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md)**
+-   **Some Now Assist skills are turned on by default**
 
 The new default behavior works as follows:
 
     -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
     -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
--   **[Configure ACLs for AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/aia-security-implementation.md)**
+-   **Configure ACLs for AI agents and agentic workflows**
 
 Configure the access control lists for who can discover and trigger AI agents and agentic workflows in their guided setups in AI Agent Studio. You can determine whether an AI agent or agentic workflow behaves as a dynamic user or as an AI user. You can also specify if an AI agent or agentic workflow can be available to all authenticated users or publicly available.
 
@@ -2344,21 +2344,21 @@ Now Assist for IT Operations Management \(ITOM\)
 
 </td><td>
 
--   **[Changes to Now Assist usage measurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/monitoring-now-assist-usage.md)**
+-   **Changes to Now Assist usage measurement**
 
 Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
--   **[Some Now Assist skills are turned on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md)**
+-   **Some Now Assist skills are turned on by default**
 
 The new default behavior works as follows:
 
     -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
     -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
--   **[Configure ACLs for AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/aia-security-implementation.md)**
+-   **Configure ACLs for AI agents and agentic workflows**
 
 Configure the access control lists for who can discover and trigger AI agents and agentic workflows in their guided setups in AI Agent Studio. You can determine whether an AI agent or agentic workflow behaves as a dynamic user or as an AI user. You can also specify if an AI agent or agentic workflow can be available to all authenticated users or publicly available.
 
--   **[AIOps AI agents removed from the analyze alert impact agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/now-assist-itom-agentic-aia.md)**
+-   **AIOps AI agents removed from the analyze alert impact agentic workflow**
 
 Four AIOps AI agents have been removed from the analyze alert impact agentic workflow as they're now available in the manage alerts autonomously agentic workflow. AI agents for Dynatrace, Kentik, and New Relic remain in the analyze alert impact agentic workflow to help you learn about and respond to alerts.
 
@@ -2371,36 +2371,36 @@ Now Assist for IT Service Management \(ITSM\)
 
 [Yokohama Patch 11](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-11.md)
 
--   **[Changes to Now Assist usage measurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/monitoring-now-assist-usage.md)**
+-   **Changes to Now Assist usage measurement**
 
 Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
--   **[Role configuration required for agentic workflows and AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/aia-role-masking.md)**
+-   **Role configuration required for agentic workflows and AI agents**
 
 Agentic workflows and AI agents included with Now Assist applications require additional security configuration. If you select **Users with selected roles** for your user access security controls for an agentic workflow or AI agent, you must add the installed roles, or they will not execute. Data access settings must also include these roles. See the documentation for the agentic workflow or AI agent for the specific roles you must add.
 
--   **[Some Now Assist skills are turned on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md)**
+-   **Some Now Assist skills are turned on by default**
 
 The new default behavior works as follows:
 
     -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
     -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
--   **[Skills activated by default in Now Assist for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/using-now-assist-for-itsm.md)**
+-   **Skills activated by default in Now Assist for ITSM**
 
-For new Now Assist for IT Service Management \(ITSM\) users, the following skills are activated by default:
+For new ServiceNow Otto for IT Service Management \(ITSM\) users, the following skills are activated by default:
 
     -   Incident summarization
     -   Change request summarization
     -   Chat summarization
--   **Yokohama Patch 6 [Removing the prompt headers from the Customize prompt screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/cust-now-assist-itsm-skill.md)**
+-   **Yokohama Patch 6 Removing the prompt headers from the Customize prompt screen**
 
 The prompt headers have been removed from the Customize prompt screen in the Incident summarization and Change summarization skill to support third-party Large Language Models \(LLMs\).
 
--   **Yokohama Early Availability[System property to display knowledge article templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/Now-Assist-generate-article-SOW-itsm.md)**
+-   **Yokohama Early AvailabilitySystem property to display knowledge article templates**
 
 Display Knowledge article templates that you can use to create articles by using a system property. In earlier releases, the templates were displayed by default.
 
--   **Yokohama Patch 3 [IT Service Management AI agent collection Triage and categorize ITSM incidents agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/now-assist-itsm-aiagents-catincidents-usecase.md)**
+-   **Yokohama Patch 3 **
 
 The Categorize incidents use case has been renamed to the Triage and categorize ITSM incidents agentic workflow.
 
@@ -2417,13 +2417,13 @@ Now Assist for Legal Service Delivery \(LSD\)
 
 </td><td>
 
--   **[Some Now Assist skills are turned on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md)**
+-   **Some Now Assist skills are turned on by default**
 
 The new default behavior works as follows:
 
     -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
     -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
--   **[Role configuration required for agentic workflows and AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/aia-role-masking.md)**
+-   **Role configuration required for agentic workflows and AI agents**
 
 Agentic workflows and AI agents included with Now Assist applications require additional security configuration. If you select **Users with selected roles** for your user access security controls for an agentic workflow or AI agent, you must add the installed roles, or they will not execute. Data access settings must also include these roles. See the documentation for the agentic workflow or AI agent for the specific roles you must add.
 
@@ -2434,17 +2434,17 @@ Now Assist for Order Management
 
 </td><td>
 
--   **[Changes to Now Assist usage measurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/monitoring-now-assist-usage.md)**
+-   **Changes to Now Assist usage measurement**
 
 Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
--   **[Some Now Assist skills are turned on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md)**
+-   **Some Now Assist skills are turned on by default**
 
 The new default behavior works as follows:
 
     -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
     -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
--   **[Configure ACLs for AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/aia-security-implementation.md)**
+-   **Configure ACLs for AI agents and agentic workflows**
 
 Configure the access control lists for who can discover and trigger AI agents and agentic workflows in their guided setups in AI Agent Studio. You can determine whether an AI agent or agentic workflow behaves as a dynamic user or as an AI user. You can also specify if an AI agent or agentic workflow can be available to all authenticated users or publicly available.
 
@@ -2455,17 +2455,17 @@ Now Assist for Sales Force Automation \(SFA\)
 
 </td><td>
 
--   **[Changes to Now Assist usage measurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/monitoring-now-assist-usage.md)**
+-   **Changes to Now Assist usage measurement**
 
 Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
--   **[Some Now Assist skills are turned on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md)**
+-   **Some Now Assist skills are turned on by default**
 
 The new default behavior works as follows:
 
     -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
     -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
--   **[Configure ACLs for AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/aia-security-implementation.md)**
+-   **Configure ACLs for AI agents and agentic workflows**
 
 Configure the access control lists for who can discover and trigger AI agents and agentic workflows in their guided setups in AI Agent Studio. You can determine whether an AI agent or agentic workflow behaves as a dynamic user or as an AI user. You can also specify if an AI agent or agentic workflow can be available to all authenticated users or publicly available.
 
@@ -2476,13 +2476,13 @@ Now Assist for Security Incident Response
 
 </td><td>
 
--   **[Changes to Now Assist usage measurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/monitoring-now-assist-usage.md)**
+-   **Changes to Now Assist usage measurement**
 
 Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
--   **[Some Now Assist skills are now turned on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md)**
+-   **Some Now Assist skills are now turned on by default**
 
-The following Now Assist skills for Now Assist for Security Incident Response and Now Assist for Vulnerability Response are activated by default.
+The following Now Assist skills for ServiceNow Otto for Security Incident Response \(SIR\) and ServiceNow Otto for Unified Security Exposure Management are activated by default.
 
     -   Security incident summarization \(SIR\)
     -   Resolution notes generation \(SIR\)
@@ -2494,7 +2494,7 @@ The new default behavior works as follows:
 
     -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
     -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
--   **[Configure ACLs for AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/aia-security-implementation.md)**
+-   **Configure ACLs for AI agents and agentic workflows**
 
 Configure the access control lists for who can discover and trigger AI agents and agentic workflows in their guided setups in AI Agent Studio. You can determine whether an AI agent or agentic workflow behaves as a dynamic user or as an AI user. You can also specify if an AI agent or agentic workflow can be available to all authenticated users or publicly available.
 
@@ -2505,17 +2505,17 @@ Now Assist for Software Asset Management \(SAM\)
 
 </td><td>
 
--   **[Changes to Now Assist usage measurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/monitoring-now-assist-usage.md)**
+-   **Changes to Now Assist usage measurement**
 
 Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
--   **[Some Now Assist skills, agents, and agentic workflows are turned on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md)**
+-   **Some Now Assist skills, agents, and agentic workflows are turned on by default**
 
 The skills are automatically available to appropriate role users for the application, such as ITIL roles on incident forms or change forms. This change simply activates the skill and does not touch the roles that may be needed to use the skill. The new default behavior works as follows:
 
     -   New customers: When you install a Now Assist product, designated skills and agentic workflows are turned on automatically.
     -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill, agent, or agentic workflow is turned on automatically \(the AI asset was never configured and turned on, then turned off again\). Previously configured skills and agentic workflows that were turned on, then off, remain inactive.
--   **[Role configuration required for agentic workflows and AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/aia-role-masking.md)**
+-   **Role configuration required for agentic workflows and AI agents**
 
 Agentic workflows and AI agents included with Now Assist applications require additional security configuration. If you select **Users with selected roles** for your user access security controls for an agentic workflow or AI agent, you must add the installed roles, or they will not execute. Data access settings must also include these roles. See the documentation for the agentic workflow or AI agent for the specific roles you must add.
 
@@ -2526,17 +2526,17 @@ Now Assist for Source-to-Pay Operations
 
 </td><td>
 
--   **[Changes to Now Assist usage measurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/monitoring-now-assist-usage.md)**
+-   **Changes to Now Assist usage measurement**
 
 Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
--   **[Some Now Assist skills are turned on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md)**
+-   **Some Now Assist skills are turned on by default**
 
 The new default behavior works as follows:
 
     -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
     -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
--   **[Configure ACLs for AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/aia-security-implementation.md)**
+-   **Configure ACLs for AI agents and agentic workflows**
 
 Configure the access control lists for who can discover and trigger AI agents and agentic workflows in their guided setups in AI Agent Studio. You can determine whether an AI agent or agentic workflow behaves as a dynamic user or as an AI user. You can also specify if an AI agent or agentic workflow can be available to all authenticated users or publicly available.
 
@@ -2547,17 +2547,17 @@ Now Assist for Strategic Portfolio Management \(SPM\)
 
 </td><td>
 
--   **[Changes to Now Assist usage measurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/monitoring-now-assist-usage.md)**
+-   **Changes to Now Assist usage measurement**
 
 Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
--   **[Some Now Assist skills are turned on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md)**
+-   **Some Now Assist skills are turned on by default**
 
 The new default behavior works as follows:
 
     -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
     -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
--   **[Configure ACLs for AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/aia-security-implementation.md)**
+-   **Configure ACLs for AI agents and agentic workflows**
 
 Configure the access control lists for who can discover and trigger AI agents and agentic workflows in their guided setups in AI Agent Studio. You can determine whether an AI agent or agentic workflow behaves as a dynamic user or as an AI user. You can also specify if an AI agent or agentic workflow can be available to all authenticated users or publicly available.
 
@@ -2568,17 +2568,17 @@ Now Assist for Telecommunications, Media and Technology \(TMT\)
 
 </td><td>
 
--   **[Changes to Now Assist usage measurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/monitoring-now-assist-usage.md)**
+-   **Changes to Now Assist usage measurement**
 
 Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
--   **[Some Now Assist skills are turned on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md)**
+-   **Some Now Assist skills are turned on by default**
 
 The new default behavior works as follows:
 
     -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
     -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
--   **[Configure ACLs for AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/aia-security-implementation.md)**
+-   **Configure ACLs for AI agents and agentic workflows**
 
 Configure the access control lists for who can discover and trigger AI agents and agentic workflows in their guided setups in AI Agent Studio. You can determine whether an AI agent or agentic workflow behaves as a dynamic user or as an AI user. You can also specify if an AI agent or agentic workflow can be available to all authenticated users or publicly available.
 
@@ -2589,13 +2589,13 @@ Now Assist for Vulnerability Response
 
 </td><td>
 
--   **[Changes to Now Assist usage measurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/monitoring-now-assist-usage.md)**
+-   **Changes to Now Assist usage measurement**
 
 Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
--   **[Some Now Assist skills are now turned on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md)**
+-   **Some Now Assist skills are now turned on by default**
 
-The following Now Assist skills for Now Assist for Vulnerability Response are activated by default.
+The following Now Assist skills for ServiceNow Otto for Unified Security Exposure Management are activated by default.
 
     -   Recommend preferred solution for VIT \(VR\)
     -   Vulnerable item de-duplication \(VR\)
@@ -2606,7 +2606,7 @@ The new default behavior works as follows:
 
     -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
     -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
--   **[Configure ACLs for AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/aia-security-implementation.md)**
+-   **Configure ACLs for AI agents and agentic workflows**
 
 Configure the access control lists for who can discover and trigger AI agents and agentic workflows in their guided setups in AI Agent Studio. You can determine whether an AI agent or agentic workflow behaves as a dynamic user or as an AI user. You can also specify if an AI agent or agentic workflow can be available to all authenticated users or publicly available.
 
@@ -2617,17 +2617,17 @@ Now Assist for Workplace Service Delivery \(WSD\)
 
 </td><td>
 
--   **[Changes to Now Assist usage measurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/monitoring-now-assist-usage.md)**
+-   **Changes to Now Assist usage measurement**
 
 Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
--   **[Some Now Assist skills are turned on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md)**
+-   **Some Now Assist skills are turned on by default**
 
 The new default behavior works as follows:
 
     -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
     -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
--   **[Configure ACLs for AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/aia-security-implementation.md)**
+-   **Configure ACLs for AI agents and agentic workflows**
 
 Configure the access control lists for who can discover and trigger AI agents and agentic workflows in their guided setups in AI Agent Studio. You can determine whether an AI agent or agentic workflow behaves as a dynamic user or as an AI user. You can also specify if an AI agent or agentic workflow can be available to all authenticated users or publicly available.
 
@@ -2638,41 +2638,41 @@ Now Assist in AI Search
 
 </td><td>
 
--   **[Now Assist in Virtual Agent conversational prompt auto-complete suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/auto-complete-suggestion-types-na-ais.md)**
+-   **Now Assist in Virtual Agent conversational prompt auto-complete suggestions**
 
 Auto-complete suggestions for Now Assist in Virtual Agent conversational prompts are only returned from the search user's domain. Suggestions are disabled if they match any exclusion rule entry from the Search Suggestion Exclusion List \[sys\_search\_suggestion\_blacklist\] table. The system scores suggestions based on how search users interact with and rate their Genius Result responses, and preferentially displays higher-scored suggestions.
 
--   **[Changes to Now Assist usage measurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/monitoring-now-assist-usage.md)**
+-   **Changes to Now Assist usage measurement**
 
 Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
--   **[Some Now Assist skills are turned on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md)**
+-   **Some Now Assist skills are turned on by default**
 
 The new default behavior works as follows:
 
     -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
     -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
--   **[Configure ACLs for AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/aia-security-implementation.md)**
+-   **Configure ACLs for AI agents and agentic workflows**
 
 Configure the access control lists for who can discover and trigger AI agents and agentic workflows in their guided setups in AI Agent Studio. You can determine whether an AI agent or agentic workflow behaves as a dynamic user or as an AI user. You can also specify if an AI agent or agentic workflow can be available to all authenticated users or publicly available.
 
 
--   **[Semantic vector search indexing includes Catalog Item short descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/semantic-search-ais.md)**
+-   **Semantic vector search indexing includes Catalog Item short descriptions**
 
 Semantic indexing now indexes short descriptions from Catalog Item source records to improve search recall and make field indexing more consistent between legacy \(keyword\) and semantic indexing.
 
 
--   **[Microsoft SharePoint Online login prompts in Knowledge Graph user citations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/now-assist-multi-content-qna-genius-results.md)**
+-   **Microsoft SharePoint Online login prompts in Knowledge Graph user citations**
 
 If you're not logged in to Microsoft SharePoint Online, Knowledge Graph user citations in Now Assist Multi-Content Response Genius Result answers now prompt you to log in. When logged in, you can check any user citation in a Genius Result answer to see the list of files the cited user has shared with you in Microsoft SharePoint Online.
 
--   **[Now Assist Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/now-assist-qna-genius-results.md)**
+-   ****
 
-The Now Assist Q&amp;A Genius Results feature is in maintenance mode. This feature will have no new enhancements but will have continued support. Similar and improved functionality is available in the newer Now Assist Multi-Content Response Genius Results feature. For more details on this feature, see [Now Assist Multi-Content Response Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/now-assist-multi-content-qna-genius-results.md).
+The Now Assist Q&amp;A Genius Results feature is in maintenance mode. This feature will have no new enhancements but will have continued support. Similar and improved functionality is available in the newer Now Assist Multi-Content Response Genius Results feature. For more details on this feature, see .
 
--   **[Now Assist Actions Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/now-assist-catalog-ordering-gr.md)**
+-   ****
 
-The Now Assist Actions Genius Results feature is in maintenance mode. This feature will have no new enhancements but will have continued support. Similar and improved functionality is available in the newer Now Assist Multi-Content Response Genius Results feature. For more details on this feature, see [Now Assist Multi-Content Response Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/now-assist-multi-content-qna-genius-results.md).
+The Now Assist Actions Genius Results feature is in maintenance mode. This feature will have no new enhancements but will have continued support. Similar and improved functionality is available in the newer Now Assist Multi-Content Response Genius Results feature. For more details on this feature, see .
 
 
 </td></tr><tr><td>
@@ -2681,59 +2681,59 @@ Now Assist in Contract Management
 
 </td><td>
 
--   **[Automated obligation extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/cmpro-na-reminder-agentic-wf.md#section_tgm_mt3_dhc)**
+-   **Automated obligation extraction**
 
 Use the manage contract repository agentic workflow to automatically identify and capture key contractual obligations from signed contracts and create obligation records in the contract repository. The AI agent in the manage contract repository agentic workflow uses the Now Assist Contract obligation extraction skill to extract key contractual obligations from contracts.
 
--   **[Using contract playbook to review AI-extracted obligations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/cmpro-na-review-obligations.md)**
+-   **Using contract playbook to review AI-extracted obligations**
 
 Review extracted obligations in the contract playbook, with options to edit, approve, or reject each obligation. Approved obligations are added as obligation records in the contract repository while rejected obligations are deactivated.
 
--   **[Contract obligation extraction skill in Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/cncore-conf-obligation-extraction.md)**
+-   **Contract obligation extraction skill in Now Assist in Contract Management**
 
-Configure and map use cases for obligation extraction skill in the Now Assist Admin console to automatically extract key contractual obligations from signed contracts. The AI agent in the manage contract repository agentic workflow uses the Now Assist Contract obligation extraction skill to extract key contractual obligations from contracts.
+Configure and map use cases for obligation extraction skill in the AI Admin Hub console to automatically extract key contractual obligations from signed contracts. The AI agent in the manage contract repository agentic workflow uses the Now Assist Contract obligation extraction skill to extract key contractual obligations from contracts.
 
--   **[Conversational contract search and insights Workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/cmpro-agentic-use-conv-search.md)**
+-   ****
 
 Contract documents are often complex and stored across multiple formats and repositories, making keyword-based search inefficient and error-prone. The new Now Assist powered conversational search feature enables you to search contract documents using natural language and dialogue-driven queries.
 
 The conversational search feature does not support searching within contract documents that are scanned PDFs.
 
--   **[Some Now Assist skills are turned on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md)**
+-   **Some Now Assist skills are turned on by default**
 
 The new default behavior works as follows:
 
     -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
     -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
--   **[Now LLM LTS support for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-llm-model-updates.md)**
+-   **Now LLM LTS support for Contract Management Pro**
 
 Long term stable \(LTS\) models are part of Now LLM Service and provide longer model stability windows for regulated industries. These models can integrate with tools to provide governance, monitoring, and compliance controls.
 
 
--   **[Extract metadata from signed contracts automatically](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/cmpro-na-reminder-agentic-wf.md)**
+-   **Extract metadata from signed contracts automatically**
 
 Use the AI agents in the Manage contract repository agentic workflow to automatically extract metadata from signed contracts and calculate the contract reminder dates for contract renewal or termination. You can review the AI results in the contract playbook and update it if necessary before saving it.
 
--   **[Contract metadata extraction use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/metadata-extraction-use-case.md)**
+-   ****
 
 Support for 14 additional metadata fields in the CM Pro - Contract Metadata Extraction use case available in the base system.
 
 
--   **[Configuring contract metadata extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/cncore-conf-metadata-extraction.md)**
+-   ****
 
-Create a use case and its associated fields for contract metadata extraction in the Now Assist Admin console to define the information that you want Now Assist to detect in a signed contract.
+Create a use case and its associated fields for contract metadata extraction in the AI Admin Hub console to define the information that you want Now Assist to detect in a signed contract.
 
-Create a use case mapping in the Now Assist Admin console to map a use case to specific tables and define conditions to apply the use case for metadata extraction.
+Create a use case mapping in the AI Admin Hub console to map a use case to specific tables and define conditions to apply the use case for metadata extraction.
 
--   **[Configuring contract analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/cmpro-conf-contract-analysis.md)**
+-   ****
 
-Create a use case and its associated question groups for contract analysis in the Now Assist Admin console to identify the non-standard and missing clauses in a contract.
+Create a use case and its associated question groups for contract analysis in the AI Admin Hub console to identify the non-standard and missing clauses in a contract.
 
-Create a clause mapping Now Assist Admin console to map question groups of a use case to active clauses in the clause library to display suggestions for non-standard clauses in a contract.
+Create a clause mapping AI Admin Hub console to map question groups of a use case to active clauses in the clause library to display suggestions for non-standard clauses in a contract.
 
-Create an expected response mapping in the Now Assist Admin console to map questions of a use case to an expected response to identify the non-standard clause in a contract.
+Create an expected response mapping in the AI Admin Hub console to map questions of a use case to an expected response to identify the non-standard clause in a contract.
 
-Create a use case mapping in the Now Assist Admin console to map a use case to specific tables and define conditions to apply the use case for contract analysis.
+Create a use case mapping in the AI Admin Hub console to map a use case to specific tables and define conditions to apply the use case for contract analysis.
 
 
 </td></tr><tr><td>
@@ -2742,33 +2742,33 @@ Now Assist in Document Intelligence
 
 </td><td>
 
--   **[Document and visual insights AI agent enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/document-and-visual-insights-ai-agent.md)**
+-   **Document and visual insights AI agent enhancements**
 
 Tools used by the document and visual insights AI agent are consolidated to improve performance.
 
--   **[Now Assist in Document Intelligence skills are now turned on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md)**
+-   **Now Assist in Document Intelligence skills are now turned on by default**
 
 The new default behavior works as follows:
 
     -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
     -   Existing customers who are upgrading: Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
 
--   **[Changes to Now Assist usage measurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/monitoring-now-assist-usage.md)**
+-   **Changes to Now Assist usage measurement**
 
 Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
--   **[Some Now Assist skills are turned on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md)**
+-   **Some Now Assist skills are turned on by default**
 
 The new default behavior works as follows:
 
     -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
     -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
--   **[Configure ACLs for AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/aia-security-implementation.md)**
+-   **Configure ACLs for AI agents and agentic workflows**
 
 Configure the access control lists for who can discover and trigger AI agents and agentic workflows in their guided setups in AI Agent Studio. You can determine whether an AI agent or agentic workflow behaves as a dynamic user or as an AI user. You can also specify if an AI agent or agentic workflow can be available to all authenticated users or publicly available.
 
 
--   **[Document and visual insights AI agent enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/document-and-visual-insights-ai-agent.md)**
+-   **Document and visual insights AI agent enhancements**
 
 Generate a summary of document and image attachments with the document and visual insights AI agent.
 
@@ -2779,44 +2779,44 @@ Now Assist in Platform Analytics
 
 </td><td>
 
--   **[View recommended actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/expl-view-recommended-actions.md)**
+-   **View recommended actions**
 
 AI Data Explorer can suggest actions based on the insights that it generates in an exploration.
 
--   **[Ask questions about FX currency data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/qg-supported-query-operations.md)**
+-   **Ask questions about FX currency data**
 
 Query Generation now supports the FXCurrency \(Currency 2\) data type. This means that you can use AI Data Explorer to explore financial operations data, including those within Source-to-Pay Operations.
 
--   **[Benefit from improvements to segments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/querygen-segments.md)**
+-   **Benefit from improvements to segments**
 
 Segments are reusable definitions in Query Generation that provide non-obvious context to assist the semantic layer or LLM to select the correct dimension and values. Users can create manual segments via a new form. A scheduled job synchronizes manual and autogenerated segments. This job also cleans up segments to help surface the correct segments and reduce noise.
 
 Domain separation is also now supported, with a Domain field on the Segments table. Segments based on reports and filters inherit the source domain. Manual segments have domains that are passed up to the Segments table on synchronization. Segments are not supported for indicator sources or modules on domain-separated instances.
 
 
--   **[Changes to Now Assist usage measurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/monitoring-now-assist-usage.md)**
+-   **Changes to Now Assist usage measurement**
 
 Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
--   **[Some Now Assist skills are turned on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md)**
+-   **Some Now Assist skills are turned on by default**
 
 The new default behavior works as follows:
 
     -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
     -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
--   **[Configure ACLs for AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/aia-security-implementation.md)**
+-   **Configure ACLs for AI agents and agentic workflows**
 
 Configure the access control lists for who can discover and trigger AI agents and agentic workflows in their guided setups in AI Agent Studio. You can determine whether an AI agent or agentic workflow behaves as a dynamic user or as an AI user. You can also specify if an AI agent or agentic workflow can be available to all authenticated users or publicly available.
 
--   **[Query Generation skills are active by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/enable-query-generation.md)**
+-   **Query Generation skills are active by default**
 
 If the Generative AI Controller plugin is activated, the skills for Query Generation are activated by default.
 
--   **[Greater visibility into the Query Generation process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/ask-expl-questions.md)**
+-   **Greater visibility into the Query Generation process**
 
 When you call Query Generation from AI Data Explorer or another application, you see each state that the query and response goes through before completing.
 
--   **[Multi-table source support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/ask-expl-questions.md)**
+-   **Multi-table source support**
 
 Query Generation supports related table conditions and dot-walking in queries.
 
@@ -2824,16 +2824,16 @@ Query Generation supports related table conditions and dot-walking in queries.
 
 Ask AI Data Explorer information about Workflow Data Fabric data and get insightful responses. You must first add the Workflow Data Fabric tables to the Query Generation Semantic Table Configuration table.
 
--   **[Use database views in queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/add-table-semantic-layer.md)**
+-   **Use database views in queries**
 
 Generate visualizations or ask AI Data Explorer about data kept in database views, like SLA data. You have to add the database views to the Semantic Table Configuration table.
 
 
--   **[Add tables to the semantic data layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/add-table-semantic-layer.md)**
+-   **Add tables to the semantic data layer**
 
 Choose which tables your users can query with generative AI for data analysis.
 
--   **[Monitor the health of the Query Generation back end](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/querygen-health-page.md)**
+-   **Monitor the health of the Query Generation back end**
 
 View the state of Now Assist for Platform Analytics LLM, plugins, system properties, components, and dependent products.
 
@@ -2844,13 +2844,13 @@ Now Assist in Virtual Agent
 
 </td><td>
 
--   **[Changes to Now Assist usage measurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/monitoring-now-assist-usage.md)**
+-   **Changes to Now Assist usage measurement**
 
 Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
--   **[Conversational Platform Now Assist skills are active by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills.md)**
+-   **Conversational Platform Now Assist skills are active by default**
 
-The following Platform Now Assist skills are active by default and no longer visible in Now Assist Admin console:
+The following Platform Now Assist skills are active by default and no longer visible in AI Admin Hub console:
 
     -   Now Assist Multi-Turn Catalog Ordering
     -   Now Assist Q&amp;A Genius Results
@@ -2880,7 +2880,7 @@ Manually enter into web search mode via the input bar for standard and enhanced 
 
 -   **[Profanity recognition response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/nava-enhanced-chat.md)**
 
-If Now Assist Guardian is enabled and the end user's request contains profane content, the Virtual Agent responds with a message prompt to re-enter an appropriate request without profanity or offensive content.
+If AI Guardian is enabled and the end user's request contains profane content, the Virtual Agent responds with a message prompt to re-enter an appropriate request without profanity or offensive content.
 
 
 -   **[Standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/nava-standard-chat.md)**
@@ -2888,7 +2888,7 @@ If Now Assist Guardian is enabled and the end user's request contains profane co
 The existing Now Assist in Virtual Agent LLM conversational behavior received a terminology update and is now referred to as standard chat.
 
 
--   **[Dynamic Translation calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/translation-for-now-assist.md)**
+-   **Dynamic Translation calls**
 
 If native translation is enabled, a Dynamic Translation call is only made if an unsupported language for native translation is used.
 
@@ -2899,7 +2899,7 @@ On-Call Scheduling
 
 </td><td>
 
--   **[Email redirection behavior for links in major on-call schedule email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/create-update-schedule-oncall.md)**
+-   **Email redirection behavior for links in major on-call schedule email notification**
 
 In all major on-call schedule or shift email notifications, you can now decide where the links to an on-call schedule or shift record are redirected. Instead of an on-call schedule or shift record automatically opening in the classic UI16 interface in On-Call Scheduling, the record can be opened in SOW. The on-call schedule or shift record link in an email notification opens in SOW only if the following conditions are met:
 
@@ -3001,19 +3001,19 @@ Operational Technology \(OT\) Manager Foundation
 
 </td><td>
 
--   **[Changes to Now Assist usage measurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/monitoring-now-assist-usage.md)**
+-   **Changes to Now Assist usage measurement**
 
 Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
--   **[Some Now Assist skills, agents, and agentic workflows are turned on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md)**
+-   **Some Now Assist skills, agents, and agentic workflows are turned on by default**
 
 The skills are automatically available to appropriate role users for the application, such as ITIL roles on incident forms or change forms. This change simply activates the skill and does not touch the roles that may be needed to use the skill. The new default behavior works as follows:
 
     -   New customers: When you install a Now Assist product, designated skills and agentic workflows are turned on automatically.
     -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill, agent, or agentic workflow is turned on automatically \(the AI asset was never configured and turned on, then turned off again\). Previously configured skills and agentic workflows that were turned on, then off, remain inactive.
--   **[Role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/aia-role-masking.md)**
+-   **Role masking**
 
-[Role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/aia-role-masking.md) enables users to limit the roles and privileges of agentic workflows during tool execution. Agentic workflows and their AI agents that get installed with Now Assist applications are assigned pre-defined roles. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. Data access settings must also include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/define-sec-controls-aw.md).
+Role masking enables users to limit the roles and privileges of agentic workflows during tool execution. Agentic workflows and their AI agents that get installed with Now Assist applications are assigned pre-defined roles. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. Data access settings must also include these roles. For the instructions to change the security controls, see Define security controls for an agentic workflow.
 
 
 </td></tr><tr><td>
@@ -3100,7 +3100,7 @@ Opportunity Marketplace
 
 </td><td>
 
--   **[Import Project Workspace project information to create an opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/egd-create-other-opportunities.md)**
+-   **Import Project Workspace project information to create an opportunity**
 
 Opportunity Marketplace opportunity owners can create Project Opportunity types by importing projects from the ServiceNow® Project Workspace.
 
@@ -3116,9 +3116,9 @@ If you’re assigned the resource\_user role, you can be a resource requester.
 
 The sn\_ppm\_read role provides read-only access to the Portfolio, Program, and Timecard dashboards along with the Resources report to the assigned users.
 
--   **[Select multiple user criteria groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/egd-create-other-opportunities.md)**
+-   **Select multiple user criteria groups**
 
-Opportunity owners can select multiple user criteria groups from the **Who can views this opportunity?** field on the Opportunity details page. For more information, see [Create opportunities in Opportunity Marketplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/egd-create-other-opportunities.md).
+Opportunity owners can select multiple user criteria groups from the **Who can views this opportunity?** field on the Opportunity details page. For more information, see .
 
 
 </td></tr><tr><td>
@@ -3127,7 +3127,7 @@ Platform Analytics experience
 
 </td><td>
 
--   **[Migrate more features to Platform Analytics from the Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/data-migration.md)**
+-   **Migrate more features to Platform Analytics from the Core UI**
 
 Migration scripts are improved to support more features. All migration script improvements are applied automatically on upgrade to content that was previously migrated in compatibility mode.
 
@@ -3136,7 +3136,7 @@ Migration scripts are improved to support more features. All migration script im
     -   Pareto charts are migrated.
     -   List component border changes are migrated.
     -   Follow/unfollow filter settings are migrated for Lists.
--   **[Use more Core UI features in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/data-mig-unmigrated-content.md)**
+-   **Use more Core UI features in Platform Analytics**
 
 Several data visualizations have been enhanced to match the capacities in Core UI reports and widgets. The migration script supports these enhancements. Each of these enhancements has an entry in the release notes with links to the product documentation.
 
@@ -3145,58 +3145,58 @@ Several data visualizations have been enhanced to match the capacities in Core U
     -   Sort values by name, report range, and element order on time series visualizations of table data.
     -   Choose an aggregate or separate view of breakdown elements on time series visualizations of indicator data.
     -   Select dates from business calendars on time series visualizations.
--   **[Trend by Business calendars in time series data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/config-dv-time-series-table-data.md)**
+-   **Trend by Business calendars in time series data visualizations**
 
 Business calendars are a **Trend by** option for table data sources on time series visualizations. \(Core UI feature gap\)
 
--   **[Use a Fiscal calendar in date filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/create-date-filter-workspace.md)**
+-   **Use a Fiscal calendar in date filters**
 
 If your instance has Fiscal calendars installed, you can choose relative data ranges from that calendar.
 
--   **Export [dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/export-pae-dashboard-ppt.md) and [data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/export-visualization-vd.md) to PDF and PPT**
+-   **Export dashboards and data visualizations to PDF and PPT**
 
-Export dashboards and data visualizations to PDF or Microsoft PowerPoint files at will or in [scheduled emails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/schedule-export-dboards-data-viz.md).
+Export dashboards and data visualizations to PDF or Microsoft PowerPoint files at will or in scheduled emails.
 
--   **[Show breakdown elements separately on time series visualizations of indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/config-dv-time-series-ind-data.md)**
+-   **Show breakdown elements separately on time series visualizations of indicators**
 
 Show multiple elements in the chart separately rather than as an aggregate value by turning on the **Show filter as separate series** option. \(Core UI feature gap\)
 
--   **[Lock editing on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/edit-db-in-ac.md)**
+-   **Lock editing on dashboards**
 
 Ensure that only one person can have a dashboard open for editing at one time through the edit lock on dashboards. If you are locked out of editing a dashboard, you see who the current editor is.
 
--   **[Access indicator record or scoresheet from KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/access-indicator-record-scoresheet.md)**
+-   ****
 
 Navigate either to the record of the indicator you are exploring or its scoresheet through KPI Details. Appropriate roles are required.
 
--   **[Export records that underlie an indicator from KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/show-compare-edit-records.md)**
+-   **Export records that underlie an indicator from KPI Details**
 
 With **Show records** activated in KPI Details, you can export the list of records in one of several formats, either as a local download or as an email attachment.
 
--   **[Hide axes for bar visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/create-dv-bar-ac.md)**
+-   **Hide axes for bar visualizations**
 
 Control the display of axes on bar charts. On horizontal bar charts, you can hide the y-axis. On vertical bar charts, you can hide the x-axis.
 
--   **[Cache indicator scorecard data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/data-caching-pa.md)**
+-   **Cache indicator scorecard data**
 
 Indicator scorecards now support data caching.
 
--   **[Group by elements more efficiently in data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/select-group-runtime.md)**
+-   **Group by elements more efficiently in data visualizations**
 
 Specify the maximum number of elements in a Group By you want to retrieve through the **Max number of groups** option. Previously, all elements from the database were retrieved and then sorted.
 
--   **[Prefetch dashboard layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/configure-dashboard-data-broker.md)**
+-   **Prefetch dashboard layout**
 
 If you have a dashboard component on a page in your own workspace, improve performance by using a preset to configure a data broker that pre-fetches static JavaScript, such as layout.
 
--   **[Call multiple visualizations together](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/local-data-instance-multi-viz.md)**
+-   **Call multiple visualizations together**
 
 For a technical dashboard, if you have multiple data visualizations of the same type calling the same data source, configure a data resource to make a single call for all of them.
 
--   **[Improvements to time-series visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/config-dv-time-series-table-data.md)**
+-   **Improvements to time-series visualizations**
     -   Simplify identifying specific values on line, spline, area, or step charts through the **Show markers** option, which displays a symbol at each data point.
     -   Sort by name, report range, group bucket, and element order. \(Core UI feature gap\)
--   **[Improvements for visualizations that show multiple metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/chart-options-multi-metrics.md)**
+-   **Improvements for visualizations that show multiple metrics**
     -   In time series visualizations, provide viewers an alternative group by, where the viewer chooses the group-by value at runtime, for up to 3 data sources. \(Core UI feature gap\)
     -   Set whether individual metrics follow filter components on the page or dashboard in both bar and time series visualizations. \(Core UI feature gap\)
 
@@ -3217,13 +3217,13 @@ Policy and Compliance Management
 
 </td><td>
 
--   **[Some Now Assist skills are turned on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md)**
+-   **Some Now Assist skills are turned on by default**
 
 The new default behavior works as follows:
 
     -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
     -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
--   **[Changes to Now Assist usage measurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/monitoring-now-assist-usage.md)**
+-   **Changes to Now Assist usage measurement**
 
 Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
@@ -3234,11 +3234,11 @@ Privacy Management
 
 </td><td>
 
--   **[Tagging of information object tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/tag-io-with-pi.md)**
+-   **Tagging of information object tags**
 
 Use the **Data classification** field to tag information objects instead of using the tag icon.
 
--   **[Initiating privacy assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/send-privacy-asmt-from-pa.md)**
+-   **Initiating privacy assessment**
 
 When you initiate a privacy assessment from either an entity or a processing activity, you’re no longer redirected to the **Create new privacy assessment form**, instead, a new pop-up window appears where you can specify all the assessment details.
 
@@ -3323,26 +3323,26 @@ Regulatory Change Management
 
 </td><td>
 
--   **[Overview page of regulatory alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/list-view-of-reg-alerts.md)**
+-   **Overview page of regulatory alerts**
 
 The Overview page for regulatory alerts includes a drop-down menu that enables you to track the progress of a regulatory assessment. Additionally, you can view the counts of completed, open, and overdue regulatory assessments.
 
--   **[Home page updates for Regulatory Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/rcm-workspace-for-managers.md)**
+-   **Home page updates for Regulatory Change Management**
 
 On the Regulatory Change Management home page, within the Tracking section, a new drop-down menu has the Regulatory Assessments or Risk Assessments options. With these options, regulatory change managers can see the number of open and overdue assessments to help them efficiently monitor the status of their assessments.
 
--   **[Regulatory assessments in the Tasks pane](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/regulatory-assessment-in-rcm.md)**
+-   **Regulatory assessments in the Tasks pane**
 
 The Tasks pane in the Compliance Workspace now displays all the Regulatory assessments.
 
 
--   **[Some Now Assist skills are turned on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md)**
+-   **Some Now Assist skills are turned on by default**
 
 The new default behavior works as follows:
 
     -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
     -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
--   **[Changes to Now Assist usage measurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/monitoring-now-assist-usage.md)**
+-   **Changes to Now Assist usage measurement**
 
 Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
@@ -3353,7 +3353,7 @@ Request Management
 
 </td><td>
 
--   **[Sorting configuration items in requested item forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/create-request-workspace.md)**
+-   **Sorting configuration items in requested item forms**
 
 The list of configuration items \(CIs\) displayed for the **Configuration item** field in the Requested item form is now displayed and sorted based on the CI names in alphabetical order instead of sorting by CI class and then presenting the CI names in alphabetical order within a class. This change means you can determine whether a particular CI is available more quickly.
 
@@ -3469,17 +3469,17 @@ Service Operations Workspace for ITSM
 
 </td><td>
 
--   **[Incident record page changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/view-inc-record-info-contextual-sidepanel.md)**
+-   **Incident record page changes**
 
 The Incident record page has the following changes:
 
     -   The caller card is placed first on the Record information side panel for tier 1 agents.
     -   The origin card itself is no longer clickable to reduce usability issues with the card and its clickable elements.
--   **[Reference field behavior changes in SOW](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/view-update-inc-overview-tab.md)**
+-   **Reference field behavior changes in SOW**
 
 Selecting any reference field in SOW now displays only the recent selection values instead of automatic searching and displaying the results of the field values available in the system. This change increases the overall performance of the reference fields. By default, this change is enabled. To revert this change, set the **Reference search on click** \(**ref\_search\_on\_click**\) UX page property to set to `true`.
 
--   **[Viewing Assign to me option](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/users-sow-itsm.md)**
+-   **Viewing Assign to me option**
 
 Users with the incident\_read role can no longer view the **Assign to me** option for an incident record.
 
@@ -3495,23 +3495,23 @@ Filter conditions are now reset when switched from one related list to another r
 
 When a new interaction record is created and saved, the sidebar now loads record Information instead of recent Tasks.
 
--   **[Problem Management state transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/understanding-state-mgmt-transitions.md)**
+-   **Problem Management state transitions**
 
 Sections that are configured to be expanded now automatically expand when you transition to a new state, without requiring a page reload.
 
--   **[GenAI email templates for communication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/compose-communication-mim-sow.md)**
+-   **GenAI email templates for communication**
 
 Use the GenAI capabilities for composing email with GenAI email templates in all major incident communications. The GenAI email templates are visible in a separate section when the email templates field is selected and the following conditions are met:
 
     -   Any GenAI variable is available in the email templates.
-    -   Now Assist for ITSM is installed and activated.
+    -   ServiceNow Otto for ITSM is installed and activated.
     -   GenAI skills are enabled.
     -   User have the required roles to execute the GenAI skills.
--   **[Close resolved incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/close-resolved-incident-sow.md)**
+-   ****
 
 Close an incident in **Resolved** state using the itil\_admin user role.
 
--   **[Resize modals on the SRP and list pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/srp-service-operations-workspace.md)**
+-   **Resize modals on the SRP and list pages**
 
 Ensure flexibility and efficiency by enabling users to resize the modals on the SOW SRP and list pages. This helps in adjusting screen space allocation, enabling multi-tasking, and optimizing content visibility for different tasks and screen sizes. 
 
@@ -3522,23 +3522,23 @@ Service Portal
 
 </td><td>
 
--   **[Use ECMAScript 2021 \(ES12\) JavaScript mode in server scripts for widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/widget-dev-guide.md)**
+-   **Use ECMAScript 2021 \(ES12\) JavaScript mode in server scripts for widgets**
 
-Use features supported in the ECMAScript 2021 \(ES12\) JavaScript mode in server-side scripts for widgets by selecting **Turn on ECMAScript 2021 \(ES12\) mode** from the widget record or Widget Editor. For information about features supported in the ECMAScript 2021 \(ES12\) JavaScript mode, see [JavaScript engine feature support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/javascript-engine-feature-support.md).
+Use features supported in the ECMAScript 2021 \(ES12\) JavaScript mode in server-side scripts for widgets by selecting **Turn on ECMAScript 2021 \(ES12\) mode** from the widget record or Widget Editor. For information about features supported in the ECMAScript 2021 \(ES12\) JavaScript mode, see .
 
--   **[Define roles for page route maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/reroute-page.md)**
+-   **Define roles for page route maps**
 
 Control which users are redirected to a new page based on a page route map. Specify the user roles to apply in the Page Route Map form.
 
--   **[Improved redirection for single sign-on \(SSO\) authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/c_SPSSOLoginAndRedirects.md)**
+-   **Improved redirection for single sign-on \(SSO\) authentication**
 
 Improved the experience of logging in to portals that use single sign-on \(SSO\) authentication by redirecting to the SSO Identify Provider \(IdP\) login page without trying to load the portal page first.
 
--   **[Enforce providing comments when rejecting requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/approvals-widget.md)**
+-   **Enforce providing comments when rejecting requests**
 
 Require approvers to provide comments when rejecting a request from the Approvals widget. Administrators can enable requiring comments from the widget instance options.
 
--   **[Check cross-scope privileges to a table with the Form widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/form-widget.md)**
+-   **Check cross-scope privileges to a table with the Form widget**
 
 Validate access to tables from which the Form widget fetches data. The Form widget checks for the necessary cross-scope privileges to a table by default.
 
@@ -3549,11 +3549,11 @@ ServiceNow AI Lens
 
 </td><td>
 
--   **[Changes to Now Assist usage measurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/monitoring-now-assist-usage.md)**
+-   **Changes to Now Assist usage measurement**
 
 Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
--   **[Some Now Assist skills are turned on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md)**
+-   **Some Now Assist skills are turned on by default**
 
 The new default behavior works as follows:
 
@@ -3566,9 +3566,9 @@ ServiceNow AI Platform core feature
 
 </td><td>
 
--   **[Updated Access Control Lists \(ACLs\) for Transaction tables and Session Management tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/exploring-access-control-list.md)**
+-   **Updated Access Control Lists \(ACLs\) for Transaction tables and Session Management tables**
 
-The ACLs for a number of Transaction Management tables and Session Management tables have been updated to enhance security using a combination of Deny and Allow ACLs. All new ACLs have a security attribute. You must have the security attribute to add to the role list of an ACL. For more information, see [Configure an ACL rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/t_CreateAnACLRule.md), [Deny-Unless ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/acl-denial-behavior.md), and .
+The ACLs for a number of Transaction Management tables and Session Management tables have been updated to enhance security using a combination of Deny and Allow ACLs. All new ACLs have a security attribute. You must have the security attribute to add to the role list of an ACL. For more information, see , , and .
 
 The updated Transaction Management tables include:
 
@@ -3583,11 +3583,11 @@ The updated Session Management tables include:
     -   sys\_security\_acl
     -   sys\_user\_auth
     -   sys\_user\_session
--   **[Configuring plugins for the TinyMCE HTML editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/configuring-the.md-plugins-for-tinymce.md)**
+-   ****
 
-The Accessibility Checker \(a11ychecker\) plugin is now available in the TinyMCE HTML editor. The plugin identifies WCAG and Section 508 accessibility violations and provides an auto-repair feature where applicable. To configure the plugin, see [Change the TinyMCE HTML editor plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/configuring-the.md-plugins-for-tinymce.md). Additional configurations to the accessibility rules, like changing the WCAG level and HTML versions can also be done via **TinyMCEconfigscript** script.
+The Accessibility Checker \(a11ychecker\) plugin is now available in the TinyMCE HTML editor. The plugin identifies WCAG and Section 508 accessibility violations and provides an auto-repair feature where applicable. To configure the plugin, see . Additional configurations to the accessibility rules, like changing the WCAG level and HTML versions can also be done via **TinyMCEconfigscript** script.
 
--   **[Field types supported in a configurable workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/r_FieldTypes.md)**
+-   **Field types supported in a configurable workspace**
 
 The following field types are now supported for use in a configurable workspace:
 
@@ -3599,21 +3599,21 @@ The following field types are now supported for use in a configurable workspace:
     -   multi\_small
     -   Order index
     -   Radio
-For more information, see [Field types reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/r_FieldTypes.md).
+For more information, see .
 
--   **[Specify the tables that a REST API access policy restricts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/create-api-access-policy.md)**
+-   **Specify the tables that a REST API access policy restricts**
 
 Specify the tables that a Table REST API access policy applies to on the API Access Policy form.
 
--   **[Use ISO currency codes with the FX Currency field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/fx-currency.md)**
+-   **Use ISO currency codes with the FX Currency field type**
 
 Use three-digit ISO 4217 currency codes from the **Numeric code** field on the Currency \[fx\_currency\] table with fields of the FX Currency field type.
 
--   **[Sorting according to the session language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/sorting-session-language.md)**
+-   **Sorting according to the session language**
 
 Configure whether string values in columns are sorted according to the user's session language or English.
 
--   **[Columnstore index type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_CreateCustomIndex.md)**
+-   **Columnstore index type**
 
 Optimize data storage and retrieval by creating a columnstore index. This index type is available with RaptorDB Professional.
 
@@ -3624,31 +3624,31 @@ ServiceNow SDK
 
 </td><td>
 
--   **[Subcommands replaced with parameters on the auth command](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/servicenow-sdk-cli-commands.md)**
+-   **Subcommands replaced with parameters on the auth command**
 
 Configure authentication credentials with the `--add`, `--delete`, `--list`, and `--use` parameters of the `now-sdk auth` command.
 
--   **[Dependencies command installs type definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/servicenow-sdk-cli-commands.md)**
+-   **Dependencies command installs type definitions**
 
 Download TypeScript type definitions for Glide APIs and script includes from a ServiceNow instance based on the scripts in your application.
 
--   **[Build command includes --frozenKeys parameter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/servicenow-sdk-cli-commands.md)**
+-   **Build command includes --frozenKeys parameter**
 
 Validate that the auto-generated `keys.ts` file is up to date for continuous integration \(CI\) builds by setting the `--frozenKeys` parameter to true with the `now-sdk build` command.
 
--   **[Deploy command renamed install](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/servicenow-sdk-cli-commands.md)**
+-   **Deploy command renamed install**
 
 Install or update an application on a ServiceNow instance using the `now-sdk install` command.
 
--   **[Automated Test Framework Test API supports two-way synchronization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/atf-test-now-ts.md)**
+-   **Automated Test Framework Test API supports two-way synchronization**
 
 Synchronize changes to Automated Test Framework tests made outside of source code into source code definitions and back to metadata.
 
--   **[Table API supports licensing configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/table-api-now-ts.md)**
+-   **Table API supports licensing configurations**
 
 Create a licensing configuration \[ua\_table\_licensing\_config\] to track subscription counts for a table with the licensing\_config object in the Table API.
 
--   **[Table API supports remote tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/table-api-now-ts.md)**
+-   **Table API supports remote tables**
 
 Create a remote table with the scriptable\_table property in a Table object.
 
@@ -3659,11 +3659,11 @@ ServiceNow Studio
 
 </td><td>
 
--   **[Modify an app's settings in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/modify-an-apps-settings-in-servicenow-studio.md)**
+-   ****
 
 The App settings icon in ServiceNow Studio used to open a small modal where only a few settings could be updated and the app could be deleted. In this release, the icon opens a Core UI view of all the app settings and related links for the app.
 
--   **[Create an application in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/create-an-application-in-servicenow-studio.md)**
+-   ****
 
 As of version 27.2.4, the available options at the success page for creating an application changed from **Go to app dashboard** to **View App Details** and **Create File**.
 
@@ -3674,11 +3674,11 @@ Software Asset Management
 
 </td><td>
 
--   **[Reflow for Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/auto-reflow.md)**
+-   ****
 
 The Software Asset configurable workspace supports reflow, which enables pages and content to be zoomed up to 400% through your browser settings without loss of content or functionality.
 
--   **[Publisher optimizations dashboard for Microsoft](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/pub-opt-microsoft.md)**
+-   **Publisher optimizations dashboard for Microsoft**
 
 The Publisher Optimizations dashboard for Microsoft has been updated to support additional subscriptions.
 
@@ -3700,19 +3700,19 @@ Subscription Management
 
 </td><td>
 
--   **[Allocation charts reflect only active users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/subscription-details-v2.md)**
+-   **Allocation charts reflect only active users**
 
 The Allocation summary and Allocation history charts on the subscription details page reflect only the subscriptions allocated to active users for each month following the upgrade.
 
--   **[Auditing App Engine V1 usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/allocating-custom-tables-subscr-apps-v2.md)**
+-   **Auditing App Engine V1 usage**
 
 The App Engine Usage dashboard has been restored. For details on auditing App Engine V1 usage, see the [Auditing App Engine v1 \[KB0999383\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0999383) article in the Now Support Knowledge Base.
 
--   **[Changes to Now Assist usage measurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/monitoring-now-assist-usage.md)**
+-   **Changes to Now Assist usage measurement**
 
 Now Assist usage measurement is evolving. If your instances are below Yokohama Patch 12, update Subscription Management to version 6.0.2 or later on all instances to avoid mixed measurement types. For more information, see [Now Assist Usage - Overview &amp; New Measurement Logic \[KB2704710\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
--   **[Hidden user-based subscription allocations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/subscriptions-overview-v2.md)**
+-   **Hidden user-based subscription allocations**
 
 To help prevent inaccuracy when allocations aren't complete, allocation details for user-based subscriptions are now hidden from the Subscription Management overview. Contact your account executive for user-based subscription allocation details.
 
@@ -3734,23 +3734,23 @@ Third-party Risk Management
 
 </td><td>
 
--   **[Pre-populate responses using questionnaires](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/tprm-assessing-tpr.md)**
+-   **Pre-populate responses using questionnaires**
 
 If you have the Third-party risk assessor \[sn\_vdr\_risk\_asmt.vendor\_assessor\] or Third-party risk manager \[sn\_vdr\_risk\_asmt.vendor\_risk\_manager\] role, you can enable third-party and engagement contacts to review and update responses only if necessary by pre-populating questionnaires for engagements and entities with responses from completed questionnaires that are associated with the same third party. The attachment, duration, and signature type responses are excluded. This feature also helps ensure data consistency and accuracy.
 
--   **[Microsoft Excel questionnaire template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/tprm-excel-template-support.md)**
+-   **Microsoft Excel questionnaire template**
 
 Streamline the due diligence process by enabling third-party and engagement contacts to respond to questionnaires using a Microsoft Excel template by downloading the questionnaire as a template, completing it according to the included instructions, and importing the final version into the Third-party portal. This feature update enhances flexibility by enabling third-party and engagement contacts to provide information outside the third-party portal. Third-party risk assessors \[sn\_vdr\_risk\_asmt.vendor\_assessor\] and Third-party risk managers \[sn\_vdr\_risk\_asmt.vendor\_risk\_manager\] can access this feature and respond to questionnaires on behalf of Third-party and engagement contacts through the Vendor Management Workspace.
 
--   **[Codes and additional identification information for ICT third-party service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/tprm-create-ICT-thirdparty-serv-prov-form.md)**
+-   **Codes and additional identification information for ICT third-party service providers**
 
 If you have the third-party assessor role \[sn\_vdr\_risk\_asmt.vendor\_assessor\], help ensure compliance with DORA regulations by adding additional code types and a legal name to third-party and third-party engagement records in the digital resilience third-party registers within the Vendor Management Workspace. Include this information when the legal name of a third party differs from its commonly recognized name, or when you need to record multiple identification codes like a EUID, LEI, or Country code. When supply chain, assessment, or contract records are associated with a third party or third-party engagement using the EUID code type, all relevant fields will be automatically populated.
 
--   **[Function types for ICT third-party service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/tprm-create-new-function-form.md)**
+-   **Function types for ICT third-party service providers**
 
 If you have the third-party assessor role \[sn\_vdr\_risk\_asmt.vendor\_assessor\], help ensure compliance with DORA regulations by using Business capability as an additional function type for function records in the digital resilience third-party registers within the Vendor Management Workspace.
 
--   **[Multiple legal entities making use of the services for contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/tprm-drtp-reg-contract.md)**
+-   **Multiple legal entities making use of the services for contracts**
 
 If you have the third-party assessor role \[sn\_vdr\_risk\_asmt.vendor\_assessor\], add multiple legal entities that are using services as part of a contract record in the digital resilience third-party registers within the Vendor Management Workspace. Including all entities that are using services associated with a contract is essential for maintaining transparency, helping ensure compliance, and enhancing operational resilience.
 
@@ -3776,7 +3776,7 @@ Upgrade Center
 
 </td><td>
 
--   **[Upgrade Plan enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/uc-upgrade-plan.md)**
+-   **Upgrade Plan enhancements**
 
 Experience a seamless upgrade on your instance with the Upgrade Plan, offering the option to either include or bypass skipped records and customizations during its building.
 
@@ -3787,23 +3787,23 @@ Usage Insights
 
 </td><td>
 
--   **[New custom user property configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/uxa-add-filters-uxa-pages.md)**
+-   **New custom user property configuration**
 
 An easy way to configure which user-related fields are available to use as filters and in user details. Configured user properties are available for all applications. Previously created custom user properties are no longer supported and must be recreated in the new UI.
 
--   **[Country consent policies are set by default to No Consent Required](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/uxa-tracking-types.md)**
+-   **Country consent policies are set by default to No Consent Required**
 
 Default country consent policies are now set to No Consent Required. If you have previously updated your country consent policies, they will retain the custom setting. Existing users who have set their tracking preferences will retain their settings. New users will not require consent for tracking unless you update your country consent policies.
 
--   **[Longer user history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/configuring-user-exp-analytics.md)**
+-   **Longer user history**
 
 Detailed data for users and sessions extended to two years.
 
--   **[Optimized the way metrics are calculated](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/uxa-duration-calculations.md)**
+-   **Optimized the way metrics are calculated**
 
 Percent time on app and Average duration per page calculations changed compared to the application view in Xanadu or prior releases. Percentage time on app was **Percentage time on site** in Xanadu or prior releases.
 
--   **[Client page load and Full page load aggregated in the same visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/view-pages.md)**
+-   **Client page load and Full page load aggregated in the same visualization**
 
 All performance metrics associated with Client, Network, Page Load, and Server time are aggregated together.
 
@@ -3819,7 +3819,7 @@ Virtual Agent
 The **Test** button in the Virtual Agent Designer canvas directly opens up the chat widget.
 
 
--   **[Dynamic Translation calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/translation-for-now-assist.md)**
+-   **Dynamic Translation calls**
 
 For Now Assist, if native translation is enabled, a Dynamic Translation call is only made if an unsupported language for native translation is used.
 
@@ -3880,11 +3880,11 @@ Workspace
 
 </td><td>
 
--   **[Context-based suggestions with @mentions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/set-up-at-mentions.md)**
+-   **Context-based suggestions with @mentions**
 
 Receive suggestions for users with access to the record when using @ mentions.
 
--   **[Expand all tiles in the Activity stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/activity-stream-expand-tiles.md)**
+-   **Expand all tiles in the Activity stream**
 
 Set a user preference to keep all tiles in the Activity stream expanded across cases and user sessions.
 
@@ -3892,7 +3892,7 @@ Set a user preference to keep all tiles in the Activity stream expanded across c
 
 Data filters and access rules provide role-based access control for viewing and editing tables in the Activity stream.
 
--   **[Multiple records added from the multi-record associator load in the background](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/set-up-asynchronous-record-addition.md)**
+-   **Multiple records added from the multi-record associator load in the background**
 
 Work on a record while the multiple records that were selected from the multi-record associator are added in the background.
 
@@ -3916,7 +3916,7 @@ Temporarily access personalized lists that are sent to you as links within the M
 
 The **is within hierarchy** field in the condition builder enables you to filter your list within a hierarchy instead of only direct reports.
 
--   **[AI filter assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/use-ai-filter-assist.md)**
+-   **AI filter assist**
 
 Convert everyday language into an encoded query with AI filter assist.
 
@@ -3929,11 +3929,11 @@ Zero Copy Connector for ERP
 
 [Yokohama Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-3.md)
 
--   **[View Zero Copy Connector for ERP software information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/view-erp-system-information.md)**
+-   ****
 
-From the Zero Copy Connector for ERP system form, view detailed system information including machine type, node name, supported database, and Unicode status.
+From the ERP Canvas system form, view detailed system information including machine type, node name, supported database, and Unicode status.
 
--   **[Preview model entities before adding to a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/erp-canvas-preview-entity.md)**
+-   **Preview model entities before adding to a model**
 
 In the Model Manager, confirm you are adding the correct entity by examining and verifying read table entities before adding the entity to a model.
 

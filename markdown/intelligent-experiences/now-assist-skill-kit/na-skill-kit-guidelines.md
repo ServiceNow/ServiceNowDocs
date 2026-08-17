@@ -1,6 +1,6 @@
 ---
-title: General guidelines for Now Assist Skill Kit
-description: General guidelines are available to use Now Assist Skill Kit.
+title: General guidelines for AI Skill Kit
+description: General guidelines are available to use AI Skill Kit.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/now-assist-skill-kit/na-skill-kit-guidelines.html
 release: yokohama
@@ -9,14 +9,14 @@ classification: now-assist-skill-kit
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Exploring Now Assist Skill Kit, Now Assist Skill Kit, Enable AI experiences]
+breadcrumb: [Exploring AI Skill Kit, AI Skill Kit, Enable AI experiences]
 ---
 
-# General guidelines for Now Assist Skill Kit
+# General guidelines for AI Skill Kit
 
-General guidelines are available to use Now Assist Skill Kit.
+General guidelines are available to use AI Skill Kit.
 
-## Now Assist Skill Kit guidelines overview
+## AI Skill Kit guidelines overview
 
 Think about the process of building a custom skill as having the following phases:
 
@@ -30,9 +30,9 @@ Think about the process of building a custom skill as having the following phase
 
 You should adopt a data-driven mindset while you build a skill. A data-driven mindset means emphasizing evidence-based decisions and minimizing speculation about how a large language model \(LLM\) can interpret the specific wording of a prompt.
 
-Now Assist Skill Kit needs intermediate skills in prompt engineering. If you're not a developer, you should equip yourself with the relevant knowledge before working with this tool.
+AI Skill Kit needs intermediate skills in prompt engineering. If you're not a developer, you should equip yourself with the relevant knowledge before working with this tool.
 
 There’s information and helpful tooltips in many places throughout the product. Use this information to understand how to use the tool more effectively.
 
-To ensure that there’s a proper segregation of duties, a developer or generative AI practitioner creates the skill and then publishes it. After the skill is published, a Now Assist Admin will activate the skill, so that it shows up at the configured touch points and is available to use.
+To ensure that there’s a proper segregation of duties, a developer or generative AI practitioner creates the skill and then publishes it. After the skill is published, a AI Admin Hub will activate the skill, so that it shows up at the configured touch points and is available to use.
 

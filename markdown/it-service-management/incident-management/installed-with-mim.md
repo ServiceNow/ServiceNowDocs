@@ -9,7 +9,7 @@ classification: incident-management
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Activate Incident Management - Major Incident Management, Major Incident Management plugins, Manage major incidents, Incident Management, IT Service Management]
+breadcrumb: [Activate Major Incident Management, Major Incident Management plugins, Manage major incidents, Incident Management, IT Service Management]
 ---
 
 # Components installed with Incident Management - Major Incident Management
@@ -102,5 +102,5 @@ Major Incident Trigger Rules\[major\_incident\_trigger\_rule\]
 This table extends the Application File \[sys\_metadata\] table and stores the major incident trigger rules.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Activate Incident Management - Major Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/incident-management/activate-major-incident-management-plugin.md)
+</table>**Parent Topic:**[Activate Major Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/incident-management/activate-major-incident-management-plugin.md)
 

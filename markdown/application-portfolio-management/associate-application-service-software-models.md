@@ -18,7 +18,7 @@ As an application owner, you can run the software model suggestions engine to fe
 
 **Important:**
 
-Starting with the Xanadu release, the Technology Portfolio Management module is moved to the Enterprise Architecture Workspace. To learn more, see [Managing the Technology Portfolio Management \(TPM\) in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-tpm.md).
+Starting with the Xanadu release, the Technology Lifecycle Management module is moved to the Enterprise Architecture Workspace. To learn more, see [Managing the Technology Lifecycle Management \(TLM\) in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-tpm.md).
 
 Role required: sn\_apm.apm\_user
 

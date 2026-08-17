@@ -1,6 +1,6 @@
 ---
-title: Usage Insights data options for Single scores
-description: When you select a Usage Insights data source for a single score visualization, the following Data configuration options are available.
+title: User Experience Analytics data options for Single scores
+description: When you select a User Experience Analytics data source for a single score visualization, the following Data configuration options are available.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/config-dv-sing-sc-uxa-data.html
 release: yokohama
@@ -10,9 +10,9 @@ reading_time_minutes: 4
 breadcrumb: [Single score visualization, Create, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
 
-# Usage Insights data options for Single scores
+# User Experience Analytics data options for Single scores
 
-When you select a Usage Insights data source for a single score visualization, the following Data configuration options are available.
+When you select a User Experience Analytics data source for a single score visualization, the following Data configuration options are available.
 
 <table id="simpletable_wqy_sjr_qtb"><thead><tr><th>
 
@@ -32,7 +32,7 @@ Data source
 
 </td><td>
 
-You have selected a Usage Insights data source in [Create a single score data visualization in the Visualization Designer or on a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-sing-sc-ac.md).
+You have selected a User Experience Analytics data source in [Create a single score data visualization in the Visualization Designer or on a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-sing-sc-ac.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 

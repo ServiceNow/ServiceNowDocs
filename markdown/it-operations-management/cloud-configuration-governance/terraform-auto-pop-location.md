@@ -9,7 +9,7 @@ classification: cloud-configuration-governance
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Using Cloud Services Catalog Terraform Connector, Cloud Services Catalog Terraform Connector, Support for continuous delivery \(configuration management\), Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Optimization, IT Operations Management]
+breadcrumb: [Using Cloud Provisioning and Governance: Terraform Connector, Cloud Provisioning and Governance: Terraform Connector, Support for continuous delivery \(configuration management\), Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Optimization, IT Operations Management]
 ---
 
 # Populate the datacenter in Terraform-based catalog items
@@ -33,5 +33,5 @@ Role required: cloud\_designer
     -   The field defined for the **region** variable does not appear on the Provision section of the request form for the catalog item \(the Location field serves that purpose\).
     -   The value that the user specifies for the Location field on the request form configures the datacenter or region for the resource.
 
-**Parent Topic:**[Using Cloud Services Catalog Terraform Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/using-ccg-terraform-connector.md)
+**Parent Topic:**[Using Cloud Provisioning and Governance: Terraform Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/using-ccg-terraform-connector.md)
 

@@ -29,7 +29,7 @@ Start planning work on your Board by adding tasks and assigning them to team mem
 -   **[Create and manage custom work item types in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/collaborative-work-management/create-custom-work-item-types-in-cwm.md)**  
 Create custom item types for Boards in Collaborative Work Management, so that you can organize and manage multiple types of tasks from a single location, regardless of the workflow.
 -   **[Add custom columns for tasks in a CWM Board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/collaborative-work-management/add-custom-columns-for-tasks-in-board.md)**  
-Create custom fields in a Board so that you can organize all details of tasks at a single location, thereby improving task management and saving time by reducing dependency on system admin.
+Create custom fields in a Board so that you can organize all details of tasks at a single location. This improves task management and saves time by reducing dependency on system admin.
 -   **[Add a goal to CWM Board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/collaborative-work-management/add-goal-to-cwm-board.md)**  
 Associate a goal to your Board so that you can plan and track all the tasks and activities that contribute to this goal directly from the Collaborative Work Management workspace.
 -   **[Board views in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/collaborative-work-management/board-views-in-cwm.md)**  
@@ -37,7 +37,7 @@ Create, customize, and switch seamlessly between Board display preferences such 
 -   **[CWM Board preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/collaborative-work-management/cwm-board-preferences.md)**  
 Reduce cognitive load and focus on the most relevant and actionable tasks by filtering work items on Boards in Collaborative Work Management \(CWM\).
 -   **[Export a CWM Board to CSV or Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/collaborative-work-management/export-a-board-in-cwm-to-csv-or-excel.md)**  
-Export the list view of Collaborative Work Management \(CWM\) Boards to CSV or Microsoft Excel so that you can use the data to obtain insights, share with stakeholders, and prepare for analysis or presentations.
+Export the list view of Collaborative Work Management \(CWM\) Boards to CSV or Microsoft Excel. Use the data to obtain insights, share with stakeholders, and prepare for analysis or presentations.
 
 **Parent Topic:**[Using Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/collaborative-work-management/using-collaborative-work-management.md)
 

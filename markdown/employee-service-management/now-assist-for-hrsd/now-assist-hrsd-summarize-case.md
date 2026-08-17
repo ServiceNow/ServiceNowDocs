@@ -1,5 +1,5 @@
 ---
-title: Summarize an HR case using Now Assist for HRSD
+title: Summarize an HR case using ServiceNow Otto for HRSD
 description: Quickly understand the case context and respond to inquiries by using the case summarization skill.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-summarize-case.html
@@ -9,10 +9,10 @@ classification: now-assist-for-hrsd
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 5
-breadcrumb: [Use generative AI skills, Now Assist for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
+breadcrumb: [Use generative AI skills, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
-# Summarize an HR case using Now Assist for HRSD
+# Summarize an HR case using ServiceNow Otto for HRSD
 
 Quickly understand the case context and respond to inquiries by using the case summarization skill.
 
@@ -49,15 +49,15 @@ You can make a copy of this skill to configure it to meet your business needs. F
     -   Canceled or Suspended: Summary isn’t visible
 5.  When you finish summarizing a case, you can add it to the work notes, expand or collapse it, provide feedback, copy it, or view information about it.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d470529e175">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d469881e175">
 
 Option
 
-</th><th align="left" id="d470529e178">
+</th><th align="left" id="d469881e178">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d470529e184">
+</th></tr></thead><tbody><tr><td id="d469881e184">
 
 **Save the summary information by adding it to the case work notes**
 
@@ -68,7 +68,7 @@ Procedure
 3.  Select **Save to Work notes**.
 
 
-</td></tr><tr><td id="d470529e214">
+</td></tr><tr><td id="d469881e214">
 
 **Expand or collapse the summary**
 
@@ -76,7 +76,7 @@ Procedure
 
 Select the **Show more** or **Show less** button to see more or fewer summary details.
 
-</td></tr><tr><td id="d470529e229">
+</td></tr><tr><td id="d469881e229">
 
 **Provide feedback for the summary**
 
@@ -84,7 +84,7 @@ Select the **Show more** or **Show less** button to see more or fewer summary de
 
 If you think that the summary was helpful, select the helpful icon \(\[Omitted image "icon-helpful.png"\] Alt text: Helpful icon.\). If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).This feedback improves the generative AI model and can help to improve the future versions of this skill.
 
-</td></tr><tr><td id="d470529e252">
+</td></tr><tr><td id="d469881e252">
 
 **Copy the case summary**
 
@@ -92,7 +92,7 @@ If you think that the summary was helpful, select the helpful icon \(\[Omitted i
 
 Select the copy icon \(\[Omitted image "icon-copy.png"\] Alt text: Copy to clipboard icon.\) to use the case summary information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d470529e268">
+</td></tr><tr><td id="d469881e268">
 
 **View the information about the case summary**
 
@@ -102,30 +102,30 @@ If you want to check some details about the summary, select the more info icon \
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Use Now Assist for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/use-now-assist-hr.md)
+**Parent Topic:**[Use ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/use-now-assist-hr.md)
 
 **Related topics**  
 
 
-[Summarize a chat conversation by using Now Assist for HR Service Delivery \(HRSD\)]()
+[Summarize a chat conversation by using ServiceNow Otto for HR Service Delivery \(HRSD\)]()
 
-[Summarize a Sidebar discussion by using Now Assist for HR Service Delivery \(HRSD\)]()
+[Summarize a Sidebar discussion by using ServiceNow Otto for HR Service Delivery \(HRSD\)]()
 
-[Generate a chat reply recommendation by using Now Assist for HR Service Delivery \(HRSD\)]()
+[Generate a chat reply recommendation by using ServiceNow Otto for HR Service Delivery \(HRSD\)]()
 
 [Generate a knowledge article from HR Agent Workspace with Now Assist]()
 
 [Generate a knowledge article from multiple cases]()
 
-[Generate an email reply recommendation by using Now Assist for HR Service Delivery \(HRSD\)]()
+[Generate an email reply recommendation by using ServiceNow Otto for HR Service Delivery \(HRSD\)]()
 
-[Generate resolution notes using Now Assist for HRSD]()
+[Generate resolution notes using ServiceNow Otto for HRSD]()
 
 [View employee summary reports]()
 
 [Summarize actions while transferring an HR case]()
 
-[Use Knowledge Graph in Now Assist for HRSD]()
+[Use Knowledge Graph in ServiceNow Otto for HRSD]()
 
 [Use Galileo Inside to answer HR-related questions]()
 
@@ -133,9 +133,9 @@ If you want to check some details about the summary, select the more info icon \
 
 [Submit an HR request with Gen AI Virtual Agent]()
 
-[Now Assist for HR Service Delivery \(HRSD\) integration with Enterprise Service Management Integrations Framework]()
+[ServiceNow Otto for HR Service Delivery \(HRSD\) integration with Enterprise Service Management Integrations Framework]()
 
-[Detect sensitive topics by using sensitivity detection in Now Assist for HR Service Delivery \(HRSD\)]()
+[Detect sensitive topics by using sensitivity detection in ServiceNow Otto for HR Service Delivery \(HRSD\)]()
 
-[Analyze sentiments in Now Assist for HR Service Delivery \(HRSD\)]()
+[Analyze sentiments in ServiceNow Otto for HR Service Delivery \(HRSD\)]()
 

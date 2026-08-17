@@ -36,15 +36,15 @@ The columns available to show or hide are determined by the default list layout 
 
 4.  Update the display of the view on the Board or hide views.
 
-<table id="choicetable_tky_tqc_b1c"><thead><tr><th align="left" id="d263224e123">
+<table id="choicetable_tky_tqc_b1c"><thead><tr><th align="left" id="d262851e123">
 
 Choice
 
-</th><th align="left" id="d263224e126">
+</th><th align="left" id="d262851e126">
 
 Options
 
-</th></tr></thead><tbody><tr><td id="d263224e132">
+</th></tr></thead><tbody><tr><td id="d262851e132">
 
 **Personalize List and Gantt**
 
@@ -54,7 +54,7 @@ Options
 -   Show or hide the columns in the view.
 \[Omitted image "cwm-personalize-list.png"\] Alt text: Personalize List and Gantt views.
 
-</td></tr><tr><td id="d263224e159">
+</td></tr><tr><td id="d262851e159">
 
 **Personalize Kanban**
 
@@ -64,7 +64,7 @@ Change the vertical categorization of task cards using the **Vertical lane** fie
 
  \[Omitted image "cwm-personalize-kanban.png"\] Alt text: Personalize Kanban vertical lane.
 
-</td></tr><tr><td id="d263224e181">
+</td></tr><tr><td id="d262851e181">
 
 **Show or hide views**
 
@@ -80,7 +80,7 @@ Show or hide the Board views from the Views tab of the Personalize side panel.
 
 ## What to do next
 
-After changing the way data is displayed on your Board, you have the option of saving it as a personal view for your reference or a shared view for your team or stakeholders. For more information, see [Board views in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/collaborative-work-management/board-views-in-cwm.md).
+After changing the way data is displayed on your Board. You have the option of saving it as a personal view for your reference or a shared view for your team or stakeholders. For more information, see [Board views in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/collaborative-work-management/board-views-in-cwm.md).
 
 **Parent Topic:**[List, Gantt, and Kanban views in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/collaborative-work-management/cwm-board-views.md)
 

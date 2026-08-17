@@ -36,15 +36,15 @@ Role required: admin
 
 5.  In the dialog box, choose to build your portfolio from scratch or use a template.
 
-<table id="choicetable_k4w_m1j_q2c"><thead><tr><th align="left" id="d62641e114">
+<table id="choicetable_k4w_m1j_q2c"><thead><tr><th align="left" id="d62655e114">
 
 Option
 
-</th><th align="left" id="d62641e117">
+</th><th align="left" id="d62655e117">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d62641e123">
+</th></tr></thead><tbody><tr><td id="d62655e123">
 
 **Build your own portfolio**
 
@@ -54,7 +54,7 @@ Steps
 2.  In the form, fill in the fields.
 
 
-</td></tr><tr><td id="d62641e144">
+</td></tr><tr><td id="d62655e144">
 
 **Use a template for creating a service portfolio**
 

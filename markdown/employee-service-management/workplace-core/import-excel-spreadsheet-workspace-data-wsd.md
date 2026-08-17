@@ -94,7 +94,7 @@ Complete [Configuring spreadsheets to import workplace data](https://raw.githubu
 
 [Location migration]()
 
-[View workplace service usage analytics with Usage Insights]()
+[View workplace service usage analytics with User Experience Analytics]()
 
 [Run an import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/t_RunImport.md)
 

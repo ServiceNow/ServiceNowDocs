@@ -25,15 +25,15 @@ Role required: sn\_cm\_core.contract\_config
 
 1.  Add the roles to the property.
 
-<table id="choicetable_iwz_dg4_d1c"><thead><tr><th align="left" id="d219664e58">
+<table id="choicetable_iwz_dg4_d1c"><thead><tr><th align="left" id="d219040e58">
 
 Method
 
-</th><th align="left" id="d219664e61">
+</th><th align="left" id="d219040e61">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d219664e67">
+</th></tr></thead><tbody><tr><td id="d219040e67">
 
 **Add role using user interface \(UI\)**
 
@@ -47,7 +47,7 @@ For example, to enable contract fulfillers to view email details in the activity
 -   Select **Save**.
 
 
-</td></tr><tr><td id="d219664e112">
+</td></tr><tr><td id="d219040e112">
 
 **Add role to the system property**
 

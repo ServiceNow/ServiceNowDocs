@@ -1,6 +1,6 @@
 ---
 title: Telecom Discovery using Telecommunications Discovery Patterns
-description: The new Telecommunication Discovery Patterns \(also known as TSOM Patterns\) include patterns for discovering standalone xNFs, enabling the discovery of standalone network elements without a management system, using SNMP, CLI, and NETCONF \(roadmap\) protocols.
+description: The new Telecommunication Discovery Patterns \(also known as TSOM Patterns\) include patterns for discovering standalone xNFs. These patterns enable the discovery of standalone network elements without a management system, using SNMP, CLI, and NETCONF \(roadmap\) protocols.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-service-ops/telecom-visibility/telecom-discovery-using-telecommunication-discovery-pattern.html
 release: yokohama
@@ -14,7 +14,7 @@ breadcrumb: [Exploring Telecom Discovery, Telecom Discovery, TSOM Visibility, Te
 
 # Telecom Discovery using Telecommunications Discovery Patterns
 
-The new Telecommunication Discovery Patterns \(also known as TSOM Patterns\) include patterns for discovering standalone xNFs, enabling the discovery of standalone network elements without a management system, using SNMP, CLI, and NETCONF \(roadmap\) protocols.
+The new Telecommunication Discovery Patterns \(also known as TSOM Patterns\) include patterns for discovering standalone xNFs. These patterns enable the discovery of standalone network elements without a management system, using SNMP, CLI, and NETCONF \(roadmap\) protocols.
 
 ## Architecture using Horizontal Discovery and Telecommunications Discovery Patterns
 
@@ -30,7 +30,7 @@ For more information, see [Horizontal discovery process flow with patterns](http
 
 A pattern is a sequence of commands designed to detect attributes of a configuration item \(CI\) and its outbound connections. Telecom Discovery provides a set of preconfigured Patterns that cover a wide range of network elements. The TSOM Discovery Patterns fall under the infrastructure category, which are used by Horizontal Discovery to generate lists and resource structure of xNFs.
 
-This plugin introduces Patterns for discovering standalone xNFs, such as telecom routers and switches \(with support for other device types planned in the future\) that don’t rely on a management system or require direct discovery by bypassing their management systems. Additionally, custom patterns are included for verifying various network devices. This is a customer-visible plugin.
+This plugin introduces Patterns for discovering standalone xNFs, such as telecom routers and switches \(with support for other device types planned in the future\). These xNFs don't rely on a management system or require direct discovery by bypassing their management systems. Additionally, custom patterns are included for verifying various network devices. This is a customer-visible plugin.
 
 ## MID Server
 
@@ -48,7 +48,7 @@ For more information, see [Telecom Discrepancy Identification and Reconciliation
 
 CMDB Compliance is a toolset that enables administrators to certify CMDB data for accuracy and resolve any discrepancies found. In Telecom Discrepancy Identification &amp; Reconciliation, we use the Certification Audits feature to discover and analyze discrepancies in the CMDB, generate Certification Follow-on Tasks, and enable remediation workflows.
 
-For more information on how it’s used for Discrepancy Identification &amp; Reconciliation, see [Telecom Discrepancy Identification and Reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-service-ops/telecom-visibility/telecom-reconciliation.md).
+For more information on how it's used for Discrepancy Identification &amp; Reconciliation, see [Telecom Discrepancy Identification and Reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-service-ops/telecom-visibility/telecom-reconciliation.md).
 
 ## ITOM vs TSOM Discovery Behavior for Stand-alone SNMP or/and CLI xNFs
 
@@ -63,7 +63,7 @@ For more information on how it’s used for Discrepancy Identification &amp; Rec
 -   The solution includes a set of telecom-specific patterns and system properties.
 -   Users can choose whether to run TSOM or ITOM patterns.
 -   Customers can extend TSOM patterns or create their own if necessary.
--   There’s no dependency between TSOM Visibility and Telecom Network Inventory \(TNI\).
+-   There's no dependency between TSOM Visibility and Telecom Network Inventory \(TNI\).
 
 ## Logic added to Telecom Discovery
 
@@ -73,7 +73,7 @@ This parameter affects only the patterns developed as part of the TSOM Patterns 
 
 This logic is controlled via the system property: sn\_tsom\_patterns.itom\_pattern\_enabled.
 
-**Follows the TNI model** – Telecommunications Discovery Patterns always follow the TNI data model. This means that if Telecom Discovery identifies a card-on-card scenario, it doesn’t insert it as a card-on-card. Instead, it modifies the structure by synthesizing a subslot on the parent card and inserting the child card into that subslot.
+**Follows the TNI model** – Telecommunications Discovery Patterns always follow the TNI data model. This means that if Telecom Discovery identifies a card-on-card scenario, it doesn't insert it as a card-on-card. Instead, it modifies the structure by synthesizing a subslot on the parent card and inserting the child card into that subslot.
 
 **TNI entity creation logic** – Whenever the system identifies that the customer has TNI installed, it will automatically create a TNI entity record for all network data discovered. If TNI is installed, a payload like the one below will be added to the IRE payload for each item. As a result, the discovered CI is in both the cmdb\_ci and tni\_entity tables.
 

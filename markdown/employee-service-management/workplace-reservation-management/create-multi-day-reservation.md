@@ -32,15 +32,15 @@ Role required: sn\_wsd\_core.workplace\_user
 
     \[Omitted image "wsd-rsv-home-page-quick-rsv.png"\] Alt text: Make reservations using the Make Reservation and Quick Reservation Widget on the portal.
 
-<table id="choicetable_prt_yr3_smb"><thead><tr><th align="left" id="d487217e104">
+<table id="choicetable_prt_yr3_smb"><thead><tr><th align="left" id="d486561e104">
 
 Location
 
-</th><th align="left" id="d487217e107">
+</th><th align="left" id="d486561e107">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d487217e113">
+</th></tr></thead><tbody><tr><td id="d486561e113">
 
 **Application navigation filter**
 
@@ -48,7 +48,7 @@ Steps
 
 Navigate to **All** &gt; **Workplace Reservation Management** &gt; **Portal** &gt; **New Reservation**.
 
-</td></tr><tr><td id="d487217e137">
+</td></tr><tr><td id="d486561e137">
 
 **From Employee Center Portal**
 

@@ -1,6 +1,6 @@
 ---
 title: ERP-CM similar candidates field descriptions
-description: On a candidate record in ERP Semantic Mining \(ERP-CM\) the Similar candidates tab displays information about similar candidates for replatforming ERP \(Enterprise Resource Planning\) apps.
+description: On a candidate record in ERP Customization Mining \(ERP-CM\) the Similar candidates tab displays information about similar candidates for replatforming ERP \(Enterprise Resource Planning\) apps.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-customization-mining/erpcm-similar-candidates-field-descriptions.html
 release: yokohama
@@ -9,12 +9,12 @@ classification: erp-customization-mining
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [ERP-CM field descriptions, ERP Semantic Mining reference, ERP Semantic Mining \(ERP-CM\), Building low-code applications, Developing your application, Building applications]
+breadcrumb: [ERP-CM field descriptions, ERP Customization Mining reference, ERP Customization Mining \(ERP-CM\), Building low-code applications, Developing your application, Building applications]
 ---
 
 # ERP-CM similar candidates field descriptions
 
-On a candidate record in ERP Semantic Mining \(ERP-CM\) the **Similar candidates** tab displays information about similar candidates for replatforming ERP \(Enterprise Resource Planning\) apps.
+On a candidate record in ERP Customization Mining \(ERP-CM\) the **Similar candidates** tab displays information about similar candidates for replatforming ERP \(Enterprise Resource Planning\) apps.
 
 For process details, see [View and work with candidate details in ERP-CM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/erpcm-view-work-with-candidate-details.md).
 

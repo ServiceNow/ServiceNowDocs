@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2
 keywords: [AI Agents, Agentic AI]
-breadcrumb: [Configure, Now Assist for Strategic Portfolio Management \(SPM\), Strategic Portfolio Management]
+breadcrumb: [Configure, ServiceNow Otto for Strategic Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Configure the Monitor project tasks AI agent in AI Agent Studio
@@ -61,7 +61,7 @@ Role required: admin or it\_project\_manager
 
 [Install Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/install-ai-agents-plugins.md)
 
-[Using AI agent or agentic workflows in Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/using-na-spm-ai-agents.md)
+[Using AI agent or agentic workflows in ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/using-na-spm-ai-agents.md)
 
 [Strategic Portfolio Management AI agents for the monitor project tasks agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/na-spm-task-monitoring-usecase.md)
 

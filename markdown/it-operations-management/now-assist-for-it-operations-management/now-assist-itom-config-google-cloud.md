@@ -9,7 +9,7 @@ classification: now-assist-for-it-operations-management
 topic_type: task
 last_updated: "2025-12-04"
 reading_time_minutes: 3
-breadcrumb: [Configuring agents and skills for Now Assist for ITOM, Configuring Now Assist for ITOM, Now Assist for ITOM, IT Operations Management]
+breadcrumb: [Configuring agents and skills for ServiceNow Otto for ITOM, Configuring ServiceNow Otto for ITOM, ServiceNow Otto for ITOM, IT Operations Management]
 ---
 
 # Configure the Google Gemini Cloud Assist agent
@@ -20,7 +20,7 @@ Configure the Google Gemini Cloud Assist agent to use the Gemini Cloud Assistant
 
 Before configuring the Google Gemini Cloud Assist agent, you must do the following:
 
--   [Install Now Assist for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+-   [Install ServiceNow Otto for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 -   [Integrate Google Cloud Platform \(GCP\) events with Event Management.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/gcp-events-integration.md)
 -   Download the JSON private key file from your Google Cloud project and gather the following credentials: Google project ID, service account email, and private key ID.
 -   Create a keystore file and password by following the steps in [Create a Java KeyStore certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/setup-google-translator.md).
@@ -61,7 +61,7 @@ Activate the Google Gemini Cloud Assist agent to use it in the manage alerts aut
 
 To learn more about using the Google Gemini Cloud Assist agent in the manage alerts autonomously agentic workflow, see [Manage alerts autonomously agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/itom-autonomous-operator-workflow.md).
 
-**Parent Topic:**[Configuring agents and skills for Now Assist for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/itom-ai-agent-configuration.md)
+**Parent Topic:**[Configuring agents and skills for ServiceNow Otto for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/itom-ai-agent-configuration.md)
 
 **Related topics**  
 

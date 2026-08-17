@@ -1,6 +1,6 @@
 ---
-title: Customize a Now Assist for Integrated Risk Management \(IRM\) skill
-description: If you have the admin role, you can customize a Now Assist for Integrated Risk Management \(IRM\) skill so that agents can use the generative AI skills in Service Operations Workspace for Now Assist for IRM and in Core UI.
+title: Customize a ServiceNow Otto for Integrated Risk Management \(IRM\) skill
+description: If you have the admin role, you can customize a ServiceNow Otto for Integrated Risk Management \(IRM\) skill so that agents can use the generative AI skills in Service Operations Workspace for ServiceNow Otto for IRM and in Core UI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/grc-common-functions/customize-a-skill.html
 release: yokohama
@@ -13,9 +13,9 @@ keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
 breadcrumb: [Configure, Now Assist, Common GRC features, Governance, Risk, and Compliance]
 ---
 
-# Customize a Now Assist for Integrated Risk Management \(IRM\) skill
+# Customize a ServiceNow Otto for Integrated Risk Management \(IRM\) skill
 
-If you have the admin role, you can customize a Now Assist for Integrated Risk Management \(IRM\) skill so that agents can use the generative AI skills in Service Operations Workspace for Now Assist for IRM and in Core UI.
+If you have the admin role, you can customize a ServiceNow Otto for Integrated Risk Management \(IRM\) skill so that agents can use the generative AI skills in Service Operations Workspace for ServiceNow Otto for IRM and in Core UI.
 
 ## Before you begin
 
@@ -23,7 +23,7 @@ Role required: sn\_nowassist\_admin.nsa\_admin
 
 ## About this task
 
-From the Now Assist Admin console, you can select the input tables, related lists, and fields for each input template of the incident summarization skill. You can then configure prompt headers to include in the generated summary.
+From the AI Admin Hub console, you can select the input tables, related lists, and fields for each input template of the incident summarization skill. You can then configure prompt headers to include in the generated summary.
 
 ## Procedure
 
@@ -33,7 +33,7 @@ From the Now Assist Admin console, you can select the input tables, related list
 
 3.  In the **Technology** feature group, select **Risk &amp; Sustainability** from the product list.
 
-4.  Activate and copy the Now Assist for IRM feature skill for customization.
+4.  Activate and copy the ServiceNow Otto for IRM feature skill for customization.
 
     1.  On the feature card that is associated with the skill that you would like to activate, select **View details**.
 

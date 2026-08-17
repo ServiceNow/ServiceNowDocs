@@ -7,8 +7,8 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-05-25"
-reading_time_minutes: 5
+last_updated: "2026-07-22"
+reading_time_minutes: 8
 breadcrumb: [CMDB success advisor, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -18,7 +18,7 @@ Learn about CMDB success advisor and review the benefits it can provide for diff
 
 ## CMDB success advisor overview
 
-With the CMDB success advisor application, you can review CMDB Data Manager policies and Configuration Management Database \(CMDB\) settings to identify areas where improvements can be made in Data Foundations and the Hardware Asset Management \(HAM\) application. The advisor uses customized CMDB metrics to improve data quality for targeted configuration item \(CI\) classes, identifying and monitoring the CI classes most critical to your organizational processes to enable complete and accurate data in Data Foundations, and tracking hardware model categories for HAM.
+Review CMDB Data Manager policies and Configuration Management Database \(CMDB\) settings through CMDB success advisor to identify improvement areas. The advisor supports the following business outcomes: Data Foundations, Hardware Asset Management \(HAM\) and Software Asset Management \(SAM\). The advisor uses customized CMDB metrics to improve data quality for targeted configuration item \(CI\) classes. It identifies and monitors the CI classes most critical to your organizational processes to enable complete and accurate data in Data Foundations, tracking hardware model categories for HAM, and tracking software products for SAM.
 
 ## CMDB success advisor users
 
@@ -42,9 +42,11 @@ CMDB administrator
 
 Users with the sn\_cmdb\_admin role can configure and improve CMDB data accuracy based on specific business use cases. With targeted CI tracking, practical data integration suggestions, and application-specific dashboards, the CMDB success advisor enables CMDB administrators to improve CMDB data accuracy and achieve key business outcomes.
 
-For Data Foundations, administrators can select and manage principal classes, monitor data quality across the CI classes most critical to incidents, changes, and problems, and use integration coverage analysis to ensure the right data sources are keeping the CMDB accurate and complete.
+For Data Foundations, administrators can select and manage principal classes, monitor data quality across the CI classes most critical to incidents, changes, and problems, and use integration coverage analysis to make sure the right data sources are keeping the CMDB accurate and complete.
 
 For Hardware Asset Management, administrators can focus on critical hardware model categories to improve normalization rates, asset life cycle tracking, and data accuracy for business outcomes like HAM.
+
+For Software Asset Management, administrators \(sam\_admin or sn\_cmdb\_admin\) can select software products to track and monitor software install completeness, cloud license coverage, and virtual server-to-host CI relationship accuracy for licensing compliance.
 
 </td><td>
 
@@ -61,10 +63,46 @@ Required to view Discovery and Service Mapping Patterns through CMDB success adv
 Required to modify Discovery patterns through CMDB success advisor with write access.
 
 
+</td></tr><tr><td>
+
+CMDB user
+
+</td><td>
+
+Users with the sn\_cmdb\_user role can view CMDB success advisor dashboards in read-only mode from the Insights view in Service Graph Workspace. With Dashboard tab access only, CMDB users can monitor data quality metrics and remediation progress across principal classes and hardware model categories. The Settings and Integrations tabs aren't available to these users.
+
+For Data Foundations, CMDB users can view CI data quality metrics by principal CI class, including missing attributes, stale records, duplicate CIs, and discovery source breakdown.
+
+For Hardware Asset Management, CMDB users can view hardware asset metrics by model category and integration source, including missing model ID, serial number, location, duplicates, and asset state.
+
+For Software Asset Management, CMDB users can view software install data quality metrics, including missing edition, version, cloud license, environment, and CPU attributes, duplicate installs, and virtual server-to-host relationship accuracy.
+
+</td><td>
+
+None
+
+</td></tr><tr><td>
+
+CMDB editor
+
+</td><td>
+
+Users with the sn\_cmdb\_editor role can view CMDB success advisor dashboards from the Insights view in Service Graph Workspace, with write access on CMDB records outside the application. With Dashboard tab access only in CMDB success advisor, CMDB editors can monitor data quality metrics and remediation progress across principal classes and hardware model categories. The Settings and Integrations tabs aren't available to these users.
+
+For Data Foundations, CMDB editors can view CI data quality metrics by principal CI class, including missing attributes, stale records, duplicate CIs, and discovery source breakdown.
+
+For Hardware Asset Management, CMDB editors can view hardware asset metrics by model category and integration source, including missing model ID, serial number, location, duplicates, and asset state.
+
+For Software Asset Management, CMDB editors can view software install data quality metrics, including missing edition, version, cloud license, environment, and CPU attributes, duplicate installs, and virtual server-to-host relationship accuracy.
+
+</td><td>
+
+None
+
 </td></tr></tbody>
 </table>## CMDB success advisor benefits
 
-The following benefits are available to CMDB administrators across both Data Foundations and HAM.
+The following benefits are available to CMDB administrators across Data Foundations, HAM, and Software Asset Management \(SAM\).
 
 <table><thead><tr><th>
 
@@ -84,9 +122,11 @@ Focused CMDB setup for specific business outcomesFor Data Foundations, advisor d
 
 For HAM, advisor dashboard scope is defined by hardware model categories.
 
+For SAM, advisor dashboard scope is defined by software products.
+
 </td><td>
 
-Use-case-driven CMDB configuration. To learn more, see: [CMDB success advisor for Data Foundations setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-config-settings.md) and [Set up CMDB success advisor for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/cmdb-sa-ham-config-settings.md)
+Use-case-driven CMDB configuration. To learn more, see [CMDB success advisor for Data Foundations setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-config-settings.md), [CMDB success advisor for HAM setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/cmdb-sa-ham-config-settings.md), and [CMDB success advisor for SAM setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/cmdb-sa-sam-config-settings.md)
 
 </td><td>
 
@@ -98,13 +138,17 @@ Improved visibilityFor Data Foundations, view CI data quality metrics by princip
 
 For HAM, view hardware asset metrics by model category and integration source.
 
-</td><td>
-
-Dashboard with consolidated insights and metricsTo learn more, see: [Monitoring CMDB data quality using dashboard metrics in CMDB success advisor for Data Foundations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-dashboard.md) and [Monitoring CMDB data quality using dashboard metrics in CMDB success advisor for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/cmdb-sa-ham-dashboard.md)
+For SAM, view software install data quality metrics by software product, publisher, and CI class.
 
 </td><td>
 
-CMDB administrator
+Dashboard with consolidated insights and metricsTo learn more, see [Monitoring CMDB data quality using dashboard metrics in CMDB success advisor for Data Foundations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-dashboard.md), [Monitoring CMDB data quality using dashboard metrics in CMDB success advisor for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/cmdb-sa-ham-dashboard.md), and [Monitoring CMDB data quality using dashboard metrics in CMDB success advisor for SAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/cmdb-sa-sam-dashboard.md)
+
+</td><td>
+
+-   CMDB administrator
+-   CMDB user
+-   CMDB editor
 
 </td></tr><tr><td>
 
@@ -112,27 +156,35 @@ Continuous data quality improvementFor Data Foundations, track KPIs for CI compl
 
 For HAM, track KPIs for missing model ID, serial number, location, duplicates, and asset state.
 
-</td><td>
-
-KPI details access from the dashboard for metric monitoring, remediation tracking, and guided resolution stepsTo learn more, see: [Monitoring CMDB data quality using dashboard metrics in CMDB success advisor for Data Foundations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-dashboard.md) and [Monitoring CMDB data quality using dashboard metrics in CMDB success advisor for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/cmdb-sa-ham-dashboard.md)
+For SAM, track KPIs for missing edition, version, cloud license, environment, and CPU attributes, duplicate installs, and virtual server-to-host relationship accuracy.
 
 </td><td>
 
-CMDB administrator
+KPI details access from the dashboard for metric monitoring, remediation tracking, and guided resolution stepsTo learn more, see [Monitoring CMDB data quality using dashboard metrics in CMDB success advisor for Data Foundations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-dashboard.md), [Monitoring CMDB data quality using dashboard metrics in CMDB success advisor for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/cmdb-sa-ham-dashboard.md), and [Monitoring CMDB data quality using dashboard metrics in CMDB success advisor for SAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/cmdb-sa-sam-dashboard.md)
+
+</td><td>
+
+-   CMDB administrator
+-   CMDB user
+-   CMDB editor
 
 </td></tr><tr><td>
 
-Data quality improvement suggestionsFor Data Foundations, playbooks target principal class issues such as stale CIs and duplicate records.
+Data quality improvement suggestionsFor Data Foundations, target principal class issues such as stale CIs and duplicate records.
 
-For HAM, guided playbooks address hardware issues such as missing serial numbers and asset/CI mismatches.
+For HAM, address hardware issues such as missing serial numbers and asset/CI mismatches.
 
-</td><td>
-
-Remediation actions panel available for a chart in the dashboardTo learn more, see: [Improving CMDB data quality for Data Foundations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-remediation.md) and [Improving CMDB data quality for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/cmdb-sa-ham-remediation.md)
+For SAM, address stale CIs and installs on duplicate CIs.
 
 </td><td>
 
-CMDB administrator
+Remediation actions panel available for a chart in the dashboardTo learn more, see [Improving CMDB data quality for Data Foundations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-remediation.md), [Improving CMDB data quality for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/cmdb-sa-ham-remediation.md), and [Improving CMDB data quality for SAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/cmdb-sa-sam-remediation.md)
+
+</td><td>
+
+-   CMDB administrator
+-   CMDB user
+-   CMDB editor
 
 </td></tr><tr><td>
 
@@ -142,7 +194,7 @@ For HAM, configure synchronization rules, asset creation rules, and status mappi
 
 </td><td>
 
-Settings summary for gap analysis and configuration guidanceTo learn more, see: [Analyze CMDB settings for Data Foundations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-analyze-settings.md) and [Analyze CMDB settings for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/cmdb-sa-ham-analyze-settings.md)
+Settings summary for gap analysis and configuration guidanceTo learn more, see [Analyze CMDB settings for Data Foundations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-analyze-settings.md) and [Analyzing CMDB settings for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/cmdb-sa-ham-analyze-settings.md)
 
 </td><td>
 
@@ -156,7 +208,7 @@ For HAM, review SGC and Discovery pattern rankings for hardware model categories
 
 </td><td>
 
-Data integrations summary for reviewing and evaluating integration sourcesTo learn more, see: [Analyzing data integrations for improving Data Foundations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-data-integrations.md) and [Analyzing data integrations for improving HAM data coverage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/cmdb-sa-ham-data-integrations.md)
+Data integrations summary for reviewing and evaluating integration sourcesTo learn more, see [Analyzing data integrations for improving Data Foundations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-data-integrations.md) and [Analyzing data integrations for improving HAM data coverage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/cmdb-sa-ham-data-integrations.md)
 
 </td><td>
 
@@ -168,7 +220,8 @@ CMDB administrator
 You can use CMDB success advisor for the following business outcomes:
 
 -   Data Foundations: Improve data quality across the principal classes your organization relies on for incidents, changes, and problems. Monitor attribute completeness, detect stale and duplicate records, and evaluate integration coverage to verify the right data sources are populating your CMDB. For more information, see [Using CMDB success advisor for Data Foundations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df.md).
--   HAM: Improve hardware data quality across model categories such as computers, servers, and printers. Identify and fix missing model IDs, serial numbers, and locations, eliminate duplicate CIs and align asset and CI states to support accurate life cycle tracking and financial reporting. For more information, see [Using CMDB success advisor for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/cmdb-sa-ham-use.md).
+-   HAM: Improve hardware data quality across model categories such as computers, servers, and printers. Identify and resolve missing model IDs, serial numbers, and locations, eliminate duplicate CIs and align asset and CI states to support accurate life cycle tracking and financial reporting. For more information, see [Using CMDB success advisor for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/cmdb-sa-ham-use.md).
+-   Software Asset Management \(SAM\): Improve software install data quality across selected software products. Identify and resolve installs missing edition, version, or cloud license details, eliminate installs on duplicate CIs, and verify virtual server-to-host CI relationships to support licensing compliance. For more information, see [Using CMDB success advisor for SAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/cmdb-sa-sam-use.md).
 
 ## What to explore next
 

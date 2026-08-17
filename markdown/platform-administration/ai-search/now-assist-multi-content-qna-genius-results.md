@@ -7,7 +7,7 @@ release: yokohama
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2025-12-18"
+last_updated: "2026-07-14"
 reading_time_minutes: 7
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configuring Now Assist in AI Search, Now Assist in AI Search, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
@@ -27,13 +27,13 @@ You can use this skill in portal search and in global/workspace search in place 
 
     Now Assist Multi-Content Response Genius Results use an improved LLM pipeline to display synthesized responses that can include information drawn from knowledge articles, Service Catalog items, Knowledge Graph schema node content, enhanced chat conversation and search results, and external content documents and attachments. Answers include citations to help users view the search results cited in the synthesized response.
 
-    By comparison, Now Assist Q&amp;A Genius Results only display answers generated from knowledge articles using a legacy LLM pipeline, while Now Assist Actions Genius Results only display Catalog Items and Virtual Agent topics as answers.
+    By comparison, Now Assist Q&amp;A Genius Results can only display answers generated from knowledge articles using a legacy LLM pipeline, while Now Assist Actions Genius Results can only display Catalog Items and Virtual Agent topics as answers.
 
 -   **More extensive and authoritative answers**
 
     A Now Assist Multi-Content Response Genius Result synthesized response can combine information from different search results to answer multiple aspects of a user's question.
 
-    By comparison, each Now Assist Q&amp;A Genius Result answer only includes information generated from a single knowledge article, and each Now Assist Actions Genius Result only includes a single Catalog Item or Virtual Agent topic.
+    By comparison, each Now Assist Q&amp;A Genius Result answer can only include information generated from a single knowledge article, and each Now Assist Actions Genius Result can only include a single Catalog Item or Virtual Agent topic.
 
 -   **Support for follow-up questions**
 
@@ -159,7 +159,7 @@ For details on activating Now Assist Multi-Content Response Genius Results in gl
 
 By default, Now Assist Multi-Content Response Genius Results use the Azure OpenAI model as the AI service provider. The Now LLM Service is used as a fallback AI service provider.
 
-With the admin role, you can use Now Assist Admin to select a different LLM to use as the AI service provider for Now Assist Multi-Content Response Genius Results. For details on selecting the LLM for Platform workflow Now Assist skills, see [Manage large language models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/manage-large-language-models.md).
+With the admin role, you can use AI Admin Hub to select a different LLM to use as the AI service provider for Now Assist Multi-Content Response Genius Results. For details on selecting the LLM for Platform workflow Now Assist skills, see [Manage large language models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/manage-large-language-models.md).
 
 As a Now Assist skill, Now Assist Multi-Content Response Genius Results supports these LLMs:
 

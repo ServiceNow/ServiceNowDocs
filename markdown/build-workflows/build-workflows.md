@@ -144,7 +144,7 @@ The ServiceNow AI Platform supports these classic workflow builder tools.
 
     ServiceNow® App Engine Studio \(AES\) is a development tool for creators of varying skill levels to build applications that meet the immediate needs of your organization.
 
--   **[Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/erp-integration-overview.md)**
+-   **[ERP Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/erp-integration-overview.md)**
 
     Work with remote tables in the ERP system of record, such as SAP, as well as APIs and ETLs, to create ERP data models to use as data sources for ServiceNow AI Platform applications.
 

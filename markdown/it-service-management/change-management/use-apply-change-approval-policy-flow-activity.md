@@ -7,7 +7,7 @@ release: yokohama
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Creating change approval policies, Using Change Management, Change Management, IT Service Management]
 ---
@@ -19,12 +19,6 @@ Apply your change approval policy in the Change Management Workflow Studio actio
 ## Before you begin
 
 Role required: admin
-
-## About this task
-
-This flow action uses the **Ask For Approval** flow action to apply approvals that are derived from the Change approval policy. For more information on how to configure approval policies, see [Create approval definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/create-approval-definitions.md).
-
-When approvals are being generated, the **Ask For Approval** action avoids generating more than one approval for the same user. For example, if the policy requires approval from two groups and both groups have the same user, then the shared user is notified only once for the approval.
 
 ## Procedure
 
@@ -81,7 +75,7 @@ Due date for the approval policy. Select one of the following options:-   **None
 
 
 </td></tr></tbody>
-</table>5.  Click **Submit**.
+</table>5.  Select **Submit**.
 
 
 **Parent Topic:**[Creating change approval policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/using-change-approval-policies-cf.md)

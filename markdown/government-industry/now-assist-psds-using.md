@@ -1,30 +1,30 @@
 ---
-title: Using Now Assist for Public Sector Digital Services \(PSDS\)
-description: If you have an agent role, you can summarize the case details and generate the case resolution notes with the Now Assist for Public Sector Digital Services \(PSDS\) application.
+title: Using ServiceNow Otto for Public Sector Digital Services \(PSDS\)
+description: If you have an agent role, you can summarize the case details and generate the case resolution notes with the ServiceNow Otto for Public Sector Digital Services \(PSDS\) application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/now-assist-psds-using.html
 release: yokohama
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Now Assist for PSDS, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [ServiceNow Otto for PSDS, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Using Now Assist for Public Sector Digital Services \(PSDS\)
+# Using ServiceNow Otto for Public Sector Digital Services \(PSDS\)
 
-If you have an agent role, you can summarize the case details and generate the case resolution notes with the Now Assist for Public Sector Digital Services \(PSDS\) application.
+If you have an agent role, you can summarize the case details and generate the case resolution notes with the ServiceNow Otto for Public Sector Digital Services \(PSDS\) application.
 
 Summarize the case details to help you understand the case context quicker. These summaries are useful for long-running or complex cases that include multiple conversations between agents and constituents.
 
 Generate the case resolution notes to help wrap up cases faster. When you're ready to propose a solution to a constituent or relay a decision about their application, this feature can generate resolution notes and add them to the Case form. The resolution notes also provide the context about the case resolution to other agents who might encounter similar issues or cases.
 
-Generate a summary of the Virtual Agent chat history and the chat conversation between a live agent and a customer by using the chat summarization skill in the Now Assist for Public Sector Digital Services \(PSDS\) application.
+Generate a summary of the Virtual Agent chat history and the chat conversation between a live agent and a customer by using the chat summarization skill in the ServiceNow Otto for Public Sector Digital Services \(PSDS\) application.
 
 Synthesize and summarize information from multiple KBs to deliver relevant answers in a conversational format using the Now Assist AI Search for CSM Workspace​ plugin​. This skill provides actionable AI-generated or AI-selected answers to a search in CSM Workspace, and can replace a list of possible findings with a single-turn conversational result.
 
 ## Skills
 
-The Now Assist for PSDS application includes the generative AI skills that can enable your agents to understand the case context so that they can propose resolutions to the constituent or approve an application faster.
+The ServiceNow Otto for PSDS application includes the generative AI skills that can enable your agents to understand the case context so that they can propose resolutions to the constituent or approve an application faster.
 
 -   **Case summarization**
 
@@ -67,7 +67,7 @@ The Now Assist for PSDS application includes the generative AI skills that can e
 
 [Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/platform-now-assist-landing.md)
 
-[Install and configure Now Assist for Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/now-assist-psds-configuring.md)
+[Install and configure ServiceNow Otto for Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/now-assist-psds-configuring.md)
 
-[Using Now Assist for Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/now-assist-psds-using.md)
+[Using ServiceNow Otto for Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/now-assist-psds-using.md)
 

@@ -1,6 +1,6 @@
 ---
 title: Add joins between ERP tables
-description: Link multiple ERP \(Enterprise Resource Planning\) tables from the system of record to build an ERP model in Zero Copy Connector for ERP using table joins.
+description: Link multiple ERP \(Enterprise Resource Planning\) tables from the system of record to build an ERP model in ERP Canvas using table joins.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-integration-framework/erp-canvas-add-join-data-model.html
 release: yokohama
@@ -9,16 +9,16 @@ classification: erp-integration-framework
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 4
-breadcrumb: [Building and managing ERP models to work with ERP data, Using ERP models, extraction tables, and remote tables, Zero Copy Connector for ERP, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Building and managing ERP models to work with ERP data, Using ERP models, extraction tables, and remote tables, ERP Canvas, Building low-code applications, Developing your application, Building applications]
 ---
 
 # Add joins between ERP tables
 
-Link multiple ERP \(Enterprise Resource Planning\) tables from the system of record to build an ERP model in Zero Copy Connector for ERP using table joins.
+Link multiple ERP \(Enterprise Resource Planning\) tables from the system of record to build an ERP model in ERP Canvas using table joins.
 
 ## Before you begin
 
-Table joins require a read operation that uses table read entities. For more information, see [Add an operation to a model in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erpc-manage-models-read-op.md).
+Table joins require a read operation that uses table read entities. For more information, see [Add an operation to a model in ERP Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erpc-manage-models-read-op.md).
 
 When you add table joins, the parent table is the first table listed on the **Manage entities** tab of the ERP model manager page. Child tables pull information from the parent table.
 
@@ -37,7 +37,7 @@ Join fields defines the common attribute or key used to connect records in a chi
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home**.
+1.  Navigate to **All** &gt; **ERP Canvas** &gt; **ERP Canvas Home**.
 
 2.  Open the ERP model page by selecting the ERP model icon \(\[Omitted image "erpc-data-model-icon.png"\] Alt text: ERP model icon\) in the side panel.
 
@@ -49,7 +49,7 @@ Join fields defines the common attribute or key used to connect records in a chi
 
 6.  Add the tables to join as **Table read** operation entities if they haven't yet been added to the model.
 
-    For more information, see [Add a read, update, or create entity to a model in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erpc-add-entity-to-model-op.md).
+    For more information, see [Add a read, update, or create entity to a model in ERP Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erpc-add-entity-to-model-op.md).
 
     \[Omitted image "erpc-tables-with-joins-ys2.png"\] Alt text: Multiple tables are joined.
 

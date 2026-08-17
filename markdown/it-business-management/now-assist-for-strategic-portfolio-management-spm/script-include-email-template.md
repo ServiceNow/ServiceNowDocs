@@ -9,7 +9,7 @@ classification: now-assist-for-strategic-portfolio-management-spm
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Configure, Now Assist for Strategic Portfolio Management \(SPM\), Strategic Portfolio Management]
+breadcrumb: [Configure, ServiceNow Otto for Strategic Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Update the project insights header and footer of email
@@ -18,7 +18,7 @@ Use the script include to modifying the email template for project summary.
 
 ## Before you begin
 
-Verify that Now Assist for SPM is installed and project insights generation skill is active.
+Verify that ServiceNow Otto for SPM is installed and project insights generation skill is active.
 
 Role required: admin
 

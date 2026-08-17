@@ -249,7 +249,7 @@ Option for enabling the collection of user experience analytics from users of yo
 
  This option is available only if you activate the Service Portal Analytics plugin \(com.glide.service-portal.analytics\) in your ServiceNow instance.
 
- **Note:** If you update your Engagement Messenger module name after user behavior tracking is enabled, the Usage Insights dashboard would show the original module name, not the updated name.
+ **Note:** If you update your Engagement Messenger module name after user behavior tracking is enabled, the User Experience Analytics dashboard would show the original module name, not the updated name.
 
 </td></tr><tr><td colspan="2">
 

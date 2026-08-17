@@ -33,7 +33,7 @@ Depending on your region, you may have to consent to using a different service p
 
 2.  Navigate to the **Model provider** tab.
 
-3.  Select **Configure** to be redirected to Now Assist Admin.
+3.  Select **Configure** to be redirected to AI Admin Hub.
 
 4.  In the **Choose a default model provider** field, select
 

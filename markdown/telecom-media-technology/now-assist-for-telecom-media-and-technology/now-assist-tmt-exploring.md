@@ -1,6 +1,6 @@
 ---
-title: Exploring Now Assist for Telecommunications, Media and Technology \(TMT\)
-description: With the Now Assist for Telecommunications, Media and Technology \(TMT\) application, your agents can use generative AI to summarize service problem cases, account onboarding cases, engagements, touchpoints, internal plays, customer plays, successive initiatives, tests, risk signal and issues, and generate resolution notes. Additionally, you can automate transformation mapping between provider and consumer instances in Service Exchange.
+title: Exploring ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
+description: With the ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) application, your agents can use generative AI to summarize service problem cases, account onboarding cases, engagements, touchpoints, internal plays, customer plays, successive initiatives, tests, risk signal and issues, and generate resolution notes. Additionally, you can automate transformation mapping between provider and consumer instances in Service Exchange.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-exploring.html
 release: yokohama
@@ -9,14 +9,14 @@ classification: now-assist-for-telecom-media-and-technology
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 7
-breadcrumb: [Now Assist for Telecommunications, Media and Technology \(TMT\), Telecommunications, Media, and Technology]
+breadcrumb: [ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\), Telecommunications, Media, and Technology]
 ---
 
-# Exploring Now Assist for Telecommunications, Media and Technology \(TMT\)
+# Exploring ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
 
-With the Now Assist for Telecommunications, Media and Technology \(TMT\) application, your agents can use generative AI to summarize service problem cases, account onboarding cases, engagements, touchpoints, internal plays, customer plays, successive initiatives, tests, risk signal and issues, and generate resolution notes. Additionally, you can automate transformation mapping between provider and consumer instances in Service Exchange.
+With the ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) application, your agents can use generative AI to summarize service problem cases, account onboarding cases, engagements, touchpoints, internal plays, customer plays, successive initiatives, tests, risk signal and issues, and generate resolution notes. Additionally, you can automate transformation mapping between provider and consumer instances in Service Exchange.
 
-## Overview of Now Assist for TMT
+## Overview of ServiceNow Otto for TMT
 
 The following generative AI capabilities are available:
 
@@ -39,7 +39,7 @@ The following generative AI capabilities are available:
 
 ## Skills
 
-The Now Assist for TMT application includes the following generative AI skills:
+The ServiceNow Otto for TMT application includes the following generative AI skills:
 
 -   **Customer service summary**
 
@@ -168,7 +168,7 @@ The Now Assist for TMT application includes the following generative AI skills:
 
 -   **Analyze metric data trend**
 
-    Collects and analyzes metric data, processes large data sets, identifies patterns and anomalies. Provides clear actionable insights that enables the [Now Assist for Telecommunications, Media and Technology \(TMT\) Monitor engagement health agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-monitor-health.md) to make informed decisions and take appropriate actions.
+    Collects and analyzes metric data, processes large data sets, identifies patterns and anomalies. Provides clear actionable insights that enables the [ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) Monitor engagement health agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-monitor-health.md) to make informed decisions and take appropriate actions.
 
 -   **Risk signal and issues summarization**
 

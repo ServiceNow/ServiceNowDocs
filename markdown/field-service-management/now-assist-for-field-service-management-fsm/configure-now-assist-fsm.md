@@ -1,6 +1,6 @@
 ---
-title: Configure Now Assist for Field Service Management \(FSM\)
-description: If you have the admin role, you can configure Now Assist for Field Service Management \(FSM\) application so that users can generate work order summaries and knowledge articles, or summarize Sidebar discussions.
+title: Configure ServiceNow Otto for Field Service Management \(FSM\)
+description: If you have the admin role, you can configure ServiceNow Otto for Field Service Management \(FSM\) application so that users can generate work order summaries and knowledge articles, or summarize Sidebar discussions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/now-assist-for-field-service-management-fsm/configure-now-assist-fsm.html
 release: yokohama
@@ -9,12 +9,12 @@ classification: now-assist-for-field-service-management-fsm
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Now Assist for Field Service Management \(FSM\)]
+breadcrumb: [ServiceNow Otto for Field Service Management \(FSM\)]
 ---
 
-# Configure Now Assist for Field Service Management \(FSM\)
+# Configure ServiceNow Otto for Field Service Management \(FSM\)
 
-If you have the admin role, you can configure Now Assist for Field Service Management \(FSM\) application so that users can generate work order summaries and knowledge articles, or summarize Sidebar discussions.
+If you have the admin role, you can configure ServiceNow Otto for Field Service Management \(FSM\) application so that users can generate work order summaries and knowledge articles, or summarize Sidebar discussions.
 
 ## Before you begin
 
@@ -22,9 +22,9 @@ Role required: wm\_admin
 
 ## About this task
 
-Use the Now Assist Admin console to configure Now Assist for FSM. This console contains everything that you need to install the plugins and configure the generative AI skills. For more information, [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configuring-now-assist.md).
+Use the AI Admin Hub console to configure ServiceNow Otto for FSM. This console contains everything that you need to install the plugins and configure the generative AI skills. For more information, [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configuring-now-assist.md).
 
-The following table lists the features and skills that you can access from the Now Assist Admin console.
+The following table lists the features and skills that you can access from the AI Admin Hub console.
 
 |FSM feature|Skills|
 |-----------|------|
@@ -36,15 +36,15 @@ The ServiceNow® large language model \(Now LLM Service\) is currently the only 
 
 ## Procedure
 
-1.  If necessary, install the Now Assist for FSM plugin \(sn\_fsm\_gen\_ai\).
+1.  If necessary, install the ServiceNow Otto for FSM plugin \(sn\_fsm\_gen\_ai\).
 
     For information about the installation process, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 
-2.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Features** to access the **Features** tab of the Now Assist Admin console.
+2.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Features** to access the **Features** tab of the AI Admin Hub console.
 
 3.  In the Select product field, select **FSM**.
 
-4.  Activate and configure the skills for the Now Assist for FSM features.
+4.  Activate and configure the skills for the ServiceNow Otto for FSM features.
 
     These features are grouped under the **Customer** workflow group. Each feature has its associated skills.
 
@@ -54,7 +54,7 @@ The ServiceNow® large language model \(Now LLM Service\) is currently the only 
 
 7.  Select the inputs or triggers for the selected skill.
 
-    For information about the inputs and triggers for each skill, see [Skill inputs for Now Assist for Field Service Management \(FSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/now-assist-for-field-service-management-fsm/now-assist-fsm-skill-inputs.md).
+    For information about the inputs and triggers for each skill, see [Skill inputs for ServiceNow Otto for Field Service Management \(FSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/now-assist-for-field-service-management-fsm/now-assist-fsm-skill-inputs.md).
 
 8.  After you've configured the inputs or triggers for the selected skill, select **Save and continue** to go to the next step.
 
@@ -84,7 +84,7 @@ The ServiceNow® large language model \(Now LLM Service\) is currently the only 
 **Related topics**  
 
 
-[Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configuring-now-assist.md)
+[AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configuring-now-assist.md)
 
 [Configuring Now Assist settings and features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configuring-na-landing.md)
 

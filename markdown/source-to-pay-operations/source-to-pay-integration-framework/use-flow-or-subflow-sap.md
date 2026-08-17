@@ -7,7 +7,7 @@ release: yokohama
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 1
 breadcrumb: [Use schedule flows, Use, Source-to-Pay integration with SAP, Integration with third-party applications, Integrations, Source-to-Pay Operations, Finance and Supply Chain]
 ---
