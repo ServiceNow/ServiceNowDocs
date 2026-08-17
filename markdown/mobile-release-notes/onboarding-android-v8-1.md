@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile-release-notes/onboarding-android-v8-1.html
 release: mobile
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 1
 breadcrumb: [Now Support app version history, Mobile app version history for iOS and Android]
 ---
