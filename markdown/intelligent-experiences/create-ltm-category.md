@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2026-03-24"
 reading_time_minutes: 1
-breadcrumb: [Set up long-term memory, Configure, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Set up long-term memory, Configure, AI Agent Studio, Enable AI experiences]
 ---
 
 # Create long-term memory category

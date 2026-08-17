@@ -24,7 +24,7 @@ For more information on related roles, see [Roles installed with GRC: Policy and
 
 ## About this task
 
-Now Assist for Integrated Risk Management \(IRM\) introduces an AI-powered rationalization workflow that enables compliance managers and analysts to act on recommendations for similar control objectives. This process identifies duplicates, consolidates associations, and creates unified control objectives that are easier to support management and audit.
+ServiceNow Otto for Integrated Risk Management \(IRM\) introduces an AI-powered rationalization workflow that enables compliance managers and analysts to act on recommendations for similar control objectives. This process identifies duplicates, consolidates associations, and creates unified control objectives that are easier to support management and audit.
 
 **Important:** Be sure to check AI-generated recommendations for accuracy.
 

@@ -9,7 +9,7 @@ classification: strategic-planning
 topic_type: task
 last_updated: "2026-06-26"
 reading_time_minutes: 1
-breadcrumb: [Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Manage demands, Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Add actions for a demand
@@ -24,9 +24,9 @@ Role required: it\_demand\_manager
 
 1.  Navigate to **Workspaces** &gt; **Strategic Planning Workspace**.
 
-2.  Select the Demands icon\[Omitted image "demands-icon.png"\].
+2.  Select the Demands icon \[Omitted image "demands-icon.png"\].
 
-3.  Open a demand from the All Demands list.
+3.  Open a demand from the **List** page.
 
 4.  Select **Details** from the navigation menu.
 

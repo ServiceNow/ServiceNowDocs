@@ -1,6 +1,6 @@
 ---
 title: Activate the custom app record summarization skill
-description: Activate the custom app record summarization skill to enable Now Assist for App Engine to summarize tables in custom applications.
+description: Activate the custom app record summarization skill to enable ServiceNow Otto for App Engine to summarize tables in custom applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/now-assist-for-app-engine/activate-custom-app-record-summarization-na-for-app-engine.html
 release: zurich
@@ -10,12 +10,12 @@ topic_type: task
 last_updated: "2025-10-07"
 reading_time_minutes: 1
 keywords: [activate AI skill, activate custom app record summarization]
-breadcrumb: [Configure, Now Assist for App Engine, Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
+breadcrumb: [Configure, ServiceNow Otto for App Engine, Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
 ---
 
 # Activate the custom app record summarization skill
 
-Activate the custom app record summarization skill to enable Now Assist for App Engine to summarize tables in custom applications.
+Activate the custom app record summarization skill to enable ServiceNow Otto for App Engine to summarize tables in custom applications.
 
 ## Before you begin
 
@@ -23,7 +23,7 @@ Role required: admin or sn\_generative\_ai.nsa\_admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills**.
+1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Skills**.
 
 2.  On the Now Assist Skills page, select App Engine from the side panel.
 

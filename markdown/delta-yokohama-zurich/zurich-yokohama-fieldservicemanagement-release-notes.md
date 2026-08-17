@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-fieldservicemanagement-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 14
 breadcrumb: [Products combined by family]
 ---
@@ -68,7 +68,7 @@ Yokohama
 
 </td><td>
 
--   **[Dispatcher Workspace](https://servicenow-staging.fluidtopics.net/access?context=using-dispatcher-workspace&family=yokohama&ft:locale=en-US)**
+-   **[Dispatcher Workspace](https://www.servicenow.com/docs/access?context=using-dispatcher-workspace&family=yokohama&ft:locale=en-US)**
 
 Use Dispatcher Workspace to perform the following tasks:
 
@@ -76,7 +76,7 @@ Use Dispatcher Workspace to perform the following tasks:
     -   Use a condition builder to filter relevant resources. You can also extend existing tables to filter custom fields.
     -   Use advanced filters with hierarchical structures to filter territories.
     -   View task scheduling conflict messages in the Dispatcher Workspace to improve visibility and facilitate resolutions for dispatchers.
--   **[Field Service Agent Efficiency](https://servicenow-staging.fluidtopics.net/access?context=configuring-agent-efficiency&family=yokohama&ft:locale=en-US)**
+-   **[Field Service Agent Efficiency](https://www.servicenow.com/docs/access?context=configuring-agent-efficiency&family=yokohama&ft:locale=en-US)**
 
 Use Agent Efficiency to perform the following tasks:
 
@@ -84,20 +84,20 @@ Use Agent Efficiency to perform the following tasks:
     -   Calculate the estimated work duration for a work order task more accurately based on the Agent Efficiency feature.
     -   Enhance manual task assignment and dynamic scheduling for a task by leveraging Agent Efficiency.
     -   Optimize Intelligent Task Recommendation by incorporating Agent Efficiency values so that dispatchers can assign tasks more effectively.
--   **[Appointment Booking](https://servicenow-staging.fluidtopics.net/access?context=appointment-booking-administer&family=yokohama&ft:locale=en-US)**
+-   **[Appointment Booking](https://www.servicenow.com/docs/access?context=appointment-booking-administer&family=yokohama&ft:locale=en-US)**
 
 Use Appointment Booking to perform the following tasks:
 
     -   Replicate the application and service-based configurations across instances.
     -   Grade the appointment booking slots by recommended or available slots to ensure optimal scheduling.
     -   Use the seismic appointment booking calendar across all user interfaces to ensure a consistent and seamless scheduling experience.
--   **[Task dependencies](https://servicenow-staging.fluidtopics.net/access?context=t_SetAnUpstreamTask&family=yokohama&ft:locale=en-US)**
+-   **[Task dependencies](https://www.servicenow.com/docs/access?context=t_SetAnUpstreamTask&family=yokohama&ft:locale=en-US)**
 
 Use task dependencies to perform the following tasks:
 
     -   Enable administrators and dispatchers to define advanced task dependencies, such as start together or start after start, so that you can ensure that tasks are executed in the right order.
     -   Enable dispatchers to create task dependencies within or between work orders.
--   **[Schedule Optimization](https://servicenow-staging.fluidtopics.net/access?context=schedule-optimization-engine&family=yokohama&ft:locale=en-US)**
+-   **[Schedule Optimization](https://www.servicenow.com/docs/access?context=schedule-optimization-engine&family=yokohama&ft:locale=en-US)**
 
 Use Schedule Optimization to perform the following tasks:
 
@@ -107,7 +107,7 @@ Use Schedule Optimization to perform the following tasks:
     -   Provide greater control over task distribution by enabling a new drip feed property, **Number of tasks**, to enhance your scheduling capabilities.
     -   Expect more reliable and efficient task scheduling due to resolved conflicts between the various scheduling engines.
     -   View the task scheduling conflict messages on the task, user, and group records when optimization is in progress.
--   **[Capacity and Reservations Management](https://servicenow-staging.fluidtopics.net/access?context=capacity-management&family=yokohama&ft:locale=en-US)**
+-   **[Capacity and Reservations Management](https://www.servicenow.com/docs/access?context=capacity-management&family=yokohama&ft:locale=en-US)**
 
 Use Capacity and Reservations Management to perform the following tasks:
 
@@ -115,7 +115,7 @@ Use Capacity and Reservations Management to perform the following tasks:
     -   Set flexible reservation rules to define the minimum and maximum resource allocations so that you can enable dynamic adjustments to capacity based on shifting demands.
     -   Create recurring capacity assignments for specific days of the week for long-term capacity planning and management.
     -   Enable multiple overrides for the same date range to address demand fluctuations so that you can manage exceptions with more precision and flexibility.
--   **[Scheduling Health dashboard](https://servicenow-staging.fluidtopics.net/access?context=scheduling-health-dashboard&family=yokohama&ft:locale=en-US)**
+-   **[Scheduling Health dashboard](https://www.servicenow.com/docs/access?context=scheduling-health-dashboard&family=yokohama&ft:locale=en-US)**
 
 Use the Scheduling Health dashboard to view these additional Schedule Optimization metrics:
 
@@ -123,17 +123,17 @@ Use the Scheduling Health dashboard to view these additional Schedule Optimizati
     -   Technicians without skills
     -   Tasks without parts
     -   Technicians without parts
--   **[Business location-based work management](https://servicenow-staging.fluidtopics.net/access?context=industry-products-integration&family=yokohama&ft:locale=en-US)**
+-   **[Business location-based work management](https://www.servicenow.com/docs/access?context=industry-products-integration&family=yokohama&ft:locale=en-US)**
 
 Enable your staff across various industries to efficiently manage work orders. Your employees can resolve tasks that are specific to their assigned location, while your managers can oversee the tasks across their assigned locations. You can reinforce your security by ensuring that your staff can only access the work orders that are related to their designated locations.
 
--   **[Managing agents and tasks from Workforce](https://servicenow-staging.fluidtopics.net/access?context=using-manager-workforce&family=yokohama&ft:locale=en-US)**
+-   **[Managing agents and tasks from Workforce](https://www.servicenow.com/docs/access?context=using-manager-workforce&family=yokohama&ft:locale=en-US)**
 
 Use Workforce to perform the following tasks:
 
     -   Enable additional users to use Workforce by adding additional managers to assignment groups.
     -   Enable managers to view the event management tab when Workforce Optimization for Field Service is active.
--   **[Smart Assessment for Field Service Questionnaire](https://servicenow-staging.fluidtopics.net/access?context=configuring-smart-assessment-questionnaire&family=yokohama&ft:locale=en-US)**
+-   **[Smart Assessment for Field Service Questionnaire](https://www.servicenow.com/docs/access?context=configuring-smart-assessment-questionnaire&family=yokohama&ft:locale=en-US)**
 
 Use Smart Assessment templates to perform the following tasks:
 
@@ -143,7 +143,7 @@ Use Smart Assessment templates to perform the following tasks:
     -   Configure conditional questions based on responses of all other types of questions and across sections.
     -   Allow additional comments or attachments on a question's response.
     -   Improve the work order questionnaire in the Mobile Agent® application by implementing a paginated layout, providing instructions with questions, and offering in-line choices.
--   **[Planned Work Management](https://servicenow-staging.fluidtopics.net/access?context=migrate-maint-plans-pwm&family=yokohama&ft:locale=en-US)**
+-   **[Planned Work Management](https://www.servicenow.com/docs/access?context=migrate-maint-plans-pwm&family=yokohama&ft:locale=en-US)**
 
 Seamlessly migrate monthly and annual plans from Planned Maintenance to Planned Work Management.
 
@@ -154,21 +154,21 @@ Zurich
 
 </td><td>
 
--   **[Using Dispatcher Workspace](https://servicenow-staging.fluidtopics.net/access?context=using-dispatcher-workspace&family=zurich&ft:locale=en-US)**
+-   **[Using Dispatcher Workspace](https://www.servicenow.com/docs/access?context=using-dispatcher-workspace&family=zurich&ft:locale=en-US)**
 
 Use Dispatcher Workspace to perform the following tasks:
 
     -   Use the advanced resource filter to sort contractors and equipment.
     -   Add agents to Dispatcher Workspace to see their schedules, or assign them tasks if you manage the assignment group or territory they're a part of. This action can be done without loading the entire assignment group or territory that the agent is a member of.
-    -   Set up the calendar to use multiple time zones at once. For more information, see [Show multiple time zones](https://servicenow-staging.fluidtopics.net/access?context=use-stacked-time-zones&family=zurich&ft:locale=en-US).
+    -   Set up the calendar to use multiple time zones at once. For more information, see [Show multiple time zones](https://www.servicenow.com/docs/access?context=use-stacked-time-zones&family=zurich&ft:locale=en-US).
     -   Navigate from a work order task to a related list of smart assessments that are associated with that work order.
--   **[Assigning WOTs manually](https://servicenow-staging.fluidtopics.net/access?context=c_DispatchWorkOrderTasks&family=zurich&ft:locale=en-US)**
+-   **[Assigning WOTs manually](https://www.servicenow.com/docs/access?context=c_DispatchWorkOrderTasks&family=zurich&ft:locale=en-US)**
 
 Use the records page to perform the following tasks that was limited to Dispatcher Workspace before:
 
     -   Flag a work order task.
     -   Use assignment assistance.
--   **[Schedule Optimization](https://servicenow-staging.fluidtopics.net/access?context=schedule-optimization-engine&family=zurich&ft:locale=en-US)**
+-   **[Schedule Optimization](https://www.servicenow.com/docs/access?context=schedule-optimization-engine&family=zurich&ft:locale=en-US)**
 
 Use Schedule Optimization to do the following:
 
@@ -177,15 +177,15 @@ Use Schedule Optimization to do the following:
     -   Define work, travel, and overtime penalty values for each agent so the optimization engine can either schedule a nearby agent with a higher penalty or a distant agent with a lower penalty.
 
     -   Improve task scheduling by assigning dependent tasks to a single technician within the same shift.
--   **[Workforce](https://servicenow-staging.fluidtopics.net/access?context=configuring-workforce&family=zurich&ft:locale=en-US)**
+-   **[Workforce](https://www.servicenow.com/docs/access?context=configuring-workforce&family=zurich&ft:locale=en-US)**
 
 Enable managers to show or hide work order tasks from the **Calendars** tab in Workforce. When Workforce Optimization for Field Service is enabled, these tasks can also be viewed in Hybrid and Map views.
 
--   **[Field Service Scheduling](https://servicenow-staging.fluidtopics.net/access?context=setting-up-scheduling-methods&family=zurich&ft:locale=en-US)**
+-   **[Field Service Scheduling](https://www.servicenow.com/docs/access?context=setting-up-scheduling-methods&family=zurich&ft:locale=en-US)**
 
 Manage resource attributes for any duration, whether a single day or multiple days.
 
--   **[Appointment Booking](https://servicenow-staging.fluidtopics.net/access?context=appointment-booking-administer&family=zurich&ft:locale=en-US)**
+-   **[Appointment Booking](https://www.servicenow.com/docs/access?context=appointment-booking-administer&family=zurich&ft:locale=en-US)**
 
 Use Appointment Booking to do the following:
 
@@ -213,15 +213,15 @@ Yokohama
 
 </td><td>
 
--   **[SLAs in Dispatcher Workspace](https://servicenow-staging.fluidtopics.net/access?context=using-dispatcher-workspace&family=yokohama&ft:locale=en-US)**
+-   **[SLAs in Dispatcher Workspace](https://www.servicenow.com/docs/access?context=using-dispatcher-workspace&family=yokohama&ft:locale=en-US)**
 
-The SLAs breached query on the Dispatcher Dashboard in Dispatcher Workspace has been updated to look at the SLAs that are associated with the work order tasks only instead of the work orders and work order tasks. The SLA breached counter on the task cards is also static, instead of real time. For more information on changing the SLA timer on task cards, see the Enable the **SLA timer on work order task cards** property on [Configure settings for Dispatcher Workspace](https://servicenow-staging.fluidtopics.net/access?context=configure-workspce-settings&family=yokohama&ft:locale=en-US).
+The SLAs breached query on the Dispatcher Dashboard in Dispatcher Workspace has been updated to look at the SLAs that are associated with the work order tasks only instead of the work orders and work order tasks. The SLA breached counter on the task cards is also static, instead of real time. For more information on changing the SLA timer on task cards, see the Enable the **SLA timer on work order task cards** property on [Configure settings for Dispatcher Workspace](https://www.servicenow.com/docs/access?context=configure-workspce-settings&family=yokohama&ft:locale=en-US).
 
--   **[Assignment groups and territories in Dispatcher Workspace](https://servicenow-staging.fluidtopics.net/access?context=using-dispatcher-workspace&family=yokohama&ft:locale=en-US)**
+-   **[Assignment groups and territories in Dispatcher Workspace](https://www.servicenow.com/docs/access?context=using-dispatcher-workspace&family=yokohama&ft:locale=en-US)**
 
-You must save the default assignment groups or territories in Dispatcher Workspace to load when you open Dispatcher Workspace. If you don’t have the defaults saved, then you must select the assignment groups or territories to appear every time you open Dispatcher Workspace. This change is made to improve the performance of Dispatcher Workspace. For more information on saving the default assignment groups, see the Groups section on the **General** tab on [Enable Dispatcher Workspace settings](https://servicenow-staging.fluidtopics.net/access?context=dispatcher-wrkspc-settings&family=yokohama&ft:locale=en-US). For information on saving default territories, see [Select Territories in Dispatcher Workspace](https://servicenow-staging.fluidtopics.net/access?context=select-territory-dispatch&family=yokohama&ft:locale=en-US). Administrators can disable this by setting the **sn\_fsm\_disp\_wrkspc.enableEmptyState** system property to false.
+You must save the default assignment groups or territories in Dispatcher Workspace to load when you open Dispatcher Workspace. If you don’t have the defaults saved, then you must select the assignment groups or territories to appear every time you open Dispatcher Workspace. This change is made to improve the performance of Dispatcher Workspace. For more information on saving the default assignment groups, see the Groups section on the **General** tab on [Enable Dispatcher Workspace settings](https://www.servicenow.com/docs/access?context=dispatcher-wrkspc-settings&family=yokohama&ft:locale=en-US). For information on saving default territories, see [Select Territories in Dispatcher Workspace](https://www.servicenow.com/docs/access?context=select-territory-dispatch&family=yokohama&ft:locale=en-US). Administrators can disable this by setting the **sn\_fsm\_disp\_wrkspc.enableEmptyState** system property to false.
 
--   **[Work order questionnaire](https://servicenow-staging.fluidtopics.net/access?context=complete-questionnaire-mobile-app&family=yokohama&ft:locale=en-US)**
+-   **[Work order questionnaire](https://www.servicenow.com/docs/access?context=complete-questionnaire-mobile-app&family=yokohama&ft:locale=en-US)**
 
 Availability of inline choices for a question and the ability to add additional information for a question when completing a work order questionnaire through the Now Mobile Agent application.
 
@@ -248,15 +248,15 @@ Zurich
 
 </td><td>
 
--   **[Capacity and Reservations Management](https://servicenow-staging.fluidtopics.net/access?context=configuring-capacity-management&family=zurich&ft:locale=en-US)**
+-   **[Capacity and Reservations Management](https://www.servicenow.com/docs/access?context=configuring-capacity-management&family=zurich&ft:locale=en-US)**
 
 Use the aggregated schedules of all agents of a territory to allocate resources until a specified cut-off date, after which predicted capacity can be used for bookings. This feature optimizes resource utilization and capacity management for a territory, which helps ensure that business services remain available without overburdening resources.
 
--   **[Google Maps APIs for  Field Service  capabilities](https://servicenow-staging.fluidtopics.net/access?context=google-maps-api-keys&family=zurich&ft:locale=en-US)**
+-   **[Google Maps APIs for  Field Service  capabilities](https://www.servicenow.com/docs/access?context=google-maps-api-keys&family=zurich&ft:locale=en-US)**
 
 Effective March 1, 2025, Google has designated the Places API, Directions API, and Distance Matrix API as Legacy services. The newer versions of these services are Places API \(New\) and Routes API. You can’t generate new API keys for these legacy services. However, you can continue using these services with the existing API keys. If you create a Google API key after March 2025, you must upgrade to a supported ServiceNow release version to verify compatibility.
 
--   **[Smart Assessment for Field Service](https://servicenow-staging.fluidtopics.net/access?context=configuring-smart-assessment-questionnaire&family=zurich&ft:locale=en-US)**
+-   **[Smart Assessment for Field Service](https://www.servicenow.com/docs/access?context=configuring-smart-assessment-questionnaire&family=zurich&ft:locale=en-US)**
 
 Use Smart Assessment for Field Service to do the following:
 
@@ -265,7 +265,7 @@ Use Smart Assessment for Field Service to do the following:
     -   View completed questionnaires in the workspace.
     -   Create follow-up work order tasks from a work order questionnaire based on the responses.
     -   Allow users to retry or replace an attachment if the upload is unsuccessful.
--   **[Field Service Scheduling](https://servicenow-staging.fluidtopics.net/access?context=setting-up-scheduling-methods&family=zurich&ft:locale=en-US)**
+-   **[Field Service Scheduling](https://www.servicenow.com/docs/access?context=setting-up-scheduling-methods&family=zurich&ft:locale=en-US)**
 
 Migrates data from the Work Parameter table to the Resource Schedule Attribute table for each technician, confirming that work parameters align with the new schedule attributes.
 
@@ -289,7 +289,7 @@ Yokohama
 
 </td><td>
 
-The approval for new requests workflow was removed from the Field Service Management Business Process configuration. Existing customers that use this workflow are unaffected. New customers can use ServiceNow® Workflow Studio to build the approval for the new requests workflow. For more information on Workflow Studio, see [Flow Designer](https://servicenow-staging.fluidtopics.net/access?context=flow-designer&family=yokohama&ft:locale=en-US).
+The approval for new requests workflow was removed from the Field Service Management Business Process configuration. Existing customers that use this workflow are unaffected. New customers can use ServiceNow® Workflow Studio to build the approval for the new requests workflow. For more information on Workflow Studio, see [Flow Designer](https://www.servicenow.com/docs/access?context=flow-designer&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -506,7 +506,7 @@ Yokohama
 -   Streamline your capacity and resource management by using enhanced visualization in the Capacity Console.
 -   Calculate the work duration for a work order task more accurately by using the Agent Efficiency feature.
 
- See [Field Service Management](https://servicenow-staging.fluidtopics.net/access?context=fsm-application-landing-page&family=yokohama&ft:locale=en-US) for more information.
+ See [Field Service Management](https://www.servicenow.com/docs/access?context=fsm-application-landing-page&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -518,7 +518,7 @@ Zurich
 -   Flag a task or use assignment assistance directly from the Work Order Task page to streamline task management.
 -   Configure Schedule Optimization to instantly adjust technician schedules in response to real-time events, like new priority 1 tasks, task cancellations, paid time off requests, or delays.
 
- See [Field Service Management](https://servicenow-staging.fluidtopics.net/access?context=fsm-application-landing-page&family=zurich&ft:locale=en-US) for more information.
+ See [Field Service Management](https://www.servicenow.com/docs/access?context=fsm-application-landing-page&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

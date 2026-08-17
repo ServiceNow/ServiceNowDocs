@@ -1,5 +1,5 @@
 ---
-title: Virtual Agent Designer controls
+title: Assistant Designer Asset library controls
 description: A Virtual Agent topic consists of a collection of controls within a topic flow. Use these controls to collect, process, and present information to your users. Controls can also read, create, and update records on your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/virtual-agent-controls.html
@@ -10,10 +10,10 @@ topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 3
 keywords: [Virtual Agent, Designer, controls, topic flow, read, create, update, records]
-breadcrumb: [Virtual Agent Designer interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Assistant Designer Asset library interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
 ---
 
-# Virtual Agent Designer controls
+# Assistant Designer Asset library controls
 
 A Virtual Agent topic consists of a collection of controls within a topic flow. Use these controls to collect, process, and present information to your users. Controls can also read, create, and update records on your instance.
 
@@ -86,5 +86,5 @@ Sample script for conditionally showing the node:
 </td></tr></tbody>
 </table>In this example, a condition script returns a value of true if the current user is able to create incident records. This condition prevents a utilities control from creating an incident when the user does not have permission to do so.
 
-**Parent Topic:**[Virtual Agent Designer interface reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/vad-reference.md)
+**Parent Topic:**[Assistant Designer Asset library interface reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/vad-reference.md)
 

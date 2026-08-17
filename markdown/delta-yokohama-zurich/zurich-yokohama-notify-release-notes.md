@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-notify-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -92,11 +92,11 @@ Yokohama
 
 </td><td>
 
--   **[Deny-Unless ACL](https://servicenow-staging.fluidtopics.net/access?context=acl-denial-behavior&family=yokohama&ft:locale=en-US)**
+-   **[Deny-Unless ACL](https://www.servicenow.com/docs/access?context=acl-denial-behavior&family=yokohama&ft:locale=en-US)**
 
 Enhance the security of Notify tables by restricting access for non-authenticated users through Deny ACLs.
 
--   **[Enhanced security for client-callable script includes](https://servicenow-staging.fluidtopics.net/access?context=r_NotifyRoles&family=yokohama&ft:locale=en-US)**
+-   **[Enhanced security for client-callable script includes](https://www.servicenow.com/docs/access?context=r_NotifyRoles&family=yokohama&ft:locale=en-US)**
 
 Enhanced security for all client-callable script includes by introducing the ability to switch off the sandbox mode, providing greater control and protection against unauthorized script execution for Notify tables.
 
@@ -107,7 +107,7 @@ Zurich
 
 </td><td>
 
--   **[Notify workflow activities](https://servicenow-staging.fluidtopics.net/access?context=c_NotifyActivities&family=zurich&ft:locale=en-US)**
+-   **[Notify workflow activities](https://www.servicenow.com/docs/access?context=c_NotifyActivities&family=zurich&ft:locale=en-US)**
 
 Manage the subflows for Notify use cases with the following actions.
 
@@ -368,7 +368,7 @@ Yokohama
 -   Enhanced security for all client-callable script includes by enabling switching off the sandbox mode.
 -   Enhanced security access for Notify tables.
 
- See [Notify](https://servicenow-staging.fluidtopics.net/access?context=notify-landing-page&family=yokohama&ft:locale=en-US) for more information.
+ See [Notify](https://www.servicenow.com/docs/access?context=notify-landing-page&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -379,7 +379,7 @@ Zurich
 -   Build Notify subflows according to your requirements by using the default subflows provided in new instances.
 -   Coral is the new default theme for Next Experience and Core UI, offering a user-friendly experience.
 
- See [Notify](https://servicenow-staging.fluidtopics.net/access?context=notify-landing-page&family=zurich&ft:locale=en-US) for more information.
+ See [Notify](https://www.servicenow.com/docs/access?context=notify-landing-page&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

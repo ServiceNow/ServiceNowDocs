@@ -51,7 +51,7 @@ When you add a recommended topic to Virtual Agent, the Topic Recommendations app
 
         \[Omitted image "tr-create-model-add-va.png"\] Alt text: Select Create new model and enter a name. Specify which language should be the primary language for the model.
 
-        For more information about model groups, see Multilingual model management.
+        For more information about model groups, see [Multilingual model management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/multilingual-model-managent.md).
 
     -   An existing model name
 
@@ -64,9 +64,9 @@ When you add a recommended topic to Virtual Agent, the Topic Recommendations app
 
 ## Result
 
-For recommended pre-built topics, Virtual Agent duplicates the topic \(but removes the **Template** portion of the file name\). For recommended intents, Virtual Agent creates a new topic mapped to the intent. These topics are added to the **Recommended** category in the Virtual Agent Designer Topics page.
+For recommended pre-built topics, Virtual Agent duplicates the topic \(but removes the **Template** portion of the file name\). For recommended intents, Virtual Agent creates a new topic mapped to the intent. These topics are added to the **Recommended** category in the Assistant Designer Asset library.
 
-In the Topic recommendations page, the topic card shows the date it was added and its status \(**Active** or **Inactive**\). To open the new topic from the Topic Recommendations page, select the info icon to open the overlay card. Select the open link icon \[Omitted image "icon-open-link.png"\] Alt text: Open link icon. to open the topic in Virtual Agent Designer.
+In the Topic recommendations page, the topic card shows the date it was added and its status \(**Active** or **Inactive**\). To open the new topic from the Topic Recommendations page, select the info icon to open the overlay card. Select the open link icon \[Omitted image "icon-open-link.png"\] Alt text: Open link icon. to open the topic in Assistant Designer Asset library.
 
 \[Omitted image "tr-vad-topic.png"\] Alt text: The pre-built topic card in Topic Recommendations page shows the date that it was added and its current state. The duplicated topic card displays in the Topics page.
 

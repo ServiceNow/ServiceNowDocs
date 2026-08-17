@@ -1,25 +1,25 @@
 ---
 title: Configure the semantic index settings for legal request tables
-description: Configure the semantic index settings to define how AI Search indexes the content from the legal request tables in the Now Assist for Legal Service Delivery \(LSD\) application.
+description: Configure the semantic index settings to define how AI Search indexes the content from the legal request tables in the ServiceNow Otto for Legal Service Delivery \(LSD\) application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/now-assist-for-legal-service-delivery/create-record-legal-requests.html
 release: zurich
 product: Now Assist for Legal Service Delivery
 classification: now-assist-for-legal-service-delivery
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
-keywords: [Now Assist, Configure AI Agents]
-breadcrumb: [Configure agentic workflow, Configure, Now Assist for Legal Service Delivery \(LSD\), Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
+keywords: [Now Assist, ServiceNow Otto, Configure AI Agents]
+breadcrumb: [Configure agentic workflow, Configure, ServiceNow Otto for Legal Service Delivery \(LSD\), Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Configure the semantic index settings for legal request tables
 
-Configure the semantic index settings to define how AI Search indexes the content from the legal request tables in the Now Assist for Legal Service Delivery \(LSD\) application.
+Configure the semantic index settings to define how AI Search indexes the content from the legal request tables in the ServiceNow Otto for Legal Service Delivery \(LSD\) application.
 
 ## Before you begin
 
-Set the application scope to **Legal Counsel Center** in the application picker. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/c_ApplicationPicker.md).
+Set the application scope to **Legal Counsel Center** in the application picker. For more information, see Application picker.
 
 Role required: admin
 
@@ -31,15 +31,13 @@ These semantic index settings specify how AI Search indexes the content from the
 
 1.  Navigate to **All** &gt; **AI Search** &gt; **AI Search Index** &gt; **Indexed Sources**.
 
-2.  In the Name column, search for `Legal Requests`.
+2.  In the Name column, search for `Legal Requests` and open it.
 
-3.  Select the Legal Requests indexed source.
+3.  Select the Semantic Index configurations related list.
 
-4.  Select the Semantic Index configurations related list.
+4.  Add the semantic index configuration by selecting **New**.
 
-5.  Add the semantic index configuration by selecting **New**.
-
-6.  On the form, fill in the fields.
+5.  On the form, fill in the fields.
 
 <table id="table_zwv_w5m_y2c"><thead><tr><th>
 
@@ -90,7 +88,7 @@ Application
 Name of the application to which the semantic index belongs.The **Application** field is automatically set to **Legal Counsel Center**.
 
 </td></tr></tbody>
-</table>7.  Select **Submit**.
+</table>6.  Select **Submit**.
 
 
 ## Result

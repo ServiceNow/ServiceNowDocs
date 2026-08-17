@@ -104,7 +104,7 @@ Description
 
 </td><td>
 
-A detailed description of the strategic priority.You can refine strategic priority description using the Refine records skill, if the Now Assist for SPM application is installed.
+A detailed description of the strategic priority.You can refine strategic priority description using the Refine records skill, if the ServiceNow Otto for SPM application is installed.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Goal Framework and Goal Framework for SPM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/goal-framework/goal-framework-reference.md)

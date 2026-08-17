@@ -24,7 +24,7 @@ For card or non-card dispute management cases, tasks are generated for each tran
 
 When a dispute is initiated, the case begins in the Initiate stage.
 
-Dispute cases can be initiated from the Dispute Workspace by contributors on behalf of the customer, or by customers through the portal or through virtual agent disputes with Now Assist for Financial Services Operations \(FSO\) with the Virtual Agent  skill. Dispute agents can also create cases when needed.
+Dispute cases can be initiated from the Dispute Workspace by contributors on behalf of the customer, by customers through the portal, or through virtual agent disputes with Disputes intake via Virtual Agent in ServiceNow Otto for FSO. Dispute agents can also create cases when needed.
 
 During this phase, the system identifies the initial transaction. You’re then guided through the "Select dispute reason" activity, which involves a tiered questioning process \(Level 1, Level 2, and optionally Level 3\) to accurately determine the dispute category and its corresponding reason code.
 
@@ -40,7 +40,7 @@ The system generates tasks based on the policy rules that are evaluated when a c
 
 Chargeback eligibility rules depend on the dispute category \(for card disputes\). In cases of fraud, these rules are evaluated during the Investigate stage, specifically after the Fraud Report task is submitted. For non-fraud categories, the evaluation happens at the Submit action, whether from Initiate or Review. For ACH disputes, the eligibility for chargeback is evaluated during investigation and can be assisted by Now Assist agents.
 
-For information about Now Assist for FSO, see [Now Assist for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/now-assist-for-financial-services-operations-fso/now-assist-for-financial-services-operations.md).
+For information about ServiceNow Otto for FSO, see [ServiceNow Otto for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/now-assist-for-financial-services-operations-fso/now-assist-for-financial-services-operations.md).
 
 For information about configuring business rules, see [Exploring Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/decision-designer-overview.md).
 

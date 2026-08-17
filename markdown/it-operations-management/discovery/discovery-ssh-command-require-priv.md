@@ -1,5 +1,5 @@
 ---
-title: SSH commands requiring a privileged user during probe-based discovery
+title: Privileged SSH commands for probe-based discovery
 description: These tables display the SSH commands run by Discovery probes during horizontal discovery. These SSH commands require elevated privileges to run.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/discovery-ssh-command-require-priv.html
@@ -13,7 +13,7 @@ keywords: [SSH commands, SSH probe commands, probe commands, elevated privileges
 breadcrumb: [SSHCommand probe, List of Discovery probes, Discovery probes and sensors, Using Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
-# SSH commands requiring a privileged user during probe-based discovery
+# Privileged SSH commands for probe-based discovery
 
 These tables display the SSH commands run by Discovery probes during horizontal discovery. These SSH commands require elevated privileges to run.
 

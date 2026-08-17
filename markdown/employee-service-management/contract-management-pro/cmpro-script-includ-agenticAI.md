@@ -9,7 +9,7 @@ classification: contract-management-pro
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Configure agentic workflows, Configure, Now Assist in CM Pro, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Configure agentic workflows, Configure, Now Assist in Contract Management, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Update the contracts AI agents handler script include
@@ -35,8 +35,6 @@ When you duplicate the Manage contract repository agentic workflow and create a 
 3.  Open **ContractsAIAgentsHelperSNC**.
 
 4.  In the **Script** box, copy the `startAiAgentConversation()` method.
-
-    \[Omitted image "cmpro-script-agentic-ai.png"\] Alt text: Script include for agentic workflow in CM Pro.
 
 5.  Navigate back to the Script Include table.
 

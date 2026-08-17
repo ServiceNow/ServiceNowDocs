@@ -1,18 +1,18 @@
 ---
 title: Select channels and status for an AI agent
-description: In the guided setup for an AI agent, activate the AI agent to use in an assistant in Now Assist for Virtual Agent, and set the processing messages.
+description: In the guided setup for an AI agent, activate the AI agent to use in an assistant in ServiceNow Otto for Virtual Agent, and set the processing messages.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/channels-access-aia.html
 release: zurich
 topic_type: task
 last_updated: "2025-11-23"
 reading_time_minutes: 2
-breadcrumb: [Create an AI agent, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Create an AI agent, AI Agent Studio, Enable AI experiences]
 ---
 
 # Select channels and status for an AI agent
 
-In the guided setup for an AI agent, activate the AI agent to use in an assistant in Now Assist for Virtual Agent, and set the processing messages.
+In the guided setup for an AI agent, activate the AI agent to use in an assistant in ServiceNow Otto for Virtual Agent, and set the processing messages.
 
 ## Before you begin
 
@@ -20,11 +20,11 @@ Role required: sn\_aia.admin
 
 ## About this task
 
-The final step of the AI agent guided setup includes options for where you can invoke the agentic workflow as well as set the processing message. You must select which assistants for Now Assist in Virtual Agent you want to be able to invoke the AI agent. Your processing messages appear when the AI agent is running and when the AI agent's task is completed.
+The final step of the AI agent guided setup includes options for where you can invoke the agentic workflow as well as set the processing message. You must select which assistants for ServiceNow Otto in Virtual Agent you want to be able to invoke the AI agent. Your processing messages appear when the AI agent is running and when the AI agent's task is completed.
 
 ## Procedure
 
-1.  Select whether you want users to use Now Assist in Virtual Agent to invoke the AI agent.
+1.  Select whether you want users to use ServiceNow Otto in Virtual Agent to invoke the AI agent.
 
     If enabled, you must select which chat assistants have access to the AI agent. You can edit assistants using Assistant Designer.
 
@@ -32,7 +32,7 @@ The final step of the AI agent guided setup includes options for where you can i
 
     You can set a processing message, completion message, or both. If you don't want to use a specific type of message, unselect the toggle next to the message field.
 
-    You can also use Now Assist to generate the messages for you by selecting **Generate messages**. You can change the messages after they're generated.
+    You can also use ServiceNow Otto to generate the messages for you by selecting **Generate messages**. You can change the messages after they're generated.
 
     \[Omitted image "select-aia-channels.png"\] Alt text: Select channels and access page
 

@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-03-25"
 reading_time_minutes: 2
 keywords: [troubleshooting, Query Generation logs, AI Data Explorer, semantic layer]
-breadcrumb: [Configure, AI Data Explorer, Now Assist in Platform Analytics, Platform Analytics]
+breadcrumb: [Configure, AI Data Explorer, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
 
 # Common AI Data Explorer issues and fixes
@@ -34,7 +34,7 @@ Go to **Query Generation** &gt; **Administration** &gt; **Logs** to inspect fail
 |No filter when expected|No matching segment; phrasing too vague|Create a manual segment; rephrase question.|
 |Segment from report is wrong|Auto-generated segment has stale or irrelevant filter|Disable the report segment source or the specific segment.|
 
-**Parent Topic:**[Configure AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/configure-now-ass-explorer.md)
+**Parent Topic:**[Configure AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/configure-aide-explorer.md)
 
 **Related topics**  
 

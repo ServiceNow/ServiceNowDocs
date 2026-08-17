@@ -7,10 +7,10 @@ release: zurich
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 keywords: [AI agents, agentic AI]
-breadcrumb: [Use agentic workflows, Now Assist for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
+breadcrumb: [Use agentic workflows, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
 # Resolve noncritical HR cases agentic workflow
@@ -25,11 +25,7 @@ The Resolve noncritical HR cases agentic workflow can evaluate HR requests submi
 -   generates recommendations for a non-critical request fulfillment
 -   requests for a human agent intervention when a case is identified as critical
 
-The agents, tools, and triggers that are associated with the Resolve HR cases agentic workflow are provided by Now Assist applications. You can activate the agentic workflow template by making triggers active. If you want to change this agentic workflow's instructions, you must duplicate it, adjust the settings to suit your specific needs, and activate the duplicated version of the agentic workflow instead.
-
-## Prerequisites and setup
-
-You must have HRSD Pro plus for Now Assist installed for the HR Service Delivery AI Agent Collection. When you modify an agentic workflow, AI agent, or tool, make sure that you update all instructions accordingly.
+The agents, tools, and triggers that are associated with this agentic workflow are provided by the ServiceNow Otto application. To change this agentic workflow's instructions, duplicate it, adjust the settings, and activate the new version.
 
 ## Accessing the Resolve noncritical HR cases agentic workflow
 
@@ -53,7 +49,7 @@ The following table lists the agents that are used in the Resolve noncritical HR
 |HR search and notify AI agent|Performs search to find relevant HR knowledge articles and catalog items related to the given query and raise notification if relevant information is found.|
 |HR criticality detection AI agent|Performs criticality detection on an HR case and acts based on the criticality level.|
 
-In the Resolve noncritical HR cases agentic workflow, review the information in the Describe and connect section, make the necessary updates to ensure the agentic workflow adapts to your requirements, and then select **Save and Continue**.
+To change this agentic workflow's instructions, duplicate it, adjust the settings, and activate the new version.
 
 ## Trigger
 
@@ -73,7 +69,7 @@ The AI agent decision log displays the AI agents that are working to resolve the
 
 The AI agent assesses each HR case to determine its criticality.
 
--   For non-critical cases, it retrieves and recommends relevant articles, then notifies the employee via Now Assist Virtual Agent or email. Employee can review the recommendations, provide feedback, or close the case.
+-   For non-critical cases, it retrieves and recommends relevant articles, then notifies the employee via ServiceNow Otto Virtual Agent or email. Employee can review the recommendations, provide feedback, or close the case.
 -   For critical cases, Human agents intervention is requested.
 
 ## Example of event creation on Agent Workspace for HR Case Management

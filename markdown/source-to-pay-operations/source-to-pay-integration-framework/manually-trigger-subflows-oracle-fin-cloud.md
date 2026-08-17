@@ -16,6 +16,8 @@ breadcrumb: [Use schedule flows in Oracle Financial Cloud, Use, Integration with
 
 You can manually trigger flows or subflows in Oracle Financial Cloud on demand. Follow these steps to manually trigger a flow or subflow.
 
+\[Omitted video\] Description: Video demonstrating how to manually trigger inbound flows or subflows in Oracle Financial Cloud
+
 ## Before you begin
 
 Role required: sn\_fcms\_intg.integration\_user
@@ -46,7 +48,7 @@ Role required: sn\_fcms\_intg.integration\_user
 
     \[Omitted image "oracle-fin-workflow-studio.png"\] Alt text: Flows or subflows in Workflow Studio
 
-9.  You can use the trigger condition as a part of the base system to execute the flow or subflow.
+9.  You can use the Subflow Inputs and Outputs as a part of the base system to execute the flow or subflow.
 
     **Note:** Don’t modify the trigger condition.
 

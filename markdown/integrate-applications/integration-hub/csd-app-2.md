@@ -8,7 +8,7 @@ product: Integration Hub
 classification: integration-hub
 topic_type: concept
 last_updated: "2026-01-29"
-reading_time_minutes: 8
+reading_time_minutes: 7
 breadcrumb: [Integration Hub solutions, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
@@ -105,7 +105,7 @@ CSD 2.0 can revoke software requested using the CSD 2.0 catalog. CSD 2.0 can als
 </td></tr></tbody>
 </table>## Application version
 
-CSD 2.0 v1.7.3 is the latest version.
+CSD 2.0 v1.7.4 is the latest version.
 
 ## Available AI agents
 
@@ -118,7 +118,7 @@ This application provides standalone AI agents that mimic human-like intelligenc
     You can also search for other available AI agents and add them to your agentic workflow. See [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/find-ai-agents.md) for more information.
 
 -   You can create a clone of the required spoke AI agent and customize it as per your requirement. See [Duplicate an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/clone-ai-agent.md) for more information about creating a clone.
--   See [Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/na-ai-agents.md) for information about AI agents.
+-   See [AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/na-ai-agents.md) for information about AI agents.
 
 Available AI agents include:
 
@@ -187,10 +187,7 @@ Microsoft Endpoint Configuration Manager application targets removal AI agent
 Removes collections as targets from applications in Microsoft Endpoint Configuration Manager. The agent gathers the required inputs, confirms the action, and handles errors while performing the removal.
 
 </td></tr></tbody>
-</table>Looking for an AI agent?
-
--   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/find-ai-agents.md).
--   To find agents that might not be installed on your instance, visit the [AI Agent Marketplace](https://store.servicenow.com/store/ai-marketplace) on the ServiceNow Store.
+</table>There might be AI agents installed on your instance that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/find-ai-agents.md).
 
 **Note:** To access data or perform operations on data in the table that is associated with the AI agent, users must have the CSD Admin role.
 

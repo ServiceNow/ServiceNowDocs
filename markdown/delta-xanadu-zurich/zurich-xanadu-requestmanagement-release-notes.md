@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-requestmanagement-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -83,7 +83,7 @@ Yokohama
 
 </td><td>
 
--   **[User role for service desk agents](https://servicenow-staging.fluidtopics.net/access?context=req-mgmnt-roles-instld-itsm&family=yokohama&ft:locale=en-US)**
+-   **[User role for service desk agents](https://www.servicenow.com/docs/access?context=req-mgmnt-roles-instld-itsm&family=yokohama&ft:locale=en-US)**
 
 Improve operational efficiency by providing level 1 or tier 1 service desk agents with access to change, incident, problem, and request records by assigning the sn\_service\_desk\_agent user role.
 
@@ -91,7 +91,7 @@ Improve operational efficiency by providing level 1 or tier 1 service desk agent
 
 The sn\_service\_desk\_agent user role is available starting with Service Operations Workspace version 6.1.
 
--   **[Enhanced security model adoption for Request Management](https://servicenow-staging.fluidtopics.net/access?context=request-management-architecture&family=yokohama&ft:locale=en-US)**
+-   **[Enhanced security model adoption for Request Management](https://www.servicenow.com/docs/access?context=request-management-architecture&family=yokohama&ft:locale=en-US)**
 
 Prevent unauthorized access to request-related tables using deny ACLs. Non-authenticated user cannot perform any actions such as read, write, delete, create, or report view.
 
@@ -133,7 +133,7 @@ Yokohama
 
 </td><td>
 
--   **[Sorting configuration items in requested item forms](https://servicenow-staging.fluidtopics.net/access?context=create-request-workspace&family=yokohama&ft:locale=en-US)**
+-   **[Sorting configuration items in requested item forms](https://www.servicenow.com/docs/access?context=create-request-workspace&family=yokohama&ft:locale=en-US)**
 
 The list of configuration items \(CIs\) displayed for the **Configuration item** field in the Requested item form is now displayed and sorted based on the CI names in alphabetical order instead of sorting by CI class and then presenting the CI names in alphabetical order within a class. This change means you can determine whether a particular CI is available more quickly.
 
@@ -436,7 +436,7 @@ Yokohama
 -   Restrict unauthorized access to the Request Management tables using deny ACLs.
 -   Quickly determine whether a configuration item \(CI\) is available to be added to the **Configuration item** field in the Requested item form by searching the an alphabetized list of available CIs rather than having to first find the CI class list.
 
- See [Request Management](https://servicenow-staging.fluidtopics.net/access?context=c_RequestManagement&family=yokohama&ft:locale=en-US) for more information.
+ See [Request Management](https://www.servicenow.com/docs/access?context=c_RequestManagement&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -446,7 +446,7 @@ Zurich
 
 Coral is the new default theme for Next Experience and Core UI, offering a more modern experience.
 
- See [Request Management](https://servicenow-staging.fluidtopics.net/access?context=c_RequestManagement&family=zurich&ft:locale=en-US) for more information.
+ See [Request Management](https://www.servicenow.com/docs/access?context=c_RequestManagement&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/rn-combined-intro.md)

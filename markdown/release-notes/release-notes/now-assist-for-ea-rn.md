@@ -1,6 +1,6 @@
 ---
-title: Now Assist for Enterprise Architecture \(EA\) release notes
-description: The ServiceNow Now Assist for Enterprise Architecture \(EA\) application introduces generative AI skills into the Enterprise Architecture Workspace. Now Assist for Enterprise Architecture \(EA\) was enhanced and updated in the Zurich release.
+title: ServiceNow Otto for Enterprise Architecture \(EA\) release notes
+description: The ServiceNow ServiceNow Otto for Enterprise Architecture \(EA\) application introduces generative AI skills into the Enterprise Architecture Workspace. ServiceNow Otto for Enterprise Architecture \(EA\) was enhanced and updated in the Zurich release.
 locale: en-US
 release: zurich
 topic_type: reference
@@ -8,11 +8,11 @@ last_updated: "2025-07-31"
 reading_time_minutes: 7
 ---
 
-# Now Assist for Enterprise Architecture \(EA\) release notes
+# ServiceNow Otto for Enterprise Architecture \(EA\) release notes
 
-The ServiceNow® Now Assist for Enterprise Architecture \(EA\) application introduces generative AI skills into the Enterprise Architecture Workspace. Now Assist for Enterprise Architecture \(EA\) was enhanced and updated in the Zurich release.
+The ServiceNow® ServiceNow Otto for Enterprise Architecture \(EA\) application introduces generative AI skills into the Enterprise Architecture Workspace. ServiceNow Otto for Enterprise Architecture \(EA\) was enhanced and updated in the Zurich release.
 
-## Now Assist for Enterprise Architecture \(EA\) highlights for the Zurich release
+## ServiceNow Otto for Enterprise Architecture \(EA\) highlights for the Zurich release
 
 [Zurich Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-5.md)
 
@@ -20,7 +20,7 @@ The ServiceNow® Now Assist for Enterprise Architecture \(EA\) application intro
 
 [Zurich Patch 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-4.md)
 
--   All Now Assist for EA skills are activated by default.
+-   All ServiceNow Otto for EA skills are activated by default.
 -   Use the Diagram change analysis Now Assist skill to compare an Enterprise Modeling and Visualization diagram with its previous version and generate a summary of the differences.
 
 -   Use the Refine text Now Assist skill to elaborate or shorten text in the **Description** field of the business application, business capability, business process, and information object records. Also, use this skill to generate, elaborate, or shorten text in the **Reasoning** field under the **Planned Disposition** section of the business application record.
@@ -38,14 +38,14 @@ The ServiceNow® Now Assist for Enterprise Architecture \(EA\) application intro
 
 Zurich Early Availability
 
--   Enhance your productivity by using the Now LLM Service or a supported third-party LLM with any Now Assist for Enterprise Architecture \(EA\) skill or AI agent.
+-   Enhance your productivity by using the Now LLM Service or a supported third-party LLM with any ServiceNow Otto for Enterprise Architecture \(EA\) skill or AI agent.
 -   Enhance your user experience with Coral that is used as the default theme for new portal, web, and mobile experiences.
 
-See [Now Assist for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/now-assist-ea.md) for more information.
+See [ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/now-assist-ea.md) for more information.
 
-**Important:** Now Assist for Enterprise Architecture \(EA\) is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+**Important:** ServiceNow Otto for Enterprise Architecture \(EA\) is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## Now Assist for Enterprise Architecture \(EA\) features
+## ServiceNow Otto for Enterprise Architecture \(EA\) features
 
 -   **[Compare Enterprise Modeling and Visualization diagrams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/compare-modeling-diagrams.md)**
 
@@ -66,7 +66,7 @@ See [Now Assist for Enterprise Architecture \(EA\)](https://raw.githubuserconten
 
     For the Business application insights Now Assist skill, you can view the business application source fields based on which the business application insights are generated. Also, you can determine the availability of the skill by defining a specific criteria in the **Define access** tab of the Business application insights skill.
 
--   **[Role restrictions for Now Assist for EA skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/configure-now-assist-ea.md)**
+-   **[Role restrictions for ServiceNow Otto for EA skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/configure-now-assist-ea.md)**
 
     Role restriction is added to the default roles associated with the following skills:
 
@@ -76,7 +76,7 @@ See [Now Assist for Enterprise Architecture \(EA\)](https://raw.githubuserconten
     -   Refine text
 -   **[Business Application Insights skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/generate-insights-into-ba.md)**
 
-    Learn the details of business applications and gather concise and actionable insights on business applications from the summary that is generated by Now Assist for Enterprise Architecture \(EA\). The business application insights help you to make informed decisions without manually reviewing large volumes of data.
+    Learn the details of business applications and gather concise and actionable insights on business applications from the summary that is generated by ServiceNow Otto for Enterprise Architecture \(EA\). The business application insights help you to make informed decisions without manually reviewing large volumes of data.
 
 -   **[Implement access control lists for security in AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/aia-security-implementation.md)**
 
@@ -84,7 +84,7 @@ See [Now Assist for Enterprise Architecture \(EA\)](https://raw.githubuserconten
 
     ACLs provide you with the capability to run AI agents and agentic workflow executions either as a dynamic user or an AI user.
 
-    To learn about ACLs for Now Assist for Enterprise Architecture \(EA\) agents and skills, see [Configure Now Assist for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/configure-now-assist-ea.md) and [Enterprise Architecture AI agent diagramming agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/now-assist-aiagents-ea-diagramming-usecase.md).
+    To learn about ACLs for ServiceNow Otto for Enterprise Architecture \(EA\) agents and skills, see [Configure ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/configure-now-assist-ea.md) and [Enterprise Architecture AI agent diagramming agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/now-assist-aiagents-ea-diagramming-usecase.md).
 
 -   **[Generate a summary of the Architectural Decision Records \(ADR\) document or get a particular information from the document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/summarize-docs-genai-skill-ea.md)**
 
@@ -103,9 +103,9 @@ See [Now Assist for Enterprise Architecture \(EA\)](https://raw.githubuserconten
 
     Also, the icon is displayed on selecting the **Reasoning** field in the **Planned Disposition** section of the business application record.
 
--   Added **Define availability** and **Define access** tabs in the Business application insights Now Assist skill configuration page in the Now Assist Admin console.
+-   Added **Define availability** and **Define access** tabs in the Business application insights Now Assist skill configuration page in the AI Admin Hub console.
 
--   Added **Role restrictions to skill** section in the **Define access** tab of Now Assist skills in the Now Assist Admin console.
+-   Added **Role restrictions to skill** section in the **Define access** tab of Now Assist skills in the AI Admin Hub console.
 
 -   The **Generate insights** button is added to the business application page in the Enterprise Architecture Workspace.
 -   Changes to the Architectural Decision Records page:
@@ -118,12 +118,12 @@ See [Now Assist for Enterprise Architecture \(EA\)](https://raw.githubuserconten
 
 -   **[Changes to Now Assist usage measurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/monitoring-now-assist-usage.md)**
 
-    Starting with Zurich Early Access, AI usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
+    Starting with Australia Early Access, AI usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: AI Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
 
 -   **[Role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/aia-role-masking.md)**
 
-    [Role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/aia-role-masking.md) enables users to limit the roles and privileges of agentic workflows during tool execution. Agentic workflows and their AI agents that get installed with Now Assist applications are assigned pre-defined roles. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. Data access settings must also include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/define-sec-controls-aw.md).
+    Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/define-sec-controls-aw.md).
 
 -   **[Some generative AI skills, AI agents, and agentic workflows are turned on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md)**
 
@@ -134,7 +134,7 @@ See [Now Assist for Enterprise Architecture \(EA\)](https://raw.githubuserconten
 
 ## Activation information
 
-Now Assist features are available with activation of the Now Assist for Enterprise Architecture \(EA\) plugin. For more information, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+Now Assist features are available with activation of the ServiceNow Otto for Enterprise Architecture \(EA\) plugin. For more information, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 
 ## Accessibility information
 
@@ -145,19 +145,19 @@ Now Assist features are available with activation of the Now Assist for Enterpri
 
 ## Related ServiceNow applications and features
 
--   **[Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/platform-now-assist-landing.md)**
+-   **[AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/platform-now-assist-landing.md)**
 
     Help improve productivity and efficiency in your organization, deliver better self-service, recommend actions, provide answers, and empower your users to search more effectively.
 
--   **[Overview tab in Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configuring-now-assist.md)**
+-   **[Overview tab in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configuring-now-assist.md)**
 
-    The Now Assist Admin console provides you with quick and effortless access to the important information that you must set up, configure, and monitor in Now Assist applications and features.
+    The AI Admin Hub console provides you with quick and effortless access to the important information that you must set up, configure, and monitor in Now Assist applications and features.
 
--   **[Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-panel-overview.md)**
+-   **[ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-panel-overview.md)**
 
     Use the Now Assist panel to interact with and get assistance from generative AI.
 
--   **[Now Assist skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills.md)**
+-   **[Generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills.md)**
 
     Now Assist products provide generative AI skills that are tailored to meet the needs of users in different workflows, including content summarization in docs.
 

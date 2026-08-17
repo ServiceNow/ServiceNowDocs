@@ -40,7 +40,7 @@ Maximum number of daily resource allocation records that should be considered in
 
 Determines the maximum number of daily resource allocation records that should be considered in synchronous mode during confirmation and allocation. The property improves the system performance when the number of daily allocation records is more than the value set in the property.
 
- The default value is 2600 which implies that the number of daily records considered for confirmation or allocation in synchronous mode is 2600. The value is equivalent to confirming or allocating 10 users on a group resource plan for 1-year duration \(260 working days\) or 5 users for 2-year duration, and so on. If the group resource plan contains 11 users for 1-year duration, the number of daily records are 2860. Thus the confirmation and allocation of the resource plan in this case is in asynchronous mode.
+ The default value is 2600 which implies that the number of daily records considered for confirmation or allocation in synchronous mode is 2600. The value is equivalent to confirming or allocating 10 users on a group resource plan for 1-year duration \(260 working days\). It is also equivalent to allocating 5 users for a 2-year duration, and so on. If the group resource plan contains 11 users for 1-year duration, the number of daily records are 2860. Thus the confirmation and allocation of the resource plan in this case is in asynchronous mode.
 
  If you always want to confirm and allocate the resource plan in synchronous mode, set the value of the property to a higher number based on your requirements.
 
@@ -161,7 +161,7 @@ The default duration for a calendar event.
 
  For example, a user is available for three blocks of time: two 30-minute blocks and one 60-minute block.
 
--   If the value of this property is set to 30 minutes, and 1 hour needs to be allocated to the user, the allocation is divided into the two 30-minute blocks when the user is available.
+-   If the value of this property is set to 30 minutes, and 1 hour needs to be allocated to the user. The allocation is then divided into two 30-minute blocks when the user is available.
 -   If the value of this property is set to 60 minutes, the allocation is given to the 60-minute block.
 
 **Note:** When you're changing the default value, enter a value which results a finite value when divided by 60. For example, 6, 12, 15, 30 and so on.
@@ -198,7 +198,7 @@ Perform Resource Confirmation/Allocation/Cancellation in asynchronous mode \(**c
 
 Uses asynchronous mode when confirming, allocating, or canceling resource plans to improve application performance.
 
- Because resource confirmation and allocation create calendar events for each resource in a group, and also consider each resources schedule, the confirmation, and allocation process can take an excessively long time to complete.
+ Resource confirmation and allocation create calendar events for each resource in a group and also consider each resource's schedule. As a result, the confirmation and allocation process can take an excessively long time to complete.
 
  In asynchronous mode, the application uses an event manager to handle errors that might occur when processing the state of the resource plan. If the property is enabled:
 
@@ -213,7 +213,7 @@ No
 
 </td></tr><tr><td>
 
-Comma-separated list of resource event types which will be excluded from user's schedule to calculate available capacity and to avoid making resource allocations on the days having these events \(time\_off, meeting, and so on\) \(**com.snc.resource\_management.exclude\_events\_from\_schedule**\)
+Comma-separated list of resource event types which will be excluded from user's schedule to calculate available capacity. This setting avoids making resource allocations on the days having these events \(time\_off, meeting, and so on\) \(**com.snc.resource\_management.exclude\_events\_from\_schedule**\)
 
 </td><td>
 
@@ -262,7 +262,7 @@ Do not allow resource plan dates to be outside the Project/Demand dates \(**com.
 
 Restricts the entry of resource plan dates that go beyond the project or demand dates to avoid discrepancies between project or demand dates and resource plan dates.
 
- If this property is enabled, the resource plan start and end dates must be within the project or demand dates when you create, extend, shift, move, or change the state of a resource plan from requested to confirm or allocate.
+ If this property is enabled, the resource plan start and end dates must be within the project or demand dates. This applies when you create, extend, shift, move, or change the state of a resource plan from requested to confirm or allocate.
 
 </td><td>
 

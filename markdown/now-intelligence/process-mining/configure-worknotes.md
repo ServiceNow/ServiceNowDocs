@@ -9,7 +9,7 @@ classification: process-mining
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Working with worknotes using Now Assist, Configuring Now Assist for Process Mining, Now Assist for Process Mining, Using Process Mining, Process Mining, Platform Analytics]
+breadcrumb: [Working with worknotes using AI, Configuring ServiceNow Otto for Process Mining, ServiceNow Otto for Process Mining, Using Process Mining, Process Mining, Platform Analytics]
 ---
 
 # Configuring work notes analysis in Process Mining
@@ -20,5 +20,7 @@ For the detailed procedure of configuring work notes analysis, see [Configure in
 
 There are system properties that determine how work notes analysis work. For information about the system properties, see [Work notes analysis properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/data-cleanup.md).
 
-**Parent Topic:**[Working with worknotes using Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/worknotes.md)
+**Note:** Work notes analysis charges 250 assist credits per request when clustering is applied, regardless of the number of work notes. Loading additional results in a clustered request incurs no extra charges. If clustering is skipped due to fewer work notes, 100 assist credits are charged. No assist credits are charged if no results are available.
+
+**Parent Topic:**[Working with worknotes using AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/worknotes.md)
 

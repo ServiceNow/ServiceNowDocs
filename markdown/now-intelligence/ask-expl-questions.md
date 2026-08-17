@@ -7,14 +7,14 @@ release: zurich
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 7
-breadcrumb: [Use, AI Data Explorer, Now Assist in Platform Analytics, Platform Analytics]
+breadcrumb: [Use, AI Data Explorer, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
 
 # Questions and responses in an exploration
 
 Ask the AI specific questions in AI Data Explorer, to which it responds with data visualizations, a summary, and suggested follow-up questions.
 
-To ask a question in an exploration, launch AI Data Explorer from a data visualization or list or open an existing exploration. You will see a field with the placeholder "Ask Now Assist a question about data." For more information, see [Launch AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/launch-now-assist-explorer.md).
+To ask a question in an exploration, launch AI Data Explorer from a data visualization or list or open an existing exploration. You will see a field with the placeholder "Ask a question about data." For more information, see [Launch AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/launch-ai-data-explorer.md).
 
 **Note:**
 
@@ -31,7 +31,7 @@ When you write a question in an exploration, the AI converts the question to a d
 -   \[Omitted image "callout-2.png"\] Alt text: Area 2 Your original question. You can edit this question to generate new output.
 -   \[Omitted image "callout-3.png"\] Alt text: Area 3 The title of the response and a summarization of the AI findings.
 -   \[Omitted image "callout-4.png"\] Alt text: Area 4 If extended analysis is enabled, you get additional insights after the title and summary. For more information, see [Extended analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/hidden-insights.md).
--   \[Omitted image "callout-5.png"\] Alt text: Area 5 A list or data visualization. This response can be an existing visualization instead of a generated one. For more information, see [Launch AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/launch-now-assist-explorer.md).
+-   \[Omitted image "callout-5.png"\] Alt text: Area 5 A list or data visualization. This response can be an existing visualization instead of a generated one. For more information, see [Launch AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/launch-ai-data-explorer.md).
 
     You can add the list or visualization to a dashboard or change its height by interacting with controls in its corner. Point at the corner to make the controls appear. For more information, see [Add a data visualization from an exploration to a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/add-data-viz-from-expl-to-dboard.md).
 
@@ -109,5 +109,5 @@ Change the filter conditions for a table sourceor data visualization parameters 
 -   **[Duplicate, delete, copy, or move an answer in an exploration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/nowass-expl-dup-del-question-resp.md)**  
 Duplicate, delete or reorder an individual question and response from inside an exploration. Yiou can also copy a response to another exploration.
 
-**Parent Topic:**[Using AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/use-now-assist-explorer.md)
+**Parent Topic:**[Using AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/use-aide.md)
 

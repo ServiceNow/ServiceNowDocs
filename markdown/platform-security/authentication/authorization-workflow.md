@@ -7,7 +7,7 @@ release: zurich
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 5
 breadcrumb: [Auth Code Grant, Inbound Integrations, OAuth inbound, OAuth authentication, Access Management]
 ---

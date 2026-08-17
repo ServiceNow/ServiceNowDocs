@@ -8,7 +8,7 @@ product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: reference
 last_updated: "2025-07-31"
-reading_time_minutes: 16
+reading_time_minutes: 17
 breadcrumb: [Reference, CMDB Identification and Reconciliation \(IRE\), Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -506,6 +506,42 @@ Enables comparison between the processing outputs of Dynamic IRE and Static IRE 
 -   Default: true
 -   Learn more: [Dynamic IRE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/dynamic-ire.md)
 -   Location: System Properties \[sys\_properties\] table
+
+</td></tr><tr><td>
+
+glide.identification\_engine.batch\_update\_last\_discovered.use\_execute\_lazy
+
+</td><td>
+
+Sets IRE mode for processing batch updates of the discovery timestamp fields **first\_discovered** and **last\_discovered**.
+
+ For optimized performance, when IRE processes CI records, it updates discovery timestamp fields in batches. This property controls when these batch updates are executed.
+
+ -   **true**
+
+IRE defers database updates and uses batched operations, which improves performance.
+
+Usage:
+
+    -   For standard production operations
+    -   When performance is critical
+    -   When no race conditions are observed
+-   **false**
+
+IRE processes updates synchronously without delay, ensuring immediate database consistency.
+
+Usage:
+
+    -   When race conditions between discovery and CI deletion exist
+    -   A deletion strategy is aggressively removing recently discovered CIs
+    -   If immediate timestamp consistency is required
+
+ General details:
+
+-   Type: true \| false
+-   Default: true
+-   Learn more: [CMDB Identification and Reconciliation \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/c_CMDBIdentifyandReconcile.md)
+-   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) table.
 
 </td></tr></tbody>
 </table>

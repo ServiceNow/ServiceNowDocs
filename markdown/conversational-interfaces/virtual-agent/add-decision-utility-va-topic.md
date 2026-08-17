@@ -9,7 +9,7 @@ classification: virtual-agent
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Create a Virtual Agent topic, Getting started with Virtual Agent Designer, Build and deploy, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Create a Virtual Agent asset, Getting started with Assistant Designer Asset library, Build and deploy, Virtual Agent, Conversational Interfaces]
 ---
 
 # Branch a Virtual Agent conversation with a Decision utility
@@ -24,23 +24,27 @@ Role required: virtual\_agent\_admin or admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Virtual Agent** &gt; **Designer**.
+1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Assistant Designer**.
 
-2.  Open a topic and view the **Flow** tab.
+2.  Select the **Asset library** tab.
 
-3.  Drag the **Decision** utility onto the canvas.
+3.  Set the topic discovery type toggle switch to **LLM** or **NLU/Keyword** depending on your intended asset or topic.
+
+4.  Open a topic and view the **Flow** tab.
+
+5.  Drag the **Decision** utility onto the canvas.
 
     The **Decision** utility node added to the canvas has a single branch named **Always** by default.
 
     **Note:** If you insert a **Boolean** user input control, you're prompted to add a **Decision** utility directly after the Boolean node on the canvas. Selecting **Yes** on the Boolean node's Decision utility prompt automatically generates two branches named **True** and **False**. The two branches conditions are automatically set through the condition builder.
 
-4.  Click the plus sign \(**+**\) under the node.
+6.  Click the plus sign \(**+**\) under the node.
 
     A second branch named **Always** is added below the Decision utility node.
 
-5.  Click the plus sign \(**+**\) under the node to add additional branches.
+7.  Click the plus sign \(**+**\) under the node to add additional branches.
 
-6.  Click a branch label, and then specify the branch properties in the form.
+8.  Click a branch label, and then specify the branch properties in the form.
 
 <table id="table_yjw_nj3_yrb"><thead><tr><th>
 
@@ -69,10 +73,10 @@ Expression logic to specify a condition for following this branch in the convers
 
 
 </td></tr></tbody>
-</table>7.  Define the properties for each branch in the Decision utility.
+</table>9.  Define the properties for each branch in the Decision utility.
 
-8.  When you're finished with the topic, click **Save** in the topic header bar.
+10. When you're finished with the topic, click **Save** in the topic header bar.
 
 
-**Parent Topic:**[Create a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md)
+**Parent Topic:**[Create a Virtual Agent asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md)
 

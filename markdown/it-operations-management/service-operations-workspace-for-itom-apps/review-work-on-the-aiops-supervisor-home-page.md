@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-05-25"
 reading_time_minutes: 1
 keywords: [AIOps Supervisor, AIOps AI Specialist, Service Operations Workspace, Event Management, evt\_mgmt\_operator]
-breadcrumb: [Overseeing AIOps AI Specialist in Service Operations Workspace, Exploring SOW for ITOM, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
+breadcrumb: [Overseeing AIOps AI Specialist in Service Operations Workspace, Explore, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
 ---
 
 # Review work on the AIOps Supervisor home page

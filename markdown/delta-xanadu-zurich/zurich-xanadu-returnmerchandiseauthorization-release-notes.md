@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-returnmerchandiseauthorization-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 4
+last_updated: "2026-08-17"
+reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
 
@@ -91,14 +91,14 @@ Zurich
 
 </td><td>
 
--   **[Return Merchandise Authorization](https://servicenow-staging.fluidtopics.net/access?context=return-merchandise-authorization&family=zurich&ft:locale=en-US)**
+-   **[Return Merchandise Authorization](https://www.servicenow.com/docs/access?context=return-merchandise-authorization&family=zurich&ft:locale=en-US)**
 
-Enable customers to create cases for defective products within a specified warranty period. Streamline the process for RMA, promoting a smooth and efficient experience for both customers and businesses.
+Enable customers to create cases for defective products within a specified warranty period, which helps streamline the process.
 
 
--   **[Granular roles in Install Base Management](https://servicenow-staging.fluidtopics.net/access?context=r_rolesinstalledwithcustaccessmgmt&family=zurich&ft:locale=en-US)**
+-   **[Granular roles in Install Base Management](https://www.servicenow.com/docs/access?context=r_rolesinstalledwithcustaccessmgmt&family=zurich&ft:locale=en-US)**
 
-The following new granular roles are added with the \[sn\_install\_base.install\_base\_admin\] admin role, which is installed with Customer Service Install Base Management \[com.snc.install\_base\] plugin:
+Use the following new granular roles with the sn\_install\_base.install\_base\_admin role, which is installed with Customer Service Install Base Management plugin \(com.snc.install\_base\):
 
     -   sn\_install\_base.install\_base\_read
     -   sn\_install\_base.install\_base\_write
@@ -106,7 +106,7 @@ The following new granular roles are added with the \[sn\_install\_base.install\
     -   sn\_install\_base.install\_base\_delete
     -   sn\_customerservice.customer\_data\_viewer
     -   sn\_customerservice.case.viewer
-These roles provide you with more control over administrative tasks like read, write, create, delete, data view, and case view related to install base and sold product related entities.
+These roles provide you with more control over administrative tasks related to install base and sold product related entities.
 
 
 </td></tr></tbody>
@@ -144,9 +144,9 @@ Zurich
 
 </td><td>
 
--   **[Enhancements in the RMA case flow](https://servicenow-staging.fluidtopics.net/access?context=return-merchandise-authorization&family=zurich&ft:locale=en-US)**
+-   **[Enhancements in the RMA case flow](https://www.servicenow.com/docs/access?context=return-merchandise-authorization&family=zurich&ft:locale=en-US)**
 
-Streamline the sales return process by enabling agents to initiate, track, and close RMA cases for install base items directly within the Agent Workspace. It also bridges the gap between self-service and full support, which makes returns easier to handle.
+Streamline the sales return process by enabling agents to initiate, track, and close RMA cases for install base items directly within the Agent Workspace. It also bridges the gap between self-service and full support.
 
 
 </td></tr></tbody>
@@ -258,7 +258,7 @@ Zurich
 
 </td><td>
 
-Install RMA Case Management \(sn\_csm\_rma\_case\) by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US). Return Merchandise Authorization is available with activation of the RMA Case Management \(sn\_csm\_rma\_case\) plugin. For details, see [Return merchandise authorization](https://servicenow-staging.fluidtopics.net/access?context=activate-return-merchandise-authorization-plugin&family=zurich&ft:locale=en-US).
+Install RMA Case Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US). Return Merchandise Authorization is available with activation of the RMA Case Management plugin \(sn\_csm\_rma\_case\). For details, see [Return merchandise authorization](https://www.servicenow.com/docs/access?context=activate-return-merchandise-authorization-plugin&family=zurich&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -332,7 +332,7 @@ Zurich
 
 </td><td>
 
-Starting with the Zurich release, RMA Case Management for Sales and Order Management doesn't support mobile devices and Internet Explorer. For more information, see [Browser support](https://servicenow-staging.fluidtopics.net/access?context=browser-support&family=zurich&ft:locale=en-US).
+Starting with the Zurich release, RMA Case Management for Sales Customer Relationship Management doesn't support mobile devices and Internet Explorer. For more information, see [Browser support](https://www.servicenow.com/docs/access?context=browser-support&family=zurich&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Accessibility information
@@ -443,10 +443,10 @@ Zurich
 
 </td><td>
 
--   Streamline sales return by enabling agents to manage RMA cases in Agent Workspace and bridging self-service with full support for a smoother experience.
+-   Streamline sales return by enabling agents to manage RMA cases in Agent Workspace and bridging self-service with full support.
 -   Handle product cases efficiently to streamline the return process and enhance the customer experience.
 
- See [Return Merchandise Authorization](https://servicenow-staging.fluidtopics.net/access?context=return-merchandise-authorization&family=zurich&ft:locale=en-US) for more information.
+ See [Return Merchandise Authorization](https://www.servicenow.com/docs/access?context=return-merchandise-authorization&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/rn-combined-intro.md)

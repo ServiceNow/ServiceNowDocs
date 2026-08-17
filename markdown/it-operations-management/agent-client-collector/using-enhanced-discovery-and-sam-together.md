@@ -7,7 +7,7 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 7
 keywords: [Agent Client Collector, Agent Client Collector for Visibility, ACC for Visibility]
 breadcrumb: [ACC Discovery, ACC deployment - servers, Agent Client Collector, IT Operations Management]
@@ -83,7 +83,7 @@ SAM total usage metrics allows you to measure total usage time and total usage c
 
 Osquery provides a daemon executable which can run as a service, called Osqueryd. Osqueryd needs to be manually deployed for SAM total usage metrics to work properly. Each Osqueryd deployment requires the osquery.conf file, optional external packs, and initialization flags \(configured in osquery.flags file\) provided when starting the service. In return, the daemon service runs scheduled queries on the host and logs it into a local file system.
 
-**Note:** Osquery supports filesystem-based logging by default. This configuration is provided in the osquery.conf file on any fresh Osquery installation.
+**Note:** Osquery supports filesystem-based logging by default. This configuration is provided in the osquery.conf file on any fresh Osquery installation. Osquery is not needed from an implementation or configuration viewpoint for basic metering. Total Usage metrics requires osqueryd to be installed separately.
 
 Domain information can be collected during the data collection. This can help large organizations with multiple employee directories map software to the correct user. Currently, this is supported for Windows only. To map the software usage/assigned\_to with the correct user in a domain separated environment, use the system property \[sn\_acc\_vis\_content.column\_name\_for\_user\_mapping\] with a valid field name. By default, the value of this system property is empty which means it only validates the username and not the domain. You can use either of the following formats to validate username and domain: username@domain or domain\\username.
 

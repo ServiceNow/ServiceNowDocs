@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-ma
 release: zurich
 topic_type: reference
 last_updated: "2025-07-31"
-reading_time_minutes: 8
+reading_time_minutes: 9
 breadcrumb: [Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
@@ -74,6 +74,16 @@ Application TCO helps enterprise architects to evaluate the cost of business app
 Create a business unit to define your organizational functions.
 -   **[Create department form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-create-new-department-form.md)**  
 Create a business unit to define your organizational functions.
+-   **[Create business role form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-create-a-new-business-role-form.md)**  
+Use this form to create or edit a business role that defines the responsibilities, rights, and duties associated with performing specific business behavior.
+-   **[Business actor form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-create-a-new-business-actor-form.md)**  
+The Business Actor form contains fields that define individuals or teams who perform work in your organization.
+-   **[Create a stakeholder form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-create-a-stakeholder-form.md)**  
+The create a stakeholder form captures information about individuals or teams with an interest in enterprise architecture outcomes.
+-   **[Create a driver form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-create-a-driver-form.md)**  
+The create new driver form contains fields for documenting internal or external conditions that motivate your organization to define goals and implement changes.
+-   **[Business process activity form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-create-a-business-process-activity-form.md)**  
+Fields for creating and configuring business process activities that represent discrete units of work in your organization.
 -   **[Create user form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-create-new-user-form.md)**  
 Create a user to add to a department.
 -   **[Create goal form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-create-new-goal-form.md)**  
@@ -117,7 +127,7 @@ A digital interface is related to a business application, and the business appli
 -   **[Digital interface credentials form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-dig-interface-credential-form.md)**  
 short description.
 -   **[Edit version detail form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-edit-version-detail-form.md)**  
-Add version labels, descriptions, and rollout dates to an Enterprise Modeling and Visualization diagram to improve traceability and ensure that all stakeholders are aligned on the diagram’s context and timelines.
+Add version labels, descriptions, and rollout dates to an Enterprise Modeling and Visualization diagram to improve traceability. This ensures that all stakeholders are aligned on the diagram’s context and timelines.
 -   **[Create a business capability map form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-modeling-create-bc-map-form.md)**  
 Creating artifacts for the business capability hierarchy map helps you to update the capability hierarchy directly in the map using Enterprise Modeling and Visualization.
 -   **[Create a business hierarchy map form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-modeling-create-ba-map-form.md)**  
@@ -125,7 +135,7 @@ Creating artifacts for the business capability hierarchy map helps you to update
 -   **[Create architectural artifact form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-new-arch-artifact-form.md)**  
 Architectural artifacts describe a system, solution, or state of an enterprise. The architectural artifacts in the Enterprise Architecture Workspace enable Enterprise Architects to create and manage the artifacts used in their organization.
 -   **[Create related entities form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-artifact-releated-entity-form.md)**  
-Enterprise Architecture Workspace enables the Enterprise Architects to associate an architectural artifact to existing elements in the ServiceNow AI Platform, such as business capabilities, business applications, digital integrations, digital interfaces, and TRM products. These associations creates a relationship between the artifact and related entities.
+Enterprise Architecture Workspace enables the Enterprise Architects to associate an architectural artifact to existing elements in the ServiceNow AI Platform. These associations create a relationship between the artifact and related entities such as business capabilities, business applications, digital integrations, digital interfaces, and TRM products.
 -   **[Create diagram action form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-diagram-action-form.md)**  
 The diagram action form helps you to create action for a custom shape that can be used in the Enterprise Modeling and Visualization.
 -   **[Image form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-modeling-image-form.md)**  

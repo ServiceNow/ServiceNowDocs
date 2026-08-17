@@ -56,15 +56,15 @@ Role required: ui\_builder\_admin
 
     **Note:** For any of the event handlers, select **Script** in the **Mode** drop-down if you prefer to work in the script editor.
 
-<table id="choicetable_dzv_llh_wnb"><thead><tr><th align="left" id="d48820e211">
+<table id="choicetable_dzv_llh_wnb"><thead><tr><th align="left" id="d48687e211">
 
 To add a modeless dialog event handler
 
-</th><th align="left" id="d48820e214">
+</th><th align="left" id="d48687e214">
 
 Do the following
 
-</th></tr></thead><tbody><tr><td id="d48820e220">
+</th></tr></thead><tbody><tr><td id="d48687e220">
 
 **Open Modeless Dialog**
 
@@ -79,7 +79,7 @@ Opens a modeless dialog. For example, add a button labeled Compose email and con
 -   **When to trigger** \(Advanced option\): Select **Always** to have the component \(in this example, the button\) always open the modeless dialog. Select **Conditionally** to add an event handler condition. For more information about event handler conditions, see [Supported functions in the UI Builder component formula editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/add-components.md).
 
 
-</td></tr><tr><td id="d48820e298">
+</td></tr><tr><td id="d48687e298">
 
 **Close Modeless Dialog**
 
@@ -89,7 +89,7 @@ Closes a modeless dialog. Use this option if you want to configure a component, 
 -   **When to trigger** \(Advanced option\): Select **Always** to have the component \(in this example, the button\) always close the modeless dialog. Select **Conditionally** to add an event handler condition. For more information about event handler conditions, see [Supported functions in the UI Builder component formula editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/add-components.md).
 
 
-</td></tr><tr><td id="d48820e335">
+</td></tr><tr><td id="d48687e335">
 
 **Minimize Modeless Dialog**
 
@@ -99,7 +99,7 @@ Minimizes an open modeless dialog. Use this option if you want to configure a co
 -   **When to trigger** \(Advanced option\): Select **Always** to have the component \(in this example, the button\) always minimize the modeless dialog. Select **Conditionally** to add an event handler condition. For more information about event handler conditions, see [Supported functions in the UI Builder component formula editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/add-components.md).
 
 
-</td></tr><tr><td id="d48820e372">
+</td></tr><tr><td id="d48687e372">
 
 **Update Modeless Dialog**
 
@@ -114,7 +114,7 @@ Updates the specified fields on a modeless dialog. For example, add a button lab
 -   **When to trigger** \(Advanced option\): Select **Always** to have the component \(in this example, the button\) always update the modeless dialog. Select **Conditionally** to add an event handler condition. For more information about event handler conditions, see [Supported functions in the UI Builder component formula editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/add-components.md).
 
 
-</td></tr><tr><td id="d48820e436">
+</td></tr><tr><td id="d48687e436">
 
 **Dirty Modeless Dialog**
 

@@ -9,7 +9,7 @@ classification: ai-control-tower
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Microsoft, Service Graph Connectors for AI Control Tower, AI connections, Explore, AI Control Tower, Enable AI experiences]
+breadcrumb: [Microsoft, Service Graph Connectors for AI Control Tower, AI connections, Explore, AI Control Tower \(legacy\), Enable AI experiences]
 ---
 
 # Properties of Azure Foundry
@@ -30,7 +30,7 @@ sn\_ai\_msft\_integ.usage\_data\_lookback
 
 </td><td>
 
-Number of days to look back for fetching threads before the run collection window start time.Type: Integer
+Number of days to look back for fetching threads before the run collection window starts time.Type: Integer
 
 Default value: 3
 
@@ -54,7 +54,7 @@ sn\_ai\_msft\_integ.microsoft\_partition\_size
 
 </td><td>
 
-When we want to discover on large number of resources.Type: Integer
+When we want to discover in large number of resources.Type: Integer
 
 Default value: 10
 

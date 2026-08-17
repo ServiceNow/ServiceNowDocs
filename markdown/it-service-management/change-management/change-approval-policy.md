@@ -20,6 +20,8 @@ A change approval policy is a course of action that can be applied to a change r
 
 An approval policy can contain multiple decisions allowing a single policy to handle every approval required for a change type. When a decision condition matches, the related approval definition is evaluated. If one or more decisions match, all the related approval definitions are evaluated.
 
+**Important:** It is recommended to use only one instance of the **Change Approval Policy** workflow activity in a workflow at a time.
+
 Use the **Change Approval Policy** workflow activity instead of the **User** and **Group Approval** workflow activities to manage the approvals at a particular stage of the workflow. For more information, see [Change Approval Policy workflow activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/change-approval-policiy-wf-activity.md)
 
 **Note:** To use the change approval policies after you upgrade:

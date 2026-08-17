@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-api-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 19
 breadcrumb: [Products combined by family]
 ---
@@ -77,7 +77,7 @@ Methods
 
 </th></tr></thead><tbody><tr><td>
 
-[Console - Scoped, Global](https://servicenow-staging.fluidtopics.net/access?context=ConsoleAPI&family=yokohama&ft:locale=en-US)
+[Console - Scoped, Global](https://www.servicenow.com/docs/access?context=ConsoleAPI&family=yokohama&ft:locale=en-US)
 
 </td><td>
 
@@ -96,7 +96,7 @@ Methods
 
 </td></tr><tr><td>
 
-[Fetch - Scoped, Global](https://servicenow-staging.fluidtopics.net/access?context=FetchAPI&family=yokohama&ft:locale=en-US)
+[Fetch - Scoped, Global](https://www.servicenow.com/docs/access?context=FetchAPI&family=yokohama&ft:locale=en-US)
 
 </td><td>
 
@@ -104,7 +104,7 @@ fetch\(\)
 
 </td></tr><tr><td>
 
-[Fetch Headers - Scoped, Global](https://servicenow-staging.fluidtopics.net/access?context=Fetch.HeadersAPI&family=yokohama&ft:locale=en-US)
+[Fetch Headers - Scoped, Global](https://www.servicenow.com/docs/access?context=Fetch.HeadersAPI&family=yokohama&ft:locale=en-US)
 
 </td><td>
 
@@ -122,7 +122,7 @@ fetch\(\)
 
 </td></tr><tr><td>
 
-[Fetch Request - Scoped, Global](https://servicenow-staging.fluidtopics.net/access?context=Fetch.RequestAPI&family=yokohama&ft:locale=en-US)
+[Fetch Request - Scoped, Global](https://www.servicenow.com/docs/access?context=Fetch.RequestAPI&family=yokohama&ft:locale=en-US)
 
 </td><td>
 
@@ -137,7 +137,7 @@ fetch\(\)
 
 </td></tr><tr><td>
 
-[Fetch RequestInit - Scoped, Global](https://servicenow-staging.fluidtopics.net/access?context=Fetch.RequestInitAPI&family=yokohama&ft:locale=en-US)
+[Fetch RequestInit - Scoped, Global](https://www.servicenow.com/docs/access?context=Fetch.RequestInitAPI&family=yokohama&ft:locale=en-US)
 
 </td><td>
 
@@ -145,7 +145,7 @@ requestInit\(\)
 
 </td></tr><tr><td>
 
-[Fetch Response - Scoped,Global](https://servicenow-staging.fluidtopics.net/access?context=Fetch.ResponseAPI&family=yokohama&ft:locale=en-US)
+[Fetch Response - Scoped,Global](https://www.servicenow.com/docs/access?context=Fetch.ResponseAPI&family=yokohama&ft:locale=en-US)
 
 </td><td>
 
@@ -158,7 +158,7 @@ requestInit\(\)
 
 </td></tr><tr><td>
 
-[GlideUser - Scoped](https://servicenow-staging.fluidtopics.net/access?context=c_GlideUserScopedAPI&family=yokohama&ft:locale=en-US)
+[GlideUser - Scoped](https://www.servicenow.com/docs/access?context=c_GlideUserScopedAPI&family=yokohama&ft:locale=en-US)
 
 </td><td>
 
@@ -167,7 +167,7 @@ requestInit\(\)
 
 </td></tr><tr><td>
 
-[OrderUtil - Scoped](https://servicenow-staging.fluidtopics.net/access?context=OrderUtilScopedAPI&family=yokohama&ft:locale=en-US)
+[OrderUtil - Scoped](https://www.servicenow.com/docs/access?context=OrderUtilScopedAPI&family=yokohama&ft:locale=en-US)
 
 </td><td>
 
@@ -176,7 +176,7 @@ requestInit\(\)
 
 </td></tr><tr><td>
 
-[PDFGenerationAPI - Scoped, Global](https://servicenow-staging.fluidtopics.net/access?context=PDFGenerationAPIBothAPI&family=yokohama&ft:locale=en-US)
+[PDFGenerationAPI - Scoped, Global](https://www.servicenow.com/docs/access?context=PDFGenerationAPIBothAPI&family=yokohama&ft:locale=en-US)
 
 </td><td>
 
@@ -185,7 +185,7 @@ requestInit\(\)
 
 </td></tr><tr><td>
 
-[ProcessMiningIntegrationAPI - Scoped](https://servicenow-staging.fluidtopics.net/access?context=ProcessMiningIntAPIScoped&family=yokohama&ft:locale=en-US)
+[ProcessMiningIntegrationAPI - Scoped](https://www.servicenow.com/docs/access?context=ProcessMiningIntAPIScoped&family=yokohama&ft:locale=en-US)
 
 </td><td>
 
@@ -199,7 +199,7 @@ requestInit\(\)
 
 </td></tr><tr><td>
 
-[RESTMessageV2 - Scoped, Global](https://servicenow-staging.fluidtopics.net/access?context=c_RESTMessageV2API&family=yokohama&ft:locale=en-US)
+[RESTMessageV2 - Scoped, Global](https://www.servicenow.com/docs/access?context=c_RESTMessageV2API&family=yokohama&ft:locale=en-US)
 
 </td><td>
 
@@ -207,7 +207,7 @@ setAllowedRedirectURIs\(\)
 
 </td></tr><tr><td>
 
-[SOAPMessageV2 - Scoped, Global](https://servicenow-staging.fluidtopics.net/access?context=c_SOAPMessageV2API&family=yokohama&ft:locale=en-US)
+[SOAPMessageV2 - Scoped, Global](https://www.servicenow.com/docs/access?context=c_SOAPMessageV2API&family=yokohama&ft:locale=en-US)
 
 </td><td>
 
@@ -216,7 +216,7 @@ setAllowedRedirectURIs\(\)
 
 </td></tr><tr><td>
 
-[UriMatcher - Scoped](https://servicenow-staging.fluidtopics.net/access?context=UriMatcherScopedAPI&family=yokohama&ft:locale=en-US)
+[UriMatcher - Scoped](https://www.servicenow.com/docs/access?context=UriMatcherScopedAPI&family=yokohama&ft:locale=en-US)
 
 </td><td>
 
@@ -225,7 +225,7 @@ setAllowedRedirectURIs\(\)
 
 </td></tr><tr><td>
 
-[UriMatcherResponse - Scoped](https://servicenow-staging.fluidtopics.net/access?context=UriMatcherResponseScopedAPI&family=yokohama&ft:locale=en-US)
+[UriMatcherResponse - Scoped](https://www.servicenow.com/docs/access?context=UriMatcherResponseScopedAPI&family=yokohama&ft:locale=en-US)
 
 </td><td>
 
@@ -239,7 +239,7 @@ setAllowedRedirectURIs\(\)
 
 </td></tr><tr><td>
 
-[v\_record - Scoped, Global](https://servicenow-staging.fluidtopics.net/access?context=v_recordAPI&family=yokohama&ft:locale=en-US)
+[v\_record - Scoped, Global](https://www.servicenow.com/docs/access?context=v_recordAPI&family=yokohama&ft:locale=en-US)
 
 </td><td>
 
@@ -256,7 +256,7 @@ Methods
 
 </th></tr></thead><tbody><tr><td>
 
-[Console - Scoped, Global](https://servicenow-staging.fluidtopics.net/access?context=ConsoleAPI&family=yokohama&ft:locale=en-US)
+[Console - Scoped, Global](https://www.servicenow.com/docs/access?context=ConsoleAPI&family=yokohama&ft:locale=en-US)
 
 </td><td>
 
@@ -275,7 +275,7 @@ Methods
 
 </td></tr><tr><td>
 
-[Fetch - Scoped, Global](https://servicenow-staging.fluidtopics.net/access?context=FetchAPI&family=yokohama&ft:locale=en-US)
+[Fetch - Scoped, Global](https://www.servicenow.com/docs/access?context=FetchAPI&family=yokohama&ft:locale=en-US)
 
 </td><td>
 
@@ -283,7 +283,7 @@ fetch\(\)
 
 </td></tr><tr><td>
 
-[Fetch Headers - Scoped, Global](https://servicenow-staging.fluidtopics.net/access?context=Fetch.HeadersAPI&family=yokohama&ft:locale=en-US)
+[Fetch Headers - Scoped, Global](https://www.servicenow.com/docs/access?context=Fetch.HeadersAPI&family=yokohama&ft:locale=en-US)
 
 </td><td>
 
@@ -301,7 +301,7 @@ fetch\(\)
 
 </td></tr><tr><td>
 
-[Fetch Request - Scoped, Global](https://servicenow-staging.fluidtopics.net/access?context=Fetch.RequestAPI&family=yokohama&ft:locale=en-US)
+[Fetch Request - Scoped, Global](https://www.servicenow.com/docs/access?context=Fetch.RequestAPI&family=yokohama&ft:locale=en-US)
 
 </td><td>
 
@@ -316,7 +316,7 @@ fetch\(\)
 
 </td></tr><tr><td>
 
-[Fetch RequestInit - Scoped, Global](https://servicenow-staging.fluidtopics.net/access?context=Fetch.RequestInitAPI&family=yokohama&ft:locale=en-US)
+[Fetch RequestInit - Scoped, Global](https://www.servicenow.com/docs/access?context=Fetch.RequestInitAPI&family=yokohama&ft:locale=en-US)
 
 </td><td>
 
@@ -324,7 +324,7 @@ requestInit\(\)
 
 </td></tr><tr><td>
 
-[Fetch Response - Scoped,Global](https://servicenow-staging.fluidtopics.net/access?context=Fetch.ResponseAPI&family=yokohama&ft:locale=en-US)
+[Fetch Response - Scoped,Global](https://www.servicenow.com/docs/access?context=Fetch.ResponseAPI&family=yokohama&ft:locale=en-US)
 
 </td><td>
 
@@ -337,7 +337,7 @@ requestInit\(\)
 
 </td></tr><tr><td>
 
-[GlideDynamicAttribute - Global](https://servicenow-staging.fluidtopics.net/access?context=GlideDynamicAttributeAPI&family=yokohama&ft:locale=en-US)
+[GlideDynamicAttribute - Global](https://www.servicenow.com/docs/access?context=GlideDynamicAttributeAPI&family=yokohama&ft:locale=en-US)
 
 </td><td>
 
@@ -350,7 +350,7 @@ requestInit\(\)
 
 </td></tr><tr><td>
 
-[GlideDynamicAttributeStore - Global](https://servicenow-staging.fluidtopics.net/access?context=GlideDynamicAttStoreAPI&family=yokohama&ft:locale=en-US)
+[GlideDynamicAttributeStore - Global](https://www.servicenow.com/docs/access?context=GlideDynamicAttStoreAPI&family=yokohama&ft:locale=en-US)
 
 </td><td>
 
@@ -358,7 +358,7 @@ getDynamicAttributes\(\)
 
 </td></tr><tr><td>
 
-[GlideElementDynamicAttributeStore - Global](https://servicenow-staging.fluidtopics.net/access?context=GlideElementDynamicAttStoreAPI&family=yokohama&ft:locale=en-US)
+[GlideElementDynamicAttributeStore - Global](https://www.servicenow.com/docs/access?context=GlideElementDynamicAttStoreAPI&family=yokohama&ft:locale=en-US)
 
 </td><td>
 
@@ -367,7 +367,7 @@ getDynamicAttributes\(\)
 
 </td></tr><tr><td>
 
-[GlideTransientDynamicAttribute - Global](https://servicenow-staging.fluidtopics.net/access?context=GlideTransientDynamicAttributeAPI&family=yokohama&ft:locale=en-US)
+[GlideTransientDynamicAttribute - Global](https://www.servicenow.com/docs/access?context=GlideTransientDynamicAttributeAPI&family=yokohama&ft:locale=en-US)
 
 </td><td>
 
@@ -380,7 +380,7 @@ getDynamicAttributes\(\)
 
 </td></tr><tr><td>
 
-[GlideUser - Global](https://servicenow-staging.fluidtopics.net/access?context=GUserAPI&family=yokohama&ft:locale=en-US)
+[GlideUser - Global](https://www.servicenow.com/docs/access?context=GUserAPI&family=yokohama&ft:locale=en-US)
 
 </td><td>
 
@@ -389,7 +389,7 @@ getDynamicAttributes\(\)
 
 </td></tr><tr><td>
 
-[PDFGenerationAPI - Scoped, Global](https://servicenow-staging.fluidtopics.net/access?context=PDFGenerationAPIBothAPI&family=yokohama&ft:locale=en-US)
+[PDFGenerationAPI - Scoped, Global](https://www.servicenow.com/docs/access?context=PDFGenerationAPIBothAPI&family=yokohama&ft:locale=en-US)
 
 </td><td>
 
@@ -398,7 +398,7 @@ getDynamicAttributes\(\)
 
 </td></tr><tr><td>
 
-[RESTMessageV2 - Scoped, Global](https://servicenow-staging.fluidtopics.net/access?context=c_RESTMessageV2API&family=yokohama&ft:locale=en-US)
+[RESTMessageV2 - Scoped, Global](https://www.servicenow.com/docs/access?context=c_RESTMessageV2API&family=yokohama&ft:locale=en-US)
 
 </td><td>
 
@@ -406,7 +406,7 @@ setAllowedRedirectURIs\(\)
 
 </td></tr><tr><td>
 
-[SOAPMessageV2 - Scoped, Global](https://servicenow-staging.fluidtopics.net/access?context=c_SOAPMessageV2API&family=yokohama&ft:locale=en-US)
+[SOAPMessageV2 - Scoped, Global](https://www.servicenow.com/docs/access?context=c_SOAPMessageV2API&family=yokohama&ft:locale=en-US)
 
 </td><td>
 
@@ -424,7 +424,7 @@ Endpoints
 
 </th></tr></thead><tbody><tr><td>
 
-[AWA Offer Work API](https://servicenow-staging.fluidtopics.net/access?context=awa-offer-work-api&family=yokohama&ft:locale=en-US)
+[AWA Offer Work API](https://www.servicenow.com/docs/access?context=awa-offer-work-api&family=yokohama&ft:locale=en-US)
 
 </td><td>
 
@@ -432,7 +432,7 @@ POST /now/awa/documents/\{document\_table\}/\{document\_sys\_id\}/offer
 
 </td></tr><tr><td>
 
-[Continuous Integration and Continuous Delivery \(CICD\) Update Set API](https://servicenow-staging.fluidtopics.net/access?context=cicd-update-set-api&family=yokohama&ft:locale=en-US)
+[Continuous Integration and Continuous Delivery \(CICD\) Update Set API](https://www.servicenow.com/docs/access?context=cicd-update-set-api&family=yokohama&ft:locale=en-US)
 
 </td><td>
 
@@ -470,7 +470,7 @@ v3.0
 
 </td><td>
 
-[LeadAPIHelperOOB - Scoped](https://servicenow-staging.fluidtopics.net/access?context=LeadAPIHelperOOBAPI&family=yokohama&ft:locale=en-US)
+[LeadAPIHelperOOB - Scoped](https://www.servicenow.com/docs/access?context=LeadAPIHelperOOBAPI&family=yokohama&ft:locale=en-US)
 
 </td><td>
 
@@ -488,7 +488,7 @@ v3.0
 
 </td><td>
 
-[LeadAPIProcessUtilOOB - Scoped](https://servicenow-staging.fluidtopics.net/access?context=LeadAPIProcessUtilOOBAPI&family=yokohama&ft:locale=en-US)
+[LeadAPIProcessUtilOOB - Scoped](https://www.servicenow.com/docs/access?context=LeadAPIProcessUtilOOBAPI&family=yokohama&ft:locale=en-US)
 
 </td><td>
 
@@ -507,7 +507,7 @@ v3.0
 
 </td><td>
 
-[LeadAPIValidationUtilOOB - Scoped](https://servicenow-staging.fluidtopics.net/access?context=LeadAPIValidationUtilOOBAPI&family=yokohama&ft:locale=en-US)
+[LeadAPIValidationUtilOOB - Scoped](https://www.servicenow.com/docs/access?context=LeadAPIValidationUtilOOBAPI&family=yokohama&ft:locale=en-US)
 
 </td><td>
 
@@ -524,7 +524,7 @@ Sales and Service API Core
 
 </td><td>
 
-[IBQConfigBase API - Scoped](https://servicenow-staging.fluidtopics.net/access?context=IBQConfigBaseAPIBoth&family=yokohama&ft:locale=en-US)
+[IBQConfigBase API - Scoped](https://www.servicenow.com/docs/access?context=IBQConfigBaseAPIBoth&family=yokohama&ft:locale=en-US)
 
 </td><td>
 
@@ -542,7 +542,7 @@ v12.5.0
 
 </td><td>
 
-[OrderGuide - Scoped](https://servicenow-staging.fluidtopics.net/access?context=OrderGuideScopedAPI&family=yokohama&ft:locale=en-US)
+[OrderGuide - Scoped](https://www.servicenow.com/docs/access?context=OrderGuideScopedAPI&family=yokohama&ft:locale=en-US)
 
 </td><td>
 
@@ -551,13 +551,13 @@ isOrderInDraftState\(\)
 </td></tr></tbody>
 </table>|Application|App Version|Class|Methods|
 |-----------|-----------|-----|-------|
-|Customer Service Management|v1.2|[openFrameAPI - Client](https://servicenow-staging.fluidtopics.net/access?context=c_openFrameAPI&family=yokohama&ft:locale=en-US)|setICContext\(\)|
-|Mobile SDK|v2.9.0|[NowChatService class - Android](https://servicenow-staging.fluidtopics.net/access?context=NowChatServiceAndroidAPI&family=yokohama&ft:locale=en-US)|updateTheme\(\)|
-|Mobile SDK|v2.9.0|[NowWebService class - Android](https://servicenow-staging.fluidtopics.net/access?context=NowWebServiceAndroidAPI&family=yokohama&ft:locale=en-US)|updateTheme\(\)|
-|Mobile SDK|v2.9.0|[NowChatService class - iOS](https://servicenow-staging.fluidtopics.net/access?context=NowChatServiceiOSAPI&family=yokohama&ft:locale=en-US)|updateTheme\(\)|
-|Mobile SDK|v2.9.0|[NowChatServiceDelegate protocol - iOS](https://servicenow-staging.fluidtopics.net/access?context=NowChatServiceDelegateiOSProtocol&family=yokohama&ft:locale=en-US)|chatService\(\_chatService: NowChatService, systemThemeDidChange traitCollection: UITraitCollection\)|
-|Mobile SDK|v2.9.0|[NowWebViewController class - iOS](https://servicenow-staging.fluidtopics.net/access?context=NWebViewControlleriOSAPI&family=yokohama&ft:locale=en-US)|updateTheme\(\)|
-|Mobile SDK|v2.9.0|[NowWebViewControllerDelegate protocol - iOS](https://servicenow-staging.fluidtopics.net/access?context=NWViewControllerDelegateiOSProtocol&family=yokohama&ft:locale=en-US)|nowWebViewController\(\_ nowWebViewController: NowWebViewController, systemThemeDidChange traitCollection: UITraitCollection\)|
+|Customer Service Management|v1.2|[openFrameAPI - Client](https://www.servicenow.com/docs/access?context=c_openFrameAPI&family=yokohama&ft:locale=en-US)|setICContext\(\)|
+|Mobile SDK|v2.9.0|[NowChatService class - Android](https://www.servicenow.com/docs/access?context=NowChatServiceAndroidAPI&family=yokohama&ft:locale=en-US)|updateTheme\(\)|
+|Mobile SDK|v2.9.0|[NowWebService class - Android](https://www.servicenow.com/docs/access?context=NowWebServiceAndroidAPI&family=yokohama&ft:locale=en-US)|updateTheme\(\)|
+|Mobile SDK|v2.9.0|[NowChatService class - iOS](https://www.servicenow.com/docs/access?context=NowChatServiceiOSAPI&family=yokohama&ft:locale=en-US)|updateTheme\(\)|
+|Mobile SDK|v2.9.0|[NowChatServiceDelegate protocol - iOS](https://www.servicenow.com/docs/access?context=NowChatServiceDelegateiOSProtocol&family=yokohama&ft:locale=en-US)|chatService\(\_chatService: NowChatService, systemThemeDidChange traitCollection: UITraitCollection\)|
+|Mobile SDK|v2.9.0|[NowWebViewController class - iOS](https://www.servicenow.com/docs/access?context=NWebViewControlleriOSAPI&family=yokohama&ft:locale=en-US)|updateTheme\(\)|
+|Mobile SDK|v2.9.0|[NowWebViewControllerDelegate protocol - iOS](https://www.servicenow.com/docs/access?context=NWViewControllerDelegateiOSProtocol&family=yokohama&ft:locale=en-US)|nowWebViewController\(\_ nowWebViewController: NowWebViewController, systemThemeDidChange traitCollection: UITraitCollection\)|
 
 <table><thead><tr><th>
 
@@ -585,7 +585,7 @@ v2.0.0
 
 </td><td>
 
-[AP Invoice API](https://servicenow-staging.fluidtopics.net/access?context=ap-invoice-api&family=yokohama&ft:locale=en-US)
+[AP Invoice API](https://www.servicenow.com/docs/access?context=ap-invoice-api&family=yokohama&ft:locale=en-US)
 
 </td><td>
 
@@ -601,7 +601,7 @@ v1.0
 
 </td><td>
 
-[AI Assets API](https://servicenow-staging.fluidtopics.net/access?context=ai-assets-api&family=yokohama&ft:locale=en-US)
+[AI Assets API](https://www.servicenow.com/docs/access?context=ai-assets-api&family=yokohama&ft:locale=en-US)
 
 </td><td>
 
@@ -628,7 +628,7 @@ v6.0
 
 </td><td>
 
-[Service Contract API](https://servicenow-staging.fluidtopics.net/access?context=servicecontract-api&family=yokohama&ft:locale=en-US)
+[Service Contract API](https://www.servicenow.com/docs/access?context=servicecontract-api&family=yokohama&ft:locale=en-US)
 
 </td><td>
 
@@ -647,7 +647,7 @@ v6.0
 
 </td><td>
 
-[Verify Entitlements API](https://servicenow-staging.fluidtopics.net/access?context=verifyentitlements-api&family=yokohama&ft:locale=en-US)
+[Verify Entitlements API](https://www.servicenow.com/docs/access?context=verifyentitlements-api&family=yokohama&ft:locale=en-US)
 
 </td><td>
 
@@ -663,7 +663,7 @@ v3.0
 
 </td><td>
 
-[lead API](https://servicenow-staging.fluidtopics.net/access?context=lead-api&family=yokohama&ft:locale=en-US)
+[lead API](https://www.servicenow.com/docs/access?context=lead-api&family=yokohama&ft:locale=en-US)
 
 </td><td>
 
@@ -674,7 +674,7 @@ v3.0
 
 </td></tr><tr><td>
 
-Sales and Order Management
+Sales Customer Relationship Management
 
 </td><td>
 
@@ -682,7 +682,7 @@ v4.0
 
 </td><td>
 
-[Sales Agreement API](https://servicenow-staging.fluidtopics.net/access?context=sales_agreement-api&family=yokohama&ft:locale=en-US)
+[Sales Agreement API](https://www.servicenow.com/docs/access?context=sales_agreement-api&family=yokohama&ft:locale=en-US)
 
 </td><td>
 
@@ -708,7 +708,7 @@ Methods
 
 </th></tr></thead><tbody><tr><td>
 
-[GlideCurrencyCode - Scoped, Global](https://servicenow-staging.fluidtopics.net/access?context=GlideCurrencyCodeBothAPI&family=zurich&ft:locale=en-US)
+[GlideCurrencyCode - Scoped, Global](https://www.servicenow.com/docs/access?context=GlideCurrencyCodeBothAPI&family=zurich&ft:locale=en-US)
 
 </td><td>
 
@@ -717,7 +717,7 @@ Methods
 
 </td></tr><tr><td>
 
-[GlideCurrencySymbol - Scoped, Global](https://servicenow-staging.fluidtopics.net/access?context=GlideCurrencySymbolBothAPI&family=zurich&ft:locale=en-US)
+[GlideCurrencySymbol - Scoped, Global](https://www.servicenow.com/docs/access?context=GlideCurrencySymbolBothAPI&family=zurich&ft:locale=en-US)
 
 </td><td>
 
@@ -726,15 +726,33 @@ Methods
 
 </td></tr><tr><td>
 
-[GlideRecord - Global](https://servicenow-staging.fluidtopics.net/access?context=c_GlideRecordAPI&family=zurich&ft:locale=en-US)
+[GlideQueryCondition - Scoped](https://www.servicenow.com/docs/access?context=c_GlideQueryConditionScopedAPI&family=zurich&ft:locale=en-US)
 
 </td><td>
 
-addUserQuery\(\)
+-   addSystemCondition
+-   addSystemOrCondition
+-   addUserCondition
+-   addUserOrCondition
 
 </td></tr><tr><td>
 
-[GlideSysAttachment - Scoped](https://servicenow-staging.fluidtopics.net/access?context=c_GlideSysAttachmentScopedAPI&family=zurich&ft:locale=en-US)
+[GlideRecord - Scoped](https://www.servicenow.com/docs/access?context=c_GlideRecordScopedAPI&family=zurich&ft:locale=en-US)
+
+</td><td>
+
+-   addSystemEncodedQuery\(\)
+-   addSystemQuery\(\)
+-   addSystemOrderBy\(\)
+-   addSystemOrderByDesc\(\)
+-   addUserEncodedQuery\(\)
+-   addUserQuery\(\)
+-   addUserOrderBy\(\)
+-   addUserOrderByDesc\(\)
+
+</td></tr><tr><td>
+
+[GlideSysAttachment - Scoped](https://www.servicenow.com/docs/access?context=c_GlideSysAttachmentScopedAPI&family=zurich&ft:locale=en-US)
 
 </td><td>
 
@@ -749,7 +767,7 @@ addUserQuery\(\)
 
 </td></tr><tr><td>
 
-[GlideSystem - Scoped](https://servicenow-staging.fluidtopics.net/access?context=c_GlideSystemScopedAPI&family=zurich&ft:locale=en-US)
+[GlideSystem - Scoped](https://www.servicenow.com/docs/access?context=c_GlideSystemScopedAPI&family=zurich&ft:locale=en-US)
 
 </td><td>
 
@@ -769,7 +787,7 @@ Methods
 
 </th></tr></thead><tbody><tr><td>
 
-[GlideDynamicAttribute - Global](https://servicenow-staging.fluidtopics.net/access?context=GlideDynamicAttributeAPI&family=zurich&ft:locale=en-US)
+[GlideDynamicAttribute - Global](https://www.servicenow.com/docs/access?context=GlideDynamicAttributeAPI&family=zurich&ft:locale=en-US)
 
 </td><td>
 
@@ -777,7 +795,7 @@ Updated content to remove support for dynamic attribute groups.New method getNam
 
 </td></tr><tr><td>
 
-[GlideDynamicAttributeStore - Global](https://servicenow-staging.fluidtopics.net/access?context=GlideDynamicAttStoreAPI&family=zurich&ft:locale=en-US)
+[GlideDynamicAttributeStore - Global](https://www.servicenow.com/docs/access?context=GlideDynamicAttStoreAPI&family=zurich&ft:locale=en-US)
 
 </td><td>
 
@@ -788,7 +806,7 @@ Updated content to remove support for dynamic attribute groups.New methods:
 
 </td></tr><tr><td>
 
-[GlideDynamicNamespace - Global](https://servicenow-staging.fluidtopics.net/access?context=GlideDynamicNamespaceAPI&family=zurich&ft:locale=en-US)
+[GlideDynamicNamespace - Global](https://www.servicenow.com/docs/access?context=GlideDynamicNamespaceAPI&family=zurich&ft:locale=en-US)
 
 </td><td>
 
@@ -798,15 +816,33 @@ Updated content to remove support for dynamic attribute groups.New methods:
 
 </td></tr><tr><td>
 
-[GlideRecord - Global](https://servicenow-staging.fluidtopics.net/access?context=c_GlideRecordAPI&family=zurich&ft:locale=en-US)
+[GlideQueryCondition - Global](https://www.servicenow.com/docs/access?context=c_GlideQueryConditionAPI&family=zurich&ft:locale=en-US)
 
 </td><td>
 
-addUserQuery\(\)
+-   addSystemCondition
+-   addSystemOrCondition
+-   addUserCondition
+-   addUserOrCondition
 
 </td></tr><tr><td>
 
-[GlideSysAttachment - Global](https://servicenow-staging.fluidtopics.net/access?context=GlideSysAttachmentGlobalAPI&family=zurich&ft:locale=en-US)
+[GlideRecord - Global](https://www.servicenow.com/docs/access?context=c_GlideRecordAPI&family=zurich&ft:locale=en-US)
+
+</td><td>
+
+-   addSystemEncodedQuery\(\)
+-   addSystemQuery\(\)
+-   addSystemOrderBy\(\)
+-   addSystemOrderByDesc\(\)
+-   addUserEncodedQuery\(\)
+-   addUserQuery\(\)
+-   addUserOrderBy\(\)
+-   addUserOrderByDesc\(\)
+
+</td></tr><tr><td>
+
+[GlideSysAttachment - Global](https://www.servicenow.com/docs/access?context=GlideSysAttachmentGlobalAPI&family=zurich&ft:locale=en-US)
 
 </td><td>
 
@@ -821,7 +857,7 @@ addUserQuery\(\)
 
 </td></tr><tr><td>
 
-[GlideSystem - Global](https://servicenow-staging.fluidtopics.net/access?context=c_GlideSystemAPI&family=zurich&ft:locale=en-US)
+[GlideSystem - Global](https://www.servicenow.com/docs/access?context=c_GlideSystemAPI&family=zurich&ft:locale=en-US)
 
 </td><td>
 
@@ -832,7 +868,7 @@ Added support for additional message types to display at the top of forms:-   ad
 
 </td></tr><tr><td>
 
-[Message - Global](https://servicenow-staging.fluidtopics.net/access?context=sn_i18n.messageAPI&family=zurich&ft:locale=en-US)
+[Message - Global](https://www.servicenow.com/docs/access?context=sn_i18n.messageAPI&family=zurich&ft:locale=en-US)
 
 </td><td>
 
@@ -850,7 +886,7 @@ Methods
 
 </th></tr></thead><tbody><tr><td>
 
-[GlideForm \(g\_form\) - Client](https://servicenow-staging.fluidtopics.net/access?context=c_GlideFormAPI&family=zurich&ft:locale=en-US)
+[GlideForm \(g\_form\) - Client](https://www.servicenow.com/docs/access?context=c_GlideFormAPI&family=zurich&ft:locale=en-US)
 
 </td><td>
 
@@ -879,7 +915,7 @@ Methods
 
 </td></tr><tr><td>
 
-[GlideModal \(Next Experience\) - Client](https://servicenow-staging.fluidtopics.net/access?context=GModClientAPINX&family=zurich&ft:locale=en-US)
+[GlideModal \(Next Experience\) - Client](https://www.servicenow.com/docs/access?context=GModClientAPINX&family=zurich&ft:locale=en-US)
 
 </td><td>
 
@@ -897,7 +933,7 @@ Methods
 
 </td></tr><tr><td>
 
-[GlideNavigation \(Next Experience\) - Client](https://servicenow-staging.fluidtopics.net/access?context=GlideNavigationClientAPINX&family=zurich&ft:locale=en-US)
+[GlideNavigation \(Next Experience\) - Client](https://www.servicenow.com/docs/access?context=GlideNavigationClientAPINX&family=zurich&ft:locale=en-US)
 
 </td><td>
 
@@ -905,7 +941,7 @@ refreshNavigator\(\)
 
 </td></tr><tr><td>
 
-[StopWatch \(Next Experience\) - Client](https://servicenow-staging.fluidtopics.net/access?context=StopWatchAPINX&family=zurich&ft:locale=en-US)
+[StopWatch \(Next Experience\) - Client](https://www.servicenow.com/docs/access?context=StopWatchAPINX&family=zurich&ft:locale=en-US)
 
 </td><td>
 
@@ -916,7 +952,7 @@ refreshNavigator\(\)
 
 </td></tr><tr><td>
 
-[GlideForm \(Next Experience\) - Client](https://servicenow-staging.fluidtopics.net/access?context=GlideFormAPINX&family=zurich&ft:locale=en-US)
+[GlideForm \(Next Experience\) - Client](https://www.servicenow.com/docs/access?context=GlideFormAPINX&family=zurich&ft:locale=en-US)
 
 </td><td>
 
@@ -940,7 +976,7 @@ refreshNavigator\(\)
 
 </td></tr><tr><td>
 
-[GlideUser \(Next Experience\) - Client](https://servicenow-staging.fluidtopics.net/access?context=GlideUserAPINX&family=zurich&ft:locale=en-US)
+[GlideUser \(Next Experience\) - Client](https://www.servicenow.com/docs/access?context=GlideUserAPINX&family=zurich&ft:locale=en-US)
 
 </td><td>
 
@@ -957,7 +993,7 @@ Endpoints
 
 </th></tr></thead><tbody><tr><td>
 
-[Conversation Member API](https://servicenow-staging.fluidtopics.net/access?context=conversation-member-api&family=zurich&ft:locale=en-US)
+[Conversation Member API](https://www.servicenow.com/docs/access?context=conversation-member-api&family=zurich&ft:locale=en-US)
 
 </td><td>
 
@@ -966,7 +1002,7 @@ Endpoints
 
 </td></tr><tr><td>
 
-[Omnichannel Callback API](https://servicenow-staging.fluidtopics.net/access?context=omichannel-callback-api&family=zurich&ft:locale=en-US)
+[Omnichannel Callback API](https://www.servicenow.com/docs/access?context=omichannel-callback-api&family=zurich&ft:locale=en-US)
 
 </td><td>
 
@@ -976,7 +1012,7 @@ Endpoints
 
 </td></tr><tr><td>
 
-[CSM Pricing API](https://servicenow-staging.fluidtopics.net/access?context=csm-pricing-api&family=zurich&ft:locale=en-US)
+[CSM Pricing API](https://www.servicenow.com/docs/access?context=csm-pricing-api&family=zurich&ft:locale=en-US)
 
 </td><td>
 
@@ -1018,11 +1054,11 @@ Omnichannel Callback
 
 </td><td>
 
-[Omnichannel Callback API](https://servicenow-staging.fluidtopics.net/access?context=omichannel-callback-api&family=zurich&ft:locale=en-US)
+[Omnichannel Callback API](https://www.servicenow.com/docs/access?context=omichannel-callback-api&family=zurich&ft:locale=en-US)
 
 </td><td>
 
-Added new endpoints, /get and /close, for retrieving and closing a given callback record. The third endpoint, /actions, allows you to perform create, update, close, and cancel operations for a callback in an external, third party system with routing capabilities.
+Added new endpoints, /get and /close, for retrieving and closing a given callback record. The third endpoint, /actions, allows you to perform create, update, close, and cancel operations for a callback in an external, third-party system with routing capabilities.
 
 -   PATCH api/sn\_omichannel\_callback/get
 -   POST api/sn\_omni\_callback/actions
@@ -1042,7 +1078,7 @@ Contact Center Integration Core
 
 </td><td>
 
-[External ID Mapping API](https://servicenow-staging.fluidtopics.net/access?context=external-id-mapping-api&family=zurich&ft:locale=en-US)
+[External ID Mapping API](https://www.servicenow.com/docs/access?context=external-id-mapping-api&family=zurich&ft:locale=en-US)
 
 </td><td>
 
@@ -1063,7 +1099,7 @@ Digital Product Release
 
 </td><td>
 
-[Digital Product Release API](https://servicenow-staging.fluidtopics.net/access?context=digital-product-release-api&family=zurich&ft:locale=en-US)
+[Digital Product Release API](https://www.servicenow.com/docs/access?context=digital-product-release-api&family=zurich&ft:locale=en-US)
 
 </td><td>
 
@@ -1093,7 +1129,7 @@ Threat Intelligence Security Center for Security Operations
 
 </td><td>
 
-[TISC TAXII Server API](https://servicenow-staging.fluidtopics.net/access?context=taxii-server-api&family=zurich&ft:locale=en-US)
+[TISC TAXII Server API](https://www.servicenow.com/docs/access?context=taxii-server-api&family=zurich&ft:locale=en-US)
 
 </td><td>
 
@@ -1120,7 +1156,7 @@ Telecommunication Open APIs
 
 </td><td>
 
-[Party Management Open API](https://servicenow-staging.fluidtopics.net/access?context=tmf-party-management-open-api&family=zurich&ft:locale=en-US)
+[Party Management Open API](https://www.servicenow.com/docs/access?context=tmf-party-management-open-api&family=zurich&ft:locale=en-US)
 
 </td><td>
 
@@ -1150,7 +1186,7 @@ Telecommunication Open APIs
 
 </td><td>
 
-[Product Inventory Open API](https://servicenow-staging.fluidtopics.net/access?context=product-inventory-open-api&family=zurich&ft:locale=en-US)
+[Product Inventory Open API](https://www.servicenow.com/docs/access?context=product-inventory-open-api&family=zurich&ft:locale=en-US)
 
 </td><td>
 
@@ -1171,7 +1207,7 @@ Telecommunication Open APIs
 
 </td><td>
 
-[Service Catalog Open API](https://servicenow-staging.fluidtopics.net/access?context=service-catalog-open-api&family=zurich&ft:locale=en-US)
+[Service Catalog Open API](https://www.servicenow.com/docs/access?context=service-catalog-open-api&family=zurich&ft:locale=en-US)
 
 </td><td>
 
@@ -1195,7 +1231,7 @@ Threat Intelligence Security Center for Security Operations
 
 </td><td>
 
-[TISC Intel Exchange API](https://servicenow-staging.fluidtopics.net/access?context=tisc-intel-ex-api&family=zurich&ft:locale=en-US)
+[TISC Intel Exchange API](https://www.servicenow.com/docs/access?context=tisc-intel-ex-api&family=zurich&ft:locale=en-US)
 
 </td><td>
 
@@ -1215,7 +1251,7 @@ Threat Intelligence Security Center for Security Operations
 
 </td><td>
 
-[TISC RPZ API](https://servicenow-staging.fluidtopics.net/access?context=tisc-rpz-api&family=zurich&ft:locale=en-US)
+[TISC RPZ API](https://www.servicenow.com/docs/access?context=tisc-rpz-api&family=zurich&ft:locale=en-US)
 
 </td><td>
 
@@ -1235,7 +1271,7 @@ Network Inventory Advanced
 
 </td><td>
 
-[DCIM Metric Data Feed API](https://servicenow-staging.fluidtopics.net/access?context=dcim-metric-data-feed-api&family=zurich&ft:locale=en-US)
+[DCIM Metric Data Feed API](https://www.servicenow.com/docs/access?context=dcim-metric-data-feed-api&family=zurich&ft:locale=en-US)
 
 </td><td>
 
@@ -1255,7 +1291,7 @@ Omnichannel Callback
 
 </td><td>
 
-[Omnichannel Callback API](https://servicenow-staging.fluidtopics.net/access?context=omichannel-callback-api&family=zurich&ft:locale=en-US)
+[Omnichannel Callback API](https://www.servicenow.com/docs/access?context=omichannel-callback-api&family=zurich&ft:locale=en-US)
 
 </td><td>
 
@@ -1277,7 +1313,7 @@ Quote Management
 
 </td><td>
 
-[Quote Management API](https://servicenow-staging.fluidtopics.net/access?context=quote-management-api&family=zurich&ft:locale=en-US)
+[Quote Management API](https://www.servicenow.com/docs/access?context=quote-management-api&family=zurich&ft:locale=en-US)
 
 </td><td>
 
@@ -1301,7 +1337,7 @@ Telecommunication Open APIs
 
 </td><td>
 
-[Work Order Management API](https://servicenow-staging.fluidtopics.net/access?context=work-order-mgmt-api&family=zurich&ft:locale=en-US)
+[Work Order Management API](https://www.servicenow.com/docs/access?context=work-order-mgmt-api&family=zurich&ft:locale=en-US)
 
 </td><td>
 
@@ -1343,7 +1379,7 @@ Methods
 
 </th></tr></thead><tbody><tr><td>
 
-[PDFGenerationAPI - Scoped, Global](https://servicenow-staging.fluidtopics.net/access?context=PDFGenerationAPIBothAPI&family=yokohama&ft:locale=en-US)
+[PDFGenerationAPI - Scoped, Global](https://www.servicenow.com/docs/access?context=PDFGenerationAPIBothAPI&family=yokohama&ft:locale=en-US)
 
 </td><td>
 
@@ -1365,7 +1401,7 @@ Methods
 
 </th></tr></thead><tbody><tr><td>
 
-[PDFGenerationAPI - Scoped, Global](https://servicenow-staging.fluidtopics.net/access?context=PDFGenerationAPIBothAPI&family=yokohama&ft:locale=en-US)
+[PDFGenerationAPI - Scoped, Global](https://www.servicenow.com/docs/access?context=PDFGenerationAPIBothAPI&family=yokohama&ft:locale=en-US)
 
 </td><td>
 
@@ -1379,7 +1415,7 @@ Methods
 </td></tr></tbody>
 </table>|API|Endpoints|
 |---|---------|
-|[Attachment API](https://servicenow-staging.fluidtopics.net/access?context=c_AttachmentAPI&family=yokohama&ft:locale=en-US)|POST /now/attachment/file: A new parameter, creation\_time, can be used to capture attachment creation times when the Now Mobile app is offline and the attachment is uploaded to a record at a later time.|
+|[Attachment API](https://www.servicenow.com/docs/access?context=c_AttachmentAPI&family=yokohama&ft:locale=en-US)|POST /now/attachment/file: A new parameter, creation\_time, can be used to capture attachment creation times when the Now Mobile app is offline and the attachment is uploaded to a record at a later time.|
 
 <table><thead><tr><th>
 
@@ -1407,7 +1443,7 @@ V1.4
 
 </td><td>
 
-[LeadtoCashCore - Scoped](https://servicenow-staging.fluidtopics.net/access?context=LeadToCashCoreAPI&family=yokohama&ft:locale=en-US)
+[LeadtoCashCore - Scoped](https://www.servicenow.com/docs/access?context=LeadToCashCoreAPI&family=yokohama&ft:locale=en-US)
 
 </td><td>
 
@@ -1424,7 +1460,7 @@ ATF Test Generator and Cloud Runner
 
 </td><td>
 
-[TestGenerationApi – startJob\(String tableEncodedQuery, String userEncodedQuery, String catalogEncodedQuery, Number maxTestCount, Number maxTestCountPerTable, Number maxTestCountPerItem, String email, Boolean separateUpdateSetPerScope, String scopeForGeneratingTests, String suiteName\)](https://servicenow-staging.fluidtopics.net/access?context=cr-TestGen-startJob_S_S_S_N_N_N_S&family=yokohama&ft:locale=en-US)
+[TestGenerationApi – startJob\(String tableEncodedQuery, String userEncodedQuery, String catalogEncodedQuery, Number maxTestCount, Number maxTestCountPerTable, Number maxTestCountPerItem, String email, Boolean separateUpdateSetPerScope, String scopeForGeneratingTests, String suiteName\)](https://www.servicenow.com/docs/access?context=cr-TestGen-startJob_S_S_S_N_N_N_S&family=yokohama&ft:locale=en-US)
 
 </td><td>
 
@@ -1457,7 +1493,7 @@ v1.2
 
 </td><td>
 
-[openFrameAPI - Client](https://servicenow-staging.fluidtopics.net/access?context=c_openFrameAPI&family=yokohama&ft:locale=en-US)
+[openFrameAPI - Client](https://www.servicenow.com/docs/access?context=c_openFrameAPI&family=yokohama&ft:locale=en-US)
 
 </td><td>
 
@@ -1474,7 +1510,7 @@ v2.9.0
 
 </td><td>
 
-[NowChatTheme interface - Android](https://servicenow-staging.fluidtopics.net/access?context=NowChatThemeColorsAndroidInterface&family=yokohama&ft:locale=en-US)
+[NowChatTheme interface - Android](https://www.servicenow.com/docs/access?context=NowChatThemeColorsAndroidInterface&family=yokohama&ft:locale=en-US)
 
 </td><td>
 
@@ -1490,7 +1526,7 @@ v2.9.0
 
 </td><td>
 
-[NowWebTheme interface - Android](https://servicenow-staging.fluidtopics.net/access?context=NowWebThemeAndroidInterface&family=yokohama&ft:locale=en-US)
+[NowWebTheme interface - Android](https://www.servicenow.com/docs/access?context=NowWebThemeAndroidInterface&family=yokohama&ft:locale=en-US)
 
 </td><td>
 
@@ -1506,7 +1542,7 @@ v2.9.0
 
 </td><td>
 
-[NowChatThemeable protocol - iOS](https://servicenow-staging.fluidtopics.net/access?context=NowChatThemeableiOSProtocol&family=yokohama&ft:locale=en-US)
+[NowChatThemeable protocol - iOS](https://www.servicenow.com/docs/access?context=NowChatThemeableiOSProtocol&family=yokohama&ft:locale=en-US)
 
 </td><td>
 
@@ -1522,7 +1558,7 @@ v2.9.0
 
 </td><td>
 
-[NowWebThemeable protocol - iOS](https://servicenow-staging.fluidtopics.net/access?context=NowWebThemeableiOSProtocol&family=yokohama&ft:locale=en-US)
+[NowWebThemeable protocol - iOS](https://www.servicenow.com/docs/access?context=NowWebThemeableiOSProtocol&family=yokohama&ft:locale=en-US)
 
 </td><td>
 
@@ -1531,7 +1567,7 @@ Updated available web view UI color defaults.
 </td></tr></tbody>
 </table>|Application|App Version|Class|Methods|
 |-----------|-----------|-----|-------|
-|ATF Test Generator and Cloud Runner|2.7.2|[TestGenerationApi – startJob\(String tableEncodedQuery, String userEncodedQuery, String catalogEncodedQuery, Number maxTestCount, Number maxTestCountPerTable, Number maxTestCountPerItem, String email, Boolean separateUpdateSetPerScope, String scopeForGeneratingTests, String suiteName\)](https://servicenow-staging.fluidtopics.net/access?context=cr-TestGen-startJob_S_S_S_N_N_N_S&family=yokohama&ft:locale=en-US)|Added the **testSuite** parameter allowing you to set the name of the new test suite that is created during test generation.|
+|ATF Test Generator and Cloud Runner|2.7.2|[TestGenerationApi – startJob\(String tableEncodedQuery, String userEncodedQuery, String catalogEncodedQuery, Number maxTestCount, Number maxTestCountPerTable, Number maxTestCountPerItem, String email, Boolean separateUpdateSetPerScope, String scopeForGeneratingTests, String suiteName\)](https://www.servicenow.com/docs/access?context=cr-TestGen-startJob_S_S_S_N_N_N_S&family=yokohama&ft:locale=en-US)|Added the **testSuite** parameter allowing you to set the name of the new test suite that is created during test generation.|
 
 <table><thead><tr><th>
 
@@ -1559,7 +1595,7 @@ v2.0.0
 
 </td><td>
 
-[AP Invoice API](https://servicenow-staging.fluidtopics.net/access?context=ap-invoice-api&family=yokohama&ft:locale=en-US)
+[AP Invoice API](https://www.servicenow.com/docs/access?context=ap-invoice-api&family=yokohama&ft:locale=en-US)
 
 </td><td>
 
@@ -1576,7 +1612,7 @@ ATF Test Generator and Cloud Runner
 
 </td><td>
 
-[Cloud Runner Test Generation - POST /now/sn\_atf\_tg/test\_generation](https://servicenow-staging.fluidtopics.net/access?context=cr-TestGenAPI-POST-test-generation&family=yokohama&ft:locale=en-US)
+[Cloud Runner Test Generation - POST /now/sn\_atf\_tg/test\_generation](https://www.servicenow.com/docs/access?context=cr-TestGenAPI-POST-test-generation&family=yokohama&ft:locale=en-US)
 
 </td><td>
 
@@ -1592,7 +1628,7 @@ v11.3.0
 
 </td><td>
 
-[Product Order Open API](https://servicenow-staging.fluidtopics.net/access?context=tmf622_product_ordering-api&family=yokohama&ft:locale=en-US)
+[Product Order Open API](https://www.servicenow.com/docs/access?context=tmf622_product_ordering-api&family=yokohama&ft:locale=en-US)
 
 </td><td>
 
@@ -1611,7 +1647,7 @@ v12.5.0
 
 </td><td>
 
-[Product Inventory Open API](https://servicenow-staging.fluidtopics.net/access?context=product-inventory-open-api&family=yokohama&ft:locale=en-US)
+[Product Inventory Open API](https://www.servicenow.com/docs/access?context=product-inventory-open-api&family=yokohama&ft:locale=en-US)
 
 </td><td>
 
@@ -1629,7 +1665,7 @@ v14.1.0
 
 </td><td>
 
-[Product Catalog Open API](https://servicenow-staging.fluidtopics.net/access?context=product-catalog-open-api&family=yokohama&ft:locale=en-US)
+[Product Catalog Open API](https://www.servicenow.com/docs/access?context=product-catalog-open-api&family=yokohama&ft:locale=en-US)
 
 </td><td>
 
@@ -1663,7 +1699,7 @@ Methods
 
 </th></tr></thead><tbody><tr><td>
 
-[GlideSysAttachment - Scoped](https://servicenow-staging.fluidtopics.net/access?context=c_GlideSysAttachmentScopedAPI&family=zurich&ft:locale=en-US)
+[GlideSysAttachment - Scoped](https://www.servicenow.com/docs/access?context=c_GlideSysAttachmentScopedAPI&family=zurich&ft:locale=en-US)
 
 </td><td>
 
@@ -1675,7 +1711,7 @@ Support for copying any attributes from source attachment records and deleting a
 
 </td></tr><tr><td>
 
-[IdentificationEngine - Scoped](https://servicenow-staging.fluidtopics.net/access?context=IdentificationEngineScopedAPI&family=zurich&ft:locale=en-US)
+[IdentificationEngine - Scoped](https://www.servicenow.com/docs/access?context=IdentificationEngineScopedAPI&family=zurich&ft:locale=en-US)
 
 </td><td>
 
@@ -1685,7 +1721,7 @@ Enable the **referenceItems** properties of the incoming payload to be populated
 
 </td></tr><tr><td>
 
-[ProducerV2 - Scoped](https://servicenow-staging.fluidtopics.net/access?context=ProducerV2ScopedAPI&family=zurich&ft:locale=en-US)
+[ProducerV2 - Scoped](https://www.servicenow.com/docs/access?context=ProducerV2ScopedAPI&family=zurich&ft:locale=en-US)
 
 </td><td>
 
@@ -1693,7 +1729,7 @@ send\(\) - Added a return value and error handling.
 
 </td></tr><tr><td>
 
-[RESTMessageV2 - Scoped, Global](https://servicenow-staging.fluidtopics.net/access?context=c_RESTMessageV2API&family=zurich&ft:locale=en-US)
+[RESTMessageV2 - Scoped, Global](https://www.servicenow.com/docs/access?context=c_RESTMessageV2API&family=zurich&ft:locale=en-US)
 
 </td><td>
 
@@ -1734,11 +1770,11 @@ Lead to Cash Core
 
 </td><td>
 
-[LeadtoCashCore - Scoped](https://servicenow-staging.fluidtopics.net/access?context=LeadToCashCoreAPI&family=zurich&ft:locale=en-US)
+[LeadtoCashCore - Scoped](https://www.servicenow.com/docs/access?context=LeadToCashCoreAPI&family=zurich&ft:locale=en-US)
 
 </td><td>
 
-createInstance\(\) now supports the **allowedContextTypes** parameter, enabling partial synchronization of updates or deletions for selected Related Parties back to the originating Opportunity. Previously, partial sync behavior was limited to quote line items only.
+createInstance\(\) now supports the **allowedContextTypes** parameter, enabling partial synchronization of updates or deletions for selected Related Parties back to the originating Opportunity. Previously, partial synchronization behavior was limited to quote line items only.
 
 </td></tr><tr><td>
 
@@ -1754,7 +1790,7 @@ Lead to Cash Core
 
 </td><td>
 
-[LeadtoCashCore - Scoped](https://servicenow-staging.fluidtopics.net/access?context=LeadToCashCoreAPI&family=zurich&ft:locale=en-US)
+[LeadtoCashCore - Scoped](https://www.servicenow.com/docs/access?context=LeadToCashCoreAPI&family=zurich&ft:locale=en-US)
 
 </td><td>
 
@@ -1771,7 +1807,7 @@ Methods
 
 </th></tr></thead><tbody><tr><td>
 
-[GlideAggregate - Global](https://servicenow-staging.fluidtopics.net/access?context=c_GlideAggregateAPI&family=zurich&ft:locale=en-US)
+[GlideAggregate - Global](https://www.servicenow.com/docs/access?context=c_GlideAggregateAPI&family=zurich&ft:locale=en-US)
 
 </td><td>
 
@@ -1786,7 +1822,7 @@ Remove support for groups in Dynamic Schema.-   addAggregate\(\)
 
 </td></tr><tr><td>
 
-[GlideDynamicAttribute - Global](https://servicenow-staging.fluidtopics.net/access?context=GlideDynamicAttributeAPI&family=zurich&ft:locale=en-US)
+[GlideDynamicAttribute - Global](https://www.servicenow.com/docs/access?context=GlideDynamicAttributeAPI&family=zurich&ft:locale=en-US)
 
 </td><td>
 
@@ -1802,7 +1838,7 @@ Remove GlideTransientDynamicAttribute API documentation because GlideDynamicAttr
 
 </td></tr><tr><td>
 
-[GlideRecord - Global](https://servicenow-staging.fluidtopics.net/access?context=c_GlideRecordAPI&family=zurich&ft:locale=en-US)
+[GlideRecord - Global](https://www.servicenow.com/docs/access?context=c_GlideRecordAPI&family=zurich&ft:locale=en-US)
 
 </td><td>
 
@@ -1821,7 +1857,7 @@ Remove support for groups in Dynamic Schema.-   addQuery\(\)
 
 </td></tr><tr><td>
 
-[GlideSysAttachment - Global](https://servicenow-staging.fluidtopics.net/access?context=GlideSysAttachmentGlobalAPI&family=zurich&ft:locale=en-US)
+[GlideSysAttachment - Global](https://www.servicenow.com/docs/access?context=GlideSysAttachmentGlobalAPI&family=zurich&ft:locale=en-US)
 
 </td><td>
 
@@ -1833,7 +1869,7 @@ Support for copying any attributes from source attachment records and deleting a
 
 </td></tr><tr><td>
 
-[IdentificationEngineScriptableApi - Global](https://servicenow-staging.fluidtopics.net/access?context=c_IdentEngineScriptAPI&family=zurich&ft:locale=en-US)
+[IdentificationEngineScriptableApi - Global](https://www.servicenow.com/docs/access?context=c_IdentEngineScriptAPI&family=zurich&ft:locale=en-US)
 
 </td><td>
 
@@ -1843,7 +1879,7 @@ Enable the **referenceItems** properties of the incoming payload to be populated
 
 </td></tr><tr><td>
 
-[RESTMessageV2 - Scoped, Global](https://servicenow-staging.fluidtopics.net/access?context=c_RESTMessageV2API&family=zurich&ft:locale=en-US)
+[RESTMessageV2 - Scoped, Global](https://www.servicenow.com/docs/access?context=c_RESTMessageV2API&family=zurich&ft:locale=en-US)
 
 </td><td>
 
@@ -1884,14 +1920,14 @@ Telecommunication Open APIs
 
 </td><td>
 
-[Product Order Open API](https://servicenow-staging.fluidtopics.net/access?context=tmf622_product_ordering-api&family=zurich&ft:locale=en-US)
+[Product Order Open API](https://www.servicenow.com/docs/access?context=tmf622_product_ordering-api&family=zurich&ft:locale=en-US)
 
 </td><td>
 
-When submitting a change payload with a new or updated service location \(via **productOrderItem.product.place.id**\), the request is now processed as a move order. This means that the product order remains the same but the service is fulfilled in the new designated location.-   [Product Order Open API - PATCH /sn\_ind\_tmt\_orm/order/productOrder/\{id\}](https://servicenow-staging.fluidtopics.net/access?context=tmf_prod_order-PATCH-ord-productOrder-id&family=zurich&ft:locale=en-US)
--   [Product Order Open API - PATCH /sn\_ind\_tmt\_orm/productorder/\{id\}](https://servicenow-staging.fluidtopics.net/access?context=tmf_prod_order-PATCH-productorder-id&family=zurich&ft:locale=en-US)
--   [Product Order Open API - POST /sn\_ind\_tmt\_orm/order/productOrder](https://servicenow-staging.fluidtopics.net/access?context=tmf_prod_order-POST-ord-productOrder&family=zurich&ft:locale=en-US)
--   [Product Order Open API - POST /sn\_ind\_tmt\_orm/productorder](https://servicenow-staging.fluidtopics.net/access?context=tmf_prod_order-POST-productOrder&family=zurich&ft:locale=en-US)
+When submitting a change payload with a new or updated service location \(via **productOrderItem.product.place.id**\), the request is now processed as a move order. This means that the product order remains the same but the service is fulfilled in the new designated location.-   [Product Order Open API - PATCH /sn\_ind\_tmt\_orm/order/productOrder/\{id\}](https://www.servicenow.com/docs/access?context=tmf_prod_order-PATCH-ord-productOrder-id&family=zurich&ft:locale=en-US)
+-   [Product Order Open API - PATCH /sn\_ind\_tmt\_orm/productorder/\{id\}](https://www.servicenow.com/docs/access?context=tmf_prod_order-PATCH-productorder-id&family=zurich&ft:locale=en-US)
+-   [Product Order Open API - POST /sn\_ind\_tmt\_orm/order/productOrder](https://www.servicenow.com/docs/access?context=tmf_prod_order-POST-ord-productOrder&family=zurich&ft:locale=en-US)
+-   [Product Order Open API - POST /sn\_ind\_tmt\_orm/productorder](https://www.servicenow.com/docs/access?context=tmf_prod_order-POST-productOrder&family=zurich&ft:locale=en-US)
 
 </td></tr><tr><td>
 
@@ -1907,7 +1943,7 @@ Omnichannel Callback
 
 </td><td>
 
-[Omnichannel Callback API](https://servicenow-staging.fluidtopics.net/access?context=omichannel-callback-api&family=zurich&ft:locale=en-US)
+[Omnichannel Callback API](https://www.servicenow.com/docs/access?context=omichannel-callback-api&family=zurich&ft:locale=en-US)
 
 </td><td>
 
@@ -1930,7 +1966,7 @@ Proactive Service Experience Workflows
 
 </td><td>
 
-[Trouble Ticket Open API](https://servicenow-staging.fluidtopics.net/access?context=trouble-ticket-open-api&family=zurich&ft:locale=en-US)
+[Trouble Ticket Open API](https://www.servicenow.com/docs/access?context=trouble-ticket-open-api&family=zurich&ft:locale=en-US)
 
 </td><td>
 
@@ -1953,13 +1989,13 @@ Telecommunication Open APIs
 
 </td><td>
 
-[Product Catalog Open API](https://servicenow-staging.fluidtopics.net/access?context=product-catalog-open-api&family=zurich&ft:locale=en-US)
+[Product Catalog Open API](https://www.servicenow.com/docs/access?context=product-catalog-open-api&family=zurich&ft:locale=en-US)
 
 </td><td>
 
 Various methods are enhanced with the following parameters:-   **externalSystem**: Specifies the external system of the product offering catalog.
 -   **internalVersion**: Specifies the version of the product offering.
--   **prodSpecCharValueUse.​valueType**: Supports more complex product characteristic value types, like choice, checkbox, objects, and so on.
+-   **prodSpecCharValueUse.​valueType**: Supports more complex product characteristic value types, like choice, check box, objects, and so on.
 -   **version**: Specifies the external version of the product offering.
 
 Enhanced the version and supports external system logic and complex characteristics.
@@ -1978,13 +2014,13 @@ Telecommunication Open APIs
 
 </td><td>
 
-[Service Catalog Open API](https://servicenow-staging.fluidtopics.net/access?context=service-catalog-open-api&family=zurich&ft:locale=en-US)
+[Service Catalog Open API](https://www.servicenow.com/docs/access?context=service-catalog-open-api&family=zurich&ft:locale=en-US)
 
 </td><td>
 
 Various methods are enhanced with the following parameters:-   **externalSystem**: Specifies the external system of the service specification.
 -   **internalVersion**: Specifies the version of the service specification.
--   **specCharacteristic.valueType**: Supports more complex service characteristic value types, like choice, checkbox, objects, and so on.
+-   **specCharacteristic.valueType**: Supports more complex service characteristic value types, like choice, check box, objects, and so on.
 -   **version**: Specifies the external version of the service specification.
 
 </td></tr><tr><td>
@@ -2001,13 +2037,13 @@ Telecommunication Open APIs
 
 </td><td>
 
-[Product Order Open API](https://servicenow-staging.fluidtopics.net/access?context=tmf622_product_ordering-api&family=zurich&ft:locale=en-US)
+[Product Order Open API](https://www.servicenow.com/docs/access?context=tmf622_product_ordering-api&family=zurich&ft:locale=en-US)
 
 </td><td>
 
 Various methods are enhanced with the following parameters:-   **externalSystem**: Specifies the external system of the product order.
 -   **internalVersion**: Specifies the version of the product specification.
--   **productOrderItem.product.productCharacteristic.valueType**: Supports more complex product characteristic value types, like choice, checkbox, objects, and so on.
+-   **productOrderItem.product.productCharacteristic.valueType**: Supports more complex product characteristic value types, like choice, check box, objects, and so on.
 -   **productOrderItem.product.productSpecification.version**: Specifies the external version of the product specification.
 
 </td></tr><tr><td>
@@ -2024,12 +2060,12 @@ Telecommunication Open APIs
 
 </td><td>
 
-[Service Order Open API](https://servicenow-staging.fluidtopics.net/access?context=service-order-open-api&family=zurich&ft:locale=en-US)
+[Service Order Open API](https://www.servicenow.com/docs/access?context=service-order-open-api&family=zurich&ft:locale=en-US)
 
 </td><td>
 
 Various methods are enhanced with the following parameters:-   **externalSystem**: Specifies the external system of the service order.
--   **serviceOrderItem.service.serviceCharacteristic.valueType**: Supports more complex service characteristic value types, like choice, checkbox, objects, and so on.
+-   **serviceOrderItem.service.serviceCharacteristic.valueType**: Supports more complex service characteristic value types, like choice, check box, objects, and so on.
 -   **serviceOrderItem.service.serviceSpecification.internalVersion**: Specifies the version of the service specification.
 -   **serviceOrderItem.service.serviceSpecification.version**: Specifies the external version of the service specification.
 
@@ -2047,7 +2083,7 @@ Threat Intelligence Security Center for Security Operations
 
 </td><td>
 
-[TISC API](https://servicenow-staging.fluidtopics.net/access?context=tisc-api&family=zurich&ft:locale=en-US)
+[TISC API](https://www.servicenow.com/docs/access?context=tisc-api&family=zurich&ft:locale=en-US)
 
 </td><td>
 
@@ -2067,7 +2103,7 @@ v9.5.17
 
 </td><td>
 
-[AP Invoice API](https://servicenow-staging.fluidtopics.net/access?context=ap-invoice-api&family=zurich&ft:locale=en-US)
+[AP Invoice API](https://www.servicenow.com/docs/access?context=ap-invoice-api&family=zurich&ft:locale=en-US)
 
 </td><td>
 
@@ -2088,7 +2124,7 @@ Telecommunication Open APIs
 
 </td><td>
 
-[Service Order Open API](https://servicenow-staging.fluidtopics.net/access?context=service-order-open-api&family=zurich&ft:locale=en-US)
+[Service Order Open API](https://www.servicenow.com/docs/access?context=service-order-open-api&family=zurich&ft:locale=en-US)
 
 </td><td>
 
@@ -2111,7 +2147,7 @@ Telecommunication Open APIs
 
 </td><td>
 
-[Product Catalog Open API](https://servicenow-staging.fluidtopics.net/access?context=product-catalog-open-api&family=zurich&ft:locale=en-US)
+[Product Catalog Open API](https://www.servicenow.com/docs/access?context=product-catalog-open-api&family=zurich&ft:locale=en-US)
 
 </td><td>
 
@@ -2134,7 +2170,7 @@ Telecommunication Open APIs
 
 </td><td>
 
-[Product Inventory Open API](https://servicenow-staging.fluidtopics.net/access?context=product-inventory-open-api&family=zurich&ft:locale=en-US)
+[Product Inventory Open API](https://www.servicenow.com/docs/access?context=product-inventory-open-api&family=zurich&ft:locale=en-US)
 
 </td><td>
 
@@ -2159,7 +2195,7 @@ Telecommunication Open APIs
 
 </td><td>
 
-[Product Order Open API](https://servicenow-staging.fluidtopics.net/access?context=tmf622_product_ordering-api&family=zurich&ft:locale=en-US)
+[Product Order Open API](https://www.servicenow.com/docs/access?context=tmf622_product_ordering-api&family=zurich&ft:locale=en-US)
 
 </td><td>
 
@@ -2186,7 +2222,7 @@ Virtual Agent API
 
 </td><td>
 
-[Virtual Agent Bot Integration API](https://servicenow-staging.fluidtopics.net/access?context=bot-api&family=zurich&ft:locale=en-US)
+[Virtual Agent Bot Integration API](https://www.servicenow.com/docs/access?context=bot-api&family=zurich&ft:locale=en-US)
 
 </td><td>
 
@@ -2252,13 +2288,13 @@ Zurich
 </td><td>
 
 -   The GlideEncrypter API no longer supports Triple Data Encryption Standard \(3DES\) due to updated [NIST 800-131A Rev 2](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-131Ar2.pdf) guidelines.
-    -   For existing instances that upgrade to the Zurich release, the GlideEncrypter API is available for use but has been updated to automatically use the Key Management Framework algorithm. See [GlideEncrypter - Global \(deprecated\)](https://servicenow-staging.fluidtopics.net/access?context=GlideEncrypterAPI&family=zurich&ft:locale=en-US) for more information on how to continue calling this API.
-    -   For all new instances created starting with the Zurich release, the GlideEncrypter API is no longer supported. Directly use the [Key Management Framework](https://servicenow-staging.fluidtopics.net/access?context=encryption&family=zurich&ft:locale=en-US) instead for all cryptography operations.
--   Dynamic groups have been removed from dynamic schema in Core Platform. For dynamic attributes defined with an associated dynamic attribute group before the Zurich release, the [GlideDynamicAttribute](https://servicenow-staging.fluidtopics.net/access?context=GlideDynamicAttributeAPI&family=zurich&ft:locale=en-US) getGroupName\(\) method originally designed for dynamic attribute groups continues to work for backwards compatibility.
+    -   For existing instances that upgrade to the Zurich release, the GlideEncrypter API is available for use but has been updated to automatically use the Key Management Framework algorithm. See [GlideEncrypter - Global \(deprecated\)](https://www.servicenow.com/docs/access?context=GlideEncrypterAPI&family=zurich&ft:locale=en-US) for more information on how to continue calling this API.
+    -   For all new instances created starting with the Zurich release, the GlideEncrypter API is no longer supported. Directly use the [Key Management Framework](https://www.servicenow.com/docs/access?context=encryption&family=zurich&ft:locale=en-US) instead for all cryptography operations.
+-   Dynamic groups have been removed from dynamic schema in Core Platform. For dynamic attributes defined with an associated dynamic attribute group before the Zurich release, the [GlideDynamicAttribute](https://www.servicenow.com/docs/access?context=GlideDynamicAttributeAPI&family=zurich&ft:locale=en-US) getGroupName\(\) method originally designed for dynamic attribute groups continues to work for backwards compatibility.
 
 The getGroupName\(\) method returns null for migrated attributes and newly created attributes.
 
-Customers are urged to migrate to the current [Dynamic Attribute](https://servicenow-staging.fluidtopics.net/access?context=working-with-dynamic-schema&family=zurich&ft:locale=en-US) definitions to take advantage of future improvements in features and functionality. For migration details, see the [Dynamic Schema Zurich Migration Guide \[KB2146133\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2146133) article in the Now Support Knowledge Base.
+Customers are urged to migrate to the current [Dynamic Attribute](https://www.servicenow.com/docs/access?context=working-with-dynamic-schema&family=zurich&ft:locale=en-US) definitions to take advantage of future improvements in features and functionality. For migration details, see the [Dynamic Schema Zurich Migration Guide \[KB2146133\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2146133) article in the Now Support Knowledge Base.
 
 
 </td></tr></tbody>
@@ -2344,9 +2380,10 @@ The following APIs are available by default:
 -   GlideForm \(Next Experience\)
 -   GlideModal \(Next Experience\)
 -   GlideNavigation \(Next Experience\)
+-   GlideQueryCondition
 -   GlideRecord
 -   GlideSysAttachment
--   GlideUser \(Next Experience\)
+-   GlideUser\(Next Experience\)
 -   StopWatch \(Next Experience\)
 
  The following APIs require plugin activation:
@@ -2356,7 +2393,7 @@ The following APIs are available by default:
 -   Service Order Open API requires the Order Management for Telecommunications \(sn\_ind\_tmt\_orm\) plugin.
 -   The Omnichannel Callback API requires the Omnichannel Callback \(omnichannel\_callback plugin\) plugin.
 -   Party Management Open API requires the Telecommunications Open APIs \(sn\_tmf\_api\) and Customer Service Management \(com.sn\_customerservice\) plugins.
--   The sn\_erp\_integration API requires the Zero Copy Connector for ERP \(com.sn\_erp\_integration\) plugin.
+-   The SegmentHandle, SegmentHandler, and sn\_erp\_integration API APIs require the Zero Copy Connector for ERP \(com.sn\_erp\_integration\) plugin.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -2497,7 +2534,7 @@ Yokohama
 -   Run client APIs whenever a client-based event occurs, such as when a form loads, a form is submitted, or a field value changes.
 -   Use inbound REST APIs to interact with various ServiceNow functionalities within your application.
 
- See [API implementation and reference](https://servicenow-staging.fluidtopics.net/access?context=api-implementation-reference&family=yokohama&ft:locale=en-US) for more information.
+ See [API implementation and reference](https://www.servicenow.com/docs/access?context=api-implementation-reference&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -2510,7 +2547,7 @@ Zurich
 -   Use inbound REST APIs to interact with various ServiceNow functionalities within your application.
 -   Client Next Experience APIs include client APIs compatible with the Next Experience UI.
 
- See [API implementation and reference](https://servicenow-staging.fluidtopics.net/access?context=api-implementation-reference&family=zurich&ft:locale=en-US) for more information.
+ See [API implementation and reference](https://www.servicenow.com/docs/access?context=api-implementation-reference&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2025-10-28"
 reading_time_minutes: 2
 keywords: [Obligation extraction use case mapping]
-breadcrumb: [Configure obligation extraction, Configure, Now Assist in CM Pro, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Configure obligation extraction, Configure, Now Assist in Contract Management, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Map a use case for contract obligation extraction
@@ -23,19 +23,13 @@ Ensure that the application scope is in the Global or Now Assist in Contract Man
 
 Role required: sn\_cm\_gen\_ai.ai\_contract\_config, sn\_cm\_core.contract\_config
 
-## About this task
-
-The following video walks you through the process of mapping a use case for the contract obligation extraction skill.\[Omitted video\] Description: Video explaining how to map a use case for contract obligation extraction.
-
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills** to access the **Now Assist Skills** tab of the Now Assist Admin console.
+1.  Navigate to **All** &gt; **Admin Center** &gt; **AI Admin Hub** to access the **AI Skills** tab of the AI Admin Hub console.
 
 2.  Navigate to **Employee** &gt; **CM Pro**.
 
-3.  Select **Activate skill** on the skill that you want to activate.
-
-    \[Omitted image "cmpro-NA-skills.png"\] Alt text: Now Assist skills available for Contract Management Pro.
+3.  Select **Activate skill** on the skill you want to activate.
 
 4.  In the General details page, view the skill details and select **Save and continue**.
 
@@ -48,8 +42,6 @@ The following video walks you through the process of mapping a use case for the 
 7.  On the form, fill in the fields.
 
     For a description of the field values, see [Contract obligation extraction use case mapping form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cmpro-na-use-case-map-form-obe.md).
-
-    \[Omitted image "cmpro-na-ob-map.png"\] Alt text: Create new use case mapping form to map obligations with request tables and repository tables.
 
 8.  Select **Save**.
 

@@ -5,7 +5,7 @@ locale: en-US
 release: zurich
 topic_type: reference
 last_updated: "2025-10-30"
-reading_time_minutes: 2
+reading_time_minutes: 3
 ---
 
 # Knowledge Center release notes
@@ -14,7 +14,9 @@ The ServiceNow® Knowledge Center helps you manage your knowledge articles from 
 
 ## Knowledge Center Knowledge Center highlights for the Zurich release
 
--   Use Knowledge Center to manage and distribute organizational knowledge through a centralized and organized interface.
+
+
+-   ServiceNow Otto® is the new AI experience brand. This change is reflected in the name of ServiceNow products. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
 -   Enhance productivity, reduce redundant work, and help ensure that users have access to the latest and most accurate information.
 -   Format your content within a knowledge article using editing tools in the article editor.
 -   Improve the quality and health of knowledge articles with article optimization, ensuring that the information is latest and relevant.

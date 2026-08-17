@@ -38,7 +38,7 @@ Role required: admin
 
     3.  Verify that the Now Assist for Vault skills are active.
 
-    \[Omitted image "now-assist-admin-vault-skills.png"\] Alt text: Now Assist Admin console showing three skills from Now Assist for Vault.
+    \[Omitted image "now-assist-admin-vault-skills.png"\] Alt text: AI Admin Hub console showing three skills from Now Assist for Vault.
 
 
 **Parent Topic:**[Now Assist for Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/now-assist-vault-landing.md)

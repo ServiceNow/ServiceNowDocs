@@ -20,7 +20,7 @@ Workflow Studio offers a selection of preconfigured subflows that are available 
 
 ## Automatic skill activation
 
-This Platform workflow skill is automatically activated when you install a Now Assist product. For more information about Platform workflow skill activation, see [Now Assist skills in the Platform workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-on-now-platform.md).
+This Platform workflow skill is automatically activated when you install a Now Assist product. For more information about Platform workflow skill activation, see [Generative AI skills in the Platform workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-on-now-platform.md).
 
 ## User role access
 

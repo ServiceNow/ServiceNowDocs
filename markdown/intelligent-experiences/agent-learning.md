@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2025-11-10"
 reading_time_minutes: 1
 keywords: [AI agent learning, Episodic memory]
-breadcrumb: [Explore, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Explore, AI Agent Studio, Enable AI experiences]
 ---
 
 # AI agent learning

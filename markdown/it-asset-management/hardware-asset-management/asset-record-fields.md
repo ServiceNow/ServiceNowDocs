@@ -736,7 +736,9 @@ MAC Address
 
 MAC address of the mobile device.**Important:** From the Hardware Asset Management 12.0.0 release onward, the value in this field is populated based on the MAC address \[mac\_addr\] field in the Asset \[alm\_asset\] table instead of the MAC address \[mac\_address\] field in the Hardware \[alm\_hardware\] table.
 
-Also, the MAC address \[mac\_address\] field in the Hardware \[alm\_hardware\] table is deprecated in the Hardware Asset Management 12.0.0 release. The MAC address \[mac\_addr\] field in the Asset \[alm\_asset\] table is available only when the Hardware Asset Management \(sn\_hamp\) store app is installed.
+Also, the MAC address \[mac\_address\] field in the Hardware \[alm\_hardware\] table is deprecated in the Hardware Asset Management 12.0.0 release. However, the \[mac\_address\] field remains functional. Hardware Asset Management keeps it synchronized with \[mac\_addr\] in both directions, so existing data and integrations continue to work.
+
+The MAC address \[mac\_addr\] field in the Asset \[alm\_asset\] table is available only when the Hardware Asset Management \(sn\_hamp\) store app is installed.
 
 </td></tr><tr><td>
 

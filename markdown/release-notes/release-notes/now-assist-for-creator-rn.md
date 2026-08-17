@@ -1,6 +1,6 @@
 ---
-title: Now Assist for Creator release notes
-description: The ServiceNow Now Assist for Creator application includes generative AI skills that can help you develop on the ServiceNow AI Platform efficiently. Now Assist for Creator was enhanced and updated in the Zurich release.
+title: ServiceNow Otto for Creator release notes
+description: The ServiceNow ServiceNow Otto for Creator application includes generative AI skills that can help you develop on the ServiceNow AI Platform efficiently. ServiceNow Otto for Creator was enhanced and updated in the Zurich release.
 locale: en-US
 release: zurich
 topic_type: reference
@@ -9,11 +9,11 @@ reading_time_minutes: 12
 keywords: [Now Assist, Now Assist for Creator, AI features, AI products, solutions, Gen AI, Build Agent]
 ---
 
-# Now Assist for Creator release notes
+# ServiceNow Otto for Creator release notes
 
-The ServiceNow® Now Assist for Creator application includes generative AI skills that can help you develop on the ServiceNow AI Platform efficiently. Now Assist for Creator was enhanced and updated in the Zurich release.
+The ServiceNow® ServiceNow Otto for Creator application includes generative AI skills that can help you develop on the ServiceNow AI Platform efficiently. ServiceNow Otto for Creator was enhanced and updated in the Zurich release.
 
-## Now Assist for Creator highlights for the Zurich release
+## ServiceNow Otto for Creator highlights for the Zurich release
 
 [Zurich Patch 9](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-9.md)
 
@@ -45,7 +45,7 @@ The ServiceNow® Now Assist for Creator application includes generative AI skill
 [Zurich Patch 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-4.md)
 
 -   Some Now Assist skills are now turned on by default.
--   Additional role configuration is required for agentic workflows and AI agents included with Now Assist applications.
+-   Additional role configuration required for agentic workflows and AI agents included with your applications.
 -   Expedite the troubleshooting process by using the ATF troubleshooting agent store application.
 -   Learn about how to use UI Builder and modify UI pages with the UI Builder agent.
 -   Plan your application development with the Build Agent planning tool.
@@ -65,9 +65,9 @@ The ServiceNow® Now Assist for Creator application includes generative AI skill
 -   Create, edit, and deploy fully functional ServiceNow applications using the Build Agent in the ServiceNow IDE.
 -   Enable security implementation to execute AI agents and agentic workflows through access control lists \(ACLs\) and user identities.
 
-See [Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/now-assist-for-creator-landing.md) for more information.
+See [ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/now-assist-for-creator-landing.md) for more information.
 
-**Important:** Now Assist for Creator is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+**Important:** ServiceNow Otto for Creator is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Zurich release
 
@@ -116,7 +116,7 @@ See [Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/Servic
 
     Leverage the new theme generation workflow in Theme Builder to generate themes based on your brand image. After generating a theme, navigate to Theme Builder to publish and apply additional styling.
 
--   **[Edit already published catalog items using Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/edit-already-published-catalog-items-using-now-assist.md)**
+-   **[Edit already published catalog items using ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/edit-already-published-catalog-items-using-now-assist.md)**
 
     Edit and refine published catalog items conversationally using Now Assist in Catalog Builder.
 
@@ -129,9 +129,9 @@ See [Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/Servic
     When creating or editing a catalog item, you can use plain language to assign values for catalog, category, or topic. If the value you provide matches an existing entry, Now Assist automatically applies it to the item, helping to streamline the process and reduce manual data entry.
 
 
--   **[Configure AI model providers for Now Assist for Code skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/configure-model-providers-for-now-assist-skills.md)**
+-   **[Configure AI model providers for ServiceNow Otto for Code skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/configure-model-providers-for-now-assist-skills.md)**
 
-    Choose a model provider for Now Assist for Code skills in the script editor. You can choose from the models that are enabled in the AI Control Tower.
+    Choose a model provider for ServiceNow Otto for Code skills in the script editor. You can choose from the models that are enabled in the AI Control Tower.
 
 -   **[Planning tool available with the Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/exploring-build-agent.md)**
 
@@ -189,7 +189,7 @@ See [Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/Servic
 
 -   **[Changes to Now Assist usage measurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/monitoring-now-assist-usage.md)**
 
-    Starting with Zurich Early Access, AI usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
+    Starting with Australia Early Access, AI usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: AI Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
 
 -   **[Some generative AI skills are turned on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md)**
@@ -200,22 +200,22 @@ See [Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/Servic
     -   Existing customers who are upgrading \(starting with Australia Early Access\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
 -   **[Role configuration required for agentic workflows and AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/aia-role-masking.md)**
 
-    Agentic workflows and AI agents included with Now Assist applications require additional security configuration. If you select **Users with selected roles** for your user access security controls for an agentic workflow or AI agent, you must add the installed roles, or they won't execute. Data access settings must also include these roles. See the documentation for the agentic workflow or AI agent for the specific roles you must add. After the roles are configured, users must have the specified role to invoke the agentic workflow or AI agent.
+    Agentic workflows and AI agents included with your applications require additional security configuration. If you select **Users with selected roles** for your user access security controls for an agentic workflow or AI agent, you must add the installed roles, or they will not execute. See the documentation for the agentic workflow or AI agent for the specific roles you must add.
 
 
 ## Removed in this release
 
 [Zurich Patch 6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-6.md)
 
--   Spoke generation has been removed from Now Assist for Creator. See the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website for additional information.
+-   Spoke generation has been removed from ServiceNow Otto for Creator. See the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website for additional information.
 
 [Zurich Patch 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-4.md)
 
--   Starting with version 28.4.3 of Now Assist for Creator, the now.assist.creator role has been removed as a required role for using most Now Assist for Creator skills and agents. Some skills and agents might have additional role requirements. See the [Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/now-assist-for-creator-landing.md) product documentation for more information.
+-   Starting with version 28.4.3 of ServiceNow Otto for Creator, the now.assist.creator role has been removed as a required role for using most ServiceNow Otto for Creator skills and agents. Some skills and agents might have additional role requirements. See the [ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/now-assist-for-creator-landing.md) product documentation for more information.
 
 ## Activation information
 
-Install Now Assist for Creator by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install ServiceNow Otto for Creator by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Related ServiceNow applications and features
 
@@ -235,17 +235,17 @@ Install Now Assist for Creator by requesting it from the ServiceNow Store. Visit
 
     The Management, Instrumentation, and Discovery \(MID\) Server is a Java application that runs as a Windows service or UNIX daemon on a server in your local network. The ServiceNow® MID Server enables communication and the movement of data between a ServiceNow instance and external applications, data sources, and services.
 
--   **[Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/platform-now-assist-landing.md)**
+-   **[AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/platform-now-assist-landing.md)**
 
     Use AI recommendations to select the next component in your flow. The system generates recommendations based on the current position in the flow and the flow component names listed before.
 
--   **[Now Assist for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/add-ai-to-custom-apps-with-now-assist-for-app-engine-enterprise.md)**
+-   **[ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/add-ai-to-custom-apps-with-now-assist-for-app-engine-enterprise.md)**
 
-    ServiceNow® Now Assist for App Engine enables you to enhance custom applications with AI capabilities, such as AI agents and skills, that you can leverage at runtime.
+    ServiceNow® ServiceNow Otto for App Engine enables you to enhance custom applications with AI capabilities, such as AI agents and skills, that you can leverage at runtime.
 
--   **[Now Assist for Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/now-assist-code-landing.md)**
+-   **[ServiceNow Otto for Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/now-assist-code-landing.md)**
 
-    With the Zurich release, the code autocomplete skill of the Now Assist for Code is available in the ServiceNow IDE.
+    With the Zurich release, the code autocomplete skill of the ServiceNow Otto for Code is available in the ServiceNow IDE.
 
 -   **[Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/process-automation-designer.md)**
 

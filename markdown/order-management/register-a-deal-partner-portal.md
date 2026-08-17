@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/register-a-deal-partner-portal.html
 release: zurich
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 2
 breadcrumb: [Partner Relationship Management, Use, Sales Customer Relationship Management]
 ---

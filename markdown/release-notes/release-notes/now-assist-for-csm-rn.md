@@ -1,19 +1,23 @@
 ---
-title: Now Assist for Customer Service Management \(CSM\) release notes
-description: The ServiceNow Now Assist for CSM application brings generative AI to Customer Service Management \(CSM\). You can help improve productivity and efficiency by delivering enhanced self-service, recommended actions, and suggested answers. Now Assist for CSM was enhanced and updated in the Zurich release.
+title: ServiceNow Otto for Customer Service Management \(CSM\) release notes
+description: The ServiceNow ServiceNow Otto for CSM application brings generative AI to Customer Service Management \(CSM\). You can help improve productivity and efficiency by delivering enhanced self-service, recommended actions, and suggested answers. ServiceNow Otto for CSM was enhanced and updated in the Zurich release.
 locale: en-US
 release: zurich
 topic_type: reference
 last_updated: "2025-07-31"
-reading_time_minutes: 13
+reading_time_minutes: 14
 keywords: [Now Assist, agentic AI, generative AI, gen AI, genAI]
 ---
 
-# Now Assist for Customer Service Management \(CSM\) release notes
+# ServiceNow Otto for Customer Service Management \(CSM\) release notes
 
-The ServiceNow® Now Assist for CSM application brings generative AI to Customer Service Management \(CSM\). You can help improve productivity and efficiency by delivering enhanced self-service, recommended actions, and suggested answers. Now Assist for CSM was enhanced and updated in the Zurich release.
+The ServiceNow® ServiceNow Otto for CSM application brings generative AI to Customer Service Management \(CSM\). You can help improve productivity and efficiency by delivering enhanced self-service, recommended actions, and suggested answers. ServiceNow Otto for CSM was enhanced and updated in the Zurich release.
 
-## Now Assist for CSM highlights for the Zurich release
+## ServiceNow Otto for CSM highlights for the Zurich release
+
+[Zurich Patch 12](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-12.md)
+
+-   Starting with Zurich Patch 12, ServiceNow Otto® is the new AI experience brand. This change is reflected in the name of ServiceNow products, including ServiceNow Otto for Customer Service Management \(CSM\). Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
 
 [Zurich Patch 10](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-10.md)
 
@@ -24,17 +28,17 @@ The ServiceNow® Now Assist for CSM application brings generative AI to Customer
 [Zurich Patch 9](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-9.md)
 
 -   Automatically evaluate post-interaction customer conversations using AI models that score against a configurable quality rubric, eliminating manual effort.
--   Receive intelligent email reply recommendations on extended table record pages in Now Assist for CSM, helping agents respond faster with less manual effort.
+-   Receive intelligent email reply recommendations on extended table record pages in ServiceNow Otto for CSM, helping agents respond faster with less manual effort.
 
 [Zurich Patch 8](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-8.md)
 
--   Availability of filter controls in Now Assist Guardian for Now Assist for CSM.
+-   Availability of filter controls in AI Guardian for ServiceNow Otto for CSM.
 -   Availability of AI Workflow tab in Core UI.
 
 [Zurich Patch 7](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-7.md)
 
--   Enhance the Complaint Case playbook to align playbook activities with agentic workflows, introduce AI‑driven summarization and drafting capabilities, and remove legacy components that are no longer part of the complaint experience.
--   Monitor how users engage with genAI skills in Now Assist for CSM.
+-   Enhance the Complaint Case playbook to align playbook activities with agentic workflows and introduce AI‑driven summarization and drafting capabilities. Legacy components that are no longer part of the complaint experience are removed.
+-   Monitor how users engage with genAI skills in ServiceNow Otto for CSM.
 -   Get a case status and manage cases through natural voice conversations.
 
 [Zurich Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-5.md)
@@ -44,51 +48,51 @@ The ServiceNow® Now Assist for CSM application brings generative AI to Customer
 
 [Zurich Patch 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-4.md)
 
--   Enabled is\_template for all Now Assist skills and added support to clone and customize any base system genAI skill in the Now Assist Skill Kit
+-   Enabled is\_template for all Now Assist skills and added support to clone and customize any base system genAI skill in the AI Skill Kit
 -   Defined the navigation path for Sentiment Analysis dashboard in Core UI to make accessing sentiment analysis data easier.
 -   Track trending case topics with insights, visualizations, and customizable filters for deeper analysis with the Trending topics dashboard.
 -   Monitor customer sentiment across cases with LLM-powered insights and track the sentiment trends in the dashboard.
 -   Enable agents to access customer, case, and product details instantly through natural language queries with the provide customer 360 insights agentic workflow.
 -   Auto-generate work notes and comment recommendations to help improve agent efficiency with the activity response generation skill.
--   Additional role configuration is required for agentic workflows and AI agents included with Now Assist applications.
+-   Additional role configuration required for agentic workflows and AI agents included with your applications.
 
-[Zurich Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-1.md) Enable security in Now Assist for CSM and AI agents and agentic workflows by enforcing access control lists \(ACLs\) and user identity-based permissions.
+[Zurich Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-1.md) Enable security in ServiceNow Otto for CSM and AI agents and agentic workflows by enforcing access control lists \(ACLs\) and user identity-based permissions.
 
 Early Availability
 
 -   Use the suggested steps that automatically display on the **Recommended Actions** tab to help resolve cases and increase agent productivity.
 -   Use Google Gemini and Anthropic Claude on AWS as AI model providers for generative AI skills and AI agents, in addition to Now LLM Service and Azure OpenAI.
 
-See [Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/now-assist-csm.md) for more information.
+See [ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/now-assist-csm.md) for more information.
 
-**Important:** Now Assist for CSM is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+**Important:** ServiceNow Otto for CSM is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Zurich release
 
 -   **[Case insights section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/now-assist-csm-summarize-case.md)**
 
-    Resolve cases faster with a new case insights section that brings together key case details, customer summary, issue history, sentiment scores, and special handling notes in one consolidated view.
+    Resolve cases faster with a new case insights section. This section brings together key case details, customer summary, issue history, sentiment scores, and special handling notes in one consolidated view.
 
 -   **[Voice-driven case status retrieval and updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/voice-ai-agent.md)**
 
-    Reduce live agent dependency by enabling customers to check open case statuses and submit case updates through guided voice interactions across Genesys, Twilio, NICE, Five9, 3CLogic, and Amazon Connect CCaaS platforms.
+    Reduce live agent dependency by enabling customers to check open case statuses and submit case updates through guided voice interactions. Supported CCaaS platforms include Genesys, Twilio, NICE, Five9, 3CLogic, and Amazon Connect.
 
 -   **[Customer sentiment analysis on email interaction page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/analyze-sentiments-in-now-assist-for-csm.md)**
 
-    View automated sentiment scores and trends from conversation directly on the email interaction page in Now Assist for CSM, The system reads customer emails and gives a score to show how the customer is feeling, so agents and managers can quickly check the customer's mood without reading the whole conversation.
+    View automated sentiment scores and trends from conversation directly on the email interaction page in ServiceNow Otto for CSM. The system reads customer emails and assigns sentiment scores. Agents and managers can quickly check customer mood without reading the whole conversation.
 
 -   **[Configure extended tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/configure-extended-table-support-for-the-resolution-notes-skill.md)**
 
-    Automatically receive concise summaries of case resolutions in Now Assist for CSM, with the extended table, enabling customer agents to quickly understand resolution details and respond to customers.
+    Automatically receive concise summaries of case resolutions in ServiceNow Otto for CSM, with the extended table, enabling customer agents to quickly understand resolution details and respond to customers.
 
 
 -   **[Quality assurance management skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/quality-assurance-management.md)**
 
-    Automatically evaluate agent activity on closed cases using AI models that score each interaction against a configurable quality rubric, eliminating manual sampling and ensuring consistent, objective assessments at scale.
+    Automatically evaluate agent activity on closed cases using AI models that score each interaction against a configurable quality rubric. This eliminates manual sampling and ensures consistent, objective assessments at scale.
 
 -   **[Extended table support for email reply recommendation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/configure-extended-table-support-for-the-email-reply-recommendation-skill.md)**
 
-    Automatically receive email reply recommendations on extended table record pages in Now Assist for CSM, allowing agents to quickly respond to customers, provide intelligent recommendations and reducing manual effort.
+    Automatically receive email reply recommendations on extended table record pages in ServiceNow Otto for CSM, allowing agents to quickly respond to customers, provide intelligent recommendations and reducing manual effort.
 
 
 -   **[AI workflow tab added in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/ai-workflow-pattern-in-customer-service-management.md)**
@@ -97,12 +101,12 @@ See [Now Assist for Customer Service Management \(CSM\)](https://raw.githubuserc
 
 -   **[Filter controls in Now Assist Guardian](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/now-assist-guardian-csm-filters.md)**
 
-    Availability of filter controls for CSM in the Now Assist Guardian interface, allowing users to toggle the base system filters on and off. Filtered results display in a user-friendly format for quick case review and action.
+    Availability of filter controls for CSM in the AI Guardian interface, allowing users to toggle the base system filters on and off. Filtered results display in a user-friendly format for quick case review and action.
 
 
 -   **[Metrics to measure genAI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/skills-performnace-dashboard.md)**
 
-    Monitor how users engage with genAI and agentic skills in Now Assist for CSM to provide actionable dashboards and reports for workflow optimization.
+    Monitor how users engage with genAI and agentic skills in ServiceNow Otto for CSM to provide actionable dashboards and reports for workflow optimization.
 
 -   **[Navigation to customer 360 insights summary card in cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/now-assist-csm-summarize-case.md)**
 
@@ -124,7 +128,7 @@ See [Now Assist for Customer Service Management \(CSM\)](https://raw.githubuserc
 
 -   **[Enabled the is\_template property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/clone-the-now-assist-for-csm-skills.md)**
 
-    Enabled the is\_template property for all Now Assist skills to clone consistently. Clone any base system genAI skill and customize it in the Now Assist Skill Kit to set up quickly and simplify skill modification. Applies to all Now Assist for CSM skills.
+    Enabled the is\_template property for all Now Assist skills to clone consistently. Clone any base system genAI skill and customize it in the AI Skill Kit to set up quickly and simplify skill modification. Applies to all ServiceNow Otto for CSM skills.
 
 -   **[Access the Sentiment analysis dashboard in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/use-sentiment-analysis-dashboard.md)**
 
@@ -155,9 +159,9 @@ See [Now Assist for Customer Service Management \(CSM\)](https://raw.githubuserc
 
     Implement security on AI agents and agentic workflows through ACLs and user identities.
 
--   **[Now Assist for CSM genAI security directives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/configure-chat-summarization-in-now-assist_0.md)**
+-   **[ServiceNow Otto for CSM genAI security directives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/configure-chat-summarization-in-now-assist_0.md)**
 
-    Implement security in Now Assist for CSM skills through ACLs and user identities.
+    Implement security in ServiceNow Otto for CSM skills through ACLs and user identities.
 
 
 -   **[New third-party AI model provider options available for all AI applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/exploring-large-language-models.md)**
@@ -167,6 +171,11 @@ See [Now Assist for Customer Service Management \(CSM\)](https://raw.githubuserc
 
 ## Changed in this release
 
+-   **[Now Assist &gt; ServiceNow Otto® announcement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/sn-ai-implementation-landing.md)**
+
+    ServiceNow Otto® introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+
+
 -   **[Now LLM service deprecation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/exploring-large-language-models.md)**
 
     The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
@@ -175,7 +184,7 @@ See [Now Assist for Customer Service Management \(CSM\)](https://raw.githubuserc
 
     Enable admins to filter scoring parameters and sort agents and case lists. Admins can sort data, manage filters, and easily organize cases on the dashboard with the new sorting, visibility, and skill management capabilities.
 
--   **[Activate Now Assist Skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/activate-now-assist-for-customer-service-management-csm-skills_0.md)**
+-   **[Activate ServiceNow Otto Skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/activate-now-assist-for-customer-service-management-csm-skills_0.md)**
 
     Admins can view detailed information about each Now Assist skill to make faster and more informed decisions about enabling skill capabilities
 
@@ -191,12 +200,12 @@ See [Now Assist for Customer Service Management \(CSM\)](https://raw.githubuserc
 
 -   **[Configure knowledge generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/configure-knowledge-generation-in-now-assist_0.md)**
 
-    Enable users with the **sn\_skill\_builder.admin** role to generate knowledge base articles in Now Assist for CSM by selecting the required input fields from a task record, reducing manual effort and streamlining the knowledge base generation process.
+    Enable users with the **sn\_skill\_builder.admin** role to generate knowledge base articles in ServiceNow Otto for CSM by selecting the required input fields from a task record, reducing manual effort and streamlining the knowledge base generation process.
 
 
 -   **[Configure Sidebar Summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/configure-sidebar-summarization-in-now-assist.md)**
 
-    Enable customers to generate summaries from the required case and task tables in Now Assist for CSM as default tables can now be pre-selected and locked.
+    Enable customers to generate summaries from the required case and task tables in ServiceNow Otto for CSM as default tables can now be pre-selected and locked.
 
 
 -   **[Changes to Complaint Case AI agent collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/accelerate-complaint-case-handling.md)**
@@ -219,12 +228,12 @@ See [Now Assist for Customer Service Management \(CSM\)](https://raw.githubuserc
 
 -   **[Changes to Now Assist usage measurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/monitoring-now-assist-usage.md)**
 
-    Starting with Zurich Early Access, AI usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
+    Starting with Australia Early Access, AI usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: AI Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
 
 -   **[Enhancement in case summarization skill flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/case-summarization-generation-in-now-assist.md)**
 
-    The **Define trigger** step has been added to the case summarization flow. This step enables admins to choose between the User Trigger option, where users select a button to generate a summary, and the Automatic Trigger option, where summaries are automatically generated based on specified conditions.
+    The **Define trigger** step has been added to the case summarization flow. Admins can choose between the User Trigger option, where users select a button to generate a summary, and the Automatic Trigger option, where summaries are generated automatically.
 
 -   **[Enhancement in email reply recommendation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/generate-email-reply-recommendations.md)**
 
@@ -232,11 +241,11 @@ See [Now Assist for Customer Service Management \(CSM\)](https://raw.githubuserc
 
 -   **[Unified admin experience for Now Assist skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/customizing-now-assist-skills.md)**
 
-    Skills cloned in Now Assist Admin console can now be edited in Now Assist Skill Kit. This update unifies the admin experience across Now Assist Admin and Now Assist Skill Kit, enabling users to add headers, configure prompts, and manage Now Assist skills in one location. The migration supports case summarization and resolution notes generation.
+    Skills cloned in AI Admin Hub console can now be edited in AI Skill Kit. This update unifies the admin experience across AI Admin Hub and AI Skill Kit, enabling users to add headers, configure prompts, and manage Now Assist skills in one location. The migration supports case summarization and resolution notes generation.
 
 -   **[Role configuration required for agentic workflows and AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/aia-role-masking.md)**
 
-    Agentic workflows and AI agents included with Now Assist applications require additional security configuration. If you select **Users with selected roles** for your user access security controls for an agentic workflow or AI agent, you must add the installed roles, or they won't execute. Data access settings must also include these roles. See the documentation for the agentic workflow or AI agent for the specific roles you must add. After the roles are configured, users must have the specified role to invoke the agentic workflow or AI agent.
+    Agentic workflows and AI agents included with your applications require additional security configuration. If you select **Users with selected roles** for your user access security controls for an agentic workflow or AI agent, you must add the installed roles, or they will not execute. See the documentation for the agentic workflow or AI agent for the specific roles you must add.
 
 -   **[Display sentiment scale in case list view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/analyze-sentiments-in-now-assist-for-csm.md)**
 
@@ -250,7 +259,7 @@ See [Now Assist for Customer Service Management \(CSM\)](https://raw.githubuserc
 
 -   **[Suggested steps in the Recommended Actions tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/suggested-steps-generation-in-now-assist-for-customer-service-management-csm.md)**
 
-    View the suggested steps on the **Recommended Actions** tab in the contextual side panel. If suggested steps are available for a case, Now Assist for CSM generates and displays these steps in a card at the top of the **Recommended Actions** tab.
+    View the suggested steps on the **Recommended Actions** tab in the contextual side panel. If suggested steps are available for a case, ServiceNow Otto for CSM generates and displays these steps in a card at the top of the **Recommended Actions** tab.
 
 -   **[KB generation skill configuration enhancement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/now-assist-csm-configuring.md)**
 
@@ -259,15 +268,15 @@ See [Now Assist for Customer Service Management \(CSM\)](https://raw.githubuserc
 
 ## Activation information
 
-Now Assist features are available with activation of the Now Assist for CSM plugin. For more information, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+Now Assist features are available with activation of the ServiceNow Otto for CSM plugin. For more information, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 
-Starting with Vancouver Patch 4, Now Assist for CSM is supported.
+Starting with Vancouver Patch 4, ServiceNow Otto for CSM is supported.
 
 Starting with Zurich Patch 7, Customer Service Management AI agent collection is supported.
 
 ## Additional requirements
 
-Check your entitlements to determine whether you have access to the Now Assist for CSM application.
+Check your entitlements to determine whether you have access to the ServiceNow Otto for CSM application.
 
 ## Related ServiceNow applications and features
 
@@ -275,9 +284,9 @@ Check your entitlements to determine whether you have access to the Now Assist f
 
     Help improve the productivity and efficiency in your organization, deliver better self-service, recommend actions, provide answers, and empower your users to search more effectively.
 
--   **[Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configuring-now-assist.md)**
+-   **[AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configuring-now-assist.md)**
 
-    Use the Now Assist Admin console to provide you with quick and easy access to the important information that you need to set up, configure, and monitor Now Assist applications and features.
+    Use the AI Admin Hub console to provide you with quick and easy access to the important information that you need to set up, configure, and monitor Now Assist applications and features.
 
 -   **[Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-panel-overview.md)**
 

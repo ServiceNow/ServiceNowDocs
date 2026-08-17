@@ -32,7 +32,7 @@ The base system includes sample SIG questionnaires. These questionnaires don’t
 
 Yes-or-no questions in the sample SIG questionnaires don’t include scoring logic. By default, all Yes answers in the samples are graded as correct. You must configure the logic for your own needs.
 
-## SIG Limitations
+## SIG limitations
 
 Your third party might run into the following issues when using a SIG:
 
@@ -43,4 +43,13 @@ Your third party might run into the following issues when using a SIG:
 **Note:** For more information about using the GRC: SIG Questionnaire Integration plugin, see [Standardized Information Gathering \(SIG\) Questionnaire Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/grc-sig-integration.md), [Install the GRC: SIG Questionnaire Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/install-grc-sig-plugin.md), and [Verify the SIG Questionnaire Integration in Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/verify-grc-sig-vendor-risk.md).
 
 For instructions that you can send to third-party contacts, see [Respond using the SIG](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-tpcontact-use-sig.md).
+
+**Related topics**  
+
+
+[Managing the Third-party portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/vendor-portal.md)
+
+[Using a Microsoft Excel spreadsheet template for external questionnaires](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-excel-template-support.md)
+
+[Respond using the SIG](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-tpcontact-use-sig.md)
 

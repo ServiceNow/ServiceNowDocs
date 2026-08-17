@@ -7,7 +7,7 @@ release: zurich
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: concept
-last_updated: "2025-08-18"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [use]
 breadcrumb: [Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
@@ -21,7 +21,7 @@ Use the following areas of Enterprise Agile Planning to plan, track, and collabo
 
 -   **Manage team backlog**
 
-    Create, update, and prioritize work items from the Backlog page. Schedule work into Planning Intervals \(PIs\) or Sprints, make inline edits, and track progress at every level of your agile structure, from Agile Teams up through ARTs, Solution Trains, and Portfolios.
+    Create, update, and prioritize work items from the Backlog page. Schedule work into Planning Intervals \(PIs\) or Sprints, make inline edits. You can also track progress at every level of your agile structure, from Agile Teams up through ARTs, Solution Trains, and Portfolios.
 
 -   **Perform PI planning**
 

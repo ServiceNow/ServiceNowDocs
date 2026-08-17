@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-uibuilder-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -75,23 +75,23 @@ Zurich
 
 </td><td>
 
--   **[Build and customize components](https://servicenow-staging.fluidtopics.net/access?context=component-builder&family=zurich&ft:locale=en-US)**
+-   **[Build and customize components](https://www.servicenow.com/docs/access?context=component-builder&family=zurich&ft:locale=en-US)**
 
 Build custom components and configure them to be used across pages and experiences.
 
--   **[Utilize AI on pages you are building](https://servicenow-staging.fluidtopics.net/access?context=add-skill&family=zurich&ft:locale=en-US)**
+-   **[Utilize AI on pages you are building](https://www.servicenow.com/docs/access?context=add-skill&family=zurich&ft:locale=en-US)**
 
 Easily add generative AI capabilities to any page, component, or controller
 
--   **[Get conversational help with the Now Assist panel](https://servicenow-staging.fluidtopics.net/access?context=uib-now-assist-panel&family=zurich&ft:locale=en-US)**
+-   **[Get conversational help with the Now Assist panel](https://www.servicenow.com/docs/access?context=uib-now-assist-panel&family=zurich&ft:locale=en-US)**
 
 Ask questions directly in the Now Assist panel to receive immediate AI-driven guidance without leaving UI Builder.
 
--   **[Build pages and gain page insights using the Now Assist panel in UI Builder.](https://servicenow-staging.fluidtopics.net/access?context=using-ui-builder-agent&family=zurich&ft:locale=en-US)**
+-   **[Build pages and gain page insights using the Now Assist panel in UI Builder.](https://www.servicenow.com/docs/access?context=using-ui-builder-agent&family=zurich&ft:locale=en-US)**
 
 As of UI Builder Version 28.2, use Now Assist to add components, bind data, adjust layouts, and get page insights such as number of components, data resource information, and access permissions.
 
--   **[Add test values in Component Builder](https://servicenow-staging.fluidtopics.net/access?context=component-builder&family=zurich&ft:locale=en-US)**
+-   **[Add test values in Component Builder](https://www.servicenow.com/docs/access?context=component-builder&family=zurich&ft:locale=en-US)**
 
 As of UI Builder Version 28.2, define simulated page parameters to preview and validate how customer components behave during development.
 
@@ -123,27 +123,27 @@ Zurich
 
 </td><td>
 
--   **[Add events to track components with unsaved changes](https://servicenow-staging.fluidtopics.net/access?context=dirty-state-event&family=zurich&ft:locale=en-US)**
+-   **[Add events to track components with unsaved changes](https://www.servicenow.com/docs/access?context=dirty-state-event&family=zurich&ft:locale=en-US)**
 
 Use an event to quickly identify modified components.
 
--   **[Configure alerts to auto-dismiss](https://servicenow-staging.fluidtopics.net/access?context=uib-configure-alerts&family=zurich&ft:locale=en-US)**
+-   **[Configure alerts to auto-dismiss](https://www.servicenow.com/docs/access?context=uib-configure-alerts&family=zurich&ft:locale=en-US)**
 
 Enable alerts to auto-dismiss across an experience by configuring all of them in the experience settings or individually through an event.
 
--   **[Use pages across experiences](https://servicenow-staging.fluidtopics.net/access?context=use-across-pages&family=zurich&ft:locale=en-US)**
+-   **[Use pages across experiences](https://www.servicenow.com/docs/access?context=use-across-pages&family=zurich&ft:locale=en-US)**
 
 Share and reuse pages across workspaces without switching contexts or rebuilding content to help save time and simplify maintenance.
 
--   **[Use the floating Now Assist panel to streamline your workflow](https://servicenow-staging.fluidtopics.net/access?context=uib-now-assist-panel&family=zurich&ft:locale=en-US)**
+-   **[Use the floating Now Assist panel to streamline your workflow](https://www.servicenow.com/docs/access?context=uib-now-assist-panel&family=zurich&ft:locale=en-US)**
 
 As of UI Builder version 28.2, the fixed Now Assist panel has been replaced with a drag-enabled floating panel improving layout flexibility and workflow visibility.
 
--   **[Specify your page type in the Create a page wizard](https://servicenow-staging.fluidtopics.net/access?context=create-page&family=zurich&ft:locale=en-US)**
+-   **[Specify your page type in the Create a page wizard](https://www.servicenow.com/docs/access?context=create-page&family=zurich&ft:locale=en-US)**
 
 As of UI Builder version 28.2, the Create a page wizard now includes a page**Type** dropdown field. This new field helps you to later identify and filter important pages within the Experience view list, especially helpful in large experiences with many pages.
 
--   **[Explore the newly enhanced Experience view](https://servicenow-staging.fluidtopics.net/access?context=nav-uib&family=zurich&ft:locale=en-US)**
+-   **[Explore the newly enhanced Experience view](https://www.servicenow.com/docs/access?context=nav-uib&family=zurich&ft:locale=en-US)**
 
 As of UI Builder version 28.2, the Experience view has improved usability in the following ways:
 
@@ -386,7 +386,7 @@ Zurich
 -   Add Now Assist skills to enhance your page, component, or controller with generative AI capabilities.
 -   Get instant conversational help within UI Builder through the Now Assist Panel.
 
- See [UI Builder](https://servicenow-staging.fluidtopics.net/access?context=ui-builder-overview&family=zurich&ft:locale=en-US) for more information.
+ See [UI Builder](https://www.servicenow.com/docs/access?context=ui-builder-overview&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

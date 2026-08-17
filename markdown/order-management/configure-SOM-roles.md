@@ -164,7 +164,7 @@ Order Viewer \[order\_viewer\]
 
 View access to customer orders, product orders, product order tasks, service orders, and resource orders. You should also grant an order viewer with the sn\_prd\_pm.product\_catalog\_viewer role to access the product catalog data.
 
- **Note:** The order approver and order viewer roles are included in the Order Management Business Stakeholder role, which has a fee associated with it. Don’t assign these roles to users without confirming that your organization has the appropriate entitlement. To learn more, see .
+ **Note:** The order approver and order viewer roles are included in the Order Management Business Stakeholder role, which has a fee associated with it. Don’t assign these roles to users without confirming that your organization has the appropriate entitlement. To learn more, see [Activate Business Stakeholder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/activate-business-stakeholders.md).
 
 </td></tr><tr><td>
 

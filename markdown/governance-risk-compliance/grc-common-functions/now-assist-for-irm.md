@@ -1,6 +1,6 @@
 ---
-title: Now Assist for Integrated Risk Management \(IRM\)
-description: Use the Now Assist for Integrated Risk Management \(IRM\) plugin to summarize issue records, identify potential risks, and review controls using generative AI. It helps you quickly understand the context of records, reduce manual effort, and make faster, more informed decisions by delivering relevant insights directly within your existing workflows.
+title: ServiceNow Otto for Integrated Risk Management \(IRM\)
+description: Use the ServiceNow Otto for Integrated Risk Management \(IRM\) plugin to summarize issue records, identify potential risks, and review controls using generative AI. It helps you quickly understand the context of records, reduce manual effort, and make faster, more informed decisions by delivering relevant insights directly within your existing workflows.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/now-assist-for-irm.html
 release: zurich
@@ -13,9 +13,9 @@ keywords: [Now Assist, generative AI]
 breadcrumb: [Common GRC features, Governance, Risk, and Compliance]
 ---
 
-# Now Assist for Integrated Risk Management \(IRM\)
+# ServiceNow Otto for Integrated Risk Management \(IRM\)
 
-Use the Now Assist for Integrated Risk Management \(IRM\) plugin to summarize issue records, identify potential risks, and review controls using generative AI. It helps you quickly understand the context of records, reduce manual effort, and make faster, more informed decisions by delivering relevant insights directly within your existing workflows.
+Use the ServiceNow Otto for Integrated Risk Management \(IRM\) plugin to summarize issue records, identify potential risks, and review controls using generative AI. It helps you quickly understand the context of records, reduce manual effort, and make faster, more informed decisions by delivering relevant insights directly within your existing workflows.
 
 ## Get started
 
@@ -37,7 +37,7 @@ Use the Now Assist for Integrated Risk Management \(IRM\) plugin to summarize is
 
 </td><td>
 
-[Use agentic AI\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Use the Now Assist for Integrated Risk Management AI agents to complete tasks autonomously.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/use-agentic-ai-in-risk-sustainability.md)
+[Use agentic AI\[Omitted image "bus-ai-otto.svg"\] Alt text:Use the Now Assist for Integrated Risk Management AI agents to complete tasks autonomously.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/use-agentic-ai-in-risk-sustainability.md)
 
 </td><td>
 

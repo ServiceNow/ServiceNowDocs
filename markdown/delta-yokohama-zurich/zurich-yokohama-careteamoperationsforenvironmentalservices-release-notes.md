@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-careteamoperationsforenvironmentalservices-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -75,20 +75,20 @@ Zurich
 
 </td><td>
 
--   **[Healthcare Environmental Services case](https://servicenow-staging.fluidtopics.net/access?context=cto-evs-case-overview&family=zurich&ft:locale=en-US)**
+-   **[Healthcare Environmental Services case](https://www.servicenow.com/docs/access?context=cto-evs-case-overview&family=zurich&ft:locale=en-US)**
 
 Expand Healthcare Environmental Services cases to support custom support requests for your organization’s environmental services support department.
 
--   **[Create environmental services support requests](https://servicenow-staging.fluidtopics.net/access?context=cto-evs-create-requests&family=zurich&ft:locale=en-US)**
+-   **[Create environmental services support requests](https://www.servicenow.com/docs/access?context=cto-evs-create-requests&family=zurich&ft:locale=en-US)**
 
 Request support from your organization’s environmental services department with pre-configured catalog items.
 
--   **[Healthcare Environmental Services case and work order synchronization](https://servicenow-staging.fluidtopics.net/access?context=cto-evs-fulfill-requests&family=zurich&ft:locale=en-US)**
+-   **[Healthcare Environmental Services case and work order synchronization](https://www.servicenow.com/docs/access?context=cto-evs-fulfill-requests&family=zurich&ft:locale=en-US)**
 
 Care Team Operations for Environmental Services automatically syncs environmental services cases with work orders.
 
 
--   **[Setting up roles and responsibilities in Care Team Operations for Environmental Services](https://servicenow-staging.fluidtopics.net/access?context=cto-evs-set-up-roles-responsibilities&family=zurich&ft:locale=en-US)**
+-   **[Setting up roles and responsibilities in Care Team Operations for Environmental Services](https://www.servicenow.com/docs/access?context=cto-evs-set-up-roles-responsibilities&family=zurich&ft:locale=en-US)**
 
 Roles and responsibilities are updated to allow for more selective user access.
 
@@ -213,7 +213,7 @@ Zurich
 
 </td><td>
 
-Install Care Team Operations for Environmental Services by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+Install Care Team Operations for Environmental Services by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -363,7 +363,7 @@ Zurich
 -   Gain full visibility into reported environmental services support cases while enabling environmental service support teams to manage and fulfill them as work orders or work orders tasks when Field Service Management is installed.
 -   Assign roles and responsibilities more efficiently with a streamlined user configuration processes.
 
- See [Care Team for Environmental Services](https://servicenow-staging.fluidtopics.net/access?context=cto-evs-landing&family=zurich&ft:locale=en-US) for more information.
+ See [Care Team for Environmental Services](https://www.servicenow.com/docs/access?context=cto-evs-landing&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

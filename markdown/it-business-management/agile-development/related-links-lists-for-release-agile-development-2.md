@@ -1,6 +1,6 @@
 ---
 title: Related lists for a Release in Agile Development 2.0
-description: Use the related lists in the Release form for the actions that you need to perform for your release in Agile Development 2.0, such as associating products, stories, or assignment groups.
+description: Use the related lists in the Release form for the actions that you need to perform for your release in Agile Development 2.0. These actions include associating products, stories, or assignment groups.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/agile-development/related-links-lists-for-release-agile-development-2.html
 release: zurich
@@ -14,7 +14,7 @@ breadcrumb: [Reference, Agile Development 2.0, Strategic Portfolio Management]
 
 # Related lists for a Release in Agile Development 2.0
 
-Use the related lists in the Release form for the actions that you need to perform for your release in Agile Development 2.0, such as associating products, stories, or assignment groups.
+Use the related lists in the Release form for the actions that you need to perform for your release in Agile Development 2.0. These actions include associating products, stories, or assignment groups.
 
 <table id="table_release_related_list"><thead><tr><th>
 

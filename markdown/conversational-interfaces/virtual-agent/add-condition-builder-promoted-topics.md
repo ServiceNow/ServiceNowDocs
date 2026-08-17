@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2025-09-25"
 reading_time_minutes: 1
 keywords: [virtual agent, promoted, asset, condition, builder]
-breadcrumb: [Getting started with Virtual Agent Designer, Build and deploy, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Getting started with Assistant Designer Asset library, Build and deploy, Virtual Agent, Conversational Interfaces]
 ---
 
 # Add a condition builder to promoted assets
@@ -21,7 +21,7 @@ You can define a condition for a given promoted Virtual Agent topic to bring it 
 
 Role required: virtual\_agent\_admin or admin.
 
-To define a condition for a topic, you must promote it first. For more information, see [Promote or demote LLM conversational subflows, actions, and topics in Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/promote-demote-va-topics.md).
+To define a condition for a topic, you must promote it first. For more information, see [Promote or demote LLM assets in Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/promote-demote-va-topics.md).
 
 ## About this task
 
@@ -52,7 +52,7 @@ The promoted asset’s **Condition** on the Promoted Skills table shows the defi
 
 The promoted asset now shows **Condition defined** next to the **Promoted** checkmark.
 
-The promoted asset also displays at the top of the list of promoted assets in a Virtual Agent Now Assist panel chat window.
+The promoted asset also displays at the top of the list of promoted assets in a Virtual Agent ServiceNow Otto panel chat window.
 
-**Parent Topic:**[Getting started with Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
+**Parent Topic:**[Getting started with Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
 

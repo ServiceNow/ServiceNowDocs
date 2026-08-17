@@ -1,6 +1,6 @@
 ---
-title: Now Assist Q&amp;A Genius Results
-description: Now Assist Q&amp;A Genius Results use the Now LLM Service to generate concise, actionable answers from knowledge article results in Service Portal, Virtual Agent, Employee Center, and global searches.
+title: Knowledge base articles Genius Results
+description: Knowledge base articles Genius Results use the LLM to generate concise, actionable answers from knowledge article results in Service Portal, Virtual Agent, Employee Center, and global searches.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/now-assist-qna-genius-results.html
 release: zurich
@@ -8,58 +8,62 @@ product: AI Search
 classification: ai-search
 topic_type: concept
 last_updated: "2025-10-03"
-reading_time_minutes: 7
+reading_time_minutes: 8
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configuring Now Assist in AI Search, Now Assist in AI Search, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer]
+breadcrumb: [Configuring Now Assist in AI Search, ServiceNow Otto for AI Search, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer]
 ---
 
-# Now Assist Q&amp;A Genius Results
+# Knowledge base articles Genius Results
 
-Now Assist Q&amp;A Genius Results use the Now LLM Service to generate concise, actionable answers from knowledge article results in Service Portal, Virtual Agent, Employee Center, and global searches.
+Knowledge base articles Genius Results use the LLM to generate concise, actionable answers from knowledge article results in Service Portal, Virtual Agent, Employee Center, and global searches.
 
-**Important:** Starting with the Now Assist in AI Search 11 release, the Now Assist Q&amp;A Genius Results feature is in maintenance mode. This feature will remain available but will not be updated or supported. Similar and improved functionality is available in the newer Now Assist Multi-Content Response Genius Results feature. For more details on this feature, see [Now Assist Multi-Content Response Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/now-assist-multi-content-qna-genius-results.md).
+**Important:** Starting with the Now Assist in AI Search 11 release, the Knowledge base articles Genius Results feature is in maintenance mode. This feature will remain available but will not be updated or supported. Similar and improved functionality is available in the newer Summary Genius Results feature. For more details on this feature, see [Summary Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/now-assist-multi-content-qna-genius-results.md).
 
-## Now Assist Q&amp;A Genius Results overview
+## Knowledge base articles Genius Results overview
 
-Now Assist Q&amp;A Genius Results send the most relevant knowledge articles from your search to the Now LLM Service, which generates answer snippets from the articles' HTML fields.
+Knowledge base articles Genius Results send the most relevant knowledge articles from your search to the LLM, which generates answer snippets from the articles' HTML fields.
 
-Each Now Assist Q&amp;A Genius Result answer card displays up to three generated answer snippets. For reference, the answer card also includes a link you can select to view the source knowledge articles.
+Each Knowledge base articles Genius Result answer card displays up to three generated answer snippets. For reference, the answer card also includes a link you can select to view the source knowledge articles.
 
-Now Assist Q&amp;A Genius Results use semantic vector search and legacy keyword search to find knowledge articles that best match the meaning and intent of your search query. For more details on semantic vector search, see [Semantic vector search in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/semantic-search-ais.md).
+The Knowledge base articles Genius Result answer card contains a snippet that summarizes a knowledge article. Select the answer card's **View article** action link to view the full knowledge article.
 
-The Now Assist Q&amp;A Genius Result configuration replaces the original Q&amp;A Genius Result configuration from the base system. The base system's Q&amp;A Genius Result configuration extracts answers from knowledge articles using internal routines instead of using the Now LLM Service. To learn more about the base system's Q&amp;A Genius Result configuration, see [Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/genius-result-q-a-ais.md).
+**Note:** Because the Knowledge base articles Genius Result answer is automatically generated, it's a good idea to review it for accuracy. You can provide feedback on the answer by selecting the thumbs-up icon \[Omitted image "genius-result-feedback-positive.png"\] Alt text: if the generated answer is accurate, or the thumbs-down icon \[Omitted image "genius-result-feedback-negative.png"\] Alt text: if it's not. Your feedback helps ServiceNow improve future versions of this Genius Result configuration.
 
-## Enabling Now Assist Q&amp;A Genius Results
+Knowledge base articles Genius Results use semantic vector search and legacy keyword search to find knowledge articles that best match the meaning and intent of your search query. For more details on semantic vector search, see [Semantic vector search in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/semantic-search-ais.md).
 
-You can enable Now Assist Q&amp;A Genius Results in your AI Search portals and mobile applications using the Now Assist in AI Search Setup module. For details on this procedure, see [Enable Now Assist Genius Results in AI Search portals and mobile applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/enable-now-assist-gr-ais-apps.md).
+The Knowledge base articles Genius Result configuration replaces the original Q&amp;A Genius Result configuration from the base system. The base system's configuration extracts answers from knowledge articles using internal routines instead of using the LLM. To learn more about the base system's Q&amp;A Genius Result configuration, see [Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/genius-result-q-a-ais.md).
 
-To use Now Assist Q&amp;A Genius Results in global search, you can enable the Now Assist Q&amp;A Genius Result configuration in the AI Search for Next Experience application. For details on this procedure, see [Enabling Now Assist Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/enabling-now-assist-qa-grs.md).
+## Enabling Knowledge base articles Genius Results
 
-**Note:** When you activate Now Assist Q&amp;A Genius Results in a search application, they're available to all users who search using that application.
+You can enable Knowledge base articles Genius Results in your AI Search portals and mobile applications using the ServiceNow® Otto for AI Search Setup module. For details on this procedure, see [Enable ServiceNow Otto for AI Search Genius Results in AI Search portals and mobile applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/enable-now-assist-gr-ais-apps.md).
+
+To use Knowledge base articles Genius Results in global search, you can enable the configuration in the AI Search for Next Experience application. For details on this procedure, see [Enabling Now Assist Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/enabling-now-assist-qa-grs.md).
+
+**Note:** When you activate Knowledge base articles Genius Results in a search application, they're available to all users who search using that application.
 
 ## Limitations
 
-By default, Now Assist Q&amp;A Genius Results only support English-language searches. Administrators can enable support for other languages by activating Dynamic Translation. To learn more about how content and answers are translated, see [Dynamic Translation for Now Assist Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/dynamic-translation-na-gr.md). For more details on Dynamic Translation, see [Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/dynamic-translation/dynamic-translation-overview.md).
+By default, Knowledge base articles Genius Results only support English-language searches. Administrators can enable support for other languages by activating Dynamic Translation. To learn more about how content and answers are translated, see [Dynamic Translation for Now Assist Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/dynamic-translation-na-gr.md). For more details on Dynamic Translation, see [Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/dynamic-translation/dynamic-translation-overview.md).
 
-Knowledge articles that are boosted or promoted by result improvement rules are more likely to appear as Now Assist Q&amp;A Genius Results, but aren't guaranteed to appear.
+Knowledge articles that are boosted or promoted by result improvement rules are more likely to appear as Knowledge base articles Genius Results, but aren't guaranteed to appear.
 
-**Note:** The Knowledge search property settings don't affect Now Assist Q&amp;A Genius Results. For more information on these settings, see [Knowledge search properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/r_KnowledgeProperties.md).
+**Note:** The Knowledge search property settings don't affect Knowledge base articles Genius Results. For more information on these settings, see [Knowledge search properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/r_KnowledgeProperties.md).
 
-If you have the External Content Connectors ServiceNow® Store application installed, Now Assist Q&amp;A Genius Results exclude search results retrieved from external content source systems when generating answers.
+If you have the External Content Connectors ServiceNow® Store application installed, Knowledge base articles Genius Results exclude search results retrieved from external content source systems when generating answers.
 
-## Answer snippet creation for Now Assist Q&amp;A Genius Results
+## Answer snippet creation for Knowledge base articles Genius Results
 
-AI Search uses the Now LLM Service to create each Now Assist Q&amp;A answer snippet from a knowledge article record's HTML fields. Each Now Assist Q&amp;A answer card can include up to three snippets. These snippets may all be generated from the same source article or from different source articles.
+AI Search uses the LLM to create each Knowledge base articles answer snippet from a knowledge article record's HTML fields. Each answer card can include up to three snippets. These snippets may all be generated from the same source article or from different source articles.
 
-Now LLM Service automatically determines which elements of a knowledge article's text to include in a Now Assist Q&amp;A answer snippet. You can't configure the criteria for this behavior.
+LLM automatically determines which elements of a knowledge article's text to include in an answer snippet. You can't configure the criteria for this behavior.
 
-The Now LLM Service summarizes and abstracts content from the knowledge articles' text fields. Answer snippets displayed on Now Assist Q&amp;A Genius Result answer cards may not exist word for word in the source records.
+The LLM summarizes and abstracts content from the knowledge articles' text fields. Answer snippets displayed on Knowledge base articles Genius Result answer cards may not exist word for word in the source records.
 
-Both AI Search content retrieval and the Now LLM Service are continually improving, so Now Assist Q&amp;A results for specific queries may vary over time. Because results from the Now LLM Service are non-deterministic, you should expect a higher answer variability compared to the base system's Q&amp;A Genius Results.
+Both AI Search content retrieval and the LLM are continually improving, so Now Assist Q&amp;A results for specific queries may vary over time. Because results from the LLM are non-deterministic, you should expect a higher answer variability compared to the base system's Q&amp;A Genius Results.
 
 ## Interaction with other search features
 
-The following table describes the interactions between Now Assist Q&amp;A Genius Results and other search features.
+The following table describes the interactions between Knowledge base articles Genius Results and other search features.
 
 <table id="table_qx4_4vz_nrb"><thead><tr><th>
 
@@ -75,10 +79,10 @@ Interaction with Now Assist Q&amp;A Genius Results
 
 </td><td>
 
-When computing Now Assist Q&amp;A Genius Result answers for a search query, AI Search applies result improvement rules normally. The effects depend on the result improvement rule's action, as follows:
+When computing Knowledge base articles Genius Result answers for a search query, AI Search applies result improvement rules normally. The effects depend on the result improvement rule's action, as follows:
 
--   **block**: Now Assist Q&amp;A Genius Results don't generate answers from blocked records.
--   **boost** or **promote**: Boosted and promoted records are more likely to be used when generating Now Assist Q&amp;A Genius Result answers.
+-   **block**: Knowledge base articles Genius Results don't generate answers from blocked records.
+-   **boost** or **promote**: Boosted and promoted records are more likely to be used when generating Knowledge base articles Genius Result answers.
 
 </td></tr><tr><td>
 
@@ -86,7 +90,7 @@ When computing Now Assist Q&amp;A Genius Result answers for a search query, AI S
 
 </td><td>
 
-Now Assist Q&amp;A Genius Results use a blend of semantic vector search, which doesn't support stop words, and keyword-based search. AI Search only removes stop words from keyword-based searches, so Now Assist Q&amp;A Genius Result answers may not reflect your stop words settings.
+Knowledge base articles Genius Results use a blend of semantic vector search, which doesn't support stop words, and keyword-based search. AI Search only removes stop words from keyword-based searches, so answers may not reflect your stop words settings.
 
 </td></tr><tr><td>
 
@@ -94,7 +98,7 @@ Now Assist Q&amp;A Genius Results use a blend of semantic vector search, which d
 
 </td><td>
 
-Now Assist Q&amp;A Genius Results use a blend of semantic vector search, which doesn't support synonyms, and keyword-based search. AI Search expands synonyms in keyword-based searches, so your synonyms are likely to improve the relevancy of Now Assist Q&amp;A Genius Result answers.
+Knowledge base articles Genius Results use a blend of semantic vector search, which doesn't support synonyms, and keyword-based search. AI Search expands synonyms in keyword-based searches, so your synonyms are likely to improve the relevancy of Genius answers.
 
 </td></tr><tr><td>
 
@@ -102,15 +106,15 @@ Now Assist Q&amp;A Genius Results use a blend of semantic vector search, which d
 
 </td><td>
 
-When computing Now Assist Q&amp;A Genius Result answers for a search query, AI Search corrects misspelled terms in the query.
+When computing Knowledge base articles Genius Result answers for a search query, AI Search corrects misspelled terms in the query.
 
 </td></tr></tbody>
 </table>-   **[Enabling Now Assist Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/enabling-now-assist-qa-grs.md)**  
 As a search administrator, you can use the Now Assist Q&amp;A Genius Results skill in AI Search portals and mobile applications by enabling Now Assist Q&amp;A Genius Results in search profiles. You can also use the skill in global search by enabling Now Assist Q&amp;A Genius Results in the AI Search for Next Experience application.
 -   **[Define a query filter for Now Assist Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/define-qry-fltr-now-assist-qna-gr.md)**  
 Define a Java regular expression pattern that a search must match to be eligible for triggering Now Assist Q&amp;A Genius Results. Searches that don't match this pattern don't return Genius Result answers from Now Assist Q&amp;A Genius Results.
--   **[Change the minimum search term count for Now Assist Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/set-min-srch-terms-now-assist-qna.md)**  
-Specify the minimum number of terms that a search must contain to be eligible for triggering Now Assist Q&amp;A Q&amp;A Genius Results. Searches with fewer terms don't return Now Assist Q&amp;A Genius Result answers.
+-   **[Change the minimum search term count for Knowledge base articles Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/set-min-srch-terms-now-assist-qna.md)**  
+Specify the minimum number of terms that a search must contain to be eligible for triggering Knowledge base articles Genius Results. Searches with fewer terms don't return Knowledge base articles Genius Result answers.
 -   **[Dynamic Translation for Now Assist Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/dynamic-translation-na-gr.md)**  
 Dynamic Translation improves the international search experience for knowledge article content. When Dynamic Translation is activated, AI Search can generate Now Assist Q&amp;A Genius Result answers from non-English knowledge articles. Dynamic Translation also enables AI Search to translate Now Assist Q&amp;A Genius Result answers into the search user's language.
 -   **[Caching for Now Assist Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/caching-now-assist-q-a-gr.md)**  

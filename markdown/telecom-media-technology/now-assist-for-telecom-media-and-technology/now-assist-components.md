@@ -1,6 +1,6 @@
 ---
-title: Components installed with Now Assist for Telecommunications, Media and Technology \(TMT\)
-description: Several types of components are installed with activation of the Now Assist for Telecommunications, Media and Technology \(TMT\) application, including tables, user roles, and business rules.
+title: Components installed with ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
+description: Several types of components are installed with activation of the ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) application, including tables, user roles, and business rules.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-components.html
 release: zurich
@@ -12,13 +12,13 @@ reading_time_minutes: 1
 breadcrumb: [Reference, Now Assist for TMT, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
-# Components installed with Now Assist for Telecommunications, Media and Technology \(TMT\)
+# Components installed with ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
 
-Several types of components are installed with activation of the Now Assist for Telecommunications, Media and Technology \(TMT\) application, including tables, user roles, and business rules.
+Several types of components are installed with activation of the ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) application, including tables, user roles, and business rules.
 
 ## Roles
 
-Now Assist for Telecommunications, Media and Technology \(TMT\) adds the following roles:
+ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) adds the following roles:
 
 <table id="table_w1d_5sp_hhc"><thead><tr><th>
 

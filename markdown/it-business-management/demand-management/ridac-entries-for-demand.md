@@ -42,7 +42,7 @@ Add actions that are required for resolving an issue or risk for a demand. You c
 -   **[Add Request Changes to a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/add-request-change-for-demand.md)**  
 As a demand manager, you might create a request change as the outcome of the action taken to resolve an issue or mitigate a risk. The request change might result in changing the demand's scope, resource requirement, cost, or schedule to minimize the impact of a risk or issue.
 -   **[Convert one RIDAC record to another for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/convert-ridac-for-demand.md)**  
-Convert one RIDAC record \(risk, issue, action, decision, and request changes\) to another, in that order to retain the record information instead of having to create a record manually and to track the issue more easily.
+Convert one RIDAC record to another to retain record information and track issues without creating a record manually.
 -   **[Associate existing RIDAC records for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/reassociate-ridac-demand.md)**  
 Link existing RIDAC records \(risks, issues, actions, decisions, and request changes\) to one another for your demand. Associating RIDAC records with each other enables you to keep a record of risks or issues and their outcome for analysis at demand closure and planning. It also helps to track the risks and issues throughout the demand life cycle.
 
@@ -54,6 +54,10 @@ Link existing RIDAC records \(risks, issues, actions, decisions, and request cha
 [Assess demands]()
 
 [Create a demand]()
+
+[Identify similar records using AI]()
+
+[Summarize demands with the demand summarization skill]()
 
 [View demands]()
 
@@ -67,9 +71,7 @@ Link existing RIDAC records \(risks, issues, actions, decisions, and request cha
 
 [Train the similarity solution for Demand Management to find similar demands]()
 
-[Identify similar records using Now Assist for Strategic Portfolio Management \(SPM\)]()
+[PPM PIWB template - Find similar demands]()
 
 [Associate AI systems with demands]()
-
-[Summarize demands with demand summarization skill]()
 

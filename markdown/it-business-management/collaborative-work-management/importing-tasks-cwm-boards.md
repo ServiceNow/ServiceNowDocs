@@ -9,7 +9,7 @@ classification: collaborative-work-management
 topic_type: concept
 last_updated: "2026-05-29"
 reading_time_minutes: 3
-keywords: [Import tasks, Now Assist, CWM, bulk import]
+keywords: [Import tasks, ServiceNow Otto, CWM, bulk import]
 breadcrumb: [Manage work using Boards, Use, Collaborative Work Management, Strategic Portfolio Management]
 ---
 
@@ -27,7 +27,7 @@ The import feature on a CWM Board lets you bring that existing work in from a fi
 
 -   **AI-proposed column mapping**
 
-    Now Assist analyzes your file and proposes a target Board column for each source column based on the data it detects. Because the mapping is AI-generated, review each proposal and adjust as needed before proceeding to the preview.
+    ServiceNow Otto analyzes your file and proposes a target Board column for each source column based on the data it detects. Because the mapping is AI-generated, review each proposal and adjust as needed before proceeding to the preview.
 
 -   **Manual mapping adjustments**
 
@@ -39,7 +39,7 @@ The import feature on a CWM Board lets you bring that existing work in from a fi
 
 -   **Reset to AI mapping**
 
-    If you have adjusted mappings manually and need to start over, you can reset the entire mapping to the original Now Assist proposal.
+    If you have adjusted mappings manually and need to start over, you can reset the entire mapping to the original ServiceNow Otto proposal.
 
 -   **Preview before import**
 
@@ -79,7 +79,7 @@ The available target columns in the mapping step depend on the record type that 
 
 -   **Access requirements**
 
-    The **Import** button is visible only on Boards where Now Assist for CWM is active. You need the sn\_cwm\_ai.cwm\_ai\_user and lens\_user roles.
+    The **Import** button is visible only on Boards where ServiceNow Otto for CWM is active. You need the sn\_cwm\_ai.cwm\_ai\_user and lens\_user roles.
 
 -   **Single file per import**
 
@@ -91,7 +91,7 @@ The available target columns in the mapping step depend on the record type that 
 
 -   **Tabular data required**
 
-    The file must contain structured, tabular data with identifiable rows and columns. Files that contain only freeform or narrative text can't be processed, and the import fails if Now Assist can't detect any importable rows.
+    The file must contain structured, tabular data with identifiable rows and columns. Files that contain only freeform or narrative text can't be processed, and the import fails if ServiceNow Otto can't detect any importable rows.
 
 -   **Import can't be reversed**
 

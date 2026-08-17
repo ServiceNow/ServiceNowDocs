@@ -9,6 +9,7 @@ classification: configuration-management-database-cmdb
 topic_type: concept
 last_updated: "2026-02-25"
 reading_time_minutes: 2
+keywords: [Remediation actions panel, Data Foundations data quality improvement, KPI Details page remediation, stale CIs and duplicate CIs remediation, CIs missing location or owner]
 breadcrumb: [Use Data Foundations advisor, CMDB success advisor, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -36,7 +37,7 @@ To open the Remediation actions panel, select a segment or count on a chart in t
 
 ## Available remediation actions
 
-The Remediation actions panel provides relevant suggestions and actions based on the information in the selected chart. For example, if the chart shows CIs that weren't updated recently, the panel suggests reviewing retirement policies.
+The Remediation actions panel provides relevant suggestions and actions based on the information in the selected chart. For example, if the chart shows CIs that weren't updated recently, the panel displays a suggestion to review retirement policies.
 
 The remediation actions are available for the improvement of the following issues:
 

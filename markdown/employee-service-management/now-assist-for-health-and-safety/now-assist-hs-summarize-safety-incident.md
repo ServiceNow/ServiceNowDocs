@@ -1,6 +1,6 @@
 ---
-title: Summarize a safety incident by using Now Assist for Health and Safety
-description: Generate a summary from the fields that you selected on the safety incident and quickly understand the incident context by using the Health and Safety incident summarization skill in the Now Assist for Health and Safety application.
+title: Summarize a safety incident by using ServiceNow Otto for Health and Safety
+description: Generate a summary from the fields that you selected on the safety incident and quickly understand the incident context by using the Health and Safety incident summarization skill in the ServiceNow Otto for Health and Safety application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-summarize-safety-incident.html
 release: zurich
@@ -9,18 +9,18 @@ classification: now-assist-for-health-and-safety
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Use, Now Assist for Health and Safety, Health and Safety, Employee Service Management]
+breadcrumb: [Use, ServiceNow Otto for Health and Safety, Health and Safety, Employee Service Management]
 ---
 
-# Summarize a safety incident by using Now Assist for Health and Safety
+# Summarize a safety incident by using ServiceNow Otto for Health and Safety
 
-Generate a summary from the fields that you selected on the safety incident and quickly understand the incident context by using the Health and Safety incident summarization skill in the Now Assist for Health and Safety application.
+Generate a summary from the fields that you selected on the safety incident and quickly understand the incident context by using the Health and Safety incident summarization skill in the ServiceNow Otto for Health and Safety application.
 
 ## Before you begin
 
-**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
-Verify that the Health and Safety incident summarization skill is enabled. For more information, see [Activate a Now Assist for Health and Safety skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-activate-skill.md).
+Verify that the Health and Safety incident summarization skill is enabled. For more information, see [Activate a ServiceNow Otto for Health and Safety skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-activate-skill.md).
 
 Role required: sn\_ohs\_im.agent or sn\_ohs\_im.manager
 
@@ -32,7 +32,7 @@ The incident summarization skill is available in Health and Safety Workspace and
 
 -   In Health and Safety Workspace, use the Health and Safety incident summary by Now Assist component to generate a summary. This component appears above the activity stream.
 
-    **Note:** You can also generate a summary on demand from the Now Assist panel. For more information, see [Standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-panel-standard.md).
+    **Note:** You can also generate a summary on demand from the ServiceNow Otto panel. For more information, see [Standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-panel-standard.md).
 
 -   In the Core UI, select the **Summarize** button on the incident record to generate a summary.
 
@@ -50,15 +50,15 @@ The incident summarization skill is available in Health and Safety Workspace and
 
 4.  When you're finished summarizing an incident, you can add it to the incident work notes, expand or collapse it, provide feedback, copy it, or view information about the incident.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d307569e229">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d307662e226">
 
 Option
 
-</th><th align="left" id="d307569e232">
+</th><th align="left" id="d307662e229">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d307569e238">
+</th></tr></thead><tbody><tr><td id="d307662e235">
 
 **Save the summary information by adding it to the work notes**
 
@@ -69,7 +69,7 @@ Procedure
 3.  Select **Save to work notes**.
 
 
-</td></tr><tr><td id="d307569e265">
+</td></tr><tr><td id="d307662e262">
 
 **Expand or collapse the summary**
 
@@ -77,7 +77,7 @@ Procedure
 
 Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: Expand card icon.\) or the collapse card icon \(\[Omitted image "icon-collapse.png"\] Alt text: Collapse card icon.\) to see more details or fewer summary details.
 
-</td></tr><tr><td id="d307569e286">
+</td></tr><tr><td id="d307662e283">
 
 **Provide feedback for the summary**
 
@@ -85,7 +85,7 @@ Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: Expa
 
 If you think that the summary was helpful, select the helpful icon \(\[Omitted image "icon-helpful.png"\] Alt text: Helpful icon.\). If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d307569e309">
+</td></tr><tr><td id="d307662e306">
 
 **Copy the case summary**
 
@@ -93,7 +93,7 @@ If you think that the summary was helpful, select the helpful icon \(\[Omitted i
 
 Select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text: Copy to clipboard icon.\) to use the case summary information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d307569e325">
+</td></tr><tr><td id="d307662e322">
 
 **Refresh the summary**
 
@@ -101,7 +101,7 @@ Select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text: 
 
 Select the refresh icon \(\[Omitted image "refresh-list-icon.png"\] Alt text: Refresh icon.\) to summarize the request again.
 
-</td></tr><tr><td id="d307569e340">
+</td></tr><tr><td id="d307662e337">
 
 **View the information about the case summary**
 

@@ -1,6 +1,6 @@
 ---
-title: Now Assist AI agents
-description: The ServiceNow Now Assist AI agents are entities that mimic human-like intelligence by using large language models \(LLMs\). AI agents can perform tasks that range from simple automated responses to complex problem solving. By using AI agents, you can reduce the workloads of your live agents and help increase their productivity.
+title: AI Agent Studio
+description: The ServiceNow AI agents are entities that mimic human-like intelligence by using large language models \(LLMs\). AI agents can perform tasks that range from simple automated responses to complex problem solving. By using AI agents, you can reduce the workloads of your live agents and help increase their productivity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/na-ai-agents.html
 release: zurich
@@ -10,21 +10,21 @@ reading_time_minutes: 4
 breadcrumb: [Enable AI experiences]
 ---
 
-# Now Assist AI agents
+# AI Agent Studio
 
-The ServiceNow® Now Assist AI agents are entities that mimic human-like intelligence by using large language models \(LLMs\). AI agents can perform tasks that range from simple automated responses to complex problem solving. By using AI agents, you can reduce the workloads of your live agents and help increase their productivity.
+The ServiceNow® AI agents are entities that mimic human-like intelligence by using large language models \(LLMs\). AI agents can perform tasks that range from simple automated responses to complex problem solving. By using AI agents, you can reduce the workloads of your live agents and help increase their productivity.
 
-\[Omitted video\] Description: Now Assist AI agents overview video.
+\[Omitted video\] Description: AI agents overview video.
 
 Learn more about the concepts behind AI agents and how they can help fit your specific business needs.
 
 ## Get started
 
-Select a tile to get started with Now Assist AI agents.
+Select a tile to get started with AI agents.
 
 <table id="table_aj4_wxf_ldc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/exploring-ai-agents.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/exploring-ai-agents.md)
 
 </td><td>
 
@@ -40,17 +40,14 @@ Select a tile to get started with Now Assist AI agents.
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Learn more about the user roles, tables, and properties in Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/na-aia-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Learn more about the user roles, tables, and properties for AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/na-aia-reference.md)
 
 </td><td>
 
  
 
 </td></tr></tbody>
-</table>Looking for an AI agent?
-
--   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/find-ai-agents.md).
--   To find agents that might not be installed on your instance, visit the [AI Agent Marketplace](https://store.servicenow.com/store/ai-marketplace) on the ServiceNow Store.
+</table>There might be AI agents installed on your instance that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/find-ai-agents.md).
 
 **Important:**
 

@@ -76,7 +76,7 @@ Conversational interface that generates production-ready apps end-to-end-   In S
 
 </td></tr><tr><td>
 
-Now Assist for Creator
+ServiceNow Otto for Creator
 
 </td><td>
 
@@ -92,7 +92,7 @@ Medium
 
 </td><td>
 
-Catalog items, record producers, order guidesFor a list of included generative, development, and summarization skills, see [AI-assisted app creation with Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/vibe-code-now-assist-creator.md).
+Catalog items, record producers, order guidesFor a list of included generative, development, and summarization skills, see [AI-assisted app creation with ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/vibe-code-now-assist-creator.md).
 
 </td><td>
 
@@ -137,7 +137,7 @@ Build Agent
 
 </th><th>
 
-Now Assist for Creator
+ServiceNow Otto for Creator
 
 </th></tr></thead><tbody><tr><td>
 
@@ -234,7 +234,7 @@ The following table shows how to access ServiceNow agentic development tools.
 |Tool|Access method|
 |----|-------------|
 |Build Agent|Chat panel in ServiceNow Studio or ServiceNow IDE|
-|Now Assist for Creator|Embedded in Service Catalog and Workflow Studio|
+|ServiceNow Otto for Creator|Embedded in Service Catalog and Workflow Studio|
 |ServiceNow SDK|Local VS Code or ServiceNow IDE with ServiceNow Fluent SDK|
 
 ## Performance and scalability considerations
@@ -246,6 +246,6 @@ The following table shows performance and scaling considerations for ServiceNow 
 |Build Agent|New applications with &lt; 20 tables|Limited support for cross-product integration|
 |ServiceNow Studio|Iterative metadata updates; low-code workflows|Does not support complex custom code generation|
 |ServiceNow IDE|Complex business rules, script includes, advanced customization|Developer expertise required|
-|Now Assist for Creator|Service Catalog items \(one at a time\)|Creates single Service Catalog items, not full applications|
+|ServiceNow Otto for Creator|Service Catalog items \(one at a time\)|Creates single Service Catalog items, not full applications|
 |ServiceNow SDK|Local development with TypeScript|Limited platform metadata manipulation compared to ServiceNow Studio|
 

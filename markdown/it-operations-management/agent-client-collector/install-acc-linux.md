@@ -1,25 +1,25 @@
 ---
 title: Install Agent Client Collector on a Linux system
-description: Install Agent Client Collector using a package distribution tool. Before installing, you can manually install the Agent Client Collector on a few machines to ensure that your agents contain the correct policies and checks before installing a large number of agents.
+description: Install Agent Client Collector using a package distribution tool. Before that, you can manually install the Agent Client Collector on a few machines to verify that your agents contain the correct policies and checks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/install-acc-linux.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 7
 breadcrumb: [ACC installation on a Linux system, ACC deployment - servers, Agent Client Collector, IT Operations Management]
 ---
 
 # Install Agent Client Collector on a Linux system
 
-Install Agent Client Collector using a package distribution tool. Before installing, you can manually install the Agent Client Collector on a few machines to ensure that your agents contain the correct policies and checks before installing a large number of agents.
+Install Agent Client Collector using a package distribution tool. Before that, you can manually install the Agent Client Collector on a few machines to verify that your agents contain the correct policies and checks.
 
 ## Before you begin
 
--   Ensure that the Agent Client Collector Listener is configured on your MID Servers, and the service is available from your target hosts.
--   Verify that your server's OS and version is supported. For a list of supported OS's and versions, see [Agent Client Collector installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-installation.md).
+-   Ensure that the Agent Client Collector Listener is configured on your MID Servers, and the service is available from your target hosts, see [Configure the websocket server on the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-configure-web-server.md).
+-   Verify that your server's OS and version is supported. For a list of supported OS's and versions, see [ServiceNow Store Page](https://store.servicenow.com/store/app/bc09636e1be06a50a85b16db234bcbd1).
 -   Verify whether there are restrictions or requirements to be aware of during deployment, such as specifying an account other than the default servicenow account. For more information about embedding the agent into your own automated system, see [ITOM Agent Client Collector documentation material \[KB1122613\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1122613).
 -   Ensure that the MID Server and its MID Web Server and ACC Websocket Endpoint extensions are up and running.
 -   Enable golden image mode for cloning additional agents by setting the golden image marker located at `/tmp/acc-goldenimage`. The golden image marker takes no action during new Linux installations, as there is nothing which requires cleaning.

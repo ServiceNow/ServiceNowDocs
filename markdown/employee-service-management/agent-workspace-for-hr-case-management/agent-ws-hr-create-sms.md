@@ -50,10 +50,10 @@ An interaction is a request for assistance made through chat, phone, or in perso
 
 6.  Compose the SMS message, add an attachment if necessary, and send to the employee.
 
-    You can also select the \[Omitted image "quick-action-icon.png"\] Alt text: HR Agent Workspace - Quick action icon quick action icon, or enter a backslash \(/\) in the chat area, to use quick actions for SMS messaging. See [Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/ci-agent-chat-exploring.md) for more information.
+    You can also select the \[Omitted image "quick-action-icon.png"\] Alt text: HR Agent Workspace - Quick action icon quick action icon, or enter a backslash \(/\) in the chat area, to use quick actions for SMS messaging. See Agent Chat for more information.
 
     You will receive a confirmation when the SMS message is sent. Select the confirmation to view the interaction details,if desired.
 
-    **Note:** For complete details regarding initiating SMS conversations in Agent Workspace, refer to [Agent initiated SMS conversation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/agent-initiated-sms-store-app.md).
+    **Note:** For complete details regarding initiating SMS conversations in Agent Workspace, refer to Agent initiated SMS conversation.
 
 

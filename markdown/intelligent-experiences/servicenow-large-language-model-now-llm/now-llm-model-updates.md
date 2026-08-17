@@ -23,7 +23,7 @@ Large language models \(LLMs\) are complex machine-learning models that are trai
 
 Model cards explain the specific model's context, intended use, training data, limitations, and other important information.
 
-These model cards are for skills that use the Now LLM Service. There are certain skills, such as Now Assist Multi-Turn Catalog Ordering, that use Azure OpenAI instead. To see what LLM a skill is using, you can check the skill list in the Now Assist Admin console and review the LLM service column.
+These model cards are for skills that use the Now LLM Service. There are certain skills, such as ServiceNow Otto Multi-Turn Catalog Ordering, that use Azure OpenAI instead. To see what LLM a skill is using, you can check the skill list in the AI Admin Hub console and review the LLM service column.
 
 -   **[Model card for ServiceNow large language model](https://downloads.docs.servicenow.com/resource/enus/infocard/sn-llm.pdf)**
 
@@ -57,7 +57,7 @@ These model cards are for skills that use the Now LLM Service. There are certain
 
     Models used within ServiceNow AI Voice Agents for converting spoken user input to text and generating natural-sounding speech from AI responses.
 
--   **[Model card for ServiceNow Now Assist Guardian model](https://downloads.docs.servicenow.com/resource/enus/infocard/sn-na-guardian.pdf)**
+-   **[Model card for ServiceNow AI Guardian model](https://downloads.docs.servicenow.com/resource/enus/infocard/sn-na-guardian.pdf)**
 
     This model provides content moderation and helps identify different kinds of prompt injection attacks and offensive content.
 

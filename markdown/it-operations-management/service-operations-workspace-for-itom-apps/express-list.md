@@ -7,9 +7,9 @@ release: zurich
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
 topic_type: concept
-last_updated: "2026-06-10"
+last_updated: "2026-07-20"
 reading_time_minutes: 3
-breadcrumb: [Using SOW for ITOM, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
+breadcrumb: [Use, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
 ---
 
 # Express List in the Service Operations Workspace for ITOM
@@ -78,6 +78,7 @@ You can determine the time range of the displayed alerts. The default time range
 
 -   All time - The last 90 days
 -   Last 24 hours
+-   Last 2 days
 -   Last week
 -   Last 12 hours
 -   Last hour
@@ -90,7 +91,9 @@ The **Default Time Range** field is introduced on the Express List view in the f
 -   Service Operations Workspace Express List App 26.4.0
 -   Service Operations Workspace ITOM Apps 26.9.0
 
-Default time ranges can be defined by your administrator using the system property **evt\_mgmt.express\_list.all\_time\_days**. This property specify the time range \(in days\) of displayed alerts.
+Administrators can configure the default time range for a predefined Express List view by using the **Default Time Range** field. The default value is **Last 24 hours**.
+
+The **evt\_mgmt.express\_list.all\_time\_days** system property controls the number of days included in the **All time** range. It does not affect the default time range.
 
 **Related topics**  
 

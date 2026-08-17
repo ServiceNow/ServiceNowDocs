@@ -8,7 +8,7 @@ product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 2
+reading_time_minutes: 4
 breadcrumb: [CI de-duplication experience in a workspace, Duplicate CIs remediation, CMDB data management, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -17,6 +17,11 @@ breadcrumb: [CI de-duplication experience in a workspace, Duplicate CIs remediat
 Remediate a single de-duplilcation task using a de-duplication template in CMDB Workspace,in Service Graph Workspace, or manually, using the Duplicate CI Remediator.
 
 ## Before you begin
+
+-   Review the following topics to familiarize yourself with important concepts of duplicate CI remediation:
+    -   [Duplicate CIs remediation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/de-duplication-tasks.md): To learn about general duplicate CI remediation concepts, restrictions, and special cases such as remediations that involve a large number of duplicate CIs.
+    -   [Properties related to remediation of duplicate CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/properties-duplicate-ci.md): To learn about important properties that affect processes of duplicate CI remediation. Including the glide.duplicate\_ci\_remediator.dry\_run property that determines if the Duplicate CI Remediator actually updates the CMDB or not.
+-   To access the ServiceNow Otto remediation option in the Duplicate CI Remediation wizard, the De-duplication task resolution assistant skill must be installed and enabled. For information about setting up ServiceNow Otto for CMDB, see [ServiceNow Otto for Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-landing-cmdb.md).
 
 Role required:
 
@@ -40,17 +45,17 @@ Role required:
 
 6.  In the Remediate dialog box, choose which method you want to use for remediation, and then select **Remediate**.
 
-<table id="choicetable_khq_wpd_fzb"><thead><tr><th align="left" id="d268609e158">
+<table id="choicetable_khq_wpd_fzb"><thead><tr><th align="left" id="d268240e227">
 
 Choice
 
-</th><th align="left" id="d268609e161">
+</th><th align="left" id="d268240e230">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d268609e167">
+</th></tr></thead><tbody><tr><td id="d268240e236">
 
-**Remediate manuallyUse the Duplicate CI Remediator**
+**Use the Duplicate CI Remediator**
 
 </td><td>
 
@@ -58,7 +63,17 @@ Use the Duplicate CI Remediator built on Core UI to remediate the task.
 
  To continue with this choice of remediation, see [Remediate a de-duplication task \(manual\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/reconcile-dup-task.md).
 
-</td></tr><tr><td id="d268609e192">
+</td></tr><tr><td id="d268240e258">
+
+**Use the Duplicate CI Remediator \(AI\)**
+
+</td><td>
+
+Use the De-duplication task resolution assistant skill to make suggestions for the de-duplication options, instead of manually selecting these options.
+
+ The De-duplication task resolution assistant skill skips directly to the final dashboard of the Duplicate CI Remediator where you can review the selections made by the skill.
+
+</td></tr><tr><td id="d268240e276">
 
 **Use the Duplicate CI Remediator in Restricted Mode**
 
@@ -68,7 +83,7 @@ Appears only if the **glide.duplicate\_ci\_remediator.enable\_restricted\_mode**
 
  To continue with this choice, see [Remediate a de-duplication task \(manual\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/reconcile-dup-task.md). Skip to step \#5 in the procedure.
 
-</td></tr><tr><td id="d268609e224">
+</td></tr><tr><td id="d268240e308">
 
 **Remediate using a template**
 

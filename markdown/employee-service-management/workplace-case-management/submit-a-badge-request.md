@@ -28,15 +28,15 @@ Use the **Badge request** for new hire badge, badge photo, lost badge, replaceme
 
 1.  Navigate to the portal from one of the following locations.
 
-<table id="choicetable_presence_dashboard"><thead><tr><th align="left" id="d708071e70">
+<table id="choicetable_presence_dashboard"><thead><tr><th align="left" id="d708294e70">
 
 Location
 
-</th><th align="left" id="d708071e73">
+</th><th align="left" id="d708294e73">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d708071e79">
+</th></tr></thead><tbody><tr><td id="d708294e79">
 
 **Workplace Service Portal**
 
@@ -56,7 +56,7 @@ The portal homepage opens.
 3.  Select **Submit a maintenance request**.
 
 
-</td></tr><tr><td id="d708071e149">
+</td></tr><tr><td id="d708294e149">
 
 **Employee Center**
 

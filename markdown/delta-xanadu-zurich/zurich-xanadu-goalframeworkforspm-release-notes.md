@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-goalframeworkforspm-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -38,7 +38,7 @@ Xanadu
 
 </td><td>
 
-After upgrading to Goal Framework for SPM v2.3.0, run the **Migrate BreakdownInterval To Checkinfrequency** scheduled job. This scheduled job migrates the existing values in the **Review frequency** and **Breakdown interval** fields to the **Check-in frequency** field in the target records. For more information on how these values are migrated for targets with different values, see [Target breakdowns migration](https://servicenow-staging.fluidtopics.net/access?context=target-breakdowns-migration&family=xanadu&ft:locale=en-US).
+After upgrading to Goal Framework for SPM v2.3.0, run the **Migrate BreakdownInterval To Checkinfrequency** scheduled job. This scheduled job migrates the existing values in the **Review frequency** and **Breakdown interval** fields to the **Check-in frequency** field in the target records. For more information on how these values are migrated for targets with different values, see [Target breakdowns migration](https://www.servicenow.com/docs/access?context=target-breakdowns-migration&family=xanadu&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -75,7 +75,7 @@ Xanadu
 
 </td><td>
 
--   **[Enhanced target breakdowns](https://servicenow-staging.fluidtopics.net/access?context=target-breakdowns-gf&family=xanadu&ft:locale=en-US)**
+-   **[Enhanced target breakdowns](https://www.servicenow.com/docs/access?context=target-breakdowns-gf&family=xanadu&ft:locale=en-US)**
 
 Create Daily, Weekly, or Monthly target breakdowns according to how often you want to update and track the progress of the target. The target breakdowns are created based on the value selected in the **Check-in frequency** field. For example, if you select **Monthly** in the **Check-in frequency** field for a target spanning a year, then 12 monthly target breakdowns are created.
 
@@ -115,7 +115,7 @@ Xanadu
 
 </td><td>
 
--   **[Changes to Target form](https://servicenow-staging.fluidtopics.net/access?context=target-form&family=xanadu&ft:locale=en-US)**
+-   **[Changes to Target form](https://www.servicenow.com/docs/access?context=target-form&family=xanadu&ft:locale=en-US)**
 
 On the Target form, the **Breakdown interval** and **Cumulative target** fields have been removed, and the **Review frequency** field has been renamed to **Check-in frequency**.
 
@@ -134,7 +134,7 @@ Zurich
 
 </td><td>
 
--   **[Goal system properties](https://servicenow-staging.fluidtopics.net/access?context=components-installed-with-goal-framework&family=zurich&ft:locale=en-US)**
+-   **[Goal system properties](https://www.servicenow.com/docs/access?context=components-installed-with-goal-framework&family=zurich&ft:locale=en-US)**
 
 Users with the sn\_gf\_goal\_admin role assigned can update goal-specific system properties:
 
@@ -235,7 +235,7 @@ Xanadu
 
 </td><td>
 
-Install Goal Framework for SPM by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
+Install Goal Framework for SPM by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -251,7 +251,7 @@ Zurich
 
 </td><td>
 
-Install Goal Framework for SPM by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+Install Goal Framework for SPM by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -422,7 +422,7 @@ Xanadu
 
 Use the enhanced target breakdown feature to update actuals and track the progress of your targets in daily, weekly, monthly, quarterly, or yearly intervals.
 
- See [Goal Framework for SPM](https://servicenow-staging.fluidtopics.net/access?context=goal-framework&family=xanadu&ft:locale=en-US) for more information.
+ See [Goal Framework for SPM](https://www.servicenow.com/docs/access?context=goal-framework&family=xanadu&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -440,7 +440,7 @@ Zurich
 
 Use the sn\_gf\_goal\_admin role to update the goal-specific system properties.
 
- See [Goal Framework for SPM](https://servicenow-staging.fluidtopics.net/access?context=goal-framework&family=zurich&ft:locale=en-US) for more information.
+ See [Goal Framework for SPM](https://www.servicenow.com/docs/access?context=goal-framework&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/rn-combined-intro.md)

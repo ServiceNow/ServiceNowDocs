@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-retailapplications-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -84,23 +84,23 @@ Zurich
 
 **Note:** The new Retail Mobile application and the new case types are available in the Yokohama release.
 
--   **[Retail mobile application](https://servicenow-staging.fluidtopics.net/access?context=rahi-retail-retail-mobile&family=zurich&ft:locale=en-US) Retail Mobile application**
+-   **[Retail mobile application](https://www.servicenow.com/docs/access?context=rahi-retail-retail-mobile&family=zurich&ft:locale=en-US) Retail Mobile application**
 
 As a store manager or a store associate, boost productivity by managing operations and accessing key tools on the go with the Retail Mobile application.
 
--   **[Customer complaint case](https://servicenow-staging.fluidtopics.net/access?context=rahi-retail-retail-customer-complaint&family=zurich&ft:locale=en-US) Customer complaint**
+-   **[Customer complaint case](https://www.servicenow.com/docs/access?context=rahi-retail-retail-customer-complaint&family=zurich&ft:locale=en-US) Customer complaint**
 
-Help ensure quick and efficient customer service resolutions by capturing store-related complaints from customers using the customer complaint case type in the Retail customer complaint plugin.
+Help verify quick and efficient customer service resolutions by capturing store-related complaints from customers using the customer complaint case type in the Retail customer complaint plugin.
 
--   **[Store inquiry case](https://servicenow-staging.fluidtopics.net/access?context=rahi-retail-retail-store-services&family=zurich&ft:locale=en-US) Store inquiry**
+-   **[Store inquiry case](https://www.servicenow.com/docs/access?context=rahi-retail-retail-store-services&family=zurich&ft:locale=en-US) Store inquiry**
 
 Streamline the process for contacting HQ for store-to-HQ cases with the store inquiry case type in the Retail Store Services plugin, which provides a clearly defined workflow for resolution at HQ.
 
--   **[In-store operations case](https://servicenow-staging.fluidtopics.net/access?context=rahi-retail-retail-in-store-operations&family=zurich&ft:locale=en-US)In-store operations**
+-   **[In-store operations case](https://www.servicenow.com/docs/access?context=rahi-retail-retail-in-store-operations&family=zurich&ft:locale=en-US)In-store operations**
 
 Standardize the reporting, tracking, and resolution of in-store issues with the in-store operations case type in the Retail in-store operations plugin. This case type contributes to structured task assignments and tracking, reducing the time to resolution.
 
--   **[HQ communications case](https://servicenow-staging.fluidtopics.net/access?context=rahi-retail-retail-hq-operations&family=zurich&ft:locale=en-US) HQ communications**
+-   **[HQ communications case](https://www.servicenow.com/docs/access?context=rahi-retail-retail-hq-operations&family=zurich&ft:locale=en-US) HQ communications**
 
 Initiate and coordinate large-scale actions across multiple stores with the HQ communications case type in the Retail HQ operations plugin. Using this case type as a parent case for in-store operations simplifies coordination efforts.
 
@@ -371,7 +371,7 @@ Zurich
 -   Resolve customer complaints quickly and accurately with the Retail Customer Complaint case type.
 -   Bridge the gap between stores and HQ with an intuitive request and support system using the Store Inquiry case type for stores.
 
- See [Retail](https://servicenow-staging.fluidtopics.net/access?context=rahi-retail-operations-overview&family=zurich&ft:locale=en-US) for more information.
+ See [Retail](https://www.servicenow.com/docs/access?context=rahi-retail-operations-overview&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

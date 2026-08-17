@@ -16,7 +16,7 @@ breadcrumb: [Integrate, Agile Development 2.0, Strategic Portfolio Management]
 
 Enable bidirectional synchronization of records between Atlassian Jira and ServiceNow® Agile Development by integrating the two applications.
 
-If the source of your work is in the ServiceNow platform while the progress of the work is tracked in Jira, you can perform integrated tracking of your product development efforts by integrating Agile Development 2.0 with Jira.
+If the source of your work is in the ServiceNow platform while the progress of the work is tracked in Jira. You can perform integrated tracking of your product development efforts by integrating Agile Development 2.0 with Jira.
 
 For example, if you update a record in Jira, you can find that update in Agile Development 2.0. Similarly, if you update a record in Agile Development 2.0, you can find the same update in Jira.
 
@@ -45,11 +45,11 @@ Starting with version 1.1.1, Atlassian Jira Integration for Agile Development 2.
 Before importing Jira projects that are of the Kanban type, consider the following notes:
 
 -   Issues such as epics and stories are imported to Agile Development 2.0
--   If your Kanban project has one or more Jira Boards, not all those Boards would be mapped to distinct Agile groups. The Jira project is mapped to a single group in Agile Development 2.0 and all issues of this project, regardless of their association to boards, would be assigned to one Agile group.
+-   If your Kanban project has one or more Jira Boards, not all those Boards would be mapped to distinct Agile groups. The Jira project is mapped to a single group in Agile Development 2.0. All issues of this project are assigned to one Agile group, regardless of their board association.
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 -   **[Setting up the integration between Jira and Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/atlassian-jira-integrations-common/setting-up-the-integration-between-jira-and-agile-development.md)**  
 Understand the setup process of Atlassian Jira Integration for Agile Development 2.0.

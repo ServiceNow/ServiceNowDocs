@@ -9,7 +9,7 @@ classification: digital-end-user-experience-self-service
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Configure, Employee Self-service, Digital End-User Experience, IT Service Management]
+breadcrumb: [Configure, Digital End-user Experience Self-service, Digital End-User Experience, IT Service Management]
 ---
 
 # Enable issue configurations for DEX Self-service
@@ -32,7 +32,7 @@ Role required: sn\_dex.admin
 
 3.  Select the **Enabled in EC self-service** check box to enable the issue in Employee Center portal and Desktop Assistant.
 
-4.  Select the **Enabled in DEX Now Assist topic** check box to enable the issue in Now Assist for ITSM.
+4.  Select the **Enabled in DEX Now Assist topic** check box to enable the issue in ServiceNow Otto for ITSM.
 
     The ITSM Virtual Agent enables you to check your device's health using prebuilt LLM topic conversation. For more information, see [ITSM Virtual Agent pre-built LLM topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/now-assist-for-it-service-management-itsm/itsm-va-prebuilt-topics.md).
 

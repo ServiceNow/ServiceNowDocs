@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/set-up-ai-agent-advisor.html
 release: zurich
 topic_type: task
-last_updated: "2026-04-15"
+last_updated: "2026-07-30"
 reading_time_minutes: 1
-keywords: [AI Agent Advisor, AI agents, Now Assist, Now Assist Center, Gen AI, Generative AI]
+keywords: [AI Agent Advisor, AI Admin Center, Agent Miner, AI agents, AI opportunities, AI setup]
 breadcrumb: [Configure, AI Agent Advisor, Enable AI experiences]
 ---
 
@@ -23,7 +23,7 @@ Role required: AI Agent Advisor admin \[sn\_agent\_miner.app\_admin\]
 
 ## About this task
 
-AI Agent Advisor installs and runs automatically as part of the standard Now Assist setup. No manual steps are required. After Now Assist is installed and configured, AI Agent Advisor will be present on your instance and will begin analysis automatically.
+AI Agent Advisor installs and runs automatically as part of the standard ServiceNow Otto setup. No manual steps are required. After ServiceNow Otto is installed and configured, AI Agent Advisor will be present on your instance and will begin analysis automatically.
 
 Follow these steps to confirm the installation of the AI Agent Advisor plugin.
 
@@ -49,13 +49,13 @@ Follow these steps to confirm the installation of the AI Agent Advisor plugin.
 
         The AI Agent Advisor application will install at the selected time.
 
-3.  Navigate to **All** &gt; **Now Assist Center** or **Workspaces** &gt; **Now Assist Center** to confirm the successful installation.
+3.  Navigate to **All** &gt; **AI Admin Center** or **Workspaces** &gt; **AI Admin Center** to confirm the successful installation.
 
-    The Now Assist Center home page opens.
+    The AI Admin Center home page opens.
 
     Confirm the following:
 
-    -   Automation opportunities appear on the Now Assist Center home page.
+    -   Automation opportunities appear on the AI Admin Center home page.
     -   All AI Agent Advisor dependencies are installed.
 
         Navigate to **System Definition** &gt; **Plugins** and select the **Installed** tab to confirm all required plugins are installed.
@@ -74,5 +74,5 @@ The AI Agent Advisor application is installed and available to the appropriate u
 **Related topics**  
 
 
-[Set up automation opportunity discovery for AI Agent Advisor]()
+[Setting up automation opportunity discovery]()
 

@@ -9,7 +9,7 @@ classification: process-mining
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Managing an audit table, Working with external datasets, Using Process Mining, Process Mining, Platform Analytics]
+breadcrumb: [Managing an audit table, Working with external datasets, Import external data, Process Mining, Platform Analytics]
 ---
 
 # Share the audit and record tables
@@ -46,6 +46,4 @@ Role required: sn\_process\_optimization\_admin
 
     Every user with the specified permission can access the audit and record tables.
 
-
-**Parent Topic:**[Managing an audit table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/managing-audit-table.md)
 

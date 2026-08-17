@@ -7,9 +7,9 @@ release: zurich
 product: Now Assist Skill Kit
 classification: now-assist-skill-kit
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-07-15"
 reading_time_minutes: 1
-breadcrumb: [Configuring Now Assist Skill Kit, Now Assist Skill Kit, Enable AI experiences]
+breadcrumb: [Configuring AI Skill Kit, AI Skill Kit, Enable AI experiences]
 ---
 
 # Configure a skill prompt
@@ -22,7 +22,7 @@ Role required: sn\_skill\_builder.admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Skill Kit** &gt; **Home**.
+1.  Navigate to **All** &gt; **AI Skill Kit** &gt; **Home**.
 
 2.  Select the skill that you want to configure.
 
@@ -58,14 +58,6 @@ The temperature determines the randomness and creativity of the output. A higher
 
 </td></tr><tr><td>
 
-Thinking mode
-
-</td><td>
-
-Thinking mode controls how much reasoning effort a large language model applies when it generates a response. Higher levels improve output quality but increase latency.You can select thinking mode when you use *llm\_generic\_small\_v2* or *llm\_generic\_large\_v2*.
-
-</td></tr><tr><td>
-
 Maximum response tokens
 
 </td><td>
@@ -98,9 +90,9 @@ Structured outputs return prompt responses in a consistent JSON format.
 
 After you configure your skill settings, you can test your skill. To learn more about testing skills, see [Test a prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skill-kit/test-prompt-template.md).
 
-To learn more about configuring the skill, including models and tokens, see [Now Assist Skill Kit FAQs on the ServiceNow Community.](https://www.servicenow.com/community/now-assist-articles/now-assist-skill-kit-nask-faq/ta-p/3007953)
+To learn more about configuring the skill, including models and tokens, see [AI Skill Kit FAQs on the ServiceNow Community.](https://www.servicenow.com/community/now-assist-articles/now-assist-skill-kit-nask-faq/ta-p/3007953)
 
-**Parent Topic:**[Configuring Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skill-kit/configuring-now-assist-skill-kit.md)
+**Parent Topic:**[Configuring AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skill-kit/configuring-now-assist-skill-kit.md)
 
 **Related topics**  
 

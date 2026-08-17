@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-ordermanagement-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
@@ -67,7 +67,7 @@ Yokohama
 
 </td><td>
 
--   **[Business Portal for order case management](https://servicenow-staging.fluidtopics.net/access?context=order-mgt-business-portal&family=yokohama&ft:locale=en-US)**
+-   **[Business Portal for order case management](https://www.servicenow.com/docs/access?context=order-mgt-business-portal&family=yokohama&ft:locale=en-US)**
 
 Enable your customers to create cases for common order-related issues such as delivery delays, quantity disputes, and other routine inquiries directly using the Business Portal, ensuring faster issue resolution and improved customer satisfaction. This application is a feature of Customer Service Management and the Order to Cash Operations functionality for Order Management.
 
@@ -75,27 +75,27 @@ Enable your customers to create cases for common order-related issues such as de
 
 Enable order agents and order managers to use the hierarchical list view to view parent and child relationships within order lines.
 
--   **[Price adjustment details for order lines](https://servicenow-staging.fluidtopics.net/access?context=view-price-adjustment-details-order-lines&family=yokohama&ft:locale=en-US)**
+-   **[Price adjustment details for order lines](https://www.servicenow.com/docs/access?context=view-price-adjustment-details-order-lines&family=yokohama&ft:locale=en-US)**
 
 Provides order agents and order managers the visibility into the price adjustments applied at each step of the pricing plan, including a detailed breakdown of all adjustments applied to the unit base price and unit list price to see how the unit net price is derived.
 
--   **[Multi-instance product offering configurations](https://servicenow-staging.fluidtopics.net/access?context=product-catalog-managment&family=yokohama&ft:locale=en-US)**
+-   **[Multi-instance product offering configurations](https://www.servicenow.com/docs/access?context=product-catalog-managment&family=yokohama&ft:locale=en-US)**
 
 Create multiple instances of a child product offering in orders to generate a custom configuration for each product offering instance. When a child product offering has a quantity greater than 1, agents can clone or split a child product offering to create multiple product offering instances so that each quantity has its own configuration.
 
--   **[Transient products](https://servicenow-staging.fluidtopics.net/access?context=product-catalog-managment&family=yokohama&ft:locale=en-US)**
+-   **[Transient products](https://www.servicenow.com/docs/access?context=product-catalog-managment&family=yokohama&ft:locale=en-US)**
 
 Add transient products, which are defined as one-time-use products or services, to new orders. Sold product and product inventory records are created but not maintained for transient products. Move, Add, Change and Disconnect \(MACD\) actions are not supported for transient products.
 
--   **[Business Portal for Order Management](https://servicenow-staging.fluidtopics.net/access?context=order-mgt-create-an-order-using-customer-portal&family=yokohama&ft:locale=en-US)**
+-   **[Business Portal for Order Management](https://www.servicenow.com/docs/access?context=order-mgt-create-an-order-using-customer-portal&family=yokohama&ft:locale=en-US)**
 
 Use the Business Portal to view product catalogs, select product options, and place orders. Customers can also view their order status using the Business Portal.
 
--   **[Cases for multiple invoices](https://servicenow-staging.fluidtopics.net/access?context=csm-invoice-operations&family=yokohama&ft:locale=en-US)**
+-   **[Cases for multiple invoices](https://www.servicenow.com/docs/access?context=csm-invoice-operations&family=yokohama&ft:locale=en-US)**
 
 Create cases for multiple invoices or for specific invoice lines. Agents can reference multiple invoices or invoice lines as case line items on an invoice case record. By using case line items, agents can track multiple issues for the same invoice case and resolve the issues in each case line item independently before resolving and closing the order case. This application is a feature of Customer Service Management and the Order to Cash Operations functionality for Order Management.
 
--   **[Add subscription pricing to an order](https://servicenow-staging.fluidtopics.net/access?context=add-subscription-pricing-to-an-order&family=yokohama&ft:locale=en-US)**
+-   **[Add subscription pricing to an order](https://www.servicenow.com/docs/access?context=add-subscription-pricing-to-an-order&family=yokohama&ft:locale=en-US)**
 
 Enable order agents and order managers to access and view key calculated metrics such as monthly recurring price and annual recurring price. The subscription pricing fields are automatically calculated based on contract start date and contract end date. These metrics enhance revenue reporting and help you to better understand recurring revenue dynamics.
 
@@ -106,27 +106,27 @@ Zurich
 
 </td><td>
 
--   **[Move order](https://servicenow-staging.fluidtopics.net/access?context=move-order&family=zurich&ft:locale=en-US)**
+-   **[Move order](https://www.servicenow.com/docs/access?context=move-order&family=zurich&ft:locale=en-US)**
 
 The move order helps agents to perform move journey that requires location change, the location and change of attribute values, the location change and add or delete the product.
 
 
--   **[Pricing Adjustments for order line items](https://servicenow-staging.fluidtopics.net/access?context=add-pricing-adjustment-to-an-order-line-item&family=zurich&ft:locale=en-US)**
+-   **[Pricing Adjustments for order line items](https://www.servicenow.com/docs/access?context=add-pricing-adjustment-to-an-order-line-item&family=zurich&ft:locale=en-US)**
 
 Enables order agents to quickly view, add, and edit manual price adjustments for order line items directly from the list view, reducing clicks and streamlining the process. This new experience makes it easier for order agents to enter manual price adjustments and provides a holistic view of both automatic and manual adjustments.
 
--   **[Summarization for Order Management](https://servicenow-staging.fluidtopics.net/access?context=now-assist-order-mgmt-summarize-order&family=zurich&ft:locale=en-US)**
+-   **[Summarization for Order Management](https://www.servicenow.com/docs/access?context=now-assist-order-mgmt-summarize-order&family=zurich&ft:locale=en-US)**
 
-Summarizes complex orders across products, services, and fulfillment tasks. This helps agents quickly understand status, take the right actions, and avoid navigating fragmented views. This results in easier next steps and improved productivity. For more information, see the [Now Assist for Order Management release notes](https://servicenow-staging.fluidtopics.net/access?context=now-assist-order-management-rn&family=zurich&ft:locale=en-US).
+Summarizes complex orders across products, services, and fulfillment tasks. This helps agents quickly understand status, take the right actions, and avoid navigating fragmented views. This results in easier next steps and improved productivity. For more information, see the [ServiceNow Otto for Order Management release notes](https://www.servicenow.com/docs/access?context=now-assist-order-management-rn&family=zurich&ft:locale=en-US).
 
 
--   **[Support for complex characteristics for orders](https://servicenow-staging.fluidtopics.net/access?context=som-using&family=zurich&ft:locale=en-US)**
+-   **[Support for complex characteristics for orders](https://www.servicenow.com/docs/access?context=som-using&family=zurich&ft:locale=en-US)**
 
 Take advantage of the following complex characteristics for orders:
 
-    -   Define complex characteristics for product offerings and specifications using object structures, data arrays, and other data input types such as String, Integer, Date, DateTime, and Decimal. For more information, see [Defining characteristics and options](https://servicenow-staging.fluidtopics.net/access?context=defining-prod-characteristics&family=zurich&ft:locale=en-US).
-    -   Define compatibility, decomposition, and attribute propagation rules based on conditions that use characteristics at any level of a complex attribute hierarchy. For more information, see [Create a compatibility rule](https://servicenow-staging.fluidtopics.net/access?context=create-compatibility-rules&family=zurich&ft:locale=en-US), [Decomposition rules](https://servicenow-staging.fluidtopics.net/access?context=order-mgt-create-decomposition-rules&family=zurich&ft:locale=en-US), and [Domain order](https://servicenow-staging.fluidtopics.net/access?context=define-domain-order-attributes&family=zurich&ft:locale=en-US).
--   **[Order header discount](https://servicenow-staging.fluidtopics.net/access?context=add-header-discount-to-an-order&family=zurich&ft:locale=en-US)**
+    -   Define complex characteristics for product offerings and specifications using object structures, data arrays, and other data input types such as String, Integer, Date, DateTime, and Decimal. For more information, see [Defining characteristics and options](https://www.servicenow.com/docs/access?context=defining-prod-characteristics&family=zurich&ft:locale=en-US).
+    -   Define compatibility, decomposition, and attribute propagation rules based on conditions that use characteristics at any level of a complex attribute hierarchy. For more information, see [\[Placeholder link text to key bundle-omgmt.create-compatibility-rules\]](https://www.servicenow.com/docs/access?context=create-compatibility-rules&family=zurich&ft:locale=en-US), [Decomposition rules](https://www.servicenow.com/docs/access?context=order-mgt-create-decomposition-rules&family=zurich&ft:locale=en-US), and [Domain order](https://www.servicenow.com/docs/access?context=define-domain-order-attributes&family=zurich&ft:locale=en-US).
+-   **[Order header discount](https://www.servicenow.com/docs/access?context=add-header-discount-to-an-order&family=zurich&ft:locale=en-US)**
 
 Provide order agents with the ability to apply discounts across multiple order lines with a single action through an order header discount feature. This feature streamlines discounting workflows, improves pricing consistency, and helps speed up order processing for large complex deals.
 
@@ -158,7 +158,7 @@ Zurich
 
 </td><td>
 
--   **[Changes to OM integration with SPM](https://servicenow-staging.fluidtopics.net/access?context=configure-site-project-product-offering&family=zurich&ft:locale=en-US)**
+-   **[Changes to OM integration with SPM](https://www.servicenow.com/docs/access?context=configure-site-project-product-offering&family=zurich&ft:locale=en-US)**
 
 Use OM integration with SPM to create program, reuse program, create site project and reuse site project in the SPM.
 
@@ -250,7 +250,7 @@ Yokohama
 
 Install Order Management by requesting it from the ServiceNow Store.
 
- Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -401,7 +401,7 @@ Yokohama
 -   Create cases for multiple invoices or for specific invoice lines.
 -   Provide metrics that help sales agents and sales managers track and analyze the revenue impact of subscriptions.
 
- See [Order Management](https://servicenow-staging.fluidtopics.net/access?context=order-mgt-exploring&family=yokohama&ft:locale=en-US) for more information.
+ See [Order Management](https://www.servicenow.com/docs/access?context=order-mgt-exploring&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -415,7 +415,7 @@ Zurich
 -   Support for nested objects, arrays, and custom attributes to model complex products.​
 -   Support for order header discounts​.
 
- See [Order management](https://servicenow-staging.fluidtopics.net/access?context=explore-order-management&family=zurich&ft:locale=en-US) for more information.
+ See [Order management](https://www.servicenow.com/docs/access?context=explore-order-management&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

@@ -7,7 +7,7 @@ release: zurich
 product: Project Workspace
 classification: project-workspace
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 6
 breadcrumb: [Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -33,7 +33,7 @@ The Project Workspace provides Project Managers with a comprehensive overview of
 |Create and compare baselines for your project to capture the project's progress over time.|[Set up a baseline for your project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/create-project-baselines-in-project-workspace.md)|
 |Create a status report to monitor project health, metrics, risks, issues, and milestones.|[Create a status report in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/create-a-status-report-in-project-workspace.md)|
 |Tag stakeholders for their feedback or notes and add comments to collaborate on your project.|[Collaborate with Stakeholders for your project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/collaborate-with-stakeholders-from-project-workspace.md)|
-|Generate a summary of selected text in Docs using Now Assist.|[Summarize content with Project doc summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/summarize-docs-genai-skill-pw.md)|
+|Generate a summary of selected text in Docs using ServiceNow Otto.|[Summarize content with project doc generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/summarize-docs-genai-skill-pw.md)|
 |Generate and schedule project summary emails for your projects.|[Schedule the project insights email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/email-project-summary-pw.md)|
 |Add Risk, Issue, Decision, Action, or Change request to your project to track and manage the RIDAC records throughout project development.|[Add a RIDAC record to your project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/add-risk-project-project-workspace.md)|
 |Export your project as a PowerPoint file directly from the workspace without copying the project information in to slides.|[Export a project to Microsoft PowerPoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/export-project-to-powerpoint-from-project-workspace.md)|
@@ -45,6 +45,8 @@ The Project Workspace provides Project Managers with a comprehensive overview of
 |Secure a project to ensure only authorized users can access the project.|[Enable security for a project in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/enable-security-for-a-project-in-project-workspace.md)|
 |Configure and use playbooks in Project Workspace to guide project teams through standard project stages and activities.|[Use Playbooks in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/use-playbooks-pw.md)|
 
+-   **[AI skills in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/ai-skills-project-workspace.md)**  
+Use AI skills to transform Project Workspace into a continuous value engine. Embed intelligence across every stage to optimize resources and investments.
 -   **[Project planning in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/project-planning-in-pw.md)**  
 Plan your projects with an intuitive Project Workspace application to achieve successful project outcomes.
 -   **[Resource planning in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/resource-planning-in-pw.md)**  

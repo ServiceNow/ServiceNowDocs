@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/install-sir-integration-toolkit.html
 release: zurich
 topic_type: task
-last_updated: "2025-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [LLM-powered SIR integration builder, Security Operations]
 ---
@@ -22,13 +22,13 @@ Role required: sn\_si\_int\_kit.integration\_creator
 
 1.  Navigate to **All** &gt; **System Definition** &gt; **Plugins**.
 
-2.  Search for `Now Assist for Security Incident Response integrations`.
+2.  Search for ServiceNow Otto for Security Incident Response \(SIR\) integration Toolkit.
 
-    The Now Assist for Security Incident Response integrations application tile is displayed.
+    The ServiceNow Otto for Security Incident Response \(SIR\) integration Toolkit application tile is displayed.
 
 3.  Select the **Install** button.
 
-    This installs Now Assist for Security Incident Response integrations.
+    This installs ServiceNow Otto for Security Incident Response \(SIR\) integration Toolkit.
 
 4.  Install all the dependencies that are listed along with the installed application.
 

@@ -7,7 +7,7 @@ release: zurich
 product: Project Workspace
 classification: project-workspace
 topic_type: concept
-last_updated: "2025-10-09"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Project planning in Project Workspace, Explore, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -45,6 +45,8 @@ In a Stage-gate playbook, the stages and tasks must be completed in a linear ord
 
 **Related topics**  
 
+
+[bundle-crworkflow.workflow-studio-playbooks-landing]
 
 [Playbooks configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/configure-playbooks-pw.md)
 

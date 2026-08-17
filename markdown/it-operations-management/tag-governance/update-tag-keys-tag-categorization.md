@@ -9,7 +9,7 @@ classification: tag-governance
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Using Tag Governance, Tag Governance, ITOM Visibility, IT Operations Management]
+breadcrumb: [Use, Tag Governance, ITOM Visibility, IT Operations Management]
 ---
 
 # Add or delete tag keys for Tag Categorization
@@ -36,15 +36,15 @@ Role required: tag\_governance\_admin
 
 4.  Under **CI tag keys**, either add a tag key or delete an existing tag key.
 
-<table id="choicetable_dvx_hzd_5fc"><thead><tr><th align="left" id="d651292e137">
+<table id="choicetable_dvx_hzd_5fc"><thead><tr><th align="left" id="d652423e137">
 
 Action
 
-</th><th align="left" id="d651292e140">
+</th><th align="left" id="d652423e140">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d651292e146">
+</th></tr></thead><tbody><tr><td id="d652423e146">
 
 **Add a tag key**
 
@@ -57,7 +57,7 @@ Steps
 5.  Select **Update** to save your changes.
 
 
-</td></tr><tr><td id="d651292e184">
+</td></tr><tr><td id="d652423e184">
 
 **Delete a tag key**
 

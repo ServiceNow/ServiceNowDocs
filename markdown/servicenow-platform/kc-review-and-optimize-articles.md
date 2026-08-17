@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/kc-review-and-optimize-articles.html
 release: zurich
 topic_type: task
-last_updated: "2025-11-19"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Using Knowledge Center, Knowledge Center, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -20,7 +20,7 @@ Role required: agent
 
 ## About this task
 
-Review and optimize knowledge articles in the Knowledge Center \(KC\) by running quality scans of all the articles. Default settings come with default scan configurations, but you can also customize scan jobs. For more on creating an Article Optimization job, see [Configuring Article Optimization jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuring-article-optimization-jobs.md).
+Review and optimize knowledge articles in the Knowledge Center \(KC\) by running quality scans of all the articles. Default settings come with default scan configurations, but you can also customize scan jobs. For more on creating an Article Optimization job, see [Configure Article Optimization jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuring-article-optimization-jobs.md).
 
 ## Procedure
 
@@ -36,11 +36,11 @@ Review and optimize knowledge articles in the Knowledge Center \(KC\) by running
 
     **Important:** Two types of article optimization scans are available. One is a script-based scan and the other is a Now Assist based scan. If you’re subscribed to Now Assist, article optimization feature runs both the scans. If you aren’t subscribed to Now Assist, then article optimization runs only the script-based scan.
 
-6.  Review each of the feedback cards and select the suggested action \(such as Review, Add alt attribute, and so on\) to accept the changes or, select **Ignore** to reject the feedback.
+6.  Review each of the feedback cards.
 
-    \[Omitted image "Article-Optimization.png"\] Alt text: Article optimization panel in Knowledge Center.
+7.  Select the suggested action \(such as Review, Add alt attribute, and so on\) to accept the changes or, select **Ignore** to reject the feedback.
 
-7.  Select **Save** to save the changes made to the article.
+8.  Select **Save** to save the changes made to the article.
 
     **Note:**
 

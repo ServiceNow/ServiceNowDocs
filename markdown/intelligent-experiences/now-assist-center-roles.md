@@ -1,34 +1,34 @@
 ---
-title: Now Assist Center roles
-description: Now Assist Center is installed with these roles.Use the Now Assist Center workspace to access and set up Now Assist solutions, perform administrative tasks, and monitor performance. This role has full access to the Now Assist Center application, and can access Now Assist Center tables.Perform read actions in Now Assist Center workspace.
+title: AI Admin Center roles
+description: AI Admin Center is installed with these roles.Use the AI Admin Center workspace to access and set up Now Assist solutions, perform administrative tasks, and monitor performance. This role has full access to the AI Admin Center application, and can access AI Admin Center tables.Perform read actions in AI Admin Center workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/now-assist-center-roles.html
 release: zurich
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-07-30"
 reading_time_minutes: 1
-keywords: [Now Assist, Now Assist Center, Gen AI, Generative AI, Now Assist, Now Assist Center, Gen AI, Generative AI, Now Assist, Now Assist Center, Gen AI, Generative AI]
-breadcrumb: [Reference, Now Assist Center, Enable AI experiences]
+keywords: [AI Admin Center, Now Assist Center, AI, AI setup, AI Admin Center, Now Assist Center, AI, AI setup, AI Admin Center, Now Assist Center, AI, AI setup]
+breadcrumb: [Reference, AI Admin Center, Enable AI experiences]
 ---
 
-# Now Assist Center roles
+# AI Admin Center roles
 
-Now Assist Center is installed with these roles.
+AI Admin Center is installed with these roles.
 
-**Parent Topic:**[Now Assist Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-reference.md)
+**Parent Topic:**[AI Admin Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-reference.md)
 
 **Related topics**  
 
 
-[Components installed with Now Assist Center]()
+[Components installed with AI Admin Center]()
 
-[Domain separation and Now Assist Center]()
+[Domain separation and AI Admin Center]()
 
-[Now Assist Center glossary]()
+[AI Admin Center glossary]()
 
-## Now Assist Center admin \[sn\_na\_center.nac\_admin\]
+## AI Admin Center admin \[sn\_na\_center.nac\_admin\]
 
-Use the Now Assist Center workspace to access and set up Now Assist solutions, perform administrative tasks, and monitor performance. This role has full access to the Now Assist Center application, and can access Now Assist Center tables.
+Use the AI Admin Center workspace to access and set up Now Assist solutions, perform administrative tasks, and monitor performance. This role has full access to the AI Admin Center application, and can access AI Admin Center tables.
 
 ### Contains Roles
 
@@ -48,9 +48,9 @@ None.
 
 None.
 
-## Now Assist Center user
+## AI Admin Center user
 
-Perform read actions in Now Assist Center workspace.
+Perform read actions in AI Admin Center workspace.
 
 ### Contains Roles
 

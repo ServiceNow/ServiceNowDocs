@@ -9,7 +9,7 @@ classification: health-log-analytics
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Controlling alert generation, prioritization, and anomaly detection, Health Log Analytics, ITOM AIOps, IT Operations Management]
+breadcrumb: [Managing alert generation, prioritization, anomaly detection, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
 # Influence anomaly detection in Health Log Analytics with lexical keywords
@@ -40,5 +40,5 @@ Manage the keywords that Health Log Analytics looks for in your log data.
 -   **[View the lexical keywords that generate alerts in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-op-lexical-keywords-manage.md)**  
 View the list of lexical keywords that can indicate important issues in log entries.
 
-**Parent Topic:**[Controlling Health Log Analytics alert generation, prioritization, and anomaly detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-controlling-alert-generation.md)
+**Parent Topic:**[Managing alert generation, prioritization, anomaly detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-controlling-alert-generation.md)
 

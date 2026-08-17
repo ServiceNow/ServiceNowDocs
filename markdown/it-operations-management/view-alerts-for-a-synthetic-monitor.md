@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2025-09-02"
 reading_time_minutes: 1
-breadcrumb: [Identifying system issues with synthetic monitoring, Synthetic monitoring, ITOM AIOps, IT Operations Management]
+breadcrumb: [Identify system issues with Synthetic monitoring, Landing page, ITOM AIOps, IT Operations Management]
 ---
 
 # View alerts for a synthetic monitor

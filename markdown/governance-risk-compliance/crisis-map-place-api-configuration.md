@@ -16,7 +16,7 @@ Set the system property to manage searching places on the crisis map.
 
 ## Before you begin
 
-Role required: Administrator
+Role required: sn\_bcm.planner, sn\_bcm.program\_manager
 
 ## About this task
 

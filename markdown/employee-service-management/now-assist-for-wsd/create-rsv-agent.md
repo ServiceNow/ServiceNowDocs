@@ -7,9 +7,9 @@ release: zurich
 product: Now Assist for WSD
 classification: now-assist-for-wsd
 topic_type: task
-last_updated: "2026-01-15"
+last_updated: "2026-07-28"
 reading_time_minutes: 2
-breadcrumb: [Making reservations using the Create a reservation agent, Using Now Assist in Virtual Agent, Now Assist for Workplace Service Delivery \(WSD\), Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Making reservations using the Create a reservation agent, Using ServiceNow Otto for Virtual Agent, ServiceNow Otto for Workplace Service Delivery \(WSD\), Workplace Service Delivery, Employee Service Management]
 ---
 
 # Reserve a space using the reservation agent
@@ -20,9 +20,9 @@ The Create a reservation agent enables employees to reserve a space with a singl
 
 Make sure that you have installed and configured the following applications:
 
--   Now Assist in Virtual Agent.
+-   .
 
-    Confirm that the enhanced chat is configured for the Employee Center portal by virtual\_agent\_admin. Select Employee Center from the Portals tab and select the enhanced chat. For more information, see [Display your assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/display-assistant-portal-channel.md).
+    Confirm that the enhanced chat is configured for the Employee Center portal by virtual\_agent\_admin. Select Employee Center from the Portals tab and select the enhanced chat. For more information, see .
 
 -   Workplace Reservation Management
 -   Workplace Concierge
@@ -37,7 +37,7 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **Self-Service** &gt; **Employee Center**.
 
-2.  From the Employee Center portal home page, select the Now Assist in Virtual Agent chat interface.
+2.  From the Employee Center portal home page, select the Virtual Agent chat interface.
 
     The Virtual Agent shows a greeting message and provides an explanation of what employees can expect.
 
@@ -47,7 +47,7 @@ Role required: admin
 
     While the LLM processes the utterance, animated dots in the chat window let employees know that the reservation agent is working on their request. After you enter an utterance and a search result is found, a synthesized response may appear. A synthesized response includes a brief summary of the requested information and search results.
 
-    \[Omitted image "wsd-now-assist-virtual-agent-start-resv.png"\] Alt text: Now Assist for Virtual Agent showing employee preferred space for reservation.
+    \[Omitted image "wsd-now-assist-virtual-agent-start-resv.png"\] Alt text: Virtual Agent showing employee preferred space for reservation.
 
     Each response includes feedback icons. The user can indicate if the response was helpful by selecting thumbs up or select thumbs down if the response wasn't helpful.
 
@@ -55,15 +55,15 @@ Role required: admin
 
     **Note:** Selecting **No** prompts the reservation agent to fetch another location or a space for reservation. At a time, the reservation agent shows three space suggestions.
 
-    \[Omitted image "wsd-creat-rsv-agent-two.png"\] Alt text: Now Assist for Virtual agent shows maximum of three preferred spaces for reservation
+    \[Omitted image "wsd-creat-rsv-agent-two.png"\] Alt text: Virtual agent shows maximum of three preferred spaces for reservation
 
 5.  The reservation displays a navigational link to the Advanced Reservation portal when it is not able to find a suitable space.
 
     It provides the link to the Reservation portal when employees don't select a space from the suggested spaces shown by the reservation agent. At a time, the reservation agent provides three space suggestions. Employees can search for spaces manually on the reservation portal page and reserve a space.
 
-    \[Omitted image "wsd-rsv-create-agent-five-rsv-portal-link.png"\] Alt text: Agent confirms that it cannot find a space for the employee and provides a navigation link to the Advanced Reservation Portal.
+    \[Omitted image "wsd-rsv-create-agent-five-rsv-portal-link.png"\] Alt text: Agent confirms that it can't find a space for the employee and provides a navigation link to the Advanced Reservation Portal.
 
-6.  When the request is complete, Now Assist in Virtual Agent chat interface displays a message to confirm if employees need any additional help from the Virtual Agent.
+6.  When the request is complete the Virtual Agent chat interface displays a message to confirm if employees need any additional help from the Virtual Agent.
 
     \[Omitted image "wsd-create-rsv-agent-last-step.png"\] Alt text: Agent completes the request and asks employees to confirm if they require any other help from it.
 

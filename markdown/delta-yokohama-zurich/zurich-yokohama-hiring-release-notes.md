@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-hiring-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -75,23 +75,23 @@ Zurich
 
 </td><td>
 
--   **[Create job requisition](https://servicenow-staging.fluidtopics.net/access?context=request-req-hm&family=zurich&ft:locale=en-US)**
+-   **[Create job requisition](https://www.servicenow.com/docs/access?context=request-req-hm&family=zurich&ft:locale=en-US)**
 
 As a hiring manager, request a job requisition for a vacancy in your organization that you want to fill.
 
--   **[Track job requisition](https://servicenow-staging.fluidtopics.net/access?context=view-status-my-request&family=zurich&ft:locale=en-US)**
+-   **[Track job requisition](https://www.servicenow.com/docs/access?context=view-status-my-request&family=zurich&ft:locale=en-US)**
 
 View the status and details of a job requisition, compare applications, and perform other actions as needed.
 
--   **[Track application record](https://servicenow-staging.fluidtopics.net/access?context=application-record-details-hiring&family=zurich&ft:locale=en-US)**
+-   **[Track application record](https://www.servicenow.com/docs/access?context=application-record-details-hiring&family=zurich&ft:locale=en-US)**
 
 Track an application on a job requisition, provide recommendations for the application, monitor interviews and feedback, and more.
 
--   **[Collaborate with the recruiter](https://servicenow-staging.fluidtopics.net/access?context=collab-recruiter&family=zurich&ft:locale=en-US)**
+-   **[Collaborate with the recruiter](https://www.servicenow.com/docs/access?context=collab-recruiter&family=zurich&ft:locale=en-US)**
 
 Engage with recruiters to collaborate and identify what needs your immediate attention, helping you manage job requisitions more effectively.
 
--   **[View hiring content](https://servicenow-staging.fluidtopics.net/access?context=view-hiring-content&family=zurich&ft:locale=en-US)**
+-   **[View hiring content](https://www.servicenow.com/docs/access?context=view-hiring-content&family=zurich&ft:locale=en-US)**
 
 Refer to the various hiring materials available under the Hiring tab to get a better understanding of the hiring policies and processes.
 
@@ -210,7 +210,7 @@ Zurich
 
 </td><td>
 
-Install Hiring tab by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+Install Hiring tab by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -360,7 +360,7 @@ Zurich
 -   Effortlessly collaborate with the recruiters to speed up the hiring process.
 -   Get a unified overview of your responsibilities with clear insights into what needs your attention and when.
 
- See [Hiring](https://servicenow-staging.fluidtopics.net/access?context=hiring-tab-concept&family=zurich&ft:locale=en-US) for more information.
+ See [Hiring](https://www.servicenow.com/docs/access?context=hiring-tab-concept&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

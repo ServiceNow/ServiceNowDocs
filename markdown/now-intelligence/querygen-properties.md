@@ -7,7 +7,7 @@ release: zurich
 topic_type: reference
 last_updated: "2026-02-03"
 reading_time_minutes: 6
-breadcrumb: [Reference, Query Generation, Now Assist in Platform Analytics, Platform Analytics]
+breadcrumb: [Reference, Query Generation, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
 
 # Query Generation properties

@@ -7,9 +7,9 @@ release: zurich
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
-breadcrumb: [ITOM Configuration Console for Discovery, Discovery setup, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
+breadcrumb: [ITOM Configuration Console, Discovery setup, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Admin in ITOM Configuration Console
@@ -21,7 +21,7 @@ The following table describes the administrative tasks available in the Discover
 |Task|Description|Required Role|
 |----|-----------|-------------|
 |[Assign Discovery admins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/assign-disco-admin.md)|Assign or remove the discovery\_admin role from users to manage Discovery administration permissions.|admin|
-|[Create a MID Server user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/create-mid-server-user.md)|Create a dedicated user with the mid\_server role to authenticate the MID Server to your ServiceNow instance.|admin|
+|[MID Server user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/create-mid-server-user.md)|Create a dedicated user with the mid\_server role to authenticate the MID Server to your ServiceNow instance.|admin|
 |[Deploy MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/deploy-mid-server.md)|Use MID Server to securely connect ServiceNow behind your firewall, enabling data flow, automated discovery, and seamless integration.|admin|
 |[Validate MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/validate-mid-server.md)|Validate that your MID Servers are trusted to connect to your ServiceNow instance.|admin|
 |[IP credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/create-ip-credentials.md)|Create IP credentials for Discovery to securely connect to devices in your environment.|discovery\_admin|

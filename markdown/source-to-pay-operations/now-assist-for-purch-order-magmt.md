@@ -1,6 +1,6 @@
 ---
-title: Now Assist for Purchase Order Management \(POM\)
-description: Use the ServiceNow Now Assist for Purchase Order Management \(POM\) application to convert unstructured email messages from the supplier’s inbox into a prioritized list of exceptions, and leverage a conversation-like experience to mitigate purchase order exceptions.
+title: Now Assist for Purchase Order Management
+description: Use the ServiceNow Now Assist for Purchase Order Management \(POM\) application to use generative AI to support purchase order management tasks. Convert unstructured email messages from the supplier’s inbox into a prioritized list of exceptions, and use a conversation-like experience to mitigate purchase order exceptions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/now-assist-for-purch-order-magmt.html
 release: zurich
@@ -10,9 +10,9 @@ reading_time_minutes: 3
 breadcrumb: [Purchase Order Management, Source-to-Pay Operations, Finance and Supply Chain]
 ---
 
-# Now Assist for Purchase Order Management \(POM\)
+# Now Assist for Purchase Order Management
 
-Use the ServiceNow® Now Assist for Purchase Order Management \(POM\) application to convert unstructured email messages from the supplier’s inbox into a prioritized list of exceptions, and leverage a conversation-like experience to mitigate purchase order exceptions.
+Use the ServiceNow® Now Assist for Purchase Order Management \(POM\) application to use generative AI to support purchase order management tasks. Convert unstructured email messages from the supplier’s inbox into a prioritized list of exceptions, and use a conversation-like experience to mitigate purchase order exceptions.
 
 ## Get started
 

@@ -9,7 +9,7 @@ classification: now-assist-for-field-service-management-fsm
 topic_type: concept
 last_updated: "2025-12-01"
 reading_time_minutes: 2
-breadcrumb: [Configure, Now Assist for FSM]
+breadcrumb: [Configure, ServiceNow Otto for FSM]
 ---
 
 # Configuring the Create Work Order AI agent
@@ -40,14 +40,14 @@ The Create Work Order agentic workflow allows users to create work orders from t
 
     \[Omitted image "now-assist-create-wo-nap-display.png"\] Alt text: Create Work Order configuration screen with Display set to active.
 
-    You have enabled the agentic workflow in the Now Assist panel. If the option isn't available, you must enable the panel first. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/activate-now-assist-panel.md).
+    You have enabled the agentic workflow in the Now Assist panel. If the option isn't available, you must enable the panel first. For more information, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
 5.  Select **Save and test**.
 
 
 ### Result
 
-The Create Work Order agentic workflow will appear in the Now Assist panel. The workflow can be triggered by asking Now Assist to create a work order, or by selecting the Create Work Order button. For more information, see [Create a work order using Now Assist for Field Service Management \(FSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/now-assist-for-field-service-management-fsm/create-work-order-now-assist-fsm.md).
+The Create Work Order agentic workflow will appear in the Now Assist panel. The workflow can be triggered by asking Now Assist to create a work order, or by selecting the Create Work Order button. For more information, see [Create a work order using ServiceNow Otto for Field Service Management \(FSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/now-assist-for-field-service-management-fsm/create-work-order-now-assist-fsm.md).
 
 ## Configure the Create Work Order AI Agent for the Now Assist Virtual Agent
 
@@ -80,5 +80,5 @@ The Create Work Order AI agent allows users to create work orders in the Service
 
 ### Result
 
-The Create Work Order AI agent will appear in the ServiceNow Agent mobile application. The agent can be triggered by asking Now Assist to create a work order, or by selecting the Create Work Order button. For more information, see [Create a work order on ServiceNow Agent using Now Assist for Field Service Management \(FSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/now-assist-for-field-service-management-fsm/create-work-order-mobile-now-assist-fsm.md).
+The Create Work Order AI agent will appear in the ServiceNow Agent mobile application. The agent can be triggered by asking Now Assist to create a work order, or by selecting the Create Work Order button. For more information, see [Create a work order on ServiceNow Agent using ServiceNow Otto for Field Service Management \(FSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/now-assist-for-field-service-management-fsm/create-work-order-mobile-now-assist-fsm.md).
 

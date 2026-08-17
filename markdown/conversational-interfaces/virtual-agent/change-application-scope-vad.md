@@ -1,5 +1,5 @@
 ---
-title: Change the application scope for Virtual Agent Designer topics
+title: Change the application scope for Assistant Designer Asset library topics
 description: Set the application scope before you create or update a topic. For example, if you're creating ITSM topics, verify that you're in the ITSM Virtual Agent Conversations scope \(and not the scope for the ITSM NLU \(Natural Language Understanding\) Model for Virtual Agent Conversations\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/change-application-scope-vad.html
@@ -10,10 +10,10 @@ topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2
 keywords: [Virtual Agent Designer, Application scope, Unified navigation, Globe icon, Virtual Agent topic]
-breadcrumb: [Create a Virtual Agent topic, Getting started with Virtual Agent Designer, Build and deploy, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Create a Virtual Agent asset, Getting started with Assistant Designer Asset library, Build and deploy, Virtual Agent, Conversational Interfaces]
 ---
 
-# Change the application scope for Virtual Agent Designer topics
+# Change the application scope for Assistant Designer Asset library topics
 
 Set the application scope before you create or update a topic. For example, if you're creating ITSM topics, verify that you're in the **ITSM Virtual Agent Conversations** scope \(and not the scope for the ITSM NLU \(Natural Language Understanding\) Model for Virtual Agent Conversations\).
 
@@ -27,7 +27,7 @@ When you open or create a topic, your current application scope is displayed in 
 
 If you have multiple topics open at once, every topic shows its individual scope, and all topics not set to the current scope are locked.
 
-\[Omitted image "app-scope-canvas-views-2.png"\] Alt text: Topic opened to canvas view in Virtual Agent Designer, with Application scope highlighted. The topic unlocks for editing when you change the application scope to match the topic.
+\[Omitted image "app-scope-canvas-views-2.png"\] Alt text: Topic opened to canvas view in Assistant Designer Asset library, with Application scope highlighted. The topic unlocks for editing when you change the application scope to match the topic.
 
 ## Procedure
 
@@ -50,5 +50,5 @@ If the new scope matches a topic that was locked before, the warning banner disa
 
 Return to creating or updating your topic. If you have multiple topics open, you can sort them by activating the **Organize tab groupings by scope** toggle switch in **Preferences**. For more information, see [Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/vad-topics-page.md).
 
-**Parent Topic:**[Create a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md)
+**Parent Topic:**[Create a Virtual Agent asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md)
 

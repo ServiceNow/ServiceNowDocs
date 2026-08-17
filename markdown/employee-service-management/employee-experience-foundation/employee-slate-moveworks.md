@@ -8,7 +8,7 @@ product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
 last_updated: "2026-04-24"
-reading_time_minutes: 3
+reading_time_minutes: 4
 keywords: [Employee Slate for Moveworks, Moveworks AI assistant, AI front door]
 breadcrumb: [Configuration flow, Employee Slate, Unified Employee Experience, Employee Service Management]
 ---
@@ -17,7 +17,9 @@ breadcrumb: [Configuration flow, Employee Slate, Unified Employee Experience, Em
 
 Employees search and take action across ServiceNow workflows and connected business applications from one AI front door on web and mobile.
 
-Employee Slate for Moveworks combines the Moveworks AI assistant with key Employee Slate features. These features include the conversation-first home page, the interactive split view, Enterprise Search, and the Inbox. You start any request from one chat bar and complete the request in the same panel, working across ServiceNow workflows and connected business applications without switching tools, opening separate forms, or filing tickets.
+Employee Slate for Moveworks combines the Moveworks AI assistant with key Employee Slate features. These features include the conversation-first home page, the interactive split view, Enterprise Search, and the Inbox.
+
+You start any request from one chat bar and complete the request. You can work across ServiceNow workflows and connected business applications without switching tools, opening separate forms, or filing tickets.
 
 \[Omitted image "es-moveworks-home.svg"\] Alt text: Employee Slate for Moveworks home page with the conversation interface and chat bar
 
@@ -42,6 +44,7 @@ Administrators complete the following tasks to enable Moveworks for Employee Sla
 |[Set up Moveworks for Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/empworks-set-up-moveworks.md)|Initial setup and configuration of the Moveworks integration with Employee Slate.|
 |[Configure the Moveworks chat bot for Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/empworks-configure-moveworks-chatbot.md)|Set up and customize the Moveworks chat bot functionality for Employee Slate users.|
 |[Configure Employee Slate for Moveworks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/empworks-configure-employee-slate-moveworks.md)|Configure Employee Slate settings to work with the Moveworks integration.|
+|[Configure terms of use attestation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/eslate-configure-terms-of-use.md)|Configure attestation terms that employees must accept before accessing the application.|
 
 ## Employee tasks
 

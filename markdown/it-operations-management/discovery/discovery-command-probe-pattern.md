@@ -27,7 +27,7 @@ Discovery runs several different types of commands during probe-based horizontal
 
 |Command/Permission|Resource|
 |------------------|--------|
-|SSH commands requiring a privileged user|[SSH commands requiring a privileged user during probe-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/discovery-ssh-command-require-priv.md)|
+|SSH commands requiring a privileged user|[Privileged SSH commands for probe-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/discovery-ssh-command-require-priv.md)|
 |SSH commands not requiring a privileged user|[Non-privileged SSH commands during probe-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/discovery-ssh-probe-commands.md)|
 |Windows commands and permissions|[Windows probes and permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/r_DiscoWinProbesAndPermissions.md)|
 |Additional permissions|[Discovery probe permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/r_AdditionalPermissions.md)|

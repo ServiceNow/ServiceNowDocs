@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/add-dec
 release: zurich
 topic_type: task
 last_updated: "2025-11-11"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Create sequences, Customer Engagement Sequences, Lead and opportunity apps, Use, Sales Customer Relationship Management]
 ---
 
@@ -44,7 +44,7 @@ Role required: sn\_crm\_sequence.admin, sn\_crm\_sequence.writer
 
     For example, if you want the agent accessing the workflow to wait two days before calling the prospective lead or customer again, you would set Duration type to **Explicit duration** and set **Days** to `2`.
 
-    For more information, see .
+    For more information, see [Start with delay input properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/start-with-delay-properties.md).
 
 8.  Under the Branches tab, expand New branch and enter a unique name for the branch in the **Branch label** field.
 
@@ -52,19 +52,19 @@ Role required: sn\_crm\_sequence.admin, sn\_crm\_sequence.writer
 
     For example, to execute the branch when the outcome of the previous call attempt was unsuccessful, you would set the condition **\[Schedule call &gt; Output &gt; State\]****\[is\]****\[Cancelled\]**.
 
-    For more information, see .
+    For more information, see [Decision activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/create-a-decision-activity.md).
 
 10. Select **Save and close**.
 
 
 ## What to do next
 
-Add a stage for the new branch you created earlier, and repeat the steps to add more activities as needed. For more information, see .
+Add a stage for the new branch you created earlier, and repeat the steps to add more activities as needed. For more information, see [Add and configure a stage in a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/add-configure-stage.md).
 
 **Parent Topic:**[Create a customer engagement sequence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/create-customer-engagement-sequence.md)
 
 **Related topics**  
 
 
-[bundle-crworkflow.create-decision-stage]
+[Decision stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/create-decision-stage.md)
 

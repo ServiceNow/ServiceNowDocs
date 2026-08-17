@@ -1,6 +1,6 @@
 ---
-title: Export RIDAC data from Project Workspace
-description: Export your RIDAC data as a file from Project Workspace. Use this file to provide RIDAC updates to external stakeholders or a wider audience. Save time by generating an export file with the latest information and avoid copying information into different files.
+title: Export RIDAC data from All RIDAC page
+description: Export your RIDAC data as a file from All RIDAC page. Use this file to provide RIDAC updates to external stakeholders or a wider audience. Save time by generating an export file with the latest information and avoid copying information into different files.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/project-workspace/export-ridac-pw.html
 release: zurich
@@ -12,9 +12,9 @@ reading_time_minutes: 1
 breadcrumb: [Manage RIDAC, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
-# Export RIDAC data from Project Workspace
+# Export RIDAC data from All RIDAC page
 
-Export your RIDAC data as a file from Project Workspace. Use this file to provide RIDAC updates to external stakeholders or a wider audience. Save time by generating an export file with the latest information and avoid copying information into different files.
+Export your RIDAC data as a file from All RIDAC page. Use this file to provide RIDAC updates to external stakeholders or a wider audience. Save time by generating an export file with the latest information and avoid copying information into different files.
 
 ## Before you begin
 
@@ -26,13 +26,15 @@ The RIDAC export allows you to export RIDAC data into an external file for backu
 
 ## Procedure
 
-1.  Open a project from the planning page of Project Workspace.
+1.  Open a project from the home page of Project Workspace.
 
-    For information on how to navigate to the planning page, see [Access Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/access-new-project-workspace.md).
+    For information, see [Access the Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/access-new-project-workspace.md).
 
-2.  Open the RIDAC page of the project by selecting **RIDAC** from the list.
+2.  Navigate to **RIDAC** &gt; **All RIDAC**.
 
-3.  Select the Export icon \(\[Omitted image "export-ridac-icon.png"\] Alt text: Export RIDAC icon\) from the side panel.
+    The All RIDAC page displays all RIDAC records for the project in a single grid view, including Risks, Issues, Decisions, Actions, and Change Requests.
+
+3.  Select the Export RIDAC icon \(\[Omitted image "export-ridac-icon.png"\] Alt text: Export RIDAC icon\) from the side panel.
 
     \[Omitted image "export-ridac-page.png"\] Alt text: Export RIDAC data in Project Workspace.
 

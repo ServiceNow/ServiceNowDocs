@@ -20,7 +20,7 @@ An inflight order is an order that is in the process of being orchestrated and f
 
 Enterprise order management is complex. It can take weeks or months to fulfill a multi-site order. Enterprise orders can involve the large-scale purchases of products and services, often for multiple locations around the world. Inflight orders can go through revisions that incorporate changes that are submitted by customers or identified by internal personnel during the order fulfillment process.
 
-To revise an inflight order or order line items that have already been decomposed to suborders, service provider employees have to assess the impact of the requested changes. If there is no data-driven process and framework, users try to manage the changes with manual tasks that can lead to delays in the order delivery process and result in poor customer and employee experiences.
+To revise an inflight order or order line items that have already been decomposed to suborders, service provider employees have to assess the impact of the requested changes. If there is no data-driven process and framework, users try to manage the changes with manual tasks. These manual tasks can lead to delays in the order delivery process and result in poor customer and employee experiences.
 
 By using inflight change order management, you can determine how to manage changes for customer orders that are still being fulfilled. By managing inflight changes, your organization can reduce operational costs and deliver a better customer experience.
 

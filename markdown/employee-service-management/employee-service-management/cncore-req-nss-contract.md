@@ -4,8 +4,9 @@ description: Use Contract Management Pro to submit non self-served contract requ
 locale: en-US
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
+audience: sn\_cm\_core.contract\_fulfiller
 ---
 
 # Use non-self-served contract request

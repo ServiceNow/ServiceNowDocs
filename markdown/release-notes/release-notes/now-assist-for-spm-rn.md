@@ -1,6 +1,6 @@
 ---
-title: Now Assist for Strategic Portfolio Management \(SPM\) release notes
-description: The ServiceNow Now Assist for Strategic Portfolio Management \(SPM\) application introduces generative AI skills into Strategic Portfolio Management. You can summarize feedback or content in Docs, create stories for epics, generate project insights, create demands through conversations, and quickly gain updates into projects. Now Assist for Strategic Portfolio Management \(SPM\) was enhanced and updated in the Zurich release.
+title: ServiceNow Otto for Strategic Portfolio Management release notes
+description: The ServiceNow ServiceNow Otto for Strategic Portfolio Management application introduces generative AI skills into Strategic Portfolio Management. You can summarize feedback or content in Docs, create stories for epics, generate project insights, create demands through conversations, and quickly gain updates into projects. ServiceNow Otto for Strategic Portfolio Management was enhanced and updated in the Zurich release.
 locale: en-US
 release: zurich
 topic_type: reference
@@ -9,11 +9,11 @@ reading_time_minutes: 7
 keywords: [Now Assist for SPM, Now Assist, AI agents, Agentic AI]
 ---
 
-# Now Assist for Strategic Portfolio Management \(SPM\) release notes
+# ServiceNow Otto for Strategic Portfolio Management release notes
 
-The ServiceNow® Now Assist for Strategic Portfolio Management \(SPM\) application introduces generative AI skills into Strategic Portfolio Management. You can summarize feedback or content in Docs, create stories for epics, generate project insights, create demands through conversations, and quickly gain updates into projects. Now Assist for Strategic Portfolio Management \(SPM\) was enhanced and updated in the Zurich release.
+The ServiceNow® ServiceNow Otto for Strategic Portfolio Management application introduces generative AI skills into Strategic Portfolio Management. You can summarize feedback or content in Docs, create stories for epics, generate project insights, create demands through conversations, and quickly gain updates into projects. ServiceNow Otto for Strategic Portfolio Management was enhanced and updated in the Zurich release.
 
-## Now Assist for SPM highlights for the Zurich release
+## ServiceNow Otto for SPM highlights for the Zurich release
 
 [Zurich Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-5.md)
 
@@ -21,7 +21,7 @@ The ServiceNow® Now Assist for Strategic Portfolio Management \(SPM\) applicati
 
 [Zurich Patch 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-4.md)
 
--   All Now Assist for SPM skills are activated by default.
+-   All ServiceNow Otto for SPM skills are activated by default.
 -   Use the identify similar records skill to find similar demands based on contextual similarity.
 -   Enable the project task monitor AI agent to autonomously monitor project tasks on the critical path of a project.
 -   Use the **Send preview** button to share a project insights email instantly.
@@ -31,11 +31,11 @@ The ServiceNow® Now Assist for Strategic Portfolio Management \(SPM\) applicati
 
 -   Use Google Gemini and Anthropic Claude on AWS as AI model providers for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
 
-See [Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/now-assist-spm.md) for more information.
+See [ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/now-assist-spm.md) for more information.
 
 ## New in the Zurich release
 
--   **[Schedule project insights email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/email-project-summary-skill-pw.md)**
+-   **Schedule project insights email**
     -   Schedule project insights email in the Configure project insights modal. The project email is emailed to the project managers and users and continues on the selected schedule that you select until the project is inactive or paused.
     -   Schedule and instantly send the project insights email to your project managers by selecting the **Send preview** button.
     -   Track important updates such as the delayed end dates, the status turning red, or the state updates of your projects and receive project insights email on the schedule that you select.
@@ -60,7 +60,7 @@ See [Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubus
     Use the upgraded agile story generation skill to convert epics into actionable user stories quickly. Powered by an agentic workflow, the skill analyzes epic details to recommend the optimal number of stories, enables adjustments, refines story content, and creates story records.
 
 
--   **[Improve efficiency and quality using refine records skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/refine-text-with-write-planning-item-skill.md)**
+-   ****
 
     Simplify record creation and updates by using the refine records skill with Now Assist context menu. Improve record quality by enabling AI-assisted text refinement in the text fields of Product idea, Demand, Epic, Projects, Capability, Feature, Stories, Project tasks, Risks, Strategic priorities, Goals, Targets, Initiatives, Feedback, Milestones, and Story forms.
 
@@ -73,7 +73,7 @@ See [Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubus
 
     Help improve your content and productivity with the ability to enter custom prompts directly in the Docs, alongside the Summarize, Elaborate, and Shorten options.
 
-    Generate content with Now Assist for SPM directly in your Docs. In addition, summarize existing sections, elaborate where needed, and refine drafts to help improve your productivity.
+    Generate content with ServiceNow Otto for SPM directly in your Docs. In addition, summarize existing sections, elaborate where needed, and refine drafts to help improve your productivity.
 
     You can interact with Now Assist directly in your Doc to create content, add context, or improve existing sections.
 
@@ -85,11 +85,11 @@ See [Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubus
 
 ## UI changes
 
--   **[More actions context menu UI enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/email-project-summary-skill-pw.md)**
+-   **More actions context menu UI enhancements**
     -   Email project summary option has been renamed to Configure project insights.
     -   Enable critical task alerts option has been added.
     -   Disable critical task alerts option has been added.
--   **[Configure project insights modal UI enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/email-project-summary-skill-pw.md)**
+-   **Configure project insights modal UI enhancements**
     -   Email project summary modal has been renamed to Configure project insights modal.
     -   **Disable email summary** check box has been renamed to **Pause cadence** check box.
     -   Choose topics, personalize content, and set frequency setup have been added.
@@ -97,7 +97,7 @@ See [Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubus
     -   **Include critical path task changes** check box has been removed.
     -   **Schedule and send** button has been renamed to **Schedule** button.
     -   **Send preview** button has been added to send an email instantly.
--   **[Skill name updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/email-project-summary-skill-pw.md)**
+-   **Skill name updates**
 
     The email project summary skill has been renamed to the project insights generation skill.
 
@@ -116,7 +116,7 @@ See [Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubus
 
 -   **[Changes to Now Assist usage measurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/monitoring-now-assist-usage.md)**
 
-    Starting with Zurich Early Access, AI usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
+    Starting with Australia Early Access, AI usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: AI Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
 
 -   **[Some generative AI skills, AI agents, and agentic workflows are turned on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md)**
@@ -133,23 +133,23 @@ See [Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubus
 
 ## Activation information
 
-Now Assist features are available with activation of the [Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/now-assist-spm.md) plugin. For more information, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+Now Assist features are available with activation of the [ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/now-assist-spm.md) plugin. For more information, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 
 ## Related ServiceNow applications and features
 
--   **[Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/platform-now-assist-landing.md)**
+-   **[AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/platform-now-assist-landing.md)**
 
     ServiceNow® Now Assist uses generative AI to help improve the productivity and efficiency in your organization, deliver better self-service, recommend actions, provide answers, and empower your users to search more effectively.
 
--   **[Overview tab in Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configuring-now-assist.md)**
+-   **[Overview tab in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configuring-now-assist.md)**
 
-    The Now Assist Admin console provides you with quick and easy access to the important information that you need to set up, configure, and monitor Now Assist applications and features.
+    The AI Admin Hub console provides you with quick and easy access to the important information that you need to set up, configure, and monitor Now Assist applications and features.
 
--   **[Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-panel-overview.md)**
+-   **[ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-panel-overview.md)**
 
     Use the Now Assist panel conversational interface in the Enterprise Agile Planning workspace to get story recommendations, split or combine stories, and create stories for your epics with the help of generative AI.
 
--   **[Now Assist skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills.md)**
+-   **[Generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills.md)**
 
     Now Assist products provide generative AI skills that are tailored to meet the needs of users in different workflows, including feedback summarization, content summarization in Docs, demand creation, and epic to story generation.
 

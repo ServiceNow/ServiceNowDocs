@@ -7,7 +7,7 @@ release: zurich
 topic_type: concept
 last_updated: "2025-07-02"
 reading_time_minutes: 1
-breadcrumb: [Model Context Protocol Client, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Model Context Protocol Client, AI Agent Studio, Enable AI experiences]
 ---
 
 # Explore Model Context Protocol Client

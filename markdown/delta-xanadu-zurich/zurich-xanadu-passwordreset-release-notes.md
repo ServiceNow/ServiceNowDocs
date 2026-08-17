@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-passwordreset-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -83,7 +83,7 @@ Yokohama
 
 </td><td>
 
--   **[Deny ACLs for Password Reset Access](https://servicenow-staging.fluidtopics.net/access?context=r_InstalledWithPasswordReset&family=yokohama&ft:locale=en-US)**
+-   **[Deny ACLs for Password Reset Access](https://www.servicenow.com/docs/access?context=r_InstalledWithPasswordReset&family=yokohama&ft:locale=en-US)**
 
 Enhance the security of Password Reset related tables by restricting access to non-authenticated users through Deny ACLs.
 
@@ -115,7 +115,7 @@ Xanadu
 
 </td><td>
 
--   **[Enhancing Password Reset Security URL](https://servicenow-staging.fluidtopics.net/access?context=password-reset-global-properties&family=xanadu&ft:locale=en-US)**
+-   **[Enhancing Password Reset Security URL](https://www.servicenow.com/docs/access?context=password-reset-global-properties&family=xanadu&ft:locale=en-US)**
 
 Control the expiration duration of a password reset URL by setting the `glide.pwd_reset.onetime.token.validity` property. By default, the URL is valid for one hour.
 
@@ -416,7 +416,7 @@ Xanadu
 
 Control the duration of the validity of the Password Reset URL provided in a notification email.
 
- See [Password Reset](https://servicenow-staging.fluidtopics.net/access?context=password-reset-landing-page&family=xanadu&ft:locale=en-US) for more information.
+ See [Password Reset](https://www.servicenow.com/docs/access?context=password-reset-landing-page&family=xanadu&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -427,7 +427,7 @@ Yokohama
 -   Enhanced security for all client-callable script includes by switching off the sandbox mode.
 -   Enhanced security access for Password Reset tables.
 
- See [Password Reset](https://servicenow-staging.fluidtopics.net/access?context=password-reset-landing-page&family=yokohama&ft:locale=en-US) for more information.
+ See [Password Reset](https://www.servicenow.com/docs/access?context=password-reset-landing-page&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -437,7 +437,7 @@ Zurich
 
 Coral is the new default theme for Next Experience and Core UI, offering a more modern experience.
 
- See [Password Reset](https://servicenow-staging.fluidtopics.net/access?context=password-reset-landing-page&family=zurich&ft:locale=en-US) for more information.
+ See [Password Reset](https://www.servicenow.com/docs/access?context=password-reset-landing-page&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/rn-combined-intro.md)

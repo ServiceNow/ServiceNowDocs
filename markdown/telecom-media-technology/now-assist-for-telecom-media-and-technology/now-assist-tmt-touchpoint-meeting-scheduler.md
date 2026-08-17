@@ -1,5 +1,5 @@
 ---
-title: Now Assist for Telecommunications, Media and Technology \(TMT\) AI agent collection trigger risk mitigation touchpoint
+title: ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) AI agent collection trigger risk mitigation touchpoint
 description: Use the Trigger risk mitigation touchpoint agentic workflow to schedule and edit a touchpoint meeting for a specific user.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-touchpoint-meeting-scheduler.html
@@ -8,11 +8,11 @@ product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [Customer Success Management, Use agentic workflows, Now Assist for TMT, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
-# Now Assist for Telecommunications, Media and Technology \(TMT\) AI agent collection trigger risk mitigation touchpoint
+# ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) AI agent collection trigger risk mitigation touchpoint
 
 Use the Trigger risk mitigation touchpoint agentic workflow to schedule and edit a touchpoint meeting for a specific user.
 
@@ -24,17 +24,17 @@ The agentic workflow enables customer success agents to optimize meeting schedul
 -   Create a meeting with all required details.
 -   Schedule draft meetings without manual coordination.
 
-In the Trigger risk mitigation touchpoint agentic workflow, when the risk record's probability is very high or occurred, the customer success agent is assigned to that risk receives a Now Assist panel notification. From the risk record, the agentic workflow automates the creation of meeting and schedules the meeting.
+In the Trigger risk mitigation touchpoint agentic workflow, when the risk record's probability is very high or occurred, the customer success agent is assigned to that risk. The customer success agent receives a Now Assist panel notification. From the risk record, the agentic workflow automates the creation of meeting and schedules the meeting.
 
-To modify the Trigger risk mitigation touchpoint agentic workflow [Duplicate an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/clone-aia-usecase.md), and adjust the settings according to your requirements.
+To modify the Trigger risk mitigation touchpoint agentic workflow , and adjust the settings according to your requirements.
 
-**Note:** You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in [AI Control tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/exploring-large-language-models.md).
+**Note:** You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in AI Control tower to define which options are available, then set the skill-level preferences in the Now Assist Admin console. For more information, see .
 
 ## Role masking
 
 Required role: sn\_acct\_lc.customer\_success\_agent
 
-[Role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/aia-role-masking.md) enables users to limit the roles and privileges of agentic workflows during tool execution. Agentic workflows and their AI agents that get installed with Now Assist applications are assigned pre-defined roles. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. Data access settings must also include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/define-sec-controls-aw.md).
+Agentic workflows and their AI agents use role masking to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see Define security controls for an agentic workflow.
 
 ## Trigger risk mitigation touchpoint agentic workflow
 
@@ -55,7 +55,7 @@ To access the agentic workflow:
 1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Create and manage**.
 2.  Select **Trigger risk mitigation touchpoint**.
 
-To create an agentic workflow, see [Create an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configure-use-case-ai-agents.md).
+To create an agentic workflow, see .
 
 ## Testing the agentic workflow
 
@@ -64,13 +64,13 @@ To access the use case testing page:
 1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Testing**.
 2.  On the Overview page, select **Test AI reasoning**.
 
-To test the use case, see [Manually test the execution of an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/test-aia-use-case.md).
+To test the use case, see .
 
 ## AI agents used in the Trigger risk mitigation touchpoint agentic workflow
 
 The following AI agents are used to execute the instructions for the agentic workflow.
 
-To create an AI agent, see [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configure-next-best-action-agent.md).
+To create an AI agent, see .
 
 <table id="table_wxl_gns_fgc"><thead><tr><th>
 

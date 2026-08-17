@@ -47,15 +47,15 @@ In Project Workspace, when you select **Resources** page from the left menu, you
 
 5.  You can assign work using one of the following ways.
 
-<table id="choicetable_qth_yqy_khc"><thead><tr><th align="left" id="d226451e158">
+<table id="choicetable_qth_yqy_khc"><thead><tr><th align="left" id="d233711e158">
 
 Assign work choices
 
-</th><th align="left" id="d226451e161">
+</th><th align="left" id="d233711e161">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d226451e167">
+</th></tr></thead><tbody><tr><td id="d233711e167">
 
 **Auto Assign**
 
@@ -63,7 +63,7 @@ Description
 
 The system automatically identifies all resources based on the selected primary attributes and distributes the work equally among the resources.In the Assign resources window, select **Assign resources automatically** from the Assign resources list.
 
-</td></tr><tr><td id="d226451e181">
+</td></tr><tr><td id="d233711e181">
 
 **Manual Assign**
 
@@ -88,7 +88,7 @@ Enables you to choose specific resources and decide how much effort to allocate.
 
 9.  Double-click in the Resource status column and select **Approve** to confirm the assigned work so the resource can start working.
 
-    While assigning the work, you can easily identify if a resource is available \(\[Omitted image "rmw-green-tick.png"\] Alt text: Green tick mark within a green circle indicating the resource allocation is within the available bandwidth.\) or overutilized \(\[Omitted image "rmw-red-warning.png"\] Alt text: Red exclamation mark within a red triangle indication the resource is overallocated.\), even for the future periods, using the iconography.
+    While assigning work, you can identify if a resource is available \(\[Omitted image "rmw-green-tick.png"\] Alt text: Green tick mark within a green circle indicating the resource allocation is within the available bandwidth.\) or overutilized \(\[Omitted image "rmw-red-warning.png"\] Alt text: Red exclamation mark within a red triangle indication the resource is overallocated.\), even for the future periods, using the iconography.
 
 10. You can change the status of any assigned assignments using one of the following options.
 

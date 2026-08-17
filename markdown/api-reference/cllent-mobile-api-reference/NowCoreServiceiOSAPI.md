@@ -237,7 +237,7 @@ Refreshes the SDK settings for the specified service by re-fetching them from th
 
 |Name|Type|Description|
 |----|----|-----------|
-|for service|NowService|Feature service, such as NowChat or NowAnalytics, requesting the settings refresh.|
+|for service|NowService|Feature service, such as NowChat, requesting the settings refresh.|
 
 <table id="table_rv3_knb_npb" class="returns"><thead><tr><th>
 
@@ -286,7 +286,7 @@ Refreshes the SDK settings for the specified service by re-fetching them from th
 
 |Name|Type|Description|
 |----|----|-----------|
-|for service|NowService|Feature service, such as NowChat or NowAnalytics, requesting the settings refresh.|
+|for service|NowService|Feature service, such as NowChat, requesting the settings refresh.|
 
 <table id="table_rv3_knb_npb" class="returns"><thead><tr><th>
 

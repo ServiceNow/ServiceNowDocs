@@ -18,7 +18,7 @@ Available features depend on the Journey Accelerator version, family release, an
 
 Not all Journey Accelerator features are available in all supported family releases. Go to the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view the latest information and requirements for features and releases.
 
-**Note:** Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+**Note:** Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 Different versions of Journey Accelerator are supported only in certain family releases.
 

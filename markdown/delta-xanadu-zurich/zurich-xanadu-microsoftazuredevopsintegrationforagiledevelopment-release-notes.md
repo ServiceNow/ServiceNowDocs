@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-microsoftazuredevopsintegrationforagiledevelopment-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -75,7 +75,7 @@ Xanadu
 
 </td><td>
 
--   **[OAuth authentication for integration setup](https://servicenow-staging.fluidtopics.net/access?context=setting-up-agile-azure-integration&family=xanadu&ft:locale=en-US)**
+-   **[OAuth authentication for integration setup](https://www.servicenow.com/docs/access?context=setting-up-agile-azure-integration&family=xanadu&ft:locale=en-US)**
 
 Enhance security for integrations using OAuth authentication while setting up the integration between Azure DevOps and Agile Development 2.0.
 
@@ -226,7 +226,7 @@ Xanadu
 
 </td><td>
 
-Install Microsoft Azure DevOps Integration for Agile Development by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
+Install Microsoft Azure DevOps Integration for Agile Development by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -415,7 +415,7 @@ Xanadu
 -   Avoid duplicating record update entries with the help of bidirectional synchronization of records.
 -   Plan, track, and update your tasks from a single application.
 
- See [Microsoft Azure DevOps Integration for Agile Development](https://servicenow-staging.fluidtopics.net/access?context=agile-azure-integration-overview&family=xanadu&ft:locale=en-US) for more information.
+ See [Microsoft Azure DevOps Integration for Agile Development](https://www.servicenow.com/docs/access?context=agile-azure-integration-overview&family=xanadu&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 

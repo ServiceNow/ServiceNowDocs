@@ -1,25 +1,23 @@
 ---
 title: Configure Now Assist in Contract Management
-description: As an AI administrator for contracts, you can configure Now Assist in Contract Management so that contract fulfillers can use the Now Assist capabilities while working on contract documents or search the contracts for information from the Now Assist panel.
+description: As an AI administrator, configure Now Assist in Contract Management so that contract fulfillers can use the AI capabilities while working on contract documents or search the contracts for information from the ServiceNow Otto panel.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/contract-management-pro/confg-na-in-cmpro.html
 release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 5
-keywords: [activate now assist in contract management, activate now assist in contract management pro, now assist in contract management pro, now assist for contract management pro, Now Assist in contract management pro, Now Assist for contract management pro, AI for contract management pro, AI in contract management pro]
-breadcrumb: [Now Assist in CM Pro, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+last_updated: "2026-03-12"
+reading_time_minutes: 4
+keywords: [activate now assist in contract management, activate now assist in contract management pro, now assist in contract management pro, now assist for contract management pro, Now Assist in contract management pro, AI for contract management pro, AI in contract management pro]
+breadcrumb: [Now Assist in Contract Management, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Configure Now Assist in Contract Management
 
-As an AI administrator for contracts, you can configure Now Assist in Contract Management so that contract fulfillers can use the Now Assist capabilities while working on contract documents or search the contracts for information from the Now Assist panel.
+As an AI administrator, configure Now Assist in Contract Management so that contract fulfillers can use the AI capabilities while working on contract documents or search the contracts for information from the ServiceNow Otto panel.
 
 ## Before you begin
-
-Ensure that Contract Management Pro \(sn\_cm\_pro\) and Contract Workspace \(sn\_cm\_workspace\) are installed before installing Now Assist in Contract Management.
 
 Ensure that the application is in Global or Now Assist in Contract Management scope.
 
@@ -27,29 +25,27 @@ Role required: sn\_cm\_gen\_ai.ai\_contract\_admin
 
 ## About this task
 
-Use the Now Assist Admin console to configure Now Assist in Contract Management. The console contains everything that you need to configure the Now Assist skills. For more information, see [Overview tab in Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configuring-now-assist.md).
+Use the AI Admin Hub console to configure Now Assist in Contract Management. The console contains everything that you need to configure the AI skills. For more information, see [Overview tab in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configuring-now-assist.md).
 
-The following skills are available for Contract Management Pro in the Now Assist Admin console:
+The following skills are available for Contract Management Pro in the AI Admin Hub console:
 
 -   Contract metadata extraction
 -   Contract obligation extraction
 -   Contract analysis
 
-You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all generative AI skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/exploring-large-language-models.md).
+You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all generative AI skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/exploring-large-language-models.md).
 
 ## Procedure
 
-1.  Install the Now Assist in Contract Management plugin \(sn\_cm\_gen\_ai\).
+1.  Install the Contract Management Pro - Prime plugin \(sn\_cm\_ai\_prime\).
 
-    For information about the plugin installation process, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+    For information about the plugin installation process, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 
-2.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills** to access the **Now Assist Skills** tab of the Now Assist Admin console.
+2.  Navigate to **All** &gt; **Admin Center** &gt; **AI Admin Hub** to access the **AI Skills** tab of the AI Admin Hub console.
 
 3.  Navigate to **Employee** &gt; **CM Pro**.
 
-4.  Select **Activate skill** on the skill that you want to activate.
-
-    \[Omitted image "cmpro-NA-skills.png"\] Alt text: Now Assist skills available for Contract Management Pro.
+4.  Select **Activate skill** on the skill you want to activate.
 
 5.  In the skill guided setup, configure the use cases and other mappings for the skill.
 
@@ -69,28 +65,28 @@ You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude on 
 
 ## Result
 
-The Now Assist skill is activated for Contract Management Pro.
+The AI skill is activated for Contract Management Pro.
 
 You can update or deactivate the skill by selecting **Edit** and **Deactivate** the options menu icon \(\[Omitted image "cmpro-na-three-dot-icon.png"\] Alt text: Options menu icon.\) of the active skill. For more information, see [Deactivate skills for Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cmpro-deactivate-na-skills.md).
 
 ## What to do next
 
-[Configure data permissions for Now Assist skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cmpro-conf-roles-skills.md)
+[Configure data permissions for AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cmpro-conf-roles-skills.md)
 
--   **[Configure data permissions for Now Assist skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cmpro-conf-roles-skills.md)**  
-Add the user roles for a Now Assist skill to specify the roles that Now Assist uses to access data while performing a task. The user roles control the information that Now Assist can read, update, or share, based on the permissions of the selected roles.
+-   **[Configure data permissions for AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cmpro-conf-roles-skills.md)**  
+Add the user roles for the skill to specify the roles that AI uses to access data while performing a task. The user roles control the information that AI can read, update, or share, based on the permissions of the selected roles.
 -   **[Select large language models for use cases in Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cmpro-na-manage-llm.md)**  
 Select a large language model \(LLM\) provider for a contract analysis or metadata extraction use case.
 -   **[Configuring contract metadata extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-conf-metadata-extraction.md)**  
-Configure system properties and use cases for metadata extraction so that a contract manager can use Now Assist to extract metadata from a contract and add the extracted information to the contract repository.
+Configure system properties and use cases for metadata extraction so that a contract manager can use AI to extract metadata from a contract and add the extracted information to the contract repository.
 -   **[Configuring contract analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cmpro-conf-contract-analysis.md)**  
-Configure use cases with associated field groups and fields, and map them to clauses and expected responses. Now Assist uses the applicable use case to analyze a contract document and identify non-standard and missing clauses.
+Configure use cases with associated field groups and fields, and map them to clauses and expected responses. AI uses the applicable use case to analyze a contract document and identify non-standard and missing clauses.
 -   **[Configuring contract obligation extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-conf-obligation-extraction.md)**  
-Configure and map use cases for the contract obligation extraction skill in the Now Assist Admin console to automatically extract key contractual obligations from signed contracts.
+Configure and map use cases for the contract obligation extraction skill in the AI Admin Hub console to automatically extract key contractual obligations from signed contracts.
 -   **[Configuring agentic workflows in Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cmpro-conf-agentic-workflow.md)**  
 Configure agentic workflows in Now Assist in Contract Management so that contract fulfillers can use the AI agents to perform specific tasks autonomously.
 -   **[Post-upgrade steps for Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cmpro-na-upgrade-steps.md)**  
-If you are upgrading to Now Assist in Contract Management from Yokohama \(Patch 2 and lower\) or Xanadu \(Patch 8 and lower\), and you have customized use cases, run a fix script to migrate the existing data to the Now Assist Admin console.
+If you are upgrading to Now Assist in Contract Management from Yokohama \(Patch 2 and lower\) or Xanadu \(Patch 8 and lower\), and you have customized use cases, run a fix script to migrate the existing data to the AI Admin Hub console.
 
 **Parent Topic:**[Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-now-assit-landing.md)
 

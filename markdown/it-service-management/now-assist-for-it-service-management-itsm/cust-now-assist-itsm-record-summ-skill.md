@@ -1,39 +1,39 @@
 ---
-title: Customize a Now Assist for IT Service Management \(ITSM\) Incident Summarization skill
-description: If you have the admin role, you can customize a Now Assist for IT Service Management \(ITSM\) skill so that agents can use the generative AI skills in Service Operations Workspace for ITSM and in Core UI. Use the Now Assist Skill Kit \(NASK\) to customize your prompts.
+title: Customize a ServiceNow Otto for IT Service Management \(ITSM\) Incident Summarization skill
+description: If you have the admin role, you can customize a ServiceNow Otto for IT Service Management \(ITSM\) skill so that agents can use the generative AI skills in Service Operations Workspace for ITSM and in Core UI. Use the AI Skill Kit to customize your prompts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/now-assist-for-it-service-management-itsm/cust-now-assist-itsm-record-summ-skill.html
 release: zurich
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 6
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
-breadcrumb: [Configure, Now Assist for IT Service Management \(ITSM\), IT Service Management]
+breadcrumb: [Configure, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 
-# Customize a Now Assist for IT Service Management \(ITSM\) Incident Summarization skill
+# Customize a ServiceNow Otto for IT Service Management \(ITSM\) Incident Summarization skill
 
-If you have the admin role, you can customize a Now Assist for IT Service Management \(ITSM\) skill so that agents can use the generative AI skills in Service Operations Workspace for ITSM and in Core UI. Use the Now Assist Skill Kit \(NASK\) to customize your prompts.
+If you have the admin role, you can customize a ServiceNow Otto for IT Service Management \(ITSM\) skill so that agents can use the generative AI skills in Service Operations Workspace for ITSM and in Core UI. Use the AI Skill Kit to customize your prompts.
 
 ## Before you begin
 
 Role required: sn\_nowassist\_admin.nsa\_admin
 
-You need the sn\_skill\_builder.admin role to customize the prompt in the Now Assist Skill Kit \(NASK\).
+You need the sn\_skill\_builder.admin role to customize the prompt in the AI Skill Kit.
 
 ## About this task
 
 ## Procedure
 
-1.  Navigate to **Admin** &gt; **Now Assist Admin**.
+1.  Navigate to **Admin** &gt; **AI Admin Hub**.
 
-2.  Select the **Now Assist Skills** tab.
+2.  Select the **AI Skills** tab.
 
 3.  In the **Technology** feature group, select **ITSM** from the product list.
 
-4.  Activate and copy the Now Assist for ITSM feature skill for customization.
+4.  Activate and copy the ServiceNow Otto for ITSM feature skill for customization.
 
     1.  On the feature card that is associated with the skill that you would like to activate, select **View details**.
 
@@ -51,7 +51,7 @@ You need the sn\_skill\_builder.admin role to customize the prompt in the Now As
 
 5.  In the General details step, fill in the fields.
 
-    For information about the inputs and triggers for each skill, see [Skill inputs and triggers for Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-skills.md).
+    For information about the inputs and triggers for each skill, see [Skill inputs and triggers for ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-skills.md).
 
     1.  Enter a name and description for the skill.
 
@@ -171,17 +171,17 @@ When you use [translate with Dynamic Translation](https://raw.githubusercontent.
 
 7.  Customize the prompt.
 
-    **Important:** You need the sn\_skill\_builder.admin role to activate and customize the prompt in the Now Assist Skill Kit \(NASK\).
+    **Important:** You need the sn\_skill\_builder.admin role to activate and customize the prompt in the AI Skill Kit .
 
-<table id="choicetable_ipx_pkr_2hc"><thead><tr><th align="left" id="d444981e568">
+<table id="choicetable_ipx_pkr_2hc"><thead><tr><th align="left" id="d446714e568">
 
 To
 
-</th><th align="left" id="d444981e571">
+</th><th align="left" id="d446714e571">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d444981e577">
+</th></tr></thead><tbody><tr><td id="d446714e577">
 
 **Evaluate a prompt for each input template**
 
@@ -195,27 +195,27 @@ Do this
 2.  Select **Run Test**.\[Omitted image "now-assist-itsm-evaluate-prompt.png"\] Alt text: Run test for the selected incident record
 Review and test the prompt for each input template configuration and make sure it meets your expectations.The prompt response is shown. You can make changes to the incident state selections and retest as needed.
 
-</td></tr><tr><td id="d444981e616">
+</td></tr><tr><td id="d446714e616">
 
-**Edit the prompt in the Now Assist Skill Kit and test the prompt**
+**Edit the prompt in the AI Skill Kit and test the prompt**
 
 </td><td>
 
-1.  Select **Edit prompt in Now Assist Skill Kit**.
-2.  Select **Go to Now Assist Skill Kit**.\[Omitted image "now-assist-itsm-edit-prompt-nask.png"\] Alt text: Edit prompts in the Now Assist Skill Kit
+1.  Select **Edit prompt in AI Skill Kit**.
+2.  Select **Go to AI Skill Kit**.
 
 **Note:**
 
-In the Now Assist Skill Kit, you can select the more actions icon \[Omitted image "more-actions-icon.png"\] Alt text: More actions icon.and select **Clone** to make a copy of the prompt configuration and edit as needed.
+In the AI Skill Kit, you can select the more actions icon \[Omitted image "more-actions-icon.png"\] Alt text: More actions icon.and select **Clone** to make a copy of the prompt configuration and edit as needed.
 
-3.  In the **Skill contents** pane, select the**Inputs** edit icon and add any inputs that you'd like to add to the prompt.\[Omitted image "now-assist-itsm-edit-skill-input.png"\] Alt text: Edit prompt input screen in the Now Assist Skill Kit
+3.  In the **Skill contents** pane, select the**Inputs** edit icon and add any inputs that you'd like to add to the prompt.\[Omitted image "now-assist-itsm-edit-skill-input.png"\] Alt text: Edit prompt input screen in the AI Skill Kit
 4.  In the **Prompt** screen, select the edit icon and add the desired inputs to the prompt.\[Omitted image "now-assist-itsm-edit-prompt-window.png"\] Alt text: Add inputs for the skill
 5.  Select **Run test**.
 
 The prompt displays in the Test prompt screen where you can run the test.
 
 </td></tr></tbody>
-</table>8.  In the Now Assist Admin tab, select **Save and continue**.
+</table>8.  In the AI Admin Hub tab, select **Save and continue**.
 
 9.  Define availability.
 
@@ -231,17 +231,17 @@ The prompt displays in the Test prompt screen where you can run the test.
 
     Configure where to display the incident summarization.
 
-    1.  Select either **In-product**, or **Now Assist panel**.
+    1.  Select either **In-product**, or **ServiceNow Otto panel**.
 
-        -   **In-product**: When selected, Now Assist skills are displayed in all ITSM products \(on forms and in workspaces\).
+        -   **In-product**: When selected, AI skills are displayed in all ITSM products \(on forms and in workspaces\).
 
             For the skills that appear in-product, select the down arrow to identify the roles that can use the skill.
 
-        -   **Now Assist panel**: When selected, Now Assist skills are available in the Now Assist panel.
+        -   **ServiceNow Otto panel**: When selected, AI skills are available in the ServiceNow Otto panel.
 
-            If you don't see this option, you must activate the Now Assist panel. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/activate-now-assist-panel.md).
+            If you don't see this option, you must activate the ServiceNow Otto panel. For more information, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
-            For the skills that appear in the Now Assist panel, select the down arrow to identify the roles that can use the skill.
+            For the skills that appear in the ServiceNow Otto panel, select the down arrow to identify the roles that can use the skill.
 
     2.  Select **Save and continue** to go to the next step.
 

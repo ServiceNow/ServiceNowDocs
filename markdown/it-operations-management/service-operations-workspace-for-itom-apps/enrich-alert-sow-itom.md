@@ -9,7 +9,7 @@ classification: service-operations-workspace-for-itom-apps
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 11
-breadcrumb: [Alert automation in SOW for ITOM, Using SOW for ITOM, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
+breadcrumb: [Alert automation in SOW for ITOM, Use, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
 ---
 
 # Create Enrich automation
@@ -76,15 +76,15 @@ For users familiar with the classic Event Management experience, enrich automati
     -   **Copy or compose fields**: Merges various alert fields, tags and text to generate a composed alert output.
     -   **Change alert values**: Maps the current value of alert fields to specified new values.
     -   **Improve configuration item \(CI\) identification**: Identifies CIs other than a host for better alert grouping, team assignment, and service health.
-<table id="choicetable_p43_zvd_s1c"><thead><tr><th align="left" id="d206766e269">
+<table id="choicetable_p43_zvd_s1c"><thead><tr><th align="left" id="d205927e269">
 
 Option
 
-</th><th align="left" id="d206766e272">
+</th><th align="left" id="d205927e272">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d206766e278">
+</th></tr></thead><tbody><tr><td id="d205927e278">
 
 **__Extract alert fields__**
 
@@ -115,7 +115,7 @@ If you want to add an alert tag, select the **Set as a tag** check box.
 
  To include additional fields for extraction, select **+ Add fields**.
 
-</td></tr><tr><td id="d206766e380">
+</td></tr><tr><td id="d205927e380">
 
 **__Copy or compose fields__**
 
@@ -133,7 +133,7 @@ For easier grouping, you can select a tag from the menu. If you want to use the 
 
  To create additional alert data compositions, select **+ Add fields**.
 
-</td></tr><tr><td id="d206766e441">
+</td></tr><tr><td id="d205927e441">
 
 **__Change alert values__**
 
@@ -148,7 +148,7 @@ To add more field values, select **+ Add value** and to add more fields to map, 
 
 \[Omitted image "sow-change-alert-values.png"\] Alt text: Change values of a field to a format that is easier to read, filter, and group.
 
-</td></tr><tr><td id="d206766e500">
+</td></tr><tr><td id="d205927e500">
 
 **Improve configuration item \(CI\) identification**
 

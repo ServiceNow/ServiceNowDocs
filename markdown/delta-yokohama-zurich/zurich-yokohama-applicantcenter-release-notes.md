@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-applicantcenter-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -75,39 +75,39 @@ Zurich
 
 </td><td>
 
--   **[Applicant Center home page](https://servicenow-staging.fluidtopics.net/access?context=applicant-portal-home-page&family=zurich&ft:locale=en-US)**
+-   **[Applicant Center home page](https://www.servicenow.com/docs/access?context=applicant-portal-home-page&family=zurich&ft:locale=en-US)**
 
 The Applicant Center home page is the dedicated and personalized space for applicants that provides them with a complete hiring experience.
 
--   **[View a job application](https://servicenow-staging.fluidtopics.net/access?context=view-a-job-application&family=zurich&ft:locale=en-US)**
+-   **[View a job application](https://www.servicenow.com/docs/access?context=view-a-job-application&family=zurich&ft:locale=en-US)**
 
 As an applicant, open a job application and view the details.
 
--   **[Share scheduling preferences](https://servicenow-staging.fluidtopics.net/access?context=share-availability-applicant-ac&family=zurich&ft:locale=en-US)**
+-   **[Share scheduling preferences](https://www.servicenow.com/docs/access?context=share-availability-applicant-ac&family=zurich&ft:locale=en-US)**
 
 As an applicant, when requested by recruiters, share your scheduling preferences to help them schedule interviews accordingly.
 
--   **[Select an interview slot to self-schedule your interview](https://servicenow-staging.fluidtopics.net/access?context=select-interview-slot-applicant&family=zurich&ft:locale=en-US)**
+-   **[Select an interview slot to self-schedule your interview](https://www.servicenow.com/docs/access?context=select-interview-slot-applicant&family=zurich&ft:locale=en-US)**
 
 Select an interview time slot from a list of proposed slots shared by the recruiter to automatically schedule your interview.
 
--   **[Request to reschedule interview](https://servicenow-staging.fluidtopics.net/access?context=request-to-reschedule-interview-applicant&family=zurich&ft:locale=en-US)**
+-   **[Request to reschedule interview](https://www.servicenow.com/docs/access?context=request-to-reschedule-interview-applicant&family=zurich&ft:locale=en-US)**
 
 Request the recruiter to reschedule a proposed or scheduled interview.
 
--   **[Tasks in Applicant Center](https://servicenow-staging.fluidtopics.net/access?context=applicant-tasks-applicnts&family=zurich&ft:locale=en-US)**
+-   **[Tasks in Applicant Center](https://www.servicenow.com/docs/access?context=applicant-tasks-applicnts&family=zurich&ft:locale=en-US)**
 
 View, track, and complete all your assigned hiring tasks from the Applicant Center home page.
 
--   **[Applicant survey](https://servicenow-staging.fluidtopics.net/access?context=applicant-feedback&family=zurich&ft:locale=en-US)**
+-   **[Applicant survey](https://www.servicenow.com/docs/access?context=applicant-feedback&family=zurich&ft:locale=en-US)**
 
 Provide feedback about your hiring experience in Applicant Center.
 
--   **[Set accessibility preference](https://servicenow-staging.fluidtopics.net/access?context=set-accessibility-preference&family=zurich&ft:locale=en-US)**
+-   **[Set accessibility preference](https://www.servicenow.com/docs/access?context=set-accessibility-preference&family=zurich&ft:locale=en-US)**
 
 Enable keyboard accessibility for your profile to navigate through Applicant Center using keyboard tabs.
 
--   **[Configure pre-hire experience on applicant center](https://servicenow-staging.fluidtopics.net/access?context=access-journey-accelerator-from-applicant-centre&family=zurich&ft:locale=en-US)**
+-   **[Configure pre-hire experience on applicant center](https://www.servicenow.com/docs/access?context=access-journey-accelerator-from-applicant-centre&family=zurich&ft:locale=en-US)**
 
 Start your onboarding journey from Applicant Center even before your first day. Complete all your pre-hire tasks easily and seamlessly.
 
@@ -226,7 +226,7 @@ Zurich
 
 </td><td>
 
-Install Applicant Center by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+Install Applicant Center by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -377,7 +377,7 @@ Zurich
 -   Manage your interviews and related activities, such as selecting your preferred time slot or submitting reschedule requests, all within the portal.
 -   Experience a connected pre-hire journey by receiving and reviewing key notifications that keep you informed and aligned at every step of the application process.
 
- See [Applicant Center](https://servicenow-staging.fluidtopics.net/access?context=applicant-center-concept&family=zurich&ft:locale=en-US) for more information.
+ See [Applicant Center](https://www.servicenow.com/docs/access?context=applicant-center-concept&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

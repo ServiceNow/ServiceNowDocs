@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-01-23"
 reading_time_minutes: 2
 keywords: [Opt out, Now Assist, data sharing, Admin console, settings page, account]
-breadcrumb: [Data sharing and processes, Now Assist Admin Settings, Exploring Now Assist Admin, Now Assist, Enable AI experiences]
+breadcrumb: [Data sharing and processes, AI Admin Hub Settings, Exploring AI Admin Hub, AI Admin Hub, Enable AI experiences]
 ---
 
 # Opt out of data sharing for Now Assist
@@ -23,13 +23,13 @@ If you do not have a data steward, see [Assign the data steward role](https://ra
 
 Role required: sn\_generative\_ai.data\_steward
 
-**Note:** The **Opt out** button appears only if you’ve installed at least one Now Assist application or plugin. For a list of all Now Assist applications, see [Exploring Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/exploring-now-assist-platform.md).
+**Note:** The **Opt out** button appears only if you’ve installed at least one Now Assist application or plugin. For a list of all Now Assist applications, see [Exploring AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/exploring-now-assist-platform.md).
 
 ## About this task
 
 By opting out of the ServiceNow customer data sharing program, you can no longer provide data to improve ServiceNow AI products. By sharing data with the ServiceNow AI development program, you provide relevant data to help improve prediction accuracy, user experience, tailor products to your business needs, and reduce hallucinations for your activated Now Assist skills.
 
-You can choose to opt out a ServiceNow instance from data sharing from the Now Assist Admin console if you don't want to participate. Repeat the opt-out process for all instances that use the Now Assist functionality.
+You can choose to opt out a ServiceNow instance from data sharing from the AI Admin Hub console if you don't want to participate. Repeat the opt-out process for all instances that use the Now Assist functionality.
 
 Opting out can take up to five business days to process.
 
@@ -41,11 +41,11 @@ Opting out can take up to five business days to process.
 
 2.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Settings**.
 
-    If you’re already in the Now Assist Admin console, select the **Settings** tab.
+    If you’re already in the AI Admin Hub console, select the **Settings** tab.
 
 3.  In the Settings panel, select the **Data sharing and processing** &gt; **Data sharing** tab.
 
-    \[Omitted image "naa-data-sharing.png"\] Alt text: Account panel in Now Assist Admin Settings that shows the features that are included with your license. It also provides a data sharing opt-out button.
+    \[Omitted image "naa-data-sharing.png"\] Alt text: Account panel in AI Admin Hub Settings that shows the features that are included with your license. It also provides a data sharing opt-out button.
 
 4.  Select **Opt Out**.
 

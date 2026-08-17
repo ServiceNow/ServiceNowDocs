@@ -1,21 +1,21 @@
 ---
-title: Generate email responses
-description: Enables procurement specialists and buyers to generate professional, accurate email responses using Now Assist. By minimizing manual drafting and review, it helps procurement specialists and buyers respond to requester inquiries more efficiently and focus on higher-value procurement tasks.
+title: Generate an email response for procurement cases
+description: Enables procurement specialists and buyers to generate professional, accurate email responses using ServiceNow Otto. By minimizing manual drafting and review, it helps procurement specialists and buyers respond to requester inquiries more efficiently and focus on higher-value procurement tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/email-response-na-spo.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: task
-last_updated: "2026-02-25"
+last_updated: "2026-07-30"
 reading_time_minutes: 2
 keywords: [Email response, Now Assist for Sourcing and Procurement Operations]
-breadcrumb: [Use, Now Assist Sourcing Procurement Operations, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Use ServiceNow Otto for SPO, ServiceNow Otto for SPO, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
-# Generate email responses
+# Generate an email response for procurement cases
 
-Enables procurement specialists and buyers to generate professional, accurate email responses using Now Assist. By minimizing manual drafting and review, it helps procurement specialists and buyers respond to requester inquiries more efficiently and focus on higher-value procurement tasks.
+Enables procurement specialists and buyers to generate professional, accurate email responses using ServiceNow Otto. By minimizing manual drafting and review, it helps procurement specialists and buyers respond to requester inquiries more efficiently and focus on higher-value procurement tasks.
 
 ## Before you begin
 
@@ -63,11 +63,11 @@ To generate an email response for the following records:-   Negotiation
 </td></tr></tbody>
 </table>4.  On the **Details** tab, select **Email**.
 
-5.  Select anywhere within the email message window to see the Now Assist icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon for Now Assist.
+5.  Select anywhere within the email message window to see the ServiceNow Otto icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon for ServiceNow Otto.
 
-6.  To generate a context-based email response, select the Now Assist icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon for Now Assist to generate a context-based email response.
+6.  To generate a context-based email response, select the ServiceNow Otto icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon for ServiceNow Otto to generate a context-based email response.
 
-7.  To refine an email draft, select the Now Assist icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon for Now Assist and then select any of the available options:
+7.  To refine an email draft, select the ServiceNow Otto icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon for ServiceNow Otto and then select any of the available options:
 
     -   Elaborate
     -   Shorten
@@ -83,18 +83,18 @@ To generate an email response for the following records:-   Negotiation
 
 An AI-generated email response is sent to the requester.
 
-**Parent Topic:**[Using Now Assist for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-using.md)
+**Parent Topic:**[Use ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-using.md)
 
 **Related topics**  
 
 
-[Summarize a record by using Now Assist for Sourcing and Procurement Operations \(SPO\) in Source-to-Pay Workspace]()
+[Summarize a procurement record in Source-to-Pay Workspace]()
 
-[Summarize a record by using Now Assist for Sourcing and Procurement Operations \(SPO\) in Shopping Hub]()
+[Summarize a procurement record in Shopping Hub]()
 
-[Request the generative AI capabilites in Now Assist for Sourcing and Procurement Operations \(SPO\) by using Now Assist panel]()
+[Request the generative AI capabilites in ServiceNow Otto for Sourcing and Procurement Operations \(SPO\) by using ServiceNow Otto panel]()
 
-[Use the Now Assist for Sourcing and Procurement Operations \(SPO\) skills in a Virtual Agent chat]()
+[Use the ServiceNow Otto for Sourcing and Procurement Operations \(SPO\) skills in a Virtual Agent chat]()
 
 [Analyze sentiment in procurement cases]()
 

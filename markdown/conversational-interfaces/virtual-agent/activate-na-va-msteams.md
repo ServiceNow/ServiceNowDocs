@@ -1,6 +1,6 @@
 ---
-title: Activate Now Assist in Virtual Agent for Microsoft Teams
-description: Add Now Assist in Virtual Agent to your Microsoft Teams and Microsoft Copilot bot.
+title: Activate ServiceNow Otto for Virtual Agent for Microsoft Teams
+description: Add ServiceNow Otto for Virtual Agent to your Microsoft Teams and Microsoft Copilot bot.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/activate-na-va-msteams.html
 release: zurich
@@ -13,9 +13,9 @@ keywords: [Now, Assist, Microsoft, Teams, Virtual, Agent, Integration, MS, MSTea
 breadcrumb: [Install, Conversational Integration with Microsoft Teams, Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
 ---
 
-# Activate Now Assist in Virtual Agent for Microsoft Teams
+# Activate ServiceNow Otto for Virtual Agent for Microsoft Teams
 
-Add Now Assist in Virtual Agent to your Microsoft Teams and Microsoft Copilot bot.
+Add ServiceNow Otto for Virtual Agent to your Microsoft Teams and Microsoft Copilot bot.
 
 ## Before you begin
 
@@ -29,29 +29,33 @@ Create a self-configured bot for Microsoft Copilot. For more information, see [S
 
 1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Assistant Designer**.
 
-2.  Under **Now Assist in Virtual Agent \(default\)**, select the **Edit** button.
+2.  Select the **Assistants** tab.
 
-3.  Under the **Settings** tab, select **Display experiences**, then select **Channels**.
+3.  On the **SeviceNow Otto for Virtual Agent \(default\)** tile, select **Edit**.
 
-4.  Choose the self-configured bot for the Teams channel experience you want to activate by selecting the **Select row** check box next to its name.
+4.  Select **Review display experiences**.
 
-5.  Select **Save and continue**.
+5.  Select the **Channels** tab.
 
-6.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Channels and Integrations**.
+6.  Choose the self-configured bot for the Teams channel experience you want to activate by selecting the **Select row** check box next to its name.
 
-7.  Under Integrations, in the Microsoft Teams tile, select **Manage**.
+7.  Select **Save and continue**.
 
-8.  In the Self-configured tile, next to your bot's name, select the **Manage bot** icon \(\[Omitted image "three-dots-icon.png"\]\), and then select **Manage bot** from the drop-down menu.
+8.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Channels and Integrations**.
 
-9.  Select **Edit configuration**, and then select the check box next to **Copilot**.
+9.  Under Integrations, in the Microsoft Teams tile, select **Manage**.
+
+10. In the Self-configured tile, next to your bot's name, select the **Manage bot** icon \(\[Omitted image "three-dots-icon.png"\]\), and then select **Manage bot** from the drop-down menu.
+
+11. Select **Edit configuration**, and then select the check box next to **Copilot**.
 
     **Note:** The **Copilot** option will be a **Message extension** option instead if you haven't selected the matching bot in Step 4.
 
-10. Select **Save**.
+12. Select **Save**.
 
     The bot is now active for Copilot, and the bot's Configuration tab opens.
 
-11. Select **Download** to save the manifest zip file.
+13. Select **Download** to save the manifest zip file.
 
 
 ## What to do next

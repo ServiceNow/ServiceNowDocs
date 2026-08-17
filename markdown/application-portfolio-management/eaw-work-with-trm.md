@@ -53,9 +53,9 @@ You can remove the business applications associated with Technology Reference Mo
 -   **[View TRM technical debts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/view-trm-tech-debt.md)**  
 You can view the Technology Reference Model \(TRM\) technical debts that are created for the products that aren’t aligned with the TRM phases and standards.
 -   **[Run a scheduled job to update TRM technical debt data in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-run-job-trm-tech-debts.md)**  
-Run a scheduled job to fetch the TRM technical debts data. You must run this job to see the products that are not approved for usage in your enterprise according to the TRM phases defined in Enterprise Architecture Workspace &gt; Setup&gt;TRM Phases&gt;All. You can schedule this job to periodically update the TRM technical debt for all business applications.
+Run **Populate TRM technical debts in the EA Workspace** scheduled job to fetch the TRM technical debts data. You can schedule this job to periodically update the TRM technical debt for all business applications.
 -   **[Run a job to sync TRM product names in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-schedule-job-sync-trm-product-names.md)**  
-Run a scheduled job to sync the names of Technology Reference Model \(TRM\) products with the names of their linked Software Asset Management \(SAM\) software products.
+Run a scheduled job to sync the names of Technology Reference Model \(TRM\) products with the names of their linked Software Asset Management \(ServiceNow Otto for SAM\) software products.
 -   **[Export Technology Reference Model product category data to Excel or CSV](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-export-trm-prod-cat-data.md)**  
 Export the Technology Reference Model \(TRM\) list view data to Microsoft Excel or CSV so that you can use the data to share with stakeholders and prepare for analysis.
 

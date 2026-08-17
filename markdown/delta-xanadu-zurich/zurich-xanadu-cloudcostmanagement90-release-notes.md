@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-cloudcostmanagement90-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -54,7 +54,7 @@ Zurich
 
 </td><td>
 
-The Cloud Cost Management platform support is available beginning with the Xanadu release. For instructions on upgrading Cloud Cost Management to Zurich, see [Upgrade Cloud Insights](https://servicenow-staging.fluidtopics.net/access?context=upgrade-cloud-insights-to-version-3-0&family=zurich&ft:locale=en-US).
+The Cloud Cost Management platform support is available beginning with the Xanadu release. For instructions on upgrading Cloud Cost Management to Zurich, see [Upgrade Cloud Insights](https://www.servicenow.com/docs/access?context=upgrade-cloud-insights-to-version-3-0&family=zurich&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## New features
@@ -91,11 +91,11 @@ Zurich
 
 </td><td>
 
--   **[Achieve better efficiency with faster retrieval of cost and usage data with the Azure Export method](https://servicenow-staging.fluidtopics.net/access?context=schedule-azure-billing-job&family=zurich&ft:locale=en-US)**
+-   **[Achieve better efficiency with faster retrieval of cost and usage data with the Azure Export method](https://www.servicenow.com/docs/access?context=schedule-azure-billing-job&family=zurich&ft:locale=en-US)**
 
 Manage cost and usage datasets in Azure billing downloads efficiently by using the Azure Export method. With this feature, you can retrieve larger cost datasets faster.
 
--   **[Manage MCA contracts with the enhanced support for Microsoft Azure MCA](https://servicenow-staging.fluidtopics.net/access?context=create-ms-azure-service-principal&family=zurich&ft:locale=en-US)**
+-   **[Manage MCA contracts with the enhanced support for Microsoft Azure MCA](https://www.servicenow.com/docs/access?context=create-ms-azure-service-principal&family=zurich&ft:locale=en-US)**
 
 Gain access to the spend reporting and recommendations for Azure based MCA contracts. This feature helps you to visualize cost and usage data from Azure MCA accounts and optimize your cloud spend with recommendations for potential savings.
 
@@ -246,7 +246,7 @@ Zurich
 
 </td><td>
 
-Install Cloud Cost Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+Install Cloud Cost Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -434,7 +434,7 @@ Zurich
 -   Retrieve cost and usage data faster from the Azure billing download by using the Azure Export method.
 -   Leverage Azure Microsoft Customer Agreement \(MCA\) to optimize spend reporting and recommendations for potential savings.
 
- See [Cloud Cost Management](https://servicenow-staging.fluidtopics.net/access?context=cloud-insights-landing-page&family=zurich&ft:locale=en-US) for more information.
+ See [Cloud Cost Management](https://www.servicenow.com/docs/access?context=cloud-insights-landing-page&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/rn-combined-intro.md)

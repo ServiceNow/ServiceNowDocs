@@ -1,50 +1,50 @@
 ---
-title: Supporting information for Now Assist Center
-description: Get a quick overview of the important information that is related to the Now Assist Center application.
+title: Supporting information for AI Admin Center
+description: Get a quick overview of the important information that is related to the AI Admin Center application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/supporting-information-now-assist-center.html
 release: zurich
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-07-30"
 reading_time_minutes: 1
-keywords: [Now Assist, Now Assist Center, Gen AI, Generative AI]
-breadcrumb: [Explore, Now Assist Center, Enable AI experiences]
+keywords: [AI Admin Center, Now Assist Center, AI, AI setup]
+breadcrumb: [Explore, AI Admin Center, Enable AI experiences]
 ---
 
-# Supporting information for Now Assist Center
+# Supporting information for AI Admin Center
 
-Get a quick overview of the important information that is related to the Now Assist Center application.
+Get a quick overview of the important information that is related to the AI Admin Center application.
 
 ## Supported versions
 
-Now Assist Center is supported starting with Australia general availability \(Patch 2\).
+AI Admin Center is supported starting with Australia general availability \(Patch 2\).
 
-Now Assist Center v3.0
+AI Admin Center v3.0
 
 ## Supported user interfaces
 
-The Now Assist Center application supports the Now Assist Center workspace.
+The AI Admin Center application supports the AI Admin Center workspace.
 
-The Now Assist Center workspace provides features that enable you to set up of your AI solutions in a unified experience without switching between separate Now Assist applications.
+The AI Admin Center workspace provides features that enable you to set up of your AI solutions in a unified experience without switching between separate AI applications.
 
-For more information, see [Now Assist Center workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-workspace.md).
+For more information, see [AI Admin Center workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-workspace.md).
 
 ## Application information
 
-Now Assist Center \(sn\_na\_center\) is available as a plugin from the ServiceNow Store.
+AI Admin Center \(sn\_na\_center\) is available as a plugin from the ServiceNow Store.
 
 This store app has no dependencies.
 
-For more information, see [Configuring Now Assist Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/configuring-now-assist-center.md).
+For more information, see [Configuring AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/configuring-now-assist-center.md).
 
-**Parent Topic:**[Exploring Now Assist Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/exploring-now-assist-center.md)
+**Parent Topic:**[Exploring AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/exploring-now-assist-center.md)
 
 **Related topics**  
 
 
-[Now Assist Center workspace]()
+[AI Admin Center workspace]()
 
-[AI Agent Advisor in Now Assist Center]()
+[AI readiness assessments in AI Admin Center]()
 
-[Now Assist Readiness Evaluation in Now Assist Center]()
+[AI Agent Advisor in AI Admin Center]()
 

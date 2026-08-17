@@ -9,7 +9,7 @@ classification: ai-control-tower
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 9
-breadcrumb: [AI Control Tower Home, AI Control Tower dashboard, Explore, AI Control Tower, Enable AI experiences]
+breadcrumb: [AI Control Tower Home, AI Control Tower dashboard, Explore, AI Control Tower \(legacy\), Enable AI experiences]
 ---
 
 # Security &amp; privacy tab in AI Control Tower
@@ -125,11 +125,11 @@ MCP server access metrics include MCP client-server interactions routed through 
 
 -   **Prompt injection**
 
-    These charts show prompt injection data provided by Now Assist Guardian. To see data, enable Now Assist Guardian for your instance. For more information, see [Now Assist Guardian analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-guardian-analytics.md).
+    These charts show prompt injection data provided by AI Guardian. To see data, enable AI Guardian for your instance. For more information, see [AI Guardian analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-guardian-analytics.md).
 
 -   **Offensive content**
 
-    These charts show offensive content data provided by Now Assist Guardian. To see data, enable Now Assist Guardian for your instance. For more information, see [Now Assist Guardian analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-guardian-analytics.md).
+    These charts show offensive content data provided by AI Guardian. To see data, enable AI Guardian for your instance. For more information, see [AI Guardian analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-guardian-analytics.md).
 
 -   **Sensitive data**
 

@@ -1,6 +1,6 @@
 ---
 title: Migrate resource plans and cost plans
-description: Migrate resource plans and cost plans of your projects or demands to resource assignments and attribute-bases cost plans and work on the resource allocations and project financials using Project Workspace.
+description: Migrate resource plans and cost plans of your projects or demands to resource assignments and attribute-based cost plans. Then, work on the resource allocations and project financials using Project Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/resource-management/migrate-rsrc-plan-rsrc-asgnmnt.html
 release: zurich
@@ -14,7 +14,7 @@ breadcrumb: [Migration of resource plans and cost plans, Resource Management cla
 
 # Migrate resource plans and cost plans
 
-Migrate resource plans and cost plans of your projects or demands to resource assignments and attribute-bases cost plans and work on the resource allocations and project financials using Project Workspace.
+Migrate resource plans and cost plans of your projects or demands to resource assignments and attribute-based cost plans. Then, work on the resource allocations and project financials using Project Workspace.
 
 ## Before you begin
 

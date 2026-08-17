@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-salesterritorymanagement-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -75,27 +75,27 @@ Zurich
 
 </td><td>
 
--   **[Territory level](https://servicenow-staging.fluidtopics.net/access?context=configure-territory-levels&family=zurich&ft:locale=en-US)**
+-   **[Territory level](https://www.servicenow.com/docs/access?context=configure-territory-levels&family=zurich&ft:locale=en-US)**
 
 Configure territory levels to categorize territories such as regional, district, area, and global for better territory management, reporting accuracy, and alignment of sales strategies with business complexity.
 
--   **[Territory model](https://servicenow-staging.fluidtopics.net/access?context=configure-territory-model&family=zurich&ft:locale=en-US)**
+-   **[Territory model](https://www.servicenow.com/docs/access?context=configure-territory-model&family=zurich&ft:locale=en-US)**
 
 Configure the Territory Model to maintain a structured organizational hierarchy of territories. This model serves as the foundation for assigning territories to key customer relationship management \(CRM\) entities such as accounts, consumers, leads, and opportunities. By defining territory levels and relationships within the model, organizations can verify consistent territory assignment, streamline sales operations, and support accurate forecasting and reporting.
 
--   **[Territory](https://servicenow-staging.fluidtopics.net/access?context=configure-territories&family=zurich&ft:locale=en-US)**
+-   **[Territory](https://www.servicenow.com/docs/access?context=configure-territories&family=zurich&ft:locale=en-US)**
 
 Create territories to optimize the assignment of CRM data. Map these territories to the territory model and levels to maintain the hierarchy. Provide conditions for automated assignments, and onboard members with defined roles within a territory for restricted access.
 
--   **[Resources](https://servicenow-staging.fluidtopics.net/access?context=configure-resources&family=zurich&ft:locale=en-US)**
+-   **[Resources](https://www.servicenow.com/docs/access?context=configure-resources&family=zurich&ft:locale=en-US)**
 
 Territory members are added with their designated responsibilities. These responsibilities determine the level of access each user has to CRM entities within the territory hierarchy.
 
--   **[Properties](https://servicenow-staging.fluidtopics.net/access?context=configure-properties&family=zurich&ft:locale=en-US)**
+-   **[Properties](https://www.servicenow.com/docs/access?context=configure-properties&family=zurich&ft:locale=en-US)**
 
 To put a sales territory model into use at the CRM entities, enter the sys\_id of an active sales territory model. By default, this model and its territories are utilized for sales territory assignments.
 
--   **[Run Assignments](https://servicenow-staging.fluidtopics.net/access?context=run-assignments&family=zurich&ft:locale=en-US)**
+-   **[Run Assignments](https://www.servicenow.com/docs/access?context=run-assignments&family=zurich&ft:locale=en-US)**
 
 Execute the sales territory assignment to map the CRM entities to the most appropriate territory. Each territory is evaluated against predefined territory conditions related to the CRM entity. Each territory is evaluated against its own conditions and any cascaded territory conditions associated with the CRM entity.
 
@@ -214,7 +214,7 @@ Zurich
 
 </td><td>
 
-Install Sales Territory Management​ by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+Install Sales Territory Management​ by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -364,7 +364,7 @@ Zurich
 -   Verify that only authorized users access specific records, maintaining security and compliance.
 -   Manage large sales teams efficiently with a structured, rule-based method that verifies clarity, consistency, and scalability.
 
- See [Sales Territory Management​](https://servicenow-staging.fluidtopics.net/access?context=explore-sales-territory-management&family=zurich&ft:locale=en-US) for more information.
+ See [Sales Territory Management​](https://www.servicenow.com/docs/access?context=explore-sales-territory-management&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

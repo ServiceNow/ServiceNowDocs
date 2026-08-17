@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-instancedatareplication-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
@@ -46,7 +46,7 @@ Yokohama
 
 </td><td>
 
-Improve the performance and processing efficiency of Instance Data Replication \(IDR\) by upgrading your replication sets to V2, which uses Hermes Messaging Service. For details, see [Upgrading legacy sets](https://servicenow-staging.fluidtopics.net/access?context=upgrading-legacy-replication-sets-v2&family=yokohama&ft:locale=en-US).
+Improve the performance and processing efficiency of Instance Data Replication \(IDR\) by upgrading your replication sets to V2, which uses Hermes Messaging Service. For details, see [Upgrading legacy sets](https://www.servicenow.com/docs/access?context=upgrading-legacy-replication-sets-v2&family=yokohama&ft:locale=en-US).
 
  Log rotation is automatically enabled for the Replication Payload Error \[idr\_replication\_payload\_error\] table after the upgrade. By default, the log rotation schedule is comprised of seven shards, with five days for each shard. All log entries in this table created before the upgrade are automatically truncated.
 
@@ -56,7 +56,7 @@ Zurich
 
 </td><td>
 
--   Improve the performance and processing efficiency of Instance Data Replication \(IDR\) by upgrading your replication sets to V2, which uses Hermes Messaging Service. For details, see [Upgrading legacy sets](https://servicenow-staging.fluidtopics.net/access?context=upgrading-legacy-replication-sets-v2&family=zurich&ft:locale=en-US).
+-   Improve the performance and processing efficiency of Instance Data Replication \(IDR\) by upgrading your replication sets to V2, which uses Hermes Messaging Service. For details, see [Upgrading legacy sets](https://www.servicenow.com/docs/access?context=upgrading-legacy-replication-sets-v2&family=zurich&ft:locale=en-US).
 -   Log rotation is automatically enabled for the Replication Payload Error \[idr\_replication\_payload\_error\] table after the upgrade. By default, the log rotation schedule is composed of seven shards, with five days for each shard. All log entries in this table created before the upgrade are automatically truncated.
 
 </td></tr></tbody>
@@ -86,15 +86,15 @@ Yokohama
 
 </td><td>
 
--   **[Scheduled seeding](https://servicenow-staging.fluidtopics.net/access?context=set-up-scheduled-replication-idr&family=yokohama&ft:locale=en-US)**
+-   **[Scheduled seeding](https://www.servicenow.com/docs/access?context=set-up-scheduled-replication-idr&family=yokohama&ft:locale=en-US)**
 
 Replicate data from a producer to a consumer at scheduled times each day.
 
--   **[Multiple seeding requests](https://servicenow-staging.fluidtopics.net/access?context=seed-consumer-instance&family=yokohama&ft:locale=en-US)**
+-   **[Multiple seeding requests](https://www.servicenow.com/docs/access?context=seed-consumer-instance&family=yokohama&ft:locale=en-US)**
 
 Run concurrent seeding requests across multiple replication sets, with up to one active request per set.
 
--   **[Automatically seed missing or mismatched records](https://servicenow-staging.fluidtopics.net/access?context=compare-replicated-data&family=yokohama&ft:locale=en-US)**
+-   **[Automatically seed missing or mismatched records](https://www.servicenow.com/docs/access?context=compare-replicated-data&family=yokohama&ft:locale=en-US)**
 
 Automatically seed missing or mismatched records when you create a data comparison request.
 
@@ -105,11 +105,11 @@ Zurich
 
 </td><td>
 
--   **[Monitor scheduled replication sets](https://servicenow-staging.fluidtopics.net/access?context=instance-data-replication-dashboard&family=zurich&ft:locale=en-US)**
+-   **[Monitor scheduled replication sets](https://www.servicenow.com/docs/access?context=instance-data-replication-dashboard&family=zurich&ft:locale=en-US)**
 
 Monitor the progress your scheduled replication sets in the IDR Monitoring Dashboard.
 
--   **[Track scheduled replication requests](https://servicenow-staging.fluidtopics.net/access?context=set-up-scheduled-replication-idr&family=zurich&ft:locale=en-US)**
+-   **[Track scheduled replication requests](https://www.servicenow.com/docs/access?context=set-up-scheduled-replication-idr&family=zurich&ft:locale=en-US)**
 
 Track the progress of scheduled replication requests in the Scheduled Replication Requests related list.
 
@@ -141,19 +141,19 @@ Yokohama
 
 </td><td>
 
--   **[Seeding request improvements](https://servicenow-staging.fluidtopics.net/access?context=exploring-instance-data-replication&family=yokohama&ft:locale=en-US)**
+-   **[Seeding request improvements](https://www.servicenow.com/docs/access?context=exploring-instance-data-replication&family=yokohama&ft:locale=en-US)**
 
 In V2 replication sets, the number of records in a seeding request is now unlimited.
 
--   **[Data comparison improvements](https://servicenow-staging.fluidtopics.net/access?context=comparing-replicated-data&family=yokohama&ft:locale=en-US)**
+-   **[Data comparison improvements](https://www.servicenow.com/docs/access?context=comparing-replicated-data&family=yokohama&ft:locale=en-US)**
 
 In V2 replication sets, the number of records in comparison or reseeding counts is now unlimited.
 
--   **[Reseed missing attachments](https://servicenow-staging.fluidtopics.net/access?context=comparing-replicated-data&family=yokohama&ft:locale=en-US)**
+-   **[Reseed missing attachments](https://www.servicenow.com/docs/access?context=comparing-replicated-data&family=yokohama&ft:locale=en-US)**
 
 Attachments are now included in data comparison requests.
 
--   **[Seeding performance improvements](https://servicenow-staging.fluidtopics.net/access?context=seed-consumer-instance&family=yokohama&ft:locale=en-US)**
+-   **[Seeding performance improvements](https://www.servicenow.com/docs/access?context=seed-consumer-instance&family=yokohama&ft:locale=en-US)**
 
 Seeding throughput and message queue efficiency has been optimized in IDR.
 
@@ -231,7 +231,7 @@ Yokohama
 
 </td><td>
 
-Legacy replication sets are planned for deprecation by the Zurich release. To continue replicating data in Zurich, you must upgrade all legacy replication sets to V2. For details on upgrading legacy replication sets to V2 before the upgrade, see [Upgrading legacy sets](https://servicenow-staging.fluidtopics.net/access?context=upgrading-legacy-replication-sets-v2&family=yokohama&ft:locale=en-US).
+Legacy replication sets are planned for deprecation by the Zurich release. To continue replicating data in Zurich, you must upgrade all legacy replication sets to V2. For details on upgrading legacy replication sets to V2 before the upgrade, see [Upgrading legacy sets](https://www.servicenow.com/docs/access?context=upgrading-legacy-replication-sets-v2&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -268,7 +268,7 @@ Yokohama
 
 </td><td>
 
-Instance Data Replication is a ServiceNow AI Platform feature that is available with activation of the IDR \(com.glide.idr\) plugin, which requires a separate subscription. For details, see [Request an Instance Data Replication subscription](https://servicenow-staging.fluidtopics.net/access?context=request-instance-data-replication&family=yokohama&ft:locale=en-US).
+Instance Data Replication is a ServiceNow AI Platform feature that is available with activation of the IDR \(com.glide.idr\) plugin, which requires a separate subscription. For details, see [Request an Instance Data Replication subscription](https://www.servicenow.com/docs/access?context=request-instance-data-replication&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -276,7 +276,7 @@ Zurich
 
 </td><td>
 
-Instance Data Replication is a ServiceNow AI Platform feature that is available with activation of the IDR \(com.glide.idr\) plugin, which requires a separate subscription. For details, see [Request a subscription](https://servicenow-staging.fluidtopics.net/access?context=request-instance-data-replication&family=zurich&ft:locale=en-US).
+Instance Data Replication is a ServiceNow AI Platform feature that is available with activation of the IDR \(com.glide.idr\) plugin, which requires a separate subscription. For details, see [Request a subscription](https://www.servicenow.com/docs/access?context=request-instance-data-replication&family=zurich&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -457,7 +457,7 @@ Yokohama
 -   Queue multiple seeding requests from your producer instance.
 -   Reseed missing or mismatched records automatically when creating a data comparison request.
 
- See [Instance Data Replication](https://servicenow-staging.fluidtopics.net/access?context=instance-data-replication&family=yokohama&ft:locale=en-US) for more information.
+ See [Instance Data Replication](https://www.servicenow.com/docs/access?context=instance-data-replication&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -469,7 +469,7 @@ Zurich
 -   Track the progress of scheduled replication requests within a scheduled replication set.
 -   Access details of scheduled replication requests within a scheduled replication set.
 
- See [Instance Data Replication](https://servicenow-staging.fluidtopics.net/access?context=instance-data-replication&family=zurich&ft:locale=en-US) for more information.
+ See [Instance Data Replication](https://www.servicenow.com/docs/access?context=instance-data-replication&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/rn-combined-intro.md)

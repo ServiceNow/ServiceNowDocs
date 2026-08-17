@@ -1,6 +1,6 @@
 ---
-title: Customize an order summarization skill in Now Assist for Order Management
-description: Configure the Now Assist for Order Management application so that your order agent and fulfillment agent can use the generative AI skills in the CSM/FSM Configurable Workspace and Business Portal.
+title: Customize an order summarization skill in ServiceNow Otto for Order Management
+description: Configure the ServiceNow Otto for Order Management application so that your order agent and fulfillment agent can use the generative AI skills in the CSM/FSM Configurable Workspace and Business Portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/customize-order-summarization-skill-now-assist-order-management.html
 release: zurich
@@ -8,12 +8,12 @@ topic_type: task
 last_updated: "2025-11-12"
 reading_time_minutes: 4
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configure, Now Assist for Order Management]
+breadcrumb: [Configure, ServiceNow Otto for Order Management]
 ---
 
-# Customize an order summarization skill in Now Assist for Order Management
+# Customize an order summarization skill in ServiceNow Otto for Order Management
 
-Configure the Now Assist for Order Management application so that your order agent and fulfillment agent can use the generative AI skills in the CSM/FSM Configurable Workspace and Business Portal.
+Configure the ServiceNow Otto for Order Management application so that your order agent and fulfillment agent can use the generative AI skills in the CSM/FSM Configurable Workspace and Business Portal.
 
 ## Before you begin
 
@@ -21,9 +21,9 @@ Role required: admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Now Assist Skills**.
+1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **AI Skills**.
 
-2.  In the **Customer** workflow group, view the skills for the Now Assist for Order Management under SOM.
+2.  In the **Customer** workflow group, view the skills for the ServiceNow Otto for Order Management under SOM.
 
 3.  Copy the order summarization skill for customization.
 
@@ -108,9 +108,9 @@ Description of the base input field value.
 
 6.  Customize the prompt output.
 
-    Review and test the default prompt provided. The prompt is fixed and can’t be customized directly within this step or from the Now Assist Admin screen.
+    Review and test the default prompt provided. The prompt is fixed and can’t be customized directly within this step or from the AI Admin Hub screen.
 
-    To customize or create prompts, select **Edit prompt in Now Assist Skill Kit**. You are redirected to the Now Assist Skill Kit, where you can manage prompt configurations for the skill. For more information, see Now Assist Skill Kit.
+    To customize or create prompts, select **Edit prompt in AI Skill Kit**. You are redirected to the AI Skill Kit, where you can manage prompt configurations for the skill. For more information, see [AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skill-kit-landing.md).
 
     1.  For each input template \(Product Order Capture or Service Order Capture\), select a record in the Test output section and test the prompt response output format by selecting **Run Test**.
 
@@ -139,7 +139,7 @@ Description of the base input field value.
 
 9.  Configure the **In-product desktop** field to display the order summarization for Order Management.
 
-    1.  Display Now Assist skills on the forms and workspaces by selecting the **In-product desktop** field.
+    1.  Display AI skills on the forms and workspaces by selecting the **In-product desktop** field.
 
         For the skills that appear in-product, select the arrow to identify the roles that can use the skill.
 
@@ -152,5 +152,5 @@ Description of the base input field value.
     Select **Summarize** in an order to generate the order summary.
 
 
-**Parent Topic:**[Configuring Now Assist for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/now-assist-for-order-management-configuring.md)
+**Parent Topic:**[Configuring ServiceNow Otto for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/now-assist-for-order-management-configuring.md)
 

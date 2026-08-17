@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-performanceanalyzer-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -91,19 +91,19 @@ Zurich
 
 </td><td>
 
--   **[Filter by duration](https://servicenow-staging.fluidtopics.net/access?context=filter-application-metrics-by-duration&family=zurich&ft:locale=en-US)**
+-   **[Filter by duration](https://www.servicenow.com/docs/access?context=filter-application-metrics-by-duration&family=zurich&ft:locale=en-US)**
 
 Select a duration from the last fifteen minutes to the last seven days to view the aggregate data from that time period for each of your applications. The aggregate data includes total UI time, download time, trends, and a comparison to previous performance over that duration.
 
--   **[Application metrics](https://servicenow-staging.fluidtopics.net/access?context=get-application-metrics&family=zurich&ft:locale=en-US)**
+-   **[Application metrics](https://www.servicenow.com/docs/access?context=get-application-metrics&family=zurich&ft:locale=en-US)**
 
 Select an application to filter metrics by total UI time and download time, as well as view page route performance.
 
--   **[Page route metrics](https://servicenow-staging.fluidtopics.net/access?context=get-page-route-metrics&family=zurich&ft:locale=en-US)**
+-   **[Page route metrics](https://www.servicenow.com/docs/access?context=get-page-route-metrics&family=zurich&ft:locale=en-US)**
 
 Select a page route within an application to view interaction metrics including timestamps, interaction types, total UI time, download time, and record.
 
--   **[Interaction metrics](https://servicenow-staging.fluidtopics.net/access?context=get-interaction-metrics&family=zurich&ft:locale=en-US)**
+-   **[Interaction metrics](https://www.servicenow.com/docs/access?context=get-interaction-metrics&family=zurich&ft:locale=en-US)**
 
 Select an interaction within a page route to view a waterfall with details for each resource on the page during that interaction.
 
@@ -254,7 +254,7 @@ Zurich
 
 </td><td>
 
-Install Performance Analyzer by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+Install Performance Analyzer by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -443,7 +443,7 @@ Zurich
 -   Receive page load time data directly on the instance.
 -   Access aggregated metrics by application and routes.
 
- See [Performance Analyzer](https://servicenow-staging.fluidtopics.net/access?context=performance-analyzer-landing&family=zurich&ft:locale=en-US) for more information.
+ See [Performance Analyzer](https://www.servicenow.com/docs/access?context=performance-analyzer-landing&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/rn-combined-intro.md)

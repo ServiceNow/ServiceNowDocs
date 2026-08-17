@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-appenginemanagementcenter-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -91,15 +91,15 @@ Zurich
 
 </td><td>
 
--   **[Use AEMC to manage app delegation, development, and deployment](https://servicenow-staging.fluidtopics.net/access?context=app-engine-management-center&family=zurich&ft:locale=en-US)**
+-   **[Use AEMC to manage app delegation, development, and deployment](https://www.servicenow.com/docs/access?context=app-engine-management-center&family=zurich&ft:locale=en-US)**
 
 AEMC is a centralized tool for IT admins and developers to manage the entire app development life cycle, from idea submission to deployment and monitoring. AEMC enhances efficiency and governance, and provides clear insights into custom app usage and developer productivity.
 
--   **[ReleaseOps integration](https://servicenow-staging.fluidtopics.net/access?context=exploring-aemc&family=zurich&ft:locale=en-US)**
+-   **[ReleaseOps integration](https://www.servicenow.com/docs/access?context=exploring-aemc&family=zurich&ft:locale=en-US)**
 
 Starting with version 28.2.1 of AEMC, you can deploy using ReleaseOps. ReleaseOps enables the deployment of update sets via a pipeline and leverages the automation capabilities of ServiceNow Playbooks.
 
--   **[Migrate App Engine pipelines to ReleaseOps](https://servicenow-staging.fluidtopics.net/access?context=migrating-ae-pipelines-to-releaseops-aemc&family=zurich&ft:locale=en-US)**
+-   **[Migrate App Engine pipelines to ReleaseOps](https://www.servicenow.com/docs/access?context=migrating-ae-pipelines-to-releaseops-aemc&family=zurich&ft:locale=en-US)**
 
 Starting with version 28.2.1 of AEMC, migrate your existing App Engine pipelines to ReleaseOps to take advantage of ReleaseOps features without disrupting your existing pipeline and deployment process.
 
@@ -252,7 +252,7 @@ Zurich
 
 Install AEMC by requesting it from the ServiceNow Store.
 
- Starting with version 28.2.1 of AEMC, you can use ReleaseOps pipelines or migrate your existing App Engine pipelines to ReleaseOps. To use ReleaseOps, you must install ReleaseOps by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+ Starting with version 28.2.1 of AEMC, you can use ReleaseOps pipelines or migrate your existing App Engine pipelines to ReleaseOps. To use ReleaseOps, you must install ReleaseOps by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -441,7 +441,7 @@ Zurich
 -   Migrate your existing App Engine pipelines to ReleaseOps.
 -   Oversee application development, deployment, and insights using AEMC.
 
- See [App Engine Management Center](https://servicenow-staging.fluidtopics.net/access?context=app-engine-management-center&family=zurich&ft:locale=en-US) for more information.
+ See [App Engine Management Center](https://www.servicenow.com/docs/access?context=app-engine-management-center&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/rn-combined-intro.md)

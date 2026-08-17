@@ -20,5 +20,5 @@ Define, save, and share searches of log data to help determine the causes of Log
 
 Role required: evt\_mgmt\_operator or evt\_mgmt\_admin
 
-**Important:** From the Vancouver release onward, the **Operator Workspace** is deprecated and replaced with Service Operations Workspace. For the new procedure, see the corresponding topic in the Service Operations Workspace for ITOM documentation: [Define, save, and share a search of log data in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-search-queries-manage-sow.md).
+**Important:** From the Vancouver release onward, the **Operator Workspace** is deprecated and replaced with Service Operations Workspace. For the new procedure, see the corresponding topic in the Service Operations Workspace for ITOM documentation: [Define, save, and share a log data search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-search-queries-manage-sow.md).
 

@@ -48,11 +48,11 @@ Domain separation is best for customers with any of the following requirements:
 
 When domain separation is used, guest users are restricted to the domain used in the session. For custom chat channels, the domain of the [provider application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-channel-id-va-cccif.md) is used. For the chat widget, you can associate a domain ID with the chat portal. For details, see [Associate a domain ID with a chat portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/associate-domain-id-chat-portal.md).
 
-For more information, see .
+For more information, see [Domain scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/c_DomainScope.md).
 
 ## Requirements
 
-All domain support features require the Domain Support - Domain Extensions Installer \[com.glide.domain.msp\_extensions.installer\] plugin. For details, see .
+All domain support features require the Domain Support - Domain Extensions Installer \[com.glide.domain.msp\_extensions.installer\] plugin. For details, see [Request domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/t_ActivateDomainSeparation.md).
 
 ## Configuring Virtual Agent with domain separation
 
@@ -69,7 +69,7 @@ All domain support features require the Domain Support - Domain Extensions Insta
     Only one NLU service provider can be set per domain-separated instance for all Virtual Agent clients. The managed service provider \(MSP\) logs in as a global user for the domain to configure NLU. For details, see [Configure Natural Language Understanding in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/configure-nlu-settings.md).
 
 
-## Creating topics in subdomains in Virtual Agent Designer
+## Creating topics in subdomains in Assistant Designer Asset library
 
 **Roles required:** admin or virtual\_agent\_admin
 

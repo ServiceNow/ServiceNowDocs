@@ -7,7 +7,7 @@ release: zurich
 product: Project Workspace
 classification: project-workspace
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Explore, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -18,7 +18,7 @@ A status report in Project Workspace is a snapshot in time that gives an overvie
 
 \[Omitted video\] Description: Status reporting in Project Workspace video.
 
-The Status reports in Project Workspace provide a comprehensive, configurable, and customizable view of the current state of a project by capturing and displaying key project metrics such as overall health, schedule, scope, cost, and resource utilization. Status reports help project teams and stakeholders track progress, identify risks, and manage any project-related issues in real-time.
+The Status reports in Project Workspace provide a comprehensive, configurable, and customizable view of the current state of a project. They capture and display key project metrics such as overall health, schedule, scope, cost, and resource utilization. Status reports help project teams and stakeholders track progress, identify risks, and manage any project-related issues in real-time.
 
 |Metric|Description|
 |------|-----------|
@@ -49,6 +49,25 @@ Status report templates simplify the process of generating project updates by pr
 
 -   You can create a status report using one of the existing templates: [Create a status report in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/create-a-status-report-in-project-workspace.md)
 -   You can also create your own status report template from scratch: [Create a status report template in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/create-a-status-report-template-project-workspace.md)
+
+## Project status reports using AI
+
+AI status reports help project managers create project updates faster by generating health assessments, executive summaries, and supporting rationales based on project data and configured criteria. When enabled, the generate status report action creates a status report draft where AI pre-populates key fields:
+
+-   Overall project health
+-   Health by dimensions \(schedule/cost/resources/scope\)
+-   Executive summary
+-   Rationale/analysis for each predicted health value
+
+This reduces manual effort and helps stakeholders quickly understand what changed and what needs attention.
+
+## Project health prediction using AI
+
+Project health outcomes \(such as red/yellow/green\) are determined by admin-configured criteria. The test plan for the feature specifically validates rules such as:
+
+-   Including all dimensions \(schedule/cost/resource/scope\) in overall health rollups.
+-   Handling missing/incomplete dimension configuration.
+-   Rollup behavior like “overall = red if any dimension is red”.
 
 **Parent Topic:**[Exploring Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/exploring-project-workspace.md)
 

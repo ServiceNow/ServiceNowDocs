@@ -9,7 +9,7 @@ classification: health-log-analytics
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Find correlations between alerts, Analyzing and resolving alerts, Health Log Analytics, ITOM AIOps, IT Operations Management]
+breadcrumb: [Use log correlators to find related alerts, Analyzing and resolving alerts, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
 # Add a log correlator to identify related alerts
@@ -22,21 +22,21 @@ Role required: evt\_mgmt\_operator or evt\_mgmt\_admin
 
 ## About this task
 
-For information about the types and functions of log correlators, see [Identifying related alerts in log data by using log correlators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-op-correlator-what-is-a.md).
+For information about the types and functions of log correlators, see [Log correlators for identifying related alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-op-correlator-what-is-a.md).
 
 ## Procedure
 
 1.  Use one of the following methods to add a log correlator.
 
-<table id="choicetable_aks_4jj_dpb"><thead><tr><th align="left" id="d343735e72">
+<table id="choicetable_aks_4jj_dpb"><thead><tr><th align="left" id="d344703e75">
 
 Option
 
-</th><th align="left" id="d343735e75">
+</th><th align="left" id="d344703e78">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d343735e81">
+</th></tr></thead><tbody><tr><td id="d344703e84">
 
 **Add a log correlator for a specific log source**
 
@@ -47,7 +47,7 @@ Procedure
 3.  Click **New**.
 
 
-</td></tr><tr><td id="d343735e120">
+</td></tr><tr><td id="d344703e123">
 
 **Add a log correlator that applies either to all log sources or to only those log sources that become active after you define this log correlator**
 
@@ -69,5 +69,5 @@ The Log correlators related list displays the list of existing log correlators t
 3.  Select **Active** and then click **Submit**.
 
 
-**Parent Topic:**[Identifying related alerts in log data by using log correlators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-op-correlator-what-is-a.md)
+**Parent Topic:**[Log correlators for identifying related alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-op-correlator-what-is-a.md)
 

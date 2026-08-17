@@ -1,30 +1,30 @@
 ---
-title: Configure AI search profiles with Now Assist for PSDS
-description: You can enable AI Search users to search content and metadata from documents in all or part of the knowledge bases, external repositories, and remote tables.Create a new search profile to store search experience settings for Now Assist for PSDS AI Search.Link search sources to a search profile to specify the content that a government service agent can search through that profile.Publish a search profile to make its settings, and any pending changes to its settings, active in search queries.
+title: Configure AI search profiles with ServiceNow Otto for PSDS
+description: You can enable AI Search users to search content and metadata from documents in all or part of the knowledge bases, external repositories, and remote tables.Create a new search profile to store search experience settings for ServiceNow Otto for PSDS AI Search.Link search sources to a search profile to specify the content that a government service agent can search through that profile.Publish a search profile to make its settings, and any pending changes to its settings, active in search queries.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/government-industry/now-assist-psds-config-ais-profiles.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Enabling and configuring AI Search, Configure, Now Assist for PSDS, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Enabling and configuring AI Search, Configure, ServiceNow Otto for PSDS, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Configure AI search profiles with Now Assist for PSDS
+# Configure AI search profiles with ServiceNow Otto for PSDS
 
 You can enable AI Search users to search content and metadata from documents in all or part of the knowledge bases, external repositories, and remote tables.
 
-Now Assist for PSDS supports additional configuration for AI Search, such as search profile configuration.
+ServiceNow Otto for PSDS supports additional configuration for AI Search, such as search profile configuration.
 
-AI Search for Now Assist for Public Sector Digital Services \(PSDS\) stores search experience settings in search profiles. Define a search profile for each unique search experience that you want to offer users in a ServiceNow AI Platform application. Create and populate synonym and stop word dictionaries. Configure typo handling dictionary settings. Define Genius Results and result improvement rules.
+AI Search for ServiceNow Otto for Public Sector Digital Services \(PSDS\) stores search experience settings in search profiles. Define a search profile for each unique search experience that you want to offer users in a ServiceNow AI Platform application. Create and populate synonym and stop word dictionaries. Configure typo handling dictionary settings. Define Genius Results and result improvement rules.
 
 A search profile contains settings that determine how AI Search generates search results for a given search. The search application's configuration specifies which search profile to use, and also determines how the generated results are displayed to users.
 
 For more information on AI search profiles, see [Search profiles in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/defining-search-profiles-ais.md).
 
-## Create a search profile using Now Assist for PSDS
+## Create a search profile using ServiceNow Otto for PSDS
 
-Create a new search profile to store search experience settings for Now Assist for PSDS AI Search.
+Create a new search profile to store search experience settings for ServiceNow Otto for PSDS AI Search.
 
 ### Before you begin
 
@@ -53,7 +53,7 @@ Your new search profile includes sample synonym and stop word dictionaries and a
 
 To make content searchable using your new search profile, link one or more search sources to it.
 
-## Link a search source to a search profile in Now Assist for Public Sector Digital Services \(PSDS\)
+## Link a search source to a search profile in ServiceNow Otto for Public Sector Digital Services \(PSDS\)
 
 Link search sources to a search profile to specify the content that a government service agent can search through that profile.
 
@@ -71,7 +71,7 @@ Linking a search source to a search profile makes its filtered content available
 
 2.  Open the search profile that you want to link the search source to.
 
-    To configure single-turn AI Search for use in the Now Assist Panel, select the **\[CSM AIS\] Configurable Workspace Search Config** search profile,
+    To configure single-turn AI Search for use in the ServiceNow Otto Panel, select the **\[CSM AIS\] Configurable Workspace Search Config** search profile,
 
 3.  In the Search Sources related list, select **Link Existing**.
 
@@ -79,13 +79,13 @@ Linking a search source to a search profile makes its filtered content available
 
 4.  On the Search Profile-Search Source Mapping form, fill in the fields.
 
-    To configure single-turn AI Search, enter **Now Assist Q&amp;A** in the Genius Result Configuration field, and set the order to **1**.
+    To configure single-turn AI Search, enter **ServiceNow Otto Q&amp;A** in the Genius Result Configuration field, and set the order to **1**.
 
     For a description of the field values, see [Search Profile - Search Source Mapping form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/search-prof-src-mapping-form-ais.md).
 
 5.  Select **Submit**.
 
-    \[Omitted image "search-profile-related-list-na-psds.png"\] Alt text: Search profile related list showing linked Now Assist Q&amp;A configuration
+    \[Omitted image "search-profile-related-list-na-psds.png"\] Alt text: Search profile related list showing linked ServiceNow Otto Q&amp;A configuration
 
 
 ### Result
@@ -96,7 +96,7 @@ The new search source appears in the Search Sources or Genius Results related li
 
 To make a search profile's settings active in search queries, you must publish it.
 
-## Publish a search profile in Now Assist for Public Sector Digital Services \(PSDS\)
+## Publish a search profile in ServiceNow Otto for Public Sector Digital Services \(PSDS\)
 
 Publish a search profile to make its settings, and any pending changes to its settings, active in search queries.
 
@@ -117,5 +117,5 @@ Role required: admin
 
 ### Result
 
-The search profile appears in the AI Search Search Profiles list with **State** set to **Published**, and can be used to filter what search sources are being indexed by the Now Assist for PSDS AI Search.
+The search profile appears in the AI Search Search Profiles list with **State** set to **Published**, and can be used to filter what search sources are being indexed by the ServiceNow Otto for PSDS AI Search.
 

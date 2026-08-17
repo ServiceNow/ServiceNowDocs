@@ -42,15 +42,15 @@ Customer service case managers can use the Demand Insights for Cases dashboard t
 
 4.  Perform any of the following steps.
 
-<table id="choicetable_i5f_ckh_ndb"><thead><tr><th align="left" id="d179110e123">
+<table id="choicetable_i5f_ckh_ndb"><thead><tr><th align="left" id="d178782e123">
 
 To
 
-</th><th align="left" id="d179110e126">
+</th><th align="left" id="d178782e126">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d179110e132">
+</th></tr></thead><tbody><tr><td id="d178782e132">
 
 **Attach a knowledge article to the case**
 
@@ -64,7 +64,7 @@ The knowledge article is displayed in **Activities** as a work note and is visib
 3.  To make the article visible to customers, click **Post**.
  **Note:** You cannot attach Communities content to the Case form.
 
-</td></tr><tr><td id="d179110e173">
+</td></tr><tr><td id="d178782e173">
 
 **Mark the content as helpful for resolving the associated case**
 
@@ -72,7 +72,7 @@ The knowledge article is displayed in **Activities** as a work note and is visib
 
 Click **This helped** in the pop-up window.
 
-</td></tr><tr><td id="d179110e185">
+</td></tr><tr><td id="d178782e185">
 
 **Scroll to previous or next result**
 

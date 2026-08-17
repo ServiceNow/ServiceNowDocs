@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/using-requires-attention.html
 release: zurich
 topic_type: task
-last_updated: "2025-11-23"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Requires Attention, knowledge management, Feedback Tasks, Flagged Articles]
 breadcrumb: [Using Knowledge Center, Knowledge Center, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
@@ -48,5 +48,5 @@ You can track and resolve to pending tasks efficiently from the **Requires Atten
 **Related topics**  
 
 
-[exploring-requires-attention]
+[Requires attention](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
 

@@ -17,7 +17,7 @@ breadcrumb: [Virtual Agent, Conversational Interfaces]
 
 Using the Conversational Interfaces console, you can quickly add Virtual Agent to a portal, configure branding, personalize the greeting, and begin to use pre-built ITSM Virtual Agent conversations.
 
-If you have a license for a Now Assist product, you can also quickly deploy Now Assist skills in Virtual Agent in a matter of minutes. For details, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md).
+If you have a license for a ServiceNow Otto product, you can also quickly deploy ServiceNow Otto skills in Virtual Agent in a matter of minutes. For details, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md).
 
 ## Before you begin
 
@@ -39,13 +39,13 @@ If you do not have a license for Virtual Agent, you can try Virtual Agent Lite, 
 
     Add a chat entry to the menu of your web portal. You can add Virtual Agent to additional portals later.
 
-    For conversations based on generative AI large language models \(LLMs\), you can quickly set up Now Assist in Virtual Agent and add it to a portal. For information about adding Now Assist in Virtual Agent to a portal, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md).
+    For conversations based on generative AI large language models \(LLMs\), you can quickly set up ServiceNow Otto in Virtual Agent and add it to a portal. For information about adding ServiceNow Otto in Virtual Agent to a portal, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md).
 
 4.  [Set up your Virtual Agent bot's branding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/ac-configure-chat-branding.md)
 
     Change the way Virtual Agent looks to the end user. You can change the colors, add your company logo, and change the icon that represents your bot.
 
-    If you're using Now Assist in Virtual Agent, you can customize the look and feel during the configuration process. For more information, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md).
+    If you're using ServiceNow Otto in Virtual Agent, you can customize the look and feel during the configuration process. For more information, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md).
 
 5.  [Get recommended topics for your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/getting-started-topic-recommendations.md)
 

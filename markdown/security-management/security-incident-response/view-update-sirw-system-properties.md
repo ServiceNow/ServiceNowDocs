@@ -22,6 +22,8 @@ Configure the default landing tab \(Overview or Details\) for security analysts 
 Configure the refresh interval for security incident lists for automatic update of the security incident list ensuring an updated list for the security analysts.
 -   **[Configure default view for contextual menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/configure-default-view-for-contextual-menu.md)**  
 Configure whether the contextual menu panel for a security incident is expanded or collapsed by default.
+-   **[Configure the preview modal for attachment upload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/configure-attachment-upload-preview-modal.md)**  
+Configure whether the preview modal appears when security analysts attach files to a security incident record.
 
 **Parent Topic:**[Configuring SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/configuring-security-incident-response-workspace.md)
 

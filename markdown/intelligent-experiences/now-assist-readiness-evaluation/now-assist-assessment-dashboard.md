@@ -1,6 +1,6 @@
 ---
-title: Now Assist assessment dashboard tab
-description: The Now Assist Readiness Evaluation Dashboard's Now Assist dashboard tab helps determine generative AI readiness for Now Assist by delivering automated, data-driven insights.
+title: AI Assessment dashboard tab
+description: The AI Readiness Evaluation dashboard's AI Assessment dashboard tab helps determine generative AI readiness by delivering automated, data-driven insights.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/now-assist-readiness-evaluation/now-assist-assessment-dashboard.html
 release: zurich
@@ -10,16 +10,16 @@ topic_type: concept
 last_updated: "2025-09-18"
 reading_time_minutes: 1
 keywords: [Now Assist Readiness Evaluation, Now Assist Readiness Evaluation app, Now Assist Readiness, Now Assist assessment, GenAI assessment, AI assessment, agentic AI assessment]
-breadcrumb: [Using Now Assist Readiness Evaluation dashboard, Use, Now Assist Readiness Evaluation, Enable AI experiences]
+breadcrumb: [Using AI Readiness Evaluation dashboard, Use, AI Readiness Evaluation, Enable AI experiences]
 ---
 
-# Now Assist assessment dashboard tab
+# AI Assessment dashboard tab
 
-The Now Assist Readiness Evaluation Dashboard's Now Assist dashboard tab helps determine generative AI readiness for Now Assist by delivering automated, data-driven insights.
+The AI Readiness Evaluation dashboard's AI Assessment dashboard tab helps determine generative AI readiness by delivering automated, data-driven insights.
 
-**Note:** For results to appear in this dashboard, verify that you have completed the configuration steps first. For more information on configuration, see [Configuring Now Assist Readiness Evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-readiness-evaluation/configuring-now-assist-readiness-evaluation.md).
+**Note:** For results to appear in this dashboard, verify that you have completed the configuration steps first. For more information on configuration, see [Configuring AI Readiness Evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-readiness-evaluation/configuring-now-assist-readiness-evaluation.md).
 
-The following list describes details of the Now Assist Assessment dashboard tab.
+The following list describes details of the AI Assessment dashboard tab.
 
 -   **Total Estimated Effort \(Days\)**
 
@@ -48,7 +48,7 @@ The following list describes details of the Now Assist Assessment dashboard tab.
 
 You can select each widget on the dashboard to have that table data open in a separate tab.
 
-\[Omitted image "nare-dashboard-na-assessment.png"\] Alt text: Now Assist Assessment tab showing each area of the dashboard, all including data that is automatically populated.
+\[Omitted image "nare-dashboard-na-assessment.png"\] Alt text: AI Assessment tab showing each area of the dashboard, all including data that is automatically populated.
 
-**Note:** This tab displays the Total Estimated Effort \(Days\), Remediation Effort by Category, and Estimated Effort – Trends cards when the **sn\_assess.effort\_visibility** system property is set to `true`. For more information, see [Now Assist Readiness Evaluation system properties](https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-readiness-evaluation/nare-sys-props.html).
+**Note:** This tab displays the Total Estimated Effort \(Days\), Remediation Effort by Category, and Estimated Effort – Trends cards when the **sn\_assess.effort\_visibility** system property is set to **true**. For more information, see [AI Readiness Evaluation system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-readiness-evaluation/nare-sys-props.md).
 

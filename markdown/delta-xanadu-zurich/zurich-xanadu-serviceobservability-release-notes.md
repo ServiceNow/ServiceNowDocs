@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-serviceobservability-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
@@ -83,7 +83,7 @@ Yokohama
 
 </td><td>
 
--   **[Create and manage mappings](https://servicenow-staging.fluidtopics.net/access?context=create-and-manage-observability-data-mappings&family=yokohama&ft:locale=en-US)**
+-   **[Create and manage mappings](https://www.servicenow.com/docs/access?context=create-and-manage-observability-data-mappings&family=yokohama&ft:locale=en-US)**
 
 Map services in the CMDB Workspace to the data from a connected application performance monitoring \(APM\) data source. Service Observability supports Dynatrace and New Relic. This mapping lets you view metrics from entities deep within your system, like a database or host, that might be affecting the health of a service.
 
@@ -91,19 +91,19 @@ Starting in version 1.7.3, metrics from Datadog are supported.
 
 Starting in version 1.7.3, you can map Business Services and Service Offerings to APM data. Service Offerings are not available in Xanadu.
 
--   **[View overall service health](https://servicenow-staging.fluidtopics.net/access?context=view-overall-service-health&family=yokohama&ft:locale=en-US)**
+-   **[View overall service health](https://www.servicenow.com/docs/access?context=view-overall-service-health&family=yokohama&ft:locale=en-US)**
 
 Use the Overview tab to view rate, error, and duration \(RED\) metrics from the APM related to a service. You can also view related open alerts, incidents, and change requests from the Configuration Management Database \(CMDB\) to help identify possible causes and blast radius.
 
--   **[View service health metrics](https://servicenow-staging.fluidtopics.net/access?context=view-service-health-metrics&family=yokohama&ft:locale=en-US)**
+-   **[View service health metrics](https://www.servicenow.com/docs/access?context=view-service-health-metrics&family=yokohama&ft:locale=en-US)**
 
 View the extended health metrics for a service on the new **Observability** tab when issues are found on the **Overview** tab. In addition to the extended health metrics, you can view host and database metrics related to the service based on the configured data mappings.
 
--   **[Customize dashboard templates](https://servicenow-staging.fluidtopics.net/access?context=customize-service-observability-dashboards&family=yokohama&ft:locale=en-US)**
+-   **[Customize dashboard templates](https://www.servicenow.com/docs/access?context=customize-service-observability-dashboards&family=yokohama&ft:locale=en-US)**
 
 Starting in version 1.6.4, customize the templates used to display dashboards in the **Overview** and **Observability** tabs.
 
--   **[Domain separation](https://servicenow-staging.fluidtopics.net/access?context=domain-separation-and-service-observability&family=yokohama&ft:locale=en-US)**
+-   **[Domain separation](https://www.servicenow.com/docs/access?context=domain-separation-and-service-observability&family=yokohama&ft:locale=en-US)**
 
 Starting in version 1.6.4, Service Observability can be run in separate domains.
 
@@ -114,7 +114,7 @@ Zurich
 
 </td><td>
 
--   **[New Service Observability integrations](https://servicenow-staging.fluidtopics.net/access?context=exploring-service-observability&family=zurich&ft:locale=en-US)**
+-   **[New Service Observability integrations](https://www.servicenow.com/docs/access?context=exploring-service-observability&family=zurich&ft:locale=en-US)**
 
 Integrate with more APM vendors to bring third-party data into Service Observability dashboards. New integrations for this release include:
 
@@ -125,35 +125,35 @@ Integrate with more APM vendors to bring third-party data into Service Observabi
     -   As of 1.10, AppDynamics
     -   As of 1.10, Prometheus
     -   As of 1.10, support for Dynatrace process and process groups
--   **[Support for additional ServiceNow AI Platform data in Service Observability dashboards](https://servicenow-staging.fluidtopics.net/access?context=edit-sn-based-charts&family=zurich&ft:locale=en-US)**
+-   **[Support for additional ServiceNow AI Platform data in Service Observability dashboards](https://www.servicenow.com/docs/access?context=edit-sn-based-charts&family=zurich&ft:locale=en-US)**
 
 Add data from problem records and business app records to your dashboards. The data displayed is scoped to the service being investigated.
 
--   **[Support for HLA data in Service Observability dashboards](https://servicenow-staging.fluidtopics.net/access?context=display-hla-data-on-a-dashboard&family=zurich&ft:locale=en-US)**
+-   **[Support for HLA data in Service Observability dashboards](https://www.servicenow.com/docs/access?context=display-hla-data-on-a-dashboard&family=zurich&ft:locale=en-US)**
 
 As of 1.10, add service-related log data to your dashboards.
 
--   **[Support for full vendor queries](https://servicenow-staging.fluidtopics.net/access?context=customize-service-observability-dashboard-templates&family=zurich&ft:locale=en-US)**
+-   **[Support for full vendor queries](https://www.servicenow.com/docs/access?context=customize-service-observability-dashboard-templates&family=zurich&ft:locale=en-US)**
 
 Recreate any supported vendor time series chart in your Service Observability dashboard using full queries and template variables to represent entities and start and end times.As of 1.10, import selected charts from an existing AWS or Azure APM dashboard.
 
--   **[Use data mapping tags as variables in a chart's query](https://servicenow-staging.fluidtopics.net/access?context=service-observability-template-variables&family=zurich&ft:locale=en-US)**
+-   **[Use data mapping tags as variables in a chart's query](https://www.servicenow.com/docs/access?context=service-observability-template-variables&family=zurich&ft:locale=en-US)**
 
 As of 1.10, key/tags used in a data mapping can also be used as a template variable in a chart's query.
 
--   **[Additional service types](https://servicenow-staging.fluidtopics.net/access?context=create-and-manage-observability-data-mappings&family=zurich&ft:locale=en-US)**
+-   **[Additional service types](https://www.servicenow.com/docs/access?context=create-and-manage-observability-data-mappings&family=zurich&ft:locale=en-US)**
 
 Map all service offering types to APM data instead of just the types that have a technical service as a parent.
 
--   **[Test your data mapping](https://servicenow-staging.fluidtopics.net/access?context=create-and-manage-observability-data-mappings&family=zurich&ft:locale=en-US)**
+-   **[Test your data mapping](https://www.servicenow.com/docs/access?context=create-and-manage-observability-data-mappings&family=zurich&ft:locale=en-US)**
 
 As of 1.10, you can test your data mapping before using it to create charts and dashboards.
 
--   **[Use any field on a service as a variable in your data mapping query](https://servicenow-staging.fluidtopics.net/access?context=create-and-manage-observability-data-mappings&family=zurich&ft:locale=en-US)**
+-   **[Use any field on a service as a variable in your data mapping query](https://www.servicenow.com/docs/access?context=create-and-manage-observability-data-mappings&family=zurich&ft:locale=en-US)**
 
 As of 1.10, when creating a data mapping, if your key represents a service, for convenience a drop down shows fields from the corresponding CI for the service, including custom fields, that can be used as a variable.
 
--   **[Improved data source connection flow](https://servicenow-staging.fluidtopics.net/access?context=connect-an-observability-data-source&family=zurich&ft:locale=en-US)**
+-   **[Improved data source connection flow](https://www.servicenow.com/docs/access?context=connect-an-observability-data-source&family=zurich&ft:locale=en-US)**
 
 Create APM connections without leaving the SOW.
 
@@ -296,7 +296,7 @@ Yokohama
 
 </td><td>
 
-Install Service Observability by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+Install Service Observability by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -485,7 +485,7 @@ Yokohama
 -   Centralize critical signals and bridge workflows to help increase agility and reliability.
 -   Calculate the blast radius and help reduce mean time to resolution \(MTTR\) by viewing changes to your application and the underlying infrastructure.
 
- See [Service Observability](https://servicenow-staging.fluidtopics.net/access?context=service-observability&family=yokohama&ft:locale=en-US) for more information.
+ See [Service Observability](https://www.servicenow.com/docs/access?context=service-observability&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -501,7 +501,7 @@ Zurich
 -   As of 1.10, test your data mappings before using them to create charts and dashboards.
 -   As of 1.10, use any field on a service as a tag key value in a data mapping and then use that tag as a variable in your chart queries.
 
- See [Service Observability](https://servicenow-staging.fluidtopics.net/access?context=service-observability&family=zurich&ft:locale=en-US) for more information.
+ See [Service Observability](https://www.servicenow.com/docs/access?context=service-observability&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/rn-combined-intro.md)

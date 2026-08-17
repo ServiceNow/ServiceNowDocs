@@ -9,7 +9,7 @@ classification: now-assist-for-financial-services-operations-fso
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Explore, Now Assist for FSO, Financial Services Operations \(FSO\)]
+breadcrumb: [Explore, ServiceNow Otto for FSO, Financial Services Operations \(FSO\)]
 ---
 
 # Form Data Collector

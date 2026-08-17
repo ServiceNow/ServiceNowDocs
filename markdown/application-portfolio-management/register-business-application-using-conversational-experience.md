@@ -1,33 +1,33 @@
 ---
 title: Register a business application conversationally
-description: Use the conversational experience of Now Assist in Virtual Agent to register a business application from any application that supports Virtual Agent.
+description: Use the conversational experience of ServiceNow Otto in Virtual Agent to register a business application from any application that supports Virtual Agent.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/register-business-application-using-conversational-experience.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 2
-breadcrumb: [Use Now Assist, Now Assist for Enterprise Architecture \(EA\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+last_updated: "2026-07-22"
+reading_time_minutes: 3
+breadcrumb: [Working with an application portfolio, Working with Portfolio list view, Manage, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
 # Register a business application conversationally
 
-Use the conversational experience of Now Assist in Virtual Agent to register a business application from any application that supports Virtual Agent.
+Use the conversational experience of ServiceNow Otto in Virtual Agent to register a business application from any application that supports Virtual Agent.
 
 ## Before you begin
 
-**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
 
 Ensure that the following tasks are completed:
 
 -   Install an application that supports Virtual Agent.
--   Complete configuring the conversational experiences for Enterprise Architecture. For more information, see [Configure Now Assist for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/configure-now-assist-ea.md).
+-   Complete configuring the conversational experiences for Enterprise Architecture. For more information, see [Configure ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/configure-now-assist-ea.md).
 
 Role required: none
 
 ## About this task
 
-In the application that supports Virtual Agent, for example Employee Service Center, start with a prompt to register a business application in the chat. Through a series of questions, Virtual Agent prompts you to provide information for the questions that you configured for a catalog item. Now Assist in Virtual Agent understands the context and maps the information that you provide in response to a question to an appropriate catalog item, in this case, a business application.
+In the application that supports Virtual Agent, for example Employee Service Center, start with a prompt to register a business application in the chat. Through a series of questions, Virtual Agent prompts you to provide information for the questions that you configured for a catalog item. ServiceNow Otto in Virtual Agent understands the context and maps the information that you provide in response to a question to an appropriate catalog item. In this case, the catalog item is a business application.
 
 ## Procedure
 
@@ -39,15 +39,15 @@ In the application that supports Virtual Agent, for example Employee Service Cen
 
     You can start with a basic instruction such as **Register a business application** or an elaborate instruction that includes the business application's information. The following examples show how each instruction is handled in the chat.
 
-<table id="choicetable_ttr_fll_b2c"><thead><tr><th align="left" id="d120204e162">
+<table id="choicetable_ttr_fll_b2c"><thead><tr><th align="left" id="d128380e161">
 
 Instruction
 
-</th><th align="left" id="d120204e165">
+</th><th align="left" id="d128380e164">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d120204e171">
+</th></tr></thead><tbody><tr><td id="d128380e170">
 
 **Short: Register a business application**
 
@@ -61,9 +61,9 @@ Virtual Agent starts a conversation to ask more information from you about the b
 -   Who is the owner of the business application?
 -   What is the category of the business application?
 -   What type of application is this?
- The information you provide is used to fill in the fields of the business application form. You can skip answering a question that is related to non-required fields by entering **skip**.\[Omitted image "register-ba-virtual-agent.png"\] Alt text: Screenshot showing Now AssistVirtual Agent chat window showing a request for the registration of a business application.
+ The information you provide is used to fill in the fields of the business application form.\[Omitted image "register-ba-virtual-agent.png"\] Alt text: Screenshot showing ServiceNow OttoVirtual Agent chat window showing a request for the registration of a business application.
 
-</td></tr><tr><td id="d120204e221">
+</td></tr><tr><td id="d128380e217">
 
 **Elaborate: Register the new business application XYZ, which is used for capturing application metrics. Specify Abel Tuter as both the business application owner and IT owner. Also, category of the business application is Business Intelligence – Reports and type of application is SaaS.**
 
@@ -71,7 +71,7 @@ Virtual Agent starts a conversation to ask more information from you about the b
 
 Using the context that you provided, Virtual Agent automatically matches it to the relevant field on the business application form. It then instructs you to enter information of only those fields that you haven't provided.
 
-You can skip answering a question that is related to non-required fields by entering **skip**.\[Omitted image "register-ba-virtual-agent-elaborate.png"\] Alt text: Screenshot showing Now AssistVirtual Agent chat window showing a elaborate request for the registration of a business application.
+\[Omitted image "register-ba-virtual-agent-elaborate.png"\] Alt text: Screenshot showing ServiceNow OttoVirtual Agent chat window showing a elaborate request for the registration of a business application.
 
 </td></tr></tbody>
 </table>4.  Review the information that Virtual Agent filled in for the business application form fields.
@@ -79,5 +79,14 @@ You can skip answering a question that is related to non-required fields by ente
     You can choose to make changes or submit.
 
 
-**Parent Topic:**[Using Now Assist for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/using-now-assist-for-ea.md)
+**Parent Topic:**[Working with an application portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-work-with-application-portfolio.md)
+
+**Related topics**  
+
+
+[Exploring ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/exploring-now-assist-for-ea.md)
+
+[Configure ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/configure-now-assist-ea.md)
+
+[ServiceNow Otto for Enterprise Architecture \(EA\) access roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/sn-otto-access-roles.md)
 

@@ -1,32 +1,32 @@
 ---
-title: Now Assist Center glossary
-description: Before getting started with Now Assist Center, it is important to understand some key concepts used in the application.
+title: AI Admin Center glossary
+description: Before getting started with AI Admin Center, it is important to understand some key concepts used in the application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/now-assist-center-glossary.html
 release: zurich
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-07-30"
 reading_time_minutes: 2
-keywords: [Now Assist, Now Assist Center, Gen AI, Generative AI]
-breadcrumb: [Reference, Now Assist Center, Enable AI experiences]
+keywords: [AI Admin Center, Now Assist Center, AI, AI setup]
+breadcrumb: [Reference, AI Admin Center, Enable AI experiences]
 ---
 
-# Now Assist Center glossary
+# AI Admin Center glossary
 
-Before getting started with Now Assist Center, it is important to understand some key concepts used in the application.
+Before getting started with AI Admin Center, it is important to understand some key concepts used in the application.
 
 For more helpful terminology, see [ServiceNow AI Platform glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/glossary/now-platform-glossary.md) glossary.
 
-**Parent Topic:**[Now Assist Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-reference.md)
+**Parent Topic:**[AI Admin Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-reference.md)
 
 **Related topics**  
 
 
-[Components installed with Now Assist Center]()
+[Components installed with AI Admin Center]()
 
-[Domain separation and Now Assist Center]()
+[Domain separation and AI Admin Center]()
 
-[Now Assist Center roles]()
+[AI Admin Center roles]()
 
 ## agents
 
@@ -48,7 +48,7 @@ Small, interactable number next to AI-generated content in the Now Assist panel 
 
 Refers to generative AI experiences on the ServiceNow AI Platform. With Now Assist, you can improve productivity and efficiency in your organization with better self-service, faster answers and recommended actions, and empower users to search more effectively.
 
-To learn more about Now Assist, see [Exploring Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/now-assist-csm-exploring.md).
+To learn more about Now Assist, see [Exploring ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/now-assist-csm-exploring.md).
 
 ## Now Assist skill
 

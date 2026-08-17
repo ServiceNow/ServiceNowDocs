@@ -18,7 +18,7 @@ You can view the list of product capabilities associated with business applicati
 
 The Product capabilities tab is displayed only when the Model ID detail is also available for the business application.
 
-When the **Model ID** field for a business application is initially empty and later populated, all product capabilities associated with that model ID will automatically appear in the **Product capabilities** related list of the corresponding business application.
+When the **Model ID** field for a business application is initially empty and later populated, product capabilities are automatically linked. All product capabilities associated with that model ID appear in the **Product capabilities** related list.
 
 Role required: sn\_apm.apm\_user
 

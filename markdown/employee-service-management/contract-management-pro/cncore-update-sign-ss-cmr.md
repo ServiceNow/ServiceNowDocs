@@ -7,7 +7,7 @@ release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2026-07-07"
+last_updated: "2026-06-24"
 reading_time_minutes: 2
 breadcrumb: [Use self-served contract request, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
@@ -34,15 +34,15 @@ Role required: sn\_cm\_core.contract\_fulfiller or sn\_cm\_core.contract\_user
 
 5.  Configure the signatories.
 
-<table id="choicetable_hm4_3vk_byb"><thead><tr><th align="left" id="d452079e110">
+<table id="choicetable_hm4_3vk_byb"><thead><tr><th align="left" id="d452360e112">
 
 Option
 
-</th><th align="left" id="d452079e113">
+</th><th align="left" id="d452360e115">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d452079e119">
+</th></tr></thead><tbody><tr><td id="d452360e121">
 
 **Internal**
 
@@ -52,7 +52,7 @@ Steps
 
 The fields **Authorized signatory name**, **Signatory**, and **Signatory email** are automatically populated.
 
-2.  In the **Order** field, enter the order in which the contract should be sent to the signer. The order value should be unique
+2.  In the **Order** field, enter the order in which the contract should be sent to the signer. The order value should be unique.
 3.  In the **Signatory Role** field, select the role for the signatory.
 
 **Note:** The field is enabled only for Docusign electronic signature. For wet signature and offline signature, the field is inactive and the default value is set to **Signer**.
@@ -64,7 +64,7 @@ To enable this property, see [Enable signatory roles](https://raw.githubusercont
 4.  Select **Add**.
 
 
-</td></tr><tr><td id="d452079e212">
+</td></tr><tr><td id="d452360e215">
 
 **External**
 

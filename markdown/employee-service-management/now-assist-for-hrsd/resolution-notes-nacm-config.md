@@ -1,20 +1,20 @@
 ---
-title: Configure resolution notes generation for Now Assist for HRSD
-description: Configure the resolution notes generation skill to create concise summaries of case resolutions and enable agents to use the Now Assist context menu to elaborate or shorten the notes.
+title: Configure resolution notes generation for ServiceNow Otto for HRSD
+description: Configure the resolution notes generation skill to create concise summaries of case resolutions and enable agents to use the ServiceNow Otto context menu to elaborate or shorten the notes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/now-assist-for-hrsd/resolution-notes-nacm-config.html
 release: zurich
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
 topic_type: task
-last_updated: "2025-11-28"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Configure, Now Assist for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
+breadcrumb: [Configure, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
-# Configure resolution notes generation for Now Assist for HRSD
+# Configure resolution notes generation for ServiceNow Otto for HRSD
 
-Configure the resolution notes generation skill to create concise summaries of case resolutions and enable agents to use the Now Assist context menu to elaborate or shorten the notes.
+Configure the resolution notes generation skill to create concise summaries of case resolutions and enable agents to use the ServiceNow Otto context menu to elaborate or shorten the notes.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: sn\_hr\_core.admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills**.
+1.  Navigate to **All** &gt; **ServiceNow Otto Admin** &gt; **Skills**.
 
 2.  Select **Employee**, then select **HRSD**.
 
@@ -40,35 +40,33 @@ Role required: sn\_hr\_core.admin
 
     You can modify the rule conditions to determine when the input template is used. Additional data sources can be added via related tables as well.
 
-7.  NASK.
-
-8.  Select **Define availability** to customize how and when the skill capability is active and accessible.
+7.  Select **Define availability** to customize how and when the skill capability is active and accessible.
 
     -   Select **Skill is always available** so no restrictions are placed on when a skill is available.
     -   Select **Customize skill availability** to define conditions and use the condition builder to configure fields and values.
-9.  Select **Define access** to determine who can access this skill.
+8.  Select **Define access** to determine who can access this skill.
 
-10. Select **Display** to determine where the skill appears.
+9.  Select **Display** to determine where the skill appears.
 
-    -   Select **In-product desktop** to display Now Assist skills on forms and workspaces. Then, select the roles for whom the skill will be displayed.
-    -   Select **Now Assist panel** to display Now Assist skills in the Now Assist panel.
-11. After selecting **Review and activate** to examine changes, select **Activate** to turn on the skill and complete the configuration.
+    -   Select **In-product desktop** to display generative AI skills on forms and workspaces. Then, select the roles for whom the skill will be displayed.
+    -   Select ServiceNow Otto panel to display generative AI skills in the ServiceNow Otto panel.
+10. After selecting **Review and activate** to examine changes, select **Activate** to turn on the skill and complete the configuration.
 
-12. In the Successfully activated pop-up window, select **Go to Now Assist context menu**.
+11. In the Successfully activated pop-up window, select **Go to ServiceNow Otto context menu**.
 
-13. Review the details.
+12. Review the details.
 
-14. Review the actions for the context menu trigger button and dialog.
+13. Review the actions for the context menu trigger button and dialog.
 
-15. In the Define access window, define who has access to the skill.
+14. In the Define access window, define who has access to the skill.
 
-16. In the Select display window, enable **In-product desktop**.
+15. In the Select display window, enable **In-product desktop**.
 
-17. Select **Review and activate** to examine changes, then select **Activate**.
+16. Select **Review and activate** to examine changes, then select **Activate**.
 
 
 -   **[Extend table support for resolution notes generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-hrsd/table-support-resolution-notes.md)**  
 Extend table support for the resolution notes generation skill to include additional data sources.
 
-**Parent Topic:**[Configure Now Assist for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md)
+**Parent Topic:**[Configure ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md)
 

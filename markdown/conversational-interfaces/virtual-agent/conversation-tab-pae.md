@@ -16,7 +16,7 @@ breadcrumb: [Using the Conversational Analytics Dashboard, Conversational Analyt
 
 Use the **Conversations** tab to view the list of Virtual Agent conversations and details of each conversation that occurred during the selected date range.
 
-All NLU \(Natural Language Understanding\) conversations from the Conversation table \[sys\_cs\_conversation\], that run on the Virtual Agent Designer are listed on the Conversations page, except for notifications, open \(ongoing\) conversations, and previews.
+All NLU \(Natural Language Understanding\) conversations from the Conversation table \[sys\_cs\_conversation\], that run on the Assistant Designer Asset library are listed on the Conversations page, except for notifications, open \(ongoing\) conversations, and previews.
 
 To tag a conversation as a favorite, select the star icon on the side panel. You can list all conversations that are marked as favorite using the Filter Editor.
 

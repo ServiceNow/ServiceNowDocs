@@ -8,9 +8,9 @@ product: AI Control Tower
 classification: ai-control-tower
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 1
 keywords: [Now Assist, Gen AI, Generative AI, AI Governance, Now LLM, large language model]
-breadcrumb: [Use, AI Control Tower, Enable AI experiences]
+breadcrumb: [Use, AI Control Tower \(legacy\), Enable AI experiences]
 ---
 
 # Create an AI Control Tower Playbook workflow
@@ -43,11 +43,11 @@ Role required: AI steward \[sn\_ai\_governance.ai\_steward\]
 
 7.  **Evaluate asset**- AI Stewards can create and assign the approval tasks to other individual AI Stewards to evaluate the assets.
 
-    For information on creating a Now Assist approval task for evaluating assets, see [Create a Now Assist approval task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/create-an-now-assist-approval-task.md).
+    For information on creating a Now Assist approval task for evaluating assets, see [Create a ServiceNow Otto approval task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/create-an-now-assist-approval-task.md).
 
     **Note:** You can **Copy** or **Delete** the tasks and create a task using the **New** option in the Approval tasks list.
 
-8.  **Approval/Reject**- AI Stewards can select the Risk score from the drop-down menu and enter the Close notes, while approving or rejecting an asset based on the evaluation of the tasks.
+8.  **Approval/Reject**- AI stewards can select the Risk score and log the Close notes, while approving or rejecting an asset based on the evaluation of the tasks.
 
 9.  Select **Reject** or **Approve asset** to complete the workflow.
 
@@ -60,5 +60,5 @@ Role required: AI steward \[sn\_ai\_governance.ai\_steward\]
 
 If you want to activate any skill from Now Assist admin, an approval request is now required. The AI Control Tower approvals are integrated with both the builder team on the Skill Kit and Now Assist admin. You may only use models, skills, or AI systems that have been approved. Approval is granted when the "AI steward approval required" option is enabled.
 
-**Parent Topic:**[Using AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/using-ai-control-tower.md)
+**Parent Topic:**[Using AI Control Tower \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/using-ai-control-tower.md)
 

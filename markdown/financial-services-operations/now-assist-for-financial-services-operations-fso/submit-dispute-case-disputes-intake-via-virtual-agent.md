@@ -1,6 +1,6 @@
 ---
 title: Submit a dispute case with Disputes intake via Virtual Agent
-description: Create a new dispute case using the Disputes intake via Virtual Agent skill in the Now Assist for Financial Services Operations \(FSO\) application. Customers can interact with a Virtual Agent chat, which collects and infers details from customer responses.
+description: Create a new dispute case using the Disputes intake via Virtual Agent skill in the ServiceNow Otto for Financial Services Operations \(FSO\) application. Customers can interact with a Virtual Agent chat, which collects and infers details from customer responses.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/now-assist-for-financial-services-operations-fso/submit-dispute-case-disputes-intake-via-virtual-agent.html
 release: zurich
@@ -9,12 +9,12 @@ classification: now-assist-for-financial-services-operations-fso
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Use generative AI, Now Assist for FSO, Financial Services Operations \(FSO\)]
+breadcrumb: [Use generative AI, ServiceNow Otto for FSO, Financial Services Operations \(FSO\)]
 ---
 
 # Submit a dispute case with Disputes intake via Virtual Agent
 
-Create a new dispute case using the Disputes intake via Virtual Agent skill in the Now Assist for Financial Services Operations \(FSO\) application. Customers can interact with a Virtual Agent chat, which collects and infers details from customer responses.
+Create a new dispute case using the Disputes intake via Virtual Agent skill in the ServiceNow Otto for Financial Services Operations \(FSO\) application. Customers can interact with a Virtual Agent chat, which collects and infers details from customer responses.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: none
 
 ## Procedure
 
-1.  Initiate a chat with Disputes intake via Virtual Agent by selecting the Now Assist icon.
+1.  Initiate a chat with Disputes intake via Virtual Agent by selecting the Otto icon.
 
 2.  Select **Report a dispute**.
 
@@ -62,5 +62,5 @@ Learn how a customer can resume a card dispute case in Disputes intake via Virtu
 -   **[Review a customer interaction with Disputes intake via Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/now-assist-for-financial-services-operations-fso/review-interaction-with-dispute-intake-virtual-agent.md)**  
 Retrieve a chat interaction between a customer and Disputes intake via Virtual Agent to review a transcript of the conversation and confirm responses.
 
-**Parent Topic:**[Using generative AI in Now Assist for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/now-assist-for-financial-services-operations-fso/using-now-assist-for-financial-services-operations-fso.md)
+**Parent Topic:**[Using generative AI in ServiceNow Otto for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/now-assist-for-financial-services-operations-fso/using-now-assist-for-financial-services-operations-fso.md)
 

@@ -37,7 +37,7 @@ By referenced records
 
 </td><td>
 
-Option to provide access to the Enterprise Architecture Workspace users to access the artifacts by referenced records. When an artifact is associated to a business capability or business application, any Enterprise Architecture Workspace user who can access those business entities can also have access to the artifacts associated with those business entities.
+Option to provide access to the Enterprise Architecture Workspace users to access the artifacts by referenced records. When an artifact is associated to a business capability or business application, any Enterprise Architecture Workspace user who can access those business entities can also access the associated artifacts.
 
 </td></tr><tr><td>
 

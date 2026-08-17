@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/environmental-social-governance/edit-esg-dashboard-elements.html
 release: zurich
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 4
 breadcrumb: [Monitoring assessment data using ESG Management dashboards, Configure, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -30,15 +30,15 @@ You can edit the details of dashboards created in the in-line editor and in the 
 
 3.  Perform any of the following actions.
 
-<table id="choicetable_gv3_q3r_g5"><thead><tr><th align="left" id="d23931e79">
+<table id="choicetable_gv3_q3r_g5"><thead><tr><th align="left" id="d23819e79">
 
 Action
 
-</th><th align="left" id="d23931e82">
+</th><th align="left" id="d23819e82">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d23931e88">
+</th></tr></thead><tbody><tr><td id="d23819e88">
 
 **Add an element**
 
@@ -53,7 +53,7 @@ You can also select **Add new element** on any selected dashboard element to see
 4.  Drag to move the widget or resize it.
 
 
-</td></tr><tr><td id="d23931e132">
+</td></tr><tr><td id="d23819e132">
 
 **Save a data visualization to the Visualization Library**
 
@@ -67,7 +67,7 @@ You can also select **Add new element** on any selected dashboard element to see
 6.  Select **Add to library**.
 The data visualization is available in the Visualization library for use on other dashboards.
 
-</td></tr><tr><td id="d23931e186">
+</td></tr><tr><td id="d23819e186">
 
 **Delete an element from the dashboard**
 
@@ -78,7 +78,7 @@ The data visualization is available in the Visualization library for use on othe
 3.  In the header, select the More actions icon \[Omitted image "more-menu.png"\] Alt text: and select **Delete**.
  **Note:** There’s no confirmation message. The widget disappears from the dashboard.
 
-</td></tr><tr><td id="d23931e221">
+</td></tr><tr><td id="d23819e221">
 
 **Configure an element**
 
@@ -95,7 +95,7 @@ The data visualization is available in the Visualization library for use on othe
     -   [Simple List component reference](https://developer.servicenow.com/dev.do#!/reference/now-experience/xanadu/shared-components/now-record-list-connected-snapshot/uib-setup)
  **Note:** If you change a visualization from the Visualization Library, you have the choice to save the change only to the dashboard or to the element in the library. When you change an element in the library, the change is reflected everywhere the element is used. When you change only in the dashboard, you create a copy of the visualization that exists only in that dashboard.
 
-</td></tr><tr><td id="d23931e287">
+</td></tr><tr><td id="d23819e287">
 
 **Move an element between tabs**
 
@@ -106,7 +106,7 @@ When you have multiple tabs, you can move elements from tab to another or to the
 3.  When you choose **Move to a different tab**, choose the tab and select **Move**.
 
 
-</td></tr><tr><td id="d23931e327">
+</td></tr><tr><td id="d23819e327">
 
 **Add filters to the dashboard**
 
@@ -116,7 +116,7 @@ Filters let users filter data for all report widgets on a dashboard that follow 
 
  For more information, see [Filters in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/interactive-filters-workspace.md).
 
-</td></tr><tr><td id="d23931e346">
+</td></tr><tr><td id="d23819e346">
 
 **Configure a data visualization to follow or not follow filters**
 
@@ -129,7 +129,7 @@ Data visualizations follow filters by default. A data visualization follows filt
 5.  To show a filter icon \[Omitted image "filter-outline-24.svg"\] Alt text: Filter icon. on the data visualization when it follows an interactive filter, select the **Show filter icon**.
 
 
-</td></tr><tr><td id="d23931e392">
+</td></tr><tr><td id="d23819e392">
 
 **Enable chart interaction**
 
@@ -145,7 +145,7 @@ Choose what happens when a user selects a visualization or one of its segments. 
 5.  Select **Go to URL** to open a specified web page.
 
 
-</td></tr><tr><td id="d23931e438">
+</td></tr><tr><td id="d23819e438">
 
 **View the description of a dashboard element**
 

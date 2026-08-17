@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-sourcetopayoperationsintegrations-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -75,23 +75,23 @@ Zurich
 
 </td><td>
 
--   **[Source-to-Pay integration with SAP](https://servicenow-staging.fluidtopics.net/access?context=source-to-pay-sap-integration&family=zurich&ft:locale=en-US)**
+-   **[Source-to-Pay integration with SAP](https://www.servicenow.com/docs/access?context=source-to-pay-sap-integration&family=zurich&ft:locale=en-US)**
     -   You can use this integration to perform Integration Hub actions for purchase requisition, purchase order, receipt, and invoices.
     -   You can also perform the following:
         -   Create, update, or cancel purchase orders in SAP ECC and SAP S4 HANA.
         -   Create good receipts in SAP ECC and SAP S4 HANA.
         -   Create invoices in SAP ECC and SAP S4 HANA.
--   **[Source-to-Pay integration with Oracle EBS](https://servicenow-staging.fluidtopics.net/access?context=source-to-pay-oracle-ebs-integration&family=zurich&ft:locale=en-US)**
+-   **[Source-to-Pay integration with Oracle EBS](https://www.servicenow.com/docs/access?context=source-to-pay-oracle-ebs-integration&family=zurich&ft:locale=en-US)**
     -   You can use this integration to perform Integration Hub actions for Invoices, cost centers, product models, payment terms, purchasing organizations, departments, GL accounts, currencies, FX rates, invoice payment details, suppliers, plant addresses, and legal entities.
     -   You can also perform the following:
         -   Create, update, or cancel purchase orders in Oracle EBS.
         -   Create good receipts in Oracle EBS.
         -   Create invoices in Oracle EBS.
--   **[Source-to-Pay integration with Coupa](https://servicenow-staging.fluidtopics.net/access?context=source-to-pay-coupa-integration&family=zurich&ft:locale=en-US)**
+-   **[Source-to-Pay integration with Coupa](https://www.servicenow.com/docs/access?context=source-to-pay-coupa-integration&family=zurich&ft:locale=en-US)**
 
 You can use this integration to perform Integration Hub actions for loading primary data, supplier management, purchase requisition, purchase order, receipt, invoice, and sourcing. You can also look up Legal Entity, Currency, and Supply details respectively.
 
--   **[Source-to-Pay integration with SAP Ariba](https://servicenow-staging.fluidtopics.net/access?context=source-to-pay-integration-sap-ariba&family=zurich&ft:locale=en-US)**
+-   **[Source-to-Pay integration with SAP Ariba](https://www.servicenow.com/docs/access?context=source-to-pay-integration-sap-ariba&family=zurich&ft:locale=en-US)**
 
 You can use this integration to perform Integration Hub actions for invoices, cost centers, payment terms, purchasing organizations, departments, GL accounts, currencies, FX rates, invoice payment details, suppliers, and legal entities. You can also create good receipts in SAP Ariba.
 
@@ -210,7 +210,7 @@ Zurich
 
 </td><td>
 
-Install Source-to-Pay Operations with third-party applications by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+Install Source-to-Pay Operations with third-party applications by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -360,7 +360,7 @@ Zurich
 -   Handle business spends and automate approvals, contracts, inventory, purchase orders, requisitions, suppliers, and user management in Coupa from your ServiceNow instance using the Source-to-Pay integration with Coupa.
 -   Handle sales orders, procurement, finance, and so on, in SAP Ariba from your ServiceNow instance using the Source-to-Pay integration with SAP Ariba.
 
- See [Integration with third-party applications](https://servicenow-staging.fluidtopics.net/access?context=source-to-pay-third-party-integration&family=zurich&ft:locale=en-US) for more information.
+ See [Integration with third-party applications](https://www.servicenow.com/docs/access?context=source-to-pay-third-party-integration&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

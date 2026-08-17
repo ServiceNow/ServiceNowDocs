@@ -1,16 +1,16 @@
 ---
-title: Configure Now Assist button in search
+title: Configure ServiceNow Otto button in search
 description: Add a conversational chat button to standard catalog search results in mobile. The chat button redirects users to a new Virtual Agent conversation for eligible catalog items.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/mobile/configure-now-assist-button-search.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-06"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configuring Now Assist, Now Assist for Mobile, Mobile Platform]
+breadcrumb: [Configuring Otto, ServiceNow Otto for Mobile, Mobile Platform]
 ---
 
-# Configure Now Assist button in search
+# Configure ServiceNow Otto button in search
 
 Add a conversational chat button to standard catalog search results in mobile. The chat button redirects users to a new Virtual Agent conversation for eligible catalog items.
 
@@ -18,7 +18,7 @@ Add a conversational chat button to standard catalog search results in mobile. T
 
 Role required: admin
 
-Verify that Now Assist in AI Search and Now Assist Self Service Enhanced Chat are enabled for the catalog items you want to display the chat button on. See [Now Assist in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/now-assist-ais.md) and [Display your assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/display-assistant-portal-channel.md) for more information.
+Verify that ServiceNow Otto for AI Search and Otto Self Service Enhanced Chat are enabled for the catalog items you want to display the chat button on. See [ServiceNow Otto for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/now-assist-ais.md) and [Display your assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/display-assistant-portal-channel.md) for more information.
 
 ## Procedure
 
@@ -149,5 +149,5 @@ Verify that Now Assist in AI Search and Now Assist Self Service Enhanced Chat ar
     |Attribute 3|`TextColorVariable`|`menu_01_TextColorVariable`|`--now-color--primary-1`|
 
 
-**Parent Topic:**[Configuring Now Assist for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/configuring-now-assist-mobile.md)
+**Parent Topic:**[Configuring Otto for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/configuring-now-assist-mobile.md)
 

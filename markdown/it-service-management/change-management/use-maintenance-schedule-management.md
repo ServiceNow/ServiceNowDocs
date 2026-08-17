@@ -9,7 +9,7 @@ classification: change-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Create schedules, Conflict detection, Configure, Change Management, IT Service Management]
+breadcrumb: [Create blackout and maintenance schedules in Change Management, Conflict detection, Configure, Change Management, IT Service Management]
 ---
 
 # Assign a maintenance schedule to configuration items

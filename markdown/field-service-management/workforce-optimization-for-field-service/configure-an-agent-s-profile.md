@@ -262,7 +262,7 @@ Travel penalty per hour
 
 </td><td>
 
-The penalty applied for each hour the agent travels during work assignments.
+The penalty applied for each hour the agent travels during work assignments.This penalty is applicable when Schedule Optimization is activated.
 
 </td></tr><tr><td>
 
@@ -270,7 +270,7 @@ Overtime penalty per hour
 
 </td><td>
 
-The penalty applied for each overtime hour the agent works during work assignments.
+The penalty applied for each overtime hour the agent works during work assignments.This penalty is applicable when Schedule Optimization is activated.
 
 </td></tr></tbody>
 </table>    2.  Select **Submit** to create a new record, or **Update** to modify the record.

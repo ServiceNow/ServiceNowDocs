@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-06-25"
 reading_time_minutes: 5
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Playbook generation from text prompt or image, Playbook generation, Now Assist for Creator, Build workflows]
+breadcrumb: [Playbook generation from text prompt or image, Playbook generation, ServiceNow Otto for Creator, Build workflows]
 ---
 
 # Generate a playbook from text or image
@@ -21,11 +21,13 @@ Generate a playbook using AI by providing text directions or an image.
 
 ## Before you begin
 
-Verify that the Now Assist for Creator plugin is installed and the Playbook Generation skill is active.
+Verify that the ServiceNow Otto for Creator plugin is installed and the **Playbook generation** and **Playbook generation with images** skills are active.
 
 **Note:** The skill is available in **Admin** &gt; **Now Assist Admin** &gt; **Now Assist Skills** &gt; **Creator**. If you don't see **Creator** under **Now Assist Skills**, the plugin is not installed.
 
 \[Omitted image "now-assist-creator-skills.png"\] Alt text: Now assist for creator skills page.
+
+For information about installing ServiceNow Otto for Creator, see [Install ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/now-assist-for-creator/install-now-assist-for-creator.md).
 
 Learn how to write prompts to generate better playbooks. For more information, see [Writing prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/now-assist-for-creator/playbook-assist.md).
 
@@ -39,9 +41,9 @@ Role required:
 
 2.  From the **New** drop-down menu, select **Playbook**.
 
-3.  On the **Build with Now Assist** tab, fill in the following fields.
+3.  On the **Create with AI** tab, fill in the following fields.
 
-    \[Omitted image "new-playbook-now-assist.png"\] Alt text: Build a new playbook with Now Assist.
+    \[Omitted image "new-playbook-otto.png"\] Alt text: Build a new playbook using AI.
 
 <table id="id_pyq_lnx_rjc"><thead><tr><th>
 
@@ -132,7 +134,7 @@ Option to allow the playbook to be publicly accessible. Once embedded it is set 
 </td></tr></tbody>
 </table>4.  Select **Generate playbook preview**.
 
-    Based on your instructions, Now Assist generates a preview of the playbook with all the elements and displays the preview in the diagramming view. Now Assist adds a placeholder activity wherever a relevant activity is not found.
+    Based on your instructions, AI generates a preview of the playbook with all the elements and displays the preview in the diagramming view. AI adds a placeholder activity wherever a relevant activity is not found.\[Omitted image "playbook-preview-otto.png"\] Alt text: Preview the generated playbook.
 
 5.  Review the generated playbook preview for accuracy.
 
@@ -146,7 +148,7 @@ Option to allow the playbook to be publicly accessible. Once embedded it is set 
 
 8.  If the playbook contains placeholder activities, configure the placeholder activities manually.
 
-    **Tip:** To generate recommendations for activity definitions from Now Assist instead, see [Generate recommendations for placeholder activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/now-assist-for-creator/generate-playbook-recommendations.md).
+    **Tip:** To generate recommendations for activity definitions from AI instead, see [Generate recommendations for placeholder activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/now-assist-for-creator/generate-playbook-recommendations.md).
 
     1.  Select a placeholder activity that you want to configure \( \[Omitted image "placeholder-activity-icon.png"\] Alt text: Placeholder activity icon.\).
 
@@ -188,9 +190,4 @@ When the trigger conditions of your playbook are met, playbook runs. As a result
 ## What to do next
 
 Design the Playbook Experience for your agents and fulfillers in UI Builder. To learn how to design and customize the runtime playbook experience in UI Builder, see [Customize the Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/playbook-customize-playbook.md).
-
-**Related topics**  
-
-
-[Generate a playbook from a knowledge base article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/now-assist-for-creator/generate-playbook-from-kb.md)
 

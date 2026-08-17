@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-oncallscheduling-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
@@ -77,15 +77,15 @@ Zurich
 
 </td><td>
 
--   **[Add custom on-call notification channels](https://servicenow-staging.fluidtopics.net/access?context=custom-on-call-channel-integration&family=zurich&ft:locale=en-US)**
+-   **[Add custom on-call notification channels](https://www.servicenow.com/docs/access?context=custom-on-call-channel-integration&family=zurich&ft:locale=en-US)**
 
 Increase the flexibility in communication by adding and configuring service providers as on-call notification channels. You must configure the communication channel by using the On-call communication channel configuration \[on\_call\_comunication\_channel\_config\] table. After you configure the channel, you can select the new channel. This feature is applicable only after the subflows are configured and used.
 
--   **[Customize the on-call notification message and keywords](https://servicenow-staging.fluidtopics.net/access?context=config-oncall-communication-channel&family=zurich&ft:locale=en-US)**
+-   **[Customize the on-call notification message and keywords](https://www.servicenow.com/docs/access?context=config-oncall-communication-channel&family=zurich&ft:locale=en-US)**
 
 Customize an on-call notification message and response keywords that are sent to the user and user groups as per your preferences. You can customize the message and keywords by using the On-call communication channel configuration \[on\_call\_communication\_channel\_config\] tables.
 
--   **[Send the on-call escalation notifications when the configured record fields are modified](https://servicenow-staging.fluidtopics.net/access?context=create-trigger-rule-oncall&family=zurich&ft:locale=en-US)**
+-   **[Send the on-call escalation notifications when the configured record fields are modified](https://www.servicenow.com/docs/access?context=create-trigger-rule-oncall&family=zurich&ft:locale=en-US)**
 
 Send the on-call escalation notifications when the configured record fields are modified. On-call trigger rules have the following enhancements:
 
@@ -112,7 +112,7 @@ Yokohama
 
 </td><td>
 
--   **[Email redirection behavior for links in major on-call schedule email notification](https://servicenow-staging.fluidtopics.net/access?context=create-update-schedule-oncall&family=yokohama&ft:locale=en-US)**
+-   **[Email redirection behavior for links in major on-call schedule email notification](https://www.servicenow.com/docs/access?context=create-update-schedule-oncall&family=yokohama&ft:locale=en-US)**
 
 In all major on-call schedule or shift email notifications, you can now decide where the links to an on-call schedule or shift record are redirected. Instead of an on-call schedule or shift record automatically opening in the classic UI16 interface in On-Call Scheduling, the record can be opened in SOW. The on-call schedule or shift record link in an email notification opens in SOW only if the following conditions are met:
 
@@ -128,14 +128,14 @@ Zurich
 
 </td><td>
 
--   **[Performance improvements in subflows for on-call notifications](https://servicenow-staging.fluidtopics.net/access?context=on-call-new-trigger-engine&family=zurich&ft:locale=en-US)**
+-   **[Performance improvements in subflows for on-call notifications](https://www.servicenow.com/docs/access?context=on-call-new-trigger-engine&family=zurich&ft:locale=en-US)**
 
 The following performance enhancements are available for on-call notifications when subflows are used:
 
     -   On-call notifications are sent to multiple channels such as SMS or email simultaneously instead of sending it sequentially.
     -   When the **com.snc.on\_call\_rotation.new\_trigger\_engine** property is set to true, the on-call subflows are processed via the Flow runner queue. The on-call subflows that are marked as High priority are processed faster via a Flow runner queue especially when multiple events are triggered at the same time and are in the process queue.
     -   Reminder notifications are also sent to users when the instance is upgrading.
--   **[Enhanced on-call trigger rules to support subflows](https://servicenow-staging.fluidtopics.net/access?context=on-call-scheduling-subflows-overview&family=zurich&ft:locale=en-US)**
+-   **[Enhanced on-call trigger rules to support subflows](https://www.servicenow.com/docs/access?context=on-call-scheduling-subflows-overview&family=zurich&ft:locale=en-US)**
 
 The on-call trigger rules form is enhanced to trigger a subflow when the trigger rule is executed. You can enable and select a specific subflow for a trigger rule.
 
@@ -217,7 +217,7 @@ Yokohama
 
 </td><td>
 
-On-Call Scheduling is available with activation of the ServiceNow AI Platform On-Call Scheduling plugin \(com.snc.on\_call\_rotation\). For details, see [Activate On-Call Scheduling](https://servicenow-staging.fluidtopics.net/access?context=t_ActivateOnCallScheduling&family=yokohama&ft:locale=en-US). Activating this plugin activates the following third-party libraries:
+On-Call Scheduling is available with activation of the ServiceNow AI Platform On-Call Scheduling plugin \(com.snc.on\_call\_rotation\). For details, see [Activate On-Call Scheduling](https://www.servicenow.com/docs/access?context=t_ActivateOnCallScheduling&family=yokohama&ft:locale=en-US). Activating this plugin activates the following third-party libraries:
 
 -   FullCalendar library
 -   DHTMLX scheduler
@@ -230,7 +230,7 @@ Zurich
 
 </td><td>
 
-On-Call Scheduling is available with activation of the ServiceNow AI Platform On-Call Scheduling plugin \(com.snc.on\_call\_rotation\). For details, see [Activate On-Call Scheduling](https://servicenow-staging.fluidtopics.net/access?context=t_ActivateOnCallScheduling&family=zurich&ft:locale=en-US). Activating this plugin activates the following third-party libraries:
+On-Call Scheduling is available with activation of the ServiceNow AI Platform On-Call Scheduling plugin \(com.snc.on\_call\_rotation\). For details, see [Activate On-Call Scheduling](https://www.servicenow.com/docs/access?context=t_ActivateOnCallScheduling&family=zurich&ft:locale=en-US). Activating this plugin activates the following third-party libraries:
 
 -   FullCalendar library
 -   DHTMLX scheduler
@@ -374,7 +374,7 @@ Yokohama
 
 Control whether an on-call schedule or shift record link in all major on-call email notifications redirects you to Service Operations Workspace \(SOW\) or to the classic UI16 interface in On-Call Scheduling.
 
- See [On-Call Scheduling](https://servicenow-staging.fluidtopics.net/access?context=c_OnCallScheduling&family=yokohama&ft:locale=en-US) for more information.
+ See [On-Call Scheduling](https://www.servicenow.com/docs/access?context=c_OnCallScheduling&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -388,7 +388,7 @@ Zurich
 -   Send the on-call escalations notifications to all the stakeholders when any of the configured record fields are modified.
 -   Use Coral, which is the new default theme for Next Experience and Core UI.
 
- See [On-Call Scheduling](https://servicenow-staging.fluidtopics.net/access?context=c_OnCallScheduling&family=zurich&ft:locale=en-US) for more information.
+ See [On-Call Scheduling](https://www.servicenow.com/docs/access?context=c_OnCallScheduling&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

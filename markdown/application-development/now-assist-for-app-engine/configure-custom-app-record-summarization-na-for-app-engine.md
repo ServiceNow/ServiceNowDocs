@@ -1,6 +1,6 @@
 ---
 title: Configure the custom app record summarization skill
-description: Configure the custom app record summarization skill to define the records and outputs for Now Assist for App Engine summaries.
+description: Configure the custom app record summarization skill to define the records and outputs for ServiceNow Otto for App Engine summaries.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/now-assist-for-app-engine/configure-custom-app-record-summarization-na-for-app-engine.html
 release: zurich
@@ -10,12 +10,12 @@ topic_type: task
 last_updated: "2025-10-07"
 reading_time_minutes: 4
 keywords: [configure custom app record summarization, configure AI skill]
-breadcrumb: [Configure, Now Assist for App Engine, Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
+breadcrumb: [Configure, ServiceNow Otto for App Engine, Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
 ---
 
 # Configure the custom app record summarization skill
 
-Configure the custom app record summarization skill to define the records and outputs for Now Assist for App Engine summaries.
+Configure the custom app record summarization skill to define the records and outputs for ServiceNow Otto for App Engine summaries.
 
 ## Before you begin
 
@@ -25,7 +25,7 @@ You must have the custom app record summarization skill activated to configure t
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills**.
+1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Skills**.
 
 2.  On the Now Assist Skills page, select App Engine from the side panel.
 
@@ -33,47 +33,47 @@ You must have the custom app record summarization skill activated to configure t
 
 4.  Select **Edit**.
 
-5.  On the Select an app page, choose the app that contains the data that you want Now Assist for App Engine to summarize by selecting the check box next to the app name.
+5.  On the Select an app page, choose the app that contains the data that you want ServiceNow Otto for App Engine to summarize by selecting the check box next to the app name.
 
 6.  Select **Save and continue**.
 
-7.  Choose the table that you want Now Assist for App Engine to summarize.
+7.  Choose the table that you want ServiceNow Otto for App Engine to summarize.
 
     You can generate summaries for records in most custom tables on the ServiceNow AI Platform. However, some tables are restricted. For more information, see [Custom app record summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/now-assist-for-app-engine/custom-app-record-summarization-na-for-app-engine.md).
 
     1.  On the Choose data source page, select the **Base input table** field.
 
-    2.  Select the table that contains the data that you want Now Assist for App Engine to summarize.
+    2.  Select the table that contains the data that you want ServiceNow Otto for App Engine to summarize.
 
-        When you select a table from the list, Now Assist for App Engine automatically includes the required fields from the table in the summary.
+        When you select a table from the list, ServiceNow Otto for App Engine automatically includes the required fields from the table in the summary.
 
     3.  To include additional fields from the table in the summary, select **+ New base input field** and select the field that you want to add.
 
-    4.  For each field in the table that you want Now Assist for App Engine to include in summaries, enter a description and context for the field in the **Field description** field.
+    4.  For each field in the table that you want ServiceNow Otto for App Engine to include in summaries, enter a description and context for the field in the **Field description** field.
 
     5.  To add related data sources that you want included in summaries, such as related tables, select **+ New data source**, then select the additional data source from the list.
 
-        For more information about the kinds of data sources that Now Assist for App Engine can summarize, see [Custom app record summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/now-assist-for-app-engine/custom-app-record-summarization-na-for-app-engine.md).
+        For more information about the kinds of data sources that ServiceNow Otto for App Engine can summarize, see [Custom app record summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/now-assist-for-app-engine/custom-app-record-summarization-na-for-app-engine.md).
 
-    6.  To add additional tables for Now Assist for App Engine to summarize, select **+ New input table** and repeat the process in steps a through e to define the fields that you want to be included in the summary.
+    6.  To add additional tables for ServiceNow Otto for App Engine to summarize, select **+ New input table** and repeat the process in steps a through e to define the fields that you want to be included in the summary.
 
     7.  When you're finished, select **Save and continue**.
 
-8.  Test that the summaries Now Assist for App Engine generates are satisfactory.
+8.  Test that the summaries ServiceNow Otto for App Engine generates are satisfactory.
 
-    **Important:** Each time that you test the output that Now Assist for App Engine generates, the operation counts as an assist that is tracked by your Now Assist subscription. To track your Now Assist usage, see [Monitoring Now Assist usage in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/monitoring-now-assist-usage.md).
+    **Important:** Each time that you test the output that ServiceNow Otto for App Engine generates, the operation counts as an assist that is tracked by your Now Assist subscription. To track your Now Assist usage, see [Monitoring Now Assist usage in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/monitoring-now-assist-usage.md).
 
     1.  On the Test summary output page, in the **Base input table** field, select the table that you want to test from the list.
 
     2.  In the **Additional instructions for LLM** field, enter additional information about the context and purpose of the table.
 
-    3.  In the **Record** field, select the record that you want Now Assist for App Engine to summarize.
+    3.  In the **Record** field, select the record that you want ServiceNow Otto for App Engine to summarize.
 
     4.  Select **Run test**.
 
-    5.  Review the summary generated by Now Assist for App Engine in the Result panel.
+    5.  Review the summary generated by ServiceNow Otto for App Engine in the Result panel.
 
-    6.  Test each table that you want Now Assist for App Engine to summarize and adjust the instructions and field descriptions as needed until you’re satisfied with the summary.
+    6.  Test each table that you want ServiceNow Otto for App Engine to summarize and adjust the instructions and field descriptions as needed until you’re satisfied with the summary.
 
     7.  When you're satisfied with the summary, select **Save and continue**.
 
@@ -110,5 +110,5 @@ The custom app record summarization skill is now ready for use in the custom app
 
 ## What to do next
 
-To use the custom app record summarization skill, see [Using Now Assist for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/now-assist-for-app-engine/use-now-assist-for-app-engine-enterprise.md).
+To use the custom app record summarization skill, see [Using ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/now-assist-for-app-engine/use-now-assist-for-app-engine-enterprise.md).
 

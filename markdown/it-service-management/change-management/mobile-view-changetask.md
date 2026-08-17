@@ -20,13 +20,15 @@ You can view the state, risk, and the schedule of the change tasks in the Mobile
 
 As an ITSM agent or Technician working away from desk, use the Mobile Agent to review the state, risk, and schedule of your change tasks in real-time. The mobile view provides the same task details available on the desktop change form so that you can act on assigned work across locations.
 
+Use the Mobile Agent mobile application to review your change tasks when you're away from your desk. If you're a new user, start from the home screen, where the **My Work** tab groups the tasks assigned to you or to your group.
+
 ## Before you begin
 
 Role required: itil or sn\_change\_write
 
 ## Procedure
 
-1.  Tap **My Work** tab.
+1.  Tap the **My Work** tab.
 
     The **My Work** tab appears on the home screen of the Mobile Agent after you sign in. It lists the tasks assigned to you or to your group.
 

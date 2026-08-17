@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-classicworkflow-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -91,9 +91,9 @@ Zurich
 
 </td><td>
 
--   **[Restrict access to Workflow Editor with a new role](https://servicenow-staging.fluidtopics.net/access?context=r_WorkflowRoles&family=zurich&ft:locale=en-US)**
+-   **[Restrict access to Workflow Editor with a new role](https://www.servicenow.com/docs/access?context=r_WorkflowRoles&family=zurich&ft:locale=en-US)**
 
-Grant access to the Workflow editor by giving users the snc\_required\_script\_writer role.
+Grant access to the Workflow editor by giving users the snc\_required\_script\_writer\_permission role.
 
 
 </td></tr></tbody>
@@ -206,8 +206,7 @@ Zurich
 
 </td><td>
 
--   Support for classic workflows is deprecated.
--   Use Workflow Studio flows and subflows instead of classic Workflow.
+No updates for this release.
 
 </td></tr></tbody>
 </table>## Activation information
@@ -429,11 +428,10 @@ Zurich
 
 </td><td>
 
--   Added the snc\_required\_script\_writer role to all Workflow tasks.
--   Deprecated support of Workflow.
+-   Added the snc\_required\_script\_writer\_permission role to all Workflow tasks.
 -   Removed the legacy workflows created and published by ServiceNow, Inc. from new customer installations.
 
- See [Classic Workflow](https://servicenow-staging.fluidtopics.net/access?context=c_WorkflowOverview&family=zurich&ft:locale=en-US) for more information.
+ See [Classic Workflow](https://www.servicenow.com/docs/access?context=c_WorkflowOverview&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/rn-combined-intro.md)

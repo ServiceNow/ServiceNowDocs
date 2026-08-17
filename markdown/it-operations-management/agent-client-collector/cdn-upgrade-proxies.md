@@ -1,5 +1,5 @@
 ---
-title: Configure proxies when performing MID-less upgrade using a CDN
+title: Configure proxies during MID-less upgrade using a CDN
 description: Create proxies for added security when upgrading MID-less agents via a Content Delivery Network \(CDN\). You add proxy servers to the sn\_agent\_proxy table on the ServiceNow instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/cdn-upgrade-proxies.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Agent Client Collector upgrade overview, ACC deployment - servers, Agent Client Collector, IT Operations Management]
 ---
 
-# Configure proxies when performing MID-less upgrade using a CDN
+# Configure proxies during MID-less upgrade using a CDN
 
 Create proxies for added security when upgrading MID-less agents via a Content Delivery Network \(CDN\). You add proxy servers to the sn\_agent\_proxy table on the ServiceNow instance.
 

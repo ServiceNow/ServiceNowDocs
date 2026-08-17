@@ -20,6 +20,8 @@ Create a Data Discovery policy to begin scanning tables for data patterns.
 
 Role required: discovery.admin
 
+**Note:** All customers with data discovery configurations using active data patterns and target tables have been migrated to the new data discovery policy process with an automatic default policy created.
+
 ## Procedure
 
 1.  Navigate to **All** &gt; **Data Discovery** &gt; **Policy**.

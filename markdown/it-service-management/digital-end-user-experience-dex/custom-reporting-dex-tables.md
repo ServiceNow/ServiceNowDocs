@@ -7,7 +7,7 @@ release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Reference, Digital End-User Experience, IT Service Management]
 ---
@@ -320,7 +320,7 @@ Experience issue ID, issue registry numbers, state, reason for end state, fallba
 -   Employee self-service from Desktop Assistant
 -   Device actions from DEX Self-service
 -   Device actions from Desktop Assistant
--   Self-service using Now Assist
+-   Self-service using ServiceNow Otto
 -   Proactive Engagement
 -   Actions initiated by service desk agents
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-nowmobile-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -83,7 +83,7 @@ Yokohama
 
 </td><td>
 
--   **[Now Assist genius results in Now Mobile](https://servicenow-staging.fluidtopics.net/access?context=na-qa-mobile&family=yokohama&ft:locale=en-US)**
+-   **[Now Assist genius results in Now Mobile](https://www.servicenow.com/docs/access?context=na-qa-mobile&family=yokohama&ft:locale=en-US)**
 
 Now Assist genius results in Now Mobile® provides a personalized way of using the search functionality as opposed to the traditional AI Search experience.
 
@@ -238,7 +238,7 @@ Yokohama
 
 </td><td>
 
-Install Now Mobile® by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+Install Now Mobile® by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -425,7 +425,7 @@ Yokohama
 
 Get personalized search results with the Now Assist genius results search functionality in Now Mobile®.
 
- See [Now Mobile app](https://servicenow-staging.fluidtopics.net/access?context=mobile-employee-experience&family=yokohama&ft:locale=en-US) for more information.
+ See [Now Mobile app](https://www.servicenow.com/docs/access?context=mobile-employee-experience&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 

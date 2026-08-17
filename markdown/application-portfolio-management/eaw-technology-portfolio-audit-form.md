@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-technology-portfolio-audit-form.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Reference, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
@@ -13,6 +13,12 @@ breadcrumb: [Reference, Enterprise Architecture Workspace, Enterprise Architectu
 # Technology portfolio audit form
 
 You can use the Technology portfolio audit table to view audit information for your applications.
+
+**Important:**
+
+Technology Lifecycle Management \(TLM\) was previously known as Technology Portfolio Management \(TPM\). TPM and TLM refer to the same feature. Table names and scheduled job names continue to use TPM and haven't been renamed.
+
+Whether your instance displays TPM or TLM also depends on your application versions. TLM labels appear only when both the Enterprise Architecture Workspace application \(version 9.2.1 or later\) and the Technology Lifecycle Management plugin, sn\_apm\_tpm \(version 1.11.0 or later\), are installed. If either application is on an earlier version, the interface continues to show TPM.
 
 <table id="table_frn_x3m_cxb"><thead><tr><th>
 
@@ -143,7 +149,7 @@ Technology lifecycle
 
 </td><td>
 
-TPM technology lifecycle information of the software product or hardware model.
+TLM technology lifecycle information of the software product or hardware model.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-reference.md)

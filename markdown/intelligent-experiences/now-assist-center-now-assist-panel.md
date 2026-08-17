@@ -1,23 +1,23 @@
 ---
-title: Now Assist panel
-description: The Now Assist panel is the conversational interface where you can interact with the AI companion to perform setup, solution building, and question answering tasks.
+title: ServiceNow Otto panel
+description: The ServiceNow Otto panel is the conversational interface where you can interact with the AI companion to perform setup, solution building, and question answering tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/now-assist-center-now-assist-panel.html
 release: zurich
 topic_type: concept
-last_updated: "2026-05-28"
+last_updated: "2026-07-30"
 reading_time_minutes: 1
-keywords: [Now Assist, Now Assist Center, Gen AI, Generative AI]
-breadcrumb: [Now Assist Center workspace, Explore, Now Assist Center, Enable AI experiences]
+keywords: [AI Admin Center, Now Assist Center, AI, AI setup]
+breadcrumb: [AI Admin Center workspace, Explore, AI Admin Center, Enable AI experiences]
 ---
 
-# Now Assist panel
+# ServiceNow Otto panel
 
-The Now Assist panel is the conversational interface where you can interact with the AI companion to perform setup, solution building, and question answering tasks.
+The ServiceNow Otto panel is the conversational interface where you can interact with the AI companion to perform setup, solution building, and question answering tasks.
 
-The AI companion in the Now Assist panel uses generative AI to accomplish Now Assist setup and configuration tasks on your instance based on your requests. Describe what you want to accomplish and the AI companion guides you through the process, executes actions with your confirmation, and answers questions about your instance and the Now Assist products.
+The AI companion in the ServiceNow Otto panel uses AI to accomplish AI setup and configuration tasks on your instance based on your requests. Describe what you want to accomplish and the AI companion guides you through the process, executes actions with your confirmation, and answers questions about your instance and the AI products.
 
-Use the Now Assist panel to perform the following types of actions:
+Use the ServiceNow Otto panel to perform the following types of actions:
 
 -   Perform common administrator functions
 -   Implement the setup and configuration of AI solutions
@@ -32,9 +32,9 @@ Use the Now Assist panel to perform the following types of actions:
 -   View active and deprecated AI model versions
 -   Discover and assign AI agents and agentic workflows that implement use cases
 
-\[Omitted image "now-assist-center-panel.png"\] Alt text: Now Assist panel in Now Assist Center.
+\[Omitted image "ai-admin-center-otto-panel.png"\] Alt text: ServiceNow Otto panel in AI Admin Center.
 
-For more information, see [Using the conversational experience in Now Assist Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/using-now-assist-panel-now-assist-center.md).
+For more information, see [Using the conversational experience in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/using-now-assist-panel-now-assist-center.md).
 
-**Parent Topic:**[Now Assist Center workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-workspace.md)
+**Parent Topic:**[AI Admin Center workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-workspace.md)
 

@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-06-09"
 reading_time_minutes: 2
 keywords: [Email parser for SPO, Email parser for Sourcing and Procurement Operations, Intent to action]
-breadcrumb: [Use agentic workflows, Now Assist Sourcing Procurement Operations, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Use agentic workflows in ServiceNow Otto for SPO, ServiceNow Otto for SPO, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Email parser agent for Sourcing and Procurement Operations
@@ -39,18 +39,18 @@ When an email arrives in the configured SPO mailbox, the email parser agent trig
 
 A single email can contain multiple intents. For example, an email can contain a question about a negotiation and a question about a supplier case. The agent determines each intent independently, creates the corresponding cases, and sends a separate confirmation email for each.
 
-**Parent Topic:**[Use agentic workflows in Now Assist for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/agentic-ai-now-assist-spo.md)
+**Parent Topic:**[Use agentic workflows in ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/agentic-ai-now-assist-spo.md)
 
 **Related topics**  
 
 
 [Conversational intake for sourcing and procurement agentic workflow]()
 
-[Enable AI agents for the Conversational intake for sourcing and procurement agentic workflow in the Now Assist panel]()
+[Enable AI agents for the Conversational intake for sourcing and procurement agentic workflow in the ServiceNow Otto panel]()
 
 [Enable AI agents for the Conversational intake for sourcing and procurement agentic workflow in Virtual Agent]()
 
-[Submit a purchase request using the Now Assist AI agent]()
+[Submit a purchase request using the ServiceNow Otto AI agent]()
 
-[Update the product category or spend category in the Now Assist panel]()
+[Update the product category or spend category in the ServiceNow Otto panel]()
 

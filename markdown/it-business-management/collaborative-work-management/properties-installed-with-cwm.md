@@ -7,7 +7,7 @@ release: zurich
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Reference, Collaborative Work Management, Strategic Portfolio Management]
 ---
@@ -122,6 +122,23 @@ Property to enable live presence indicators of users on a Doc page.
 -   Default value: true
 -   Location: System Property \[sys\_properties\] table
 -   Role needed: sn\_docs.docs\_admin
+
+</td></tr><tr><td>
+
+sn\_cwm.enable\_granular\_security
+
+</td><td>
+
+Property to enforce field-level access control on native CWM tables when data is loaded on a Board. The property applies to the `sn_cwm_task`, `rm_story`, and `rm_scrum_task` tables.
+
+ When set to true, per-row field write access is evaluated for each work item on a Board, based on the accessibility configured for the fields for that user.
+
+ When set to false, the cells on the CWM Board still appear editable, but edits to read-only fields are not saved.
+
+ -   Type: true \| false
+-   Default value: false
+-   Location: System Property \[sys\_properties\] table
+-   Role needed: sn\_cwm.cwm\_user
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Collaborative Work Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/reference-cwm.md)

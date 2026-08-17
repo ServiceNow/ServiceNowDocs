@@ -48,11 +48,11 @@ Enables you to create, manage, and test desktop actions in AI Desktop Actions an
 
 </td></tr><tr><td>
 
-Now Assist panel user\[now\_assist\_panel\_user\]
+ServiceNow Otto panel user\[now\_assist\_panel\_user\]
 
 </td><td>
 
-Enables you to trigger desktop actions from Now Assist panel and execute desktop actions in the desktop environment using Execution workspace.
+Enables you to trigger desktop actions from ServiceNow Otto panel and execute desktop actions in the desktop environment using Execution workspace.
 
 </td><td>
 
@@ -70,6 +70,18 @@ Enables you to create desktop actions using the **Record with AI** feature in AI
 
 -   sn\_aia.admin
 -   sn\_nowassist\_admin.user
+
+</td></tr><tr><td>
+
+Web Agent Runtime\[sn\_naa.web\_agent\_runtime\]
+
+</td><td>
+
+Grants the Web Automation Agent's service account read and write access to data required during execution.Assign this role only to the service account the agent runs as \(not to end users\). Without this role, the agent can't read or write any data at runtime.
+
+</td><td>
+
+None
 
 </td></tr></tbody>
 </table>## Tables installed
@@ -151,7 +163,7 @@ Packages tables, custom functionality specific to AI Desktop Actions application
 
 </td></tr><tr><td>
 
-Now Assist AI web agents\[sn\_naa\]
+ServiceNow Otto AI web agents\[sn\_naa\]
 
 </td><td>
 
@@ -202,10 +214,37 @@ sn\_naa.keep\_tab\_open
 
 Keeps the browser tabs that open during goal execution open after the goal completes.
 
- If you update the value, select the **ServiceNow Web Automation** extension icon, and select **Save** on the confirmation message.
+ Whenever you update the value, select the **ServiceNow Web Automation** extension icon, and save the instance provided in the extension.
 
  -   Type: true \| false
 -   Default: true
+
+</td></tr><tr><td>
+
+sn\_naa.web\_agent.compaction\_enabled
+
+</td><td>
+
+Enables summarization of steps that exceed the history limit, rather than discarding them. When turned off, only the most recent configured number of steps are retained.-   Type: true \| false
+-   Default: true
+
+</td></tr><tr><td>
+
+sn\_naa.web\_agent.compaction\_history\_limit
+
+</td><td>
+
+Sets the maximum number of unsummarized steps allowed before the oldest batch is summarized. When unsummarized steps exceed this value, compaction is triggered.-   Type: Integer
+-   Default: 15
+
+</td></tr><tr><td>
+
+sn\_naa.web\_agent.summarization\_batch\_size
+
+</td><td>
+
+Sets the number of steps combined into a single summary. Larger batches reduce how often summarization runs, but produce less granular summaries.-   Type: Integer
+-   Default: 10
 
 </td></tr></tbody>
 </table>**Parent Topic:**[AI Desktop Actions reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/agentic-desktop-reference.md)

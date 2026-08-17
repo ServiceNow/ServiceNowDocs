@@ -7,8 +7,8 @@ release: zurich
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: concept
-last_updated: "2026-07-07"
-reading_time_minutes: 6
+last_updated: "2026-07-29"
+reading_time_minutes: 7
 breadcrumb: [Use, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
@@ -30,7 +30,7 @@ The Hierarchy tab is valuable when you need to know the complete context of work
 -   Reviewing progress at the portfolio level and to drill down into execution details.
 -   Onboarding team members who need to understand how their assigned work fits the bigger picture.
 
-If you only need to track work items at a single level \(for example, just stories for your sprint\), the Backlog or Planning board views may be more efficient.
+If you only need to track work items at a single level \(for example, stories for your sprint\), the Backlog or Planning board views may be more efficient.
 
 ## Benefits
 
@@ -44,14 +44,16 @@ If you only need to track work items at a single level \(for example, just stori
 
 -   **For agile team members**
 
-    Gain context for assigned work by seeing the parent feature and epic, get visibility into the business value behind technical tasks, and identify related stories that might affect their implementation approach.
+    Gain context for assigned work by seeing the parent feature and epic, get visibility into the business value behind technical tasks. Also, identify related stories that might affect their implementation approach.
 
 
 ## Key capabilities
 
 -   **Multi-level hierarchy display**
 
-    View work items across four portfolio levels: Portfolio, Solution Train, Agile Release Train \(ART\), and Agile Team, with each level displaying its default work item type such as Epics, Capabilities, Features, and Stories based on the configuration.
+    View work items across four portfolio levels: Portfolio, Solution Train, Agile Release Train \(ART\), and Agile Team. Each level displays its default work item type such as Epics, Capabilities, Features, and Stories based on the configuration.
+
+    If your configuration enables a work item type that sits higher in the hierarchy than the configuration's default top-level type, for example enabling Epics on an Essential Configuration, the Hierarchy tab displays that enabled type at the top level instead of the configuration's original default.
 
 -   **Context-sensitive navigation**
 
@@ -99,13 +101,13 @@ If you only need to track work items at a single level \(for example, just stori
 
     During Program Increment \(PI\) planning, release train engineers and product managers need to know how work flows across multiple agile teams. A common scenario: your organization is planning a major platform upgrade that requires coordinated changes across three agile teams.
 
-    Using the Hierarchy tab, the release manager can expand the epic to see all capabilities, then drill down to features assigned to each team. This visual mapping reveals which teams have dependencies on shared components, where hand-offs need to occur, and whether any critical path work lacks adequate story breakdown, all without leaving a single view or assembling data from multiple reports.
+    Using the Hierarchy tab, the release manager can expand the epic to see all capabilities, then drill down to features assigned to each team. This visual mapping reveals which teams have dependencies on shared components, where hand-offs need to occur, and whether any critical path work lacks adequate story breakdown. All this appears without leaving a single view or assembling data from multiple reports.
 
 -   **Impact assessment for scope changes**
 
     When stakeholders request changes to a feature mid-sprint, product owners need to quickly assess the downstream impact. For example, a customer escalation requires adding new acceptance criteria to a feature that is already in progress.
 
-    The product owner uses the Hierarchy tab to expand the affected feature and review all associated stories. They can immediately see which stories are in progress, which are complete, and which teams are involved. This visibility enables an informed conversation with stakeholders about the true cost of the change, whether it affects one story or ripples across multiple teams, before committing to revised scope.
+    The product owner uses the Hierarchy tab to expand the affected feature and review all associated stories. They can immediately see which stories are in progress, which are complete, and which teams are involved. This visibility enables an informed conversation with stakeholders about the true cost of the change. This cost applies whether the change affects one story or ripples across multiple teams, before committing to revised scope.
 
 
 ## Considerations

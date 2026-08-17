@@ -16,9 +16,9 @@ Manage table size growth, archive data, and boost query performance by configuri
 
 Instance data grows quickly, and as these tables grow in size they require management. Database rotation preserves instance performance and averts risk associated with querying growing data sets utilizing three techniques. These techniques are based on the concept of managing large quantities of data by separating whole sets into individual tables. After this task is performed, each technique handles data in a different manner:
 
--   Table Rotation works by rotating among a small set of tables, and deleting and reusing the old tables for new data.
--   Table Extension works by periodically starting a new table and allowing old tables to be easily archived and removed from the system.
--   Table Sharding works by enabling records to be grouped in a single table by document ID.
+-   Table rotation works by rotating among a small set of tables, and deleting and reusing the old tables for new data.
+-   Table extension works by periodically starting a new table and allowing old tables to be easily archived and removed from the system.
+-   Table sharding works by enabling records to be grouped in a single table by document ID.
 
 <table id="table_n4k_qbq_z4"><thead><tr><th>
 

@@ -9,7 +9,7 @@ classification: now-assist-for-wsd
 topic_type: concept
 last_updated: "2025-10-05"
 reading_time_minutes: 1
-breadcrumb: [Workplace Advisor Overview, Using AI agent workflows in Now Assist for WSD, Now Assist for Workplace Service Delivery \(WSD\), Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Workplace Advisor Overview, Using AI agent workflows in ServiceNow Otto for WSD, ServiceNow Otto for Workplace Service Delivery \(WSD\), Workplace Service Delivery, Employee Service Management]
 ---
 
 # Workplace advisor QnA agentic workflow
@@ -24,7 +24,7 @@ The workplace advisor QnA agentic workflow routes employee queries to agents and
 
 To run the workplace advisor QnA agentic workflow, ensure that you have completed the following configurations:
 
--   [Enable Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-wsd/enable-now-assist-panel.md)
+-   [Enable the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-wsd/enable-now-assist-panel.md)
 -   [Configure Now Assist Panel Platform Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-wsd/configure-now-assist-panel-platform-agent.md)
 
 ## Accessing the workplace advisor QnA agentic workflow from the AI Agent Studio

@@ -1,6 +1,6 @@
 ---
 title: Testing LLM topics
-description: Preview, test, and debug topics that use large language models \(LLMs\) in the Virtual Agent Designer chat window.
+description: Preview, test, and debug topics that use large language models \(LLMs\) in the Assistant Designer Asset library chat window.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/test-llm-topics.html
 release: zurich
@@ -10,12 +10,12 @@ topic_type: reference
 last_updated: "2025-08-06"
 reading_time_minutes: 11
 keywords: [LLM, Topic, Testing, Virtual Agent, Large Language Model]
-breadcrumb: [Getting started with Virtual Agent Designer, Build and deploy, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Getting started with Assistant Designer Asset library, Build and deploy, Virtual Agent, Conversational Interfaces]
 ---
 
 # Testing LLM topics
 
-Preview, test, and debug topics that use large language models \(LLMs\) in the Virtual Agent Designer chat window.
+Preview, test, and debug topics that use large language models \(LLMs\) in the Assistant Designer Asset library chat window.
 
 You can test your topic's functions by running your conversation in a chat test window as you work. The web \(Service Portal\) chat client is the default test window.
 
@@ -23,27 +23,27 @@ Large language model \(LLM\) topics are faster and easier to test compared to Na
 
 If you're using the [Virtual Agent integrations with third-party messaging apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-integration-messaging-apps.md), elements in your conversation might appear differently in third-party messaging applications. Test your conversations in any third-party applications where you want to deploy Virtual Agent.
 
-**Note:** If the Now Assist panel, Microsoft Teams application, or Slack application is configured for your environment, preview options for those channels are displayed in the Test button list. Select **Preview in Now Assist panel** or **Preview in Microsoft Teams** in the list to test your topic in those environments.
+**Note:** If the ServiceNow Otto panel, Microsoft Teams application, or Slack application is configured for your environment, preview options for those channels are displayed in the Test button list. Select **Preview in Otto panel** or **Preview in Microsoft Teams** in the list to test your topic in those environments.
 
 ## Testing your LLM topic in the chat test window
 
-**Note:** An updated Assistant Designer Asset library user interface is available when you install Now Assist in Virtual Agent and turn on the Now Assist Topics skill. This content assumes that you have activated this skill and can see the list view. If this skill is not activated, you see the legacy UI and topics page. For more information, see [Virtual Agent Designer legacy topics page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/vad-prev-topics-page.md).
+**Note:** An updated Assistant Designer Asset library user interface is available when you install ServiceNow Otto in Virtual Agent. This content assumes that you can see the list view. If ServiceNow Otto in Virtual Agent is not installed, you see the legacy UI and topics page. For more information, see [Virtual Agent Designer legacy topics page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/vad-prev-topics-page.md).
 
-You can find LLM testing options on the canvas and the topics home pageAssistant Designer Asset library. The chat test window opens in the Now Assist in Virtual Agent chat widget. The Assistant drop-down list and **Include topic discovery** option might be displayed depending on where you originated the test from and if you have established any LLM assistants.
+You can find LLM testing options on the Assistant Designer Asset library. The chat test window opens in the ServiceNow Otto for Virtual Agent chat widget. The Assistant drop-down list and **Include topic discovery** option might be displayed depending on where you originated the test from and if you have established any LLM assistants.
 
 \[Omitted image "va-test-ui-options-llm-4.png"\] Alt text: Test options.
 
-Test LLM topics on the Virtual Agent Designer canvas by working with the **Test** option on the topic header bar. When testing from a single topic, the **Include topic discovery** option must be selected to work with the assistants. If the topic is associated with multiple LLM assistants, use the Assistant drop-down list to select which assistant you want to test. For more information about LLM assistants, see [LLM assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/llm-assistants.md).
+Test LLM topics on the Assistant Designer Asset library canvas by working with the **Test** option on the topic header bar. When testing from a single topic, the **Include topic discovery** option must be selected to work with the assistants. If the topic is associated with multiple LLM assistants, use the Assistant drop-down list to select which assistant you want to test. For more information about LLM assistants, see [LLM assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/llm-assistants.md).
 
 **Note:** The **Test in enhanced chat** option is available only from the Asset library list view. The **Test** button in the topic canvas adds options in a drop-down box if you configure Microsoft Teams or Slack for Virtual Agent.
 
 \[Omitted image "va-llm-test-window-assistants.png"\] Alt text: Add assistants in the Properties tab, followed by the Test skill discovery check box in the topic testing window, to select an assistant in the drop-down window. \[Omitted image "va-llm-test-window-assistants-2.png"\] Alt text: Add assistants in the Properties tab, followed by the Test skill discovery check box in the topic testing window, to select an assistant in the drop-down window.
 
-\[Omitted image "incl-topic-disc-2.png"\] Alt text: Virtual Agent Designer Now Assist Fallback screen.
+\[Omitted image "incl-topic-disc-2.png"\] Alt text: Assistant Designer Asset Library Servicenow Otto Fallback screen.
 
 **Note:** If your topic is missing any necessary information, an incomplete badge appears in the corner of the flow diagram pane. A warning badge also appears next to each node. The incomplete badge lists the total number of issues, while the local warning badges show how many issues are found in each node. If you select **Test** when there are issues, an Issues window opens with the number of issues present along with the details of each issue. These details include a full description and a hyperlink to each incomplete item.
 
-Alternatively, you can test active \(published\) LLM topics in the Asset library. Use the **LLM Assistant** filter to restrict your topics to only topics associated with that assistant, and then select **Test active topics**. If you don't use the **LLM Assistant** filter, select **Test LLM assistant topics** from the Test active topics drop-down list. When using the **Test active topics** option or sub-options from the Topics page, topic discovery is enabled, so it's not listed as an option. When testing from the Topics page, the Assistant drop-down list appears in the chat test window. You must have previously established at least the default Now Assist in Virtual Agent assistant to see the Assistant drop-down list. When a topic is associated with just one LLM assistant, the Assistant drop-down list defaults to that assistant name. If you have multiple assistants, select which assistant you want to work with using the Assistant drop-down list. For more information about creating multiple LLM assistants, see [Manage LLM virtual agents on the Assistants screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/manage-llm-va.md).
+Alternatively, you can test active \(published\) LLM topics in the Asset library. Use the **LLM Assistant** filter to restrict your topics to only topics associated with that assistant, and then select **Test active topics**. If you don't use the **LLM Assistant** filter, select **Test LLM assistant topics** from the Test active topics drop-down list. When using the **Test active topics** option or sub-options from the Topics page, topic discovery is enabled, so it's not listed as an option. When testing from the Topics page, the Assistant drop-down list appears in the chat test window. You must have previously established at least the default ServiceNow Otto for Virtual Agent assistant to see the Assistant drop-down list. When a topic is associated with just one LLM assistant, the Assistant drop-down list defaults to that assistant name. If you have multiple assistants, select which assistant you want to work with using the Assistant drop-down list. For more information about creating multiple LLM assistants, see [Manage LLM virtual agents on the Assistants screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/manage-llm-va.md).
 
 You can provide feedback to each utterance made by the LLM by selecting from the like thumbs-up icon \[Omitted image "llm-thumbs-up-like.png"\] Alt text: or dislike thumbs-down icon \[Omitted image "llm-thumbs-down-dislike.png"\] Alt text: options that appear when you hover over an utterance. All LLM user inputs except the Input Collector have these feedback options.
 
@@ -60,7 +60,7 @@ The chat test window also displays adjoining tabs that provide details about you
 
 \[Omitted image "llm-testing-windows-2.png"\] Alt text: Different tabs appear based on the type of LLM topic that you are testing.
 
-The following tabs appear when you test their related topic types on the Virtual Agent Designer canvas:
+The following tabs appear when you test their related topic types on the Assistant Designer Asset library canvas:
 
 -   The **Analyze test phrases**, **Modify instructions**, **Variables**, and **Logs** tabs appear for all LLM topic types.
 -   The **Edit variables** tab appears for topic blocks and custom controls.
@@ -70,9 +70,9 @@ If you run tests from the Topics page, the test window shows only the **Analyze 
 
 ## Analyze test phrases tab
 
-When you test LLM topics, results for topic discovery appear based on your input. When testing topics associated with a primary LLM assistant, only the primary assistant's promoted assets appear. When you input a test phrase, you can see a variety of search results when Genius Results are enabled including skill \(topic\) discovery, Knowledge Base \(KB\) articles, and catalog items. Under the skills search results,a **Matching** badge appears next to the skill discovered, whilevariables and values may also be listed \(such as the variable **@laptop\_make** and the value **macbook**\), depending on the topic. These Genius Results only appear if you’re testing a published topic and have selected the **Include topic discovery** option. If the **Include topic discovery** option appears inactive, publish the topic and select an LLM assistant on the Properties tab to work with topic discovery. A `Search indexing in progress` message might appear, but you can still test while the search indexing runs although topic discovery might not be updated. For more information about how Genius Results work, see .
+When you test LLM topics, results for topic discovery appear based on your input. When testing topics associated with a primary LLM assistant, only the primary assistant's promoted assets appear. When you input a test phrase, you can see a variety of search results when Genius Results are enabled including skill \(topic\) discovery, Knowledge Base \(KB\) articles, and catalog items. Under the skills search results,a **Matching** badge appears next to the skill discovered, whilevariables and values may also be listed \(such as the variable **@laptop\_make** and the value **macbook**\), depending on the topic. These Genius Results only appear if you’re testing a published topic and have selected the **Include topic discovery** option. If the **Include topic discovery** option appears inactive, publish the topic and select an LLM assistant on the Properties tab to work with topic discovery. A `Search indexing in progress` message might appear, but you can still test while the search indexing runs although topic discovery might not be updated. For more information about how Genius Results work, see [ServiceNow Otto for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/now-assist-ais.md).
 
-Additionally, when testing active LLM assistant topics from the Topics page, you see skills results for Semantic search. Semantic search analyzes the meanings and context of your search terms and uses that information to find results with similar meanings. It improves search recall by interpreting natural language to more accurately reflect your search's intent. If semantic search is deactivated for topic discovery testing, those results are not displayed. For more information about semantic search, see .
+Additionally, when testing active LLM assistant topics from the Topics page, you see skills results for Semantic search. Semantic search analyzes the meanings and context of your search terms and uses that information to find results with similar meanings. It improves search recall by interpreting natural language to more accurately reflect your search's intent. If semantic search is deactivated for topic discovery testing, those results are not displayed. For more information about semantic search, see [Semantic vector search in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/semantic-search-ais.md).
 
 \[Omitted image "va-test-phrases-llm-toast-message-matching-2.png"\] Alt text: Analysis tab showing matching result for utterance Check ticket.
 
@@ -88,7 +88,7 @@ Each instruction's status starts at `Original`. If you alter an instruction's co
 
 **Note:** If you select **Save to topic**, all changes are saved and all `Modified` messages reset to `Original`.
 
-The following image shows the **Modify instructions** tab showing user information with LLM instruction guidelines link, and Nodes held within an Input collector, including a locked node with User prompt is enforced message.
+The following image shows the **Modify instructions** tab. This tab shows user information with LLM instruction guidelines link, and Nodes held within an Input collector, including a locked node with User prompt is enforced message.
 
 \[Omitted image "va-prompt-discovery-llm-1-2.png"\] Alt text: Modify instructions tab.
 
@@ -137,8 +137,8 @@ The **Logs** tab displays a running log of server events, user entries, and Virt
 
 When you're done testing your topic, close the test chat window. If necessary, use the test information to adjust your topic to perform more accurately. For example, the results on the **Analyze test phrases** tab may return low scores or `Unsure` or `Unknown` confidence ratings. Improve scores by updating the topic description or instructions in the LLM user input nodes.
 
--   **[Testing Now Assist enhanced chat conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/testing-enhanced-chat-conversations.md)**  
+-   **[Testing ServiceNow Otto enhanced chat conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/testing-enhanced-chat-conversations.md)**  
 Test conversational assets with assistants in enhanced chat.
 
-**Parent Topic:**[Getting started with Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
+**Parent Topic:**[Getting started with Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
 

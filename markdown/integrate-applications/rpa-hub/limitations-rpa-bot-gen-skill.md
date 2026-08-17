@@ -1,5 +1,5 @@
 ---
-title: Limitations of Robotic Process Automation \(RPA\) bot generation skill
+title: Limitations of ServiceNow Otto for RPA Hub
 description: The limitations of the RPA bot generation skill are as follows.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/rpa-hub/limitations-rpa-bot-gen-skill.html
@@ -10,10 +10,10 @@ topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 3
 keywords: [Now Assist, generative AI]
-breadcrumb: [Reference, Now Assist for RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
+breadcrumb: [Reference, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
 
-# Limitations of Robotic Process Automation \(RPA\) bot generation skill
+# Limitations of ServiceNow Otto for RPA Hub
 
 The limitations of the RPA bot generation skill are as follows.
 
@@ -37,7 +37,7 @@ The limitations of the RPA bot generation skill are as follows.
 
     \[Omitted image "unknown-comp-rpa-na-t2b.png"\] Alt text: Design surface displays UNKNOWN components.
 
--   **Usage of existing connectors in new activity using Now Assist or build automation context menu options**
+-   **Usage of existing connectors in new activity using AI or build automation context menu options**
 
     During the automation workflow creation, if a method, such as the AddNewWorksheet method of Microsoft Excel connector is created, RPA Desktop Design Studio checks for an existing global object of the same connector type and uses the most recent one. In the following example, the Badging Data Microsoft Excel connector is used.
 
@@ -64,5 +64,5 @@ The limitations of the RPA bot generation skill are as follows.
     If the large language model \(LLM\) returns a method that doesn’t exist in the RPA Desktop Design Studio, then such methods are displayed as unknown components in the generated automation workflow.
 
 
-**Parent Topic:**[Now Assist for RPA Hub reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/now-assist-rpa-hub-reference.md)
+**Parent Topic:**[Robotic Process Automation \(RPA\) Hub reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/rpa-reference.md)
 

@@ -64,5 +64,5 @@ By using a compatibility rule, you can define the horizontal relationships betwe
 **Related topics**  
 
 
-[bundle-fsm.c_ManageWorkOrders]
+[Manage work orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/field-service-management/c_ManageWorkOrders.md)
 

@@ -4,7 +4,7 @@ description: The ServiceNow Predictive Intelligence application enables you to c
 locale: en-US
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-07-23"
 reading_time_minutes: 2
 ---
 
@@ -63,9 +63,9 @@ Predictive Intelligence is a ServiceNow AI Platform feature that is active by de
 
 ## Related ServiceNow applications and features
 
--   **[Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/document-intelligence-landing.md)**
+-   **[Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/docintel-nowassist-landing.md)**
 
-    Document Intelligence is an artificial intelligence solution that enables any organization to automate and accelerate the process of extracting data from documents.
+    With Now Assist in Document Intelligence you can use generative AI to get key information from digital documents into your automation workflows.
 
 -   **[Task Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/task-intelligence.md)**
 

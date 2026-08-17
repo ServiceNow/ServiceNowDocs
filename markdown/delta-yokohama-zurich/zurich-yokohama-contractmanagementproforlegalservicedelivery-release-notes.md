@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-contractmanagementproforlegalservicedelivery-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
@@ -67,7 +67,7 @@ Yokohama
 
 </td><td>
 
--   **[Contract amendments](https://servicenow-staging.fluidtopics.net/access?context=snlc-amend-req-landing&family=yokohama&ft:locale=en-US)**
+-   **[Contract amendments](https://www.servicenow.com/docs/access?context=snlc-amend-req-landing&family=yokohama&ft:locale=en-US)**
 
 Contract amendments enable you to formally change, add, or remove terms in an existing contract without replacing the entire agreement. The Amendment feature enhances contract lifecycle management by enabling you to initiate, track, and finalize amendments to existing contracts with audit trail.
 
@@ -87,7 +87,7 @@ Zurich
 
 </td><td>
 
--   **[Contract amendments](https://servicenow-staging.fluidtopics.net/access?context=snlc-amend-req-landing&family=zurich&ft:locale=en-US)**
+-   **[Contract amendments](https://www.servicenow.com/docs/access?context=snlc-amend-req-landing&family=zurich&ft:locale=en-US)**
 
 Contract amendments enable you to formally change, add, or remove terms in an existing contract without replacing the entire agreement. The Amendment feature enhances contract lifecycle management by enabling you to initiate, track, and finalize amendments to existing contracts with audit trail.
 
@@ -207,9 +207,9 @@ Yokohama
 
 </td><td>
 
-Install Contract Management Pro for Legal Service Delivery \(sn\_lg\_cnt\) by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+Install Contract Management Pro for Legal Service Delivery \(sn\_lg\_cnt\) by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
- For details, see [Install ServiceNow Legal Contracts](https://servicenow-staging.fluidtopics.net/access?context=snlc-install-legal-contracts&family=yokohama&ft:locale=en-US).
+ For details, see [Install ServiceNow Legal Contracts](https://www.servicenow.com/docs/access?context=snlc-install-legal-contracts&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -219,7 +219,7 @@ Zurich
 
 Install Contract Management Pro for Legal Service Delivery \(sn\_lg\_cnt\) by requesting it from the ServiceNow Store. 
 
- For details, see [Install ServiceNow Legal Contracts](https://servicenow-staging.fluidtopics.net/access?context=snlc-install-legal-contracts&family=zurich&ft:locale=en-US).
+ For details, see [Install ServiceNow Legal Contracts](https://www.servicenow.com/docs/access?context=snlc-install-legal-contracts&family=zurich&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -359,7 +359,7 @@ Yokohama
 -   Initiate and manage amendment requests for existing contracts.
 -   Record producer to initiate an amendment request from the Employee Center.
 
- See [ServiceNow Legal Contracts](https://servicenow-staging.fluidtopics.net/access?context=snlc-mgmt-pro-landing-page&family=yokohama&ft:locale=en-US) for more information.
+ See [ServiceNow Legal Contracts](https://www.servicenow.com/docs/access?context=snlc-mgmt-pro-landing-page&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -370,7 +370,7 @@ Zurich
 -   Initiate and manage amendment requests for existing contracts.
 -   Record producer to initiate an amendment request from the Employee Center.
 
- See [ServiceNow Legal Contracts](https://servicenow-staging.fluidtopics.net/access?context=snlc-mgmt-pro-landing-page&family=zurich&ft:locale=en-US) for more information.
+ See [ServiceNow Legal Contracts](https://www.servicenow.com/docs/access?context=snlc-mgmt-pro-landing-page&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

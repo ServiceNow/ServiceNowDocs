@@ -1,6 +1,6 @@
 ---
-title: Create and manage benefit plans
-description: Create a monetary or non-monetary benefit plan to specify the estimated monetary or non-monetary benefit in a category for a fiscal period. Demand benefit plans capture the potential benefits accrued by the demand when the demand is executed.
+title: Create a monetary benefit plan for a demand
+description: Create and manage monetary benefit plans to track potential monetary benefits during demand execution.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/portfolio-planning/create-and-manage-benefit-plans-ppw.html
 release: zurich
@@ -8,15 +8,17 @@ product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 1
 breadcrumb: [Manage financials for demands, Use, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
 ---
 
-# Create and manage benefit plans
+# Create a monetary benefit plan for a demand
 
-Create a monetary or non-monetary benefit plan to specify the estimated monetary or non-monetary benefit in a category for a fiscal period. Demand benefit plans capture the potential benefits accrued by the demand when the demand is executed.
+Create and manage monetary benefit plans to track potential monetary benefits during demand execution.
 
 ## Before you begin
+
+Enable the monetary benefit plans for demands. For more information, see [Enable financial budget allocation for demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/enable-financial-budget-allocation-for-demands-ppw.md).
 
 Role required: it\_demand\_manager
 
@@ -24,127 +26,55 @@ Role required: it\_demand\_manager
 
 The monetary benefit plan breakdown records are automatically created when you save the benefit plan. The monetary benefit plan breakdown records specify the estimated and actual benefits at a granular level for specific fiscal periods, such as FY16: M04 and FY16: M05. The **Monetary Benefit Plan Breakdowns** tab shows the aggregated benefits for estimated and actual benefits for each fiscal period for the demand.
 
-The non-monetary benefit plan breakdown records are automatically created when you save the benefit plan by selecting **Automatic** or **Manual** in the **Breakdown Type** field. The non-monetary benefit plan breakdown records specify the estimated and actual non-financial benefits at a granular level for specific fiscal periods, such as FY16: M04 and FY16: M05. The **Non-monetary Benefit Plan Breakdowns** tab shows the aggregated benefits for estimated and actual non-financial benefits for each fiscal period of the demand.
-
 **Note:** Converting a demand to a project or EAP entity transfers the benefit plan from the demand to the target project or EAP entity.
 
 ## Procedure
 
-1.  Open a demand from the home page of Next Experience for Demand Management.
+1.  Navigate to **Workspaces** &gt; **Portfolio Planning Workspace**.
 
-    For more information, see [Access demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/access-demands-ppw.md).
+2.  Select the Demands icon \[Omitted image "demands-icon.png"\].
 
-2.  Add, edit, or delete a benefit plan.
+3.  Open a demand from the **List** page.
 
-<table id="choicetable_w3k_syh_pyb"><thead><tr><th align="left" id="d79174e114">
+4.  Create a monetary benefit plan using one of the following options.
 
-Choice
+<table id="choicetable_b1n_bmf_khc"><thead><tr><th align="left" id="d81030e131">
 
-</th><th align="left" id="d79174e117">
+Option
 
-Description
+</th><th align="left" id="d81030e134">
 
-</th></tr></thead><tbody><tr><td id="d79174e123">
+Procedure
 
-**To create a benefit plan**
+</th></tr></thead><tbody><tr><td id="d81030e140">
+
+**Using the __Monetary Benefit Plans__ tab**
 
 </td><td>
 
-1.  Navigate to the **Estimate demand cost and effort** stage in the demand **Playbook**.
-2.  Select the **Define benefit estimates** activity.
+1.  Select **Details** from the navigation menu.
+2.  Select the **Monetary Benefit Plans** tab.
 
-**Note:** You can only unlock this activity when the previous activities in this stage are completed. For more information, see [Use Playbook in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/use-playbooks-in-ppw.md).
+**Note:** If the **Monetary Benefit Plans** tab isn't visible, select **More** &gt; **Monetary Benefit Plans**.
 
 3.  Select **New**.
-4.  Select the benefit type as monetary or non-monetary benefits.
-5.  On the Create New Benefit Plan form, fill the fields.
-    -   For monetary benefit plans, see [Monetary benefit plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/monetary-benefit-plan-form-ppw.md).
-    -   For non-monetary benefit plans, see [Non-monetary benefit plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/non-monetary-benefit-plan-form-ppw.md).
-6.  Select **Save**.
 
 
-</td></tr><tr><td id="d79174e200">
+</td></tr><tr><td id="d81030e187">
 
-**To edit a benefit plan**
+**Using the __Financials__ page**
 
 </td><td>
 
-1.  Select **Details** from the L-2 \(level 2\) navigation menu.
-2.  Select the **Monetary Benefit Plans** or **Non-monetary Benefit Plans** tab.
+1.  Select **Financials** from the navigation menu.
+2.  Select **New monetary benefit plan** from the More actions menu.
 
-**Note:** If the required benefit plan tab isn’t visible, select **More** and then select the required benefit plan tab.
-
-3.  Select the name of the benefit plan, edit the required details and select **Save**.
- **Note:** Alternatively, you can edit a benefit plan from the **Define benefit estimates** playbook activity.
-
-</td></tr><tr><td id="d79174e244">
-
-**To view and manage benefit plan breakdowns**
-
-</td><td>
-
-1.  Select **Details** from the L-2 \(level 2\) navigation menu.
-2.  Select the **Monetary Benefit Plans** or **Non-monetary Benefit Plans** tab.
-
-**Note:** If the required benefit plan tab isn’t visible, select **More** and then select the required benefit plan tab.
-
-3.  Select the name of the benefit plan.
-4.  Select the benefit plan breakdowns tab.
-5.  Select a benefit plan breakdown record.
-    -   To edit a benefit plan breakdown period, edit the details and select **Save**.
-        -   For monetary benefit plan breakdowns, see [Monetary benefit breakdown form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/monetary-benefit-breakdown-form-ppw.md).
-        -   For non-monetary benefit plans, see [Non-monetary benefit plan breakdown form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/non-monetary-benefit-plan-breakdown-ppw.md).
-    -   To delete a benefit plan breakdown record, select **Delete** from the More Actions option in the benefit plan breakdown form.
- **Note:** Alternatively, you can view and manage benefit plan breakdowns from the **Define benefit estimates** playbook activity.
-
-</td></tr><tr><td id="d79174e327">
-
-**To create benefit plan breakdowns**
-
-</td><td>
-
-1.  Select **Details** from the L-2 \(level 2\) navigation menu.
-2.  Select the **Monetary Benefit Plans** or **Non-monetary Benefit Plans** tab.
-
-**Note:** If the required benefit plan tab isn’t visible, select **More** and then select the required benefit plan tab.
-
-3.  Select the name of the benefit plan.
-4.  Select the benefit plan breakdowns tab.
-5.  Select **New**.
-    -   For monetary benefit plan breakdowns, see [Monetary benefit breakdown form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/monetary-benefit-breakdown-form-ppw.md).
-    -   For non-monetary benefit plans, see [Non-monetary benefit plan breakdown form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/non-monetary-benefit-plan-breakdown-ppw.md).
- **Note:** Alternatively, you can create a benefit plan breakdown from the **Define benefit estimates** playbook activity.
-
-</td></tr><tr><td id="d79174e400">
-
-**To delete a benefit plan**
-
-</td><td>
-
-Delete a benefit plan in one of the following ways:1.  Select **Details** from the L-2 \(level 2\) navigation menu.
-2.  Select the **Monetary Benefit Plans** or **Non-monetary Benefit Plans** tab.
-
-**Note:** If the required benefit plan tab isn’t visible, select **More** and then select the required benefit plan tab.
-
-3.  To delete a benefit plan,
-    -   Select a record from the required benefit plan tab and select **Delete**.
-    -   Select **Delete** from the More Actions option in the benefit plan form.
-**Note:** Alternatively, you can delete a benefit plan from the **Define benefit estimates** playbook activity.
 
 </td></tr></tbody>
-</table>    **Note:** When you move the demand dates, the associated benefit plans also change accordingly based on whether the benefit plan is tied to the demand start date, or end date. The [project property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/r_InstalledWithProjectManagement.md) **Change Resource Plan, Cost Plan and Benefit Plan Start Date with Demand or Project Start Date Change** controls the behavior for demand date changes.
+</table>5.  On the Benefit Plan form, complete the fields.
 
+    For a description of the field names, see [Monetary benefit plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/monetary-benefit-plan-form-ppw.md).
 
-**Related topics**  
+6.  Select **Save**.
 
-
-[Use Playbook in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/use-playbooks-in-ppw.md)
-
-[Monetary benefit plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/monetary-benefit-plan-form-ppw.md)
-
-[Non-monetary benefit plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/non-monetary-benefit-plan-form-ppw.md)
-
-[Monetary benefit breakdown form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/monetary-benefit-breakdown-form-ppw.md)
-
-[Non-monetary benefit plan breakdown form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/non-monetary-benefit-plan-breakdown-ppw.md)
 

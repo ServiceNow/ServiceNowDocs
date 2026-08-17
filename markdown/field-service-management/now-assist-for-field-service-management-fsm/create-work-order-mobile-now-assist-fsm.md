@@ -1,6 +1,6 @@
 ---
-title: Create a work order on ServiceNow Agent using Now Assist for Field Service Management \(FSM\)
-description: Create a work order on the ServiceNow Agent mobile application using Now Assist for Field Service Management \(FSM\) from a text description or an image of the issue.
+title: Create a work order on ServiceNow Agent using ServiceNow Otto for Field Service Management \(FSM\)
+description: Create a work order on the ServiceNow Agent mobile application using ServiceNow Otto for Field Service Management \(FSM\) from a text description or an image of the issue.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/now-assist-for-field-service-management-fsm/create-work-order-mobile-now-assist-fsm.html
 release: zurich
@@ -10,12 +10,12 @@ topic_type: task
 last_updated: "2026-02-23"
 reading_time_minutes: 1
 keywords: [create work order, AI agent, generative AI for Field Service Management]
-breadcrumb: [Use agentic AI in FSM, Now Assist for FSM]
+breadcrumb: [Use agentic AI in FSM, ServiceNow Otto for FSM]
 ---
 
-# Create a work order on ServiceNow Agent using Now Assist for Field Service Management \(FSM\)
+# Create a work order on ServiceNow Agent using ServiceNow Otto for Field Service Management \(FSM\)
 
-Create a work order on the ServiceNow Agent mobile application using Now Assist for Field Service Management \(FSM\) from a text description or an image of the issue.
+Create a work order on the ServiceNow Agent mobile application using ServiceNow Otto for Field Service Management \(FSM\) from a text description or an image of the issue.
 
 ## Before you begin
 

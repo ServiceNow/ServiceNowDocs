@@ -121,7 +121,10 @@ Visualize:
     Additional role requirement: cmdb\_query\_builder\_read.
 
 
-Create: [New Technical Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/csdm-landing-page.md)
+Create:
+
+-   [Create CI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/create-ci-manual-sg-workspace.md): Create a new CI while enforcing Identification and Reconciliation Engine \(IRE\) processes and other requirements that result in a valid and unique CI.
+-   Create Service Instance: [Create an application service \(service instance\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/create-it-services.md).
 
 Additional role requirement: service\_admin.
 

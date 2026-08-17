@@ -1,29 +1,29 @@
 ---
-title: Generate search results using Q&amp;A Genius Results in Now Assist for Legal Service Delivery \(LSD\)
-description: Generate actionable search results from knowledge article results in Legal Counsel Center, Employee Center, and global search by using Q&amp;A Genius Results in Now Assist for Legal Service Delivery \(LSD\).
+title: Generate search results using Q&amp;A Genius Results in ServiceNow Otto for Legal Service Delivery \(LSD\)
+description: Generate actionable search results from knowledge article results in Legal Counsel Center, Employee Center, and global search by using Q&amp;A Genius Results in ServiceNow Otto for Legal Service Delivery \(LSD\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-use-genius-result.html
 release: zurich
 product: Now Assist for Legal Service Delivery
 classification: now-assist-for-legal-service-delivery
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
-keywords: [Now Assist, generative AI]
-breadcrumb: [Use, Now Assist for Legal Service Delivery \(LSD\), Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
+keywords: [Now Assist, ServiceNow Otto, generative AI]
+breadcrumb: [Use, ServiceNow Otto for Legal Service Delivery \(LSD\), Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
-# Generate search results using Q&amp;A Genius Results in Now Assist for Legal Service Delivery \(LSD\)
+# Generate search results using Q&amp;A Genius Results in ServiceNow Otto for Legal Service Delivery \(LSD\)
 
-Generate actionable search results from knowledge article results in Legal Counsel Center, Employee Center, and global search by using Q&amp;A Genius Results in Now Assist for Legal Service Delivery \(LSD\).
+Generate actionable search results from knowledge article results in Legal Counsel Center, Employee Center, and global search by using Q&amp;A Genius Results in ServiceNow Otto for Legal Service Delivery \(LSD\).
 
 ## Before you begin
 
-For Legal Counsel Center, Q&amp;A Genius Results is activated by default when you install and activate AI Search and Now Assist for Legal Service Delivery \(LSD\).
+For Legal Counsel Center, Q&amp;A Genius Results is activated by default when you install and activate AI Search and Legal Service Delivery - Prime plugin \(sn\_lg\_ai\_prime\).
 
 For global search and Employee Center, you must enable Q&amp;A Genius Results manually. For more information, see [Enabling Now Assist Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/enabling-now-assist-qa-grs.md) and [Enable Now Assist genius results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/na-qa-activate.md).
 
-Ensure you have configured the Q&amp;A Genius skill. For more information, see [Configuring Q&amp;A Genius Results in Now Assist for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-cofig-gen-results.md).
+Ensure you have configured the Q&amp;A Genius skill. For more information, see [Configuring Q&amp;A Genius Results in ServiceNow Otto for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-cofig-gen-results.md).
 
 For more information on the other supported search engines, see [Search in Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-service-delivery/lsd-search-overview.md).
 
@@ -52,5 +52,5 @@ With your search results, you also see an answer card with a topic snippet and a
 
 \[Omitted image "lsd-na-genius-result.png"\] Alt text: Q&amp;A Genius Results in Legal Counsel Center.
 
-**Parent Topic:**[Using Now Assist for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-using.md)
+**Parent Topic:**[Using ServiceNow Otto for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-using.md)
 

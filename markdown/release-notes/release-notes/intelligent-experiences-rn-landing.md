@@ -13,7 +13,7 @@ reading_time_minutes: 2
 AI Experiences has new and updated features in the Zurich release.
 
 -   **[AI Control Tower release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/ai-control-tower-rn.md)**  
-The ServiceNow® AI Control Tower application provides a centralized workspace for AI stewards to manage and monitor AI within the enterprise. AI Control Tower was enhanced and updated in the Zurich release.
+The ServiceNow® AI Control Tower application provides a centralized workspace to track and act on AI governance work across the enterprise. AI Control Tower was enhanced and updated in the Zurich release.
 -   **[Conversation Insights release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/conversation-insights-rn.md)**  
 The ServiceNow® Conversation Insights application delivers Inferred customer satisfaction \(CSAT\) scores, with underlying factors that improve CSAT actionability. Conversation Insights is a new application in the Zurich release.
 -   **[Conversation Improvement Themes release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/conv-impr-themes-rn.md)**  
@@ -26,16 +26,16 @@ The ServiceNow® Generative AI Controller application enables you to use generat
 The ServiceNow® Knowledge Graph enables you to create and manage a Knowledge Graph schema for default integrations with Virtual Agent. Knowledge Graph was enhanced and updated in the Zurich release.
 -   **[MCP Server Console release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/mcp-server-console-rn.md)**  
 The ServiceNow® MCP Server Console application enables secure and governed access to functionality on a ServiceNow instance for AI applications with Model Context Protocol \(MCP\) servers. MCP servers extend ServiceNow AI Platform® functionality into any external MCP client and employee experience over the Model Context Protocol. MCP Server Console is a new application in the Zurich release.
--   **[Now Assist AI agents release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/now-assist-ai-agents-rn.md)**  
-The ServiceNow® Now Assist AI Agents application provides solutions that can perceive the environment, decide, and proactively act to achieve specific goals without the need for constant human oversight. Now Assist AI Agents was enhanced and updated in the Zurich release.
+-   **[AI Agent Studio release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/now-assist-ai-agents-rn.md)**  
+The ServiceNow® AI agents provides solutions that can perceive the environment, decide, and proactively act to achieve specific goals without the need for constant human oversight. AI agents and AI Agent Studio were enhanced and updated in the Zurich release.
 -   **[Now Assist in Document Intelligence release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/now-assist-document-intelligence-rn.md)**  
 The ServiceNow® Now Assist in Document Intelligence application uses generative AI to extract information from documents, summarize document content, and provide answers to predefined questions. Now Assist in Document Intelligence was enhanced and updated in the Zurich release.
--   **[Now Assist Skill Kit release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/now-assist-skill-kit-rn.md)**  
-The ServiceNow® Now Assist Skill Kit application enables AI developers to create custom skills and to have greater flexibility with the generative AI capabilities of Now Assist. Now Assist Skill Kit was enhanced and updated in the Zurich release.
+-   **[AI Skill Kit release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/now-assist-skill-kit-rn.md)**  
+The ServiceNow® AI Skill Kit application enables AI developers to create custom skills and to have greater flexibility with the generative AI capabilities of Now Assist. AI Skill Kit was enhanced and updated in the Zurich release.
 -   **[Predictive Intelligence release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/predictive-intelligence-rn.md)**  
 The ServiceNow® Predictive Intelligence application enables you to create and train machine learning models to help improve the performance, efficiency, and flexibility of your systems. Predictive Intelligence was enhanced and updated in the Zurich release.
 -   **[ServiceNow AI Lens release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/servicenow-lens-rn.md)**  
-With ServiceNow AI Lens, which is a ServiceNow® Now Assist application, you can use generative AI to scan, extract, comprehend, and synthesize data to optimize your workflows. ServiceNow AI Lens was enhanced and updated in the Zurich release.
+With ServiceNow AI Lens, which is a ServiceNow® Otto application, you can use generative AI to scan, extract, comprehend, and synthesize data to optimize your workflows. ServiceNow AI Lens was enhanced and updated in the Zurich release.
 -   **[AI Desktop Actions release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/agentic-desktop-rn.md)**  
 The ServiceNow® AI Desktop Actions application enables you to design, configure, and manage desktop actions to automate repetitive tasks. These desktop actions are executed by AI agents created in AI Agent Studio. AI Desktop Actions is a new application in the Zurich release.
 

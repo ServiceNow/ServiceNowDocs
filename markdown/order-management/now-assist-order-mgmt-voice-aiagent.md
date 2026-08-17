@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-05-21"
 reading_time_minutes: 2
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Use, Now Assist for Order Management]
+breadcrumb: [Use, ServiceNow Otto for Order Management]
 ---
 
 # Request order changes via calls
@@ -57,5 +57,5 @@ Using the order exception AI voice agent, you can do the following:
 
 The AI voice agent creates an order case for your request, with a system-generated number starting with the prefix ORDCS, and provides you with the case number over the call. Make a note of the case number, because no email confirmation is sent for order cases that are created through the voice channel.
 
-**Parent Topic:**[Using Now Assist for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/now-assist-order-management-using.md)
+**Parent Topic:**[Using ServiceNow Otto for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/now-assist-order-management-using.md)
 

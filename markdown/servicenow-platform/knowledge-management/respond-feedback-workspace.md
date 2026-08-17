@@ -95,15 +95,15 @@ Feedback for a knowledge article from other sources.**Note:** When you upgrade y
 
 5.  Work on the feedback task.
 
-<table id="choicetable_p3v_5sb_vjb"><thead><tr><th align="left" id="d600004e191">
+<table id="choicetable_p3v_5sb_vjb"><thead><tr><th align="left" id="d602469e191">
 
 To
 
-</th><th align="left" id="d600004e194">
+</th><th align="left" id="d602469e194">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d600004e200">
+</th></tr></thead><tbody><tr><td id="d602469e200">
 
 **Start working on the feedback task**
 
@@ -111,7 +111,7 @@ Do this
 
 From the State list, select **Work in progress**. You can save the feedback task, edit the knowledge article for which the feedback task was added, or create another knowledge article from a feedback task if the information in the existing article is irrelevant or obsolete. For more information, see [Create a knowledge article from a feedback task in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/create-article-feedback-agent.md) and [Edit a knowledge article from a feedback task in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/edit-article-feedback-agent.md).
 
-</td></tr><tr><td id="d600004e229">
+</td></tr><tr><td id="d602469e229">
 
 **Request clarification from the feedback submitter**
 
@@ -121,7 +121,7 @@ From the State list, select **Work in progress**. You can save the feedback task
 2.  In the **Additional comments** field, enter the information you need from the submitter of the feedback task.
  When you save the feedback task form, an email notification is sent to the feedback task submitter.
 
-</td></tr><tr><td id="d600004e256">
+</td></tr><tr><td id="d602469e256">
 
 **Resolve the feedback task**
 
@@ -134,7 +134,7 @@ From the State list, select **Work in progress**. You can save the feedback task
 
  **Note:** If the submitter accepts the feedback resolution, the state for the feedback task is automatically set to **Closed**.
 
-</td></tr><tr><td id="d600004e292">
+</td></tr><tr><td id="d602469e292">
 
 **Close the feedback task without the submitter having to accept the feedback resolution**
 

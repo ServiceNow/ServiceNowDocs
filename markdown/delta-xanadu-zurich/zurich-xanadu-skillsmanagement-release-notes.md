@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-skillsmanagement-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -38,7 +38,7 @@ Xanadu
 
 </td><td>
 
-The skills dashboard is automatically migrated to the [Next Experience UI](https://servicenow-staging.fluidtopics.net/access?context=next-experience-landing-page&family=xanadu&ft:locale=en-US) in the Xanadu release. When you upgrade, you can automatically access the Skills dashboard in the [Next Experience UI](https://servicenow-staging.fluidtopics.net/access?context=next-experience-landing-page&family=xanadu&ft:locale=en-US).
+The skills dashboard is automatically migrated to the [Next Experience UI](https://www.servicenow.com/docs/access?context=next-experience-landing-page&family=xanadu&ft:locale=en-US) in the Xanadu release. When you upgrade, you can automatically access the Skills dashboard in the [Next Experience UI](https://www.servicenow.com/docs/access?context=next-experience-landing-page&family=xanadu&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -75,11 +75,11 @@ Xanadu
 
 </td><td>
 
--   **[Using the Skills Management dashboard in the Next Experience user interface](https://servicenow-staging.fluidtopics.net/access?context=using-skills-management&family=xanadu&ft:locale=en-US)**
+-   **[Using the Skills Management dashboard in the Next Experience user interface](https://www.servicenow.com/docs/access?context=using-skills-management&family=xanadu&ft:locale=en-US)**
 
 Analyze the trends to assess the skill gaps in your organization by using the Next Experience user interface.
 
--   **[Multi-lingual capabilities in Skills Management](https://servicenow-staging.fluidtopics.net/access?context=translating-skills-skills-management&family=xanadu&ft:locale=en-US)**
+-   **[Multi-lingual capabilities in Skills Management](https://www.servicenow.com/docs/access?context=translating-skills-skills-management&family=xanadu&ft:locale=en-US)**
 
 Translate the skill names and the descriptions by using the following fields that support the translated text data type in the Skill \[cmn\_skill\] table:
 
@@ -232,7 +232,7 @@ Xanadu
 
 </td><td>
 
-Skills Management is available with the activation of the Skills Management \(com.snc.skills\_management\) plugin. For details, see [Activating Skills Management](https://servicenow-staging.fluidtopics.net/access?context=skills-management&family=xanadu&ft:locale=en-US).
+Skills Management is available with the activation of the Skills Management \(com.snc.skills\_management\) plugin. For details, see [Activating Skills Management](https://www.servicenow.com/docs/access?context=skills-management&family=xanadu&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -417,10 +417,10 @@ Xanadu
 
 </td><td>
 
--   Analyze the skills dashboard by using the intuitive [Next Experience UI](https://servicenow-staging.fluidtopics.net/access?context=next-experience-landing-page&family=xanadu&ft:locale=en-US).
+-   Analyze the skills dashboard by using the intuitive [Next Experience UI](https://www.servicenow.com/docs/access?context=next-experience-landing-page&family=xanadu&ft:locale=en-US).
 -   Use multi-lingual capabilities in Skills Management so that you can translate the skill names and their descriptions in your preferred language.
 
- See [Skills Management](https://servicenow-staging.fluidtopics.net/access?context=skills-management&family=xanadu&ft:locale=en-US) for more information.
+ See [Skills Management](https://www.servicenow.com/docs/access?context=skills-management&family=xanadu&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 

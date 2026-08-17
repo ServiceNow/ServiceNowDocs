@@ -7,7 +7,7 @@ release: zurich
 topic_type: concept
 last_updated: "2025-11-23"
 reading_time_minutes: 2
-breadcrumb: [Create an AI agent, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Create an AI agent, AI Agent Studio, Enable AI experiences]
 ---
 
 # Add tools and information to an AI agent

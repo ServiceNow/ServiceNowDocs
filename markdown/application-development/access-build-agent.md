@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/access-build-agent.html
 release: zurich
 topic_type: concept
-last_updated: "2026-06-09"
+last_updated: "2026-07-23"
 reading_time_minutes: 5
 keywords: [Build Agent, ServiceNow Studio, ServiceNow IDE, access, development, AI agent, chat panel, Personal Development Instance, PDI, Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Use, Build Agent, Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
@@ -21,11 +21,27 @@ You can watch a short video on how to access Build Agent in ServiceNow Studio.
 
 **Note:** Your instance must be on Zurich Patch 8 or higher to use Build Agent in ServiceNow Studio.
 
+## Build Agent and sandboxes
+
+Use Build Agent in an isolated development environment with Developer Sandboxes. Sandboxes provide parallel development for distributed developers, with isolated metadata and Git integration. For more information, see [Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/developer-sandboxes/sandboxes-landing.md).
+
 ## Build Agent and PDIs
 
 You can access Build Agent on a Personal Development Instance \(PDI\). Developers using PDIs get 25 prompts per instance per 30-day cycle.
 
 PDIs are updated to match the latest Build Agent for a consistent experience across both personal and production-track instances. Developers testing and building on PDIs have access to the same capabilities available in production environments. For more information on PDIs, see [Personal developer instance guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/personal_developer_instance_guide.md).
+
+## Handing off ServiceNow Otto conversations to Build Agent
+
+You can continue a ServiceNow Otto conversation from another product in Build Agent without repeating your intent. When ServiceNow Otto detects that you want to build or modify an application, it creates a handoff record. ServiceNow Studio then uses that handoff record to open Build Agent with your conversation context already loaded.
+
+The handoff record stores a versioned summary of the conversation and a reference to the full transcript. ServiceNow Studio reads the handoff record and opens Build Agent with the summary pre-filled as an editable prompt in the chat panel. When that happens, Build Agent doesn't run automatically. You must review and edit the pre-filled prompt before submitting it. The full ServiceNow Otto transcript is attached to the session so you can reference details from the original conversation that the summary doesn't include.
+
+**Note:** To use conversation handoff:
+
+-   You must have access to both ServiceNow Otto® and Build Agent.
+-   You must be working in ServiceNow Studio.
+-   You must be on Australia Patch 5 or later.
 
 ## Build Agent environments
 
@@ -42,7 +58,7 @@ You can use Build Agent in both ServiceNow Studio and the ServiceNow IDE. Your c
 
 ## Opening Build Agent
 
-When you open ServiceNow Studio or the ServiceNow IDE, the Build Agent should appear by default. If it doesn't appear, If the panel isn't open, select **Open Build Agent** from the status bar in the corner of your browser. You can also select the Sparkle icon \[Omitted image "ba-sns-ai-sparkle.png"\] Alt text: in the application banner.
+When you open ServiceNow Studio or the ServiceNow IDE, the Build Agent should appear by default. If it doesn't appear, If the panel isn't open, select **Open Build Agent** from the status bar in the corner of your browser. You can also select the \[Omitted image "ba-otto-icon.png"\] Alt text:ServiceNow Otto icon in the application banner.
 
 **Note:**
 
@@ -52,48 +68,7 @@ When you open ServiceNow Studio or the ServiceNow IDE, the Build Agent should ap
 
 \[Omitted image "sn-studio-access-build-agent.png"\] Alt text: If Build Agent isn't open, open it from the status bar in the corner of your browser.
 
-## Build Agent chat panel
-
-Use the Build Agent chat panel to create or update an app or app file. Make a selection to begin the chat, or enter a prompt.
-
-\[Omitted image "sn-studio-ba-new-chat.png"\] Alt text: Begin a conversation by selecting an option to create or update an app or app file.
-
-Continue your conversation in the chat panel until you're happy with the results.
-
-<table id="table_x2g_4c2_m3c"><thead><tr><th>
-
-Function
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-New chat icon \[Omitted image "sn-studio-ba-new-chat-icon.png"\] Alt text:
-
-</td><td>
-
-Open a new chat in the Build Agent chat panel.Begin a new chat when you want to start working on a new application or need a fresh start for updates.
-
-</td></tr><tr><td>
-
-Chats icon \[Omitted image "sn-studio-ba-chats-icon.png"\] Alt text:
-
-</td><td>
-
-See a list of all your chats with Build Agent.
-
-</td></tr><tr><td>
-
-Checkpoints icon \[Omitted image "sn-studio-ba-checkpoint-icon.png"\] Alt text:
-
-</td><td>
-
-See a list of all the checkpoints within your current chat with Build Agent.Checkpoints show all the progress points in your application. You can revert to any of these checkpoints during the course of developing your app.
-
-</td></tr></tbody>
-</table>## Key differences between ServiceNow Studio and the ServiceNow IDE
+## Key differences between ServiceNow Studio and the ServiceNow IDE
 
 |Area|ServiceNow Studio|ServiceNow IDE|
 |----|-----------------|--------------|

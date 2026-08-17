@@ -60,7 +60,7 @@ Because your organization assesses the risk that is associated with doing busine
         1.  Select the **Third party is not listed** check box.
         2.  Enter the name of the new third party.
         3.  The form expands. In the next step, you enter the key information like the address and contact details for the third party and for the engagement.
-    If you selected an existing third party, much of the information is automatically filled in. For descriptions of these fields, see [Request third-party risk due diligence request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-dd-form.md).
+    If you selected an existing third party, identifying information such as address and contact details is automatically filled in. For descriptions of these fields, see [Request third-party risk due diligence request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-dd-form.md).
 
 6.  Select **Submit**.
 

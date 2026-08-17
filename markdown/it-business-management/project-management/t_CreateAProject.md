@@ -43,15 +43,15 @@ You can also use the multi-currency feature to create a project in a local curre
 
 1.  Create a project in any of the following ways.
 
-<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d247506e150">
+<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d255288e150">
 
 Location
 
-</th><th align="left" id="d247506e153">
+</th><th align="left" id="d255288e153">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d247506e159">
+</th></tr></thead><tbody><tr><td id="d255288e159">
 
 **From the Projects list**
 
@@ -59,7 +59,7 @@ Steps
 
 Navigate to **All** &gt; **Project** &gt; **Projects** &gt; **Create New**.
 
-</td></tr><tr><td id="d247506e185">
+</td></tr><tr><td id="d255288e185">
 
 **From the project workspace**
 

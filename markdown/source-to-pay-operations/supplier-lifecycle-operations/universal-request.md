@@ -53,7 +53,14 @@ For more information on roles in Universal requests, see [Universal Request role
     -   If the routing agent accepts the resolution provided in the primary ticket, the Universal request is marked as complete and closed.
     -   If the resolution is rejected, the supplier case is dissociated from the Universal request. The routing agent then creates a new primary ticket from the Universal request for resolution.
 
-Primary tickets can also be transferred to other departments when resolving a Universal request requires cross-departmental support or must be reassigned to a different department. For more information, see [Transfer a primary ticket](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/route-primarytask-to-ur.md).
+Primary tickets can also be transferred to other departments when resolving a Universal request requires cross-departmental support or must be reassigned to a different department. For more information on transferring primary tickets, see [Transfer a primary ticket](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/route-primarytask-to-ur.md).
 
 When a Universal request needs support from multiple departments, you can create Associated tickets in addition to the primary ticket. Associated tickets enable multiple departments to work on the resolution of the Universal request simultaneously. For more information see, [Create associated ticket for primary ticket of UR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/create-associated-ticket.md).
+
+**Related topics**  
+
+
+[Create a Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/create-universal-request.md)
+
+[Create supplier case from Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/create-supplier-case.md)
 

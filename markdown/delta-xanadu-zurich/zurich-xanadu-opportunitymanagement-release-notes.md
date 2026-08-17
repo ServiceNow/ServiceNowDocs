@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-opportunitymanagement-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
@@ -75,23 +75,23 @@ Xanadu
 
 </td><td>
 
--   **[Use the Sidebar integration with Microsoft Teams](https://servicenow-staging.fluidtopics.net/access?context=opportunity-management-sidebars-teams&family=xanadu&ft:locale=en-US)**
+-   **[Use the Sidebar integration with Microsoft Teams](https://www.servicenow.com/docs/access?context=opportunity-management-sidebars-teams&family=xanadu&ft:locale=en-US)**
 
 Collaborate on an opportunity with your sales managers and solution consultants, or product and legal teams by using the sidebar integrated with Microsoft Teams to close the deal or opportunity. Additionally, you can communicate with the stakeholders through messages, emojis, and attachments.
 
-**Note:** To use this feature, you must upgrade your ServiceNow AI Platform to Xanadu. To learn more, see [Upgrade to the Xanadu release](https://servicenow-staging.fluidtopics.net/access?context=upgrades-overview&family=xanadu&ft:locale=en-US).
+**Note:** To use this feature, you must upgrade your ServiceNow AI Platform to Xanadu. To learn more, see [Upgrade to the Xanadu release](https://www.servicenow.com/docs/access?context=upgrades-overview&family=xanadu&ft:locale=en-US).
 
--   **[Create quotes from opportunity line items](https://servicenow-staging.fluidtopics.net/access?context=opportunity-management-create-quote-line-items&family=xanadu&ft:locale=en-US)**
+-   **[Create quotes from opportunity line items](https://www.servicenow.com/docs/access?context=opportunity-management-create-quote-line-items&family=xanadu&ft:locale=en-US)**
 
 Create quotes by selecting individual line items within an opportunity record.
 
--   **[Location-based transactions for Opportunity Management](https://servicenow-staging.fluidtopics.net/access?context=location_based_transactions_for_opportunity&family=xanadu&ft:locale=en-US)**
+-   **[Location-based transactions for Opportunity Management](https://www.servicenow.com/docs/access?context=location_based_transactions_for_opportunity&family=xanadu&ft:locale=en-US)**
     -   Enable agents to specify a customer location in the product catalog and display only the eligible products for that location when they're adding products to opportunities.
     -   Copy products \(line items\) to other customer locations within the same opportunity.
--   **[Sync quote and opportunity](https://servicenow-staging.fluidtopics.net/access?context=synchronise_quote_and_opportunity&family=xanadu&ft:locale=en-US)**
+-   **[Sync quote and opportunity](https://www.servicenow.com/docs/access?context=synchronise_quote_and_opportunity&family=xanadu&ft:locale=en-US)**
     -   Establish a synhronisation between quote and opportunity to ensure that values across Opportunity-Quote, and Opportunity Line items-Quote Line items are consistent. This synchronisation allows changes to automatically copy into the opportunity record.
     -   Track revenue from an opportunity accurately by keeping opportunities and quotes in synchronisation.
--   **[Subscription revenue metrics](https://servicenow-staging.fluidtopics.net/access?context=som-subscription-pricing&family=xanadu&ft:locale=en-US)**
+-   **[Subscription revenue metrics](https://www.servicenow.com/docs/access?context=som-subscription-pricing&family=xanadu&ft:locale=en-US)**
 
 Provide system-calculated recurring and one-time revenue amounts for product and service subscriptions for opportunities. These amounts help sales agents and managers to gain visibility into revenue metrics and recurring revenue dynamics.
 
@@ -102,16 +102,16 @@ Yokohama
 
 </td><td>
 
--   **[View the roll-up amount in the Opportunity Kanban View](https://servicenow-staging.fluidtopics.net/access?context=opportunity-management-kanban-view&family=yokohama&ft:locale=en-US)**
+-   **[View the roll-up amount in the Opportunity Kanban View](https://www.servicenow.com/docs/access?context=opportunity-management-kanban-view&family=yokohama&ft:locale=en-US)**
 
 Enables customers to view the roll-up amount that is automatically calculated in the base currency for all opportunity stages in the Kanban View.
 
 
--   **[\[Placeholder link text to key bundle-omgmt.opportunity-management-add-product-to-opportunity\]](https://servicenow-staging.fluidtopics.net/access?context=opportunity-management-add-product-to-opportunity&family=yokohama&ft:locale=en-US)**
+-   **[\[Placeholder link text to key bundle-omgmt.opportunity-management-add-product-to-opportunity\]](https://www.servicenow.com/docs/access?context=opportunity-management-add-product-to-opportunity&family=yokohama&ft:locale=en-US)**
 
 Enables the sales representatives to customize the complex product offerings by using the product configurator. This ensures that the sales representatives identify and share the detailed requirements and price to the customer much earlier in the cycle.
 
--   **[Revise existing opportunities after an upgrade](https://servicenow-staging.fluidtopics.net/access?context=revise-existing-opportunities-post-upgrade&family=yokohama&ft:locale=en-US)**
+-   **[Revise existing opportunities after an upgrade](https://www.servicenow.com/docs/access?context=revise-existing-opportunities-post-upgrade&family=yokohama&ft:locale=en-US)**
 
 Enable the sales representatives to use the scheduled job to modify older opportunities to incorporate the functionality of supporting parent-child opportunity line items.
 
@@ -122,7 +122,7 @@ Zurich
 
 </td><td>
 
--   **[Delta pricing for opportunity](https://servicenow-staging.fluidtopics.net/access?context=opportunity-management-details-tab&family=zurich&ft:locale=en-US)**
+-   **[Delta pricing for opportunity](https://www.servicenow.com/docs/access?context=opportunity-management-details-tab&family=zurich&ft:locale=en-US)**
 
 The following new fields added to the Opportunity and Opportunity Line objects improve visibility and provide greater flexibility in managing pricing amendments:
 
@@ -130,11 +130,11 @@ The following new fields added to the Opportunity and Opportunity Line objects i
     -   Renewal Amount
     -   Upsell/Downsell Amounts
     -   Total Net New Amount
--   **[Add opportunity associated contact](https://servicenow-staging.fluidtopics.net/access?context=add-opportunity-associated-contact&family=zurich&ft:locale=en-US)**
+-   **[Add opportunity associated contact](https://www.servicenow.com/docs/access?context=add-opportunity-associated-contact&family=zurich&ft:locale=en-US)**
 
 Create opportunity associated contacts to associate multiple account contacts, verifying clear identification of all stakeholders and their respective roles.
 
--   **[Add opportunity team member](https://servicenow-staging.fluidtopics.net/access?context=create-new-opportunity-team-member&family=zurich&ft:locale=en-US)**
+-   **[Add opportunity team member](https://www.servicenow.com/docs/access?context=create-new-opportunity-team-member&family=zurich&ft:locale=en-US)**
 
 Create a new opportunity team member to associate multiple team members with an opportunity to enable structured collaboration and grant access based on their roles. The ability to grant access is available from Zurich Patch 3 release.
 
@@ -296,7 +296,7 @@ Zurich
 
 </td><td>
 
-Install Opportunity Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+Install Opportunity Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -468,7 +468,7 @@ Xanadu
 -   Collaborate with your internal and external stakeholders by using the sidebar and Microsoft Teams integration on an opportunity.
 -   Create quotes for the selected line items in an opportunity record by using the new UI action.
 
- See [Opportunity Management](https://servicenow-staging.fluidtopics.net/access?context=opportunity-management&family=xanadu&ft:locale=en-US) for more information.
+ See [Opportunity Management](https://www.servicenow.com/docs/access?context=opportunity-management&family=xanadu&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -479,7 +479,7 @@ Yokohama
 1.  Enable customers to view the roll-up amount in the Kanban View.
 2.  Enable sales representatives to customize bundled products and products with complex characteristics in the product catalog.
 
- See [Opportunity Management](https://servicenow-staging.fluidtopics.net/access?context=opportunity-management&family=yokohama&ft:locale=en-US) for more information.
+ See [Opportunity Management](https://www.servicenow.com/docs/access?context=opportunity-management&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -491,7 +491,7 @@ Zurich
 -   Identify multiple stakeholders and accurately qualify opportunities with opportunity associated contacts and their defined roles. This is vital for streamlining sales processes and gaining clarity on how each contact influences the outcome of a deal.
 -   Drive structured collaboration among multiple stakeholders involved in closing a deal using Opportunity Teams. The teams verify collaboration across various roles such as Account Executives, Sales Engineers, Customer Success Managers, and Partner Managers.
 
- See [Opportunity Management](https://servicenow-staging.fluidtopics.net/access?context=opportunity-mgmt-using&family=zurich&ft:locale=en-US) for more information.
+ See [Opportunity Management](https://www.servicenow.com/docs/access?context=opportunity-mgmt-using&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/rn-combined-intro.md)

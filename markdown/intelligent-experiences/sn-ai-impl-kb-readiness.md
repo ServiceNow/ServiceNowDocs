@@ -1,21 +1,21 @@
 ---
-title: Knowledge Base readiness for Now Assist on the ServiceNow AI Platform
-description: The knowledge base is the engine that enables Now Assist to deliver intelligent, accurate, and context-aware responses across AI Search, Q&amp;A Genius Results, and other AI-powered experiences.
+title: Knowledge Base readiness for AI on the ServiceNow AI Platform
+description: The knowledge base is the engine that enables ServiceNow Otto to deliver intelligent, accurate, and context-aware responses across AI Search, Q&amp;A Genius Results, and other AI-powered experiences.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/sn-ai-impl-kb-readiness.html
 release: zurich
 topic_type: concept
-last_updated: "2025-10-14"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [Now Assist, agentic AI, AI readiness]
 breadcrumb: [Application readiness, ServiceNow AI implementation, Enable AI experiences]
 ---
 
-# Knowledge Base readiness for Now Assist on the ServiceNow AI Platform
+# Knowledge Base readiness for AI on the ServiceNow AI Platform
 
-The knowledge base is the engine that enables Now Assist to deliver intelligent, accurate, and context-aware responses across AI Search, Q&amp;A Genius Results, and other AI-powered experiences.
+The knowledge base is the engine that enables ServiceNow Otto to deliver intelligent, accurate, and context-aware responses across AI Search, Q&amp;A Genius Results, and other AI-powered experiences.
 
-When users ask questions, Now Assist taps into your knowledge articles to generate answers that reflect your organization’s expertise and policies. This means the quality, clarity, and structure of your knowledge content directly influence the effectiveness of AI responses. Outdated, inconsistent, or poorly written articles can lead to incorrect outputs and user frustration. That’s why maintaining a clean, well-organized knowledge base is critical—not just for documentation, but for enabling reliable AI performance.
+When users ask questions, ServiceNow Otto taps into your knowledge articles to generate answers that reflect your organization’s expertise and policies. This means the quality, clarity, and structure of your knowledge content directly influence the effectiveness of AI responses. Outdated, inconsistent, or poorly written articles can lead to incorrect outputs and user frustration. That’s why maintaining a clean, well-organized knowledge base is critical—not just for documentation, but for enabling reliable AI performance.
 
 The Knowledge Management Overview dashboard is a powerful tool for assessing AI readiness. It provides key usage metrics such as article views, helpfulness ratings, and feedback trends, helping content owners identify high-performing articles and prioritize updates to low-usage or outdated content. For more information, see [Knowledge Management Overview dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/km-overview-dash.md).
 
@@ -50,7 +50,7 @@ The Knowledge Management Overview dashboard is a powerful tool for assessing AI 
     See:
 
     -   [Create a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/create-knowledge-article.md)
-    -   [Best practices to use your knowledge articles with Now Assist \(generative AI\)](https://www.servicenow.com/community/knowledge-management-articles/best-practices-to-use-your-knowledge-articles-with-now-assist/ta-p/2824219) \(ServiceNow Community\)
+    -   [Best practices to use your knowledge articles with generative AI](https://www.servicenow.com/community/knowledge-management-articles/best-practices-to-use-your-knowledge-articles-with-now-assist/ta-p/2824219) \(ServiceNow Community\)
 -   **4. Perform maintenance audits**
 
     Flag KB articles that have not been updated in a year or more, that have no metadata, are duplicates, or are about to expire.
@@ -61,10 +61,10 @@ The Knowledge Management Overview dashboard is a powerful tool for assessing AI 
 
     -   [Knowledge Management Overview dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/km-overview-dash.md)
     -   [Retire a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/c_RetiredKnowledgeArticles.md)
-    -   [Identify and review duplicate Knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/Now-Assist-identify-and-review-duplicate-articles.md) \(requires Now Assist in Knowledge Management\)
+    -   [Identify and review duplicate Knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/Now-Assist-identify-and-review-duplicate-articles.md) \(requires ServiceNow Otto for Knowledge Management\)
 -   **5. Review top searched queries**
 
-    Identify search queries and articles for optimization, and limit Now Assist Q&amp;A functionality to high-quality, optimized KB articles.
+    Identify search queries and articles for optimization, and limit ServiceNow Otto Q&amp;A functionality to high-quality, optimized KB articles.
 
     Why? This prevents low-value content from surfacing in answers.
 

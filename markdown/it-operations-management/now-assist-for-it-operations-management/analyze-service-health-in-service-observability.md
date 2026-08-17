@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-01-15"
 reading_time_minutes: 4
 keywords: [Generative AI for IT Operations Management, Generative AI for ITOM, Service Observability dashboard analysis, Now Assist panel]
-breadcrumb: [Use generative AI, Now Assist for ITOM, IT Operations Management]
+breadcrumb: [Use generative AI, ServiceNow Otto for ITOM, IT Operations Management]
 ---
 
 # Analyze service health in Service Observability
@@ -23,7 +23,7 @@ The analyze service health skill uses generative AI to analyze all available Ser
 
 When you ask the skill to analyze a service's health, it generates an optimized version of the Service Observability charts for a service, whether or not they are currently displayed. It then analyzes the data, and taking the time period shown into account, detects reports any insights it finds, and analyzes general service health. With these insights on service health, operators can assess service impact, identify root causes, and streamline incident response.
 
-\[Omitted image "so\_NAService.png"\] Alt text: Now Assist found insights on three dashboards.
+\[Omitted image "so\_NAService.png"\] Alt text: ServiceNow Otto found insights on three dashboards.
 
 The skill's results remain available for an hour and don't automatically refresh. You need to rerun the skill to view a new analysis.
 
@@ -73,5 +73,5 @@ Role required: admin, operator
     **Note:** Select the **Copy** icon to copy the analysis, for example to paste it into work notes for an incident or alert.
 
 
-**Parent Topic:**[Use generative AI in Now Assist for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-use.md)
+**Parent Topic:**[Use generative AI in ServiceNow Otto for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-use.md)
 

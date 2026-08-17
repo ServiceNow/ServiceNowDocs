@@ -33,13 +33,17 @@ Role required: admin
 
 1.  In the Bot Interconnect instance, modify the shell topic you created in Virtual Agent:
 
-    1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Virtual Agent** &gt; **Designer**.
+    1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Assistant Designer**.
 
-    2.  Open the shell topic you created in a previous step.
+    2.  Select the **Asset library** tab.
 
-    3.  On the **Flow** tab, select the Bot Interconnect Topic Block.
+    3.  Set the topic discovery type toggle switch to **LLM** or **NLU/Keyword** depending on the type you are debuggins.
 
-    4.  In the **Additional Params \(String\)** field, select the Script icon \[Omitted image "icon-script.png"\] Alt text: Script icon., and then add the following code:
+    4.  Open the shell topic you have created.
+
+    5.  On the **Flow** tab, select the Bot Interconnect Topic Block.
+
+    6.  In the **Additional Params \(String\)** field, select the Script icon \[Omitted image "icon-script.png"\] Alt text: Script icon., and then add the following code:
 
         ```
         (function execute() {
@@ -47,9 +51,9 @@ Role required: admin
         })()
         ```
 
-    5.  Select Save.
+    7.  Select Save.
 
-    6.  Save the topic.
+    8.  Save the topic.
 
 2.  Enable execution context debugging in Workflow Studio.
 

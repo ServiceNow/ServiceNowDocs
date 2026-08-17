@@ -9,7 +9,7 @@ classification: portfolio-planning
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Use, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
+breadcrumb: [Manage demands, Use, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
 ---
 
 # Delete demands
@@ -18,24 +18,28 @@ Delete demands to remove them from Next Experience for Demand Management. Demand
 
 ## Before you begin
 
-Role required: it\_demand\_manager, it\_demand\_user
+Role required: it\_demand\_manager or it\_demand\_user
 
 ## About this task
 
-When you delete a demand, all data related to the demand, such as risks, demand tasks, requirements, and decisions are deleted. However, the stakeholders aren’t deleted from the Stakeholder Register \[dmn\_stakeholders\_register\] table.
+Deleting a demand removes all related data, including risks, demand tasks, requirements, and decisions. Stakeholders remain in the Stakeholder Register \[dmn\_stakeholders\_register\] table.
 
-If a project is already created from a demand, its reference is removed from the project along with the data related to the demand. However, the project isn’t deleted from the database.
+If a project has already been created from a demand, its reference is removed from the project along with the data related to the demand.
 
 ## Procedure
 
-1.  Open a demand from the home page of Next Experience for Demand Management.
+1.  Navigate to **Workspaces** &gt; **Portfolio Planning Workspace**.
 
-    For more information, see [Access demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/access-demands-ppw.md).
+2.  Select the Demands icon \[Omitted image "demands-icon.png"\].
 
-2.  Select **Details** from the L-2 \(level 2\) navigation menu.
+3.  Open a demand from the **List** page.
 
-3.  Select **Delete** from the More Actions option.\[Omitted image "demand-delete.png"\] Alt text: Use the Delete button to delete a demand.
+4.  Select **Details** from the navigation menu.
 
-4.  Select **OK** to delete the demand.
+5.  Select the More Actions option.
+
+6.  Select the More Actions icon \[Omitted image "more-actions-icon.png"\] Alt text: and select **Delete**.
+
+7.  Select **OK**.
 
 

@@ -7,7 +7,7 @@ release: zurich
 topic_type: reference
 last_updated: "2025-10-21"
 reading_time_minutes: 1
-breadcrumb: [Synthetic monitoring reference, Synthetic monitoring, ITOM AIOps, IT Operations Management]
+breadcrumb: [Reference, Landing page, ITOM AIOps, IT Operations Management]
 ---
 
 # Troubleshoot synthetic monitors

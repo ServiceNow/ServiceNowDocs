@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-servicegraphconnectorintegrationforclarotyctd-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -67,23 +67,23 @@ Yokohama
 
 </td><td>
 
--   **[View the class mappings available for the Service Graph Connector](https://servicenow-staging.fluidtopics.net/access?context=sgc-claroty-ctd-classes&family=yokohama&ft:locale=en-US)**
+-   **[View the class mappings available for the Service Graph Connector](https://www.servicenow.com/docs/access?context=sgc-claroty-ctd-classes&family=yokohama&ft:locale=en-US)**
 
 Use the **Claroty CTD SGC Class Mappings** table to view the available class mappings and targeted CMDB classes.
 
--   **[Avoid importing empty rack slots](https://servicenow-staging.fluidtopics.net/access?context=configuring-sgc-claroty-ctd-guided-setup&family=yokohama&ft:locale=en-US)**
+-   **[Avoid importing empty rack slots](https://www.servicenow.com/docs/access?context=configuring-sgc-claroty-ctd-guided-setup&family=yokohama&ft:locale=en-US)**
 
 During import, empty rack slots are removed to avoid importing them into the CMDB.
 
--   **[Capture firmware version of devices](https://servicenow-staging.fluidtopics.net/access?context=sgc-claroty-ctd-classes&family=yokohama&ft:locale=en-US)**
+-   **[Capture firmware version of devices](https://www.servicenow.com/docs/access?context=sgc-claroty-ctd-classes&family=yokohama&ft:locale=en-US)**
 
 Use the Firmware Installation \[cmdb\_firmware\_install\] table to capture the firmware version of your Service Graph Connector Integration for Claroty CTD devices.
 
--   **[Use the ire\_criterion\_attribute in the OT Entity \[cmdb\_ot\_entity\] table](https://servicenow-staging.fluidtopics.net/access?context=sgc-claroty-ctd-classes&family=yokohama&ft:locale=en-US)**
+-   **[Use the ire\_criterion\_attribute in the OT Entity \[cmdb\_ot\_entity\] table](https://www.servicenow.com/docs/access?context=sgc-claroty-ctd-classes&family=yokohama&ft:locale=en-US)**
 
 The ire\_criterion\_attribute acts as a criterion attribute for an OT entity-related entry and helps avoid entity update issues.
 
--   **[Clean up serial number data](https://servicenow-staging.fluidtopics.net/access?context=sgc-claroty-ctd-classes&family=yokohama&ft:locale=en-US)**
+-   **[Clean up serial number data](https://www.servicenow.com/docs/access?context=sgc-claroty-ctd-classes&family=yokohama&ft:locale=en-US)**
 
 Clean up the serial number \[cmdb\_serial\_number\] records imported into the Source \[sys\_object\_source\] table from the Service Graph Connector Integration for Claroty CTD with a fixed script. This script establishes that a null pointer exception doesn't occur when the serial number and MAC address are the same. The script runs automatically when the plugin is upgraded.
 
@@ -202,7 +202,7 @@ Yokohama
 
 </td><td>
 
-Install Service Graph Connector Integration for Claroty CTD by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+Install Service Graph Connector Integration for Claroty CTD by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
 **Note:** Claroty CTD v5.1 is also supported for the Service Graph Connector Integration for Claroty CTD application.
 
@@ -355,7 +355,7 @@ Yokohama
 -   Avoid OT entity update issues by using the new ire\_criterion\_attribute attribute on the OT Entity \[cmdb\_ot\_entity\] table.
 -   Clean the serial record entries from the Source \[sys\_object\_source\] table using a fix script.
 
- See [Service Graph Connector Integration for Claroty CTD](https://servicenow-staging.fluidtopics.net/access?context=sgc-cmdb-integration-claroty-ctd&family=yokohama&ft:locale=en-US) for more information.
+ See [Service Graph Connector Integration for Claroty CTD](https://www.servicenow.com/docs/access?context=sgc-cmdb-integration-claroty-ctd&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 

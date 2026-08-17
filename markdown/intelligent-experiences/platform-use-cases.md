@@ -1,18 +1,18 @@
 ---
 title: Platform agentic workflows
-description: You can use the available Now Assist AI agents Platform agentic workflows to achieve business outcomes with self-executing autonomous AI agents.
+description: You can use the available AI agents Platform agentic workflows to achieve business outcomes with self-executing autonomous AI agents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/platform-use-cases.html
 release: zurich
 topic_type: concept
-last_updated: "2025-09-17"
+last_updated: "2026-07-23"
 reading_time_minutes: 2
-breadcrumb: [Now Assist agentic workflows, Now Assist AI assets, Enable AI experiences]
+breadcrumb: [Agentic workflows, AI assets, Enable AI experiences]
 ---
 
 # Platform agentic workflows
 
-You can use the available Now Assist AI agents Platform agentic workflows to achieve business outcomes with self-executing autonomous AI agents.
+You can use the available AI agents Platform agentic workflows to achieve business outcomes with self-executing autonomous AI agents.
 
 Use the following agentic workflows that are available with ServiceNow AI Platform.
 
@@ -165,8 +165,5 @@ To enable users to access agentic workflows with UI actions, you can open the ag
 
 If you don't see your UI actions after configuring it in AI Agent Studio, ensure that the property **com.glide.agentic\_processes\_view.enabled** is set to `true`.
 
-Looking for an AI agent?
-
--   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/find-ai-agents.md).
--   To find agents that might not be installed on your instance, visit the [AI Agent Marketplace](https://store.servicenow.com/store/ai-marketplace) on the ServiceNow Store.
+There might be AI agents installed on your instance that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/find-ai-agents.md).
 

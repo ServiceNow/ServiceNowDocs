@@ -115,7 +115,7 @@ Employee Slate includes built-in accessibility compliance through the AI-native 
 
     Enhanced employee portal with AI capabilities that continues as an option for customers needing features not yet migrated to Employee Slate, with coexistence options available for organizations requiring both portals.
 
--   **[Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/platform-now-assist-landing.md)**
+-   **[AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/platform-now-assist-landing.md)**
 
     ServiceNow AI assistant providing contextual, bi-directional chat capabilities, agentic catalog experiences, and platform-native notifications when embedded in Employee Slate. Requires migration to off-Glide AI orchestrator for optimal performance.
 

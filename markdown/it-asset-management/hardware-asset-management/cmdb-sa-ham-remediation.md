@@ -9,6 +9,7 @@ classification: hardware-asset-management
 topic_type: concept
 last_updated: "2025-09-02"
 reading_time_minutes: 2
+keywords: [remediation actions panel, HAM data quality issues, KPI details remediation actions, stale CI cleanup, duplicate CI remediation, virtual CI with asset]
 breadcrumb: [Use HAM advisor, Asset and CI management, Explore, Hardware Asset Management, IT Asset Management]
 ---
 
@@ -36,7 +37,7 @@ To open the Remediation actions panel, select a segment or count on a chart in t
 
 ## Available remediation actions
 
-The Remediation actions panel provides relevant suggestions and actions based on the information in the selected chart. For example, if the chart shows CIs that weren't updated recently, the panel suggests reviewing retirement policies.
+The Remediation actions panel provides relevant suggestions and actions based on the information in the selected chart. For example, if the chart shows CIs that weren't updated recently, the panel displays a suggestion to review retirement policies.
 
 The remediation actions are available for the improvement of the following issues:
 
@@ -71,5 +72,9 @@ The remediation actions are available for the improvement of the following issue
 -   **CI and asset state mismatch**
 
     Identify and resolve CIs where the installation status does not align with the corresponding asset state, which can lead to inaccurate asset life cycle reporting.
+
+-   **CIs missing key attributes covered by an SGC**
+
+    Configure the recommended Service Graph Connectors to capture missing attribute data. Recommendations are limited to CI classes directly mapped to each connector and exclude Operational Technology connectors.
 
 

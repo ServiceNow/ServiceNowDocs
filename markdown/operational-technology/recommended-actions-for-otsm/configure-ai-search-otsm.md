@@ -7,7 +7,7 @@ release: zurich
 product: Recommended Actions for OTSM
 classification: recommended-actions-for-otsm
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Configure, Recommended Actions for OTSM, Operational Technology]
 ---

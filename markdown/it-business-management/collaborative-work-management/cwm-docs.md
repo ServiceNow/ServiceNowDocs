@@ -8,15 +8,13 @@ product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 8
+reading_time_minutes: 9
 breadcrumb: [Use, Collaborative Work Management, Strategic Portfolio Management]
 ---
 
 # Collaborative documentation using CWM
 
 Manage all kinds of documentation for work such as meeting notes, project requirements, or technical specifications using rich text Docs with real-time collaboration.
-
-\[Omitted video\] Description: Overview of collaboration within Docs for CWM workspace. Approximately two minutes long.
 
 Docs can be created within a Space, and organized into folders. Within a Space, you can create multiple Docs and within each Doc, you can create unlimited pages to help you effectively organize your information.
 
@@ -80,7 +78,7 @@ Add comments to specific text in documents to collaborate with other users, prov
 
 -   **Comment restrictions**
 
-    Overlapping comments on the same text are not supported—reply to existing threads instead. Comments cannot be added to non-text elements such as images and table cells.
+    Overlapping comments on the same text are not supported—reply to existing threads instead. Comments cannot be added to non-text elements such as images and table cells, empty table cells, or selections that include multiple table cells.
 
 -   **Show or hide highlights**
 
@@ -129,11 +127,11 @@ With the feature of real-time collaboration, edit a Doc page concurrently with m
 
 **Note:** Application performance may degrade with a large number of concurrent editors.
 
-## Draft content using Now Assist for CWM
+## Draft content using ServiceNow Otto for CWM
 
-Generate content with Now Assist for CWM directly in your Docs using custom prompts. In addition, summarize existing sections, elaborate where needed, and refine drafts to help improve your productivity.
+Generate content with ServiceNow Otto for CWM directly in your Docs using custom prompts. In addition, summarize existing sections, elaborate where needed, and refine drafts to help improve your productivity.
 
-You can interact with Now Assist directly in your Doc to create content, add context, or improve existing sections. This helps you draft faster, refine ideas, and keep your work relevant without leaving the page.
+You can interact with ServiceNow Otto directly in your Doc to create content, add context, or improve existing sections. This helps you draft faster, refine ideas, and keep your work relevant without leaving the page.
 
 -   **Work with the content of the whole page**
 
@@ -142,7 +140,7 @@ You can interact with Now Assist directly in your Doc to create content, add con
     -   For Marketing teams: **Create a compelling product launch announcement highlighting the key benefits and emotional appeal for our target audience.**
     -   For Legal teams: **Write a plain-language summary of the privacy policy in this doc, that customers can easily understand.**
     -   For product teams: **Analyze the customer feedback comments in this Doc, group into top 5 themes, and suggest top 3 enhancements for highest impact.**
-    Now Assist uses the context from your Doc page to generate a response.
+    ServiceNow Otto uses the context from your Doc page to generate a response.
 
 -   **Refine, elaborate, or improve the existing content within the page**
 
@@ -150,7 +148,7 @@ You can interact with Now Assist directly in your Doc to create content, add con
 
     -   If you have a list of stakeholders, you can ask **Elaborate on the scope of these roles.**
     -   **Rewrite this in a casual tone.**
-    \[Omitted image "na-inline-open-text.png"\] Alt text: Now Assist inline prompt for selected content on the page.
+    \[Omitted image "na-inline-open-text.png"\] Alt text: Inline prompt for selected content on the page.
 
 -   **Take assistance on a empty page**
 
@@ -160,25 +158,29 @@ You can interact with Now Assist directly in your Doc to create content, add con
     2.  **Write a 3-paragraph blog post explaining why \[industry trend\] is changing how businesses operate.**
     3.  **Generate an outline for the Instagram campaign tasks for a Hackathon initiative.**
 
-        \[Omitted image "na-blank-page-nacm.png"\] Alt text: Creating first draft for a page using Now Assist.
+        \[Omitted image "na-blank-page-nacm.png"\] Alt text: Creating first draft for a page using ServiceNow Otto.
 
 -   **Answer questions in the context of this Doc**
 
-    Whether the content in the Doc is added manually or generated using Now Assist, you can ask questions to find anything in the page's context.
+    Ask questions to find anything in the page's context. This works whether content is added manually or generated using AI.
 
-    For example, if you have a project charter document, you can try asking **What is the total budget of this project and which part is the most expensive?**
+    For example, in a project charter document, you can ask **What is the total budget of this project and which part is the most expensive?**
 
-    \[Omitted image "cwm-nacm-ask-questions.png"\] Alt text: Ask questions in the context of the document. Here, user asks questions on project budget, in the context of a Project Charter document.
+    \[Omitted image "cwm-nacm-ask-questions.png"\] Alt text: Ask questions in the context of the document.
 
 
-## Generate tasks from Docs and add them to Board using Now Assist for CWM
+## Generate tasks from Docs and add them to Board using ServiceNow Otto for CWM
 
-Use the generative AI capabilities of Now Assist to create tasks from the context of your Docs. From the Doc header, select **Create Tasks** and Now Assist generates task recommendations for you and walks you through to add them to the required Board in CWM workspace.
-
-\[Omitted image "cwm-task-generation-now-assist.png"\] Alt text: Automatic task generation from CWM Docs using Now Assist for CWM.
+Use the generative AI capabilities of ServiceNow Otto to create tasks from the context of your Docs. From the Doc header, select **Create Tasks** and ServiceNow Otto generates task recommendations for you and walks you through to add them to the required Board in CWM workspace.
 
 -   **[Create a Doc in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/create-a-doc-in-cwm.md)**  
 Store information related to your tasks, reference users and task records, and collaborate in real-time using Docs in Collaborative Work Management workspace.
+-   **[Manage pages and subpages in CWM Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/manage-pages-and-subpages-in-cwm-docs.md)**  
+Flexibly organize information for your teams and work items by creating, duplicating, and deleting pages and subpages within a Doc in Collaborative Work Management \(CWM\) workspace.
+-   **[Refine content of a Doc page in Collaborative Work Management \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/summarize-doc-now-assist-cwm.md)**  
+Gain insights into the page content by summarizing it or improve content quality by refining it in CWM Docs.
+-   **[Generate and improve Docs content with ServiceNow Otto \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/generate-summarize-and-refine-content-of-docs-with-now-assist.md)**  
+Use ServiceNow Otto within your Docs to generate new content, summarize or expand sections, and refine drafts. Avoid starting Docs from scratch, save time, and keep your content relevant.
 -   **[Add comments to Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/add-comments-to-docs-in-cwm.md)**  
 Add a comment to specific text in a Doc to share feedback or start a discussion without modifying the Doc content.
 -   **[Manage comments in Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/manage-comments-in-cwm-docs.md)**  
@@ -187,8 +189,6 @@ Edit, reply to, or delete comments in Docs to maintain relevant discussions and 
 Toggle comment highlight visibility in Docs to switch between a clean reading view and a markup view.
 -   **[Disable comment notifications in Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/disable-comment-notifications-cwm.md)**  
 Turn off email notifications for comment activities in Docs to manage which comment events you're notified about.
--   **[Manage pages and subpages in CWM Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/manage-pages-and-subpages-in-cwm-docs.md)**  
-Flexibly organize information for your teams and work items by creating, duplicating, and deleting pages and subpages within a Doc in Collaborative Work Management \(CWM\) workspace.
 -   **[Duplicate a Doc in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/duplicate-doc-in-cwm.md)**  
 Save time by duplicate an existing Doc to copy all its pages and content without having to copy the information manually in the Collaborative Work Management workspace.
 -   **[Export a Doc in CWM to a PDF file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/export-a-doc-in-cwm-to-a-pdf-file.md)**  

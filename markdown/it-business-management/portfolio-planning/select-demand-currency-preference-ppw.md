@@ -9,7 +9,7 @@ classification: portfolio-planning
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Multicurrency in demands, Configure, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
+breadcrumb: [Multicurrency in demands, Configure financials for demands, Configure, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
 ---
 
 # Select demand currency preference
@@ -28,15 +28,15 @@ Role required: admin
 
 2.  From the Demand currency setup list, select a currency option.
 
-<table id="choicetable_lc1_qht_dnb"><thead><tr><th align="left" id="d307693e96">
+<table id="choicetable_lc1_qht_dnb"><thead><tr><th align="left" id="d317391e96">
 
 Demand currency preference
 
-</th><th align="left" id="d307693e99">
+</th><th align="left" id="d317391e99">
 
 Currency option
 
-</th></tr></thead><tbody><tr><td id="d307693e105">
+</th></tr></thead><tbody><tr><td id="d317391e105">
 
 **Manage demands using the functional currency**
 
@@ -44,7 +44,7 @@ Currency option
 
 **Follow functional currency**: Manage demands using your organization's functional currency. When you create a project from the demand, the project currency carries over to the Project form. You can change the project currency later.For example, if your functional currency is USD, both demands and projects use USD.
 
-</td></tr><tr><td id="d307693e119">
+</td></tr><tr><td id="d317391e119">
 
 **Manage demands using the same currency as the project currency**
 
@@ -52,7 +52,7 @@ Currency option
 
 **Drive project currency**: Manage demands and projects using the same currency. This currency can be your functional currency or any other currency. For example, to manage demands and projects in GBP, select this option and specify GBP as your demand currency. The **Project Currency** field in the demand form automatically populates with GBP when you save the form.
 
-</td></tr><tr><td id="d307693e135">
+</td></tr><tr><td id="d317391e135">
 
 **Manage demands and projects in different currencies**
 

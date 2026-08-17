@@ -1,18 +1,22 @@
 ---
-title: Now Assist for Operational Technology Manager \(OTM\) release notes
-description: The ServiceNow Now Assist for Operational Technology Manager \(OTM\) application helps streamline processes in the Industrial Workspace related to your Operational Technology \(OT\) device data. Now Assist for Operational Technology Manager \(OTM\) is a new application in the Zurich release.
+title: Operational Technology \(OT\) Manager Foundation release notes
+description: The ServiceNow OT Manager Foundation application helps streamline processes in the Industrial Workspace related to your OT device data. Operational Technology \(OT\) Manager Foundation is a new application in the Zurich release.
 locale: en-US
 release: zurich
 topic_type: reference
-last_updated: "2026-06-23"
+last_updated: "2026-07-20"
 reading_time_minutes: 4
 ---
 
-# Now Assist for Operational Technology Manager \(OTM\) release notes
+# Operational Technology \(OT\) Manager Foundation release notes
 
-The ServiceNow® Now Assist for Operational Technology Manager \(OTM\) application helps streamline processes in the Industrial Workspace related to your Operational Technology \(OT\) device data. Now Assist for Operational Technology Manager \(OTM\) is a new application in the Zurich release.
+The ServiceNow® OT Manager Foundation application helps streamline processes in the Industrial Workspace related to your OT device data. Operational Technology \(OT\) Manager Foundation is a new application in the Zurich release.
 
-## Now Assist for Operational Technology Manager \(OTM\) highlights for the Zurich release
+## Now Assist &gt; ServiceNow Otto announcement
+
+Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+
+## OT Manager Foundation highlights for the Zurich release
 
 [Zurich Patch 11](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-11.md)
 
@@ -28,11 +32,11 @@ The ServiceNow® Now Assist for Operational Technology Manager \(OTM\) applicati
 -   Find OT Configuration Management Database \(CMDB\) records more quickly by using the OT CMDB search function.
 -   Simplify the upload, validation, and import of your OT device data by using the Import OT device spreadsheet into OT CMDB agentic workflow.
 
-See [Now Assist for Operational Technology Manager \(OTM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/operational-technology/now-assist-for-otm-landing.md) for more information.
+See [Operational Technology \(OT\) Manager Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/operational-technology/now-assist-for-otm-landing.md) for more information.
 
-**Important:** Now Assist for Operational Technology Manager \(OTM\) is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+**Important:** OT Manager Foundation is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## Now Assist for Operational Technology Manager \(OTM\) features
+## OT Manager Foundation features
 
 -   **[Now LLM service deprecation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/exploring-large-language-models.md)**
 
@@ -57,9 +61,14 @@ See [Now Assist for Operational Technology Manager \(OTM\)](https://raw.githubus
 
 ## Changed in this release
 
+-   **[Now Assist for OTM was renamed to OT Manager Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/operational-technology/now-assist-for-otm-landing.md)**
+
+    Now Assist for Operational Technology Manager \(OTM\) was renamed to Operational Technology \(OT\) Manager Foundation.
+
+
 -   **[Changes to Now Assist usage measurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/monitoring-now-assist-usage.md)**
 
-    Starting with Zurich Early Access, AI usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
+    Starting with Australia Early Access, AI usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: AI Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
 
 -   **[Some generative AI skills, AI agents, and agentic workflows are turned on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md)**
@@ -70,12 +79,12 @@ See [Now Assist for Operational Technology Manager \(OTM\)](https://raw.githubus
     -   Existing customers who are upgrading \(starting with Australia Early Access\): Any previously unconfigured skill, agent, or agentic workflow is turned on automatically \(the AI asset was never configured and turned on, then turned off again\). Previously configured skills and agentic workflows that were turned on, then off, remain inactive.
 -   **[Role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/aia-role-masking.md)**
 
-    [Role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/aia-role-masking.md) enables users to limit the roles and privileges of agentic workflows during tool execution. Agentic workflows and their AI agents that get installed with Now Assist applications are assigned pre-defined roles. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. Data access settings must also include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/define-sec-controls-aw.md).
+    Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/define-sec-controls-aw.md).
 
 
 ## Activation information
 
-Now Assist for Operational Technology Manager \(OTM\) is a ServiceNow AI Platform feature that is available with activation of the Operational Technology Manager \(com.sn\_ot\_foundation\). For details, see [Install Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/operational-technology/install-operational-technology-manager.md).
+Operational Technology \(OT\) Manager Foundation is a ServiceNow AI Platform feature that is available with activation of the Operational Technology Manager \(com.sn\_ot\_foundation\). For details, see [Install Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/operational-technology/install-operational-technology-manager.md).
 
 ## Plugin information
 
@@ -83,7 +92,7 @@ Now Assist for Operational Technology Manager \(OTM\) is a ServiceNow AI Platfor
 
     The following plugins are new in Zurich:
 
-    Now Assist for Operational Technology Manager \(OTM\) \(com.sn\_otm\_gen\_ai\): Contains the features, AI agents, and agentic workflows for Now Assist for OTM.
+    OT Manager Foundation \(com.sn\_otm\_gen\_ai\): Contains the features, AI agents, and agentic workflows for OT Manager Foundation.
 
 
 ## Accessibility information
@@ -97,7 +106,7 @@ Now Assist for Operational Technology Manager \(OTM\) is a ServiceNow AI Platfor
 
 -   **[Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/operational-technology/operational-technology-manager.md)**
 
-    Using Now Assist for OTM with the Operational Technology Manager, you can efficiently manage your OT device data.
+    Using OT Manager Foundation with the Operational Technology Manager, you can efficiently manage your OT device data.
 
 
 **Parent Topic:**[Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/now-assist-rn-landing.md)

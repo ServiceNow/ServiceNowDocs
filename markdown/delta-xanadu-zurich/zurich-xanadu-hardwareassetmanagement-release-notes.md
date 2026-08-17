@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-hardwareassetmanagement-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 11
 breadcrumb: [Products combined by family]
 ---
@@ -95,6 +95,7 @@ Zurich
     -   sn\_hamp.enable\_shipping\_carrier\_validation\_asn
     -   sn\_hamp.model\_lifecycle\_phase\_order
     -   sn\_hamp.update\_assets\_norm\_model\_name
+-   A new system property, **sn\_itam\_restrict\_asset\_read**, introduced in Zurich Patch 12, controls read access to the Asset \[alm\_asset\] table and its child tables for users with only the snc\_internal role. When set to **true**, these users can only read asset records assigned to them or where they are referenced in fields such as Reserved for, Managed by, or Owned by. Users with any additional role retain full read access. By default, this property is set to **false**.
 
 </td></tr></tbody>
 </table>## New features
@@ -123,11 +124,11 @@ Yokohama
 
 </td><td>
 
--   **[Maintain accurate asset details by creating Asset Attestations](https://servicenow-staging.fluidtopics.net/access?context=asset-attestation-ham&family=yokohama&ft:locale=en-US)**
+-   **[Maintain accurate asset details by creating Asset Attestations](https://www.servicenow.com/docs/access?context=asset-attestation-ham&family=yokohama&ft:locale=en-US)**
 
 Validate whether assets are in use and confirm asset assignment by performing audits through Asset Attestation to verify through confirmation by employees whether they are still using assigned serialized hardware assets.
 
--   **[Hardware Model Normalization for Operational Technology \(OT\) assets](https://servicenow-staging.fluidtopics.net/access?context=hardware-normalization&family=yokohama&ft:locale=en-US)**
+-   **[Hardware Model Normalization for Operational Technology \(OT\) assets](https://www.servicenow.com/docs/access?context=hardware-normalization&family=yokohama&ft:locale=en-US)**
 
 When the OT Asset Management application is installed, standardize your hardware and consumable models with a minimum of one OT asset in addition to the model categories that belong to the opted-in HAM resource categories through the Hardware Model Normalization process. The OT entity flag on the asset indicates whether it's an OT asset.
 
@@ -138,36 +139,36 @@ Zurich
 
 </td><td>
 
--   **[Track asset movement from the receiving bay to an aisle-space in the stockroom](https://servicenow-staging.fluidtopics.net/access?context=managing-inventory-by-putting-away-asset&family=zurich&ft:locale=en-US)**
+-   **[Track asset movement from the receiving bay to an aisle-space in the stockroom](https://www.servicenow.com/docs/access?context=managing-inventory-by-putting-away-asset&family=zurich&ft:locale=en-US)**
 
 Move assets from the receiving bay to their designated aisle and space and improve asset tracking and inventory management by using the Asset put away feature. This task can be performed via the Hardware Asset Workspace or ServiceNow Agent application.
 
--   **[Improve asset data accuracy and usage by tracking and managing unassigned assets through asset attestation](https://servicenow-staging.fluidtopics.net/access?context=asset-attestation-ham&family=zurich&ft:locale=en-US)**
+-   **[Improve asset data accuracy and usage by tracking and managing unassigned assets through asset attestation](https://www.servicenow.com/docs/access?context=asset-attestation-ham&family=zurich&ft:locale=en-US)**
 
 Validate whether assets are in use and confirm asset assignments by initiating the attestation using the Asset Attestation playbook in the Hardware Asset Workspace. Employees can then confirm whether they’re using the assigned serialized hardware assets on the go by using the intuitive Now Mobile app. Reports on open remediation tasks in the Hardware Asset Workspace, generated when employees confirm they don’t have assets, provide actionable insights for asset managers.
 
--   **[Confirm receipt of hardware and consumable assets through the Employee Center portal](https://servicenow-staging.fluidtopics.net/access?context=receive-assets-employee-center&family=zurich&ft:locale=en-US)**
+-   **[Confirm receipt of hardware and consumable assets through the Employee Center portal](https://www.servicenow.com/docs/access?context=receive-assets-employee-center&family=zurich&ft:locale=en-US)**
 
 Enable your employees to acknowledge the receipt of assets that are in transit and reserved for them through the Employee Center portal. When employees confirm that they have received the assets, the **State** and the **Assigned to** fields are updated in real time, minimizing the risk of data errors.
 
--   **[Receive shipment assets at a stockroom in the Hardware Asset Workspace](https://servicenow-staging.fluidtopics.net/access?context=stockroom-receiving-ham&family=zurich&ft:locale=en-US)**
+-   **[Receive shipment assets at a stockroom in the Hardware Asset Workspace](https://www.servicenow.com/docs/access?context=stockroom-receiving-ham&family=zurich&ft:locale=en-US)**
 
 Complete the receive tasks for hardware and consumable assets that you received from any workflow at the stockroom using the unified receiving functionality in the Hardware Asset Workspace. This standardized receiving process reduces the time spent on receiving assets. By requiring each asset to be assigned a unique identiﬁer when received at the stockroom, the quality of asset data also improves.
 
 You can receive assets in bulk by using a template. Additionally, you can view the results and validation comments in the staging table. During this process, the system handles existing assets, creates new ones as needed, and performs comprehensive validations.
 
--   **[Optimize your operations with asset performance reports](https://servicenow-staging.fluidtopics.net/access?context=asset-analytics-view&family=zurich&ft:locale=en-US)**
+-   **[Optimize your operations with asset performance reports](https://www.servicenow.com/docs/access?context=asset-analytics-view&family=zurich&ft:locale=en-US)**
 
 Improve asset availability according to ISO standards by tracking the past performance of assets and getting notified about trends, threshold breaches, or anomalies based on their location, model category, model, or classification.
 
--   **[Monitor supply and demand of assets in a stockroom with detailed inventory reports](https://servicenow-staging.fluidtopics.net/access?context=manage-stockroom-inventory-report-ham&family=zurich&ft:locale=en-US)**
+-   **[Monitor supply and demand of assets in a stockroom with detailed inventory reports](https://www.servicenow.com/docs/access?context=manage-stockroom-inventory-report-ham&family=zurich&ft:locale=en-US)**
 
 Track and manage stockrooms efficiently by evaluating the inventory reports in the Inventory view of the Hardware Asset Workspace. These reports provide the following benefits:
 
     -   Find replacement options for assets that are in use, being repaired, or in maintenance
     -   Quickly identify shortages and align current demand in your stockroom with both current and incoming supply
     -   Analyze the supply to meet open demand across all stockrooms or locations
--   **[Gain expanded insight into the content library information through content dashboard analytics](https://servicenow-staging.fluidtopics.net/access?context=content-lookup-ham&family=zurich&ft:locale=en-US)**
+-   **[Gain expanded insight into the content library information through content dashboard analytics](https://www.servicenow.com/docs/access?context=content-lookup-ham&family=zurich&ft:locale=en-US)**
 
 Gain in-depth information related to various content tables and trends in content change from the enhanced Content Library portal. The introduction of numeric widgets, line graphs, bar charts, and content-specific tabs provides complete visibility to content shipped and analyze content coverage. The expanded search feature with additional filter options enables you to view the records for a particular period or release.
 
@@ -199,7 +200,7 @@ Yokohama
 
 </td><td>
 
--   **[Reflow for Configurable Workspace](https://servicenow-staging.fluidtopics.net/access?context=auto-reflow&family=yokohama&ft:locale=en-US)**
+-   **[Reflow for Configurable Workspace](https://www.servicenow.com/docs/access?context=auto-reflow&family=yokohama&ft:locale=en-US)**
 
 The configurable Hardware Asset Workspace supports reflow, which enables pages and content to be zoomed up to 400% through your browser settings without loss of content or functionality.
 
@@ -210,11 +211,11 @@ Zurich
 
 </td><td>
 
--   **[Shipment asset table label](https://servicenow-staging.fluidtopics.net/access?context=view-hardware-asset-shipments&family=zurich&ft:locale=en-US)**
+-   **[Shipment asset table label](https://www.servicenow.com/docs/access?context=view-hardware-asset-shipments&family=zurich&ft:locale=en-US)**
 
 Starting from the Hardware Asset Management version 14.0.0, the Shipment asset \[sn\_itam\_common\_m2m\_shipment\_asset\] table label has been renamed to Shipment line \[sn\_itam\_common\_m2m\_shipment\_asset\].
 
--   **[Shipment quantity field on the Shipment Details form](https://servicenow-staging.fluidtopics.net/access?context=view-hardware-asset-shipments&family=zurich&ft:locale=en-US)**
+-   **[Shipment quantity field on the Shipment Details form](https://www.servicenow.com/docs/access?context=view-hardware-asset-shipments&family=zurich&ft:locale=en-US)**
 
 With Hardware Asset Management version 14.0.0, a new field **Shipment quantity** has been added to the Shipment Details form. The **Shipment quantity** field displays the quantity of assets shipped for the shipment record.
 
@@ -332,7 +333,7 @@ Yokohama
 
 </td><td>
 
-Install Hardware Asset Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+Install Hardware Asset Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -450,7 +451,7 @@ Accessibility improvements were completed to create a configurable workspace tha
 
 -   **Reflow**
 
-The configurable workspace supports reflow, which enables pages and content to be zoomed up to 400% through your browser settings without loss of content or functionality. Additionally, content can be enlarged without scrolling in two dimensions at a width equivalent to 320 CSS pixels or a height equivalent to 256 CSS pixels. Page layouts are transformed into a vertical, stacked view automatically when users increase browser zoom to 400%. This enhancement helps users with low vision or who have trouble seeing web content in a browser due to monitor size, device type, poor lighting, or other situations. Reflow can be turned off with a system property for instances, experiences, and pages. See [Reflow for Configurable Workspace](https://servicenow-staging.fluidtopics.net/access?context=auto-reflow&family=yokohama&ft:locale=en-US) for details.
+The configurable workspace supports reflow, which enables pages and content to be zoomed up to 400% through your browser settings without loss of content or functionality. Additionally, content can be enlarged without scrolling in two dimensions at a width equivalent to 320 CSS pixels or a height equivalent to 256 CSS pixels. Page layouts are transformed into a vertical, stacked view automatically when users increase browser zoom to 400%. This enhancement helps users with low vision or who have trouble seeing web content in a browser due to monitor size, device type, poor lighting, or other situations. Reflow can be turned off with a system property for instances, experiences, and pages. See [Reflow for Configurable Workspace](https://www.servicenow.com/docs/access?context=auto-reflow&family=yokohama&ft:locale=en-US) for details.
 
 
 </td></tr><tr><td>
@@ -529,7 +530,7 @@ Yokohama
 -   Streamline Hardware Asset Management \(HAM\) licensing for only non-OT hardware assets to access Hardware Asset Management features and workflows.
 -   Benefit from accessibility improvements to create a configurable workspace that supports Web Content Accessibility Guidelines \(WCAG\) 2.1 Level AA conformance.
 
- See [Hardware Asset Management](https://servicenow-staging.fluidtopics.net/access?context=ham-landing-page&family=yokohama&ft:locale=en-US) for more information.
+ See [Hardware Asset Management](https://www.servicenow.com/docs/access?context=ham-landing-page&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -540,10 +541,10 @@ Zurich
 -   Benefit from enhanced Asset Attestation features, including a guided attestation creation process, a mobile-friendly interface for confirming assets, and automated remediation tasks to address non-compliant assets.
 -   Achieve real-time tracking of assets that are in transit and maintain asset data accuracy by enabling employees to confirm receipt of assets through the Employee Center portal.
 -   Receive shipment assets at a stockroom from any workflow through the streamlined and unified receiving process.
--   Track asset movement from the receiving bay to an aisle and space in the stockroom using the Asset put way task.
+-   Track asset movement from the receiving bay to an aisle and space in the stockroom using the Asset put away task.
 -   Evaluate how effectively your assets are functioning and being used through reports based on asset key performance indicators in the Asset analytics view. Also, manage supply and demand in your stockrooms effectively with inventory demand reports.
 
- See [Hardware Asset Management](https://servicenow-staging.fluidtopics.net/access?context=ham-landing-page&family=zurich&ft:locale=en-US) for more information.
+ See [Hardware Asset Management](https://www.servicenow.com/docs/access?context=ham-landing-page&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/rn-combined-intro.md)

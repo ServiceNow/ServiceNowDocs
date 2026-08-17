@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-financialservicesoperationscore-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -75,13 +75,13 @@ Zurich
 
 </td><td>
 
--   **[Payment card application](https://servicenow-staging.fluidtopics.net/access?context=payment-card-application&family=zurich&ft:locale=en-US)**
+-   **[Payment card application](https://www.servicenow.com/docs/access?context=payment-card-application&family=zurich&ft:locale=en-US)**
 
 Store the details of physical payment cards across the entire card life cycle, from issuance to servicing. You can also store tokenized values for sensitive data, such as the primary account number \(PAN\).
 
--   **[Deny-Unless ACL](https://servicenow-staging.fluidtopics.net/access?context=acl-denial-behavior&family=zurich&ft:locale=en-US)**
+-   **[Deny-Unless ACL](https://www.servicenow.com/docs/access?context=acl-denial-behavior&family=zurich&ft:locale=en-US)**
 
-Use Deny-Unless access control lists \(ACLs\) on FSO tables for non-authenticated users, such as users with public roles. With this minimum-security setting, only your authenticated users can read, write, delete, or create actions on these tables. For more information about the Deny-Unless ACLs, see the [Deny-Unless ACL](https://servicenow-staging.fluidtopics.net/access?context=acl-denial-behavior&family=zurich&ft:locale=en-US) topic in the ServiceNow® Platform Security documentation.
+Use Deny-Unless access control lists \(ACLs\) on FSO tables for non-authenticated users, such as users with public roles. With this minimum-security setting, only your authenticated users can read, write, delete, or create actions on these tables. For more information about the Deny-Unless ACLs, see the [Deny-Unless ACL](https://www.servicenow.com/docs/access?context=acl-denial-behavior&family=zurich&ft:locale=en-US) topic in the ServiceNow® Platform Security documentation.
 
 
 </td></tr></tbody>
@@ -103,7 +103,7 @@ Yokohama
 
 </td><td>
 
--   **[Added fields to Claim Base table](https://servicenow-staging.fluidtopics.net/access?context=fso-core-insurance-tables&family=yokohama&ft:locale=en-US)**
+-   **[Added fields to Claim Base table](https://www.servicenow.com/docs/access?context=fso-core-insurance-tables&family=yokohama&ft:locale=en-US)**
 
 Added the following fields to the Claim Base \[sn\_bom\_claim\_base\] table:
 
@@ -117,7 +117,7 @@ Zurich
 
 </td><td>
 
--   **[Added field to Financial transaction table](https://servicenow-staging.fluidtopics.net/access?context=fso-core-banking-tables&family=zurich&ft:locale=en-US)**
+-   **[Added field to Financial transaction table](https://www.servicenow.com/docs/access?context=fso-core-banking-tables&family=zurich&ft:locale=en-US)**
 
 Added the **Payment Card** field to the Financial transaction \[sn\_bom\_transaction\] table as part of the Payment card application.
 
@@ -199,7 +199,7 @@ Yokohama
 
 </td><td>
 
-Install Financial Services Operations Core by requesting it from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+Install Financial Services Operations Core by requesting it from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -346,7 +346,7 @@ Yokohama
 
 The Claim Base \[sn\_bom\_claim\_base\] table has been updated in this release with additional fields. These fields were previously available only to specific applications. They're available in the Claim Base table and can be used across all other claim applications in this release.
 
- See [Financial Services Operations Core](https://servicenow-staging.fluidtopics.net/access?context=financial-services-operations-core-data-model&family=yokohama&ft:locale=en-US) for more information.
+ See [Financial Services Operations Core](https://www.servicenow.com/docs/access?context=financial-services-operations-core-data-model&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -357,7 +357,7 @@ Zurich
 -   Leverage a payment card data model application in FSO workflows, such as disputes, which can be used across an entire card life cycle, from issuance to servicing.
 -   Support multiple payment card types, including credit and debit cards.
 
- See [Payment Card](https://servicenow-staging.fluidtopics.net/access?context=payment-card-application&family=zurich&ft:locale=en-US) for more information.
+ See [Payment Card](https://www.servicenow.com/docs/access?context=payment-card-application&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

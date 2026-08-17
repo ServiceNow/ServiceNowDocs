@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-salesagreementmanagement-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 2
 breadcrumb: [Products combined by family]
 ---
@@ -67,12 +67,12 @@ Yokohama
 
 </td><td>
 
--   **[REST APIs for Sales Agreement Management](https://servicenow-staging.fluidtopics.net/access?context=sales-agreement-mgmt&family=yokohama&ft:locale=en-US)**
+-   **[REST APIs for Sales Agreement Management](https://www.servicenow.com/docs/access?context=sales-agreement-mgmt&family=yokohama&ft:locale=en-US)**
 
 Import, export, and synchronize sales agreements with external systems through REST APIs.
 
 
--   **[Request Tracker on Sales Agreement Management](https://servicenow-staging.fluidtopics.net/access?context=sales-agreement-mgmt&family=yokohama&ft:locale=en-US)**
+-   **[Request Tracker on Sales Agreement Management](https://www.servicenow.com/docs/access?context=sales-agreement-mgmt&family=yokohama&ft:locale=en-US)**
 
 Enable agents to monitor the progress of sales agreement creation from quotes by using the Request Tracker.
 
@@ -339,7 +339,7 @@ Yokohama
 -   REST APIs enable customers to synchronize sales agreements with external systems.
 -   Monitor the progress of sales agreement creation from quotes.
 
- See [Sales Agreement Management](https://servicenow-staging.fluidtopics.net/access?context=sales-agreement-mgmt&family=yokohama&ft:locale=en-US) for more information.
+ See [Sales Agreement Management](https://www.servicenow.com/docs/access?context=sales-agreement-mgmt&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 

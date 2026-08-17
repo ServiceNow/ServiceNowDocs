@@ -44,16 +44,14 @@ Configure and manage the project status and outline of the process you want to a
 Set improvement opportunities to find areas of improvement by which you could optimize a process. You can either select from a list of rules available to you or set your own rules. Based on the rules set by you, you can view your areas of improvement.
 -   **[Analyzing and getting process insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/analyze-get-process-insights.md)**  
 Visualize and analyze your business flows from automated process data, and act on those insights.
--   **[Now Assist for Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/now-assist.md)**  
-Use ServiceNow Now Assist for Process Mining to minimize time, maximize effort, and reduce complexity in project setup, identifying bottlenecks and retrieving process inefficiencies.
+-   **[ServiceNow Otto for Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/now-assist.md)**  
+Use ServiceNow Otto for Process Mining to minimize time, maximize effort, and reduce complexity in project setup, identifying bottlenecks and retrieving process inefficiencies.
 -   **[Creating and tracking improvement initiatives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/initiatives-from-process-optimization.md)**  
 View, create, and associate improvement initiatives from within the Process Mining application.
 -   **[Inflow and outflow analysis: node star diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/node-diagram.md)**  
 View the process graph as a node star diagram in the Process Map component on dashboards. The node star diagram explicitly displays the activities that are coming into the selected node and the activities that are going out of the selected node.
 -   **[Viewing scheduled tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/viewing-scheduled-tasks.md)**  
 From the **Scheduled Tasks** panel, view statuses and access the results of on-demand scheduled mining tasks, such as a requested cluster analysis or applied filter view.
--   **[Working with external datasets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/external-dataset.md)**  
-Use the data available outside of ServiceNow® environment in Process Mining to optimize your processes and solve business problems. To use external datasets, you must first import them into ServiceNow® environment.
 -   **[Share a Process Mining project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/share-project.md)**  
 Share a project so that other have access to the data, and enable a process owner to analyze further.
 -   **[Refresh project data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/extract-project.md)**  

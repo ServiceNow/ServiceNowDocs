@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-applicationmanager-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 3
+last_updated: "2026-08-17"
+reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
 
@@ -38,7 +38,7 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+Application Manager is active by default on instances on the Yokohama release. Upgrade your instance to Yokohama patch 11 or later to use the latest features. For information about upgrading your ServiceNow AI Platform instance, see [Prepare your upgrade](https://www.servicenow.com/docs/access?context=rn-prepare-landing-page&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -46,7 +46,7 @@ Zurich
 
 </td><td>
 
-Application Manager is active by default on instances on the Zurich release. Upgrade your instance to Zurich patch 4 or later to use the latest features. For information about upgrading your ServiceNow AI Platform instance, see [Prepare your upgrade](https://servicenow-staging.fluidtopics.net/access?context=rn-prepare-landing-page&family=zurich&ft:locale=en-US).
+Application Manager is active by default on instances on the Zurich release. Upgrade your instance to Zurich patch 4 or later to use the latest features. For information about upgrading your ServiceNow AI Platform instance, see [Prepare your upgrade](https://www.servicenow.com/docs/access?context=rn-prepare-landing-page&family=zurich&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## New features
@@ -67,7 +67,16 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+Yokohama patch 11
+
+-   **[Now Assist suites for version compatibility](https://www.servicenow.com/docs/access?context=now-assist-app-mgr&family=yokohama&ft:locale=en-US)**
+
+Use the Application Manager to install and update Now Assist applications with suites of compatible application versions. Now Assist suites help verify that new Now Assist applications and versions remain compatible with the ones already installed to your instance.
+
+-   **[Application state indicators](https://www.servicenow.com/docs/access?context=app-mgr-state-indicators&family=yokohama&ft:locale=en-US)**
+
+Review information about any applicable installation considerations, requirements, and blockers in the header of application details.
+
 
 </td></tr><tr><td>
 
@@ -77,11 +86,11 @@ Zurich
 
 Zurich patch 4
 
--   **[Now Assist suites for version compatibility](https://servicenow-staging.fluidtopics.net/access?context=now-assist-app-mgr&family=zurich&ft:locale=en-US)**
+-   **[Now Assist suites for version compatibility](https://www.servicenow.com/docs/access?context=now-assist-app-mgr&family=zurich&ft:locale=en-US)**
 
 Use the Application Manager to install and update Now Assist applications with suites of compatible application versions. Now Assist suites help verify that new Now Assist applications and versions remain compatible with the ones already installed to your instance.
 
--   **[Application state indicators](https://servicenow-staging.fluidtopics.net/access?context=app-mgr-state-indicators&family=zurich&ft:locale=en-US)**
+-   **[Application state indicators](https://www.servicenow.com/docs/access?context=app-mgr-state-indicators&family=zurich&ft:locale=en-US)**
 
 Review information about any applicable installation considerations, requirements, and blockers in the header of application details.
 
@@ -105,7 +114,10 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+-   **[Unlicensed application information](https://www.servicenow.com/docs/access?context=available-for-you-app-mgr&family=yokohama&ft:locale=en-US)**
+
+In addition to details about applications that are already licensed, the "Available for you" tab of the Application Manager now includes information about applications that haven't been procured from the ServiceNow Store yet.
+
 
 </td></tr><tr><td>
 
@@ -113,7 +125,7 @@ Zurich
 
 </td><td>
 
--   **[Unlicensed application information](https://servicenow-staging.fluidtopics.net/access?context=available-for-you-app-mgr&family=zurich&ft:locale=en-US)**
+-   **[Unlicensed application information](https://www.servicenow.com/docs/access?context=available-for-you-app-mgr&family=zurich&ft:locale=en-US)**
 
 In addition to details about applications that are already licensed, the "Available for you" tab of the Application Manager now includes information about applications that haven't been procured from the ServiceNow Store yet.
 
@@ -195,7 +207,7 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+Application Manager is a ServiceNow AI Platform feature that is active by default.
 
 </td></tr><tr><td>
 
@@ -340,7 +352,13 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+Yokohama patch 11
+
+-   Reduce potential runtime errors by installing and updating Now Assist applications with suites of interdependent versions.
+-   View all ServiceNow Store applications that are licensed or available for procurement from the **Available for you** tab.
+-   Gain insights about application installation requirements and blockers with application state indicators.
+
+ See [Application Manager](https://www.servicenow.com/docs/access?context=application-manager&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -354,7 +372,7 @@ Zurich patch 4
 -   View all ServiceNow Store applications that are licensed or available for procurement from the **Available for you** tab.
 -   Gain insights about application installation requirements and blockers with application state indicators.
 
- See [Application Manager](https://servicenow-staging.fluidtopics.net/access?context=application-manager&family=zurich&ft:locale=en-US) for more information.
+ See [Application Manager](https://www.servicenow.com/docs/access?context=application-manager&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

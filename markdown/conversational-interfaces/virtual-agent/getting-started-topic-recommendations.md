@@ -30,7 +30,7 @@ Each analysis report is based on the following:
 -   The field to analyze: A selected field \(with a string data type\) in the data source table to analyze. For example, the **Short description** field.
 -   Taxonomy: The business application that includes the data sets. When you install ITSM Virtual Agent Conversations, the Incident and Request data sets are installed by default. As additional data sets for applications become available, the data sets are displayed as a taxonomy on the page after they’re installed on an instance.
 
-You can also add conditions to your analysis reports and configure them to run on a schedule. When new recommendations are available, a notification appears in the Virtual Agent Designer Topics page.
+You can also add conditions to your analysis reports and configure them to run on a schedule. When new recommendations are available, a notification appears in the Assistant Designer Asset library Topics page.
 
 Configure analysis reports for Topic Recommendations in Virtual Agent settings. For details, see [Configure analysis reports for Topic Recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/define-tr-settings.md).
 
@@ -52,11 +52,11 @@ Results are sorted into the following groups:
 
 -   Topics that Virtual Agent can handle: Recommendations in this group can be addressed with a pre-built topic.
 
-    When you add this type of recommendation to Virtual Agent, the matched pre-built topic is duplicated in your instance. You can then modify, test, and publish the added topic using Virtual Agent Designer.
+    When you add this type of recommendation to Virtual Agent, the matched pre-built topic is duplicated in your instance. You can then modify, test, and publish the added topic using Assistant Designer Asset library.
 
 -   User intents that need topic flows: Recommendations in this group match a ServiceNow NLU intent.
 
-    When you add this type of recommendation to Virtual Agent, an empty topic is created and mapped to the matched intent in the model that you specify. You can then open the topic in Virtual Agent Designer and create a flow for the new topic.
+    When you add this type of recommendation to Virtual Agent, an empty topic is created and mapped to the matched intent in the model that you specify. You can then open the topic in Assistant Designer Asset library and create a flow for the new topic.
 
 
 The results are displayed in descending order of matches to your data source. The top 20 intent matches are displayed. If there are more than 20 intents, you can view them in NLU Workbench.

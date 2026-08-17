@@ -1,5 +1,5 @@
 ---
-title: Now Assist for Software Asset Management \(SAM\) AI agent collection to create software reclamation rule
+title: ServiceNow Otto for Software Asset Management \(SAM\) AI agent collection to create software reclamation rule
 description: Use the Create software reclamation rule agentic workflow to automatically create reclamation rules to aggregate usage records and to identify unused software products that lack reclamation rules but are viable candidates.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/now-assist-for-software-asset-management-sam/now-assist-sam-create-software-reclamation-rule-workflow.html
@@ -9,14 +9,14 @@ classification: now-assist-for-software-asset-management-sam
 topic_type: concept
 last_updated: "2025-08-07"
 reading_time_minutes: 3
-breadcrumb: [Use agentic workflows, Now Assist for Software Asset Management \(SAM\), Software Asset Management, IT Asset Management]
+breadcrumb: [Use agentic workflows, ServiceNow Otto for Software Asset Management \(SAM\), Software Asset Management, IT Asset Management]
 ---
 
-# Now Assist for Software Asset Management \(SAM\) AI agent collection to create software reclamation rule
+# ServiceNow Otto for Software Asset Management \(SAM\) AI agent collection to create software reclamation rule
 
 Use the Create software reclamation rule agentic workflow to automatically create reclamation rules to aggregate usage records and to identify unused software products that lack reclamation rules but are viable candidates.
 
-**Important:** This agentic workflow is turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This agentic workflow is turned on by default. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 ## Create software reclamation rule overview
 
@@ -26,7 +26,7 @@ Use the Create software reclamation rule agentic workflow to streamline and auto
 
 Roles required: sam\_admin.
 
-[Role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/aia-role-masking.md) enables users to limit the roles and privileges of agentic workflows during tool execution. Agentic workflows and their AI agents that get installed with Now Assist applications are assigned pre-defined roles. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. Data access settings must also include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/define-sec-controls-aw.md).
+Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/define-sec-controls-aw.md).
 
 ## Create software reclamation rule agentic workflow
 
@@ -58,11 +58,11 @@ License operations page
 
 1.  Navigate to the Activity center.
 2.  Select **suggestions** in the **Reclamation rules** box in the Activity center.
-3.  Select the sparkle icon on the top-right side of the workspace to open the Now Assist panel.
+3.  Select the Otto icon \[Omitted image "icon-otto-outline-24.svg"\] Alt text: on the top-right side of the workspace to open the ServiceNow Otto panel.
 
-If the Now Assist panel is already open, select the hamburger icon.
+If the panel is already open, select the hamburger icon.
 
-4.  Select **Create reclamation rule** in the Active section the Now Assist panel.
+4.  Select **Create reclamation rule** in the Active section the panel.
 5.  Select a product from a list of products that need reclamation rules and then select **Submit**.
 
 The agentic workflow is initiated.
@@ -73,9 +73,9 @@ The agentic workflow is initiated.
 1.  Select a product for the specific publisher.
 2.  Select the Removal candidates tab.
 3.  Select **Create reclamation rule**.
-4.  Select the sparkle icon on the top-right side of the workspace to open the Now Assist panel.
+4.  Select the Otto icon \[Omitted image "icon-otto-outline-24.svg"\] Alt text: on the top-right side of the workspace to open the Otto panel.
 
-If the Now Assist panel is already open, select the hamburger icon.
+If the panel is already open, select the hamburger icon.
 
 The agentic workflow is initiated.
 
@@ -84,9 +84,9 @@ The agentic workflow is initiated.
 
 1.  Navigate to **Administration** &gt; **Reclamation Rules**.
 2.  Select **Create reclamation rule**
-3.  Select the sparkle icon on the top-right side of the workspace to open the Now Assist panel.
+3.  Select the Otto icon \[Omitted image "icon-otto-outline-24.svg"\] Alt text:on the top-right side of the workspace to open the panel.
 
-If the Now Assist panel is already open, select the hamburger icon.
+If the panel is already open, select the hamburger icon.
 
 4.  Select a product from a list of products that need reclamation rules and then select **Submit**.
 
@@ -102,7 +102,7 @@ The agentic workflow is initiated.
 |--------|-------------|
 |Software reclamation rule creation AI agent|Retrieves reclamation rule suggestions, analyzes the license utilization, and generates a reclamation rule for a software product.|
 
-**Important:** This AI agent is turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This AI agent is turned on by default. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
-**Parent Topic:**[Using agentic workflows in Now Assist for SAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/now-assist-for-software-asset-management-sam/using-now-assist-sam-ai-agents-usecases.md)
+**Parent Topic:**[Using agentic workflows in ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/now-assist-for-software-asset-management-sam/using-now-assist-sam-ai-agents-usecases.md)
 

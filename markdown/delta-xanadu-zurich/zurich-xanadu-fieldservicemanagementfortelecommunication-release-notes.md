@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-fieldservicemanagementfortelecommunication-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -75,7 +75,7 @@ Xanadu
 
 </td><td>
 
--   **[Managing the appointments for telecommunication services](https://servicenow-staging.fluidtopics.net/access?context=manage-appointment-telecommunication-service&family=xanadu&ft:locale=en-US)**
+-   **[Managing the appointments for telecommunication services](https://www.servicenow.com/docs/access?context=manage-appointment-telecommunication-service&family=xanadu&ft:locale=en-US)**
 
 Create, reschedule, get, list, and cancel appointments from your system for the connectivity-related field services. You can book an appointment on an existing work order in the Field Service Management application from an external system using Appointment Open APIs.
 
@@ -94,7 +94,7 @@ Zurich
 
 </td><td>
 
--   **[Manage work orders](https://servicenow-staging.fluidtopics.net/access?context=managing-work-order-telecommunication-service&family=zurich&ft:locale=en-US)**
+-   **[Manage work orders](https://www.servicenow.com/docs/access?context=managing-work-order-telecommunication-service&family=zurich&ft:locale=en-US)**
 
 Manage the work orders for field services to support the installation, activation, and site assessments that are needed for connectivity services. This feature supports the POST, PATCH, GET, LIST, and DELETE operations for work orders via the TMF 697 Open API.
 
@@ -416,7 +416,7 @@ Xanadu
 
 Create and manage the appointments for the telecommunication field services.
 
- See [Field Service Management for Telecommunications](https://servicenow-staging.fluidtopics.net/access?context=field-service-management-telecommunications&family=xanadu&ft:locale=en-US) for more information.
+ See [Field Service Management for Telecommunications](https://www.servicenow.com/docs/access?context=field-service-management-telecommunications&family=xanadu&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -434,7 +434,7 @@ Zurich
 
 Manage your work order using the TMF 697 Open API.
 
- See [Field Service Management for Telecommunications](https://servicenow-staging.fluidtopics.net/access?context=field-service-management-telecommunications&family=zurich&ft:locale=en-US) for more information.
+ See [Field Service Management for Telecommunications](https://www.servicenow.com/docs/access?context=field-service-management-telecommunications&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/rn-combined-intro.md)

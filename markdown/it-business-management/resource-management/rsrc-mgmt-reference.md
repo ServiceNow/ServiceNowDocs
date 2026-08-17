@@ -23,7 +23,7 @@ Field descriptions for the resource plan form fields.
 -   **[Resource assignment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/resource-assignment-form.md)**  
 Description for the resource assignment form fields.
 -   **[Resource Plan related links and lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/rsrc-plan-rltd-links-lists.md)**  
-Use the resource plan related links and list to clone the resource plan details, view resource workbench, update cost plans, recalculate resource costs, or work on the modifying the request allocations.
+Use the resource plan related links and list to clone the resource plan details. You can also view resource workbench, update cost plans, recalculate resource costs, or modify the request allocations.
 -   **[Resource form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/rsrc-form.md)**  
 Use the resource form to create an operational resource plans.
 -   **[Extend resource plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/extnd-rsrc-plan.md)**  

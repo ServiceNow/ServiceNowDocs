@@ -50,7 +50,7 @@ Resolution
 
 </th></tr></thead><tbody><tr><td>
 
-Now Assist panel not visible
+ServiceNow Otto panel not visible
 
 </td><td>
 
@@ -125,7 +125,7 @@ Out of prompts
 </td><td>
 
 -   Quick check: Your remaining prompt count for the current 30-day cycle.
--   Try: Wait for the cycle to reset, or upgrade to Now Assist for Creator. Plan approvals do not count against your prompt allotment; only submitted prompts do.
+-   Try: Wait for the cycle to reset, or upgrade to ServiceNow Otto for Creator. Plan approvals do not count against your prompt allotment; only submitted prompts do.
 -   If still failing, capture: Your entitlement state and the cycle reset date.
 
 </td></tr><tr><td>
@@ -150,7 +150,7 @@ Unsupported configuration
 
 </td></tr><tr><td>
 
-Missing dependencies \(IDE\)
+Missing dependencies \(ServiceNow IDE\)
 
 </td><td>
 

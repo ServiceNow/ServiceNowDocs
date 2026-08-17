@@ -91,9 +91,9 @@ When a contract request is initiated, the configured fields are automatically po
 
 [Auto-populate the start date and end date for contract requests]()
 
-[Activate a system property to generate a certificate of completion]()
-
 [Enable signatory roles]()
+
+[Activate a system property to generate a certificate of completion]()
 
 [Enable users to view email details in activity stream]()
 

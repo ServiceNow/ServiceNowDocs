@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-performanceanalyticsitsmdashboards-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -75,9 +75,9 @@ Xanadu
 
 </td><td>
 
--   **Next Experience [Legacy: IT Executive dashboard](https://servicenow-staging.fluidtopics.net/access?context=it-executive-dashboard&family=xanadu&ft:locale=en-US)**
+-   **Next Experience [Legacy: IT Executive dashboard](https://www.servicenow.com/docs/access?context=it-executive-dashboard&family=xanadu&ft:locale=en-US)**
 
-Get insights into the IT Service Management \(ITSM\) data using the ITSM Success Dashboard. This dashboard provides metrics for executives and managers to take informed decisions. Agents can use the [Service Operations Workspace for ITSM](https://servicenow-staging.fluidtopics.net/access?context=sow-landing-page&family=xanadu&ft:locale=en-US) Agent dashboard to get information about their work. These dashboards replace the existing Performance Analytics dashboards.
+Get insights into the IT Service Management \(ITSM\) data using the ITSM Success Dashboard. This dashboard provides metrics for executives and managers to take informed decisions. Agents can use the [Service Operations Workspace for ITSM](https://www.servicenow.com/docs/access?context=sow-landing-page&family=xanadu&ft:locale=en-US) Agent dashboard to get information about their work. These dashboards replace the existing Performance Analytics dashboards.
 
 
 </td></tr><tr><td>
@@ -413,7 +413,7 @@ Xanadu
 
 Experience the enhanced Performance Analytics ITSM dashboards in the Xanadu release.
 
- See [Legacy: Performance Analytics ITSM Dashboards](https://servicenow-staging.fluidtopics.net/access?context=itsm-dashboards-content-pack&family=xanadu&ft:locale=en-US) for more information.
+ See [Legacy: Performance Analytics ITSM Dashboards](https://www.servicenow.com/docs/access?context=itsm-dashboards-content-pack&family=xanadu&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 

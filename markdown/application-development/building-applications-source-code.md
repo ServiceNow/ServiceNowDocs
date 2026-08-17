@@ -135,11 +135,11 @@ Full support
 
 </td></tr><tr><td>
 
-Now Assist for Code
+ServiceNow Otto for Code
 
 </td><td>
 
-Code auto-complete support for scripts.For information about activation, see [Now Assist for Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/now-assist-code-landing.md).
+Code auto-complete support for scripts.For information about activation, see [ServiceNow Otto for Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/now-assist-code-landing.md).
 
 </td><td>
 

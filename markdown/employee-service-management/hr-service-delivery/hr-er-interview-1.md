@@ -98,15 +98,15 @@ Role required: sn\_interview\_temp.admin
 
 3.  Fill in the form or make edits.
 
-<table id="choicetable_lzw_sjn_r4b"><thead><tr><th align="left" id="d304936e444">
+<table id="choicetable_lzw_sjn_r4b"><thead><tr><th align="left" id="d304997e444">
 
 Field
 
-</th><th align="left" id="d304936e447">
+</th><th align="left" id="d304997e447">
 
 Value
 
-</th></tr></thead><tbody><tr><td id="d304936e453">
+</th></tr></thead><tbody><tr><td id="d304997e453">
 
 **Active**
 
@@ -114,7 +114,7 @@ Value
 
 Option for enabling the **Interview Question Template** and make it available.
 
-</td></tr><tr><td id="d304936e465">
+</td></tr><tr><td id="d304997e465">
 
 **Name**
 
@@ -122,7 +122,7 @@ Option for enabling the **Interview Question Template** and make it available.
 
 The name that identifies the interview question template.
 
-</td></tr><tr><td id="d304936e474">
+</td></tr><tr><td id="d304997e474">
 
 **Application**
 
@@ -130,7 +130,7 @@ The name that identifies the interview question template.
 
 The application the interview question template belongs to.**Note:** The application that appears is dependent on your current application scope. For more information, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/c_ApplicationScope.md).
 
-</td></tr><tr><td id="d304936e490">
+</td></tr><tr><td id="d304997e490">
 
 **Table**
 
@@ -138,7 +138,7 @@ The application the interview question template belongs to.**Note:** The applica
 
 Name of the table the interview question template is associated with.**Note:** To only show interview question templates for ER interview records, select the Interview \(sn\_er\_interview\) table. If you leave this field blank, the interview template is available globally \(any tables that have been configured to use interview templates also have access\). Currently in the base system, only Employee Relations interviews are set up to access.
 
-</td></tr><tr><td id="d304936e503">
+</td></tr><tr><td id="d304997e503">
 
 **Question template body**
 

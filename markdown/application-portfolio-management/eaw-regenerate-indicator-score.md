@@ -1,6 +1,6 @@
 ---
 title: Regenerate application indicator scores on-demand in Enterprise Architecture Workspace
-description: You can update application indicator scores on-demand, to assess the application across various dimensions such as cost, quality, technical risk, business value, to gather real-time insights into the performance of applications and take immediate action, if necessary.
+description: You can update application indicator scores on-demand to assess applications across dimensions such as cost, quality, technical risk, and business value. This provides real-time insights into application performance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-regenerate-indicator-score.html
 release: zurich
@@ -12,7 +12,7 @@ breadcrumb: [Working with indicators, Working with the Setup page, Manage, Enter
 
 # Regenerate application indicator scores on-demand in Enterprise Architecture Workspace
 
-You can update application indicator scores on-demand, to assess the application across various dimensions such as cost, quality, technical risk, business value, to gather real-time insights into the performance of applications and take immediate action, if necessary.
+You can update application indicator scores on-demand to assess applications across dimensions such as cost, quality, technical risk, and business value. This provides real-time insights into application performance.
 
 ## Before you begin
 
@@ -20,7 +20,7 @@ Role required: sn\_apm.apm\_admin
 
 ## About this task
 
-On-demand generation of indicator scores makes sure that the assessment reflects the most recent state of the application and is useful when immediate feedback on application performance is required.
+On-demand generation of indicator scores makes sure that the assessment reflects the most recent state of the application. This is useful when immediate feedback on application performance is required.
 
 ## Procedure
 

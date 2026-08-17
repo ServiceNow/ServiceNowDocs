@@ -8,8 +8,8 @@ product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
 topic_type: concept
 last_updated: "2026-06-06"
-reading_time_minutes: 14
-breadcrumb: [Analyzing assistants, Now Assist in Virtual Agent, Conversational Interfaces]
+reading_time_minutes: 15
+breadcrumb: [Analyzing assistants, ServiceNow Otto for Virtual Agent, Conversational Interfaces]
 ---
 
 # Voice page in assistant analytics
@@ -25,7 +25,7 @@ You can filter the data on all tabs using the following options:
 -   Filter by voice assistant: View metrics for specific voice assistants.
 -   Filter by language: View metrics by conversation language, such as English, German, Spanish, and so on.
 -   Filter by communication channel type: View metrics by channel, such as phone, mobile app - iOS, mobile app - Android, or web browser.
--   Filter by date range: View metrics for a specific time period.
+-   Filter by date range: View metrics for a predefined period, such as last 7 days or last 30 days, or select a custom start and end date using the date picker.
 
 Scorecard widgets display a trend indicator below the metric value, showing the change in value compared to the equivalent previous period. The indicator includes the absolute change, the percentage change, and the comparison date range.
 
@@ -126,7 +126,7 @@ The **Performance** tab shows tool execution metrics, authentication performance
 
 -   **Execution count by tool type**
 
-    This area of the dashboard shows the number of tool executions categorised by type, including flow actions and RAG-based search, for the selected date range. Use this metric to understand which tools are most frequently invoked during voice conversations. See  for information on tool types.
+    This area of the dashboard shows the number of tool executions categorised by type, including flow actions and RAG-based search, for the selected date range. Use this metric to understand which tools are most frequently invoked during voice conversations. See [Add tools and information to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/add-tool-aia.md) for information on tool types.
 
     \[Omitted image "aiv-execution-count-by-tool-type.png"\] Alt text: Donut chart showing 22 total tool executions. Flow Action accounts for 91% \(20 executions\) and Search Retriever accounts for 9% \(2 executions\).
 
@@ -250,7 +250,7 @@ The **Insights** tab shows conversation outcome data and key sentiment signals m
 
 ## Assist consumption tab
 
-**Note:** The data on this tab is for informational purposes only and should not be relied upon as a definitive statement of your Now Assist usage for billing purposes.
+**Note:** The data on this tab is for informational purposes only and should not be relied upon as a definitive statement of your AI usage for billing purposes.
 
 The **Assist consumption** tab shows AI agent assist usage metrics for the selected date range. An assist is recorded each time an AI voice agent completes an action during a conversation. Assists are categorised into three tiers based on the number of actions taken by the voice agent: Small, Medium, and Large.
 

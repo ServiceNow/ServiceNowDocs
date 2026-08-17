@@ -172,8 +172,8 @@ Amount in **Planned hours** multiplied by the hourly rate of the specified user 
 
 -   If the **Rate override** option is selected, the hourly rate specified in the **Resource rate** field is used.
 -   If a [rate model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/rate-model/rate-model.md) is populated on the project or demand to which the resource plan is associated, the hourly rate is derived from the rate model.
--   If the resource plan is assigned to a specific user and the time sheet policy of the user is set for multiple rate types, the planned cost is determined using the labor rate card with the default rate type. If the default rate type is inactive, the system rate is used to determine the planned cost.
--   If the resource plan is assigned to a specific user and the time sheet policy of the user is not set for multiple rate types, the planned cost is determined using the labor rate card with no rate type. Otherwise, the system rate is used.
+-   If the resource plan is assigned to a specific user and the time sheet policy of the user is set for multiple rate types. In this case, the planned cost is determined using the labor rate card with the default rate type. If the default rate type is inactive, the system rate is used to determine the planned cost.
+-   If the resource plan is assigned to a specific user and the time sheet policy of the user is not set for multiple rate types. In this case, the planned cost is determined using the labor rate card with no rate type. Otherwise, the system rate is used.
 -   If the hourly rate is in non-functional currency, budget reference rates are used.
 
 **Note:** Setting up rates for resources would provide more accurate forecast and plan costs for resource plans.
@@ -186,7 +186,7 @@ Planned cost in demand currency
 
 </td><td>
 
-Planned cost of a resource plan associated to a demand or demand task in the demand currency when the PPM Standard Multicurrency \(com.snc.ppm\_multicurrency\) plugin is activated and the Demand Currency view is enabled. The Planned cost in demand currency value is derived by multiplying planned hours with the hourly rate of the specified user or group resource, and then converting the result to the demand currency based on the budget reference rates.
+Planned cost of a resource plan associated to a demand or demand task in the demand currency. This field is shown when the PPM Standard Multicurrency \(com.snc.ppm\_multicurrency\) plugin is activated and the Demand Currency view is enabled. The Planned cost in demand currency value is derived by multiplying planned hours with the hourly rate of the specified user or group resource. The result is then converted to the demand currency based on the budget reference rates.
 
 </td></tr><tr><td>
 
@@ -194,7 +194,7 @@ Planned cost in project currency
 
 </td><td>
 
-Planned cost of a resource plan associated to a project or project task in the project currency when the PPM Standard Multicurrency \(com.snc.ppm\_multicurrency\) plugin is activated and the Project Currency view is enabled. The Planned cost in project currency value is derived by multiplying planned hours with the hourly rate of the specified user or group resource, and then converting the result to the project currency based on the budget reference rates.
+Planned cost of a resource plan associated to a project or project task in the project currency. This value applies when the PPM Standard Multicurrency \(com.snc.ppm\_multicurrency\) plugin is activated and the Project Currency view is enabled. The Planned cost in project currency value is derived by multiplying planned hours with the hourly rate of the specified user or group resource. The result is then converted to the project currency based on the budget reference rates.
 
 </td></tr><tr><td>
 
@@ -213,7 +213,7 @@ Confirmed/Allocated cost in demand currency
 
 </td><td>
 
-Confirmed or allocated cost of a resource plan associated to a demand or demand task in the demand currency when the PPM Standard Multicurrency \(com.snc.ppm\_multicurrency\) plugin is activated and the Demand Currency view is enabled. The Confirmed/Allocated cost in demand currency value is derived by multiplying the confirmed or allocated hours with the hourly rate of the confirmed or allocated resources, and then converting the result to the demand currency based on the budget reference rates.
+Confirmed or allocated cost of a resource plan associated to a demand or demand task in the demand currency. This value applies when the PPM Standard Multicurrency \(com.snc.ppm\_multicurrency\) plugin is activated and the Demand Currency view is enabled. The Confirmed/Allocated cost in demand currency value is derived by multiplying the confirmed or allocated hours with the hourly rate of the confirmed or allocated resources. The result is then converted to the demand currency based on the budget reference rates.
 
 </td></tr><tr><td>
 
@@ -221,7 +221,7 @@ Confirmed/Allocated cost in project currency
 
 </td><td>
 
-Confirmed or allocated cost of a resource plan associated to a project or project task in the project currency when the PPM Standard Multicurrency \(com.snc.ppm\_multicurrency\) plugin is activated and the Project Currency view is enabled. The Confirmed/Allocated cost in project currency value is derived by multiplying the confirmed or allocated hours with the hourly rate of the confirmed or allocated resources, and then converting the result to the project currency based on the budget reference rates.
+Confirmed or allocated cost of a resource plan associated to a project or project task in the project currency. This value applies when the PPM Standard Multicurrency \(com.snc.ppm\_multicurrency\) plugin is activated and the Project Currency view is enabled. The Confirmed/Allocated cost in project currency value is derived by multiplying the confirmed or allocated hours with the hourly rate of the confirmed or allocated resources. The result is then converted to the project currency based on the budget reference rates.
 
 </td></tr><tr><td>
 
@@ -233,7 +233,7 @@ Based on the same time cards used for the Actual hours, the actual cost is calcu
 
 -   If the **Rate override** option is selected, the hourly rate specified in the **Resource rate** field is used.
 -   If a rate model is populated on the project or demand to which the resource plan is associated, the hourly rate is derived from the rate model.
--   If the time sheet policy of a user is set for multiple rate types, the actual cost is determined using the labor rate card with the default rate type.
+-   If the time sheet policy of a user is set for multiple rate types. In this case, the actual cost is determined using the labor rate card with the default rate type.
 -   If the default rate type is inactive, the system rate is used to determine the actual cost.
 -   If the time sheet policy of a user is set for multiple rate types, the actual cost is determined using the labor rate card with no rate type. Otherwise, the system rate is used.
 
@@ -243,7 +243,7 @@ Actual cost in demand currency
 
 </td><td>
 
-Actual cost of a resource plan associated to demand or demand task in the demand currency when the PPM Standard Multicurrency \(com.snc.ppm\_multicurrency\) plugin is activated and the Demand Currency view is enabled. The Actual cost in demand currency value is derived by multiplying the hourly rate of each user with the hours worked, and then converting the result to the demand currency based on the exchange rates.
+Actual cost of a resource plan associated to demand or demand task in the demand currency. This value applies when the PPM Standard Multicurrency \(com.snc.ppm\_multicurrency\) plugin is activated and the Demand Currency view is enabled. The Actual cost in demand currency value is derived by multiplying the hourly rate of each user with the hours worked. The result is then converted to the demand currency based on the exchange rates.
 
 </td></tr><tr><td>
 
@@ -251,7 +251,7 @@ Actual cost in project currency
 
 </td><td>
 
-Actual cost of a resource plan associated to a project or project task in the project currency when the PPM Standard Multicurrency \(com.snc.ppm\_multicurrency\) plugin is activated and the Project Currency view is enabled. The Actual cost in project currency value is derived by multiplying the hourly rate of each user with the hours worked, and then converting the result to the project currency based on the exchange rates.
+Actual cost of a resource plan associated to a project or project task in the project currency. This value applies when the PPM Standard Multicurrency \(com.snc.ppm\_multicurrency\) plugin is activated and the Project Currency view is enabled. The Actual cost in project currency value is derived by multiplying the hourly rate of each user with the hours worked. The result is then converted to the project currency based on the exchange rates.
 
 </td></tr></tbody>
 </table><table id="table_iq1_zp1_mcc"><thead><tr><th>

@@ -9,7 +9,7 @@ classification: now-assist-in-virtual-agent
 topic_type: task
 last_updated: "2025-03-18"
 reading_time_minutes: 3
-breadcrumb: [Create a chat assistant, View assistants, Configuring assistants overview, Now Assist in Virtual Agent, Conversational Interfaces]
+breadcrumb: [Create a chat assistant, View assistants, Configuring assistants overview, ServiceNow Otto for Virtual Agent, Conversational Interfaces]
 ---
 
 # Enable additional chat features
@@ -26,7 +26,7 @@ Role required: virtual\_agent\_admin or admin
 
 By default, all chat features, except web search mode, are turned on.
 
-**Note:** For Now Assist panel - Developer assistant, only response streaming is available.
+**Note:** For ServiceNow Otto panel - Developer assistant, only response streaming is available.
 
 ## Procedure
 
@@ -34,7 +34,7 @@ By default, all chat features, except web search mode, are turned on.
 
     **Note:** For premium chat, web search mode and web search fallback are dependent on one another. If web search mode is turned off, web search fallback is unavailable \(grayed out\). If web search mode is turned on, web search fallback is available, and can be turned on or off.
 
-    \[Omitted image "NAinVA-chat-features-0426.png"\] Alt text: Turn different chat features for your assistant on or off.
+    \[Omitted image "sno-voice-input-0826.png"\] Alt text: Turn different chat features for your assistant on or off.
 
     Web search mode enables users to search the internet by selecting a globe icon within the chat window. The default web search provider, at the instance level, is Google Gemini.
 
@@ -44,18 +44,18 @@ By default, all chat features, except web search mode, are turned on.
 
     If the instance is self-hosted or regulated, the warning message won't be shown.
 
-    To change the web search provider, select **Configure the API** to bring you to the Now Assist Admin LLM model-selection page.
+    To change the web search provider, select **Configure the API** to bring you to the Admin LLM model-selection page.
 
     -   If you want to use AWS Anthropic as the web search provider, switch the instance-level LLM to Claude.
     -   If the instance LLM is selected as Now LLM Service, Azure OpenAI, or Google Gemini, Gemini will still be the web search provider.
-    -   If you want to use Perplexity AI or Azure OpenAI as the web search provider, you’ll need to perform a custom manual configuration. For more information, see .
-    To change the LLM provider for Now Assist in Virtual Agent, select the AI agents skill group in Now Assist Admin console. Navigate to **All** &gt; **Now Assist Admin** &gt; **Settings** &gt; **Manage AI models** &gt; **Manage model providers** &gt; **Edit model provider** &gt; **Customize**.
+    -   If you want to use Perplexity AI or Azure OpenAI as the web search provider, you’ll need to perform a custom manual configuration. For more information, see [Manage model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/edit-model-providers.md).
+    To change the LLM provider for ServiceNow Otto for Virtual Agent, select the AI agents skill group in AI Admin Hub. Navigate to **All** &gt; **AI Admin Hub** &gt; **Settings** &gt; **Manage AI models** &gt; **Manage model providers** &gt; **Edit model provider** &gt; **Customize**.
 
 2.  **Allow response streaming** for LLM messages to stream as they are generated instead of appearing all at once.
 
     Response streaming is not supported on every display experience or when using Dynamic Translation. Streaming at the assistant level can be turned on regardless of whether Dynamic Translation is turned on or off. However, response streaming won't work when Dynamic Translation is turned on at the instance level.
 
-    **Note:** Dynamic Translation can be turned off in the Now Assist Admin console. Turning off Dynamic Translation impacts the entire instance.
+    **Note:** Dynamic Translation can be turned off in the AI Admin Hub. Turning off Dynamic Translation impacts the entire instance.
 
     For more information, see [Chat streaming responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/streaming-responses-requestor.md).
 
@@ -69,8 +69,8 @@ By default, all chat features, except web search mode, are turned on.
 
 5.  **Allow voice input** so that users can speak to their assistant instead of typing.
 
-    -   For Now Assist in Virtual Agent assistants, voice input is available for premium chat. For more information, see [Premium chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/nava-integrated-chat.md)
-    -   For Now Assist panel – Platform assistant, voice input is available for standard, enhanced, and premium chat and uses Azure Speech Service for standard chat and enhanced chat or Cartesia for premium chat. For more information about voice input, see , , or .
+    -   For ServiceNow Otto for Virtual Agent assistants, voice input is available for premium chat. For more information, see [Premium chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/nava-integrated-chat.md)
+    -   For ServiceNow Otto panel – Platform assistant, voice input is available for standard, enhanced, and premium chat. Azure Speech Service is used for standard chat and enhanced chat and Cartesia for premium chat. For more information about voice input, see [Standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-panel-standard.md), [Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-panel-enhanced.md), or [Premium chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-panel-premium.md).
 
 ## What to do next
 

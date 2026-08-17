@@ -27,7 +27,7 @@ Learn the process that is used to manage product development efforts in Agile De
 -   **[Agile Development use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/agile-workflow-use-cases.md)**  
 Learn the different methods that organizations could use to plan their backlog and deliver stories.
 -   **[Agile board in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/agile-board.md)**  
-The Agile board is a landing page where you can perform key actions of the scrum process such as managing your backlogs, planning your sprints, and tracking the sprint progress.
+The Agile board is a landing page where you can perform key actions of the scrum process. These actions include managing your backlogs, planning your sprints, and tracking the sprint progress.
 -   **[Reporting defects in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/defect-reports.md)**  
 Create defects for the issues that are reported for your product using Agile Development 2.0. You can then create stories for these defects so that your teams can start working on resolving them.
 -   **[Enhancement requests in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/enhancement-requests.md)**  

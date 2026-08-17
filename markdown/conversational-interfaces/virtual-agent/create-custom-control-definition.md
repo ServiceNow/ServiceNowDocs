@@ -128,9 +128,9 @@ Domain where this control is used.
 
 ## Result
 
-The custom control definition is available for use. You can specify it when you create the appropriate control in Virtual Agent Designer.
+The custom control definition is available for use. You can specify it when you create the appropriate control in Assistant Designer Asset library.
 
 ## What to do next
 
-[Create the custom control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-custom-control.md) in Virtual Agent Designer.
+[Create the custom control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-custom-control.md) in Assistant Designer Asset library.
 

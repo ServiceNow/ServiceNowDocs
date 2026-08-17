@@ -1,20 +1,20 @@
 ---
 title: Edit a question in Catalog Builder
-description: Edit an existing question if you want to improve it by adding dynamic form behavior.
+description: Edit an existing question if you want to improve it by adding UI policies.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-catalog/edit-question-cat-builder.html
 release: zurich
 product: Service Catalog
 classification: service-catalog
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Creating or editing catalog item template, Catalog Builder, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Edit a question in Catalog Builder
 
-Edit an existing question if you want to improve it by adding dynamic form behavior.
+Edit an existing question if you want to improve it by adding UI policies.
 
 ## Before you begin
 
@@ -40,13 +40,13 @@ You can’t edit the questions that belong to single-row and multi-row variable 
 
 4.  Deactivate a question.
 
-    1.  Point to the question and select the deactivate icon \(\[Omitted image "deactivate-quest.png"\] Alt text: Deactivate icon.\).
+    1.  Move to the question and select the deactivate icon \(\[Omitted image "deactivate-quest.png"\] Alt text: Deactivate icon.\).
 
     2.  In the dialog box, select **Deactivate**.
 
 5.  Edit a question.
 
-    1.  Point to the question and select the edit icon \(\[Omitted image "edit-quest-builder.png"\] Alt text: Edit icon.\).
+    1.  Move to the question and select the edit icon \(\[Omitted image "edit-quest-builder.png"\] Alt text: Edit icon.\).
 
     2.  Make the required changes and select **Save**.
 
@@ -54,4 +54,11 @@ You can’t edit the questions that belong to single-row and multi-row variable 
 
 
 **Parent Topic:**[Creating or editing catalog item template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/create-cat-item-template-cat-builder.md)
+
+**Related topics**  
+
+
+[Create UI policies in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/create-ui-policies-in-catalog-builder.md)
+
+[UI policy form in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/ui-policy-form-in-catalog-builder.md)
 

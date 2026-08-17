@@ -29,8 +29,8 @@ Claims for reporting are narrative statements or data points that organizations 
 The ESG Management application uses several sustainability reporting frameworks to help organizations report their economic, environmental, social, and governance performance. The ESG content accelerator application is a centralized repository of frameworks, citations, metric definitions, and emission factors. Using this application accelerates the adoption of ESG frameworks.
 -   **[Set up analysis contexts and analyses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/set-up-scenarios.md)**  
 To simulate different analyses, create an analysis context and define the metric and forecast periods, then create analyses. Use the forecast planning and analysis tools to generate and compare the outcomes of these analyses, evaluating the impact of different interventions.
--   **[Now Assist for Operational Sustainability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/now-assist-for-esg.md)**  
-Use the Now Assist for Operational Sustainability Management application to empower your sustainability teams with generative AI-powered capabilities. Automate and streamline data collection, and confirm accurate, auditable reporting at enterprise scale.
+-   **[ServiceNow Otto for Operational Sustainability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/now-assist-for-esg.md)**  
+Use the ServiceNow Otto for Operational Sustainability application to empower your sustainability teams with generative AI-powered capabilities to automate and streamline data collection, and confirm accurate, auditable reporting at enterprise scale.
 
 **Parent Topic:**[Operational Sustainability Management \(formerly Environmental, Social, and Governance\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/esg-landing-page.md)
 

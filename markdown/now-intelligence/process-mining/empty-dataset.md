@@ -9,7 +9,7 @@ classification: process-mining
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Managing an audit table, Working with external datasets, Using Process Mining, Process Mining, Platform Analytics]
+breadcrumb: [Managing an audit table, Working with external datasets, Import external data, Process Mining, Platform Analytics]
 ---
 
 # Empty a dataset
@@ -40,6 +40,4 @@ Role required: sn\_process\_optimization\_admin
 
     The content from the audit and record tables are removed. After you’ve emptied the dataset, you can import any dataset again. For steps to import data, see [Import data into the audit table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/import-data.md).
 
-
-**Parent Topic:**[Managing an audit table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/managing-audit-table.md)
 

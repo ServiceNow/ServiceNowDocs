@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-operationaltechnologyincidentmanagement-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -75,7 +75,7 @@ Xanadu
 
 </td><td>
 
--   **[Create an OT incident from an OT change request](https://servicenow-staging.fluidtopics.net/access?context=create-ot-incident-from-ot-change&family=xanadu&ft:locale=en-US)**
+-   **[Create an OT incident from an OT change request](https://www.servicenow.com/docs/access?context=create-ot-incident-from-ot-change&family=xanadu&ft:locale=en-US)**
 
 Create an OT incident related to an OT change request directly from the OT change record in the Industrial Workspace.
 
@@ -86,7 +86,7 @@ Yokohama
 
 </td><td>
 
--   **[Create an OT incident from an OT change request](https://servicenow-staging.fluidtopics.net/access?context=create-ot-incident-from-ot-change&family=yokohama&ft:locale=en-US)**
+-   **[Create an OT incident from an OT change request](https://www.servicenow.com/docs/access?context=create-ot-incident-from-ot-change&family=yokohama&ft:locale=en-US)**
 
 Create an OT incident related to an OT change request directly from the OT change record in the Industrial Workspace.
 
@@ -97,7 +97,7 @@ Zurich
 
 </td><td>
 
--   **[Use the Employee Center for OT to report an OT incident](https://servicenow-staging.fluidtopics.net/access?context=report-ot-incident-in-ot-employee-portal&family=zurich&ft:locale=en-US)**
+-   **[Use the Employee Center for OT to report an OT incident](https://www.servicenow.com/docs/access?context=report-ot-incident-in-ot-employee-portal&family=zurich&ft:locale=en-US)**
 
 Create an OT incident as a user without an OT incident role with the Report OT incident item in the Employee Center for OT.
 
@@ -121,7 +121,7 @@ Xanadu
 
 </td><td>
 
--   **[Updated layout of the OT incident record on the Industrial Workspace](https://servicenow-staging.fluidtopics.net/access?context=report-ot-incident&family=xanadu&ft:locale=en-US)**
+-   **[Updated layout of the OT incident record on the Industrial Workspace](https://www.servicenow.com/docs/access?context=report-ot-incident&family=xanadu&ft:locale=en-US)**
 
 The OT incident record in the Industrial Workspace was updated to include all existing related lists under the **Related Records** tab.
 
@@ -140,7 +140,7 @@ Zurich
 
 </td><td>
 
--   **[Admin role dependency](https://servicenow-staging.fluidtopics.net/access?context=granular-admin-roles&family=zurich&ft:locale=en-US)**
+-   **[Admin role dependency](https://www.servicenow.com/docs/access?context=granular-admin-roles&family=zurich&ft:locale=en-US)**
 
 Several new granular admin roles have been added, which enable developers to complete administrative configuration tasks without requiring the full admin role.
 
@@ -238,7 +238,7 @@ Xanadu
 
 </td><td>
 
-Install Operational Technology Incident Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
+Install Operational Technology Incident Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
 
 **Note:** Operational Technology Incident Management now includes the Industrial Process Manager, and can be used with or without Operational Technology Manager.
 
@@ -248,7 +248,7 @@ Yokohama
 
 </td><td>
 
-Install Operational Technology Incident Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+Install Operational Technology Incident Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -256,7 +256,7 @@ Zurich
 
 </td><td>
 
-Install Operational Technology Incident Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+Install Operational Technology Incident Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -428,7 +428,7 @@ Xanadu
 -   Relate an OT incident to an OT change request by creating the incident from the change record in the Industrial Workspace.
 -   Organize your OT incidents with the updated OT incident record on the Industrial Workspace.
 
- See [Operational Technology Incident Management](https://servicenow-staging.fluidtopics.net/access?context=operational-technology-incident-management-landing-page&family=xanadu&ft:locale=en-US) for more information.
+ See [Operational Technology Incident Management](https://www.servicenow.com/docs/access?context=operational-technology-incident-management-landing-page&family=xanadu&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -438,7 +438,7 @@ Yokohama
 
 Relate an OT incident to an OT change request by creating the incident from the change record in the Industrial Workspace.
 
- See [Operational Technology Incident Management](https://servicenow-staging.fluidtopics.net/access?context=operational-technology-incident-management-landing-page&family=yokohama&ft:locale=en-US) for more information.
+ See [Operational Technology Incident Management](https://www.servicenow.com/docs/access?context=operational-technology-incident-management-landing-page&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -446,9 +446,11 @@ Zurich
 
 </td><td>
 
-Report an OT incident without an OT incident role using the Employee Center for OT.
+[Zurich Patch 7](https://www.servicenow.com/docs/access?context=zurich-patch-7&family=zurich&ft:locale=en-US)
 
- See [Operational Technology Incident Management](https://servicenow-staging.fluidtopics.net/access?context=operational-technology-incident-management-landing-page&family=zurich&ft:locale=en-US) for more information.
+-   Report an OT incident without an OT incident role using the Employee Center for OT.
+
+ See [Operational Technology Incident Management](https://www.servicenow.com/docs/access?context=operational-technology-incident-management-landing-page&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/rn-combined-intro.md)

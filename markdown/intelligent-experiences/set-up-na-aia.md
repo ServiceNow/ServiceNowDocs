@@ -1,5 +1,5 @@
 ---
-title: Set up Now Assist AI agents
+title: Set up AI agents
 description: The default \(base system\) AI agents provide preconfigured agentic workflows that address common business challenges across ServiceNow applications. Before activating the default AI agents, you must verify that your instance meets the prerequisites and complete the required configuration steps.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/set-up-na-aia.html
@@ -7,10 +7,10 @@ release: zurich
 topic_type: task
 last_updated: "2026-02-06"
 reading_time_minutes: 1
-breadcrumb: [Configure, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Configure, AI Agent Studio, Enable AI experiences]
 ---
 
-# Set up Now Assist AI agents
+# Set up AI agents
 
 The default \(base system\) AI agents provide preconfigured agentic workflows that address common business challenges across ServiceNow applications. Before activating the default AI agents, you must verify that your instance meets the prerequisites and complete the required configuration steps.
 
@@ -25,24 +25,25 @@ Role required: sn\_aia\_admin
 -   **Platform version:**
     -   Minimum: Yokohama Patch 1+ or Xanadu Patch 7+
     -   Recommended: Yokohama Patch 8 or Zurich Patch 4
+    -   Latest: Zurich Patch 12 or Australia patch 5
 -   **Required plugins and store Apps**
 
-    -   Now Assist AI agents store app \(version 6.0.17 or later as of December 2025\)
-    -   At least one Now Assist workflow plugin:
-        -   Now Assist for ITSM
-        -   Now Assist for HRSD
-        -   Now Assist for CSM
-        -   Now Assist for Security Operations
+    -   ServiceNow Otto AI agents store app \(version 8.2 as of Zurich Patch 12\)
+    -   At least one ServiceNow Otto workflow plugin:
+        -   ServiceNow Otto for ITSM
+        -   ServiceNow Otto for HRSD
+        -   ServiceNow Otto for CSM
+        -   ServiceNow Otto for Security Incident Response \(SIR\)
     -   Generative AI Controller plugin \(minimum version 11.0.0\)
     **Note:** Select **Load demo data** during installation to access preconfigured examples.
 
 -   **Licensing Requirements**
 
-    Now Assist Pro Plus or Enterprise entitlement
+    ServiceNow Otto Pro Plus or Enterprise entitlement
 
 -   **Required User Roles**
     -   sn\_aia.admin - Provides access to AI Agent Studio
-    -   sn\_nowassist\_admin.nsa\_admin - Enables Now Assist administration
+    -   sn\_nowassist\_admin.nsa\_admin - Enables AI Admin Hub administration
 
 ## Procedure
 
@@ -50,9 +51,9 @@ Role required: sn\_aia\_admin
 
     1.  Navigate to **AI Search** &gt; **AI Search Status**.
     2.  Verify that AI Search is enabled.
-2.  Enable Now Assist panel.
+2.  Enable ServiceNow Otto panel.
 
-    1.  Navigate to **Now Assist admin** &gt; **Experiences**.
+    1.  Navigate to **AI Admin Hub** &gt; **Experiences**.
     2.  Turn on the **Panel** option.
 3.  Access the AI Agent Studio.
 
@@ -73,12 +74,12 @@ Role required: sn\_aia\_admin
 
     1.  Navigate to **Conversational Interfaces** &gt; **Assistants**.
     2.  Determine which chat assistants can access your AI agents.
-    3.  Complete the configuration wizards for Now Assist panel \(NAP\) or Now Assist Virtual Agent \(NAVA\).
+    3.  Complete the configuration wizards for ServiceNow Otto panel or ServiceNow Otto for Virtual Agent.
 6.  Configure LLM Connections \(optional\).
 
     If using external LLM providers instead of the default OpenAI GPT-4.1:
 
-    1.  Navigate to **Now Assist admin Console** &gt; **Settings** &gt; **Manage Integration**.
+    1.  Navigate to **AI Admin Hub** &gt; **Settings** &gt; **Manage Integration**.
     2.  Configure API credentials for your chosen LLM provider.
     **Note:** The default Orchestration layer uses OpenAI GPT-4.1 5.4 on ServiceNow-managed Azure servers.
 

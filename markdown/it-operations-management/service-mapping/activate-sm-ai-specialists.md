@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-04-16"
 reading_time_minutes: 1
 keywords: [activate AI Agent, Service Mapping home page, AI Agent configuration, Now Assist, ITOM, Otto]
-breadcrumb: [AI Agents for Service Mapping, AI capabilities in Service Mapping, Using Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
+breadcrumb: [AI Agents for Service Mapping, AI in Service Mapping, Using Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
 
 # Activate AI Agents for Service Mapping
@@ -21,7 +21,7 @@ Activate the Service Mapping AI Agent and the Business App Mapping AI Agent from
 
 Before you begin, verify the following:
 
--   ITOM AI agents for Service Mapping \[sn\_sm\_gen\_ai, version 1.3.1 or later\] is installed as part of the Now Assist for ITOM bundle.
+-   ITOM AI agents for Service Mapping \[sn\_sm\_gen\_ai, version 1.3.1 or later\] is installed as part of ServiceNow Otto for ITOM.
 -   Service Mapping Plus version 1.20.0 or later is installed. The AI Agent UI is delivered through Service Mapping Plus.
 -   Zurich Patch 9 or Australia Patch 2.
 

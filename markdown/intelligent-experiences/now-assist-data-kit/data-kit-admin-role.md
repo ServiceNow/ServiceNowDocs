@@ -1,6 +1,6 @@
 ---
-title: Now Assist Data Kit roles \(sn\_data\_kit.admin\)
-description: This user can create, update, and publish datasets in Now Assist Data Kit. This role is mandatory to use Now Assist Data Kit.
+title: AI Data Kit roles \(sn\_data\_kit.admin\)
+description: This user can create, update, and publish datasets in AI Data Kit. This role is mandatory to use AI Data Kit.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/now-assist-data-kit/data-kit-admin-role.html
 release: zurich
@@ -9,12 +9,12 @@ classification: now-assist-data-kit
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Now Assist Data Kit reference, Now Assist Data Kit, Enable AI experiences]
+breadcrumb: [AI Data Kit reference, AI Data Kit, Enable AI experiences]
 ---
 
-# Now Assist Data Kit roles \(sn\_data\_kit.admin\)
+# AI Data Kit roles \(sn\_data\_kit.admin\)
 
-This user can create, update, and publish datasets in Now Assist Data Kit. This role is mandatory to use Now Assist Data Kit.
+This user can create, update, and publish datasets in AI Data Kit. This role is mandatory to use AI Data Kit.
 
 ## Contains Roles
 
@@ -32,5 +32,5 @@ None.
 
 None.
 
-**Parent Topic:**[Now Assist Data Kit reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-data-kit/na-data-kit-reference.md)
+**Parent Topic:**[AI Data Kit reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-data-kit/na-data-kit-reference.md)
 

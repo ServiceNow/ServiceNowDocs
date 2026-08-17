@@ -25,7 +25,7 @@ Workplace Service Delivery \(WSD\) provides digitized workplace experiences to e
 
 WSD provides digital entities and automation tools to enhance and streamline work processes for employees. Employees can digitize their hybrid workplace days, collaborate, and gain access to physical workspaces in their organization. Employees can manage their reservations, reserve their favorite or preferred desks, meeting rooms and parking spaces. Employees can manage workspaces tailored to their privacy and location preferences. Administrators and facility managers can get detailed insights on employee engagement and real-estate usage to manage capacity planning. Workplace digitization helps create a more connected work environment by transforming how teams interact, share information, and collaborate across platforms and businesses.
 
-## Intelligent routing of workplace requests with Now Assist for WSD
+## Intelligent routing of workplace requests with ServiceNow Otto for WSD
 
 With WSD you can optimize workplace operations with smart building integrations. Workplace Service Delivery AI agents can assist and act autonomously to resolve issues and make decisions. AI agents can autonomously block a meeting room in case of an emergency maintenance request and move your existing meetings from the blocked location to a new one by interacting with your environment. AI agents use Out-of-the-box ServiceNow AI Platform® capabilities. Enhance employee self-service requests with Generative AI for improving workplace productivity, enhanced employee experience, and reduced case deflections.
 

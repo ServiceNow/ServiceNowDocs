@@ -7,7 +7,7 @@ release: zurich
 product: Developer Sandboxes
 classification: developer-sandboxes
 topic_type: concept
-last_updated: "2025-08-11"
+last_updated: "2026-07-23"
 reading_time_minutes: 2
 breadcrumb: [Developer Sandboxes, Developing your application, Building applications]
 ---
@@ -22,9 +22,10 @@ Check your entitlements to determine whether you have access to Developer Sandbo
 
 Developer Sandboxes is a paid feature and is enabled only after procurement is complete. To install Developer Sandboxes once you're entitled, open a case with Now Support specifying the instance name and licensed number of sandboxes.
 
-**Note:** If your instance is in a regulated environment, check with ServiceNow Support for more information about support for Developer Sandboxes.
+**Note:**
 
-**Note:** The Developer Sandboxes plugin should be installed in your production instance, or any clone source to ensure that cloning a sandbox instance correctly maintains entitlement.
+-   If your instance is in a regulated environment, check with ServiceNow Support for more information about support for Developer Sandboxes.
+-   The Developer Sandboxes plugin should be installed in your production instance, or any clone source to ensure that cloning a sandbox instance correctly maintains entitlement.
 
 ## Prerequisites for installing Developer Sandboxes
 

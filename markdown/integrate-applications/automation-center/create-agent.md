@@ -34,7 +34,7 @@ Role required: sn\_aia.admin, sn\_ac.automation\_admin, sn\_ac.automation\_techn
 
 4.  Select **Create agent** from the options at the top.
 
-    **Note:** The **Create agent** option is available only if the Now Assist AI Agents skill is installed and the automation request is in **In progress** state.
+    **Note:** The **Create agent** option is available only if the User task step summarization skill is installed and the automation request is in **In progress** state.
 
     The **Choose destination instance** dialog box is displayed.
 

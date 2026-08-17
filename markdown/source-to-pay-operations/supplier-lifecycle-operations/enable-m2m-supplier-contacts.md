@@ -1,6 +1,6 @@
 ---
 title: Enable M2M mapping between supplier contact and suppliers
-description: Many-to-many \(M2M\) mapping between supplier contact and suppliers enables one supplier contact to be the contact for multiple suppliers, provided the suppliers share a parent-subsidiary relationship.
+description: Many-to-many \(M2M\) mapping betweencontactser contact and. This suppliers enables one supplier contact to be the contact for multiple suppliers, provided the suppliers share a parent-subsidiary relationship.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/supplier-lifecycle-operations/enable-m2m-supplier-contacts.html
 release: zurich
@@ -14,7 +14,7 @@ breadcrumb: [Configure, Supplier Lifecycle Operations, Finance and Supply Chain]
 
 # Enable M2M mapping between supplier contact and suppliers
 
-Many-to-many \(M2M\) mapping between supplier contact and suppliers enables one supplier contact to be the contact for multiple suppliers, provided the suppliers share a parent-subsidiary relationship.
+Many-to-many \(M2M\) mapping betweencontactser contact and. This suppliers enables one supplier contact to be the contact for multiple suppliers, provided the suppliers share a parent-subsidiary relationship.
 
 ## Before you begin
 

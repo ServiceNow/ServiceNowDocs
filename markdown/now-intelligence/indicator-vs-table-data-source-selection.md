@@ -7,7 +7,7 @@ release: zurich
 topic_type: concept
 last_updated: "2026-06-23"
 reading_time_minutes: 1
-breadcrumb: [Questions and responses in an exploration, Use, AI Data Explorer, Now Assist in Platform Analytics, Platform Analytics]
+breadcrumb: [Questions and responses in an exploration, Use, AI Data Explorer, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
 
 # Indicator vs Table data source selection

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-continuousauthorizationandmonitoring-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 11
 breadcrumb: [Products combined by family]
 ---
@@ -75,7 +75,7 @@ Xanadu
 
 </td><td>
 
--   **[CAM Workspace](https://servicenow-staging.fluidtopics.net/access?context=cam-ws-home-page&family=xanadu&ft:locale=en-US)**
+-   **[CAM Workspace](https://www.servicenow.com/docs/access?context=cam-ws-home-page&family=xanadu&ft:locale=en-US)**
 
 Use the CAM Workspace for an end-to-end user experience. The Home page, overview pages of authorization boundary and authorization package, unified tasks page, and the dashboards help you capture information and give you a better insight into the data that aids in decision making.
 
@@ -85,18 +85,18 @@ CAM Workspace includes exclusive features with which you can:
     -   View controls by family for a control objective and report based on families for NIST 800-53.
     -   Add attachments to assessment procedures and document notes.
     -   View all Plan of Actions and Milestones \(POA&amp;M\) in a single pane.
--   **[CAM supports the OSCAL format to export control-related information](https://servicenow-staging.fluidtopics.net/access?context=oscal-support-cam&family=xanadu&ft:locale=en-US)**
+-   **[CAM supports the OSCAL format to export control-related information](https://www.servicenow.com/docs/access?context=oscal-support-cam&family=xanadu&ft:locale=en-US)**
 
 Export SSP files in the OSCAL format based on various models such as SSP, Profile, Catalog, and Catalog overlay. The generated report is compatible to share the information with other systems. CAM supports the National Institute of Standards and Technology \(NIST\) recommended OSCAL format to provide control-based information in machine-readable formats.
 
--   **[CAM ATO artifacts](https://servicenow-staging.fluidtopics.net/access?context=generate-ato-artifacts-cam-ws&family=xanadu&ft:locale=en-US)**
+-   **[CAM ATO artifacts](https://www.servicenow.com/docs/access?context=generate-ato-artifacts-cam-ws&family=xanadu&ft:locale=en-US)**
 
 Generate ATO artifacts from an authorization package in Microsoft Word format for the following reports:
 
     -   SSP
     -   Security Assessment Report \(SAR\)
     -   POA&amp;M
--   **[Enhancements in CAM user roles](https://servicenow-staging.fluidtopics.net/access?context=assign-cam-roles&family=xanadu&ft:locale=en-US)**
+-   **[Enhancements in CAM user roles](https://www.servicenow.com/docs/access?context=assign-cam-roles&family=xanadu&ft:locale=en-US)**
 
 The existing user roles in CAM application have been enhanced with the following privileges:
 
@@ -110,15 +110,15 @@ Yokohama
 
 </td><td>
 
--   **[OSCAL Import landing page](https://servicenow-staging.fluidtopics.net/access?context=import-oscal&family=yokohama&ft:locale=en-US)**
+-   **[OSCAL Import landing page](https://www.servicenow.com/docs/access?context=import-oscal&family=yokohama&ft:locale=en-US)**
 
 Import files for catalog and SSP models on the new OSCAL Import landing page. Once the import process is initiated, you can check the status under the Import status section.
 
--   **[OSCAL Export button](https://servicenow-staging.fluidtopics.net/access?context=export-catalog-cam-ws&family=yokohama&ft:locale=en-US)**
+-   **[OSCAL Export button](https://www.servicenow.com/docs/access?context=export-catalog-cam-ws&family=yokohama&ft:locale=en-US)**
 
 Export selected control objectives in the OSCAL format with the new **OSCAL Export** button while in the control objectives list view.
 
--   **[ATO artifacts in Microsoft Word](https://servicenow-staging.fluidtopics.net/access?context=generate-ato-artifacts-cam-ws&family=yokohama&ft:locale=en-US)**
+-   **[ATO artifacts in Microsoft Word](https://www.servicenow.com/docs/access?context=generate-ato-artifacts-cam-ws&family=yokohama&ft:locale=en-US)**
 
 Generate ATO artifacts from an authorization package in the Microsoft Word format. In CAM Workspace, you can use the **Generate SSP** drop-down list in a selected authorization package to generate the following reports:
 
@@ -134,7 +134,7 @@ Zurich
 
 </td><td>
 
--   **[\[Placeholder link text to key cam-workflow-configurator\]](https://servicenow-staging.fluidtopics.net/access?context=cam-workflow-configurator&family=zurich&ft:locale=en-US)**
+-   **[\[Placeholder link text to key cam-workflow-configurator\]](https://www.servicenow.com/docs/access?context=cam-workflow-configurator&family=zurich&ft:locale=en-US)**
 
 Streamline governance, risk, and compliance processes with the CAM Workflow Configuration. This feature allows administrators to:
 
@@ -145,21 +145,21 @@ Streamline governance, risk, and compliance processes with the CAM Workflow Conf
     -   Set up workflow-specific approval configurations.
     -   Perform risk assessments across CAM objects.
     -   Migrate the NIST RMF flow to workflow configuration for improved standardization.
--   **[\[Placeholder link text to key add-child-boundary\]](https://servicenow-staging.fluidtopics.net/access?context=add-child-boundary&family=zurich&ft:locale=en-US)**
+-   **[\[Placeholder link text to key add-child-boundary\]](https://www.servicenow.com/docs/access?context=add-child-boundary&family=zurich&ft:locale=en-US)**
 
 Introducing a new Child Boundaries list that enables a one-to-many boundary hierarchy, allowing you to create relationships between boundaries. This hierarchy is visualized in both the sidebar and diagram view, showing one parent boundary with multiple child boundaries. OSCAL export and import now include the parent boundary relationship if present.
 
--   **Dynamic Boundary Filters [Dynamic boundary filters](https://servicenow-staging.fluidtopics.net/access?context=create-boundary-filter&family=zurich&ft:locale=en-US)**
+-   **Dynamic Boundary Filters [Dynamic boundary filters](https://www.servicenow.com/docs/access?context=create-boundary-filter&family=zurich&ft:locale=en-US)**
 
 Select the **Dynamic Filter** option in boundary filters to update system elements according to filter conditions. When disabled, the system elements remain unchanged. This update enhances the flexibility of boundary filter management.
 
--   **[Boundary operational status automation](https://servicenow-staging.fluidtopics.net/access?context=cam-form-authorization-boundary&family=zurich&ft:locale=en-US)**
+-   **[Boundary operational status automation](https://www.servicenow.com/docs/access?context=cam-form-authorization-boundary&family=zurich&ft:locale=en-US)**
 
 Linking boundary operational status to the package life cycle ensures seamless integration. Key changes include:
 
     -   Automatic update of boundary status to Operational when a package moves to the Monitor state.
     -   Transition of Boundary status to Reauthorize as the Package Authorization date approaches. This update maintains synchronization between package and boundary states, enhancing overall system coherence.
--   **[\[Placeholder link text to key export-oscal-files-from-authorization-package\]](https://servicenow-staging.fluidtopics.net/access?context=export-oscal-files-from-authorization-package&family=zurich&ft:locale=en-US)**
+-   **[\[Placeholder link text to key export-oscal-files-from-authorization-package\]](https://www.servicenow.com/docs/access?context=export-oscal-files-from-authorization-package&family=zurich&ft:locale=en-US)**
 
 Generating and downloading OSCAL SSP and POA&amp;M files is supported directly from within a authorization package. The supported file types include:
 
@@ -168,7 +168,7 @@ Generating and downloading OSCAL SSP and POA&amp;M files is supported directly f
     -   Profile
     -   SSP
     -   POA&amp;M
--   **[OSCAL import enhancements](https://servicenow-staging.fluidtopics.net/access?context=import-oscal&family=zurich&ft:locale=en-US)**
+-   **[OSCAL import enhancements](https://www.servicenow.com/docs/access?context=import-oscal&family=zurich&ft:locale=en-US)**
 
 Enhancing the OSCAL import experience, the OSCAL import playbook now allows you to:
 
@@ -176,14 +176,14 @@ Enhancing the OSCAL import experience, the OSCAL import playbook now allows you 
     -   **User Mapping**: Automatically map users to existing ServiceNow users based on exact name matches, with the option to manually adjust mappings.
     -   **Group Mapping**: Automatically map groups to existing ServiceNow groups based on exact name matches, with the option to manually adjust mappings.
     -   **Roles and Responsibilities**: Populate relevant package fields with roles and responsibilities.
--   **[Overlay enhancement](https://servicenow-staging.fluidtopics.net/access?context=prepare-auth-pkg&family=zurich&ft:locale=en-US)**
+-   **[Overlay enhancement](https://www.servicenow.com/docs/access?context=prepare-auth-pkg&family=zurich&ft:locale=en-US)**
 
 Apply policies as an overlay in an authorization package to determine how the control objectives in the policy impact the baseline. This can be done in the following ways:
 
     -   Addition: Create control objectives to address specific requirements not covered in the baseline.
     -   Subtraction: Move existing control objectives to **Not Applicable**.
     -   Customization: Create, move existing control objectives to not applicable, or skip control objectives.
--   **[OSCAL enhancements](https://servicenow-staging.fluidtopics.net/access?context=oscal-cam-ws&family=zurich&ft:locale=en-US)**
+-   **[OSCAL enhancements](https://www.servicenow.com/docs/access?context=oscal-cam-ws&family=zurich&ft:locale=en-US)**
 
 Use the OSCAL import playbook to follow a user-friendly, step-by-step approach for importing OSCAL models. Using the playbook, you can:
 
@@ -221,15 +221,15 @@ Xanadu
 
 </td><td>
 
--   **[Role changes for Continuous Authorization and Monitoring Workspace users](https://servicenow-staging.fluidtopics.net/access?context=cam-roles-list&family=xanadu&ft:locale=en-US)**
+-   **[Role changes for Continuous Authorization and Monitoring Workspace users](https://www.servicenow.com/docs/access?context=cam-roles-list&family=xanadu&ft:locale=en-US)**
 
 Reader \(sn\_irm\_cont\_auth.reader\), Authorization Official \(sn\_irm\_cont\_auth.authorization\_official\), and Executive Reader \(sn\_irm\_cont\_auth.executive\_read\) can now access Continuous Authorization and Monitoring Workspace.
 
--   **[OSCAL Catalog model export](https://servicenow-staging.fluidtopics.net/access?context=oscal-support-cam&family=xanadu&ft:locale=en-US)**
+-   **[OSCAL Catalog model export](https://www.servicenow.com/docs/access?context=oscal-support-cam&family=xanadu&ft:locale=en-US)**
 
 In exporting the control-related information as part of the Catalog model, the child control objectives of a control objective are mapped to the Control field. Furthermore, related control objectives of the control objective are mapped to the Links field.
 
--   **[Enhancements in CAM Workspace](https://servicenow-staging.fluidtopics.net/access?context=cam-ws-home-page&family=xanadu&ft:locale=en-US)**
+-   **[Enhancements in CAM Workspace](https://www.servicenow.com/docs/access?context=cam-ws-home-page&family=xanadu&ft:locale=en-US)**
 
 The following enhancements have been made in CAM Workspace:
 
@@ -238,7 +238,7 @@ The following enhancements have been made in CAM Workspace:
     -   The **Family** field and **Family ID** field are added to the Control objective page.
     -   The **Notes** field and **Attachment** field are added to the Assessment procedure page.
     -   The **360° View** button is configured in all pages of CAM Workspace.
--   **[CAM user role changes](https://servicenow-staging.fluidtopics.net/access?context=assign-cam-roles&family=xanadu&ft:locale=en-US)**
+-   **[CAM user role changes](https://www.servicenow.com/docs/access?context=assign-cam-roles&family=xanadu&ft:locale=en-US)**
 
 Defining roles and assigning privileges and permissions for approvals is critical to ensure security in the CAM application. The user role changes are:
 
@@ -255,11 +255,11 @@ Yokohama
 
 </td><td>
 
--   **[Generate the OSCAL SSP model of an authorization package](https://servicenow-staging.fluidtopics.net/access?context=generate-oscal-models&family=yokohama&ft:locale=en-US)**
+-   **[Generate the OSCAL SSP model of an authorization package](https://www.servicenow.com/docs/access?context=generate-oscal-models&family=yokohama&ft:locale=en-US)**
 
 Export the SSP model of an authorization package in the OSCAL format. The exported report contains only the control objectives linked to the authorization package and their additional information, such as inherited controls and the hierarchy of the control objectives.
 
--   **[Generate ATO artifacts in Microsoft Word and HTML templates](https://servicenow-staging.fluidtopics.net/access?context=generate-ato-artifacts-cam-ws&family=yokohama&ft:locale=en-US)**
+-   **[Generate ATO artifacts in Microsoft Word and HTML templates](https://www.servicenow.com/docs/access?context=generate-ato-artifacts-cam-ws&family=yokohama&ft:locale=en-US)**
 
 Use the Document designer plugin \(com.sn\_grc\_doc\_design\) to create report templates in Microsoft Word. A new property module has been introduced to select the template type as a Microsoft Word template in addition to an HTML template.
 
@@ -270,20 +270,20 @@ Zurich
 
 </td><td>
 
--   **[New Authorization Documents tab for ATO reports](https://servicenow-staging.fluidtopics.net/access?context=prepare-auth-pkg&family=zurich&ft:locale=en-US)**
+-   **[New Authorization Documents tab for ATO reports](https://www.servicenow.com/docs/access?context=prepare-auth-pkg&family=zurich&ft:locale=en-US)**
 
 Access all Authority to Operate \(ATO\) artifacts reports from the new **Authorization Documents** tab available in the Authorization Package.
 
 
--   **[New CAM System Properties page for administrators](https://servicenow-staging.fluidtopics.net/access?context=cam-components-installed&family=zurich&ft:locale=en-US)**
+-   **[New CAM System Properties page for administrators](https://www.servicenow.com/docs/access?context=cam-components-installed&family=zurich&ft:locale=en-US)**
 
 Access the new CAM **System Properties** page to enable administrators to configure various system properties.
 
--   **[Track package progress with the Ageing of Packages widget](https://servicenow-staging.fluidtopics.net/access?context=cam-ws-home-page&family=zurich&ft:locale=en-US)**
+-   **[Track package progress with the Ageing of Packages widget](https://www.servicenow.com/docs/access?context=cam-ws-home-page&family=zurich&ft:locale=en-US)**
 
 View the duration that a package stayed in each step, like Prepare, Categorize, Select, Implement, Assess, Authorize, and Monitor, using the Ageing of Packages widget.
 
--   **[Set Next Engagement Date for Automated Audit Generation](https://servicenow-staging.fluidtopics.net/access?context=prepare-auth-pkg&family=zurich&ft:locale=en-US)**
+-   **[Set Next Engagement Date for Automated Audit Generation](https://www.servicenow.com/docs/access?context=prepare-auth-pkg&family=zurich&ft:locale=en-US)**
 
 Enter the **Next engagement date** to automatically generate the audit engagement on the specified date.
 
@@ -383,7 +383,7 @@ Xanadu
 
 </td><td>
 
-Install Continuous Authorization and Monitoring by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
+Install Continuous Authorization and Monitoring by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -391,7 +391,7 @@ Yokohama
 
 </td><td>
 
-Install CAM by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+Install CAM by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -573,7 +573,7 @@ Xanadu
 -   Use the lite roles introduced in CAM for lighter business operations.
 -   Group similar controls into a family-related and club-related to help identify and understand the controls.
 
- See [Continuous Authorization and Monitoring](https://servicenow-staging.fluidtopics.net/access?context=grc-cam-landing-page&family=xanadu&ft:locale=en-US) for more information.
+ See [Continuous Authorization and Monitoring](https://www.servicenow.com/docs/access?context=grc-cam-landing-page&family=xanadu&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -587,7 +587,7 @@ Yokohama
 -   Generate additional reports in Microsoft Word format, such as a Security Assessment Plan \(SAP\), Authorization to Operate \(ATO\) Letter, and Executive Summary.
 -   Generate reports based on a Microsoft Word template.
 
- See [Continuous Authorization and Monitoring](https://servicenow-staging.fluidtopics.net/access?context=grc-cam-landing-page&family=yokohama&ft:locale=en-US) for more information.
+ See [Continuous Authorization and Monitoring](https://www.servicenow.com/docs/access?context=grc-cam-landing-page&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -606,7 +606,7 @@ Zurich
 -   CAM overlays new capability has been introduced to perform various operations like addition, subtraction, custom while applying a policy overlay to an authorization package.
 -   Import OSCAL models using a user-friendly playbook that guides you through preview and customization steps.
 
- See [Continuous Authorization and Monitoring](https://servicenow-staging.fluidtopics.net/access?context=grc-cam-landing-page&family=zurich&ft:locale=en-US) for more information.
+ See [Continuous Authorization and Monitoring](https://www.servicenow.com/docs/access?context=grc-cam-landing-page&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/rn-combined-intro.md)

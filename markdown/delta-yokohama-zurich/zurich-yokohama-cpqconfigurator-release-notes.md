@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-cpqconfigurator-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -46,7 +46,7 @@ Zurich
 
 </td><td>
 
-If you used the legacy product configurator previously and want to use the CPQ Configurator, after upgrading, you must set the **sn\_prd\_pm.enable\_advanced\_configuration** system property to true to be able to use the configurator in Sales and Order Management workflows.
+If you used the legacy product configurator previously and want to use the CPQ Configurator, after upgrading, you must set the **sn\_prd\_pm.enable\_advanced\_configuration** system property to true to be able to use the configurator in Sales Customer Relationship Management workflows.
 
 .
 
@@ -77,13 +77,13 @@ Zurich
 
 </td><td>
 
--   **[Configurable product offerings and associated blueprints](https://servicenow-staging.fluidtopics.net/access?context=som-create-configurable-prod-offerings&family=zurich&ft:locale=en-US)**
+-   **[Configurable product offerings and associated blueprints](https://www.servicenow.com/docs/access?context=som-create-configurable-prod-offerings&family=zurich&ft:locale=en-US)**
 
 Create configurable products and generate the associated product offering blueprints that contain the product attributes, product relationships, product and pricing rules, and child products defined for configurable products. The blueprints also contain configuration rules for inclusion, exclusion, and determination. Catalog admins can review and update an offering blueprint in the CPQ Configurator and then publish the product offering to the product catalog.
 
--   **[CPQ Configurator interface](https://servicenow-staging.fluidtopics.net/access?context=using-servicenowcpq&family=zurich&ft:locale=en-US)**
+-   **[CPQ Configurator interface](https://www.servicenow.com/docs/access?context=using-servicenowcpq&family=zurich&ft:locale=en-US)**
 
-Enable agents and customers to configure customizable products using the CPQ Configurator embedded in Sales and Order Management workflows. The configurator is used in both the CSM Configurable Workspace and the Business Portal.
+Enable agents and customers to configure customizable products using the CPQ Configurator embedded in Sales Customer Relationship Management workflows. The configurator is used in both the CSM Configurable Workspace and the Business Portal.
 
 
 </td></tr></tbody>
@@ -200,7 +200,7 @@ Zurich
 
 </td><td>
 
-Install the CPQ Configurator by requesting the CPQ Integration application from the ServiceNow Store. Visit the ServiceNow Store website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+Install the CPQ Configurator by requesting the CPQ Integration application from the ServiceNow Store. Visit the ServiceNow Store website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -229,7 +229,7 @@ Zurich
 
 </td><td>
 
-Before implementing CPQ Configurator, you must prepare your environment to use it. For more information, see [CPQ Configurator](https://servicenow-staging.fluidtopics.net/access?context=configuring-servicenow-cpq&family=zurich&ft:locale=en-US).
+Before implementing CPQ Configurator, you must prepare your environment to use it. For more information, see [Without guided setup](https://www.servicenow.com/docs/access?context=configuring-servicenow-cpq&family=zurich&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Browser requirements
@@ -349,7 +349,7 @@ Zurich
 -   Enables agents and customers to select valid product options during product configuration and view real-time updates that show how their selections affect associated pricing.
 -   Enables product catalog admins to generate and update product offering blueprints that guide the accurate configuration of customizable products by agents and customers.
 
- See [CPQ Configurator](https://servicenow-staging.fluidtopics.net/access?context=explore-servicenowcpq&family=zurich&ft:locale=en-US) for more information.
+ See [CPQ Configurator](https://www.servicenow.com/docs/access?context=explore-servicenowcpq&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

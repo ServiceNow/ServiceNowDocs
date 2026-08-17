@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-agentworkspaceforhrcasemanagement-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -67,52 +67,52 @@ Yokohama
 
 </td><td>
 
--   **[Survey responses](https://servicenow-staging.fluidtopics.net/access?context=t_ViewAnHRTask&family=yokohama&ft:locale=en-US)**
+-   **[Survey responses](https://www.servicenow.com/docs/access?context=t_ViewAnHRTask&family=yokohama&ft:locale=en-US)**
 
 View employee responses collected from an employee via the survey form sent through an HR task.
 
 
--   **[Response templates](https://servicenow-staging.fluidtopics.net/access?context=hr-agent-ws-using-response-template&family=yokohama&ft:locale=en-US)**
+-   **[Response templates](https://www.servicenow.com/docs/access?context=hr-agent-ws-using-response-template&family=yokohama&ft:locale=en-US)**
 
 Display response templates based on the language preference of selected user.
 
--   **[Copy a case in Agent Workspace for HR Case Management](https://servicenow-staging.fluidtopics.net/access?context=copy-case-hr&family=yokohama&ft:locale=en-US)**
+-   **[Copy a case in Agent Workspace for HR Case Management](https://www.servicenow.com/docs/access?context=copy-case-hr&family=yokohama&ft:locale=en-US)**
 
 Avoid having to fill in the fields of a case manually by creating a copy of a case to auto-populate the case values.
 
--   **[HR Triaging Dashboard](https://servicenow-staging.fluidtopics.net/access?context=hr-triaging-dashboard&family=yokohama&ft:locale=en-US)**
+-   **[HR Triaging Dashboard](https://www.servicenow.com/docs/access?context=hr-triaging-dashboard&family=yokohama&ft:locale=en-US)**
 
 View your teams' case assignments based on categories such as priority, HR service, or HR assignment group. Drag a case card from one lane to another to automatically update the priority, HR service, or assignment group of a case.
 
--   **[HR Walk-up](https://servicenow-staging.fluidtopics.net/access?context=hr-walkup&family=yokohama&ft:locale=en-US)**
+-   **[HR Walk-up](https://www.servicenow.com/docs/access?context=hr-walkup&family=yokohama&ft:locale=en-US)**
 
 Provide a convenient and efficient way for users to seek in-person or remote assistance, report issues, and receive guidance from HR agents through designated walk-up centers.
 
 
--   **[Page configurations](https://servicenow-staging.fluidtopics.net/access?context=page-configurations&family=yokohama&ft:locale=en-US)**
+-   **[Page configurations](https://www.servicenow.com/docs/access?context=page-configurations&family=yokohama&ft:locale=en-US)**
 
 Configure the layout and functionality of the HR Agent landing page or HR case page. You can preview your settings before implementing them.
 
 
--   **[PDF template preview](https://servicenow-staging.fluidtopics.net/access?context=hr-agent-ws-create-temp&family=yokohama&ft:locale=en-US)**
+-   **[PDF template preview](https://www.servicenow.com/docs/access?context=hr-agent-ws-create-temp&family=yokohama&ft:locale=en-US)**
 
 Preview a PDF document template attached to an HR case rather than being able to preview only HTML document templates.
 
 
--   **[Link child cases](https://servicenow-staging.fluidtopics.net/access?context=t_CreateAnHRCase&family=yokohama&ft:locale=en-US)**
+-   **[Link child cases](https://www.servicenow.com/docs/access?context=t_CreateAnHRCase&family=yokohama&ft:locale=en-US)**
 
 Associate child cases to an HR case.
 
 
--   **[Delegation list](https://servicenow-staging.fluidtopics.net/access?context=hr-agent-ws-lists&family=yokohama&ft:locale=en-US)**
+-   **[Delegation list](https://www.servicenow.com/docs/access?context=hr-agent-ws-lists&family=yokohama&ft:locale=en-US)**
 
 View cases delegated to you or that you have delegated to other HR agents. The Delegation list appears only when you have activated the Granular Delegation \(com.glide.granular\_service\_delegation\) plugin.
 
--   **[Agent Workspace for HR Case Management contextual side panel](https://servicenow-staging.fluidtopics.net/access?context=agent-ws-hr-case-mgmt-context-sidebar&family=yokohama&ft:locale=en-US)**
+-   **[Agent Workspace for HR Case Management contextual side panel](https://www.servicenow.com/docs/access?context=agent-ws-hr-case-mgmt-context-sidebar&family=yokohama&ft:locale=en-US)**
     -   Apply template values to the HR case without having to fill in values manually.
     -   Download or delete multiple attachments at once.
 
--   **[Configure fields for Bulk case request](https://servicenow-staging.fluidtopics.net/access?context=segment-group-aws&family=yokohama&ft:locale=en-US)**
+-   **[Configure fields for Bulk case request](https://www.servicenow.com/docs/access?context=segment-group-aws&family=yokohama&ft:locale=en-US)**
 
 Configure fields that you want to view in the User segment group form in bulk case request through the Case Creation Configuration form.
 
@@ -231,7 +231,7 @@ Yokohama
 
 </td><td>
 
-Install Agent Workspace for HR Case Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+Install Agent Workspace for HR Case Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -379,7 +379,7 @@ Yokohama
 -   The HR Triaging Dashboard enables you to review your teams' case assignments through cases displayed as cards. Once you set up a layout for HR services, priorities, or assignment groups, moving of case cards between lanes, auto-updates the HR service, user assignment, or priority of cases.
 -   Provide a convenient and efficient way for deskless workers to seek in-person or remote assistance, report issues, and receive guidance from HR agents through designated walk-up centers.
 
- See [Agent Workspace for HR Case Management \(Configurable\)](https://servicenow-staging.fluidtopics.net/access?context=agent-ws-hr-case-mgmt-landing-page&family=yokohama&ft:locale=en-US) for more information.
+ See [Agent Workspace for HR Case Management \(Configurable\)](https://www.servicenow.com/docs/access?context=agent-ws-hr-case-mgmt-landing-page&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 

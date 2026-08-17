@@ -18,9 +18,11 @@ If you’re using both Policy and Compliance Management and Third-party Risk Man
 
 ## Before you begin
 
-Role required: sn\_vdr\_risk\_asmt.vendor\_risk\_manager and sn\_compliance.manager
+Role required: sn\_compliance.manager and sn\_vdr\_risk\_asmt.vendor\_risk\_manager to associate control objectives in the Vendor Management Workspace.
 
 ## About this task
+
+Control objectives are authored and managed in Policy and Compliance Management and can be associated with questions used in assessments.
 
 A control objective is an objective, direction, or standard that acts as guidance for company interactions and operations. Control objectives can be categorized, classified, and related to policies.
 
@@ -36,7 +38,7 @@ To understand the difference between a control objective and a control, see [Str
 
 2.  Select the metric categories that you want from the related list and then select the question you want.
 
-3.  Navigate to the Control Objectives related list and then create a control objective by selecting **New**.
+3.  Navigate to the Control Objectives related list and associate an existing control objective by selecting **New**.
 
 4.  On the form, fill in the fields.
 
@@ -46,7 +48,7 @@ To understand the difference between a control objective and a control, see [Str
 
     For more information on managing controls, see [Manage controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/c_GRCControls.md).
 
-    The control objective is created and all related lists are visible.
+    The control objective is associated with the question and all related lists are visible.
 
 
 -   **[Control objectives form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-control-objective-form.md)**  

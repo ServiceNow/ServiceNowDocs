@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/action-recorder-ad.html
 release: zurich
 topic_type: concept
-last_updated: "2026-02-11"
+last_updated: "2026-08-03"
 reading_time_minutes: 5
 breadcrumb: [Defined desktop actions for desktop, Explore, AI Desktop Actions, Enable AI experiences]
 ---

@@ -45,5 +45,5 @@ For example, if the last event time for a data input's endpoint server is yester
 
 ## What to do next
 
-Proceed to the next step in the Health Log Analytics data input setup flow. For more information, see [Set up additional ACC data inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/accl-data-input-setup.md).
+Proceed to the next step in the Health Log Analytics data input setup flow. For more information, see .
 

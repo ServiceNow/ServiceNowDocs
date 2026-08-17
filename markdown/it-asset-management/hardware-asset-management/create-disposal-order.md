@@ -38,15 +38,15 @@ Starting with Hardware Asset Management 15.0.0 version, the asset resale option 
 
 1.  Navigate to **All** &gt; **Hardware Asset Workspace** &gt; **Inventory view**.
 
-<table id="choicetable_l5h_scg_kyb"><thead><tr><th align="left" id="d329268e129">
+<table id="choicetable_l5h_scg_kyb"><thead><tr><th align="left" id="d330933e129">
 
 Interface
 
-</th><th align="left" id="d329268e132">
+</th><th align="left" id="d330933e132">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d329268e138">
+</th></tr></thead><tbody><tr><td id="d330933e138">
 
 **Core UI**
 
@@ -54,7 +54,7 @@ Action
 
 Navigate to **All** &gt; **Inventory** &gt; **Create Disposal Order**.
 
-</td></tr><tr><td id="d329268e159">
+</td></tr><tr><td id="d330933e159">
 
 **Hardware Asset Workspace**
 

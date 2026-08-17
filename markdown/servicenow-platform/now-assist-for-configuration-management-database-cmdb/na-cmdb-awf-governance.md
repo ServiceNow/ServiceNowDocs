@@ -1,39 +1,44 @@
 ---
-title: Getting advice from Now Assist on CMDB governance
-description: Data governance can be an overwhelming task. The Provide advice on CMDB governance agentic workflow supports data admins and owners by methodically working through the many-faceted process of improving CMDB data accuracy, completeness, and health. The objective is to promote that users can trust the data that they use for their work.
+title: Getting advice from ServiceNow Otto on CMDB governance
+description: Data governance can be an overwhelming task. The Provide advice on CMDB governance agentic workflow supports data admins and owners by methodically working through the many-faceted process of improving CMDB data accuracy, completeness, and health. The objective is to help users to trust the data that they use for their work.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-awf-governance.html
 release: zurich
 product: Now Assist for Configuration Management Database \(CMDB\)
 classification: now-assist-for-configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2025-12-02"
-reading_time_minutes: 4
-breadcrumb: [Use agentic workflows, Now Assist for Configuration Management Database \(CMDB\), Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+last_updated: "2026-03-12"
+reading_time_minutes: 5
+breadcrumb: [Using agentic workflows, ServiceNow Otto for Configuration Management Database \(CMDB\), Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Getting advice from Now Assist on CMDB governance
+# Getting advice from ServiceNow Otto on CMDB governance
 
-Data governance can be an overwhelming task. The Provide advice on CMDB governance agentic workflow supports data admins and owners by methodically working through the many-faceted process of improving CMDB data accuracy, completeness, and health. The objective is to promote that users can trust the data that they use for their work.
+Data governance can be an overwhelming task. The Provide advice on CMDB governance agentic workflow supports data admins and owners by methodically working through the many-faceted process of improving CMDB data accuracy, completeness, and health. The objective is to help users to trust the data that they use for their work.
 
 ## Access the workflow
 
-See [Get advice on CMDB governance from Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-awf-cmdb-governance.md) for information on accessing the workflow.
+See [Get advice on CMDB governance from ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-awf-cmdb-governance.md) for information on accessing the workflow.
+
+## Descriptions of AI agents
+
+This topic includes overviews of the actions of AI agents.
+
+There might be AI agents installed on your instance that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/find-ai-agents.md).
 
 ## Provide advice on CMDB governance agentic workflow
 
-The Configuration Management Database \(CMDB\) is the central repository of your organization's IT assets, services, and their relationships. The Provide advice on CMDB governance agentic workflow helps to promote CMDB accuracy, completeness, and integrity to maximize the value and performance of your ServiceNow AI Platform products. The results are faster incident resolution, enhanced compliance, and a reduced risk of service disruption. The agentic workflow evaluates CIs updated in the last 90 days.
+The Configuration Management Database \(CMDB\) is the central repository of your organization's IT assets, services, and their relationships. The Provide advice on CMDB governance agentic workflow helps to promote CMDB accuracy, completeness, and integrity to maximize the value and performance of your ServiceNow AI Platform products. The results are faster incident resolution, enhanced conformance, and a reduced risk of service disruption. The agentic workflow evaluates CIs updated in the last 90 days.
 
-The Provide advice on CMDB governance agentic workflow supports admins and owners with information on data health and ongoing guidance for governance as data models and integrations grow. The workflow calls on AI agents.
+The Provide advice on CMDB governance agentic workflow supports admins and owners with information on data health and ongoing guidance for governance as data models and integrations grow. The workflow calls on the following AI agents:
+
+\[Omitted image "na-cmdb-governance-flow.png"\] Alt text: AI agents used by the CMDB principal class manager AI agent
 
 ## AI agents
 
-This section presents overviews of the actions of the AI agents that the agentic workflow uses.
+This section presents overviews of the actions of the AI agents that the CMDB governance agentic workflow uses.
 
-Looking for an AI agent?
-
--   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/find-ai-agents.md).
--   To find agents that might not be installed on your instance, visit the [AI Agent Marketplace](https://store.servicenow.com/store/ai-marketplace) on the ServiceNow Store.
+There might be AI agents installed on your instance that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/find-ai-agents.md).
 
 -   **CMDB principal class manager AI agent**
 
@@ -41,7 +46,7 @@ Looking for an AI agent?
 
 -   **CMDB life cycle manager AI agent**
 
-    The CMDB life cycle manager AI agent helps admins to promote that CMDB life-cycle policies are in place for principal classes or for specified classes. For more information, see [Working with CMDB Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-data-management.md).
+    The CMDB life cycle manager AI agent helps admins to confirm that CMDB life-cycle policies are in place for principal classes or for specified classes. For more information, see [Working with CMDB Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-data-management.md).
 
 -   **CMDB data certification and attestation manager AI agent**
 
@@ -49,18 +54,18 @@ Looking for an AI agent?
 
 -   **CMDB health metrics manager AI agent**
 
-    The CMDB health metrics manager AI agent displays information on CMDB Health Dashboard jobs, health metrics status, and health scores. If the jobs are not configured, the workflow provides a link to the setup instructions. For more information, see [CMDB Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/c_CMDBHealth.md).
+    The CMDB health metrics manager AI agent displays information on CMDB Health Dashboard jobs, health metrics status, and health scores. If the jobs aren't configured, the workflow provides a link to the setup instructions. For more information, see [CMDB Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/c_CMDBHealth.md).
 
 -   **CMDB data ownership manager AI agent**
 
     The CMDB data ownership manager AI agent helps you to assess the quality of CI ownership data for a CI class to determine ownership, validate ownership, and evaluate ownership quality. You can validate fields that reference sys\_user or sys\_user\_group like **Assigned To**, **Managed by Group** \(default\), **Support Group**, and so on. The agent answers the following questions:
 
-    -   Is CI ownership specified? Is the **Managed by group** attribute value set for the CI? Does it indicate an active and correctly configured record? The value of the system property for ownership is a default field for the evaluation. For the **Managed by group** CI attribute, you can specify the percentage values that classify the result as `Poor`, `Average`, or `Healthy`. For more information, see [Property settings for Now Assist for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-data-fdn-properties.md).
+    -   Is CI ownership specified? Is the **Managed by group** attribute value set for the CI? Does it indicate an active and correctly configured record? The value of the system property for ownership is a default field for the evaluation. For the **Managed by group** CI attribute, you can specify the percentage values that classify the result as `Poor`, `Average`, or `Healthy`. For more information, see [Property settings for ServiceNow Otto for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-data-fdn-properties.md).
     -   If you provide a user referencing value: Does the **User Referencing** value indicate an active record? This evaluation identifies CIs that have inactive users and CIs with no **User** value.
     -   If you provide a user referencing value: Does the **Group Referencing** value indicate an active record? This evaluation identifies CIs that have inactive groups, empty groups \(no users\), and CIs with no **Group** value.
 
--   **[Get advice on CMDB governance from Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-awf-cmdb-governance.md)**  
-Work through the process of improving CMDB data accuracy, completeness, and health. The objective is to promote that users can trust the data that they use for their work.
+-   **[Get advice on CMDB governance from ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-awf-cmdb-governance.md)**  
+Work through the process of improving CMDB data accuracy, completeness, and health. The objective is to help users to trust the data that they use for their work.
 
-**Parent Topic:**[Using agentic workflows in Now Assist for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-using.md)
+**Parent Topic:**[Using agentic workflows in ServiceNow Otto for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-using.md)
 

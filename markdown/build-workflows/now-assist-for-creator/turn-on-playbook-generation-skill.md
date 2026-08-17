@@ -1,6 +1,6 @@
 ---
 title: Turn on the playbook generation skill
-description: Turn on the Now Assist for Creator playbook generation skill to use generative AI to create playbook outlines.
+description: Turn on the ServiceNow Otto for Creator playbook generation skill to use generative AI to create playbook outlines.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/now-assist-for-creator/turn-on-playbook-generation-skill.html
 release: zurich
@@ -9,25 +9,25 @@ classification: now-assist-for-creator
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Playbook generation, Now Assist for Creator, Build workflows]
+breadcrumb: [Playbook generation, ServiceNow Otto for Creator, Build workflows]
 ---
 
 # Turn on the playbook generation skill
 
-Turn on the Now Assist for Creator playbook generation skill to use generative AI to create playbook outlines.
+Turn on the ServiceNow Otto for Creator playbook generation skill to use generative AI to create playbook outlines.
 
 ## Before you begin
 
--   Install the Now Assist for Creator application. For more information, see [Install Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/now-assist-for-creator/install-now-assist-for-creator.md).
+-   Install the ServiceNow Otto for Creator application. For more information, see [Install ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/now-assist-for-creator/install-now-assist-for-creator.md).
 -   Role required: admin
 
 ## About this task
 
-**Important:** The playbook generation skill requires a separate subscription to Now Assist for Creator.
+**Important:** The playbook generation skill requires a separate subscription to ServiceNow Otto for Creator.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Now Assist Skills**.
+1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Now Assist Skills**.
 
 2.  In the workflow list, select **Creator**.
 

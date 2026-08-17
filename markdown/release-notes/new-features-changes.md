@@ -62,7 +62,7 @@ The Zurich release includes new products.
 
 -   **Platform Analytics**
 
-    [Now Assist in Platform Analytics release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/now-assist-platform-analytics-rn.md)
+    [ServiceNow Otto for Platform Analytics release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/now-assist-platform-analytics-rn.md)
 
 -   **Sales Customer Relationship Management**
 
@@ -72,7 +72,7 @@ The Zurich release includes new products.
 
     [Return Merchandise Authorization release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/return-merchandise-authorization-rn.md)
 
-    [Now Assist for Sales Force Automation \(SFA\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/now-assist-for-sales-and-order-management-rn.md)
+    [ServiceNow Otto for Sales Automation release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/now-assist-for-sales-and-order-management-rn.md)
 
 -   **ServiceNow AI Platform Security**
 
@@ -82,7 +82,7 @@ The Zurich release includes new products.
 
 -   **Source-to-Pay Operations**
 
-    [Now Assist for Source-to-Pay Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/now-assist-source-to-pay-operations-rn.md)
+    [ServiceNow Otto for Source-to-Pay Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/now-assist-source-to-pay-operations-rn.md)
 
 -   **Strategic Portfolio Management**
 

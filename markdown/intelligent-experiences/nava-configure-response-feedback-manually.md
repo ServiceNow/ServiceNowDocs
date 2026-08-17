@@ -1,18 +1,18 @@
 ---
 title: Configure response feedback
-description: Configure the response feedback options that appear when users select thumbs up or thumbs down on a Now Assist in Virtual Agent or Now Assist panel response.
+description: Configure the response feedback options that appear when users select thumbs up or thumbs down on a ServiceNow Otto for Virtual Agent or ServiceNow Otto panel response.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/nava-configure-response-feedback-manually.html
 release: zurich
 topic_type: task
 last_updated: "2026-03-31"
 reading_time_minutes: 1
-breadcrumb: [Configuring Now Assist Admin features, Now Assist, Enable AI experiences]
+breadcrumb: [Configuring AI skills, AI Admin Hub, Enable AI experiences]
 ---
 
 # Configure response feedback
 
-Configure the response feedback options that appear when users select thumbs up or thumbs down on a Now Assist in Virtual Agent or Now Assist panel response.
+Configure the response feedback options that appear when users select thumbs up or thumbs down on a ServiceNow Otto for Virtual Agent or ServiceNow Otto panel response.
 
 ## Before you begin
 
@@ -20,38 +20,36 @@ Role required: admin
 
 ## Procedure
 
-1.  In the filter navigator field, enter `sys_now_assist_deployment_config_attributes.list` to display the Now Assist Deployment Config Attributes table.
+1.  In the filter navigator, enter `sys_now_assist_deployment_config_attributes.list` to display the Now Assist in Virtual Agent Deployment Config Attributes table.
 
-2.  In the selection fields, select **Name** from the drop-down list and enter `granular` in the Search field.
+2.  In the search fields, select **Name** from the drop-down list and enter `granular` in the Search field.
 
-3.  If you want to change whether negative granular feedback is enabled for Now Assist in Virtual Agent, select **is\_negative\_granular\_feedback\_enabled** that has Now Assist in Virtual Agent \(default\) as the Deployment Configuration.
+3.  To change negative granular feedback settings, select **is\_negative\_granular\_feedback\_enabled** with ServiceNow Otto for Virtual Agent \(default\) as the Deployment Configuration.
 
-4.  On the next screen, change the value to **true** if you want negative granular feedback to be enabled or to **false** if you do not want negative granular feedback to be enabled.
+4.  On the next screen, set the value to **true** to enable negative granular feedback or **false** to disable it.
 
 5.  Select **Submit**.
 
-6.  If you want to change whether positive granular feedback is enabled for Now Assist in Virtual Agent, select **is\_positive\_granular\_feedback\_enabled** that has Now Assist in Virtual Agent \(default\) as the Deployment Configuration.
+6.  To change positive granular feedback settings, select **is\_positive\_granular\_feedback\_enabled** with ServiceNow Otto for Virtual Agent \(default\) as the Deployment Configuration.
 
-7.  On the next screen, change the value to **true** if you want positive granular feedback to be enabled or to **false** if you do not want positive granular feedback to be enabled.
+7.  On the next screen, set the value to **true** to enable positive granular feedback or **false** to disable it.
 
 8.  Select **Submit**.
 
-9.  To configure the feedback options, in the filter navigator field, enter `sys_now_assist_message_bundle.list` to display the Now Assist Message Bundles table.
+9.  To configure the feedback options, in the filter navigator, enter `sys_now_assist_message_bundle.list` to display the Now Assist Message Bundles table.
 
-10. In the selection fields, select **for text** from the drop-down list and enter `granular` in the Search field.
+10. In the search fields, select **for text** from the drop-down list and enter `granular` in the Search field.
 
 11. Do one of the following:
 
     -   To create a new granular feedback selection, select **New**.
     -   To change an existing granular feedback option, select the option.
-12. Enter or change the fields: Description, Message, Message Key, Bundle Id, Application, Active, Order.
+12. Complete the fields: **Description**, **Message**, **Message Key**, **Bundle Id**, **Application**, **Active**, **Order**.
 
 13. Select **Submit**.
 
-14. To access the stored feedback data, in the filter navigator field, enter `sys_ci_analytics.list` to display the CI Analytics table.
-
-15. Select the appropriate entry to view the feedback data.
+14. For more information on accessing the stored feedback data, see [Granular Feedback and Analytics in ServiceNow Otto for Virtual Agent \(KB3060968\).](https://support.servicenow.com/kb_view.do?sysparm_article=KB1213249)
 
 
-**Parent Topic:**[Configuring Now Assist Admin features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/configuring-na-landing.md)
+**Parent Topic:**[Configuring AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/configuring-na-landing.md)
 

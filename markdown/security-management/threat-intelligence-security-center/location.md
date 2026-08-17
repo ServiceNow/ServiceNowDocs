@@ -29,7 +29,7 @@ At least one of the following properties or sets of properties must be provided:
 -   latitude and longitude
 
 -   **[Define Location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/tisc-define-location.md)**  
-Define a geographic location to provide more context to other TISC entities.
+Define a geographic location to provide more context to other STIX Domain Objects \(SDOs\).
 
 **Parent Topic:**[Threat Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/tisc-threat-entities.md)
 

@@ -1,6 +1,6 @@
 ---
-title: Exploring Now Assist for Integrated Risk Management \(IRM\)
-description: With the Now Assist for Integrated Risk Management \(IRM\) application, you can use generative AI to support key Integrated Risk Management \(IRM\) tasks such as summarizing issues, identifying risks, and reviewing controls. These capabilities are integrated into IRM records and help streamline how you work with issues, risks, controls, policy exceptions, and more.
+title: Exploring ServiceNow Otto for Integrated Risk Management \(IRM\)
+description: With the ServiceNow Otto for Integrated Risk Management \(IRM\) application, you can use generative AI to support key Integrated Risk Management \(IRM\) tasks such as summarizing issues, identifying risks, and reviewing controls. These capabilities are integrated into IRM records and help streamline how you work with issues, risks, controls, policy exceptions, and more.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/exploring-now-assist-for-irm.html
 release: zurich
@@ -13,24 +13,24 @@ keywords: [Now Assist, generative AI]
 breadcrumb: [Now Assist, Common GRC features, Governance, Risk, and Compliance]
 ---
 
-# Exploring Now Assist for Integrated Risk Management \(IRM\)
+# Exploring ServiceNow Otto for Integrated Risk Management \(IRM\)
 
-With the Now Assist for Integrated Risk Management \(IRM\) application, you can use generative AI to support key Integrated Risk Management \(IRM\) tasks such as summarizing issues, identifying risks, and reviewing controls. These capabilities are integrated into IRM records and help streamline how you work with issues, risks, controls, policy exceptions, and more.
+With the ServiceNow Otto for Integrated Risk Management \(IRM\) application, you can use generative AI to support key Integrated Risk Management \(IRM\) tasks such as summarizing issues, identifying risks, and reviewing controls. These capabilities are integrated into IRM records and help streamline how you work with issues, risks, controls, policy exceptions, and more.
 
-## Now Assist for IRM overview
+## ServiceNow Otto for IRM overview
 
-Now Assist for IRM enables you to use AI-driven skills and agentic workflows focused on Integrated Risk Management. Now Assist for IRM is available based on entitlements.
+ServiceNow Otto for IRM enables you to use AI-driven skills and agentic workflows focused on Integrated Risk Management. Now Assist for IRM is available based on entitlements.
 
-## Now Assist for IRM benefits
+## ServiceNow Otto for IRM benefits
 
-Now Assist for IRM offers the following benefits
+ServiceNow Otto for IRM offers the following benefits
 
 -   Simplify and speed up routine IRM tasks with AI-powered assistance embedded in your records.
 -   Gain quick insights into IRM data without manually parsing through detailed documentation.
 -   Identify potential risks early by analyzing patterns in existing data.
 -   Improve decision-making with AI-generated insights available directly in your workflows.
 
-## Now Assist for IRM workflows/skills
+## ServiceNow Otto for IRM workflows/skills
 
 <table id="table_amn_nsd_bhc"><thead><tr><th>
 
@@ -46,7 +46,7 @@ User role
 
 </th></tr></thead><tbody><tr><td>
 
-[Using agentic workflows in Now Assist for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/using-agentic-ai-workflows.md) agentic workflow
+[Using agentic workflows in ServiceNow Otto for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/using-agentic-ai-workflows.md) agentic workflow
 
 </td><td>
 
@@ -128,7 +128,7 @@ Use Now LLM Service to generate risk assessment summaries from inherent, residua
 
 </td></tr><tr><td>
 
-[Regulatory Alert Summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/regulatory-alert-summarization.md)
+[Regulatory Alert Summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/regulatory-change-management-service-portal/regulatory-alert-summarization.md)
 
 </td><td>
 
@@ -141,7 +141,7 @@ Leverage Now LLM Service to distill regulatory information into concise, busines
 
 </td></tr><tr><td>
 
-[Regulatory alert recommendation skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/recommendations-for-a-regulatory-alert.md)
+[Regulatory alert recommendation skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/regulatory-change-management-service-portal/recommendations-for-a-regulatory-alert.md)
 
 </td><td>
 
@@ -167,16 +167,16 @@ sn\_irm\_gen\_ai.user
 </td></tr></tbody>
 </table>## What to explore next
 
-To learn more about configuring and using Now Assist for IRM, see:
+To learn more about configuring and using ServiceNow Otto for IRM, see:
 
 -   [Supporting information for Now Assist for IRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/now-assist-irm-supporting-info.md)
--   [Configure Now Assist for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/configure-now-assist-for-irm.md)
+-   [Configure ServiceNow Otto for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/configure-now-assist-for-irm.md)
 -   [Activate skills in Now Assist for IRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/activate-na-skills-in-irm.md)
 -   [Activate agentic workflows in Now Assist for IRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/activate-agentic-workflows.md)
 -   [Customize the issue summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/customize-issue-summarization-skill.md)
 -   [Using Now Assist for IRM skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/using-now-assist-for-irm-to-summarize-issues.md)
 -   [Summarize an issue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/summarize-an-issue.md)
--   [Using agentic workflows in Now Assist for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/using-agentic-ai-workflows.md)
+-   [Using agentic workflows in ServiceNow Otto for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/using-agentic-ai-workflows.md)
 -   [Optimize a issue resolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/generate-grc-issue-resolution.md)
 -   [Control Objective Impact Analyzer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/control-objective-impact-analyzer-skill.md)
 -   [Control Objective Change Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/control-objective-change-agent.md)

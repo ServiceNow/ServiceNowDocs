@@ -7,9 +7,9 @@ release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-08-26"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure agentic workflows, Configure, Now Assist in CM Pro, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Configure agentic workflows, Configure, Now Assist in Contract Management, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Enable notifications for AI extracted metadata and obligations
@@ -30,12 +30,10 @@ The **AgenticAIMetadata extraction - Completed** and **AgenticAIObligationExtrac
 
 2.  In the Name column, search for `AgenticAI`.
 
-3.  Select the notification.Select .
+3.  Select the notification.
 
     -   To activate notifications for metadata extraction, select **AgenticAIMetadata extraction - Completed**.
     -   To activate notifications for obligation extraction, select **AgenticAIObligationExtractionCompleted**.
-    \[Omitted image "cmpro-agentic-ai-notf.png"\] Alt text: Notifications for metadata extraction and obligation extraction.
-
 4.  On the Notification form, select the **Active** check box.
 
 5.  Select **Update**.
@@ -43,7 +41,7 @@ The **AgenticAIMetadata extraction - Completed** and **AgenticAIObligationExtrac
 
 ## What to do next
 
-[Configure the workspace URL for contract metadata extraction notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-config-ext-wrkspc-email.md)
+[Configure the URL for metadata extraction notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-config-ext-wrkspc-email.md)
 
 **Parent Topic:**[Configuring agentic workflows in Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cmpro-conf-agentic-workflow.md)
 

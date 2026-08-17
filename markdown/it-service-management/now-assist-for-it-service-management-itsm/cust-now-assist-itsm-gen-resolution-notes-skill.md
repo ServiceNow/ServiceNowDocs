@@ -1,21 +1,21 @@
 ---
-title: Customize a Now Assist for IT Service Management \(ITSM\) resolution notes generation skill
-description: If you have the admin role, you can customize a Now Assist for IT Service Management \(ITSM\) skill so that agents can use the generative AI skills in Service Operations Workspace for ITSM and in Core UI.
+title: Customize a ServiceNow Otto for IT Service Management \(ITSM\) resolution notes generation skill
+description: If you have the admin role, you can customize a ServiceNow Otto for IT Service Management \(ITSM\) skill so that agents can use the generative AI skills in Service Operations Workspace for ITSM and in Core UI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/now-assist-for-it-service-management-itsm/cust-now-assist-itsm-gen-resolution-notes-skill.html
 release: zurich
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 5
+last_updated: "2026-03-12"
+reading_time_minutes: 9
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
-breadcrumb: [Configure, Now Assist for IT Service Management \(ITSM\), IT Service Management]
+breadcrumb: [Configure, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 
-# Customize a Now Assist for IT Service Management \(ITSM\) resolution notes generation skill
+# Customize a ServiceNow Otto for IT Service Management \(ITSM\) resolution notes generation skill
 
-If you have the admin role, you can customize a Now Assist for IT Service Management \(ITSM\) skill so that agents can use the generative AI skills in Service Operations Workspace for ITSM and in Core UI.
+If you have the admin role, you can customize a ServiceNow Otto for IT Service Management \(ITSM\) skill so that agents can use the generative AI skills in Service Operations Workspace for ITSM and in Core UI.
 
 ## Before you begin
 
@@ -23,49 +23,273 @@ Role required: sn\_nowassist\_admin.nsa\_admin
 
 ## About this task
 
-From the Now Assist Admin console, you can select the input tables, related lists, and fields for each input template of the resolution notes generation skill.
+From the AI Admin Hub console, you can select the input tables, related lists, and fields for each input template of the incident summarization skill.
 
 ## Procedure
 
-1.  Navigate to **Admin** &gt; **Now Assist Admin**.
+1.  Navigate to **Admin** &gt; **ServiceNow Otto Admin**.
 
-2.  Select the **Now Assist Skills** tab.
+2.  Select the **AI Skills** tab.
 
 3.  In the **Technology** feature group, select **ITSM** from the product list.
 
-4.  Activate and copy the **Resolution notes generation** skill.
+4.  Activate and copy the ServiceNow Otto for ITSM feature skill for customization.
 
-    You can choose to make a copy of the skill before activating it.
+    1.  On the feature card that is associated with the skill that you would like to activate, select **View details**.
 
-    1.  Select the more actions icon \[Omitted image "more-actions-icon.png"\] Alt text: More actions icon. for the skill in the Active skills section, and create a copy that you can customize by selecting **Make a copy**.
+    2.  In the All available skills section, locate the skill that you would like to activate and select **Activate skill**.
+
+        You can choose to make a copy of the skill before activating it.
+
+    3.  Select the more actions icon \[Omitted image "more-actions-icon.png"\] Alt text: More actions icon. for the skill in the Active skills section, and create a copy that you can customize by selecting **Make a copy**.
 
         The copy that you make is listed in the Active skills section.
 
-    2.  Select the copied skill from the Active skills section to open it.
+        **Note:** You can only duplicate a summarization skill or the Change risk explanation skill. The fields for the skills that you can’t duplicate have read-only values.
 
-        A guided setup leads you through the configuration of enabling user trigger, input, availability, access, display, review, and activation of the skill.
+    4.  Select the copied skill from the Active skills section to open it.
 
-5.  In the **Define trigger** screen, enable the **User triggered** button if user input is required before resolution notes are generated.
+        A guided setup leads you through the configuration of the general details, input, availability, display, review, and activation of the customized skill.
 
-    For information about the inputs and triggers for this skill, see [Skill inputs and triggers for Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-skills.md).
+5.  In the General details step, fill in the fields.
 
-6.  Select **Save and continue**.
+    For information about the inputs and triggers for each skill, see [Skill inputs and triggers for ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-skills.md).
 
-7.  Choose input data.
+    1.  Enter a name and description for the skill.
 
-    The skill relies on the Incident input table and following input fields to provide context for the Now LLM Service to generate the resolution notes:
+    2.  Select **Save and continue** to go to the next step.
 
-    -   Short description
-    -   Description
-    -   Work notes
-    -   Comments
-    The input table and the input fields are read-only.
+6.  Choose input data.
 
-    \[Omitted image "now-assist-itsm-resolution-notes-gen-input.png"\] Alt text: Choose input data screen for the Generate resolution notes skill that contains the input table and fields to generate the resolution notes.
+    Configure the base input table fields and related lists for the different input templates \(New, WIP, Resolved, and Closed states\) for the skill.
 
-8.  Select **Save and continue**.
+    Each skill relies on a base input table and input fields with descriptions to provide context for the Now LLM Service to generate a response.
 
-9.  Define availability.
+    Select only those related tables that are offered with the base system as part of the input data.
+
+    1.  For each input template state \(New, WIP, Resolved, and Closed\), select **+New related table field** and configure the base input table fields.
+
+        Add multiple base input fields if more inputs are needed.
+
+        \[Omitted image "now-assist-itsm-input1.png"\] Alt text: Choose input data screen that contains the input tables and fields to define the prompt.
+
+        The following table lists the base input table fields and descriptions, including a relevant example.
+
+<table id="table_c53_vp5_dbc"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Base input field
+
+</td><td>
+
+Field in the Incident table whose value this skill uses in its response.
+
+ For example, `Short description`.
+
+</td></tr><tr><td>
+
+Field description
+
+</td><td>
+
+Description of the base input field value.
+
+ For example, `Short description of incident, provides quick info about the issue.`
+
+</td></tr></tbody>
+</table>    2.  For each input template state \(New, WIP, Resolved, and Closed\), configure the rule conditions by using the condition builder to filter the data further.
+
+        The rule conditions determine when the input template is used. By default, the record state determines the input template that the Now LLM Service uses.
+
+        You can build the condition out further by selecting **+New condition** and configuring additional parameters.
+
+        The following table lists the input template states.
+
+        |State|Description|
+        |-----|-----------|
+        |New|State is New.|
+        |WIP|State is Work in Progress.|
+        |Resolved|State is Resolved.|
+        |Closed|State is Closed.|
+
+    3.  For each input template state \(New, WIP, Resolved, and Closed\), select **+New data source** to configure the additional related table and activity stream data, as needed.
+
+        Adding the input data sources, such as the related tables and activity streams, provide more context to the Now LLM Service in a related list.
+
+        You can also add the rule conditions to these additional related table and activity stream data sources.
+
+        \[Omitted image "now-assist-itsm-input2.png"\] Alt text: Choose additional input data screen that contains the input tables and fields to define the prompt.
+
+        The following table lists the data sources you can add to the input data.
+
+<table id="table_wc1_wt5_dbc"><thead><tr><th>
+
+Data source
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Related Table
+
+</td><td>
+
+Fields for a related list:
+
+-   Select related input table
+-   Related table field
+-   Field description
+ Configuring the related table fields follows the same format as the base input table fields in the Choose input step.
+
+</td></tr><tr><td>
+
+Activity: Email
+
+</td><td>
+
+Email that is attached to the incident in the incident summarization.
+
+</td></tr><tr><td>
+
+Activity: Attachment
+
+</td><td>
+
+Summarizes attachments of type PNG or JPEG in the Incident summarization skill record using Document Intelligence.**Note:** Attachment summaries aren't available in child incident records and are only supported in the English language.
+
+</td></tr></tbody>
+</table>    4.  Select **Save and continue** to go to the next step.
+
+    5.  Handling custom state choices for the Change request summarization skill.
+
+        **Note:** When you add a new state or modify an existing state in a Change request record, you must add the GenAI Summary Card to the Change Overview Container record to display the **Summarize** button.
+
+        To add the GenAI Summary Card:
+
+        1.  Navigate to **All** &gt; **Change** &gt; **Workspace Configuration** &gt; **Overview Container.**
+
+            Make sure the application scope is set to **Change Management for Service Operations Workspace**.
+
+        2.  In the Change Overview Containers list, select the state that you've added or modified.
+        3.  Add the GenAI Summary Card to the Change Overview Cards related list.
+        \[Omitted image "now-assist-itsm-change-overview-container.png"\] Alt text: GenAI Summary Card in the Change Overview Cards related list
+
+        For more information, see the KB article on [Handling custom state choices for the Change request summarization skill](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2027162).
+
+7.  Trigger frequency
+
+    Refreshes the sentiments for all updated incidents. You can set the trigger frequency for the refresh using the **Sentiment Analysis Scheduled Job \(Incident\)** scheduled job.
+
+8.  Cluster incidents
+
+    If you’re using the Suggested steps generation skill, select **Launch clustering** in the **Record clustering** screen to group records based on similar past closed incidents.
+
+    **Note:**
+
+    -   You should have at least 2000 records for successful clustering. If you get an error that there aren’t enough records to cluster, broaden your filter criteria. You can perform this action by setting the rule conditions to include more records or add more data.
+    -   For information on troubleshooting steps to resolve issues with the Suggested steps generation skill, see [Troubleshoot Suggested steps generation skill set up](https://www.servicenow.com/community/itsm-articles/troubleshooting-steps-for-now-assist-for-itsm-suggested-steps/ta-p/3256267).
+    To broaden the criteria:
+
+    1.  In the **Choose input** screen, select **Edit conditions**.\[Omitted image "now-assist-itsm-suggested-steps-edit-conditions.png"\] Alt text: Suggested steps edit conditions screen
+
+        Select **Switch scope** if you’re unable to edit the conditions.
+
+    2.  Change the conditions as needed and select **Set**.
+
+        The updates you make are displayed in the **GAF Suggested Steps ITSM grouping** in AI Skill Config record.
+
+9.  Customize the prompt.
+
+    Review and test the prompt for each input template configuration. You can edit the prompt by adding new predefined sections and ordering the sections as needed.
+
+    1.  For each input template state \(New, WIP, Resolved, and Closed\), select the prompt sections from the list of available sections to include in the generated summary.
+
+        To add a section, you must configure the relevant input data in the Choose input data step before you do this step.
+
+        The available prompt sections that you can select:
+
+        -   **Issue**
+        -   **Key Actions Taken**
+        -   **Resolution**
+        -   **Service Level Agreement**
+        -   **Affected CIs and Impacted Services**
+        -   **Child Incidents**
+
+            **Note:** When there are too many child incidents and the size of the data goes beyond the LLM token limit, the child incidents section shows the "Too much information and cannot be shown" message.
+
+        The following table lists the mandatory prompt headers.
+
+<table id="table_av3_xhw_2bc"><thead><tr><th>
+
+Input template state
+
+</th><th>
+
+Mandatory prompt header
+
+</th></tr></thead><tbody><tr><td>
+
+New
+
+</td><td>
+
+Issue
+
+</td></tr><tr><td>
+
+Work in progress
+
+</td><td>
+
+-   Issue
+-   Key Actions Taken
+
+
+</td></tr><tr><td>
+
+Resolved
+
+</td><td>
+
+-   Issue
+-   Key Actions Taken
+-   Resolution
+
+
+</td></tr><tr><td>
+
+Closed
+
+</td><td>
+
+-   Issue
+-   Key Actions Taken
+-   Resolution
+
+
+</td></tr></tbody>
+</table>    2.  Select **Save** to continue to the test response.
+
+    3.  Select the incident record in the Test response section, and test the prompt response output format by selecting **Run Test**.
+
+        \[Omitted image "now-assist-itsm-cust-prompt.png"\] Alt text: Customize prompt screen that shows the input template states and the Edit prompt button to modify prompts in the AI skill kit.
+
+        The prompt response is shown. You can make changes to the incident state selections and retest as needed.
+
+    4.  Select **Edit prompt in AI Skill Kit** to make necessary changes to the prompt in the AI Skill Kit.
+
+    5.  Select **Save and continue** to go to the next step.
+
+10. Define availability.
 
     Define how the skill will be available to users.
 
@@ -75,25 +299,21 @@ From the Now Assist Admin console, you can select the input tables, related list
 
     2.  Select **Save and continue** to go to the next step.
 
-10. Define access.
-
-    Define the user access and role restrictions that you need for the skill. For information on role restrictions, see [Role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/now-assist-for-it-service-management-itsm/supporting-information-now-assist-itsm.md).
-
 11. Select display.
 
-    Configure where to display the generated resolution notes.
+    Configure where to display the incident summarization.
 
-    1.  Select either **In-product**, or **Now Assist panel**.
+    1.  Select either **In-product**, or **ServiceNow Otto panel**.
 
-        -   **In-product**: When selected, Now Assist skills are displayed in all ITSM products \(on forms and in workspaces\).
+        -   **In-product**: When selected, AI skills are displayed in all ITSM products \(on forms and in workspaces\).
 
             For the skills that appear in-product, select the down arrow to identify the roles that can use the skill.
 
-        -   **Now Assist panel**: When selected, Now Assist skills are available in the Now Assist panel.
+        -   **ServiceNow Otto panel**: When selected, AI skills are available in the Otto panel.
 
-            If you don't see this option, you must activate the Now Assist panel. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/activate-now-assist-panel.md).
+            If you don't see this option, you must activate the Ottopanel. For more information, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
-            For the skills that appear in the Now Assist panel, select the down arrow to identify the roles that can use the skill.
+            For the skills that appear in the Otto panel, select the down arrow to identify the roles that can use the skill.
 
     2.  Select **Save and continue** to go to the next step.
 
@@ -101,25 +321,16 @@ From the Now Assist Admin console, you can select the input tables, related list
 
     Review your choices and select **Activate** to complete the skill customization. The popup that shows that the activation was successful appears.
 
-13. Configure the Now Assist context menu \(NACM\) to generate resolution notes and refine the content.
+13. Configure the Otto context menu to generate resolution notes and refine the content.
 
-    You can also access the Now Assist context menu by doing the following:
+    1.  Select **Go to Otto context menu**.
 
-    1.  In the **Now Assist Admin** screen, select **Now Assist Experiences**.
-    2.  Select **Now Assist context menu**.
-    3.  Select the **Configurations** tab.
-    4.  Select **Resolution notes in NACM**.
-    5.  Select the more actions icon \[Omitted image "more-actions-icon.png"\] Alt text: More actions icon.and select **Edit configuration**.
-    1.  Select **Go to Now Assist context menu**.
+        The **Resolution notes Otto context menu config** screen appears.
 
-        The **Resolution notes in NACM** screen appears.
-
-        **Note:** In the **General details** screen:
+        **Note:**
 
         -   The table name is **Incident** by default and is read-only.
-        -   The **Form fields** field displays the Now Assist icon \(\[Omitted image "bus-ai-sparkle.svg"\] Alt text:\). The default field that is displayed is **Close notes**. You can change this field based on where you would like to display the Now Assist icon \(\[Omitted image "bus-ai-sparkle.svg"\] Alt text:\).
-        \[Omitted image "now-assist-itsm-res-notes-gen-details.png"\] Alt text: General details screen in the Resolution notes in NACM screen
-
+        -   The **Form fields** field displays the field where the Otto context menu displays the resolution notes. The default field is **Close notes**. You can change this field based on where you would like to display the resolution notes.
     2.  Select **Save and Continue**.
 
         The **Configure experience** screen displays.
@@ -129,26 +340,22 @@ From the Now Assist Admin console, you can select the input tables, related list
         -   The default action for the trigger is set to **Generate resolution notes** and is read-only.
         -   The default refinement actions are **Shorten** and **Elaborate** and are read-only.
         -   The **Insert** action is selected by default.
-        When the Now Assist icon \(\[Omitted image "bus-ai-sparkle.svg"\] Alt text:\) is selected in the **Preview** panel, it shows how the generated resolution notes content will display in NACM.
+        When the ServiceNow Otto icon is selected the **Preview** panel, it shows how the generated resolution notes content will display in Otto context menu.
 
     3.  Select **Save and continue**.
 
         The **Define access** screen displays.
 
-        **Note:** By default this screen shows that an itil user can access the **Resolution notes in NACM** skill. The role restrictions defined in the **Define access** screen overrides the user access defined in this screen. For information on role restrictions, see [Role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/now-assist-for-it-service-management-itsm/supporting-information-now-assist-itsm.md).
-
-        \[Omitted image "now-assist-itsm-res-notes-define-access.png"\] Alt text: Define access screen in the Resolution notes in NACM screen
+        **Note:** By default this screen shows that any authenticated user can access the **Resolution notes generation** skill. The role access defined in the **Define access** screen in the **Resolution notes generation** skill overrides the access defined in this screen.
 
     4.  Select **Save and continue**.
 
-        The **Select display** screen displays. The **Display** button is enabled by default and displays the NACM configuration in all ITSM products.
+        The **Select display** screen displays. Enable the **Display** button if you want to show the Otto context menu configuration in all ITSM products.
 
     5.  Select **Save and continue**.
 
-        The **Review and activate** screen displays. In the **Select a record to test configurations** field, select an incident number for which you want to preview the generated resolution notes for the selected incident and select **Preview**. You can preview the generated content in NACM.
+        The **Review and activate** screen displays. In the **Select a record to test configurations** field, select an incident number for which you want to preview the generated resolution notes for the selected incident and select **Preview**. You can preview the generated content in Otto context menu.
 
     6.  Select **Done**.
-
-        **Important:** For important information, see [Transition to Resolution notes in NACM](https://www.servicenow.com/community/itsm-articles/upgrade-scenario-for-resolution-notes-generation-skill-in-itsm/ta-p/3415789).
 
 

@@ -35,7 +35,7 @@ An authenticator application is a third-party software that generates temporary 
 -   Microsoft Authenticator
 -   Okta Verify
 
-For more detail on these applications, see [Authenticator Applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/mfa-auth-app.md).
+For more detail on these applications, see [Authenticator applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/mfa-auth-app.md).
 
 The MFA authenticator record acts as an input to the Time-based One-time Password \(TOTP\) authenticator.
 

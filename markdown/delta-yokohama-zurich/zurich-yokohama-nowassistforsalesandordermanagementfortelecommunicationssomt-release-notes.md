@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-nowassistforsalesandordermanagementfortelecommunicationssomt-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -75,19 +75,19 @@ Zurich
 
 </td><td>
 
--   **[Order enrichment agent](https://servicenow-staging.fluidtopics.net/access?context=order-enrichment-agent-somt&family=zurich&ft:locale=en-US)**
+-   **[Order enrichment agent](https://www.servicenow.com/docs/access?context=order-enrichment-agent-somt&family=zurich)**
 
 Use the order enrichment AI agent to collect the customer order information, identify if the order needs enrichment, and create the enrichment tasks. The AI agent creates a task and triggers the order fulfillment AI agent on its completion.
 
--   **[Order fulfillment agent](https://servicenow-staging.fluidtopics.net/access?context=order-fulfillment-agent-somt&family=zurich&ft:locale=en-US)**
+-   **[Order fulfillment agent](https://www.servicenow.com/docs/access?context=order-fulfillment-agent-somt&family=zurich)**
 
 Use the order fulfillment agent to identify the tasks for domain orders using historical data from similar orders. After decomposition, the fulfillment AI agent creates and fulfills order tasks by checking the historical and applicable tasks.
 
--   **[Configure ACLs for AI agents and agentic workflows](https://servicenow-staging.fluidtopics.net/access?context=aia-security-implementation&family=zurich&ft:locale=en-US)**
+-   **[Configure ACLs for AI agents and agentic workflows](https://www.servicenow.com/docs/access?context=aia-security-implementation&family=zurich)**
 
 Configure the access control lists for who can discover and trigger AI agents and agentic workflows in their guided setups in AI Agent Studio. You can determine whether an AI agent or agentic workflow behaves as a dynamic user or as an AI user. You can also specify if an AI agent or agentic workflow can be available to all authenticated users or publicly available.
 
--   **[Role configuration required for agentic workflows and AI agents](https://servicenow-staging.fluidtopics.net/access?context=aia-role-masking&family=zurich&ft:locale=en-US)**
+-   **[Role configuration required for agentic workflows and AI agents](https://www.servicenow.com/docs/access?context=aia-role-masking&family=zurich)**
 
 Agentic workflows and AI agents included with Now Assist applications require additional security configuration. If you select **Users with selected roles** for your user access security controls for an agentic workflow or AI agent, you must add the installed roles, or they won't execute. Data access settings must also include these roles. See the documentation for the agentic workflow or AI agent for the specific roles you must add. After the roles are configured, users must have the specified role to invoke the agentic workflow or AI agent.
 
@@ -119,7 +119,7 @@ Zurich
 
 </td><td>
 
--   **[Changes to Now Assist usage measurement](https://servicenow-staging.fluidtopics.net/access?context=monitoring-now-assist-usage&family=zurich&ft:locale=en-US)**
+-   **[Changes to Now Assist usage measurement](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=zurich)**
 
 
 
@@ -209,7 +209,7 @@ Zurich
 
 </td><td>
 
-Now Assist features are available with activation of the Now Assist for TMT plugin. For more information, see [Install Now Assist plugins](https://servicenow-staging.fluidtopics.net/access?context=install-now-assist-feature-plugins&family=zurich&ft:locale=en-US).
+Now Assist features are available with activation of the Now Assist for TMT plugin. For more information, see [Install Now Assist plugins](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&family=zurich).
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -354,18 +354,18 @@ Zurich
 
 </td><td>
 
-[Zurich Patch 5](https://servicenow-staging.fluidtopics.net/access?context=zurich-patch-5&family=zurich&ft:locale=en-US)
+[Zurich Patch 5](https://www.servicenow.com/docs/access?context=zurich-patch-5&family=zurich)
 
 -   Review changes to Now Assist usage measurement.
 
- [Zurich Patch 4](https://servicenow-staging.fluidtopics.net/access?context=zurich-patch-4&family=zurich&ft:locale=en-US)
+ [Zurich Patch 4](https://www.servicenow.com/docs/access?context=zurich-patch-4&family=zurich)
 
 -   Collects the customer order information, identifies if the order needs enrichment, and creates the enrichment tasks. On closure of the enrichment task, it invokes the order fulfillment agent.
 -   Uses the historic order tasks to create the order tasks. If the historic data doesn't return any results, the large language model \(LLM\) is used to get the response.
 -   Checks the automation flow and fulfill order tasks.
 -   Additional role configuration is required for agentic workflows and AI agents included with Now Assist applications.
 
- See [Now Assist for Sales and Order Management for Telecommunications \(SOMT\)](https://servicenow-staging.fluidtopics.net/access?context=somt-now-assist&family=zurich&ft:locale=en-US) for more information.
+ See [Now Assist for Sales and Order Management for Telecommunications \(SOMT\)](https://www.servicenow.com/docs/access?context=somt-now-assist&family=zurich) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

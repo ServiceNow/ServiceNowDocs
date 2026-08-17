@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-healthcarecomputerizedmaintenancemanagementsystem-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -186,7 +186,7 @@ Xanadu
 
 </td><td>
 
-Starting with the Xanadu release, Healthcare Computerized Maintenance Management System is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details on this process, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base. For information on maintenance and servicing, please see [Field Service Management.](https://servicenow-staging.fluidtopics.net/access?context=fsm-application-landing-page&family=xanadu&ft:locale=en-US) For information on inventory and management, please see [Enterprise Asset Management for Healthcare](https://servicenow-staging.fluidtopics.net/access?context=eam-for-healthcare&family=xanadu&ft:locale=en-US).
+Starting with the Xanadu release, Healthcare Computerized Maintenance Management System is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details on this process, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base. For information on maintenance and servicing, please see [Field Service Management.](https://www.servicenow.com/docs/access?context=fsm-application-landing-page&family=xanadu&ft:locale=en-US) For information on inventory and management, please see [Enterprise Asset Management for Healthcare](https://www.servicenow.com/docs/access?context=eam-for-healthcare&family=xanadu&ft:locale=en-US).
 
 </td></tr><tr><td>
 

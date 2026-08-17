@@ -159,7 +159,7 @@ To keep the CSV config data in its original format when exporting the config dat
 
 [Uploading your config data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-family/cdm-upload-process.md)
 
-[Add the nodes that will contain config data to a new CDM application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-family/cdm-data-structure-add-for-upload.md)
+[Add nodes with config data to CDM application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-family/cdm-data-structure-add-for-upload.md)
 
 [Parsing of XML files in CDM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-family/cdm-parsing-xml-file.md)
 

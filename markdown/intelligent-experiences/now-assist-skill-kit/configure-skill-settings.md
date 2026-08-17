@@ -1,6 +1,6 @@
 ---
 title: Configure skill deployment settings
-description: Configure the deployment settings for the skill that you create. The deployment settings enable you to choose where the admin can find the skill in Now Assist Admin.
+description: Configure the deployment settings for the skill that you create. The deployment settings enable you to choose where the admin can find the skill in AI Admin Hub.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/now-assist-skill-kit/configure-skill-settings.html
 release: zurich
@@ -9,12 +9,12 @@ classification: now-assist-skill-kit
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Configuring Now Assist Skill Kit, Now Assist Skill Kit, Enable AI experiences]
+breadcrumb: [Configuring AI Skill Kit, AI Skill Kit, Enable AI experiences]
 ---
 
 # Configure skill deployment settings
 
-Configure the deployment settings for the skill that you create. The deployment settings enable you to choose where the admin can find the skill in Now Assist Admin.
+Configure the deployment settings for the skill that you create. The deployment settings enable you to choose where the admin can find the skill in AI Admin Hub.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: sn\_skill\_builder.admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Skill Kit** &gt; **Home**.
+1.  Navigate to **All** &gt; **AI Skill Kit** &gt; **Home**.
 
 2.  Select the skill that you want to configure.
 
@@ -34,7 +34,7 @@ Role required: sn\_skill\_builder.admin
 
 5.  Select **Deployment Settings**.
 
-    \[Omitted image "nask-deploy-settings.png"\] Alt text: Deployment Settings page for Now Assist Skill Kit.
+    \[Omitted image "nask-deploy-settings.png"\] Alt text: Deployment Settings page for AI Skill Kit.
 
 6.  On the form, fill in the fields.
 
@@ -54,7 +54,7 @@ Workflow
 
 The high-level category that this skill pertains to, such as**Technology**, **Employee**, **Creator**, or **Platform**. You can also select **Other** if none of the categories fit.
 
- The workflow that you choose is where the skill appears in the Now Assist Admin console.
+ The workflow that you choose is where the skill appears in the AI Admin Hub console.
 
 </td></tr><tr><td>
 
@@ -62,7 +62,7 @@ Product
 
 </td><td>
 
-The specific product that this skill operates within, such as ITSM, ITOM, HR Service Delivery, Now Assist Admin.
+The specific product that this skill operates within, such as ITSM, ITOM, HR Service Delivery, AI Admin Hub.
 
 </td></tr><tr><td>
 
@@ -110,7 +110,7 @@ After you configure the skill settings, you can publish your skill. To learn mor
 -   **[Example deployment with Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skill-kit/example-deployment-flow-designer.md)**  
 As an AI developer, you can deploy custom skills with many integrations, including Workflow Studio.
 
-**Parent Topic:**[Configuring Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skill-kit/configuring-now-assist-skill-kit.md)
+**Parent Topic:**[Configuring AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skill-kit/configuring-now-assist-skill-kit.md)
 
 **Related topics**  
 

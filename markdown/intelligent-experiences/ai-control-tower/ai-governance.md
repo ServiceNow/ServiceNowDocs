@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [Now Assist, Gen AI, Generative AI, AI Governance, Now LLM, large language model]
-breadcrumb: [Explore, AI Control Tower, Enable AI experiences]
+breadcrumb: [Explore, AI Control Tower \(legacy\), Enable AI experiences]
 ---
 
 # AI Control Tower dashboard

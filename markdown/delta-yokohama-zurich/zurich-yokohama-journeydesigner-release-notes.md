@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-journeydesigner-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
@@ -75,9 +75,14 @@ Zurich
 
 </td><td>
 
-[Zurich Patch 1](https://servicenow-staging.fluidtopics.net/access?context=zurich-patch-1&family=zurich&ft:locale=en-US)
+[Zurich Patch 1](https://www.servicenow.com/docs/access?context=zurich-patch-1&family=zurich&ft:locale=en-US)[Zurich Patch 7](https://www.servicenow.com/docs/access?context=zurich-patch-7&family=zurich&ft:locale=en-US)
 
--   **[Generate onboarding ramp-up agentic workflow](https://servicenow-staging.fluidtopics.net/access?context=onboarding-ramp-up-plan-agentic-wf&family=zurich&ft:locale=en-US)**
+-   **[Offboarding knowledge transfer plan generation agentic workflow](https://www.servicenow.com/docs/access?context=offboarding-knowledge-x-agentic-wf&family=zurich&ft:locale=en-US)**
+
+The offboarding knowledge transfer plan generation agentic workflow captures and organizes critical knowledge when employees leave. AI agents interact with managers to collect requirements, discover documents from the specified time period, categorize content into meaningful work areas, and facilitate employee review before sharing with successors.
+
+
+-   **[Generate onboarding ramp-up agentic workflow](https://www.servicenow.com/docs/access?context=onboarding-ramp-up-plan-agentic-wf&family=zurich&ft:locale=en-US)**
 
 Use the Generate onboarding ramp-up plan agentic workflow to establish an efficient process for generating onboarding plans that are personalized for each new employee joining your organization.
 
@@ -85,14 +90,14 @@ Use the Generate onboarding ramp-up plan agentic workflow to establish an effici
     |---------------------|-----------|
     |Generate onboarding ramp-up plan|AI agents work together to generate personalized plans that are designed to ramp up the knowledge and skills of new employees who are beginning to embark on their onboarding journey.|
 
--   **[New third-party AI model provider options available for all Now Assist applications](https://servicenow-staging.fluidtopics.net/access?context=exploring-large-language-models&family=zurich&ft:locale=en-US)**
+-   **[New third-party AI model provider options available for all AI applications](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=zurich&ft:locale=en-US)**
 
-Google Gemini and AWS Claude are available for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
+Google Gemini and AWS Claude are available for generative AI skills and AI agents, in addition to Now LLM Service and Azure OpenAI.
 
 
 Zurich Early Availability
 
--   **[Configure the journey overview page](https://servicenow-staging.fluidtopics.net/access?context=manager-journeys-view&family=zurich&ft:locale=en-US)**
+-   **[Configure the journey overview page](https://www.servicenow.com/docs/access?context=manager-journeys-view&family=zurich&ft:locale=en-US)**
 
 As an admin, you can now configure the journey overview page and hide the Task Templates and Create a Journey for Your Team widgets.
 
@@ -182,8 +187,8 @@ Zurich
 
 </td><td>
 
--   Learning Posts. All Learning Posts capabilities are now integrated within Journey designer. For more information, see [Learning Posts release notes](https://servicenow-staging.fluidtopics.net/access?context=learning-posts-rn&family=zurich&ft:locale=en-US).
--   Listening Posts. For more information, see [Listening Posts release notes](https://servicenow-staging.fluidtopics.net/access?context=listening-posts-rn&family=zurich&ft:locale=en-US).
+-   Learning Posts. All Learning Posts capabilities are now integrated within Journey designer. For more information, see [Learning Posts release notes](https://www.servicenow.com/docs/access?context=learning-posts-rn&family=zurich&ft:locale=en-US).
+-   Listening Posts. For more information, see [Listening Posts release notes](https://www.servicenow.com/docs/access?context=listening-posts-rn&family=zurich&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Activation information
@@ -204,7 +209,7 @@ Yokohama
 
 </td><td>
 
-Install Journey designer by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+Install Journey designer by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -367,7 +372,7 @@ Yokohama Patch 3
     -   Account Notification
     -   Add LE activity user to Pulse Survey
 
- See [Journey designer](https://servicenow-staging.fluidtopics.net/access?context=jny-dsgnr-landing-page&family=yokohama&ft:locale=en-US) for more information.
+ See [Journey designer](https://www.servicenow.com/docs/access?context=jny-dsgnr-landing-page&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -381,7 +386,7 @@ Zurich
     -   Configure the Journey overview page using the widgets option to hide or show Task Templates and Create a Journey for Your Team widgets.
 -   The pre-hire onboarding experience enables a seamless journey for an applicant transitioning from an onboarding pre-hire to a full-time employee.
 
- See [Journey Designer](https://servicenow-staging.fluidtopics.net/access?context=jny-dsgnr-landing-page&family=zurich&ft:locale=en-US) for more information.
+ See [Journey Designer](https://www.servicenow.com/docs/access?context=jny-dsgnr-landing-page&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

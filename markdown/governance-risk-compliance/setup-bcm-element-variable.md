@@ -16,13 +16,13 @@ As a functional system administrator, you can set up an element variable that is
 
 ## Before you begin
 
-Role required: admin
+Role required: admin, sn\_bcm.admin
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Business Continuity** &gt; **General Administration** &gt; **Element Variables**.
 
-2.  Click **New**.
+2.  Select **New**.
 
 3.  On the form, fill in the fields.
 

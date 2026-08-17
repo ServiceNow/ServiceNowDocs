@@ -30,15 +30,15 @@ Role required: sn\_sec\_tisc.admin
 
 3.  Click **New**.
 
-<table id="choicetable_cfv_dkn_zbc"><thead><tr><th align="left" id="d45070e93">
+<table id="choicetable_cfv_dkn_zbc"><thead><tr><th align="left" id="d45180e93">
 
 Field
 
-</th><th align="left" id="d45070e96">
+</th><th align="left" id="d45180e96">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d45070e102">
+</th></tr></thead><tbody><tr><td id="d45180e102">
 
 **Name**
 
@@ -46,7 +46,7 @@ Description
 
 Enter a webhook trigger name.
 
-</td></tr><tr><td id="d45070e111">
+</td></tr><tr><td id="d45180e111">
 
 **Description**
 
@@ -54,7 +54,7 @@ Enter a webhook trigger name.
 
 Add the description of the webhook trigger.
 
-</td></tr><tr><td id="d45070e120">
+</td></tr><tr><td id="d45180e120">
 
 **Table**
 
@@ -62,7 +62,7 @@ Add the description of the webhook trigger.
 
 Select the table for the webhook trigger.
 
-</td></tr><tr><td id="d45070e129">
+</td></tr><tr><td id="d45180e129">
 
 **Trigger Type**
 
@@ -76,7 +76,7 @@ These are the list of fields on the record for which the update event needs to b
 
 **Delete**: If the **Trigger Type: Delete** then the Exclusion Fields is not visible.
 
-</td></tr><tr><td id="d45070e166">
+</td></tr><tr><td id="d45180e166">
 
 **Exclusion Fields**
 
@@ -84,7 +84,7 @@ These are the list of fields on the record for which the update event needs to b
 
 These are the set of fields which are excluded from the webhook trigger payload.
 
-</td></tr><tr><td id="d45070e175">
+</td></tr><tr><td id="d45180e175">
 
 **Filter Conditions**
 

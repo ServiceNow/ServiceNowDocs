@@ -7,7 +7,7 @@ release: zurich
 product: ServiceNow Lens
 classification: servicenow-lens
 topic_type: concept
-last_updated: "2025-03-20"
+last_updated: "2026-08-04"
 reading_time_minutes: 1
 keywords: [Supporting information for ServiceNow Lens]
 breadcrumb: [Explore, ServiceNow AI Lens, Enable AI experiences]
@@ -23,7 +23,7 @@ ServiceNow AI Lens is supported from Yokohama Patch 6 and Zurich Patch 1.
 
 ## Supported user interfaces
 
-To scan artifacts such as images, scanned handwritten notes, Excel sheets, web pages using Now Assist, enable the ServiceNow AI Lens application and then activate the ServiceNow AI Lens skill. For more information, see [Configure ServiceNow AI Lens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-lens/install-sn-lens.md).
+To scan artifacts such as images, scanned handwritten notes, Excel sheets, web pages using AI, enable the ServiceNow AI Lens application and then activate the ServiceNow AI Lens skill. For more information, see [Configure ServiceNow AI Lens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-lens/install-sn-lens.md).
 
 The ServiceNow AI Lens application includes the skills that are listed in the following table.
 
@@ -56,5 +56,5 @@ Enable the ServiceNow AI Lens \(com.sn\_ai\_lens\) app plugin to use the Service
 This store app has the following dependencies:
 
 -   ServiceNow AI Lens Core \(sn\_app\_lens\_core\)
--   Now Assist for Platform \(sn\_genai\_platform\)
+-   ServiceNow Otto for Platform \(sn\_genai\_platform\)
 

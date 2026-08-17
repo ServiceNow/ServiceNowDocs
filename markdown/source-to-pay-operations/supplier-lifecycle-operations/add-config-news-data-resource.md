@@ -1,20 +1,20 @@
 ---
 title: Add and configure the Get News data resource in UI Builder
-description: Add and configure the Get News - Composite data resource in UI Builder to dynamically retrieve supplier news in the News and Activity section of the Source-to-Pay Workspace.
+description: Configure the Get News - Composite data resource to display supplier news in the News and Activity section of the Source-to-Pay Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/supplier-lifecycle-operations/add-config-news-data-resource.html
 release: zurich
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 3
+last_updated: "2026-03-12"
+reading_time_minutes: 2
 breadcrumb: [Configuring a custom API to dynamically fetch supplier news, News Integration, Integrate, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 
 # Add and configure the Get News data resource in UI Builder
 
-Add and configure the Get News - Composite data resource in UI Builder to dynamically retrieve supplier news in the News and Activity section of the Source-to-Pay Workspace.
+Configure the Get News - Composite data resource to display supplier news in the News and Activity section of the Source-to-Pay Workspace.
 
 ## Before you begin
 

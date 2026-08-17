@@ -1,5 +1,5 @@
 ---
-title: Automated Certificate Renewal
+title: Automated certificate renewal
 description: Detect certificates that are about to expire and renew them automatically before expiration to keep your digital systems secure and continuously available.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/automated-certificate-renewal.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
 
-# Automated Certificate Renewal
+# Automated certificate renewal
 
 Detect certificates that are about to expire and renew them automatically before expiration to keep your digital systems secure and continuously available.
 

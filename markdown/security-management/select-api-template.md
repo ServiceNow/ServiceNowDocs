@@ -1,28 +1,28 @@
 ---
 title: Create an API connector with generative AI
-description: Use the SPC Setup Connector skill to help you automatically complete configuration steps 3-5 in the Connector builder in the Security Posture Control Workspace.
+description: Use the SPC Setup Connector skill to automatically complete configuration steps 3-5 in the Connector builder in the Security Posture Control Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/select-api-template.html
 release: zurich
 topic_type: task
-last_updated: "2026-05-26"
+last_updated: "2026-07-31"
 reading_time_minutes: 4
 breadcrumb: [Creating an API connector with a generative AI skill, Use, Unified Security Exposure Management, Security Operations]
 ---
 
 # Create an API connector with generative AI
 
-Use the SPC Setup Connector skill to help you automatically complete configuration steps 3-5 in the Connector builder in the Security Posture Control Workspace.
+Use the SPC Setup Connector skill to automatically complete configuration steps 3-5 in the Connector builder in the Security Posture Control Workspace.
 
 ## Before you begin
 
-To view and use the generative AI skills agentic workflows in the Unified Security Exposure Management you must upgrade to Unified Security Exposure Management. See [Unified Security Exposure Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/secops-sem-rn.md) for more information.
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
 
-The SPC Setup Connector skill is included with Now Assist for Vulnerability Response and the skill is activated by default. For more information about configuring this skill, see [Configure a generative AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/activate-skills-now-assist-vulnerability-response.md).
+The SPC Setup Connector skill is included with ServiceNow Otto for Unified Security Exposure Management and the skill is activated by default. For more information about configuring this skill, see [Configure a generative AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/activate-skills-now-assist-vulnerability-response.md).
 
-**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
-You must complete steps one and two in the workspace before you can invoke the SCP Setup Connector Now Assist skill. See [Enter metadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/spc-sgc-template-stepper1.md) and [Create connector alias and connection credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/spc-sgc-template-stepper2.md) for more information.
+Complete steps 1 and 2 in the workspace before invoking the SCP Setup Connector skill. See [Enter metadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/spc-sgc-template-stepper1.md) and [Create connector alias and connection credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/spc-sgc-template-stepper2.md).
 
 Role required: admin
 
@@ -30,11 +30,11 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **Security Posture Control** &gt; **Connector builder** and complete steps 1 and 2, if not already completed.
 
-2.  In step 3, select **Use Now Assist**.
+2.  In step 3, select **Use ServiceNow Otto**.
 
-3.  Fill in the fields.
+3.  Complete the fields.
 
-    **Note:** An error is displayed if the API document URL is not supported, or it is not related to asset listing data.
+    **Note:** An error is displayed if the API document URL is not supported or is not related to asset listing data.
 
 <table><thead><tr><th>
 
@@ -58,32 +58,30 @@ API Endpoint \(Optional\)
 
 </td><td>
 
-You might prefer to use this field if the API page has too many details, or if it's a PDF, or if it's in JASON and not HTML format. You can add an endpoint to a base URL.
+You might prefer to use this field if the API page has too many details, if it's a PDF, or if it's in JASON and not HTML format. You can add an endpoint to a base URL.
 
  For example, you have `https://developer.yourvendor.com`. Locate the endpoint you want in the API documentation \(`documentation/api/assets`\) and enter it in this field.
 
 </td></tr></tbody>
 </table>4.  Select **Set it up for me**.
 
-    The Now Assist skill automatically selects a template, provides input parameters, tests the API connection, and maps parameters.
+    The AI skill automatically selects a template, provides input parameters, tests the API connection, and maps parameters.
 
-    The process takes a few moments and progress is displayed in the modal.
+    The AI skill generates a response sample and schema based on the API documentation you provided. Verify the sample response, schema, and mapping for accuracy before you [validate your connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/spc-sgc-validate-api-connector.md) and publish it.
 
-    Now Assist generates a response sample and schema based on the API documentation you uploaded in the previous step. You must check the sample response and schema for accuracy and the mapping for accuracy before you [validate your connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/spc-sgc-validate-api-connector.md) and publish it.
+    **Important:**
 
-    **Note:**
+    Review and verify that all information generated by the AI skill is correct. AI-generated content can be inaccurate. Implement human review before using AI-generated configurations in production.
 
-    A warning message is displayed that prompts you to review and verify that all the information generated by the Now Assist skill is correct.
-
-    An error message is displayed if the Now Assist skill cannot provide input, for example, if it cannot select a template based on the information you provided. If you see an error message, you cannot select **Apply configuration** and proceed to the next step.
+    An error message is displayed if the AI skill cannot provide input, for example, if it cannot select a template based on the information you provided. If you see an error message, you cannot select **Apply configuration** and proceed to the next step.
 
 5.  Select **Apply configuration**.
 
-    The Select template step in the Connector builder is displayed and a template had been automatically selected.
+    The Select template step in the Connector builder is displayed with a template automatically selected.
 
 6.  Select **Save and continue**.
 
-    The Provide inputs step is displayed. The following information is automatically populated in the form for you based on the vendor documentation that you provided.
+    The Provide inputs step is displayed. The following information is automatically populated based on the vendor documentation you provided.
 
     **Note:** You do not need to select **Get sample response**.
 
@@ -94,20 +92,20 @@ You might prefer to use this field if the API page has too many details, or if i
     -   Pagination parameters
 7.  Review the information and edit the fields as needed.
 
-8.  Select **Save and continue** after you have reviewed the values.
+8.  Select **Save and continue** after you verify the values.
 
-    If you do not see an API sample, or an error is displayed, follow the prompts in the message to enter any missing values.
+    If you do not see an API sample or an error is displayed, follow the prompts in the message to enter any missing values.
 
-    The Map response step is displayed after a successful import. The input parameters have been mapped automatically to Security Posture Control \(SPC\) attributes and policies from the sample data generated by your connector.
+    The Map response step is displayed after a successful import. The input parameters are automatically mapped to Security Posture Control \(SPC\) attributes and policies from the sample data generated by your connector.
 
     Verify the values by reviewing the API response sample for SPC attributes and the API response schema sample for API attributes in the Reference window.
 
-    This sample data is aggregated, and the mapping is editable. Additionally, you can and create custom attributes for your SPC policies as needed.
+    This sample data is aggregated, and the mapping is editable. You can create custom attributes for your SPC policies as needed.
 
     For more information about mapping that includes combining values to populate a single field, see [Map response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/spc-sgc-stepper-5.md) in the Security Posture Control product documentation.
 
-9.  See [validate your connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/spc-sgc-validate-api-connector.md) in the Security Posture Control product documentation for more information about the validation step, publishing your connector, and completing the process.
+9.  See [Validate your connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/spc-sgc-validate-api-connector.md) in the Security Posture Control product documentation for information about the validation step, publishing your connector, and completing the process.
 
 
-**Parent Topic:**[Creating an API connector with generative ai](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/using-now-assist-api-connector.md)
+**Parent Topic:**[Creating an API connector with generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/using-now-assist-api-connector.md)
 

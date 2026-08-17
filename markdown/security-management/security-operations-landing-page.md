@@ -21,11 +21,11 @@ Choose one of these tiles to get started.
 
 </td><td>
 
-[Now Assist for Security Incident Response\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Learn how Now Assist for Security Incident Response supports ServiceNow® Generative AI \(GenAI\) skills in the Security Incident Response Workspace and in the Core UI \(UI16\).](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/now-assist-for-security-incident-response-sir/now-assist-security-incident-landing.md)
+[Now Assist for Security Incident Response\[Omitted image "bus-ai-otto.svg"\] Alt text:Learn how Now Assist for Security Incident Response supports ServiceNow® Generative AI \(GenAI\) skills in the Security Incident Response Workspace and in the Core UI \(UI16\).](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/now-assist-for-security-incident-response-sir/now-assist-security-incident-landing.md)
 
 </td><td>
 
-[Now Assist for Vulnerability Response\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Learn how Now Assist for Vulnerability Response supports ServiceNow® Generative AI \(GenAI\) skills in the Vulnerability Response Workspace and in the Core UI \(UI16\).](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/now-assist-for-vulnerability-response-vr/now-assist-for-vulnerability-response-landing.md)
+[SerivceNow Otto for Unified Security Exposure Management\[Omitted image "bus-ai-otto.svg"\] Alt text:Learn how ServiceNow Otto for Unified Security Exposure Management supports ServiceNow® Generative AI \(GenAI\) skills in the Vulnerability Response Workspaces and in the Core UI \(UI16\).](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/now-assist-for-vulnerability-response-vr/now-assist-for-usem-landing-ties.md)
 
 </td></tr><tr><td>
 

@@ -1,5 +1,5 @@
 ---
-title: Generate acceptance criteria for stories using Now Assist for Strategic Portfolio Management \(SPM\)
+title: Generate acceptance criteria for stories using ServiceNow Otto for Strategic Portfolio Management
 description: Create clear, comprehensive, and testable acceptance criteria for user stories without writing them manually in Agile Development 2.0. Review and refine suggested options to ensure they meet your requirements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/agile-development/generate-acceptance-criteria-for-stories.html
@@ -12,13 +12,13 @@ reading_time_minutes: 1
 breadcrumb: [Use, Agile Development 2.0, Strategic Portfolio Management]
 ---
 
-# Generate acceptance criteria for stories using Now Assist for Strategic Portfolio Management \(SPM\)
+# Generate acceptance criteria for stories using ServiceNow Otto for Strategic Portfolio Management
 
 Create clear, comprehensive, and testable acceptance criteria for user stories without writing them manually in Agile Development 2.0. Review and refine suggested options to ensure they meet your requirements.
 
 ## Before you begin
 
-Ensure that Now Assist for SPM is installed in your instance and that the following two skills are active:
+Ensure that ServiceNow Otto for SPM is installed in your instance and that the following two skills are active:
 
 -   Acceptance criteria generation
 -   Refine records

@@ -24,9 +24,9 @@ Role required: manager
 
 1.  Navigate to **All** &gt; **Employee Center** &gt; **Your team** &gt; **Team members**.
 
-2.  Select the Now Assist icon to start a conversation with the agent.
+2.  Select the ServiceNow Otto icon to start a conversation with the agent.
 
-3.  Converse with Now Assist in Virtual Agent to view or receive an update on a feedback request.
+3.  Converse with ServiceNow Otto to view or receive an update on a feedback request.
 
 4.  Select the employee who you'd like to view feedback for from the drop-down options suggested by the agent.
 
@@ -35,8 +35,6 @@ Role required: manager
 5.  View the summary or update on the feedback request you sent in the last 3 days.
 
 6.  Select **View all received feedback** to navigate to the feedback summary details page.
-
-    \[Omitted image "view-feedback-option.png"\] Alt text: View all received feedback option
 
     Navigate through the Feedback page for insights gathered for the selected employee from the following options:
 

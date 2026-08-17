@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2025-11-04"
 reading_time_minutes: 1
-breadcrumb: [User story integration, Scan Engine integrations, Scan Engine, Platform Health, Using Impact, Impact]
+breadcrumb: [Scan Engine integrations, Scan Engine, Platform Health, Using Impact, Impact]
 ---
 
 # Configure other integration options

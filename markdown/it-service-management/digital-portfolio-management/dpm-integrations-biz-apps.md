@@ -163,7 +163,7 @@ Risk data related to your business applications
 
 </td></tr><tr><td>
 
-Technology Portfolio Management \(TPM\)
+Technology Lifecycle Management \(TLM\)
 
 </td><td>
 

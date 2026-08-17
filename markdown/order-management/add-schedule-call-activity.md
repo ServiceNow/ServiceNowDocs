@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/add-sch
 release: zurich
 topic_type: task
 last_updated: "2025-11-11"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Create sequences, Customer Engagement Sequences, Lead and opportunity apps, Use, Sales Customer Relationship Management]
 ---
 
@@ -40,7 +40,7 @@ You can add the Schedule call activity with other activities in a stage or in it
 
 5.  In the sequence diagram, create a stage to add the activity.
 
-    For more information, see .
+    For more information, see [Add and configure a stage in a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/add-configure-stage.md).
 
 6.  Within a stage, select the Add icon \[Omitted image "circle-plus-fill-24.svg"\] Alt text:.
 
@@ -64,7 +64,7 @@ You can add the Schedule call activity with other activities in a stage or in it
 **Related topics**  
 
 
-[bundle-crworkflow.start-with-delay-properties]
+[Start with delay input properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/start-with-delay-properties.md)
 
 [Add decision nodes to a sequence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/add-decision-nodes-sequences.md)
 

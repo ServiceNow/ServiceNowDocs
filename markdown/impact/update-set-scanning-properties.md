@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2025-11-04"
 reading_time_minutes: 2
-breadcrumb: [Configure Scan Engine properties, Scan Engine, Platform Health, Using Impact, Impact]
+breadcrumb: [Configure Scan Engine parameters, Scan Engine, Platform Health, Using Impact, Impact]
 ---
 
 # Configure update set scanning properties

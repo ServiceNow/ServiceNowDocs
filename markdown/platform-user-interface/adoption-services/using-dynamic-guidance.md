@@ -21,6 +21,8 @@ Learn how to invoke Dynamic Guidance and use it effectively to enhance your expe
 
 Role required: sn\_dyn\_guidance\_user
 
+**Note:** Starting with Dynamic Guidance version 28.4.3, the genai\_admin role is automatically included when the sn\_dyn\_guidance\_user role is assigned. The genai\_admin role does not grant administrative privileges.
+
 Google must be turned on in AI control tower for Dynamic Guidance to work.
 
 ## How to use Dynamic Guidance

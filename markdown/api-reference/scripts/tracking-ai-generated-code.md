@@ -9,7 +9,7 @@ classification: scripts
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Use Now Assist for Code, Now Assist for Code, Scripting, API implementation, API implementation and reference]
+breadcrumb: [Use Now Assist for Code, ServiceNow Otto for Code, Scripting, API implementation, API implementation and reference]
 ---
 
 # Tracking AI-generated code

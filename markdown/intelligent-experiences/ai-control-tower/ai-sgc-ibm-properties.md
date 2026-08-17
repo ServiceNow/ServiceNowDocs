@@ -9,7 +9,7 @@ classification: ai-control-tower
 topic_type: reference
 last_updated: "2026-05-01"
 reading_time_minutes: 1
-breadcrumb: [IBM, Service Graph Connectors for AI Control Tower, AI connections, Explore, AI Control Tower, Enable AI experiences]
+breadcrumb: [IBM, Service Graph Connectors for AI Control Tower, AI connections, Explore, AI Control Tower \(legacy\), Enable AI experiences]
 ---
 
 # AI Service Graph Connector for IBM properties
@@ -18,7 +18,7 @@ AI Service Graph Connector for IBM properties control the behavior of the connec
 
 ## Connection properties
 
-These connection properties are available for AI Service Graph Connector for IBM.
+These connection properties are available for AI Service Graph Connector for IBM. These connection properties are automatically set when a new connection is configured and runtime or orchestrate services are selected.
 
 <table id="table_conn_props_datadog"><thead><tr><th>
 

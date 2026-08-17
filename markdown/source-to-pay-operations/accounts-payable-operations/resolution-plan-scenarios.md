@@ -1,21 +1,21 @@
 ---
 title: Resolution plan scenarios
-description: The Recommend invoice owner AI agent handles different scenarios when resolving Missing or invalid business owner exceptions. For each scenario, the AI agent recommends a resolution plan based on historically processed invoices and supplier information.
+description: Resolution plan scenarios recommended by the Recommend invoice owner AI agent based on historical invoice data and supplier information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/accounts-payable-operations/resolution-plan-scenarios.html
 release: zurich
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: reference
-last_updated: "2025-11-11"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
-keywords: [AI agent, Now Assist]
-breadcrumb: [Recommend invoice owner AI agent, Using AI agents in Now Assist for Accounts Payable Operations, Now Assist for APO, Accounts Payable Operations, Finance and Supply Chain]
+keywords: [APO, Accounts Payable Operations, AI agent, Now Assist, invoice processing, supplier, Automatic assignment property]
+breadcrumb: [Recommend invoice owner AI agent, Use AI agents in ServiceNow Otto for Accounts Payable Operations \(APO\), ServiceNow Otto for APO, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Resolution plan scenarios
 
-The Recommend invoice owner AI agent handles different scenarios when resolving Missing or invalid business owner exceptions. For each scenario, the AI agent recommends a resolution plan based on historically processed invoices and supplier information.
+Resolution plan scenarios recommended by the Recommend invoice owner AI agent based on historical invoice data and supplier information.
 
 For information on using the Recommend invoice owner AI agent, see [Use Recommend invoice owner AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/use-recommend-invoice-owner-ai-agent.md).
 

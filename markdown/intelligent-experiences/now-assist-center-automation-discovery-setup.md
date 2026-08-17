@@ -1,30 +1,37 @@
 ---
-title: Set up automation opportunity discovery in Now Assist Center
+title: Setting up automation opportunity discovery in AI Admin Center
 description: Configure the data sources, filters, and schedule that AI Agent Advisor uses to analyze your instance and identify automation opportunities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/now-assist-center-automation-discovery-setup.html
 release: zurich
 topic_type: concept
-last_updated: "2026-06-03"
+last_updated: "2026-07-30"
 reading_time_minutes: 1
-keywords: [AI Agent Advisor, Now Assist, Now Assist Center, Gen AI, Generative AI]
-breadcrumb: [Configure, Now Assist Center, Enable AI experiences]
+keywords: [AI Admin Center, Now Assist Center, AI, AI setup, AI Agent Advisor]
+breadcrumb: [Configure, AI Admin Center, Enable AI experiences]
 ---
 
-# Set up automation opportunity discovery in Now Assist Center
+# Setting up automation opportunity discovery in AI Admin Center
 
 Configure the data sources, filters, and schedule that AI Agent Advisor uses to analyze your instance and identify automation opportunities.
 
-AI Agent Advisor runs a scheduled analysis of your instance records to discover automation opportunities. Follow these steps to specify which records to include, apply filters to focus the analysis, and set the frequency and timing of the analysis.
+AI Agent Advisor runs a scheduled analysis of your instance records to discover automation opportunities. Follow these steps to specify which base system or custom data sourcesto include, apply filters to focus the analysis, and set the frequency and timing of the analysis.
 
-For more information, see [Set up automation opportunity discovery for AI Agent Advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-set-up-automation-discovery.md).
+-   **[Set up a data source for analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-admin-center-set-up-data-source.md)**  
+Create and activate a scheduled analysis of your instance records to discover automation opportunities.
+-   **[Edit an analysis data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-agent-advisor-edit-data-source.md)**  
+Edit a scheduled analysis of your instance records.
+-   **[Deactivate an analysis data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-agent-advisor-deactivate-data-source.md)**  
+Deactivate a data source analysis that you no longer want to run for automation opportunity discovery.
+-   **[Activate a deactivated analysis data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-agent-advisor-activate-data-source.md)**  
+Reactivate a previously deactivated data source analysis.
 
-**Parent Topic:**[Configuring Now Assist Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/configuring-now-assist-center.md)
+**Parent Topic:**[Configuring AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/configuring-now-assist-center.md)
 
 **Related topics**  
 
 
-[Confirm installation of Now Assist Center]()
+[Confirm installation of AI Admin Center]()
 
-[Enable the Now Assist panel]()
+[Enable the ServiceNow Otto panel]()
 

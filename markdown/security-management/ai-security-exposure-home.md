@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/ai-security-exposure-home.html
 release: zurich
 topic_type: concept
-last_updated: "2026-07-06"
+last_updated: "2026-07-23"
 reading_time_minutes: 5
 breadcrumb: [Security Exposure Management Workspace, Explore, Unified Security Exposure Management, Security Operations]
 ---
@@ -43,7 +43,7 @@ Select a tab to view visualizations for each category.
 
 ## Overview section
 
-The Overview section displays the total counts of finding remediation status for AI vulnerabilities, AI validation findings, and AI posture findings of AI exposures for Open findings, Unassigned, Approaching Target, and Overdue.
+The Overview section displays the total counts of finding remediation status. Totals are displayed for AI vulnerabilities, AI validation findings, and AI posture findings of AI exposures for Open findings, Unassigned, Approaching Target, and Overdue.
 
 Select a tab to filter your lists by category and select a tile to open the filtered lists.
 
@@ -71,7 +71,7 @@ This is data about vulnerabilities that are discovered in open source AI models 
 
     -   By risk rating - Findings grouped by severity \(Critical to None\).
     -   By top 5 categories - Vulnerability types detected, for example, Unapproved, Knowledge Base Poisoning, Obfuscation vulnerability, Unauthorized, and so on. Each bar represents a class of unsafe model file behavior.
-    -   By top 5 MITRE ATLAS techniques - Adversarial Threat Landscape for Artificial-Intelligence Systems \(ATLAS\) is a knowledge base of tactics and techniques attackers use against AI/ML systems — the AI-specific cousin of MITRE ATT&amp;CK. Findings are tagged to ATLAS techniques so an analyst can understand the adversarial behavior behind a finding, not just the symptoms.
+    -   By top 5 MITRE ATLAS techniques - Adversarial Threat Landscape for Artificial-Intelligence Systems \(ATLAS\) is a knowledge base of tactics and techniques attackers use against AI/ML systems. It is the AI-specific cousin of MITRE ATT&amp;CK. Findings are tagged to ATLAS techniques so an analyst can understand the adversarial behavior behind a finding, not just the symptoms.
     -   By open vs closed state - A trend line of findings opened vs. closed over time. Lets you see if the backlog is increasing or decreasing.
 
 ## AI validation findings tab

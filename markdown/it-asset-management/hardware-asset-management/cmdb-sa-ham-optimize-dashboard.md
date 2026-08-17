@@ -8,7 +8,8 @@ product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
+keywords: [manage HAM advisor scope, edit model categories, HAM advisor scope management]
 breadcrumb: [Set up advisor, Use HAM advisor, Asset and CI management, Explore, Hardware Asset Management, IT Asset Management]
 ---
 
@@ -26,9 +27,9 @@ Control which resource and model categories are included in the HAM advisor dash
 
 ## Procedure
 
-1.  On the HAM advisor dashboard, select **Edit model categories**.
+1.  On the HAM advisor dashboard, select **Edit dashboard scope**.
 
-2.  In the Edit model categories dialog box, add or remove categories to update the model category selection.
+2.  In the Edit dashboard scope dialog box, add or remove categories to update the model category selection.
 
     |Purpose|Action|Data coverage|
     |-------|------|-------------|
@@ -43,5 +44,5 @@ Control which resource and model categories are included in the HAM advisor dash
 
 ## Result
 
-The HAM dashboard in CMDB success advisor is updated to reflect the data based on the model category selection.
+The HAM dashboard in CMDB success advisor is updated to reflect the data based on the model category selection. Dashboard metrics refresh once daily when the **CMDB Advisor - HAM Daily Data Collection** scheduled job runs. The scheduled job invokes the **CMDB success advisor data collection for HAM** Performance Analytics job to recalculate the pre-aggregated indicators used throughout the dashboard. For more information about Performance Analytics jobs, see [Collecting indicator scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/c_ClctData.md). Changes to your model category selection appear in the dashboard metrics after this job's next run, not immediately. For the full list of CMDB success advisor scheduled jobs, see [Components installed with CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/cmdb-sa-components-installed.md).
 

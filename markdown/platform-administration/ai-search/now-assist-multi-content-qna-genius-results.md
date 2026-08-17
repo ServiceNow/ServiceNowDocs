@@ -1,56 +1,54 @@
 ---
-title: Now Assist Multi-Content Response Genius Results
-description: Now Assist Multi-Content Response Genius Results use an LLM to generate search and chat responses that synthesize information from knowledge articles, Service Catalog items, and other available content types.
+title: Summary Genius Results
+description: Summary Genius Results use an LLM to generate search and chat responses that synthesize information from knowledge articles, Service Catalog items, and other available content types.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/now-assist-multi-content-qna-genius-results.html
 release: zurich
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2025-12-18"
-reading_time_minutes: 7
+last_updated: "2026-07-25"
+reading_time_minutes: 6
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configuring Now Assist in AI Search, Now Assist in AI Search, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer]
+breadcrumb: [Configuring Now Assist in AI Search, ServiceNow Otto for AI Search, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer]
 ---
 
-# Now Assist Multi-Content Response Genius Results
+# Summary Genius Results
 
-Now Assist Multi-Content Response Genius Results use an LLM to generate search and chat responses that synthesize information from knowledge articles, Service Catalog items, and other available content types.
+Summary Genius Results use an LLM to generate search and chat responses that synthesize information from knowledge articles, Service Catalog items, and other available content types.
 
-## Now Assist Multi-Content Response Genius Results overview
+## Summary Genius Results overview
 
-Now Assist Multi-Content Response Genius Results is a Now Assist skill in the Platform workflow. It's included in the Conversational experience skill group.
+Summary Genius Results is a Now Assist skill in the Platform workflow. It's included in the Conversational experience skill group.
 
-You can use this skill in portal search and in global/workspace search in place of the legacy Now Assist Q&amp;A Genius Results and Now Assist Actions Genius Results configurations. It improves on those legacy Genius Result configurations in multiple ways:
+You can use this skill in portal search and in global/workspace search in place of the legacy Knowledge base articles Genius Results and Actions Genius Results configurations. It improves on those legacy Genius Result configurations in multiple ways:
 
 -   **Broader source information**
 
-    Now Assist Multi-Content Response Genius Results use an improved LLM pipeline to display synthesized responses that can include information drawn from knowledge articles, Service Catalog items, Knowledge Graph schema node content, enhanced chat conversation and search results, and external content documents and attachments. Answers include citations to help users view the search results cited in the synthesized response.
+    Summary Genius Results use an improved LLM pipeline to display synthesized responses that can include information drawn from knowledge articles, Service Catalog items, Knowledge Graph schema node content, enhanced chat conversation and search results, and external content documents and attachments. Answers include citations to help users view the search results cited in the synthesized response.
 
-    By comparison, Now Assist Q&amp;A Genius Results only display answers generated from knowledge articles using a legacy LLM pipeline, while Now Assist Actions Genius Results only display Catalog Items and Virtual Agent topics as answers.
+    By comparison, Knowledge base articles Genius Results can only display answers generated from knowledge articles using a legacy LLM pipeline, while Actions Genius Results can only display Catalog Items and Virtual Agent topics as answers.
 
 -   **More extensive and authoritative answers**
 
-    A Now Assist Multi-Content Response Genius Result synthesized response can combine information from different search results to answer multiple aspects of a user's question.
+    A Summary Genius Result synthesized response can combine information from different search results to answer multiple aspects of a user's question.
 
-    By comparison, each Now Assist Q&amp;A Genius Result answer only includes information generated from a single knowledge article, and each Now Assist Actions Genius Result only includes a single Catalog Item or Virtual Agent topic.
+    By comparison, each Knowledge base articles Genius Result answer can only include information generated from a single knowledge article, and each Actions Genius Result can only include a single Catalog Item or Virtual Agent topic.
 
 -   **Support for follow-up questions**
 
-    Users can ask follow-up questions directly from Now Assist Multi-Content Response Genius Result answers.
+    Users can ask follow-up questions directly from Summary Genius Result answers.
 
-
-**Note:** Recommended Actions do not support Now Assist Multi‑Content Genius Results.
 
 ## Content types included in synthesized responses
 
-When a Now Assist Multi-Content Response Genius Result answer card appears in your conversation or search results, it displays a sentence or paragraph generated by the LLM. As part of this sentence or paragraph, the card displays citations for the content elements that were used to synthesize the response.Selecting a citation displays a link to the source content so you can verify the synthesized response.
+When a Summary Genius Result answer card appears in your conversation or search results, it displays a sentence or paragraph generated by the LLM. As part of this sentence or paragraph, the card displays citations for the content elements that were used to synthesize the response.
 
-\[Omitted image "now-assist-multi-content-qna-gr-abel-tuter.png"\] Alt text: Now Assist Genius Result answer card showing synthesized response containing user and Service Catalog item details with source record citations.
+\[Omitted image "now-assist-multi-content-qna-gr-abel-tuter.png"\] Alt text: Summary Genius Result answer card showing synthesized response containing user and Service Catalog item details with source record citations.
 
-\[Omitted image "now-assist-multi-content-qna-gr-new-laptop.png"\] Alt text: Now Assist Genius Result answer card showing synthesized response containing Service Catalog item offerings with source record citations.
+\[Omitted image "now-assist-multi-content-qna-gr-new-laptop.png"\] Alt text: Summary Genius Result answer card showing synthesized response containing Service Catalog item offerings with source record citations.
 
-\[Omitted image "now-assist-multi-content-qna-gr-phishing-scams.png"\] Alt text: Now Assist Genius Result answer card showing synthesized response containing knowledge article and Service Catalog content with source record citations.
+\[Omitted image "now-assist-multi-content-qna-gr-phishing-scams.png"\] Alt text: Summary Genius Result answer card showing synthesized response containing knowledge article and Service Catalog content with source record citations.
 
 Citations for synthesized responses may include any or all of these content types:
 
@@ -100,7 +98,7 @@ Enhanced chat results
 
 </td><td>
 
-Results from enhanced chat conversations and searches, such as Virtual Agent topics.**Note:** Enhanced chat results are only available in synthesized responses when Now Assist Multi-Content Response Genius Result answers are generated in a Now Assist in Virtual Agent experience. To learn more about how these results appear in enhanced chat conversations and searches, see [Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/nava-enhanced-chat.md). For more details on Now Assist in Virtual Agent, see [Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/now-assist-in-va-landing.md).
+Results from enhanced chat conversations and searches, such as Virtual Agent topics.**Note:** Enhanced chat results are only available in synthesized responses when Summary Genius Result answers are generated in a Now Assist in Virtual Agent experience. To learn more about how these results appear in enhanced chat conversations and searches, see [Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/nava-enhanced-chat.md). For more details on Now Assist in Virtual Agent, see [ServiceNow Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/now-assist-in-va-landing.md).
 
 </td></tr><tr class="sub-head"><td colspan="2">
 
@@ -117,49 +115,49 @@ Documents and attachments retrieved from external source systems such as Atlassi
 </td></tr></tbody>
 </table>## Citations
 
-Selecting a citation from a Now Assist Multi-Content Response Genius Result answer typically displays a link to the source content so you can verify the synthesized response.
+Selecting a citation from a Summary Genius Result answer typically displays a link to the source content so you can verify the synthesized response.
 
-In global and workspace search, when a Virtual Agent topic is cited as a source for a Now Assist Multi-Content Response Genius Result answer, its citation displays a chat icon followed by the topic name. Selecting this topic citation opens the selected topic in the Now Assist panel, allowing the user to continue their conversation on that topic.
+In global and workspace search, when a Virtual Agent topic is cited as a source for a Summary Genius Result answer, its citation displays a chat icon followed by the topic name. Selecting this topic citation opens the selected topic in the ServiceNow Otto panel, allowing the user to continue their conversation on that topic.
 
-**Note:** To open topic citations in the Now Assist panel from global or workspace search, the following requirements must be met:
+**Note:** To open topic citations in the ServiceNow Otto panel from global or workspace search, the following requirements must be met:
 
--   The Now Assist panel must be activated.
+-   The panel must be activated.
 -   A search source derived from the Skill \(topics\) indexed source must be linked to the search profile used for global search or the workspace search.
 
 If these requirements are not met, topic citations from global or workspace search display a link to the source content, just as occurs for other citations.
 
 ## Asking follow-up questions
 
-In portal search, workspace search, and Now Assist in Virtual Agent enhanced chat, Now Assist Multi-Content Response Genius Result answer cards display an **Ask a follow-up** link after the synthesized response.
+In portal search, workspace search, and Now Assist in Virtual Agent enhanced chat, Summary Genius Result answer cards display an **Ask a follow-up** link after the synthesized response.
 
-Selecting this link opens the Now Assist panel so you can ask follow-up questions in the context of the Genius Result answer.
+Selecting this link opens the ServiceNow Otto panel so you can ask follow-up questions in the context of the Genius Result answer.
 
-To learn about using the Now Assist panel conversational interface, see [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-panel-overview.md).
+To learn about using the panel conversational interface, see [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-panel-overview.md).
 
-## Activating Now Assist Multi-Content Response Genius Results
+## Activating Summary Genius Results
 
-When you use Guided Setup to activate the Now Assist panel, Now Assist Multi-Content Response Genius Results are automatically activated for search profiles that satisfy these conditions:
+When you use Guided Setup to activate the ServiceNow Otto panel, Summary Genius Results are automatically activated for search profiles that satisfy these conditions:
 
 -   The search profile is linked to a search application configuration record for global search or for a workspace that uses AI Search.
 -   The search profile includes one or more search sources containing indexed records from the Catalog Item Table or Knowledge Table indexed sources.
 
-Users with the ais\_admin role can add Now Assist Multi-Content Response Genius Results to search profiles and then link those search profiles to AI Search portals in the AI Search Admin console. For details on configuring search application settings in the AI Search Admin console, see [Configure and manage AI Search in search applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/ais-admin-console-setup-manage-ais.md).
+Users with the ais\_admin role can add Summary Genius Results to search profiles and then link those search profiles to AI Search portals in the AI Search Admin console. For details on configuring search application settings in the AI Search Admin console, see [Configure and manage AI Search in search applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/ais-admin-console-setup-manage-ais.md).
 
-**Note:** When you activate Now Assist Multi-Content Response Genius Results in a search application, they're available to all users who search using that application.
+**Note:** When you activate Summary Genius Results in a search application, they're available to all users who search using that application.
 
-For details on activating Now Assist Multi-Content Response Genius Results in global and workspace search, see [Configure and manage AI Search in search applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/ais-admin-console-setup-manage-ais.md)
+For details on activating Summary Genius Results in global and workspace search, see [Configure and manage AI Search in search applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/ais-admin-console-setup-manage-ais.md)
 
-**Note:** When you activate Now Assist Multi-Content Response Genius Results in the search profiles for global or workspace search, they override all other Genius Result configurations activated for those search profiles. This means that global and workspace searches ignore other Genius Result answers and only display Now Assist Multi-Content Response Genius Result answers.
+**Note:** When you activate Summary Genius Results in the search profiles for global or workspace search, they override all other Genius Result configurations activated for those search profiles. This means that global and workspace searches ignore other Genius Result answers and only display Summary Genius Result answers.
 
 .
 
 ## Large language model \(LLM\) providers
 
-By default, Now Assist Multi-Content Response Genius Results use the Azure OpenAI model as the AI service provider. The Now LLM Service is used as a fallback AI service provider.
+By default, Summary Genius Results use the Azure OpenAI model as the AI service provider. The Now LLM Service is used as a fallback AI service provider.
 
-With the admin role, you can use Now Assist Admin to select a different LLM to use as the AI service provider for Now Assist Multi-Content Response Genius Results. For details on selecting the LLM for Platform workflow Now Assist skills, see [Manage AI models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/manage-large-language-models.md).
+With the admin role, you can use AI Admin Hub to select a different LLM to use as the AI service provider for Summary Genius Results. For details on selecting the LLM for Platform workflow Now Assist skills, see [Manage AI models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/manage-large-language-models.md).
 
-As a Now Assist skill, Now Assist Multi-Content Response Genius Results supports these LLMs:
+As a Now Assist skill, Summary Genius Results supports these LLMs:
 
 -   AWS Anthropic
 -   Azure OpenAI

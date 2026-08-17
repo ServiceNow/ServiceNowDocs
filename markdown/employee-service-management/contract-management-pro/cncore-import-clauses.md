@@ -38,15 +38,15 @@ For more information on clause variations, see [Create a clause variation](https
 
 4.  Either update an existing clause variation with the content available in the imported clause or create a new clause or clause variation with that content.
 
-<table id="choicetable_j14_bd2_2yb"><thead><tr><th align="left" id="d365709e116">
+<table id="choicetable_j14_bd2_2yb"><thead><tr><th align="left" id="d365964e116">
 
 Usage of the imported clause data
 
-</th><th align="left" id="d365709e119">
+</th><th align="left" id="d365964e119">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d365709e125">
+</th></tr></thead><tbody><tr><td id="d365964e125">
 
 **Do not update any of the existing clause or clause variation**
 
@@ -57,7 +57,7 @@ Steps
 3.  In the **Mapping clause** field, select an active clause from the clause library.
 
 
-</td></tr><tr><td id="d365709e155">
+</td></tr><tr><td id="d365964e155">
 
 **Create a new clause and its clause variation**
 
@@ -68,7 +68,7 @@ Steps
 3.  In the **Mapping clause** field, do not take any action.
 
 
-</td></tr><tr><td id="d365709e185">
+</td></tr><tr><td id="d365964e185">
 
 **Create a new clause variation**
 

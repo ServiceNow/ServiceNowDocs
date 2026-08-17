@@ -26,11 +26,11 @@ Role required: sn\_customerservice\_agent, sn\_customerservice.consumer\_agent
 
 You can use the Now Assist panel in CSM/FSM Configurable Workspace to request a service problem case summary and generate service problem case resolution notes.
 
-For more information about the Now Assist panel, see [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-panel-overview.md). For information about activating the Now Assist panel, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/activate-now-assist-panel.md).
+For more information about the Now Assist panel, see . For information about activating the Now Assist panel, see .
 
 ## Procedure
 
-1.  Log in to an instance where the Now Assist for TMT application is installed.
+1.  Log in to an instance where the ServiceNow Otto for TMT application is installed.
 
 2.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** &gt; **Lists** &gt; **Service Problem Case** &gt; **All**.
 
@@ -43,5 +43,5 @@ For more information about the Now Assist panel, see [Now Assist panel](https://
     -   To summarize the service problem case, select **Summarize a record**.
     -   To generate the service problem case resolution notes, select **Generate resolution notes**.
 
-**Parent Topic:**[Using Now Assist for Telecommunications, Media and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spm-using.md)
+**Parent Topic:**[Using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spm-using.md)
 

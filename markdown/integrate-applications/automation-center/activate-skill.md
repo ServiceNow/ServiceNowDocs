@@ -9,7 +9,7 @@ classification: automation-center
 topic_type: task
 last_updated: "2026-02-16"
 reading_time_minutes: 1
-breadcrumb: [Configure, Now Assist for Automation Center, Use, Automation Center, Workflow Data Fabric]
+breadcrumb: [Configure, ServiceNow Otto for Automation Center, Use, Automation Center, Workflow Data Fabric]
 ---
 
 # Activate skills
@@ -22,7 +22,7 @@ Role required: sn\_generative\_ai.nsa\_admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills**.
+1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Skills**.
 
 2.  Select **Other** under **Platform**.
 
@@ -33,5 +33,5 @@ Role required: sn\_generative\_ai.nsa\_admin
     -   User task step summarization skill: Creates automation requests from the Task Mining Workspace
     -   Saving Estimator skill: Explores and discovers automations from your ServiceNow instance.
 
-**Parent Topic:**[Configuring Now Assist for Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/config-na-ac.md)
+**Parent Topic:**[Configuring ServiceNow Otto for Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/config-na-ac.md)
 

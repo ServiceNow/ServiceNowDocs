@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-aiopsleap-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -67,15 +67,15 @@ Yokohama
 
 </td><td>
 
--   **[Incident clustering and comprehensive summaries](https://servicenow-staging.fluidtopics.net/access?context=aiops-leap-features&family=yokohama&ft:locale=en-US)**
+-   **[Incident clustering and comprehensive summaries](https://www.servicenow.com/docs/access?context=aiops-leap-features&family=yokohama&ft:locale=en-US)**
 
 AIOps LEAP smartly categorizes IT incidents based on short descriptions and assignment groups. It uses historical data to get a deeper understanding of issues and summarizes them into actionable resolutions. AIOps LEAP consolidates information from different incidents to help with decision making and serves as a repository of knowledge.
 
--   **[Group incidents to create automation opportunities](https://servicenow-staging.fluidtopics.net/access?context=aiops-leap-features&family=yokohama&ft:locale=en-US)**
+-   **[Group incidents to create automation opportunities](https://www.servicenow.com/docs/access?context=aiops-leap-features&family=yokohama&ft:locale=en-US)**
 
 AIOps LEAP uses the ServiceNow® GAF \(Group Action Framework\) plugin to organize and group incidents based on specific parameters. These groups are clusters or automation opportunities. They are created by analyzing incident data such as work notes and resolution notes. AIOps LEAP uses these automation opportunities to generate resolution steps to help solve similar future incidents.
 
--   **[Automation recommendations and playbook generation](https://servicenow-staging.fluidtopics.net/access?context=aiops-leap-features&family=yokohama&ft:locale=en-US)**
+-   **[Automation recommendations and playbook generation](https://www.servicenow.com/docs/access?context=aiops-leap-features&family=yokohama&ft:locale=en-US)**
 
 AIOps LEAP identifies frequent issues and offers automation recommendations to address them. It streamlines and optimizes operational processes by creating actionable playbooks based on historical data and resolution workflows. Additionally, it builds a knowledge base by documenting workflows and solutions through detailed resolution steps, enabling further analysis, learning, and continuous improvement. These resolution steps can be shared across teams to facilitate collaboration and enhance operational efficiency, even without formal playbook creation. Thus, automated playbook generation is a valuable output of the AIOps LEAP platform.
 
@@ -86,9 +86,9 @@ Zurich
 
 </td><td>
 
--   **[New third-party AI model provider options available for all Now Assist applications](https://servicenow-staging.fluidtopics.net/access?context=exploring-large-language-models&family=zurich&ft:locale=en-US)**
+-   **[New third-party AI model provider options available for all AI applications](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=zurich&ft:locale=en-US)**
 
-Google Gemini and AWS Claude are available for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
+Google Gemini and AWS Claude are available for generative AI skills and AI agents, in addition to Now LLM Service and Azure OpenAI.
 
 
 </td></tr></tbody>
@@ -197,7 +197,7 @@ Yokohama
 
 </td><td>
 
-Install AIOps LEAP by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+Install AIOps LEAP by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
  Use one of the following steps to activate **AIOps LEAP**.
 
@@ -237,7 +237,7 @@ Zurich
 
 </td><td>
 
-Install AIOps LEAP by requesting Now Assist for ITOM from the ServiceNow Store. 
+Install AIOps LEAP by requesting ServiceNow Otto for ITOM from the ServiceNow Store. 
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -269,7 +269,7 @@ Zurich
 
 </td><td>
 
-You should have Now Assist for Creator installed to generate playbooks.
+You should have ServiceNow Otto for Creator installed to generate playbooks.
 
 </td></tr></tbody>
 </table>## Browser requirements
@@ -384,7 +384,7 @@ Yokohama
 -   Use published LEAP in SOW to resolve a new incident quickly.
 -   Use a value dashboard for performance analysis and enhancement.
 
- See [AIOps Learning Enhanced Automation Playbook \(LEAP\)](https://servicenow-staging.fluidtopics.net/access?context=aiops-leap&family=yokohama&ft:locale=en-US) for more information.
+ See [AIOps Learning Enhanced Automation Playbook \(LEAP\)](https://www.servicenow.com/docs/access?context=aiops-leap&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -392,7 +392,7 @@ Zurich
 
 </td><td>
 
-Use Google Gemini, Azure OpenAI, and Anthropic LLM in AIOps LEAP in addition to Now LLM Service. See [AIOps Learning Enhanced Automation Platform \(LEAP\)](https://servicenow-staging.fluidtopics.net/access?context=aiops-leap&family=zurich&ft:locale=en-US) for more information.
+Use Google Gemini, Azure OpenAI, and Anthropic LLM in AIOps LEAP in addition to Now LLM Service. See [Learning Enhanced Automation Platform \(LEAP\)](https://www.servicenow.com/docs/access?context=aiops-leap&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

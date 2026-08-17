@@ -7,7 +7,7 @@ release: zurich
 product: External Legal Portal
 classification: external-legal-portal
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -42,5 +42,13 @@ Some ServiceNow resources that can provide you with helpful information are:
 -   **\[Omitted image "dcx-icon-community.svg"\]ServiceNow Community**
 
     Connect with other Legal Service Delivery users at [ServiceNow Community](https://www.servicenow.com/community/legal-service-delivery/ct-p/legal-service-delivery).
+
+-   **\[Omitted image "dcx-icon.svg"\] Customer Success Center**
+
+    Find useful resources related to your role and explore best practices at the [Impact](http://impact.servicenow.com)
+
+-   **\[Omitted image "dcx-icon-support.svg"\] Known Error Portal**
+
+    Learn more about specific known errors, along with workarounds if any, from the [Known Error Portal](https://support.servicenow.com/kb?id=known_error_portal)
 
 

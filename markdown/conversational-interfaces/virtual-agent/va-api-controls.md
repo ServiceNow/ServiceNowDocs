@@ -7,7 +7,7 @@ release: zurich
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2026-01-23"
+last_updated: "2026-03-12"
 reading_time_minutes: 6
 breadcrumb: [Use, Virtual Agent API, Build and deploy, Virtual Agent, Conversational Interfaces]
 ---
@@ -184,7 +184,7 @@ data
 
 </td><td>
 
-json representing card data.**Note:** The data field will be of type string. You must parse it to use the data.
+json representing card data.**Note:** The data field will be of type string. You need to parse it to use the data.
 
 </td></tr></tbody>
 </table>**Large Image With Text**
@@ -356,7 +356,7 @@ nluTextEnabled
 
 </td><td>
 
-Whether nlu is enabled at this node or not.
+Whether NLU is enabled at this node or not.
 
 </td></tr></tbody>
 </table>## Boolean

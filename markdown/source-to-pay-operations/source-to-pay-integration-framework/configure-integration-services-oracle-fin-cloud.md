@@ -16,6 +16,8 @@ breadcrumb: [Configure, Integration with third-party applications, Integrations,
 
 For configuring integration services, provide the connection end point and the Oracle Financial Cloud ERP credentials that you set up for your authentication profile. Also, create a separate web service record for each service request that you want to customize.
 
+\[Omitted video\] Description: Video demonstrating how to configure integration services for Oracle Financial Cloud
+
 ## Before you begin
 
 -   Verify that the application scope is set to Oracle Financial Cloud spoke.

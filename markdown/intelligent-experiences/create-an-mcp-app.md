@@ -1,36 +1,39 @@
 ---
 title: Create an MCP app
-description: Model Context Protocol apps is an extension that enable you to deliver interactive experience through the MCP tools by building, registering, and serving UI alongside their tool logic. Implement and manage interactive interfaces for your tools, designed for display by MCP clients.
+description: Build, register, and display user interfaces along with your tool's logic with MCP apps. This allows you to implement and manage interactive interfaces for your tools that can be displayed by MCP clients.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/create-an-mcp-app.html
 release: zurich
 topic_type: task
-last_updated: "2026-06-17"
+last_updated: "2026-06-30"
 reading_time_minutes: 1
+keywords: [MCP apps]
 breadcrumb: [Configure, MCP Server Console, Enable AI experiences]
 ---
 
 # Create an MCP app
 
-Model Context Protocol apps is an extension that enable you to deliver interactive experience through the MCP tools by building, registering, and serving UI alongside their tool logic. Implement and manage interactive interfaces for your tools, designed for display by MCP clients.
+Build, register, and display user interfaces along with your tool's logic with MCP apps. This allows you to implement and manage interactive interfaces for your tools that can be displayed by MCP clients.
 
 ## Before you begin
 
-Role required: admin
+Role required: sn\_mcp\_server.tools\_admin \(for configuration\)
 
 ## About this task
 
-Create an MCP app and enable MCP servers to deliver interactive user interfaces to hosts. It defines how servers declare UI resources, that hosts render securely in iframes, and how the two communicate.
+Create an MCP app and enable MCP tools to deliver interactive user interfaces to hosts. It defines how tools declare UI resources, that hosts render securely in iframes, and how the two communicate.
 
-**Note:** The minimum version required is: Zurich patch 9 and Australia patch 2.
+Create apps as a pre-step before MCP tools creations, so that you can choose one of the created apps while configuring the tool.
+
+**Note:** The minimum version required is: Zurich patch 11 and Australia patch 4.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **MCP Server Console** &gt; ****.
+1.  Navigate to **All** &gt; **MCP Server Console**.
 
 2.  From the Configuration tab, select **Apps**.
 
-3.  View and manage the tools created from various categories, and their associated attributes.
+3.  View the tools created from various categories, and their associated attributes.
 
 4.  Select **Create app**.
 
@@ -72,21 +75,33 @@ The description of what the app intends to do. This input is exposed to AI clien
 
 </td></tr><tr><td>
 
-Permission
+Permissions
 
 </td><td>
 
-Access granted to the microphone and camera among other tools needed to create the app.
-
-</td></tr><tr><td>
-
-References
-
-</td><td>
-
-References to the HTML files that will be used to style, script or define the logic your app.
+Access granted to different browsers and devices needed to create the app. The options are microphone, camera, geolocation and clipboard.
 
 </td></tr></tbody>
-</table>
+</table>5.  Select **Add reference** to add references to the HTML files that will be used to style, script or define the logic your app.
+
+6.  Add details in the form:
+
+    \[Omitted image "mcp-server-apps-ref.png"\] Alt text: Add a reference
+
+    1.  Declare the link to the external connection or resources to be referred.
+
+    2.  Select **Type** of the reference.
+
+    3.  Add link to the **Library**.
+
+7.  Add link to the HTML file containing the interactive interface in 'Attachments'.
+
+    See [https://apps.extensions.modelcontextprotocol.io/api/documents/csp-and-cors.html](https://apps.extensions.modelcontextprotocol.io/api/documents/csp-and-cors.html) to learn more.
+
+
+## What to do next
+
+Create an MCP tool and add one of these apps, created to render an interactive user experience displayed by the MCP client.
+
 **Parent Topic:**[Configuring MCP Server Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/configuring-mcp-server-console.md)
 

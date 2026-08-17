@@ -40,8 +40,8 @@ You can configure the shape libraries, modeling options, entities, and relations
 Configure the application TCO source, cost type, and determine the duration of a fiscal property, in the Enterprise Architecture Workspace.
 -   **[Configure certification policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-setup-cert-policies.md)**  
 Configure certification policies to keep your business applications inventory up to date. Keeping your business application data current helps you to assess your business applications precisely as there are indicators that are dependent on these business applications.
--   **[Configure Technology Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-config-tech-portfolio-mgmt.md)**  
-Configure Technology Portfolio Management in Enterprise Architecture Workspace. By configuring TPM, you can get application lifecycle risk insights and rationalize applications.
+-   **[Configure Technology Lifecycle Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-config-tech-portfolio-mgmt.md)**  
+Configure Technology Lifecycle Management in Enterprise Architecture Workspace. By configuring TLM, you can get application lifecycle risk insights and rationalize applications.
 -   **[Configure Technology Reference Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-config-tech-ref-model.md)**  
 Configure Technology Reference Model Enterprise Architecture Workspace. Configuring the Technology Reference Model offers a structured approach to managing technology standards across your organization.
 

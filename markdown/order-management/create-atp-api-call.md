@@ -1,17 +1,17 @@
 ---
-title: Configure scripted extension points for the manage order operations agent
+title: Configure scripted extension points for the manage order operations AI agent
 description: Configure scripted extension points so that the manage order operations chat assistant can check product availability, validate order exception requests for delivery, quantity, and shipping location, and evaluate quote thresholds against your external inventory, ERP, or pricing systems.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/create-atp-api-call.html
 release: zurich
 topic_type: task
-last_updated: "2026-05-15"
+last_updated: "2026-08-04"
 reading_time_minutes: 3
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configure, Now Assist for Order Management]
+breadcrumb: [Configure, ServiceNow Otto for Order Management]
 ---
 
-# Configure scripted extension points for the manage order operations agent
+# Configure scripted extension points for the manage order operations AI agent
 
 Configure scripted extension points so that the manage order operations chat assistant can check product availability, validate order exception requests for delivery, quantity, and shipping location, and evaluate quote thresholds against your external inventory, ERP, or pricing systems.
 
@@ -126,12 +126,12 @@ To enable real-world functionality such as querying on-hand quantities, delivery
 
 8.  Select **Update**.
 
-9.  Validate your implementation by requesting order changes from the Business Portal using the Now Assist Virtual Assistant.
+9.  Validate your implementation by requesting order changes from the Business Portal using the ServiceNow Otto Virtual Agent.
 
-    For more information, see [Request order changes using Now Assist Virtual Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/request-order-changes-now-assist.md).
+    For more information, see [Request order changes using ServiceNow Otto Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/request-order-changes-now-assist.md).
 
 
-**Parent Topic:**[Configuring Now Assist for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/now-assist-for-order-management-configuring.md)
+**Parent Topic:**[Configuring ServiceNow Otto for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/now-assist-for-order-management-configuring.md)
 
 **Related topics**  
 

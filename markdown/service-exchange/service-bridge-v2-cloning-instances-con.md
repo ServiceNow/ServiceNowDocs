@@ -20,7 +20,7 @@ After you clone Service Exchange, you must reestablish the connection between th
 
 Role required: admin
 
-The clone must be completed. For more information on cloning, see [Instance Clone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/system-clone-landing.md).
+The clone must be completed. For more information on cloning, see .
 
 ## About this task
 

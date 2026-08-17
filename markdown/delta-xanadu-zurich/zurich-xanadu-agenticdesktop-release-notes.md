@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-agenticdesktop-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
@@ -91,16 +91,16 @@ Zurich
 
 </td><td>
 
--   **[Changes to Now Assist usage measurement](https://servicenow-staging.fluidtopics.net/access?context=monitoring-now-assist-usage&family=zurich&ft:locale=en-US)**
+-   **[Changes to Now Assist usage measurement](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=zurich)**
 
 Starting with Zurich Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
--   **[Support for different screen resolutions and scaling](https://servicenow-staging.fluidtopics.net/access?context=agentic-desktop-overview&family=zurich&ft:locale=en-US)**
+-   **[Support for different screen resolutions and scaling](https://www.servicenow.com/docs/access?context=agentic-desktop-overview&family=zurich)**
 
 Desktop actions now run reliably on machines with different screen resolutions and scaling. Screen resolution and scaling are consistent across all screens of a desktop actions during creation, saving, and publishing.
 
 
--   **[Design UI block desktop actions in Design workspace](https://servicenow-staging.fluidtopics.net/access?context=agentic-desktop-overview&family=zurich&ft:locale=en-US)**
+-   **[Design UI block desktop actions in Design workspace](https://www.servicenow.com/docs/access?context=agentic-desktop-overview&family=zurich)**
 
 Design, configure, and manage desktop actions in the Design workspace that enables:
 
@@ -110,7 +110,7 @@ Design, configure, and manage desktop actions in the Design workspace that enabl
     -   Publishing desktop actions to AI Agent Studio as tools for AI agents to execute.
 Example: Filling out fields and submitting a form.
 
--   **[Use non-UI block desktop actions](https://servicenow-staging.fluidtopics.net/access?context=desktop-actions-designer-workspace-ad&family=zurich&ft:locale=en-US)**
+-   **[Use non-UI block desktop actions](https://www.servicenow.com/docs/access?context=desktop-actions-designer-workspace-ad&family=zurich)**
 
 Add default desktop actions of the type non-UI block as tools to AI agents in AI Agent Studio. The non-UI block actions include pre-built connectors that enable your agentic workflows to interact with various applications and system components. These connectors streamline automation by offering pre-built actions for common tasks, reducing the need for complex scripting.
 
@@ -128,15 +128,15 @@ The following connectors are supported:
     -   SystemAction
 Example: Reading data from Microsoft Excel or emails from Microsoft Outlook.
 
--   **[Adding desktop actions to AI agents in AI Agent Studio](https://servicenow-staging.fluidtopics.net/access?context=create-ai-agents-ad&family=zurich&ft:locale=en-US)**
+-   **[Adding desktop actions to AI agents in AI Agent Studio](https://www.servicenow.com/docs/access?context=create-ai-agents-ad&family=zurich)**
 
 Seamless integration with AI Agent Studio has enabled effortless configuration of desktop actions to automate repetitive tasks on applications without APIs. AI agents can reason, plan, and execute desktop actions autonomously and semi-autonomously across legacy systems and desktop applications without complex setups.
 
--   **[Monitor desktop actions in Execution workspace](https://servicenow-staging.fluidtopics.net/access?context=use-agentic-desktop&family=zurich&ft:locale=en-US)**
+-   **[Monitor desktop actions in Execution workspace](https://www.servicenow.com/docs/access?context=use-agentic-desktop&family=zurich)**
 
 Trigger desktop actions from the Now Assist panel that are executed by AI agents in the Execution workspace. Interact with the automation when human input is required. These automations run in the background and listen for instructions dispatched from the ServiceNow instance. You can continue working on other desktop applications outside Execution workspace.
 
--   **[Leverage core desktop capabilities](https://servicenow-staging.fluidtopics.net/access?context=desktop-actions-designer-workspace-ad&family=zurich&ft:locale=en-US)**
+-   **[Leverage core desktop capabilities](https://www.servicenow.com/docs/access?context=desktop-actions-designer-workspace-ad&family=zurich)**
 
 Automate form filling, application clicks, and Windows OS file handling. Create workflows across legacy systems, thick client applications, and business applications on Windows operating system to perform repetitive tasks.
 
@@ -287,7 +287,7 @@ Zurich
 
 </td><td>
 
-Agentic Desktop is available with activation of any Now Assist plugin from the ServiceNow Store. For more information about the prerequisites for using Agentic Desktop, see [Configure](https://servicenow-staging.fluidtopics.net/access?context=configure-agentic-desktop&family=zurich&ft:locale=en-US).
+Agentic Desktop is available with activation of any Now Assist plugin from the ServiceNow Store. For more information about the prerequisites for using Agentic Desktop, see [Configure](https://www.servicenow.com/docs/access?context=configure-agentic-desktop&family=zurich).
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -324,15 +324,15 @@ Zurich
 
 </td><td>
 
-To use the Agentic Desktop application, the software requirements are:
+The following are required to use Agentic Desktop:
 
 -   Operating system: Microsoft Windows 11.
 -   .NET 9.0 runtime v9.0.10 or .NET 9 Desktop Runtime v9.0.10.
 -   No extended monitors are connected.
 
- You must first install the supported Now Assist version of ServiceNow to be able to use the Now Assist AI agents. For more information, see [Install Now Assist AI agents](https://servicenow-staging.fluidtopics.net/access?context=install-ai-agents-plugins&family=zurich&ft:locale=en-US).
+ You must first install the supported Now Assist version of ServiceNow to be able to use the Now Assist AI agents. For more information, see [Install Now Assist AI agents](https://www.servicenow.com/docs/access?context=install-ai-agents-plugins&family=zurich).
 
- Enable the Next Experience UI Framework before you can use the Now Assist panel.
+ You must enable Next Experience UI Framework before you can use the Now Assist panel.
 
 </td></tr></tbody>
 </table>## Browser requirements
@@ -369,7 +369,7 @@ Zurich
 
 </td><td>
 
-Now Assist AI agents supports various browsers, including Google Chrome and Microsoft Edge. Now Assist AI agents isn’t supported in Internet Explorer.
+Now Assist AI agents support various browsers, including Google Chrome and Microsoft Edge. Now Assist AI agents aren't supported in Internet Explorer.
 
 </td></tr></tbody>
 </table>## Accessibility information
@@ -480,7 +480,21 @@ Zurich
 
 </td><td>
 
-[Zurich Patch 4](https://servicenow-staging.fluidtopics.net/access?context=zurich-patch-4&family=zurich&ft:locale=en-US)
+[Zurich Patch 8](https://www.servicenow.com/docs/access?context=zurich-patch-8&family=zurich)
+
+-   Improved error and informational messages for better guidance and troubleshooting.
+-   Added a **Delete** button to the image canvas to remove a screen.
+-   Enabled screen-level testing while designing desktop actions.
+
+ [Zurich Patch 7](https://www.servicenow.com/docs/access?context=zurich-patch-7&family=zurich)
+
+-   Use smart sizing in the Execution workspace with the **Fit to window** and **Original resolution** options.
+-   Enable AI agents to securely access SSH parameters by setting up parameter records in the ServiceNow instance.
+-   Test specific screens within desktop actions without running the entire flow.
+-   Access application controls during recording with a recorder toolbar.
+-   Configure the Agentic Desktop installer experience for settings that are essential for seamless execution of desktop actions.
+
+ [Zurich Patch 4](https://www.servicenow.com/docs/access?context=zurich-patch-4&family=zurich)
 
 -   Desktop actions now run reliably on machines with different screen resolutions.
 
@@ -490,7 +504,7 @@ Zurich
 -   Enable AI agents to interact with legacy systems, thick client applications, and business applications on Windows operating system to perform repetitive tasks.
 -   Monitor desktop actions being executed by AI agents in Execution workspace in the Desktop-in-Desktop session.
 
- See [Agentic Desktop](https://servicenow-staging.fluidtopics.net/access?context=agentic-desktop-landing-page&family=zurich&ft:locale=en-US) for more information.
+ See [Agentic Desktop](https://www.servicenow.com/docs/access?context=agentic-desktop-landing-page&family=zurich) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/rn-combined-intro.md)

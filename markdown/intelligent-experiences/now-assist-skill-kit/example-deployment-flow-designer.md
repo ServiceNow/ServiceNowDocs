@@ -9,7 +9,7 @@ classification: now-assist-skill-kit
 topic_type: concept
 last_updated: "2025-08-25"
 reading_time_minutes: 1
-breadcrumb: [Configure skill deployment settings, Configuring Now Assist Skill Kit, Now Assist Skill Kit, Enable AI experiences]
+breadcrumb: [Configure skill deployment settings, Configuring AI Skill Kit, AI Skill Kit, Enable AI experiences]
 ---
 
 # Example deployment with Workflow Studio

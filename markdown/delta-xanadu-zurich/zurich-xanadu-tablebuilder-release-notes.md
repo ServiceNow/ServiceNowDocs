@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-tablebuilder-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 2
+last_updated: "2026-08-17"
+reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
 
@@ -416,7 +416,7 @@ Yokohama
 
 </td><td>
 
-See [Table Builder](https://servicenow-staging.fluidtopics.net/access?context=tb-landing-page&family=yokohama&ft:locale=en-US) for more information.
+See [Table Builder](https://www.servicenow.com/docs/access?context=tb-landing-page&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -424,7 +424,15 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+[\[Placeholder link text to key australia-patch-5\]](https://www.servicenow.com/docs/access?context=australia-patch-5&family=zurich&ft:locale=en-US)
+
+-   ServiceNow Otto® is the new AI experience brand. This change is reflected in the name of ServiceNow products. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
+-   Starting with the Zurich release, Form Designer is being prepared for future deprecation. It will be hidden and no longer available for activation but will continue to be supported. Features within Form Designer will be available in the Form Builder.
+
+ -   Read-only behavior is now controlled by the **Read only option** \[`read_only_option`\] choice field, which provides options such as **Display Read Only** or **Strict Read Only**.
+-   The existing **Read only** field will no longer be editable in the UI.
+
+ See [Table Builder](https://www.servicenow.com/docs/access?context=tb-landing-page&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/rn-combined-intro.md)

@@ -26,7 +26,7 @@ Access to a case report is restricted to the users and groups that have permissi
 ## User roles
 
 -   **Threat analyst** — Generates and reviews case reports.
--   **Administrator** — Configures and activates TISC Report Authoring skill in the Now Assist Admin console. Configures Report templates.
+-   **Administrator** — Configures and activates TISC Report Authoring skill in the AI Admin Hub console. Configures Report templates.
 
 -   **[Create a Case Report using generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/tisc-create-case-report-ai.md)**  
 Use generative AI to draft a structured case report from the data in the selected case, then review and publish it.

@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2025-08-12"
 reading_time_minutes: 4
-breadcrumb: [Evaluate, Evaluate agentic AI assets, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Evaluate, Evaluate agentic AI assets, AI Agent Studio, Enable AI experiences]
 ---
 
 # Create a custom metric for evaluating agentic workflows
@@ -29,7 +29,7 @@ When writing the script, you have access to the output of a parser tool. See [ag
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Skill Kit** &gt; **Agentic Evaluations**.
+1.  Navigate to **All** &gt; **AI Skill Kit** &gt; **Agentic Evaluations**.
 
 2.  Go to the Evaluation metrics tab and select **Create metric**.
 

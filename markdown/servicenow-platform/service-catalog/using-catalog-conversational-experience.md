@@ -1,24 +1,26 @@
 ---
 title: Catalog Conversational Coverage
-description: ServiceNow Catalog Conversational Coverage provides a dashboard to view a high-level overview of the conversational and non-conversational catalog items.The dashboard shows the information that you need in graphs and a table.View the details page for your catalog item. If your item is non-conversational, view why your catalog item isn’t conversational and review the suggestions to know what you can do to make the item conversational.Use the ServiceNow AI Platform to view the dashboard that shows the catalog items that are conversational or non-conversational. Understand why catalog items aren't conversational, and explore the potential suggestions that might help make the items conversational.Use Catalog Builder to view the dashboard that shows the catalog items that are conversational or non-conversational. Understand why catalog items aren’t conversational, and explore the potential suggestions that might help make the items conversational.
+description: ServiceNow Catalog Conversational Coverage provides a dashboard to view a high-level overview of the conversational and non-conversational status of catalog items configured for the LLM topic block.The dashboard shows the information that you need in graphs and a table.View the details page for your catalog item. If your item is non-conversational, view why your catalog item isn’t conversational and review the suggestions to know what you can do to make the item conversational.Use the ServiceNow AI Platform to view the dashboard that shows the catalog items that are conversational or non-conversational. Understand why catalog items aren't conversational, and explore the potential suggestions that might help make the items conversational.Use Catalog Builder to view the dashboard that shows the catalog items that are conversational or non-conversational. Understand why catalog items aren’t conversational, and explore the potential suggestions that might help make the items conversational.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-catalog/using-catalog-conversational-experience.html
 release: zurich
 product: Service Catalog
 classification: service-catalog
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 8
-breadcrumb: [LLM topic blocks, Conversational Catalog Request reference, Now Assist in Conversational Catalog Request, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+last_updated: "2026-03-12"
+reading_time_minutes: 9
+breadcrumb: [LLM topic blocks, Conversational Catalog Requests reference, Conversational Catalog Requests, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Catalog Conversational Coverage
 
-ServiceNow® Catalog Conversational Coverage provides a dashboard to view a high-level overview of the conversational and non-conversational catalog items.
+ServiceNow® Catalog Conversational Coverage provides a dashboard to view a high-level overview of the conversational and non-conversational status of catalog items configured for the LLM topic block.
 
 You can view this information in the Conversational catalog overview dashboard. The dashboard displays a graphical representation of various reports, such as the number of conversational and non-conversational catalog items, reasons that make the items non-conversational, and popular request channels. It also shows a list of the catalog items, their conversational status, and other details.
 
-**Note:** You can access the conversational catalog dashboard only if you’ve installed the Now Assist in Conversational Catalog Request app. Conversational catalog dashboard can’t be installed separately as it's bundled with Now Assist in Conversational Catalog Request.
+**Important:** Catalog Conversational Coverage applies to catalog items configured for the **LLM topic block only**. It does not reflect conversational status for catalog items handled by Catalog Agent. For an overview of all conversational methods, see [Catalog item request approaches](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/catalog-agent.md).
+
+**Note:** You can access the conversational catalog dashboard only if you’ve installed the ServiceNow Otto in Conversational Catalog Request app. Conversational catalog dashboard can’t be installed separately as it's bundled with ServiceNow Otto in Conversational Catalog Request.
 
 Drilling down the catalog items, you can view the details, for example, whether they’re conversational or non-conversational and why the items are non-conversational. Explore the potential suggestions for non-conversational items that might help you make items conversational.
 
@@ -30,7 +32,7 @@ If you have any of the following roles, you can view the dashboard:
 
 To access and view the dashboard, you must install and activate the Catalog Conversational Experience plugin \(sn\_catalog\_con\_cov\). You can find the plugin in the ServiceNow® Store.
 
-**Note:** If you've installed Now Assist for conversation request submission plugin, you get the Catalog Conversational Experience plugin \(sn\_catalog\_con\_cov\) by default.
+**Note:** If you have installed ServiceNow Otto for conversation request submission plugin, you get the Catalog Conversational Experience plugin \(sn\_catalog\_con\_cov\) by default.
 
 The **Update catalog items conversational status** scheduled job pulls conversational data of catalog items. This scheduled job updates the reasons for the catalog items. The scheduled job runs once in three days automatically. But to get the latest data when you need, run this job manually.
 
@@ -39,7 +41,7 @@ The **Update catalog items conversational status** scheduled job pulls conversat
 **Related topics**  
 
 
-[Configure Now Assist in Conversational Catalog Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/configure-gen-ai-catalog-item.md)
+[Configure ServiceNow Otto in Conversational Catalog Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/configure-gen-ai-catalog-item.md)
 
 [View the conversational catalog overview dashboard using Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/using-catalog-conversational-experience.md)
 
@@ -49,7 +51,7 @@ The dashboard shows the information that you need in graphs and a table.
 
 You can view the data of only those catalog items you have edit access to.
 
-**Note:** You can access the conversational catalog dashboard only if you’ve installed the Now Assist in Conversational Catalog Request app. Conversational catalog dashboard can’t be installed separately as it's bundled with Now Assist in Conversational Catalog Request.
+**Note:** You can access the conversational catalog dashboard only if you’ve installed the Conversational Catalog Requests app. Conversational catalog dashboard can’t be installed separately as it's bundled with Conversational Catalog Requests.
 
 In the graphical representation of reports, you can view the following information:
 
@@ -210,7 +212,7 @@ After going over the recommendations to make the item conversational, select **E
 
 By default, all catalog items are conversational. To make the catalog item non-conversational, select the **Make the item non-conversational in VA** check box in ServiceNow AI Platform®.
 
-**Important:** Select the **Turn off Now Assist \(LLM\)** check box if you don't want the data of the catalog item \(and user responses\) to be sent to the LLM for security reasons, in case the catalog item contains sensitive data. Selecting this option ensures that this item will invoke the NLU topic block if it’s compatible, otherwise, it will show up either as a pop-up or as a link depending on the item's configuration. Restrictions on the NLU topic block are stricter than the LLM topic block and therefore a conversational item in the LLM topic block \(as shown in the Conversational Catalog Overview dashboard\) may not be conversational in the NLU topic block.
+**Important:** Select the **Use NLU for conversational requests** check box if you don't want the data of the catalog item \(and user responses\) to be sent to the LLM for security reasons, in case the catalog item contains sensitive data. Selecting this option ensures that this item will invoke the NLU topic block if it’s compatible, otherwise, it will show up either as a pop-up or as a link depending on the item's configuration. Restrictions on the NLU topic block are stricter than the LLM topic block and therefore a conversational item in the LLM topic block \(as shown in the Conversational Catalog Overview dashboard\) may not be conversational in the NLU topic block.
 
 **Related topics**  
 
@@ -223,7 +225,7 @@ By default, all catalog items are conversational. To make the catalog item non-c
 
 [Catalog Conversational Coverage]()
 
-[Topic blocks to request catalog items through conversational experience]()
+[Request catalog item through Now LLM]()
 
 ## View the conversational catalog overview dashboard using the ServiceNow AI Platform
 

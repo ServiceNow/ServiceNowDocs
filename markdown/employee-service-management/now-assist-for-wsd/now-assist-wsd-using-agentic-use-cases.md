@@ -1,20 +1,20 @@
 ---
-title: Using AI agent workflows in Now Assist for WSD
-description: Agentic workflows in Now Assist for WSD help complete workplace tasks autonomously.
+title: Using AI agent workflows in ServiceNow Otto for WSD
+description: Agentic workflows in ServiceNow Otto for WSD help complete workplace tasks autonomously.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/now-assist-for-wsd/now-assist-wsd-using-agentic-use-cases.html
 release: zurich
 product: Now Assist for WSD
 classification: now-assist-for-wsd
 topic_type: concept
-last_updated: "2026-02-04"
-reading_time_minutes: 4
-breadcrumb: [Now Assist for Workplace Service Delivery \(WSD\), Workplace Service Delivery, Employee Service Management]
+last_updated: "2026-07-28"
+reading_time_minutes: 3
+breadcrumb: [ServiceNow Otto for Workplace Service Delivery \(WSD\), Workplace Service Delivery, Employee Service Management]
 ---
 
-# Using AI agent workflows in Now Assist for WSD
+# Using AI agent workflows in ServiceNow Otto for WSD
 
-Agentic workflows in Now Assist for WSD help complete workplace tasks autonomously.
+Agentic workflows in ServiceNow Otto for WSD help complete workplace tasks autonomously.
 
 <table id="table_gyx_brq_l2c"><thead><tr><th>
 
@@ -57,11 +57,11 @@ Help manage workplace reservations
 
 This team of AI agents help Workplace Event Planners and autonomously reschedule events happening in the workplace. AI agents support Workplace Event Planners with all relevant information and preparation work when changes are occurring to a planned reservation. AI Agents gather relevant information and provide suggestions to the Workplace Event planners for the next best possible action. Event planners can review and optimize reservations as required by looking at the workplace case details.
 
- In order to finish the task, AI agents perform the following:
+ To finish the task, AI agents perform the following:
 
- -   Retrieve the change event edit workplace case details.
--   Analyze the reservation retrieved from the previous step.
--   Update Workplace case notes with all the actions taken.
+ -   Retrieves the change event edit workplace case details.
+-   Analyzes the reservation retrieved from the previous step.
+-   Updates Workplace case notes with all the actions taken.
 
  For more information, see [Help manage workplace reservations agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-wsd/manage-workplace-reservations-agent-ai.md).
 
@@ -106,7 +106,7 @@ Workplace Advisor QnA
 
 </td><td>
 
-The Workplace Advisor QnA agentic AI workflow allows Reservation Managers to use the Now Assist panel to ask natural language questions about workplace reservations. For more information, see [Workplace advisor QnA agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-wsd/workplace-advisor-qna.md)
+The Workplace Advisor QnA agentic AI workflow allows Reservation Managers to use the ServiceNow Otto panel to ask natural language questions about workplace reservations.
 
 </td><td>
 
@@ -121,8 +121,5 @@ To run the AI agents autonomously, you must first duplicate the agentic workflow
 -   Activate all agents within the use case.
 -   Activate the trigger to invoke the use case automatically. If you prefer to invoke it manually, activating the trigger isn't necessary.
 
-Looking for an AI agent?
-
--   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/find-ai-agents.md).
--   To find agents that might not be installed on your instance, visit the [AI Agent Marketplace](https://store.servicenow.com/store/ai-marketplace) on the ServiceNow Store.
+There might be AI agents installed on your instance that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/find-ai-agents.md).
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-taskintelligenceforitsm-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -75,17 +75,17 @@ Xanadu
 
 </td><td>
 
--   **[Set up a similarity model](https://servicenow-staging.fluidtopics.net/access?context=using-task-intelligence-itsm&family=xanadu&ft:locale=en-US)**
+-   **[Set up a similarity model](https://www.servicenow.com/docs/access?context=using-task-intelligence-itsm&family=xanadu&ft:locale=en-US)**
 
 Set up and configure a similarity model that learns the patterns of similarity between two types of tables by comparing their fields.
 
 You can use the similarity template card to set up a new similarity model or select the Incident Similarity model available in the base system.
 
--   **[Metrics of similarity model](https://servicenow-staging.fluidtopics.net/access?context=admin-console-ti&family=xanadu&ft:locale=en-US)**
+-   **[Metrics of similarity model](https://www.servicenow.com/docs/access?context=admin-console-ti&family=xanadu&ft:locale=en-US)**
 
 View the number of predictions made by a selected similarity model and the number of incidents records that provided predictions.
 
--   **[Edit and redeploy the model](https://servicenow-staging.fluidtopics.net/access?context=edit-your-model&family=xanadu&ft:locale=en-US)**
+-   **[Edit and redeploy the model](https://www.servicenow.com/docs/access?context=edit-your-model&family=xanadu&ft:locale=en-US)**
 
 You can edit, retrain, and redeploy a similarity model to enhance the performance based on the model performance and impact.
 
@@ -125,16 +125,16 @@ Xanadu
 
 </td><td>
 
--   **[Classification model renaming](https://servicenow-staging.fluidtopics.net/access?context=create-incident-prediction-model&family=xanadu&ft:locale=en-US)**
+-   **[Classification model renaming](https://www.servicenow.com/docs/access?context=create-incident-prediction-model&family=xanadu&ft:locale=en-US)**
 
 The classification model available with the base system has been renamed from **ITSM OOTB TI Solution** to **Incident Categorization**.
 
--   **[Monitoring and Analytics](https://servicenow-staging.fluidtopics.net/access?context=task-intel-monitor-analystics&family=xanadu&ft:locale=en-US)**
+-   **[Monitoring and Analytics](https://www.servicenow.com/docs/access?context=task-intel-monitor-analystics&family=xanadu&ft:locale=en-US)**
 
 You can now view the number of records predicted by the similarity models in the Task intelligence analytics page.
 
 
--   **[Updated Load Records icon](https://servicenow-staging.fluidtopics.net/access?context=create-a-similar-records-prediction-model-in-task-intelligence-for-itsm&family=xanadu&ft:locale=en-US)**
+-   **[Updated Load Records icon](https://www.servicenow.com/docs/access?context=create-a-similar-records-prediction-model-in-task-intelligence-for-itsm&family=xanadu&ft:locale=en-US)**
 
 Starting in version 7.0.0, you can now viw the updated **Load Records** icon on Train the model screen.
 
@@ -248,7 +248,7 @@ Xanadu
 
 </td><td>
 
-Install Task Intelligence for ITSM by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
+Install Task Intelligence for ITSM by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -445,7 +445,7 @@ Xanadu
     -   Set up and configure a new similarity model **Similar open Problems for Incidents** to predict similar problems based on the fields configured.
     -   Choose the set of records used for training the similar incident model by selecting the conditions on the training tables and training fields for training the similarity models.
 
- See [Task Intelligence for ITSM](https://servicenow-staging.fluidtopics.net/access?context=c-itsm-task-intelligence&family=xanadu&ft:locale=en-US) for more information.
+ See [Task Intelligence for ITSM](https://www.servicenow.com/docs/access?context=c-itsm-task-intelligence&family=xanadu&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 

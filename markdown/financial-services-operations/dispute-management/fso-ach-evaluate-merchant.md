@@ -22,7 +22,7 @@ Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dis
 
 ## About this task
 
-**Note:** When the ACH disputes resolution agentic workflow in Now Assist for FSO is enabled, the Merchant Analysis AI agent is available to assistNow Assist for FSO you at this step. See [Merchant analysis with AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/now-assist-for-financial-services-operations-fso/merchant-analysis-ai.md) for more information.
+**Note:** When the ACH disputes resolution agentic workflow in ServiceNow Otto for FSO is enabled, the Merchant Analysis AI agent is available to assistServiceNow Otto for FSO you at this step. See [Merchant analysis with AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/now-assist-for-financial-services-operations-fso/merchant-analysis-ai.md) for more information.
 
 Ensure that your assignment logic, such as Advanced Work Assignment \(AWA\), is configured so that when a dispute case is assigned to an agent, all associated transactions are automatically assigned to the same agent. This alignment helps maintain consistency and speeds up case resolution.
 

@@ -31,8 +31,8 @@ Actual cost incurred for projects or demands will be summed up and displayed in 
 
 **Note:**
 
--   \(For customers upgraded from legacy Investment Funding plugin to the ServiceNow Store application\) If you have entered actuals manually prior to upgrade, then the same does not match with the actuals posted in the project post-upgrade.
--   If the **Budget** field on the cost plan breakdown of a project or demand has been edited post funding, the CapEx and OpEx budgets do not match the amount funded from the Investment Funding flow.
+-   \(For customers upgraded from legacy Investment Funding plugin to the ServiceNow Store application\) If you have entered actuals manually prior to upgrade. In this case, the actuals do not match those posted in the project post-upgrade.
+-   If the **Budget** field on the cost plan breakdown of a project or demand has been edited post funding. In this case, the CapEx and OpEx budgets do not match the amount funded from the Investment Funding flow.
 
 ## Procedure
 

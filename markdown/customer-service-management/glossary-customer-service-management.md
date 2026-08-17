@@ -256,7 +256,7 @@ Repository of articles and information that helps agents and customers resolve i
 
 Process and steps that involve creating, reviewing, publishing, and maintaining knowledge articles within the Knowledge Base.
 
-To configure a knowledge workflow, see [Activate Now Assist Skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/now-assist-for-csm/activate-now-assist-for-customer-service-management-csm-skills_0.md).
+To configure a knowledge workflow, see [Activate ServiceNow Otto Skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/now-assist-for-csm/activate-now-assist-for-customer-service-management-csm-skills_0.md).
 
 -   **Also known as**
 
@@ -303,7 +303,7 @@ Glossary terms are grouped alphabetically.
 
 Refers to generative AI experiences on the ServiceNow AI Platform. With Now Assist, you can improve productivity and efficiency in your organization with better self-service, faster answers and recommended actions, and empower users to search more effectively.
 
-To learn more about Now Assist, see [Exploring Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/now-assist-for-csm/now-assist-csm-exploring.md).
+To learn more about Now Assist, see [Exploring ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/now-assist-for-csm/now-assist-csm-exploring.md).
 
 ## O
 

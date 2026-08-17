@@ -1,20 +1,20 @@
 ---
-title: Exploring Now Assist for Configure, Price, Quote \(CPQ\)
-description: With the Now Assist for Configure, Price, Quote \(CPQ\) application, you can use generative AI to summarize quotes and provide immediate, comprehensive visibility into key quote information such as products, pricing, and terms. This functionality reduces errors, accelerates quote creation, and helps teams deliver accurate quotes faster.
+title: Exploring ServiceNow Otto for Configure, Price, Quote \(CPQ\)
+description: With the ServiceNow Otto for Configure, Price, Quote \(CPQ\) application, you can use generative AI to summarize quotes and provide immediate, comprehensive visibility into key quote information such as products, pricing, and terms. This functionality reduces errors, accelerates quote creation, and helps teams deliver accurate quotes faster.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/explore-now-assist-cpq.html
 release: zurich
 topic_type: concept
 last_updated: "2026-02-03"
 reading_time_minutes: 1
-breadcrumb: [Now Assist for CPQ]
+breadcrumb: [ServiceNow Otto for CPQ]
 ---
 
-# Exploring Now Assist for Configure, Price, Quote \(CPQ\)
+# Exploring ServiceNow Otto for Configure, Price, Quote \(CPQ\)
 
-With the Now Assist for Configure, Price, Quote \(CPQ\) application, you can use generative AI to summarize quotes and provide immediate, comprehensive visibility into key quote information such as products, pricing, and terms. This functionality reduces errors, accelerates quote creation, and helps teams deliver accurate quotes faster.
+With the ServiceNow Otto for Configure, Price, Quote \(CPQ\) application, you can use generative AI to summarize quotes and provide immediate, comprehensive visibility into key quote information such as products, pricing, and terms. This functionality reduces errors, accelerates quote creation, and helps teams deliver accurate quotes faster.
 
-## Now Assist for CPQ overview
+## ServiceNow Otto for CPQ overview
 
 The AI summarization of quotes provides sales teams and stakeholders with fast, reliable insight into complex quote information. AI summaries help:
 
@@ -23,14 +23,14 @@ The AI summarization of quotes provides sales teams and stakeholders with fast, 
 -   Surface issues early to prevent deal delays.
 -   Keep teams aligned and helps move deals forward.
 
-## Now Assist for CPQ skills
+## ServiceNow Otto for CPQ skills
 
-The Now Assist for CPQ application includes the generative AI skill that enables quote summarization. When activated, this skill helps agents gather context faster.
+The ServiceNow Otto for CPQ application includes the generative AI skill that enables quote summarization. When activated, this skill helps agents gather context faster.
 
 Get started by performing the following tasks:
 
--   [Configuring Now Assist for Configure, Price, Quote \(CPQ\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configure-now-assist-cpq.md)
+-   [Configuring ServiceNow Otto for Configure, Price, Quote \(CPQ\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configure-now-assist-cpq.md)
 -   [Summarize a quote using quote summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/summarize-quote.md)
 
-**Parent Topic:**[Now Assist for Configure, Price, Quote \(CPQ\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/now-assist-for-cpq-landing.md)
+**Parent Topic:**[ServiceNow Otto for Configure, Price, Quote \(CPQ\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/now-assist-for-cpq-landing.md)
 

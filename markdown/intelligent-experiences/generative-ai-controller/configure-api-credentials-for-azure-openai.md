@@ -9,7 +9,7 @@ classification: generative-ai-controller
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Configuring API credentials for generative AI capabilities, Configuring Generative AI Controller, Generative AI Controller, Now Assist, Enable AI experiences]
+breadcrumb: [Configuring API credentials for generative AI capabilities, Configuring Generative AI Controller, Generative AI Controller, AI Admin Hub, Enable AI experiences]
 ---
 
 # Configure API credentials for Azure OpenAI
@@ -18,7 +18,7 @@ Configure your API credentials to use Azure OpenAI in custom workflows and Virtu
 
 ## Before you begin
 
-You must have access to the supported Azure OpenAI models through Now Assist Admin, or an active Azure OpenAI account and a valid API key to securely connect ServiceNow to Azure OpenAI.
+You must have access to the supported Azure OpenAI models through AI Admin Hub, or an active Azure OpenAI account and a valid API key to securely connect ServiceNow to Azure OpenAI.
 
 Role required: admin
 

@@ -7,7 +7,7 @@ release: zurich
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2026-01-06"
+last_updated: "2026-07-27"
 reading_time_minutes: 15
 breadcrumb: [Explore, Virtual Agent API, Build and deploy, Virtual Agent, Conversational Interfaces]
 ---
@@ -16,13 +16,13 @@ breadcrumb: [Explore, Virtual Agent API, Build and deploy, Virtual Agent, Conver
 
 You can use the Virtual Agent API to integrate many of the same features that are available in Virtual Agent and Agent Chat into your chat environment. Feature support varies depending on your ServiceNow release and the store app version number of the Virtual Agent API.
 
-For information about the request and response templates for Virtual Agent API, as well as examples of common use cases, see Virtual Agent Bot Integration API.
+For information about the request and response templates for Virtual Agent API, as well as examples of common use cases, see [Virtual Agent Bot Integration API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/bot-api.md).
 
 ## Version 4.1.1
 
 **Support for synthesized response in Virtual Agent API**
 
--   With synthesized response enabled through Now Assist experience, Virtual Agent API sends the response with citations to the primary bot. Citations are included in **citations** parameter along with separate citation links.
+-   With synthesized response enabled through ServiceNow Otto, Virtual Agent API sends the response with citations to the primary bot. Citations are included in **citations** parameter along with separate citation links.
 -   Here's an example JSON for synthesized response with citations and citation links:
 
     ```
@@ -107,7 +107,7 @@ For information about the request and response templates for Virtual Agent API, 
 
 **Support for agentic response in Virtual Agent API**
 
--   Virtual Agent API supports agentic response through Now Assist experience. With agentic response enabled in Virtual Agent API, the output messages are shown to the user as loading or processing.
+-   Virtual Agent API supports agentic response through ServiceNow Otto. With agentic response enabled in Virtual Agent API, the output messages are shown to the user as loading or processing.
 -   Virtual Agent API sends message to the primary bot through a new **DynamicLoader** parameter.
 -   Here's an example JSON for agentic response:
 
@@ -155,7 +155,7 @@ For information about the request and response templates for Virtual Agent API, 
 
 **Support for response streaming in Virtual Agent API**
 
--   Virtual Agent API supports response streaming through Now Assist experience. To learn more, see [Enable Now Assist experience in Virtual Agent API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/enable-now-assist-in-virtual-agent-experience-in-virtual-agent-api.md).
+-   Virtual Agent API supports response streaming through ServiceNow Otto. To learn more, see [Enable ServiceNow Otto in Virtual Agent API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/enable-now-assist-in-virtual-agent-experience-in-virtual-agent-api.md).
 
     **Note:** The primary bot must pass the streaming responses to the end user. For more information, see [Chat streaming responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/streaming-responses-requestor.md).
 
@@ -288,9 +288,9 @@ For information about the request and response templates for Virtual Agent API, 
         ```
 
 -   Enable streaming in Virtual Agent API by the following configuration:
-    1.  Confirm that **Allow response streaming** is selected in Now Assist in Virtual Agent. To learn more, see [Enable additional chat features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/additional-chat-features.md).
+    1.  Ensure that **Allow response streaming** is selected in ServiceNow Otto for Virtual Agent. To learn more, see [Enable additional chat features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/additional-chat-features.md).
     2.  Navigate to **All** and enter `sys_now_assist_channel_config.list` in the navigation filter.
-    3.  In the Now Assist Channel configuration \[now\_assist\_channel\_config\] table, set the **Streaming Ready** field value to `true` for Bot to Bot device.
+    3.  In the ServiceNow Otto Channel configuration \[now\_assist\_channel\_config\] table, set the **Streaming Ready** field value to `true` for Bot to Bot device.
 
         \[Omitted image "va-api-streaming.png"\] Alt text: Set the Streaming Ready field value to true for Bot to Bot device.
 
@@ -317,14 +317,14 @@ For information about the request and response templates for Virtual Agent API, 
 -   Virtual Agent API sends chat history from primary bot to live agent anywhere in the request during an ongoing conversation. This behavior is controlled by the following system property: allow\_storing\_history\_in\_ongoing-conversation. Set the value of the property to true to send chat history anywhere in the request.
 -   Interaction record contains transcript of chat history along with timestamp of individual messages.
 
-**Support for Now Assist experience**
+**Support for ServiceNow Otto**
 
--   Now Assist experience in Virtual Agent API offers generative AI skills across multiple provider channels.
--   For more information, see [Enable Now Assist experience in Virtual Agent API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/enable-now-assist-in-virtual-agent-experience-in-virtual-agent-api.md).
+-   ServiceNow Otto experience in Virtual Agent API offers generative AI skills across multiple provider channels.
+-   For more information, see [Enable ServiceNow Otto in Virtual Agent API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/enable-now-assist-in-virtual-agent-experience-in-virtual-agent-api.md).
 
 **Support for configuring multiple provider applications**
 
--   Virtual Agent API enables configuration of multiple provider applications to support use cases where there are multiple primary bots using Virtual Agent API and you must distinguish between them.
+-   Virtual Agent API enables configuration of multiple provider applications to support use cases where there are multiple primary bots using Virtual Agent API and you need to distinguish between them.
 -   For more information, see [Configure multiple provider applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/configure-multiple-provider-applications.md).
 
 **Support for transformation of Virtual Agent API request and response**
@@ -337,7 +337,7 @@ For information about the request and response templates for Virtual Agent API, 
 -   Virtual Agent API supports file uploads up to 1 GB in size from a private URL. The primary bot must pass the user ID, optional provider application ID, and the name of the file. Observe the following guidelines:
     -   Provider application ID is optional.
     -   The user ID and provider application ID should be sent before the file name in the payload.
-    -   The end user must have a role specified in the **glide.attachment.role** property. For more information, see Require a role to attach files.
+    -   The end user must have a role specified in the **glide.attachment.role** property. For more information, see [Require a role to attach files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_DisablingTheDragAndDropFeature.md).
     -   Basic or OAuth authentication is supported, but Message Authentication is not.
 -   Example message payload from the primary bot:   
 
@@ -502,7 +502,7 @@ Outbound message indicating one of the following:-   A live agent has entered th
 -   To use synchronous transfer to a live agent, be aware of the following guidelines:
     -   Configure the Virtual Agent response endpoint. Agent Chat messages will be delivered to the endpoint you specify.
     -   You must manually turn off Notifications for the instance.
-    -   If you're using synchronous transfer to a live agent, Virtual Agent API sends the typing indicator if it is enabled:
+    -   If you are using synchronous transfer to a live agent, Virtual Agent API sends the typing indicator if it is enabled:
 
         ```
         {
@@ -515,7 +515,7 @@ Outbound message indicating one of the following:-   A live agent has entered th
     -   Topics that use the following features are not supported in synchronous mode: [file upload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-user-inputs.md), the [Action utility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-action.md), and the [Pause topic block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-platform-topicblocks.md).
 -   To disable these features and enable synchronous support, see [Enable synchronous support in Virtual Agent API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/virtual-agent-api-enable-synchronous-support.md).
 
-**Improving topic switching errors**
+**Improved topic switching errors and troubleshooting**
 
 -   Topic switching may fail for any of the following reasons:
     -   The request includes both the topic name and topic ID \(keyword topic discovery\) or the topic intent name and topic intent ID \(NLU topic discovery\). Specify one or the other.
@@ -524,14 +524,14 @@ Outbound message indicating one of the following:-   A live agent has entered th
     -   The requested topic is already running.
     -   The requested topic is valid, but a security condition is preventing access. For example, the topic may not be permitted to run in the channel or some other access-control condition may apply.
 -   If topic switching fails, Virtual Agent API responds in the following ways, whether you're using it synchronously or asynchronously:
-    -   The conversation is closed with a message stating that the conversation cannot continue. The conversation no longer remains in an open state.
+    -   If topic switching fails, the conversation is closed with a message stating that the conversation cannot continue. The conversation will no longer remain in an open state.
     -   The previous request is marked as processed so that a new request can be made without waiting for a timeout.
     -   The reason for the failure is logged in the system log table \(**Automated Test Framework** &gt; **System Logs** &gt; **Errors**\).
 
 **Improved Virtual Agent API response time**
 
 -   Virtual Agent API responses include parameters like Take Control and NLU Score. These parameters are processed while preparing the response.
--   Starting with version 3.9.0, you can exclude the Take Control, NLU Score parameters, or both from the Virtual Agent API response to improve the response time.
+-   Starting with version 3.9.0, you can exclude the Take Control and/or NLU Score parameters from the Virtual Agent API response to improve the response time.
 -   To exclude Take Control and NLU Score parameters from the Virtual Agent API response, complete the following steps:
     1.  Navigate to **All** &gt; **sys\_cs\_custom\_adapter\_property.list**.
     2.  Search for **enable\_take\_control** and **send\_nlu\_score** properties.

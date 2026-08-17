@@ -1,6 +1,6 @@
 ---
-title: Activate Now Assist AI agents for IT Operations Management \(ITOM\)
-description: Activate Now Assist AI agents associated with the Triage and analyze alerts agentic workflow, to enable the agentic AI experience.
+title: Activate AI agents for IT Operations Management \(ITOM\)
+description: Activate AI agents associated with the Triage and analyze alerts agentic workflow, to enable the agentic AI experience.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/now-assist-for-it-operations-management/install-now-assist-ai-agents-itom.html
 release: zurich
@@ -10,16 +10,16 @@ topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
 keywords: [AI Agents, agentic AI]
-breadcrumb: [Configure, Now Assist for ITOM, IT Operations Management]
+breadcrumb: [Configure, ServiceNow Otto for ITOM, IT Operations Management]
 ---
 
-# Activate Now Assist AI agents for IT Operations Management \(ITOM\)
+# Activate AI agents for IT Operations Management \(ITOM\)
 
-Activate Now Assist AI agents associated with the Triage and analyze alerts agentic workflow, to enable the agentic AI experience.
+Activate AI agents associated with the Triage and analyze alerts agentic workflow, to enable the agentic AI experience.
 
 ## Before you begin
 
-Before activating the Now Assist AI agents, you must install the Now Assist for IT Operations Management \(ITOM\) plugin. For more information, see [Install the Now Assist for IT Operations Management \(ITOM\) plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/install-now-assist-itom.md).
+Before activating the AI agents, you must install the ServiceNow Otto for IT Operations Management \(ITOM\) plugin. For more information, see [Install the ServiceNow Otto for IT Operations Management \(ITOM\) plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/install-now-assist-itom.md).
 
 To get started with AI agents, you must have:
 
@@ -39,17 +39,17 @@ Role required: admin
 
     The Triage and analyze alerts page in AI Agent Studio lets you manage the agentic workflow, including options for Describe and connect, Define trigger, and Select display.
 
-2.  Make the Triage and analyze alerts agentic workflow visible in the Now Assist panel.
+2.  Make the Triage and analyze alerts agentic workflow visible in the ServiceNow Otto panel.
 
     1.  Navigate to **Select display**.
 
-    2.  Next to **Now Assist panel** select the **Display** toggle to turn on the display.
+    2.  Next to **ServiceNow Otto panel** select the **Display** toggle to turn on the display.
 
     3.  Select **Save and test**.
 
     4.  Navigate to **All** &gt; **Virtual Agent** &gt; **Designer**.
 
-    5.  From the **Select assistant** drop-down list, select **Now Assist Panel - Platform\(default\).**
+    5.  From the **Select assistant** drop-down list, select **ServiceNow Otto Panel - Platform\(default\).**
 
     6.  Search for **Triage and analyze alerts**.
 
@@ -58,7 +58,7 @@ Role required: admin
 
 ## What to do next
 
-To access AI agents in the Now Assist panel, you must enable the panel. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/activate-now-assist-panel.md).
+To access AI agents in the ServiceNow Otto panel, you must enable the panel. For more information, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
-**Parent Topic:**[Configure Now Assist for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-configure.md)
+**Parent Topic:**[Configure ServiceNow Otto for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-configure.md)
 

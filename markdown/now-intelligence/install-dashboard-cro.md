@@ -1,22 +1,24 @@
 ---
 title: Install the Chief Risk Officer Dashboard
-description: The CRO Dashboard provides a single pane glass view of end-to-end Governance, Risk and Compliance.
+description: The CRO Dashboard provides a single pane glass view of end-to-end Governance, Risk, and Compliance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/install-dashboard-cro.html
 release: zurich
 topic_type: task
-last_updated: "2025-08-18"
+last_updated: "2026-07-31"
 reading_time_minutes: 1
 breadcrumb: [Chief Risk Officer \(CRO\) Dashboard, Executive dashboard overview, Dashboards, Platform Analytics experience, Platform Analytics]
 ---
 
 # Install the Chief Risk Officer Dashboard
 
-The CRO Dashboard provides a single pane glass view of end-to-end Governance, Risk and Compliance.
+The CRO Dashboard provides a single pane glass view of end-to-end Governance, Risk, and Compliance.
 
 ## Before you begin
 
-Role required: sn\_cro\_dashboard.admin, sn\_cro\_dashboard.user
+Role required: admin, platform\_analytics\_admin, sn\_cro\_dashboard.admin
+
+Consider duplicating this executive dashboard before customizing it. For more information, see [Duplicate a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/duplicate-db.md).
 
 **Note:** The CRO Dashboard application is free from the ServiceNow Store. However, the contents of the dashboard require professional entitlements to the following applications:
 
@@ -58,12 +60,12 @@ Application plugins:
 
         Assign the role sn\_cro\_dashboard.admin to users or groups who require configuration privileges on the dashboard.
 
-        **Note:** Only users with this role are able to configure the CRO dashboard.
+        **Note:** Only users with this role can configure the CRO dashboard.
 
     -   **CRO Dashboard end users**
 
         Assign the user role sn\_cro\_dashboard.user to users or groups who must view the dashboard.
 
-    Users must log out and log back in to enable their new roles after the admin assigns them. For more information on user roles, see [Exploring user administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/exploring-user-administration.md).
+    Users must log out and log back in to enable their new roles after the admin assigns them. For more information on user roles, see .
 
 

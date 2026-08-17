@@ -1,6 +1,6 @@
 ---
 title: Sales CRM for Telecommunications PSR catalog
-description: The Sales CRM for Telecommunications Product, Service, and Resource \(PSR\) catalog is a unified catalog that defines all required entities in a single location, based on the TM Forum \(TMF\) Shared Information and Data \(SID\) model.
+description: The Sales CRM for Telecommunications Product, Service, and Resource \(PSR\) catalog is a unified catalog that defines all required entities in a single location. It is based on the TM Forum \(TMF\) Shared Information and Data \(SID\) model.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-media-technology/somt-psr-catalog.html
 release: zurich
@@ -12,7 +12,7 @@ breadcrumb: [Explore, Sales Customer Relationship Management for Telecommunicati
 
 # Sales CRM for Telecommunications PSR catalog
 
-The Sales CRM for Telecommunications Product, Service, and Resource \(PSR\) catalog is a unified catalog that defines all required entities in a single location, based on the TM Forum \(TMF\) Shared Information and Data \(SID\) model.
+The Sales CRM for Telecommunications Product, Service, and Resource \(PSR\) catalog is a unified catalog that defines all required entities in a single location. It is based on the TM Forum \(TMF\) Shared Information and Data \(SID\) model.
 
 The Sales CRM for Telecommunications PSR catalog consolidates product, service, and resource definitions into a single catalog structure, eliminating the need for product data synchronization between separate sales and fulfillment catalogs. It provides a consistent framework for managing telecom product offerings across multiple domains like B2C Retail Mobile, B2C Retail Wireline, B2B Enterprise Connectivity, and Beyond Connectivity. The following table contains examples of Mobile, Broadband and Dedicated leased lines.
 

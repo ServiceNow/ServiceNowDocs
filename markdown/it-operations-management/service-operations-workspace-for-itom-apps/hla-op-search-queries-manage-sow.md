@@ -1,5 +1,5 @@
 ---
-title: Define, save, and share a search of log data in Health Log Analytics
+title: Define, save, and share a log data search
 description: Define, save, and share searches of log data to help determine the causes of Log Analytics alerts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-search-queries-manage-sow.html
@@ -9,10 +9,10 @@ classification: service-operations-workspace-for-itom-apps
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Review alert-related logs on the Log Viewer, Log Analytics in SOW for ITOM, Using SOW for ITOM, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
+breadcrumb: [Review alert-related logs on the Log Viewer, Log Analytics in SOW for ITOM, Use, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
 ---
 
-# Define, save, and share a search of log data in Health Log Analytics
+# Define, save, and share a log data search
 
 Define, save, and share searches of log data to help determine the causes of Log Analytics alerts.
 

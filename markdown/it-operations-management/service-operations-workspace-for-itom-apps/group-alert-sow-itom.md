@@ -9,7 +9,7 @@ classification: service-operations-workspace-for-itom-apps
 topic_type: task
 last_updated: "2026-06-16"
 reading_time_minutes: 10
-breadcrumb: [Alert automation in SOW for ITOM, Using SOW for ITOM, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
+breadcrumb: [Alert automation in SOW for ITOM, Use, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
 ---
 
 # Create Group automation
@@ -79,7 +79,7 @@ For users familiar with the classic Event Management experience, this feature of
 
     \[Omitted image "group-automation-criteria.png"\] Alt text: Alert grouping criteria
 
-    1.  In the **Grouping timeframe** field, specify the duration \(in minutes\) when alerts must be collected and grouped together.
+    1.  In the **Grouping timeframe** field, specify the duration \(in minutes\) during which alerts are collected and grouped together. This is a fixed window that starts when the first alert arrives.
     2.  In the **Criteria type** menu, select how you want to group the alerts.
 
         Currently, there are two options:

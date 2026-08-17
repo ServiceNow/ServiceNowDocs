@@ -28,8 +28,8 @@ Categorize and organize organization's configuration items and map them into app
 You can perform initial mapping of multiple or single application services in your organization using a method that best suits you.
 -   **[Application service analysis and maintenance using legacy Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/service-analysis-maintenance-legacy-workspace.md)**  
 Service Mapping creates maps to help you see the architecture and organization of application services. These maps are useful for planning change or migration, as well as analyzing the continuity and availability of services.
--   **[AI capabilities in Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/ai-workflows-service-mapping.md)**  
-Service Mapping AI capabilities helps Service Mapping Administrators speed-up mapping processes and manage team flows more efficiently.
+-   **[AI in Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/ai-workflows-service-mapping.md)**  
+AI-powered features in Service Mapping help administrators automate service map creation, connect business applications to discovered services, and query live service topology using natural language.
 
 **Parent Topic:**[Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/c_ServiceMappingOverview.md)
 

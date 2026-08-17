@@ -9,14 +9,14 @@ classification: now-assist-for-hrsd
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Use agentic workflows, Now Assist for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
+breadcrumb: [Use agentic workflows, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
 # Generate onboarding ramp-up plan agentic workflow
 
 The Generate onboarding ramp-up plan agentic workflow is an AI-powered solution that helps managers at your organization onboard new employees more efficiently. This workflow uses AI agents to generate personalized plans that are designed to elevate the knowledge and skills of new employees beginning to embark on their onboarding journey.
 
-The Generate onboarding ramp-up plan agentic workflow facilitates the employee journey that transpires from the preboarding phase to the onboarding phase. As newly hired employees transition from preboarding to onboarding, managers are typically responsible for producing onboarding plans that ramp up the knowledge and skill of new employees joining their team. Creating onboarding plans, especially personalized, team-specific plans, is a time-consuming process for managers that quickly devolves into an increased burden. Moreover, if the ramp-up plans aren't beneficial in developing the knowledge and skill of new employees coming onboard, managers are often required to spend more time on training the talent that they recently acquired. This agentic workflow for generating onboarding ramp-up plans significantly reduces the workload for managers by converting a cumbersome process into an automated workflow.
+The Generate onboarding ramp-up plan agentic workflow facilitates the employee journey that transpires from the preboarding phase to the onboarding phase. As newly hired employees transition from preboarding to onboarding, managers are responsible for producing onboarding plans that ramp up the knowledge and skill of new employees joining their team. Creating onboarding plans, especially personalized, team-specific plans, is a time-consuming process for managers that quickly devolves into an increased burden. This agentic workflow for generating onboarding ramp-up plans significantly reduces the workload for managers by converting a cumbersome process into an automated workflow.
 
 The Generate onboarding ramp-up plan agentic workflow provides the following benefits to help deliver value to your organization:
 

@@ -9,7 +9,7 @@ classification: privacy-workspace
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Now Assist for Privacy Management, Privacy Management, Governance, Risk, and Compliance]
+breadcrumb: [ServiceNow Otto for Privacy Management, Privacy Management, Governance, Risk, and Compliance]
 ---
 
 # GRC case summarization skill for privacy cases
@@ -22,20 +22,20 @@ Privacy cases can involve multiple coordinators, complex activity logs, and brea
 
 The GRC case summarization skill collects data from predefined fields and related lists across the case record. This data is assembled into a prompt and sent to the configured LLM service provider, which then returns a structured summary.
 
-To summarize privacy case records, the skill must be activated from the Now Assist Admin console. Once it's activated, case analysts with the appropriate user role can trigger the skill on a privacy case.
+To summarize privacy case records, the skill must be activated from the AI Admin Hub. Once it's activated, case analysts with the appropriate user role can trigger the skill on a privacy case.
 
 ## User roles
 
 Important user roles to activate and use this skill are:
 
--   sn\_nowassist\_admin.nsa\_admin: Grants an admin access to activate or edit a Now Assist skill.
+-   sn\_nowassist\_admin.nsa\_admin: Grants an admin access to activate or edit a ServiceNow Otto skill.
 -   sn\_privacy\_case.privacy\_case\_analyst: Grants access to privacy case records.
--   sn\_prm\_gen\_ai.user: Grants access to the Now Assist for Privacy Management skills.
+-   sn\_prm\_gen\_ai.user: Grants access to the ServiceNow Otto for Privacy Management skills.
 
     **Note:** Users with the sn\_prm\_gen\_ai.user role automatically have the sn\_grc\_sharegenai.grc\_case\_ai\_user role, which is the minimum role required to use the GRC case summarization skill.
 
 
-All members of the **Assignment group** on a case record can view any summary that has been saved to that record.
+All members of the **Assignment group** on a case record can view the summary that has been saved to the record.
 
 ## LLM service providers
 
@@ -134,7 +134,7 @@ AI-powered analysis of the case timeline and overall investigation effort.-   **
 </table>**Related topics**  
 
 
-[Activate the GRC case summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/activate-grc-case-summarization-skill.md)
+[Activate the GRC case summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/activate-grc-case-summarization-skill.md)
 
 [Summarize a privacy case using the GRC case summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/summarize-privacy-case.md)
 

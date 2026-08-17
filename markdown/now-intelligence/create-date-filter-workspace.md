@@ -47,7 +47,7 @@ Date filters apply to Score, Time series, Bar, and Pie/Donut visualizations. For
 
 4.  If you’re letting the users select from relative ranges, you can select which relative ranges they can choose from in **Select predefined ranges**.
 
-    If you have Fiscal Calendars installed and configured, you can select from fiscal calendar ranges. For more information, see [Defining fiscal calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/c_FiscalCalendar.md).
+    If you have Fiscal Calendars installed and configured, you can select from fiscal calendar ranges. For more information, see .
 
     \[Omitted image "filters-fiscal-calendar.png"\] Alt text: Select Predefined Ranges picker showing fiscal calendar options.
 

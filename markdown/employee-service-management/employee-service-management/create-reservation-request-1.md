@@ -48,15 +48,15 @@ Role: sn\_wsd\_core.workplace\_user.
 
 1.  Select any of the following context menu navigation options to make a workplace reservation.
 
-<table id="choicetable_prt_yr3_smb"><thead><tr><th align="left" id="d560514e135">
+<table id="choicetable_prt_yr3_smb"><thead><tr><th align="left" id="d560716e135">
 
 Location
 
-</th><th align="left" id="d560514e138">
+</th><th align="left" id="d560716e138">
 
 Navigation path
 
-</th></tr></thead><tbody><tr><td id="d560514e144">
+</th></tr></thead><tbody><tr><td id="d560716e144">
 
 **From Employee Center Portal**
 

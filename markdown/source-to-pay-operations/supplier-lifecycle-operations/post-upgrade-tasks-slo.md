@@ -44,3 +44,5 @@ After you upgrade to Zurich, the latest supplier catalog items may get skipped a
 
 [Run fix script to migrate existing data from the deprecated Action type column after upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/fix-script-deprecated-column.md)
 
+[Enable deprecated case types after upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/enable-deprecated-case-types.md)
+

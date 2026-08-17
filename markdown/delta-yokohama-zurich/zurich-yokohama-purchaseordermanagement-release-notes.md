@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-purchaseordermanagement-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -75,17 +75,17 @@ Zurich
 
 </td><td>
 
--   **[Reporting delivery plan issues](https://servicenow-staging.fluidtopics.net/access?context=reporting-delivery-plan-issues&family=zurich&ft:locale=en-US)**
+-   **[Reporting delivery plan issues](https://www.servicenow.com/docs/access?context=reporting-delivery-plan-issues&family=zurich&ft:locale=en-US)**
 
 Suppliers can report delivery plan issues related to purchase order line through the Supplier Collaboration Portal, ensuring prompt visibility for the appropriate buyer. Suppliers can also track and collaborate with the buyers on the purchase order exception on the related record in Supplier Lifecycle Operations.
 
 
--   **[Centralized interface for purchase order exceptions](https://servicenow-staging.fluidtopics.net/access?context=purch-order-mgmt-ws&family=zurich&ft:locale=en-US)**
+-   **[Centralized interface for purchase order exceptions](https://www.servicenow.com/docs/access?context=purch-order-mgmt-ws&family=zurich&ft:locale=en-US)**
 
 The Purchase Order Management page provides operational buyers with a centralized interface to monitor and review purchase order exceptions. Users can quickly identify urgent issues, view recent tasks, and take approval actions, improving workflow visibility and exception handling.
 
 
--   **[Resolving purchase order exceptions](https://servicenow-staging.fluidtopics.net/access?context=resolving-purchase-order-exceptions&family=zurich&ft:locale=en-US)**
+-   **[Resolving purchase order exceptions](https://www.servicenow.com/docs/access?context=resolving-purchase-order-exceptions&family=zurich&ft:locale=en-US)**
 
 Enables buyers to resolve purchase order exceptions directly from the exception page, with options to accept supplier proposals or make custom edits. It also allows buyers to find alternative suppliers with open orders for the same materials and request order expediting or increased quantities.
 
@@ -204,7 +204,7 @@ Zurich
 
 </td><td>
 
-Install Purchase Order Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+Install Purchase Order Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -353,7 +353,7 @@ Zurich
 -   Receive automatic notifications, automatically prioritize them, and assign them to the appropriate person.
 -   Utilize resolution tools to automatically update orders and review order plans for the affected material and location.
 
- See [Purchase Order Management](https://servicenow-staging.fluidtopics.net/access?context=purchase-order-mgmt-landing-page&family=zurich&ft:locale=en-US) for more information.
+ See [Purchase Order Management](https://www.servicenow.com/docs/access?context=purchase-order-mgmt-landing-page&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

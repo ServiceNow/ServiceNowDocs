@@ -1,6 +1,6 @@
 ---
 title: Now Assist ERP data query skill
-description: Use the Now Assist ERP data query skill in Now Assist for Zero Copy Connector to identify SAP objects such as tables, BAPI, and OData endpoints.
+description: Use the Now Assist ERP data query skill in ServiceNow Otto for Zero Copy Connector to identify SAP objects such as tables, BAPI, and OData endpoints.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/erp-integration-framework/now-assist-erp-data-query.html
 release: zurich
@@ -10,29 +10,29 @@ topic_type: concept
 last_updated: "2025-10-17"
 reading_time_minutes: 1
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI, zero copy connector, erp]
-breadcrumb: [Now Assist for Zero Copy Connector skills, Now Assist for Zero Copy Connector, Zero Copy Connector for ERP overview, Workflow Data Fabric]
+breadcrumb: [ServiceNow Otto for Zero Copy Connector skills, ServiceNow Otto for Zero Copy Connector, Zero Copy Connector for ERP overview, Workflow Data Fabric]
 ---
 
 # Now Assist ERP data query skill
 
-Use the Now Assist ERP data query skill in Now Assist for Zero Copy Connector to identify SAP objects such as tables, BAPI, and OData endpoints.
+Use the Now Assist ERP data query skill in ServiceNow Otto for Zero Copy Connector to identify SAP objects such as tables, BAPI, and OData endpoints.
 
 ## ERP data query overview
 
 This feature is available starting with the Zurich Patch 4 release.
 
-**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 The ERP data query skill helps you identify SAP objects that can then be used to query the required data. For example, use ERP data query to obtain an OData endpoint.
 
 -   Use this skill by selecting the **Ask AI** button in the Model Manager.
 -   This skill can help you create new ERP models and model operations more quickly by automating the identification of correct SAP data sources, eliminating the need for manual look up and deep technical knowledge.
 
-The sn\_erp\_integration.erp\_ai\_user role is required to work with generative AI and agentic AI in Now Assist for Zero Copy Connector.
+The sn\_erp\_integration.erp\_ai\_user role is required to work with generative AI and agentic AI in ServiceNow Otto for Zero Copy Connector.
 
 ## Prerequisites for using ERP data query
 
-Follow the instructions in [Configure Now Assist for Zero Copy Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/configure-now-assist-for-zero-copy-connectors.md) to install the plugin.
+Follow the instructions in [Configure ServiceNow Otto for Zero Copy Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/configure-now-assist-for-zero-copy-connectors.md) to install the plugin.
 
 ## Asking Now Assist to identify SAP objects
 

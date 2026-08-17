@@ -1,6 +1,6 @@
 ---
-title: Configure Disputes intake via Virtual Agent in Now Assist for Financial Services Operations \(FSO\)
-description: If you have the admin role, you can configure Disputes intake via Virtual Agent in Now Assist for Financial Services Operations \(FSO\). This provides a conversational experience for your customers to submit card disputes.
+title: Configure Disputes intake via Virtual Agent in ServiceNow Otto for Financial Services Operations \(FSO\)
+description: If you have the admin role, you can configure Disputes intake via Virtual Agent in ServiceNow Otto for Financial Services Operations \(FSO\). This provides a conversational experience for your customers to submit card disputes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/now-assist-for-financial-services-operations-fso/configuring-disputes-intake-via-virtual-agent.html
 release: zurich
@@ -9,12 +9,12 @@ classification: now-assist-for-financial-services-operations-fso
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Configure, Now Assist for FSO, Financial Services Operations \(FSO\)]
+breadcrumb: [Configure, ServiceNow Otto for FSO, Financial Services Operations \(FSO\)]
 ---
 
-# Configure Disputes intake via Virtual Agent in Now Assist for Financial Services Operations \(FSO\)
+# Configure Disputes intake via Virtual Agent in ServiceNow Otto for Financial Services Operations \(FSO\)
 
-If you have the admin role, you can configure Disputes intake via Virtual Agent in Now Assist for Financial Services Operations \(FSO\). This provides a conversational experience for your customers to submit card disputes.
+If you have the admin role, you can configure Disputes intake via Virtual Agent in ServiceNow Otto for Financial Services Operations \(FSO\). This provides a conversational experience for your customers to submit card disputes.
 
 ## Before you begin
 
@@ -24,7 +24,7 @@ Role required: admin
 
 ## About this task
 
-Use the Now Assist Admin console to configure Now Assist for FSO. This console contains what you need to install the plugins and configure the generative AI skills. For additional information, see [Overview tab in Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configuring-now-assist.md).
+Use the AI Admin Hub console to configure ServiceNow Otto for FSO. This console contains what you need to install the plugins and configure the generative AI skills. For additional information, see [Overview tab in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configuring-now-assist.md).
 
 **Note:**
 
@@ -32,11 +32,11 @@ Now LLM Service is currently the only provider for this application's skills.
 
 ## Procedure
 
-1.  Install the Now Assist for Financial Services Operations \(FSO\) plugin \(sn\_fso\_gen\_ai\).
+1.  Install the ServiceNow Otto for Financial Services Operations \(FSO\) plugin \(sn\_fso\_gen\_ai\).
 
     -   For information about the plugin dependencies and plugin activation order, see [Application information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/now-assist-for-financial-services-operations-fso/supporting-information-for-now-assist-for-financial-services-operations-fso.md).
-    -   For information about the installation process, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
-2.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills** to access the **Now Assist Skills** tab of the Now Assist Admin console.
+    -   For information about the installation process, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+2.  Navigate to **Admin** &gt; **** &gt; **AI Skills**.
 
 3.  Select the **Customer** &gt; **FSO** workflow group.
 
@@ -44,7 +44,7 @@ Now LLM Service is currently the only provider for this application's skills.
 
 5.  In the Turn on skill window, define the roles permitted to use this skill.
 
-    ACLs are implemented to identify the users permitted to access the skill. See [Implement access control in Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/aia-security-implementation.md) for more information.
+    ACLs are implemented to identify the users permitted to access the skill. See [Implement access control in AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/aia-security-implementation.md) for more information.
 
 6.  Select **Turn on**.
 
@@ -55,5 +55,5 @@ A window displays confirming that the Disputes intake via Virtual Agent skill is
 
 ## What to do next
 
-You can choose which service provider to use for this skill [in the Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/manage-large-language-models.md).
+You can choose which service provider to use for this skill in ServiceNow Otto Admin. For more information, see [Manage AI models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/manage-large-language-models.md).
 

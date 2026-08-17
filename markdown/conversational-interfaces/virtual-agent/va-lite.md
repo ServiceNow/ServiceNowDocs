@@ -19,7 +19,7 @@ Virtual Agent Lite is a limited version of Virtual Agent that is available to IT
 
 ## About Virtual Agent Lite
 
-Use Virtual Agent Lite, to implement a virtual agent that provides IT service assistance using several pre-built ITSM conversations. As with Virtual Agent, you can set up and configure the chat clients for your end users. Use Virtual Agent Designer to review, duplicate, and publish the pre-built conversation topics for your end users.
+Use Virtual Agent Lite, to implement a virtual agent that provides IT service assistance using several pre-built ITSM conversations. As with Virtual Agent, you can set up and configure the chat clients for your end users. Use Assistant Designer Asset library to review, duplicate, and publish the pre-built conversation topics for your end users.
 
 Virtual Agent Lite is preinstalled in your instance. To use it, you must install ITSM Virtual Agent Conversation Topics Lite, which provides several pre-built conversations for common IT support requests. These keyword-based conversations run in the web chat client and also in Virtual Agent messaging integrations for the following channels:
 
@@ -30,7 +30,7 @@ Virtual Agent Lite is preinstalled in your instance. To use it, you must install
 
 ## Virtual Agent Lite features
 
-For Zurich, the Virtual Agent Designer features available in Virtual Agent Lite include the following:
+For Zurich, the Assistant Designer Asset library features available in Virtual Agent Lite include the following:
 
 -   Localization Framework integration.
 
@@ -53,15 +53,15 @@ After using Virtual Agent Lite, you can upgrade to Virtual Agent to access all o
 
 Virtual Agent Lite has the following limitations:
 
--   Virtual Agent Designer limitations: Virtual Agent Lite only supports conversation topics in the ITSM self-service category \(including related topic blocks\) and the platform setup topics. This means you can't do the following:
+-   Assistant Designer Asset library limitations: Virtual Agent Lite only supports conversation topics in the ITSM self-service category \(including related topic blocks\) and the platform setup topics. This means you can't do the following:
 
     -   Create new topics, topic blocks, or custom controls.
     -   Specify the conditions that control how or when the topics are used.
     -   Specify the Live Agent \(chat\) variables that provide context for conversations.
     -   Enable the **Available for Agent Autopilot** toggle switch.
-    **Note:** A lock icon displays next to the Virtual Agent Designer fields that are not available in Virtual Agent Lite.
+    **Note:** A lock icon displays next to the Assistant Designer Asset library fields that are not available in Virtual Agent Lite.
 
--   Keyword-based conversations: Virtual Agent Lite only supports keyword-based conversations. Natural Language Understanding \(NLU\) models and NLU-enabled topics aren't supported. This means that related NLU features, such as topic switching and multi-language NLU models, are also not supported. Language support is available for conversations through ServiceNow AI Platform language internationalization.
+-   Keyword-based conversations: Virtual Agent Lite only supports keyword-based conversations. Natural Language Understanding \(NLU\) models and NLU-enabled topics aren't supported. This means that related NLU features, such as topic switching and multi-language NLU models, are also not supported. Language support is available for conversations through ServiceNow AI Platform [language internationalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/c_LangInternationalizationSupport.md).
 -   Virtual Agent tables: Virtual Agent tables are read only for admins and Virtual Agent admins.
 -   Localized content: Translated content is read-only. You can't add new translations or localize content. The **Languages** tab displays a banner asking users to contact their Account Executive for more information about upgrading to the latest release.
 -   Custom channels: You can't run Virtual Agent Lite topics in any custom chat channels \(created through custom chat integrations\), except for the supported Virtual Agent integrations for Slack, Microsoft Teams, Workplace by Facebook, and Facebook Messenger applications.

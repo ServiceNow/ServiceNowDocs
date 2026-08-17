@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-nowassistforoperationaltechnologyservicemanagementotsm-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -91,15 +91,15 @@ Zurich
 
 </td><td>
 
--   **[Summarize an OT incident](https://servicenow-staging.fluidtopics.net/access?context=summarize-ot-incident-now-assist&family=zurich&ft:locale=en-US)**
+-   **[Summarize an OT incident](https://www.servicenow.com/docs/access?context=summarize-ot-incident-now-assist&family=zurich)**
 
 Automatically summarize an OT incident using the **Summarize** UI action to produce a concise summary of the incident.
 
--   **[Generate resolution notes](https://servicenow-staging.fluidtopics.net/access?context=generate-resolution-notes-ot-incident&family=zurich&ft:locale=en-US)**
+-   **[Generate resolution notes](https://www.servicenow.com/docs/access?context=generate-resolution-notes-ot-incident&family=zurich)**
 
 Automatically generate resolution notes for an OT incident using the **Generate resolution notes** UI action to produce a concise summary of the incident.
 
--   **[Generate OT KB articles](https://servicenow-staging.fluidtopics.net/access?context=agent-ot-knowledge-generator&family=zurich&ft:locale=en-US)**
+-   **[Generate OT KB articles](https://www.servicenow.com/docs/access?context=agent-ot-knowledge-generator&family=zurich)**
 
 Automatically generate a KB article for an OT incident when the state of the incident is set to **Resolved**. The article contains the following information:
 
@@ -257,7 +257,7 @@ Zurich
 
 </td><td>
 
-Install Now Assist for OTSM by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+Install Now Assist for OTSM by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich).
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -448,7 +448,7 @@ Australia
 -   Help save time by automatically updating the resolution notes for an OT incident.
 -   Generate a KB article when an OT incident is resolved by using an agentic workflow.
 
- See [Now Assist for OTSM](https://servicenow-staging.fluidtopics.net/access?context=now-assist-for-operational-technology-service-management&family=zurich&ft:locale=en-US) for more information.
+ See [Now Assist for OTSM](https://www.servicenow.com/docs/access?context=now-assist-for-operational-technology-service-management&family=zurich) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/rn-combined-intro.md)

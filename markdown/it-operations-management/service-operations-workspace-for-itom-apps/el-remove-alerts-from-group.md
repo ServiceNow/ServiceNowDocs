@@ -9,7 +9,7 @@ classification: service-operations-workspace-for-itom-apps
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Express List in SOW for ITOM, Using SOW for ITOM, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
+breadcrumb: [Express List in SOW for ITOM, Use, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
 ---
 
 # Remove alerts from an alert group in Express List
@@ -32,15 +32,15 @@ Role required: evt\_mgmt\_operator, evt\_mgmt\_admin
 
     You can remove alerts from a group regardless of whether you are working in the main pane or in the preview panel. The preview panel opens only when a single alert or alert group is selected.
 
-<table id="choicetable_p5t_wdl_5bc"><thead><tr><th align="left" id="d211797e95">
+<table id="choicetable_p5t_wdl_5bc"><thead><tr><th align="left" id="d211249e95">
 
 Location
 
-</th><th align="left" id="d211797e98">
+</th><th align="left" id="d211249e98">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d211797e104">
+</th></tr></thead><tbody><tr><td id="d211249e104">
 
 **The Express List pane**
 
@@ -52,7 +52,7 @@ Action
 
 **Note:** When you are trying to remove the only secondary alert from an alert group, thereby ungrouping the group, a message displays that enables you to undo the action.
 
-</td></tr><tr><td id="d211797e142">
+</td></tr><tr><td id="d211249e142">
 
 **The Express List preview panel for a group of alerts**
 

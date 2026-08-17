@@ -4,8 +4,9 @@ description: Use Contract Management Pro to submit contract requests that will g
 locale: en-US
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-05-19"
 reading_time_minutes: 5
+audience: sn\_cm\_core.contract\_fulfiller
 ---
 
 # Use self-served contract request
@@ -74,7 +75,7 @@ Edit a contract request, regenerate the contract document, and send it for signa
 -   **[Add signatories in self-served contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-update-sign-ss-cmr.md)**  
 Add signatories in self-served contract requests when the contract is generated from a template configured with signature blocks.
 -   **[Create an updated contract document revision after modifying a self-served contract request \(starting Contract Management Pro 1.2.1\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-sync-document.md)**  
-When a contract request is modified, sync the contract document for self-served requests to create a new revision of the document with updated metadata and signatories while retaining the changes made in the previous version of the contact document.
+When a contract request is modified, sync the contract document for self-served requests to create revision of the document with updated metadata and signatories while retaining the changes made in the previous version of the contact document.
 -   **[Regenerate contract document after modifying request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-regen-contract-doc.md)**  
 As a contract user or contract fulfiller, regenerate the contract document for self-served requests when the parent request has been modified.
 -   **[Updating and synchronizing signatories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-update-sync-signatories.md)**  

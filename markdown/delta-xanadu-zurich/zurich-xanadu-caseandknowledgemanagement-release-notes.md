@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-caseandknowledgemanagement-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
@@ -75,7 +75,7 @@ Xanadu
 
 </td><td>
 
--   **[Guided setup for HR Service Delivery](https://servicenow-staging.fluidtopics.net/access?context=guided-set-up-hr&family=xanadu&ft:locale=en-US)**
+-   **[Guided setup for HR Service Delivery](https://www.servicenow.com/docs/access?context=guided-set-up-hr&family=xanadu&ft:locale=en-US)**
 
 Run the guided setup for each domain within HR Service Delivery. Prior to the Xanadu release, you could run the guided setup at the global domain only.
 
@@ -94,19 +94,19 @@ Yokohama
 
 </td><td>
 
--   **[HR Benchmarks](https://servicenow-staging.fluidtopics.net/access?context=hr-benchmarks&family=yokohama&ft:locale=en-US)**
+-   **[HR Benchmarks](https://www.servicenow.com/docs/access?context=hr-benchmarks&family=yokohama&ft:locale=en-US)**
 
 Use your key performance indicators \(KPIs\) to compare your performance with global benchmarks, which contributes to improved performance for your organization. Gain deeper insights by comparing your performance with your peers based on industry, size, or region, and implement recommendations for improving performance.
 
--   **[Employee passport](https://servicenow-staging.fluidtopics.net/access?context=employee-passport&family=yokohama&ft:locale=en-US)**
+-   **[Employee passport](https://www.servicenow.com/docs/access?context=employee-passport&family=yokohama&ft:locale=en-US)**
 
 Enable movement of employee data between departments and agencies for tracking, compliance, and regulatory purposes. Enable employee profile data, such as employment history and progression to be made available across different ServiceNow instances.
 
--   **[Survey responses](https://servicenow-staging.fluidtopics.net/access?context=t_ViewAnHRTask&family=yokohama&ft:locale=en-US)**
+-   **[Survey responses](https://www.servicenow.com/docs/access?context=t_ViewAnHRTask&family=yokohama&ft:locale=en-US)**
 
 View employee responses by selecting the **View Responses** related link on an HR case. The **View Responses** related link displays responses that are collected from an employee via the survey form sent through the HR task of type **Collect Employee Input**.
 
--   **[Personal Data Rights in HR Service Delivery](https://servicenow-staging.fluidtopics.net/access?context=rtbi-compliance-hr&family=yokohama&ft:locale=en-US)**
+-   **[Personal Data Rights in HR Service Delivery](https://www.servicenow.com/docs/access?context=rtbi-compliance-hr&family=yokohama&ft:locale=en-US)**
     -   Enable employees or alumni to request their personal information reports and have better visibility of their personal data that is held in the database of an organization.
     -   Include an approval step before deletion of data, confirming better compliance and audit capabilities with respect to General Data Protection Regulation \(GDPR\) requirements.
     -   Have HR Agents manage the approval process by generating reports using the Real-Time Business Intelligence \(RTBI\) configuration from the Data Classification \(com.glide.data\_classification\) plugin.
@@ -257,7 +257,7 @@ Yokohama
 
 </td><td>
 
-Case and Knowledge Management is a ServiceNow AI Platform feature that is available with activation of the Human Resources Scoped App: Core \[com.sn\_hr\_core\]. See [Activate Case and Knowledge Management](https://servicenow-staging.fluidtopics.net/access?context=activate-case-and-knowledge-management-scoped&family=yokohama&ft:locale=en-US) for more information.
+Case and Knowledge Management is a ServiceNow AI Platform feature that is available with activation of the Human Resources Scoped App: Core \[com.sn\_hr\_core\]. See [Activate Case and Knowledge Management](https://www.servicenow.com/docs/access?context=activate-case-and-knowledge-management-scoped&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -437,7 +437,7 @@ Xanadu
 -   Use the new HR guided setup that supports domain separation at the global and at the parent or child levels.
 -   HR Document Templates is being deprecated and is no longer available for use. You can use the ServiceNow Document Templates application instead of HR Document Templates.
 
- See [Case and Knowledge Management](https://servicenow-staging.fluidtopics.net/access?context=case-knowledge-management-landing-page&family=xanadu&ft:locale=en-US) for more information.
+ See [Case and Knowledge Management](https://www.servicenow.com/docs/access?context=case-knowledge-management-landing-page&family=xanadu&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -447,7 +447,7 @@ Yokohama
 
 Use HR Benchmarks to provide instant visibility into your key performance indicators \(KPIs\) and trends, as well as comparative insight relative to the industry averages of your peers and to the industry top performers.
 
- See [Case and Knowledge Management](https://servicenow-staging.fluidtopics.net/access?context=case-knowledge-management-landing-page&family=yokohama&ft:locale=en-US) for more information.
+ See [Case and Knowledge Management](https://www.servicenow.com/docs/access?context=case-knowledge-management-landing-page&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 

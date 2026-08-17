@@ -127,7 +127,7 @@ Text field.
 
 [Document and visual insights AI agent]()
 
-[Document Intelligence tool for Now Assist Skill Kit]()
+[Document Intelligence tool for AI Skill Kit]()
 
 [Now Assist in Document Intelligence forms]()
 

@@ -18,7 +18,7 @@ You can take complete advantage of enhanced agile functionality by managing your
 
 **Important:** Agile Development 1.0 and its features such as Sprint burndown chart and release burndown chart are deprecated and no longer available. [Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/agile-landing-page.md) provides the latest experience for supporting your Agile work methodology.
 
-As of any regular upgrade, if core platform artifacts such as form layout, adding of fields, removal of preconfigured fields, list layout, business rules, or client scripts, are customized in your environment, then changes made to any of these artifacts as part of the Agile Development 2.0 enhancements are not applied in your environment. You should delete all your customizations before upgrading to Agile Development 2.0, and selectively reapply customizations as needed after upgrade.
+As of any regular upgrade, you might customize core platform artifacts in your environment. These artifacts include form layout, adding of fields, removal of preconfigured fields, list layout, business rules, or client scripts. If you customize any of these artifacts, then changes made to them as part of the Agile Development 2.0 enhancements are not applied in your environment. You should delete all your customizations before upgrading to Agile Development 2.0, and selectively reapply customizations as needed after upgrade.
 
 Following are the three possible scenarios:
 

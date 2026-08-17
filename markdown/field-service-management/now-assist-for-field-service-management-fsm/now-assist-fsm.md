@@ -1,6 +1,6 @@
 ---
-title: Now Assist for Field Service Management \(FSM\)
-description: Use the Now Assist for Field Service Management \(FSM\) application to enhance field service operations with AI-powered capabilities. Generate work order task summaries, closure summaries, knowledge articles from closed tasks, summarize Sidebar discussions and records, use conversational search for technician support, and leverage AI agents for creating work orders and managing parts.
+title: ServiceNow Otto for Field Service Management \(FSM\)
+description: Use the ServiceNow Otto for Field Service Management \(FSM\) application to enhance field service operations with AI-powered capabilities. Generate work order task summaries, closure summaries, knowledge articles from closed tasks, summarize Sidebar discussions and records, use conversational search for technician support, and leverage AI agents for creating work orders and managing parts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/now-assist-for-field-service-management-fsm/now-assist-fsm.html
 release: zurich
@@ -11,23 +11,23 @@ last_updated: "2025-07-31"
 reading_time_minutes: 2
 ---
 
-# Now Assist for Field Service Management \(FSM\)
+# ServiceNow Otto for Field Service Management \(FSM\)
 
-Use the Now Assist for Field Service Management \(FSM\) application to enhance field service operations with AI-powered capabilities. Generate work order task summaries, closure summaries, knowledge articles from closed tasks, summarize Sidebar discussions and records, use conversational search for technician support, and leverage AI agents for creating work orders and managing parts.
+Use the ServiceNow Otto for Field Service Management \(FSM\) application to enhance field service operations with AI-powered capabilities. Generate work order task summaries, closure summaries, knowledge articles from closed tasks, summarize Sidebar discussions and records, use conversational search for technician support, and leverage AI agents for creating work orders and managing parts.
 
 ## Get started
 
 <table id="table_iht_hgl_5yb" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about Now Assist for FSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/now-assist-for-field-service-management-fsm/exploring-now-assist-fsm.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about ServiceNow Otto for FSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/now-assist-for-field-service-management-fsm/exploring-now-assist-fsm.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the Now Assist for FSM application to get started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/now-assist-for-field-service-management-fsm/configure-now-assist-fsm.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the ServiceNow Otto for FSM application to get started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/now-assist-for-field-service-management-fsm/configure-now-assist-fsm.md)
 
 </td><td>
 
-[Use\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Use generative AI capabilities offered by Now Assist for FSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/now-assist-for-field-service-management-fsm/using-now-assist-fsm.md)
+[Use\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Use generative AI capabilities offered by ServiceNow Otto for FSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/now-assist-for-field-service-management-fsm/using-now-assist-fsm.md)
 
 </td></tr></tbody>
 </table>**Important:** Some Now Assist products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Please check for availability updates in future releases.

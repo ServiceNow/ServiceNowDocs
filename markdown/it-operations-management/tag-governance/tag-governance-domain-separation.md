@@ -9,7 +9,7 @@ classification: tag-governance
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Tag Governance reference, Tag Governance, ITOM Visibility, IT Operations Management]
+breadcrumb: [Reference, Tag Governance, ITOM Visibility, IT Operations Management]
 ---
 
 # Domain separation and Tag Governance

@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2025-08-28"
 reading_time_minutes: 2
-breadcrumb: [Questions and responses in an exploration, Use, AI Data Explorer, Now Assist in Platform Analytics, Platform Analytics]
+breadcrumb: [Questions and responses in an exploration, Use, AI Data Explorer, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
 
 # Duplicate, delete, copy, or move an answer in an exploration
@@ -28,7 +28,7 @@ Copy a response when you want to share only a response, not the whole exploratio
 
 1.  Launch AI Data Explorer.
 
-    See [Launch AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/launch-now-assist-explorer.md).
+    See [Launch AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/launch-ai-data-explorer.md).
 
 2.  Open the exploration that contains a question and answer that you want to duplicate, delete, copy and send, or move.
 

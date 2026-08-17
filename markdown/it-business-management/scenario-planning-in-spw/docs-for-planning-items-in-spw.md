@@ -7,7 +7,7 @@ release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: concept
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 breadcrumb: [Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -43,7 +43,7 @@ The following are the key features of Docs:
     **Note:** The experience of inserting Google Images links might not work.
 
 
-## Summarize Docs content using Now Assist for SPM
+## Summarize Docs content using ServiceNow Otto for SPM
 
 Use Now Assist capabilities to elaborate, shorten, and summarize selected content in Docs, or to get a summary of the whole document.
 

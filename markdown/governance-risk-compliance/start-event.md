@@ -16,7 +16,7 @@ To initiate an event, first pull the relevant plans into the event, and then rev
 
 ## Before you begin
 
-Role required: admin
+Role required: sn\_recovery.event\_user, sn\_recovery.event\_manager
 
 ## Procedure
 

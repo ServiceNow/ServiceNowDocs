@@ -1,6 +1,6 @@
 ---
 title: Capturing information from a user in a LINE chat conversation
-description: Use the collection of input controls provided by the Virtual Agent Designer to prompt and capture information from the user in a LINE chat conversation.
+description: Use the collection of input controls provided by the Assistant Designer Asset library to prompt and capture information from the user in a LINE chat conversation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/messg-line-capture-info.html
 release: zurich
@@ -14,9 +14,9 @@ breadcrumb: [Configure, Conversational Integration with LINE, Integrate VA with 
 
 # Capturing information from a user in a LINE chat conversation
 
-Use the collection of input controls provided by the Virtual Agent Designer to prompt and capture information from the user in a LINE chat conversation.
+Use the collection of input controls provided by the Assistant Designer Asset library to prompt and capture information from the user in a LINE chat conversation.
 
-Virtual Agent Designer is a diagram tool for creating and managing topics, which are blueprints for conversations between a virtual agent and user. For more information, see [Using Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md).
+Virtual Agent Designer is a diagram tool for creating and managing topics, which are blueprints for conversations between a virtual agent and user. For more information, see [Using Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md).
 
 ## User notification consent
 
@@ -25,11 +25,11 @@ Users must opt in to receive notifications. No notifications can be delivered un
 There are two ways for users to grant consent to receive notifications:
 
 -   The user can enter `Notification` into the LINE chat with your business. The user gets a bot response with the option to subscribe or unsubscribe from receiving notifications for your business on LINE.
--   As an administrator, you can set up the option for users to subscribe or unsubscribe from notifications from your portal. See  for more information.
+-   As an administrator, you can set up the option for users to subscribe or unsubscribe from notifications from your portal. See [Subscription-based notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/c_SubscriptionBasedNotifications.md) for more information.
 
 ## User input controls
 
-The Conversational Integration with LINE application supports the following user input controls in Virtual Agent Designer.
+The Conversational Integration with LINE application supports the following user input controls in Assistant Designer Asset library.
 
 <table id="table_fq2_gqz_2mb"><thead><tr><th>
 
@@ -93,7 +93,7 @@ User selects a single item from the carousel.In a carousel, the title for an ima
 </td></tr></tbody>
 </table>For more information about configuring user input controls, see [Assistant Designer user input controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-user-inputs.md).
 
-The Conversational Integration with LINE application supports the following bot responses in Virtual Agent Designer.
+The Conversational Integration with LINE application supports the following bot responses in Assistant Designer Asset library.
 
 |Bot response|Description|
 |------------|-----------|
@@ -103,5 +103,5 @@ The Conversational Integration with LINE application supports the following bot 
 |Web UI image card output|Bot sends content from a record in a compact format, including an image with text.|
 |Table|Bot response is displayed as a table.|
 
-For more information about configuring bot responses, see [Virtual Agent Designer bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-bot-responses.md).
+For more information about configuring bot responses, see [Assistant Designer Asset library bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-bot-responses.md).
 

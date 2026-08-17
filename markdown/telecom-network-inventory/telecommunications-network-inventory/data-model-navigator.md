@@ -7,7 +7,7 @@ release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 breadcrumb: [Reference, Telecommunications Network Inventory]
 ---
@@ -107,5 +107,5 @@ Understanding Relationship Mapping: An agent understands how to traverse the dat
 **Related topics**  
 
 
-[Access TNI data model navigator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
+[Access TNI data model navigator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/access-tni-data-model-navigator.md)
 

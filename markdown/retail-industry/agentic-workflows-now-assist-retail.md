@@ -1,5 +1,5 @@
 ---
-title: Use Now Assist for Retail Service Management \(RSM\)
+title: Use ServiceNow Otto for Retail Service Management \(RSM\)
 description: Use store inquiry Al agent to improve and enhance the store inquiry processes in Retail Service Management\(RSM\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/retail-industry/agentic-workflows-now-assist-retail.html
@@ -7,10 +7,10 @@ release: zurich
 topic_type: concept
 last_updated: "2025-10-09"
 reading_time_minutes: 2
-breadcrumb: [Now Assist for Retail Service Management \(RSM\), Retail]
+breadcrumb: [ServiceNow Otto for Retail Service Management \(RSM\), Retail]
 ---
 
-# Use Now Assist for Retail Service Management \(RSM\)
+# Use ServiceNow Otto for Retail Service Management \(RSM\)
 
 Use store inquiry Al agent to improve and enhance the store inquiry processes in Retail Service Management\(RSM\).
 
@@ -41,5 +41,5 @@ You can enable security implementation on AI agents and agentic workflows throug
 
 Configure and manage these ACLs for agentic workflows and AI agents in the AI Agent Studio.
 
-See [Implement access control in Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/aia-security-implementation.md) for more information.
+See [Implement access control in AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/aia-security-implementation.md) for more information.
 

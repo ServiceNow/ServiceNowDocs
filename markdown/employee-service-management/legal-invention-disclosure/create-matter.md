@@ -46,15 +46,15 @@ Role required: sn\_lg\_ops.legal\_fulfiller
 
 7.  Create a matter from the request or add the request to an existing matter.
 
-<table id="choicetable_vlq_pts_lzb"><thead><tr><th align="left" id="d243723e167">
+<table id="choicetable_vlq_pts_lzb"><thead><tr><th align="left" id="d243597e167">
 
 Request search result
 
-</th><th align="left" id="d243723e170">
+</th><th align="left" id="d243597e170">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d243723e176">
+</th></tr></thead><tbody><tr><td id="d243597e176">
 
 **Request is original**
 
@@ -65,7 +65,7 @@ Actions
 3.  Select **OK**.
  **Note:** If the request contains multiple ideas in the **Describe the invention** field, consider creating a separate matter for each idea with a unique name and modify the field so that only one idea is in the field for each matter.
 
-</td></tr><tr><td id="d243723e209">
+</td></tr><tr><td id="d243597e209">
 
 **Similar request exists**
 

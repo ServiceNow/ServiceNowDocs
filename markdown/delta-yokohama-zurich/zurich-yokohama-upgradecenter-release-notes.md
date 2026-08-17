@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-upgradecenter-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -67,11 +67,11 @@ Yokohama
 
 </td><td>
 
--   **[Upgrade Preview enhancements](https://servicenow-staging.fluidtopics.net/access?context=uc-preview-module&family=yokohama&ft:locale=en-US)**
+-   **[Upgrade Preview enhancements](https://www.servicenow.com/docs/access?context=uc-preview-module&family=yokohama&ft:locale=en-US)**
 
 Enhance your upgrade preview experience with the new Application Upgrade Preview and Predicted Schema Changes cards. You can also monitor the status of the preview process from the Upgrade Preview page.
 
--   **[Upgrade Management Console experience](https://servicenow-staging.fluidtopics.net/access?context=um-landing-page&family=yokohama&ft:locale=en-US)**
+-   **[Upgrade Management Console experience](https://www.servicenow.com/docs/access?context=um-landing-page&family=yokohama&ft:locale=en-US)**
 
 Use the new Upgrade Management Console experience to access all the relevant information and tools required for a cohesive upgrade on your instance.
 
@@ -103,7 +103,7 @@ Yokohama
 
 </td><td>
 
--   **[Upgrade Plan enhancements](https://servicenow-staging.fluidtopics.net/access?context=uc-upgrade-plan&family=yokohama&ft:locale=en-US)**
+-   **[Upgrade Plan enhancements](https://www.servicenow.com/docs/access?context=uc-upgrade-plan&family=yokohama&ft:locale=en-US)**
 
 Experience a seamless upgrade on your instance with the Upgrade Plan, offering the option to either include or bypass skipped records and customizations during its building.
 
@@ -344,7 +344,7 @@ Yokohama
 -   View all your past upgrades in the Upgrade History module.
 -   Accelerate your upgrades using the Upgrade Plan feature.
 
- See [Upgrade Center](https://servicenow-staging.fluidtopics.net/access?context=uc-landing-page&family=yokohama&ft:locale=en-US) for more information.
+ See [Upgrade Center](https://www.servicenow.com/docs/access?context=uc-landing-page&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 

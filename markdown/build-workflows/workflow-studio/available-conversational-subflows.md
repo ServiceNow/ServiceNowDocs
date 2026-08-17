@@ -53,24 +53,24 @@ Conversational subflows and actions
 sn\_conv\_fa.csa\_email\_write
 
 </td></tr></tbody>
-</table>You can use the following sample conversational subflows after you configure the application scope. Make sure that Now Assist for Creator installed and the Flow generation skill is turned on. See [Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/now-assist-for-creator/now-assist-for-creator-landing.md).
+</table>You can use the following sample conversational subflows after you configure the application scope. Make sure that ServiceNow Otto for Creator installed and the Flow generation skill is turned on. See [ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/now-assist-for-creator/now-assist-for-creator-landing.md).
 
 |Name|Application Scope|User roles required|
 |----|-----------------|-------------------|
-|Look up Opportunities|[Microsoft Dynamics CRM Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/microsoft-dynamics-crm-spoke.md)|admin|
-|Look up Contacts|[Microsoft Dynamics CRM Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/microsoft-dynamics-crm-spoke.md)|admin|
-|Look up Accounts|[Microsoft Dynamics CRM Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/microsoft-dynamics-crm-spoke.md)|admin|
-|Look up Leads|[Microsoft Dynamics CRM Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/microsoft-dynamics-crm-spoke.md)|admin|
-|Create Lead|[Microsoft Dynamics CRM Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/microsoft-dynamics-crm-spoke.md)|admin|
-|Add User to Group using Email Address|[Microsoft Entra ID Spoke \(formerly Microsoft Azure Active Directory spoke\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/microsoft-azure-ad-spoke.md)|admin|
-|Add User to Group|[Microsoft Entra ID Spoke \(formerly Microsoft Azure Active Directory spoke\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/microsoft-azure-ad-spoke.md)|admin|
-|Look up Direct Reports|[Microsoft Entra ID Spoke \(formerly Microsoft Azure Active Directory spoke\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/microsoft-azure-ad-spoke.md)|admin|
-|Look up Group Members|[Microsoft Entra ID Spoke \(formerly Microsoft Azure Active Directory spoke\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/microsoft-azure-ad-spoke.md)|admin|
-|Look up Groups|[Microsoft Entra ID Spoke \(formerly Microsoft Azure Active Directory spoke\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/microsoft-azure-ad-spoke.md)|admin|
-|Look up Users|[Microsoft Entra ID Spoke \(formerly Microsoft Azure Active Directory spoke\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/microsoft-azure-ad-spoke.md)|admin|
-|Look up Purchase Order|[Coupa Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/coupa-spoke.md)|admin|
-|Look up Images|[Amazon EC2 Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/amazon-ec2-spoke.md)|admin|
-|Run Instances|[Amazon EC2 Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/amazon-ec2-spoke.md)|admin|
+|Look up Opportunities||admin|
+|Look up Contacts||admin|
+|Look up Accounts||admin|
+|Look up Leads||admin|
+|Create Lead||admin|
+|Add User to Group using Email Address||admin|
+|Add User to Group||admin|
+|Look up Direct Reports||admin|
+|Look up Group Members||admin|
+|Look up Groups||admin|
+|Look up Users||admin|
+|Look up Purchase Order||admin|
+|Look up Images||admin|
+|Run Instances||admin|
 
 **Parent Topic:**[Conversational subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/conversational-subflows.md)
 

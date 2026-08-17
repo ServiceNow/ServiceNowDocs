@@ -26,7 +26,7 @@ The Telecommunications industry solution includes the following applications:
 -   Telecommunications Service Operations Management
 -   Strategic Portfolio Management for Telecom
 -   Field Service Management for Telecommunications
--   Now Assist for Telecommunications, Media and Technology \(TMT\)
+-   ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
 
 ## Technology products and applications
 
@@ -38,7 +38,7 @@ The Technology industry solution includes the following applications:
     -   Customer Success Management
     -   Technology Product Support Case
 -   Sales and Order ManagementSales CRM for Technology Providers. See [Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/sales-order-management-rn-landing.md).
--   Now Assist for Telecommunications, Media and Technology \(TMT\)
+-   ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
 
 -   **[Customer Service Problem Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/customer-service-problem-management-rn.md)**  
 The ServiceNow® Customer Service Problem Management application helps customer to identify and resolve service problems. Automatically suggests relevant diagnostic tests, as configured by admin, to check the service quality and troubleshoot the problem effectively. After identifying the root cause, the application helps generate a repair task based on the test outcomes, leading to a successful resolution. Customer Service Problem Management was enhanced and updated in the Zurich release.
@@ -46,10 +46,10 @@ The ServiceNow® Customer Service Problem Management application helps customer 
 The ServiceNow® Customer Success Management application helps you to streamline your onboarding process, define and track objectives and outcomes, identify and mitigate risks, and increase renewal rates. Customer Success Management was enhanced and updated in the Zurich release.
 -   **[Field Service Management for Telecommunication release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/field-service-management-telecommunication-rn.md)**  
 The ServiceNow Field Service Management for Telecommunication application enables you to manage the field service workflow for the telecommunication industry. Field Service Management for Telecommunication was enhanced and updated in the Zurich release.
--   **[Now Assist for Telecommunications, Media and Technology \(TMT\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/now-assist-for-tmt-rn.md)**  
-The ServiceNow® Now Assist for Telecommunications, Media and Technology \(TMT\) application enriches purpose-built industry workflows with generative AI to supercharge insights, actions, and self-service experiences. Now Assist for Telecommunications, Media and Technology \(TMT\) was enhanced and updated in the Zurich release.
--   **[Now Assist for Sales CRM for Telecommunications release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/now-assist-somt-rn.md)**  
-The ServiceNow® Now Assist for Sales CRM for Telecommunications application enriches purpose-built industry workflows with generative AI to supercharge insights, actions, and self-service experiences. Now Assist for Sales CRM for Telecommunications is a new application in the Zurich release.
+-   **[ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/now-assist-for-tmt-rn.md)**  
+The ServiceNow® ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) application enriches purpose-built industry workflows with generative AI to supercharge insights, actions, and self-service experiences. ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) was enhanced and updated in the Zurich release.
+-   **[ServiceNow Otto for Sales Customer Relationship Management for Telecommunications release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/now-assist-somt-rn.md)**  
+The ServiceNow® Now Assist for Sales CRM for Telecommunications application enriches purpose-built industry workflows with generative AI to supercharge insights, actions, and self-service experiences. ServiceNow Otto for Sales Customer Relationship Management for Telecommunications is a new application in the Zurich release.
 -   **[Proactive Service Experience Workflows release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/proactive-service-experience-worflows-rn.md)**  
 The ServiceNow® Proactive Service Experience Workflows helps your technical support teams identify your impacted customers, communicate directly with them, escalate a case if needed, and auto-generate cases for faster issue resolution. Proactive Service Experience Workflows was enhanced and updated in the Zurich release.
 -   **[Service Exchange release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/service-bridge-rn.md)**  

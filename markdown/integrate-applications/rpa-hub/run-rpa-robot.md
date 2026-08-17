@@ -57,15 +57,15 @@ In this task, you can run an unattended robot in two ways.
 
 1.  To run an unattended robot, do any one of the following actions.
 
-<table id="choicetable_ag1_lyx_jrb"><thead><tr><th align="left" id="d346252e264">
+<table id="choicetable_ag1_lyx_jrb"><thead><tr><th align="left" id="d338798e264">
 
 Option
 
-</th><th align="left" id="d346252e267">
+</th><th align="left" id="d338798e267">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d346252e273">
+</th></tr></thead><tbody><tr><td id="d338798e273">
 
 **Based on the schedule you define in the bot process**
 
@@ -78,7 +78,7 @@ The Unattended Robot runs the execution based on the schedule defined.
 
  For more information about the scheduled and manual triggers, see [Execution priority of bot processes in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/bot-process-prioritization-order-rpa-hub.md).
 
-</td></tr><tr><td id="d346252e332">
+</td></tr><tr><td id="d338798e332">
 
 **Based on the API via Start Process subflow**
 

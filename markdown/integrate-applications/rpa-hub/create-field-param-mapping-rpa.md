@@ -51,15 +51,15 @@ You can’t map the same process field parameter with multiple fields. A process
 
 3.  Map a field parameter from either the Attended Configuration menu list or from an attended bot process record's related list.
 
-<table id="choicetable_uqv_q52_vzb"><thead><tr><th align="left" id="d130748e210">
+<table id="choicetable_uqv_q52_vzb"><thead><tr><th align="left" id="d123380e210">
 
 Option
 
-</th><th align="left" id="d130748e213">
+</th><th align="left" id="d123380e213">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d130748e219">
+</th></tr></thead><tbody><tr><td id="d123380e219">
 
 **Map a field parameter from an Attended Configuration menu list**
 
@@ -69,7 +69,7 @@ Action
 2.  Open an attended configuration record.
 
 
-</td></tr><tr><td id="d130748e246">
+</td></tr><tr><td id="d123380e246">
 
 **Map a field parameter from an attended bot process record's related list**
 
@@ -124,15 +124,15 @@ Select a form field to map with a process field parameter.
 </td></tr></tbody>
 </table>6.  Perform any of the following tasks to save the mapping.
 
-<table id="choicetable_z1v_dzc_lzb"><thead><tr><th align="left" id="d130748e384">
+<table id="choicetable_z1v_dzc_lzb"><thead><tr><th align="left" id="d123380e384">
 
 Option
 
-</th><th align="left" id="d130748e387">
+</th><th align="left" id="d123380e387">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d130748e393">
+</th></tr></thead><tbody><tr><td id="d123380e393">
 
 **Only save the mapping**
 
@@ -140,7 +140,7 @@ Action
 
 Select **Save**.
 
-</td></tr><tr><td id="d130748e405">
+</td></tr><tr><td id="d123380e405">
 
 **Save the mapping and map another field parameter**
 

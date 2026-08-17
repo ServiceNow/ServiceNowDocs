@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2024-12-19"
 reading_time_minutes: 1
 keywords: [Event Management, delay incidents, noise reduction]
-breadcrumb: [Configure Event Management using Setup Hub, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Configure Event Management using ServiceNow Otto for Setup, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Delay incidents
@@ -19,7 +19,7 @@ Configure delay rules to postpone incident creation for alerts that may resolve 
 
 ## Before you begin
 
-Verify that you have installed the ITOM AIOps and Now Assist for IT Operations Management \(ITOM\) plugins.
+Verify you have installed the ITOM AIOps and ServiceNow Otto for IT Operations Management \(ITOM\) plugins.
 
 Ensure you're in the Configure IT Operations Management page.
 
@@ -39,7 +39,7 @@ Delay incident rules help reduce unnecessary incident creation by waiting for a 
 
     A list of respond alert automations appears.
 
-4.  To create an automation and set a wait time before incident creation, select **Create automation**.
+4.  To create an automation and set a wait time before incident creation, select **+Create automation**.
 
     The Respond to alerts page opens.
 

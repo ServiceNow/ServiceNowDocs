@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-visaspoke-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
@@ -83,7 +83,7 @@ Yokohama
 
 </td><td>
 
--   **[Visa Stop Payment Service \(VSPS\) integration](https://servicenow-staging.fluidtopics.net/access?context=visa-spoke&family=yokohama&ft:locale=en-US)**
+-   **[Visa Stop Payment Service \(VSPS\) integration](https://www.servicenow.com/docs/access?context=visa-spoke&family=yokohama&ft:locale=en-US)**
 
 The Visa Stop Payment Service \(VSPS\) enables Visa card issuers to stop card-on-file payments \(including recurring and installment payments\) from being authorized, cleared, and settled through VisaNet. This service helps Visa issuers handle cardholder stop payment requests.
 
@@ -143,7 +143,7 @@ Xanadu
 
 </td><td>
 
--   **[Visa Resolve Online \(VROL\) version 24.2 updates](https://servicenow-staging.fluidtopics.net/access?context=visa-spoke&family=xanadu&ft:locale=en-US)**
+-   **[Visa Resolve Online \(VROL\) version 24.2 updates](https://www.servicenow.com/docs/access?context=visa-spoke&family=xanadu&ft:locale=en-US)**
 
 Updated the following Visa Spoke actions to align with Visa Resolve Online \(VROL\) release 24.2 revision changes:
 
@@ -156,7 +156,7 @@ Updated the following Visa Spoke actions to align with Visa Resolve Online \(VRO
     -   Look up Dispute Response Details Response Parser
     -   Look up Dispute Pre Arbitration Response Details Response Parser
 
--   **[Visa Resolve Online \(VROL\) version 25.1 updates](https://servicenow-staging.fluidtopics.net/access?context=visa-spoke&family=xanadu&ft:locale=en-US)**
+-   **[Visa Resolve Online \(VROL\) version 25.1 updates](https://www.servicenow.com/docs/access?context=visa-spoke&family=xanadu&ft:locale=en-US)**
 
 Updated the following Visa Spoke actions to align with Visa Resolve Online \(VROL\) release 25.1 revision changes:
 
@@ -172,7 +172,7 @@ Yokohama
 
 </td><td>
 
--   **[Visa Resolve Online \(VROL\) version 25.1 updates](https://servicenow-staging.fluidtopics.net/access?context=visa-spoke&family=yokohama&ft:locale=en-US)**
+-   **[Visa Resolve Online \(VROL\) version 25.1 updates](https://www.servicenow.com/docs/access?context=visa-spoke&family=yokohama&ft:locale=en-US)**
 
 Updated the following Visa Spoke actions to align with Visa Resolve Online \(VROL\) release 25.1 revision changes:
 
@@ -181,7 +181,7 @@ Updated the following Visa Spoke actions to align with Visa Resolve Online \(VRO
     -   Look up Dispute Response Details Response Parser
     -   Look up Dispute Details Response Parser
     -   Submit Dispute Questionnaire
--   **[Visa Resolve Online \(VROL\) version 25.2 updates](https://servicenow-staging.fluidtopics.net/access?context=visa-spoke&family=yokohama&ft:locale=en-US)**
+-   **[Visa Resolve Online \(VROL\) version 25.2 updates](https://www.servicenow.com/docs/access?context=visa-spoke&family=yokohama&ft:locale=en-US)**
 
 Updated the following Visa Spoke actions to align with Visa Resolve Online \(VROL\) release 25.2 revision changes:
 
@@ -205,7 +205,7 @@ Zurich
 
 </td><td>
 
--   **[Visa Resolve Online \(VROL\) version 25.2 updates](https://servicenow-staging.fluidtopics.net/access?context=visa-spoke&family=zurich&ft:locale=en-US)**
+-   **[Visa Resolve Online \(VROL\) version 25.2 updates](https://www.servicenow.com/docs/access?context=visa-spoke&family=zurich&ft:locale=en-US)**
 
 Updated the following Visa Spoke actions to align with Visa Resolve Online \(VROL\) release 25.2 revision changes:
 
@@ -316,7 +316,7 @@ Xanadu
 
 </td><td>
 
-Install Now Assist for FSO by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
+Install Now Assist for FSO by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -324,7 +324,7 @@ Yokohama
 
 </td><td>
 
-Install Visa Spoke by requesting it from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+Install Visa Spoke by requesting it from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -504,7 +504,7 @@ Xanadu
 -   Use the Visa Spoke to manage card disputes with Visa Resolve Online \(VROL\).
 -   Leverage Visa Spoke actions, to perform transaction inquiry, order insight digital, collaborate with merchants, and perform other dispute events with enhanced security.
 
- See [Visa Spoke](https://servicenow-staging.fluidtopics.net/access?context=visa-spoke&family=xanadu&ft:locale=en-US) for more information.
+ See [Visa Spoke](https://www.servicenow.com/docs/access?context=visa-spoke&family=xanadu&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -517,7 +517,7 @@ Yokohama
 -   Download images from an endpoint using Visa Spoke actions.
 -   Handle card operations and dispute resolution services with Visa Spoke actions.
 
- See [Visa Spoke](https://servicenow-staging.fluidtopics.net/access?context=visa-spoke&family=yokohama&ft:locale=en-US) for more information.
+ See [Visa Spoke](https://www.servicenow.com/docs/access?context=visa-spoke&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -527,7 +527,7 @@ Zurich
 
 Apply Visa Resolve Online \(VROL\) release 25.2 revision changes to some Visa Spoke actions.
 
- See [Visa Spoke](https://servicenow-staging.fluidtopics.net/access?context=visa-spoke&family=zurich&ft:locale=en-US) for more information.
+ See [Visa Spoke](https://www.servicenow.com/docs/access?context=visa-spoke&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/rn-combined-intro.md)

@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-04-28"
 reading_time_minutes: 1
 keywords: [IT Operations Management, configuration console, ITOM, Now Assist]
-breadcrumb: [ITOM Configuration Console for Discovery, Discovery setup, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
+breadcrumb: [ITOM Configuration Console, Discovery setup, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Access the ITOM Configuration Console
@@ -22,8 +22,8 @@ Access the IT Operations Management Configuration Console to set up Discovery.
 Verify the following:
 
 -   You're using the Zurich Patch 8 or later version of the ServiceNow AI Platform.
--   You have installed the ITOM Visibility plugin. For more information, see [Install ITOM Visibility using Setup Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/install-nowassist-setup-itom-visibility.md).
--   You have installed the Now Assist for IT Operations Management plugin. For more information, see [Install the Now Assist for IT Operations Management \(ITOM\) plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/install-now-assist-itom.md).
+-   You have installed the ITOM Visibility plugin. For more information, see [Install ITOM Visibility using ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/install-nowassist-setup-itom-visibility.md).
+-   You have installed the ServiceNow Otto for IT Operations Management \(ITOM\) plugin. For more information, see [Install the ServiceNow Otto for IT Operations Management \(ITOM\) plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/install-now-assist-itom.md).
 
 Role required: admin
 
@@ -31,11 +31,11 @@ Role required: admin
 
 1.  Navigate to **Admin** &gt; **Admin Home** on your instance.
 
-2.  On the IT Operations Management tile, select **View product overview**.
+2.  Select the IT Operations Management tile.
 
     The IT Operations Management page in the Product Hub displays.
 
-    \[Omitted image "configure-itom.png"\] Alt text: IT Operations Management page with installed plugins and Configure button to access the Configure IT Operations Management page.
+    \[Omitted image "product-hub-configure-itom.png"\] Alt text: IT Operations Management page with installed plugins and Configure button to access the Configure IT Operations Management page.
 
 3.  Select **Configure**.
 

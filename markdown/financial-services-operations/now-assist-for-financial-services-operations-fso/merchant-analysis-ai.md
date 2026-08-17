@@ -9,7 +9,7 @@ classification: now-assist-for-financial-services-operations-fso
 topic_type: task
 last_updated: "2025-10-22"
 reading_time_minutes: 2
-breadcrumb: [Resolve ACH disputes with AI agents, AI agents in FSO, Use agentic AI, Now Assist for FSO, Financial Services Operations \(FSO\)]
+breadcrumb: [Resolve ACH disputes with AI agents, AI agents in FSO, Use agentic AI, ServiceNow Otto for FSO, Financial Services Operations \(FSO\)]
 ---
 
 # Merchant analysis with AI agent
@@ -47,15 +47,15 @@ This agent retrieves dispute task details, performs a web search to assess merch
 8.  Based on the AI agent's analysis, the dispute agent can select these options on the workspace.
 
     -   **Apply Recommendation**: The dispute agent selects this option to accept the recommendation after reviewing the merchant analysis.
-    -   **Ask a follow up**: The dispute agent selects this option only if they aren’t sure about the analysis done and want to verify further. The analysis is then displayed in the Now Assist panel.
+    -   **Ask a follow up**: The dispute agent selects this option only if they aren’t sure about the analysis done and want to verify further. The analysis is then displayed in the ServiceNow Otto panel.
 9.  Merchant analysis is performed in two parts: evaluating web credibility based on reviews associated with the merchant name, and reviewing past dispute history across all payment types.
 
 10. Once the dispute agent selects **Apply Recommendation** option for the selected transaction, the recommended **Outcome** and **Rationale** on the recommendation card component are copied to the **Final action** and **Resolution reason** respectively and the task is closed.
 
     **Note:** You can also access the recommendation for the merchant analysis as follows.
 
-    1.  Once the dispute agent selects **Assign to me**, a notification appears for that agent in the Now Assist.
-    2.  Select the Now Assist panel icon \(\[Omitted image "icon-ai-sparkle.png"\] Alt text: now assist panel icon\) and open the active chat for the disputed transaction.
+    1.  Once the dispute agent selects **Assign to me**, a notification appears for that agent in the panel.
+    2.  Select the ServiceNow Otto icon \(\[Omitted image "icon-otto.png"\] Alt text: Otto icon.\) and open the active chat for the disputed transaction.
     3.  In the chat, the AI agent generates a recommendation for the dispute with a valid reason.
 
         If the dispute agent disagrees with the analysis, then a rationale is prompted by the AI agent for the disagreement. On providing a valid rationale, the task proceeds to the next task.

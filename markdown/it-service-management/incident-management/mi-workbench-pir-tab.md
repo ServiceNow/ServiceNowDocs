@@ -1,5 +1,5 @@
 ---
-title: Major Incident workbench — the Post Incident Report tab
+title: Post Incident Report tab
 description: The Post Incident Report tab helps you to understand the cause of the major incident, and the actions taken by the teams to resolve the incident.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/incident-management/mi-workbench-pir-tab.html
@@ -12,7 +12,7 @@ reading_time_minutes: 3
 breadcrumb: [Major incident workbench UI elements, Major incident workbench, Manage major incidents, Incident Management, IT Service Management]
 ---
 
-# Major Incident workbench — the Post Incident Report tab
+# Post Incident Report tab
 
 The **Post Incident Report** tab helps you to understand the cause of the major incident, and the actions taken by the teams to resolve the incident.
 

@@ -7,7 +7,7 @@ release: zurich
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Use, Collaborative Work Management, Strategic Portfolio Management]
 ---
@@ -28,7 +28,7 @@ The Connected work feature in CWM enables bringing in all types of work items fr
 
 -   **Flexible planning**
 
-    Once the work is connected, teams can plan and manage it efficiently. They can plan them into sprints for agile execution, or follow a free-flow methodology, ensuring that tasks are prioritized and tracked in the way that the teams choose to.
+    Once the work is connected, teams can plan and manage it efficiently. They can plan them into sprints for agile execution, or follow a free-flow methodology. This approach ensures that tasks are prioritized and tracked in the way that the teams choose to.
 
     For sprint planning, the connected work items are automatically displayed in the Backlog pane of the Board's Sprint planning view. From here, the team can schedule work into sprints and proceed with execution. For more information, see [Plan work items into sprints in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/plan-work-items-into-sprints-in-cwm.md).
 

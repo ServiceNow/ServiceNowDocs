@@ -76,8 +76,8 @@ Application admin
 
 Configures the workspace as per business requirements.For more information, see these links:
 
--   [Configure a workspace in Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/configure-workspace-builder.md)
--   [Next Experience UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/ui-builder-overview.md)
+-   Configure a workspace in Workspace Builder
+-   Next Experience UI Builder
 
 </td></tr></tbody>
 </table>## Accessing the workspace

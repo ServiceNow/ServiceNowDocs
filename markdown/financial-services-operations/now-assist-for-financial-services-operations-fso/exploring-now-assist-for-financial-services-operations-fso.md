@@ -1,6 +1,6 @@
 ---
-title: Exploring Now Assist for Financial Services Operations \(FSO\)
-description: With the Now Assist for Financial Services Operations \(FSO\) application, use agentic AI to summarize case details, enhance disputes intake with Disputes intake via Virtual Agent, and leverage agentic workflows and AI agents to automate the dispute resolution.
+title: Exploring ServiceNow Otto for Financial Services Operations \(FSO\)
+description: With the ServiceNow Otto for Financial Services Operations \(FSO\) application, use agentic AI to summarize case details, enhance disputes intake with Disputes intake via Virtual Agent, and leverage agentic workflows and AI agents to automate the dispute resolution.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/now-assist-for-financial-services-operations-fso/exploring-now-assist-for-financial-services-operations-fso.html
 release: zurich
@@ -10,14 +10,14 @@ topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 5
 keywords: [generative AI for FSO overview, generative AI for financial service operations overview, generative AI for financial service operations sensitive data handling]
-breadcrumb: [Now Assist for FSO, Financial Services Operations \(FSO\)]
+breadcrumb: [ServiceNow Otto for FSO, Financial Services Operations \(FSO\)]
 ---
 
-# Exploring Now Assist for Financial Services Operations \(FSO\)
+# Exploring ServiceNow Otto for Financial Services Operations \(FSO\)
 
-With the Now Assist for Financial Services Operations \(FSO\) application, use agentic AI to summarize case details, enhance disputes intake with Disputes intake via Virtual Agent, and leverage agentic workflows and AI agents to automate the dispute resolution.
+With the ServiceNow Otto for Financial Services Operations \(FSO\) application, use agentic AI to summarize case details, enhance disputes intake with Disputes intake via Virtual Agent, and leverage agentic workflows and AI agents to automate the dispute resolution.
 
-## Overview of Now Assist for Financial Services Operations \(FSO\)
+## Overview of ServiceNow Otto for Financial Services Operations \(FSO\)
 
 The following AI capabilities are available:
 
@@ -27,7 +27,7 @@ The following AI capabilities are available:
 
 ## Skills
 
-The Now Assist for Financial Services Operations \(FSO\) includes the following skills.
+The ServiceNow Otto for Financial Services Operations \(FSO\) includes the following skills.
 
 -   **Case summarization**
 
@@ -110,13 +110,13 @@ Provides a customized skill that is configured with a series of related tables f
     **Note:** Certain questions will not infer answers from Now LLM to ensure that the correct dispute category and reason code are determined from the conversation. See [Bypassed questions from LLM processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/now-assist-for-financial-services-operations-fso/learn-about-the-form-data-collector.md) for more information.
 
 
-## Now Assist panel in Financial Services Workspace
+## ServiceNow Otto panel in Financial Services Workspace
 
-For case summarization or a conversational interaction for dispute resolution, an agent can use the Now Assist panel in Financial Services Workspace. This enables an agent to request a case summary in a conversational interface. For more information about the Now Assist panel, see [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-panel-overview.md).
+For case summarization or a conversational interaction for dispute resolution, an agent can use the ServiceNow Otto panel in Financial Services Workspace. This enables an agent to request a case summary in a conversational interface. For more information, see .
 
 ## Sensitive data handling
 
 Personally identifiable information and other sensitive data can be masked so that it doesn't appear in generative AI prompts. Placeholder text is sent with the prompt instead, and that placeholder text is replaced with the original text after the response has been received. This two-way masking ensures that your users see the correct values, but the Now LLM Service isn't exposed to any sensitive information. For more information, see .
 
-**Important:** Exercise caution when using Now Assist for FSO with cases that contain sensitive data or other regulated workloads, such as healthcare claims. Now Assist for FSO should not be used for processing protected health information \(PHI\). When using Now Assist for FSO in a protected industry, validate and test the generated results in accordance with corresponding legislation and requirements. See [AI limitations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/now-assist-for-financial-services-operations-fso/now-assist-for-financial-services-operations.md) for more information.
+**Important:** Exercise caution when using ServiceNow Otto for FSO with cases that contain sensitive data or other regulated workloads, such as healthcare claims. ServiceNow Otto for FSO should not be used for processing protected health information \(PHI\). When using ServiceNow Otto for FSO in a protected industry, validate and test the generated results in accordance with corresponding legislation and requirements. See [AI limitations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/now-assist-for-financial-services-operations-fso/now-assist-for-financial-services-operations.md) for more information.
 

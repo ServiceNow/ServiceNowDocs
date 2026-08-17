@@ -1,5 +1,5 @@
 ---
-title: Customize the Now Assist for IT Service Management \(ITSM\) change risk explanation skill
+title: Customize the ServiceNow Otto for IT Service Management \(ITSM\) change risk explanation skill
 description: Enhance the efficiency to explain the risk of a change request by customizing it with different inputs and prompts using the skill configuration guided setup.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/now-assist-for-it-service-management-itsm/cust-now-assist-itsm-change-risk-skill.html
@@ -10,10 +10,10 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 6
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
-breadcrumb: [Configure, Now Assist for IT Service Management \(ITSM\), IT Service Management]
+breadcrumb: [Configure, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 
-# Customize the Now Assist for IT Service Management \(ITSM\) change risk explanation skill
+# Customize the ServiceNow Otto for IT Service Management \(ITSM\) change risk explanation skill
 
 Enhance the efficiency to explain the risk of a change request by customizing it with different inputs and prompts using the skill configuration guided setup.
 
@@ -29,7 +29,7 @@ You need the sn\_skill\_builder.admin role to customize the prompt in the Now As
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills**.
+1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Skills**.
 
 2.  In the **Technology** feature group, select **ITSM** from the product list.
 
@@ -49,7 +49,7 @@ You need the sn\_skill\_builder.admin role to customize the prompt in the Now As
 
 4.  In the General details step, fill in the fields.
 
-    For information about the inputs and triggers for each skill, see [Skill inputs and triggers for Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-skills.md).
+    For information about the inputs and triggers for each skill, see [Skill inputs and triggers for ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-skills.md).
 
     1.  Enter a name and description for the skill.
 
@@ -75,8 +75,6 @@ You need the sn\_skill\_builder.admin role to customize the prompt in the Now As
         You can edit or remove the **Implementation plan**, **Description**, and **Backout plan** fields. You can also add new fields and descriptions for them by selecting **+New base input field**.
 
         **Important:** If you add a new field with the same name as an existing field, the name and description of the new field will override the description of the existing field.
-
-        \[Omitted image "itsm-now-assist-change-choose-input.png"\] Alt text: Change request risk form with editable input fields: Implementation plan, Description, Backout plan, and option to add new fields.
 
         The following table lists the base input table fields and descriptions, including a relevant example.
 
@@ -157,8 +155,6 @@ Relationship between the input table and the table field.
 
         -   You must have AI Search implemented to retrieve similar changes. For more information on AI Search, see [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/overview-ais.md).
         -   The search criteria to retrieve similar changes is based on the conditions set in the Change Requests search source. For information on search source, see [Search Source form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/search-source-form-ais.md).
-        \[Omitted image "itsm-now-assist-change-similar-changes.png"\] Alt text: Similar changes for change risk explanation
-
         The **Short description** field is available by default. You can edit or remove the following fields:
 
         -   Description
@@ -181,8 +177,6 @@ Relationship between the input table and the table field.
     1.  Select the change record in the Test output section, and test the prompt response output format by selecting **Run Test**.
 
         If the result shows that risk isn’t calculated for the change request, then the prompt created isn’t effective. If the output displays a prompt response, then the LLM has used the configurations in the previous steps and has passed them to the prompt to create the explanation.
-
-        \[Omitted image "itsm-now-assist-test-output.png"\] Alt text: Testing the output in change request risk explanation
 
     2.  Select **Save and Continue** to go to the next step.
 
@@ -208,7 +202,7 @@ Relationship between the input table and the table field.
 
         -   **Now Assist panel**: When selected, Now Assist skills are available in the Now Assist panel.
 
-            If you don't see this option, you must activate the Now Assist panel. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/activate-now-assist-panel.md).
+            If you don't see this option, you must activate the Now Assist panel. For more information, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
             For the skills that appear in the Now Assist panel, select the down arrow to identify the roles that can use the skill.
 

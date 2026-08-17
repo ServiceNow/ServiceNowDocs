@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-benchmarks-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -75,7 +75,7 @@ Xanadu
 
 </td><td>
 
--   **[Benchmark KPIs](https://servicenow-staging.fluidtopics.net/access?context=c_BenchKPIConfig&family=xanadu&ft:locale=en-US)**
+-   **[Benchmark KPIs](https://www.servicenow.com/docs/access?context=c_BenchKPIConfig&family=xanadu&ft:locale=en-US)**
 
 The new Self-solved using AI search QnA and Self-solved using Proactive Engagement for DeX KPIs added to the self-solved deflections are benchmarked for all the cohorts. These new contributing indicators help organizations track the self-solved deflection.
 
@@ -416,7 +416,7 @@ Xanadu
 
 Experience the all-new KPI in the self-solved deflections category of ITSM Benchmarks to help resolve the digital issues encountered by users on a daily basis.
 
- See [Benchmarks](https://servicenow-staging.fluidtopics.net/access?context=r_Benchmarks&family=xanadu&ft:locale=en-US) for more information.
+ See [Benchmarks](https://www.servicenow.com/docs/access?context=r_Benchmarks&family=xanadu&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -427,7 +427,7 @@ Yokohama
 1.  Experience the new Key Performance Indicator \(KPI\) for Now Assist under Productivity moments per user of ITSM Benchmarks to understand the benefits of Now Assist features like Knowledge Article generation.
 2.  Benchmark the all new HRSM indicator to help evaluate the performance in comparison to your peers.
 
- See [Benchmarks](https://servicenow-staging.fluidtopics.net/access?context=r_Benchmarks&family=yokohama&ft:locale=en-US) for more information.
+ See [\[Placeholder link text to key bundle-itsm.r\_Benchmarks\]](https://www.servicenow.com/docs/access?context=r_Benchmarks&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 

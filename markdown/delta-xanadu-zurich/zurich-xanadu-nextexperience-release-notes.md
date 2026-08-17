@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-nextexperience-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 8
 breadcrumb: [Products combined by family]
 ---
@@ -75,23 +75,23 @@ Xanadu
 
 </td><td>
 
--   **[Next Experience keyboard shortcuts](https://servicenow-staging.fluidtopics.net/access?context=next-experience-keyboard-shortcuts&family=xanadu&ft:locale=en-US)**
+-   **[Next Experience keyboard shortcuts](https://www.servicenow.com/docs/access?context=next-experience-keyboard-shortcuts&family=xanadu&ft:locale=en-US)**
 
 Use a new keyboard shortcut to reduce the time required to open the OpenFrame window.
 
--   **[User experience user preference group added](https://servicenow-staging.fluidtopics.net/access?context=set-up-preferences-next-experience&family=xanadu&ft:locale=en-US)**
+-   **[User experience user preference group added](https://www.servicenow.com/docs/access?context=set-up-preferences-next-experience&family=xanadu&ft:locale=en-US)**
 
 A new "User experience" user preference group has been added for the Turn off Next Experience, Enable analytics, and Current start page preferences.
 
--   **[Pin your notifications menu](https://servicenow-staging.fluidtopics.net/access?context=using-the-next-experience-global-header&family=xanadu&ft:locale=en-US)**
+-   **[Pin your notifications menu](https://www.servicenow.com/docs/access?context=using-the-next-experience-global-header&family=xanadu&ft:locale=en-US)**
 
 Pin your notifications menu for quick access to important updates.
 
--   **[View Next Experience performance metrics](https://servicenow-staging.fluidtopics.net/access?context=measuring-performance-next-experience&family=xanadu&ft:locale=en-US)**
+-   **[View Next Experience performance metrics](https://www.servicenow.com/docs/access?context=measuring-performance-next-experience&family=xanadu&ft:locale=en-US)**
 
 View performance metrics for any Next Experience page.
 
--   **[Preserve your custom Next Experience theme during a clone](https://servicenow-staging.fluidtopics.net/access?context=preserve-next-experience-theme-during-clone&family=xanadu&ft:locale=en-US)**
+-   **[Preserve your custom Next Experience theme during a clone](https://www.servicenow.com/docs/access?context=preserve-next-experience-theme-during-clone&family=xanadu&ft:locale=en-US)**
 
 Cloning is optimized to preserve your Next Experience and Theme Builder themes. This helps ensure that the themes are not overwritten during the cloning process.
 
@@ -102,19 +102,19 @@ Yokohama
 
 </td><td>
 
--   **[Fuzzy search results returned within the Unified Navigation menus](https://servicenow-staging.fluidtopics.net/access?context=using-the-next-experience-global-header&family=yokohama&ft:locale=en-US)**
+-   **[Fuzzy search results returned within the Unified Navigation menus](https://www.servicenow.com/docs/access?context=using-the-next-experience-global-header&family=yokohama&ft:locale=en-US)**
 
 Find relevant search results even with shortened text by using the fuzzy results filter, which ranks results based on their similarity to your search query. Adjust the minimum accuracy score to help fine-tune filter behavior.
 
--   **[Customizing the Next Experience keyboard shortcuts](https://servicenow-staging.fluidtopics.net/access?context=customize-keyboard-shortcuts&family=yokohama&ft:locale=en-US)**
+-   **[Customizing the Next Experience keyboard shortcuts](https://www.servicenow.com/docs/access?context=customize-keyboard-shortcuts&family=yokohama&ft:locale=en-US)**
 
 Assign specific actions to unique key combinations to quickly execute tasks. See the Accessibility information section for details.
 
--   **[Activity stream user preference available](https://servicenow-staging.fluidtopics.net/access?context=next-experience-workspace-preferences&family=yokohama&ft:locale=en-US)**
+-   **[Activity stream user preference available](https://www.servicenow.com/docs/access?context=next-experience-workspace-preferences&family=yokohama&ft:locale=en-US)**
 
 Enable the activity stream to automatically expand all activities from within the Workspace user preference group.
 
--   **[Next Experience keyboard shortcuts](https://servicenow-staging.fluidtopics.net/access?context=next-experience-keyboard-shortcuts&family=yokohama&ft:locale=en-US)**
+-   **[Next Experience keyboard shortcuts](https://www.servicenow.com/docs/access?context=next-experience-keyboard-shortcuts&family=yokohama&ft:locale=en-US)**
 
 Use a new keyboard shortcut to open and close the Now Assist panel and another keyboard shortcut to enable Now Assist voice input mode.
 
@@ -125,23 +125,23 @@ Zurich
 
 </td><td>
 
--   **[Lazy loading of Workspace pages user preference available](https://servicenow-staging.fluidtopics.net/access?context=next-experience-workspace-preferences&family=zurich&ft:locale=en-US)**
+-   **[Lazy loading of Workspace pages user preference available](https://www.servicenow.com/docs/access?context=next-experience-workspace-preferences&family=zurich&ft:locale=en-US)**
 
 Control how your Workspace pages are loaded, either all at once or as needed, by using the new Workspace lazy load user preference. Lazy loading is enabled by default and displays content dynamically, reducing page load times. See the Accessibility information section for additional details.
 
--   **[Use the menu toggle to view the Now Assist menu in wide mode](https://servicenow-staging.fluidtopics.net/access?context=using-the-next-experience-global-header&family=zurich&ft:locale=en-US)**
+-   **[Use the menu toggle to view the Now Assist menu in wide mode](https://www.servicenow.com/docs/access?context=using-the-next-experience-global-header&family=zurich&ft:locale=en-US)**
 
 View the Now Assist menu in wide mode to reduce the need for scrolling and truncating content.
 
--   **[Configure accessibility preferences](https://servicenow-staging.fluidtopics.net/access?context=next-experience-accessibility-preferences&family=zurich&ft:locale=en-US)**
+-   **[Configure accessibility preferences](https://www.servicenow.com/docs/access?context=next-experience-accessibility-preferences&family=zurich&ft:locale=en-US)**
 
 Use a new accessibility preference to keep page alerts visible. See the Accessibility information section for additional details.
 
--   **[Usage Analytics utility menu available](https://servicenow-staging.fluidtopics.net/access?context=using-the-next-experience-global-header&family=zurich&ft:locale=en-US)**
+-   **[Usage Analytics utility menu available](https://www.servicenow.com/docs/access?context=using-the-next-experience-global-header&family=zurich&ft:locale=en-US)**
 
 Obtain usage analytic data for your applications and web pages with the Usage Analytics utility menu. The Usage Analytics menu appears for those users with the analytics\_viewer role.
 
--   **[View the number of active calls from the OpenFrame phone icon](https://servicenow-staging.fluidtopics.net/access?context=using-the-next-experience-global-header&family=zurich&ft:locale=en-US)**
+-   **[View the number of active calls from the OpenFrame phone icon](https://www.servicenow.com/docs/access?context=using-the-next-experience-global-header&family=zurich&ft:locale=en-US)**
 
 View the number of active calls from the numbered badge on the OpenFrame phone icon.
 
@@ -165,7 +165,7 @@ Xanadu
 
 </td><td>
 
--   **[Select a theme in Next Experience](https://servicenow-staging.fluidtopics.net/access?context=select-a-theme-in-next-experience&family=xanadu&ft:locale=en-US)**
+-   **[Select a theme in Next Experience](https://www.servicenow.com/docs/access?context=select-a-theme-in-next-experience&family=xanadu&ft:locale=en-US)**
 
 If multiple core themes have been created using Theme Builder, then those themes and their alternate color palettes are displayed in the Theme user preference group.
 
@@ -176,7 +176,7 @@ Yokohama
 
 </td><td>
 
--   **[Next Experience preferences](https://servicenow-staging.fluidtopics.net/access?context=set-up-preferences-next-experience&family=yokohama&ft:locale=en-US)**
+-   **[Next Experience preferences](https://www.servicenow.com/docs/access?context=set-up-preferences-next-experience&family=yokohama&ft:locale=en-US)**
 
 The new user preference panel provides a more efficient, streamlined way for you to work. Use the new search bar to locate your preferences. A wider modal displays all preference groups and when you select a group, all the individual preferences that are related to it appear in the same window.
 
@@ -187,7 +187,10 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **[Now Assist &gt; ServiceNow Otto® announcement](https://www.servicenow.com/docs/access?context=sn-ai-implementation-landing&family=zurich&ft:locale=en-US)**
+
+Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+
 
 </td></tr></tbody>
 </table>## Removed
@@ -399,7 +402,7 @@ Xanadu
 
 </td><td>
 
--   **[Next Experience keyboard shortcuts](https://servicenow-staging.fluidtopics.net/access?context=next-experience-keyboard-shortcuts&family=xanadu&ft:locale=en-US)**
+-   **[Next Experience keyboard shortcuts](https://www.servicenow.com/docs/access?context=next-experience-keyboard-shortcuts&family=xanadu&ft:locale=en-US)**
 
 In addition to the 40 keyboard shortcuts available, there is a new keyboard shortcut to reduce the time required opening the OpenFrame window. This shortcut allows agents to dial and answer the phone from the platform.
 
@@ -410,11 +413,11 @@ Yokohama
 
 </td><td>
 
--   **[Customize Next Experience keyboard shortcuts](https://servicenow-staging.fluidtopics.net/access?context=customize-keyboard-shortcuts&family=yokohama&ft:locale=en-US)**
+-   **[Customize Next Experience keyboard shortcuts](https://www.servicenow.com/docs/access?context=customize-keyboard-shortcuts&family=yokohama&ft:locale=en-US)**
 
 Create your own keyboard shortcuts for frequently used actions.
 
--   **[Next Experience keyboard shortcuts](https://servicenow-staging.fluidtopics.net/access?context=next-experience-keyboard-shortcuts&family=yokohama&ft:locale=en-US)**
+-   **[Next Experience keyboard shortcuts](https://www.servicenow.com/docs/access?context=next-experience-keyboard-shortcuts&family=yokohama&ft:locale=en-US)**
 
 **Keyboard shortcuts categorized**: Keyboard shortcuts for each page are now organized into categories: Page Action, Page Navigation, Global Navigation, and General.
 
@@ -422,13 +425,13 @@ Create your own keyboard shortcuts for frequently used actions.
 
 **Accessibility improvements for keyboard interactions**: Use the right and left arrow keys to expand and collapse rows.
 
--   **[Configure Next Experience accessibility preferences](https://servicenow-staging.fluidtopics.net/access?context=next-experience-accessibility-preferences&family=yokohama&ft:locale=en-US)**
+-   **[Configure Next Experience accessibility preferences](https://www.servicenow.com/docs/access?context=next-experience-accessibility-preferences&family=yokohama&ft:locale=en-US)**
 
 **Voice input for Now Assist**
 
 A new user preference activates voice-to-text input in the Now Assist panel. With this feature, you can use your voice to access Now Assist skills in the Now Assist panel in any supported language.
 
-This preference appears only if your system administrator has enabled the voice input for the Now Assist feature for your instance. For more information, see [Enable voice input for the Now Assist panel](https://servicenow-staging.fluidtopics.net/access?context=enable-voice-input-for-now-assist-panel&family=yokohama&ft:locale=en-US).
+This preference appears only if your system administrator has enabled the voice input for the Now Assist feature for your instance. For more information, see [Enable voice input for the Now Assist panel](https://www.servicenow.com/docs/access?context=enable-voice-input-for-now-assist-panel&family=yokohama&ft:locale=en-US).
 
 Once your system administrator has enabled voice input for your instance, the "Enable voice input for the Now Assist panel" user preference is displayed.
 
@@ -443,11 +446,11 @@ Zurich
 
 The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
 
--   **[New Accessibility preference added for page alerts](https://servicenow-staging.fluidtopics.net/access?context=next-experience-accessibility-preferences&family=zurich&ft:locale=en-US)**
+-   **[New Accessibility preference added for page alerts](https://www.servicenow.com/docs/access?context=next-experience-accessibility-preferences&family=zurich&ft:locale=en-US)**
 
 Turn on the **Do not auto-dismiss page alerts** preference to keep page alerts visible until you manually close them.
 
--   **[New Workspace preference added to enhance screen reader output for your Workspace pages](https://servicenow-staging.fluidtopics.net/access?context=next-experience-workspace-preferences&family=zurich&ft:locale=en-US)**
+-   **[New Workspace preference added to enhance screen reader output for your Workspace pages](https://www.servicenow.com/docs/access?context=next-experience-workspace-preferences&family=zurich&ft:locale=en-US)**
 
 A new Workspace preference lets you turn off lazy loading for workspace pages. When you turn off lazy loading, the entire page loads at once. This action improves compatibility with screen readers and provides a more consistent and reliable reading experience.
 
@@ -513,7 +516,7 @@ Xanadu
 -   A new "User experience" user preference group has been added for the Turn off Next Experience, Enable analytics, and Current start page preferences.
 -   A new client interaction table displays UI load times for identifying and investigating performance anomalies.
 
- See [Next Experience UI](https://servicenow-staging.fluidtopics.net/access?context=next-experience-landing-page&family=xanadu&ft:locale=en-US) for more information.
+ See [Next Experience UI](https://www.servicenow.com/docs/access?context=next-experience-landing-page&family=xanadu&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -526,7 +529,7 @@ Yokohama
 -   Quickly locate and adjust your user preferences by using the new streamlined search function.
 -   User preference icons now adopt your theme colors.
 
- See [Next Experience UI](https://servicenow-staging.fluidtopics.net/access?context=next-experience-landing-page&family=yokohama&ft:locale=en-US) for more information.
+ See [Next Experience UI](https://www.servicenow.com/docs/access?context=next-experience-landing-page&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -538,7 +541,7 @@ Zurich
 -   Manage the visibility of page alerts with a new accessibility user preference.
 -   Access usage analytic data for applications and web pages directly with the new Usage Analytics utility menu.
 
- See [Next Experience UI](https://servicenow-staging.fluidtopics.net/access?context=next-experience-landing-page&family=zurich&ft:locale=en-US) for more information.
+ See [Next Experience UI](https://www.servicenow.com/docs/access?context=next-experience-landing-page&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/rn-combined-intro.md)

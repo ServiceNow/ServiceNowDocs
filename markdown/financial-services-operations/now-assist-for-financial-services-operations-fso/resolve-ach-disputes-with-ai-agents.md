@@ -1,6 +1,6 @@
 ---
 title: Resolve ACH disputes with AI agents
-description: Use AI agents to streamline ACH dispute resolution in Now Assist for FSO.
+description: Use AI agents to streamline ACH dispute resolution in ServiceNow Otto for FSO.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/now-assist-for-financial-services-operations-fso/resolve-ach-disputes-with-ai-agents.html
 release: zurich
@@ -9,12 +9,12 @@ classification: now-assist-for-financial-services-operations-fso
 topic_type: task
 last_updated: "2025-10-29"
 reading_time_minutes: 3
-breadcrumb: [AI agents in FSO, Use agentic AI, Now Assist for FSO, Financial Services Operations \(FSO\)]
+breadcrumb: [AI agents in FSO, Use agentic AI, ServiceNow Otto for FSO, Financial Services Operations \(FSO\)]
 ---
 
 # Resolve ACH disputes with AI agents
 
-Use AI agents to streamline ACH dispute resolution in Now Assist for FSO.
+Use AI agents to streamline ACH dispute resolution in ServiceNow Otto for FSO.
 
 ## Before you begin
 
@@ -43,9 +43,9 @@ If this configuration isn’t enabled, the dispute agent must manually assign ea
 2.  Based on the analysis done, these options are displayed on the workspace.
 
     -   **Apply Recommendation**: The dispute agent selects this option to agree with the recommended analysis of the AI agent. The task closes and navigates to the next task.
-    -   **Ask a follow up**: The dispute agent selects this option only if they aren’t sure about the analysis done and want to verify further. The analysis is then displayed in the Now Assist panel.
+    -   **Ask a follow up**: The dispute agent selects this option only if they aren’t sure about the analysis done and want to verify further. The analysis is then displayed in the ServiceNow Otto panel.
 
-        Select the Now Assist panel icon \(\[Omitted image "icon-ai-sparkle.png"\] Alt text: now assist panel icon\) and open the active chat for the disputed transaction.
+        Select the ServiceNow Otto icon \(\[Omitted image "icon-otto.png"\] Alt text: Otto icon.\) and open the active chat for the disputed transaction.
 
         **Note:** If the dispute agent disagrees with the analysis, then a rationale is prompted by the AI agent for the disagreement. On providing a valid rationale, the task proceeds to the next task.
 

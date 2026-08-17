@@ -1,5 +1,5 @@
 ---
-title: ACME integration with KeyFactor EJBCA for automated flows
+title: Integration with KeyFactor EJBCA automated flows
 description: Automate the flow of requesting, renewing, and revoking your certificates by integrating Keyfactor EJBCA with the Automated Certificate Management Environment \(ACME\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/automate-certificates-ejbca-acme.html
@@ -9,10 +9,10 @@ classification: discovery
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Automated Certificate Management Environment, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
+breadcrumb: [Automated certificate management with ACME, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
 
-# ACME integration with KeyFactor EJBCA for automated flows
+# Integration with KeyFactor EJBCA automated flows
 
 Automate the flow of requesting, renewing, and revoking your certificates by integrating Keyfactor EJBCA with the Automated Certificate Management Environment \(ACME\).
 
@@ -26,11 +26,11 @@ In EJBCA, automated certificate workflows start when you create routing policies
 
 Your platform has routing policies where you fill in all the fields of the routing policy. Your platform aligns that information to each CSR you create to request, renew, and revoke certificates.
 
-For more information, see [Create a routing policy for EJBCA ACME certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/routing-policies-ejbca-acme-certificates.md).
+For more information, see [Create routing policies for EJBCA ACME certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/routing-policies-ejbca-acme-certificates.md).
 
 Perform the following task to use EJBCA ACME to automate your certificate life cycle:
 
 1.  [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/connection-alias.md)
-2.  [Configure your base API URL for EJBCA ACME](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/configure-base-api-url-for-ejbca-acme.md)
-3.  [Validate your EJBCA ACME base API URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/validate-ejbca-acme-base-api-url.md)
+2.  [Configure base API URL for EJBCA ACME](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/configure-base-api-url-for-ejbca-acme.md)
+3.  [Validate EJBCA ACME base API URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/validate-ejbca-acme-base-api-url.md)
 

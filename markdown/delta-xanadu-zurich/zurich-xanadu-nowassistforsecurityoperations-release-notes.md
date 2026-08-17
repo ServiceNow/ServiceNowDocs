@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-nowassistforsecurityoperations-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -38,7 +38,7 @@ Xanadu
 
 </td><td>
 
-For more information about required applications for Now Assist for Vulnerability Response, see [Supporting information for Now Assist for Vulnerability Response](https://servicenow-staging.fluidtopics.net/access?context=supporting-information-now-assist-vr&family=xanadu&ft:locale=en-US). For more information about required applications for Now Assist for Security Incident Response, see [Supporting information for Now Assist for Security Incident Response](https://servicenow-staging.fluidtopics.net/access?context=supporting-information-now-assist-security-incident&family=xanadu&ft:locale=en-US).
+For more information about required applications for Now Assist for Vulnerability Response, see [Supporting information for Now Assist for Vulnerability Response](https://www.servicenow.com/docs/access?context=supporting-information-now-assist-vr&family=xanadu&ft:locale=en-US). For more information about required applications for Now Assist for Security Incident Response, see [Supporting information for Now Assist for Security Incident Response](https://www.servicenow.com/docs/access?context=supporting-information-now-assist-security-incident&family=xanadu&ft:locale=en-US).
 
  The AI Search application must be enabled so that the Recommended Actions skill works for security incidents. To verify AI Search is enabled on your instance, navigate to **All** &gt; **AI Search** &gt; **AI Search Status**. Contact support if the page indicates AI Search is not enabled.
 
@@ -225,7 +225,7 @@ Xanadu
 
 </td><td>
 
-Install Now Assist for Security Operations by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
+Install Now Assist for Security Operations by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -413,7 +413,7 @@ Xanadu
 Xanadu Patch 9
 
 -   Help your analysts to gain insight into security incident record metrics with an agentic workflow. Chat with AI agents in natural language from the Now Assist panel.
--   With the initial release of [Now Assist for Vulnerability Response](https://servicenow-staging.fluidtopics.net/access?context=exploring-ai-for-now-assist-for-vulnerability-response&family=xanadu&ft:locale=en-US), help your vulnerability managers and analysts to assess your exposure to vulnerabilities and analyze metrics for remediation targets. Chat with AI agents in natural language from the Now Assist panel.
+-   With the initial release of [Now Assist for Vulnerability Response](https://www.servicenow.com/docs/access?context=exploring-ai-for-now-assist-for-vulnerability-response&family=xanadu&ft:locale=en-US), help your vulnerability managers and analysts to assess your exposure to vulnerabilities and analyze metrics for remediation targets. Chat with AI agents in natural language from the Now Assist panel.
 -   Help your analysts to resolve security incidents by chatting with AI agents in the Now Assist panel where the AI agent provides a resolution plan.
 
  Xanadu \(prior to Patch 9\)
@@ -425,7 +425,7 @@ Xanadu Patch 9
 -   Generate a post-incident analysis.
 -   Access summaries and closure notes from the Now Assist panel, security incident records, or from the Security Incident Response Workspace.
 
-See [Now Assist for Security Incident Response](https://servicenow-staging.fluidtopics.net/access?context=now-assist-security-incident-landing&family=xanadu&ft:locale=en-US) for more information.
+See [Now Assist for Security Incident Response](https://www.servicenow.com/docs/access?context=now-assist-security-incident-landing&family=xanadu&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 

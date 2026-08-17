@@ -7,7 +7,7 @@ release: zurich
 product: Demand Management
 classification: demand-management
 topic_type: task
-last_updated: "2025-11-13"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Create an artifact from a demand, Create a demand, Use, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -60,7 +60,7 @@ For information about the data migrated from the demand to the EAP entity, see [
 
 ## What to do next
 
-View and work on the new entity in Strategic Planning Workspace right away by selecting the link to the entity in the message that is displayed when the entity creation is successful.
+To view and work on the new entity in Strategic Planning Workspace right away, select the link to the entity in the confirmation message.
 
 **Note:** To access the entity at a later time, in the demand form, select the entity name in the **Converted to** field in the EAP Details section.
 

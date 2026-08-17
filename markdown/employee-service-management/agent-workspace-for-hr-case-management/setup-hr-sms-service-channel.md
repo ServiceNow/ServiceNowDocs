@@ -62,6 +62,6 @@ The HR Service Delivery base system includes the **HR SMS** service channel queu
 
 12. Select **Update**.
 
-    **Note:** For complete information regarding Conversational SMS service channels and setup guidance, refer to [Conversational SMS service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/conversation-sms-service-channel-store-app.md).
+    **Note:** For complete information regarding Conversational SMS service channels and setup guidance, refer to Conversational SMS service channel.
 
 

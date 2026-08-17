@@ -9,6 +9,7 @@ classification: configuration-management-database-cmdb
 topic_type: concept
 last_updated: "2026-02-25"
 reading_time_minutes: 2
+keywords: [reviewing data integrations, discovery pattern fields to monitor, service graph connector fields to monitor, integration attribute coverage, active and inactive connections]
 breadcrumb: [Analyze data integrations, Use Data Foundations advisor, CMDB success advisor, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 

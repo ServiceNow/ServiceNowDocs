@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-hrmultiinstanceintegration-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
@@ -91,7 +91,7 @@ Zurich
 
 </td><td>
 
--   **[HR Multi Instance Integration](https://servicenow-staging.fluidtopics.net/access?context=multi-instance-int&family=zurich&ft:locale=en-US)**
+-   **[HR Multi Instance Integration](https://www.servicenow.com/docs/access?context=multi-instance-int&family=zurich&ft:locale=en-US)**
 
 Partners and service providers for HR service fulfillment often are running their own instance of HR Service Delivery. HR Multi Instance Integration provides inter-instance communication and hybrid HR services with fulfillment in different instances through the following capabilities:
 
@@ -258,7 +258,7 @@ Zurich
 
 </td><td>
 
-If you are an HR service consumer, install the HR Multi Instance Integration for Consumer \(sn\_hr\_mii\_provider\) application, and if you are an HR service provider, install the HR Multi Instance Integration for Provider \(sn\_hr\_mii\_provider\) application by requesting them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+If you are an HR service consumer, install the HR Multi Instance Integration for Consumer \(sn\_hr\_mii\_provider\) application, and if you are an HR service provider, install the HR Multi Instance Integration for Provider \(sn\_hr\_mii\_provider\) application by requesting them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -450,7 +450,7 @@ Zurich
 -   Enable consumer users to complete the assigned tasks via magic links. Magic links enable consumer users to directly access the linked resource in the provider instance without having to manually log in.
 -   Use Universal Task as the remote tasking medium in both provider instance and consumer instance.
 
- See [HR Multi Instance Integration](https://servicenow-staging.fluidtopics.net/access?context=multi-instance-int&family=zurich&ft:locale=en-US) for more information.
+ See [HR Multi Instance Integration](https://www.servicenow.com/docs/access?context=multi-instance-int&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/rn-combined-intro.md)

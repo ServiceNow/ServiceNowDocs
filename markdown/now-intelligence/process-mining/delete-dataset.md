@@ -9,7 +9,7 @@ classification: process-mining
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Managing an audit table, Working with external datasets, Using Process Mining, Process Mining, Platform Analytics]
+breadcrumb: [Managing an audit table, Working with external datasets, Import external data, Process Mining, Platform Analytics]
 ---
 
 # Delete a dataset
@@ -42,6 +42,4 @@ Role required: sn\_process\_optimization\_admin
 
     **Note:** The tables aren’t deleted. Only data is deleted. If you want to delete the tables, the administrator must delete them manually. The administrator must delete the tables periodically.
 
-
-**Parent Topic:**[Managing an audit table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/managing-audit-table.md)
 

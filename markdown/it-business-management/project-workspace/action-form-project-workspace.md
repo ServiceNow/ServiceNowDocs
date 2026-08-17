@@ -7,9 +7,9 @@ release: zurich
 product: Project Workspace
 classification: project-workspace
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Form field information for Project Workspace, Reference, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Form field information for Project Workspace, Project Workspace reference, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Action form of Project Workspace
@@ -121,6 +121,8 @@ Short description
 </td><td>
 
 Brief description of the action such as what the action involves, how to implement the action, who it affects, and the action outcome.As you start entering the title for your action, the related actions that potentially match your action title appear.
+
+ Click the suggestion icon \(\[Omitted image "suggestions-icon.png"\] Alt text: Suggestion icon\) to select a description from the list of predefined actions.
 
 </td></tr><tr><td>
 

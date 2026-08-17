@@ -56,6 +56,8 @@ Role required: sn\_lg\_ops.legal\_user and sn\_cm\_core.contract\_user, sn\_lg\_
 
 [Internal review overview]()
 
+[Signature workflow for a request]()
+
 [View and download a signed contract document]()
 
 [View contract requests]()

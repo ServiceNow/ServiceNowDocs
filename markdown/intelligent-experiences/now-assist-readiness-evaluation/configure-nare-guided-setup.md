@@ -1,21 +1,21 @@
 ---
-title: Configure the Now Assist Readiness Evaluation guided setup
-description: Before you can review the Now Assist assessments in Workspaces Now Assist Readiness Evaluation , you must first complete the configuration for the five Now Assist jobs.
+title: Configure the AI Readiness Evaluation guided setup
+description: Before you can review the Now Assist assessments in Workspaces AI Readiness Evaluation , you must first complete the configuration for the five HRSD jobs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/now-assist-readiness-evaluation/configure-nare-guided-setup.html
 release: zurich
 product: Now Assist Readiness Evaluation
 classification: now-assist-readiness-evaluation
 topic_type: task
-last_updated: "2025-09-29"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [Now Assist Readiness Evaluation, Now Assist Readiness Evaluation app, Now Assist Readiness, Now Assist assessment, GenAI assessment, AI assessment, Agentic AI assessment]
-breadcrumb: [Configure, Now Assist Readiness Evaluation, Enable AI experiences]
+breadcrumb: [Configure, AI Readiness Evaluation, Enable AI experiences]
 ---
 
-# Configure the Now Assist Readiness Evaluation guided setup
+# Configure the AI Readiness Evaluation guided setup
 
-Before you can review the Now Assist assessments in **Workspaces** &gt; **Now Assist Readiness Evaluation**, you must first complete the configuration for the five Now Assist jobs.
+Before you can review the Now Assist assessments in **Workspaces** &gt; **AI Readiness Evaluation**, you must first complete the configuration for the five HRSD jobs.
 
 ## Before you begin
 
@@ -27,11 +27,11 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **System Definition** &gt; **Plugins**.
 
-2.  In the search bar, search for `Now Assist Readiness Evaluation`.
+2.  In the search bar, search for `AI Readiness Evaluation`.
 
-3.  Select the Installed tab to view the installed store application **Now Assist Readiness Evaluation** App id: sn\_assess.
+3.  Select the Installed tab to view the installed store application **AI Readiness Evaluation** App id: sn\_assess.
 
-4.  Select **Now Assist Readiness Evaluation**.
+4.  Select **AI Readiness Evaluation**.
 
 5.  In the Get started area, select **Configure**.
 
@@ -39,13 +39,13 @@ Role required: admin
 
     You’re redirected to the Agentic AI Assessment Guided Setup.
 
-    **Tip:** You can also access the Agentic AI Assessment Guided Setup screen by navigating directly to **All** &gt; **Now Assist Readiness Evaluation** &gt; **Guided Setup**.
+    **Tip:** You can also access the Agentic AI Assessment Guided Setup screen by navigating directly to **All** &gt; **AI Readiness Evaluation** &gt; **Guided Setup**.
 
-    Three sections appear: Scheduled Jobs, Restricted Caller Access Privileges, and System Properties. The Restricted Caller Access Privileges and System Properties sections are only applicable if you want to work with Now Assist for HR Service Delivery \(HRSD\).
+    Three sections appear: Scheduled Jobs, Restricted Caller Access Privileges, and System Properties. The Restricted Caller Access Privileges and System Properties sections are only applicable if you want to work with ServiceNow Otto for HR Service Delivery \(HRSD\).
 
 7.  Select **Start** in the Scheduled Jobs section.
 
-    You’re redirected to the five scheduled Now Assist generative AI jobs.
+    You’re redirected to the five scheduled generative AI jobs.
 
     **Note:** You’re unable to run agentic AI scheduled jobs from this guided setup. To run agentic AI scheduled jobs, you must do so through the GenAI/AgenticAI Assessment scheduled job. For more information on running the agentic AI scheduled job, see [Run the GenAI/AgenticAI Assessment scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-readiness-evaluation/run-genai-agenticai-assessment-scheduled-job.md).
 
@@ -59,9 +59,9 @@ Role required: admin
 
 10. Select **Next** in the guided setup.
 
-11. Repeat steps [8](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-readiness-evaluation/configure-nare-guided-setup.md)-[10](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-readiness-evaluation/configure-nare-guided-setup.md) until you have run the scheduled jobs for the five Now Assist assessments.
+11. Repeat steps [8](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-readiness-evaluation/configure-nare-guided-setup.md)-[10](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-readiness-evaluation/configure-nare-guided-setup.md) until you have run the scheduled jobs for the five assessments.
 
-    You have completed the Now Assist assessment jobs. If you ran the HRSD job, continue to the following optional steps.
+    You have completed the assessment jobs. If you ran the HRSD job, continue to the following optional steps.
 
 12. If you have run the job for HRSD, select the **Change The State to Allowed for the following records** link on the Restricted Caller Access Privileges screen.
 
@@ -80,9 +80,9 @@ Role required: admin
 
 ## Result
 
-You have completed configuration for the Now Assist assessments.
+You have completed configuration for the assessments.
 
 ## What to do next
 
-You can navigate to **Workspaces** &gt; **Now Assist Readiness Evaluation** to review your assessment results.
+You can navigate to **Workspaces** &gt; **AI Readiness Evaluation** to review your assessment results.
 

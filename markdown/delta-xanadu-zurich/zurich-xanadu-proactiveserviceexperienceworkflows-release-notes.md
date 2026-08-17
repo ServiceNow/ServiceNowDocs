@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-proactiveserviceexperienceworkflows-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -75,11 +75,11 @@ Xanadu
 
 </td><td>
 
--   **[Customer Service Problem Management](https://servicenow-staging.fluidtopics.net/access?context=cspm-landing-page&family=xanadu&ft:locale=en-US)**
+-   **[Customer Service Problem Management](https://www.servicenow.com/docs/access?context=cspm-landing-page&family=xanadu&ft:locale=en-US)**
 
 Manage the entire process of reviewing, diagnosing, and providing a resolution for service problem cases with Customer Service Problem Management.
 
--   **[Proactive Service Experience Workflows Account 360 Analytics](https://servicenow-staging.fluidtopics.net/access?context=review-customer-account-360-psew&family=xanadu&ft:locale=en-US)**
+-   **[Proactive Service Experience Workflows Account 360 Analytics](https://www.servicenow.com/docs/access?context=review-customer-account-360-psew&family=xanadu&ft:locale=en-US)**
 
 Better understand your customers, the services sold, and the progress of ongoing customer account tasks through a centralized dashboard.
 
@@ -98,25 +98,25 @@ Zurich
 
 </td><td>
 
--   **[Components](https://servicenow-staging.fluidtopics.net/access?context=components-psew&family=zurich&ft:locale=en-US)**
+-   **[Components](https://www.servicenow.com/docs/access?context=components-psew&family=zurich&ft:locale=en-US)**
 
 The granular admin role enables developers and administrators to complete administrative configuration tasks for Proactive Service Experience Workflows without requiring the full admin role.
 
 
--   **[Components](https://servicenow-staging.fluidtopics.net/access?context=components-product-support-case&family=zurich&ft:locale=en-US)**
+-   **[Components](https://www.servicenow.com/docs/access?context=components-product-support-case&family=zurich&ft:locale=en-US)**
 
 The granular admin role enables developers and administrators to complete administrative configuration tasks for Product Support for Technology without requiring the full admin role.
 
 
--   **[Diagnose and resolve an incident](https://servicenow-staging.fluidtopics.net/access?context=diagnose-reslove-incident-psew&family=zurich&ft:locale=en-US)**
+-   **[Diagnose and resolve an incident](https://www.servicenow.com/docs/access?context=diagnose-reslove-incident-psew&family=zurich&ft:locale=en-US)**
 
 Diagnose the incident in the Proactive Service Experience Workflows and create the resolution task manually to resolve the issue.
 
--   **[Diagnose and resolve a change request](https://servicenow-staging.fluidtopics.net/access?context=diagnose-resolve-case-change-request&family=zurich&ft:locale=en-US)**
+-   **[Diagnose and resolve a change request](https://www.servicenow.com/docs/access?context=diagnose-resolve-case-change-request&family=zurich&ft:locale=en-US)**
 
 Review, diagnose, resolve, and close a change request case for the service-related issue experienced by the customer.
 
--   **[Diagnose and resolve](https://servicenow-staging.fluidtopics.net/access?context=diagnose-resolve-hitechcases&family=zurich&ft:locale=en-US)**
+-   **[Diagnose and resolve](https://www.servicenow.com/docs/access?context=diagnose-resolve-hitechcases&family=zurich&ft:locale=en-US)**
 
 Review, diagnose, resolve, and close the Product Support for Technology Case.
 
@@ -439,7 +439,7 @@ Xanadu
 -   Enable customer service agents to efficiently identify and resolve customer service problems using the Customer Service Problem Management application.
 -   Enable the operations team to manage and monitor operational data through a centralized analytical dashboard.
 
- See [Proactive Service Experience Workflows](https://servicenow-staging.fluidtopics.net/access?context=assurance-workflows&family=xanadu&ft:locale=en-US) for more information.
+ See [Proactive Service Experience Workflows](https://www.servicenow.com/docs/access?context=assurance-workflows&family=xanadu&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -462,7 +462,7 @@ Zurich
 -   Technology Product Support Case application is renamed to Product Support for Technology
 -   Technology Product Support Case application is renamed to Product Support for Technology.
 
- See [Proactive Service Experience Workflows](https://servicenow-staging.fluidtopics.net/access?context=assurance-workflows&family=zurich&ft:locale=en-US) for more information.
+ See [Proactive Service Experience Workflows](https://www.servicenow.com/docs/access?context=assurance-workflows&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/rn-combined-intro.md)

@@ -9,7 +9,7 @@ classification: now-assist-for-csm
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Activate Now Assist Skills, Configure, Now Assist for CSM, Customer Service Management]
+breadcrumb: [Activate ServiceNow Otto Skills, Configure, ServiceNow Otto for CSM, Customer Service Management]
 ---
 
 # Configure chat summarization
@@ -26,15 +26,15 @@ Chat summarizations are generated when:
 
 -   The conversation ends.
 -   The agent uses the summarize quick action in Agent Chat.
--   The user selects chat summarization or enters summarize chat in the Ask Now Assist field on the Now Assist panel.
+-   The user selects chat summarization or enters summarize chat in the Ask AI field on the ServiceNow Otto panel.
 -   A live agent transfers an interaction to a different live agent.
 
-    When an interaction is transferred from a Virtual Agent to a live agent and is at least six lines long, the chat summarization displays in a summary card in the conversation and populates the interaction's summarization and short description fields.
+    When an interaction is transferred from a Virtual Agent to a live agent and is at least six lines long, the chat summarization displays in a summary card. The summarization also populates the interaction's summarization and short description fields.
 
 
 ## Procedure
 
-1.  Navigate to **Admin &gt; Now Assist Admin &gt; Now Assist Skills**.
+1.  Navigate to **Admin &gt; AI Admin Hub &gt; AI Skills**.
 
 2.  Select the **Customer** workflow, and **CSM** as the product.
 
@@ -162,14 +162,14 @@ Input fields
 
     -   If no changes are made, the default roles sn\_customerservice\_agent and sn\_customerservice.consumer\_agent will automatically appear in **Define Access** and **Select Display**.
     -   If custom roles were added before the upgrade, they’ll be updated automatically by a script.
-    -   If new roles are created after the upgrade, you’ll need to manually add them in both the **Define Access** and **Select Display**.
+    -   If new roles are created after the upgrade, you must manually add them in both the **Define Access** and **Select Display**.
 
-        **Note:** In the **Select Display** step, you can only choose roles that were added in the **Define Access** step. If you add a role in **Define Access**, you still need to manually select it in **Select Display** to make it active.
+        **Note:** In the **Select Display** step, you can only choose roles that were added in the **Define Access** step. If you add a role in **Define Access**, you still must manually select it in **Select Display** to make it active.
 
 8.  Select **Display** to determine where the resolution notes appear.
 
-    -   Select **In-product desktop** to display Now Assist skills on forms and workspaces.
-    -   Select **Now Assist panel** to display Now Assist skills in the Now Assist panel.
+    -   Select **In-product desktop** to display AI skills on forms and workspaces.
+    -   Select the ServiceNow Otto panel to display AI skills in the panel.
 9.  After selecting **Review and Activate** to examine changes, select **Done** to close the Chat Summarization generation settings.
 
 10. Select **Skill** to turn on the skill for agents and complete the configuration.

@@ -105,7 +105,7 @@ Use the Current Scores section to have a direct check on the sysevent table and 
 |Total Processing|Total events that are processing|
 |Total Processed|Total events that are already processed|
 |Total Error|Total errors in the events|
-|Total Transferred|Total events that have been transferred from one chart to the next|
+|Total Transferred|Total events transferred from previous shard to the current shard|
 
 ## Scores-Trends
 

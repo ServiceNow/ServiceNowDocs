@@ -183,6 +183,13 @@ When the CSDM \(csdm.lifecycle.migration.activated\) plugin is activated on your
     The **sn\_itam\_common.mac\_address\_sync** system property enables you to synchronize asset and CI using the Mac address. By default, this system property is set to **false**. To enable synchronization through the Mac address, set the value of this system property to **true** in the Asset Property \[asset\_property\] table.
 
 
+## Asset read access system property
+
+-   **sn\_itam\_restrict\_asset\_read**
+
+    The **sn\_itam\_restrict\_asset\_read** system property controls read access to the Asset \(alm\_asset\) table and its child tables for users with only the snc\_internal role. When set to **true**, these users can only read asset records assigned to them or where they are referenced in fields such as Reserved for, Managed by, or Owned by. Users with any additional role retain full read access. By default, this system property is set to **False**.
+
+
 ## CMDB success advisor for HAM
 
 Use CMDB success advisor for Hardware Asset Management \(HAM\) to monitor and improve hardware asset data quality in the CMDB. The advisor dashboard provides insights into data coverage, attribute completeness, and recommended data integrations for your hardware asset model categories. For more information, see [Using CMDB success advisor for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/cmdb-sa-ham-use.md).

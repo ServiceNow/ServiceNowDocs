@@ -242,7 +242,7 @@ A collective sourcing activity managing multi-supplier and multi-product negotia
 
 AI models enhancing the Virtual Agent's ability to understand and respond to user queries naturally.
 
-### Now Assist for SPO
+### ServiceNow Otto for SPO
 
 An application that uses generative AI to summarize procurement-related records and facilitate conversational procurement tasks.
 
@@ -332,7 +332,7 @@ A supplier's proposal including pricing, terms, delivery timeline, and other com
 
 ### record summarization
 
-A feature of Now Assist for SPO that provides a concise overview, actions completed, and next steps for procurement records.
+A feature of ServiceNow Otto for SPO that provides a concise overview, actions completed, and next steps for procurement records.
 
 ### related case
 

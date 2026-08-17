@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-06-04"
 reading_time_minutes: 1
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Use, Now Assist for Order Management]
+breadcrumb: [Use, ServiceNow Otto for Order Management]
 ---
 
 # View customer context for an order exception chat
@@ -17,7 +17,7 @@ View the customer's account and contact details on the interaction record and th
 
 ## Before you begin
 
-Chat Summarization must be configured by your admin to enable the AI summarization and recommendation features in Active Chat. For more information, see .
+Chat Summarization must be configured by your admin to enable the AI summarization and recommendation features in Active Chat. For more information, see [Configure chat summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/configure-chat-summarization-in-now-assist_0.md).
 
 Role required: sn\_order\_case.order\_agent, awa\_agent, and now\_assist\_panel\_user
 
@@ -42,10 +42,10 @@ When a customer's chat for an order exception is escalated to a live agent, the 
 3.  Review the AI-generated chat summary in the Active Chat panel to understand the customer's request and what the order exception AI agent has done so far.
 
 
-**Parent Topic:**[Using Now Assist for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/now-assist-order-management-using.md)
+**Parent Topic:**[Using ServiceNow Otto for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/now-assist-order-management-using.md)
 
 **Related topics**  
 
 
-[bundle-csm.csm-case-mgmt-order-ops]
+[Order Operations Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/csm-case-mgmt-order-ops.md)
 

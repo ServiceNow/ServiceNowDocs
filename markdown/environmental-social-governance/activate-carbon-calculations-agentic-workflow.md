@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2025-11-18"
 reading_time_minutes: 3
-breadcrumb: [Configure, Now Assist for Operational Sustainability, Use, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Configure, ServiceNow Otto, Use, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
 # Activate the carbon calculations agentic workflow
@@ -16,7 +16,7 @@ Activate and configure the carbon calculation agentic workflow that uses AI agen
 
 ## Before you begin
 
-Install the Now Assist for Operational Sustainability plugin \(sn\_esg\_gen\_ai\).
+Install the ServiceNow Otto for Operational Sustainability plugin \(sn\_esg\_gen\_ai\).
 
 Attach the Calculation Guidance document to the relevant record in the Emission Calculation Guidelines table. For further details, refer to [Attaching calculation guidance document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/attaching-calculation-guidance-document.md).
 
@@ -73,7 +73,7 @@ Verify that the executive summary and recommendations are generated. If activati
 
 After you’ve confirmed the workflow is functioning as expected, you can select the Ask Now Assist action menu and enter your prompt.
 
-If you haven't already set up the Now Assist panel, for more information see, [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/activate-now-assist-panel.md).
+If you haven't already set up the Now Assist panel, for more information see, [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
 -   **[Activate calculation creation AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/activate-calculation-creation-ai-agent.md)**  
 The calculation creation AI agent creates a calculated metric definition record using the formula passed in the input.
@@ -82,5 +82,5 @@ The calculation operand AI agent CMD identifies and retrieves relevant metric de
 -   **[Attaching calculation guidance document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/attaching-calculation-guidance-document.md)**  
 Attach the Calculation Guidance PDF to the designated emission calculation guidelines table record to enable the carbon calculations agentic workflow. The agent relies on this document to extract calculation methods, formulas, and category details for automated metric definition creation.
 
-**Parent Topic:**[Configure Now Assist for Operational Sustainability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/configure-now-assist-for-esg.md)
+**Parent Topic:**[Configure ServiceNow Otto for Operational Sustainability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/configure-now-assist-for-esg.md)
 

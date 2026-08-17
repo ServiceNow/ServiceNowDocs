@@ -9,7 +9,7 @@ classification: now-assist-for-financial-services-operations-fso
 topic_type: task
 last_updated: "2025-10-27"
 reading_time_minutes: 1
-breadcrumb: [Resolve ACH disputes with AI agents, AI agents in FSO, Use agentic AI, Now Assist for FSO, Financial Services Operations \(FSO\)]
+breadcrumb: [Resolve ACH disputes with AI agents, AI agents in FSO, Use agentic AI, ServiceNow Otto for FSO, Financial Services Operations \(FSO\)]
 ---
 
 # Dispute communication AI agent

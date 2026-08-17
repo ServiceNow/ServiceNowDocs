@@ -1,6 +1,6 @@
 ---
 title: Evaluate a prompt
-description: Use the Now Assist Skill Kit evaluation tools to evaluate the effectiveness of your skill prompts.
+description: Use the AI Skill Kit evaluation tools to evaluate the effectiveness of your skill prompts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/now-assist-skill-kit/evaluate-prompt.html
 release: zurich
@@ -9,12 +9,12 @@ classification: now-assist-skill-kit
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Using Now Assist Skill Kit, Now Assist Skill Kit, Enable AI experiences]
+breadcrumb: [Using AI Skill Kit, AI Skill Kit, Enable AI experiences]
 ---
 
 # Evaluate a prompt
 
-Use the Now Assist Skill Kit evaluation tools to evaluate the effectiveness of your skill prompts.
+Use the AI Skill Kit evaluation tools to evaluate the effectiveness of your skill prompts.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: sn\_skill\_builder.admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Skill Kit** &gt; **Home**.
+1.  Navigate to **All** &gt; **AI Skill Kit** &gt; **Home**.
 
 2.  Select the skill that you want to evaluate.
 
@@ -64,7 +64,7 @@ Create a dataset from a data collection
 
 1.  Give the dataset a name and description.
 2.  Select Data Collection.
-3.  Select a data collection that you created in Now Assist Data Kit.
+3.  Select a data collection that you created in AI Data Kit.
 4.  Select **Generate Preview**.
 5.  Select the mappings.
 6.  Select **Create**.
@@ -113,7 +113,7 @@ Create a dataset from a data collection
     5.  Add more information and select **Submit**.
 
 
-**Parent Topic:**[Using Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skill-kit/using-now-assist-skill-kit.md)
+**Parent Topic:**[Using AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skill-kit/using-now-assist-skill-kit.md)
 
 **Related topics**  
 

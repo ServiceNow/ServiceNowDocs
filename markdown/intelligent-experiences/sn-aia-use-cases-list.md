@@ -1,19 +1,19 @@
 ---
-title: Now Assist agentic workflows
-description: You can customize Now Assist agentic workflows to meet the needs of your users in different workflows. For example, you can use agentic AI to help resolve tasks, execute routine but variable procedures, and investigate root causes or analytical trends.
+title: Agentic workflows
+description: You can customize agentic workflows to meet the needs of your users in different workflows. For example, you can use agentic AI to help resolve tasks, execute routine but variable procedures, and investigate root causes or analytical trends.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/sn-aia-use-cases-list.html
 release: zurich
 topic_type: concept
-last_updated: "2026-07-06"
+last_updated: "2026-08-03"
 reading_time_minutes: 5
 keywords: [AI Agents, Agentic AI]
-breadcrumb: [Now Assist AI assets, Enable AI experiences]
+breadcrumb: [AI assets, Enable AI experiences]
 ---
 
-# Now Assist agentic workflows
+# Agentic workflows
 
-You can customize Now Assist agentic workflows to meet the needs of your users in different workflows. For example, you can use agentic AI to help resolve tasks, execute routine but variable procedures, and investigate root causes or analytical trends.
+You can customize agentic workflows to meet the needs of your users in different workflows. For example, you can use agentic AI to help resolve tasks, execute routine but variable procedures, and investigate root causes or analytical trends.
 
 ## Agentic workflows overview
 
@@ -23,7 +23,7 @@ For more information about the in-product agentic AI experience, see [In-product
 
 ## Workflow and product agentic workflows
 
-The following table describes the available AI agents agentic workflows that are included in Now Assist applications.
+The following table describes the available AI agents agentic workflows that are included in the ServiceNow AI Platform applications.
 
 <table id="table_tw1_t4n_g2c"><thead><tr><th class="filter">
 
@@ -35,7 +35,7 @@ Available agentic workflows
 
 </th></tr></thead><tbody><tr><td>
 
-[Now Assist for Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/now-assist-landing-cmdb.md)
+[ServiceNow Otto for Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/now-assist-landing-cmdb.md)
 
 </td><td>
 
@@ -54,15 +54,15 @@ Available agentic workflows
 
 </td></tr><tr><td>
 
-[Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/now-assist-for-creator-landing.md)
+[ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/now-assist-for-creator-landing.md)
 
 </td><td>
 
-[Create a theme using Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/create-theme-now-assist.md)
+[Create a theme using ServiceNow Otto®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/create-theme-now-assist.md)
 
 </td></tr><tr><td>
 
-[Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/now-assist-csm.md)
+[ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/now-assist-csm.md)
 
 </td><td>
 
@@ -73,7 +73,7 @@ Available agentic workflows
 
 </td></tr><tr><td>
 
-[Now Assist for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/now-assist-ea.md)
+[ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/now-assist-ea.md)
 
 </td><td>
 
@@ -81,7 +81,7 @@ Available agentic workflows
 
 </td></tr><tr><td>
 
-[Now Assist for Operational Sustainability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/environmental-social-governance/now-assist-for-esg.md)
+[ServiceNow Otto for Operational Sustainability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/environmental-social-governance/now-assist-for-esg.md)
 
 </td><td>
 
@@ -89,7 +89,7 @@ Available agentic workflows
 
 </td></tr><tr><td>
 
-[Now Assist for Field Service Management \(FSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/field-service-management/now-assist-fsm.md)
+[ServiceNow Otto for Field Service Management \(FSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/field-service-management/now-assist-fsm.md)
 
 </td><td>
 
@@ -105,7 +105,7 @@ Available agentic workflows
 
 </td></tr><tr><td>
 
-[Now Assist for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/financial-services-operations/now-assist-for-financial-services-operations.md)
+[ServiceNow Otto for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/financial-services-operations/now-assist-for-financial-services-operations.md)
 
 </td><td>
 
@@ -113,7 +113,7 @@ Available agentic workflows
 
 </td></tr><tr><td>
 
-[Now Assist for Hardware Asset Management \(HAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/now-assist-ham.md)
+[ServiceNow Otto for Hardware Asset Management \(HAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/now-assist-ham.md)
 
 </td><td>
 
@@ -122,7 +122,7 @@ Available agentic workflows
 
 </td></tr><tr><td>
 
-[Now Assist for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/now-assist-hs-landing.md)
+[ServiceNow Otto for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/now-assist-hs-landing.md)
 
 </td><td>
 
@@ -132,7 +132,7 @@ Available agentic workflows
 
 </td></tr><tr><td>
 
-[Now Assist for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/now-assist-hrsd.md)
+[ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/now-assist-hrsd.md)
 
 </td><td>
 
@@ -148,7 +148,7 @@ Available agentic workflows
 
 </td></tr><tr><td>
 
-[Now Assist for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/now-assist-for-irm.md)
+[ServiceNow Otto for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/now-assist-for-irm.md)
 
 </td><td>
 
@@ -159,7 +159,7 @@ Available agentic workflows
 
 </td></tr><tr><td>
 
-[Now Assist for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/now-assist-itom.md)
+[ServiceNow Otto for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/now-assist-itom.md)
 
 </td><td>
 
@@ -171,7 +171,7 @@ Available agentic workflows
 
 </td></tr><tr><td>
 
-[Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/now-assist-itsm.md)
+[ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/now-assist-itsm.md)
 
 </td><td>
 
@@ -195,7 +195,7 @@ Available agentic workflows
 
 </td></tr><tr><td>
 
-[Now Assist for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/now-assist-lsd-landing.md)
+[ServiceNow Otto for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/now-assist-lsd-landing.md)
 
 </td><td>
 
@@ -204,7 +204,7 @@ Available agentic workflows
 
 </td></tr><tr><td>
 
-[Now Assist for Manufacturing Commercial Operations \(MCO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/manufacturing/now-assist-for-MCO.md)
+[ServiceNow Otto for Manufacturing Commercial Operations \(MCO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/manufacturing/now-assist-for-MCO.md)
 
 </td><td>
 
@@ -212,7 +212,7 @@ Available agentic workflows
 
 </td></tr><tr><td>
 
-[Now Assist for Operational Technology Manager \(OTM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/operational-technology/now-assist-for-otm-landing.md)
+[Operational Technology \(OT\) Manager Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/operational-technology/now-assist-for-otm-landing.md)
 
 </td><td>
 
@@ -244,7 +244,7 @@ Available agentic workflows
 
 </td></tr><tr><td>
 
-[Now Assist for Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/government-industry/now-assist-for-psds.md)
+ServiceNow Otto for Public Sector Digital Services \(PSDS\)
 
 </td><td>
 
@@ -261,7 +261,7 @@ Help manage public information requests
 
 </td></tr><tr><td>
 
-[Now Assist for Sales Force Automation \(SFA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/order-management/now-assist-for-sales-and-order-management-som.md)
+[ServiceNow Otto for Sales Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/order-management/now-assist-for-sales-and-order-management-som.md)
 
 </td><td>
 
@@ -269,7 +269,7 @@ Help manage public information requests
 
 </td></tr><tr><td>
 
-[Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/now-assist-security-incident-landing.md)
+[ServiceNow Otto for Security Incident Response \(SIR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/now-assist-security-incident-landing.md)
 
 </td><td>
 
@@ -280,7 +280,7 @@ Help manage public information requests
 
 </td></tr><tr><td>
 
-[Now Assist for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/now-assist-sam.md)
+[ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/now-assist-sam.md)
 
 </td><td>
 
@@ -290,7 +290,7 @@ Help manage public information requests
 
 </td></tr><tr><td>
 
-[Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/now-assist-spm.md)
+[ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/now-assist-spm.md)
 
 </td><td>
 
@@ -299,7 +299,7 @@ Help manage public information requests
 
 </td></tr><tr><td>
 
-[Now Assist for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/source-to-pay-operations/now-assist-slo.md)
+[ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/source-to-pay-operations/now-assist-slo.md)
 
 </td><td>
 
@@ -307,7 +307,7 @@ Help manage public information requests
 
 </td></tr><tr><td>
 
-[Now Assist for Telecommunications, Media and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/telecom-media-technology/now-assist-spmc.md)
+[ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/telecom-media-technology/now-assist-spmc.md)
 
 </td><td>
 
@@ -323,7 +323,7 @@ Help manage public information requests
 
 </td></tr><tr><td>
 
-[Now Assist for Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/now-assist-for-vulnerability-response-landing.md)
+[Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/vuln-landing-page.md)
 
 </td><td>
 
@@ -334,7 +334,7 @@ Help manage public information requests
 
 </td></tr><tr><td>
 
-[Now Assist for Workplace Service Delivery \(WSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/now-assist-wsd-landing.md)
+[ServiceNow Otto for Workplace Service Delivery \(WSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/now-assist-wsd-landing.md)
 
 </td><td>
 

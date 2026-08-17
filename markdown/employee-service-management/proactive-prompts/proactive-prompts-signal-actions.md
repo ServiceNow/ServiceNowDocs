@@ -62,7 +62,7 @@ VA topic
 
 </td><td>
 
-The relevant Virtual Agent topic for the signal action. For more information on creating a Virtual Agent topic, see [Create a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/create-virtual-agent-topic.md). For information on publishing the topics, see [Publish a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/publish-virtual-agent-topic.md).
+The relevant Virtual Agent topic for the signal action. For more information on creating a Virtual Agent topic, see . For information on publishing the topics, see .
 
 </td></tr><tr><td>
 

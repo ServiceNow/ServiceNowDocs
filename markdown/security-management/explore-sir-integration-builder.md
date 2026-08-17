@@ -1,11 +1,11 @@
 ---
 title: Explore SIR Integration Builder
-description: With the rapid evolution of security products, integrating new tools quickly is essential for effective use. SIR Integration Builder offers a guided integration experience by simplifying the workflow and reducing complexity for users.
+description: SIR Integration Builder offers a guided experience to efficiently integrate new tools through a simplified workflow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/explore-sir-integration-builder.html
 release: zurich
 topic_type: concept
-last_updated: "2025-11-12"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [SIR Integration Builder]
 breadcrumb: [LLM-powered SIR integration builder, Security Operations]
@@ -13,32 +13,32 @@ breadcrumb: [LLM-powered SIR integration builder, Security Operations]
 
 # Explore SIR Integration Builder
 
-With the rapid evolution of security products, integrating new tools quickly is essential for effective use. SIR Integration Builder offers a guided integration experience by simplifying the workflow and reducing complexity for users.
+SIR Integration Builder offers a guided experience to efficiently integrate new tools through a simplified workflow.
 
-The ability to integrate tools and platforms into the SOAR platform efficiently is critical for operational resilience. Traditional integrations often require weeks or months of manual coding and coordination, leading to delays and increased costs. The integration builder addresses these challenges by streamlining the process and minimizing manual effort.
+SIR integration builder streamlines the process of integrating tools and platforms into the SOAR platform, minimizing manual effort.
 
 ## Benefits
 
-The following are the benefits of SIR Integration Builder:
+The benefits of SIR Integration Builder are:
 
--   Automatically generates integration code from the third-party tool’s public API documentation
--   Guided setup built on existing capabilities
+-   Automatically generates integration code from a third-party tool’s public API documentation
+-   Provides a guided setup built on existing capabilities
 -   Easy editing and maintenance of auto-generated code
 
 ## Prerequisites
 
-The following are the prerequisites for SIR Integration Builder:
+The applications must be installed.
 
 -   Security Incident Response
--   Now Assist for Spoke Generation
--   Now Assist for code generation
+-   ServiceNow Otto for Security Incident Response \(SIR\) integration Toolkit for Spoke Generation
+-   ServiceNow Otto for Security Incident Response \(SIR\) integration Toolkit integration Toolkit for code generation
 
-**Note:** Enable Spoke Generation and Code Assist Generation skills from the Now Assist Admin page.
+**Note:** Enable Spoke Generation and Code Assist Generation skills from the ServiceNow Otto® Admin page.
 
 ## License requirements
 
 The following licenses are required for accessing SIR Integration Builder:
 
--   Now Assist for Creator
+-   ServiceNow Otto for Security Incident Response \(SIR\) integration Toolkit for Creator
 -   Security Incident Response Pro Plus
 

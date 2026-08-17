@@ -7,9 +7,9 @@ release: zurich
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Manage Projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Manage projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Export a project from Project Workspace
@@ -17,6 +17,8 @@ breadcrumb: [Manage Projects, Project Workspace, Project Portfolio Management, S
 Export your project as a file from Project Workspace. Use this file to provide project updates to external stakeholders or a wider audience. Save time by generating an export file with the latest information and avoid copying information into different files.
 
 ## Before you begin
+
+**Note:** Export to PowerPoint is available only in the GCC, NSC, SPP-AU, SPP-SG, and Australia IRAP-Protected data center environments.
 
 For Microsoft PowerPoint:
 
@@ -35,9 +37,9 @@ Exporting the project is beneficial if your stakeholders prefer a file rather th
 
 ## Procedure
 
-1.  Open a project from the planning page of Project Workspace.
+1.  Open a project from the home page of Project Workspace.
 
-    For information on how to navigate to the planning page, see [Access Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/access-new-project-workspace.md).
+    For information, see [Access the Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/access-new-project-workspace.md).
 
 2.  From the More actions menu \(\[Omitted image "more\_options\_icon.png"\] Alt text: More actions menu icon.\), select **Export project**.
 

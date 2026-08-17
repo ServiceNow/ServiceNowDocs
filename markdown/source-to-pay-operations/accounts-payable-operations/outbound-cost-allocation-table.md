@@ -64,3 +64,5 @@ The following table lists fields for the outbound cost allocation \[sn\_spend\_i
 
 [Approval Plan form]()
 
+[Jurisdictions main table]()
+

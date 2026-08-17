@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-incidentmanagement-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 9
 breadcrumb: [Products combined by family]
 ---
@@ -83,7 +83,7 @@ Yokohama
 
 </td><td>
 
--   **[User role for service desk agents](https://servicenow-staging.fluidtopics.net/access?context=inci-roles-instld-itsm-roles&family=yokohama&ft:locale=en-US)**
+-   **[User role for service desk agents](https://www.servicenow.com/docs/access?context=inci-roles-instld-itsm-roles&family=yokohama&ft:locale=en-US)**
 
 With the sn\_service\_desk\_agent user role, increase the operational efficiency by streamlining the process of asking about, gathering, and verifying information, as well as delivering quick resolutions. This role is designed for tier 1 service desk agents and is accessible when the ITSM Roles plugin \(com.snc.itsm.roles\) installed.
 
@@ -98,7 +98,7 @@ Additionally, with the installation of the ITSM Gen AI \(com.sn.itsm.gen.ai\) pl
 
 The sn\_service\_desk\_agent role can be used starting with SOW version 6.1.
 
--   **[Enhanced security model adoption for incident tables](https://servicenow-staging.fluidtopics.net/access?context=activate-itsm-enhanced-security-inci-mangmnt&family=yokohama&ft:locale=en-US)**
+-   **[Enhanced security model adoption for incident tables](https://www.servicenow.com/docs/access?context=activate-itsm-enhanced-security-inci-mangmnt&family=yokohama&ft:locale=en-US)**
 
 Help prevent unauthorized access to incident-related tables using Deny-Unless ACLs. A Deny-Unless authentication ACL restricts access for a non-authenticated user, such as a public role user. Without access, the user can't perform any actions on incident-related tables, including reading, writing, deleting, creating, or accessing the report view.
 
@@ -114,7 +114,7 @@ Additionally, this feature is available on the following incident-related tables
     -   task outage
 The ITSM Enhanced Security Features \(com.snc.itsm.enhanced\_security\) plugin can be installed and activated by an admin via a support request. Existing or upgrade users must test and evaluate the results in their non-production instance, and then install the plugin and implement the security change in their production instance.
 
-For more information, see [Deny-Unless ACL](https://servicenow-staging.fluidtopics.net/access?context=acl-denial-behavior&family=yokohama&ft:locale=en-US).
+For more information, see [Deny-Unless ACL](https://www.servicenow.com/docs/access?context=acl-denial-behavior&family=yokohama&ft:locale=en-US).
 
 
 </td></tr><tr><td>
@@ -144,7 +144,7 @@ Xanadu
 
 </td><td>
 
--   **[Email notification link redirection behavior](https://servicenow-staging.fluidtopics.net/access?context=t_ViewIncidentNotification&family=xanadu&ft:locale=en-US)**
+-   **[Email notification link redirection behavior](https://www.servicenow.com/docs/access?context=t_ViewIncidentNotification&family=xanadu&ft:locale=en-US)**
 
 In email notifications, you can now decide where the links to an incident record are redirected. Instead of an incident record automatically opening in the classic UI16 interface in Incident Management, the incident record can be opened in SOW. The incident record link in an email notification opens in SOW only if the following conditions are met:
 
@@ -161,7 +161,7 @@ Yokohama
 
 </td><td>
 
--   **[Email redirection behavior for major incident email notification links](https://servicenow-staging.fluidtopics.net/access?context=email-notif-redirt-inci-major-inci&family=yokohama&ft:locale=en-US)**
+-   **[Email redirection behavior for major incident email notification links](https://www.servicenow.com/docs/access?context=email-notif-redirt-inci-major-inci&family=yokohama&ft:locale=en-US)**
 
 In major incident email notifications, you can now decide where the links to a major incident record are redirected. Instead of a major incident record automatically opening in the classic UI16 interface in Major Incident Management, the record can be opened in SOW. The major incident record link in an email notification opens in SOW only if the following conditions are met:
 
@@ -170,7 +170,7 @@ In major incident email notifications, you can now decide where the links to a m
     -   You have the sn\_sow\_user role.
 The ITSM Notifications Redirection \(com.snc.itsm.notifications\_redirection\) plugin is installed and activated automatically to support this behavior.
 
--   **[Email redirection behavior for incident email notification links](https://servicenow-staging.fluidtopics.net/access?context=email-notif-redirt-inci-major-inci&family=yokohama&ft:locale=en-US)**
+-   **[Email redirection behavior for incident email notification links](https://www.servicenow.com/docs/access?context=email-notif-redirt-inci-major-inci&family=yokohama&ft:locale=en-US)**
 
 In incident email notifications, you can now decide where the links to an incident record are redirected. Instead of an incident record automatically opening in the classic UI16 interface in Incident Management, the record can be opened in SOW. The incident record link in an email notification opens in SOW only if you have the sn\_sow\_user role and any of the following conditions are met:
 
@@ -180,19 +180,19 @@ The ITSM Notifications Redirection \(com.snc.itsm.notifications\_redirection\) p
 
 To ensure consistency, the email notification templates for incident tasks are also updated to send the notification from Service Operations Workspace \(SOW\) in the same format as sent from classic UI16 interface similar to incident. Also, the template theme is updated to match the Next Experience theme.
 
--   **[Incident and problem workflow changes](https://servicenow-staging.fluidtopics.net/access?context=incident-management-properties&family=yokohama&ft:locale=en-US)**
+-   **[Incident and problem workflow changes](https://www.servicenow.com/docs/access?context=incident-management-properties&family=yokohama&ft:locale=en-US)**
 
 When a problem is fixed and the **Share fix** option is triggered, the event is added to the **Work notes \(Private\)** field instead of the **Additional comments \(Customer visible\)** field for the incident associated with the problem record.
 
 This feature is available in the base system for the new customers. For existing or upgrade customers, admin must set the **Communicate problem workaround to incident worknotes** \(**com.snc.incident.communicate\_prb\_workaround\_to\_inc\_worknotes**\) system property to `true` to enable the feature.
 
--   **[Changes in the reopening incident behavior](https://servicenow-staging.fluidtopics.net/access?context=reopening-incident&family=yokohama&ft:locale=en-US)**
+-   **[Changes in the reopening incident behavior](https://www.servicenow.com/docs/access?context=reopening-incident&family=yokohama&ft:locale=en-US)**
 
 Enable the agents with incident write access, callers, requesters, or **Opened by** end users to reopen a resolved incident. Both the caller and the requester can view and use the **Reopen** option on the incident classic UI16 form and the Portal UIs, such as Service Portal and Employee Service Center \(ESC\) portal.
 
 An agent can view and use the **Reopen** option on the incident classic UI16 form to reopen any incident that is assigned to them or to other agents. However, on the Portal UI, an agent can only view and use the **Reopen** option to reopen an incident if it’s assigned to them.
 
--   **[Sorting CIs in incident forms](https://servicenow-staging.fluidtopics.net/access?context=create-an-incident&family=yokohama&ft:locale=en-US)**
+-   **[Sorting CIs in incident forms](https://www.servicenow.com/docs/access?context=create-an-incident&family=yokohama&ft:locale=en-US)**
 
 The search performance of the available CIs for the **Configuration item** field on an incident form is enhanced to promote a clean UI and quick loading and sorting of the CIs. The search results that list the CIs are sorted alphabetically by CI name instead of by CI class and then CI name. The **ref\_ac\_order\_by=sys\_class\_name** attribute is removed from the default attributes on the **cmdb\_ci** field of the Task \[task\] table, which increases the performance of the field.
 
@@ -205,11 +205,11 @@ Zurich
 
 </td><td>
 
--   **[Incident task record behavior changes](https://servicenow-staging.fluidtopics.net/access?context=create-incident-task&family=zurich&ft:locale=en-US)**
+-   **[Incident task record behavior changes](https://www.servicenow.com/docs/access?context=create-incident-task&family=zurich&ft:locale=en-US)**
 
 When an incident task is closed, you can no longer edit the field values in the incident task form. Disabling the fields helps prevent any further updates or modifications to closed incident tasks, reducing audit risks.
 
--   **[Incident and problem workflow changes](https://servicenow-staging.fluidtopics.net/access?context=working-incident-record-form&family=zurich&ft:locale=en-US)**
+-   **[Incident and problem workflow changes](https://www.servicenow.com/docs/access?context=working-incident-record-form&family=zurich&ft:locale=en-US)**
 
 When a problem record is linked to an incident or multiple incidents, the incident and problem workflow has the following enhancements:
 
@@ -496,7 +496,7 @@ Xanadu
 
 Control when an incident record link in the email notifications redirects to the incident record in Service Operations Workspace \(SOW\).
 
- See [Incident Management](https://servicenow-staging.fluidtopics.net/access?context=c_IncidentManagement&family=xanadu&ft:locale=en-US) for more information.
+ See [Incident Management](https://www.servicenow.com/docs/access?context=c_IncidentManagement&family=xanadu&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -510,7 +510,7 @@ Yokohama
 -   Restrict unauthorized access to incident-related tables using deny ACLs.
 -   Search for a configuration item \(CI\) in a list alphabetized by the CI name with an improved search performance.
 
- See [Incident Management](https://servicenow-staging.fluidtopics.net/access?context=c_IncidentManagement&family=yokohama&ft:locale=en-US) for more information.
+ See [Incident Management](https://www.servicenow.com/docs/access?context=c_IncidentManagement&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -522,7 +522,7 @@ Zurich
 -   Manage and resolve incidents effectively with the incident and problem workflow enhancements.
 -   Coral is the new default theme for Next Experience and Core UI, offering a more user-friendly experience.
 
- See [Incident Management](https://servicenow-staging.fluidtopics.net/access?context=c_IncidentManagement&family=zurich&ft:locale=en-US) for more information.
+ See [Incident Management](https://www.servicenow.com/docs/access?context=c_IncidentManagement&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/rn-combined-intro.md)

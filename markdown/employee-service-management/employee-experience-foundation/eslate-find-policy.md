@@ -19,7 +19,7 @@ Use the chat to get direct answers to policy and procedural questions, with cita
 
 ## Before you begin
 
-A conversational assistant — either Moveworks or Now Assist Chat — is configured on the instance.
+A ServiceNow Otto or Now Assist chat conversational assistant is configured on the instance.
 
 The knowledge articles that cover the policy are published and visible to your user criteria.
 
@@ -31,9 +31,7 @@ The chat returns direct answers to policy and procedural questions and includes 
 
 ## Procedure
 
-1.  In the chat, enter a policy or procedural question in plain language.
-
-    For example, enter `What is the relocation policy to Texas?`.
+1.  In the chat, enter a policy or procedural question in plain language, such as `What is the relocation policy to Texas?`
 
     The chat returns a direct answer drawn from the relevant knowledge articles.
 
@@ -45,9 +43,7 @@ The chat returns direct answers to policy and procedural questions and includes 
 
     The article opens in the content panel with full content, attachments, and inline feedback controls.
 
-4.  Enter a follow-up question about the article content.
-
-    For example, enter `Does the relocation policy cover attorney fees?`.
+4.  Enter a follow-up question about the article content, such as `Does the relocation policy cover attorney fees?`
 
     The chat returns an answer drawn from the same article.
 

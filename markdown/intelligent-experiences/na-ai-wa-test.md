@@ -1,5 +1,5 @@
 ---
-title: Test an AI agent or agentic workflow for adaptive desktop actions
+title: Test AI agent or agentic workflow
 description: Test an AI agent or agentic workflow that uses adaptive desktop actions in AI Agent Studio to evaluate its performance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/na-ai-wa-test.html
@@ -10,7 +10,7 @@ reading_time_minutes: 7
 breadcrumb: [Add adaptive desktop action for web, Create AI agents, AI Desktop Actions, Enable AI experiences]
 ---
 
-# Test an AI agent or agentic workflow for adaptive desktop actions
+# Test AI agent or agentic workflow
 
 Test an AI agent or agentic workflow that uses adaptive desktop actions in AI Agent Studio to evaluate its performance.
 
@@ -18,13 +18,13 @@ Test an AI agent or agentic workflow that uses adaptive desktop actions in AI Ag
 
 -   Confirm that the **ServiceNow Web Automation** Google Chrome extension is installed and connected to your ServiceNow® instance. For more information, see [Install the Google Chrome extension for adaptive desktop actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/na-ai-wa-install-browser-extension.md).
 -   Confirm that you're logged in to your ServiceNow instance and it is in the active state in the browser window.
--   Verify that enhanced chat is available in Now Assist panel. The Web view pane is available only when enhanced chat is enabled. For more information see [Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-panel-enhanced.md).
+-   Verify that enhanced chat is available in ServiceNow Otto panel. The Web view pane is available only when enhanced chat is enabled. For more information see [Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-panel-enhanced.md).
 -   The AI agent checks its access to the internet by first opening the main Google website. If you have implemented an allow list, verify that google.com is allowed. For more information, see [Configure allowed websites for adaptive desktop actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/na-ai-wa-configure-allowed-websites.md).
 -   Role required: sn\_aia.admin
 
 ## About this task
 
-As an AI agent admin, you can run manual tests of AI agents and agentic workflows in the AI Agent Studio by providing a task or request in the testing module. Testing includes the user experience as seen in Now Assist panel, plus extra information for administrators. This information is provided in a split view in the Node map view:
+As an AI agent admin, you can run manual tests of AI agents and agentic workflows in the AI Agent Studio by providing a task or request in the testing module. Testing includes the user experience as seen in ServiceNow Otto panel, plus extra information for administrators. This information is provided in a split view in the Node map view:
 
 -   AI process map displays a diagram of agent orchestration.
 -   AI agent decision logs provide reports on the AI agent's reasoning as it processes your request.
@@ -35,7 +35,7 @@ When testing an AI agent or agentic workflow, you can see the AI agent Orchestra
 
 Your AI agent or agentic workflow starts to execute the test autonomously to resolve the task.
 
-\[Omitted image "ad-aia-test-playground.png"\] Alt text: Testing module showing AI process map displays a diagram of agent orchestration, AI agent decision logs, and execution plan in the chat panel.
+\[Omitted image "manual-test-1.png"\] Alt text: Testing module showing AI process map displays a diagram of agent orchestration, AI agent decision logs, and execution plan in the chat panel.
 
 Because generative AI is non-deterministic, try several test runs of a task. The AI agent's responses and results may vary from one test run to another. Your test runs are listed in the **Activity** tab of AI Agent Studio.
 
@@ -73,7 +73,7 @@ Because generative AI is non-deterministic, try several test runs of a task. The
     -   Navigate to en.wikipedia.org. On the main page of wikipedia.org, in the Search field, search for "Santa Clara, California". In the search results, open the first page listed, and read its contents. Summarize the contents of the page in 2 or 3 sentences.
 8.  Select **Continue to test chat response**.
 
-    -   A simulated chat experience begins on the Now Assist panel between your invoking user and AI agent.
+    -   A simulated chat experience begins on the ServiceNow Otto panel between your invoking user and AI agent.
     -   A diagram shows the tasks and communication of the AI agents that are working together to solve the case.
     -   A decision log records the thought process of each AI agent that is involved in solving the agentic workflow.
 
@@ -97,7 +97,7 @@ Because generative AI is non-deterministic, try several test runs of a task. The
 
     You can switch to the **Web view** tab that displays periodic screenshots of how AI agent navigates to the website and performs the requested steps.
 
-    \[Omitted image "na-ai-wa-test-web-viewZ.png"\] Alt text: The web view in the testing module displays screenshots of the target website.
+    \[Omitted image "manual-test-2.png"\] Alt text: The web view in the testing module displays screenshots of the target website.
 
 12. If a website requires a login, the AI agent prompts you in the simulated chat experience to enter your credentials.
 
@@ -108,7 +108,7 @@ Because generative AI is non-deterministic, try several test runs of a task. The
 
 When the test is finished:
 
--   The AI agent displays a summary of the outcome in the simulated chat experience. This is the outcome that is provided to your users when they are in the Now Assist panel.
+-   The AI agent displays a summary of the outcome in the simulated chat experience. This is the outcome that is provided to your users when they are in the ServiceNow Otto panel.
 -   The AI agent closes the separate browser tab to the external website.
 -   Web view automatically switches back to **Node map** view, where an **End** node is displayed in AI process map.
 -   AI agent decision logs all display **Completed**. You can review reports of the reasoning process by expanding the decision log sections.
@@ -119,7 +119,7 @@ View information about your test runs in the **Activity** tab of AI Agent Studio
 
 \[Omitted image "na-ai-wa-test-activity-tabZ.png"\] Alt text: The Activity tab of AI Agent Studio. A row in the list is displayed, showing a recent test run for a workflow associated to a web-based desktop action.
 
-Your users can access your AI agent by using Now Assist panel. For information see [Trigger an AI agent to execute adaptive path desktop actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/na-ai-wa-access-using-nap.md).
+Your users can access your AI agent by using ServiceNow Otto panel. For information see [Trigger an AI agent to execute adaptive path desktop actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/na-ai-wa-access-using-nap.md).
 
 **Related topics**  
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/email-image-filters.html
 release: zurich
 topic_type: concept
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 2
 breadcrumb: [Email properties, Configure, Email Administration, Notifications, Configure core features, Administer]
 ---

@@ -32,13 +32,13 @@ Each time a Virtual Agent conversation occurs, an interaction record captures th
 -   **[Virtual Agent scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/virtual-agent-scripts.md)**  
 Use ServiceNow® Virtual Agent script methods and variables to write chat scripts, such as response, trigger, and flow scripts. Variables can also provide context for your live support topics and conversations.
 -   **[Input data types in Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-data-types.md)**  
-You can define inputs of commonly used Glide Virtual Agent \(com.glide.cs.chatbot\) data types in Virtual Agent Designer without writing a script. Define the input data type on the Start node of a custom control or topic block.
+You can define inputs of commonly used Glide Virtual Agent \(com.glide.cs.chatbot\) data types in Assistant Designer Asset library without writing a script. Define the input data type on the Start node of a custom control or topic block.
 -   **[NLU system entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/nlu-system-entities.md)**  
 Use globally defined NLU entities to identify system information that Virtual Agent can extract from the conversation. You can define entities as "nodeless" input variables for a topic. These variables can be slot-filled from NLU service provider predictions or provided outside of the scope of the topic.
 -   **[Virtual Agent URL parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-sysparm.md)**  
 Virtual Agent provides various system parameters that admins can add to an instance URL to control how page content is rendered.
 -   **[Latency feedback in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/latency-feedback.md)**  
-The **com.glide.cs.message.processing.enabled** system property notifies requesters whenever the generative AI large language model \(LLM\) is processing their request in the Virtual Agent chat widget and Now Assist panel.
+The **com.glide.cs.message.processing.enabled** system property notifies requesters whenever the generative AI large language model \(LLM\) is processing their request in the Virtual Agent chat widget and ServiceNow Otto panel.
 
 **Parent Topic:**[Virtual Agent reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-parent-reference.md)
 

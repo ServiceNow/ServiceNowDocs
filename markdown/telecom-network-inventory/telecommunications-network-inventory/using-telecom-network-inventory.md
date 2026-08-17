@@ -63,6 +63,8 @@ Use the Design and Assign function for a network service in the Telecommunicatio
 Use the Network visualization view in the Telecommunications Network Inventory application to explore your network site details, datacenters's floor map, and network topology.
 -   **[Remote Hands Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/remote-hands-request.md)**  
 Use Remote Hands Request Management to enables customers to request services for equipment housed in your datacenter by connecting them directly with your onsite agents handling the remote hands requests.
+-   **[Access TNI data model navigator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/access-tni-data-model-navigator.md)**  
+Access TNI data model navigator to view the contextually organised CMDB CI classes into a focused, hierarchical structure relevant to telecom operations.
 
 **Parent Topic:**[Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/telecom-network-inventory.md)
 

@@ -7,10 +7,10 @@ release: zurich
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [Access Service Operations Workspace ITOM, Service Operations Workspace ITOM Home page]
-breadcrumb: [Exploring SOW for ITOM, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
+breadcrumb: [Explore, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
 ---
 
 # Service Operations Workspace for ITOM user interface
@@ -23,13 +23,13 @@ Open the workspace by navigating to **Workspaces** &gt; **Service Operations Wor
 
 ## Home page
 
-The **Overview** tab is your team's command center. It gives you a real-time snapshot of alert activity, workload distribution, and the impact AI is having on your team's performance — all in one place. Spanning four key areas — AI efficiency, team workload, alert and incident severity, and individual team member assignments — it highlights the impact AI is having on resolution speed and gives you a clear picture of where work is piling up.
+The **Overview** tab is your team's command center. It gives you a real-time snapshot of alert activity, workload distribution, and the impact AI is having on your team's performance — all in one place. Spanning four areas—AI efficiency, team workload, severity, and assignments—this reveals AI's impact on resolution speed and workflow bottlenecks.
 
 Use it to spot imbalances, track resolution speed, and see at a glance whether your team is keeping up with incoming alerts.
 
-\[Omitted image "sow-ai-specialist-dashboard-overview.png"\] Alt text: Dashboard showing alerts, workload, and MTTR metrics.
+Use the assignment group filter \(for example, em\_admin — 14 items selected\) to filter your view. If you're an evt\_admin, you can filter by groups you manage and groups you're a member of. If you're an aiops\_manager, you can filter only by groups you manage. Use the **Teammates** list to filter by teammate. \[Omitted image "sow-ai-specialist-dashboard-overview.png"\] Alt text: Dashboard showing alerts, workload, and MTTR metrics.
 
-**Note:** If you don't install the Now Assist for IT Operations Management \(ITOM\) plugin, AI-related KPIs aren't visible.
+**Note:** If you don't install the ServiceNow Otto for IT Operations Management \(ITOM\) plugin, AI-related KPIs aren't visible.
 
 ## List page
 

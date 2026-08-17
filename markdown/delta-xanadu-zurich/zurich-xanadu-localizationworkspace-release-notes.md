@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-localizationworkspace-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -91,29 +91,29 @@ Zurich
 
 </td><td>
 
--   **Guided Setups for [Configuring Localization Workspace](https://servicenow-staging.fluidtopics.net/access?context=configuring-localization-workspace&family=zurich&ft:locale=en-US)**
+-   **Guided Setups for [Configuring Localization Workspace](https://www.servicenow.com/docs/access?context=configuring-localization-workspace&family=zurich&ft:locale=en-US)**
 
 Two Guided Setups are available in the interface to assist admins with configuration of Localization Workspace. Guided Setups provide an outline and actionable steps for the configuration process. From version 2.0.2.
 
--   **[Configuration hub](https://servicenow-staging.fluidtopics.net/access?context=lw-configuration-hub&family=zurich&ft:locale=en-US)**
+-   **[Configuration hub](https://www.servicenow.com/docs/access?context=lw-configuration-hub&family=zurich&ft:locale=en-US)**
 
 Configuration Hub provides centralized access to the tables and properties often used by admins. You can update the tables and properties of dependent applications such as Dynamic Translation without leaving the Localization Workspace interface. From version 2.0.2.
 
--   **[Language Groups](https://servicenow-staging.fluidtopics.net/access?context=lw-configure-language-groups&family=zurich&ft:locale=en-US)**
+-   **[Language Groups](https://www.servicenow.com/docs/access?context=lw-configure-language-groups&family=zurich&ft:locale=en-US)**
 
 You can optionally preconfigure language groups. Your users save time and effort by selecting an available language group rather than adding each target language individually to a translation request. From version 2.0.2.
 
--   **[Bulk select or deselect for content items](https://servicenow-staging.fluidtopics.net/access?context=lw-request-translations-scope&family=zurich&ft:locale=en-US)**
+-   **[Bulk select or deselect for content items](https://www.servicenow.com/docs/access?context=lw-request-translations-scope&family=zurich&ft:locale=en-US)**
 
 When users create a translation request, Localization Workspace retrieves and displays all translatable documents for a content type. A bulk select/deselect option is available on the retrieved list to enhance efficiency. From version 2.0.2.
 
--   **[Text search for content items](https://servicenow-staging.fluidtopics.net/access?context=lw-request-translations-scope&family=zurich&ft:locale=en-US)**
+-   **[Text search for content items](https://www.servicenow.com/docs/access?context=lw-request-translations-scope&family=zurich&ft:locale=en-US)**
 
 When users create a translation request, Localization Workspace retrieves and displays translatable content items in a list. You can search for terms in the titles of content items to filter the retrieved list. From version 2.0.2.
 
--   **[Optional due date field for translation requests](https://servicenow-staging.fluidtopics.net/access?context=lw-estimate&family=zurich&ft:locale=en-US)**
+-   **[Optional due date field for translation requests](https://www.servicenow.com/docs/access?context=lw-estimate&family=zurich&ft:locale=en-US)**
 
-Your users can enter a due date when creating a translation request. Translation request due dates can be used to trigger [email notifications](https://servicenow-staging.fluidtopics.net/access?context=lw-email-notif-due-dates&family=zurich&ft:locale=en-US). From version 2.0.2.
+Your users can enter a due date when creating a translation request. Translation request due dates can be used to trigger [email notifications](https://www.servicenow.com/docs/access?context=lw-email-notif-due-dates&family=zurich&ft:locale=en-US). From version 2.0.2.
 
 
 </td></tr></tbody>
@@ -151,11 +151,11 @@ Zurich
 
 </td><td>
 
--   **[Dynamic artifact detection](https://servicenow-staging.fluidtopics.net/access?context=lw-dynamic-artifact-detection&family=zurich&ft:locale=en-US)**
+-   **[Dynamic artifact detection](https://www.servicenow.com/docs/access?context=lw-dynamic-artifact-detection&family=zurich&ft:locale=en-US)**
 
 Dynamic artifact detection enables Localization Workspace to identify all translatable content, including your custom artifacts. From version 1.1.0.
 
--   **[Status synchronization](https://servicenow-staging.fluidtopics.net/access?context=lw-status-synchronization&family=zurich&ft:locale=en-US)**
+-   **[Status synchronization](https://www.servicenow.com/docs/access?context=lw-status-synchronization&family=zurich&ft:locale=en-US)**
 
 With status synchronization, you see the same status for your translation request in Localization Workspace as you see for the corresponding project in Localization Framework \(Submitted, In progress, Complete\). From version 1.1.0.
 
@@ -460,7 +460,7 @@ Zurich
 -   Optional due dates and language groups enhance the efficiency of creating translation requests. From version 2.0.2.
 -   When selecting specific documents to translate, translation requestors can take advantage of a bulk select/deselect option as well as text search of document titles. From version 2.0.2.
 
- See [Localization Workspace](https://servicenow-staging.fluidtopics.net/access?context=localization-workspace&family=zurich&ft:locale=en-US) for more information.
+ See [Localization Workspace](https://www.servicenow.com/docs/access?context=localization-workspace&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/rn-combined-intro.md)

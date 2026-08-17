@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 13
 keywords: [Virtual Agent, designer, design, topic, control, node, Now Assist, NLU, LLM, conversation]
-breadcrumb: [Getting started with Virtual Agent Designer, Build and deploy, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Getting started with Assistant Designer Asset library, Build and deploy, Virtual Agent, Conversational Interfaces]
 ---
 
 # Designing a Virtual Agent topic
@@ -21,9 +21,9 @@ Using Virtual Agent tools and features, you can develop conversations that addre
 
 To get started more quickly, the following resources are available for Virtual Agent:
 
--   **[Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/now-assist-in-va-landing.md)**
+-   **[ServiceNow Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/now-assist-in-va-landing.md)**
 
-    Create natural-language–based conversations with Now Assist. Virtual Agent uses large language models \(LLMs\) to improve conversation experience and self-service workflow success by way of generative AI skills.
+    Create natural-language–based conversations with ServiceNow Otto. Virtual Agent uses large language models \(LLMs\) to improve conversation experience and self-service workflow success by way of generative AI skills.
 
 -   **[Pre-built Virtual Agent topics, topic blocks, and ServiceNow NLU models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/prebuilt-topics-ITSM.md)**
 
@@ -36,7 +36,7 @@ To get started more quickly, the following resources are available for Virtual A
 
 ## Getting started with conversation design
 
-Use Virtual Agent Designer controls and reusable conversational elements to create the dialogue for your conversations between Virtual Agent and the end user. Before you begin, make sure you do the following:
+Use Assistant Designer Asset library controls and reusable conversational elements to create the dialogue for your conversations between Virtual Agent and the end user. Before you begin, make sure you do the following:
 
 -   **Identify the use case for a conversation.**
 
@@ -46,32 +46,32 @@ Use Virtual Agent Designer controls and reusable conversational elements to crea
 
 -   **Determine the structure of a conversation.**
 
-    As you think about your conversation flow, identify the direct path to resolution. Then consider alternate paths where the conversation might branch, depending on the information supplied by the user. Consider how to handle each branch and whether users might loop back to an earlier point in the conversation.
+    As you think about your conversation flow, identify the direct path to resolution. Consider alternate paths where the conversation might branch, depending on information supplied by the user. Consider how to handle each branch and whether users might loop back to an earlier point in the conversation.
 
     Conversations have a beginning \(the greeting\), a middle, and an end, which may include a survey or an incident number to follow up on. In the middle, consider how the user might need to switch topics, depending on the issue.
 
-    If you're using LLM, consider whether you want to add or restrict any data collection from the user through means such as additional instructions to the LLM or customized slot-filling.
+    If you're using LLM, consider whether to add or restrict any data collection from the user through means such as additional instructions to the LLM or customized slot-filling.
 
     If you're using Natural Language Understanding \(NLU\), consider scenarios where a user might want to switch topics during a conversation session. For example, a user might want to change topics entirely. Or a user might get sidetracked and ask a question that seems out of context, maybe to engage in "small talk" with the virtual agent. Determine whether you want to let the user resume the original conversation after switching topics during the conversation.
 
-    Consider setting small talk filters to redirect user statements in LLM conversations, or creating small talk topics in both LLM and NLU/keyword conversations. For more information, see  and [Create a small talk topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-small-talk.md).
+    Consider setting small talk filters to redirect user statements in LLM conversations, or creating small talk topics in both LLM and NLU/keyword conversations. For more information, see [Configure small talk filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configure-small-talk-filters.md) and [Create a small talk topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-small-talk.md).
 
     You can also review the pre-built setup topics, conversation topics, and topic blocks \(reusable subflows that perform certain design steps and logic\). Determine whether you can use these pre-built items and consider customizing them as needed.
 
--   **Understand the design process in Virtual Agent Designer**
+-   **Understand the design process in Assistant Designer Asset library**
 
-    When you create a topic in Virtual Agent Designer, the design process involves these basic steps:
+    When you create a topic in Assistant Designer Asset library, the design process involves these basic steps:
 
     1.  Decide what use case the topic will address.
-    2.  Create the topic and set properties that define the scope, what portal it will be published in \(what assistant will be used\), and a thorough topic description that will be used for discovery.
-    3.  Build the conversation flow in Virtual Agent Designer.
+    2.  Create the topic and set properties that define scope, what portal it will be published in \(what assistant is used\), and a thorough description used for topic discovery.
+    3.  Build the conversation flow in Assistant Designer Asset library.
     4.  Test and fine-tune the conversation flow.
     5.  Publish your topic.
     The topic properties determine the different ways in which a topic is designed and used. For example, you can control who uses the topic and any conditions that affect how or when the topic is used. You can associate your topic with an LLM assistant to make the topic available to that assistant. You can also improve topic discovery for your LLM topic by using as much relevant detail as possible in the topic's description.
 
     If you're using ServiceNow Natural Language Understanding \(NLU\), you can associate an NLU model and intent with your topic.
 
-    For details on the properties that you define for various assets, see [Create a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md), [Create a reusable topic block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-topic-blocks.md), and [Create a custom control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-custom-control.md).
+    For details on the properties that you define for various assets, see [Create a Virtual Agent asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md), [Create a reusable topic block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-topic-blocks.md), and [Create a custom control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-custom-control.md).
 
 -   **Have knowledge in the following areas \(what to know before you begin\)**
     -   General knowledge of the ServiceNow platform and application table structures.
@@ -104,9 +104,9 @@ The conversation will look similar to the following dialogue flow.
 
 ## Configure controls within the conversation
 
-This example begins with defining the conversation flow in Virtual Agent Designer, after the topic properties have been set. The conversation begins with a Start node and finishes with an End node.
+This example begins with defining the conversation flow in Assistant Designer Asset library, after the topic properties have been set. The conversation begins with a Start node and finishes with an End node.
 
-1.  In your Virtual Agent Designer topic, add a **Dynamic Choice** control node to the conversation flow. This control is used to select the incident.
+1.  In your Virtual Agent topic, add a **Dynamic Choice** control node to the conversation flow. This control is used to select the incident.
     1.  Enter `Choose an incident` for the **Node name** property. The variable name `choose_an_incident` is automatically generated for the control.
     2.  In the **Prompt** property, enter the text the user sees before selecting an incident. For example, `Please choose an incident record`.
     3.  In the **Populate choices by** property, select Record.
@@ -166,5 +166,5 @@ This example begins with defining the conversation flow in Virtual Agent Designe
 
 Use the **Test** button to test the flow of the conversation. Preview topics often throughout the design process to find errors or unexpected behavior quickly. For further information on identifying and resolving issues with topics, see [Debug a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/virtual-agent-troubleshooting-guide.md).
 
-**Parent Topic:**[Getting started with Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
+**Parent Topic:**[Getting started with Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
 

@@ -37,9 +37,9 @@ The UFX Add on Event mapping form to configure the display of declarative action
 
 [Contract request State and Contract document status in Contract Management Pro]()
 
-[Clause Variation form]()
-
 [Signatory roles]()
+
+[Clause Variation form]()
 
 [Contract Configuration form]()
 

@@ -7,7 +7,7 @@ release: zurich
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Use agentic workflows, Now Assist for SFA]
+breadcrumb: [Use agentic workflows, ServiceNow Otto for Sales Automation]
 ---
 
 # Help nurture new leads agentic workflow
@@ -22,7 +22,7 @@ You can use the Help nurture new leads agentic workflow to do the following:
 -   Book an appointment or demo to get the lead closer to qualification
 -   Identify opt-outs and disinterest for lead disqualification
 
-To modify the Help nurture new leads agentic workflow [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/clone-aia-usecase.md), and adjust the settings according to your requirements. You can activate the agentic workflow template by making triggers active and setting the display settings to include the Now Assist panel.
+To modify the Help nurture new leads agentic workflow [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/clone-aia-usecase.md), and adjust the settings according to your requirements. You can activate the agentic workflow template by making triggers active and setting the display settings to include the ServiceNow Otto panel.
 
 **Important:** When you modify an agentic workflow, AI agent, or tool, make sure that you update all instructions accordingly.
 
@@ -74,7 +74,7 @@ Sales AI user
 
 </td><td>
 
-Interact with AI using the Now Assist panel.
+Interact with AI using the ServiceNow Otto panel.
 
 </td></tr></tbody>
 </table>## Activating the agentic workflow
@@ -110,7 +110,7 @@ Nurturing a lead
 
 The agent executes the testing in AI Agent Studio for the use case.
 
-In the Now Assist panel, the agent receives a notification as soon as the interaction is generated, which enables them to follow the on-screen instructions and complete the task. For more information, see .
+In the ServiceNow Otto panel, the agent receives a notification as soon as the interaction is generated, which enables them to follow the on-screen instructions and complete the task. For more information, see [Request the generative AI capabilities in Customer Service Management by using the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/request-gen-ai-capabilities-csm-now-assist-panel.md).
 
-**Parent Topic:**[Use agentic workflows in Now Assist for Sales Force Automation \(SFA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-agentic-worklflows-in-lead-management.md)
+**Parent Topic:**[Use agentic workflows in ServiceNow Otto for Sales Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-agentic-worklflows-in-lead-management.md)
 

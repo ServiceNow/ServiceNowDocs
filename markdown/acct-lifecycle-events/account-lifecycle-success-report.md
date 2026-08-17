@@ -33,10 +33,10 @@ To view this page, follow these steps:
 
 The Success report page contains the following tabs:
 
--   [Overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-success-report.md): Provides an overview of the team health and engagement metrics.
--   [Risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-success-report.md): Identifies potential issues that can impact engagement health.
--   [Adoption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-success-report.md): Provides details on customer progress on onboarding and product adoption.
--   [Renewal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-success-report.md): Lists key metrics related to revenue growth opportunities and contract renewals.
+-   [Overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown): Provides an overview of the team health and engagement metrics.
+-   [Risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown): Identifies potential issues that can impact engagement health.
+-   [Adoption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown): Provides details on customer progress on onboarding and product adoption.
+-   [Renewal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown): Lists key metrics related to revenue growth opportunities and contract renewals.
 
 ## Overview \(Success report\)
 

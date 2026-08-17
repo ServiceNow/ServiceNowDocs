@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-operationalsustainabilitymanagement-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 11
 breadcrumb: [Products combined by family]
 ---
@@ -67,19 +67,19 @@ Yokohama
 
 </td><td>
 
--   **[Forecast planning and analysis](https://servicenow-staging.fluidtopics.net/access?context=scenario-analysis-forecast&family=yokohama&ft:locale=en-US)**
+-   **[Forecast planning and analysis](https://www.servicenow.com/docs/access?context=scenario-analysis-forecast&family=yokohama&ft:locale=en-US)**
 
 Model and prepare for potential outcomes by using forecast planning analysis. With these tools, you can create, save, or visualize multiple scenarios.
 
--   **[Formula tree](https://servicenow-staging.fluidtopics.net/access?context=reviewing-formula-tree&family=yokohama&ft:locale=en-US)**
+-   **[Formula tree](https://www.servicenow.com/docs/access?context=reviewing-formula-tree&family=yokohama&ft:locale=en-US)**
 
 Explore the calculated metric definitions by reviewing a structured and visual representation of the entire calculation chain. By using a formula tree, you can access the calculation details and view how the different metrics and emission factors are interconnected.
 
--   **[Historical metric data](https://servicenow-staging.fluidtopics.net/access?context=importing-metric-data&family=yokohama&ft:locale=en-US)**
+-   **[Historical metric data](https://www.servicenow.com/docs/access?context=importing-metric-data&family=yokohama&ft:locale=en-US)**
 
 Import the historical metric data by using a pre-defined import template with instructions. With this process, you can update and manage the metric data within your organization and help to ensure that all data complies with the established business rules.
 
--   **[Dynamic filtering for Microsoft 365 for ServiceNow Reporting](https://servicenow-staging.fluidtopics.net/access?context=add-related-fields-0365&family=yokohama&ft:locale=en-US)**
+-   **[Dynamic filtering for Microsoft 365 for ServiceNow Reporting](https://www.servicenow.com/docs/access?context=add-related-fields-0365&family=yokohama&ft:locale=en-US)**
 
 Filter the fields dynamically and set up dependencies by using related fields. In the Microsoft 365 add-in, you can configure fields so that cascading filters are supported dynamically. You can select a value in a field and have the related fields automatically update to show the relevant options. This process helps you to streamline data entry and improve efficiency.
 
@@ -90,80 +90,80 @@ Zurich
 
 </td><td>
 
--   **[Support estimation when actual data isn’t available](https://servicenow-staging.fluidtopics.net/access?context=provide-data-for-metric-data-task&family=zurich&ft:locale=en-US)**
+-   **[Support estimation when actual data isn’t available](https://www.servicenow.com/docs/access?context=provide-data-for-metric-data-task&family=zurich&ft:locale=en-US)**
 
 Enable organizations to provide estimated data when actual data is unavailable. Use standardized or personalized custom methods to confirm accurate and reliable ESG reporting.
 
--   **[Approve automated metric definitions](https://servicenow-staging.fluidtopics.net/access?context=provide-data-for-metric-data-task&family=zurich&ft:locale=en-US)**
+-   **[Approve automated metric definitions](https://www.servicenow.com/docs/access?context=provide-data-for-metric-data-task&family=zurich&ft:locale=en-US)**
 
 Configured a new approval stage for automated metric definitions, confirming that collected data undergoes review before being added to relevant tables. This improves data accuracy and governance for automated metric definitions.
 
--   **[DEX integration with Sustainable IT Dashboard](https://servicenow-staging.fluidtopics.net/access?context=sustainable-it-dashboard&family=zurich&ft:locale=en-US)**
+-   **[DEX integration with Sustainable IT Dashboard](https://www.servicenow.com/docs/access?context=sustainable-it-dashboard&family=zurich&ft:locale=en-US)**
 
 Real-time energy consumption data from DEX is now integrated into the ESG Sustainable IT Dashboard. This enhances sustainability reporting for IT assets, providing real-time usage trends, total energy consumption, and detailed regional and model insights, thereby supporting more accurate and actionable ESG initiatives.
 
--   **[Claims for reporting](https://servicenow-staging.fluidtopics.net/access?context=claims-for-reporting&family=zurich&ft:locale=en-US)**
+-   **[Claims for reporting](https://www.servicenow.com/docs/access?context=claims-for-reporting&family=zurich&ft:locale=en-US)**
 
 Track and reuse narratives or statements for disclosures and reports. Claims play a crucial role in disclosures, highlighting key achievements and commitments while confirming actionable and credible reporting. This enhances the efficiency, consistency, and credibility of your sustainability disclosures.
 
--   **[Provide responses for multiple metrics](https://servicenow-staging.fluidtopics.net/access?context=provide-data-for-multiple-metrics&family=zurich&ft:locale=en-US)**
+-   **[Provide responses for multiple metrics](https://www.servicenow.com/docs/access?context=provide-data-for-multiple-metrics&family=zurich&ft:locale=en-US)**
 
 This release brings multiple improvements that aim to improve the overall functionality and usability of the Operational Sustainability Management:
 
     -   Enhanced Metric data task filtering by approval level.
     -   Various bug fixes and UI enhancements for a better user experience.
--   **[Analytics dashboard](https://servicenow-staging.fluidtopics.net/access?context=monitor-data-using-esg-dashboards&family=zurich&ft:locale=en-US)**
+-   **[Monitoring assessment data using ESG Management dashboards](https://www.servicenow.com/docs/access?context=monitor-data-using-esg-dashboards&family=zurich&ft:locale=en-US)**
 
-Introduction of Platform Analytics view in ESG Management for creating dashboards and reports.
+Introduction of Platform Analytics view in Operational Sustainability Management for creating dashboards and reports.
 
--   **[Creating claims from O365](https://servicenow-staging.fluidtopics.net/access?context=create-a-claim-from-microsoft-word&family=zurich&ft:locale=en-US)**
+-   **[Creating claims from O365](https://www.servicenow.com/docs/access?context=create-a-claim-from-microsoft-word&family=zurich&ft:locale=en-US)**
 
 Enhanced the Microsoft 365 plugin to enable creating and submitting claims directly from Microsoft Word to ServiceNow, streamlining the claims process.
 
--   **[Emission factor enhancements](https://servicenow-staging.fluidtopics.net/access?context=usage-of-emission-factors-in-a-calculated-metric-definition&family=zurich&ft:locale=en-US)**
+-   **[Emission factor enhancements](https://www.servicenow.com/docs/access?context=usage-of-emission-factors-in-a-calculated-metric-definition&family=zurich&ft:locale=en-US)**
 
 Updated calculated metric definition calculation logic to automatically recalculate data when emission factor values change, using the new values for dates within the validity period. This confirms that the metrics data is consistent and accurate.
 
--   **[Forecast planning](https://servicenow-staging.fluidtopics.net/access?context=scenario-analysis-forecast&family=zurich&ft:locale=en-US)**
+-   **[Forecast planning](https://www.servicenow.com/docs/access?context=scenario-analysis-forecast&family=zurich&ft:locale=en-US)**
 
 The forecast planning now includes support for both manual and automated metric definitions and metrics, in addition to calculated metric definitions. This enhancement enables for more flexible and accurate forecasting across a wider range of metrics. You can adjust values either as absolute amounts or as percentages, making it easier to model various scenarios and anticipate future trends.
 
--   **[Entity based assess](https://servicenow-staging.fluidtopics.net/access?context=entity-based-access&family=zurich&ft:locale=en-US)**
+-   **[Entity based assess](https://www.servicenow.com/docs/access?context=entity-based-access&family=zurich&ft:locale=en-US)**
 
 Entity-based access aims to provide a more granular approach to data access, confirming that users can only access data through entity-based access.
 
     -   The entity-based access has been enabled for metrics, metric data tasks, metric data, metric data by entity and metric threshold.
     -   Administrators can grant access to an entity's related records by adding users or user groups, or by using entity user fields for entity-based access configuration.
--   **[Upload a disclosure document](https://servicenow-staging.fluidtopics.net/access?context=upload-a-disclosure-document&family=zurich&ft:locale=en-US)**
+-   **[Upload a disclosure document](https://www.servicenow.com/docs/access?context=upload-a-disclosure-document&family=zurich&ft:locale=en-US)**
 
 Claims Disclosure enables you to create and link claims directly from Word documents using the ServiceNow add-in. Once uploaded, claims are automatically synced and created in to the relevant disclosures, confirming traceability and simplifying ESG reporting.
 
--   **[Activate default values for CMD calculations](https://servicenow-staging.fluidtopics.net/access?context=activate-default-values-for-cmd-calculations&family=zurich&ft:locale=en-US)**
+-   **[Set default values for CMD formula operands](https://www.servicenow.com/docs/access?context=activate-default-values-for-cmd-calculations&family=zurich&ft:locale=en-US)**
 
 Default values for operands in CMD formulas can now be defined in the Calculated Metric Definition Settings table. When an operand value is missing during formula execution, the system automatically retrieves and applies the specified default value, confirming uninterrupted calculations. Default values can be customized or new records added to meet specific calculation requirements.
 
--   **[Update a metric definition](https://servicenow-staging.fluidtopics.net/access?context=update-automated-metric-definition&family=zurich&ft:locale=en-US)**
+-   **[Update metric definition](https://www.servicenow.com/docs/access?context=update-automated-metric-definition&family=zurich&ft:locale=en-US)**
 
 When renaming a metric definition, an option is available to apply the change to associated child metrics. Selected child metric names are updated, and their related metric data tasks automatically reflect the new name, confirming consistency across all linked elements.
 
--   **[Components installed with ESG Management](https://servicenow-staging.fluidtopics.net/access?context=components-installed-with-esg&family=zurich&ft:locale=en-US)**
+-   **[Components installed with Environmental, Social, and Governance Management \(formerly ESG Management\)](https://www.servicenow.com/docs/access?context=components-installed-with-esg&family=zurich&ft:locale=en-US)**
 
-Updated ESG Management roles to update compliance feature roles. The following roles are updated:
+Updated Operational Sustainability Management roles to update compliance feature roles. The following roles are updated:
 
     -   sn\_esg.data\_owner
     -   sn\_esg.program\_manager
     -   sn\_grc\_metric.admin
     -   sn\_grc\_metric.manager
     -   sn\_grc\_metric.user
--   **[ESG content accelerator](https://servicenow-staging.fluidtopics.net/access?context=esg-content-accelerator&family=zurich&ft:locale=en-US)**
+-   **[ESG content accelerator](https://www.servicenow.com/docs/access?context=esg-content-accelerator&family=zurich&ft:locale=en-US)**
 
 The Unified Content Accelerator has been renamed to Unified Content Management. Its user interface has been redesigned for improved usability and intuitive workflows, while retaining core functionality.
 
--   **[Emission factor library](https://servicenow-staging.fluidtopics.net/access?context=emission-factor-library&family=zurich&ft:locale=en-US)**
+-   **[Emission factor library](https://www.servicenow.com/docs/access?context=emission-factor-library&family=zurich&ft:locale=en-US)**
 
 Audit tracking is now enabled by default on Emission Factor tables, confirming that every modification is automatically recorded in a secure audit log. You can review detailed entries, including the user who initiated the change, the timestamp, the type of update, and the modified data values.
 
--   **[General guidelines for formula building](https://servicenow-staging.fluidtopics.net/access?context=Formula-building-general-guidelines&family=zurich&ft:locale=en-US)**
+-   **[General guidelines for formula building](https://www.servicenow.com/docs/access?context=Formula-building-general-guidelines&family=zurich&ft:locale=en-US)**
 
 You can now select any emission factor when creating a calculated metric definition \(CMD\), regardless of unit type. This update removes that constraint, enabling broader formula combinations and supporting sustainability scenarios where unit alignment isn’t required for calculations.
 
@@ -187,15 +187,15 @@ Yokohama
 
 </td><td>
 
--   **[Result types](https://servicenow-staging.fluidtopics.net/access?context=create-manual-metric-definition&family=yokohama&ft:locale=en-US)**
+-   **[Result types](https://www.servicenow.com/docs/access?context=create-manual-metric-definition&family=yokohama&ft:locale=en-US)**
 
 If you have the ESG manager \[sn\_esg.metric\_manager\] role, you can now configure either text, choice, or HTML format options for responses to qualitative metric data tasks that are related to manual metric definitions, including both initial and overridden responses. These options help you achieve more precision and detail in your data collection process.
 
--   **[Metric data table filters and side panel enhancements](https://servicenow-staging.fluidtopics.net/access?context=metric-data-table&family=yokohama&ft:locale=en-US)**
+-   **[Metric data table filters and side panel enhancements](https://www.servicenow.com/docs/access?context=metric-data-table&family=yokohama&ft:locale=en-US)**
 
 If you have the ESG data owner \[sn\_esg.data\_owner\] role, you can now apply filters by using the filter menu and reject or approve tasks from the metric data table side panel. Data owners can now multi-submit and assign approvers to multi-approve or reject tasks, with the option to use choice and HTML response formats.
 
--   **[Data owner assignment types](https://servicenow-staging.fluidtopics.net/access?context=create-manual-metric-definition&family=yokohama&ft:locale=en-US)**
+-   **[Data owner assignment types](https://www.servicenow.com/docs/access?context=create-manual-metric-definition&family=yokohama&ft:locale=en-US)**
 
 If you have the ESG Manager \[sn\_esg.metric\_manager\] role, you can now configure the Data Owner Assignment type to be either simple or advanced for manual metric definitions. When you select the Simple option, the system assigns the specified Data Owner or Data Owner Group to the Metric Data Task. If you choose the Advanced assignment option, which is available with the GRC: Approver Configurator application, you can set custom configuration conditions, tables, or data owners to dynamically assign data owners.
 
@@ -208,9 +208,9 @@ The following tables were added to the GRC: Metrics application:
     -   sn\_grc\_metric\_st\_import\_log
     -   sn\_grc\_metric\_st\_transform\_history
     -   sn\_grc\_metric\_import\_template
--   **Table added to the ESG content accelerator application**
+-   **Table added to the Unified content management application**
 
-The sn\_esg\_content\_issb\_citation table was added to the ESG content accelerator application.
+The sn\_esg\_content\_issb\_citation table was added to the Unified content management application.
 
 -   **Table added to the Forecast planning analysis application**
 
@@ -352,7 +352,7 @@ Yokohama
 
 </td><td>
 
-Install ESG Management by requesting it from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+Install Operational Sustainability Management by requesting it from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -360,7 +360,7 @@ Zurich
 
 </td><td>
 
-Install Operational Sustainability Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+Install Operational Sustainability Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -503,7 +503,7 @@ Yokohama
 -   Import your historical metric data by using an import template to update and manage metric data within your organization.
 -   Assign data owners dynamically for metrics that are based on configurations.
 
- See [Environmental, Social, and Governance Management](https://servicenow-staging.fluidtopics.net/access?context=esg-landing-page&family=yokohama&ft:locale=en-US) for more information.
+ See [Environmental, Social, and Governance Management \(formerly Environmental, Social, and Governance\)](https://www.servicenow.com/docs/access?context=esg-landing-page&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -523,7 +523,7 @@ Zurich
 -   Enabled audit tracking for emission factor tables and all changes are automatically logged for compliance and traceability.
 -   Removed the unit restrictions between calculated metric definitions and emission factors, enabling any emission factor to be applied regardless of unit.
 
- See [Environmental, Social, and Governance Management](https://servicenow-staging.fluidtopics.net/access?context=esg-landing-page&family=zurich&ft:locale=en-US) for more information.
+ See [Environmental, Social, and Governance Management \(formerly Environmental, Social, and Governance\)](https://www.servicenow.com/docs/access?context=esg-landing-page&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

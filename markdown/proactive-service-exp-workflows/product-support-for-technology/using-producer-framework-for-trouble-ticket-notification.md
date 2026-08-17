@@ -80,7 +80,7 @@ sn\_api\_notif\_mgmt.inboundqueue.maxrecords
 Maximum number of records that the scheduler will pull from the inbound queue for one scheduler run. This value is used in conjunction with the **sn\_api\_notif\_mgmt.inboundqueue.batch.limit** parameter.-   Default value: **200**
 -   Other possible values: As needed
 
-For example, if the batch limit is set to 50 and the maxrecords is set to 200, and if the number of records that are in the inbound queue is 130, then the scheduler would pull three different batches of records in a single run; two with 50 records and one with 30 records. If the number of records in the inbound queue is 220, the scheduler would pull four batches of 50 records and the remaining 20 records would not be processed until the next time the scheduler runs.
+For example, consider the batch limit is 50 and the maxrecords is 200, and the number of records that are in the inbound queue is 130. Then the scheduler would pull three different batches of records in a single run; two with 50 records and one with 30 records. If the number of records in the inbound queue is 220, the scheduler would pull four batches of 50 records. The the remaining 20 records would not be processed until the next time the scheduler runs.
 
 When setting this value, you must also consider the time that it will take for the scheduler to process multiple batches and set the sn\_api\_notif\_mgmt.schedule.max.runtime value accordingly.
 
@@ -165,5 +165,5 @@ When the system pushes an event to the staging table, the following steps take p
 
 [Producing outbound API notifications using Hermes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/proactive-service-exp-workflows/product-support-for-technology/hermes-stream-connect-kafka-workflow.md)
 
-[Producing outbound API notifications using the open message bus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/proactive-service-exp-workflows/product-support-for-technology/trouble-ticket-workflow-using-pub-sub-model.md)
+[Outbound trouble ticket notifications via open message bus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/proactive-service-exp-workflows/product-support-for-technology/trouble-ticket-workflow-using-pub-sub-model.md)
 

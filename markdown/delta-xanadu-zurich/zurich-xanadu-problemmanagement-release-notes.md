@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-problemmanagement-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -75,7 +75,7 @@ Xanadu
 
 </td><td>
 
--   **[Initial support for Problem Management models](https://servicenow-staging.fluidtopics.net/access?context=problem-mgmt-models&family=xanadu&ft:locale=en-US)**
+-   **[Initial support for Problem Management models](https://www.servicenow.com/docs/access?context=problem-mgmt-models&family=xanadu&ft:locale=en-US)**
 
 Introduction of Problem Management models, beginning with one default problem model \(General\) and two default problem task models \(Root cause analysis and General\).
 
@@ -94,7 +94,7 @@ Yokohama
 
 </td><td>
 
--   **[User role for service desk agents](https://servicenow-staging.fluidtopics.net/access?context=prob-roles-instld-itsm-roles&family=yokohama&ft:locale=en-US)**
+-   **[User role for service desk agents](https://www.servicenow.com/docs/access?context=prob-roles-instld-itsm-roles&family=yokohama&ft:locale=en-US)**
 
 With the sn\_service\_desk\_agent user role, increase operational efficiency by streamlining the process of asking about, gathering, and verifying information, as well as delivering quick resolutions. This role is designed for tier 1 service desk agents and is accessible when the ITSM Roles plugin \(com.snc.itsm.roles\) installed.
 
@@ -109,7 +109,7 @@ Additionally, with the installation of the **ITSM Gen AI** \(**com.sn.itsm.gen.a
 
 The sn\_service\_desk\_agent user role can be used starting with Service Operations Workspace version 6.1.
 
--   **[Problem Models for Streamlined Problem Management](https://servicenow-staging.fluidtopics.net/access?context=problem-mgmt-models&family=yokohama&ft:locale=en-US)**
+-   **[Problem Models for Streamlined Problem Management](https://www.servicenow.com/docs/access?context=problem-mgmt-models&family=yokohama&ft:locale=en-US)**
 
 Problem Management models are used to simplify management of problems and problem tasks. These models provide an efficient way to configure state transitions and define conditions to move from one state to another.
 
@@ -143,19 +143,19 @@ Xanadu
 
 </td><td>
 
--   **[Re-assess a Problem Task from the Work in Progress state](https://servicenow-staging.fluidtopics.net/access?context=assess-a-problem-task&family=xanadu&ft:locale=en-US)**
+-   **[Re-assess a Problem Task from the Work in Progress state](https://www.servicenow.com/docs/access?context=assess-a-problem-task&family=xanadu&ft:locale=en-US)**
 
 Additional flexibility for the workflow of a problem task analyst.
 
--   **[Email notification redirection behavior](https://servicenow-staging.fluidtopics.net/access?context=configure-notifcations-sow-itsm&family=xanadu&ft:locale=en-US)**
+-   **[Email notification redirection behavior](https://www.servicenow.com/docs/access?context=configure-notifcations-sow-itsm&family=xanadu&ft:locale=en-US)**
 
 When users select the problem record link in their email notifications, they can be redirected to the problem record in Service Operations Workspace instead of the classic UI16 experience. The ITSM Notifications Redirection \(com.snc.itsm.notifications\_redirection\) plugin is installed and activated automatically to support this behavior.
 
--   **[Known error articles available by default](https://servicenow-staging.fluidtopics.net/access?context=create-known-error-from-problem&family=xanadu&ft:locale=en-US)**
+-   **[Known error articles available by default](https://www.servicenow.com/docs/access?context=create-known-error-from-problem&family=xanadu&ft:locale=en-US)**
 
 Problem Knowledge Integration is activated by default for new customers.
 
--   **[Problem Management Migration Utility](https://servicenow-staging.fluidtopics.net/access?context=migration-utility&family=xanadu&ft:locale=en-US)**
+-   **[Problem Management Migration Utility](https://www.servicenow.com/docs/access?context=migration-utility&family=xanadu&ft:locale=en-US)**
 
 The Xanadu base problem files list is updated so the Problem Management Migration Utility can detect customizations.
 
@@ -269,7 +269,7 @@ Xanadu
 
 </td><td>
 
-[Problem Management](https://servicenow-staging.fluidtopics.net/access?context=c_ProblemManagement&family=xanadu&ft:locale=en-US) is a ServiceNow AI Platform feature that is active by default.
+[Problem Management](https://www.servicenow.com/docs/access?context=c_ProblemManagement&family=xanadu&ft:locale=en-US) is a ServiceNow AI Platform feature that is active by default.
 
 </td></tr><tr><td>
 
@@ -459,7 +459,7 @@ Xanadu
 -   Configure email notifications to redirect to Service Operations Workspace instead of the classic UI16 experience
 -   Re-assess a problem task from Work In Progress
 
- See [Problem Management](https://servicenow-staging.fluidtopics.net/access?context=c_ProblemManagement&family=xanadu&ft:locale=en-US) for more information.
+ See [Problem Management](https://www.servicenow.com/docs/access?context=c_ProblemManagement&family=xanadu&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -470,7 +470,7 @@ Yokohama
 -   Increase operational efficiency of tier 1 service desk agents with the dedicated sn\_service\_desk\_agent role.
 -   Simplify the management of problems and problem tasks using Problem Management models.
 
- See [Problem Management](https://servicenow-staging.fluidtopics.net/access?context=c_ProblemManagement&family=yokohama&ft:locale=en-US) for more information.
+ See [Problem Management](https://www.servicenow.com/docs/access?context=c_ProblemManagement&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 

@@ -38,7 +38,7 @@ The Virtual Agent API is a REST API. This API is built on the conversational cus
 
 The Virtual Agent API is useful for creating server-to-server integrations. However, for integrations that require the transformation of unsupported controls that must be rendered in your existing chat interface, consider using the [Custom Chat Integration Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-custom-adapter-framework.md).
 
-For information about features such as the URL format and the supported request and response parameters in the Virtual Agent API, see Virtual Agent Bot Integration API.
+For information about features such as the URL format and the supported request and response parameters in the Virtual Agent API, see [Virtual Agent Bot Integration API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/bot-api.md).
 
 \[Omitted image "icon-video-link.png"\] Alt text: Video link to Virtual Agent Academy. [Augment your experiences with the Virtual Agent API](https://www.youtube.com/watch?v=cyhmMyG4jKk) \(Virtual Agent Academy video\)
 
@@ -61,7 +61,7 @@ To see a demonstration of the Virtual Agent API, see [Getting Started with Virtu
 The Virtual Agent API does not support the following features:
 
 -   Chat branding through this Virtual Agent API integration.
--   Now Assist capabilities are supported only in asynchronous mode.
+-   ServiceNow Otto capabilities are supported only in asynchronous mode.
 
 -   **[Supported features in Virtual Agent API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/virtual-agent-api-whats-new.md)**  
 You can use the Virtual Agent API to integrate many of the same features that are available in Virtual Agent and Agent Chat into your chat environment. Feature support varies depending on your ServiceNow release and the store app version number of the Virtual Agent API.

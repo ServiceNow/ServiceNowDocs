@@ -1,5 +1,5 @@
 ---
-title: Product Support for Technology playbook stages and activities
+title: Playbook stages and activities
 description: The Product Support for Technology playbook includes stages and activities that assist agents in researching and resolving technology cases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-playbook-stages.html
@@ -12,11 +12,11 @@ reading_time_minutes: 7
 breadcrumb: [Playbook, Technology Product Support Case, Proactive Service Experience Workflows]
 ---
 
-# Product Support for Technology playbook stages and activities
+# Playbook stages and activities
 
 The Product Support for Technology playbook includes stages and activities that assist agents in researching and resolving technology cases.
 
-When an agent creates a Product Support for Technology case, the system opens a service selector modal and displays the services defined for the Product Support for Technology type.
+When an agent creates a technology product support case, the system opens a service selector modal and displays the services defined for the Technology Product Support case type.
 
 The agent selects a service and then selects **Create** to create a case. The system creates the case and launches the Product Support for Technology playbook. This playbook includes the stages and activities described in the following sections.
 
@@ -118,7 +118,7 @@ Diagnose
 
 The decision table is provided with the Product Support for Technology application. You can modify the conditions that have been defined, and the results to suit your requirements.
 
- To enable the diagnostic activity in the troubleshoot stage, select the case category in the decision table as Issue, the diagnostic activity field is field is updated to True.
+ To enable the diagnostic activity in the troubleshoot stage, select the case category in the decision table as Issue. The diagnostic activity field is field is updated to True.
 
  The status can be changed to False by the agent. For more details on updating decision tables, see [Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/decision-table.md).
 

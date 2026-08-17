@@ -224,7 +224,7 @@ Access to a contract document is based on the following user roles and condition
 While generating the contract repository record, mapped fields and their values are validated for data type and correctness. If validation errors are found, an email notification is sent to the contract fulfiller. The email also displays the list of fields that have not been copied into the final contract document and the link to the contract repository record. The fulfiller then opens the record using the link and corrects the values to resolve the validation errors.
 
 -   **[Send a contract document for signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-send-doc-signature.md)**  
-After a contract document has been reviewed and finalized, send the document for signature.
+Send the document for signature after a contract document has been reviewed and finalized.
 -   **[Initiate an offline signature for a contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-initiate-offline-signature-workspace.md)**  
 Initiate an offline signature when a contract has been signed outside Contract Management Pro and record the signed document in Contract Management Pro.
 -   **[Upload a signed contract document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-upload-doc-wsignature.md)**  

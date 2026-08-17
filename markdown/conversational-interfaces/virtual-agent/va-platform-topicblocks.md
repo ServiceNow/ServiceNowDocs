@@ -21,7 +21,7 @@ Virtual Agent provides pre-built topic blocks that topic authors or admins can u
 
 Certain pre-built topic blocks are included automatically with the Glide Virtual Agent \(com.glide.cs.chatbot\) plugin and Virtual Agent Lite. If you're using Virtual Agent Lite, you have read access to the topic blocks but you can't create topic blocks or add them to calling topics.
 
-You can duplicate pre-built topic blocks and modify the duplicates by using Virtual Agent Designer. For information about working with topic blocks and how to add them to calling topics, see [Maximizing code reuse with topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/topic-blocks-overview.md) and [Add a reusable topic block to a calling topic or topic block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/add-topic-blocks-to-topic.md).
+You can duplicate pre-built topic blocks and modify the duplicates by using Assistant Designer Asset library. For information about working with topic blocks and how to add them to calling topics, see [Maximizing code reuse with topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/topic-blocks-overview.md) and [Add a reusable topic block to a calling topic or topic block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/add-topic-blocks-to-topic.md).
 
 The following sections describe the input and output parameters for calling different types of platform topic blocks. The topic block input parameters are passed from the calling topic, and the output parameters are returned from the topic block to the calling topic.
 
@@ -92,11 +92,11 @@ List of comma-separated activity system IDs. For example, incident ID or task ID
 </td></tr></tbody>
 </table>## FAQ Conversation Builder topic block
 
-Use this topic block to build bot conversations that use your existing FAQ content. With this topic block, you can enable topic authors to build simple conversations by using existing knowledge articles that are published in the FAQ template or by using Q&amp;A data that was imported from sources such as spreadsheets.
+Use this topic block to build bot conversations that use your existing FAQ content. With this topic block, you can enable topic authors to build simple conversations by using existing [knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/knowledge-article-templates.md) that are published in the FAQ template or by using Q&amp;A data that was imported from sources such as [spreadsheets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_TranslateTheInterface.md).
 
-The FAQ Conversation Builder topic block uses contextual search to find an appropriate match in the FAQ content. FAQ content is access-controlled based on requester role, access rights, and context.
+The FAQ Conversation Builder topic block uses [contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/configuring-contextual-search.md) to find an appropriate match in the FAQ content. FAQ content is access-controlled based on requester role, access rights, and context.
 
-Activate the Knowledge Management Advanced plugin to use the FAQ Knowledge template.
+Activate the [Knowledge Management Advanced](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/activate-knowledge-advanced-plugin.md) plugin to use the FAQ Knowledge template.
 
 **Note:** The default length of an FAQ snippet that is returned in the conversation is 400 characters. The snippet length includes the HTML tags and links that are used in the snippet. To change the snippet length, change the value in the **com.glide.cs.faq.display\_size** system property. In addition to applying the specified length, the system applies word-wrap logic to prevent words and links in the snippet from being truncated arbitrarily.
 

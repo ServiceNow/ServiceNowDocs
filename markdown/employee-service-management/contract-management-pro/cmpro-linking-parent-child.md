@@ -102,9 +102,9 @@ The parent must not be a multiple contracts type third-party contract request.
 -   **[Link parent contract requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cmpro-link-parent-cmr.md)**  
 Link parent contracts during drafting and negotiation phases to establish hierarchical relationship between the parent and child contracts.
 -   **[Link and inherit parent contract fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cmpro-link-inhrt-prnt-flds.md)**  
-Link parent contracts during drafting and negotiation phases to establish hierarchical relationship between the parent and child contracts, and automatically inherit the configured fields from the parent contract.
+Link parent contracts during drafting and negotiation phases to establish a hierarchical relationship between the parent and child contracts, and automatically inherit the configured fields from the parent contract.
 -   **[Remove a linked contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cmpro-remove-linked-cntr.md)**  
-Remove a linked parent contract from contract requests when you have linked a wrong contract request or the linking is no longer required.
+Remove a linked parent contract from contract requests when you have linked an incorrect contract request or the linking is no longer required.
 
 **Parent Topic:**[Using Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-use-cmpro.md)
 

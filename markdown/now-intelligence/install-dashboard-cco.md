@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/install-dashboard-cco.html
 release: zurich
 topic_type: task
-last_updated: "2025-08-18"
+last_updated: "2026-07-31"
 reading_time_minutes: 1
 breadcrumb: [Chief Customer Operations Officer \(CCO\) Dashboard, Executive dashboard overview, Dashboards, Platform Analytics experience, Platform Analytics]
 ---
@@ -16,7 +16,9 @@ The Chief customer Operations Officer Dashboard provides the visibility into cus
 
 ## Before you begin
 
-Role required: sn\_cco\_dashboard.cco\_dashboard\_admin, sn\_cco\_dashboard.cco\_dashboard\_user
+Role required: admin, platform\_analytics\_admin, sn\_cco\_dashboard.cco\_dashboard\_admin
+
+Consider duplicating this executive dashboard before customizing it. For more information, see [Duplicate a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/duplicate-db.md).
 
 **Note:** The CCO Dashboard application is free from the ServiceNow Store. However, the contents of the dashboard require professional entitlements to the following applications: Customer Service Management.These professional entitlements include a license for Platform Analytics.
 
@@ -54,12 +56,12 @@ Application plugins:
 
         Assign the role sn\_cco\_dashboard.cco\_dashboard\_admin to users or groups who require configuration privileges on the dashboard.
 
-        **Note:** Only users with this role are able to configure the CCO dashboard.
+        **Note:** Only users with this role can configure the CCO dashboard.
 
     -   **CCO Dashboard end users**
 
         Assign the user role sn\_cco\_dashboard.cco\_dashboard\_user to users or groups who must view the dashboard.
 
-    Users must log out and log back in to enable their new roles after the admin assigns them. For more information on user roles, see [Exploring user administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/exploring-user-administration.md).
+    Users must log out and log back in to enable their new roles after the admin assigns them. For more information on user roles, see .
 
 

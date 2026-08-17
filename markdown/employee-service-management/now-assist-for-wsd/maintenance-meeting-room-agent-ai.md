@@ -7,9 +7,9 @@ release: zurich
 product: Now Assist for WSD
 classification: now-assist-for-wsd
 topic_type: concept
-last_updated: "2025-09-07"
+last_updated: "2026-07-28"
 reading_time_minutes: 4
-breadcrumb: [Using AI agent workflows in Now Assist for WSD, Now Assist for Workplace Service Delivery \(WSD\), Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Using AI agent workflows in ServiceNow Otto for WSD, ServiceNow Otto for Workplace Service Delivery \(WSD\), Workplace Service Delivery, Employee Service Management]
 ---
 
 # Manage temporary space closures agentic workflow
@@ -18,9 +18,9 @@ This team of AI agents temporarily block a location when there’s an emergency 
 
 ## Manage temporary space closures workflow overview
 
-AI agent executes maintenance tasks, blocks a room for maintenance, and moves any existing reservation to another location when the emergency workplace maintenance requested is assigned to a user in the Workplace Event Planners assignment group. For more information, see [Submit an emergency maintenance request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-case-management/submit-emergency-maint-request.md).
+AI agent executes maintenance tasks, blocks a room for maintenance, and moves any existing reservation to another location. This occurs when the emergency workplace maintenance requested is assigned to a user in the Workplace Event Planners assignment group. For more information, see [Submit an emergency maintenance request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-case-management/submit-emergency-maint-request.md).
 
-The team of AI agents block a room for emergency maintenance and move any existing reservations from the blocked location to another location. Multi-building and group reservations are also handled by the agents. AI agents send notification to Workplace Event planners using the Now Assist panel. The team of AI agents autonomously perform the following:
+The team of AI agents block a room for emergency maintenance and move any existing reservations from the blocked location to another location. Multi-building and group reservations are also handled by the agents. AI agents send notification to Workplace Event planners using the ServiceNow Otto panel. The team of AI agents autonomously perform the following:
 
 -   Retrieves the case details from the emergency maintenance request.
 
@@ -30,9 +30,9 @@ The team of AI agents block a room for emergency maintenance and move any existi
 
     For more information, see [Block a workplace location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-core/block-workplace-location.md).
 
--   AI agents notifies workplace event planners with case resolution and summarization using the Now Assist panel conversational interface.
+-   AI agents notifies workplace event planners with case resolution and summarization using the ServiceNow Otto panel conversational interface.
 
-    AI agents take confirmation from Workplace planners before blocking a location or before moving a reservation to another location. Workplace Event planners can respond to AI agents queries using the conversational interface of the Now Assist panel. For more information, see [Review notifications in the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-wsd/agentic-workflow-notifications-nowassist.md).
+    AI agents take confirmation from Workplace planners before blocking a location or before moving a reservation to another location. Workplace Event planners can respond to AI agents queries using the conversational interface of the ServiceNow Otto panel. For more information, see [Review notifications in the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-wsd/agentic-workflow-notifications-nowassist.md).
 
 -   Updates the emergency maintenance request case notes with all the actions taken. Workplace Event planners can review the activity log to know the actions taken by AI agents.
 
@@ -48,7 +48,7 @@ To access the Maintenance Meeting rooms workflow:
     The Manage temporary space closure Describe and Connect workflow opens.
 
 2.  Select **Define Trigger** to review the trigger factor \(Emergency Meeting rooms\) for this agentic workflow. For more information, see [Triggers for the Manage temporary space closures](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-wsd/maintenance-meeting-room-agent-ai.md).
-3.  The **Select Display** option enables the Now Assist panel. For more information, see [Select display](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-wsd/maintenance-meeting-room-agent-ai.md).
+3.  The **Select Display** option enables the ServiceNow Otto panel. For more information, see [Select display](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-wsd/maintenance-meeting-room-agent-ai.md).
 
 ## AI agents used in the Manage temporary space closures workflow
 
@@ -180,18 +180,18 @@ Active**Note:** When the status is Active, the AI agent is triggered autonomousl
 </td></tr></tbody>
 </table>## Select display
 
-In the Select display workflow, select **Display** to display the Now Assist panel. Workplace users with the now\_assist\_panel\_role receive notifications for the triggered use case output. When the Now Assist panel option is enabled, the AI agent output or notifications are displayed in the Now Assist panel.
+In the Select display workflow, select **Display** to display the ServiceNow Otto panel. Workplace users with the now\_assist\_panel\_role receive notifications for the triggered use case output. When the ServiceNow Otto panel option is enabled, the AI agent output or notifications are displayed in the ServiceNow Otto panel.
 
 **Note:** To view the output from a triggered use case, you should have the now\_assist\_panel\_role.
 
-Select this option to receive and review notifications send by AI agents in the Now Assist panel. AI agents send notifications to Workplace Event planners in the Now Assist panel with the case resolution and summarization notes. It asks for Workplace Event planners confirmation before blocking a location and moving any impacted reservations to another available workspace or before updating an existing reservation's date, time, and duration. For more information, see [Review notifications in the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-wsd/agentic-workflow-notifications-nowassist.md).
+Select this option to receive and review notifications sent by AI agents in the Now Assist panel. AI agents send notifications to Workplace Event planners in the ServiceNow Otto panel with the case resolution and summarization notes. The AI agent asks for Workplace Event planners confirmation before blocking a location and moving any impacted reservations to another available workspace. It also asks for confirmation before updating an existing reservation's date, time, and duration. For more information, see [Review notifications in the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-wsd/agentic-workflow-notifications-nowassist.md).
 
 **Related topics**  
 
 
-[Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/na-ai-agents.md)
+[AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/na-ai-agents.md)
 
-[Install Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/install-ai-agents-plugins.md)
+[Install ServiceNow Otto AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/install-ai-agents-plugins.md)
 
-[AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-agent-studio.md)
+[AI Agent Studio overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-agent-studio.md)
 

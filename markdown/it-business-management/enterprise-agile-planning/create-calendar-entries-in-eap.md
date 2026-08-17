@@ -7,7 +7,7 @@ release: zurich
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Configure, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -18,13 +18,15 @@ Define timelines for planning calendars so that the teams can create their own i
 
 ## Before you begin
 
-Role required: sn\_apw\_advanced.eap\_admin
+Roles required: sn\_apw\_advanced.eap\_scrum\_master, sn\_apw\_advanced.eap\_admin
 
 ## About this task
 
 This task is explained using Planning Interval \(PI\) and Sprint as an example. These are the calendars available by default in the workspace and PI is set as the parent for Sprint.
 
 By the end of this task, you define the timeline for a PI and its child Sprints. The EAP teams can then create their own team-specific PIs and Sprints, within this defined timeline, in a naming convention of their choice.
+
+From EAP version 4.17.0, teams don't need predefined calendar entries. An EAP scrum master creates Planning Intervals and Sprints directly from the Backlog by entering the dates, and the calendar entries are created in the background. Define calendar entries in advance only if you have a specific requirement to manage iteration timelines from a central place. For more information, see .
 
 **Note:** You can create PIs in a naming convention of your choice, but the Sprint names are predefined. After creating Sprints for the PI, you can manually update their names per your preference.
 

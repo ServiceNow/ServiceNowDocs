@@ -181,7 +181,7 @@ Type of allocation spread. The value in this field determines the manner in whic
  For example, if a resource is requested for 30 hours in week 10, then:
 
 -   Selecting **Even** equally divides 30 hours between all weekdays, which is 6 hours per day for a five-day work week.
--   Selecting **Front Load**consumes all the available hours on Monday, moves on to Tuesday, and so on, until all the 30 hours are allocated. If the resource is not available for 30 hours in week 10, it over-allocates by filling up the remaining hours from the start date up to 24 hours per day.
+-   Selecting **Front Load**consumes all the available hours on Monday, moves on to Tuesday, and so on, until all the 30 hours are allocated. If the resource is not available for 30 hours in week 10. It then over-allocates by filling up the remaining hours from the start date up to 24 hours per day.
 
 </td></tr><tr><td>
 

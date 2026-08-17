@@ -1,66 +1,66 @@
 ---
-title: Use Now Assist Guardian features in Now Assist Center
-description: Use Now Assist Guardian features in the Now Assist Center workspace to detect offensive content, prompt injection attacks, and sensitive topics in generative AI interactions.
+title: Use AI Guardian features in AI Admin Center
+description: Use AI Guardian features in the AI Admin Center workspace to detect offensive content, prompt injection attacks, and sensitive topics in generative AI interactions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/now-assist-center-use-guardian-features.html
 release: zurich
 topic_type: task
-last_updated: "2026-04-09"
+last_updated: "2026-07-30"
 reading_time_minutes: 2
-keywords: [Now Assist, Now Assist Center, Gen AI, Generative AI]
-breadcrumb: [Using other Now Assist applications from Now Assist Center, Use, Now Assist Center, Enable AI experiences]
+keywords: [AI Admin Center, Now Assist Center, AI, AI setup]
+breadcrumb: [Using other AI applications from AI Admin Center, Use, AI Admin Center, Enable AI experiences]
 ---
 
-# Use Now Assist Guardian features in Now Assist Center
+# Use AI Guardian features in AI Admin Center
 
-Use Now Assist Guardian features in the Now Assist Center workspace to detect offensive content, prompt injection attacks, and sensitive topics in generative AI interactions.
+Use AI Guardian features in the AI Admin Center workspace to detect offensive content, prompt injection attacks, and sensitive topics in generative AI interactions.
 
 ## Before you begin
 
 The following applications must be installed before performing this task:
 
--   Now Assist Center
+-   AI Admin Center
 
-    For more information, see [Confirm installation of Now Assist Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-install.md).
+    For more information, see [Confirm installation of AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-install.md).
 
--   Now Assist Admin console
+-   AI Admin Hub
 
-    For more information, see [Install and configure essential Now Assist plugins using Now Assist Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/install-configure-essential-now-assist-plugins.md).
+    For more information, see [Install and configure essential AI plugins using AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/install-configure-essential-now-assist-plugins.md).
 
 
 Role required: sn\_na\_center.nac\_admin
 
 ## About this task
 
-Follow these steps to use Now Assist Guardian capabilities from Now Assist Center.
+Follow these steps to use AI Guardian capabilities from AI Admin Center.
 
-Now Assist Guardian provides safety and governance controls for AI-generated content. It monitors AI interactions for potentially harmful, offensive, or policy-violating content.
+AI Guardian provides safety and governance controls for AI-generated content. It monitors AI interactions for potentially harmful, offensive, or policy-violating content.
 
-In Now Assist Center, the integration of Now Assist Guardian includes multi-tabbing support for working with safety and governance controls without leaving the application context.
+In AI Admin Center, the integration of AI Guardian includes multi-tabbing support for working with safety and governance controls without leaving the application context.
 
-For more information on Now Assist Guardian, see [Now Assist Guardian](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-guardian.md).
+For more information on AI Guardian, see [AI Guardian](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-guardian.md).
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Center** or **Workspaces** &gt; **Now Assist Center**.
+1.  Navigate to **All** &gt; **AI Admin Center** or **Workspaces** &gt; **AI Admin Center**.
 
 2.  Select **Admin** \(\[Omitted image "icon-now-assist-center-nav-admin.png"\] Alt text: Admin icon. \) in the side navigation bar.
 
-    The Admin tab opens showing Now Assist Admin options.
+    The Admin tab opens showing AI Admin Hub options.
 
-3.  Select one of the options under **Now Assist Guardian** to configure.
+3.  Select one of the options under **AI Guardian** to configure.
 
-    Now Assist Guardian provides three guardrails. Each guardrail has a different scope.
+    AI Guardian provides three guardrails. Each guardrail has a different scope.
 
-<table id="choicetable_bs2_qzh_w3c"><thead><tr><th align="left" id="d185479e234">
+<table id="choicetable_bs2_qzh_w3c"><thead><tr><th align="left" id="d220409e231">
 
 Guardrail
 
-</th><th align="left" id="d185479e237">
+</th><th align="left" id="d220409e234">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d185479e243">
+</th></tr></thead><tbody><tr><td id="d220409e240">
 
 **Prompt injection detection**
 
@@ -72,19 +72,19 @@ This guardrail attempts to override LLM instructions or expose restricted inform
 
  For more information on how to configure this guardrail, see [Configure prompt injection attack protection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/configure-prompt-injection-attack-protection.md).
 
-</td></tr><tr><td id="d185479e271">
+</td></tr><tr><td id="d220409e268">
 
 **Offensiveness detection**
 
 </td><td>
 
-This guardrail detects offensive or harmful content in AI inputs and outputs. It applies to specific Now Assist skills and workflows.
+This guardrail detects offensive or harmful content in AI inputs and outputs. It applies to specific generative AI skills and workflows.
 
  Select **Offensiveness** to open the Offensiveness tab.
 
  For more information on how to configure this guardrail, see [Activate offensiveness protection for generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/activate-offensiveness-protection-for-generative-ai.md).
 
-</td></tr><tr><td id="d185479e305">
+</td></tr><tr><td id="d220409e299">
 
 **Sensitive topic filters**
 
@@ -98,5 +98,5 @@ This guardrail filters subjects not suited for AI responses, such as workplace s
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using other Now Assist applications and features from Now Assist Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-using-other-applications.md)
+**Parent Topic:**[Using other AI applications and features from AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-using-other-applications.md)
 

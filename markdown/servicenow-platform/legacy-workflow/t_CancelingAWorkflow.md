@@ -7,7 +7,7 @@ release: zurich
 product: Legacy Workflow
 classification: legacy-workflow
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-07-10"
 reading_time_minutes: 2
 breadcrumb: [Administering workflow contexts, Workflow administration, Classic Workflow, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ Canceling a workflow stops the workflow from executing and sets the workflow con
 
 ## Before you begin
 
-Role required: admin or workflow\_admin
+Role required: snc\_required\_script\_writer\_permission and either workflow\_admin or admin
 
 ## About this task
 

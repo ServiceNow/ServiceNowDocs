@@ -1,6 +1,6 @@
 ---
 title: Run scheduled job to publish stop words dictionary, search profiles, and index tables
-description: After upgrading to the Zurich release and the Now Assist for Sales and Order Management plugin has been installed, run a scheduled job that publishes the stop word dictionary, search profiles, and index tables for using AI Search in the product catalog. AI Search.
+description: After upgrading to the Zurich release and the ServiceNow Otto for Sales Automation plugin has been installed, run a scheduled job that publishes the stop word dictionary, search profiles, and index tables for using AI Search in the product catalog. AI Search.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/run-sched-job-index-stopwords-profile.html
 release: zurich
@@ -12,11 +12,11 @@ breadcrumb: [AI Search for product catalog, Product offerings and catalogs, Lead
 
 # Run scheduled job to publish stop words dictionary, search profiles, and index tables
 
-After upgrading to the Zurich release and the Now Assist for Sales and Order Management plugin has been installed, run a scheduled job that publishes the stop word dictionary, search profiles, and index tables for using AI Search in the product catalog. AI Search.
+After upgrading to the Zurich release and the ServiceNow Otto for Sales Automation plugin has been installed, run a scheduled job that publishes the stop word dictionary, search profiles, and index tables for using AI Search in the product catalog. AI Search.
 
 ## Before you begin
 
-Now Assist for Sales Force Automation \(SFA\) plugin must be installed.
+ServiceNow Otto for Sales Automation plugin must be installed.
 
 Role required: admin
 

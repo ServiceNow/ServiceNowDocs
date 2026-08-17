@@ -6,8 +6,8 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/tables-
 release: zurich
 topic_type: reference
 last_updated: "2025-07-25"
-reading_time_minutes: 3
-breadcrumb: [Reference, Query Generation, Now Assist in Platform Analytics, Platform Analytics]
+reading_time_minutes: 4
+breadcrumb: [Reference, Query Generation, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
 
 # Roles, tables, and scheduled jobs included with Query Generation
@@ -137,6 +137,16 @@ Dimension
 </td><td>
 
 Representation of queryable columns for every table that an Entity record references. Each record corresponds to one column. Dimension records are generated automatically, and this table is read-only.
+
+</td></tr><tr><td>
+
+Indicator Configurations
+
+ \[sn\_query\_gen\_indicator\_config\]
+
+</td><td>
+
+List of high-quality indicators, as manually determined by administrators. At search time, these indicators get their own search and are included in the general indicator search. These indicators get a boost when the two searches are then merged. For more information, see [Indicator scope control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/indicator-scope-control.md).
 
 </td></tr><tr><td>
 

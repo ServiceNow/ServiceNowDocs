@@ -1,6 +1,6 @@
 ---
-title: Configuring Now Assist for Software Asset Management \(SAM\)
-description: If you have the admin role, you can configure the Now Assist for Software Asset Management \(SAM\) application to use generative AI skills in the Software Asset Workspace.
+title: Configuring ServiceNow Otto for Software Asset Management \(SAM\)
+description: If you have the admin role, you can configure the ServiceNow Otto for Software Asset Management \(SAM\) application to use generative AI skills in the Software Asset Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/now-assist-for-software-asset-management-sam/configure-now-assist-sam.html
 release: zurich
@@ -9,12 +9,12 @@ classification: now-assist-for-software-asset-management-sam
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Now Assist for Software Asset Management \(SAM\), Software Asset Management, IT Asset Management]
+breadcrumb: [ServiceNow Otto for Software Asset Management \(SAM\), Software Asset Management, IT Asset Management]
 ---
 
-# Configuring Now Assist for Software Asset Management \(SAM\)
+# Configuring ServiceNow Otto for Software Asset Management \(SAM\)
 
-If you have the admin role, you can configure the Now Assist for Software Asset Management \(SAM\) application to use generative AI skills in the Software Asset Workspace.
+If you have the admin role, you can configure the ServiceNow Otto for Software Asset Management \(SAM\) application to use generative AI skills in the Software Asset Workspace.
 
 ## Before you begin
 
@@ -22,17 +22,17 @@ Role required: admin
 
 ## About this task
 
-Starting with the Zurich Patch 4 release, generative AI skills for Now Assist for SAM are automatically activated on your instance by default and require no configuration. However, if you deactivate a skill, you need to manually reactivate that skill by following the specified procedure.
+Starting with the Zurich Patch 4 release, generative AI skills for ServiceNow Otto for SAM are automatically activated on your instance by default and require no configuration. However, if you deactivate a skill, you need to manually reactivate that skill by following the specified procedure.
 
 ## Procedure
 
-1.  Install the Now Assist for Software Asset Management \(SAM\) plugin \(sn\_now\_assist\_sam\).
+1.  Install the ServiceNow Otto for Software Asset Management \(SAM\) plugin \(sn\_now\_assist\_sam\).
 
-2.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills** to access the **Now Assist Skills** tab of the Now Assist Admin console.
+2.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Skills** to access the **AI Skills** tab of the AI Admin Hub console.
 
 3.  Select **SAM** under the **Technology** workflow group.
 
-4.  On the Now Assist skills for SAM page, select **Activate skill** for the skill that you would like to activate.
+4.  On the AI skills for SAM page, select **Activate skill** for the skill that you would like to activate.
 
     The page for the skill that you activated opens with the General details section highlighted.
 
@@ -54,13 +54,13 @@ Starting with the Zurich Patch 4 release, generative AI skills for Now Assist fo
 
 8.  In the Review and activate section, review your choices and select **Activate**.
 
-    The Successfully activated message box opens and the skill is activated. You're ready to use the skill in the Software Asset Workspace. For details on using the skills, see [Using generative AI skills in Now Assist for SAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/now-assist-for-software-asset-management-sam/using-now-assist-sam.md).
+    The Successfully activated message box opens and the skill is activated. You're ready to use the skill in the Software Asset Workspace. For details on using the skills, see [Using generative AI skills in ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/now-assist-for-software-asset-management-sam/using-now-assist-sam.md).
 
 
--   **[Install Now Assist for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/now-assist-for-software-asset-management-sam/install-now-assist-sam.md)**  
-If you have the admin role, you can install the Now Assist for Software Asset Management \(SAM\) application. The Now Assist for Software Asset Management \(SAM\) application integrates generative AI capabilities into your daily workflow tasks.
--   **[Skill inputs and triggers for Now Assist for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/now-assist-for-software-asset-management-sam/now-assist-sam-skills-inputs.md)**  
-Get a quick overview of the skill inputs and triggers for Now Assist for Software Asset Management \(SAM\). By configuring the inputs or triggers for a skill, you can determine how and when a skill is used.
+-   **[Install ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/now-assist-for-software-asset-management-sam/install-now-assist-sam.md)**  
+If you have the admin role, you can install the ServiceNow Otto for Software Asset Management \(SAM\) application. The ServiceNow Otto for Software Asset Management \(SAM\) application integrates generative AI capabilities into your daily workflow tasks.
+-   **[Skill inputs and triggers for ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/now-assist-for-software-asset-management-sam/now-assist-sam-skills-inputs.md)**  
+Get a quick overview of the skill inputs and triggers for ServiceNow Otto for Software Asset Management \(SAM\). By configuring the inputs or triggers for a skill, you can determine how and when a skill is used.
 
-**Parent Topic:**[Now Assist for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/now-assist-for-software-asset-management-sam/now-assist-sam.md)
+**Parent Topic:**[ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/now-assist-for-software-asset-management-sam/now-assist-sam.md)
 

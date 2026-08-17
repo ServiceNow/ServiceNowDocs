@@ -10,7 +10,7 @@ topic_type: reference
 last_updated: "2025-08-19"
 reading_time_minutes: 1
 keywords: [Agent Client Collector, Kubernetes, Visibility, data collected, reference, CMDB, Cloud Native Operations for Visibility, CNO for Visibility]
-breadcrumb: [Kubernetes Visibility Agent Reference, Kubernetes discovery using Kubernetes Visibility Agent, Discovery for containerized resources, Discovery, ITOM Visibility, IT Operations Management]
+breadcrumb: [Reference, Kubernetes discovery using Kubernetes Visibility Agent, Discovery for containerized resources, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Data collected by Kubernetes Visibility Agent

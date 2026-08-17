@@ -16,9 +16,9 @@ breadcrumb: [Rapid7, Service Graph Connectors, Integrating third-party data into
 
 When you complete setting up the connection, you can configure the integration to periodically pull data. The data is saved in tables that extend from the Configuration item \[cmdb\_ci\] table.
 
-## Hardware \[cmdb\_ci\_hardware\]
+## Unclassed Hardware \[cmdb\_ci\_unclassed\_hardware\]
 
-The following attributes in the Hardware \[cmdb\_ci\_hardware\] table are populated by collected data.
+The following attributes in the Unclassed Hardware \[cmdb\_ci\_unclassed\_hardware\] table are populated by collected data.
 
 |Attribute label|Attribute name|
 |---------------|--------------|
@@ -74,22 +74,22 @@ The following attributes in the SGC Rapid7 Asset \[sn\_sec\_sgc\_rapid7\_sgc\_ra
 |Unique identifiers|unique\_identifiers|
 |Configuration item|configuration\_item|
 
-## Relationships created for Hardware
+## Relationships created for Unclassed Hardware
 
 |Parent class|Relationship type|Child class|
 |------------|-----------------|-----------|
-|Hardware \[cmdb\_ci\_hardware\]|Owns::Owned by|IP Address \[cmdb\_ci\_ip\_address\]|
-|Hardware \[cmdb\_ci\_hardware\]|Reference|SGC Rapid7 Asset \[sn\_sec\_sgc\_rapid7\_sgc\_rapid7\_asset\]|
+|Unclassed Hardware \[cmdb\_ci\_unclassed\_hardware\]|Owns::Owned by|IP Address \[cmdb\_ci\_ip\_address\]|
+|Unclassed Hardware \[cmdb\_ci\_unclassed\_hardware\]|Reference|SGC Rapid7 Asset \[sn\_sec\_sgc\_rapid7\_sgc\_rapid7\_asset\]|
 
 ## Relationships created for IP Address
 
 |Parent class|Relationship type|Child class|
 |------------|-----------------|-----------|
-|IP Address \[cmdb\_ci\_ip\_address\]|Reference|Hardware \[cmdb\_ci\_hardware\]|
+|IP Address \[cmdb\_ci\_ip\_address\]|Reference|Unclassed Hardware \[cmdb\_ci\_unclassed\_hardware\]|
 
 ## Relationships created by SGC Rapid7 Asset
 
 |Parent class|Relationship type|Child class|
 |------------|-----------------|-----------|
-|SGC Rapid7 Asset \[sn\_sec\_sgc\_rapid7\_sgc\_rapid7\_asset\]|Reference|Hardware \[cmdb\_ci\_hardware\]|
+|SGC Rapid7 Asset \[sn\_sec\_sgc\_rapid7\_sgc\_rapid7\_asset\]|Reference|Unclassed Hardware \[cmdb\_ci\_unclassed\_hardware\]|
 

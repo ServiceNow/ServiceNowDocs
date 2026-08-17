@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/plugin-app-itom-health.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 10
 breadcrumb: [Applying the CSDM guidelines to ITOM AIOps, ITOM AIOps, IT Operations Management]
 ---
@@ -58,7 +58,7 @@ Tables that list the plugins or applications that are installed with ITOM AIOps 
 |Event Management Core \(sn\_em\_ai\)|Enables you to track and monitor alerts in the ServiceNow Agent Workspace.|
 |Service Operations Workspace Integrations launchpad \(sn\_itom\_integ\_app\)|Provides a new and enhanced experience for viewing, configuring, and managing all your available ITOM AIOps integrations.|
 |Service Operations Workspace Alert Mngmt \(sn\_sow\_em\)|A detailed alert record page with supplementary data such as Quick Overview, Playbook, and Metrics tabs.|
-|Service Operations Workspace Express List \(sn\_itom\_aiops\_list\)|A centralized and consolidated platform that enables operators to triage, analyze, and remediate alerts, all in one place. Express List provides a live view of alerts, dynamic filtering, a preview panel with additional context and essential details about each alert, and automated technical analysis using Now Assist.|
+|Service Operations Workspace Express List \(sn\_itom\_aiops\_list\)|A centralized and consolidated platform that enables operators to triage, analyze, and remediate alerts, all in one place. Express List provides a live view of alerts, dynamic filtering, a preview panel with additional context and essential details about each alert, and automated technical analysis using ServiceNow Otto.|
 |Service Operations Workspace Log Analytics \(sn\_sow\_hla\)|A log viewer in Service Operations Workspace. The application also includes the custom Elasticsearch data source for Performance Analytics \(PA\) dashboards.|
 |AIOps Dashboards \(sn\_aiops\_dashboard\)|Offers comprehensive visualizations of critical operational data and actionable insights that facilitate proactive responses to potential issues. The application targets multiple ITOM personas with different needs, enabling you to monitor key performance indicators \(KPIs\), track service health, and gain valuable context on the overall IT environment.|
 |Event Management Connectors \(sn\_em\_connector\)|A collection of predefined interfaces \(connectors\) for ingesting events from third-party monitoring tools or Agent Client Collector into a ServiceNow instance.|
@@ -134,5 +134,5 @@ Tables that list the plugins or applications that are installed with ITOM AIOps 
 
 [Plugins activated with ITOM Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/plugin-itom-optimization.md)
 
-[Applications installed with Now Assist for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/app-now-assist-itom.md)
+[Applications installed with ServiceNow Otto for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/app-now-assist-itom.md)
 

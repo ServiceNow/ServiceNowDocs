@@ -7,7 +7,7 @@ release: zurich
 topic_type: concept
 last_updated: "2026-01-27"
 reading_time_minutes: 7
-breadcrumb: [Tuning the semantic layer, Configure, Query Generation, Now Assist in Platform Analytics, Platform Analytics]
+breadcrumb: [Tuning the semantic layer, Configure, Query Generation, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
 
 # Segments in the Query Generation semantic layer

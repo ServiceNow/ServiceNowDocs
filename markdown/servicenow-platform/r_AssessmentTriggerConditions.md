@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/r\_A
 release: zurich
 topic_type: reference
 last_updated: "2025-01-30"
-reading_time_minutes: 1
+reading_time_minutes: 3
 breadcrumb: [Configure trigger conditions for an assessment, Assessment administrator tasks, Use, Assessments, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -80,7 +80,11 @@ Assessable Record Field
 
 </td><td>
 
-Vendor**Note:**
+\[Required\] Field on the selected **Table** that determines which assessable record will be the subject of the assessment. Only appropriate reference fields on the selected **Table** are available to select. If there are no **Assessable Record Field** options available, you must select a different **Table**.
+
+ If the selected **Assessment** evaluates records on the Company `[core_company]` table and the selected **Table** is Incident, the only **Assessable Record Field** options are fields on the Incident table that reference the Company table. For example, **Company** or, if vendor ticketing is enabled, **Vendor**. If you select **Vendor**, the trigger condition sends an assessment about the **Vendor** for the incident, assuming there is an assessable record for the associated company. The assessment contains questions from all metric categories associated with the assessable record.
+
+**Note:** This field is not available if the selected **Assessment** is a metric type used for surveys. See [Survey trigger conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/c_TriggerConditions.md).
 
 </td></tr><tr><td>
 
@@ -117,6 +121,8 @@ Because two related fields were selected as part of the trigger condition, the a
 -   **Related record 2:** Company: Microsoft
 
 **Note:** Even though the trigger condition is set to be triggered every time the conditions are met, the **Repeat Interval** setting ensures that Boris does not receive another assessment if another vendor incident assigned to him closes within 30 days of the first one.
+
+**Important:** The example uses **Vendor** as the Assessable Record field because the incident table in this example has a Vendor assessable record configured. In a standard instance, the drop down may show only parent, parent incident, or universal request. These are default assessable record types. To add more options, create assessable records for additional tables. For more information, see [Assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/c_assessable-records.md) and [Metric types and assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/c_MetricTypesAndAssessableRecords.md).
 
 **Parent Topic:**[Configure trigger conditions for an assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/t_CreateTriggerAssessment.md)
 

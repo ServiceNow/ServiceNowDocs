@@ -1,5 +1,5 @@
 ---
-title: Add the required applications and capabilities to your MID Server
+title: Add required applications and capabilities to your MID Server
 description: Enable your MID Server to auto-renew your certificates by adding the Certificate Inventory and Management and GenerateCSR applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/add-req-apps-capabilities-to-mid-server.html
@@ -9,16 +9,16 @@ classification: discovery
 topic_type: task
 last_updated: "2025-09-01"
 reading_time_minutes: 1
-breadcrumb: [Configuring automated certificate renewal, Automated Certificate Renewal, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
+breadcrumb: [Configuring automated certificate renewal, Automated certificate renewal, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
 
-# Add the required applications and capabilities to your MID Server
+# Add required applications and capabilities to your MID Server
 
 Enable your MID Server to auto-renew your certificates by adding the Certificate Inventory and Management and GenerateCSR applications.
 
 ## Before you begin
 
-Check that you have completed the task [Configure your MID Server for automatic certificate renewal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/configure-mid-server-automatic-cert-renewal.md).
+Check that you have completed the task [Configure MID Server for automatic certificate renewal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/configure-mid-server-automatic-cert-renewal.md).
 
 Role required: pki\_admin or admin
 

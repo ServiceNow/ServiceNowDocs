@@ -1,6 +1,6 @@
 ---
 title: Configure AI Control Tower
-description: Configuring the AI Control Tower for Now Assist from the Configurations page.
+description: Configuring the AI Control Tower for ServiceNow Otto from the Configurations page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/ai-control-tower/configuring-ai-governance.html
 release: zurich
@@ -10,12 +10,12 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Now Assist, Gen AI, Generative AI, AI Governance, Now LLM, large language model]
-breadcrumb: [Configure, AI Control Tower, Enable AI experiences]
+breadcrumb: [Configure, AI Control Tower \(legacy\), Enable AI experiences]
 ---
 
 # Configure AI Control Tower
 
-Configuring the AI Control Tower for Now Assist from the **Configurations** page.
+Configuring the AI Control Tower for ServiceNow Otto from the **Configurations** page.
 
 ## Before you begin
 
@@ -23,7 +23,7 @@ Role required: AI steward \[sn\_ai\_governance.ai\_steward\]
 
 ## Procedure
 
-1.  Navigate to the **Workspaces &gt;** **AI Control Tower &gt;** **Configuration** view in the AI Control Tower.
+1.  Navigate to the **All &gt;** **AI Control Tower &gt;** **Configuration** view in the AI Control Tower.
 
 2.  Expand **Data** and select **Opt in** under **Data sharing**.
 

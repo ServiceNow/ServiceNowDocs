@@ -9,7 +9,7 @@ classification: virtual-agent
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Create a Virtual Agent topic, Getting started with Virtual Agent Designer, Build and deploy, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Create a Virtual Agent asset, Getting started with Assistant Designer Asset library, Build and deploy, Virtual Agent, Conversational Interfaces]
 ---
 
 # Use system-derived entities in an NLU topic
@@ -18,7 +18,7 @@ Associate system-derived entities such as such as date, time, duration, or locat
 
 ## Before you begin
 
-Create the Booking Reservations NLU model and system entities \(`FromLocation` and `ToLocation`\) as described in Create a system-derived entity. In this example procedure, you will create a topic that can slot fill locations that are used in an utterance.
+Create the Booking Reservations NLU model and system entities \(`FromLocation` and `ToLocation`\) as described in [Create a system-derived entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/create-system-derived-entity.md). In this example procedure, you will create a topic that can slot fill locations that are used in an utterance.
 
 Role required: virtual\_agent\_admin or admin
 
@@ -201,5 +201,5 @@ Use additional system-derived entities for your Booking a Reservation topic. For
 
 For more information about default system entities, see [NLU system entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/nlu-system-entities.md).
 
-**Parent Topic:**[Create a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md)
+**Parent Topic:**[Create a Virtual Agent asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md)
 

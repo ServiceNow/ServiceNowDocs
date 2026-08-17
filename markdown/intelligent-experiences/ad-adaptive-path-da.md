@@ -7,6 +7,7 @@ release: zurich
 topic_type: concept
 last_updated: "2026-05-25"
 reading_time_minutes: 1
+keywords: [adaptive desktop action, probabilistic desktop action]
 breadcrumb: [Configure, AI Desktop Actions, Enable AI experiences]
 ---
 

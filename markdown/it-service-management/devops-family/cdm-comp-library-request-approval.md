@@ -1,5 +1,5 @@
 ---
-title: Accept or reject a component request for inclusion in a component library
+title: Accept or reject a component request
 description: Review a request for adding a component to a component library and approve or reject it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/devops-family/cdm-comp-library-request-approval.html
@@ -12,7 +12,7 @@ reading_time_minutes: 2
 breadcrumb: [Sharing components among applications — Component libraries, Using DevOps Config, DevOps Config, IT Service Management]
 ---
 
-# Accept or reject a component request for inclusion in a component library
+# Accept or reject a component request
 
 Review a request for adding a component to a component library and approve or reject it.
 
@@ -40,15 +40,15 @@ Role required: cdm\_admin or cdm\_editor
 
 5.  As required, click accept or reject the request.
 
-<table id="choicetable_mcn_flw_dxb"><thead><tr><th align="left" id="d394779e130">
+<table id="choicetable_mcn_flw_dxb"><thead><tr><th align="left" id="d396511e130">
 
 Approval action
 
-</th><th align="left" id="d394779e133">
+</th><th align="left" id="d396511e133">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d394779e139">
+</th></tr></thead><tbody><tr><td id="d396511e139">
 
 **Accept a request**
 
@@ -69,7 +69,7 @@ Description
 5.  Click **Accept**.
 
 
-</td></tr><tr><td id="d394779e209">
+</td></tr><tr><td id="d396511e209">
 
 **Reject a request**
 

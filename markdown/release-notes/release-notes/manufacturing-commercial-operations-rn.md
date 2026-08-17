@@ -75,7 +75,7 @@ See [Explore Manufacturing Commercial Operations](https://raw.githubusercontent.
 
 Install Manufacturing Commercial Operations by requesting it from the ServiceNow Store.
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Browser requirements
 
@@ -116,8 +116,8 @@ ServiceNow workspace doesn’t support mobile devices, Internet Explorer, or Mic
     Align work with strategy to deliver products and services in a way that supports your business goals and priorities. The ServiceNow Strategic Portfolio Management \(SPM\) application enables you to use digital transformation to drive customer value.
 
 
--   **[Now Assist for Manufacturing Commercial Operations \(MCO\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/now-assist-for-mco-rn.md)**  
-The ServiceNow® Now Assist for Manufacturing Commercial Operations \(MCO\) application brings platform AI capabilities to Manufacturing Commercial Operations. Now Assist for MCO is a new application in the Zurich release.
+-   **[ServiceNow Otto for Manufacturing Commercial Operations \(MCO\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/now-assist-for-mco-rn.md)**  
+The ServiceNow® ServiceNow Otto for Manufacturing Commercial Operations \(MCO\) application brings platform AI capabilities to Manufacturing Commercial Operations. ServiceNow Otto for MCO is a new application in the Zurich release.
 
 **Parent Topic:**[Features and changes by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/new-features-changes.md)
 

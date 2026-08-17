@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-02-27"
 reading_time_minutes: 3
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configure, Now Assist for Order Management]
+breadcrumb: [Configure, ServiceNow Otto for Order Management]
 ---
 
 # Configure the invoice quantity validation extension point
@@ -96,12 +96,12 @@ The demo implementation also illustrates a fallback pattern. When sold product i
 
 8.  Select **Update**.
 
-9.  Validate your implementation by submitting an invoice dispute from the Business Portal using the Now Assist Virtual Assistant.
+9.  Validate your implementation by submitting an invoice dispute from the Business Portal using the ServiceNow Otto Virtual Agent.
 
-    For more information, see [Dispute invoice issues using Now Assist Virtual Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/dispute-invoice-issues-now-assist.md).
+    For more information, see [Dispute invoice issues using ServiceNow Otto Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/dispute-invoice-issues-now-assist.md).
 
 
-**Parent Topic:**[Configuring Now Assist for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/now-assist-for-order-management-configuring.md)
+**Parent Topic:**[Configuring ServiceNow Otto for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/now-assist-for-order-management-configuring.md)
 
 **Related topics**  
 

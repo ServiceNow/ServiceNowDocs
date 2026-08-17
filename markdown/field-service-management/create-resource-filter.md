@@ -40,15 +40,15 @@ When administrators create an advanced resource filter for dispatchers they show
 
 7.  Fill in the fields on the form.
 
-<table id="choicetable_s3x_q1x_vfc"><thead><tr><th align="left" id="d32291e158">
+<table id="choicetable_s3x_q1x_vfc"><thead><tr><th align="left" id="d32119e158">
 
 Field
 
-</th><th align="left" id="d32291e161">
+</th><th align="left" id="d32119e161">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d32291e167">
+</th></tr></thead><tbody><tr><td id="d32119e167">
 
 **Table**
 
@@ -60,7 +60,7 @@ Select the view. The choices are:-   agent\_filter\_config\_view
 -   contractor\_filter\_config\_view
 
 
-</td></tr><tr><td id="d32291e190">
+</td></tr><tr><td id="d32119e190">
 
 **Filter**
 

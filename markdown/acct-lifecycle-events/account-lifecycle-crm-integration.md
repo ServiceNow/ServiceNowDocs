@@ -61,7 +61,7 @@ To set up the integration, follow these steps:
 
 3.  Update the `getRiskSysIdFromCRMRequest()` function in the `DynamicsCRMTaskUpdateHandlerUtilOOB` script include to handle the task updates from Microsoft Dynamics CRM by processing the input parameters and updating the associated risk signal record.
 
-    The Process Task Update Event demo action can be further configured and added as part of sub flow which you would need to create and add it in the decision table \(Dynamics CRM Webhook Decision Policy\) of Microsoft Dynamics CRM Spoke.
+    The Process Task Update Event demo action can be further configured and added as part of a subflow. Create the subflow and add it to the decision table \(Dynamics CRM Webhook Decision Policy\) of Microsoft Dynamics CRM Spoke.
 
 4.  \(Optional\) You can optionally configure an UI action to create a CRM task in your ServiceNow instance.
 5.  Use the `AleCRMUtilOOB` script include to interact with CRM platforms like Microsoft Dynamics CRM.

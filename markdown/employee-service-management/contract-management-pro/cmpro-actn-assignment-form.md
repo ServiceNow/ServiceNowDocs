@@ -44,9 +44,9 @@ Use the action assignment form to define a action button in your workspace and m
 
 [Contract request State and Contract document status in Contract Management Pro]()
 
-[Clause Variation form]()
-
 [Signatory roles]()
+
+[Clause Variation form]()
 
 [Contract Configuration form]()
 

@@ -7,7 +7,7 @@ release: zurich
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-07-13"
 reading_time_minutes: 2
 breadcrumb: [Zing computes document scores using three components, Zing text indexing and search engine, Search administration, Configure core features, Administer]
 ---
@@ -24,7 +24,7 @@ Role required: admin
 
 ## About this task
 
-Administrators can control the relative importance of a match for each field in a table with the ts\_weight attribute. The majority of fiends have no ts\_weight attribute. Zing treats these fields as having weight 1 when scoring search matches.
+Administrators can control the relative importance of a match for each field in a table with the ts\_weight attribute. The majority of fields have no ts\_weight attribute. Zing treats these fields as having weight 1 when scoring search matches.
 
 The following fields have ts\_weight attribute values by default:
 

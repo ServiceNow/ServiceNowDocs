@@ -61,13 +61,13 @@ Dynamic linking also enables adding references to a particular field of a record
 
 You can add references from any ServiceNow table you have access to, with no setup or configuration needed.
 
-This feature reduces the need to switch between multiple ServiceNow applications within your instance and helps maintain a single, reliable source of truth for collaborative work, making it easier for teams to stay aligned and informed.
+This feature reduces the need to switch between multiple ServiceNow applications within your instance and helps maintain a single, reliable source of truth for collaborative work. This makes it easier for teams to stay aligned and informed.
 
-## Draft content using Now Assist for SPM
+## Draft content using ServiceNow Otto for SPM
 
-Generate content with Now Assist for SPM directly in your Docs using custom prompts. In addition, summarize existing sections, elaborate where needed, and refine drafts to help improve your productivity.
+Generate content with ServiceNow Otto for SPM directly in your Docs using custom prompts. In addition, summarize existing sections, elaborate where needed, and refine drafts to help improve your productivity.
 
-You can interact with Now Assist directly in your Doc to create new content, add context, or improve existing sections. This helps you draft faster, refine ideas, and keep your work relevant without leaving the page.
+You can interact with ServiceNow Otto directly in your Doc to create new content, add context, or improve existing sections. This helps you draft faster, refine ideas, and keep your work relevant without leaving the page.
 
 -   **Work with content of the whole page**
 
@@ -76,7 +76,7 @@ You can interact with Now Assist directly in your Doc to create new content, add
     -   For Marketing teams: **Create a compelling product launch announcement highlighting the key benefits and emotional appeal for our target audience.**
     -   For Legal teams: **Write a plain-language summary of the privacy policy in this doc, that customers can easily understand.**
     -   For product teams: **Analyze the customer feedback comments in this Doc, group into top 5 themes, and suggest top 3 enhancements for highest impact.**
-    Now Assist uses the context from your Doc page to generate a response.
+    ServiceNow Otto uses the context from your Doc page to generate a response.
 
 -   **Refine, elaborate, or improve the existing content within the page**
 
@@ -84,7 +84,7 @@ You can interact with Now Assist directly in your Doc to create new content, add
 
     -   If you have a list of stakeholders, you can ask **Elaborate on the scope of these roles.**
     -   **Rewrite this in a casual tone.**
-    \[Omitted image "na-inline-open-text.png"\] Alt text: Now Assist inline prompt for selected content on the page.
+    \[Omitted image "na-inline-open-text.png"\] Alt text: ServiceNow Otto inline prompt for selected content on the page.
 
 -   **Take assistance on a blank page**
 
@@ -94,11 +94,11 @@ You can interact with Now Assist directly in your Doc to create new content, add
     2.  **Write a 3-paragraph blog post explaining why \[industry trend\] is changing how businesses operate.**
     3.  **Generate an outline for the Instagram campaign tasks for a Hackathon initiative.**
 
-        \[Omitted image "na-blank-page-nacm.png"\] Alt text: Creating first draft for a page using Now Assist.
+        \[Omitted image "na-blank-page-nacm.png"\] Alt text: Creating first draft for a page using ServiceNow Otto.
 
 -   **Answer questions in the context of this Doc**
 
-    Whether the content in the Doc is added manually or generated using Now Assist, you can ask questions to find anything in the page's context.
+    Whether the content in the Doc is added manually or generated using ServiceNow Otto, you can ask questions to find anything in the page's context.
 
     For example, if you have a project charter document, you can try asking **What is the total budget of this project and which part is the most expensive?**
 

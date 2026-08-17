@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-01-15"
 reading_time_minutes: 3
 keywords: [Generative AI for IT Operations Management, Generative AI for ITOM, Service Observability dashboard analysis, Now Assist panel]
-breadcrumb: [Use generative AI, Now Assist for ITOM, IT Operations Management]
+breadcrumb: [Use generative AI, ServiceNow Otto for ITOM, IT Operations Management]
 ---
 
 # Analyze a dashboard in Service Observability
@@ -71,5 +71,5 @@ Role required: admin, operator
     **Note:** Select the **Copy** icon to copy the analysis, for example to paste it into work notes for an incident or alert.
 
 
-**Parent Topic:**[Use generative AI in Now Assist for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-use.md)
+**Parent Topic:**[Use generative AI in ServiceNow Otto for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-use.md)
 

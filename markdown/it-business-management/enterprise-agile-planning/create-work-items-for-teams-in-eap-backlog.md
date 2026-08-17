@@ -45,9 +45,9 @@ You can open the work item from the success message to add more information.
 
 ## What to do next
 
--   Refine the description with Now Assist. See [Improve efficiency and quality using refine records skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/now-assist-for-strategic-portfolio-management-spm/refine-text-with-write-planning-item-skill.md).
+-   Refine the description with Now Assist. See .
 
-    This feature requires activating the Write planning item skill of Now Assist for SPM.
+    This feature requires activating the Write planning item skill of ServiceNow Otto for SPM.
 
 -   [Schedule work items into iterations in EAP Backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/schedule-work-items-into-iterations-in-eap-backlog.md).
 

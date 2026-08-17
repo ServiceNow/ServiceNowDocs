@@ -53,7 +53,7 @@ This guide focuses on agentic development tools and workflows. It does not cover
 -   Traditional ServiceNow development without AI assistance
 -   Detailed product-specific documentation \(links are provided to dedicated product docs\)
 
-For comprehensive product documentation, see the dedicated documentation for Build Agent, Now Assist for Creator, and other ServiceNow development tools.
+For comprehensive product documentation, see the dedicated documentation for Build Agent, ServiceNow Otto for Creator, and other ServiceNow development tools.
 
 ## Understanding your needs
 

@@ -9,7 +9,7 @@ classification: cloud-configuration-governance
 topic_type: reference
 last_updated: "2026-03-25"
 reading_time_minutes: 2
-breadcrumb: [Cloud Services Catalog Terraform Connector reference, Cloud Services Catalog Terraform Connector, Support for continuous delivery \(configuration management\), Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
+breadcrumb: [Reference, Cloud Services Catalog Terraform Connector, Support for continuous delivery \(configuration management\), Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Cloud Services Catalog Terraform Connector Create Config Provider form reference

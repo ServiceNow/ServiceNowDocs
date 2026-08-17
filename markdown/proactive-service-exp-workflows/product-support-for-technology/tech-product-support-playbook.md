@@ -8,7 +8,7 @@ product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 19
+reading_time_minutes: 18
 breadcrumb: [Technology Product Support Case, Proactive Service Experience Workflows]
 ---
 
@@ -165,7 +165,7 @@ The case summarization component appears in the left side panel. When an agent o
 -   Post the summary to the activity stream.
 -   Refresh the summary.
 
- The case summarization component requires that the [Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/now-assist-csm.md) application is installed and the case summarization skill has been configured.
+ The case summarization component requires that the [ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/now-assist-csm.md) application is installed and the case summarization skill has been configured.
 
 </td></tr><tr><td>
 
@@ -179,7 +179,7 @@ The Product Support for Technology process page includes a horizontal playbook t
 -   Resolve
 -   Close
 
-For more information about the playbook, see [Product Support for Technology playbook stages and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-playbook-stages.md).
+For more information about the playbook, see [Playbook stages and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-playbook-stages.md).
 
 </td></tr><tr><td>
 
@@ -371,7 +371,10 @@ Email Templates
 
 </td><td>
 
-The Email Templates tab provides access to available email templates. These templates contain default values for fields that agents can add to email messages. These default values can include the recipients \(email addresses in the To, Cc, and Bcc fields\), the sender, the subject of the email, and text to include in the message body.
+The Email Templates tab provides access to available email templates. These templates contain default values for fields that agents can add to email messages. These default values can include the following details:-   Recipients \(email addresses in the To, Cc, and Bcc fields\)
+-   Sender
+-   Subject of the email
+-   Text to include in the message body
 
 </td></tr><tr><td>
 

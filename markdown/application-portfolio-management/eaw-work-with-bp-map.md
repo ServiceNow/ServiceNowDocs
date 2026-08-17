@@ -39,6 +39,10 @@ You can perform the following actions when working with a business process map:
 
 To keep connector ports visible on shapes at all times without hovering, enable the **Show all buttons without the need to hover** preference in **Preferences** &gt; **Accessibility**. For more information, see [Show shape controls without hovering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-show-shape-ports.md).
 
+-   **[Create a business process map diagram from an image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-create-bpm-diag-from-image.md)**  
+Upload an image of an existing process diagram to generate a new, editable business process map diagram in EA Workspace using the ServiceNow AI Lens ServiceNow Otto® skill.
+-   **[Review an AI-generated business process map diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-review-ai-generated-bpm-diag.md)**  
+After ServiceNow AI lens generates a business process map \(BPM\) diagram from an uploaded image, review the diagram and resolve any low-confidence shapes, and accept or discard it.
 -   **[Create a diagram for a business process map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-modeling-bp-map.md)**  
 Create business process diagrams and model the future state of the business processes using the Enterprise Modeling and Visualization.
 -   **[Update a business process map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-modeling-update-bp-map.md)**  

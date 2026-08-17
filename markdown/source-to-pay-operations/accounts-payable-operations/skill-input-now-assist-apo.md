@@ -1,20 +1,21 @@
 ---
-title: Skill inputs for Now Assist for Accounts Payable Operations \(APO\)
-description: You can configure some of the inputs for a generative AI skill. Inputs permit you to determine how and when a skill is used.
+title: Skill inputs for ServiceNow Otto for Accounts Payable Operations \(APO\)
+description: Skill inputs for the invoice case summarization skill, including the base input table and fields used to generate invoice case summaries.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/accounts-payable-operations/skill-input-now-assist-apo.html
 release: zurich
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure Now Assist for Accounts Payable Operations \(APO\), Now Assist for APO, Accounts Payable Operations, Finance and Supply Chain]
+keywords: [APO, Accounts Payable Operations, ServciceNow Otto, Invoice case, Supplier, invoice case summarization skill]
+breadcrumb: [Configure ServiceNow Otto for Accounts Payable Operations \(APO\), ServiceNow Otto for APO, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
-# Skill inputs for Now Assist for Accounts Payable Operations \(APO\)
+# Skill inputs for ServiceNow Otto for Accounts Payable Operations \(APO\)
 
-You can configure some of the inputs for a generative AI skill. Inputs permit you to determine how and when a skill is used.
+Skill inputs for the invoice case summarization skill, including the base input table and fields used to generate invoice case summaries.
 
 ## Overview of skills
 
@@ -22,30 +23,15 @@ Inputs identify the data that is used for a skill. Inputs include the table and 
 
 You can modify the inputs, but you can't modify a skill's data source. The data source contains the tables and fields that the skill relies on.
 
-## Skills for Now Assist for APO
+## Skills for ServiceNow Otto for Accounts Payable Operations \(APO\)
 
-The Now Assist for APO application includes the invoice case summarization skill.
-
-**Important:** These Now Assist skills are now turned on by default. The skills will be automatically available to appropriate role users for the application. This change simply activates the skills and does not touch the roles that are needed to use them. The new default behavior works as follows:
-
--   **New customers**
-
-    When you install a Now Assist product, designated skills are turned on automatically.
-
--   **Existing customers who are upgrading \(starting with Zurich Patch 4\)**
-
-    Any previously unconfigured skill is turned on automatically \(the skill was never turned on, then off again\).
-
-    There is no change to Now Assist skills that are currently enabled and customized.
-
-    Previously configured skills that were turned on, then off, remain inactive.
-
+The ServiceNow Otto for APO application includes the invoice case summarization skill.
 
 ## Invoice case summarization skill
 
 The inputs for the invoice case summarization skill identify the table and fields that are used when the summary is generated for an invoice case.
 
-The following table lists the inputs for the case summarization from the Choose input for procurement case page in the Now Assist Admin console.
+The following table lists the inputs for the case summarization from the Choose input for procurement case page in the AI Admin Hub console.
 
 <table id="table_qcd_hl2_pdc"><thead><tr><th>
 
@@ -85,8 +71,4 @@ Base input fields
 -   Closure details
 
 </td></tr></tbody>
-</table>**Related topics**  
-
-
-[Using Invoice Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/use-invoice-case-mgmt.md)
-
+</table>

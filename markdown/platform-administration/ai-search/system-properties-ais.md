@@ -189,7 +189,7 @@ Option to allow indexing of searchable content from role-restricted catalog vari
 Option to allow indexing of searchable content from globally accessible catalog variables on Catalog Item records. To allow indexing of searchable content from catalog variables that require specific roles to access, see **glide.ais.ingestion.ignore\_catalog\_variables\_read\_roles**.
 
 -   Type: true \| false
--   Default value: **false** in base system, **true** if Now Assist in AI Search application is installed
+-   Default value: **false** in base system, **true** if ServiceNow Otto® for AI Search application is installed
 -   Supported values:
     -   **false**: Prevent indexing of searchable content from catalog variables on Catalog Item records.
     -   **true**: Allow indexing of searchable content from globally accessible catalog variables on Catalog Item records.

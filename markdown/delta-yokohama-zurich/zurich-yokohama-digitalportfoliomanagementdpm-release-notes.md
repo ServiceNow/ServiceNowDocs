@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-digitalportfoliomanagementdpm-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -75,15 +75,15 @@ Zurich
 
 </td><td>
 
--   **[Configure Info tab](https://servicenow-staging.fluidtopics.net/access?context=dpm-configure-info-tab&family=zurich&ft:locale=en-US)**
+-   **[Configure Info tab](https://www.servicenow.com/docs/access?context=dpm-configure-info-tab&family=zurich&ft:locale=en-US)**
 
 Show or hide various sections of the **Info** tab for your solutions in DPM.
 
--   **[Create enterprise service portfolios using a template](https://servicenow-staging.fluidtopics.net/access?context=dpm-create-enterprise-portfolio-using-template&family=zurich&ft:locale=en-US)**
+-   **[Create enterprise service portfolios using a template](https://www.servicenow.com/docs/access?context=dpm-create-enterprise-portfolio-using-template&family=zurich&ft:locale=en-US)**
 
 Create enterprise portfolios from scratch or by using a template. Enterprise portfolios are structured in a nesting tree format to facilitate navigation of service-related items and taxonomy nodes. Similar to personal portfolios, you can see key metrics to assess the portfolio performance.
 
--   **[Configure scheduled email reports](https://servicenow-staging.fluidtopics.net/access?context=dpm-schedule-email-reports&family=zurich&ft:locale=en-US)**
+-   **[Configure scheduled email reports](https://www.servicenow.com/docs/access?context=dpm-schedule-email-reports&family=zurich&ft:locale=en-US)**
 
 Send periodic emails of KPI metrics to the DPM solution owners. This feature is off by default and can be activated in the DPM Admin Center under a new 'Email properties' section.
 
@@ -359,7 +359,7 @@ Zurich
     -   DPM admins can set an enterprise portfolio's **Status** to Active or Inactive.
     -   DPM managers will only see enterprise portfolios that are active.
 
- See [Digital Portfolio Management](https://servicenow-staging.fluidtopics.net/access?context=dpm-landing&family=zurich&ft:locale=en-US) for more information.
+ See [Digital Portfolio Management](https://www.servicenow.com/docs/access?context=dpm-landing&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

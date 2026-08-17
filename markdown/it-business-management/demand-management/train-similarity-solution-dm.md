@@ -60,6 +60,10 @@ When the solution is complete, the similar demands appear in the Similar demands
 
 [Create a demand]()
 
+[Identify similar records using AI]()
+
+[Summarize demands with the demand summarization skill]()
+
 [View demands]()
 
 [Add details to demands]()
@@ -72,11 +76,9 @@ When the solution is complete, the similar demands appear in the Similar demands
 
 [Move and resize a demand]()
 
-[Identify similar records using Now Assist for Strategic Portfolio Management \(SPM\)]()
+[PPM PIWB template - Find similar demands]()
 
 [Associate AI systems with demands]()
-
-[Summarize demands with demand summarization skill]()
 
 [Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/predictive-intelligence.md)
 

@@ -37,7 +37,7 @@ A graphic representation of table, indicator, or other instance data placed on a
 
 ## element
 
-A visual object placed on a Platform Analytics dashboard. Elements include data visualizations, dividers, filters, filter groups, headings, images, lists, Now Assist Context Menus, Process Mining maps, rich text, workbenches, and funnels.
+A visual object placed on a Platform Analytics dashboard. Elements include data visualizations, dividers, filters, filter groups, headings, images, lists, ServiceNow Otto context menus, Process Mining maps, rich text, workbenches, and funnels.
 
 ## filter
 

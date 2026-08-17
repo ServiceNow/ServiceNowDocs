@@ -57,14 +57,6 @@ Here are some additional ServiceNow resources that can help you:
 
     Access real-time courses, self-paced training, and career resources, such as [Accounts Payable Operations \(APO\) Implementation Essentials](https://learning.servicenow.com/lxp/en/source-to-pay-operations/source-to-pay-operations-accounts-payable?id=learning_course_prev&course_id=80615190477cfd10c00af235126d4306) and more, from [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow).
 
--   **\[Omitted image "dcx-icon.svg"\] Now Create**
-
-    Log in to your ServiceNow account and find additional information about implementing and deploying Accounts Payable Operations features at [Now Create](https://learning.servicenow.com/nowcreate).
-
--   **\[Omitted image "icon-youtube.svg"\] YouTube**
-
-    Learn more about the value that you can add to your business with the Source-to-Pay suite. Watch [Multiply the value of your ServiceNow platform with Source-to-Pay workflows](https://www.youtube.com/watch?v=crQtfrCR6DY) on YouTube.
-
 -   **\[Omitted image "dcx-icon-community.svg"\] ServiceNow Community**
 
     Connect with other Accounts Payable Operations users at [ServiceNow Community](https://www.servicenow.com/community/source-to-pay-operations/ct-p/source-2-pay-operations).

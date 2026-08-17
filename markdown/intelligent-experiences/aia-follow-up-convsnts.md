@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
 keywords: [AI Agents, Agentic AI]
-breadcrumb: [Configure, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Configure, AI Agent Studio, Enable AI experiences]
 ---
 
 # Follow-up conversations
@@ -81,7 +81,7 @@ Application
 
 </td><td>
 
-The application scope for the agent property record: Now Assist AI agents.
+The application scope for the agent property record: ServiceNow Otto AI agents.
 
 </td></tr></tbody>
 </table>4.  Select **Submit**.

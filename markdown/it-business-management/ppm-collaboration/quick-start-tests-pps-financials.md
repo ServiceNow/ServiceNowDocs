@@ -96,7 +96,7 @@ Validate Project is not 100 percent complete if it has atleast one task as close
 
 </td><td>
 
-Validate the project percent complete is not 100% when at least one of the tasks is closed as Closed Incomplete or Closed Skipped with task % complete less than 100%.
+Validate the project percent complete is not 100% when at least one task is Closed Incomplete or Closed Skipped with task % complete less than 100%.
 
 </td><td>
 
@@ -266,7 +266,7 @@ Validate project preference "close project milestone tasks when they change to w
 
 </td><td>
 
-Validate that the milestone tasks are closed when their state is changed to Work in Progress after setting the project preference to "close project milestone tasks when they change to work state".
+Validate that milestone tasks are closed when their state is changed to Work in Progress. This test uses the project preference "close project milestone tasks when they change to work state".
 
 </td><td>
 
@@ -278,7 +278,7 @@ Validate project preference "Enable move project for WIP projects"
 
 </td><td>
 
-Validate that the project start date is changed appropriately for a project in WIP state when the project start date is changed after setting the project preference to "Enable move project for WIP projects".
+Validate that the project start date changes appropriately for a project in WIP state. This test uses the project preference "Enable move project for WIP projects".
 
 </td><td>
 
@@ -290,7 +290,7 @@ Validate project preference "Rollup project start date from tasks"
 
 </td><td>
 
-Validate that the start date of a project task does not roll up to the project when the project planned dates are different than the project task start date after deselecting the project preference "Rollup project start date from tasks".
+Validate that the start date of a project task does not roll up to the project. This test deselects the project preference "Rollup project start date from tasks" and verifies behavior when project planned dates differ from the project task start date.
 
 </td><td>
 
@@ -440,7 +440,7 @@ Verify aggregated cost of all resource plans roll up to the corresponding projec
 
 </td><td>
 
-Validate that the aggregated cost of all resource plans on a project or demand roll up to the Planned Cost and Allocated Cost fields and the Resource Cost section of respective projects and demands.
+Validate that the aggregated cost of all resource plans on a project or demand roll up to the Planned Cost and Allocated Cost fields. Verify that costs also roll up to the Resource Cost section of respective projects and demands.
 
 </td><td>
 
@@ -517,7 +517,7 @@ Verify whether change in resource plan is reflected in corresponding cost plan
 
 </td><td>
 
-Validate that when a resource plan is updated, the corresponding cost plan is updated accordingly. For example, if the total planned cost is 500 USD, and the planned hours is 10, and you change the planned hours to 20, the total planned cost is updated to 1000 USD.
+Validate that when a resource plan is updated, the corresponding cost plan is updated accordingly. For example, the total planned cost is 500 USD and the planned hours is 10. Changing the planned hours to 20 updates the total planned cost to 1000 USD.
 
 </td><td>
 
@@ -530,7 +530,7 @@ Resource-Test the default population of resource plan start &amp; end date
 </td><td>
 
 Validate the following on creating a user or group resource plan from the related list of a demand:-   If a demand is created without a start date and end date, the user or group resource plan has task as demand and no start and end date.
--   If a demand is created with a start date and end date, the user resource plan has task as demand and the start date and end date as added for the demand.
+-   If a demand is created with a start date and end date, the user resource plan has the task as demand with those dates.
 
 </td><td>
 
@@ -542,7 +542,7 @@ Validate that actual hours in operational resource plan and time card are equal
 
 </td><td>
 
-Validate that when a time card category is mapped with an operational work type, on submitting the time card for the operational resource plan associated with that work type, the actual hours in the resource plan and the time card are equal.
+Validate that when a time card category is mapped with an operational work type, the actual hours match between the resource plan and time card after submission.
 
 </td><td>
 

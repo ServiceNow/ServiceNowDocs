@@ -7,7 +7,7 @@ release: zurich
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Now Assist reference, Now Assist, Enable AI experiences]
+breadcrumb: [AI Admin Hub reference, AI Admin Hub, Enable AI experiences]
 ---
 
 # Fetch end points in Now Assist Conversational Help skills
@@ -20,11 +20,11 @@ The Now Assist Conversational Help skill displays as Get Help on the Now Assist 
 
 **Note:** To preserve data privacy standards, end points support for Get Help skill is not available in GCC/ NSC regulated markets.
 
-For optimal performance, the central instance should be situated in the same geographic area as the user's instance. To achieve this alignment, we utilize DISH service, a tool within the user's instance, that helps identify the correct endpoint. The Now Assist Conversational Help skills uses the Mimir lookup service feature, inside the different data centers.
+For optimal performance, the central instance should be situated in the same geographic area as the user's instance. To achieve this alignment, we use DISH service, a tool within the user's instance, that helps identify the correct endpoint. The Now Assist Conversational Help skills uses the Mimir lookup service feature, inside the different data centers.
 
 The DISH service communicates with the Mimir lookup table to determine the end points matching the user's location. Once we obtain this endpoint, it gets securely stored in the sys-service table within the customer instance. Moving forward, all the users' queries are routed through the specific endpoint, ensuring consistency and reliability. The Get Help skill uses the endpoint present in the sys-property `com.snc.get_help.endpoint`.
 
 **Note:** The Now Assist Conversational Help skill version is stored in sn\_ads\_now\_help.com.snc\_now\_help\_skill.version, ensuring backward compatibility within the conversational shared services.
 
-**Parent Topic:**[Now Assist reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-reference-landing.md)
+**Parent Topic:**[AI Admin Hub reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-reference-landing.md)
 

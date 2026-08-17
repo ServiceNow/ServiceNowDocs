@@ -1,6 +1,6 @@
 ---
-title: Now Assist for Strategic Portfolio Management \(SPM\)
-description: Use the ServiceNow Now Assist for Strategic Portfolio Management \(SPM\) application to summarize feedback in Strategic Planning or text in Docs, create a demand with a conversational experience, generate insights for projects, and generate stories from epics. Product, project, and demand managers can use the Now Assist skills and AI agents to streamline their projects and workflows.
+title: ServiceNow Otto for Strategic Portfolio Management
+description: The ServiceNow Otto for Strategic Portfolio Management application provides AI-powered capabilities that summarize feedback, create demands, generate project insights, and generate stories from epics. Product, project, and demand managers can use Now Assist skills and agents to streamline their workflows.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/now-assist-for-strategic-portfolio-management-spm/now-assist-spm.html
 release: zurich
@@ -13,31 +13,31 @@ keywords: [AI Agents, Agentic AI, Now Assist for SPM]
 breadcrumb: [Strategic Portfolio Management]
 ---
 
-# Now Assist for Strategic Portfolio Management \(SPM\)
+# ServiceNow Otto for Strategic Portfolio Management
 
-Use the ServiceNow® Now Assist for Strategic Portfolio Management \(SPM\) application to summarize feedback in Strategic Planning or text in Docs, create a demand with a conversational experience, generate insights for projects, and generate stories from epics. Product, project, and demand managers can use the Now Assist skills and AI agents to streamline their projects and workflows.
+The ServiceNow Otto for Strategic Portfolio Management application provides AI-powered capabilities that summarize feedback, create demands, generate project insights, and generate stories from epics. Product, project, and demand managers can use Now Assist skills and agents to streamline their workflows.
 
 ## Get started
 
 <table id="table_xsp_hjf_1zb" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about Now Assist for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/now-assist-for-strategic-portfolio-management-spm/exploring-now-assist-for-spm.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about ServiceNow Otto for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/now-assist-for-strategic-portfolio-management-spm/exploring-now-assist-for-spm.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the application to get started with Now Assist for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/now-assist-for-strategic-portfolio-management-spm/configuring-na-spm.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the application to get started with ServiceNow Otto for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/now-assist-for-strategic-portfolio-management-spm/configuring-na-spm.md)
 
 </td><td>
 
-[Use AI agents\[Omitted image "bus-virtual-agent.svg"\] Alt text:Use the generative AI agents of Now Assist for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/now-assist-for-strategic-portfolio-management-spm/using-na-spm-ai-agents.md)
+[Use AI agents\[Omitted image "bus-virtual-agent.svg"\] Alt text:Use the generative AI agents of ServiceNow Otto for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/now-assist-for-strategic-portfolio-management-spm/using-na-spm-ai-agents.md)
 
 </td></tr><tr><td>
 
-[Use\[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:Use the generative AI capabilities of Now Assist for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/now-assist-for-strategic-portfolio-management-spm/using-now-assist-for-spm.md)
+Use\[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:Use the generative AI capabilities of ServiceNow Otto for SPM
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Learn about forms and fields of Now Assist for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/now-assist-for-strategic-portfolio-management-spm/now-assist-spm-reference.md)
+Reference\[Omitted image "bus-learn.svg"\] Alt text:Learn about forms and fields of ServiceNow Otto for SPM
 
 </td><td>
 
@@ -51,7 +51,7 @@ Use the ServiceNow® Now Assist for Strategic Portfolio Management \(SPM\) appli
 -   Some AI products/features are currently available only for customers in some regions. Be sure to check for availability updates in future releases.
 -   Some AI products and skills are not available in Regulated Markets. For more information, see [KB2593939: Regulated Markets AI Products/Skills Not Available](https://support.servicenow.com/kb?id=kb_article_view&sys_kb_id=e8d7cc82475aba90b7832920326d4362). Be sure to check for availability updates in future releases.
 
-You can use Now LLM Service, Azure OpenAI, Google Gemini, or Anthropic Claude on AWS as the AI model provider for Now Assist skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then you can set skill-level preferences in the [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/manage-large-language-models.md).
+You can use Now LLM Service, Azure OpenAI, Google Gemini, or Anthropic Claude on AWS as the AI model provider for Now Assist skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then you can set skill-level preferences in the [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/manage-large-language-models.md).
 
 ## Troubleshoot and get help
 

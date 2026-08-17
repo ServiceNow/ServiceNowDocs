@@ -16,7 +16,7 @@ Specify a list of websites that AI agents configured with adaptive desktop actio
 
 ## Before you begin
 
-Set your application scope to Now Assist AI web agent.
+Set your application scope to ServiceNow Otto AI web agent.
 
 Role required: admin
 

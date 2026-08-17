@@ -9,7 +9,7 @@ classification: scripts
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Use Now Assist for Code, Now Assist for Code, Scripting, API implementation, API implementation and reference]
+breadcrumb: [Use Now Assist for Code, ServiceNow Otto for Code, Scripting, API implementation, API implementation and reference]
 ---
 
 # Explain and summarize code
@@ -22,7 +22,7 @@ Role required: authenticated user
 
 ## Procedure
 
-1.  Navigate to any script editor enabled with Now Assist for Code.
+1.  Navigate to any script editor enabled with ServiceNow Otto for Code.
 
     For example, to open a script include form, navigate to **All** &gt; **System Definition** &gt; **Script Includes** and select a script include.
 

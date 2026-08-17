@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-careteamoperationsforfacilities-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -91,19 +91,19 @@ Zurich
 
 </td><td>
 
--   **[Healthcare Facilities case](https://servicenow-staging.fluidtopics.net/access?context=cto-facilities-case-overview&family=zurich&ft:locale=en-US)**
+-   **[Healthcare Facilities case](https://www.servicenow.com/docs/access?context=cto-facilities-case-overview&family=zurich&ft:locale=en-US)**
 
 Expand facilities cases to support custom support requests for your organization’s facilities support department.
 
--   **[Create facilities support requests](https://servicenow-staging.fluidtopics.net/access?context=cto-facilities-create-request&family=zurich&ft:locale=en-US)**
+-   **[Create facilities support requests](https://www.servicenow.com/docs/access?context=cto-facilities-create-request&family=zurich&ft:locale=en-US)**
 
 Request support from your organization’s facilities department with pre-configured catalog items.
 
--   **[Healthcare facilities case and work order synchronization](https://servicenow-staging.fluidtopics.net/access?context=cto-facilities-fulfilling-requests&family=zurich&ft:locale=en-US)**
+-   **[Healthcare facilities case and work order synchronization](https://www.servicenow.com/docs/access?context=cto-facilities-fulfilling-requests&family=zurich&ft:locale=en-US)**
 
 Care Team Operations for Facilities automatically syncs Healthcare Facilities cases with work orders.
 
--   **[Setting up roles and responsibilities in Care Team Operations for Facilities](https://servicenow-staging.fluidtopics.net/access?context=hco-facilities-set-up-roles-responsibilities&family=zurich&ft:locale=en-US)**
+-   **[Setting up roles and responsibilities in Care Team Operations for Facilities](https://www.servicenow.com/docs/access?context=hco-facilities-set-up-roles-responsibilities&family=zurich&ft:locale=en-US)**
 
 Roles and responsibilities have been updated to allow for more selective user access.
 
@@ -260,7 +260,7 @@ Zurich
 
 </td><td>
 
-Install Care Team Operations for Facilities by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+Install Care Team Operations for Facilities by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -450,7 +450,7 @@ Zurich
 -   Gain full visibility into reported facilities support cases while enabling facilities teams to manage and fulfill them as work orders or work orders tasks when Field Service Management is installed.\]
 -   Assign roles and responsibilities more efficiently with a streamlined user configuration process.
 
- See [Care Team Operations for Facilities](https://servicenow-staging.fluidtopics.net/access?context=cto-facilities-landing&family=zurich&ft:locale=en-US) for more information.
+ See [Care Team Operations for Facilities](https://www.servicenow.com/docs/access?context=cto-facilities-landing&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/rn-combined-intro.md)

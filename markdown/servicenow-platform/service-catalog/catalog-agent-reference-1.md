@@ -9,7 +9,7 @@ classification: service-catalog
 topic_type: reference
 last_updated: "2026-06-26"
 reading_time_minutes: 1
-breadcrumb: [Conversational Catalog Request reference, Now Assist in Conversational Catalog Request, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Conversational Catalog Requests reference, Conversational Catalog Requests, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Catalog Agent

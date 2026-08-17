@@ -84,5 +84,5 @@ Real-time messaging enforcement can be disabled with the Scan Engine properties 
 
 In addition, visibility of real-time messaging for certain users can also be configured with the Scan Engine properties page. You can limit the users that will receive real-time messaging to a specific group if necessary.
 
-For more information, refer to [Configure Scan Engine properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/configure-scan-engine-properties.md).
+For more information, refer to [Configure Scan Engine parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/configure-scan-engine-properties.md).
 

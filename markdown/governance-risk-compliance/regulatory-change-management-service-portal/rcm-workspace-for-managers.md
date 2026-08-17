@@ -99,5 +99,3 @@ The GRC: Regulatory Change Management landing page displays the following sectio
 
 [Regulatory Change Management application in the Compliance Workspace]()
 
-[Exploring Now Assist in Regulatory Change Management \(RCM\)]()
-

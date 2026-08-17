@@ -209,7 +209,7 @@ Feedback content
 
 **Survey**: Existing survey to be added to the **Feedback type**.To use a survey for the **Email** **Channel**, Outlook Actionable Messages must be selected in the survey definition.
 
-To use a survey for the **Virtual Agent** **Channel**, **Chat Survey** must be selected in the survey definition. For more information about chat surveys, see [Create chat surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/create-chat-surveys.md).
+To use a survey for the **Virtual Agent** **Channel**, **Chat Survey** must be selected in the survey definition. For more information about chat surveys, see .
 
 For more information about survey definitions, see [Modify a survey definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/t_ModifySurveyDefinitions.md).
 

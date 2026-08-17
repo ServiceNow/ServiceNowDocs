@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-disputerulescontentpackfornacha-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -75,11 +75,11 @@ Zurich
 
 </td><td>
 
--   **[Decision tables for ACH dispute processing](https://servicenow-staging.fluidtopics.net/access?context=dispute-rules-content-pack-nacha-explore&family=zurich&ft:locale=en-US)**
+-   **[Decision tables for ACH dispute processing](https://www.servicenow.com/docs/access?context=dispute-rules-content-pack-nacha-explore&family=zurich&ft:locale=en-US)**
 
 Streamline dispute processing by validating ACH transaction details and questionnaire answers against the eligibility rules in the decision tables included in this application.
 
--   **[Supporting Knowledge Base article](https://servicenow-staging.fluidtopics.net/access?context=dispute-rules-content-pack-nacha-use&family=zurich&ft:locale=en-US)**
+-   **[Supporting Knowledge Base article](https://www.servicenow.com/docs/access?context=dispute-rules-content-pack-nacha-use&family=zurich&ft:locale=en-US)**
 
 Verify chargeback eligibility with the included Knowledge Base article that contains a table of reason codes and chargeback rules.
 
@@ -198,7 +198,7 @@ Zurich
 
 </td><td>
 
-Install Dispute Rules Content Pack for Nacha by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+Install Dispute Rules Content Pack for Nacha by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -346,7 +346,7 @@ Zurich
 -   Run chargeback eligibility rules and derive ACH dispute categories and reason codes based on Nacha guidelines.
 -   Determine chargeback eligibility using an integrated KB article that contains rules and conditions.
 
- See [\[Placeholder link text to key bundle-finso.dispute-rules-content-pack-nacha-landing-page\]](https://servicenow-staging.fluidtopics.net/access?context=dispute-rules-content-pack-nacha-landing-page&family=zurich&ft:locale=en-US) for more information.
+ See [\[Placeholder link text to key bundle-finso.dispute-rules-content-pack-nacha-landing-page\]](https://www.servicenow.com/docs/access?context=dispute-rules-content-pack-nacha-landing-page&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

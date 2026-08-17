@@ -21,7 +21,7 @@ Next Experience for Demand Management enables you to create, evaluate, and prior
 
 Next Experience for Demand Management is a centralized workspace experience that streamlines how your organizations can capture, evaluate, and progress demands through their life cycle. It brings together all demand‑related activities such as intake, qualification, and task management into a single interface. By consolidating access to demands, tasks, resources, financials, and supporting records, the workspace means you don't have to navigate across multiple modules. You can define scope, assess capacity, estimate effort, and evaluate financial and strategic impact. Playbooks guide demands through each stage from intake to completion so your team follows a consistent process.
 
-\[Omitted image "all-demands-home-page.png"\] Alt text: All Demands list.
+\[Omitted image "all-demands-home-page.png"\] Alt text: Demands open in the Dashboard with tabs and widgets.
 
 ## Next Experience for Demand Management users
 
@@ -39,10 +39,12 @@ Next Experience for Demand Management provides benefits for demand managers and 
 
 -   Consistent demand intake and evaluation process: Next Experience for Demand Management enables a structured workflow. Demands progress through defined evaluation stages.
 -   Centralized visibility into demand information: Next Experience for Demand Management provides a single interface to view all demands and their associated details such as business cases, capacity, and financials. Demand managers can compile a complete picture of a demand without having to cross-reference multiple forms, modules, or applications to compile a complete picture of a demand.
+-   At-a-glance demand insights: The Demands Dashboard summarizes demand volume, financials, and data quality across three tabs, Overview, Financials, and Data Quality. Demand managers can monitor key metrics and drill into the underlying records without leaving the workspace.
 -   Playbook-guided demand life-cycle: Playbooks define the sequence of stages and activities that demands must go through such as creation, planning, assessment, and approval. Each stage contains a set of prescribed activities that must be completed before demands transition to the next stage. Using playbooks, your organization can define its own processes.
 -   Consolidated data for demand prioritization: Next Experience for Demand Management provides demand details, capacity and risk assessment outputs, and financial summaries in a unified view. Demand managers can compare, rank, and prioritize demands based on defined organizational criteria.
+-   Manage demand financials in one place: Using the Financials tab on the demand record, demand managers can view, plan, and define cost plans, benefit plans, and budgets. Filter by time scope and personalize grid columns without leaving the demand.
 -   AI system integration through playbook activities: The AI playbook enables associating AI systems to demands through a playbook activity. This feature enables associating a demand with an AI system from directly within the demand workflow.
--   AI-assisted record refinement and summarization: Using the Now Assist for Strategic Portfolio Management \(SPM\) skills, demand users and demand managers can expand or condense text content in text fields and summarize the demand.
+-   AI-assisted demand skills: Using the AI skills, demand users and demand managers can expand or condense text content in text fields, summarize the demand, and identify the similar demand records.
 
 ## What to explore next
 

@@ -9,6 +9,7 @@ classification: configuration-management-database-cmdb
 topic_type: task
 last_updated: "2025-08-07"
 reading_time_minutes: 2
+keywords: [Data Foundations data integration coverage, attribute coverage for principal classes, Discovery pattern coverage, Service Graph Connector coverage, supported principal classes and attributes, upgrade data integration source]
 breadcrumb: [Analyze data integrations, Use Data Foundations advisor, CMDB success advisor, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 

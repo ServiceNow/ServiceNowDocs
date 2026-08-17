@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2025-07-02"
 reading_time_minutes: 1
-breadcrumb: [Configure Model Context Protocol Client, Model Context Protocol Client, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Configure Model Context Protocol Client, Model Context Protocol Client, AI Agent Studio, Enable AI experiences]
 ---
 
 # Install Model Context Protocol Client

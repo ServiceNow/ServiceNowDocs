@@ -7,7 +7,7 @@ release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: reference
-last_updated: "2025-10-27"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
 breadcrumb: [Reference, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
@@ -565,9 +565,9 @@ Contract Management Pro for Legal Service Delivery is a licensed application tha
 
 [Contract request State and Contract document status in Contract Management Pro]()
 
-[Clause Variation form]()
-
 [Signatory roles]()
+
+[Clause Variation form]()
 
 [Contract Configuration form]()
 

@@ -1,6 +1,6 @@
 ---
 title: Activate Process Inefficiency Highlights skill
-description: Activate the Process Inefficiency Highlights skill to be able to use Now Assist for Process Mining to generate highlights for improvement opportunities.
+description: Activate the Process Inefficiency Highlights skill to be able to use ServiceNow Otto for Process Mining to generate highlights for improvement opportunities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/process-mining/activate-highlight-skills.html
 release: zurich
@@ -9,12 +9,12 @@ classification: process-mining
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Working with process inefficiency highlights using Now Assist, Configuring Now Assist for Process Mining, Now Assist for Process Mining, Using Process Mining, Process Mining, Platform Analytics]
+breadcrumb: [Working with process inefficiency highlights using AI, Configuring ServiceNow Otto for Process Mining, ServiceNow Otto for Process Mining, Using Process Mining, Process Mining, Platform Analytics]
 ---
 
 # Activate Process Inefficiency Highlights skill
 
-Activate the Process Inefficiency Highlights skill to be able to use Now Assist for Process Mining to generate highlights for improvement opportunities.
+Activate the Process Inefficiency Highlights skill to be able to use ServiceNow Otto for Process Mining to generate highlights for improvement opportunities.
 
 ## Before you begin
 
@@ -22,18 +22,16 @@ Role required: admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills**.
+1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Skills**.
 
 2.  Select **Creator**.
 
-3.  Select **Process Inefficiency Highlights** from the list of Now Assist skills for Creator.
+3.  Select **Process Inefficiency Highlights** from the list of AI skills for Creator.
 
 4.  Select **Turn on** for the Process Inefficiency Highlights skill.
-
-    \[Omitted image "skill-acti-highli.png"\] Alt text: Process Inefficiency Highlights skill activated
 
     The skill is activated for your instance.
 
 
-**Parent Topic:**[Working with process inefficiency highlights using Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/highlights.md)
+**Parent Topic:**[Working with process inefficiency highlights using AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/highlights.md)
 

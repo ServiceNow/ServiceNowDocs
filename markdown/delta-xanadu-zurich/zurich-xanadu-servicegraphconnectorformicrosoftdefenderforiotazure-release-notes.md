@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-servicegraphconnectorformicrosoftdefenderforiotazure-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
@@ -75,7 +75,7 @@ Xanadu
 
 </td><td>
 
--   **[Categorize your OT devices into the industrial product model category](https://servicenow-staging.fluidtopics.net/access?context=model-categories-for-ot&family=xanadu&ft:locale=en-US)**
+-   **[Categorize your OT devices into the industrial product model category](https://www.servicenow.com/docs/access?context=model-categories-for-ot&family=xanadu&ft:locale=en-US)**
 
 The enhanced Service Graph Connector for Microsoft Defender for IoT \(Azure\) creates assets in the Industrial product model category for OT class devices. This enables compatibility with the Enterprise Asset Management product for full lifecycle management of OT class devices.
 
@@ -86,19 +86,19 @@ Yokohama
 
 </td><td>
 
--   **[View the class mappings available for the Service Graph Connector](https://servicenow-staging.fluidtopics.net/access?context=sgc-microsoft-d4iot-azure-classes&family=yokohama&ft:locale=en-US)**
+-   **[View the class mappings available for the Service Graph Connector](https://www.servicenow.com/docs/access?context=sgc-microsoft-d4iot-azure-classes&family=yokohama&ft:locale=en-US)**
 
 View the available class mappings and targeted CMDB classes on the MSFT D4IoT Azure SGC Class Mappings page.
 
--   **[Capture firmware version of devices](https://servicenow-staging.fluidtopics.net/access?context=sgc-microsoft-d4iot-azure-classes&family=yokohama&ft:locale=en-US)**
+-   **[Capture firmware version of devices](https://www.servicenow.com/docs/access?context=sgc-microsoft-d4iot-azure-classes&family=yokohama&ft:locale=en-US)**
 
 Firmware versions of your Service Graph Connector for Microsoft Defender for IoT \(Azure\) devices are captured in the Firmware Installation \[cmdb\_firmware\_install\] table.
 
--   **[Use the ire\_criterion\_attribute in the OT Entity \[cmdb\_ot\_entity\] table](https://servicenow-staging.fluidtopics.net/access?context=sgc-microsoft-d4iot-azure-classes&family=yokohama&ft:locale=en-US)**
+-   **[Use the ire\_criterion\_attribute in the OT Entity \[cmdb\_ot\_entity\] table](https://www.servicenow.com/docs/access?context=sgc-microsoft-d4iot-azure-classes&family=yokohama&ft:locale=en-US)**
 
 The ire\_criterion\_attribute identifies configuration items \(CIs\) for an OT entity-related entry and helps avoid entity update issues.
 
--   **[Actively scan device data from Microsoft Defender for IoT with the Site Mappings table](https://servicenow-staging.fluidtopics.net/access?context=actively-scan-device-data-msft-azure&family=yokohama&ft:locale=en-US)**
+-   **[Actively scan device data from Microsoft Defender for IoT with the Site Mappings table](https://www.servicenow.com/docs/access?context=actively-scan-device-data-msft-azure&family=yokohama&ft:locale=en-US)**
 
 Access the Site Mappings table to actively scan devices from Microsoft Defender for IoT and assign them to a site in your ServiceNow instance.
 
@@ -109,19 +109,19 @@ Zurich
 
 </td><td>
 
--   **[View the class mappings available for the Service Graph Connector](https://servicenow-staging.fluidtopics.net/access?context=sgc-microsoft-d4iot-azure-classes&family=zurich&ft:locale=en-US)**
+-   **[View the class mappings available for the Service Graph Connector](https://www.servicenow.com/docs/access?context=sgc-microsoft-d4iot-azure-classes&family=zurich&ft:locale=en-US)**
 
 View the available class mappings and targeted CMDB classes on the MSFT D4IoT Azure SGC Class Mappings page.
 
--   **[Capture firmware version of devices](https://servicenow-staging.fluidtopics.net/access?context=sgc-microsoft-d4iot-azure-classes&family=zurich&ft:locale=en-US)**
+-   **[Capture firmware version of devices](https://www.servicenow.com/docs/access?context=sgc-microsoft-d4iot-azure-classes&family=zurich&ft:locale=en-US)**
 
 Firmware versions of your Service Graph Connector for Microsoft Defender for IoT \(Azure\) devices are captured in the Firmware Installation \[cmdb\_firmware\_install\] table.
 
--   **[Use the ire\_criterion\_attribute in the OT Entity \[cmdb\_ot\_entity\] table](https://servicenow-staging.fluidtopics.net/access?context=sgc-microsoft-d4iot-azure-classes&family=zurich&ft:locale=en-US)**
+-   **[Use the ire\_criterion\_attribute in the OT Entity \[cmdb\_ot\_entity\] table](https://www.servicenow.com/docs/access?context=sgc-microsoft-d4iot-azure-classes&family=zurich&ft:locale=en-US)**
 
 The ire\_criterion\_attribute identifies configuration items \(CIs\) for an OT entity-related entry and helps avoid entity update issues.
 
--   **[Actively scan device data from Microsoft Defender for IoT with the Site Mappings table](https://servicenow-staging.fluidtopics.net/access?context=actively-scan-device-data-msft-azure&family=zurich&ft:locale=en-US)**
+-   **[Actively scan device data from Microsoft Defender for IoT with the Site Mappings table](https://www.servicenow.com/docs/access?context=actively-scan-device-data-msft-azure&family=zurich&ft:locale=en-US)**
 
 Access the Site Mappings table to actively scan devices from Microsoft Defender for IoT and assign them to a site in your ServiceNow instance.
 
@@ -256,7 +256,7 @@ Xanadu
 
 </td><td>
 
-Install Service Graph Connector for Microsoft Defender for IoT \(Azure\) by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
+Install Service Graph Connector for Microsoft Defender for IoT \(Azure\) by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -264,7 +264,7 @@ Yokohama
 
 </td><td>
 
-Install Service Graph Connector for Microsoft Defender for IoT \(Azure\) by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+Install Service Graph Connector for Microsoft Defender for IoT \(Azure\) by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -443,7 +443,7 @@ Xanadu
 
 Ensure that your Operational Technology \(OT\) devices are categorized under the Industrial product model category with the enhanced Service Graph Connector for Microsoft Defender for IoT \(Azure\) application.
 
- See [Service Graph Connector for Microsoft Defender for IoT \(Azure\)](https://servicenow-staging.fluidtopics.net/access?context=integration-sgc-microsoft-defender-iot-azure&family=xanadu&ft:locale=en-US) for more information.
+ See [Service Graph Connector for Microsoft Defender for IoT \(Azure\)](https://www.servicenow.com/docs/access?context=integration-sgc-microsoft-defender-iot-azure&family=xanadu&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -457,7 +457,7 @@ Yokohama
 -   Extend capabilities of the Service Graph Connector to import devices actively scanned by Microsoft Defender for IoT.
 -   Ingest actively scanned devices from Microsoft Defender for IoT and assign them to a site in your ServiceNow instance automatically using the **Site Map** table.
 
- See [Service Graph Connector for Microsoft Defender for IoT \(Azure\)](https://servicenow-staging.fluidtopics.net/access?context=integration-sgc-microsoft-defender-iot-azure&family=yokohama&ft:locale=en-US) for more information.
+ See [Service Graph Connector for Microsoft Defender for IoT \(Azure\)](https://www.servicenow.com/docs/access?context=integration-sgc-microsoft-defender-iot-azure&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -471,7 +471,7 @@ Zurich
 -   Extend capabilities of the Service Graph Connector to import devices actively scanned by Microsoft Defender for IoT.
 -   Ingest actively scanned devices from Microsoft Defender for IoT and assign them to a site in your ServiceNow instance automatically using the **Site Map** table.
 
- See [Service Graph Connector for Microsoft Defender for IoT \(Azure\)](https://servicenow-staging.fluidtopics.net/access?context=integration-sgc-microsoft-defender-iot-azure&family=zurich&ft:locale=en-US) for more information.
+ See [Service Graph Connector for Microsoft Defender for IoT \(Azure\)](https://www.servicenow.com/docs/access?context=integration-sgc-microsoft-defender-iot-azure&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/rn-combined-intro.md)

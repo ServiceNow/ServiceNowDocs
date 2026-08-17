@@ -1,5 +1,5 @@
 ---
-title: Agentic AI in Now Assist for ITSM
+title: Agentic AI in ServiceNow Otto for ITSM
 description: Use the IT Service Management AI agents within an agentic workflow to complete tasks autonomously.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/now-assist-for-it-service-management-itsm/now-assist-using-agentic-workflows-in-itsm.html
@@ -7,19 +7,15 @@ release: zurich
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: concept
-last_updated: "2025-11-11"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
-breadcrumb: [Use agentic AI in IT Service Management, Now Assist for IT Service Management \(ITSM\), IT Service Management]
+breadcrumb: [Use agentic AI in IT Service Management, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 
-# Agentic AI in Now Assist for ITSM
+# Agentic AI in ServiceNow Otto for ITSM
 
 Use the IT Service Management AI agents within an agentic workflow to complete tasks autonomously.
-
-## Overview of Incident triaging and resolution agentic workflows
-
-\[Omitted video\] Description: Incident triaging and resolution agentic workflows
 
 ## Agentic workflows for Now Assist IT Service Management
 
@@ -121,6 +117,18 @@ Answers questions about an open incident, including caller assets, recent incide
 
 1.  Incident context AI agent
 2.  Additional incident context AI agent
+
+</td></tr><tr><td>
+
+[Who is On Call](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-aiagents-on-call-usecase.md)
+
+</td><td>
+
+Retrieves on-call roster information for specific shifts, groups, or time periods.
+
+</td><td>
+
+On Call Retrieval AI agent
 
 </td></tr></tbody>
 </table>

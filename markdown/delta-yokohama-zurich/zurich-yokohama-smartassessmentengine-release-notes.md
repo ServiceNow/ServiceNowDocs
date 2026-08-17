@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-smartassessmentengine-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
@@ -67,35 +67,35 @@ Yokohama
 
 </td><td>
 
--   **[Copy an assessment template](https://servicenow-staging.fluidtopics.net/access?context=sae-asmnt-template-duplicate&family=yokohama&ft:locale=en-US)**
+-   **[Copy an assessment template](https://www.servicenow.com/docs/access?context=sae-asmnt-template-duplicate&family=yokohama&ft:locale=en-US)**
 
 Create a copy of an existing smart assessment template, including all questions, sections, and existing configurations. This feature enables you to duplicate a fully configured assessment, so you don't need to recreate the content. You can then customize the copied template to fit new requirements or scenarios.
 
--   **[Filter unanswered questions](https://servicenow-staging.fluidtopics.net/access?context=sae-respond-to-asmnt&family=yokohama&ft:locale=en-US)**
+-   **[Filter unanswered questions](https://www.servicenow.com/docs/access?context=sae-respond-to-asmnt&family=yokohama&ft:locale=en-US)**
 
 Filter questions in the assessments to display only unanswered questions, helping you focus on the remaining questions.
 
--   **[Use template designer](https://servicenow-staging.fluidtopics.net/access?context=sae-template-designer&family=yokohama&ft:locale=en-US)**
+-   **[Use template designer](https://www.servicenow.com/docs/access?context=sae-template-designer&family=yokohama&ft:locale=en-US)**
 
 Search for text within assessment sections, subsections, or questions, enabling you to locate specific information or keywords. This feature enhances navigation and enables you to find relevant content without manually scrolling through the entire assessment.
 
--   **[Auto-copy responses to all templates](https://servicenow-staging.fluidtopics.net/access?context=combine-assessments&family=yokohama&ft:locale=en-US)**
+-   **[Auto-copy responses to all templates](https://www.servicenow.com/docs/access?context=combine-assessments&family=yokohama&ft:locale=en-US)**
 
 Replicate your responses across all applicable assessments while combining assessments by enabling the auto-copy feature. It saves time and effort by copying your answers consistently without the need for manual repetition.
 
--   **[Automate responses](https://servicenow-staging.fluidtopics.net/access?context=automate-response&family=yokohama&ft:locale=en-US)**
+-   **[Automate responses](https://www.servicenow.com/docs/access?context=automate-response&family=yokohama&ft:locale=en-US)**
 
 Set up automatic responses for questions to enable assessors to complete assessments efficiently. You can either create default responses for all question types or define a script to fetch and map the values or data to responses.
 
--   **[Assessment scoring and analysis](https://servicenow-staging.fluidtopics.net/access?context=scoring-in-assessments&family=yokohama&ft:locale=en-US)**
+-   **[Assessment scoring and analysis](https://www.servicenow.com/docs/access?context=scoring-in-assessments&family=yokohama&ft:locale=en-US)**
 
 Calculate meaningful scores for assessment responses at the assessment, section, or subsection levels. These scores can then be used for reporting.
 
--   **[Post-assessment automation](https://servicenow-staging.fluidtopics.net/access?context=impact-automation&family=yokohama&ft:locale=en-US)**
+-   **[Post-assessment automation](https://www.servicenow.com/docs/access?context=impact-automation&family=yokohama&ft:locale=en-US)**
 
 Automate actions based on assessment responses. Template designers can predefine actions using a rule engine, such as updating fields, creating follow-up assessments, or generating other records.
 
--   **[Descriptive images in assessment questions](https://servicenow-staging.fluidtopics.net/access?context=sae-q-text-create&family=yokohama&ft:locale=en-US)**
+-   **[Descriptive images in assessment questions](https://www.servicenow.com/docs/access?context=sae-q-text-create&family=yokohama&ft:locale=en-US)**
 
 Attach descriptive images in the guidance section of the assessment questions. This means that template managers can include helpful visuals to assist respondents, making the instructions clearer and easier to understand.
 
@@ -106,23 +106,23 @@ Zurich
 
 </td><td>
 
--   **[Collaboration in assessments](https://servicenow-staging.fluidtopics.net/access?context=collaboration-in-assessments&family=zurich&ft:locale=en-US)**
+-   **[Collaboration in assessments](https://www.servicenow.com/docs/access?context=collaboration-in-assessments&family=zurich&ft:locale=en-US)**
 
 Enhance assessments with the new collaboration feature, enabling owners to add multiple contributors to work together in real time. This update enables assessors to collaborate efficiently by adding several contributors to an assessment. Real-time updates reflect each contributor's changes, and presence indicators show who is present on the assessment.
 
--   **[Normalization in assessments](https://servicenow-staging.fluidtopics.net/access?context=normalization-in-assessment&family=zurich&ft:locale=en-US)**
+-   **[Normalization in assessments](https://www.servicenow.com/docs/access?context=normalization-in-assessment&family=zurich&ft:locale=en-US)**
 
 Adjust assessment scores to a common scale to promote fair comparison and prioritization. This normalization process helps standardize these measurements, enabling different metrics or scores to be evaluated on the same scale.
 
--   **[Creating code questions](https://servicenow-staging.fluidtopics.net/access?context=sae-q-code-create&family=zurich&ft:locale=en-US)**
+-   **[Creating code questions](https://www.servicenow.com/docs/access?context=sae-q-code-create&family=zurich&ft:locale=en-US)**
 
 Capture data quickly and accurately from physical documents using a new barcode and QR code question type for assessments. By scanning barcodes or entering QR codes, the system can instantly retrieve and input relevant information.
 
--   **[Creating an assessment template from legacy metric types](https://servicenow-staging.fluidtopics.net/access?context=sae-asmnt-template-migrating&family=zurich&ft:locale=en-US)**
+-   **[Creating an assessment template from legacy metric types](https://www.servicenow.com/docs/access?context=sae-asmnt-template-migrating&family=zurich&ft:locale=en-US)**
 
 Migrate question dependencies with an improved migration utility, which now supports the check box question type and conditional visibility criteria defined on templates.
 
--   **[Combining assessments and copying responses](https://servicenow-staging.fluidtopics.net/access?context=combine-assessments&family=zurich&ft:locale=en-US)**
+-   **[Combining assessments and copying responses](https://www.servicenow.com/docs/access?context=combine-assessments&family=zurich&ft:locale=en-US)**
 
 Combine assessments from different templates into a single, streamlined view. Eliminating the need to open each assessment separately, preserving context, and improving efficiency.
 
@@ -233,7 +233,7 @@ Yokohama
 
 </td><td>
 
-Install Smart Assessment Engine by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+Install Smart Assessment Engine by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -241,7 +241,7 @@ Zurich
 
 </td><td>
 
-Install Smart Assessment Engine by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+Install Smart Assessment Engine by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -391,7 +391,7 @@ Yokohama
 -   Benefit from accessibility improvements to create a configurable workspace that supports Web Content Accessibility Guidelines \(WCAG\) 2.1 Level AA conformance.
 -   Descriptive images are now supported in the guidance section for questions.
 
- See [Smart Assessment Engine](https://servicenow-staging.fluidtopics.net/access?context=smart-asmnt-engine-landing-page&family=yokohama&ft:locale=en-US) for more information.
+ See [Smart Assessment Engine](https://www.servicenow.com/docs/access?context=smart-asmnt-engine-landing-page&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -405,7 +405,7 @@ Zurich
 -   Migrate question dependencies with an improved migration utility.
 -   Simplify your workflow by combining assessments from different templates in a single and unified view.
 
- See [Smart Assessment Engine](https://servicenow-staging.fluidtopics.net/access?context=smart-asmnt-engine-landing-page&family=zurich&ft:locale=en-US) for more information.
+ See [Smart Assessment Engine](https://www.servicenow.com/docs/access?context=smart-asmnt-engine-landing-page&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

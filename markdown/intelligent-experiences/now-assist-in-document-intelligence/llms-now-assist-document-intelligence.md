@@ -50,7 +50,7 @@ For more information, see [Large language models on the ServiceNow AI Platform](
 
 [Document and visual insights AI agent]()
 
-[Document Intelligence tool for Now Assist Skill Kit]()
+[Document Intelligence tool for AI Skill Kit]()
 
 [Field types in Now Assist in Document Intelligence]()
 

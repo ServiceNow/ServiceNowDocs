@@ -18,11 +18,13 @@ If you’re using both Policy and Compliance Management and Third-party Risk Man
 
 ## Before you begin
 
-Role required: sn\_vdr\_risk\_asmt.vendor\_risk\_manager and sn\_compliance.manager
+Role required: sn\_compliance.manager and sn\_vdr\_risk\_asmt.vendor\_risk\_manager to associate controls in the Vendor Management Workspace.
 
 ## About this task
 
-Controls are automatically generated when you associate a policy with an entity type or an entity type with a control objective. A control is created for each entity listed in the entity type for the control objective. Controls can also be manually created.
+Controls and control objectives are created and managed in Policy and Compliance Management and can then be associated with third parties or engagements.
+
+Controls are automatically generated when you associate a policy with an entity type or an entity type with a control objective. A control is created for each entity listed in the entity type for the control objective. Controls can also be manually associated with a third party or engagement.
 
 For more information on creating policies in Policy and Compliance Management, see [Create a policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/t_DefineAPolicy.md).
 
@@ -48,7 +50,7 @@ To understand the difference between a control objective and a control, see [Str
 
     For more information on managing controls, see [Manage controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/c_GRCControls.md).
 
-    The control is created and all related lists are visible.
+    The control is associated with the third party or engagement and all related lists are visible.
 
 
 -   **[Create new control form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-control-record-form.md)**  

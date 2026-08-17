@@ -8,9 +8,9 @@ product: AI Search
 classification: ai-search
 topic_type: concept
 last_updated: "2026-05-06"
-reading_time_minutes: 4
+reading_time_minutes: 5
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configuring Now Assist in AI Search, Now Assist in AI Search, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer]
+breadcrumb: [Configuring Now Assist in AI Search, ServiceNow Otto for AI Search, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer]
 ---
 
 # Hybrid search in AI Search
@@ -19,11 +19,13 @@ In hybrid search mode, AI Search blends keyword search and semantic vector searc
 
 ## Overview of hybrid search
 
-By default, AI Search performs most searches in keyword search mode. This mode looks for the best matches for your search terms, but doesn't take the context or meaning of those terms into account. The keyword search relevance score for a search result indicates how well the indexed terms in that search result match your search terms.
+In older releases, AI Search performs all searches in keyword search mode. This mode looks for the best matches for your search terms, but doesn't take the context or meaning of those terms into account. The keyword search relevance score for a search result indicates how well the indexed terms in that search result match your search terms.
 
-Starting in the Yokohama Patch 11 release, AI Search includes an alternate semantic vector search mode in features which work with the Now LLM Service. Semantic vector search analyzes the meanings and context of your search terms and uses that information to find results with similar meanings. It improves search recall by interpreting natural language to more accurately reflect your search's intent. The semantic vector search relevance score for a search result indicates how closely the search result matches the meaning of your search.
+AI Search includes an alternate semantic vector search mode in features which work with the Now LLM Service. Semantic vector search analyzes the meanings and context of your search terms and uses that information to find results with similar meanings. It improves search recall by interpreting natural language to more accurately reflect your search's intent. The semantic vector search relevance score for a search result indicates how closely the search result matches the meaning of your search.
 
-Starting in the Zurich Patch 9 release, when you have Now Assist in AI Search 15 installed, AI Search offers a hybrid search mode in features which work with the Now LLM Service. This mode combines keyword relevance scores and semantic similarity scores into a single result ranking using Reciprocal Rank Fusion \(RRF\). This blended approach offers the best of both worlds, helping to ensure that users get both search precision \(from keyword search term matching\) and contextual relevance \(from semantic vector search\).
+**Note:** To learn more about semantic vector search mode and how it differs from keyword search mode, see [Semantic vector search in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/semantic-search-ais.md).
+
+Beginning with ServiceNow Otto for AI Search 15, installation of ServiceNow Otto for AI Search offers a new hybrid search mode. This mode combines keyword relevance scores and semantic similarity scores into a single result ranking using Reciprocal Rank Fusion \(RRF\). By blending keyword and semantic vector search modes, AI Search offers the best of both worlds, providing users with both search precision and contextual relevance.
 
 **Note:** Hybrid search applies to any indexed source that's included in the semantic index. By default, the following indexed sources ship with preconfigured semantic indexing and work with hybrid search:
 
@@ -46,7 +48,7 @@ Hybrid search offers these benefits when compared with keyword search.
 
 -   **More relevant top-ranked search results**
 
-    Semantic understanding helps surface answers that better match the user’s intent instead of just their search keywords.
+    Understanding the intent of your search, along with matching the words you use, helps find results that match what you mean.
 
 -   **Fewer zero-result searches**
 
@@ -55,13 +57,13 @@ Hybrid search offers these benefits when compared with keyword search.
 
 ## Availability of hybrid search
 
-Hybrid search is available beginning with the Zurich Patch 9 release. It requires installation of the Now Assist in AI Search application.
+Hybrid search requires installation of the ServiceNow Otto for AI Search application. This feature is available beginning in ServiceNow Otto for AI Search 15.
 
-If you install Now Assist in AI Search 17 without having any previous version installed, hybrid search is automatically activated for your search application configurations that use AI Search as their search engine.
+If you install ServiceNow Otto for AI Search without having any previous version installed, hybrid search is automatically activated for your search application configurations that use AI Search as their search engine.
 
 **Note:** Search application configurations that use the legacy Zing text indexing and search engine don't support hybrid search.
 
-If you upgrade to Now Assist in AI Search from a previous version, hybrid search isn't automatically activated for your search application configurations that use AI Search as their search engine. To learn how to manually activate hybrid search for these search application configurations in the AI Search Admin console, see [Manage hybrid search in search applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/enable-hybrid-search-aisac.md).
+If you upgrade to ServiceNow Otto for AI Search from a previous version, hybrid search isn't automatically activated for your search application configurations that use AI Search as their search engine. To learn how to manually activate hybrid search for these search application configurations in the AI Search Admin console, see [Manage hybrid search in search applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/enable-hybrid-search-aisac.md).
 
 ## Interactions with other features
 

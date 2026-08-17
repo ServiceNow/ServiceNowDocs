@@ -5,7 +5,7 @@ locale: en-US
 release: zurich
 topic_type: reference
 last_updated: "2025-07-31"
-reading_time_minutes: 1
+reading_time_minutes: 2
 ---
 
 # Adoption Services release notes
@@ -45,6 +45,13 @@ See [Adoption services](https://raw.githubusercontent.com/ServiceNow/ServiceNowD
 -   **[Onboarding modals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/next-experience-onboarding.md)**
 
     The images in the Onboarding modals now match the theme of the instance that you choose, whether dark, light, or coral to provide a visually cohesive experience.
+
+
+## Changed in this release
+
+-   **[genai\_admin role in Dynamic Guidance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure.md)**
+
+    The sn\_dyn\_guidance\_user role now includes the role. When you assign sn\_dyn\_guidance\_user to a user, the genai\_admin role is automatically granted.
 
 
 ## Activation information

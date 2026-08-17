@@ -1,5 +1,5 @@
 ---
-title: Summarize a journey with Now Assist for HR Service Delivery \(HRSD\)
+title: Summarize a journey with ServiceNow Otto for HR Service Delivery \(HRSD\)
 description: Managers can instantly summarize the information that appears on the Journey detail page to acquire an overview of an employee's journey. This summary also reflects the blockers that are impeding the journey's progress and the steps required to resume the journey's progress.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/journey-designer/summarize-jny.html
@@ -12,13 +12,13 @@ reading_time_minutes: 1
 breadcrumb: [Activate the Journey Summarization for Managers skill, Work with journeys in Employee Center, Use, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
-# Summarize a journey with Now Assist for HR Service Delivery \(HRSD\)
+# Summarize a journey with ServiceNow Otto for HR Service Delivery \(HRSD\)
 
 Managers can instantly summarize the information that appears on the Journey detail page to acquire an overview of an employee's journey. This summary also reflects the blockers that are impeding the journey's progress and the steps required to resume the journey's progress.
 
 ## Before you begin
 
-The Now Assist for HRSD \(sn\_hr\_gen\_ai\) plugin must be installed and the Journey Summarization for Managers skill must be activated.
+The ServiceNow Otto for HRSD \(sn\_hr\_gen\_ai\) plugin must be installed and the Journey Summarization for Managers skill must be activated.
 
 Role required: manager \[sn\_jny.reader or sn\_jny.writer\]
 

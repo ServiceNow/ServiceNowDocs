@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 2
 keywords: [Now Assist, generative AI, Virtual Agent]
-breadcrumb: [Now Assist in Virtual Agent, Exploring Now Assist, Now Assist for Mobile, Mobile Platform]
+breadcrumb: [Otto in Virtual Agent, Exploring Otto, ServiceNow Otto for Mobile, Mobile Platform]
 ---
 
 # Mobile Now Assist display experience for Virtual Agent

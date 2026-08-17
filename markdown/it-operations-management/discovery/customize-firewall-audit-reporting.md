@@ -9,7 +9,7 @@ classification: discovery
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Visibility to Firewall inventory, Configuring Firewall Audits and Reporting, Firewall Audits and Reporting, ITOM Visibility, IT Operations Management]
+breadcrumb: [Visibility to Firewall inventory, Configure, Firewall Audits and Reporting, ITOM Visibility, IT Operations Management]
 ---
 
 # Customize Firewall Audits and Reporting

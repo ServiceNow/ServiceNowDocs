@@ -9,7 +9,7 @@ classification: now-assist-for-financial-services-operations-fso
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Submit a dispute case with Disputes intake via Virtual Agent, Use generative AI, Now Assist for FSO, Financial Services Operations \(FSO\)]
+breadcrumb: [Submit a dispute case with Disputes intake via Virtual Agent, Use generative AI, ServiceNow Otto for FSO, Financial Services Operations \(FSO\)]
 ---
 
 # Resume a Disputes intake via Virtual Agent dispute case as an agent
@@ -38,7 +38,7 @@ When a customer initiates a dispute intake by selecting **Report a dispute** in 
 
 5.  Perform one of the following actions.
 
-<table id="choicetable_egp_gdn_wdc"><tbody><tr><td id="d108035e161">
+<table id="choicetable_egp_gdn_wdc"><tbody><tr><td id="d107609e161">
 
 **Customer has identified a disputed transaction**
 
@@ -46,7 +46,7 @@ When a customer initiates a dispute intake by selecting **Report a dispute** in 
 
 Review the disputed transaction details.
 
-</td></tr><tr><td id="d108035e170">
+</td></tr><tr><td id="d107609e170">
 
 **Customer hasn’t identified a disputed transaction**
 

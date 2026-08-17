@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-upgradeconsole-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -75,27 +75,27 @@ Zurich
 
 </td><td>
 
--   **[Additional way to access Upgrade Management](https://servicenow-staging.fluidtopics.net/access?context=um-guided-tour-implement&family=zurich&ft:locale=en-US)**
+-   **[Additional way to access Upgrade Management](https://www.servicenow.com/docs/access?context=um-guided-tour-implement&family=zurich&ft:locale=en-US)**
 
 You can now access Upgrade Console through the Admin menu by selecting **Admin Home**, and then selecting the **Upgrade Console** link.
 
--   **[Guided upgrade on sub-production instance](https://servicenow-staging.fluidtopics.net/access?context=um-guided-tour-implement&family=zurich&ft:locale=en-US)**
+-   **[Guided upgrade on sub-production instance](https://www.servicenow.com/docs/access?context=um-guided-tour-implement&family=zurich&ft:locale=en-US)**
 
 Upgrade your sub-production instance to facilitate a seamless and successful transition. This process is structured into three pivotal phases: Pre-upgrade, Instance upgrade, and Post-upgrade tasks.
 
--   **[Guided upgrade on production instance](https://servicenow-staging.fluidtopics.net/access?context=um-guided-tour-implement-prod&family=zurich&ft:locale=en-US)**
+-   **[Guided upgrade on production instance](https://www.servicenow.com/docs/access?context=um-guided-tour-implement-prod&family=zurich&ft:locale=en-US)**
 
 Elevate your upgrade experience within your production instance by meticulously completing each stage of the transition. This comprehensive process encompasses four crucial phases: Select upgrade, Pre-upgrade, Instance upgrade, and Post-upgrade tasks, all designed for a successful upgrade experience.
 
--   **[Additional step in pre-upgrade activities](https://servicenow-staging.fluidtopics.net/access?context=um-pre-upgrade-activities&family=zurich&ft:locale=en-US)**
+-   **[Additional step in pre-upgrade activities](https://www.servicenow.com/docs/access?context=um-pre-upgrade-activities&family=zurich&ft:locale=en-US)**
 
 You an now choose an upgrade plan in the Choose an upgrade plan step by either selecting an existing plan or by creating a new plan. This new step is applicable for both production and sub-production instances.
 
--   **[Enhanced functionalities in the Preview application upgrades step](https://servicenow-staging.fluidtopics.net/access?context=um-pre-upgrade-activities&family=zurich&ft:locale=en-US)**
+-   **[Enhanced functionalities in the Preview application upgrades step](https://www.servicenow.com/docs/access?context=um-pre-upgrade-activities&family=zurich&ft:locale=en-US)**
 
 Experience the new functionalities within the Preview application upgrades step for a seamless upgrade experience on your instance. These new functionalities are applicable for both production and sub-production instances.
 
--   **[Enhanced capabilities in the Store application upgrades step](https://servicenow-staging.fluidtopics.net/access?context=um-post-upgrade-activities&family=zurich&ft:locale=en-US)**
+-   **[Enhanced capabilities in the Store application upgrades step](https://www.servicenow.com/docs/access?context=um-post-upgrade-activities&family=zurich&ft:locale=en-US)**
 
 Review the Store application upgrades step in the post-upgrade activities for updated information in the App updates and Upgrade store applications sections. You can also use the new **Sync Now** option to update the list of installed applications that were either added or upgraded outside the upgrade process.
 
@@ -127,7 +127,7 @@ Zurich
 
 </td><td>
 
--   **[Updated access to Guided upgrade](https://servicenow-staging.fluidtopics.net/access?context=um-guided-tour-implement&family=zurich&ft:locale=en-US)**
+-   **[Updated access to Guided upgrade](https://www.servicenow.com/docs/access?context=um-guided-tour-implement&family=zurich&ft:locale=en-US)**
 
 Apart from the **Guided upgrade** tab option, you can also access Guided upgrade by selecting **Resume upgrade** if there is an ongoing upgrade in the instance.
 
@@ -365,7 +365,7 @@ Zurich
 -   Enable a smooth upgrade experience on your production and sub-production instances by completing essential tasks before, during, and after the instance upgrade.
 -   Access Upgrade Console and Guided upgrade by experiencing the new and updated options.
 
- See [Upgrade Management](https://servicenow-staging.fluidtopics.net/access?context=um-landing-page&family=zurich&ft:locale=en-US) for more information.
+ See [Upgrade Management](https://www.servicenow.com/docs/access?context=um-landing-page&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

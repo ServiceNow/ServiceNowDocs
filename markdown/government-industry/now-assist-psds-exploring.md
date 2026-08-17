@@ -1,24 +1,38 @@
 ---
-title: Exploring Now Assist for Public Sector Digital Services \(PSDS\)
-description: With the Now Assist for Public Sector Digital Services \(PSDS\) application, your agents can use AI capabilities to perform various tasks on a government service case.
+title: Exploring ServiceNow Otto for Public Sector Digital Services \(PSDS\)
+description: With the ServiceNow Otto for Public Sector Digital Services \(PSDS\) application, your agents can use AI capabilities to perform various tasks on a government service case.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/government-industry/now-assist-psds-exploring.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 6
-breadcrumb: [Now Assist for PSDS, Public Sector Digital Services \(PSDS\)]
+last_updated: "2026-03-12"
+reading_time_minutes: 8
+breadcrumb: [ServiceNow Otto for PSDS, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Exploring Now Assist for Public Sector Digital Services \(PSDS\)
+# Exploring ServiceNow Otto for Public Sector Digital Services \(PSDS\)
 
-With the Now Assist for Public Sector Digital Services \(PSDS\) application, your agents can use AI capabilities to perform various tasks on a government service case.
+With the ServiceNow Otto for Public Sector Digital Services \(PSDS\) application, your agents can use AI capabilities to perform various tasks on a government service case.
 
 **Important:** Some AI products/features are currently available only for customers in some regions. Be sure to check for availability updates in future releases.
 
 ## Features
 
-The Now Assist for PSDS application includes the following AI features that enable your agents to work through cases.
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
+
+The ServiceNow Otto for PSDS application includes the following AI features that enable your agents to work through cases.
+
+-   **Investigative case summarization skill**
+
+    Synthesizes case narratives, entities, evidence, and activity into a structured summary, enabling agents to grasp case context and respond to inquiries. Generates detailed resolution information for investigative outcomes, allowing agents to propose solutions and integrate generated information into the case record.
+
+-   **Investigative case narrative refinement \(via ServiceNow Otto Context Menu\)**
+
+    Reviews text and surfaces gaps, inconsistencies, and tone issues before a case narrative is submitted for supervisory review. Delivers real-time refinement suggestions grounded in linked entities, evidence, and case activity, leaving investigators with full control over accepting, rejecting, or editing every suggestion.
+
+-   **Document screening skill**
+
+    Review and validate uploaded documents autonomously, checking IDs, tax forms, and other supporting documents. This skill flags potential issues and surfaces key details, applying consistent validation logic across every submission.
 
 -   **Government case summarization skill**
 
@@ -32,19 +46,19 @@ The Now Assist for PSDS application includes the following AI features that enab
     -   Additional comments
     -   Email
     -   Service level agreement \(SLA\)
-    \[Omitted image "now\_assist\_psds\_case\_summary.png"\] Alt text: AI-generated case summary for a case record.
+    \[Omitted image "image.psds-otto-case-summary"\] Alt text: AI-generated summary for a case record.
 
 -   **Chat summarization skill**
 
-    Automatically generate summaries of agent-facing chats, capturing the context of conversations between agents and constituents or virtual agents at different points of the handoff, such as when a Virtual Agent chat history is handed off to a live agent, or when one live agent hands off a chat history with a customer to another live agent. This functionality enables critical information from interactions to be readily accessible for future reference and action.
+    Automatically generate summaries of agent-facing chats. The summaries capture the context of conversations between agents and constituents or virtual agents at different points of the handoff. For example, summaries are generated when a Virtual Agent chat history is handed off to a live agent. Summaries are also generated when one live agent hands off a chat history with a customer to another live agent. Critical information from interactions is readily accessible for future reference and action.
 
--   **Now Assist for AI Search**
+-   **ServiceNow Otto for AI Search**
 
-    Leverage single-turn capabilities for legislation and policy summarization, providing agents with succinct overviews of complex documents and enhancing the ability to navigate and comprehend extensive legislative materials. This skill provides actionable AI-generated or AI-selected answers in searches, synthesizing and summarizing information from multiple knowledge bases to deliver relevant answers in a conversational format​.
+    use single-turn capabilities for legislation and policy summarization, providing agents with succinct overviews of complex documents and enhancing the ability to navigate and comprehend extensive legislative materials. This skill provides actionable AI-generated or AI-selected answers in searches, synthesizing and summarizing information from multiple knowledge bases to deliver relevant answers in a conversational format​.
 
 -   **Fee waiver AI Agent skill**
 
-    Determines the fee breakdown for an information request by working to arrive at a subtotal fee estimate, a recommendation for whether a fee waiver request should be approved or rejected, including reasons for any rejection, and a total fee estimate, with the fee waiver, if applicable. This skill works via the Information Request Fee Estimation AI Agent to provide an autonomous decision based on guidelines added in a specific knowledge article. For information on standalone AI agents in Public Sector, see [Agentic AI for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/agentic-ai-psds-explore.md).
+    Determines the fee breakdown for an information request. The skill provides a subtotal fee estimate and a recommendation for whether a fee waiver request should be approved or rejected, including reasons for any rejection. It also provides a total fee estimate with the fee waiver, if applicable. This skill works via the Information Request Fee Estimation AI Agent to provide an autonomous decision based on guidelines added in a specific knowledge article. For information on standalone AI agents in Public Sector, see [Agentic AI for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/agentic-ai-psds-explore.md).
 
 
 **Important:**
@@ -54,13 +68,49 @@ The Now Assist for PSDS application includes the following AI features that enab
 -   Some AI products/features are currently available only for customers in some regions. Be sure to check for availability updates in future releases.
 -   Some AI products and skills are not available in Regulated Markets. For more information, see [KB2593939: Regulated Markets AI Products/Skills Not Available](https://support.servicenow.com/kb?id=kb_article_view&sys_kb_id=e8d7cc82475aba90b7832920326d4362). Be sure to check for availability updates in future releases.
 
-## Now Assist panel in CSM Configurable Workspace
+## Tiers
 
-An agent can use the Now Assist panel in CSM Configurable Workspace. This conversational interface enables an agent to request a case summary and generate the case resolution notes. For more information about the Now Assist panel, see [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-panel-overview.md).
+The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
 
-## Now Assist in AI Search
+-   Foundation: AI basics to deliver insights
+-   Advanced: AI to boost productivity across relevant use cases
+-   Prime: Act autonomously with all AI assets, and create your own
 
-The Now Assist in AI Search application uses Now LLM Service to extract actionable Q&amp;A Genius Result answers from the knowledge articles that are found in Service Portal, Virtual Agent, Employee Center, and global searches. By using this application, an agent can improve the customer's experience by retrieving the relevant content from the knowledge base and generating concise answers. For more information, see [Now Assist in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/now-assist-ais.md).
+For more information, see .
+
+For information about AI assets that are available on the ServiceNow AI Platform, see the following topics:
+
+-   [Generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills.md)
+-   [Agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/sn-aia-use-cases-list.md)
+
+## ServiceNow Otto panel in CSM Configurable Workspace
+
+An agent can use the ServiceNow Otto panel in CSM Configurable Workspace. This conversational interface enables an agent to request a case summary and generate the case resolution notes. For more information about the ServiceNow Otto panel, see [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-panel-overview.md).
+
+**Important:** Some generative AI skills, agents, and agentic workflows are turned on by default. The default behavior works as follows:
+
+-   **New customers**
+
+    When you install an AI product, designated generative AI skills, AI agents, or agentic workflows are turned on automatically.
+
+-   **Existing customers who are upgrading \(starting with Zurich Patch 4\)**
+
+    There is no change to skills, agents, or agentic workflows that are currently enabled and customized.
+
+    An AI asset is turned on if:
+
+    -   The AI plugin is installed, but the asset was never turned on.
+    -   An admin has never adjusted roles for the skill.
+    An AI asset is not turned on if:
+
+    -   The asset was previously turned on, and then turned off again.
+    -   An admin has adjusted roles for the asset.
+
+For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+
+## ServiceNow Otto in AI Search
+
+The ServiceNow Otto in AI Search application uses Now LLM Service to extract actionable Q&amp;A Genius Result answers from the knowledge articles that are found in Service Portal, Virtual Agent, Employee Center, and global searches. By using this application, an agent can improve the customer's experience by retrieving the relevant content from the knowledge base and generating concise answers. For more information, see [ServiceNow Otto for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/now-assist-ais.md).
 
 ## Sensitive data handling
 
@@ -89,11 +139,11 @@ For more information, see the [Now Assist documentation](https://raw.githubuserc
 **Related topics**  
 
 
-[Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/platform-now-assist-landing.md)
+[AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/platform-now-assist-landing.md)
 
-[Configure Now Assist for Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/now-assist-psds-configuring.md)
+[Configure ServiceNow Otto for Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/now-assist-psds-configuring.md)
 
-[Using Now Assist for Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/now-assist-psds-using.md)
+[Using generative AI with ServiceNow Otto for Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/now-assist-psds-using.md)
 
-[Exploring Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/exploring-now-assist-platform.md)
+[Exploring AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/exploring-now-assist-platform.md)
 

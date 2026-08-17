@@ -1,20 +1,20 @@
 ---
 title: Generate SIR Shift Handover Report
-description: Chat with an AI agent in the Now Assist panel to use the Generate SIR Shift Handover Report agentic workflow to help you add a security incident's detail to a shift handover report.
+description: Chat with an AI agent in the ServiceNow Otto panel to use the Generate SIR Shift Handover Report agentic workflow to help you add a security incident's detail to a shift handover report.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/now-assist-for-security-incident-response-sir/add-incidents-shifthandover-ai-agent.html
 release: zurich
 product: Now Assist for Security Incident Response \(SIR\)
 classification: now-assist-for-security-incident-response-sir
 topic_type: concept
-last_updated: "2025-08-19"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Use agentic workflows, Now Assist for Security Incident Response, Security Operations]
+breadcrumb: [Use agentic workflows, ServiceNow Otto for Security Incident Response \(SIR\), Security Operations]
 ---
 
 # Generate SIR Shift Handover Report
 
-Chat with an AI agent in the Now Assist panel to use the Generate SIR Shift Handover Report agentic workflow to help you add a security incident's detail to a shift handover report.
+Chat with an AI agent in the ServiceNow Otto panel to use the Generate SIR Shift Handover Report agentic workflow to help you add a security incident's detail to a shift handover report.
 
 ## Generate SIR Shift Handover Report overview
 

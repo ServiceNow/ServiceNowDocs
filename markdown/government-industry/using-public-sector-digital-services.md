@@ -44,7 +44,7 @@ Learn how public sector agencies help constituents and businesses with digital s
 
 </td><td>
 
-[Now Assist \[Omitted image "bus-artificial-intelligence.svg"\] Alt text: Use Now Assist for PSDS to enhance user productivity and efficiency through proactive experiences using generative AI.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/now-assist-psds-using.md)
+[ServiceNow Otto \[Omitted image "bus-artificial-intelligence.svg"\] Alt text: Use ServiceNow Otto for PSDS to enhance user productivity and efficiency through proactive experiences using generative AI.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/now-assist-psds-using.md)
 
 </td><td>
 

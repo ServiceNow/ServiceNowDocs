@@ -18,7 +18,7 @@ With ServiceNow Incident Management for Field Service, create work orders from a
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 Incident Management for Field Service provides an integration between the Incident Management and Field Service Management applications. The Incident Management application enables ITIL agents to create work orders from incident requests in the CSM Configurable Workspace and ServiceNow AI Platform application. This integration provides a unified experience to ITIL agents by enabling them to track the progress of a related work order directly in the incident request.
 

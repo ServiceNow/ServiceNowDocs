@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-financialservicesoperationsintegrationwithvisa-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -75,7 +75,7 @@ Xanadu
 
 </td><td>
 
--   **[Updated subflows for Visa Resolve Online \(VROL\) 24.2 revision](https://servicenow-staging.fluidtopics.net/access?context=components-installed-with-the-financial-services-operations-integration-with-visa&family=xanadu&ft:locale=en-US)**
+-   **[Updated subflows for Visa Resolve Online \(VROL\) 24.2 revision](https://www.servicenow.com/docs/access?context=components-installed-with-the-financial-services-operations-integration-with-visa&family=xanadu&ft:locale=en-US)**
 
 Updated the following subflows to support the changes in the Visa Resolve Online \(VROL\) \(VROL\) release 24.2 revision:
 
@@ -89,7 +89,7 @@ Yokohama
 
 </td><td>
 
--   **[Added new VROL integration subflows](https://servicenow-staging.fluidtopics.net/access?context=components-installed-with-the-financial-services-operations-integration-with-visa&family=yokohama&ft:locale=en-US)**
+-   **[Added new VROL integration subflows](https://www.servicenow.com/docs/access?context=components-installed-with-the-financial-services-operations-integration-with-visa&family=yokohama&ft:locale=en-US)**
 
 Enables seamless integration with the card operations dispute management playbook with VROL subflows. The following new VROL subflows have been added:
 
@@ -112,7 +112,7 @@ Zurich
 
 </td><td>
 
--   **[Enable cardholder purchase inquiry property](https://servicenow-staging.fluidtopics.net/access?context=properties-installed-with-fso-integration-with-visa&family=zurich&ft:locale=en-US)**
+-   **[Enable cardholder purchase inquiry property](https://www.servicenow.com/docs/access?context=properties-installed-with-fso-integration-with-visa&family=zurich&ft:locale=en-US)**
 
 Enables or disables integration with the Cardholder Purchase Inquiry API in the Visa card dispute playbook.
 
@@ -136,7 +136,7 @@ Xanadu
 
 </td><td>
 
--   **[Visa Resolve Online \(VROL\) version 25.1 updates](https://servicenow-staging.fluidtopics.net/access?context=visa-spoke&family=xanadu&ft:locale=en-US)**
+-   **[Visa Resolve Online \(VROL\) version 25.1 updates](https://www.servicenow.com/docs/access?context=visa-spoke&family=xanadu&ft:locale=en-US)**
 
 Updated the following subflows to align with Visa Resolve Online \(VROL\) release 25.1 revision changes:
 
@@ -149,7 +149,7 @@ Yokohama
 
 </td><td>
 
--   **[Visa Resolve Online \(VROL\) version 25.1 updates](https://servicenow-staging.fluidtopics.net/access?context=components-installed-with-the-financial-services-operations-integration-with-visa&family=yokohama&ft:locale=en-US)**
+-   **[Visa Resolve Online \(VROL\) version 25.1 updates](https://www.servicenow.com/docs/access?context=components-installed-with-the-financial-services-operations-integration-with-visa&family=yokohama&ft:locale=en-US)**
 
 Updated the following subflows to align with release 25.1 revision changes:
 
@@ -257,7 +257,7 @@ Xanadu
 
 </td><td>
 
-Install Now Assist for FSO by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
+Install Now Assist for FSO by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -445,7 +445,7 @@ Xanadu
 -   Handle various dispute lifecycle events including transaction searches, dispute case creation, questionnaire submissions, fraud reporting, and more.
 -   Utilize data model elements to capture and store information used in subflows for seamless integration.
 
- See [Financial Services Operations Integration with Visa](https://servicenow-staging.fluidtopics.net/access?context=financial-services-operations-integration-with-visa-landing-page&family=xanadu&ft:locale=en-US) for more information.
+ See [Financial Services Operations Integration with Visa](https://www.servicenow.com/docs/access?context=financial-services-operations-integration-with-visa-landing-page&family=xanadu&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -456,7 +456,7 @@ Yokohama
 -   Enables Visa VROL dispute resolution process by providing features such as accept dispute and cardholder purchase enquiry.
 -   Ensures Visa conformance through error handling and timely updates on chargeback status.
 
- See [Integrating with Visa](https://servicenow-staging.fluidtopics.net/access?context=financial-services-operations-integration-with-visa-landing-page&family=yokohama&ft:locale=en-US) for more information.
+ See [Integrating with Visa](https://www.servicenow.com/docs/access?context=financial-services-operations-integration-with-visa-landing-page&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -466,7 +466,7 @@ Zurich
 
 ِEnable system administrators to control settings for features in the Financial Services Operations Integration with Visa application, such as, integration with specific APIs.
 
- See [Visa](https://servicenow-staging.fluidtopics.net/access?context=financial-services-operations-integration-with-visa-landing-page&family=zurich&ft:locale=en-US) for more information.
+ See [Visa](https://www.servicenow.com/docs/access?context=financial-services-operations-integration-with-visa-landing-page&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/rn-combined-intro.md)

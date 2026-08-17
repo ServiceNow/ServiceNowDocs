@@ -9,7 +9,7 @@ classification: now-assist-for-financial-services-operations-fso
 topic_type: task
 last_updated: "2025-10-22"
 reading_time_minutes: 3
-breadcrumb: [Resolve ACH disputes with AI agents, AI agents in FSO, Use agentic AI, Now Assist for FSO, Financial Services Operations \(FSO\)]
+breadcrumb: [Resolve ACH disputes with AI agents, AI agents in FSO, Use agentic AI, ServiceNow Otto for FSO, Financial Services Operations \(FSO\)]
 ---
 
 # Evaluate Nacha operating guidelines with AI agent
@@ -49,7 +49,7 @@ This agent verifies if a disputed transaction meets established Nacha standardiz
 8.  Based on the AI agent's analysis, the dispute agent can select these options on the workspace.
 
     -   **Apply Recommendation**: The dispute agent selects this option to accept the recommendation after reviewing the Nacha operating guidelines analysis.
-    -   **Ask a follow up**: The dispute agent selects this option only if they aren’t sure about the analysis done and want to verify further. The analysis is then displayed in the Now Assist panel. \[Omitted image "now-assist-nacha-analysis.png"\] Alt text: Nacha eligibility
+    -   **Ask a follow up**: The dispute agent selects this option only if they aren’t sure about the analysis done and want to verify further. The analysis is then displayed in the ServiceNow Otto panel. \[Omitted image "now-assist-nacha-analysis.png"\] Alt text: Nacha eligibility
 9.  Once the dispute agent selects **Apply Recommendation** option for the selected transaction, the recommended **Outcome** and **Rationale** on the recommendation card component are copied to the **Final action** and **Resolution reason** respectively and the task is closed.
 
     **Note:** If the dispute agent disagrees with the analysis, then a rationale is prompted by the AI agent for the disagreement. On providing a valid rationale, the task proceeds to the next task.
@@ -58,8 +58,8 @@ This agent verifies if a disputed transaction meets established Nacha standardiz
 
     **Note:** You can also access the recommendation for the Nacha operating guidelines as follows.
 
-    1.  Once the dispute agent selects **Assign to me**, a notification appears for that agent in the Now Assist panel.
-    2.  Select the Now Assist panel icon \(\[Omitted image "icon-ai-sparkle.png"\] Alt text: now assist panel icon\) and open the active chat for the disputed transaction.
+    1.  Once the dispute agent selects **Assign to me**, a notification appears for that agent in the ServiceNow Otto panel.
+    2.  Select the ServiceNow Otto icon \(\[Omitted image "icon-otto.png"\] Alt text: Otto icon.\) and open the active chat for the disputed transaction.
 
 ## Result
 

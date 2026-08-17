@@ -202,7 +202,7 @@ The Attachments tab provides access to case-related attachments. From this tab, 
 
 </td><td>
 
-The Email Templates tab provides access to available email templates. These templates contain default values for fields that agents can add to email messages. These default values can include the recipients \(email addresses in the To, Cc, and Bcc fields\), the sender, the subject of the email, and text to include in the message body.
+The Email Templates tab provides access to available email templates. These templates contain default values for fields that agents can add to email messages. Default values can include the recipients \(email addresses in the To, Cc, and Bcc fields\), the sender, the subject, and message body text.
 
 </td></tr><tr><td>
 

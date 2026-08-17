@@ -7,7 +7,7 @@ release: zurich
 topic_type: concept
 last_updated: "2025-10-16"
 reading_time_minutes: 2
-breadcrumb: [Writing effectively for agentic AI, AI agents best practices, Explore, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Writing effectively for agentic AI, AI agents best practices, Explore, AI Agent Studio, Enable AI experiences]
 ---
 
 # Example agentic workflow

@@ -139,7 +139,7 @@ For image and text-based files, the AI agent recognizes any language supported b
 
 [Document and visual insights AI agent]()
 
-[Document Intelligence tool for Now Assist Skill Kit]()
+[Document Intelligence tool for AI Skill Kit]()
 
 [Field types in Now Assist in Document Intelligence]()
 

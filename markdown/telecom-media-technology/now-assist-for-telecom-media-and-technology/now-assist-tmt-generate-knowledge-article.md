@@ -1,5 +1,5 @@
 ---
-title: Generate a knowledge article for a service problem case using Now Assist for TMT
+title: Generate a knowledge article for a service problem case using ServiceNow Otto for TMT
 description: Generate the knowledge articles for resolved and closed cases within the CSM Configurable Workspace and classic environment with Now Assist.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-generate-knowledge-article.html
@@ -12,20 +12,20 @@ reading_time_minutes: 3
 breadcrumb: [Use generative AI skills, Now Assist for TMT, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
-# Generate a knowledge article for a service problem case using Now Assist for TMT
+# Generate a knowledge article for a service problem case using ServiceNow Otto for TMT
 
 Generate the knowledge articles for resolved and closed cases within the CSM Configurable Workspace and classic environment with Now Assist.
 
 ## Before you begin
 
-To generate a knowledge article for a case, the case must be in the resolved and closed state, and must not already have a knowledge article linked to it.
+To generate a knowledge article for a case, the case must be in the resolved and closed state. The case must not already have a knowledge article linked to it.
 
-Install the Knowledge Management Advanced plugin to use the Knowledge Centered Service \(KCS\) template when you’re generating knowledge articles. For more information, see [Activate the Knowledge Management Advanced plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/activate-knowledge-advanced-plugin.md).
+Install the Knowledge Management Advanced plugin to use the Knowledge Centered Service \(KCS\) template when you’re generating knowledge articles. For more information, see .
 
 Make sure that your administrator enables Now Assist experience on the Create Article page to ensure that the following knowledge base generation criteria is configured:
 
 -   The knowledge skills are installed.
--   In the Now Assist Admin console, ensure that the following criteria are in place:
+-   In the AI Admin Hub console, ensure that the following criteria are in place:
     -   Specify the table record and input fields.
     -   Specify the conditions for the skill availability from the list of attributes.
     -   Display the knowledge base generation feature In-product and specify the Now Assist panel.
@@ -55,7 +55,7 @@ In  CSM Configurable Workspace and classic environment, you can generate the k
 
 4.  In the Create article modal, select a knowledge base and an Article template, if displayed.
 
-    **Note:** If no options are displayed, the default template selected by your administrator in the Now Assist Admin console is used.
+    **Note:** If no options are displayed, the default template selected by your administrator in the AI Admin Hub console is used.
 
 5.  Select **Create article**.
 
@@ -89,10 +89,10 @@ In  CSM Configurable Workspace and classic environment, you can generate the k
     The Now Assist success message disappears which means that it’s no longer a Now LLM Service generated article.
 
 
-**Parent Topic:**[Using Now Assist for Telecommunications, Media and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spm-using.md)
+**Parent Topic:**[Using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spm-using.md)
 
 **Related topics**  
 
 
-[Now Assist in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/now-assist-knowledge-management.md)
+[bundle-platcap.now-assist-knowledge-management]
 

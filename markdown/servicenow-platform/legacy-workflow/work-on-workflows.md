@@ -7,7 +7,7 @@ release: zurich
 product: Legacy Workflow
 classification: legacy-workflow
 topic_type: task
-last_updated: "2025-09-22"
+last_updated: "2026-07-10"
 reading_time_minutes: 6
 breadcrumb: [Workflow management, Classic Workflow, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ To complete a workflow, you add workflow activities, validate the workflow, and 
 
 ## Before you begin
 
-Role required: snc\_required\_script\_writer and either workflow\_creator or workflow\_admin.
+Role required: snc\_required\_script\_writer\_permission and either workflow\_creator or workflow\_admin.
 
 **Parent Topic:**[Workflow management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/legacy-workflow/managing-workflows.md)
 
@@ -28,7 +28,7 @@ Activities determine the functionality of the workflow.
 
 ### Before you begin
 
-Role required: snc\_required\_script\_writer and workflow\_admin, workflow\_creator, or admin
+Role required: snc\_required\_script\_writer\_permission and workflow\_admin, workflow\_creator, or admin
 
 ### About this task
 

@@ -20,7 +20,7 @@ Role required: System Administrator \(to upload images to the database\), APM ad
 
 ## About this task
 
-In this example, you will learn how to upload an image or shape to the database, create diagram action for the image or shape, create a custom shape library, add shape to the shape library, create a shape library element, and create a diagram using the shapes.
+In this example, you will learn how to upload an image or shape to the database and create a diagram action for it. You will also create a custom shape library, add a shape to the library, create a shape library element, and create a diagram using the shapes.
 
 Create the shapes that represent the elements you want to include in your diagrams. Ensure the images are clear, simple, and visually distinct. The compatible format is .SVG. In this example, we use the ‘Database.svg’ image.
 

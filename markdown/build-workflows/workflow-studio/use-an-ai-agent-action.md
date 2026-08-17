@@ -28,13 +28,13 @@ Provide a value for each input that your action needs. To add dynamic values, yo
 
     Data type: **Reference**
 
-    The AI Agent that you want to use in this flow. You must install the Now Assist AI agents plugin and create and configure an AI agent. For information about installing the Now Assist AI agents plugin, see [Install Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/install-ai-agents-plugins.md). For information about creating an AI agent, see [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configure-next-best-action-agent.md).
+    The AI Agent that you want to use in this flow. You must install the Now Assist AI agents plugin and create and configure an AI agent. For information about installing the Now Assist AI agents plugin, see [Install ServiceNow Otto AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/install-ai-agents-plugins.md). For information about creating an AI agent, see [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configure-next-best-action-agent.md).
 
 -   **Support User**
 
     Data type: **Reference**
 
-    The user who is contacted by Now Assist to review and authorize the AI agent's work when the AI agent runs in supervised mode. Select a user who meets the security criteria defined in the AI security controls. If the AI agents is configured to accept a dynamic user, select a user that has the roles necessary to run the AI agent. For more information about the security controls of an AI agent, see [Define security controls for an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/define-sec-controls-aia.md). For information about turning on the Now Assist panel, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/activate-now-assist-panel.md).
+    The user who is contacted by Now Assist to review and authorize the AI agent's work when the AI agent runs in supervised mode. Select a user who meets the security criteria defined in the AI security controls. If the AI agents is configured to accept a dynamic user, select a user that has the roles necessary to run the AI agent. For more information about the security controls of an AI agent, see [Define security controls for an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/define-sec-controls-aia.md). For information about turning on the Now Assist panel, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
 -   **Objective**
 
@@ -64,7 +64,7 @@ Provide a value for each input that your action needs. To add dynamic values, yo
 
     Data type: **String**
 
-    The name that identifies the conversation about running the AI agent in the Now Assist panel. For information about activating the Now Assist panel, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/activate-now-assist-panel.md).
+    The name that identifies the conversation about running the AI agent in the Now Assist panel. For information about activating the Now Assist panel, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
 -   **Context Memory**
 
@@ -106,7 +106,7 @@ You can use these outputs as inputs for other items.
 
 \[Omitted image "example-use-ai-agent-complete-flow.png"\] Alt text: Demonstration flow that includes the Use an AI agent action and the Send Email action
 
-This example requires installing the Now Assist for IT Service Management \(ITSM\) plugin and turning on the Resolution notes generation skill.
+This example requires installing the ServiceNow Otto for IT Service Management \(ITSM\) plugin and turning on the Resolution notes generation skill.
 
 \[Omitted image "example-use-ai-agent-inputs.png"\] Alt text: Sample input configuration of the Use an AI agent action
 

@@ -9,7 +9,7 @@ classification: ai-control-tower
 topic_type: concept
 last_updated: "2025-12-09"
 reading_time_minutes: 2
-breadcrumb: [AI Control Tower Home, AI Control Tower dashboard, Explore, AI Control Tower, Enable AI experiences]
+breadcrumb: [AI Control Tower Home, AI Control Tower dashboard, Explore, AI Control Tower \(legacy\), Enable AI experiences]
 ---
 
 # AI strategy tab in AI Control Tower
@@ -48,7 +48,7 @@ The AI RIDAC section helps you monitor key project risks, issues, decisions, act
 
 Projects that meet any of the following criteria appear in the AI RIDAC section in the AI Control Tower workspace, enabling you to monitor their progress effectively:
 
--   Projects with the **Investment type** field set to **Artificial Intelligence** in PPM Standard \(Project Management or Project Workspace\). For details, see [Create a project from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/create-project-from-project-workspace.md) and [Add a RIDAC record to a project in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/add-risk-project-project-workspace.md).
+-   Projects with the **Investment type** field set to **Artificial Intelligence** in PPM Standard \(Project Management or Project Workspace\). For details, see [Create a project from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/create-project-from-project-workspace.md) and [Add RIDAC records to projects from All RIDAC page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/add-risk-project-project-workspace.md).
 -   The **Category** field on the associated primary goal record is set to **Artificial Intelligence** in Goal Framework or Strategic Planning Workspace. For details, see [Create a goal in Goal Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/create-goal.md) and [Create a goal in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/create-goal-egm.md).
 -   The **Type** field on the strategic priority of the associated primary goal is set to **Artificial Intelligence** in Goal Framework or Strategic Planning Workspace. For details, see [Create a strategic priority for a strategic plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/create-strategic-priority.md).
 

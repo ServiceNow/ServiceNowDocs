@@ -8,7 +8,7 @@ product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: concept
 last_updated: "2026-05-22"
-reading_time_minutes: 6
+reading_time_minutes: 7
 breadcrumb: [Use, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
@@ -89,7 +89,7 @@ Within the Backlog, you can perform the following actions:
 
 Use the following tasks to start creating and scheduling work for teams in EAP.
 
--   **[Create next PI and Sprint from EAP Backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/create-pi-sprint-eap-backlog.md)**  
+-   **[Create a Planning Interval or Sprint from EAP Backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/create-pi-sprint-eap-backlog.md)**  
 Create iterations of Planning Intervals \(PI\) and Sprints so that teams can start prioritizing and scheduling their work from the Backlog in Enterprise Agile Planning \(EAP\).
 -   **[Update iteration details in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/edit-pi-sprint-iteration-details-in-eap.md)**  
 Edit details of a PI or a Sprint to update details such as name, team capacity, committed points.
@@ -99,16 +99,22 @@ Create stories, features, epics, or capabilities for teams to add work to their 
 Streamline breaking down work by creating child work items directly from the parent record page in Enterprise Agile Planning workspace.
 -   **[Create stories for work items in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/create-single-or-multiple-child-items-for-epic-in-eap.md)**  
 Create stories directly from a work item's form. Create them manually or save time by generating them using Now Assist in the Enterprise Agile Planning \(EAP\) workspace.
+-   **[Generate a story from an epic using ServiceNow Otto for SPM in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/generate-stories-quickly-for-eap-and-agile-2-0.md)**  
+Generate a complete user story directly from an epic using Quick story generation feature in EAP. Provide brief context, and Now Assist generates a story title, description, and acceptance criteria that you can review and edit before saving.
+-   **[Generate stories for work items in EAP using ServiceNow Otto for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/generate-stories-from-epics-now-assist-eap.md)**  
+Breakdown epics and features into stories using the Now Assist panel in the Enterprise Agile Planning \(EAP\) workspace. Based on the work item details, Now Assist generates stories.
+-   **[Generate acceptance criteria for EAP stories using ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/eap-generate-acceptance-criteria-for-stories.md)**  
+Create clear, comprehensive, and testable acceptance criteria for user stories without writing them manually in Enterprise Agile Planning \(EAP\). Review and refine suggested options to ensure they meet your requirements.
 -   **[Create a copy of work items in EAP Backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/create-copy-of-work-items-in-eap-backlog.md)**  
 For creating work items with details similar to an existing item, save time and effort by creating a copy of the existing item.
 -   **[Schedule work items into iterations in EAP Backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/schedule-work-items-into-iterations-in-eap-backlog.md)**  
 Perform backlog grooming and schedule work from the team's backlog for the upcoming iteration Enterprise Agile Planning.
 -   **[Start or complete iterations in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/start-or-complete-iteration-in-eap.md)**  
-Start an iteration of a Sprint or PI so that your team can start working and tracking progress of work, and after your team finishes the assigned work, mark this iteration as complete, directly from the Backlog in Enterprise Agile Planning.
+Start an iteration of a Sprint or PI so that your team can start working and tracking progress of work. After your team finishes the assigned work, mark this iteration as complete, directly from the Backlog in Enterprise Agile Planning.
 -   **[Add or remove teams from Favorites in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/mark-teams-as-favorite-in-eap.md)**  
 Add the EAP teams that you frequently work with to Favorites so that you can save time navigating to them in the workspace without searching for them.
 -   **[Personalize and filter data in EAP Backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/personalize-and-filter-data-in-eap-backlog.md)**  
-View the information that is most relevant to you and your team on the Backlog tab by choosing the columns to be displayed and applying filters to narrow down the data on the page.
+View the information that is most relevant to you and your team on the Backlog tab by choosing the columns to be displayed. You can also apply filters to narrow down the data on the page.
 
 **Parent Topic:**[Using Enterprise Agile Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/using-enterprise-agile-planning.md)
 

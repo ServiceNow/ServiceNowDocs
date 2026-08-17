@@ -1,22 +1,24 @@
 ---
 title: Install the Chief Financial Officer \(CFO\) Dashboard
-description: The Chief Financial Officer \(CFO\) Dashboard provides a unified, real-time view of enterprise financial performance across key dimensions such as portfolio health, software investments, procurement efficiency, and audit and risk management.
+description: The Chief Financial Officer \(CFO\) Dashboard provides a real-time view of enterprise financial performance across portfolio health, software investments, procurement efficiency, and risk management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/install-dashboard-cfo.html
 release: zurich
 topic_type: task
-last_updated: "2025-08-18"
+last_updated: "2026-07-31"
 reading_time_minutes: 1
 breadcrumb: [Chief Financial Officer \(CFO\) Dashboard, Executive dashboard overview, Dashboards, Platform Analytics experience, Platform Analytics]
 ---
 
 # Install the Chief Financial Officer \(CFO\) Dashboard
 
-The Chief Financial Officer \(CFO\) Dashboard provides a unified, real-time view of enterprise financial performance across key dimensions such as portfolio health, software investments, procurement efficiency, and audit and risk management.
+The Chief Financial Officer \(CFO\) Dashboard provides a real-time view of enterprise financial performance across portfolio health, software investments, procurement efficiency, and risk management.
 
 ## Before you begin
 
 Roles required: sn\_cfo\_dashboard.admin, sn\_cfo\_dashboard.user
+
+Consider duplicating this executive dashboard before customizing it. For more information, see [Duplicate a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/duplicate-db.md).
 
 **Note:** The CFO Dashboard application is free from the ServiceNow Store. However, the contents of the dashboard require professional entitlements to the following applications:
 
@@ -58,12 +60,12 @@ Plugins:
 
         Assign the role sn\_cfo\_dashboard.admin to users or groups who require configuration privileges on the dashboard.
 
-        **Note:** Only users with this role are able to configure the CFO dashboard.
+        **Note:** Only users with this role can configure the CFO dashboard.
 
     -   **CFO Dashboard end users**
 
         Assign the user role sn\_cfo\_dashboard.user to users or groups who must view the dashboard.
 
-    Users must log out and log back in to enable their new roles after the admin assigns them. For more information on user roles, see [Exploring user administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/exploring-user-administration.md).
+    Users must log out and log back in to enable their new roles after the admin assigns them. For more information on user roles, see .
 
 

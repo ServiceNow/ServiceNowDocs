@@ -30,15 +30,15 @@ Role required: sn\_lg\_ops.legal\_fulfiller
 
 4.  When a legal request assignment comes through the chat queue, accept or reject the **Accept**.
 
-<table id="choicetable_ytq_1bt_xbc"><thead><tr><th align="left" id="d147725e100">
+<table id="choicetable_ytq_1bt_xbc"><thead><tr><th align="left" id="d147484e100">
 
 Action
 
-</th><th align="left" id="d147725e103">
+</th><th align="left" id="d147484e103">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d147725e109">
+</th></tr></thead><tbody><tr><td id="d147484e109">
 
 **Accept assignment**
 
@@ -46,7 +46,7 @@ Steps
 
 Select **Accept**.**Note:** The legal request will be assigned to you.
 
-</td></tr><tr><td id="d147725e123">
+</td></tr><tr><td id="d147484e123">
 
 **Reject assignment**
 

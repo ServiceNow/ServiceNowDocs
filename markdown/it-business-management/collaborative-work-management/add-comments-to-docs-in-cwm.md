@@ -24,7 +24,11 @@ Role required: sn\_cwm.cwm\_user
 
 ## About this task
 
-You can add comments to plain text, hyperlinks, dynamic data, and text inside table cells. Comments are not supported on images, empty table cells, or selections that include multiple table cells. You can mention users using `@` in comments and add text and hyperlinks. You cannot mention a table or an image in comments.
+\[Omitted video\] Description: Video demonstrating how to create and manage comments in Docs in CWM.
+
+You can add comments to plain text, hyperlinks, dynamic data, and text inside table cells. Comments are not supported on images, empty table cells, or selections that include multiple table cells. You can mention users using `@` in comments and add text and hyperlinks. You can't mention a table or an image in comments.
+
+Overlapping comments on the same text aren't supported. To add to an existing discussion on already-commented text, reply to the existing thread instead. For more information, see [Manage comments in Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/manage-comments-in-cwm-docs.md).
 
 **Note:** Users can add and manage comments if they have read-only access to a document.
 

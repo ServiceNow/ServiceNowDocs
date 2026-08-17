@@ -7,7 +7,7 @@ release: zurich
 product: Agile Development
 classification: agile-development
 topic_type: concept
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 1
 breadcrumb: [Explore, Agile Development 2.0, Strategic Portfolio Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Explore, Agile Development 2.0, Strategic Portfolio Management]
 
 Create defects for the issues that are reported for your product using Agile Development 2.0. You can then create stories for these defects so that your teams can start working on resolving them.
 
-Defects can be used to report and track the resolution of issues that are noticed during the development of a new feature, or as a feedback for existing features. Product owners then review these defects and decides on creating stories for them, which are assigned to the relevant assignment groups.
+Defects can be used to report and track the resolution of issues that are noticed during the development of a new feature, or as feedback for existing features. Product owners then review these defects and decides on creating stories for them, which are assigned to the relevant assignment groups.
 
 ## User role to create defects
 

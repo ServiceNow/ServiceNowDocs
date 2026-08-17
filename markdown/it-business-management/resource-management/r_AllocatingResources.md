@@ -118,7 +118,7 @@ Resource allocations use this property to create allocations with a decimal valu
 
 -   **Example: 4 hours for 1 week, with an allocation interval of 30 minutes**
 
-    If the value of this property is set to  30  minutes, and  1  hour needs to be allocated to the user, the allocation is divided into the two 30-minute blocks when the user is available.  This setting creates a 60-minute block from Monday through Wednesday and 30-minutes blocks for Thursday and Friday.
+    If the value of this property is set to 30 minutes and 1 hour needs to be allocated to the user. The allocation is then divided into two 30-minute blocks when the user is available. This setting creates a 60-minute block from Monday through Wednesday and 30-minutes blocks for Thursday and Friday.
 
     |Monday|Tuesday|Wednesday|Thursday|Friday|
     |------|-------|---------|--------|------|

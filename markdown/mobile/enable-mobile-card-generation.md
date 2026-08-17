@@ -19,7 +19,7 @@ Activate the mobile card generation skill to let Now Assist generate mobile comp
 
 Role required: admin
 
-Make sure that Now Assist for Creator and Mobile App Builder AI is enabled in the instance. For more information, see .
+Make sure that ServiceNow Otto for Creator and Mobile App Builder AI is enabled in the instance. For more information, see .
 
 ## Procedure
 

@@ -48,15 +48,15 @@ Use the floor map to view the following:
 
 5.  View the details of the floor map by performing the following actions on the map pane.
 
-<table id="choicetable_qtk_fr3_yxb"><thead><tr><th align="left" id="d45523e140">
+<table id="choicetable_qtk_fr3_yxb"><thead><tr><th align="left" id="d45528e140">
 
 Action
 
-</th><th align="left" id="d45523e143">
+</th><th align="left" id="d45528e143">
 
 Details
 
-</th></tr></thead><tbody><tr><td id="d45523e149">
+</th></tr></thead><tbody><tr><td id="d45528e149">
 
 **View the details of floor**
 
@@ -98,7 +98,7 @@ Available count of interfaces on the floor
 
 Count of logical connections and power circuits related to datacenter
 
-</td></tr><tr><td id="d45523e242">
+</td></tr><tr><td id="d45528e242">
 
 **View the details of a place**
 
@@ -106,7 +106,7 @@ Count of logical connections and power circuits related to datacenter
 
 Select a place on the map pane. The selected place is highlighted on map pane. You can view the place details on the details pane. If the place is mapped to a Configuration Item \(CI\), then you can see the CI-specific details.
 
-</td></tr><tr><td id="d45523e254">
+</td></tr><tr><td id="d45528e254">
 
 **View the alert information**
 
@@ -117,7 +117,7 @@ Select the alert icon \(\[Omitted image "icon-alert-floor-map.png"\] Alt text: A
 -   Active change requests
 You can also select the green lightening bolt icon \(\[Omitted image "icon-green-lightening-bolt.png"\] Alt text: Green Lightening Bolt Icon.\) to view the alert information.
 
-</td></tr><tr><td id="d45523e287">
+</td></tr><tr><td id="d45528e287">
 
 **Visualize a rack**
 
@@ -127,7 +127,7 @@ Select a rack CI on the map pane. The Rack view opens. Do the following on the R
 -   To view the back of the rack, select **View rear panel**.
 
 
-</td></tr><tr><td id="d45523e311">
+</td></tr><tr><td id="d45528e311">
 
 **View floor and rack health information**
 
@@ -147,7 +147,7 @@ Select an empty space on the map pane to view the following floor health informa
 -   Humidity
  Select the more option icon \(\[Omitted image "icon-more-option.png"\] Alt text: More Options Icon.\) in the health section, and select **Open metrics** to view the metric values.
 
-</td></tr><tr><td id="d45523e366">
+</td></tr><tr><td id="d45528e366">
 
 **View operational metrics**
 
@@ -174,7 +174,7 @@ Overlays on a floor map are visual indicators displayed directly on a datacenter
 -   If no metric data available, system shows an error message **No metrics found for the specified duration**.
  To deselect overlay, select **None** in the **View By** field.
 
-</td></tr><tr><td id="d45523e467">
+</td></tr><tr><td id="d45528e467">
 
 **View floor map related to a company account**
 
@@ -182,7 +182,7 @@ Overlays on a floor map are visual indicators displayed directly on a datacenter
 
 In the **Filter By Accounts** field, select an account. The map highlights the CIs related to that company account in bluish green color. CIs related to other accounts are grayed out. You can also select more than one account.
 
-</td></tr><tr><td id="d45523e482">
+</td></tr><tr><td id="d45528e482">
 
 **Open a record from details pane**
 

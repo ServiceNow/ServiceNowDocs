@@ -18,6 +18,8 @@ Use the real time anonymization\(RTA\) policy to anonymize data entries in real 
 
 ## Real time anonymization Overview
 
+Role required: data\_discovery\_admin, data\_privacy\_admin
+
 Users create an RTA policy by selecting real time anonymization in the [Anonymization Policies page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/data-privacy-classic/dps-create-anonymization-policies.md), and then selecting the appropriate data channel. For example you can use Virtual Agent with real time anonymization: create an anonymization policy with the Virtual Agent selected as its **Data Channel**.
 
 Columns from the [target tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/data-discovery/configure-data-discovery-target-table.md) may be selected for RTA, whereupon [active data patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/data-discovery/configure-data-discovery-patterns.md) are used and their policies applied to any valid record entries to the columns targeted for RTA. If an entry matches an active data pattern its associated [anonymization technique](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/data-privacy-classic/dps-create-anonymization-techniques.md) will be used for anonymization.

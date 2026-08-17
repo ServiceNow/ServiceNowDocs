@@ -67,3 +67,5 @@ Create a distribution set to split cost allocations automatically for invoice li
 
 [Approval Plan form]()
 
+[Jurisdictions main table]()
+

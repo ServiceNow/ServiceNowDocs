@@ -1,24 +1,25 @@
 ---
 title: Add restricted caller access privileges for accessing the legal request table
-description: Create restricted caller access \(RCA\) privileges to ensure authorized access to the legal request table in the Now Assist for Legal Service Delivery \(LSD\) application.
+description: Create restricted caller access \(RCA\) privileges to ensure authorized access to the legal request table in the ServiceNow Otto for Legal Service Delivery \(LSD\) application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/now-assist-for-legal-service-delivery/lsd-agentic-rca-config.html
 release: zurich
 product: Now Assist for Legal Service Delivery
 classification: now-assist-for-legal-service-delivery
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Configure agentic workflow, Configure, Now Assist for Legal Service Delivery \(LSD\), Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
+keywords: [Now Assist, ServiceNow Otto, generative AI]
+breadcrumb: [Configure agentic workflow, Configure, ServiceNow Otto for Legal Service Delivery \(LSD\), Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Add restricted caller access privileges for accessing the legal request table
 
-Create restricted caller access \(RCA\) privileges to ensure authorized access to the legal request table in the Now Assist for Legal Service Delivery \(LSD\) application.
+Create restricted caller access \(RCA\) privileges to ensure authorized access to the legal request table in the ServiceNow Otto for Legal Service Delivery \(LSD\) application.
 
 ## Before you begin
 
-Set the application scope to **Legal Request Management** in the application picker. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/c_ApplicationPicker.md).
+Set the application scope to **Legal Request Management** in the application picker. For more information, see Application picker.
 
 Role required: admin
 
@@ -46,7 +47,7 @@ Source Scope
 
 </td><td>
 
-Scope of the calling application. Select **Now Assist AI Agents**.
+Scope of the calling application. Select **AI Agents**.
 
 </td></tr><tr><td>
 
@@ -70,7 +71,7 @@ Source
 
 </td><td>
 
-Cross-scope record that is accessing a restricted application resource.-   Select Lookup Documents by using the list icon \(\[Omitted image "icon-lookup.png"\] Alt text: Lookup Documents using list icon\).
+Cross-scope record that is accessing a restricted application resource.-   Select Lookup Documents by using the list icon \(\[Omitted image "lookup-using-list.png"\] Alt text: Lookup Documents using list icon\).
 -   In the field document, search and set the value as **Script Include: AiAgentRuntimeRequest**.
 
 
@@ -161,7 +162,7 @@ Source
 
 </td><td>
 
-Cross-scope record that is accessing a restricted application resource.-   Select Lookup Documents by using the list icon \(\[Omitted image "icon-lookup.png"\] Alt text: Lookup Documents using list icon\).
+Cross-scope record that is accessing a restricted application resource.-   Select Lookup Documents by using the list icon \(\[Omitted image "lookup-using-list.png"\] Alt text: Lookup Documents using list icon\).
 -   In the field document, search and set the value as **58d70eff2bb0ea50099bfd2cce91bf1d**.
 
 
@@ -252,7 +253,7 @@ Source
 
 </td><td>
 
-Cross-scope record that is accessing a restricted application resource.-   Select Lookup Documents by using the list icon \(\[Omitted image "icon-lookup.png"\] Alt text: Lookup Documents using list icon\).
+Cross-scope record that is accessing a restricted application resource.-   Select Lookup Documents by using the list icon \(\[Omitted image "lookup-using-list.png"\] Alt text: Lookup Documents using list icon\).
 -   In the field document, search and set the value as **58d70eff2bb0ea50099bfd2cce91bf1d**.
 
 
@@ -343,7 +344,7 @@ Source
 
 </td><td>
 
-Cross-scope record that is accessing a restricted application resource.-   Select Lookup Documents by using the list icon \(\[Omitted image "icon-lookup.png"\] Alt text: Lookup Documents using list icon\).
+Cross-scope record that is accessing a restricted application resource.-   Select Lookup Documents by using the list icon \(\[Omitted image "lookup-using-list.png"\] Alt text: Lookup Documents using list icon\).
 -   In the field document, search and set the value as **58d70eff2bb0ea50099bfd2cce91bf1d**.
 
 
@@ -434,7 +435,7 @@ Source
 
 </td><td>
 
-Cross-scope record that is accessing a restricted application resource.-   Select Lookup Documents by using the list icon \(\[Omitted image "icon-lookup.png"\] Alt text: Lookup Documents using list icon\).
+Cross-scope record that is accessing a restricted application resource.-   Select Lookup Documents by using the list icon \(\[Omitted image "lookup-using-list.png"\] Alt text: Lookup Documents using list icon\).
 -   In the field document, search and set the value as **58d70eff2bb0ea50099bfd2cce91bf1d**.
 
 

@@ -4,8 +4,9 @@ description: Use Contract Management Pro to submit contract requests that will g
 locale: en-US
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-05-19"
 reading_time_minutes: 4
+audience: sn\_cm\_core.contract\_fulfiller
 ---
 
 # Use self-served contract request

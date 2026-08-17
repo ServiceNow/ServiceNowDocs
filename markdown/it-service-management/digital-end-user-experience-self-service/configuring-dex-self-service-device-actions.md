@@ -9,7 +9,7 @@ classification: digital-end-user-experience-self-service
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure, Employee Self-service, Digital End-User Experience, IT Service Management]
+breadcrumb: [Configure, Digital End-user Experience Self-service, Digital End-User Experience, IT Service Management]
 ---
 
 # Configure device actions

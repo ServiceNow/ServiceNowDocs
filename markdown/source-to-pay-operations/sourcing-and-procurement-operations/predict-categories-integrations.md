@@ -9,7 +9,7 @@ classification: sourcing-and-procurement-operations
 topic_type: concept
 last_updated: "2025-02-11"
 reading_time_minutes: 1
-breadcrumb: [Automatically assign categories during SR, Explore Now Assist Sourcing Procurement, Now Assist Sourcing Procurement Operations, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Automatically assign categories during SR, Explore ServiceNow Otto for SPO, ServiceNow Otto for SPO, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Predict categories for PRLs and POLs imported through integrations
@@ -23,7 +23,7 @@ The following scheduled on-demand scripts have been added:
 -   **Product and spend category prediction for purchase line**: Updates the spend and product category fields on PRLs imported through integration from third-party systems.
 -   **Product and spend category prediction for purchase order line**: Updates the spend and product category fields on POLs imported through integration from third-party systems.
 
-After the PRLs and POLs are imported into your instance, open the appropriate scheduled on-demand script and select **Execute Now** to run the script and update the spend and product category fields.\[Omitted image "prl-on-demand.png"\] Alt text: Scheduled Script Execution page showing the product and spend category prediction script with Execute Now button.
+After the PRLs and POLs are imported into your instance, open the appropriate scheduled on-demand script and select **Execute Now** to run the script and update the spend and product category fields.
 
 ## How product and spend category updates work for imported PRLs and POLs
 

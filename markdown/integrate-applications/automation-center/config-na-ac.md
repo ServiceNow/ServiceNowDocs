@@ -1,6 +1,6 @@
 ---
-title: Configuring Now Assist for Automation Center
-description: Configure Now Assist for Automation Center to use all the features.
+title: Configuring ServiceNow Otto for Automation Center
+description: Configure ServiceNow Otto for Automation Center to use all the features.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/automation-center/config-na-ac.html
 release: zurich
@@ -9,18 +9,18 @@ classification: automation-center
 topic_type: concept
 last_updated: "2026-02-16"
 reading_time_minutes: 1
-breadcrumb: [Now Assist for Automation Center, Use, Automation Center, Workflow Data Fabric]
+breadcrumb: [ServiceNow Otto for Automation Center, Use, Automation Center, Workflow Data Fabric]
 ---
 
-# Configuring Now Assist for Automation Center
+# Configuring ServiceNow Otto for Automation Center
 
-Configure Now Assist for Automation Center to use all the features.
+Configure ServiceNow Otto for Automation Center to use all the features.
 
-## Now Assist for Automation Center plugin
+## ServiceNow Otto for Automation Center plugin
 
-To work with generative AI capabilities, you need Now Assist for Automation Center plugin. You can install this plugin from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
+To work with generative AI capabilities, you need ServiceNow Otto for Automation Center plugin. You can install this plugin from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
-The Now Assist for Automation Center plugin helps you to:
+The ServiceNow Otto for Automation Center plugin helps you to:
 
 -   Create an agent for your automation requests
 -   Explore all automations in your instance
@@ -30,5 +30,5 @@ The Now Assist for Automation Center plugin helps you to:
 -   **[Activate skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/activate-skill.md)**  
 Activate the user task step summarization skill to create an automation request from the Task Mining workspace.
 
-**Parent Topic:**[Now Assist for Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/nowassist-ac.md)
+**Parent Topic:**[ServiceNow Otto for Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/nowassist-ac.md)
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-talentfeedback-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -67,19 +67,19 @@ Yokohama
 
 </td><td>
 
--   **[Request and view feedback](https://servicenow-staging.fluidtopics.net/access?context=request-skill-feedback&family=yokohama&ft:locale=en-US)**
+-   **[Request and view feedback](https://www.servicenow.com/docs/access?context=request-skill-feedback&family=yokohama&ft:locale=en-US)**
 
 As a manager, request skill feedback for your team members on any skills from the employee's collaborators.
 
--   **[View feedback and skill activities](https://servicenow-staging.fluidtopics.net/access?context=view-skill-feedback&family=yokohama&ft:locale=en-US)**
+-   **[View feedback and skill activities](https://www.servicenow.com/docs/access?context=view-skill-feedback&family=yokohama&ft:locale=en-US)**
 
 As a manager, view all the feedback received for a skill along with skill activities, during skill validation to get a full-fledged view of an employee's proficiency.
 
--   **[Request feedback](https://servicenow-staging.fluidtopics.net/access?context=request-skill-feedback&family=yokohama&ft:locale=en-US)**
+-   **[Request feedback](https://www.servicenow.com/docs/access?context=request-skill-feedback&family=yokohama&ft:locale=en-US)**
 
 As an employee, receive feedback requests in your Employee Center To-dos, where you can provide feedback and skill rating for one or more skills in the request.
 
--   **[Decline a feedback request](https://servicenow-staging.fluidtopics.net/access?context=accept-deny-feedback&family=yokohama&ft:locale=en-US)Accept or deny feedback requests**
+-   **[Decline a feedback request](https://www.servicenow.com/docs/access?context=accept-deny-feedback&family=yokohama&ft:locale=en-US)Accept or deny feedback requests**
 
 As an employee \(feedback provider\), you can choose to decline requests that are not relevant to you.
 
@@ -198,7 +198,7 @@ Yokohama
 
 </td><td>
 
-Install Talent Feedback by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+Install Talent Feedback by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -348,7 +348,7 @@ Yokohama
 -   Support skill validation by providing managers with qualitative inputs to validate employees’ skills.
 -   Identify growth opportunities by uncovering skill gaps and learning needs.
 
- See [Talent Feedback](https://servicenow-staging.fluidtopics.net/access?context=talent-feedback-landing&family=yokohama&ft:locale=en-US) for more information.
+ See [Talent Feedback](https://www.servicenow.com/docs/access?context=talent-feedback-landing&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 

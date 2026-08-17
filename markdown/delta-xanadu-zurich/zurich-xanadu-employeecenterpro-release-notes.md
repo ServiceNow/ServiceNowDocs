@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-employeecenterpro-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -91,22 +91,22 @@ Zurich
 
 </td><td>
 
--   **[Portal performance optimization](https://servicenow-staging.fluidtopics.net/access?context=ec-load-experience-optimization&family=zurich&ft:locale=en-US)**
+-   **[Portal performance optimization](https://www.servicenow.com/docs/access?context=ec-load-experience-optimization&family=zurich&ft:locale=en-US)**
 
 Communicate information about heavy usage and slower network conditions during high usage scenarios, such as live events and major announcements.
 
--   **[Notifications for Employee Center](https://servicenow-staging.fluidtopics.net/access?context=notifications-ec&family=zurich&ft:locale=en-US) enhancements**
+-   **[Notifications for Employee Center](https://www.servicenow.com/docs/access?context=notifications-ec&family=zurich&ft:locale=en-US) enhancements**
 
 Get the Notifications for Employee Center feature in Content engagement. Add reactions and comments to published news articles to help improve user involvement.
 
--   **[Integrated experience and service feedback](https://servicenow-staging.fluidtopics.net/access?context=ex-fdback-ovrvw&family=zurich&ft:locale=en-US)**
+-   **[Integrated experience and service feedback](https://www.servicenow.com/docs/access?context=ex-fdback-ovrvw&family=zurich&ft:locale=en-US)**
 
 Configure features flexibly as an admin and submit detailed experience feedback as an employee with the Integrated experience and Service feedback enhancements. With the enhancements, you can do the following:
 
     -   Use new themes for experience feedback.
     -   Add comments in addition to a rating when submitting experience feedback.
     -   Review submitted feedback on the Feedback Analytics Dashboard.
--   **[Quick start tests for Employee Center Pro](https://servicenow-staging.fluidtopics.net/access?context=quick-start-tests-employee-center-pro&family=zurich&ft:locale=en-US)**
+-   **[Quick start tests for Employee Center Pro](https://www.servicenow.com/docs/access?context=quick-start-tests-employee-center-pro&family=zurich&ft:locale=en-US)**
 
 After upgrades and deployments of new applications or integrations, run quick start tests to verify that Employee Center Pro works as expected. If you customized Employee Center Pro, copy the quick start tests and configure them for your customizations.
 
@@ -446,7 +446,7 @@ Zurich
 -   Get the Notifications in Employee Center feature in Content engagement for improved employee involvement while engaging with news content.
 -   Experience an enhanced performance with improvements to calender widgets, news and events, and publishing communications to browser websites.
 
- See [Employee Center Pro](https://servicenow-staging.fluidtopics.net/access?context=employee-center-pro-landing&family=zurich&ft:locale=en-US) for more information.
+ See [Employee Center Pro](https://www.servicenow.com/docs/access?context=employee-center-pro-landing&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/rn-combined-intro.md)

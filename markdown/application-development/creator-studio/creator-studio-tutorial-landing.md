@@ -122,7 +122,7 @@ Role required: Creator Studio User
 
 ### About this task
 
-You can also use Now Assist for Creator on the **Build with Now Assist** tab to customize a form. But for this tutorial, you will manually enter questions.
+You can also use ServiceNow Otto for Creator on the **Build with Now Assist** tab to customize a form. But for this tutorial, you will manually enter questions.
 
 ### Procedure
 

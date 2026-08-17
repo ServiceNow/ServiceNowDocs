@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 6
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configuring Now Assist in AI Search, Now Assist in AI Search, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer]
+breadcrumb: [Configuring Now Assist in AI Search, ServiceNow Otto for AI Search, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer]
 ---
 
 # External Content Q&amp;A Genius Results
@@ -38,7 +38,7 @@ To make External Content Q&amp;A Genius Results available for use in AI Search a
 3.  Add the AllSites.FullControl SharePoint delegated permission \(and grant admin consent\) to your new OAuth application in the Microsoft Azure portal. For details on this procedure, see [Configure SharePoint API permissions for your External Content Q&amp;A Genius Results OAuth 2.0 application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/grant-perms-azure-ext-cont-qna-grs.md).
 4.  Define OAuth configuration settings for External Content Q&amp;A Genius Results. For full details on the required OAuth settings, see [Configure OAuth settings for External Content Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-oauth-ext-cont-qna-gr.md).
 
-Next, search administrators need to enable External Content Q&amp;A Genius Results in one or more AI Search portals. To learn about this procedure, see [Enable Now Assist Genius Results in AI Search portals and mobile applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/enable-now-assist-gr-ais-apps.md).
+Next, search administrators need to enable External Content Q&amp;A Genius Results in one or more AI Search portals. To learn about this procedure, see [Enable ServiceNow Otto for AI Search Genius Results in AI Search portals and mobile applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/enable-now-assist-gr-ais-apps.md).
 
 After all these steps are completed, AI Search portal users can authorize External Content Q&amp;A Genius Results for their searches by authenticating with Microsoft SharePoint Online. For details on this authentication procedure, see [Sign in to Microsoft SharePoint Online to authorize External Content Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/auth-sharepoint-ext-cont-qna-gr.md).
 

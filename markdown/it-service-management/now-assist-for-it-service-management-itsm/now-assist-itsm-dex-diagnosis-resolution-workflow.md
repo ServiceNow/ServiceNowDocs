@@ -1,27 +1,27 @@
 ---
 title: DEX issue diagnosis and resolution agentic workflow
-description: Use the Digital End-User Experience \(DEX\) issue diagnosis and resolution agentic workflow from the Now Assist panel to diagnose and resolve common issues on DEX monitored devices.
+description: Use the Digital End-User Experience \(DEX\) issue diagnosis and resolution agentic workflow from the ServiceNow Otto panel to diagnose and resolve common issues on DEX monitored devices.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-dex-diagnosis-resolution-workflow.html
 release: zurich
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: concept
-last_updated: "2025-10-22"
+last_updated: "2026-03-12"
 reading_time_minutes: 5
-keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
-breadcrumb: [Agentic AI in the DEX application, Use agentic AI in IT Service Management, Now Assist for IT Service Management \(ITSM\), IT Service Management]
+keywords: [ServiceNow Otto, Agentic AI, generative AI, Gen AI]
+breadcrumb: [Agentic AI in the DEX application, Use agentic AI in IT Service Management, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 
 # DEX issue diagnosis and resolution agentic workflow
 
-Use the Digital End-User Experience \(DEX\) issue diagnosis and resolution agentic workflow from the Now Assist panel to diagnose and resolve common issues on DEX monitored devices.
+Use the Digital End-User Experience \(DEX\) issue diagnosis and resolution agentic workflow from the ServiceNow Otto panel to diagnose and resolve common issues on DEX monitored devices.
 
 ## DEX issue diagnosis and resolution agentic workflow overview
 
 Using the DEX issue diagnosis and resolution agentic workflow:
 
--   Get automated diagnoses for incidents on DEX monitored end-user devices. Root cause analysis is generated based on sources like device health check data from 24 hours before the incident to incident time and similar past incidents. Starting with Zurich Patch 7, Zoom specific diagnostics integrated with the agentic workflow enable you to diagnose Zoom call quality issues by correlating device, network, and application data.
+-   Get automated diagnoses for incidents on DEX monitored end-user devices. Root cause analysis is generated based on sources like device health check data from 24 hours before the incident to incident time and similar past incidents. With the integration of Zoom specific diagnostics, you can diagnose Zoom call quality issues by correlating device, network, and application data.
 -   Get resolution plans for detected device issues based on remedial actions and self-help instructions, past incident resolutions, and Knowledge Base articles.
 -   Provide approval and have the resolution summary automatically stamped to the Work notes of an incident record.
 
@@ -29,7 +29,7 @@ Using the DEX issue diagnosis and resolution agentic workflow:
 
 To access the DEX issue diagnosis and resolution agentic workflow, make sure that you install the following applications:
 
--   Now Assist for IT Service Management \(ITSM\) \(sn\_itsm\_gen\_ai\) plugin.
+-   ServiceNow Otto for IT Service Management \(ITSM\) \(sn\_itsm\_gen\_ai\) plugin.
 -   Digital End-User Experience application. For more information, see [Install Digital End-User Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/install-app-device-health.md) and [Configuring Digital End-User Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/config-dex-console.md).
 
 ## Roles required to access the agentic workflow
@@ -48,11 +48,11 @@ The DEX issue diagnosis and resolution agentic workflow provides incident diagno
 -   The incident record must be associated with a single, DEX monitored physical endpoint or device. Only one device configuration item \(CI\) must be configured either as the primary CI in the **Configuration item** field or in the **Affected CIs** list.
 -   The device associated with the incident must have a DEX compatible operating system. For more information, see [DEX system requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/dex-sys-requirements.md).
 -   The incident must be created within the past month. Incidents older than one month cannot be diagnosed and resolved using the agentic workflow.
--   To make sure that the correct agentic workflow is initiated, include the phrase "diagnose and resolve" in your Now Assist panel prompt.
+-   To make sure that the correct agentic workflow is initiated, include the phrase "diagnose and resolve" in your ServiceNow Otto panel prompt.
 
 ## Accessing the agentic workflow
 
-Service desk agents can access the agentic workflow from the Service Operations Workspace by using the Now Assist panel.
+Service desk agents can access the agentic workflow from the Service Operations Workspace by using the ServiceNow Otto panel.
 
 Administrators can access the agentic workflow from the AI Agent Studio.
 
@@ -93,12 +93,10 @@ Collects DEX resolutions that include remedial actions and self-help instruction
 Service desk agents can use the agentic workflow to generate incident diagnosis and resolution plan from the Service Operations Workspace.
 
 1.  In the Service Operations Workspace, open the incident record from the Incidents list.
-2.  Select the Now Assist icon \[Omitted image "icon-now-assist-panel.png"\] Alt text: Now Assist icon to open the Now Assist panel.
+2.  Select the ServiceNow Otto icon \[Omitted image "now-assist-sn-otto-icon.png"\] Alt text: Now Assist icon to open the panel.
 3.  Type your prompt that includes the phrase "diagnose and resolve". For example, Diagnose and resolve this incident.
 
 After the resolution plan is generated, you can execute it directly from the Investigation tab of the incident record. For more information, see [Incident investigation with DEX](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/dex-diagnostics-guided-resolutions.md).
-
-**Example of DEX issue diagnosis and resolution agentic workflow output in Service Operations Workspace**\[Omitted image "dex-agentic-nap.png"\] Alt text: DEX issue diagnosis and resolution agentic workflow output in Now Assist panel within the Service Operations Workspace
 
 ## Generating an incident diagnosis and resolution plan in the ServiceNow AI Agent Studio
 

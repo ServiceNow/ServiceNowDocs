@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-adoptionservices-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 3
+last_updated: "2026-08-17"
+reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
 
@@ -67,7 +67,7 @@ Yokohama
 
 </td><td>
 
--   **[Guided Setup](https://servicenow-staging.fluidtopics.net/access?context=guided-setup&family=yokohama&ft:locale=en-US)**
+-   **[Guided Setup](https://www.servicenow.com/docs/access?context=guided-setup&family=yokohama&ft:locale=en-US)**
 
 Create additional tasks under Guided Setup using page macroponent as an app owner. You can also access and execute these tasks with an admin role.
 
@@ -80,7 +80,12 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **[Help Center](https://www.servicenow.com/docs/access?context=help-center&family=zurich&ft:locale=en-US)**
+
+Find the available Guided Tours that are now prominently listed in the Help Center.
+
+View the state of the Guided Tours in progress, in the Help Center. Any other help content is hidden when the tour is running. These enhancements are applicable across workspaces.
+
 
 </td></tr></tbody>
 </table>## Changes
@@ -101,7 +106,7 @@ Yokohama
 
 </td><td>
 
--   **[Guided Setup](https://servicenow-staging.fluidtopics.net/access?context=guided-setup&family=yokohama&ft:locale=en-US)**
+-   **[Guided Setup](https://www.servicenow.com/docs/access?context=guided-setup&family=yokohama&ft:locale=en-US)**
 
 Assign and transfer Guided Setup tasks to relevant users, for execution. This capability requires admin roles.
 
@@ -112,19 +117,19 @@ You can now run the Guided Setup player or builder multiple times.
 Select the multi-run feature while you’re configuring and executing the tasks multiple times.
 
 
--   **[Help Center](https://servicenow-staging.fluidtopics.net/access?context=help-center&family=yokohama&ft:locale=en-US)**
+-   **[Help Center](https://www.servicenow.com/docs/access?context=help-center&family=yokohama&ft:locale=en-US)**
 
 Navigate to What's New within the Help Center panel across all experiences, including Core UI. Starting in the Yokohama release, configuration support for this new feature is available in classic and custom pages.
 
 This feature isn’t supported for non-Polaris users.
 
 
--   **[Embedded Help](https://servicenow-staging.fluidtopics.net/access?context=embedded-help&family=yokohama&ft:locale=en-US)**
+-   **[Embedded Help](https://www.servicenow.com/docs/access?context=embedded-help&family=yokohama&ft:locale=en-US)**
 
 Import non-English content without overriding the last uploaded language content.
 
 
--   **[Guided Tours](https://servicenow-staging.fluidtopics.net/access?context=guided-tours&family=yokohama&ft:locale=en-US)**
+-   **[Guided Tours](https://www.servicenow.com/docs/access?context=guided-tours&family=yokohama&ft:locale=en-US)**
 
 Create, edit, or delete Guided Tours from any scoped application including ServiceNow AI Platform.
 
@@ -135,7 +140,10 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **[genai\_admin role in Dynamic Guidance](https://www.servicenow.com/docs/access?context=configure&family=zurich&ft:locale=en-US)**
+
+The sn\_dyn\_guidance\_user role now includes the role. When you assign sn\_dyn\_guidance\_user to a user, the genai\_admin role is automatically granted.
+
 
 </td></tr></tbody>
 </table>## Removed
@@ -222,7 +230,7 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+Adoption Services is active by default with the plugins. Do not activate this feature explicitly.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -309,7 +317,13 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **[Guided Tours](https://www.servicenow.com/docs/access?context=guided-tours&family=zurich&ft:locale=en-US)**
+
+Guided Tours is enhanced with more accessibility features including:
+
+    -   Descriptive page titles
+    -   Keyboard assistance for suggesting required fields through screen reader
+    -   Keyboard assistance for focussed user interface controls like, tool tip icons and check-boxes
 
 </td></tr></tbody>
 </table>## Localization information
@@ -366,7 +380,7 @@ Yokohama
 -   Use the new Help Center UI features that provide a more enhanced experience.
 -   Explore the enhanced Guided Setup that support running it multiple times.
 
- See [Adoption services](https://servicenow-staging.fluidtopics.net/access?context=adoption-services&family=yokohama&ft:locale=en-US) for more information.
+ See [Adoption services](https://www.servicenow.com/docs/access?context=adoption-services&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -374,7 +388,12 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+Explore Dynamic Guidance within [In-product help](https://www.servicenow.com/docs/access?context=inproduct-help&family=zurich&ft:locale=en-US) features of [Adoption services](https://www.servicenow.com/docs/access?context=adoption-services&family=zurich&ft:locale=en-US) as the proactive AI assistant that generates an engaging voice based, step by step guidance, dynamically, across platforms.
+
+ -   Use Onboarding modals that now align with the theme of the chosen ServiceNow® instance.
+-   Discover and select Guided Tours from the list that is available in Help Center.
+
+ See [Adoption services](https://www.servicenow.com/docs/access?context=adoption-services&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

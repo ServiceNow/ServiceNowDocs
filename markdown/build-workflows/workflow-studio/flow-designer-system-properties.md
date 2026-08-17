@@ -380,7 +380,7 @@ com.glide.cs.fdih.interactive.timeout
 Specify the length of time, in seconds, before the Workflow Studio Integration Hub action workflow times out.-   Type: integer
 -   Default value: 120
 -   Location: System Properties \[sys\_properties\] table
--   More information: [Specify the action workflow timeout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/va-fdih-action-timeout.md).
+-   More information: Specify the action workflow timeout.
 
 </td></tr><tr><td>
 

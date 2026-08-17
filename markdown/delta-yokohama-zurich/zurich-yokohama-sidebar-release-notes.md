@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-sidebar-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -67,15 +67,15 @@ Yokohama
 
 </td><td>
 
--   **[Exploring Sidebar](https://servicenow-staging.fluidtopics.net/access?context=exploring-sidebar&family=yokohama&ft:locale=en-US)**
+-   **[Exploring Sidebar](https://www.servicenow.com/docs/access?context=exploring-sidebar&family=yokohama&ft:locale=en-US)**
 
 Integrate Sidebar and Slack to enable the users of both platforms to seamlessly collaborate with each other.
 
--   **[Using Sidebar](https://servicenow-staging.fluidtopics.net/access?context=using-sidebar&family=yokohama&ft:locale=en-US)**
+-   **[Using Sidebar](https://www.servicenow.com/docs/access?context=using-sidebar&family=yokohama&ft:locale=en-US)**
 
 Create standalone Sidebar conversations that aren’t associated with a specific record.
 
--   **[Using Sidebar](https://servicenow-staging.fluidtopics.net/access?context=using-sidebar&family=yokohama&ft:locale=en-US)**
+-   **[Using Sidebar](https://www.servicenow.com/docs/access?context=using-sidebar&family=yokohama&ft:locale=en-US)**
 
 Create private discussions on a record that are accessible only to the participants within that discussion.
 
@@ -86,7 +86,7 @@ Zurich
 
 </td><td>
 
--   **[Sidebar](https://servicenow-staging.fluidtopics.net/access?context=sidebar-landing&family=zurich&ft:locale=en-US)**
+-   **[Sidebar](https://www.servicenow.com/docs/access?context=sidebar-landing&family=zurich&ft:locale=en-US)**
 
 Use threaded replies to answer Sidebar messages without adding clutter to the main discussion.
 
@@ -197,7 +197,7 @@ Yokohama
 
 </td><td>
 
-Install Sidebar by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+Install Sidebar by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -205,7 +205,7 @@ Zurich
 
 </td><td>
 
-Sidebar is a ServiceNow AI Platform feature part of the Omni-Experience Standard Feature Set. For details, see [Installing Sidebar](https://servicenow-staging.fluidtopics.net/access?context=install-sidebar&family=zurich&ft:locale=en-US).
+Sidebar is a ServiceNow AI Platform feature part of the Omni-Experience Standard Feature Set. For details, see [Installing Sidebar](https://www.servicenow.com/docs/access?context=install-sidebar&family=zurich&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -346,7 +346,7 @@ Yokohama
 -   Create standalone Sidebar conversations that aren’t associated with a record.
 -   Create private discussions on a record that are accessible only to the participants within that discussion.
 
- See [Sidebar](https://servicenow-staging.fluidtopics.net/access?context=sidebar-landing&family=yokohama&ft:locale=en-US) for more information.
+ See [Sidebar](https://www.servicenow.com/docs/access?context=sidebar-landing&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -356,7 +356,7 @@ Zurich
 
 Prevent Sidebar discussions from becoming cluttered by using threaded replies when responding to messages.
 
- See [Sidebar](https://servicenow-staging.fluidtopics.net/access?context=sidebar-landing&family=zurich&ft:locale=en-US) for more information.
+ See [Sidebar](https://www.servicenow.com/docs/access?context=sidebar-landing&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

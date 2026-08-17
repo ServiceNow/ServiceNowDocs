@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-hrservicedeliveryforhealthcare-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -75,11 +75,11 @@ Xanadu
 
 </td><td>
 
--   **[Healthcare Professional data model](https://servicenow-staging.fluidtopics.net/access?context=hr-hc-profile&family=xanadu&ft:locale=en-US)**
+-   **[Healthcare Professional data model](https://www.servicenow.com/docs/access?context=hr-hc-profile&family=xanadu&ft:locale=en-US)**
 
 Use the Healthcare Professional data model to store confidential data pertaining to a healthcare professional, such as practice name, medical degree, and practice locations. The Healthcare Professional data model enables the organization to access, track, and update healthcare profile information throughout the period of employment of a healthcare professional. The profile records are stored confidentially and aren't publicly viewable.
 
--   **[Customize Healthcare Employee Onboarding workflow](https://servicenow-staging.fluidtopics.net/access?context=customize-journey-hc&family=xanadu&ft:locale=en-US)**
+-   **[Customize Healthcare Employee Onboarding workflow](https://www.servicenow.com/docs/access?context=customize-journey-hc&family=xanadu&ft:locale=en-US)**
 
 Use the default Healthcare Employee Onboarding workflow in Journey designer to set up and automate the following tasks for a newly hired healthcare professional at a healthcare organization:
 
@@ -233,7 +233,7 @@ Xanadu
 
 </td><td>
 
-Install HR Service Delivery for Healthcare by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
+Install HR Service Delivery for Healthcare by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -421,7 +421,7 @@ Xanadu
 -   Manage the data of a healthcare professional securely with the Healthcare Professional data model.
 -   Set up and auto-create necessary tasks automatically to onboard a healthcare professional smoothly into an organization with the default Healthcare Employee Onboarding workflow.
 
- See [HR Service Delivery for Healthcare](https://servicenow-staging.fluidtopics.net/access?context=healthcare-hr&family=xanadu&ft:locale=en-US) for more information.
+ See [HR Service Delivery for Healthcare](https://www.servicenow.com/docs/access?context=healthcare-hr&family=xanadu&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 

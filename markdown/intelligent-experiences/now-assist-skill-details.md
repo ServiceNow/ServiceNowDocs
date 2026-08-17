@@ -1,6 +1,6 @@
 ---
-title: Now Assist skill details
-description: Explore details of Now Assist skills, security and usage data.
+title: AI skill details
+description: Explore details of AI skills, security and usage data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/now-assist-skill-details.html
 release: zurich
@@ -8,18 +8,20 @@ topic_type: concept
 last_updated: "2026-05-25"
 reading_time_minutes: 1
 keywords: [Now assist skill details]
-breadcrumb: [Using Now Assist Admin, Now Assist, Enable AI experiences]
+breadcrumb: [Using AI Admin Hub, AI Admin Hub, Enable AI experiences]
 ---
 
-# Now Assist skill details
+# AI skill details
 
-Explore details of Now Assist skills, security and usage data.
+Explore details of AI skills, security and usage data.
 
 Explore details about various skills within a workflow. This page contains information about skill, usage and consumption information, and a summary of security and governance data.
 
 **Note:** The minimum version required to access the skill details page is Zurich patch 10 and Australia patch 3.
 
-\[Omitted image "na-skill-details-option.png"\] Alt text: Now Assist skill details
+\[Omitted image "na-skill-details-option.png"\] Alt text: AI skill details
+
+The image suggests that this email recommendation skill is associated with multiple workflows or products. Activation of this skill applies to all the products it is relevant to.
 
 The **View details** option displays skill details under these tabs:
 
@@ -40,5 +42,5 @@ The **View details** option displays skill details under these tabs:
     \[Omitted image "na-skill-details-security.png"\] Alt text: Skill details- Security and governance tab
 
 
-**Parent Topic:**[Using Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/using-now-assist-admin_0.md)
+**Parent Topic:**[Using AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/using-now-assist-admin_0.md)
 

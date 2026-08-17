@@ -7,9 +7,9 @@ release: zurich
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2026-02-13"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Create an Asset Project Request from Project Workspace, Manage Projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Create an Asset Project Request from Project Workspace, Manage projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # View asset project requests for a project
@@ -28,11 +28,11 @@ This helps portfolio or project managers quickly understand which asset requests
 
 1.  Open a project from the home page of Project Workspace.
 
-    For information, see [Access Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/access-new-project-workspace.md).
+    For information, see [Access the Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/access-new-project-workspace.md).
 
 2.  Open the details page of the project by selecting **Details** from the list.
 
-3.  Select **Asset Project Requests** related link.
+3.  Select Asset Project Requests related link.
 
 4.  From asset project requests list, view the list of asset project requests tagged to the project.
 

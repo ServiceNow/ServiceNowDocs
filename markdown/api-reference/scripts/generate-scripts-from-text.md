@@ -1,6 +1,6 @@
 ---
 title: Generate code with AI-powered code generation
-description: Generate code from text with AI-powered Now Assist for Code.
+description: Generate code from text with AI-powered ServiceNow Otto for Code.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/scripts/generate-scripts-from-text.html
 release: zurich
@@ -9,12 +9,12 @@ classification: scripts
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Use Now Assist for Code, Now Assist for Code, Scripting, API implementation, API implementation and reference]
+breadcrumb: [Use Now Assist for Code, ServiceNow Otto for Code, Scripting, API implementation, API implementation and reference]
 ---
 
 # Generate code with AI-powered code generation
 
-Generate code from text with AI-powered Now Assist for Code.
+Generate code from text with AI-powered ServiceNow Otto for Code.
 
 ## Before you begin
 

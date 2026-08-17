@@ -47,15 +47,15 @@ The automation logs store up to 8,000 records that are latest. Every 5 minutes, 
 
 3.  Navigate to the automation logs in one of the following ways.
 
-<table id="choicetable_kgc_jxm_frb"><thead><tr><th align="left" id="d230928e155">
+<table id="choicetable_kgc_jxm_frb"><thead><tr><th align="left" id="d223329e155">
 
 Option
 
-</th><th align="left" id="d230928e158">
+</th><th align="left" id="d223329e158">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d230928e164">
+</th></tr></thead><tbody><tr><td id="d223329e164">
 
 **From Bot Process menu**
 
@@ -67,7 +67,7 @@ Action
 4.  On the Automation Logs tab, view an associated automation log.
 
 
-</td></tr><tr><td id="d230928e197">
+</td></tr><tr><td id="d223329e197">
 
 **From Process Job menu**
 
@@ -78,7 +78,7 @@ Action
 3.  On the Automation Logs tab, view an associated automation log.
 
 
-</td></tr><tr><td id="d230928e227">
+</td></tr><tr><td id="d223329e227">
 
 **From Automation Logs menu**
 

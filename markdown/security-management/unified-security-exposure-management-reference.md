@@ -16,8 +16,8 @@ Reference topic contains information about tables, roles, scheduled jobs and pro
 
 -   **[Security Exposure Management Workspace Components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sem-components-installed.md)**  
 When you activate the Unified Security Exposure Management \(USEM\) and Security Exposure Management Workspace applications, the system installs specific key components including tables, user roles, and scheduled jobs to support the operations required for assessing and managing security exposures.
--   **[Now Assist for Vulnerability Response reference information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/now-assist-vulnerability-response-reference.md)**  
-Tools, agents, and AI agent collection information for Now Assist for Vulnerability Response.
+-   **[ServiceNow Otto for Unified Security Exposure Management reference information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/now-assist-vulnerability-response-reference.md)**  
+Tools, agents, and AI agent collection information for ServiceNow Otto for Unified Security Exposure Management.
 -   **[Security Exposure Management Knowledge Base articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sem-kb-list.md)**  
 This section provides a curated list of essential ServiceNow Knowledge Base \(KB\) articles related to Security Exposure Management. These resources cover best practices, compatibility details, and workflow guidance for managing security exposures effectively.
 -   **[Security Exposure Management Workspace remediation task rule examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sem-rem-target-rules-examples.md)**  

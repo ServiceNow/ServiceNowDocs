@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-02-04"
 reading_time_minutes: 1
 keywords: [agentic ai]
-breadcrumb: [In-product agentic AI, Now Assist agentic workflows, Now Assist AI assets, Enable AI experiences]
+breadcrumb: [In-product agentic AI, Agentic workflows, AI assets, Enable AI experiences]
 ---
 
 # Enable the in-product experience for agentic workflows

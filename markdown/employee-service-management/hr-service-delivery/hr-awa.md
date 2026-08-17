@@ -20,7 +20,7 @@ AWA for HR Service Delivery pushes cases and tasks to qualified agents using wor
 
 AWA is also available for HR Service Delivery Agent Workspace.
 
-For more details about AWA, see [Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/awa-application-landing-page.md).
+For more details about AWA, see .
 
 **Parent Topic:**[HR Service Delivery case assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-case-assignment.md)
 

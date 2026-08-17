@@ -42,7 +42,7 @@ Watch this video for an overview of how the Agent Client Collector works.
 
 </td><td colspan="2">
 
-[Agent Client Collector Log Analytics\[Omitted image "bus-log-store.svg"\] Alt text:Stream log data from Linux and Windows hosts to a ServiceNow instance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-log-analytics.md)
+Agent Client Collector Log Analytics\[Omitted image "bus-log-store.svg"\] Alt text:Stream log data from Linux and Windows hosts to a ServiceNow instance.
 
 </td><td>
 

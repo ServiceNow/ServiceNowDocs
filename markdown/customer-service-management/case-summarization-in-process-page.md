@@ -1,6 +1,6 @@
 ---
 title: Summarize a case
-description: Enable your agents to summarize the case details and to display this information on the case record by using the Now Assist for CSM case summarization skill.
+description: Enable your agents to summarize the case details and to display this information on the case record by using the ServiceNow Otto for CSM case summarization skill.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/case-summarization-in-process-page.html
 release: zurich
@@ -12,7 +12,7 @@ breadcrumb: [Using playbooks, Automate and optimize, Use, Customer Service Manag
 
 # Summarize a case
 
-Enable your agents to summarize the case details and to display this information on the case record by using the Now Assist for CSM case summarization skill.
+Enable your agents to summarize the case details and to display this information on the case record by using the ServiceNow Otto for CSM case summarization skill.
 
 ## Overview
 

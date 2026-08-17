@@ -61,7 +61,7 @@ Now Assist automatically completes and submits the document task without an agen
 
 [Document and visual insights AI agent]()
 
-[Document Intelligence tool for Now Assist Skill Kit]()
+[Document Intelligence tool for AI Skill Kit]()
 
 [Field types in Now Assist in Document Intelligence]()
 

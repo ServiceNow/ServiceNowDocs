@@ -9,7 +9,7 @@ classification: now-assist-data-kit
 topic_type: task
 last_updated: "2026-03-05"
 reading_time_minutes: 1
-breadcrumb: [Labelling, Using Now Assist Data Kit, Now Assist Data Kit, Enable AI experiences]
+breadcrumb: [Labelling, Using AI Data Kit, AI Data Kit, Enable AI experiences]
 ---
 
 # Add ground truth to a labeling project

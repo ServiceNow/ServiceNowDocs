@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 6
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
-breadcrumb: [Agentic AI in the ITSM application, Use agentic AI in IT Service Management, Now Assist for IT Service Management \(ITSM\), IT Service Management]
+breadcrumb: [ITSM, Use agentic AI in IT Service Management, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 
 # IT Service Management AI agent collection Triage and categorize ITSM incidents agentic workflow
@@ -27,7 +27,7 @@ To modify the Triage and categorize ITSM incidents agentic workflow, [duplicate 
 
 **Important:** When you modify an agentic workflow, AI agent, or a tool, make sure that you update all instructions accordingly.
 
-**Important:** To search for related major incidents, you must activate the Incident Management - Major Incident Management plugin \(com.snc.incident.mim\). For more information, see [Activate Incident Management - Major Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-management/activate-major-incident-management-plugin.md).
+**Important:** To search for related major incidents, you must activate the Incident Management - Major Incident Management plugin \(com.snc.incident.mim\). For more information, see [Activate Major Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-management/activate-major-incident-management-plugin.md).
 
 ## Triage and categorize ITSM incidents agentic workflow
 
@@ -130,7 +130,7 @@ Link major incident or problem AI agent
 
 </td><td>
 
-**Important:** To search for related major incidents, you must activate the Incident Management - Major Incident Management plugin \(com.snc.incident.mim\). For more information, see [Activate Incident Management - Major Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-management/activate-major-incident-management-plugin.md).
+**Important:** To search for related major incidents, you must activate the Incident Management - Major Incident Management plugin \(com.snc.incident.mim\). For more information, see [Activate Major Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-management/activate-major-incident-management-plugin.md).
 
  -   If this AI agent identifies a related, most similar major incident, it automatically links it to the current incident and ends the workflow.
 -   If the Major incident linker AI agent doesn't find a related major incident, then the Incident problem linker AI agent takes over. If it identifies any ongoing problem that best matches the incident, then it automatically links it to the incident.
@@ -154,15 +154,15 @@ In the agentic workflow record:
 
 **Example of Triage and categorize ITSM incidents agentic workflow output in the ServiceNow AI Agent Studio**\[Omitted image "now-assist-itsm-aiagents-inc-triage-classify.png"\] Alt text: Triage and categorize ITSM incidents agentic workflow output.
 
-In the AI Agent Studio, the human agent gets notified as soon as the category recommendation is generated so that they can follow the on-screen instructions and complete the task. For more information, see [Request the generative AI capabilities in ITSM by using the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/now-assist-for-it-service-management-itsm/request-gen-ai-capabilities-itsm-now-assist-panel.md).
+In the AI Agent Studio, the human agent gets notified as soon as the category recommendation is generated so that they can follow the on-screen instructions and complete the task. For more information, see [Request the generative AI capabilities in ITSM by using the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/now-assist-for-it-service-management-itsm/request-gen-ai-capabilities-itsm-now-assist-panel.md).
 
-## Automate the categorizing an incident, then automatically link them to major incidents or known problems in the Now Assist panel
+## Automate the categorizing an incident, then automatically link them to major incidents or known problems in the Otto panel
 
 When an incident is updated and the trigger conditions are met, an execution plan is created. The incident fields are updated based the execution by each AI agent.
 
-As a user, do the following in the Now Assist panel:
+As a user, do the following in the Otto panel:
 
-1.  Enter a message in the Now Assist panel, such as, "triage incident INC0010010".
+1.  Enter a message in the Otto panel, such as, "triage incident INC0010010".
 
     All executions are autonomous and the AI agent does need user inputs in any of the steps during the execution.
 

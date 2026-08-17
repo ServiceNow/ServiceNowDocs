@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2024-12-19"
 reading_time_minutes: 1
 keywords: [Event Management, incident creation, automation rules]
-breadcrumb: [Configure Event Management using Setup Hub, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Configure Event Management using ServiceNow Otto for Setup, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Create incidents
@@ -19,7 +19,7 @@ Configure automation rules to automatically create incidents from alerts that re
 
 ## Before you begin
 
-Verify that you have installed the ITOM AIOps and Now Assist for IT Operations Management \(ITOM\) plugins.
+Verify you have installed the ITOM AIOps and ServiceNow Otto for IT Operations Management \(ITOM\) plugins.
 
 Ensure you are in the Configure IT Operations Management page.
 
@@ -39,7 +39,7 @@ Incident creation rules automatically generate incident records from alerts that
 
     A list of respond alert automations appears.
 
-4.  Select **Create automation**.
+4.  Select **+Create automation**.
 
     The Respond to alert page opens.
 

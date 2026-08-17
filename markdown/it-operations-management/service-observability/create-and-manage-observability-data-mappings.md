@@ -8,7 +8,7 @@ product: Service Observability
 classification: service-observability
 topic_type: task
 last_updated: "2026-06-12"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [Configuring Service Observability, Service Observability, ITOM AIOps, IT Operations Management]
 ---
 
@@ -65,12 +65,15 @@ For a description of the field values, see [Service Observability data mapping f
 4.  Choose the services that should use this mapping.
 
     1.  Choose **Select services**.
-    2.  Use the navigation to narrow down the list to the type of service you're searching for.
-    3.  Select the services to add to the mapping. You can add services from any combination of service type.
+
+        The top 30 recommended services display in dialog. These are services that would most benefit from using Service Observability based on business criticality and frequency of alerts, incidents, and SLOs over the past 90 days.
+
+        You can instead manually choose services by choosing **All Services** from the left navigation.
 
         **Note:** Use the filter to narrow down the service list.
 
-    4.  Select **Add services** to add them to the mapping.
+    2.  Select the services to add to the mapping. You can add services from any combination of service type.
+    3.  Select **Add services** to add them to the mapping.
     The Mapping preview pane updates to show the selected service, or the first service in a list of services.
 
 5.  Create a rule to determine how Service Observability should map internal services to the observability entities using tag keys and values.

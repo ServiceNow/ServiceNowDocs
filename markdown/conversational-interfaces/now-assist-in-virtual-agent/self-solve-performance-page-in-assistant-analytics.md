@@ -9,7 +9,7 @@ classification: now-assist-in-virtual-agent
 topic_type: concept
 last_updated: "2026-01-06"
 reading_time_minutes: 5
-breadcrumb: [Analyzing assistants, Now Assist in Virtual Agent, Conversational Interfaces]
+breadcrumb: [Analyzing assistants, ServiceNow Otto for Virtual Agent, Conversational Interfaces]
 ---
 
 # Self-Solve Performance page in Assistant analytics
@@ -80,7 +80,7 @@ The visualizations on the Self-Solve Performance page help you with the followin
 
 -   **Effort Score**
 
-    This area of the dashboard tracks user effort levels across conversations in the selected date range. Effort is categorized as High, Medium, or Low, indicating how much time and energy users needed to invest during the conversation to resolve their issues. Lower effort scores suggest a smoother self-service experience. Use this chart to help identify trends in user effort over time and prioritize improvements that reduce friction in the self-solve process. Effort score is based on the inferred Effort CSAT \(customer satisfaction\) factor. See  for more information.
+    This area of the dashboard tracks user effort levels across conversations in the selected date range. Effort is categorized as High, Medium, or Low, indicating how much time and energy users needed to invest during the conversation to resolve their issues. Lower effort scores suggest a smoother self-service experience. Use this chart to help identify trends in user effort over time and prioritize improvements that reduce friction in the self-solve process. Effort score is based on the inferred Effort CSAT \(customer satisfaction\) factor. See [Conversation Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/conversation-insights.md) for more information.
 
     \[Omitted image "NAinVA-assistant-designer-analytics-self-solve-performance-effort-score.png"\] Alt text: A multi-series line chart tracking High, Medium, and Low effort levels over time. The x-axis shows dates; the y-axis shows conversation count.
 

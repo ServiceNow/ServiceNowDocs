@@ -7,7 +7,7 @@ release: zurich
 product: AI Search
 classification: ai-search
 topic_type: reference
-last_updated: "2026-07-06"
+last_updated: "2026-07-24"
 reading_time_minutes: 6
 breadcrumb: [Reference, AI Search, Search administration, Configure core features, Administer]
 ---
@@ -87,7 +87,7 @@ When **Genius Results Limit** is set to 2 or greater and a search returns multip
 
 **Note:** Search applications display a maximum of 10 answer cards per search query. If you set this limit to 11 or more, the search application still displays a maximum of 10 answer cards.
 
-Starting with version 6 of [Now Assist in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/now-assist-ais.md), installing Now Assist in AI Search makes the value of this field default to 10 instead of 1 when you create a new search application configuration or edit an existing one.
+Starting with version 6 of [ServiceNow Otto for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/now-assist-ais.md), installing ServiceNow® Otto for AI Search makes the value of this field default to 10 instead of 1 when you create a search application configuration or edit an existing one.
 
 </td></tr><tr><td>
 
@@ -166,7 +166,7 @@ Option to filter Genius Result searches based on the selected source facet bucke
 
 As an example, suppose you select the Knowledge source facet bucket in a search application that has this option selected. With that Knowledge source selection applied, Q&amp;A Genius Results, which include information from the Knowledge source, can still find search results and generate Genius Result answers. But Catalog Item Genius Results, which include information from the Catalog Item source which isn't selected, can't find search results and so can't generate Genius Result answers.
 
-**Note:** The Now Assist Multi-Content Response Genius Results configuration \(from the Now Assist in AI Search ServiceNow Store application\) includes information from multiple sources, so it can generate Genius Result answers no matter which source is selected. To learn more about Now Assist Multi-Content Response Genius Results, see [Now Assist Multi-Content Response Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/now-assist-multi-content-qna-genius-results.md).
+**Note:** The Summary Genius Results configuration \(from the ServiceNow Otto for AI Search ServiceNow Store application\) includes information from multiple sources, so it can generate Genius Result answers no matter which source is selected. To learn more about Summary Genius Results, see [Summary Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/now-assist-multi-content-qna-genius-results.md).
 
 </td></tr><tr><td>
 

@@ -48,5 +48,3 @@ The impact assessment process is used as a reporting tool for evaluating the imp
 
 [Regulatory Change Management application in the Compliance Workspace]()
 
-[Exploring Now Assist in Regulatory Change Management \(RCM\)]()
-

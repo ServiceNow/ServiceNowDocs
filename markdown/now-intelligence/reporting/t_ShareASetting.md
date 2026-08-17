@@ -7,7 +7,7 @@ release: zurich
 product: Reporting
 classification: reporting
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-07-22"
 reading_time_minutes: 4
 keywords: [Share a Core UI report, Share a report in the classic environment]
 breadcrumb: [Distribute reports, Core UI Reporting, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
@@ -113,9 +113,9 @@ It is not possible to grant edit rights on a report when you share it.
 
     On instances with Unified Analytics enabled, and on new Zurich instances, both Core UI reports and Platform Analytics experience data visualizations are found in the Platform Analytics library. Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations** and select **New**. For more information, see [Differences between Core UI and Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/differences-between-core-ui-ne-dbs.md).
 
-2.  In the upper right side of the report form, click the **Sharing** icon \(\[Omitted image "Form\_ShareIcon.png"\] Alt text: Sharing icon\) and select **Share**.
+2.  In the upper right side of the report form, select the **Sharing** icon \(\[Omitted image "Form\_ShareIcon.png"\] Alt text: Sharing icon\) and select **Share**.
 
-3.  In the Sharing settings dialog box, fill in the fields and click **OK**.
+3.  In the Sharing settings dialog box, fill in the fields and select **OK**.
 
 <table id="table_czf_tlh_yq"><thead><tr><th>
 
@@ -142,7 +142,7 @@ Requires role
 
 </td><td>
 
-\(Optional\) Roles from the Roles \[sys\_user\_role\] table. If you select any roles, a user must have at least one of them to view the report. If you do not select a role, all users can view the report.You can specify required roles only for reports that are otherwise visible to Everyone. If you modify such a report to be shared with specific Groups and Users, the required roles no longer apply.
+\(Optional\) Roles from the Roles \[sys\_user\_role\] table. If you select any roles, a user must have at least one of them to view the report. If you don't select a role, all users can view the report.You can specify required roles only for reports that are otherwise visible to Everyone. If you modify such a report to be shared with specific Groups and Users, the required roles no longer apply.
 
 </td></tr><tr><td>
 
@@ -161,13 +161,15 @@ Users
 Users who have permission to see the report.This field is available when the **Groups and Users** option is selected.
 
 </td></tr></tbody>
-</table>4.  Click the **Sharing** icon \(\[Omitted image "Form\_ShareIcon.png"\] Alt text: Sharing icon\) and select **Add to Dashboard** or **Publish**.
+</table>4.  Select the **Sharing** icon \(\[Omitted image "Form\_ShareIcon.png"\] Alt text: Sharing icon\) and select **Add to Dashboard** or **Publish**.
 
 5.  Share the dashboard or share the URL of the published report.
 
     You can share the URL of the published report with any user, role, or group with whom you have shared the report.
 
-    To publish a report, enable the property **glide.report.published\_reports.enabled**. For more information, see [\(Legacy\) Publish a report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/t_PublishAReport.md).
+    **Danger**
+
+    This functionality is deactivated by default because of the risk of exposing data to unauthorized persons. For more information, see [\(Legacy\) Publish a report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/t_PublishAReport.md).
 
     The people with whom you share the report must have rights to view the report data.
 

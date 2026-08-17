@@ -39,7 +39,7 @@ Administrators configure org chart and profile content through two records in th
 
 Employee Slate uses the same org chart configuration as Employee Center. You don't need to set up the org chart separately when you deploy Employee Slate alongside an existing Employee Center instance.
 
-**Note:** The scheduled job fetches the count of direct reports. During an org restructure, the badge count and the actual number may not match. To resolve the count issue, run the org chart schedule job.
+**Note:** The scheduled job fetches the count of direct reportsand the cumulative total of reports at each level. During an org restructure, the badge count and the actual number may not match until the next scheduled run. To resolve the count issue, run the org chart schedule job.
 
 ## What you can do with org chart
 
@@ -51,6 +51,7 @@ The org chart provides the following capabilities:
 -   Contextual positioning: Go to any employee position in the org chart from their profile page using the **View Org Chart** button.
 -   Team structure indicators: Visual representation of reporting structures.
 -   Visual enhancements: You can enhance Org chart and profile with visual updates and image edits.
+-   Report count display: Show either the count of direct reports or the cumulative total of reports at each level, based on your configuration.
 
 ## AI chat interactions
 

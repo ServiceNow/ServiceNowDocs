@@ -1,5 +1,5 @@
 ---
-title: Generate troubleshooting guidance for SaaS integrations by using Now Assist for SAM
+title: Generate troubleshooting guidance for SaaS integrations by using ServiceNow Otto for Software Asset Management \(SAM\)
 description: Generate error messages and detailed guidance to troubleshoot runtime job failures for SaaS integrations. These recommendations enable you to resolve common configuration issues and reduce downtime.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/now-assist-for-software-asset-management-sam/troubleshooting-saas-now-assist-sam.html
@@ -9,10 +9,10 @@ classification: now-assist-for-software-asset-management-sam
 topic_type: task
 last_updated: "2026-01-30"
 reading_time_minutes: 2
-breadcrumb: [Use generative AI skills, Now Assist for Software Asset Management \(SAM\), Software Asset Management, IT Asset Management]
+breadcrumb: [Use generative AI skills, ServiceNow Otto for Software Asset Management \(SAM\), Software Asset Management, IT Asset Management]
 ---
 
-# Generate troubleshooting guidance for SaaS integrations by using Now Assist for SAM
+# Generate troubleshooting guidance for SaaS integrations by using ServiceNow Otto for Software Asset Management \(SAM\)
 
 Generate error messages and detailed guidance to troubleshoot runtime job failures for SaaS integrations. These recommendations enable you to resolve common configuration issues and reduce downtime.
 
@@ -26,7 +26,7 @@ Role required: sam\_integrator
 
 Starting with the Australia Patch 4 release, AWS Claude is the default model provider for the Error resolution recommendation and Error log summarization generative AI skill.
 
-Now Assist for SAM generates the troubleshooting guidance for all SaaS integrations by enabling dynamic debug-level logging for flow actions and validating connections. The troubleshooting guidance is available for both existing and new SaaS integrations.
+ServiceNow Otto for SAM generates the troubleshooting guidance for all SaaS integrations by enabling dynamic debug-level logging for flow actions and validating connections. The troubleshooting guidance is available for both existing and new SaaS integrations.
 
 ## Procedure
 
@@ -36,15 +36,15 @@ Now Assist for SAM generates the troubleshooting guidance for all SaaS integrati
 
 3.  Generate troubleshooting guidance.
 
-<table id="choicetable_azy_b5f_g3c"><thead><tr><th align="left" id="d304820e127">
+<table id="choicetable_azy_b5f_g3c"><thead><tr><th align="left" id="d306393e127">
 
 Integration
 
-</th><th align="left" id="d304820e130">
+</th><th align="left" id="d306393e130">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d304820e136">
+</th></tr></thead><tbody><tr><td id="d306393e136">
 
 **Existing**
 
@@ -56,9 +56,9 @@ An error message is displayed on the Integration Profile form indicating that th
 
 2.  Select **Troubleshoot** on the error message.
 
-The Now Assist for SAM application generates the troubleshooting details that contain the error summary and suggested resolutions. Each error that's listed in the Error Summary section has a corresponding troubleshooting guidance in the Suggested Resolutions section.
+The ServiceNow Otto for SAM application generates the troubleshooting details that contain the error summary and suggested resolutions. Each error that's listed in the Error Summary section has a corresponding troubleshooting guidance in the Suggested Resolutions section.
 
-</td></tr><tr><td id="d304820e164">
+</td></tr><tr><td id="d306393e164">
 
 **New**
 
@@ -90,5 +90,5 @@ The Now Assist for SAM application generates the troubleshooting details that co
 5.  After the connection validation is successful, publish the integration profile by selecting **Publish**.
 
 
-**Parent Topic:**[Using generative AI skills in Now Assist for SAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/now-assist-for-software-asset-management-sam/using-now-assist-sam.md)
+**Parent Topic:**[Using generative AI skills in ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/now-assist-for-software-asset-management-sam/using-now-assist-sam.md)
 

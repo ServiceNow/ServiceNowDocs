@@ -55,5 +55,5 @@ The following table lists the values that you can set for the sn\_ind\_tmt\_orm.
 
 [Managing post-fulfillment order changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/managing-orders.md)
 
-[bundle-csm.product-data]
+[Product data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/product-data.md)
 

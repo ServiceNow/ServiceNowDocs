@@ -26,7 +26,7 @@ Service delegation options are available, like limiting a delegation to specific
 -   Limiting records to only approvals.
 -   Limiting records to only task assignments.
 
-**Note:** Granular Delegation is intended for employee users, not fulfiller or agent users, such as in ITSM. Depending on your use cases, fulfiller and agent delegation is better managed via [Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/awa-application-landing-page.md).
+**Note:** Granular Delegation is intended for employee users, not fulfiller or agent users, such as in ITSM. Depending on your use cases, fulfiller and agent delegation is better managed via .
 
 ## Terms
 

@@ -9,7 +9,7 @@ classification: service-operations-workspace-for-itom-apps
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Viewing links between alerts in alert groups in Express List, Express List in SOW for ITOM, Using SOW for ITOM, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
+breadcrumb: [Viewing links between alerts in alert groups in Express List, Express List in SOW for ITOM, Use, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
 ---
 
 # View links between alerts in a group in Express List
@@ -40,15 +40,15 @@ Role required: evt\_mgmt\_operator, evt\_mgmt\_admin
 
 7.  Perform the following optional tasks.
 
-<table id="choicetable_vyh_rzk_21c"><thead><tr><th align="left" id="d634140e140">
+<table id="choicetable_vyh_rzk_21c"><thead><tr><th align="left" id="d635197e140">
 
 Task
 
-</th><th align="left" id="d634140e143">
+</th><th align="left" id="d635197e143">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d634140e149">
+</th></tr></thead><tbody><tr><td id="d635197e149">
 
 **Focus on an area of interest**
 
@@ -56,7 +56,7 @@ Action
 
 Select one or more nodes and rearrange them in Link View by dragging them to a new location.**Note:** After refreshing the alert group, the nodes appear in their original position again.
 
-</td></tr><tr><td id="d634140e160">
+</td></tr><tr><td id="d635197e160">
 
 **Refresh the alert group**
 
@@ -66,7 +66,7 @@ Select **Refresh**. When you've refreshed the alert group, rearranged nodes appe
 
 **Note:** The **Refresh** button is enabled when new data for the alert group is available. Link View doesn't refresh automatically.
 
-</td></tr><tr><td id="d634140e182">
+</td></tr><tr><td id="d635197e182">
 
 **View the meaning of icons and colors**
 
@@ -74,7 +74,7 @@ Select **Refresh**. When you've refreshed the alert group, rearranged nodes appe
 
 Select the Link View legend.The legend also indicates the number of unique nodes displayed per tag. For a description of each tag, see [Attributes in Express List Link View](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/link-view-tags-icons-descriptions.md).
 
-</td></tr><tr><td id="d634140e200">
+</td></tr><tr><td id="d635197e200">
 
 **Reduce noise**
 
@@ -82,7 +82,7 @@ Select the Link View legend.The legend also indicates the number of unique nodes
 
 In the Link View legend, toggle between hiding and showing a tag type.
 
-</td></tr><tr><td id="d634140e210">
+</td></tr><tr><td id="d635197e210">
 
 **View information about an alert**
 

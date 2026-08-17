@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-workflowstudio-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -75,23 +75,23 @@ Xanadu
 
 </td><td>
 
--   **[Create workflow items from a button on the tab header](https://servicenow-staging.fluidtopics.net/access?context=exploring-workflow-studio&family=xanadu&ft:locale=en-US)**
+-   **[Create workflow items from a button on the tab header](https://www.servicenow.com/docs/access?context=exploring-workflow-studio&family=xanadu&ft:locale=en-US)**
 
 Create workflow items from any Workflow Studio page by using the **Create** button on the tab header.
 
--   **[Create a category to organize your actions](https://servicenow-staging.fluidtopics.net/access?context=create-action&family=xanadu&ft:locale=en-US)**
+-   **[Create a category to organize your actions](https://www.servicenow.com/docs/access?context=create-action&family=xanadu&ft:locale=en-US)**
 
 Create your own categories to organize actions.
 
--   **[Create a category to organize your data stream actions](https://servicenow-staging.fluidtopics.net/access?context=create-data-stream-action&family=xanadu&ft:locale=en-US)**
+-   **[Create a category to organize your data stream actions](https://www.servicenow.com/docs/access?context=create-data-stream-action&family=xanadu&ft:locale=en-US)**
 
 Create your own categories to organize data stream actions.
 
--   **[Create a category to organize your subflows](https://servicenow-staging.fluidtopics.net/access?context=create-subflow&family=xanadu&ft:locale=en-US)**
+-   **[Create a category to organize your subflows](https://www.servicenow.com/docs/access?context=create-subflow&family=xanadu&ft:locale=en-US)**
 
 Create your own categories to organize subflows.
 
--   **[See when a new version of Workflow Studio is available](https://servicenow-staging.fluidtopics.net/access?context=update-to-the-latest-version-of-workflow-studio&family=xanadu&ft:locale=en-US)**
+-   **[See when a new version of Workflow Studio is available](https://www.servicenow.com/docs/access?context=update-to-the-latest-version-of-workflow-studio&family=xanadu&ft:locale=en-US)**
 
 See an information banner when a new version of Workflow Studio is available.
 
@@ -131,7 +131,7 @@ Xanadu
 
 </td><td>
 
--   **[Update Workflow Studio and all its dependencies](https://servicenow-staging.fluidtopics.net/access?context=update-to-the-latest-version-of-workflow-studio&family=xanadu&ft:locale=en-US)**
+-   **[Update Workflow Studio and all its dependencies](https://www.servicenow.com/docs/access?context=update-to-the-latest-version-of-workflow-studio&family=xanadu&ft:locale=en-US)**
 
 As of Washington DC patch 3, updating Workflow Studio automatically updates all of its application dependencies such as Workflow Studio, Playbook, and Decision Builder. You can no longer see or update the individual application dependencies of Workflow Studio from the ServiceNow Store or the list of plugins.
 
@@ -245,7 +245,7 @@ Xanadu
 
 </td><td>
 
-Install Workflow Studio by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
+Install Workflow Studio by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -435,7 +435,7 @@ Xanadu
 -   Monitor playbook and flow operations with new usage dashboards.
 -   See an information banner when a new version of Workflow Studio is available.
 
- See [Workflow Studio](https://servicenow-staging.fluidtopics.net/access?context=workflow-studio&family=xanadu&ft:locale=en-US) for more information.
+ See [Workflow Studio](https://www.servicenow.com/docs/access?context=workflow-studio&family=xanadu&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 

@@ -18,7 +18,7 @@ When your organization can't comply with a vulnerability management or security 
 
 Use the Security Exposure Management workspace to limit the duration of an exception request and add a questionnaire to the exception or false positive request. You can also request an exception using the GRC: Policy and Compliance Management integration.
 
-Role required: sn\_vul\_exception.admin
+Role required: sn\_sec\_exception.admin
 
 ## About this task
 
@@ -80,9 +80,4 @@ The exception approver requires the reason for the exception request.
 Request policy exceptions using the GRC policy exception management capability in the Policy and Compliance Management application from within Vulnerability Response.
 -   **[Specify the duration of an exception requested for a remediation task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sem-ex-req-sysprop.md)**  
 Use system properties to limit the duration for which an exception is requested for a remediation task. Remediation of the remediation task is deferred for the specified period.
-
-**Related topics**  
-
-
-[sem-exception-ques-scenarios]
 

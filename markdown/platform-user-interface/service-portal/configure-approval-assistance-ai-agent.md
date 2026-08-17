@@ -34,7 +34,7 @@ The checklist uses KB articles and policies to assist the Approval assistance AI
 |-------------|----|-----------|
 |\*Name|String|The specific name of a table.|
 |\*Table|Drop down list|You can choose to configure additional tables to go through the approval workflow.|
-|Application|Auto populated|You can choose an application scope, such as Global or Now Assist Agent for Requester.|
+|Application|Auto populated|You can choose an application scope, such as Global or ServiceNow Otto® Agent for Requester.|
 |\*Active|Check box|Active is selected by default. If you clear the Active check box, then the configuration for this table will be disabled.|
 |Display Fields Configuration|Tab|Display fields represent the information that the Approval assistance AI agent and Approval Info Record widget presents to the requester.|
 |Gen AI Checklist &amp; KB Search|Tab|Defines the table for which the approval checklist is generated and configures the Knowledge Base search fields used to build search queries for relevant articles.|

@@ -9,7 +9,7 @@ classification: now-assist-for-creator
 topic_type: reference
 last_updated: "2025-11-13"
 reading_time_minutes: 2
-breadcrumb: [Now Assist for Creator, Build workflows]
+breadcrumb: [ServiceNow Otto for Creator, Build workflows]
 ---
 
 # Playbook recommendations

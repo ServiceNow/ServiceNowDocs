@@ -34,7 +34,7 @@ The self-configured bot that you created will not be available in the Microsoft 
 
     Your manifest file is uploaded and appears on the list of store apps.
 
-    **Note:** If you receive any errors, correct the listed errors in your manifest, then download the zip file and upload it through this page again. If you activated Microsoft Copilot in your manifest, the Custom Engine Agent \(CEA\) is also uploaded with it. For more information on activating Copilot, see [Activate Now Assist in Virtual Agent for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/activate-na-va-msteams.md).
+    **Note:** If you receive any errors, correct the listed errors in your manifest, then download the zip file and upload it through this page again. If you activated Microsoft Copilot in your manifest, the Custom Engine Agent \(CEA\) is also uploaded with it. For more information on activating Copilot, see [Activate ServiceNow Otto for Virtual Agent for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/activate-na-va-msteams.md).
 
 5.  After you successfully published the bot, select the **All apps** tab and use the search bar to find your app.\[Omitted image "msteams-find-app.png"\] Alt text: Microsoft Teams Apps portal, with All apps tab, app search bar, and bot app highlighted.
 
@@ -67,7 +67,7 @@ The self-configured bot that you created will not be available in the Microsoft 
 
 ## What to do next
 
-You have successfully integrated Virtual Agent with Microsoft Teams using the self-configured method. If you are interested in getting additional ITSM and HR capabilities in Microsoft Teams, see these instructions for using a self-configured bot with ServiceNow for Microsoft Teams.
+You have successfully integrated Virtual Agent with Microsoft Teams using the self-configured method. If you are interested in getting additional ITSM and HR capabilities in Microsoft Teams, see these [instructions for using a self-configured bot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/download-manifest-file-mt.md) with ServiceNow for Microsoft Teams.
 
 **Parent Topic:**[Integrating Virtual Agent with Microsoft Teams using the self-configured bot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-integ-teams-self-configured-bot.md)
 

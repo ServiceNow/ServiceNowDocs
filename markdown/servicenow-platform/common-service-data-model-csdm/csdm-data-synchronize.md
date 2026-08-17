@@ -7,7 +7,7 @@ release: zurich
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-07-08"
 reading_time_minutes: 2
 breadcrumb: [Dynamic CI group and service type, Implement, CSDM, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -22,7 +22,10 @@ To empower a particular user group to manage a collection of CIs or CI classes, 
 
 -   [Synchronize user groups for a technology management offering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/csdm-enable-tso.md): Directly set the **Support group**, **Change group**, or **Managed by group** attributes in a technology management offering. The settings are applied to all CIs that are associated with the technology management offering.
 -   [Set the group for a CI or an entire class of CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/csdm-data-synchronize-enable.md): Set the **Managed by group** attribute for a specific class in the CI Class Manager. All CIs within the class will have their **Managed by group** field populated based on the value specified in the CI Class Manager. With this method, the **Managed by group** setting is applied only to the CIs that aren’t associated with a technology management offering. For CIs that are managed by a technology management offering, the **Managed by group** field is first synchronized with its dynamic CI group. The field is then synchronized with the CIs in the dynamic CI group, overwriting the entry from the CI Class Manager. For instructions, see [Synchronize user groups for a technology management offering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/csdm-enable-tso.md).
--   Use Support Group and Change Group: By using dynamic CI groups, data synchronization enables you to manage data that cannot be discovered. The values in the **Support Group** and **Change Group** \(previously labeled **Assignment Group**\) fields in the cmdb\_ci table are synchronized with their related dynamic CI groups and with all the CIs that are contained as part of that dynamic CI group object.
+-   Use Support Group and Change Group: By using dynamic CI groups, data synchronization enables you to manage data that can't be discovered. The values in the **Support Group** and **Change Group** \(previously labeled **Assignment Group**\) fields in the cmdb\_ci table are synchronized with their related dynamic CI groups and with all the CIs that are contained as part of that dynamic CI group object. For guidance, see the following information:
+    -   CMDB Groups: [https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/cmdb-groups.html](https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/cmdb-groups.html)
+    -   Dynamic CI Groups: [https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/populate-app-service-dynamic-group.html](https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/populate-app-service-dynamic-group.html)
+    -   Slides 88 through 95 in the CMDB Workshop slide deck: [https://mynow.servicenow.com/now/best-practices/assets/cmdb-project-workshop](https://mynow.servicenow.com/now/best-practices/assets/cmdb-project-workshop)
 
 ## Team data synchronization
 

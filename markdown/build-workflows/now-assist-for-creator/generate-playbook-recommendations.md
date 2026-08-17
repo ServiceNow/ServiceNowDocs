@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Playbook recommendations, Now Assist for Creator, Build workflows]
+breadcrumb: [Playbook recommendations, ServiceNow Otto for Creator, Build workflows]
 ---
 
 # Generate recommendations for placeholder activities
@@ -33,7 +33,9 @@ Select the activity definition for a placeholder activity from a list of AI-gene
 
 ## Procedure
 
-1.  Open you playbook and hover over the placeholder activity and select the recommendations icon \(\[Omitted image "recommendations-icon.png"\] Alt text: Now Recommendations icon\) in the mini-picker.
+1.  Open you playbook and hover over the placeholder activity and select the recommendations icon \[Omitted image "recommendations-icon.png"\] Alt text: Now Recommendations icon in the mini-picker.
+
+    \[Omitted image "playbook-recommendation-otto.png"\] Alt text: Sample AI recommendation for placeholder activity.
 
 2.  Select one of the recommended activity definitions, if appropriate.
 

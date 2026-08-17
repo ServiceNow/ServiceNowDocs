@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-workforceoptimizationforitsm-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
@@ -46,7 +46,7 @@ Yokohama
 
 </td><td>
 
--   **[Enhanced security to access Workforce Optimization for ITSM](https://servicenow-staging.fluidtopics.net/access?context=components-installed-workforce-optimization-itsm&family=yokohama&ft:locale=en-US)**
+-   **[Enhanced security to access Workforce Optimization for ITSM](https://www.servicenow.com/docs/access?context=components-installed-workforce-optimization-itsm&family=yokohama&ft:locale=en-US)**
 
 When you upgrade to the Yokohama release, you have the option to turn on enhanced security for the Workforce Optimization for ITSM application. To get the enhanced security, you must contact Now Support to install the ITSM Enhanced Security Features plugin \(com.snc.itsm.enhanced\_security\). After you install the plugin, you need the roles listed here to access the respective features.
 
@@ -109,15 +109,15 @@ Xanadu
 
 </td><td>
 
--   **[Admin Console Experience](https://servicenow-staging.fluidtopics.net/access?context=admin-console-wfo-itsm&family=xanadu&ft:locale=en-US)**
+-   **[Admin Console Experience](https://www.servicenow.com/docs/access?context=admin-console-wfo-itsm&family=xanadu&ft:locale=en-US)**
 
 Use the admin console to set up and configure the Workforce Optimization for ITSM application.
 
--   **[Synchronize the schedule calendar with Microsoft Outlook](https://servicenow-staging.fluidtopics.net/access?context=synchronize-microsoft-outlook-wfo-itsm&family=xanadu&ft:locale=en-US)**
+-   **[Synchronize the schedule calendar with Microsoft Outlook](https://www.servicenow.com/docs/access?context=synchronize-microsoft-outlook-wfo-itsm&family=xanadu&ft:locale=en-US)**
 
 When you synchronize the agent's calendar in the Schedule module with Microsoft Outlook, agents can view all your schedule, shifts, and events that display in the agent calendar also in your Microsoft Outlook calendar.
 
--   **[Recurring events in the team calendar](https://servicenow-staging.fluidtopics.net/access?context=add-events-team-calendar-wfo-itsm&family=xanadu&ft:locale=en-US)**
+-   **[Recurring events in the team calendar](https://www.servicenow.com/docs/access?context=add-events-team-calendar-wfo-itsm&family=xanadu&ft:locale=en-US)**
 
 When you create an event, you can make it a recurring event.
 
@@ -157,11 +157,11 @@ Xanadu
 
 </td><td>
 
--   **[Reflow for configurable workspace](https://servicenow-staging.fluidtopics.net/access?context=auto-reflow&family=xanadu&ft:locale=en-US)**
+-   **[Reflow for configurable workspace](https://www.servicenow.com/docs/access?context=auto-reflow&family=xanadu&ft:locale=en-US)**
 
 Workforce Optimization for ITSM configurable workspace supports reflow, which enables pages and content to be zoomed up to 400% through your browser settings without loss of content or functionality. For information about how to upgrade, see the [Accessibility information section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown) that follows.
 
--   **[Renaming a published schedule](https://servicenow-staging.fluidtopics.net/access?context=publish-schedule-wfo-itsm&family=xanadu&ft:locale=en-US)**
+-   **[Renaming a published schedule](https://www.servicenow.com/docs/access?context=publish-schedule-wfo-itsm&family=xanadu&ft:locale=en-US)**
 
 You can edit the name of a schedule after it is published.
 
@@ -275,7 +275,7 @@ Xanadu
 
 </td><td>
 
-Activate the Workforce Optimization for ITSM plugin \(sn\_wfo\_cfg\_itsm\) by requesting it from the ServiceNow Store. For details, see [Activate Workforce Optimization for ITSM](https://servicenow-staging.fluidtopics.net/access?context=activate-configurable-workforce-optimization-itsm&family=xanadu&ft:locale=en-US) Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
+Activate the Workforce Optimization for ITSM plugin \(sn\_wfo\_cfg\_itsm\) by requesting it from the ServiceNow Store. For details, see [Activate Workforce Optimization for ITSM](https://www.servicenow.com/docs/access?context=activate-configurable-workforce-optimization-itsm&family=xanadu&ft:locale=en-US) Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -283,7 +283,7 @@ Yokohama
 
 </td><td>
 
-Install the Workforce Optimization for ITSM plugin \(sn\_wfo\_cfg\_itsm\) by requesting it from the ServiceNow Store. For details, see [Activate Workforce Optimization for ITSM](https://servicenow-staging.fluidtopics.net/access?context=activate-configurable-workforce-optimization-itsm&family=yokohama&ft:locale=en-US) Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+Install the Workforce Optimization for ITSM plugin \(sn\_wfo\_cfg\_itsm\) by requesting it from the ServiceNow Store. For details, see [Activate Workforce Optimization for ITSM](https://www.servicenow.com/docs/access?context=activate-configurable-workforce-optimization-itsm&family=yokohama&ft:locale=en-US) Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -394,7 +394,7 @@ Accessibility improvements were completed to create a configurable workspace tha
 
 The Configurable Workspace supports reflow, which enables pages and content to be zoomed up to 400% through your browser settings without loss of content or functionality. Additionally, content can be enlarged without scrolling in two dimensions at a width equivalent to 320 CSS pixels or a height equivalent to 256 CSS pixels. Page layouts are transformed into a vertical, stacked view automatically when users increase browser zoom to 400%.
 
-This enhancement helps users with low vision or who have trouble seeing web content in a browser due to monitor size, device type, poor lighting, or other situations. Reflow can be turned off with a system property for instances, experiences, and pages. See [Reflow for Configurable Workspace](https://servicenow-staging.fluidtopics.net/access?context=auto-reflow&family=xanadu&ft:locale=en-US) for details.
+This enhancement helps users with low vision or who have trouble seeing web content in a browser due to monitor size, device type, poor lighting, or other situations. Reflow can be turned off with a system property for instances, experiences, and pages. See [Reflow for Configurable Workspace](https://www.servicenow.com/docs/access?context=auto-reflow&family=xanadu&ft:locale=en-US) for details.
 
 
 </td></tr><tr><td>
@@ -473,7 +473,7 @@ Xanadu
 -   Synchronize team calendars and events with Microsoft Outlook.
 -   Benefit from accessibility improvements to create a configurable workspace that supports Web Content Accessibility Guidelines \(WCAG\) 2.1 Level AA conformance.
 
- See [Workforce Optimization for ITSM](https://servicenow-staging.fluidtopics.net/access?context=workforce-optimization-itsm-landing-page&family=xanadu&ft:locale=en-US) for more information.
+ See [Workforce Optimization for ITSM](https://www.servicenow.com/docs/access?context=workforce-optimization-itsm-landing-page&family=xanadu&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -483,7 +483,7 @@ Yokohama
 
 When you upgrade to the Yokohama release, get the enhanced security features by installing the new plugin.
 
- See [Workforce Optimization for ITSM](https://servicenow-staging.fluidtopics.net/access?context=workforce-optimization-itsm-landing-page&family=yokohama&ft:locale=en-US) for more information.
+ See [Workforce Optimization for ITSM](https://www.servicenow.com/docs/access?context=workforce-optimization-itsm-landing-page&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 

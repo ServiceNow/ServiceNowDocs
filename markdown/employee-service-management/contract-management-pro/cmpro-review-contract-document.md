@@ -1,24 +1,24 @@
 ---
-title: Review the Now Assist suggestions for clause deviations
-description: Review the Now Assist suggestions for clause deviations and take actions by using the Now Assist in Contract Management application to ensure that the clauses comply with the guidelines of the company.
+title: Review the AI suggestions for clause deviations
+description: Review the suggestions for clause deviations and take actions by using the Now Assist in Contract Management application to ensure that the clauses comply with the guidelines of the company.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/contract-management-pro/cmpro-review-contract-document.html
 release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 6
-breadcrumb: [Contract analysis, Use generative AI skills, Now Assist in CM Pro, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Contract analysis, Use AI skills, Now Assist in Contract Management, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
-# Review the Now Assist suggestions for clause deviations
+# Review the AI suggestions for clause deviations
 
-Review the Now Assist suggestions for clause deviations and take actions by using the Now Assist in Contract Management application to ensure that the clauses comply with the guidelines of the company.
+Review the suggestions for clause deviations and take actions by using the Now Assist in Contract Management application to ensure that the clauses comply with the guidelines of the company.
 
 ## Before you begin
 
-Before you start to review a document, make sure that the document has been analyzed by the Now Assist application. For more information, see [Analyze a contract document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cmpro-analyze-contract-doc.md).
+Before you start to review a document, verify the AI analysis of the contract document is complete. For more information, see [Analyze a contract document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cmpro-analyze-contract-doc.md).
 
 Role required: sn\_cm\_gen\_ai.ai\_contract\_fulfiller
 
@@ -35,15 +35,15 @@ A clause is a section in a contract document that outlines the guidelines of the
 
 1.  Open the contract request from the workspace that you’re using.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d266454e144">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d266543e132">
 
 Method
 
-</th><th align="left" id="d266454e147">
+</th><th align="left" id="d266543e135">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d266454e153">
+</th></tr></thead><tbody><tr><td id="d266543e141">
 
 **Contract Workspace listing**
 
@@ -55,7 +55,7 @@ Steps
 4.  Select a contract request.
 
 
-</td></tr><tr><td id="d266454e200">
+</td></tr><tr><td id="d266543e188">
 
 **Workspace used by your application**
 
@@ -69,11 +69,9 @@ Steps
 </td></tr></tbody>
 </table>2.  Select **Contract documents**.
 
-3.  If the contextual side panel isn’t open, select the Now Assist Review for contracts icon \[Omitted image "cmpro-ai-sparkel-icon.png"\] Alt text:.
+3.  If the contextual side panel isn’t open, select the AI for Contracts icon \[Omitted image "cmpro-ai-sparkel-icon.png"\] Alt text:.
 
 4.  From the document card, select **Open document**.
-
-    \[Omitted image "cmpro-na-ca-od.png"\] Alt text: Now Assist contextual side panel displaying the Open document button to review the suggestions for contract review.
 
     Depending on the internal or external storage configuration the document is downloaded into your system or opened online.
 
@@ -111,7 +109,7 @@ The document opens online from the external storage.
     -   Google Drive: Download the document and open it offline.
     If you worked on the contract document offline, you must upload the document manually by creating a revision. For more information, see [Create a document revision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-create-doc-rev.md).
 
-6.  Review the Now Assist suggestions.
+6.  Review the suggestions.
 
     1.  From the Microsoft Word ribbon, select the ServiceNow Contracts add-in.
 
@@ -148,7 +146,7 @@ Description
 Lists all the standard clauses that are active for the contract type that the document belongs to.
 
 </td></tr></tbody>
-</table>    3.  On the **Review Analysis** tab, select **Pending reviews** to review the Now Assist suggestions.
+</table>    3.  On the **Review Analysis** tab, select **Pending reviews** to review the suggestions.
 
 7.  Work on a clause that is tagged as non-standard.
 
@@ -156,21 +154,21 @@ Lists all the standard clauses that are active for the contract type that the do
 
         -   Microsoft Word navigates to the clause that is associated with the clause card.
         -   The following suggestions are displayed in the card:
-            -   Now Assist comment: Now Assist feedback depending on the clause and the expected responses.
+            -   AI comment: Feedback depending on the clause and the expected responses.
             -   Standard clause suggestion: Standard clause content suggestion from the clause library.
             -   Show more/less: Option to expand or collapse the text.
             -   Thumbs up \[Omitted image "thumbs-up-outline-24.svg"\] and Thumbs down \[Omitted image "thumbs-down-outline-24.svg"\] icons to capture the feedback.
-    2.  Accept or ignore the Now Assist suggestion.
+    2.  Accept or ignore the suggestion.
 
-<table id="choicetable_zsg_1gb_1dc"><thead><tr><th align="left" id="d266454e564">
+<table id="choicetable_zsg_1gb_1dc"><thead><tr><th align="left" id="d266543e516">
 
 Action
 
-</th><th align="left" id="d266454e567">
+</th><th align="left" id="d266543e519">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d266454e573">
+</th></tr></thead><tbody><tr><td id="d266543e525">
 
 **Replace the non-standard clause**
 
@@ -180,7 +178,7 @@ Steps
 -   Select **Use this clause**.
 
 
-</td></tr><tr><td id="d266454e594">
+</td></tr><tr><td id="d266543e546">
 
 **Ignore suggestion**
 
@@ -193,7 +191,7 @@ Select **Ignore**.
 
     1.  On the **Pending reviews** tab, select the clause card that is tagged as non-standard.
 
-    2.  Accept or ignore the Now Assist suggestion.
+    2.  Accept or ignore the suggestion.
 
     |Action|Steps|
     |------|-----|
@@ -204,7 +202,7 @@ Select **Ignore**.
 
     As you review the clauses and take action, they’re moved to the **Completed** tab with the details of the action taken.
 
-10. Provide feedback to help improve the accuracy of Now Assist contract analysis over time.
+10. Provide feedback to help improve the accuracy of contract analysis over time.
 
     1.  For each suggestion, select the thumbs up icon if the suggestion is helpful or the thumbs down icon if the suggestion is not helpful.
 

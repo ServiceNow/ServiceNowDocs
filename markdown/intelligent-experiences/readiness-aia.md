@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2025-11-14"
 reading_time_minutes: 2
 keywords: [task readiness]
-breadcrumb: [Platform AI agents, Now Assist AI assets, Enable AI experiences]
+breadcrumb: [Platform AI agents, AI assets, Enable AI experiences]
 ---
 
 # Platform Issue Readiness AI agent
@@ -21,13 +21,13 @@ The Issue Readiness AI agent takes the information on a record, analyzes it, det
 
 ## Prerequisites and setup
 
-To access this AI agent, you must have Now Assist Agent for Platform installed on your instance, which is installed with any other Now Assist application, such as Now Assist for IT Service Management \(ITSM\).
+To access this AI agent, you must have Now Assist Agent for Platform installed on your instance, which is installed with any other Now Assist application, such as ServiceNow Otto for IT Service Management \(ITSM\).
 
 ## Role masking
 
 Required role:
 
-[Role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/aia-role-masking.md) enables users to limit the roles and privileges of AI agents during tool execution. AI agents that get installed with Now Assist applications are assigned pre-defined roles. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. Data access settings must also include these roles. For the instructions to change the security controls, see [Define security controls for an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/define-sec-controls-aia.md).
+AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/define-sec-controls-aia.md).
 
 In the data access settings, you must also add the necessary roles to enable reading of the tables for the records you want to evaluate for readiness. For example, you can add the itil role to the AI agent's list of approved roles so that it can access Incident records.
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-customerserviceproblemmanagement-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -75,16 +75,16 @@ Zurich
 
 </td><td>
 
--   **[Components](https://servicenow-staging.fluidtopics.net/access?context=spm-components&family=zurich&ft:locale=en-US)**
+-   **[Components](https://www.servicenow.com/docs/access?context=spm-components&family=zurich&ft:locale=en-US)**
 
 The granular admin role enables developers and administrators to complete administrative configuration tasks for Customer Service Problem Management without requiring the full admin role.
 
 
--   **[Setting up a test group](https://servicenow-staging.fluidtopics.net/access?context=setting-test-group&family=zurich&ft:locale=en-US)**
+-   **[Setting up a test group](https://www.servicenow.com/docs/access?context=setting-test-group&family=zurich&ft:locale=en-US)**
 
 Enables the system to trigger the required tests for service problem cases, incidents, and change request, helping to identify the root cause of the problem. Test group includes test definitions.
 
--   **[Diagnose and resolve a service problem case](https://servicenow-staging.fluidtopics.net/access?context=work-on-service-problem-case&family=zurich&ft:locale=en-US)**
+-   **[Diagnose and resolve a service problem case](https://www.servicenow.com/docs/access?context=work-on-service-problem-case&family=zurich&ft:locale=en-US)**
 
 Review, diagnose, resolve, and close a service problem case for the service-related issue experienced by the customer.
 
@@ -352,7 +352,7 @@ Zurich
 -   As an agent, use the Test group to help group test definitions. The Test group contains multiple test definitions.
 -   Enables your customer to modify the visibility of the **Diagnose** tab and run diagnostics from the contextual panel in the Decisions table.
 
- See [Customer Service Problem Management](https://servicenow-staging.fluidtopics.net/access?context=cspm-landing-page&family=zurich&ft:locale=en-US), [Setting up a test group](https://servicenow-staging.fluidtopics.net/access?context=setting-test-group&family=zurich&ft:locale=en-US), and [Setting up test definitions](https://servicenow-staging.fluidtopics.net/access?context=settingup-test-specifications&family=zurich&ft:locale=en-US) for more information.
+ See [Customer Service Problem Management](https://www.servicenow.com/docs/access?context=cspm-landing-page&family=zurich&ft:locale=en-US), [Setting up a test group](https://www.servicenow.com/docs/access?context=setting-test-group&family=zurich&ft:locale=en-US), and [Setting up test definitions](https://www.servicenow.com/docs/access?context=settingup-test-specifications&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

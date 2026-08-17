@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-talentdevelopmentcore-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
@@ -77,19 +77,19 @@ Xanadu
 
 Xanadu Patch 9
 
--   **[Create a growth conversation with the help of an agent in Now Assist](https://servicenow-staging.fluidtopics.net/access?context=agentic-wf-conversations-na-td&family=xanadu&ft:locale=en-US)**
+-   **[Create a growth conversation with the help of an agent in Now Assist](https://www.servicenow.com/docs/access?context=agentic-wf-conversations-na-td&family=xanadu&ft:locale=en-US)**
 
 As a manager using Talent Development, start a growth conversation with your reportees with the help of Conversation management AI agent in Now Assist.
 
 
--   **[Generate talking points for a growth conversation with the help of an agent in Now Assist](https://servicenow-staging.fluidtopics.net/access?context=agentic-wf-conversations-na-td&family=xanadu&ft:locale=en-US)**
+-   **[Generate talking points for a growth conversation with the help of an agent in Now Assist](https://www.servicenow.com/docs/access?context=agentic-wf-conversations-na-td&family=xanadu&ft:locale=en-US)**
 
 As a manager using Career Conversations in Talent Development, generate talking points for a growth conversation with the help of Employee data summarization AI agent in Now Assist.
 
 **Note:** For the Growth Conversations AI agents to work, you need to be on 3.5.2 version Career Conversations and have the Now Assist for HR Service Delivery \(HRSD\) plugin which will install Now Assist for Talent and HR Talent AI Agent Collection.
 
 
--   **[Name update from Employee Growth and Development Core to Talent Development Core.](https://servicenow-staging.fluidtopics.net/access?context=egd-landing-page&family=xanadu&ft:locale=en-US)**
+-   **[Name update from Employee Growth and Development Core to Talent Development Core.](https://www.servicenow.com/docs/access?context=egd-landing-page&family=xanadu&ft:locale=en-US)**
 
 The name changed to provide better alignment with your organization's talent, growth, and development initiatives.
 
@@ -100,12 +100,12 @@ Yokohama
 
 </td><td>
 
--   **[Credly integration](https://servicenow-staging.fluidtopics.net/access?context=credly-spoke&family=yokohama&ft:locale=en-US)**
+-   **[Credly integration](https://www.servicenow.com/docs/access?context=credly-spoke&family=yokohama&ft:locale=en-US)**
 
 As an employee, Credly integration now empowers you to display your digital credentials better demonstrating your skills in a tangible way.
 
 
--   **[View user credentials](https://servicenow-staging.fluidtopics.net/access?context=view-achievement-credentials&family=yokohama&ft:locale=en-US)**
+-   **[View user credentials](https://www.servicenow.com/docs/access?context=view-achievement-credentials&family=yokohama&ft:locale=en-US)**
 
 As an administrator, Achievements and Credentials now enables you to view user credentials and use achievement credential templates to sync credentials from third-party credential providers, for example: Credly
 
@@ -118,11 +118,11 @@ Skills related to Credentials \(badge template\) are synced to the user profile.
 **Note:** Credential Core has a soft dependency on Skills Foundation \(8.0\).
 
 
--   **[Create a growth plan with the help of Now Assist](https://servicenow-staging.fluidtopics.net/access?context=egd-create-growth-plan&family=yokohama&ft:locale=en-US)**
+-   **[Create a growth plan with the help of Now Assist](https://www.servicenow.com/docs/access?context=egd-create-growth-plan&family=yokohama&ft:locale=en-US)**
 
 As a Talent Development user, manage your career growth by creating a growth plan with the help of Now Assist. With Now Assist, you can provide details to craft a prompt that describes your career goals.
 
-**Note:** This feature is available when you have both Talent Development Core and Now Assist for HRSD installed.
+**Note:** This feature is available when you have both Talent Development Core and ServiceNow Otto for HRSD installed.
 
 
 </td></tr><tr><td>
@@ -152,9 +152,9 @@ Xanadu
 
 </td><td>
 
--   **[New Talent Development Core name](https://servicenow-staging.fluidtopics.net/access?context=egd-landing-page&family=xanadu&ft:locale=en-US)**
+-   **[New Talent Development Core name](https://www.servicenow.com/docs/access?context=egd-landing-page&family=xanadu&ft:locale=en-US)**
 
-The Talent Development Core name change enables easier alignment of growth and development goals across the enterprise. For information about the name change, see [Talent Development Core](https://servicenow-staging.fluidtopics.net/access?context=egd-landing-page&family=xanadu&ft:locale=en-US).
+The Talent Development Core name change enables easier alignment of growth and development goals across the enterprise. For information about the name change, see [Talent Development Core](https://www.servicenow.com/docs/access?context=egd-landing-page&family=xanadu&ft:locale=en-US).
 
 
 </td></tr><tr><td>
@@ -274,7 +274,7 @@ Yokohama
 
 </td><td>
 
-Install Talent Development Core by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+Install Talent Development Core by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -305,12 +305,12 @@ Xanadu
 
 Talent Development includes a suite of products the work and interact to create a better user experience.
 
--   [Talent Development SKU](https://servicenow-staging.fluidtopics.net/access?context=egd-employee-growth-developemnt-suite&family=xanadu&ft:locale=en-US)
--   [Manager Hub](https://servicenow-staging.fluidtopics.net/access?context=manager-hub-overview&family=xanadu&ft:locale=en-US)
--   [Proactive Prompts](https://servicenow-staging.fluidtopics.net/access?context=proactive-prompts-for-hrsd&family=xanadu&ft:locale=en-US)
--   [Skills Intelligence](https://servicenow-staging.fluidtopics.net/access?context=skills-intelligence&family=xanadu&ft:locale=en-US)
--   [Employee Profiles](https://servicenow-staging.fluidtopics.net/access?context=employee-profile-portal&family=xanadu&ft:locale=en-US)
--   [Talent Development Core](https://servicenow-staging.fluidtopics.net/access?context=egd-landing-page&family=xanadu&ft:locale=en-US)
+-   [Talent Development SKU](https://www.servicenow.com/docs/access?context=egd-employee-growth-developemnt-suite&family=xanadu&ft:locale=en-US)
+-   [Manager Hub](https://www.servicenow.com/docs/access?context=manager-hub-overview&family=xanadu&ft:locale=en-US)
+-   [Proactive Prompts](https://www.servicenow.com/docs/access?context=proactive-prompts-for-hrsd&family=xanadu&ft:locale=en-US)
+-   [Skills Intelligence](https://www.servicenow.com/docs/access?context=skills-intelligence&family=xanadu&ft:locale=en-US)
+-   [Employee Profiles](https://www.servicenow.com/docs/access?context=employee-profile-portal&family=xanadu&ft:locale=en-US)
+-   [Talent Development Core](https://www.servicenow.com/docs/access?context=egd-landing-page&family=xanadu&ft:locale=en-US)
 
 </td></tr><tr><td>
 
@@ -464,7 +464,7 @@ Xanadu Patch 9
 
  The Employee Growth and Development Core application has been renamed to Talent Development Core.
 
- See [Talent Development Core](https://servicenow-staging.fluidtopics.net/access?context=egd-landing-page&family=xanadu&ft:locale=en-US) for more information.
+ See [Talent Development Core](https://www.servicenow.com/docs/access?context=egd-landing-page&family=xanadu&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -480,7 +480,7 @@ Yokohama Patch 3
 -   As an administrator, use Achievements and Credentials, to view various forms of digital credentials such as badges, awards, certifications.
 -   As an employee that meets the Talent Development user criteria, you can add custom opportunities with help from ServiceNow® Now Assist. Provide an AI prompt so that Now Assist can help you build a growth plan that matches your career goals and aspirations.
 
- See [Talent Development Core](https://servicenow-staging.fluidtopics.net/access?context=egd-landing-page&family=yokohama&ft:locale=en-US) for more information.
+ See [Talent Development Core](https://www.servicenow.com/docs/access?context=egd-landing-page&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 

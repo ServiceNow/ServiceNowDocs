@@ -7,7 +7,7 @@ release: zurich
 topic_type: concept
 last_updated: "2026-02-11"
 reading_time_minutes: 3
-breadcrumb: [Using agentic workflows in Now Assist for Purchase Order Management \(POM\), Now Assist for POM, Purchase Order Management, Source-to-Pay Operations, Finance and Supply Chain]
+breadcrumb: [Using agentic workflows in Now Assist for POM, Now Assist for POM, Purchase Order Management, Source-to-Pay Operations, Finance and Supply Chain]
 ---
 
 # Automated purchase order exception creation from emails

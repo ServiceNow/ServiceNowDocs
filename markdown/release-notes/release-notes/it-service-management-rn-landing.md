@@ -24,8 +24,8 @@ The ServiceNow® Digital End-User Experience \(DEX\) application is a cloud-base
 The ServiceNow® Digital Portfolio Management \(DPM\) enables you to view and manage the full life cycle of your services and applications. DPM was enhanced and updated in the Zurich release.
 -   **[Incident Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/incident-management-rn.md)**  
 The ServiceNow® Incident Management application facilitates you to restore normal service operations while minimizing the impact to business operations and maintaining quality. Incident Management was enhanced and updated in the Zurich release.
--   **[Now Assist for IT Service Management \(ITSM\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/now-assist-for-itsm-rn.md)**  
-The ServiceNow® Now Assist for IT Service Management \(ITSM\) application brings agentic AI to IT Service Management. Now Assist for IT Service Management \(ITSM\) was enhanced and updated in the Zurich release.
+-   **[ServiceNow Otto for IT Service Management \(ITSM\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/now-assist-for-itsm-rn.md)**  
+The ServiceNow® ServiceNow Otto for IT Service Management \(ITSM\) application brings agentic AI to IT Service Management. ServiceNow Otto for IT Service Management \(ITSM\) was enhanced and updated in the Zurich release.
 -   **[On-Call Scheduling release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/on-call-scheduling-rn.md)**  
 The ServiceNow® On-Call Scheduling application helps you verify that dedicated support team members are available to resolve issues when they occur. On-Call Scheduling was enhanced and updated in the Zurich release.
 -   **[Request Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/request-management-rn.md)**  

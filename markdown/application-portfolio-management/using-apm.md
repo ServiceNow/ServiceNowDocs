@@ -105,7 +105,7 @@ View all your product lifecycle requests, track their status, and edit your exis
 -   **[Add or edit a TRM phase - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/define-trm-phases.md)**  
 Define your own TRM phase or edit an existing TRM phase.
 -   **[Review TRM lifecycle status - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/review-trm-status-tpm-view.md)**  
-View the Technology Reference Model \(TRM\) lifecycle information along with the risk and technical debt information in the Technology Portfolio Management page.
+View the Technology Reference Model \(TRM\) lifecycle information along with the risk and technical debt information in the Technology Lifecycle Management page.
 -   **[Configure business application form for risk - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/configure-related-lists-risk.md)**  
 Configure the business application form to enable application managers to provide risk and control information associated with a business application through a risk assessment questionnaire or a control attestation survey.
 -   **[Respond to a risk assessment questionnaire - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/take-assesment-risk.md)**  

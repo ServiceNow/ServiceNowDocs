@@ -1,20 +1,20 @@
 ---
-title: Configure code for critical alerts
+title: Critical alerts from push notifications using JSON code
 description: You can make a push notification into a critical alert with the addition of some JSON code. Different JSON code is used for iOS and Android operating systems and for the ITSM business unit.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/mobile/mobile-citical-alert-code.html
 release: zurich
 topic_type: reference
 last_updated: "2025-07-31"
-reading_time_minutes: 4
+reading_time_minutes: 3
 breadcrumb: [Mobile critical alerts, Push notifications, Considerations before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
 
-# Configure code for critical alerts
+# Critical alerts from push notifications using JSON code
 
 You can make a push notification into a critical alert with the addition of some JSON code. Different JSON code is used for iOS and Android operating systems and for the ITSM business unit.
 
-When creating critical alert notifications, you need the code structure of a push notification message as well as the required JSON code that defines the notification as a critical alert. You add this code in the Push message content area. For more information, see [Mobile critical alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/mobile-critical-alerts-create.md).
+Critical alert notifications require two code elements: the push notification message structure and the JSON code that defines the notification as a critical alert. Add this code in the Push message content area. For more information, see [Create mobile critical alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/mobile-critical-alerts-create.md).
 
 **Important:**
 
@@ -109,9 +109,9 @@ json["aps"]["sound"] = {
 
 The **Push message content** area may contain previously configured code including the script include `CriticalPushPayLoadBuilder`, created by the ITSM business unit. If so, then no additional configuration is required for critical alerts. Script includes  are reusable server-side script logic that define a function or class.  `CriticalPushPayLoadBuilder` is a script include that contains functions to support critical alerts. The call of the script includes looks like this: `CriticalPushPayloadBuilder (current, json, attributes).buildJSON()`
 
-**Note:** If you need to change the values of the `Volume` or `Name` parameters, or change the alert from critical to non-critical, you need to access the function parameters that the script include is getting as inputs.
+**Note:** If you're required change the values of the `Volume` or `Name` parameters, or change the alert from critical to non-critical, you must access the function parameters that the script include is getting as inputs.
 
 Changing the value of the critical alert script include affects all ITSM implementations of the script include. Similarly, an ITSM plugin upgrade could override your changes to your script include.
 
-**Parent Topic:**[Mobile critical alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/mobile-critical-alerts-create.md)
+**Parent Topic:**[Mobile critical alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/critical-alerts1.md)
 

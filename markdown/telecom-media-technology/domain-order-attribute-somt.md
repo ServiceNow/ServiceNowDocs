@@ -30,7 +30,9 @@ Attribute propagation enables you to define attribute mappings by setting mappin
 
 **Note:** If you create specification relationships and accompanying decomposition rules, the ServiceNow AI Platform performs the required validations when you attempt to create attribute mappings. These validations ensure that your attribute mappings are unique and don’t adversely impact existing decomposition rules. To learn more about specification relationships and decomposition rules, see [Create specification relationships, quantity mapping, and decomposition rules for Sales CRM for Telecommunications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/create-specification-relationships-somt.md).
 
-If a decomposition rule depends on an attribute-mapping rule, the order decomposition process isn’t able to decompose the order because it’s waiting for the attribute-mapping rule to provide the characteristic value that is required for order decomposition. The following warning appears when you save a decomposition or an attribute-mapping rule that would cause a dependent relationship with an adverse impact:`Attribute mapping rule impacts decomposition rule in {0} specification for {1} characteristic. Update this record to eliminate this rule dependency.`
+If a decomposition rule depends on an attribute-mapping rule, the order decomposition process can't decompose the order. The process waits for the attribute-mapping rule to provide the characteristic value that is required for order decomposition. The following warning appears when you save a decomposition or an attribute-mapping rule that would cause a dependent relationship with an adverse impact.
+
+`Attribute mapping rule impacts decomposition rule in {0} specification for {1} characteristic. Update this record to eliminate this rule dependency.`
 
 ## Procedure
 
@@ -60,7 +62,7 @@ If a decomposition rule depends on an attribute-mapping rule, the order decompos
     |Source specification|Source specification that contains the source characteristics and characteristic options to associate with the selected target specification, characteristics, and characteristic options. Based on your selection, this field auto populates the **Available columns** section with the characteristics of your selected product, service, or resource specification.|
     |Available columns|Displays one or more source characteristic options from the source specification, if available. Select the characteristics to be propagated. The characteristics display in the **Selected columns** section.|
 
-7.  In the Conditions section, use the condition builder to specify one or more conditions using the characteristics and characteristic options selected in the Available columns for the source rule.
+7.  In the Conditions section, use the condition builder to specify conditions based on the characteristics selected in the Available columns for the source rule.
 
 8.  Select **Save**.
 

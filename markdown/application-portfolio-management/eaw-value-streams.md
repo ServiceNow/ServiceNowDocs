@@ -14,7 +14,7 @@ breadcrumb: [Exploring the business architecture, Exploring Portfolio list view,
 
 In Enterprise Architecture, a value stream represents an end-to-end sequence of activities that delivers value in your enterprise architecture landscape. A value stream is made up of individual value stream stages, each of which represents a discrete step in that sequence.
 
-A value stream is a sequence of activities that helps you visualize the flow of a process from start to finish, the value of each step in the flow, and the application models associated with each step in the flow.
+A value stream is a sequence of activities that helps you visualize the flow of a process from start to finish. It shows the value of each step and the application models associated with each step.
 
 Hire to Retire is a value stream that encompasses the lifecycle of an employee within an organization, from the time they are hired until they retire. This value stream will containing stages such as onboarding, development, retention, offboarding, etc.
 

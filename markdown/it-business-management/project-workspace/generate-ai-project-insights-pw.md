@@ -7,9 +7,9 @@ release: zurich
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2026-02-23"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Manage Projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Manage projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Generate and track project details from AI insights page
@@ -24,9 +24,9 @@ Role required: it\_project\_manager
 
 ## Procedure
 
-1.  Open a project from the planning page of Project Workspace.
+1.  Open a project from the home page of Project Workspace.
 
-    For information on how to navigate to the planning page, see [Access Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/access-new-project-workspace.md).
+    For information, see [Access the Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/access-new-project-workspace.md).
 
 2.  Open AI insights page by selecting **AI insights** from the list.
 
@@ -42,9 +42,10 @@ Role required: it\_project\_manager
     -   Executive summary
     -   Overall project health
     -   RAG status \(These appear as widgets on the AI insights page\).
-    AI computes project health across all configured dimensions based on administrator‑defined rules. The generated status report presents detailed health indicators along with supporting rationale to help you understand the current state of the project. You can review schedule variance information to identify delays and the sub‑indicators affecting progress, and view project status explanations that highlight recent achievements and issues requiring immediate attention. Additional sections can be expanded for deeper analysis. The report also includes schedule health to assess progress against planned timelines and thresholds, as well as budget and cost status to verify that financials remain within limits.
+    -   Work notes summary
+    AI computes project health across all configured dimensions based on administrator‑defined rules. The generated status report presents detailed health indicators along with supporting rationale to help you understand the current state of the project. You can review schedule variance information to identify delays and the sub‑indicators affecting progress, and view project status explanations that highlight recent achievements and issues requiring immediate attention. Additional sections can be expanded for deeper analysis. The report also includes schedule health to assess progress against planned timelines and thresholds, as well as budget and cost status to verify that financials remain within limits. AI also reviews recent work notes across the project's tasks and RIDAC records to further inform the health rationale and executive summary.
 
-    The generated status report presents detailed health indicators along with supporting rationale to help you understand the current state of the project. You can review schedule variance information to identify delays and the sub‑indicators affecting progress, and view project status explanations that highlight recent achievements and issues requiring immediate attention. Additional sections can be expanded for deeper analysis. The report also includes schedule health to assess progress against planned timelines and thresholds, and budget and cost status to verify that financials remain within limits.
+    The generated status report presents detailed health indicators along with supporting rationale to help you understand the current state of the project. You can review schedule variance information to identify delays and the sub‑indicators affecting progress, and view project status explanations that highlight recent achievements and issues requiring immediate attention. Additional sections can be expanded for deeper analysis. The report also includes schedule health to assess progress against planned timelines and thresholds, and budget and cost status to verify that financials remain within limits. For more information on In-App insights, see [AI Project Insights](https://www.servicenow.com/community/spm-articles/enhancements-to-ai-powered-project-insights/ta-p/3485806).
 
 
 ## Result
@@ -64,7 +65,7 @@ The project insights are generated from the AI insights page with access to curr
     -   When you revisit the AI Insights page, previously generated insights are displayed if they are still within the threshold.
 -   Regenerate project insights:
     -   From the AI insights page, select **Regenerate** icon.
-    -   Now Assist generates updated project insights.
+    -   AI generates updated project insights.
 
 **Parent Topic:**[Managing projects with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/use-projects-pw.md)
 

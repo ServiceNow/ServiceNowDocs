@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/exploring-build-agent.html
 release: zurich
 topic_type: concept
-last_updated: "2026-05-11"
-reading_time_minutes: 6
+last_updated: "2026-07-22"
+reading_time_minutes: 7
 keywords: [AI agent, application development, natural language, full-stack applications, conversational interface, autonomous AI, code generation, Now Assist, AI Agents, generative AI, agentic AI]
 audience: developer
 breadcrumb: [Build Agent, Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
@@ -16,9 +16,9 @@ breadcrumb: [Build Agent, Agentic development on the ServiceNow AI Platform, Dev
 
 Build Agent enables developers to create, edit, and deploy full-stack ServiceNow® applications to update sets that encompass both user interface and back-end components.
 
-## How to use Build Agent
+As of Zurich Patch 12, ServiceNow Otto is the new AI experience brand. This change is reflected in the name of ServiceNow products, including Build Agent. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
 
-**Note:** Starting with the Zurich Patch 8 release, you can use Build Agent in ServiceNow Studio. This document provides guidance on using Build Agent in the ServiceNow IDE. For detailed instructions on using Build Agent in ServiceNow Studio, see [Build Agent in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/build-agent-in-servicenow-studio.md).
+## How to use Build Agent
 
 Build Agent is an AI tool designed for developers within ServiceNow Studio the ServiceNow Integrated Development Environment \(ServiceNow IDE\). Build Agent acts as an autonomous AI agent capable of independently generating a complete ServiceNow® scoped or global application. For example, a global scope app that uses tables such as incident, problem, and change.
 
@@ -26,25 +26,21 @@ Using the chat panel within ServiceNow Studio or the ServiceNow IDE, you can int
 
 All you have to do is describe an application in natural language, and the agent can then automatically create it. Build Agent generates the necessary code, organizes files clearly, and manages both the core logic and user interface components of the application.
 
-**Note:** To access all of the tools and features in the Zurich release, you must have the latest Family patches and the Now Assist for Creator ServiceNow Store update for Zurich Patch 8 \(April 2026\) installed.
+**Note:** To access all of the tools and features in the Zurich release, you must have the latest Family patches and the ServiceNow Otto for Creator ServiceNow Store update for Zurich Patch 8 \(April 2026\) installed.
 
 Build Agent can understand natural language prompts, autonomously generate full-stack applications, oversee the entire build process, respond to feedback, deploy applications to update sets, and more.
 
 You can also upload supported file types, such as images, code, and documents, to provide more context about application design and functionality. For more information, see [Supported file types for Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ba-supported-file-types.md).
 
+**Note:** Starting with the Zurich Patch 8 release, you can use Build Agent in ServiceNow Studio. This document provides guidance on using Build Agent in the ServiceNow IDE. For detailed instructions on using Build Agent in ServiceNow Studio, see [Build Agent in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/build-agent-in-servicenow-studio.md).
+
+You can also use Build Agent in Developer Sandboxes, which provides a controlled baseline configuration for isolated, parallel development. For more information, see [Exploring Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/developer-sandboxes/exploring-sandboxes.md).
+
 **Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 While creating and updating applications is the primary use case for Build Agent, its capabilities extend beyond that. It can perform various code-related tasks, such as rewriting tables, explaining code, validating and enhancing existing applications, fixing application errors, and more. For instance, Build Agent can use the Run Query tool to query a specific table within your instance and return the top five records or derive specific insights.
 
-Build Agent currently supports the following models:
-
--   Gemini 2.5 Pro
--   Azure OpenAI 5.4
--   Opus 4.6
-
-For information on changing the model, see [Manage model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/edit-model-providers.md).
-
-Build Agent is enabled by default to create apps with AI, for example in ServiceNow Studio. To use other Now Assist products, such as the app generation skill, disable Build Agent. For example, using the setting in your ServiceNow Studio preferences.
+Build Agent is enabled by default to create apps with AI, for example in ServiceNow Studio. To use other ServiceNow Otto products, such as the app generation skill, disable Build Agent. For example, using the setting in your ServiceNow Studio preferences.
 
 ## Fluent and modern web frameworks
 
@@ -54,7 +50,7 @@ Build Agent generates code in ServiceNow Fluent, the domain-specific language fo
 
 ## Build Agent \(Trial\) app overview
 
-After you install the Build Agent \(Trial\) app, your instance will receive 100 free user interactions for 30 days at no additional charge, enabling you to explore Build Agent features at no additional cost.
+After you install the Build Agent \(Trial\) app, your instance receives 100 free user interactions for 30 days at no additional charge. The free interactions enable you to explore Build Agent features at no additional cost.
 
 If you exceed the free interaction limit, you must wait 30 days for a reset, or install the paid version of Build Agent.
 
@@ -93,8 +89,9 @@ Build Agent accelerates application development on the ServiceNow AI Platform. I
 
 To learn more about configuring and using Build Agent, see:
 
--   [Install Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/install-build-agent.md)
+-   [Build Agent configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/configure-build-agent.md)
 -   [Use Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/use-build-agent.md)
+-   [Build Agent reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/build-agent-reference-landing.md)
 
 To learn more about prompting, see this Community article on [The fastest way to learn Build Agent prompting? Ask Build Agent.](https://www.servicenow.com/community/now-assist-for-creator-articles/the-fastest-way-to-learn-build-agent-prompting-ask-build-agent/ta-p/3533544)
 
@@ -102,12 +99,16 @@ To learn more about prompting, see this Community article on [The fastest way to
 Use Build Agent for a wide range of development scenarios beyond application creation, including app analysis, modernization, documentation, governance, and learning assistance. Reference these scenarios to identify ways to apply Build Agent across your development workflow.
 -   **[Build Agent workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/build-agent-workflow.md)**  
 The Build Agent workflow automates the process of building, testing, and deploying applications on the ServiceNow AI Platform. Build Agent streamlines development by handling code compilation, quality checks, and deployment steps without manual intervention.
+-   **[Build Agent chat panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ba-chat-panel.md)**  
+The Build Agent chat panel is where you interact with the AI agent during development. Use it to submit requests, review responses, and apply generated code.
+-   **[Supported models and versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ba-models-versions.md)**  
+Learn which AI models and versions Build Agent supports and how to change them. Use this information to verify compatibility and select the right model for your task.
 -   **[Tutorial for Build Agent in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/build-agent-tutorial.md)**  
-Learn to develop reusable server-side logic and build a ServiceNow® application in Build Agent, from data modeling through testing, using AI-assisted development.
+Learn to develop reusable server-side logic and build a ServiceNow® application in Build Agent, from data modeling through testing, using agentic development.
 -   **[General guidelines for Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/build-agent-general-guidelines.md)**  
 Use these guidelines to get the most out of Build Agent in your development workflow.
 -   **[Build Agent tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/build-agent-tools.md)**  
-Build Agent tools support application development tasks such as semantic search, schema inspection, code search, planning, UI validation, database querying, and app navigation. Each tool extends what Build Agent can do during a build session.
+Build Agent tools support application development tasks such as semantic search, schema inspection, code search, planning, UI validation, database querying, app navigation, and script execution. Each tool extends what Build Agent can do during a build session.
 -   **[MCP connections and Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/accelerate-design-to-development-with-figma-mcp-server.md)**  
 MCP connections enable Build Agent to access external tools and resources through standardized communication. Use these connections to integrate third-party applications like Figma for accelerated design-to-development workflows.
 -   **[Build Agent governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/build-agent-governance.md)**  

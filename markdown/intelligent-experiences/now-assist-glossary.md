@@ -50,11 +50,11 @@ AI compliance refers to the adherence to regulatory requirements, standards, and
 
 ## AI Control Tower
 
-AI Control Tower is a centralized governance hub for managing AI models, agents, and compliance across the ServiceNow AI Platform. It provides visibility into model usage, performance, risk and compliance, and is integrated with Now Assist Admin console.
+AI Control Tower is a centralized governance hub for managing AI models, agents, and compliance across the ServiceNow AI Platform. It provides visibility into model usage, performance, risk and compliance, and is integrated with AI Admin Hub console.
 
 ## AI governance
 
-AI governance refers to the set of policies, procedures, and standards that guide the development, deployment, and use of AI systems within an organization. It ensures that AI systems are aligned with organizational values, comply with regulatory requirements, and are used in a responsible and transparent manner. In ServiceNow AI Platform, you can manage AI governance through AI Control Tower, AI Trust Guard, and role-based access in Now Assist Admin console.
+AI governance refers to the set of policies, procedures, and standards that guide the development, deployment, and use of AI systems within an organization. It ensures that AI systems are aligned with organizational values, comply with regulatory requirements, and are used in a responsible and transparent manner. In ServiceNow AI Platform, you can manage AI governance through AI Control Tower, AI Trust Guard, and role-based access in AI Admin Hub console.
 
 ## AI steward
 
@@ -66,14 +66,14 @@ Small, interactable number next to AI-generated content in the Now Assist panel 
 
 ## custom skill
 
-A user-defined AI capability tailored to meet specific business needs. Using Now Assist Skill Kit, you can create and train these skills by:
+A user-defined AI capability tailored to meet specific business needs. Using AI Skill Kit, you can create and train these skills by:
 
 -   Crafting custom prompts
 -   Adding relevant inputs
 -   Selecting appropriate tools
 -   Determining deployment locations
 
-Custom skills are then activated within the Now Assist Admin console.
+Custom skills are then activated within the AI Admin Hub console.
 
 ## dynamic translation
 
@@ -89,7 +89,7 @@ External
 
 External Content Connectors is a ServiceNow® Store application that enables AI Search to index and search content from external repositories like Atlassian Confluence Cloud and Microsoft SharePoint Online. It expands search capabilities to include external content while maintaining original access permissions.
 
-## generative AI
+## Generative AI
 
 A technology that uses large language model \(LLM\) to generate text, summaries, and other content.
 
@@ -121,13 +121,13 @@ A feature in Now Assist that uses the LLMs provided by Now LLM Service, Azure Op
 
 Refers to generative AI experiences on the ServiceNow AI Platform. With Now Assist, you can improve productivity and efficiency in your organization with better self-service, faster answers and recommended actions, and empower users to search more effectively.
 
-To learn more about Now Assist, see [Exploring Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/now-assist-csm-exploring.md).
+To learn more about Now Assist, see [Exploring ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/now-assist-csm-exploring.md).
 
-## Now Assist Admin console
+## AI Admin Hub console
 
 A console for administrators to quickly set up, configure, and monitor generative AI features and capabilities offered under Now Assist.
 
-## Now Assist Analytics
+## AI Analytics
 
 A dashboard that provides insights into the usage, value, and performance of Now Assist.
 
@@ -135,11 +135,11 @@ A dashboard that provides insights into the usage, value, and performance of Now
 
 A generative AI feature that assists agents in creating and editing emails and chat replies, available in the Next Experience for specific workflows.
 
-## Now Assist Guardian
+## AI Guardian
 
 A feature that monitors and evaluates content created with generative AI to protect users from harmful, offensive, or inappropriate content. It can log incidents and prevent such content from being displayed.
 
-## Now Assist panel
+## ServiceNow Otto panel
 
 A conversational interface to summarize chat, case, or incident or generate resolution notes so that you can get the context of the information more quickly.
 
@@ -153,7 +153,7 @@ A component of the ServiceNow AI Platform that leverages large language models \
 
 ## offensive content detection
 
-A guardrail in Now Assist Guardian that logs and blocks offensive, harmful, or inappropriate content.
+A guardrail in AI Guardian that logs and blocks offensive, harmful, or inappropriate content.
 
 ## Orchestrator
 
@@ -161,7 +161,7 @@ The AI agent orchestrator is a specialized agent that plans, coordinates, and ma
 
 ## prompt injection detection
 
-A security feature in Now Assist Guardian that identifies and prevents malicious inputs from being used to manipulate AI-generated responses.
+A security feature in AI Guardian that identifies and prevents malicious inputs from being used to manipulate AI-generated responses.
 
 ## Q&amp;A genius result
 

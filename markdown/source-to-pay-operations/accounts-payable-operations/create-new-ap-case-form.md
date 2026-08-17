@@ -227,3 +227,5 @@ Invoice-related status messages are displayed in the Accounts Payable Operations
 
 [Approval Plan form]()
 
+[Jurisdictions main table]()
+

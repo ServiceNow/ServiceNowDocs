@@ -1,6 +1,6 @@
 ---
 title: Export a process to Playbook
-description: Export a process to Playbooks to use the advanced features available from Workflow Studio to improve your processes. This feature works with Now Assist.
+description: Export a process to Playbooks to use the advanced features available from Workflow Studio to improve your processes. This feature works with ServiceNow Otto.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/process-mining/export-to-playbook.html
 release: zurich
@@ -14,15 +14,15 @@ breadcrumb: [Analyzing and getting process insights, Using Process Mining, Proce
 
 # Export a process to Playbook
 
-Export a process to Playbooks to use the advanced features available from Workflow Studio to improve your processes. This feature works with Now Assist.
+Export a process to Playbooks to use the advanced features available from Workflow Studio to improve your processes. This feature works with ServiceNow Otto.
 
 ## Before you begin
 
-Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_power\_user, or sn\_process\_optimization\_admin. You must have the now.assist.creator and playbook.write roles.
+Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_power\_user, or sn\_process\_optimization\_admin. You must have the playbook.write roles.
 
 ## About this task
 
-This task enables you to export any variant from within your process to playbook. This gives you more flexibility to work on your process. You can add more triggers, subflows, or attach a parallel process. This feature is enabled by Now Assist.
+This task enables you to export any variant from within your process to playbook. This gives you more flexibility to work on your process. You can add more triggers, subflows, or attach a parallel process. This feature is enabled by ServiceNow Otto.
 
 **Note:** You can export a maximum of 10 variants for a process graph.
 
@@ -68,9 +68,9 @@ The property for the playbook generation is set in the Process Mining system pro
 
 9.  Save and edit the playbook that is generated in Workflow Studio.
 
-    In Workflow Studio, the name, and Now Assist prompt is displayed. You can choose to edit them and regenerate the preview.
+    In Workflow Studio, the name, and prompt is displayed. You can choose to edit them and regenerate the preview.
 
-    For information on Playbooks on Workflow Studio, see [Exploring Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/process-automation-designer.md).
+    For information on Playbooks on Workflow Studio, see .
 
 
 **Parent Topic:**[Analyzing and getting process insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/analyze-get-process-insights.md)

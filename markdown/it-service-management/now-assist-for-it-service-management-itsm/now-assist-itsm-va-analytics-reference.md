@@ -10,7 +10,7 @@ topic_type: reference
 last_updated: "2026-07-01"
 reading_time_minutes: 1
 keywords: [Now Assist, agentic AI, generative AI, Gen AI]
-breadcrumb: [Use ITSM Virtual Agent analytics dashboard, Now Assist for IT Service Management \(ITSM\), IT Service Management]
+breadcrumb: [Use ITSM Virtual Agent analytics dashboard, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 
 # ITSM Virtual Agent Analytics reference

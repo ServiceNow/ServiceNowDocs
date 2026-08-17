@@ -1,6 +1,6 @@
 ---
 title: Custom control utility
-description: Use the Custom Control utility in a Virtual Agent topic or topic block to reference a custom input control or a custom response control. Custom controls complement the controls provided in Virtual Agent Designer.
+description: Use the Custom Control utility in a Virtual Agent topic or topic block to reference a custom input control or a custom response control. Custom controls complement the controls provided in Assistant Designer Asset library.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/va-custom-control-util.html
 release: zurich
@@ -9,12 +9,12 @@ classification: virtual-agent
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Virtual Agent Designer utilities, Virtual Agent Designer interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Assistant Designer Asset library utilities, Assistant Designer Asset library interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
 ---
 
 # Custom control utility
 
-Use the Custom Control utility in a Virtual Agent topic or topic block to reference a custom input control or a custom response control. Custom controls complement the controls provided in Virtual Agent Designer.
+Use the Custom Control utility in a Virtual Agent topic or topic block to reference a custom input control or a custom response control. Custom controls complement the controls provided in Assistant Designer Asset library.
 
 ## Custom control utility properties
 
@@ -36,7 +36,7 @@ Custom control
 
 </td><td>
 
-The name of a custom control asset that has been published in Virtual Agent Designer.
+The name of a custom control asset that has been published in the Assistant Designer Asset library.
 
 </td></tr><tr><td>
 
@@ -91,5 +91,5 @@ A no-code condition statement or low-code script that specifies a condition for 
 
 \[Omitted image "custom-control-utility-properties.png"\] Alt text: Custom control utility properties sheet for an input control.
 
-**Parent Topic:**[Virtual Agent Designer utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-utilities.md)
+**Parent Topic:**[Assistant Designer Asset library utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-utilities.md)
 

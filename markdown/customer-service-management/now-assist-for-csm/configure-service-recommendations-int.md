@@ -1,6 +1,6 @@
 ---
 title: Configure service recommendations for interactions
-description: Configure the service recommendations for interactions skill in the Now Assist Admin console to streamline case creation. This skill reduces cognitive effort, saves time, and promotes accurate case routing.
+description: Configure the service recommendations for interactions skill in the to streamline case creation. This skill reduces cognitive effort, saves time, and promotes accurate case routing.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/now-assist-for-csm/configure-service-recommendations-int.html
 release: zurich
@@ -10,12 +10,12 @@ topic_type: task
 last_updated: "2025-11-05"
 reading_time_minutes: 1
 keywords: [Generative AI, Generative AI for Customer Service Management, generative AI for customer service agents]
-breadcrumb: [Activate Now Assist Skills, Configure, Now Assist for CSM, Customer Service Management]
+breadcrumb: [Activate ServiceNow Otto Skills, Configure, ServiceNow Otto for CSM, Customer Service Management]
 ---
 
 # Configure service recommendations for interactions
 
-Configure the service recommendations for interactions skill in the Now Assist Admin console to streamline case creation. This skill reduces cognitive effort, saves time, and promotes accurate case routing.
+Configure the service recommendations for interactions skill in the  to streamline case creation. This skill reduces cognitive effort, saves time, and promotes accurate case routing.
 
 ## Before you begin
 
@@ -23,11 +23,11 @@ Role required: admin
 
 ## About this task
 
-Use the Now Assist Admin console for configuring the service recommendations for interactions skill by specifying the roles permitted to use the skill and the role restrictions.
+Use the  for configuring the service recommendations for interactions skill by specifying the roles permitted to use the skill and the role restrictions.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills**.
+1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **AI Skills**.
 
     Access the skills configuration page.
 
@@ -64,7 +64,7 @@ Clone the skill to ground it in your environment for your specific needs.
 **Related topics**  
 
 
-[Clone the Now Assist for CSM skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/now-assist-for-csm/clone-the-now-assist-for-csm-skills.md)
+[Clone the ServiceNow Otto for CSM skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/now-assist-for-csm/clone-the-now-assist-for-csm-skills.md)
 
-[Customizing a Now Assist for CSM skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/now-assist-for-csm/customizing-now-assist-skills.md)
+[Customizing a ServiceNow Otto for CSM skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/now-assist-for-csm/customizing-now-assist-skills.md)
 

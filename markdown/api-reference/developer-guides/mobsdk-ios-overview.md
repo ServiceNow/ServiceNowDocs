@@ -7,7 +7,7 @@ release: zurich
 product: Developer Guides
 classification: developer-guides
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Developer guides, API implementation and reference]
 ---
@@ -20,6 +20,7 @@ Using the Mobile SDK, you can perform the following within your applications:
 
 -   Access data on your ServiceNow instance through its public REST APIs or custom scripted REST APIs that you develop.
 -   Embed and enable Virtual Agent within your application interface.
+-   Embed a real-time, AI-powered voice agent directly in your mobile application. NowVoice provides a full-screen voice interface with live transcripts, mute controls, and post-call transcript sharing.
 -   Gather and track custom analytics events for analysis.
 -   Attach documents \(attachments\) to a record within your ServiceNow instance.
 -   Load web pages hosted on your ServiceNow instance in a native web view or Cabrillo.

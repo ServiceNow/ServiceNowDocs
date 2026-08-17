@@ -39,7 +39,7 @@ Role required: sn\_jira\_int.user
 
 ## Result
 
-After the State of the import request changes to Complete, all the work items from Jira would have been imported into Strategic Planning Workspace tables, based on the mapping configuration defined for the project.
+After the State of the import request changes to Complete, all the work items from Jira would have been imported into Strategic Planning Workspace tables. This import is based on the mapping configuration defined for the project.
 
 ## What to do next
 

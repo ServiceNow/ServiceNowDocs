@@ -9,7 +9,7 @@ classification: employee-experience-foundation
 topic_type: task
 last_updated: "2026-04-02"
 reading_time_minutes: 1
-keywords: [external search sources, Employee Slate, Now Assist]
+keywords: [external search sources, Employee Slate, ServiceNow Otto]
 breadcrumb: [Search sources for Employee Slate, Working with Employee Slate capabilities, Employee Slate, Unified Employee Experience, Employee Service Management]
 ---
 

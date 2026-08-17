@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 4
 keywords: [Nodeless, NLU, Natural Language Understanding, entity, input, variables, topic, slot-filled, Virtual Agent, Variables]
-breadcrumb: [Create a Virtual Agent topic, Getting started with Virtual Agent Designer, Build and deploy, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Create a Virtual Agent asset, Getting started with Assistant Designer Asset library, Build and deploy, Virtual Agent, Conversational Interfaces]
 ---
 
 # Add nodeless NLU entities as input variables to a topic
@@ -23,19 +23,23 @@ Role required: virtual\_agent\_admin or admin
 
 ## About this task
 
-If a custom control prompts a user for a date and the user mentioned a date in their initial utterance, you can capture that without prompting the user again. To prompt the user when not slot-filled, use input controls.
+If a custom control prompts a user for a date and the user mentions a date in their initial utterance, you can capture that without reprompting the user. To prompt the user when not slot-filled, use input controls.
 
-For more information about NLU entities, see Entities. For more information about system entities, see [NLU system entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/nlu-system-entities.md).
+For more information about NLU entities, see [Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/entities.md). For more information about system entities, see [NLU system entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/nlu-system-entities.md).
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Virtual Agent** &gt; **Designer**.
+1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Assistant Designer**.
 
-2.  Open a topic and view the **Flow** tab.
+2.  Select the **Asset library** tab.
 
-3.  In the sidebar, select the Variables tab, and select the **Input** icon \[Omitted image "icon-plus-clear.png"\].
+3.  Set the topic discovery type toggle switch to **LLM** or **NLU/Keyword** depending on your intended asset or topic.
 
-4.  On the form, fill in the fields.
+4.  Open a topic and view the **Flow** tab.
+
+5.  In the sidebar, select the Variables tab, and select the **Input** icon \[Omitted image "icon-plus-clear.png"\].
+
+6.  On the form, fill in the fields.
 
 <table id="table_ncp_hnp_frb"><thead><tr><th>
 
@@ -158,7 +162,7 @@ Select one of the following:-   **Condition Builder**: Creates a filter used to 
 
 
 </td></tr></tbody>
-</table>5.  Select **Save**.
+</table>7.  Select **Save**.
 
     NLU entities appear alongside topic input variables in the Variables sidebar.
 
@@ -169,5 +173,5 @@ Select one of the following:-   **Condition Builder**: Creates a filter used to 
     You can remove a slot-filled value to prompt the user again \(unbind it from the initial input value\). For more information, read about the vaInputs.myvar.unbindEntity\(\); method in [Virtual Agent scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/virtual-agent-scripts.md).
 
 
-**Parent Topic:**[Create a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md)
+**Parent Topic:**[Create a Virtual Agent asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md)
 

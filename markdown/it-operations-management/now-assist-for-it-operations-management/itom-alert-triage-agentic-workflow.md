@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 2
 keywords: [AI Agents, agentic AI]
-breadcrumb: [Use agentic AI, Now Assist for ITOM, IT Operations Management]
+breadcrumb: [Use agentic AI, ServiceNow Otto for ITOM, IT Operations Management]
 ---
 
 # Triage and analyze alerts agentic workflow
@@ -26,9 +26,9 @@ The triage and analyze alerts agentic workflow uses AI agents to support alert t
 -   Summarize alert and alert group data to create a human-readable description and add technical analysis.
 -   Investigate relevant past incidents to analyze the significance of the alert and present options for resolution.
 
-**Note:** These functions can also be used for the origin alert of an incident when the workflow is accessed from the incident form or Express List using the Now Assist panel.
+**Note:** These functions can also be used for the origin alert of an incident when the workflow is accessed from the incident form or Express List using the ServiceNow Otto panel.
 
-[Role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/aia-role-masking.md) enables users to limit the roles and privileges of agentic workflows during tool execution. Agentic workflows and their AI agents that get installed with Now Assist applications are assigned pre-defined roles. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. Data access settings must also include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/define-sec-controls-aw.md).
+Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/define-sec-controls-aw.md).
 
 Use the information on this page to learn about the agents related to the triage and analyze alerts agentic workflow. To modify the triage and analyze alerts agentic workflow, you must duplicate it and adjust the settings according to your requirements. For more information, see [Duplicate an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/clone-aia-usecase.md).
 
@@ -38,7 +38,7 @@ Use the information on this page to learn about the agents related to the triage
 
 Acknowledge, assign, and investigate current and past alerts to determine significance and possible resolutions.
 
-To access the agentic workflow, use the Now Assist panel. For more information about using the agentic workflow in the Now Assist panel, see [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-panel-overview.md).
+To access the agentic workflow, use the ServiceNow Otto panel. For more information about using the agentic workflow in the Now Assist panel, see [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-panel-overview.md).
 
 ## AI agents used in the triage and analyze alerts agentic workflow
 
@@ -52,5 +52,5 @@ The triage and analyze alerts agentic workflow uses a team of AI agents to perfo
 |Related incidents analysis AI agent|Analyze past incidents and provide insights on common assignments and summarized resolution notes.|
 |Alert verification AI agent|Assess data completeness and determine whether the alert is suitable for analysis.|
 
-**Parent Topic:**[Use agentic AI in Now Assist for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-ai-agent-workflows.md)
+**Parent Topic:**[Use agentic AI in ServiceNow Otto for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-ai-agent-workflows.md)
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-operationaltechnologyrequestmanagement-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -75,19 +75,19 @@ Xanadu
 
 </td><td>
 
--   **[Create catalog items for your OT Service Catalog](https://servicenow-staging.fluidtopics.net/access?context=create-catalog-item&family=xanadu&ft:locale=en-US)**
+-   **[Create catalog items for your OT Service Catalog](https://www.servicenow.com/docs/access?context=create-catalog-item&family=xanadu&ft:locale=en-US)**
 
 Create a catalog item for the OT Service Catalog using the catalog builder so that other users can submit OT requests that are categorized by catalog item.
 
--   **[Create fulfillment flows that can fulfill an OT request](https://servicenow-staging.fluidtopics.net/access?context=create-a-fulfillment-flow-ot-request&family=xanadu&ft:locale=en-US)**
+-   **[Create fulfillment flows that can fulfill an OT request](https://www.servicenow.com/docs/access?context=create-a-fulfillment-flow-ot-request&family=xanadu&ft:locale=en-US)**
 
 Create a fulfillment flow that catalog items follow to fulfill an OT request. Fulfillment flows for catalog items in the OT Service Catalog include catalog tasks.
 
--   **[Create an OT request](https://servicenow-staging.fluidtopics.net/access?context=create-ot-service-request-industrial-workspace&family=xanadu&ft:locale=en-US)**
+-   **[Create an OT request](https://www.servicenow.com/docs/access?context=create-ot-service-request-industrial-workspace&family=xanadu&ft:locale=en-US)**
 
 Once Operational Technology Request Management is configured, create OT requests in the Industrial Workspace to address a product or service needed for an OT device or incident.
 
--   **[Manage your OT requests and catalog tasks in the Industrial Workspace](https://servicenow-staging.fluidtopics.net/access?context=operational-technology-request-management-lists-in-industrial-workspace&family=xanadu&ft:locale=en-US)**
+-   **[Manage your OT requests and catalog tasks in the Industrial Workspace](https://www.servicenow.com/docs/access?context=operational-technology-request-management-lists-in-industrial-workspace&family=xanadu&ft:locale=en-US)**
 
 View and access OT requests and catalog tasks in the Industrial Workspace list view under the **OT Request** and the **OT Task** modules respectively.
 
@@ -427,7 +427,7 @@ Xanadu
 -   Encourage transparency, expedite request processes, and minimize delays with automatic notifications and approvals.
 -   Maintain the products and services menu that you can use to create and update catalog requests.
 
- See [Operational Technology Request Management](https://servicenow-staging.fluidtopics.net/access?context=operational-technology-request-management-landing-page&family=xanadu&ft:locale=en-US) for more information.
+ See [Operational Technology Request Management](https://www.servicenow.com/docs/access?context=operational-technology-request-management-landing-page&family=xanadu&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 

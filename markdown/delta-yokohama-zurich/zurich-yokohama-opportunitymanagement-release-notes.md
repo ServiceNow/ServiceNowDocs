@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-opportunitymanagement-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -67,16 +67,16 @@ Yokohama
 
 </td><td>
 
--   **[View the roll-up amount in the Opportunity Kanban View](https://servicenow-staging.fluidtopics.net/access?context=opportunity-management-kanban-view&family=yokohama&ft:locale=en-US)**
+-   **[View the roll-up amount in the Opportunity Kanban View](https://www.servicenow.com/docs/access?context=opportunity-management-kanban-view&family=yokohama&ft:locale=en-US)**
 
 Enables customers to view the roll-up amount that is automatically calculated in the base currency for all opportunity stages in the Kanban View.
 
 
--   **[\[Placeholder link text to key bundle-omgmt.opportunity-management-add-product-to-opportunity\]](https://servicenow-staging.fluidtopics.net/access?context=opportunity-management-add-product-to-opportunity&family=yokohama&ft:locale=en-US)**
+-   **[\[Placeholder link text to key bundle-omgmt.opportunity-management-add-product-to-opportunity\]](https://www.servicenow.com/docs/access?context=opportunity-management-add-product-to-opportunity&family=yokohama&ft:locale=en-US)**
 
 Enables the sales representatives to customize the complex product offerings by using the product configurator. This ensures that the sales representatives identify and share the detailed requirements and price to the customer much earlier in the cycle.
 
--   **[Revise existing opportunities after an upgrade](https://servicenow-staging.fluidtopics.net/access?context=revise-existing-opportunities-post-upgrade&family=yokohama&ft:locale=en-US)**
+-   **[Revise existing opportunities after an upgrade](https://www.servicenow.com/docs/access?context=revise-existing-opportunities-post-upgrade&family=yokohama&ft:locale=en-US)**
 
 Enable the sales representatives to use the scheduled job to modify older opportunities to incorporate the functionality of supporting parent-child opportunity line items.
 
@@ -87,7 +87,7 @@ Zurich
 
 </td><td>
 
--   **[Delta pricing for opportunity](https://servicenow-staging.fluidtopics.net/access?context=opportunity-management-details-tab&family=zurich&ft:locale=en-US)**
+-   **[Delta pricing for opportunity](https://www.servicenow.com/docs/access?context=opportunity-management-details-tab&family=zurich&ft:locale=en-US)**
 
 The following new fields added to the Opportunity and Opportunity Line objects improve visibility and provide greater flexibility in managing pricing amendments:
 
@@ -95,11 +95,11 @@ The following new fields added to the Opportunity and Opportunity Line objects i
     -   Renewal Amount
     -   Upsell/Downsell Amounts
     -   Total Net New Amount
--   **[Add opportunity associated contact](https://servicenow-staging.fluidtopics.net/access?context=add-opportunity-associated-contact&family=zurich&ft:locale=en-US)**
+-   **[Add opportunity associated contact](https://www.servicenow.com/docs/access?context=add-opportunity-associated-contact&family=zurich&ft:locale=en-US)**
 
 Create opportunity associated contacts to associate multiple account contacts, verifying clear identification of all stakeholders and their respective roles.
 
--   **[Add opportunity team member](https://servicenow-staging.fluidtopics.net/access?context=create-new-opportunity-team-member&family=zurich&ft:locale=en-US)**
+-   **[Add opportunity team member](https://www.servicenow.com/docs/access?context=create-new-opportunity-team-member&family=zurich&ft:locale=en-US)**
 
 Create a new opportunity team member to associate multiple team members with an opportunity to enable structured collaboration and grant access based on their roles. The ability to grant access is available from Zurich Patch 3 release.
 
@@ -218,7 +218,7 @@ Zurich
 
 </td><td>
 
-Install Opportunity Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+Install Opportunity Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -358,7 +358,7 @@ Yokohama
 1.  Enable customers to view the roll-up amount in the Kanban View.
 2.  Enable sales representatives to customize bundled products and products with complex characteristics in the product catalog.
 
- See [Opportunity Management](https://servicenow-staging.fluidtopics.net/access?context=opportunity-management&family=yokohama&ft:locale=en-US) for more information.
+ See [Opportunity Management](https://www.servicenow.com/docs/access?context=opportunity-management&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -370,7 +370,7 @@ Zurich
 -   Identify multiple stakeholders and accurately qualify opportunities with opportunity associated contacts and their defined roles. This is vital for streamlining sales processes and gaining clarity on how each contact influences the outcome of a deal.
 -   Drive structured collaboration among multiple stakeholders involved in closing a deal using Opportunity Teams. The teams verify collaboration across various roles such as Account Executives, Sales Engineers, Customer Success Managers, and Partner Managers.
 
- See [Opportunity Management](https://servicenow-staging.fluidtopics.net/access?context=opportunity-mgmt-using&family=zurich&ft:locale=en-US) for more information.
+ See [Opportunity Management](https://www.servicenow.com/docs/access?context=opportunity-mgmt-using&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

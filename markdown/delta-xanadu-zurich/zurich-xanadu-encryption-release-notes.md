@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-encryption-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -97,7 +97,7 @@ Zurich
 
 </td><td>
 
--   **[Encrypt data using Row Conditions](https://servicenow-staging.fluidtopics.net/access?context=encrypt-data-using-row-conditions&family=zurich&ft:locale=en-US)**
+-   **[Encrypt data using Row Conditions](https://www.servicenow.com/docs/access?context=encrypt-data-using-row-conditions&family=zurich&ft:locale=en-US)**
 
 Use row conditions for Field Encryption to define encryption rules for rows within a specific column, based on dynamic conditions.
 
@@ -137,7 +137,7 @@ Zurich
 
 </td><td>
 
--   **[Field Encryption Enterprise](https://servicenow-staging.fluidtopics.net/access?context=now-platform-encryption&family=zurich&ft:locale=en-US) API**
+-   **[Field Encryption Enterprise](https://www.servicenow.com/docs/access?context=now-platform-encryption&family=zurich&ft:locale=en-US) API**
 
 Use all three Encryption APIs to encrypt on attachments, without needing to use any one specific API.
 
@@ -214,7 +214,7 @@ Zurich
 
 </td><td>
 
--   **[Prepare your instance for GlideEncrypter deprecation](https://servicenow-staging.fluidtopics.net/access?context=check-3des&family=zurich&ft:locale=en-US)**
+-   **[Prepare your instance for GlideEncrypter deprecation](https://www.servicenow.com/docs/access?context=check-3des&family=zurich&ft:locale=en-US)**
 
 Encrypted string keys 3DES format is no longer supported. Key Management Framework \(KMF\) is the supported format.
 
@@ -256,7 +256,7 @@ Zurich
 
 The Platform Encryption subscription bundle is a group commercial entitlement that includes Field Encryption Enterprise and Cloud Encryption.
 
- Field Encryption Enterprise is the unlimited license of Field Encryption. The Enterprise plugin is available with the activation of the com.glide.now.platform.encryption plugin. For details, see the [Encryption and Key Management subscription bundle](https://servicenow-staging.fluidtopics.net/access?context=encryption-sku&family=zurich&ft:locale=en-US).
+ Field Encryption Enterprise is the unlimited license of Field Encryption. The Enterprise plugin is available with the activation of the com.glide.now.platform.encryption plugin. For details, see the [Encryption and Key Management subscription bundle](https://www.servicenow.com/docs/access?context=encryption-sku&family=zurich&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -444,7 +444,7 @@ Zurich
 -   Use row conditions for Field Encryption to define encryption rules for rows within a specific column, based on dynamic conditions.
 -   Use any of the three Field Encryption APIs to encrypt attachments.
 
- See [Encryption](https://servicenow-staging.fluidtopics.net/access?context=encryption-landing&family=zurich&ft:locale=en-US) for more information.
+ See [Encryption](https://www.servicenow.com/docs/access?context=encryption-landing&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/rn-combined-intro.md)

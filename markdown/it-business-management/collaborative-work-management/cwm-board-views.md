@@ -53,7 +53,7 @@ The Kanban view organizes work items into columns and rows based on attributes y
     -   **Relationship indicator:** Appears on a work item card when the item has one or more linked relationships, such as a prerequisite, dependent, or related-to item. Selecting the indicator opens the right side panel showing the related work items and their relationship types. For more information, see [Task dependencies and relationships in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/managing-task-dependencies-relationships-cwm.md).
 -   **Kanban card layout options**
 
-    Personalize Kanban cards to surface the information most relevant to your team using card layout settings. Select up to five fields to display on each card. Use the Compact layout to show only the work item name for a focused view, or the Full layout to show all selected fields for more context directly on the card.
+    Personalize Kanban cards to surface the information most relevant to your team using card layout settings. Select up to five fields to display on each card. Use the Compact layout to show only the work item name for a focused view. Use the Full layout to show all selected fields for more context directly on the card.
 
     \[Omitted image "cwm-kanban-card-layout.png"\] Alt text: Kanban card layout settings panel showing field selection and layout options.
 

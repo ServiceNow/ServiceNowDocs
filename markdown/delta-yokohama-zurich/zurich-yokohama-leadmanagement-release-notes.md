@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-leadmanagement-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 2
 breadcrumb: [Products combined by family]
 ---
@@ -67,7 +67,7 @@ Yokohama
 
 </td><td>
 
--   **[REST APIs for Lead Management](https://servicenow-staging.fluidtopics.net/access?context=create-new-lead&family=yokohama&ft:locale=en-US)**
+-   **[REST APIs for Lead Management](https://www.servicenow.com/docs/access?context=create-new-lead&family=yokohama&ft:locale=en-US)**
 
 REST APIs provide the following capabilities:
 
@@ -189,7 +189,7 @@ Yokohama
 
 </td><td>
 
-Install Lead Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+Install Lead Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -337,7 +337,7 @@ Yokohama
 -   REST APIs enable seamless integration of lead management with external applications and provide other capabilities.
 -   REST APIs enable customers to create, update, and retrieve leads and lead line items from the ServiceNow instance.
 
- See [Lead Management](https://servicenow-staging.fluidtopics.net/access?context=lead-management&family=yokohama&ft:locale=en-US) for more information.
+ See [Lead Management](https://www.servicenow.com/docs/access?context=lead-management&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 

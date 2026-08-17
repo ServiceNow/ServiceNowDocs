@@ -9,7 +9,7 @@ classification: virtual-agent
 topic_type: task
 last_updated: "2026-03-26"
 reading_time_minutes: 2
-breadcrumb: [Create a Virtual Agent topic, Getting started with Virtual Agent Designer, Build and deploy, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Create a Virtual Agent asset, Getting started with Assistant Designer Asset library, Build and deploy, Virtual Agent, Conversational Interfaces]
 ---
 
 # Control topic discovery and visibility
@@ -22,7 +22,7 @@ Role required: virtual\_agent\_admin or admin
 
 ## About this task
 
-Virtual Agent Designer includes discovery and visibility options when you select the Show actions for this row icon \[Omitted image "kebab-menu.png"\] Alt text: next to each topic in the Asset library.
+Assistant Designer Asset library includes discovery and visibility options when you select the Show actions for this row icon \[Omitted image "kebab-menu.png"\] Alt text: next to each topic in the Asset library.
 
 \[Omitted image "va-active-toggles.png"\] Alt text: Options for managing active topics include discoverable and visible.
 
@@ -53,7 +53,7 @@ The options you select automatically update the corresponding property in the To
 
 ## Procedure
 
-1.  [Create a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md).
+1.  [Create a Virtual Agent asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md).
 
 2.  Set the topic to **Active** either in the topic properties header bar, or in the Show actions for this row icon \(\[Omitted image "kebab-menu.png"\] Alt text:\) next to your topic in the Asset library.
 
@@ -80,5 +80,5 @@ The options you select automatically update the corresponding property in the To
 
 Depending on the options enabled, Virtual Agent can discover the topic, the topic is included in the **All Topics** menu in the chat window, or both.
 
-**Parent Topic:**[Create a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md)
+**Parent Topic:**[Create a Virtual Agent asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md)
 

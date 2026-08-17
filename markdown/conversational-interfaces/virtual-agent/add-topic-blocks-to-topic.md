@@ -33,32 +33,36 @@ You can specify the following types of variables:
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Virtual Agent** &gt; **Designer**.
+1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Assistant Designer**.
 
-2.  On the home page, select the calling topic or topic block in which you will include the topic block.
+2.  Select the **Asset library** tab.
+
+3.  Set the topic discovery type toggle switch to **LLM** or **NLU/Keyword** depending on your intended asset or topic.
+
+4.  Select the calling topic or topic block in which you will include the topic block.
 
     The **Flow** tab displays the conversation flow.
 
-3.  Depending on the type of topic block you are adding, add the appropriate Virtual Agent controls \(nodes\) to the conversation.
+5.  Depending on the type of topic block you are adding, add the appropriate Virtual Agent controls \(nodes\) to the conversation.
 
     For example, if you are adding the Contextual Search topic block, you could add the Text user input control to request an item from the user. Drag that control before the node for the Contextual Search topic block.
 
-4.  From the Utilities section of the palette, drag the Topic Block control onto the canvas at the appropriate location in the conversation flow.
+6.  From the Utilities section of the palette, drag the Topic Block control onto the canvas at the appropriate location in the conversation flow.
 
-5.  In the Topic Block properties sheet, select the name of the topic block that you want to add.
+7.  In the Topic Block properties sheet, select the name of the topic block that you want to add.
 
     The property sheet for the selected topic block displays the input and output parameters. The name of the selected topic block automatically pre-populates the **Node name** field. You can override the name if needed.
 
-6.  Set the required Input Mapping variables and, if applicable, the Output Mapping variables for the selected topic block.
+8.  Set the required Input Mapping variables and, if applicable, the Output Mapping variables for the selected topic block.
 
-7.  In the header bar, select **Save**.
+9.  In the header bar, select **Save**.
 
-8.  To preview your calling topic, select **Test** in the header bar.
+10. To preview your calling topic, select **Test** in the header bar.
 
     You can see how the calling topic runs in the chat window.
 
-    If the Now Assist panel, Microsoft Teams application, or Slack application is configured for your environment, preview options for those channels are displayed in the Test button list. Select **Preview in Now Assist panel** or **Preview in Microsoft Teams** in the list to test your topic in those environments.
+    If the ServiceNow Otto panel, Microsoft Teams application, or Slack application is configured for your environment, preview options for those channels are displayed in the Test button list. Select **Preview in Otto panel** or **Preview in Microsoft Teams** in the list to test your topic in those environments.
 
-9.  If no further changes are needed, select **Publish** in the header bar.
+11. If no further changes are needed, select **Publish** in the header bar.
 
 

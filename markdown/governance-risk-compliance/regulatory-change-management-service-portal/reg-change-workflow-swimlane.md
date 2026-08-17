@@ -64,5 +64,3 @@ The steps to complete the Regulatory Change Management process flow are:
 
 [Regulatory Change Management application in the Compliance Workspace]()
 
-[Exploring Now Assist in Regulatory Change Management \(RCM\)]()
-

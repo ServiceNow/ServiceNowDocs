@@ -1,6 +1,6 @@
 ---
 title: Mastercard Spoke
-description: Integrate your ServiceNow instance with Mastercard’s Mastercom API Suite and Mastercom Extended APIs to manage the full card dispute lifecycle. Handle tasks such as searching transactions, creating claims, and processing chargebacks, pre-arbitration, and arbitration case filings efficiently.
+description: Integrate your ServiceNow instance with Mastercard’s Mastercom API Suite \(MCOM\) and Mastercom Extended APIs \(MCOM Extended\) to manage the full card dispute lifecycle. Handle tasks such as searching transactions, creating claims, and processing chargebacks, pre-arbitration, and arbitration case filings efficiently.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/integration-hub/mastercard-spoke.html
 release: zurich
@@ -8,17 +8,17 @@ product: Integration Hub
 classification: integration-hub
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 5
+reading_time_minutes: 9
 breadcrumb: [Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
 # Mastercard Spoke
 
-Integrate your ServiceNow instance with Mastercard’s Mastercom API Suite and Mastercom Extended APIs to manage the full card dispute lifecycle. Handle tasks such as searching transactions, creating claims, and processing chargebacks, pre-arbitration, and arbitration case filings efficiently.
+Integrate your ServiceNow instance with Mastercard’s Mastercom API Suite \(MCOM\) and Mastercom Extended APIs \(MCOM Extended\) to manage the full card dispute lifecycle. Handle tasks such as searching transactions, creating claims, and processing chargebacks, pre-arbitration, and arbitration case filings efficiently.
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Integration Hub subscription
 
@@ -34,7 +34,7 @@ This spoke was built for Mastercom v6.
 
 ## Key features
 
-Mastercard Spoke enables a flow designer to build workflows using actions that invoke Mastercom. This includes the ability to:
+Mastercard Spoke enables a flow designer to build workflows using actions that invoke Mastercom and Mastercom Extended. This includes the ability to:
 
 -   Search transactions
 -   Create claims and initiate chargebacks
@@ -42,6 +42,9 @@ Mastercard Spoke enables a flow designer to build workflows using actions that i
 -   Collaborate with merchants to prevent chargebacks
 -   Monitor disputes throughout the dispute lifecycle
 -   Expedite the end-to-end dispute management process
+-   Manage disputes for cleared Single Message System original transactions with Mastercom Extended
+
+**Note:** The Mastercom API \(MCOM\) handles disputes for Dual Message System transactions, while the Mastercom Extended API \(MCOM Extended\) handles disputes for Single Message System transactions, which are primarily PIN debit and ATM transactions \(such as Cirrus and Maestro\). For more information, see the [Mastercard developer documentation](https://developer.mastercard.com/mastercom-extended/documentation/support/).
 
 ## Spoke requirements
 
@@ -52,8 +55,10 @@ Mastercard Spoke enables a flow designer to build workflows using actions that i
 
 Ensure that these dependent plugins are installed:
 
+-   Complex Object \(com.glide.cobject\)
 -   ServiceNow Integration Hub Runtime \(com.glide.hub.integration.runtime\)
 -   ServiceNow Integration Hub Action Step - REST \(com.glide.hub.action\_step.rest\)
+-   ServiceNow Integration Hub Action Template - Data Stream \(com.glide.hub.action\_type.datastream\)
 
 **Note:** Some of these plugins are licensable features and require appropriate licenses, if used outside the spoke implementation.
 
@@ -61,7 +66,7 @@ Ensure that these dependent plugins are installed:
 
 The Mastercard Spoke provides actions to simplify card dispute resolution. Available actions include:
 
--   **Actions with sensitive information** - These actions contain sensitive information in the request and response body. When using Mastercom APIs, it is recommended to use a Tokenization solution. This involves using a request builder to securely create requests and a response parser to handle encrypted API responses.
+-   **Actions with sensitive information** - These actions contain sensitive information in the request and response body. When using Mastercom/Mastercom Extended APIs, it is recommended to use a Tokenization solution. This involves using a request builder to securely create requests and a response parser to handle encrypted API responses.
 
     |Category|Action|Description|
     |--------|------|-----------|
@@ -82,9 +87,22 @@ The Mastercard Spoke provides actions to simplify card dispute resolution. Avail
     |Look up Claim Details by Claim ID Request Builder|Retrieves and parses detailed information about a specific claim and its associated cases.|
     |Look up Claim Details by Claim ID Response Parser|
 
+    |Category|Action|Description|
+    |--------|------|-----------|
+    |Mastercom Extended - Claim Management|Look up Claim Details by ID Request Builder - Extended|Request Builder produces the request payload for this action. Use this endpoint to retrieve details for an existing claim.|
+    |Look up Claim Details by ID Response Parser - Extended|Parses the response from the search. Use this endpoint to retrieve details for an existing claim.|
+    |Look up Claim Details Request Builder - Extended|Request Builder produces the request payload for this action. Use this endpoint to retrieve a list of claims.|
+    |Look up Claim Details Response Parser - Extended|Parses the response of the searchClaim. Use this endpoint to retrieve a list of claims.|
+    |Mastercom Extended - Transaction Management|Look up Transactions Request Builder - Extended|Request Builder produces the request payload for this action. Use this endpoint to search for transactions.|
+    |Look up Transactions Response Parser - Extended|Parses the response from the search. Use this endpoint to search for transactions.|
+    |Mastercom Extended - Case Filing Document Management|Look up Processed Documents by Case ID Request Builder - Extended|Request Builder for Retrieve processed documents associated with cases API. Use this endpoint to retrieve all documents from a case. The documents include any documents attached by any party.|
+    |Look up Processed Documents by Case ID Response Parser - Extended|Parses response of the Retrieve processed documents associated with cases. Use this endpoint to retrieve all documents from a case. The documents include any documents attached by the sender, receiver, or both.|
+    |Mastercom Extended - Document Management|Look up Processed Documents by Document Completed ID Request Builder - Extended|Request Builder for Retrieve processed documents API. Use this endpoint to retrieve processed documents.|
+    |Look up Processed Documents by Document Completed ID Response Parser - Extended|Response Parser for Retrieve processed documents API endpoint. Use this endpoint to retrieve processed documents.|
+
     The following example illustrates the solution overview when it integrates with a Tokenization solution: \[Omitted image "spoke-mastercard-flow.jpg"\] Alt text: Tokenization solution overview.
 
--   **Actions with non-sensitive information** - You can directly invoke these Mastercom APIs from your ServiceNow instance.
+-   **Actions with non-sensitive information** - You can directly invoke these Mastercom/Mastercom Extended APIs from your ServiceNow instance.
 
 <table id="table_cjl_k2k_zyb"><thead><tr><th>
 
@@ -259,6 +277,245 @@ Look up API Suite Health
 </td><td>
 
 Retrieves the status of the Mastercom API suite.
+
+</td></tr></tbody>
+</table><table id="table_qlx_mp3_l2c"><thead><tr><th>
+
+Category
+
+</th><th>
+
+Action
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td rowspan="2">
+
+Mastercom Extended - Case Filing Document Management
+
+</td><td>
+
+Attach Document by Case ID - Extended
+
+</td><td>
+
+Use this endpoint to attach a new document to an existing case when the previous document failed to process. Document processing status can be retrieved from the GET /cases/documents/attributes endpoint.
+
+</td></tr><tr><td>
+
+Look up Statuses for Documents Associated with Cases - Extended
+
+</td><td>
+
+Use this endpoint to retrieve the processing status of documents associated with cases.
+
+</td></tr><tr><td rowspan="4">
+
+Mastercom Extended - Case Filing Management
+
+</td><td>
+
+Create Pre-Arbitration/Arbitration Case - Extended
+
+</td><td>
+
+Use this endpoint to create a pre-arbitration or arbitration case.
+
+</td></tr><tr><td>
+
+Look up Case Details by ID - Extended
+
+</td><td>
+
+Use this endpoint to retrieve details for an existing case, providing comprehensive information about the case.
+
+</td></tr><tr><td>
+
+Update Pre-Arbitration/Arbitration Case - Extended
+
+</td><td>
+
+Use this endpoint to update or respond to a pre-arbitration or arbitration case.
+
+</td></tr><tr><td>
+
+Update Pre-Compliance/Compliance Case - Extended
+
+</td><td>
+
+Use this endpoint to update or respond to a pre-compliance or compliance case.
+
+</td></tr><tr><td>
+
+Mastercom Extended - Chargeback Management
+
+</td><td>
+
+Create Chargeback Reversal - Extended
+
+</td><td>
+
+Use this endpoint to reverse existing chargebacks.
+
+</td></tr><tr><td rowspan="2">
+
+Mastercom Extended - Claim Management
+
+</td><td>
+
+Create Claim - Extended
+
+</td><td>
+
+Use this endpoint to create a new claim.
+
+</td></tr><tr><td>
+
+Create Pre-Compliance/Compliance Case - Extended
+
+</td><td>
+
+Use this endpoint to create a pre-compliance or compliance case.
+
+</td></tr><tr><td>
+
+Mastercom Extended - Dispute Management
+
+</td><td>
+
+Initiate a Dispute by Claim ID - Extended
+
+</td><td>
+
+Use this endpoint to initiate a dispute. At this time, only creating a chargeback is supported.
+
+</td></tr><tr><td rowspan="3">
+
+Mastercom Extended - Document Management
+
+</td><td>
+
+Attach Documents by Claim ID and Event ID - Extended
+
+</td><td>
+
+Use this endpoint to attach previously uploaded documents to existing dispute events.
+
+</td></tr><tr><td>
+
+Check Document Details - Extended
+
+</td><td>
+
+Use this endpoint to get the details of documentation attached to their events, including status.
+
+</td></tr><tr><td>
+
+Upload Documents - Extended
+
+</td><td>
+
+Use this endpoint to upload documents.
+
+ To see details about file restrictions, refer to the Tutorials and Guides section of the Mastercom Extended API Specifications.
+
+</td></tr><tr><td rowspan="3">
+
+Mastercom Extended - Queue Management
+
+</td><td>
+
+Look up Claims in a Queue by ID Stream - Extended
+
+</td><td>
+
+Use this endpoint to retrieve a list of claims in a queue within a specified date range.
+
+</td></tr><tr><td>
+
+Look up Queue by ID - Extended
+
+</td><td>
+
+Use this endpoint to retrieve fields within a specific queue.
+
+</td></tr><tr><td>
+
+Look up Queues Stream - Extended
+
+</td><td>
+
+Use this endpoint to retrieve a list of queues and their fields.
+
+</td></tr><tr><td rowspan="2">
+
+Mastercom Extended - Report Definition Management
+
+</td><td>
+
+Look up Report Fields - Extended
+
+</td><td>
+
+Use this endpoint to retrieve fields within a specific report.
+
+</td></tr><tr><td>
+
+Look up Report Fields Stream - Extended
+
+</td><td>
+
+Use this endpoint to retrieve a list of reports and their fields.
+
+</td></tr><tr><td rowspan="4">
+
+Mastercom Extended - Report Management
+
+</td><td>
+
+Create a Report - Extended
+
+</td><td>
+
+Use this endpoint to request the creation of report. NOTE: The system requires at least 120 seconds to generate a report.
+
+</td></tr><tr><td>
+
+Look up Completed Report - Extended
+
+</td><td>
+
+Use this endpoint to retrieve a completed report.
+
+</td></tr><tr><td>
+
+Look up Report Status - Extended
+
+</td><td>
+
+Use this endpoint to retrieve the status of a specific report.
+
+</td></tr><tr><td>
+
+Look up Reports Stream - Extended
+
+</td><td>
+
+Use this endpoint to obtain a report status and reportCompletedId.
+
+</td></tr><tr><td>
+
+Mastercom Extended - Representment Management
+
+</td><td>
+
+Update Representment by Claim ID and Event ID - Extended
+
+</td><td>
+
+Use this endpoint to acknowledge a representment, which moves the claim to the Worked queue. Issuers may take further actions on acknowledged claims.
 
 </td></tr></tbody>
 </table>

@@ -1,5 +1,5 @@
 ---
-title: Configure extended table support for the email reply recommendation skill
+title: Configure extended table support for email reply recommendation skill
 description: Create a child skill variant of the Email reply recommendation skill to generate AI-powered email replies tailored to a specific case subtype or extended table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/now-assist-for-csm/configure-extended-table-support-for-the-email-reply-recommendation-skill.html
@@ -10,16 +10,16 @@ topic_type: task
 last_updated: "2026-04-17"
 reading_time_minutes: 2
 keywords: [Generative AI, generative AI for Customer Service Management, generative AI for customer service agents, Email Reply Recommendation, extended table, child skill, Now Assist, Now Assist Skill Kit, NASK, CSM]
-breadcrumb: [Email recommendation, Activate Now Assist Skills, Configure, Now Assist for CSM, Customer Service Management]
+breadcrumb: [Email recommendation, Activate ServiceNow Otto Skills, Configure, ServiceNow Otto for CSM, Customer Service Management]
 ---
 
-# Configure extended table support for the email reply recommendation skill
+# Configure extended table support for email reply recommendation skill
 
 Create a child skill variant of the Email reply recommendation skill to generate AI-powered email replies tailored to a specific case subtype or extended table.
 
 ## Before you begin
 
-Role required: **Admin** to copy and configure the skill in Now Assist Admin. **sn\_skill\_builder.admin** to edit input configurations in Now Assist Skill Kit \(NASK\).
+Role required: **Admin** to copy and configure the skill in . **sn\_skill\_builder.admin** to edit input configurations in AI Skill Kit.
 
 Confirm the following prerequisites are met before you begin:
 
@@ -28,11 +28,11 @@ Confirm the following prerequisites are met before you begin:
 
 ## About this task
 
-When you copy the Email reply recommendation skill in Now Assist Admin, a child skill is created that inherits the parent skill's configuration. You then open the copied skill in Now Assist Skill Kit to select the target child table and configure the additional input fields that are injected into the AI prompt for that table. Once configured, the platform automatically uses the child skill when an agent triggers Email Reply Recommendation on a case record that belongs to the extended table.
+When you copy the Email reply recommendation skill in , a child skill is created that inherits the parent skill's configuration. Open the copied skill in AI Skill Kit to select the target child table. Configure the additional input fields that are injected into the AI prompt for that table. Once configured, the platform automatically uses the child skill when an agent triggers Email Reply Recommendation on a case record that belongs to the extended table.
 
 ## Procedure
 
-1.  Navigate to &gt; &gt; **Admin** &gt; **Now Assist admin** &gt; **Skills**.
+1.  Navigate to &gt; &gt; **Admin** &gt; **AI Admin Hub** &gt; **Skills**.
 
 2.  Select the **Customer** workflow and **CSM** as the product.
 
@@ -46,9 +46,9 @@ When you copy the Email reply recommendation skill in Now Assist Admin, a child 
 
 6.  Select **Save and continue**.
 
-    The child skill is created and inherits the parent skill's configuration. You cannot change the table name of the copied skill in Now Assist Admin. Table selection is performed in Now Assist Skill Kit as the next step.
+    The child skill is created and inherits the parent skill's configuration. You can't change the table name of the copied skill in . Table selection is performed in AI Skill Kit as the next step.
 
-7.  Navigate to **Now Assist Skill Kit** &gt; **ServiceNow skills**.
+7.  Navigate to **AI Skill Kit** &gt; **ServiceNow skills**.
 
 8.  Locate the copied skill you created earlier and open it.
 
@@ -66,7 +66,7 @@ When you copy the Email reply recommendation skill in Now Assist Admin, a child 
 
 13. Select **Clone prompt** to edit the prompt.
 
-14. Complete skill configuration in Now Assist Admin, by selecting **Define Availability** to set conditions for when this child skill is active.
+14. Complete skill configuration in , by selecting **Define Availability** to set conditions for when this child skill is active.
 
     -   Select **Skill is always available** to apply no restrictions.
     -   Select **Customize skill availability** to define conditions using the condition builder.

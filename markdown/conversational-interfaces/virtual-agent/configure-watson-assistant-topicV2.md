@@ -19,7 +19,7 @@ Configure the IBM Watson Assistant Chat Integration to run a dialog skill \(conv
 
 ## Before you begin
 
-**Note:** An updated Assistant Designer Asset library user interface is available when you install Now Assist in Virtual Agent and turn on the Now Assist Topics skill. This content assumes that you have activated this skill and can see the list view. If this skill is not activated, you see the legacy UI and topics page. For more information, see [Virtual Agent Designer legacy topics page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/vad-prev-topics-page.md).
+**Note:** An updated Assistant Designer Asset library user interface is available when you install ServiceNow Otto in Virtual Agent. This content assumes that you can see the list view. If ServiceNow Otto in Virtual Agent is not installed, you see the legacy UI and topics page. For more information, see [Virtual Agent Designer legacy topics page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/vad-prev-topics-page.md).
 
 With the IBM Watson Assistant v2 API chat integration, the chat widget communicates with an assistant instead of with a workspace. Workspaces are referred to as dialog skills. For information on IBM Watson Assistant, see [Migrating to the v2 API](https://cloud.ibm.com/docs/services/assistant?topic=assistant-api-migration&locale=en-us#overview) in the IBM Watson Assistant documentation.
 
@@ -71,15 +71,19 @@ The IBM Watson Assistant V2 API enables the chat widget to use the Watson Assist
 
     -   Glide Virtual Agent \(com.glide.cs.chatbot\), if not already activated \(requires a subscription\)
     -   IBM Watson Assistant Integration V2 plugin \(com.glide.cs.ibm.watson.assistant.topicV2\)
-5.  In Virtual Agent Designer, publish the IBM Watson Assistant V2 topic:
+5.  In Assistant Designer Asset library, publish the IBM Watson Assistant V2 topic:
 
-    1.  Navigate to **Conversational Interfaces** &gt; **Virtual Agent** &gt; **Designer** and select the **NLU/keyword** toggle.**All** &gt; **Conversational Interfaces** &gt; **Virtual Agent** &gt; **Designer**.
+    1.  Navigate to **Conversational Interfaces** &gt; **Assistant Designer**.
 
-    2.  In the Virtual Agent Designer home page, select the IBM Watson Assistant V2 topic to open the Topic Properties page.
+    2.  Select the **Asset library** tab.
+
+    3.  Set the discovery type toggle switch to **NLU/Keyword**.
+
+    4.  In the Assistant Designer Asset library, select the IBM Watson Assistant V2 topic to open the Topic Properties page.
 
         Notice that the **Keyword** for this topic is IBM Watson Assistant V2.
 
-    3.  In the Topic Properties page, select **Publish** to deploy the topic to your Virtual Agent chat widget.
+    5.  In the Topic Properties page, select **Publish** to deploy the topic to your Virtual Agent chat widget.
 
 6.  Navigate to **All**, and then enter `sys_properties.list` in the filter.
 

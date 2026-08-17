@@ -9,7 +9,7 @@ classification: ai-control-tower
 topic_type: task
 last_updated: "2025-11-05"
 reading_time_minutes: 6
-breadcrumb: [Creating requests for AI assets, Use, AI Control Tower, Enable AI experiences]
+breadcrumb: [Creating requests for AI assets, Use, AI Control Tower \(legacy\), Enable AI experiences]
 ---
 
 # Create change requests for AI assets

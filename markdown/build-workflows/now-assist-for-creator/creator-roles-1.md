@@ -1,6 +1,6 @@
 ---
-title: Now Assist for Creator \[now.assist.creator\] role
-description: This role grants users access to Now Assist for Creator skills.
+title: ServiceNow Otto for Creator \[now.assist.creator\] role
+description: This role grants users access to ServiceNow Otto for Creator skills.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/now-assist-for-creator/creator-roles-1.html
 release: zurich
@@ -9,14 +9,14 @@ classification: now-assist-for-creator
 topic_type: reference
 last_updated: "2025-08-07"
 reading_time_minutes: 1
-breadcrumb: [Now Assist for Creator, Build workflows]
+breadcrumb: [ServiceNow Otto for Creator, Build workflows]
 ---
 
-# Now Assist for Creator \[now.assist.creator\] role
+# ServiceNow Otto for Creator \[now.assist.creator\] role
 
-This role grants users access to Now Assist for Creator skills.
+This role grants users access to ServiceNow Otto for Creator skills.
 
-**Important:** Starting with version 28.4.3 of Now Assist for Creator, most Now Assist for Creator AI capabilities don’t require the now.assist.creator role. Some AI capabilities might have additional role requirements. See the product documentation for the specific skill, AI agent, or agentic workflow to learn what roles are required.
+**Important:** Starting with version 28.4.3 of ServiceNow Otto for Creator, most ServiceNow Otto for Creator AI capabilities don’t require the now.assist.creator role. Some AI capabilities might have additional role requirements. See the product documentation for the specific skill, AI agent, or agentic workflow to learn what roles are required.
 
 ## Contains roles
 

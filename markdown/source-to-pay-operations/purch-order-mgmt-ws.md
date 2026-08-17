@@ -37,7 +37,7 @@ For more information about the Source-to-Pay Workspace, see [Source-to-Pay Works
 |Purchase order management viewer: View purchase order exceptions.|sn\_poem\_core.viewer|
 |Purchase order management admin: Local admin for the application and its settings.|sn\_poem\_core.admin|
 |Purchase order management collaborator: View assigned purchase order exceptions and tasks.|sn\_poem\_core.collaborator|
-|Fulfiller for Now Assist for POM: Role assigned to an operational buyer to access Now Assist for Purchase Order Management \(POM\).|sn\_poem\_gen\_ai\_now\_assist\_fulfiller|
+|Fulfiller for ServiceNow Otto for POM: Role assigned to an operational buyer to access ServiceNow Otto for Purchase Order Management \(POM\).|sn\_poem\_gen\_ai\_now\_assist\_fulfiller|
 
 -   **[View a purchase order exception](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/view-purch-order-exception.md)**  
 As an Operational Buyer, view a purchase order exception in the Purchase Order Management landing page for further processing.

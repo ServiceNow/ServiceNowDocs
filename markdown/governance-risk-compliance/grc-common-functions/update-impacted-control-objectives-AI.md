@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Update impacted control objectives, Now Assist panel, Control Objective Change Agent, AI agent]
-breadcrumb: [AI agents in Now Assist for IRM, Use agentic AI, Now Assist, Common GRC features, Governance, Risk, and Compliance]
+breadcrumb: [AI agents in ServiceNow Otto for IRM, Use agentic AI, Now Assist, Common GRC features, Governance, Risk, and Compliance]
 ---
 
 # Use the control objective change agent to update control objectives

@@ -1,37 +1,37 @@
 ---
 title: Modify the LLM \(LLM\) for WSD
-description: Modify or update a LLM \(LLM\) to generate for Now Assist for WSD.
+description: Modify or update a LLM \(LLM\) to generate for ServiceNow Otto for WSD.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/now-assist-for-wsd/update-llm-wsd.html
 release: zurich
 product: Now Assist for WSD
 classification: now-assist-for-wsd
 topic_type: task
-last_updated: "2025-08-26"
+last_updated: "2026-07-28"
 reading_time_minutes: 1
-breadcrumb: [Configure, Now Assist for Workplace Service Delivery \(WSD\), Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Configure, ServiceNow Otto for Workplace Service Delivery \(WSD\), Workplace Service Delivery, Employee Service Management]
 ---
 
 # Modify the LLM \(LLM\) for WSD
 
-Modify or update a LLM \(LLM\) to generate for Now Assist for WSD.
+Modify or update a LLM \(LLM\) to generate for ServiceNow Otto for WSD.
 
 ## Before you begin
 
-Third-party LLM providers are available for Now Assist skills and AI agents in addition to Now LLM Service. For more information on LLMs in Now Assist. For each Now Assist in Document Intelligence use case, only one LLM can be enabled at a time. Now Assist employs the selected LLM when processing documents for the use case.
+Third-party LLM providers are available for the AI Admin skills and AI agents along with the LLMs. For a Document Intelligence use case, only one LLM can be enabled at a time. ServiceNow Otto employs the selected LLM when processing documents for the use case.
 
-**Note:** Now LLM Service, AWS Claude, Azure OpenAI, and Google Gemini are the supported LLM model providers on Now Assist for WSD.
+**Note:** Now LLM Service, AWS Claude, Azure OpenAI, and Google Gemini are the supported LLM model providers on ServiceNow Otto for WSD.
 
 Role required: admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Settings** &gt; **Manage model providers**.
+1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Settings** &gt; **Manage AI models** &gt; **Manage model providers**.
 
 2.  Review the following options the Manage mode providers workflow page:
 
-    -   Policy Summary set by your organization regarding non-compliant model provider usage.
-    -   Model providers assigned to Now Assist Now Assist for WSD.
+    -   Policy Summary set by your organization regarding a non-compliant model provider usage.
+    -   Model providers assigned to ServiceNow Otto for WSD.
 3.  Select the **Edit Model provider** tab to change the LLM model provider.
 
 4.  Select an LLM model provider from the **Default model provider** list.

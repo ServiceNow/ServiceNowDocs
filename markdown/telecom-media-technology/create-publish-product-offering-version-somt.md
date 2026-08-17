@@ -40,15 +40,15 @@ Role required: sn\_prd\_pm.product-catalog\_manager
 
 5.  When you finish creating the product offering version, do one of the following actions.
 
-<table id="choicetable_product_offering"><thead><tr><th align="left" id="d26082e132">
+<table id="choicetable_product_offering"><thead><tr><th align="left" id="d25980e132">
 
 Action
 
-</th><th align="left" id="d26082e135">
+</th><th align="left" id="d25980e135">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d26082e141">
+</th></tr></thead><tbody><tr><td id="d25980e141">
 
 **Publish**
 
@@ -58,7 +58,7 @@ Publish the draft product offering so that you can use it in a product catalog:-
 -   After you publish a product offering, you can't change or delete it, unless you create a version for it.
 
 
-</td></tr><tr><td id="d26082e159">
+</td></tr><tr><td id="d25980e159">
 
 **Update**
 
@@ -66,13 +66,13 @@ Publish the draft product offering so that you can use it in a product catalog:-
 
 Update the product offering with the new data that you added, but don't publish it for use in a product catalog.
 
-</td></tr><tr><td id="d26082e168">
+</td></tr><tr><td id="d25980e168">
 
 **Copy**
 
 </td><td>
 
-Copy the data in this product offering so that you can create a product offering from it. For example, you can use the Copy function if you want to create a base version product offering that is similar to Premium SD-WAN Offering v3, but with a separate version track.
+Copy the data in this product offering so that you can create a product offering from it. For example, you can use the Copy function to create a base version product offering. It can be similar to Premium SD-WAN Offering v3, but with a separate version track.
 
  When you use the Copy function, it creates a base version product offering and sets the values in these fields:
 

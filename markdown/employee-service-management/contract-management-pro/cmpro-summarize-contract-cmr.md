@@ -1,5 +1,5 @@
 ---
-title: Ask Now Assist to generate summary of contract documents in a contract request
+title: Ask ServiceNow Otto for summary of contract documents
 description: Generate summaries, frequently asked questions \(FAQs\), or ask questions to retrieve specific information from contract documents in Contract Management Pro.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/contract-management-pro/cmpro-summarize-contract-cmr.html
@@ -7,13 +7,13 @@ release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-11-04"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
-keywords: [Contract summarization, Summarize contract, Ask Now Assist]
+keywords: [Contract summarization, Summarize contract, Ask ServiceNow Otto]
 breadcrumb: [Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
-# Ask Now Assist to generate summary of contract documents in a contract request
+# Ask ServiceNow Otto for summary of contract documents
 
 Generate summaries, frequently asked questions \(FAQs\), or ask questions to retrieve specific information from contract documents in Contract Management Pro.
 
@@ -21,12 +21,12 @@ Generate summaries, frequently asked questions \(FAQs\), or ask questions to ret
 
 -   The smart documents skill must be activated. For more information, see [Configure the smart documents skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/configure-skill-smart-documents.md).
 -   Your role and relevant tables must be configured to use this feature. For more information, see [Configuring contract summarization for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cmpro-conf-cntr-summary.md).
--   The Now Assist panel must be enabled. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/activate-now-assist-panel.md).
+-   The ServiceNow Otto panel must be enabled. For more information, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/activate-now-assist-panel.md).
 -   Role required: sn\_cm\_core.contract\_fulfiller
 
 ## About this task
 
-Use the Smart Documents capability in Now Assist for ServiceNow AI Platform to generate a summary and FAQs from contract documents, and ask questions in the Now Assist panel to retrieve specific information from contract documents.
+Use the Smart Documents capability in ServiceNow Otto for ServiceNow AI Platform to generate a summary and FAQs from contract documents in the ServiceNow Otto panel to retrieve specific information from contract documents.
 
 ## Procedure
 
@@ -47,7 +47,7 @@ Contract Workspace
 </td><td>
 
 -   Navigate to **All** &gt; **Contract Workspace**.
--   Select the list icon \[Omitted image "lsd-lcc-list-icon.png"\] Alt text:.
+-   Select the list icon \[Omitted image "lsd-lcc-list-icon.png"\] Alt text: list icon.
 -   Select **Contract requests** &gt; **All**.
 -   Select a contract request.
 
@@ -72,17 +72,17 @@ Workspace used by your application
 
     The contract document opens in a document viewer.
 
-4.  Select **Ask Now Assist**.
+4.  Select **Ask Otto**.
 
     \[Omitted image "cmpro-summarize-doc.png"\] Alt text: Summarize button in the document viewer used to generate summary of a contract.
 
-    The Now Assist panel opens where you can select the option to summarize the contract, generate FAQs from the document, or ask questions to gain specific insights on the document.
+    The panel opens where you can select the option to summarize the contract, generate FAQs from the document, or ask questions to gain specific insights on the document.
 
-    \[Omitted image "cmpro-summary-nap.png"\] Alt text: Now Assist panel displaying options to summarize the document, generate FAQs, and ask questions.
+    \[Omitted image "cmpro-summary-nap.png"\] Alt text: ServiceNow Otto panel displaying options to summarize the document, generate FAQs, and ask questions.
 
-    For more information on using Now Assist for generating summaries, see [Generate a document summary by using Now Assist in Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/generate-document-summary-now-assist.md) and [Generate summary and ask questions using Now Assist in Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/ask-questions-faqs-now-assist.md).
+    For more information on using AI for generating summaries, see [Generate a document summary by using Now Assist in Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/generate-document-summary-now-assist.md) and [Generate summary and ask questions using Now Assist in Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/ask-questions-faqs-now-assist.md).
 
-    You can also summarize supporting documents and signed contracts using Ask Now Assist in the document viewer.
+    You can also summarize supporting documents and signed contracts using Ask Otto in the document viewer.
 
 
 **Parent Topic:**[Using Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-use-cmpro.md)

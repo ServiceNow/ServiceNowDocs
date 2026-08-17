@@ -22,7 +22,7 @@ For details, see the [Deprecation Process \[KB0867184\]](https://support.service
 
 In the Patient Support Services application, an appointment is booked for scheduling training requests included within a program service. For completing a program service item, a program task is created in the application.
 
-The Patient Support Services application uses the Appointment Booking plugin \(com.snc.appointment\_booking\) to create an appointment record in the Appointment \[sn\_hcls\_appointment\] table. The appointment record is created for a program task that requires appointment booking. The plugin is automatically activated after your administrator installs the Patient Support Services application. For more information about the Appointment Booking feature, see Appointment booking components.
+The Patient Support Services application uses the Appointment Booking plugin \(com.snc.appointment\_booking\) to create an appointment record in the Appointment \[sn\_hcls\_appointment\] table. The appointment record is created for a program task that requires appointment booking. The plugin is automatically activated after your administrator installs the Patient Support Services application. For more information about the Appointment Booking feature, see [Appointment booking components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/field-service-management/appointment-booking-components.md).
 
 As a user with the sn\_patientservice.admin role, you configure the following appointment booking settings:
 

@@ -1,6 +1,6 @@
 ---
-title: Supporting information for Now Assist for IT Service Management \(ITSM\)
-description: Get a quick overview of the important information that is related to the Now Assist for IT Service Management \(ITSM\) application.
+title: Supporting information for ServiceNow Otto for IT Service Management \(ITSM\)
+description: Get a quick overview of the important information that is related to the ServiceNow Otto for IT Service Management \(ITSM\) application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/now-assist-for-it-service-management-itsm/supporting-information-now-assist-itsm.html
 release: zurich
@@ -10,23 +10,23 @@ topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 3
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
-breadcrumb: [Configure, Now Assist for IT Service Management \(ITSM\), IT Service Management]
+breadcrumb: [Configure, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 
-# Supporting information for Now Assist for IT Service Management \(ITSM\)
+# Supporting information for ServiceNow Otto for IT Service Management \(ITSM\)
 
-Get a quick overview of the important information that is related to the Now Assist for IT Service Management \(ITSM\) application.
+Get a quick overview of the important information that is related to the ServiceNow Otto for IT Service Management \(ITSM\) application.
 
 ## Supported versions
 
 -   For Core UI: Starting with Vancouver Patch 2
 -   For Service Operations Workspace for ITSM: Starting with version 6.0.0
 
-## Supported language models for all Now Assist for ITSM skills and AI agents
+## Supported language models for all ServiceNow Otto for ITSM skills and AI agents
 
-You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all generative AI skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/exploring-large-language-models.md).
+You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all generative AI skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/exploring-large-language-models.md).
 
-## Role masking for Now Assist for ITSM agentic workflows, AI agents, and skills
+## Role masking for ServiceNow Otto for ITSM agentic workflows, AI agents, and skills
 
 Mask roles to restrict user access to agentic workflows, standalone AI Agents, and skills. This ensures that users receive only the necessary permissions for their tasks to enhance security and reduce the risk of unauthorized access.
 
@@ -51,11 +51,11 @@ Consider a user who has been assigned multiple roles: A, B, and C, each with dis
 
 By applying both ACL permissions and role masking, the system ensures a secure and granular access control mechanism for ITSM skills, protecting sensitive information while providing users with the insights they need to perform their tasks effectively.
 
-For information on role masking, see [Role masking in Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/aia-role-masking.md).
+For information on role masking, see [Role masking in AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/aia-role-masking.md).
 
 ## Supported user interfaces
 
-The Now Assist for ITSM application includes the skills that are listed in the following table.
+The ServiceNow Otto for ITSM application includes the skills that are listed in the following table.
 
 **Note:** Next Experience must be enabled to use the Now Assist panel. For more information, see [Considerations for activating Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/next-experience-adoption-paths.md).
 

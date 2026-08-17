@@ -1,39 +1,39 @@
 ---
 title: Enhanced chat
-description: Now Assist panel enhanced chat is a conversational support experience within a dynamic window that also includes the ability to have multiple active conversations and superior search capabilities. Use Now Assist panel enhanced chat to improve your productivity and efficiency by leveraging generative AI to perform tasks such as summarize a chat, case, or incident, request help, generate resolution notes, among others.
+description: ServiceNow Otto panel enhanced chat brings conversational support to a dynamic window where you can manage multiple active conversations and access superior search capabilities. Leverage generative AI to boost your productivity—summarize chats, cases, or incidents, request help, and generate resolution notes all in one place.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/now-assist-panel-enhanced.html
 release: zurich
 topic_type: concept
 last_updated: "2025-07-16"
 reading_time_minutes: 12
-breadcrumb: [Now Assist panel, Now Assist Experiences, Exploring Now Assist Admin, Now Assist, Enable AI experiences]
+breadcrumb: [ServiceNow Otto panel, AI Experiences, Exploring AI Admin Hub, AI Admin Hub, Enable AI experiences]
 ---
 
 # Enhanced chat
 
-Now Assist panel enhanced chat is a conversational support experience within a dynamic window that also includes the ability to have multiple active conversations and superior search capabilities. Use Now Assist panel enhanced chat to improve your productivity and efficiency by leveraging generative AI to perform tasks such as summarize a chat, case, or incident, request help, generate resolution notes, among others.
+ServiceNow Otto panel enhanced chat brings conversational support to a dynamic window where you can manage multiple active conversations and access superior search capabilities. Leverage generative AI to boost your productivity—summarize chats, cases, or incidents, request help, and generate resolution notes all in one place.
 
 **Note:** Please note these important considerations:
 
--   Next Experience must be enabled to use the Now Assist panel. For more information, see [Considerations for activating Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/next-experience-adoption-paths.md).
--   To use the full capabilities of Now Assist panel enhanced chat, AI Search must be enabled for your portal. Without it, Now Assist panel enhanced chat functions in a limited capacity. Basic conversational interactions such as predefined topic flows and simple questions and answers are available, but knowledge article retrieval, AI responses grounded in instance content, and semantic search capabilities require AI Search. For more information, see [Enable and configure AI Search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/enable-ais-sp.md).
+-   Next Experience must be enabled to use the ServiceNow Otto panel enhanced chat. For more information, see [Considerations for activating Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/next-experience-adoption-paths.md).
+-   To access the panel's full capabilities, AI Search must be enabled for your portal. Without it, ServiceNow Otto panel enhanced chat operates with limited functionality - basic conversational interactions, such as predefined topic flows and simple Q&amp;A, remain available. Knowledge article retrieval, AI responses grounded in instance content, and semantic search capabilities require AI Search. For more information, see [Enable and configure AI Search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/enable-ais-sp.md).
 
-Agents can use the Now Assist panel enhanced chat to interact with and get assistance from generative AI. You can move the chat window by selecting the header and dragging the chat window to the desired location. You can resize the chat window by using the window's edges to resize to your desired size or use the toolbar icons.
+Agents can use the ServiceNow Otto panel enhanced chat to interact with and get assistance from generative AI. You can move the chat window by selecting the header and dragging the chat window to the desired location. You can resize the chat window by using the window's edges to resize to your desired size or use the toolbar icons.
 
-Now Assist panel enhanced chat must be activated before you can use it. See [Activate Now Assist panel enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-panel-enhanced-activate.md) for more information.
+ServiceNow Otto panel enhanced chat must be activated before you can use it. See [Activate ServiceNow Otto panel enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-panel-enhanced-activate.md) for more information.
 
-Conversational aspects of the Now Assist panel, such as skill detection, are powered by Now LLM Service.
+Conversational aspects of the ServiceNow Otto panel enhanced chat, such as skill detection, are powered by Now LLM Service.
 
-**Note:** Now Assist skills must be enabled to appear on the Now Assist panel. For more information, see [Now Assist skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skills/now-assist-skills.md).
+**Note:** ServiceNow Otto skills must be enabled to appear on the ServiceNow Otto panel enhanced chat. For more information, see [Generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skills/now-assist-skills.md).
 
-Let's get started by selecting the Now Assist icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Now Assist sparkle icon to display the Now Assist panel.
+Let's get started by selecting the ServiceNow Otto icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: ServiceNow Otto sparkle icon to display the ServiceNow Otto panel enhanced chat.
 
-\[Omitted image "na-panel-screenshot-example-enhanced.png"\] Alt text: Now Assist panel - enhanced chat
+\[Omitted image "na-panel-screenshot-example-enhanced.png"\] Alt text: ServiceNow Otto panel enhanced chat
 
-\[Omitted image "na-panel-closed-chat-enhanced.png"\] Alt text: Now Assist panel - enhanced chat showing active and closed chats.
+\[Omitted image "na-panel-closed-chat-enhanced.png"\] Alt text: ServiceNow Otto panel enhanced chat showing active and closed chats.
 
-The Now Assist panel includes:
+The ServiceNow Otto panel enhanced chat includes:
 
 <table id="table_yzf_wkw_hzb"><thead><tr><th>
 
@@ -57,7 +57,7 @@ Expands the chat into a 90% screen-size window. The 90% screen-size window can�
 
 </td><td>
 
-Positions, or pins, the Now Assist panel to the screen.
+Positions, or pins, the ServiceNow Otto panel enhanced chat to the screen.
 
 </td></tr><tr><td>
 
@@ -69,7 +69,7 @@ Displays the available options.
 
 </td></tr><tr><td>
 
-4 - Reply to Now Assist...
+4 - Reply to ServiceNow Otto...
 
 </td><td>
 
@@ -77,7 +77,7 @@ Enter actions.
 
 </td></tr><tr><td>
 
-5 - Now Assist message
+5 - ServiceNow Otto message
 
 </td><td>
 
@@ -89,7 +89,7 @@ Indicates that the answers are generated by AI.
 
 </td><td>
 
-All active chats display in the Active chats section. in the Active chats section of the Now Assist. You can create additional chats by selecting the + icon in the heading.
+All active chats display in the Active chats section of the ServiceNow Otto panel enhanced chat. You can create additional chats by selecting the + icon in the heading.
 
 </td></tr><tr><td>
 
@@ -100,7 +100,7 @@ All active chats display in the Active chats section. in the Active chats sectio
 Displays all closed chats. If you select a closed chat, the chat's history displays.
 
 </td></tr></tbody>
-</table>The Now Assist subheader consists of these elements:
+</table>The ServiceNow Otto panel enhanced chat subheader consists of these elements:
 
 \[Omitted image "na-panel-chat-controls-enhanced.png"\] Alt text: Chat window controls include New Chat, Chats, Support, and Settings.
 
@@ -133,7 +133,7 @@ All chats appear.
 
 The name of the conversation.
 
- If you select a promoted asset or query, that asset's title appears as the chat name. If instead you enter an utterance into the **Reply to Now Assist** field, your initial utterance becomes the chat name. The chat name appears in both the Now Assist subheader and **Chats list** &gt; **Active** section.
+ If you select a promoted asset or query, that asset's title appears as the chat name. If instead you enter an utterance into the **Reply to ServiceNow Otto** field, your initial utterance becomes the chat name. The chat name appears in both the ServiceNow Otto panel enhanced chat subheader and **Chats list** &gt; **Active** section.
 
 </td></tr><tr><td>
 
@@ -154,7 +154,7 @@ A new conversation begins.
 You can indicate if the response was helpful by selecting the like thumbs up icon \[Omitted image "nap-thumbs-up.png"\] Alt text: or if the response wasn't helpful, you can select the dislike thumbs down icon \[Omitted image "nap-thumbs-down.png"\] Alt text:. You can also copy the response by selecting the copy message icon \[Omitted image "nap-copy-icon.png"\] Alt text:.
 
 </td></tr></tbody>
-</table>Now Assist panel is available on Next Experience and ServiceNow Studio. The following screenshots show the Now Assist panel in a workspace and on Core UI screens under Next Experience.
+</table>ServiceNow Otto panel enhanced chat is available on Next Experience and ServiceNow Studio. The following screenshots show the ServiceNow Otto panel enhanced chat in a workspace and on Core UI screens under Next Experience.
 
 <table id="table_smr_n2b_xyb"><tbody><tr><td>
 
@@ -166,11 +166,11 @@ Core UI
 
 </td></tr><tr><td>
 
-\[Omitted image "na-panel-overview-example-enhanced.png"\] Alt text: Now Assist panel enhanced chat on Next Experience
+\[Omitted image "na-panel-overview-example-enhanced.png"\] Alt text: ServiceNow Otto panel enhanced chat on Next Experience
 
 </td><td>
 
-\[Omitted image "now-assist-panel-overview-ui16-example.png"\] Alt text: Now Assist panel on a Core UI incident form.
+\[Omitted image "now-assist-panel-overview-ui16-example.png"\] Alt text: ServiceNow Otto panel enhanced chat on a Core UI incident form.
 
 </td></tr></tbody>
 </table>## Response feedback
@@ -183,23 +183,23 @@ Depending on the context of the response, an additional go to search results ico
 
 ## Agentic conversations
 
-**Note:** Admins must first enable AI agents before end users can experience agentic conversations. Now Assist panel discovers and executes agentic workflows. For more information on agentic workflows, see [Now Assist agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/sn-aia-use-cases-list.md) and [Multiple conversations in Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/multiple-conversations-aia.md).
+**Note:** Admins must first enable AI agents before end users can experience agentic conversations. ServiceNow Otto panel enhanced chat discovers and executes agentic workflows. For more information on agentic workflows, see [Agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/sn-aia-use-cases-list.md) and [Multiple conversations in AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/multiple-conversations-aia.md).
 
-When you ask a question to the Now Assist panel enhanced chat, the agent understands the query and begins a flow. When you submit a message with multiple questions or requests, Now Assist panel enhanced chat answers the multiple questions consecutively in its response. It can reason, plan, and execute across AI agents, Now Assist panel topics, conversational actions and subflows, catalogs, Knowledge Base articles, custom skills, and any Now Assist supported skills to help you. You receive on-screen messages to let you know where the agent is in the agentic processing flow prior to receiving the response. After the processing has completed its flow, a View AI Steps section header appears, where the processing flow steps can be expanded and viewed. You can stop the agentic processing flow at any time by selecting the End flow icon \(\[Omitted image "agentic-end-flow-icon.png"\] Alt text: End flow icon.\). After an action starts, it can't be stopped. Selecting the End flow icon only stops the proceeding processing steps.
+When you ask a question to the ServiceNow Otto panel enhanced chat, the agent understands the query and begins a flow. When you submit a message with multiple questions or requests, ServiceNow Otto panel enhanced chat answers the multiple questions consecutively in its response. It can reason, plan, and execute across AI agents, ServiceNow Otto panel enhanced chat topics, conversational actions and subflows, catalogs, Knowledge Base articles, custom skills, and any ServiceNow Otto supported skills to help you. You receive on-screen messages to let you know where the agent is in the agentic processing flow prior to receiving the response. After the processing has completed its flow, a View AI Steps section header appears, where the processing flow steps can be expanded and viewed. You can stop the agentic processing flow at any time by selecting the End flow icon \(\[Omitted image "agentic-end-flow-icon.png"\] Alt text: End flow icon.\). After an action starts, it can't be stopped. Selecting the End flow icon only stops the proceeding processing steps.
 
-If your question is unclear or could apply to multiple topics, Now Assist evaluates your request and may ask for clarification before responding. This helps you receive a focused, relevant answer rather than an overwhelming list of results. If the assistant is confident it understands your intent, it responds immediately without asking for clarification. If no relevant answer is found, the assistant displays a message and suggests an alternative, such as contacting support.
+If your question is unclear or could apply to multiple topics, ServiceNow Otto evaluates your request and may ask for clarification before responding. This helps you receive a focused, relevant answer rather than an overwhelming list of results. If the assistant is confident it understands your intent, it responds immediately without asking for clarification. If no relevant answer is found, the assistant displays a message and suggests an alternative, such as contacting support.
 
-Processing messages are short status updates that appear on-screen while Now Assist works on your request. They reflect what Now Assist is actively doing at each step, such as searching for information or analyzing a document, and update as each step completes. Processing messages don’t appear for simple interactions such as greetings, which are handled instantly.
+Processing messages are short status updates that appear on-screen while ServiceNow Otto works on your request. They reflect what ServiceNow Otto is actively doing at each step, such as searching for information or analyzing a document, and update as each step completes. Processing messages don’t appear for simple interactions such as greetings, which are handled instantly.
 
-## Navigating from the Now Assist panel
+## Navigating from the ServiceNow Otto panel enhanced chat
 
-You can navigate from the Now Assist panel without leaving the current conversation by entering a navigation request in the **Ask Now Assist to...** field. If you enter "navigate me to active incidents," Now Assist displays a button that enables you to view the active incidents.
+You can navigate from the ServiceNow Otto panel enhanced chat without leaving the current conversation by entering a navigation request in the **Ask ServiceNow Otto to...** field. If you enter "navigate me to active incidents," ServiceNow Otto displays a button that enables you to view the active incidents.
 
 ## Chat summarization
 
 Quickly learn the details of a chat by reading a chat summarization. The chat summarization gives you enough details about the chat so that your requester doesn't have to repeat the same information to you.
 
-To generate a chat summarization from the Now Assist panel, select **Chat Summarization** or enter `summarize chat` in the **Ask Now Assist to** field.
+To generate a chat summarization from the ServiceNow Otto panel enhanced chat, select **Chat Summarization** or enter `summarize chat` in the **Ask ServiceNow Otto to** field.
 
 **Note:** You can also generate a chat summarization by using the `/summarize` quick action in Agent Chat.
 
@@ -207,37 +207,37 @@ To generate a chat summarization from the Now Assist panel, select **Chat Summar
 
 Quickly learn the details of a case or incident by reading a case summarization. The summarization gives you enough details about the interaction so that your requester doesn't have to repeat the same information to you.
 
-You can generate a case or incident summarization from the Now Assist panel for Now Assist for CSM, Now Assist for HRSD, or Now Assist for ITSM:
+You can generate a case or incident summarization from the ServiceNow Otto panel enhanced chat for ServiceNow Otto for CSM, ServiceNow Otto for HRSD, or ServiceNow Otto for ITSM:
 
--   For Now Assist for CSM, select **Summarize record** or enter `summarize a record` in the **Ask Now Assist to** field.
--   For Now Assist for HRSD, select **Summarize record** or enter `summarize a record` in the **Ask Now Assist to** field.
--   For Now Assist for ITSM, select **Summarize incident** or enter `summarize an incident` in the **Ask Now Assist to** field.
+-   For ServiceNow Otto for CSM, select **Summarize record** or enter `summarize a record` in the **Ask ServiceNow Otto to** field.
+-   For ServiceNow Otto for HRSD, select **Summarize record** or enter `summarize a record` in the **Ask ServiceNow Otto to** field.
+-   For ServiceNow Otto for ITSM, select **Summarize incident** or enter `summarize an incident` in the **Ask ServiceNow Otto to** field.
 
 ## Conversation Help
 
-Get specific and accurate answers to your queries by using the Get Help skill option on the Now Assist panel. This skill is available to everyone entitled to Now Assist capabilities.
+Get specific and accurate answers to your queries by using the Get Help skill option on the ServiceNow Otto panel enhanced chat. This skill is available to everyone entitled to ServiceNow Otto capabilities.
 
-For more information about the Now Assist Conversational Help skill that represents as Get Help on the Now Assist panel, see [Now Assist Conversational Help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skills/conversational-help-skills.md).
+For more information about the ServiceNow Otto Conversational Help skill that represents as Get Help on the ServiceNow Otto panel enhanced chat, see [Conversational Help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skills/conversational-help-skills.md).
 
 ## Resolution notes generation
 
 Quickly learn the details of how an interaction was resolved by generating and reading resolution notes.
 
-To generate resolution notes from the Now Assist panel, select **Generate resolutions notes** or enter `generate resolutions notes` in the **Ask Now Assist to** field.
+To generate resolution notes from the ServiceNow Otto panel, select **Generate resolutions notes** or enter `generate resolutions notes` in the **Ask ServiceNow Otto to** field.
 
 ## Streaming responses
 
-After you enter a question or request on the Now Assist panel, Now Assist gathers information from Knowledge Base articles, external content, product documentation, catalog items, and workflows and combines them into a synthesized, comprehensive answer. Instead of waiting for the entire message to render, the synthesized response streams in real time and stops streaming after the entire message has been delivered. An animated sparkle icon \(\[Omitted image "icon-ai-sparkle.png"\] Alt text: Now Assist sparkle icon\) appears while the response is generated and changes to the static sparkle icon after the response has fully loaded.
+After you enter a question or request on the ServiceNow Otto panel enhanced chat, ServiceNow Otto gathers information from Knowledge Base articles, external content, product documentation, catalog items, and workflows and combines them into a synthesized, comprehensive answer. Instead of waiting for the entire message to render, the synthesized response streams in real time and stops streaming after the entire message has been delivered. An animated sparkle icon \(\[Omitted image "icon-ai-sparkle.png"\] Alt text: ServiceNow Otto sparkle icon\) appears while the response is generated and changes to the static sparkle icon after the response has fully loaded.
 
 ## Fallback options
 
 **Note:** For more information about where and how to enable fallback options, see [Manage an assistant chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/manage-assistant-chat-experience.md).
 
-A fallback state can occur whenever search results are unavailable. Scenarios where search results are unavailable include when Now Assist didn't understand the query, complaint small talk was found, or an error occurred. When search results are unavailable, the **Search the web** fallback option may appear. If you select the **Search the web** fallback option, the web search mode is triggered and uses the internet to search for the results.
+A fallback state can occur whenever search results are unavailable. Scenarios where search results are unavailable include when ServiceNow Otto didn't understand the query, complaint small talk was found, or an error occurred. When search results are unavailable, the **Search the web** fallback option may appear. If you select the **Search the web** fallback option, the web search mode is triggered and uses the internet to search for the results.
 
 **Note:** Only the last query entered into the conversation is considered when entering web search mode via this **Search the web** fallback option.
 
 \[Omitted image "nap-search-web-fallback.png"\] Alt text: Search the web fallback option screen.
 
-**Parent Topic:**[Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-panel-overview.md)
+**Parent Topic:**[ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-panel-overview.md)
 

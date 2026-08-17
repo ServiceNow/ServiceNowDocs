@@ -234,8 +234,7 @@ Resource manager\[resource\_manager\]
 Users with this role can: -   Review resource plans, confirm, and allocate resources to tasks.
 -   Create skills and view them in the User Skills list.
 -   Read schedules.
--   Create a group of type pps\_resource.
--   Add users to or remove them from any groups.
+-   Create a group.
 -   Update group name, group email, parent, description, manager, average daily FTE hours/hours per person day, and hourly rate.
 
 </td><td>

@@ -38,15 +38,15 @@ Role required: sn\_egd\_shared\_lib.admin
 
 4.  Set the corresponding fields that appear on the form depending on the option you selected in the **Type** field.
 
-<table id="choicetable_qff_mm4_b1c"><thead><tr><th align="left" id="d601277e146">
+<table id="choicetable_qff_mm4_b1c"><thead><tr><th align="left" id="d601335e146">
 
 Field
 
-</th><th align="left" id="d601277e149">
+</th><th align="left" id="d601335e149">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d601277e155">
+</th></tr></thead><tbody><tr><td id="d601335e155">
 
 **Role level**
 
@@ -54,7 +54,7 @@ Description
 
 The title for the role you want promote as a feature growth item.This field only appears when the **Type** field is set to **Job Title**.
 
-</td></tr><tr><td id="d601277e172">
+</td></tr><tr><td id="d601335e172">
 
 **Skill**
 
@@ -62,7 +62,7 @@ The title for the role you want promote as a feature growth item.This field only
 
 A critical skill you want to promote as a feature growth item that your employees can acquire.This field only appears when the **Type** field is set to **Skill**.
 
-</td></tr><tr><td id="d601277e189">
+</td></tr><tr><td id="d601335e189">
 
 **Skill level**
 
@@ -70,7 +70,7 @@ A critical skill you want to promote as a feature growth item that your employee
 
 The level of expertise required for the skill that you selected in the **Skill** field.This field only appears when the **Type** field is set to **Skill**.
 
-</td></tr><tr><td id="d601277e209">
+</td></tr><tr><td id="d601335e209">
 
 **Opportunity type**
 
@@ -78,7 +78,7 @@ The level of expertise required for the skill that you selected in the **Skill**
 
 An opportunity you want to promote as a feature growth item to employees within your organization.This field only appears when the **Type** field is set to **Opportunity**.
 
-</td></tr><tr><td id="d601277e227">
+</td></tr><tr><td id="d601335e227">
 
 **Job requisition**
 

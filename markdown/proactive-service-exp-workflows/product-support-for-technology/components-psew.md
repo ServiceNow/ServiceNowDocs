@@ -37,5 +37,5 @@ sn\_ind\_tsm\_sdwan.PSEW\_USER
 Enables the technical support agent to view the relevant information between ITSM and CSM applications.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Now Assist for Telecommunications, Media and Technology \(TMT\) reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/proactive-service-exp-workflows/product-support-for-technology/assurance-workflows-reference.md)
+</table>**Parent Topic:**[Proactive Service Experience Workflows reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/proactive-service-exp-workflows/product-support-for-technology/assurance-workflows-reference.md)
 

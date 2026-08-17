@@ -18,7 +18,7 @@ Create the actions for a Virtual Agent chat or messaging channel to send actiona
 
 ## Before you begin
 
--   An action requires an associated, published \(active\) Virtual Agent topic, a Scriptable action, or a Flow action which can perform the action represented by a button in the notification, such as talk to an agent \(live agent support\) or bot feedback \(Virtual Agent feedback\). Consider working with your topic authors to determine the appropriate topics and corresponding actions. For more information about designing the Virtual Agent topics, see [Getting started with Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md).
+-   An action requires an associated, published \(active\) Virtual Agent topic, a Scriptable action, or a Flow action which can perform the action represented by a button in the notification, such as talk to an agent \(live agent support\) or bot feedback \(Virtual Agent feedback\). Consider working with your topic authors to determine the appropriate topics and corresponding actions. For more information about designing the Virtual Agent topics, see [Getting started with Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md).
 
     **Note:** Scriptable actions and Flow actions are asynchronous and are executed when you select the action without a Virtual Agent topic. You can select either an existing flow that is defined or coordinate with the flow authors to send actionable notifications.
 

@@ -1,5 +1,5 @@
 ---
-title: Now Assist for Sales CRM for Telecommunications AI agent Image to task plan template AI agent
+title: ServiceNow Otto for Sales Customer Relationship Management for Telecommunications AI agent Image to task plan template AI agent
 description: Use the AI agent to create a task plan template for a given specification based on the uploaded image file.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-media-technology/now-assist-task-template-generation-somt.html
@@ -7,10 +7,10 @@ release: zurich
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Standalone AI agents, Use agentic workflows, Now Assist for Sales CRM for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [Standalone AI agents, Use agentic workflows, ServiceNow Otto for Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
-# Now Assist for Sales CRM for Telecommunications AI agent Image to task plan template AI agent
+# ServiceNow Otto for Sales Customer Relationship Management for Telecommunications AI agent Image to task plan template AI agent
 
 Use the AI agent to create a task plan template for a given specification based on the uploaded image file.
 
@@ -37,9 +37,9 @@ Guidelines for image:
     \[Omitted image "image.task-plan-3"\] Alt text: images with intersection or overlapping lines aren't supported by agent.
 
 
-To modify the Image to task plan template AI agent, [Duplicate an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/clone-aia-usecase.md) and adjust the settings according to your requirements.
+To modify the Image to task plan template AI agent,  and adjust the settings according to your requirements.
 
-To add tools and information, see [Add tools and information to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/add-tool-aia.md) for details.
+To add tools and information, see  for details.
 
 Role required: sn\_task\_plan.admin and sn\_prd\_pm.product\_catalog\_admin
 
@@ -59,5 +59,5 @@ To access the use case testing page:
 1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Testing**.
 2.  On the Overview page, select **Test use cases**.
 
-To test the use case, see [Manually test the execution of an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/test-aia-use-case.md).
+To test the use case, see .
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/sla-targets-vr-aiagent.html
 release: zurich
 topic_type: task
-last_updated: "2026-05-26"
+last_updated: "2026-07-24"
 reading_time_minutes: 4
 breadcrumb: [Use, Unified Security Exposure Management, Security Operations]
 ---
@@ -16,19 +16,21 @@ Chat with an AI agent to help you gain insights into your monthly remediation co
 
 ## Before you begin
 
-To view and use the generative AI skills agentic workflows in the Unified Security Exposure Management you must upgrade to Unified Security Exposure Management. See [Unified Security Exposure Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/secops-sem-rn.md) for more information.
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
 
-The Now Assist panel must be activated. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/activate-now-assist-panel.md).
+The ServiceNow Otto® panel must be activated. For more information, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
 Roles required: sn\_vul.vulnerability\_admin or sn\_vul.vulnerability\_analyst admin
 
 ## Procedure
 
-1.  Select the Now Assist icon \(\[Omitted image "ai-icon-now-assist.png"\] Alt text: Now Assist icon.\).
+1.  Select the ServiceNow Otto® icon \(\[Omitted image "bus-ai-otto.svg"\] Alt text:\) on the header page from anywhere in your instance.
 
-    The Now Assist panel is displayed. If you don't see the Now Assist icon \[Omitted image "ai-icon-now-assist.png"\] Alt text: Now Assist sparkle icon in the header on the page, you must activate the Now Assist panel. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/activate-now-assist-panel.md).
+    The ServiceNow Otto® panel is displayed. If you don't see the ServiceNow Otto® icon in the header on the page, you must activate the ServiceNow Otto® panel. For more information, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
-    The Analyze vulnerability remediation status agentic workflow is on-demand. You can enter any query in natural language, but you might consider using the prompts described in the following table and steps to familiarize yourself with the available data and what you can do with it.
+2.  Select the **Analyze vulnerability remediation status** option in the panel.
+
+    The Analyze vulnerability remediation status agentic workflow is on-demand. You can enter any query in natural language, but consider using the prompts described in the following table and steps to familiarize yourself with the available data and what you can do with it.
 
     These steps give you insights into your compliance metrics for how well your teams meet their monthly remediation target dates for vulnerable item records as reported in your Service Level Agreement \(SLA\).
 
@@ -85,9 +87,7 @@ Request the agent to review your previous question if it doesn't give you an ans
 End the conversation.
 
 </td></tr></tbody>
-</table>    Your conversation is saved until you start a new chat. If the conversation ends unexpectedly, start a new chat. To start a new chat select the new chat icon \(\[Omitted image "icon-zoom-in.png"\] Alt text: New chat icon.\).
-
-2.  Enter a request in natural language to see your remediation metrics for a given month and year, for example, `What is my compliance for remediation for the month of October 2024?`
+</table>3.  Enter a request in natural language to see your remediation metrics for a given month and year, for example, `What is my compliance for remediation for the month of October 2024?`
 
     The results are organized into sections.
 
@@ -95,15 +95,17 @@ End the conversation.
     -   Breakdown by severity - Vulnerable items that missed remediation targets are broken down by critical, high, medium, and low severity.
     -   Breakdown by assignment groups - Percent of the total records with missed targets broken out by assignment groups.
     -   More information: Remediation Compliance for October 2024 link - View more information about the data. A new tab opens in UI16.
-3.  You might ask for more specific information about missed SLAs, for example, `Which asset types accounted for the most missed SLAs?`
+    Your conversation is saved until you start a new chat. If the conversation ends unexpectedly, start a new chat. To start a new chat select the new chat icon \(\[Omitted image "icon-zoom-in.png"\] Alt text: New chat icon.\).
+
+4.  You might ask for more specific information about missed SLAs, for example, `Which asset types accounted for the most missed SLAs?`
 
     The results are organized for the data for the month of your original request by asset type, for example, Windows Server, Database, Linux Server, and so on.
 
-4.  You might ask for more specific information about your teams' productivity during that month, for example, `Which assignment group had the fewest missed Critical SLAs?`
+5.  You might ask for more specific information about your teams' productivity during that month, for example, `Which assignment group had the fewest missed Critical SLAs?`
 
     The assignment group is returned that had the least number of `Critical` VITs that missed the SLA.
 
-5.  You might compare these results to another month, for example, `How does this data compare with November 2024?`
+6.  You might compare these results to another month, for example, `How does this data compare with November 2024?`
 
     The results are organized into sections.
 

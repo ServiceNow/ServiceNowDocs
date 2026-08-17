@@ -7,7 +7,7 @@ release: zurich
 product: Change Management
 classification: change-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Use, Change Management, IT Service Management]
 ---
@@ -15,6 +15,10 @@ breadcrumb: [Use, Change Management, IT Service Management]
 # Legacy: Change Management Platform Analytics Solutions
 
 Platform Analytics Solutions and in-form analytics contain preconfigured dashboards. These dashboards contain actionable data visualizations that help you improve your business processes and practices.
+
+**Important:**
+
+Starting in Xanadu release, the Core UI Change Management dashboards are deprecated. You can use Platform Analytics [Change Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change.md) to view the information about the Change requests in one place.
 
 ## Platform Analytics Solutions
 

@@ -1,5 +1,5 @@
 ---
-title: Now Assist for Sales CRM for Telecommunications AI agent collection order fulfillment AI agent
+title: ServiceNow Otto for Sales Customer Relationship Management for Telecommunications AI agent collection order fulfillment AI agent
 description: Use the order fulfillment AI agent to identify the tasks required for domain orders by using historical data from similar orders.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-media-technology/order-fulfillment-agent-somt.html
@@ -7,10 +7,10 @@ release: zurich
 topic_type: concept
 last_updated: "2025-10-29"
 reading_time_minutes: 2
-breadcrumb: [Standalone AI agents, Use agentic workflows, Now Assist for Sales CRM for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [Standalone AI agents, Use agentic workflows, ServiceNow Otto for Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
-# Now Assist for Sales CRM for Telecommunications AI agent collection order fulfillment AI agent
+# ServiceNow Otto for Sales Customer Relationship Management for Telecommunications AI agent collection order fulfillment AI agent
 
 Use the order fulfillment AI agent to identify the tasks required for domain orders by using historical data from similar orders.
 
@@ -20,13 +20,13 @@ The order fulfillment AI agent uses historic order tasks to create the order tas
 
 Based on the domain order, this agent retrieves a list of tasks that must be fulfilled. For each such domain order, the agent uses historical data from similar orders to find all such tasks.
 
-If the Product offering or Category fulfillment tasks defined in the decision table aren’t available to create the fulfillment tasks for product, service, and resource, the default flow Service order trigger fulfillment AI agent, resource order trigger fulfillment AI agent, and Product order trigger fulfillment AI agent are considered to create the fulfillment tasks for an order line item during the fulfillment process. For more information on configuring decision tables, see [Decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/decision-table.md).
+If the Product offering or Category fulfillment tasks defined in the decision table aren’t available, the system uses default flows to create fulfillment tasks. These default flows include the Service order trigger fulfillment AI agent, resource order trigger fulfillment AI agent, and Product order trigger fulfillment AI agent. They create fulfillment tasks for an order line item during the fulfillment process. For more information on configuring decision tables, see [Decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/decision-table.md).
 
 When a domain order is created, if a fulfillment process isn’t defined for that domain order specification category, a place order task is created. When this task is assigned to an agent, it triggers the order fulfillment AI agent for this domain order.
 
-To modify the order fulfillment AI agent, [Duplicate an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/clone-aia-usecase.md), and adjust the settings according to your requirements.
+To modify the order fulfillment AI agent, , and adjust the settings according to your requirements.
 
-The order fulfillment AI agent adds tasks apart from the generated tasks from Group Action Framework \(GAF\). To activate the GAF, see [Activate Group Action Framework for Now Assist for Sales CRM for Telecommunications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/activate-group-action-framework-somt.md). The GAF and AI search are both used for order tasks.
+The order fulfillment AI agent adds tasks apart from the generated tasks from Group Action Framework \(GAF\). To activate the GAF, see [Activate Group Action Framework for ServiceNow Otto for Sales Customer Relationship Management for Telecommunications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/activate-group-action-framework-somt.md). The GAF and AI search are both used for order tasks.
 
 Role required: sn\_somt\_gen\_ai.sales\_and \_order\_fulfillment\_ai\_agent
 

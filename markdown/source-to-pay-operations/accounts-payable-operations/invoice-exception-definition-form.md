@@ -1,20 +1,21 @@
 ---
 title: Invoice exception definition form
-description: Use the Invoice exception definition form to provide details about the new invoice exception definition.
+description: Field descriptions for the Invoice exception definition form used to create and configure invoice exception definitions in Accounts Payable Invoice Processing.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/accounts-payable-operations/invoice-exception-definition-form.html
 release: zurich
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-03-12"
+reading_time_minutes: 3
+keywords: [APO, Accounts Payable Operations, exception definition, Subflow, Invoice Processing, invoice exception]
 breadcrumb: [Reference, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Invoice exception definition form
 
-Use the Invoice exception definition form to provide details about the new invoice exception definition.
+Field descriptions for the Invoice exception definition form used to create and configure invoice exception definitions in Accounts Payable Invoice Processing.
 
 <table id="table_acw_lsh_ywb"><thead><tr><th>
 
@@ -86,9 +87,9 @@ Dependent
 
 </td><td>
 
-The Invoice exception definition on which the new invoice exception definition depends on.For example, if an exception definition record A is dependent on an exception definition record B, then when an invoice has an exception of type exception definition B in open state, then the exception engine does not check the invoice for exception definition A. Instead, the exception engine identifies only the exception definition B.
+The Invoice exception definition on which the new invoice exception definition depends on.For example, exception definition record A depends on exception definition record B. If an invoice has an open exception of type B, the exception engine skips the check for exception definition A and identifies only exception definition B.
 
-The dependent invoice exception definition record must have a lower order value than the new invoice exception definition record that you are creating.
+The dependent invoice exception definition record must have a lower order value than the new invoice exception definition record that you're creating.
 
 </td></tr><tr><td>
 
@@ -100,11 +101,12 @@ Type of invoice that the invoice exception definition is applicable to. For exam
 
 </td></tr><tr><td>
 
-Subflow
+Execution type \(choice\)
 
 </td><td>
 
-Subflow that is run to determine if the exception exists for a given invoice.
+Mechanism that the exception engine uses to evaluate invoice exceptions.-   Subflow that is run to determine if the exception exists for a given invoice.
+-   Script defines the logic to determine if the exception applies to an invoice.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Accounts Payable Operations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/acc-pay-reference.md)
@@ -139,4 +141,6 @@ Subflow that is run to determine if the exception exists for a given invoice.
 [Approval Rule form]()
 
 [Approval Plan form]()
+
+[Jurisdictions main table]()
 

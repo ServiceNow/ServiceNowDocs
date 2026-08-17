@@ -45,5 +45,3 @@ To understand how to initiate assessments, see [Assess the impact of a regulator
 
 [Regulatory Change Management application in the Compliance Workspace]()
 
-[Exploring Now Assist in Regulatory Change Management \(RCM\)]()
-

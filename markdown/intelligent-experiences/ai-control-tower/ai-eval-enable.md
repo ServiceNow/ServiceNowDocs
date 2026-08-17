@@ -9,7 +9,7 @@ classification: ai-control-tower
 topic_type: concept
 last_updated: "2025-09-02"
 reading_time_minutes: 4
-breadcrumb: [Evaluation in the Virtual Agent's asset record, AI asset inventory, AI assets, AI Control Tower dashboard, Explore, AI Control Tower, Enable AI experiences]
+breadcrumb: [Evaluation tab, AI Control Tower Home, AI Control Tower dashboard, Explore, AI Control Tower \(legacy\), Enable AI experiences]
 ---
 
 # Enabling evaluations
@@ -70,7 +70,7 @@ Enable evaluations and set the number of evaluations to be performed daily.
 **Note:**
 
 -   If you want to configure some of the evaluation parameters based on your requirements, see [Configuring evaluations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/ai-eval-config.md).
--   If you want to import historical data to be evaluated, you must run batch evaluations by activating the Execute Batch Evaluation flow. For more information on the batch evaluation workflow, see .
+-   If you want to import historical data to be evaluated, you must run batch evaluations by activating the Execute Batch Evaluation flow. For more information on the batch evaluation workflow, see [Evaluation flow for batch evaluations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/ai-eval-flow-batch.md).
 
 ## Evaluation dashboard vs. Conversation Insights
 

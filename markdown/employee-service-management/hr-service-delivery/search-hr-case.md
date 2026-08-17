@@ -38,15 +38,15 @@ Role required: sn\_hr\_core.case\_writer
 
 2.  Determine the person for whom you are filing the case.
 
-<table id="choicetable_iql_hwq_yqb"><thead><tr><th align="left" id="d462572e101">
+<table id="choicetable_iql_hwq_yqb"><thead><tr><th align="left" id="d462865e101">
 
 Status of the person related to the case
 
-</th><th align="left" id="d462572e104">
+</th><th align="left" id="d462865e104">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d462572e110">
+</th></tr></thead><tbody><tr><td id="d462865e110">
 
 **Anonymous employee or external individual**
 
@@ -58,7 +58,7 @@ Select **Skip verification** to create the case without having to enter an emplo
 
  **Note:** The **Skip verification** option is displayed only if **Allow skipping verification** was selected during the configuration of HR case creation.
 
-</td></tr><tr><td id="d462572e143">
+</td></tr><tr><td id="d462865e143">
 
 **An employee**
 

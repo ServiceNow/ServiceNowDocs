@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-resourcemanagementworkspace-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
@@ -75,25 +75,25 @@ Xanadu
 
 </td><td>
 
--   **[Resource Management Workspace](https://servicenow-staging.fluidtopics.net/access?context=rsrc-mgmt-wrkspc&family=xanadu&ft:locale=en-US)**
+-   **[Resource Management Workspace](https://www.servicenow.com/docs/access?context=rsrc-mgmt-wrkspc&family=xanadu&ft:locale=en-US)**
 
 View updates to any approved task by using the new iconography. Use the Group By feature to group resources on a board.
 
--   **[Create a resource card](https://servicenow-staging.fluidtopics.net/access?context=rmw-create-rsrc-card&family=xanadu&ft:locale=en-US) in Resource Management Workspace**
+-   **[Create a resource card](https://www.servicenow.com/docs/access?context=rmw-create-rsrc-card&family=xanadu&ft:locale=en-US) in Resource Management Workspace**
 
 Create resource cards in Resource Management Workspace to filter and view resources by primary attributes or project item of work. Use the **Unassigned tasks** toggle to create a custom filter and view the unassigned tasks in the bottom tray.
 
 
--   **[Create resource assignments and operation resource assignments in Resource Management Workspace](https://servicenow-staging.fluidtopics.net/access?context=create-ra-rmw&family=xanadu&ft:locale=en-US)**
+-   **[Create resource assignments and operation resource assignments in Resource Management Workspace](https://www.servicenow.com/docs/access?context=create-ra-rmw&family=xanadu&ft:locale=en-US)**
 
 Resource Managers and Project Managers can directly create resource assignments and operational resource assignments from the resource board view to allocate, and approve the efforts.
 
--   **[Manage unassigned and assigned tasks](https://servicenow-staging.fluidtopics.net/access?context=allocate-resources-rmw&family=xanadu&ft:locale=en-US)**
+-   **[Manage unassigned and assigned tasks](https://www.servicenow.com/docs/access?context=allocate-resources-rmw&family=xanadu&ft:locale=en-US)**
 
 Assign the unassigned tasks from the bottom tray and approve the assigned tasks from the top tray.
 
 
--   **[Split resource a assignment](https://servicenow-staging.fluidtopics.net/access?context=split-resource-assignment-rmw&family=xanadu&ft:locale=en-US), [Reassign or unassign the assigned tasks](https://servicenow-staging.fluidtopics.net/access?context=rmw-reassign-unassign-work&family=xanadu&ft:locale=en-US)**
+-   **[Split resource a assignment](https://www.servicenow.com/docs/access?context=split-resource-assignment-rmw&family=xanadu&ft:locale=en-US), [Reassign or unassign the assigned tasks](https://www.servicenow.com/docs/access?context=rmw-reassign-unassign-work&family=xanadu&ft:locale=en-US)**
 
 Split a resource assignment to create a duplicate assignment from a specific date. Resource managers can assign this split work to other resources with the same primary attributes. Reassign the assigned tasks from the primary resource to another resource who has the same primary attributes to manage the primary resource's work load, resource time offs, or to allocate operational work.
 
@@ -104,7 +104,7 @@ Yokohama
 
 </td><td>
 
--   **[Using Resource Management Workspace](https://servicenow-staging.fluidtopics.net/access?context=using-rmw&family=yokohama&ft:locale=en-US)**
+-   **[Using Resource Management Workspace](https://www.servicenow.com/docs/access?context=using-rmw&family=yokohama&ft:locale=en-US)**
     -   View the Resource status, Remaining capacity, and Utilization columns to the allocation heatmap modal to help resource managers to view detailed insights and the total efforts for Approved and Pending tasks.
     -   Use the Total row in the heatmap modal to view the aggregate utilization for approved and pending tasks.
     -   Update the resource status and the efforts for child assignments using the new modal.
@@ -113,7 +113,7 @@ Yokohama
         -   **Ready for review**
         -   **Notes**
     -   Access the assigned resource assignments or the parent resource assignment directly from the resource board view.
--   **[Using Resource Management Workspace](https://servicenow-staging.fluidtopics.net/access?context=using-rmw&family=yokohama&ft:locale=en-US)**
+-   **[Using Resource Management Workspace](https://www.servicenow.com/docs/access?context=using-rmw&family=yokohama&ft:locale=en-US)**
 
 View and access the resource assignments from high-level to get an overview of all the resource assignments, based on their states, completion dates, start dates, resources with allocations over their capacity, and resources allocations within their available.
 
@@ -128,18 +128,18 @@ Zurich
 
 </td><td>
 
--   **[Move a resource assignment](https://servicenow-staging.fluidtopics.net/access?context=move-ra-rmw&family=zurich&ft:locale=en-US)**
+-   **[Move a resource assignment](https://www.servicenow.com/docs/access?context=move-ra-rmw&family=zurich&ft:locale=en-US)**
 
 Move any assigned resource assignment without actuals or an unassigned resource assignment to a different date to align the work with your project realignment, prioritization, or resource availability. You can move individual resource assignments based on your project or organizational priorities.
 
 
--   **[Using Resource Management Workspace](https://servicenow-staging.fluidtopics.net/access?context=using-rmw&family=zurich&ft:locale=en-US)**
+-   **[Using Resource Management Workspace](https://www.servicenow.com/docs/access?context=using-rmw&family=zurich&ft:locale=en-US)**
     -   View the type of operational work that is assigned to a resource using the resource board drill-down view.
     -   Filter your resource board using data grid filters to easily navigate and modify the resource assignments in the top tray.
     -   Sync the resource assignments to align them with change in planning item dates.
     -   Override resource rate for each assignment from the assigned work in the top tray.
     -   Apply filters using string-type and boolean field values across the resource card top tray to view the required dataset.
--   **[Assign resource assignments](https://servicenow-staging.fluidtopics.net/access?context=allocate-resources-rmw&family=zurich&ft:locale=en-US)**
+-   **[Assign resource assignments](https://www.servicenow.com/docs/access?context=allocate-resources-rmw&family=zurich&ft:locale=en-US)**
 
 Allocate effort from unassigned resource assignments using the following ways:
 
@@ -165,9 +165,9 @@ Xanadu
 
 </td><td>
 
--   **[Resource Management Workspace](https://servicenow-staging.fluidtopics.net/access?context=rsrc-mgmt-wrkspc&family=xanadu&ft:locale=en-US)**
+-   **[Resource Management Workspace](https://www.servicenow.com/docs/access?context=rsrc-mgmt-wrkspc&family=xanadu&ft:locale=en-US)**
 
-The new Resource Management Workspace provides a more efficient, streamlined way for you to work. For information about how to upgrade, see [Resource Management Workspace](https://servicenow-staging.fluidtopics.net/access?context=rsrc-mgmt-wrkspc&family=xanadu&ft:locale=en-US). [Resource Management classic](https://servicenow-staging.fluidtopics.net/access?context=c_ResourceManagement&family=xanadu&ft:locale=en-US) is still supported in this release.
+The new Resource Management Workspace provides a more efficient, streamlined way for you to work. For information about how to upgrade, see [Resource Management Workspace](https://www.servicenow.com/docs/access?context=rsrc-mgmt-wrkspc&family=xanadu&ft:locale=en-US). [Resource Management classic](https://www.servicenow.com/docs/access?context=c_ResourceManagement&family=xanadu&ft:locale=en-US) is still supported in this release.
 
 
 </td></tr><tr><td>
@@ -176,7 +176,7 @@ Yokohama
 
 </td><td>
 
--   **[New resource heatmap view](https://servicenow-staging.fluidtopics.net/access?context=using-rmw&family=yokohama&ft:locale=en-US)**
+-   **[New resource heatmap view](https://www.servicenow.com/docs/access?context=using-rmw&family=yokohama&ft:locale=en-US)**
 
 The resource allocation heatmap view provides more relevant information such as resource status, remaining capacity, and utilization of resources which helps resource managers to plan efficiently and allocate the resources based on their availability, bandwidth, and work requirements.
 
@@ -282,7 +282,7 @@ Xanadu
 
 </td><td>
 
-Install the Resource Management Workspace application by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
+Install the Resource Management Workspace application by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -290,7 +290,7 @@ Yokohama
 
 </td><td>
 
-Install Resource Management Workspace by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+Install Resource Management Workspace by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -473,7 +473,7 @@ Xanadu
 -   Identify allocation and status changes to the resource assignment using the new iconography.
 -   Group resources from a resource board based on Primary Group, Primary Role, Primary Skill, Owner, or Parent Item.
 
- See [Resource Management Workspace](https://servicenow-staging.fluidtopics.net/access?context=rsrc-mgmt-wrkspc&family=xanadu&ft:locale=en-US) for more information.
+ See [Resource Management Workspace](https://www.servicenow.com/docs/access?context=rsrc-mgmt-wrkspc&family=xanadu&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -487,7 +487,7 @@ Yokohama
 -   Use the interactive dashboard to create and manage widgets to access the required set of resource data in board view.
 -   Extend, adjust, and approve resource assignments using the row context menu from the side grid.
 
- See [Resource Management Workspace](https://servicenow-staging.fluidtopics.net/access?context=using-rmw&family=yokohama&ft:locale=en-US) for more information.
+ See [Resource Management Workspace](https://www.servicenow.com/docs/access?context=using-rmw&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -499,7 +499,7 @@ Zurich
 -   View the type of operational work assigned to a resource in the resource board drill-down view.
 -   Allocate effort from unassigned resource assignments using the following ways — auto-assign work among all the available resources, or partially assign work among for selected resources.
 
- See [Resource Management Workspace](https://servicenow-staging.fluidtopics.net/access?context=using-rmw&family=zurich&ft:locale=en-US) for more information.
+ See [Resource Management Workspace](https://www.servicenow.com/docs/access?context=using-rmw&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/rn-combined-intro.md)

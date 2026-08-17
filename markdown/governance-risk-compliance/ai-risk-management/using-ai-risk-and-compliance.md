@@ -8,7 +8,7 @@ product: AI Risk Management
 classification: ai-risk-management
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
 
@@ -56,6 +56,8 @@ Perform assessments on multiple risks and controls simultaneously in a risk asse
 Activate or update NIST Risk Management Framework and select the citations for the framework. It installs the framework and the selected citations, control objectives, and risk statements on your instance.
 -   **[Activate or update EU Artificial Intelligence Act using the ESG content accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/activate-or-update-eu-artificial-intelligence-act.md)**  
 Activate or update the EU Artificial Intelligence Act and select the citations for the framework. It installs the framework and the selected citations on your instance.
+-   **[Use a compliance evaluation on an AI system record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/airc-use-compliance-evaluation-ai-system.md)**  
+Map a control objective to an AI system, run its compliance evaluation, and review evaluation results, supporting data, and automatically created issues.
 
 **Parent Topic:**[Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/r_WhatIsGRC.md)
 

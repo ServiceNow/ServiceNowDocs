@@ -9,7 +9,7 @@ classification: now-assist-skill-kit
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Create a prompt, Using Now Assist Skill Kit, Now Assist Skill Kit, Enable AI experiences]
+breadcrumb: [Create a prompt, Using AI Skill Kit, AI Skill Kit, Enable AI experiences]
 ---
 
 # Add a tool
@@ -30,7 +30,7 @@ Decision nodes enable you to execute different tools, based on the logic of the 
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Skill Kit** &gt; **Home**.
+1.  Navigate to **All** &gt; **AI Skill Kit** &gt; **Home**.
 
 2.  Select the skill you want to add a tool to.
 
@@ -88,7 +88,7 @@ Decision node
 
 
 </td></tr></tbody>
-</table>    \[Omitted image "nask-tool-editor.png"\] Alt text: Tool editor tab in Now Assist Skill Kit
+</table>    \[Omitted image "nask-tool-editor.png"\] Alt text: Tool editor tab in AI Skill Kit
 
 6.  Select **Add**.
 
@@ -98,11 +98,11 @@ Decision node
 -   **[Add a retriever](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skill-kit/add-retriever.md)**  
 Add a retriever to your prompt to augment and add context to your prompts with AI search results.
 -   **[Add a web search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skill-kit/add-web-search.md)**  
-Add a web search as a tool in Now Assist Skill Kit. Adding a web search as a tool enables you to add search results to your prompt.
+Add a web search as a tool in AI Skill Kit. Adding a web search as a tool enables you to add search results to your prompt.
 -   **[Add Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skill-kit/add-predictive-intelligence.md)**  
-Add predictive intelligence as a tool in Now Assist Skill Kit. Predictive intelligence models enable you to predict, estimate, and identify patterns that can be used to route work, populate forms, estimate wait times, and more.
+Add predictive intelligence as a tool in AI Skill Kit. Predictive intelligence models enable you to predict, estimate, and identify patterns that can be used to route work, populate forms, estimate wait times, and more.
 -   **[Add Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skill-kit/add-document-intelligence.md)**  
-Add Document Intelligence as a tool in Now Assist Skill Kit to extract structured data from documents as part of your skill's execution flow
+Add Document Intelligence as a tool in AI Skill Kit to extract structured data from documents as part of your skill's execution flow
 
 **Parent Topic:**[Create a prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skill-kit/create-prompt-template.md)
 

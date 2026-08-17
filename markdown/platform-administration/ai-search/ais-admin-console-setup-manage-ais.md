@@ -26,7 +26,7 @@ You can modify existing search application configurations, or create and configu
 
 1.  Assign a search profile. Create a search profile and set the search sources as a priority to define the behavior of your search application. For more information, see [Search profiles in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/defining-search-profiles-ais.md).
 2.  Define the search application configuration. Configure the search profile to customize the user interface of your search application. For more information, see [Search application configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/defining-search-app-cfgs-ais.md).
-3.  Test and turn on AI Search. Display the options to test and verify AI Search in your search profile, turn on, or turn off AI Search based on its configuration status. For more information, see [AI Search Admin Console Applications page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/ais-admin-console-applications.md).
+3.  Test and turn on AI Search. Display the options to test and verify AI Search in your search profile, turn on, or turn off AI Search based on its configuration status. For more information, see [AI Search Admin console Applications page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/ais-admin-console-applications.md).
 
 \[Omitted image "ais-app-config1.png"\] Alt text: Search application configuration landing page where you can configure the AI Search settings in the search application.
 
@@ -38,23 +38,23 @@ You can modify existing search application configurations, or create and configu
 
 3.  In the application configuration landing page, assign a search profile.
 
-<table id="choicetable_s2z_q1p_f2c"><thead><tr><th align="left" id="d396415e227">
+<table id="choicetable_s2z_q1p_f2c"><thead><tr><th align="left" id="d395688e227">
 
 Option
 
-</th><th align="left" id="d396415e230">
+</th><th align="left" id="d395688e230">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d396415e236">
+</th></tr></thead><tbody><tr><td id="d395688e236">
 
 **Create a new search profile**
 
 </td><td>
 
-Select **Create new**.A new search profile is created automatically. You can rename it or use a different search profile. For more information about the search profile controls, see [AI Search Admin Console Applications page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/ais-admin-console-applications.md). For a description of the search profile field values, see [Search Profile form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/search-profile-form-ais.md).
+Select **Create new**.A new search profile is created automatically. You can rename it or use a different search profile. For more information about the search profile controls, see [AI Search Admin console Applications page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/ais-admin-console-applications.md). For a description of the search profile field values, see [Search Profile form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/search-profile-form-ais.md).
 
-</td></tr><tr><td id="d396415e276">
+</td></tr><tr><td id="d395688e276">
 
 **Link an existing search profile**
 
@@ -137,23 +137,23 @@ Select **Create new**.A new search profile is created automatically. You can ren
 
 4.  Define the search application configuration.
 
-<table id="choicetable_c42_rxp_f2c"><thead><tr><th align="left" id="d396415e689">
+<table id="choicetable_c42_rxp_f2c"><thead><tr><th align="left" id="d395688e689">
 
 Option
 
-</th><th align="left" id="d396415e692">
+</th><th align="left" id="d395688e692">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d396415e698">
+</th></tr></thead><tbody><tr><td id="d395688e698">
 
 **Create a new search application configuration**
 
 </td><td>
 
-Select **Create new**.A new search application configuration is created automatically. You can rename it or use a different configuration. For more information about the search application configuration controls, see [AI Search Admin Console Applications page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/ais-admin-console-applications.md). For a description of the search application configuration field values, see [Search Application Configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/search-app-config-form-ais.md).
+Select **Create new**.A new search application configuration is created automatically. You can rename it or use a different configuration. For more information about the search application configuration controls, see [AI Search Admin console Applications page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/ais-admin-console-applications.md). For a description of the search application configuration field values, see [Search Application Configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/search-app-config-form-ais.md).
 
-</td></tr><tr><td id="d396415e738">
+</td></tr><tr><td id="d395688e738">
 
 **Link an existing search application configuration**
 
@@ -186,7 +186,7 @@ Select **Create new**.A new search application configuration is created automati
 
     2.  Edit the display settings for search source facet buckets to help users navigate within the search application to access and manage information.
 
-        1.  On the **Search source facet buckets** tab, select the Search source facet buckets List Actions icon \(\[Omitted image "list-actions-icon.png"\] Alt text:\)**Edit columns**.
+        1.  On the **Search source facet buckets** tab, select the Search source facet buckets List Actions icon \[Omitted image "list-actions-icon.png"\] Alt text:**Edit columns**.
         2.  On the form, fill in the fields.
 
             For a description of the field values, see [Source Facet Bucket form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/navigation-tab-form-ais.md).
@@ -263,5 +263,5 @@ The AI Search engine is ready to use AI Search in the search application.
 **Related topics**  
 
 
-[AI Search Admin Console Applications page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/ais-admin-console-applications.md)
+[AI Search Admin console Applications page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/ais-admin-console-applications.md)
 

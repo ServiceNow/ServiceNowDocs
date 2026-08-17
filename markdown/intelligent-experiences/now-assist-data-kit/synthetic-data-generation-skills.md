@@ -1,6 +1,6 @@
 ---
 title: Synthetic data generation skills
-description: You can use ServiceNow skills in Now Assist Skill Kit to generate data in Now Assist Data Kit.
+description: You can use ServiceNow skills in AI Skill Kit to generate data in AI Data Kit.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/now-assist-data-kit/synthetic-data-generation-skills.html
 release: zurich
@@ -9,16 +9,16 @@ classification: now-assist-data-kit
 topic_type: concept
 last_updated: "2025-11-05"
 reading_time_minutes: 1
-breadcrumb: [Generate synthetic data, Using Now Assist Data Kit, Now Assist Data Kit, Enable AI experiences]
+breadcrumb: [Generate synthetic data, Using AI Data Kit, AI Data Kit, Enable AI experiences]
 ---
 
 # Synthetic data generation skills
 
-You can use ServiceNow skills in Now Assist Skill Kit to generate data in Now Assist Data Kit.
+You can use ServiceNow skills in AI Skill Kit to generate data in AI Data Kit.
 
 ## ServiceNow skills for data generation
 
-There are three ServiceNow skills that you can use in Now Assist Skill Kit to generate data for Now Assist Data Kit. The three skills are:
+There are three ServiceNow skills that you can use in AI Skill Kit to generate data for AI Data Kit. The three skills are:
 
 -   Subcategory scenario generation
 -   New column data generation

@@ -1,6 +1,6 @@
 ---
 title: Input Collector user input control
-description: Use the Input Collector control to gather data for use by Now Assist in conversations that use large language model \(LLM\) topic discovery.
+description: Use the Input Collector control to gather data for use by ServiceNow Otto in conversations that use large language model \(LLM\) topic discovery.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/va-ai-data-collector.html
 release: zurich
@@ -10,16 +10,18 @@ topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 3
 keywords: [Virtual Agent, Designer, Input Collector, User input, control, node, LLM, Now Assist, Large Language Model]
-breadcrumb: [Assistant Designer user input controls, Virtual Agent Designer interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Assistant Designer user input controls, Assistant Designer Asset library interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
 ---
 
 # Input Collector user input control
 
-Use the Input Collector control to gather data for use by Now Assist in conversations that use large language model \(LLM\) topic discovery.
+Use the Input Collector control to gather data for use by ServiceNow Otto in conversations that use large language model \(LLM\) topic discovery.
 
 ## Input Collector Overview
 
 For an overview of the Input Collector from a user perspective, watch this video.
+
+\[Omitted video\] Description: Input Collector user input control demo video.
 
 ## Input Collector properties
 
@@ -65,7 +67,7 @@ Confirmation message
 
 </td><td>
 
-Toggle switch to display a summary of collected inputs to the user at the end of a conversation. If Summary message is activated, the Virtual Agent, when activated, presents the information that you have entered and asks if everything is correct. Select **Yes** to continue the chat or **No** to restart collecting user input. You can also reply by typing a response in the chat window, to confirm or deny the summary or to change your answer. This option is active by default, and shows an enabled icon \[Omitted image "bluecheck.png"\] Alt text: when activated.
+Toggle switch to display a summary of collected inputs to the user at the end of a conversation. If Summary message is activated, the Virtual Agent \(when activated\) presents the information that you have entered and asks if everything is correct. Select **Yes** to continue the chat or **No** to restart collecting user input. You can also reply by typing a response in the chat window, to confirm or deny the summary or to change your answer. This option is active by default, and shows an enabled icon \[Omitted image "bluecheck.png"\] Alt text: when activated.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -106,7 +108,7 @@ No-code condition statement or low-code script that specifies a condition for le
 |-------|-----------|-------------------|-----------|
 |Web UI|Not supported|Supported|None|
 |Mobile UI|Not supported|Supported|None|
-|Now Assist panel|Not supported|Supported|None|
+|ServiceNow Otto panel|Not supported|Supported|None|
 |Microsoft Teams|Supported|Supported|None|
 |Slack|Not supported|Not supported|Not applicable|
 |Workplace|Not supported|Not supported|Not applicable|

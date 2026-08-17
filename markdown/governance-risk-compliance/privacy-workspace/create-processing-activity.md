@@ -31,15 +31,15 @@ You can create a processing activity in two ways:
 
 1.  Navigate to one of the following.
 
-<table id="choicetable_kjs_yc1_sqb"><thead><tr><th align="left" id="d342372e81">
+<table id="choicetable_kjs_yc1_sqb"><thead><tr><th align="left" id="d343437e81">
 
 Action
 
-</th><th align="left" id="d342372e84">
+</th><th align="left" id="d343437e84">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d342372e90">
+</th></tr></thead><tbody><tr><td id="d343437e90">
 
 **To create a new processing activity**
 
@@ -49,7 +49,7 @@ Procedure
 2.  Click **New**.
 
 
-</td></tr><tr><td id="d342372e126">
+</td></tr><tr><td id="d343437e126">
 
 **To update a processing activity**
 

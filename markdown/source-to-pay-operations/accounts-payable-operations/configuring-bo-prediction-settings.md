@@ -1,25 +1,25 @@
 ---
 title: Configuring invoice owner prediction settings
-description: The Recommend invoice owner AI agent uses a set of configurable system properties. These properties define the logic to identify and assign business owners for Non-PO invoices and Non-PO credit memos.
+description: Configure system properties for the Recommend Invoice Owner AI agent to define how business owners are identified for Non-PO invoices and credit memos.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/accounts-payable-operations/configuring-bo-prediction-settings.html
 release: zurich
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: concept
-last_updated: "2025-11-11"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
-keywords: [AI agent, Now Assist]
-breadcrumb: [Recommend invoice owner AI agent, Using AI agents in Now Assist for Accounts Payable Operations, Now Assist for APO, Accounts Payable Operations, Finance and Supply Chain]
+keywords: [AI agent, APO, Accounts Payable Operations, Invoice management, AI automation, Invoice owner prediction, Recommend Invoice Owner, Business owner assignment, Non-PO invoices, Credit memo processing, Prediction settings, Confidence threshold, Historical invoice analysis, Automatic assignment]
+breadcrumb: [Recommend invoice owner AI agent, Use AI agents in ServiceNow Otto for Accounts Payable Operations \(APO\), ServiceNow Otto for APO, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Configuring invoice owner prediction settings
 
-The Recommend invoice owner AI agent uses a set of configurable system properties. These properties define the logic to identify and assign business owners for Non-PO invoices and Non-PO credit memos.
+Configure system properties for the Recommend Invoice Owner AI agent to define how business owners are identified for Non-PO invoices and credit memos.
 
 Navigate to **All** &gt; **Accounts Payable Operations** &gt; **Administration** &gt; **Properties** to access the invoice owner prediction settings. These settings influence the number of historical invoices analyzed, the time considered, and the confidence threshold used to make recommendations. The AP admin can modify these settings. For more information on the settings, see [Set APO properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/set-apo-properties.md).
 
-\[Omitted image "apo-invoice-owner-prediction.png"\] Alt text: Invoice owner prediction settings-default values
+\[Omitted image "apo-invoice-owner-prediction.png"\] Alt text: Use theInvoice owner prediction settings to check the number of historical invoices analyzed, the time considered, and the confidence threshold used to make recommendations. The screenshot shows the default values.
 
 <table id="table_qts_43s_ghc"><thead><tr><th>
 
@@ -92,4 +92,6 @@ No
 [Resolution plan scenarios]()
 
 [Set APO properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/set-apo-properties.md)
+
+[Resolution plan scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/resolution-plan-scenarios.md)
 

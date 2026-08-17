@@ -10,7 +10,7 @@ topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 4
 keywords: [Debug, Virtual Agent, interaction records, topic]
-breadcrumb: [Getting started with Virtual Agent Designer, Build and deploy, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Getting started with Assistant Designer Asset library, Build and deploy, Virtual Agent, Conversational Interfaces]
 ---
 
 # Debug a Virtual Agent topic
@@ -25,7 +25,7 @@ Duplicate a topic rather than update a live topic. The unmodified original topic
 
 ## Debug a topic while testing your conversations
 
-As you create or update a topic in Virtual Agent Designer, use the **Test** button in the topic header bar to preview the conversation. The chat test window shows the conversation as it appears within Service Portal. Elements in your conversation might appear differently in third-party messaging applications. Test your conversations in any third-party applications where you intend to deploy Virtual Agent.
+As you create or update a topic in Assistant Designer Asset library, use the **Test** button in the topic header bar to preview the conversation. The chat test window shows the conversation as it appears within Service Portal. Elements in your conversation might appear differently in third-party messaging applications. Test your conversations in any third-party applications where you intend to deploy Virtual Agent.
 
 The test chat window displays four tabs that provide detailed information for debugging and refining your topic: **Analyze test phrases**, **Variables**, **Context**, and **Logs**. For details on these tabs, see [Testing NLU/Keyword topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-designer-testing.md). The following example shows the processing messages and errors logged during testing.
 
@@ -41,7 +41,7 @@ Another warning badge appears in the upper left corner of the canvas to indicate
 
 \[Omitted image "va-validator.png"\] Alt text: The topic validator window giving a preview of errors on the canvas.
 
-Additional information appears in a Validation Issues tab on the sidebar of the Virtual Agent Designer canvas when an error prevents the topic from running. The total number of Issues are listed, along with details and a hyperlink for each node. Select a hyperlink to go to the node, and use the information provided to correct any errors in your conversation. You can close the tab without correcting the issues, but until the issues are corrected, the Validation Issues tab appears when you select **Publish**. The Validation Issues tab closes if you select **Publish** after correcting all issues.
+Additional information appears in a Validation Issues tab on the sidebar of the Assistant Designer Asset library canvas when an error prevents the topic from running. The total number of Issues are listed, along with details and a hyperlink for each node. Select a hyperlink to go to the node, and use the information provided to correct any errors in your conversation. You can close the tab without correcting the issues, but until the issues are corrected, the Validation Issues tab appears when you select **Publish**. The Validation Issues tab closes if you select **Publish** after correcting all issues.
 
 ## Common Virtual Agent issues
 
@@ -97,5 +97,5 @@ If an intent is not being chosen when expected, you can troubleshoot NLU predict
 -   **[Natural Language Understanding topic discovery logic in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/how-topic-discovery-works.md)**  
 Understand how Virtual Agent returns intents and how it selects which intents to show to the user.
 
-**Parent Topic:**[Getting started with Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
+**Parent Topic:**[Getting started with Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
 

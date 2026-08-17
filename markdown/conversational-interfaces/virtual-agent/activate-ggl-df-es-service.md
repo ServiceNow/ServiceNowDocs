@@ -55,5 +55,5 @@ Google Dialogflow ES is the NLU service provider for your instance.
 
 **Previous topic:**[Generate a Java Keystore \(JKS\) file and configure security on your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/vad-configure-dialogflow-security.md)
 
-**Next topic:**[Test Virtual Agent with Google Dialogflow ES NLU in Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/test-va-nlu-dialogflow.md)
+**Next topic:**[Test Virtual Agent with Google Dialogflow ES NLU in Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/test-va-nlu-dialogflow.md)
 

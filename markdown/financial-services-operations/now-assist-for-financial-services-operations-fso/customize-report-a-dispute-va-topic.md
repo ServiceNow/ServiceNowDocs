@@ -9,7 +9,7 @@ classification: now-assist-for-financial-services-operations-fso
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Disputes intake via Virtual Agent, Configure, Now Assist for FSO, Financial Services Operations \(FSO\)]
+breadcrumb: [Disputes intake via Virtual Agent, Configure, ServiceNow Otto for FSO, Financial Services Operations \(FSO\)]
 ---
 
 # Customize the Virtual Agent topic in Disputes intake via Virtual Agent
@@ -42,7 +42,7 @@ Review and modify the workflow for your business needs.
 **Related topics**  
 
 
-[Virtual Agent Designer interface reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/vad-reference.md)
+[Assistant Designer Asset library interface reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/vad-reference.md)
 
 [Form Data Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/now-assist-for-financial-services-operations-fso/learn-about-the-form-data-collector.md)
 

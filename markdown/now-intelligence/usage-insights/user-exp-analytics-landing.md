@@ -45,7 +45,7 @@ The ServiceNow® Usage Insights application enables you to monitor how users int
 
 ## Additional references
 
--   [Usage Insights for mobile applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/mobile/mobile-analytics.md)
+-   
 -   [Usage Insights for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/sp-analytics.md)
 
 -   **[Exploring Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/usage-insights/exploring-user-exp-analytics.md)**  

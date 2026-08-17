@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-customersuccessmanagement-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 4
+last_updated: "2026-08-17"
+reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
 
@@ -67,7 +67,30 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+-   **[Health framework](https://www.servicenow.com/docs/access?context=account-lifeycle-health-frmwk&family=yokohama&ft:locale=en-US)**
+
+Define the key business and operational indicators and their impact on the overall health of an engagement. You can provide insights that help identify the trends and determine if the engagement is stable.
+
+-   **[Risk framework](https://www.servicenow.com/docs/access?context=account-lifecycle-risk-frmwrk&family=yokohama&ft:locale=en-US)**
+
+Centralize, track, and monitor the relational risks so that you can reduce customer turnover. You can identify risk signals and create repeatable remediation plans.
+
+-   **[Success blueprint builder](https://www.servicenow.com/docs/access?context=account-lifecycle-success-blueprint&family=yokohama&ft:locale=en-US)**
+
+Create standardized objectives and outcomes for an engagement. Your customer success managers can prioritize the requirements and identify the outcomes that provide the maximum customer impact.
+
+-   **[Success initiative roadmap](https://www.servicenow.com/docs/access?context=account-lifecycle-success-roadmap&family=yokohama&ft:locale=en-US)**
+
+Create a timeline view of the success initiatives and view the status, timing, and priority of these activities.
+
+-   **[Touchpoints enhancements](https://www.servicenow.com/docs/access?context=account-lifecycle-touchpoints&family=yokohama&ft:locale=en-US)**
+
+Use a touchpoint to track and manage your customer interactions through meetings and emails. With the touchpoint planner, you can help to ensure that all customer interactions and related activities are taking place on time with expected results.
+
+-   **[Case summarization for onboarding cases, engagements, and touchpoints](https://www.servicenow.com/docs/access?context=now-assist-spmc&family=yokohama&ft:locale=en-US)**
+
+Use generative AI to get a high-level summary of the status of your engagements, onboarding cases, and touchpoints.
+
 
 </td></tr><tr><td>
 
@@ -75,57 +98,57 @@ Zurich
 
 </td><td>
 
--   **[Calculate health score](https://servicenow-staging.fluidtopics.net/access?context=account-lifecycle-setup-health-defn&family=zurich&ft:locale=en-US)**
+-   **[Calculate health score](https://www.servicenow.com/docs/access?context=account-lifecycle-setup-health-defn&family=zurich&ft:locale=en-US)**
 
 Starting with Customer Success Management 5.3.11, you can use the **Calculated** metric data source to determine the health score for an engagement. If you are upgrading from Customer Success Management 5.3.10 or earlier versions, you must run the `Set health migration status` script to enable the health score calculation using this data source.
 
 
--   **[Define a table data source](https://servicenow-staging.fluidtopics.net/access?context=account-lifecycle-define-data-source-table&family=zurich&ft:locale=en-US)**
+-   **[Define a table data source](https://www.servicenow.com/docs/access?context=account-lifecycle-define-data-source-table&family=zurich&ft:locale=en-US)**
 
-Starting with Customer Success Management 5.3.11, you can use the **Table** type data source to retrieve and analyze data from internal and external tables. To retrieve data from external sources, you must install the Workflow Data Fabric Hub application and create data fabric tables.
+Starting with Customer Success Management 5.3.11, you can use the **Table** type data source to retrieve and analyze data from internal and external tables. To retrieve data from external sources, you must install the Zero Copy Connector Hub application and create data fabric tables.
 
 
--   **[Risk and issues page](https://servicenow-staging.fluidtopics.net/access?context=account-lifecycle-risk-issues-page&family=zurich&ft:locale=en-US)**
+-   **[Risk and issues page](https://www.servicenow.com/docs/access?context=account-lifecycle-risk-issues-page&family=zurich&ft:locale=en-US)**
 
 Use the risk timeline visualization to manage the risk occurrences.
 
 
--   **[Granular admin roles](https://servicenow-staging.fluidtopics.net/access?context=account-lifecycle-success-roles&family=zurich&ft:locale=en-US)**
+-   **[Granular admin roles](https://www.servicenow.com/docs/access?context=account-lifecycle-success-roles&family=zurich&ft:locale=en-US)**
 
 The granular admin role enables developers and administrators to complete administrative configuration tasks for Customer Success Management without requiring the full admin role.
 
 
--   **[Read-only field enhancements](https://servicenow-staging.fluidtopics.net/access?context=account-lifecycle-read-only&family=zurich&ft:locale=en-US)**
+-   **[Read-only field enhancements](https://www.servicenow.com/docs/access?context=account-lifecycle-read-only&family=zurich&ft:locale=en-US)**
 
 Read-only field protections have been moved from the client side to the server side. This move prevents users from updating read-only fields through client-side methods.
 
 
--   **[Success report dashboard](https://servicenow-staging.fluidtopics.net/access?context=account-lifecycle-success-report-overview&family=zurich&ft:locale=en-US)**
+-   **[Success report dashboard](https://www.servicenow.com/docs/access?context=account-lifecycle-success-report-overview&family=zurich&ft:locale=en-US)**
 
 Use the Success report dashboard to see the overall view of all the engagements under your hierarchy and manage your entire customer portfolio. Monitor engagement metrics, risk indicators, and get insights into onboarding and adoption status, risk indicators, onboarding and adoption insights, and expansion and renewal metrics.
 
 
--   **[Product adoption and usage](https://servicenow-staging.fluidtopics.net/access?context=account-lifecycle-product-adopt&family=zurich&ft:locale=en-US)**
+-   **[Product adoption and usage](https://www.servicenow.com/docs/access?context=account-lifecycle-product-adopt&family=zurich&ft:locale=en-US)**
 
 Measure product adoption trends and proactively guide users to achieve desired outcomes using products and services that have been purchased. Identify active and power users and areas where additional training or support is required due to low engagement.
 
 
--   **[Implementation record](https://servicenow-staging.fluidtopics.net/access?context=account-lifecycle-imp-record&family=zurich&ft:locale=en-US)**
+-   **[Implementation record](https://www.servicenow.com/docs/access?context=account-lifecycle-imp-record&family=zurich&ft:locale=en-US)**
 
 Track the progress of a partner or customer implementing a product or a service. Get a centralized view of the implementation status, identify risks, and run playbooks to mitigate issues.
 
 
--   **[Engagement hierarchy](https://servicenow-staging.fluidtopics.net/access?context=account-lifecycle-view-engage&family=zurich&ft:locale=en-US)**
+-   **[Engagement hierarchy](https://www.servicenow.com/docs/access?context=account-lifecycle-view-engage&family=zurich&ft:locale=en-US)**
 
 View aggregate hierarchical data for an engagement. Make informed decisions, improve customer satisfaction through detailed tracking, identify risks early, and help prevent escalations.
 
 
--   **[Engagement timeline](https://servicenow-staging.fluidtopics.net/access?context=account-lifecycle-touchpoint-planner&family=zurich&ft:locale=en-US)**
+-   **[Engagement timeline](https://www.servicenow.com/docs/access?context=account-lifecycle-touchpoint-planner&family=zurich&ft:locale=en-US)**
 
 View a chronological list of critical events related to an engagement. Review timelines to recall past events, customer interactions, and identify any issues.
 
 
--   **[Contextual color bands](https://servicenow-staging.fluidtopics.net/access?context=account-lifecycle-setup-color-banding&family=zurich&ft:locale=en-US)**
+-   **[Contextual color bands](https://www.servicenow.com/docs/access?context=account-lifecycle-setup-color-banding&family=zurich&ft:locale=en-US)**
 
 Associate thresholds and visual representations to health metric data. View product adoption and usage information relative to a specific product.
 
@@ -236,7 +259,7 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+Install Customer Success Management by requesting it from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -381,7 +404,13 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+-   Define, measure, and track the overall health of an engagement and monitor risk signals and issues.
+-   Manage all customer interactions in a single place and organize them with the touchpoint calendar.​
+-   Create templates to define common success objectives and outcomes and associate them with a product.
+-   Use ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) to summarize account onboarding cases, engagements, and touchpoints.
+-   Integrate your ServiceNow instance with external Customer Relationship Management \(CRM\) platforms during the engagement life cycle.
+
+ See [Account Lifecycle Events](https://www.servicenow.com/docs/access?context=account-lifecycle-events-landing&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -400,7 +429,7 @@ Zurich
 -   Determine the engagement health score from the Calculated data source.
 -   Retrieve data from internal and external tables with the Table type data source.
 
- See [Account Lifecycle Events](https://servicenow-staging.fluidtopics.net/access?context=account-lifecycle-events-landing&family=zurich&ft:locale=en-US) for more information.
+ See [Account Lifecycle Events](https://www.servicenow.com/docs/access?context=account-lifecycle-events-landing&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

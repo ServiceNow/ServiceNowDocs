@@ -39,6 +39,6 @@ Integrate intelligence features to automate routine tasks and provide relevant c
 
 -   **[Now Assist for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/now-assist-for-csm/now-assist-csm.md)**
 
-    Use the Now Assist for Customer Service Management \(CSM\) to boost productivity and efficiency with generative AI. This tool enhances user interactions by summarizing case information, generating resolution notes, and providing chat summaries. It also helps you quickly understand chat and case context, enabling faster and more accurate customer resolutions.
+    Use the ServiceNow Otto for Customer Service Management \(CSM\) to boost productivity and efficiency with generative AI. This tool enhances user interactions by summarizing case information, generating resolution notes, and providing chat summaries. It also helps you quickly understand chat and case context, enabling faster and more accurate customer resolutions.
 
 

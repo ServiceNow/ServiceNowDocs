@@ -7,7 +7,7 @@ release: zurich
 product: Legal Conflict of Interest
 classification: legal-conflict-of-interest
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-05-19"
 reading_time_minutes: 1
 breadcrumb: [Use, Legal Conflict of Interest, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -38,15 +38,15 @@ Role required: sn\_lg\_ops.legal\_user
 
 6.  Manage documents supporting your request.
 
-<table id="choicetable_dtv_1j4_gtb"><thead><tr><th align="left" id="d369700e124">
+<table id="choicetable_dtv_1j4_gtb"><thead><tr><th align="left" id="d369966e124">
 
 Option
 
-</th><th align="left" id="d369700e127">
+</th><th align="left" id="d369966e127">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d369700e133">
+</th></tr></thead><tbody><tr><td id="d369966e133">
 
 **If the Attachments tab is visible**
 
@@ -57,7 +57,7 @@ Steps
 -   To remove an attached file, select the delete icon \(\[Omitted image "delete-icon.png"\] Alt text: Delete icon.\).
 
 
-</td></tr><tr><td id="d369700e172">
+</td></tr><tr><td id="d369966e172">
 
 **If the Documents tab is visible**
 

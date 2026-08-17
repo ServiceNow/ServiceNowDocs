@@ -7,7 +7,7 @@ release: zurich
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [ITOM/OT SU Licensing subscription types, Exploring ITOM/OT SU Licensing, ITOM/OT SU Licensing and subscriptions, IT Operations Management]
+breadcrumb: [ITOM/OT SU Licensing subscription types, Explore ITOM/OT SU Licensing, ITOM/OT SU Licensing and subscriptions, IT Operations Management]
 ---
 
 # ITOM/OT SU Licensing Bundle and Individual \(ala carte\) subscription

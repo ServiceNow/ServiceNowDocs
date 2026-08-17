@@ -1,5 +1,5 @@
 ---
-title: Digital End-user Experience Self-service for employees
+title: Digital End-user Experience Self-service
 description: Digital End-user Experience Self-service \(DEX Self-service\) enables you to monitor real-time performance of your devices and applications, and address detected issues by using suggested resolutions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-end-user-experience-self-service/dex-self-service.html
@@ -7,18 +7,14 @@ release: zurich
 product: Digital End-user Experience Self-service
 classification: digital-end-user-experience-self-service
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Digital End-User Experience, IT Service Management]
 ---
 
-# Digital End-user Experience Self-service for employees
+# Digital End-user Experience Self-service
 
 Digital End-user Experience Self-service \(DEX Self-service\) enables you to monitor real-time performance of your devices and applications, and address detected issues by using suggested resolutions.
-
-\[Omitted video\] Description: Overview of DEX Self-service
-
-The video provides an overview of DEX Self-service, including how to access it and how employees can use it to resolve common device and application issues independently. It demonstrates this process with an example of using DEX Self-service from Desktop Assistant.
 
 ## Get started
 

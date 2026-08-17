@@ -26,6 +26,14 @@ Create a diagram in Lucidchart for your business capability maps and associate i
 You can create new, add, or remove the artifacts that are associated with a business capability.
 -   **[View value stream stages for a business capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-view-vs-stages-assoc-with-bc.md)**  
 You can view the value stream stages associated with a business capability to understand which steps in your value stream the business capability supports.
+-   **[Add a business unit to a business capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-add-business-unit-to-business-capability.md)**  
+You can add an existing business unit to a business capability in the Enterprise Architecture Workspace or create a business unit from the business capability.
+-   **[Remove a business unit from a business capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-remove-business-unit-from-business-capability.md)**  
+Remove business units associated with a business capability in the Enterprise Architecture Workspace.
+-   **[Add a goal to a business capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-add-goal-to-business-capability.md)**  
+Add existing goals to a business capability in the Enterprise Architecture Workspace, or create a goal directly from the business capability record.
+-   **[Remove a goal from a business capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-remove-goal-from-business-capability.md)**  
+You can remove the goals associated with a business capability in the Enterprise Architecture Workspace.
 
 **Parent Topic:**[Using business architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-using-business-architecture.md)
 

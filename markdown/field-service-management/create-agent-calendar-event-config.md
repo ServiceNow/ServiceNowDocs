@@ -35,15 +35,15 @@ Role required: agent\_schedule\_admin
 
 1.  Navigate to **Agent Schedule** &gt; **Event Configuration** and perform one of the following actions.
 
-<table id="choicetable_v4z_cfp_gfb"><thead><tr><th align="left" id="d143616e131">
+<table id="choicetable_v4z_cfp_gfb"><thead><tr><th align="left" id="d143484e131">
 
 Option
 
-</th><th align="left" id="d143616e134">
+</th><th align="left" id="d143484e134">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d143616e140">
+</th></tr></thead><tbody><tr><td id="d143484e140">
 
 **Create a configuration from an existing event configuration**
 
@@ -54,7 +54,7 @@ Description
 
 A copy of the selected event type configuration is created.
 
-</td></tr><tr><td id="d143616e163">
+</td></tr><tr><td id="d143484e163">
 
 **Create a new event configuration**
 

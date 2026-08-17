@@ -1,6 +1,6 @@
 ---
-title: Modules in Setup Hub \(SPM\)
-description: Module-by-module listing of the setup items that Setup Hub \(SPM\) surfaces, with cross-references to the per-application configuration topic each item launches.
+title: Modules in ServiceNow Otto for Setup \(SPM\)
+description: Module-by-module listing of the setup items that ServiceNow Otto for Setup \(SPM\) surfaces, with cross-references to the per-application configuration topic each item launches.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/spm-config-console-modules.html
 release: zurich
@@ -9,12 +9,12 @@ last_updated: "2026-05-25"
 reading_time_minutes: 7
 keywords: [Now Assist Setup, Strategic Portfolio Management, SPM, configuration console, setup modules, common setup, financials, fiscal calendar, demand management, project management, resource management, strategic planning, portfolio planning, enterprise-wide deployment, performance analytics, business units, departments, cost types, project templates, partitions]
 audience: administrator
-breadcrumb: [Setup Hub \(SPM\), Strategic Portfolio Management]
+breadcrumb: [ServiceNow Otto for Setup \(SPM\), Strategic Portfolio Management]
 ---
 
-# Modules in Setup Hub \(SPM\)
+# Modules in ServiceNow Otto for Setup \(SPM\)
 
-Module-by-module listing of the setup items that Setup Hub \(SPM\) surfaces, with cross-references to the per-application configuration topic each item launches.
+Module-by-module listing of the setup items that ServiceNow Otto for Setup \(SPM\) surfaces, with cross-references to the per-application configuration topic each item launches.
 
 The console groups setup items into the modules listed in this topic. The modules that a system administrator sees depend on the Strategic Portfolio Management \(SPM\) applications licensed for the instance. The order of modules shown here matches the order in which the console displays them.
 

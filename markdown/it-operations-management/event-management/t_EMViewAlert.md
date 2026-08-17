@@ -9,7 +9,7 @@ classification: event-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 9
-breadcrumb: [Using Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Use, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # View alert information

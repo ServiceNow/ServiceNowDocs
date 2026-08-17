@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2025-11-14"
 reading_time_minutes: 1
-breadcrumb: [Configure, Now Assist for Retail Service Management \(RSM\), Retail]
+breadcrumb: [Configure, ServiceNow Otto for Retail Service Management \(RSM\), Retail]
 ---
 
 # Enable store inquiry AI agent trigger

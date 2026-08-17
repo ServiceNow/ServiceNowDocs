@@ -1,5 +1,5 @@
 ---
-title: Data mapping for Service Graph Connector for Observability - Dynatrace SaaS
+title: Data mapping for Service Graph Connector for Dynatrace SaaS
 description: Data from the Dynatrace data sources is mapped and transformed into the ServiceNow CMDB Configuration Item \(CI\) class definitions using the Robust Transform Engine \(RTE\). Data is inserted into the ServiceNow CMDB using the Identification and Reconciliation Engine \(IRE\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-graph-connectors/sgc-data-mapping-dynatrace-saas.html
@@ -12,15 +12,15 @@ reading_time_minutes: 2
 breadcrumb: [Observability - Dynatrace SaaS, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Data mapping for Service Graph Connector for Observability - Dynatrace SaaS
+# Data mapping for Service Graph Connector for Dynatrace SaaS
 
 Data from the Dynatrace data sources is mapped and transformed into the ServiceNow CMDB Configuration Item \(CI\) class definitions using the Robust Transform Engine \(RTE\). Data is inserted into the ServiceNow CMDB using the Identification and Reconciliation Engine \(IRE\).
 
 When you complete setting up the connection, you can configure the integration to periodically pull data from Dynatrace.
 
-**Important:** The Service Graph Connector for Observability - Dynatrace SaaS is designed for the Dynatrace SaaS \(3rd‑generation\) platform and leverages DQL-based APIs and the Grail architecture to import data from Dynatrace into the CMDB. If you're in a Dynatrace managed \(self‑hosted\) or legacy SaaS environment, you should use the Service Graph Connector for Observability - Dynatrace.
+**Important:** The Service Graph Connector for Dynatrace SaaS is designed for the Dynatrace SaaS \(3rd‑generation\) platform and leverages DQL-based APIs and the Grail architecture to import data from Dynatrace into the CMDB. If you're in a Dynatrace managed \(self‑hosted\) or legacy SaaS environment, you should use the Service Graph Connector for Observability - Dynatrace.
 
-The following table lists the data sources, the staging tables, and the target tables as CMDB CI classes for Dynatrace.
+The following table lists the data sources, the staging tables, and the target tables as CMDB CI classes for Service Graph Connector for Dynatrace SaaS.
 
 <table id="table_data_mapping" class="custom-rows"><thead><tr><th class="filter">
 

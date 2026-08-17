@@ -33,7 +33,7 @@ To modify the Optimize GRC issue resolution workflow [duplicate it](https://raw.
 
 2.  Open the issue that you want to resolve by using the agentic workflow.
 
-3.  Select the Now Assist \(\[Omitted image "nap-icon.png"\] Alt text: Now Assist panel icon.\) icon.
+3.  Select the Now Assist \(\[Omitted image "icon-ai-admin-center-otto-panel.png"\] Alt text: Now Assist panel icon.\) icon.
 
     The Now Assist panel is displayed.
 

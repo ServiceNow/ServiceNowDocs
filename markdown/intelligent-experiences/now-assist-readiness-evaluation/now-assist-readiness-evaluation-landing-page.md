@@ -1,35 +1,35 @@
 ---
-title: Now Assist Readiness Evaluation
-description: The Now Assist Readiness Evaluation app helps prepare your organization for implementing agentic AI for ITSM and CSM, Now Assist for five products, or both.
+title: AI Readiness Evaluation
+description: The AI Readiness Evaluation app helps prepare your organization for implementing agentic AI for ITSM and CSM, and five other jobs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/now-assist-readiness-evaluation/now-assist-readiness-evaluation-landing-page.html
 release: zurich
 product: Now Assist Readiness Evaluation
 classification: now-assist-readiness-evaluation
 topic_type: concept
-last_updated: "2025-09-15"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
 keywords: [Now Assist Readiness Evaluation, Now Assist Readiness Evaluation app, Now Assist Readiness, Now Assist assessment, GenAI assessment, AI assessment, Agentic AI assessment]
 breadcrumb: [Enable AI experiences]
 ---
 
-# Now Assist Readiness Evaluation
+# AI Readiness Evaluation
 
-The Now Assist Readiness Evaluation app helps prepare your organization for implementing agentic AI for ITSM and CSM, Now Assist for five products, or both.
+The AI Readiness Evaluation app helps prepare your organization for implementing agentic AI for ITSM and CSM, and five other jobs.
 
 Choose one of these tiles to get started.
 
 <table id="table_lgc_mpv_jzb" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about the Now Assist Readiness Evaluation app.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-readiness-evaluation/exploring-now-assist-readiness-evaluation.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about the AI Readiness Evaluation app.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-readiness-evaluation/exploring-now-assist-readiness-evaluation.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Run scheduled jobs and configure the app through the Now Assist Readiness Evaluation guided setup.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-readiness-evaluation/configuring-now-assist-readiness-evaluation.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Run scheduled jobs and configure the app through the AI Readiness Evaluation guided setup.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-readiness-evaluation/configuring-now-assist-readiness-evaluation.md)
 
 </td><td>
 
-[Use\[Omitted image "bus-person.svg"\] Alt text:Learn about how to use the Now Assist Readiness Evaluation dashboards and assessments to prepare for implementing agentic AI, Now Assist, or both.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-readiness-evaluation/using-now-assist-readiness-evaluation.md)
+[Use\[Omitted image "bus-person.svg"\] Alt text:Learn about how to use the AI Readiness Evaluation dashboards and assessments to prepare for implementing AI.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-readiness-evaluation/using-now-assist-readiness-evaluation.md)
 
 </td></tr></tbody>
 </table>**Important:**
@@ -54,7 +54,7 @@ ServiceNow collects and uses the inputs, outputs, and edits to outputs of this a
 **Related topics**  
 
 
-[Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/platform-now-assist-landing.md)
+[AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/platform-now-assist-landing.md)
 
-[Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/na-ai-agents.md)
+[AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/na-ai-agents.md)
 

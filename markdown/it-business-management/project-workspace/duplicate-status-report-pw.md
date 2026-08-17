@@ -7,9 +7,9 @@ release: zurich
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Create a status report in Project Workspace, Manage Projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Create a status report in Project Workspace, Manage projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Duplicate a status report in Project Workspace
@@ -28,11 +28,11 @@ Role required: it\_project\_manager
 
 2.  Make changes to the report by editing the data, formatting, organizing the content, and entering additional data.
 
-    The changes you make to the status report here are saved to the status report in the project workspace and also get saved to the underlying status report record, which you access from the status report related list in Projects form.
+    The changes you make to the status report here are saved to the status report in the Project Workspace and also get saved to the underlying status report record, which you access from the status report related list in Projects form.
 
-3.  Select the **More actions** icon and select **Duplicate status report** to create a copy of status report.
+3.  Select the More actions icon \(\[Omitted image "more-actions.png"\] Alt text: More actions icon.\) of the status report that you want to copy and then select **Duplicate status report**.
 
-    -   The duplicated report reflects the latest project status and metrics.
+    -   The duplicated report displays the latest project status and metrics.
     -   Any static or manually added information from the original report is retained in the duplicated version.
     -   The dynamic data refreshes to the current date and shows the latest information.
     The new status report is added to the same location as the original status report.

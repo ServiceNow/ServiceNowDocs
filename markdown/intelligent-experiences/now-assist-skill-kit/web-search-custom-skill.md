@@ -10,7 +10,7 @@ topic_type: reference
 last_updated: "2025-04-18"
 reading_time_minutes: 2
 keywords: [Now Assist, Virtual Agent, Web Search, custom skill, AI Search, LLM]
-breadcrumb: [Now Assist Skill Kit reference, Now Assist Skill Kit, Enable AI experiences]
+breadcrumb: [AI Skill Kit reference, AI Skill Kit, Enable AI experiences]
 ---
 
 # Web search custom skill
@@ -31,7 +31,7 @@ Web Search AI choices are available in the OneExtend Definition Configs related 
 
 For more information on how to work with the **AI Search answers** OneExtend capability, see [Configure AI Search answers capability for web search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/generative-ai-controller/configure-ai-search-answers-capability-for-web-search.md).
 
-For more information on how to add web search as a tool in the Now Assist Skill Kit, see [Add a web search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skill-kit/add-web-search.md).
+For more information on how to add web search as a tool in the AI Skill Kit, see [Add a web search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skill-kit/add-web-search.md).
 
-**Parent Topic:**[Now Assist Skill Kit reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skill-kit/na-skill-kit-reference.md)
+**Parent Topic:**[AI Skill Kit reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skill-kit/na-skill-kit-reference.md)
 

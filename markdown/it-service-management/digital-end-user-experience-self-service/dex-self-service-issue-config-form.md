@@ -7,9 +7,9 @@ release: zurich
 product: Digital End-user Experience Self-service
 classification: digital-end-user-experience-self-service
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Reference, Employee Self-service, Digital End-User Experience, IT Service Management]
+breadcrumb: [Reference, Digital End-user Experience Self-service, Digital End-User Experience, IT Service Management]
 ---
 
 # DEX Self-service issue configuration form
@@ -30,23 +30,7 @@ Title
 
 </td><td>
 
-Update the title of the issue.
-
-</td></tr><tr><td>
-
-Category
-
-</td><td>
-
-Select the category under which the issue resides.
-
-</td></tr><tr><td>
-
-Subcategory
-
-</td><td>
-
-Select the subcategory.
+The name of the issue configuration. It is used to identify the issue in the system.
 
 </td></tr><tr><td>
 
@@ -54,12 +38,28 @@ Action Applicability
 
 </td><td>
 
-Select one of the following options:-   Diagnose
--   Device actions
+Determines how the issue configuration is used.-   Diagnose: Used for diagnostic device health checks.
+-   Device actions: Used for device actions.
 
-**Note:** If you select Device actions, the **Evaluation criteria** and **Evaluation metrics** fields are not available.
+**Note:** If you select **Device actions**, the **Evaluation criteria** and **Evaluation metrics** fields are not available.
 
--   Both
+-   Both: Used for both diagnostic checks and device actions.
+
+</td></tr><tr><td>
+
+Category
+
+</td><td>
+
+The device health category that classifies the issue.
+
+</td></tr><tr><td>
+
+Subcategory
+
+</td><td>
+
+The subcategory that further classifies the issue within the selected category.
 
 </td></tr><tr><td>
 
@@ -67,7 +67,7 @@ Type
 
 </td><td>
 
-Select either **device** or **application**.
+Indicates whether the issue relates to a device or an application.
 
 </td></tr><tr><td>
 
@@ -75,31 +75,35 @@ Device OS
 
 </td><td>
 
-Select **Windows** or **Mac**.
+The operating system the issue applies to.-   Windows
+-   macOS
+-   Both Windows and macOS
 
 </td></tr><tr><td>
 
-Resolution Label
+User applicability
 
 </td><td>
 
-Enter the **Resolution Label**. This label is used for remedial action button for users to trigger.
+Determines the users who can view and use the issue configuration.-   End user: The action is visible to employees in Employee Center, Desktop Assistant, and ServiceNow Otto.
+-   Service desk agent: The action is visible to agents in the agent workspace only.
+-   Both end users and service desk agents.
 
 </td></tr><tr><td>
 
-Enables in DEX Now Assist topic
+Enabled in DEX ServiceNow Otto topic
 
 </td><td>
 
-Select this check box to view this issue in Now Assist Virtual Agent.
+Determines whether the issue is available in Virtual Agent interactions.
 
 </td></tr><tr><td>
 
-Enables in EC Self-service
+Enabled in EC Self-service
 
 </td><td>
 
-Select this check box to view this issue in Employee Center.
+Determines whether the issue is available in the Employee Center self-service portal.
 
 </td></tr><tr><td>
 
@@ -107,7 +111,7 @@ Evaluation metric
 
 </td><td>
 
-View the selected metric here.**Note:** You can select multiple metrics. DEX Self-service checks both the metrics and decides if the category is Good, Average, or Poor. To configure the metrics, see [Customize metric definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-experience-score/dexscr-customize-dex-score-metric-defs.md).
+The metrics used to evaluate the issue. Multiple metrics can be selected. DEX Self-service checks all selected metrics and determines whether the device health status is Good, Average, or Poor. For more information, see [Customize metric definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-experience-score/dexscr-customize-dex-score-metric-defs.md).
 
 </td></tr><tr><td>
 
@@ -115,7 +119,7 @@ Evaluation criteria
 
 </td><td>
 
-Add the metric configuration ID and the value.
+The metric configuration ID and threshold value used to evaluate the issue condition.
 
 </td></tr><tr><td>
 
@@ -123,7 +127,7 @@ Issue Description
 
 </td><td>
 
-Enter a description for the issue. This description appears in the DEX Self-service experience.
+A description of the issue that appears in the end-user experience.
 
 </td></tr><tr><td>
 
@@ -131,7 +135,7 @@ Resolution
 
 </td><td>
 
-Enter the issue resolution code.**Note:** The resolutions are provided from Proactive Engagement. To configure the resolutions, see [Configuring Proactive Engagement resolutions with DEX](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/proactive-engagement/configuring-metric-rule.md).
+The resolution code that defines how the issue is resolved. Resolutions are configured in Proactive Engagement. For more information, see [Configuring Proactive Engagement resolutions with DEX](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/proactive-engagement/configuring-metric-rule.md).
 
 </td></tr></tbody>
 </table>

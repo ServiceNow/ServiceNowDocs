@@ -17,7 +17,7 @@ Manage your business architecture, application portfolio, information portfolio 
 **Note:** You can zoom on this page or any of the child pages to 200% or 400% through your browser settings without the loss of content or functionality. Page layouts are transformed into a vertical, stacked view automatically.
 
 -   **[Create my list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/create-my-list.md)**  
-Create your own filtered lists in the Enterprise Architecture Workspace by defining filter conditions and sort criteria that control which records appear in the list and access them under the **My Lists** tab.
+Create your own filtered lists in the Enterprise Architecture Workspace and access them under the **My Lists** tab.
 -   **[Using business architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-using-business-architecture.md)**  
 Manage business units, departments, goals, value streams, value stream stages, business capabilities, business processes, and demands in the Enterprise Architecture Workspace.
 -   **[Working with an application portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-work-with-application-portfolio.md)**  

@@ -45,7 +45,7 @@ Once the status of each import request changes to **Complete**, you can see that
     -   The **classic\_on\_prem** project template contains the map configurations related to the Jira Server projects.
     -   The **classic** project template contains the map configurations related to Jira Cloud Classic projects.
     -   The **next-gen** project template contains the map configurations related to Jira Cloud Next-gen projects.
-    Once the status of the Create Mappings request changes to **Completed**, you can see the map configuration for each of the imported Jira project under the Mapping Config column of the Jira Projects related list. For more information on the default map configuration of work items, see [Default mapping configuration between Agile Development 2.0 and Jira](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/atlassian-jira-integrations-common/jira-sn-field-mapping.md).
+    Once the status of the Create Mappings request changes to **Completed**. You can see the map configuration for each of the imported Jira projects under the Mapping Config column of the Jira Projects related list. For more information on the default map configuration of work items, see [Default mapping configuration between Agile Development 2.0 and Jira](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/atlassian-jira-integrations-common/jira-sn-field-mapping.md).
 
 
 ## What to do next

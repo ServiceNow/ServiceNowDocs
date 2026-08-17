@@ -44,5 +44,5 @@ The following example shows the difference between a linked recommendation and a
 
 Unlinked recommendations are set to **New** status. You can link it to another topic, or add it to Virtual Agent as a new topic.
 
-**Note:** If you added a topic to Virtual Agent for a recommendation, it is not shown as linked, so you can't unlink it. To reset an added recommendation as **New**, delete the topic that was added in Virtual Agent Designer.
+**Note:** If you added a topic to Virtual Agent for a recommendation, it is not shown as linked, so you can't unlink it. To reset an added recommendation as **New**, delete the topic that was added in Assistant Designer Asset library.
 

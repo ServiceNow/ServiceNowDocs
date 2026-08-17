@@ -9,7 +9,7 @@ classification: now-assist-in-virtual-agent
 topic_type: task
 last_updated: "2025-11-14"
 reading_time_minutes: 1
-breadcrumb: [Configuring assistants overview, Now Assist in Virtual Agent, Conversational Interfaces]
+breadcrumb: [Configuring assistants overview, ServiceNow Otto for Virtual Agent, Conversational Interfaces]
 ---
 
 # Disable the org chart
@@ -30,15 +30,15 @@ The org chart displays in the Virtual Agent's interactive view whenever you open
 
 2.  Choose one of the following scenario's and complete the steps.
 
-<table id="choicetable_tpb_mgr_hhc"><thead><tr><th align="left" id="d40577e68">
+<table id="choicetable_tpb_mgr_hhc"><thead><tr><th align="left" id="d49287e68">
 
 Scenario
 
-</th><th align="left" id="d40577e71">
+</th><th align="left" id="d49287e71">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d40577e77">
+</th></tr></thead><tbody><tr><td id="d49287e77">
 
 **Disable the org chart at deployment channel level**
 
@@ -52,7 +52,7 @@ Steps
 6.  Select **Submit**.
 
 
-</td></tr><tr><td id="d40577e126">
+</td></tr><tr><td id="d49287e126">
 
 **Disable the org chart at the instance level**
 

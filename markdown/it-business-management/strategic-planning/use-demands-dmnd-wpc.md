@@ -43,15 +43,15 @@ Next Experience for Demand Management enables end-to-end planning and management
 
     Plan and control financials associated with a demand such as cost plans, labor costs, and expense lines.
 
-7.  [Create financial baselines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/create-compare-financial-baselines-dw.md)
+7.  [Create and compare financial baselines for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/create-compare-financial-baselines-dw.md)
 
-    Create financial baselines to track variance over time.
+    Create and compare financial baselines to track variance over time.
 
-8.  [Create benefit plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/create-monetary-benefit-plan-for-dw.md)
+8.  [Edit monetary benefit plans for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/create-monetary-benefit-plan-for-dw.md)
 
     Create and manage monetary and non-monetary benefit plans for a demand and associate them to each other.
 
-9.  [Create resource assignments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/create-resource-assignments-dw.md)
+9.  [Create resource assignments for demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/create-resource-assignments-dw.md)
 
     Align work capacity with demand scope and timelines.
 
@@ -59,9 +59,9 @@ Next Experience for Demand Management enables end-to-end planning and management
 
     Progress qualified demands into downstream delivery entities such as projects, enhancements, and change.
 
-11. [Summarize demands with demand summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/summarize-demand-in-demand-workspace.md)
+11. [Summarize demands with the demand summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/summarize-demand-in-demand-workspace.md)
 
-    Summarize demands and refine them using Now Assist.
+    Summarize demands and refine them using AI.
 
 12. [Associate AI systems with demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/assocate-ai-systems-with-demands-dw.md)
 

@@ -7,7 +7,7 @@ release: zurich
 topic_type: concept
 last_updated: "2025-11-24"
 reading_time_minutes: 1
-breadcrumb: [Using Now Assist, Now Assist for Mobile, Mobile Platform]
+breadcrumb: [Using Now Assist, ServiceNow Otto for Mobile, Mobile Platform]
 ---
 
 # Using People Genius results on mobile
@@ -22,5 +22,5 @@ Select a person’s name to view their user profile. The profile displays inform
 
 For information on configuring People Genius results for mobile, see [Activate People Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/activate-people-genius-results-ais.md).
 
-**Parent Topic:**[Using Now Assist for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/using-now-assist-mobile.md)
+**Parent Topic:**[Using ServiceNow Otto for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/using-now-assist-mobile.md)
 

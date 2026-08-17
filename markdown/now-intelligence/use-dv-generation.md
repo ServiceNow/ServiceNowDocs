@@ -1,5 +1,5 @@
 ---
-title: Generate visualizations in the Now Assist panel
+title: Generate visualizations in the ServiceNow Otto panel
 description: Request generative AI to create a visualization of data that you want to see. If you are on a dashboard that you can edit, you can add the visualization to that dashboard.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/use-dv-generation.html
@@ -7,10 +7,10 @@ release: zurich
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Platform Analytics in the Now Assist panel, Now Assist in Platform Analytics, Platform Analytics]
+breadcrumb: [Platform Analytics in the ServiceNow Otto panel, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
 
-# Generate visualizations in the Now Assist panel
+# Generate visualizations in the ServiceNow Otto panel
 
 Request generative AI to create a visualization of data that you want to see. If you are on a dashboard that you can edit, you can add the visualization to that dashboard.
 
@@ -24,7 +24,7 @@ Role required: now\_assist\_panel\_user and either now\_assist\_analytics\_gener
 
 1.  If you want to add a visualization to a dashboard that you can edit, navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Dashboards** and open the dashboard from the library.
 
-2.  Open the Now Assist panel.
+2.  Open the ServiceNow Otto panel.
 
     \[Omitted image "nowass-open-nowass-panel.png"\] Alt text: Control for opening the Now Assist panel.
 
@@ -48,7 +48,7 @@ Role required: now\_assist\_panel\_user and either now\_assist\_analytics\_gener
 
 7.  To add the visualization to a collaborative workspace in AI Data Explorer, select **Add to exploration**.
 
-    For more information, see [Use AI to explore data with AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/now-assist-explorer.md).
+    For more information, see [Use AI to explore data with AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/ai-data-explorer.md).
 
 8.  To edit the visualization, select **Edit visualization**.
 
@@ -64,9 +64,9 @@ Role required: now\_assist\_panel\_user and either now\_assist\_analytics\_gener
 
 
 -   **[Guidelines and example questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/example-questions-generating-dv.md)**  
-This section shows guidelines and some typical questions that you could ask in the Now Assist panel to generate data visualizations.
+This section shows guidelines and some typical questions that you could ask in the ServiceNow Otto panel to generate data visualizations.
 -   **[Limitations to generating data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/limitations-generating-dv.md)**  
 While data visualization generation is designed to handle a wide range of queries and scenarios, certain cases are not supported or only partially supported.
 
-**Parent Topic:**[Generate or export dashboards and data visualizations in the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/analytics-assist-landing-page.md)
+**Parent Topic:**[Dashboards and data visualizations in the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/analytics-assist-landing-page.md)
 

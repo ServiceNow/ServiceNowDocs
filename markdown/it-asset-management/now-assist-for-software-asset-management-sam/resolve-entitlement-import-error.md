@@ -1,6 +1,6 @@
 ---
-title: Resolve entitlement import errors by using Now Assist for SAM
-description: Reduce manual effort when reviewing entitlement import errors in the Software Asset Workspace using Now Assist for SAM AI skills.
+title: Resolve entitlement import errors by using ServiceNow Otto for Software Asset Management \(SAM\)
+description: Reduce manual effort when reviewing entitlement import errors in the Software Asset Workspace using ServiceNow Otto for SAM AI skills.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/now-assist-for-software-asset-management-sam/resolve-entitlement-import-error.html
 release: zurich
@@ -10,18 +10,18 @@ topic_type: task
 last_updated: "2026-06-04"
 reading_time_minutes: 4
 keywords: [Software Normalization skill, Product Match Reviewer skill, resolve entitlement import errors,]
-breadcrumb: [Use generative AI skills, Now Assist for Software Asset Management \(SAM\), Software Asset Management, IT Asset Management]
+breadcrumb: [Use generative AI skills, ServiceNow Otto for Software Asset Management \(SAM\), Software Asset Management, IT Asset Management]
 ---
 
-# Resolve entitlement import errors by using Now Assist for SAM
+# Resolve entitlement import errors by using ServiceNow Otto for Software Asset Management \(SAM\)
 
-Reduce manual effort when reviewing entitlement import errors in the Software Asset Workspace using Now Assist for SAM AI skills.
+Reduce manual effort when reviewing entitlement import errors in the Software Asset Workspace using ServiceNow Otto for SAM AI skills.
 
 ## Before you begin
 
 The following plugins and store applications must be installed from [ServiceNow Store](https://store.servicenow.com/store) to use the AI skills:
 
--   Now Assist for Software Asset Management \(SAM\) \(sn-now-assist-sam\)
+-   ServiceNow Otto for Software Asset Management \(SAM\) \(sn-now-assist-sam\)
 -   Software Asset Management AI Advance \(sn-ai-sam-advance\)
 -   Content library portal \(sn-itam-contlookup\)
 
@@ -29,7 +29,7 @@ Role required: sam\_user or sam\_admin
 
 ## About this task
 
-**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 **Note:** The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
 
@@ -37,7 +37,7 @@ Starting with the Australia Patch 4 release, AWS Claude is the default model pro
 
 When you import software entitlements using the [Import bulk entitlements in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/import-entitlements-workspace.md) feature, some rows may contain publisher or product data that standard content matching can't resolve. Unresolved publisher or product data prevents the entitlement import from completing successfully.
 
-To resolve this issue, Now Assist for SAM provides the following AI-powered skills that normalize publisher and product values:
+To resolve this issue, ServiceNow Otto for SAM provides the following AI-powered skills that normalize publisher and product values:
 
 -   Software normalization
 -   Product match reviewer
@@ -107,11 +107,11 @@ The Product match reviewer skill performs an AI-powered search and selects the c
 
     The **Errors** tab displays all entitlement import error records that require human attention. These records fall into the following categories:
 
-    -   Records where the AI skills have provided a suggested correction that requires your review. In the Error status column, the sparkle icon \[Omitted image "ai-sparkle-icon.png"\] Alt text: indicates that the record contains an AI suggestion.
+    -   Records where the AI skills have provided a suggested correction that requires your review. In the Error status column, the Otto icon \[Omitted image "icon-otto-outline-24.svg"\] Alt text: indicates that the record contains an AI suggestion.
     -   Records where the AI skills were unable to resolve the import error and provide a correction. Review these records and manually update the publisher or product values to resolve the error.
 7.  Select the number link to open the import error record.
 
-    If the import error record contains an AI-suggested value, an AI sparkle icon \[Omitted image "field-ai-sparkel-icon.png"\] Alt text: is displayed on the field, showing both the AI-corrected value and the original value from the import file.
+    If the import error record contains an AI-suggested value, the Otto icon \[Omitted image "icon-otto-outline-24.svg"\] Alt text: is displayed on the field, showing both the AI-corrected value and the original value from the import file.
 
 8.  Review the AI-corrected value for each field.
 
@@ -127,7 +127,7 @@ The Product match reviewer skill performs an AI-powered search and selects the c
     \[Omitted image "import-errors-require-review.png"\] Alt text: Import errors to review
 
 
-**Parent Topic:**[Using generative AI skills in Now Assist for SAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/now-assist-for-software-asset-management-sam/using-now-assist-sam.md)
+**Parent Topic:**[Using generative AI skills in ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/now-assist-for-software-asset-management-sam/using-now-assist-sam.md)
 
 **Related topics**  
 

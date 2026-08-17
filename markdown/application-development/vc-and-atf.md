@@ -24,7 +24,7 @@ When you use agentic development, the ServiceNow AI Platform can:
 
 This means you can go from idea to a working, testable app much faster. After the initial generation, you can refine the app and its tests in ServiceNow Studio or the ServiceNow IDE, and run the ATF tests to verify that the app functions correctly.
 
-**Note:** Build Agent can create, edit, and run ATF tests. For more information, see [Testing what you built](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/build-agent-testing.md).
+**Note:** Build Agent can create, edit, and run ATF tests. For more information, see [Test what you built](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/build-agent-testing.md).
 
 ATF has a troubleshooting agent to debug test failures on specific metadata. For details, see [ATF troubleshooting agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/atf-troubleshooting-agent-landing-page.md).
 

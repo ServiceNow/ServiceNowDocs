@@ -37,7 +37,7 @@ As a live agent interacting with a requester over the Facebook Messenger service
 -   **[Transfer Facebook Messenger chat conversations to live agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/messg-fbm-live-agent-conv.md)**  
 Configure the Advanced Work Assignment application to transfer a Facebook Messenger chat conversation initiated by a requester \(customer contact or consumer\) to a live agent.
 -   **[Capturing information from a user in a Facebook Messenger chat conversation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/messg-fbm-capture-info.md)**  
-Use the collection of input controls provided by the Virtual Agent Designer to prompt and capture information from the user in a Facebook Messenger chat conversation.
+Use the collection of input controls provided by the Assistant Designer Asset library to prompt and capture information from the user in a Facebook Messenger chat conversation.
 
 **Parent Topic:**[Conversational Integration with Facebook Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/messg-fbm.md)
 

@@ -22,7 +22,7 @@ Role required: timecard\_user
 
 ## About this task
 
-You can apply filters on the time sheet lists to search for a specific time sheet in the **All**, **Rejected**, and **Recalled** groups, or while copying time cards from a previous time sheet. You can apply one or more filters while searching for a time sheet.
+You can apply filters on the time sheet lists to search for a specific time sheet in the **All**, **Rejected**, and **Recalled** groups. You can also apply filters while copying time cards from a previous time sheet. You can apply one or more filters while searching for a time sheet.
 
 ## Procedure
 

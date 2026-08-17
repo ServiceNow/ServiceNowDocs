@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-04-22"
 reading_time_minutes: 1
 keywords: [Discovery, ITOM, AIOps, configuration, infrastructure, CMDB]
-breadcrumb: [Configure Event Management using Setup Hub, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Configure Event Management using ServiceNow Otto for Setup, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Install Discovery
@@ -19,15 +19,15 @@ Configure Discovery to lay the groundwork for AIOps success by establishing a ke
 
 ## Before you begin
 
-Verify that the ITOM AIOps and Now Assist for IT Operations Management plugins are installed.
+Verify that the ITOM AIOps and ServiceNow Otto for IT Operations Management \(ITOM\) plugins are installed.
 
 Ensure you're in the Configure IT Operations Management page.
 
-Role required: admin
+Role required: evt\_mgmt\_admin
 
 ## About this task
 
-Discovery serves as the source of truth for your IT operations by automatically identifying, mapping, and cataloging all IT infrastructure components and their relationships within an organization's technology ecosystem. This configuration enables faster root cause analysis, improved impact assessment of alerts, and reduced operational noise.
+Discovery is the source of truth for IT operations, automatically identifying, mapping, and cataloging infrastructure components and relationships to enable faster root cause analysis and reduced operational noise.
 
 ## Procedure
 

@@ -69,7 +69,7 @@ Start and conduct a Change Advisory Board meeting in the CAB Workbench in Servic
 
 [Add a user-specific quick link on the ITSM landing page]()
 
-[]()
+[Create a list in Service Operations Workspace]()
 
 [Live Agent chat in Service Operations Workspace]()
 

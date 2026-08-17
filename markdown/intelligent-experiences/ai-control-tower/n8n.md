@@ -9,7 +9,7 @@ classification: ai-control-tower
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Service Graph Connectors for AI Control Tower, AI connections, Explore, AI Control Tower, Enable AI experiences]
+breadcrumb: [Service Graph Connectors for AI Control Tower, AI connections, Explore, AI Control Tower \(legacy\), Enable AI experiences]
 ---
 
 # AI Service Graph Connector for n8n
@@ -47,26 +47,24 @@ Complete the following setup steps once when configuring the connector for the f
 
 **Note:** Updating data source access and clear cache is a prerequisite that needs to be completed only once, when setting up a new instance for the first time.
 
-Update Data Source Access
+Update Data Source Access:
 
 The connector requires write permissions to the Data Source table to create data sources.
 
 To enable data source creation:
 
-1.  Select Global from the application picker.
-2.  Navigate to Application Access.
-3.  Select the Can create, Can update, and Can delete check boxes.
-4.  Select Update.
+1.  Select **Global** from the application picker.
+2.  Navigate to **Application Access**.
+3.  Select the **Can create**, **Can update**, and **Can delete** check boxes.
+4.  Select **Update**.
 5.  Switch to the connector application scope.
-
-Clear cache
 
 Clear the cached data for the Data Source and Tables.
 
 To clear the cache:
 
-1.  Navigate to System Definition &gt; Background Scripts
-2.  Paste the following script into the Run Script text box:
+1.  Navigate to **System Definition** &gt; **Background Scripts**.
+2.  Enter the following script in the **Run Script** text box:
 
     ```
     GlideTableManager.invalidateTable('sys_data_source');
@@ -76,15 +74,14 @@ To clear the cache:
     
     ```
 
-3.  Select Run Script.
+3.  Select **Run Script**.
 
-    **Note:** The script may take several minutes to complete.
+    **Note:** The script might take several minutes to complete. After completion, switch to the connector application scope.
 
-4.  After completion, switch to the connector application scope.
 
 ## n8n Prerequisites
 
 Before creating a connection, generate an API key in your n8n instance. Refer to the [n8n API Key](https://docs.n8n.io/api/authentication/) documentation to learn about creating a n8n API Key.
 
-**Note:** The role required to generate an API key in n8n is admin
+**Note:** The role required to generate an n8n API key is admin.
 

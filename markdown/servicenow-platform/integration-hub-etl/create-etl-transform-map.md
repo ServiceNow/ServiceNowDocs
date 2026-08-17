@@ -519,15 +519,15 @@ ITOM Visibility, if available, uses enhanced discovery patterns to identify and 
 
 3.  To add relationships, select **Add Relationship** or **Add Conditional Relationship** if you want to specify attribute conditions that must be met before adding a relationship. Then, complete the following actions as needed.
 
-<table id="choicetable_rvq_52s_2nb"><thead><tr><th align="left" id="d481577e1742">
+<table id="choicetable_rvq_52s_2nb"><thead><tr><th align="left" id="d483771e1742">
 
 Option
 
-</th><th align="left" id="d481577e1745">
+</th><th align="left" id="d483771e1745">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d481577e1751">
+</th></tr></thead><tbody><tr><td id="d483771e1751">
 
 **Add Relationship**
 
@@ -537,7 +537,7 @@ Description
 2.  Click **Add**.
 
 
-</td></tr><tr><td id="d481577e1781">
+</td></tr><tr><td id="d483771e1781">
 
 **Add Conditional Relationship**
 

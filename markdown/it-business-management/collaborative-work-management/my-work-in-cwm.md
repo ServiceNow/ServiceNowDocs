@@ -7,7 +7,7 @@ release: zurich
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
 breadcrumb: [Use, Collaborative Work Management, Strategic Portfolio Management]
 ---
@@ -19,6 +19,8 @@ Manage your work from all ServiceNow applications from a centralized view in the
 My Work provides a centralized view of all your assigned tasks, including project tasks, problems, and incidents. It also offers visualizations that group items by state, priority, and status, such as open or overdue.
 
 Work items from all ServiceNow applications assigned to you’re displayed in My Work. If you receive a work item on the CWM Board via Connected Work, those items appear here as well. This ensures you have a single source for all assigned work without the need to switch between applications.
+
+Project tasks from Project Workspace also appear in My Work when they are assigned to you directly or through a group. For details on the assignment paths that surface project tasks, see .
 
 **Note:**
 

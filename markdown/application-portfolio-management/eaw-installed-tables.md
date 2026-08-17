@@ -108,7 +108,7 @@ TPM Discovered Technology Run Log \[sn\_apm\_tpm\_discovered\_technology\_run\_l
 
 </td><td>
 
-Stores when ServiceNow® Technology Portfolio Management \(TPM\) refreshed its contents against Software Asset Management Professional and Hardware Asset Management Professional.
+Stores when ServiceNow® Technology Lifecycle Management \(TPM\) refreshed its contents against Software Asset Management Professional and Hardware Asset Management Professional.
 
 </td></tr><tr><td>
 

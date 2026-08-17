@@ -7,8 +7,8 @@ release: zurich
 product: Strategic Planning
 classification: strategic-planning
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 1
+last_updated: "2026-03-12"
+reading_time_minutes: 2
 breadcrumb: [Strategic Portfolio Management]
 ---
 
@@ -16,7 +16,7 @@ breadcrumb: [Strategic Portfolio Management]
 
 Strategic Planning Workspace \(SPW\) enables you to manage enterprise strategy and goals, product feedback, portfolio planning, and enterprise agile planning for your organization. Evaluate product performance, align work with strategy, and scale your Agile framework from a single workspace.
 
-Strategic Planning is available for users with a Strategic Portfolio Management \(SPM\) Pro license.
+Check your entitlements to determine whether you have access to Strategic Planning Workspace.
 
 Explore the generative AI features available in the Strategic Planning application, including the Multi-Feedback Summarization skill to generate summaries of one or more feedback items, the Planning Item Gen AI Docs skill to generate a summary of selected text in Docs, and the Target Generation skill to generate targets for goals.
 
@@ -47,6 +47,10 @@ Explore the generative AI features available in the Strategic Planning applicati
 </td><td>
 
 [\[Omitted image "bus-management-console.svg"\] Alt text: Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/dashboards-in-spw.md)
+
+</td><td>
+
+[\[Omitted image "bus-actionable-analytics.svg"\] Alt text: RIDAC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/spw-ridac-landing.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help

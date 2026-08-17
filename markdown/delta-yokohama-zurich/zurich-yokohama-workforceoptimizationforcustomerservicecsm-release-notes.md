@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-workforceoptimizationforcustomerservicecsm-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
@@ -67,12 +67,12 @@ Yokohama
 
 </td><td>
 
--   **[Manager Workspace landing page](https://servicenow-staging.fluidtopics.net/access?context=csm-configurable-manager-workspace-dashboards-new&family=yokohama&ft:locale=en-US)**
+-   **[Manager Workspace landing page](https://www.servicenow.com/docs/access?context=csm-configurable-manager-workspace-dashboards-new&family=yokohama&ft:locale=en-US)**
 
 Empower managers with real-time insights and actionable metrics, organized in a unified view, to drive performance optimization and facilitate prompt action.
 
 
-**Note:** Existing customers on release versions prior to the Yokohama release can still view the old [Legacy Manager Workspace landing page](https://servicenow-staging.fluidtopics.net/access?context=csm-configurable-manager-workspace-dashboards&family=yokohama&ft:locale=en-US).
+**Note:** Existing customers on release versions prior to the Yokohama release can still view the old [Legacy Manager Workspace landing page](https://www.servicenow.com/docs/access?context=csm-configurable-manager-workspace-dashboards&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -80,15 +80,15 @@ Zurich
 
 </td><td>
 
--   **[View the monthly staff alignment on the team calendar in the Manager Workspace](https://servicenow-staging.fluidtopics.net/access?context=scheduling-configurable-wfo-cs&family=zurich&ft:locale=en-US)**
+-   **[View the monthly staff alignment on the team calendar in the Manager Workspace](https://www.servicenow.com/docs/access?context=scheduling-configurable-wfo-cs&family=zurich&ft:locale=en-US)**
 
 Enable managers to plan, monitor, and adjust staffing more effectively with the month view on the Team Calendar tab in the Schedule page of the Manager Workspace. You can also view staffing and shift details across a full month to optimize and identify gaps in coverage, detect over staffing, and take proactive steps to balance workloads improving operational efficiency and responsiveness.
 
--   **[View the monthly schedule on the team calendar in the Configurable CSM or FSM Workspace](https://servicenow-staging.fluidtopics.net/access?context=scheduling-configurable-wfo-cs&family=zurich&ft:locale=en-US)**
+-   **[View the monthly schedule on the team calendar in the Configurable CSM or FSM Workspace](https://www.servicenow.com/docs/access?context=scheduling-configurable-wfo-cs&family=zurich&ft:locale=en-US)**
 
 Enable agents to view your upcoming shifts, time-off requests, and availability for the entire month in the month view of the Team Calendar in the CSM or FSM Configurable Workspace. This enables them to better plan their schedules, stay informed, and remain engaged with their work commitments.
 
--   **[\[Placeholder link text to key decouple-channel-management-dependencies-from-wfo\]](https://servicenow-staging.fluidtopics.net/access?context=decouple-channel-management-dependencies-from-wfo&family=zurich&ft:locale=en-US)**
+-   **[\[Placeholder link text to key decouple-channel-management-dependencies-from-wfo\]](https://www.servicenow.com/docs/access?context=decouple-channel-management-dependencies-from-wfo&family=zurich&ft:locale=en-US)**
 
 Decoupling Channel Management from the core Workforce Optimization \(WFO\) modules is necessary during dependencies or emergency situations. This architectural enhancement supports modular deployment, enabling independent updates or scaling of Channel Management without impacting other workforce engagement features.
 
@@ -203,7 +203,7 @@ Yokohama
 
 </td><td>
 
-Install Workforce Optimization for Customer Service by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+Install Workforce Optimization for Customer Service by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -352,7 +352,7 @@ Yokohama
 -   Enable managers to take prompt action with key alerts organized by priority.
 -   Provide real-time visibility into performance KPIs, work item status, and agent performance.
 
- See [Exploring Workforce Optimization for Customer Service](https://servicenow-staging.fluidtopics.net/access?context=explore-configurable-wfo-cs&family=yokohama&ft:locale=en-US) for more information.
+ See [Exploring Workforce Optimization for Customer Service](https://www.servicenow.com/docs/access?context=explore-configurable-wfo-cs&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -364,7 +364,7 @@ Zurich
 -   Enable managers to view the team calendar in the month view on the Schedule page within the Manager Workspace, providing a broader overview of staffing and shift details.
 -   Enable agents to view the team calendar in the month view within the Configurable CSM or FSM Workspace for better planning and engagement with your work commitments.
 
- See [Exploring Workforce Optimization for Customer Service](https://servicenow-staging.fluidtopics.net/access?context=explore-configurable-wfo-cs&family=zurich&ft:locale=en-US) for more information.
+ See [\[Placeholder link text to key bundle-csm.explore-configurable-wfo-cs\]](https://www.servicenow.com/docs/access?context=explore-configurable-wfo-cs&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

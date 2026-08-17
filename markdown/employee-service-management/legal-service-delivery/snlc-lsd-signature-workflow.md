@@ -8,8 +8,8 @@ product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 10
-breadcrumb: [Work on NDA legal requests, Non-disclosure agreement requests, Use, Contract Management Pro for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
+reading_time_minutes: 11
+breadcrumb: [Use, Contract Management Pro for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Signature workflow for a request
@@ -241,5 +241,26 @@ Resend signature request functionality enables contract fulfillers to manually t
 -   **[Cancel a wet signature process for non-disclosure agreement legal requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-service-delivery/snlc-cancel-a-wet-signature.md)**  
 As a legal user, cancel the wet signature process for contract documents in NDA legal requests that have been sent to signatories.
 
-**Parent Topic:**[Work on NDA legal requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-service-delivery/snlc-work-on-contract-request.md)
+**Parent Topic:**[Use Contract Management Pro for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-service-delivery/snlc-use-sn-legal-cont-landing.md)
+
+**Related topics**  
+
+
+[Non-disclosure agreement requests]()
+
+[Third-party contract review requests]()
+
+[Contract amendments]()
+
+[Linking parent-child contracts]()
+
+[Internal review overview]()
+
+[Cancel a legal request]()
+
+[View and download a signed contract document]()
+
+[View contract requests]()
+
+[Manage Contract Management Pro for Legal Service Delivery]()
 

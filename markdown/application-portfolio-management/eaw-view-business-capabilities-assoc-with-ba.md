@@ -1,18 +1,18 @@
 ---
 title: View business capabilities for a business application
-description: You can view the list of business capabilities associated with business applications in the Enterprise Architecture Workspace, to understand the value of the business application in your enterprise architecture landscape and improve decision making.
+description: View business capabilities associated with business applications in the Enterprise Architecture Workspace to understand their value in your enterprise architecture landscape.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-view-business-capabilities-assoc-with-ba.html
 release: zurich
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [Working with an application portfolio, Working with Portfolio list view, Manage, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
 # View business capabilities for a business application
 
-You can view the list of business capabilities associated with business applications in the Enterprise Architecture Workspace, to understand the value of the business application in your enterprise architecture landscape and improve decision making.
+View business capabilities associated with business applications in the Enterprise Architecture Workspace to understand their value in your enterprise architecture landscape.
 
 ## Before you begin
 

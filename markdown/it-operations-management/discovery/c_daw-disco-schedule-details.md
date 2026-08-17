@@ -7,7 +7,7 @@ release: zurich
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 2
 keywords: [Discovery, Admin, Workspace]
 breadcrumb: [Discovery Admin Workspace Schedules, Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
@@ -19,11 +19,11 @@ Discovery Admin Workspace enables you to conveniently view, edit, and run both I
 
 To access Discovery schedule details in Discovery Admin Workspace, navigate to **Workspaces** &gt; **Discovery Admin Workspace** &gt; **Schedules** &gt; **Discovery schedules**.
 
-**Note:** The capabilities described here are available in Discovery Admin Workspace v1.8.0 or later. Specific version requirements are noted for individual features where applicable.
+**Note:** The capabilities described here are available starting with Discovery Admin Workspace v1.8.0. Specific version requirements are noted for individual features where applicable.
 
 After selecting a schedule name from the table, the schedule header displays key information such as Discovery details, MID Server details, and anomaly severity.
 
-**Important:** Anomaly information only displays when anomaly detection is enabled. For more information, see [Discovery Admin Workspace Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/discovery-admin-workspace-setup.md).
+**Important:** Anomaly information displays only when anomaly detection is enabled. For more information, see [Discovery Admin Workspace Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/discovery-admin-workspace-setup.md).
 
 ## Key features
 
@@ -33,13 +33,13 @@ After selecting a schedule name from the table, the schedule header displays key
 
     **Note:** The time scale reflected on this page can be configured on the Settings page. For more information, see [Discovery Admin Workspace Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/discovery-admin-workspace-setup.md).
 
-    Select the **More options** icon \(\[Omitted image "icon-menu-sow.png"\] Alt text: More options icon\), then select **Refresh** to refresh the data for each visualization in this section.
+    Select the **More Options** icon \(\[Omitted image "icon-menu-sow.png"\]\), then select **Refresh** to refresh the data for each visualization in this section.
 
 -   **Schedule Details**
 
     The **Schedule Details** tab provides in-depth information about the Discovery schedule and enables you to update the information directly within the interface.
 
-    Select the **More options** icon \(\[Omitted image "icon-menu-sow.png"\] Alt text: More options icon\), to access additional actions for customizing and managing the form interface.
+    Select the **More Options** icon \(\[Omitted image "icon-menu-sow.png"\]\), to access additional actions for customizing and managing the form interface.
 
     To create a range of IP addresses to discover, select **Quick Ranges**. Execute a run by selecting **Discover now**. For more information about Discovery schedule configuration, see [Schedule a horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/t_CreateADiscoverySchedule.md).
 

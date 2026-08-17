@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-workflowdatafabrichub-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -67,11 +67,11 @@ Yokohama
 
 </td><td>
 
--   **[Established connections](https://servicenow-staging.fluidtopics.net/access?context=connections-wdf&family=yokohama&ft:locale=en-US)**
+-   **[Established connections](https://www.servicenow.com/docs/access?context=connections-wdf&family=yokohama)**
 
 Retrieve real-time data from external sources directly in the ServiceNow AI Platform, without copying any data to your instance using zero copy connections.
 
--   **[Data fabric tables](https://servicenow-staging.fluidtopics.net/access?context=data-fabric-tables-wdf&family=yokohama&ft:locale=en-US)**
+-   **[Data fabric tables](https://www.servicenow.com/docs/access?context=data-fabric-tables-wdf&family=yokohama)**
 
 Enable data consumers to access external data on the ServiceNow AI Platform to power AI features and build applications using data fabric tables.
 
@@ -82,19 +82,19 @@ Zurich
 
 </td><td>
 
--   **[Established connections](https://servicenow-staging.fluidtopics.net/access?context=connections-wdf&family=zurich&ft:locale=en-US)**
+-   **[Established connections](https://www.servicenow.com/docs/access?context=connections-wdf&family=zurich)**
 
 Retrieve real-time data from external sources directly in the ServiceNow AI Platform, without copying any data to your instance using zero copy connections.
 
--   **[Data fabric tables](https://servicenow-staging.fluidtopics.net/access?context=data-fabric-tables-wdf&family=zurich&ft:locale=en-US)**
+-   **[Data fabric tables](https://www.servicenow.com/docs/access?context=data-fabric-tables-wdf&family=zurich)**
 
 Enable data consumers to access external data on the ServiceNow AI Platform to power AI features and build applications using data fabric tables.
 
--   **[Connect to Teradata](https://servicenow-staging.fluidtopics.net/access?context=teradata-wdf&family=zurich&ft:locale=en-US)**
+-   **[Connect to Teradata](https://www.servicenow.com/docs/access?context=teradata-wdf&family=zurich)**
 
 Retrieve data from Teradata in real-time without copying or duplicating the data.
 
--   **[Connect to Amazon S3 tables](https://servicenow-staging.fluidtopics.net/access?context=amazon-s3-tables-wdf&family=zurich&ft:locale=en-US)**
+-   **[Connect to Amazon S3 tables](https://www.servicenow.com/docs/access?context=amazon-s3-tables-wdf&family=zurich)**
 
 Retrieve data from Amazon S3 tables in real-time without copying or duplicating the data.
 
@@ -126,15 +126,15 @@ Zurich
 
 </td><td>
 
--   **[SAP ECC primary connector](https://servicenow-staging.fluidtopics.net/access?context=sap-ecc-primary-wdf&family=zurich&ft:locale=en-US)**
+-   **[SAP ECC primary connector](https://www.servicenow.com/docs/access?context=sap-ecc-primary-wdf&family=zurich)**
 
 The SAP ECC connector is now certified as a primary connector.
 
--   **[SAP S/4HANA primary connector](https://servicenow-staging.fluidtopics.net/access?context=sap-s4hana-primary-wdf&family=zurich&ft:locale=en-US)**
+-   **[SAP S/4HANA primary connector](https://www.servicenow.com/docs/access?context=sap-s4hana-primary-wdf&family=zurich)**
 
 The SAP S/4HANA connector is now certified as a primary connector.
 
--   **[Primary connectors in preview](https://servicenow-staging.fluidtopics.net/access?context=primary-connectors-wdf&family=zurich&ft:locale=en-US)**
+-   **[Primary connectors in preview](https://www.servicenow.com/docs/access?context=primary-connectors-wdf&family=zurich)**
 
 Primary connectors that are still being enhanced to include all planned functionality are now identified as in preview. These connectors are fully supported by ServiceNow®.
 
@@ -216,9 +216,9 @@ Yokohama
 
 </td><td>
 
-Install Workflow Data Fabric Hub by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+Install Workflow Data Fabric Hub by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama).
 
- Workflow Data Fabric Hub is also available with activation of the Zero Copy Connectors app \(sn\_data\_fabric\_zcc\), which requires a separate subscription. For details, see [Request Zero Copy Connectors](https://servicenow-staging.fluidtopics.net/access?context=request-wdf&family=yokohama&ft:locale=en-US).
+ Workflow Data Fabric Hub is also available with activation of the Zero Copy Connectors app \(sn\_data\_fabric\_zcc\), which requires a separate subscription. For details, see [Request Zero Copy Connectors](https://www.servicenow.com/docs/access?context=request-wdf&family=yokohama).
 
 </td></tr><tr><td>
 
@@ -228,7 +228,7 @@ Zurich
 
 Install Workflow Data Fabric Hub by requesting it from the ServiceNow Store. 
 
- Workflow Data Fabric Hub is also available with activation of the Zero Copy Connectors app \(sn\_data\_fabric\_zcc\), which requires a separate subscription. For details, see [Request Zero Copy Connectors](https://servicenow-staging.fluidtopics.net/access?context=request-wdf&family=zurich&ft:locale=en-US).
+ Workflow Data Fabric Hub is also available with activation of the Zero Copy Connectors app \(sn\_data\_fabric\_zcc\), which requires a separate subscription. For details, see [Request Zero Copy Connectors](https://www.servicenow.com/docs/access?context=request-wdf&family=zurich).
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -369,7 +369,7 @@ Yokohama
 -   Retrieve data from external sources in real time without copying any data to your instance using zero copy connections.
 -   Enrich AI agents and workflows on the ServiceNow AI Platform with external data using data fabric tables.
 
- See [Workflow Data Fabric Hub](https://servicenow-staging.fluidtopics.net/access?context=workflow-data-fabric&family=yokohama&ft:locale=en-US) for more information.
+ See [Workflow Data Fabric Hub](https://www.servicenow.com/docs/access?context=workflow-data-fabric&family=yokohama) for more information.
 
 </td></tr><tr><td>
 
@@ -381,7 +381,7 @@ Zurich
 -   Retrieve data from external sources in real time without copying any data to your instance using zero copy connections.
 -   Enrich AI agents and workflows on the ServiceNow AI Platform with external data using data fabric tables.
 
- See [Workflow Data Fabric Hub](https://servicenow-staging.fluidtopics.net/access?context=workflow-data-fabric&family=zurich&ft:locale=en-US) for more information.
+ See [Workflow Data Fabric Hub](https://www.servicenow.com/docs/access?context=workflow-data-fabric&family=zurich) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

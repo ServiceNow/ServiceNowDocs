@@ -1,5 +1,5 @@
 ---
-title: Using agentic workflows in Now Assist for Financial Services Operations \(FSO\)
+title: Using agentic workflows in ServiceNow Otto for Financial Services Operations \(FSO\)
 description: Use FSO agentic workflows and AI agents to improve and enhance financial services processes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/now-assist-for-financial-services-operations-fso/using-ai-agent-use-cases-in-now-assist-for-fso.html
@@ -10,10 +10,10 @@ topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
 keywords: [friendly fraud AI agent, friendly fraud agentic AI, friendly fraud agentic workflow]
-breadcrumb: [Use agentic AI, Now Assist for FSO, Financial Services Operations \(FSO\)]
+breadcrumb: [Use agentic AI, ServiceNow Otto for FSO, Financial Services Operations \(FSO\)]
 ---
 
-# Using agentic workflows in Now Assist for Financial Services Operations \(FSO\)
+# Using agentic workflows in ServiceNow Otto for Financial Services Operations \(FSO\)
 
 Use FSO agentic workflows and AI agents to improve and enhance financial services processes.
 
@@ -48,10 +48,7 @@ For more information on modifying an agentic workflow, see [Configuring agentic 
 
 To learn about the Help resolve friendly fraud disputes agentic workflow, see [Help resolve friendly fraud disputes agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/now-assist-for-financial-services-operations-fso/friendly-fraud-agentic-ai-workflow.md).
 
-Looking for an AI agent?
-
--   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/find-ai-agents.md).
--   To find agents that might not be installed on your instance, visit the [AI Agent Marketplace](https://store.servicenow.com/store/ai-marketplace) on the ServiceNow Store.
+There might be AI agents installed on your instance that are not used in agentic workflows. To learn how to see all agents that are available to you, see Find AI agents.
 
 -   **[Help resolve friendly fraud disputes agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/now-assist-for-financial-services-operations-fso/friendly-fraud-agentic-ai-workflow.md)**  
 Use this agentic workflow to assist human agents with analyzing friendly fraud cases, selecting a course of action, and drafting a decision response to customers.

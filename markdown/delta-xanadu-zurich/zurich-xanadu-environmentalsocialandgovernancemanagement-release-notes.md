@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-environmentalsocialandgovernancemanagement-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
@@ -75,19 +75,19 @@ Xanadu
 
 </td><td>
 
--   **[Track scope 3 emissions](https://servicenow-staging.fluidtopics.net/access?context=scope-3-dashboard&family=xanadu&ft:locale=en-US)**
+-   **[Track scope 3 emissions](https://www.servicenow.com/docs/access?context=scope-3-dashboard&family=xanadu)**
 
 Track Scope 3 emissions using the Scope 3 dashboard to fully grasp and manage your organization's environmental impact. These emissions constitute the largest part of your greenhouse gas output, stemming from indirect sources. This comprehensive understanding aids in regulatory compliance, and obtaining full carbon footprint disclosures. After you identify your scope 3 emission sources, you can take action to mitigate the largest sources of indirect emissions.
 
--   **[View emission factors in ESG content accelerator](https://servicenow-staging.fluidtopics.net/access?context=esg-content-accelerator&family=xanadu&ft:locale=en-US)**
+-   **[View emission factors in ESG content accelerator](https://www.servicenow.com/docs/access?context=esg-content-accelerator&family=xanadu)**
 
 Use the ESG content accelerator to automatically obtain the emission factors that are published by the standard sources. Emission factors are coefficients that quantify the emissions produced per unit of activity, material, or energy consumption. They’re crucial for calculating the amount of greenhouse gases \(GHGs\) or pollutants emitted into the atmosphere based on various activities.
 
--   **[Create fiscal calendars to collect metrics from different geographical locations](https://servicenow-staging.fluidtopics.net/access?context=enable-custom-fiscal-year&family=xanadu&ft:locale=en-US)**
+-   **[Create fiscal calendars to collect metrics from different geographical locations](https://www.servicenow.com/docs/access?context=enable-custom-fiscal-year&family=xanadu)**
 
 Collect, aggregate, and report data according to your fiscal calendars that could be different from the standard Gregorian calendar. Many global organizations might have operations in different countries that could follow their own fiscal calendars. This feature enables the entities in other locations to collect data according to their own fiscal calendars.
 
--   **[Choose the approval flow for metrics](https://servicenow-staging.fluidtopics.net/access?context=components-installed-with-esg&family=xanadu&ft:locale=en-US)**
+-   **[Choose the approval flow for metrics](https://www.servicenow.com/docs/access?context=components-installed-with-esg&family=xanadu)**
 
 Set the sn\_esg.metric\_approval property to use either a simple approval flow for your metrics and metric definitions or use the GRC: Approver Configurator to define multiple levels of approvals based on the business rule definitions. This property has two choices.
 
@@ -95,15 +95,15 @@ If you choose the **Simple** option, the Approval section is enabled both on the
 
 If you choose the **Advanced** option, the Approval section is unavailable on the manual metric definition form and within the metrics, helping to prevent you from assigning approvers there. Instead, approval can be obtained by setting the approval conditions, tables, and approvers in the GRC: Approver Configurator application. This application also enables you to define multiple levels of approvals.
 
--   **[Create ad hoc metric data tasks](https://servicenow-staging.fluidtopics.net/access?context=create-an-adhoc-metric-data-task&family=xanadu&ft:locale=en-US)**
+-   **[Create ad hoc metric data tasks](https://www.servicenow.com/docs/access?context=create-an-adhoc-metric-data-task&family=xanadu)**
 
 Handle off-cycle requests for up-to-date information on existing metric definitions and metrics by creating ad hoc metric data tasks. These tasks address off-cycle requests and provide the latest information.
 
--   **[Metric data table](https://servicenow-staging.fluidtopics.net/access?context=metric-data-table&family=xanadu&ft:locale=en-US)**
+-   **[Metric data table](https://www.servicenow.com/docs/access?context=metric-data-table&family=xanadu)**
 
 Use the enhanced filters on the metric data table to filter your tasks. The filters help to show only the relevant and open tasks for data owners and approvers.
 
--   **[Identify the energy usage and emission of every asset](https://servicenow-staging.fluidtopics.net/access?context=managing-sustainable-it&family=xanadu&ft:locale=en-US)**
+-   **[Identify the energy usage and emission of every asset](https://www.servicenow.com/docs/access?context=managing-sustainable-it&family=xanadu)**
 
 Use the Sustainable IT dashboard to explore models within a specific category and view the energy consumption of each asset model and all its assets, listed in descending order. This functionality provides deeper insights into your energy usage, helping you identify the models that are in use and are consuming the most energy.
 
@@ -143,7 +143,7 @@ Xanadu
 
 </td><td>
 
--   **[ESG program manager role enhanced](https://servicenow-staging.fluidtopics.net/access?context=components-installed-with-esg&family=xanadu&ft:locale=en-US)**
+-   **[ESG program manager role enhanced](https://www.servicenow.com/docs/access?context=components-installed-with-esg&family=xanadu)**
 
 The ESG program manager \(sn\_esg.program\_manager\) can now create, read, update, and delete emission factors.
 
@@ -272,7 +272,7 @@ Xanadu
 
 </td><td>
 
-Install ESG Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
+Install ESG Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=xanadu).
 
 </td></tr><tr><td>
 
@@ -463,7 +463,7 @@ Xanadu
 -   Enable ESG administrators to define either a simple approval flow or an advanced approval flow for all the metrics and metric definitions.
 -   Address off-cycle requests to collect data for existing metric definitions and metrics by creating ad hoc metric data tasks on manual metrics.
 
- See [Environmental, Social, and Governance Management](https://servicenow-staging.fluidtopics.net/access?context=esg-landing-page&family=xanadu&ft:locale=en-US) for more information.
+ See [Environmental, Social, and Governance Management](https://www.servicenow.com/docs/access?context=esg-landing-page&family=xanadu) for more information.
 
 </td></tr><tr><td>
 

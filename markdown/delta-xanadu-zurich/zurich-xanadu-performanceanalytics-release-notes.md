@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-performanceanalytics-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -83,7 +83,7 @@ Yokohama
 
 </td><td>
 
--   **[Apply multiple levels of breakdown to an indicator](https://servicenow-staging.fluidtopics.net/access?context=multi-level-breakdowns&family=yokohama&ft:locale=en-US)**
+-   **[Apply multiple levels of breakdown to an indicator](https://www.servicenow.com/docs/access?context=multi-level-breakdowns&family=yokohama&ft:locale=en-US)**
 
 Migrate indicators from traditional Performance Analytics architecture to change data capture \(CDC\)-based data snapshots. This new architecture allows for more than two levels of breakdown to apply to an indicator. RaptorDB Professional is required, and not all indicators qualify for migration.
 
@@ -94,7 +94,7 @@ Zurich
 
 </td><td>
 
--   **[Apply multiple levels of breakdown to an indicator](https://servicenow-staging.fluidtopics.net/access?context=multi-level-breakdowns&family=zurich&ft:locale=en-US)**
+-   **[Apply multiple levels of breakdown to an indicator](https://www.servicenow.com/docs/access?context=multi-level-breakdowns&family=zurich&ft:locale=en-US)**
 
 Migrate indicators from traditional Performance Analytics architecture to change data capture \(CDC\)-based data snapshots. This new architecture allows for more than two levels of breakdown to apply to an indicator. RaptorDB Professional is required, and not all indicators qualify for migration.
 
@@ -233,7 +233,7 @@ Xanadu
 
 Complimentary Performance Analytics for Incident Management is active by default. You cannot create indicators or breakdowns with this application.
 
- The full features of Performance Analytics are available with a subscription. Activate the Performance Analytics plugin that matches your subscription. For details, see [Activating your Performance Analytics subscription](https://servicenow-staging.fluidtopics.net/access?context=c_PremiumPerformanceAnalytics&family=xanadu&ft:locale=en-US).
+ The full features of Performance Analytics are available with a subscription. Activate the Performance Analytics plugin that matches your subscription. For details, see [Activating your Performance Analytics subscription](https://www.servicenow.com/docs/access?context=c_PremiumPerformanceAnalytics&family=xanadu&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -427,7 +427,7 @@ Xanadu
 -   Identify process patterns and potential bottlenecks before they occur.
 -   Continually visualize historical and real-time process statistics in role-based dashboards. The dashboards enable individual stakeholders to make informed decisions.
 
- See [Performance Analytics \(Indicator data sources\)](https://servicenow-staging.fluidtopics.net/access?context=pa-overview&family=xanadu&ft:locale=en-US) for more information.
+ See [Performance Analytics \(Indicator data sources\)](https://www.servicenow.com/docs/access?context=pa-overview&family=xanadu&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -440,7 +440,7 @@ Yokohama
 -   Identify process patterns and potential bottlenecks before they occur.
 -   Continually visualize historical and real-time process statistics in role-based dashboards. The dashboards enable individual stakeholders to make informed decisions.
 
- See [Performance Analytics \(Indicator data sources\)](https://servicenow-staging.fluidtopics.net/access?context=pa-overview&family=yokohama&ft:locale=en-US) for more information.
+ See [Performance Analytics \(Indicator data sources\)](https://www.servicenow.com/docs/access?context=pa-overview&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -453,7 +453,7 @@ Zurich
 -   Identify process patterns and potential bottlenecks before they occur.
 -   Continually visualize historical and real-time process statistics in role-based dashboards. The dashboards enable individual stakeholders to make informed decisions.
 
- See [Performance Analytics \(Indicator data sources\)](https://servicenow-staging.fluidtopics.net/access?context=pa-overview&family=zurich&ft:locale=en-US) for more information.
+ See [Performance Analytics \(Indicator data sources\)](https://www.servicenow.com/docs/access?context=pa-overview&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/rn-combined-intro.md)

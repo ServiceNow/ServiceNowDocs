@@ -1,35 +1,35 @@
 ---
-title: Review notifications in the Now Assist panel
-description: Review notifications by AI agents in the Now Assist panel.
+title: Review notifications in the ServiceNow Otto panel
+description: Review notifications by AI agents in the ServiceNow Otto panel.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/now-assist-for-wsd/agentic-workflow-notifications-nowassist.html
 release: zurich
 product: Now Assist for WSD
 classification: now-assist-for-wsd
 topic_type: task
-last_updated: "2025-09-07"
+last_updated: "2026-07-28"
 reading_time_minutes: 5
 keywords: [Now Assist panel]
-breadcrumb: [Using Now Assist for WSD, Now Assist for Workplace Service Delivery \(WSD\), Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Using ServiceNow Otto for WSD, ServiceNow Otto for Workplace Service Delivery \(WSD\), Workplace Service Delivery, Employee Service Management]
 ---
 
-# Review notifications in the Now Assist panel
+# Review notifications in the ServiceNow Otto panel
 
-Review notifications by AI agents in the Now Assist panel.
+Review notifications by AI agents in the ServiceNow Otto panel.
 
 ## Before you begin
 
-Workplace Event Planners can review the notifications and help AI agents take appropriate actions for blocking a space, moving any existing reservations to a new location, or for updating an existing reservation's date, time, or duration.
+Workplace Event Planners can review the notifications and help AI agents take appropriate actions. Actions include blocking a space, moving existing reservations to a new location, or updating a reservation's date, time, or duration.
 
 Role required: now\_assist\_panel\_role, sn\_wsd\_rsv.reservation\_planner, sn\_wsd\_case.case\_writer
 
 ## Procedure
 
-1.  In your instance, select the Now Assist sparkle icon in the \(\[Omitted image "wsd-now-assist-sparkle-icon.png"\] Alt text: Now Assist panel on the navigation menu bar showing sparkle icon with notifications.\) navigation menu bar to open the Now Assist panel.
+1.  In your instance, select the ServiceNow Otto sparkle icon in the \(\[Omitted image "wsd-now-assist-sparkle-icon.png"\] Alt text: Now Assist panel on the navigation menu bar showing sparkle icon with notifications.\) navigation menu bar to open the ServiceNow Otto panel.
 
-    Use the Now Assist conversational interface to receive notifications, case summarization, and resolution notes.
+    Use the ServiceNow Otto conversational interface to receive notifications, case summarization, and resolution notes.
 
-2.  To review the notifications by AI agents for an emergency maintenance request, select the Now Assist sparkle icon \(\[Omitted image "wsd-now-assist-sparkle-icon.png"\] Alt text: Now Assist panel sparkle icon showing number of AI notifications.\) in the navigation menu bar of your instance.
+2.  To review the notifications by AI agents for an emergency maintenance request, select the ServiceNow Otto sparkle icon \(\[Omitted image "wsd-now-assist-sparkle-icon.png"\] Alt text: Now Assist panel sparkle icon showing number of AI notifications.\) in the navigation menu bar of your instance.
 
     AI agents notifies Workplace Event Planners about actions taken through case resolution and case summarization notes in the conversational interface. Select and open the notifications in the conversation interface to review the case summarization and resolution notes.
 
@@ -41,7 +41,7 @@ Role required: now\_assist\_panel\_role, sn\_wsd\_rsv.reservation\_planner, sn\_
     -   AI agent asks the Workplace Event Planner the duration for which the space should be blocked \(unavailable\) during the maintenance period.
     -   After receiving the confirmation, the AI agents creates a block location record in the sn\_wsd\_core\_block\_location table. The location is blocked or unavailable during the emergency maintenance period. It autonomously updates the existing reservation to a new location.
 
-        \[Omitted image "wsd-now-assist-blocked-reservation-successful.png"\] Alt text: AI agents confirming blocked locations for with Workplace Event Planners using the Now Assist panel.
+        \[Omitted image "wsd-now-assist-blocked-reservation-successful.png"\] Alt text: AI agents confirming blocked locations for with Workplace Event Planners using the ServiceNow Otto panel.
 
     -   If there are no impacted reservations for a blocked location, AI agents inform the Workplace Event Planners that there are no impacted reservations for a blocked location.
 
@@ -51,14 +51,14 @@ Role required: now\_assist\_panel\_role, sn\_wsd\_rsv.reservation\_planner, sn\_
     -   AI agents asks the Workplace Event planners to confirm the impacted reservations.
     -   Workplace Event planners can confirm the location and help AI agents move the reservation or reservations to an available location.
 
-        \[Omitted image "wsd-now-assist-move-reservation.png"\] Alt text: Now Assist panel showing notifications with case resolution notes for event planners to take appropriate measures.
+        \[Omitted image "wsd-now-assist-move-reservation.png"\] Alt text: ServiceNow Otto panel showing notifications with case resolution notes for event planners to take appropriate measures.
 
     -   If you want the reservation to be moved to a different location, enter your suggestion in the conversational interface. If the location is available, AI agents block the location for you.
-    -   If AI agents cannot handle an impacted reservation, it provides a link to the Workplace Event planner to manually moving or updating the reservations. Workplace Event Planners can navigate to the reservation portal page and manually update or reschedule the reservations.
+    -   If AI agent is not able to handle an impacted reservation, it provides a link to the Workplace Event planner to manually moving or updating the reservations. Workplace Event Planners can navigate to the reservation portal page and manually update or reschedule the reservations.
 
         \[Omitted image "wsd-move-rsv-manually-now-assist-panel.png"\] Alt text: AI agents providing a link to Workplace Event Planners to manually resolve a reservation.
 
-        **Note:** Multi-location reservations are not supported by AI agents.
+        **Note:** Multi-location reservations aren't supported by AI agents.
 
     -   AI agents share case summarization and resolution notes with Workplace Event Planners.
     The emergency maintenance case activities are also added to the work notes of the emergency maintenance case. Workplace Event planners can review the work notes to understand the activities performed by AI agents. For more information, see [View emergency maintenance case details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-case-management/view-emergency-maint-case.md).
@@ -83,6 +83,6 @@ Role required: now\_assist\_panel\_role, sn\_wsd\_rsv.reservation\_planner, sn\_
         \[Omitted image "wsd-now-assist-panel-three-rsv-locations.png"\] Alt text: AI agents showing three available locations to move an existing reservation to a new date, time, and duration.
 
     -   AI agents then provide case resolution notes and summarization for Workplace Event planners to review.
-    The team of AI agents updates an existing reservation with a new date, time, or duration. AI agents notifies Workplace Event Planners using the Now Assist panel conversational interface about the changed date and time for a reservation. If the old location is not available for reservation, AI agents move the reservation with updated date and time to a new location. For more information, see [Help manage workplace reservations agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-wsd/manage-workplace-reservations-agent-ai.md).
+    The team of AI agents updates an existing reservation with a new date, time, or duration. AI agents notifies Workplace Event Planners using the ServiceNow Otto panel conversational interface about the changed date and time for a reservation. If the old location is not available for reservation, AI agents move the reservation with updated date and time to a new location. For more information, see [Help manage workplace reservations agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-wsd/manage-workplace-reservations-agent-ai.md).
 
 

@@ -32,7 +32,7 @@ A product offering defines how a product specification is made available to the 
 
 ## Bundle product offering
 
-A bundle product offering is a type of product offering that groups two or more product offerings into a single package. Unlike a simple product offering which represents a single, atomic item such as a mobile handset, a bundle product offering represents a combination of offerings, such as a triple play package \(internet, TV, and voice\).
+A bundle product offering is a type of product offering that groups two or more product offerings into a single package. A simple product offering represents a single, atomic item such as a mobile handset. A bundle product offering represents a combination of offerings, such as a triple play package \(internet, TV, and voice\).
 
 -   Inheritance: Inherits all attributes of a standard product offering.
 -   Composition: Can contain other bundle product offerings or simple product offerings, supporting hierarchical, multi-level bundling.
@@ -52,7 +52,7 @@ A product specification is a detailed description of a tangible or intangible ob
 
 ## Resource specification
 
-A resource specification defines the characteristics, behaviors, and relationships of a managed or unmanaged resource, and serves as the template for instantiating specific resource instances of the same type.
+A resource specification defines the characteristics, behaviors, and relationships of a managed or unmanaged resource. It serves as the template for instantiating specific resource instances of the same type.
 
 -   Template functionality: Defines the resource type. The resource class defines a specific instance based on that specification.
 -   Definition scope: Captures common attributes such as name, version, and lifecycle status, along with physical or logical parameters that apply to all instances of a resource type.

@@ -34,8 +34,8 @@ The ServiceNow® Learning Posts application enables you to create an omni-channe
 The ServiceNow® Lifecycle Events application is designed for managing HR cases that are long term in nature. These HR cases include, but aren’t limited to, onboarding, offboarding, parental leave of absence, and performance improvement plans. Lifecycle Events was enhanced and updated in the Zurich release.
 -   **[Listening Posts release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/listening-posts-rn.md)**  
 The ServiceNow® Listening Posts application enables you to create simple pulse surveys to capture employee touch points, gain insights from employee feedback, and improve overall employee experience. This application is no longer supported starting with the Zurich release.
--   **[Now Assist for HR Service Delivery \(HRSD\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/hr-na-rn.md)**  
-The ServiceNow® Now Assist for HR Service Delivery \(HRSD\) application brings generative AI to HR Service Delivery. Summarize case and chat information, and generates reply recommendations so that agents can propose quick resolutions. Now Assist for HRSD was enhanced and updated in the Zurich release.
+-   **[ServiceNow Otto for HR Service Delivery \(HRSD\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/hr-na-rn.md)**  
+The ServiceNow® ServiceNow Otto for HR Service Delivery \(HRSD\) application brings generative AI to HR Service Delivery. Summarize case and chat information, and generates reply recommendations so that agents can propose quick resolutions. ServiceNow Otto for HRSD was enhanced and updated in the Zurich release.
 
 **Parent Topic:**[Employee Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/employee-service-management-rn-landing.md)
 

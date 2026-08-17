@@ -1,6 +1,6 @@
 ---
-title: Generate, accept, and reject risks with AI
-description: Use generative AI to identify, generate, and manage potential risks in your project based on insights, resources, financials, and milestones.
+title: Generate, accept, and reject risks
+description: Use generative AI to identify, generate, and manage potential risks in your project based on insights, resources, financials, milestones, and work notes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/project-workspace/generate-risks-using-ai-pw.html
 release: zurich
@@ -12,15 +12,17 @@ reading_time_minutes: 2
 breadcrumb: [Manage RIDAC, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
-# Generate, accept, and reject risks with AI
+# Generate, accept, and reject risks
 
-Use generative AI to identify, generate, and manage potential risks in your project based on insights, resources, financials, and milestones.
+Use generative AI to identify, generate, and manage potential risks in your project based on insights, resources, financials, milestones, and work notes.
+
+\[Omitted video\] Description: AI identified risks in Project Workspace.
 
 ## Before you begin
 
 Role required: it\_project\_manager
 
--   Install Now Assist for Strategic Portfolio Management \(SPM\) plugin.
+-   Install ServiceNow Otto for Strategic Portfolio Management plugin.
 -   Verify risk generation skill is active.
 -   The risk generation skill is activated by default. For more information on how to activate the skill if it isn't automatically activated or if you want to change the skill configuration, see [Configure Now Assist Admin features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/now-assist-for-strategic-portfolio-management-spm/configuring-na-spm.md).
 
@@ -49,7 +51,7 @@ The AI Identified Risks menu is visible only to project managers when the risk g
 
     \[Omitted image "ai-generated-risks.png"\] Alt text: AI-generated risks for a project.
 
-    You can select any task ID, resource ID, or other reference in the AI Rationale column of AI project risks to navigate directly to the related record, without searching for the ID manually.
+    You can select any task ID, resource ID, or other reference in the AI Rationale column of AI project risks. This navigates directly to the related record without searching for the ID manually.
 
 
 **Parent Topic:**[Manage Risk, Issue, Decision, Action, or Request Change \(RIDAC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/manage-ridac-pw.md)

@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2025-09-15"
 reading_time_minutes: 1
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
-breadcrumb: [Use generative AI skills, Now Assist for IT Service Management \(ITSM\), IT Service Management]
+breadcrumb: [Use generative AI skills, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 
 # Generate a response in the activity stream
@@ -25,11 +25,11 @@ Role required: itil
 
 ## Procedure
 
-1.  Navigate to an incident record in the SOW or Core UI where you want to generate work notes or comments using Now Assist.
+1.  Navigate to an incident record in the SOW or Core UI where you want to generate work notes or comments using ServiceNow Otto.
 
 2.  Do the following in the **Work notes** or **Comments** field:
 
-    1.  Select the Now Assist icon \(\[Omitted image "bus-ai-sparkle.svg"\] Alt text: Sparkle icon\).
+    1.  Select the ServiceNow Otto icon \(\[Omitted image "now-assist-sn-otto-icon.png"\] Alt text: Otto icon\).
 
         The following four options appear:
 
@@ -42,9 +42,9 @@ Role required: itil
         |Summarize actions taken|Generate a summary of all actions taken.|
         |Follow up|Ask follow-up questions.|
 
-    2.  Select one of the options based on the type of response that you want Now Assist to generate.
+    2.  Select one of the options based on the type of response that you want ServiceNow Otto to generate.
 
-        The response appears in the Now Assist context menu \(NACM\).
+        The response appears in the ServiceNow Otto context menu.
 
     3.  You can select the **Refine** menu and elaborate, shorten, or change the tone of the response.
 3.  Select **Insert**.

@@ -9,7 +9,7 @@ classification: now-assist-for-creator
 topic_type: concept
 last_updated: "2025-08-07"
 reading_time_minutes: 2
-breadcrumb: [Flow recommendations, Now Assist for Creator, Build workflows]
+breadcrumb: [Flow recommendations, ServiceNow Otto for Creator, Build workflows]
 ---
 
 # Exploring Flow recommendations

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-rpahub-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 30
 breadcrumb: [Products combined by family]
 ---
@@ -45,13 +45,13 @@ Upgrade any of these currently installed Microsoft Software Installers \(MSIs\) 
 -   Unattended Robot
 -   Unattended Robot Login Agent
 
-For more information, see [Download the RPA applications from RPA Hub](https://servicenow-staging.fluidtopics.net/access?context=download-installer-rpa&family=xanadu&ft:locale=en-US).
+For more information, see [Download the RPA applications from RPA Hub](https://www.servicenow.com/docs/access?context=download-installer-rpa&family=xanadu&ft:locale=en-US).
 
  The following upgrade information is applicable only when you’re upgrading from San Diego or Tokyo to Xanadu.
 
  Based on the number of records in the application file table, you could experience a potential delay while upgrading the RPA Hub applications from Tokyo or earlier releases to Xanadu.
 
- Before upgrading RPA Hub to Xanadu, you must set the value of the **glide.rollback.blacklist.TableParentChange.change** system property to **false**. If this property doesn't exist in the System Property \[sys\_properties\] table, add the property and set its value to false. For more information on how to add a property, see [Add a system property](https://servicenow-staging.fluidtopics.net/access?context=t_AddAPropertyUsingSysPropsList&family=xanadu&ft:locale=en-US).
+ Before upgrading RPA Hub to Xanadu, you must set the value of the **glide.rollback.blacklist.TableParentChange.change** system property to **false**. If this property doesn't exist in the System Property \[sys\_properties\] table, add the property and set its value to false. For more information on how to add a property, see [Add a system property](https://www.servicenow.com/docs/access?context=t_AddAPropertyUsingSysPropsList&family=xanadu&ft:locale=en-US).
 
  After you upgrade to Xanadu, the bot process definitions change to the new structure, which is the bot process configuration.
 
@@ -70,13 +70,13 @@ Upgrade any of these currently installed Microsoft Software Installers \(MSIs\) 
 -   Unattended Robot
 -   Unattended Robot Login Agent
 
-For more information, see [Download the RPA applications from RPA Hub](https://servicenow-staging.fluidtopics.net/access?context=download-installer-rpa&family=yokohama&ft:locale=en-US).
+For more information, see [Download the RPA applications from RPA Hub](https://www.servicenow.com/docs/access?context=download-installer-rpa&family=yokohama&ft:locale=en-US).
 
  The following upgrade information is applicable only when you’re upgrading from San Diego or Tokyo to Yokohama.
 
  Based on the number of records in the application file table, you may experience a delay while upgrading the RPA Hub applications from Tokyo or earlier releases to Yokohama.
 
- Before upgrading RPA Hub to Yokohama, you must set the value of the **glide.rollback.blacklist.TableParentChange.change** system property to **false**. If this property doesn't exist in the System Property \[sys\_properties\] table, add the property and set its value to false. For more information on how to add a property, see [Add a system property](https://servicenow-staging.fluidtopics.net/access?context=t_AddAPropertyUsingSysPropsList&family=yokohama&ft:locale=en-US).
+ Before upgrading RPA Hub to Yokohama, you must set the value of the **glide.rollback.blacklist.TableParentChange.change** system property to **false**. If this property doesn't exist in the System Property \[sys\_properties\] table, add the property and set its value to false. For more information on how to add a property, see [Add a system property](https://www.servicenow.com/docs/access?context=t_AddAPropertyUsingSysPropsList&family=yokohama&ft:locale=en-US).
 
  After you upgrade to Yokohama, the bot process definitions change to the new structure, which is the bot process configuration.
 
@@ -95,13 +95,13 @@ Upgrade any of these currently installed Microsoft Software Installers \(MSIs\) 
 -   Unattended Robot
 -   Unattended Robot Login Agent
 
-For more information, see [Download the RPA applications from RPA Hub](https://servicenow-staging.fluidtopics.net/access?context=download-installer-rpa&family=zurich&ft:locale=en-US).
+For more information, see [Download the RPA applications from RPA Hub](https://www.servicenow.com/docs/access?context=download-installer-rpa&family=zurich&ft:locale=en-US).
 
  The following upgrade information is applicable only when you’re upgrading from San Diego or Tokyo to Zurich.
 
  Based on the number of records in the application file table, you may experience a delay while upgrading the RPA Hub applications from Tokyo or earlier releases to Zurich.
 
- Before upgrading RPA Hub to Zurich, you must set the value of the **glide.rollback.blacklist.TableParentChange.change** system property to **false**. If this property doesn't exist in the System Property \[sys\_properties\] table, add the property and set its value to false. For more information on how to add a property, see [Add a system property](https://servicenow-staging.fluidtopics.net/access?context=t_AddAPropertyUsingSysPropsList&family=zurich&ft:locale=en-US).
+ Before upgrading RPA Hub to Zurich, you must set the value of the **glide.rollback.blacklist.TableParentChange.change** system property to **false**. If this property doesn't exist in the System Property \[sys\_properties\] table, add the property and set its value to false. For more information on how to add a property, see [Add a system property](https://www.servicenow.com/docs/access?context=t_AddAPropertyUsingSysPropsList&family=zurich&ft:locale=en-US).
 
  After you upgrade to Zurich, the bot process definitions change to the new structure, which is the bot process configuration.
 
@@ -126,21 +126,21 @@ Xanadu
 
 </td><td>
 
--   **[Credential Management in RPA Hub](https://servicenow-staging.fluidtopics.net/access?context=credential-management-rpa-hub&family=xanadu&ft:locale=en-US)**
+-   **[Credential Management in RPA Hub](https://www.servicenow.com/docs/access?context=credential-management-rpa-hub&family=xanadu&ft:locale=en-US)**
 
 Create application credentials, robot credentials, and Time-based One-time Password \(TOTP\) authentications and reuse them in multiple bot processes through a credential group.
 
--   **[Migration of a bot process configuration in RPA Hub](https://servicenow-staging.fluidtopics.net/access?context=bot-process-migration&family=xanadu&ft:locale=en-US)**
+-   **[Migration of a bot process configuration in RPA Hub](https://www.servicenow.com/docs/access?context=bot-process-migration&family=xanadu&ft:locale=en-US)**
 
 Migrate the bot process configuration and associated assets from one environment to another environment.
 
 For example, when the bot process is ready to be migrated from a developer’s environment to a UAT environment, an RPA developer or RPA administrator can select the **Ready for Migration** button on a published bot process. This action enables the **Migrate** button to appear. This button is only visible when the bot process migration isn’t in progress. Then, the RPA release manager or RPA administrator can initiate the migration process by selecting the **Migrate** button. After the bot process and associated assets are migrated, a release manager can make any necessary changes, create and associate credentials, create an associated bot process record, and publish the bot process on the UAT \(target\) environment.
 
--   **[Enhanced element interrogations using the recorder feature](https://servicenow-staging.fluidtopics.net/access?context=recording-automations&family=xanadu&ft:locale=en-US)**
+-   **[Enhanced element interrogations using the recorder feature](https://www.servicenow.com/docs/access?context=recording-automations&family=xanadu&ft:locale=en-US)**
 
 In the RPA Desktop Design Studio application, while using the recorder feature, you can move and position your recorded actions and screens in the Recorded actions pane. You can also edit a recorded action and element name.
 
--   **[New sample automations](https://servicenow-staging.fluidtopics.net/access?context=rpa-studio-ui&family=xanadu&ft:locale=en-US)**
+-   **[New sample automations](https://www.servicenow.com/docs/access?context=rpa-studio-ui&family=xanadu&ft:locale=en-US)**
 
 Use the unattended and attended sample automations that were added to the Sample Automations page of RPA Desktop Design Studio. You can also view them in the Samples Explorer section.
 
@@ -159,7 +159,7 @@ Use the unattended and attended sample automations that were added to the Sample
     -   Download attachments from Outlook
 A sample automation is a prebuilt automation that shows how an automation works in the RPA Desktop Design Studio. The RPA Desktop Design Studio provides multiple sample automations that cater to different use cases.
 
--   **[Skill enhancements](https://servicenow-staging.fluidtopics.net/access?context=override-skill-version-rpahub&family=xanadu&ft:locale=en-US)**
+-   **[Skill enhancements](https://www.servicenow.com/docs/access?context=override-skill-version-rpahub&family=xanadu&ft:locale=en-US)**
 
 View a skill package version for an associated package in a bot process or attended and unattended packages in RPA Hub. As an RPA release manager, you can override a skill version to use a specific skill package version for your bot process.
 
@@ -172,29 +172,29 @@ The following tabs were added:
     -   Use the **Skill Overrides** tab on the bot process form to view the skill version that was used. You can also use this tab to override the skill version for a specific bot process.
     -   Use the **Skills** tab on the package version of either the type attended or unattended to see the skills that were used in the package version.
     -   Use the **Bot process** tab on the skill package version to override the skill version for one or more bot processes.
-In the RPA Desktop Design Studio, the Assign Bot Process feature is enabled for Skills automation projects. It shows both attended and unattended bot processes in the **Bot process** field. For the unattended processes, the associated robots are listed in a drop-down menu. For more information, see [Assign bot process to an automation project](https://servicenow-staging.fluidtopics.net/access?context=assign-bot-process&family=xanadu&ft:locale=en-US).
+In the RPA Desktop Design Studio, the Assign Bot Process feature is enabled for Skills automation projects. It shows both attended and unattended bot processes in the **Bot process** field. For the unattended processes, the associated robots are listed in a drop-down menu. For more information, see [Assign bot process to an automation project](https://www.servicenow.com/docs/access?context=assign-bot-process&family=xanadu&ft:locale=en-US).
 
 If any skills are overridden in the bot process, use the Assign Bot Process feature in the RPA Desktop Design Studio to use the revised skill version during the current execution.
 
 If a skill is overridden while the robot is in execution, the robot doesn't use the overridden skill for the current execution. Instead, the robot considers the updated skill version starting from the next execution.
 
--   **[Sensitive request content in queues](https://servicenow-staging.fluidtopics.net/access?context=work-queue-form&family=xanadu&ft:locale=en-US)**
+-   **[Sensitive request content in queues](https://www.servicenow.com/docs/access?context=work-queue-form&family=xanadu&ft:locale=en-US)**
 
 Pass both sensitive data and non-sensitive data separately in work items.
 
-In the Work item form, the **Sensitive Request Content** field was added to store the sensitive content. For more information, see [Work item form](https://servicenow-staging.fluidtopics.net/access?context=work-queue-form&family=xanadu&ft:locale=en-US).
+In the Work item form, the **Sensitive Request Content** field was added to store the sensitive content. For more information, see [Work item form](https://www.servicenow.com/docs/access?context=work-queue-form&family=xanadu&ft:locale=en-US).
 
 In the RPA Desktop Design Studio, RPA developers can handle the sensitive data in the Queue connector methods:
 
     -   For the **CreateJSONWorkItem**, **PickWorkItem**, and **UpdateWorkItem** methods, RPA developers can identify and mark specific JSON fields as sensitive.
     -   For the **CreateStringWorkItem** method, RPA developers have an option to include both sensitive and non-sensitive request content. A new parameter **Sensitive Request Content** was added to capture those details. The data that is passed in the sensitive request content is stored as encrypted data and the data that is passed in the request content field is stored as plain data.
-For more information about these methods, see [Queue connector methods](https://servicenow-staging.fluidtopics.net/access?context=connectors-queues-methods&family=xanadu&ft:locale=en-US).
+For more information about these methods, see [Queue connector methods](https://www.servicenow.com/docs/access?context=connectors-queues-methods&family=xanadu&ft:locale=en-US).
 
--   **[New CreateFile component in the Zip category](https://servicenow-staging.fluidtopics.net/access?context=use-zip-createfile&family=xanadu&ft:locale=en-US)**
+-   **[New CreateFile component in the Zip category](https://www.servicenow.com/docs/access?context=use-zip-createfile&family=xanadu&ft:locale=en-US)**
 
 Zip an existing folder or create a zip file by using the CreateFile component in RPA Desktop Design Studio.
 
--   **[Robot user mapping in RPA Hub](https://servicenow-staging.fluidtopics.net/access?context=create-unattended-robot&family=xanadu&ft:locale=en-US)**
+-   **[Robot user mapping in RPA Hub](https://www.servicenow.com/docs/access?context=create-unattended-robot&family=xanadu&ft:locale=en-US)**
 
 Map an authorized user to an unattended robot to make the robot credentials accessible only to the mapped user.
 
@@ -202,13 +202,13 @@ In the Unattended robot form, the **User** field was added.
 
 For upgrading customers, the **User** fields are automatically mapped with the user names who have recently created the process jobs for the selected unattended robots. If no process jobs are found for a selected robot, the RPA release managers must manually map the appropriate users to the robots.
 
--   **[Guided Tours in RPA Hub](https://servicenow-staging.fluidtopics.net/access?context=use-guided-tour-rpa-hub&family=xanadu&ft:locale=en-US)**
+-   **[Guided Tours in RPA Hub](https://www.servicenow.com/docs/access?context=use-guided-tour-rpa-hub&family=xanadu&ft:locale=en-US)**
 
 The following guided tours are available in the classic environment:
 
     -   Queues: Get step-by-step quick instructions in your instance on how to create queues.
     -   Bot process: Get step-by-step quick instructions in your instance on how to do an end-to-end configuration of the bot process and its related lists. You can select the tour to create an unattended bot process, attended bot process, or Embedded Task Automation.
--   **[What's New tab in the Help Center for RPA Hub](https://servicenow-staging.fluidtopics.net/access?context=whats-new&family=xanadu&ft:locale=en-US)**
+-   **[What's New tab in the Help Center for RPA Hub](https://www.servicenow.com/docs/access?context=whats-new&family=xanadu&ft:locale=en-US)**
 
 Learn about the newly released features of RPA Hub in your instance.
 
@@ -221,27 +221,27 @@ Yokohama
 
 </td><td>
 
--   **[New third-party AI model provider options available for all Now Assist applications](https://servicenow-staging.fluidtopics.net/access?context=exploring-large-language-models&family=yokohama&ft:locale=en-US)**
+-   **[New third-party AI model provider options available for all Now Assist applications](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=yokohama&ft:locale=en-US)**
 
 Google Gemini and AWS Claude are available for RPA bot generation skill in addition to Now LLM Service and Azure OpenAI.
 
--   **[Enhanced ACLs for security measures](https://servicenow-staging.fluidtopics.net/access?context=installed-with-rpa-hub&family=yokohama&ft:locale=en-US)**
+-   **[Enhanced ACLs for security measures](https://www.servicenow.com/docs/access?context=installed-with-rpa-hub&family=yokohama&ft:locale=en-US)**
 
 Enhanced access controls for RPA bot generation skill for Now Assist for RPA Hub in compliance with AI security directives.
 
 Access to RPA bot generation skill is now restricted to users with the RPA developer or RPA admin role. These roles contain the RPA Hub Admin user role \(sn\_nowassist\_admin.user\).
 
--   **[RPA bot generation](https://servicenow-staging.fluidtopics.net/access?context=rpa-now-assist-studio&family=yokohama&ft:locale=en-US)**
+-   **[RPA bot generation](https://www.servicenow.com/docs/access?context=rpa-now-assist-studio&family=yokohama&ft:locale=en-US)**
 
-Use the Robotic Process Automation \(RPA\) bot generation skill in RPA Desktop Design Studio to create and edit automations and activities through short text instructions and preview options, accelerating automation development for both new and existing users. For more information about creating automations using Now Assist, see [Create an automation with Now Assist](https://servicenow-staging.fluidtopics.net/access?context=create-automation-now-assist&family=yokohama&ft:locale=en-US). For more information about creating activities using Now Assist, see [Create an activity with Now Assist](https://servicenow-staging.fluidtopics.net/access?context=create-activity-now-assist&family=yokohama&ft:locale=en-US).
+Use the Robotic Process Automation \(RPA\) bot generation skill in RPA Desktop Design Studio to create and edit automations and activities through short text instructions and preview options, accelerating automation development for both new and existing users. For more information about creating automations using Now Assist, see [Create an automation with Now Assist](https://www.servicenow.com/docs/access?context=create-automation-now-assist&family=yokohama&ft:locale=en-US). For more information about creating activities using Now Assist, see [Create an activity with Now Assist](https://www.servicenow.com/docs/access?context=create-activity-now-assist&family=yokohama&ft:locale=en-US).
 
-Enhance automation logic using the **Build automation** option, starting from components or from a blank canvas based on text instructions. For more information, see [Build an automation with Now Assist](https://servicenow-staging.fluidtopics.net/access?context=build-automation-now-assist&family=yokohama&ft:locale=en-US).
+Enhance automation logic using the **Build automation** option, starting from components or from a blank canvas based on text instructions. For more information, see [Build an automation with Now Assist](https://www.servicenow.com/docs/access?context=build-automation-now-assist&family=yokohama&ft:locale=en-US).
 
--   **[High density robots](https://servicenow-staging.fluidtopics.net/access?context=high-density-robots-rpa-hub&family=yokohama&ft:locale=en-US)**
+-   **[High density robots](https://www.servicenow.com/docs/access?context=high-density-robots-rpa-hub&family=yokohama&ft:locale=en-US)**
 
-Enable multiple unattended robots to run simultaneously on the same Windows Server machine using the high-density robots feature. These unattended robots run automations in separate Remote Desktop Protocol \(RDP\) sessions. For more information, see [High density robots in Unattended Robot](https://servicenow-staging.fluidtopics.net/access?context=high-density-robots-uat&family=yokohama&ft:locale=en-US) and [Set up Windows Server machine for high density robots](https://servicenow-staging.fluidtopics.net/access?context=setup-windows-server-hdr&family=yokohama&ft:locale=en-US).
+Enable multiple unattended robots to run simultaneously on the same Windows Server machine using the high-density robots feature. These unattended robots run automations in separate Remote Desktop Protocol \(RDP\) sessions. For more information, see [High density robots in Unattended Robot](https://www.servicenow.com/docs/access?context=high-density-robots-uat&family=yokohama&ft:locale=en-US) and [Set up Windows Server machine for high density robots](https://www.servicenow.com/docs/access?context=setup-windows-server-hdr&family=yokohama&ft:locale=en-US).
 
--   **[Sample automations](https://servicenow-staging.fluidtopics.net/access?context=sample-automations-rpa-studio&family=yokohama&ft:locale=en-US)**
+-   **[Sample automations](https://www.servicenow.com/docs/access?context=sample-automations-rpa-studio&family=yokohama&ft:locale=en-US)**
 
 Use sample automations to jumpstart your automation journey with a library of pre-built automations.
 
@@ -267,7 +267,7 @@ The following unattended and attended sample automations were added to the Sampl
     -   Invoice Data Extraction to Excel
     -   Download File from URL
     -   Health Check Bot
--   **[Secure Shell \(SSH\) connector](https://servicenow-staging.fluidtopics.net/access?context=ssh-connector&family=yokohama&ft:locale=en-US)**
+-   **[Secure Shell \(SSH\) connector](https://www.servicenow.com/docs/access?context=ssh-connector&family=yokohama&ft:locale=en-US)**
 
 Establish an Secure Shell \(SSH\) connection to a remote server and execute commands in the RPA Desktop Design Studio. In the UNIX environment, SSH is the preferred way to access remote systems. Robots often interact with remote systems such as UNIX servers.
 
@@ -278,21 +278,21 @@ The connector comprises three methods:
     -   Disconnect: Disconnects the session that was established using connect method.
 Ensure to install the SSH plugin from the Plugins Manager as a prerequisite.
 
--   **[Bypassing the legal notice](https://servicenow-staging.fluidtopics.net/access?context=rpahub-sys-properties&family=yokohama&ft:locale=en-US)**
+-   **[Bypassing the legal notice](https://www.servicenow.com/docs/access?context=rpahub-sys-properties&family=yokohama&ft:locale=en-US)**
 
 In RPA Hub, enable the **sn\_rpa\_fdn.bypass\_legal\_notice** system property to authorize the unattended robot to clear the legal notice message set by the system-level policy. This property ensures that a legal notice isn't displayed during the robot's login process.
 
--   **[What's New tab in the Help Center for RPA Hub](https://servicenow-staging.fluidtopics.net/access?context=whats-new&family=yokohama&ft:locale=en-US)**
+-   **[What's New tab in the Help Center for RPA Hub](https://www.servicenow.com/docs/access?context=whats-new&family=yokohama&ft:locale=en-US)**
 
 Learn about the following newly released RPA features in your instance in the What's New tab in the Help Center for RPA Hub:
 
     -   Now Assist for RPA Hub
     -   High density robot
--   **[SAP connector](https://servicenow-staging.fluidtopics.net/access?context=sap-connector&family=yokohama&ft:locale=en-US)**
+-   **[SAP connector](https://www.servicenow.com/docs/access?context=sap-connector&family=yokohama&ft:locale=en-US)**
 
 The SAP connector helps identify the screens and elements and automating workflows on the SAP GUI. For example, create and save a vendor entry. The SAP Connector is built by Bristlecone, Inc.
 
--   **[New methods for Universal app connector](https://servicenow-staging.fluidtopics.net/access?context=universal-app-connector&family=yokohama&ft:locale=en-US)**
+-   **[New methods for Universal app connector](https://www.servicenow.com/docs/access?context=universal-app-connector&family=yokohama&ft:locale=en-US)**
 
 In the RPA Desktop Design Studio, the following three new methods for Universal app connector are added.
 
@@ -306,21 +306,25 @@ Zurich
 
 </td><td>
 
+-   **[Try catch component enhancement](https://www.servicenow.com/docs/access?context=use-general-try-catch&family=zurich&ft:locale=en-US)**
 
- -   **[Role changed for creating, updating, and deleting the Robot License Distribution records](https://servicenow-staging.fluidtopics.net/access?context=create-lua-record&family=zurich&ft:locale=en-US)**
+You can now precisely control the scope of Try-Catch blocks by selecting which actions \(components\) to include within exception handling and which to manage outside it. This enhancement provides better control over error handling logic and improves workflow reliability.
+
+
+ -   **[Role changed for creating, updating, and deleting the Robot License Distribution records](https://www.servicenow.com/docs/access?context=create-lua-record&family=zurich&ft:locale=en-US)**
 
 Role for Create, Update, and Delete ACLs in the Robot License Distribution table is changed from admin to sn\_rpa\_fdn.rpa\_admin.
 
--   **[Long term stable models](https://servicenow-staging.fluidtopics.net/access?context=long-term-stable-models&family=zurich&ft:locale=en-US)**
+-   **[Long term stable models](https://www.servicenow.com/docs/access?context=long-term-stable-models&family=zurich&ft:locale=en-US)**
 
 Long term stable \(LTS\) models are part of Now LLM Service and provide longer model stability windows for regulated industries. These models can integrate with tools to provide governance, monitoring, and compliance controls.
 
 
--   **[New third-party AI model provider options available for all Now Assist applications](https://servicenow-staging.fluidtopics.net/access?context=exploring-large-language-models&family=zurich&ft:locale=en-US)**
+-   **[New third-party AI model provider options available for all AI applications](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=zurich&ft:locale=en-US)**
 
 Google Gemini and AWS Claude are available for RPA bot generation skill in addition to Now LLM Service and Azure OpenAI.
 
--   **[Python connector](https://servicenow-staging.fluidtopics.net/access?context=python-connector-rpa&family=zurich&ft:locale=en-US)**
+-   **[Python connector](https://www.servicenow.com/docs/access?context=python-connector-rpa&family=zurich&ft:locale=en-US)**
 
 Execute custom Python scripts or files as part of an automation workflow in the RPA Desktop Design Studio.
 
@@ -330,13 +334,13 @@ The connector comprises two methods:
     -   InvokeScript: Runs Python script on local computers and gets the output.
 Ensure to install the Scripting plugin from the Plugins Manager as a prerequisite. Along with Python, VB.NET, C\#, and Javascript connectors are available with this plugin.
 
--   **[Smart Card authentication](https://servicenow-staging.fluidtopics.net/access?context=smart-card-il&family=zurich&ft:locale=en-US)**
+-   **[Smart Card authentication](https://www.servicenow.com/docs/access?context=smart-card-il&family=zurich&ft:locale=en-US)**
 
 Use a physical smart card instead of a username and password for logging into a Windows machine.
 
 You can run unattended automations on the machines that use smart cards for authentication. While configuring a robot credential, you can store the smart card username and password to allow the unattended robot to log in to machines that use smart card.
 
--   **[Enhanced ACLs for security measures](https://servicenow-staging.fluidtopics.net/access?context=installed-with-rpa-hub&family=zurich&ft:locale=en-US)**
+-   **[Enhanced ACLs for security measures](https://www.servicenow.com/docs/access?context=installed-with-rpa-hub&family=zurich&ft:locale=en-US)**
 
 Enhanced access controls for RPA bot generation skill for Now Assist for RPA Hub in compliance with AI security directives.
 
@@ -362,19 +366,19 @@ Xanadu
 
 </td><td>
 
--   **[Process job with no logs](https://servicenow-staging.fluidtopics.net/access?context=rpa-studio-ui&family=xanadu&ft:locale=en-US)**
+-   **[Process job with no logs](https://www.servicenow.com/docs/access?context=rpa-studio-ui&family=xanadu&ft:locale=en-US)**
 
 In the RPA Desktop Design Studio, the following process job records aren’t displayed in the Attach log window:
 
     -   Process job records with no logs.
     -   Process job records that are stored in the robot machine.
--   **[Credential sets are replaced by credential groups](https://servicenow-staging.fluidtopics.net/access?context=credential-management-rpa-hub&family=xanadu&ft:locale=en-US)**
+-   **[Credential sets are replaced by credential groups](https://www.servicenow.com/docs/access?context=credential-management-rpa-hub&family=xanadu&ft:locale=en-US)**
 
 In RPA Hub, the credential sets that were created for a bot process are now replaced with credential groups. You can now define the robot credentials, Time-based One-time Password \(TOTP\) authentication, and application credentials outside of the bot process and reuse them in multiple bot processes. By using credential groups, you don't have to create the same credentials for each bot process.
 
 For upgrading customers, the existing credential sets and associated credentials are migrated seamlessly.
 
--   **[Changes in the Start Process UI action](https://servicenow-staging.fluidtopics.net/access?context=start-bot-process&family=xanadu&ft:locale=en-US)**
+-   **[Changes in the Start Process UI action](https://www.servicenow.com/docs/access?context=start-bot-process&family=xanadu&ft:locale=en-US)**
 
 In RPA Hub, when you select the **Start Process** button, you can't view the robots that are in the **In Maintenance** life-cycle stage status.
 
@@ -382,17 +386,17 @@ When a bot process is either in the **In Maintenance** or **Build** life-cycle s
 
 Dynamic allocation in the robot pool is only activated for published bot processes.
 
--   **[Changes in the Start Process action](https://servicenow-staging.fluidtopics.net/access?context=rpa-hub-actions&family=xanadu&ft:locale=en-US)**
+-   **[Changes in the Start Process action](https://www.servicenow.com/docs/access?context=rpa-hub-actions&family=xanadu&ft:locale=en-US)**
 
 When invoking the **Start Process** Workflow Studio action, the robots that are in the **In Maintenance** life-cycle stage status are treated as failed robots.
 
--   **[Changes in the Start Process subflow](https://servicenow-staging.fluidtopics.net/access?context=rpa-hub-actions&family=xanadu&ft:locale=en-US)**
+-   **[Changes in the Start Process subflow](https://www.servicenow.com/docs/access?context=rpa-hub-actions&family=xanadu&ft:locale=en-US)**
 
 If a process job isn’t in the **Running** status, the robot that is associated with the process job is treated as **Failed** in the **Start Process** subflow output.
 
--   **[Break component issue with loops](https://servicenow-staging.fluidtopics.net/access?context=use-loop-break&family=xanadu&ft:locale=en-US)**
+-   **[Break component issue with loops](https://www.servicenow.com/docs/access?context=use-loop-break&family=xanadu&ft:locale=en-US)**
 
-An issue with the break components in the nested activities that failed to break their loops is now fixed. For more information, see [List of components compatible with latest version](https://servicenow-staging.fluidtopics.net/access?context=list-components-upgrade&family=xanadu&ft:locale=en-US).
+An issue with the break components in the nested activities that failed to break their loops is now fixed. For more information, see [List of components compatible with latest version](https://www.servicenow.com/docs/access?context=list-components-upgrade&family=xanadu&ft:locale=en-US).
 
 -   **Microsoft Software Installer \(MSI\) compatibility**
 
@@ -411,15 +415,15 @@ Yokohama
 
 </td><td>
 
--   **[Changed fields for the Unattended Robot application](https://servicenow-staging.fluidtopics.net/access?context=set-up-rpa-runtime&family=yokohama&ft:locale=en-US)**
+-   **[Changed fields for the Unattended Robot application](https://www.servicenow.com/docs/access?context=set-up-rpa-runtime&family=yokohama&ft:locale=en-US)**
 
 In the Unattended Robot dialog box, the **RPA Hub** field name has been changed to **Instance URL**.
 
--   **[Embedded Task Automation in RPA Hub](https://servicenow-staging.fluidtopics.net/access?context=embedded-task-auto-rpa&family=yokohama&ft:locale=en-US)**
+-   **[Embedded Task Automation in RPA Hub](https://www.servicenow.com/docs/access?context=embedded-task-auto-rpa&family=yokohama&ft:locale=en-US)**
 
 Trigger attended bot processes \(attended automations\) from the ServiceNow forms in the Workspace experience apart from initiating them from a classic UI or the Attended Robot application.
 
--   **[Microsoft Software Installer \(MSI\) compatibility](https://servicenow-staging.fluidtopics.net/access?context=download-installer-rpa&family=yokohama&ft:locale=en-US)**
+-   **[Microsoft Software Installer \(MSI\) compatibility](https://www.servicenow.com/docs/access?context=download-installer-rpa&family=yokohama&ft:locale=en-US)**
 
 Older MSIs that are related to Attended Robot and RPA Desktop Design Studio from the RPA Hub store release versions 7.0.3 and 9.0.0 are compatible and can be used with the current store release version \(12.0.X\) of RPA Hub. For Unattended Robot, the latest MSI must be installed, as it is not backward compatible.
 
@@ -429,7 +433,7 @@ However, there are some limitations:
     -   Components of the same name with different parameters aren’t backward compatible.
 If robot machines use older MSIs than the current instance version, they won't have the new features from later versions. For example, features released after version 10.0 won't work in version 10.0 MSIs. Only features from version 10.0 are available in that version.
 
--   **[TerminateByName component behavior change](https://servicenow-staging.fluidtopics.net/access?context=use-sysprocess-terminatename&family=yokohama&ft:locale=en-US)**
+-   **[TerminateByName component behavior change](https://www.servicenow.com/docs/access?context=use-sysprocess-terminatename&family=yokohama&ft:locale=en-US)**
 
 The TerminateByName component stops processes or applications only within the current user session.
 
@@ -498,7 +502,7 @@ Xanadu
 
 </td><td>
 
--   The RPA Sample templates store application is deprecated and is no longer supported or available for new activation. RPA Desktop Design Studio provides the latest experience for this functionality. For more information, see [RPA Desktop Design Studio user interface](https://servicenow-staging.fluidtopics.net/access?context=rpa-studio-ui&family=xanadu&ft:locale=en-US).
+-   The RPA Sample templates store application is deprecated and is no longer supported or available for new activation. RPA Desktop Design Studio provides the latest experience for this functionality. For more information, see [RPA Desktop Design Studio user interface](https://www.servicenow.com/docs/access?context=rpa-studio-ui&family=xanadu&ft:locale=en-US).
 -   In RPA Hub, the **Is Request Content Sensitive** field in the Queues form was deprecated.
 -   In RPA Hub the **Credential Set** field in the Process Robot Credentials form was deprecated.
 
@@ -537,11 +541,11 @@ Xanadu
 
 </td><td>
 
-Install RPA Hub by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
+Install RPA Hub by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
 
- For cumulative release notes information on RPA Hub, see [RPA Hub release notes](https://servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/platform-app-engine/store-rn-plat-app-engine-rpa-hub.html).
+ For cumulative release notes information on RPA Hub, see [RPA Hub release notes](https://www.servicenow.com/docs/access?context=store-rn-plat-app-engine-rpa-hub&family=xanadu&ft:locale=en-US).
 
- For cumulative release notes information on RPA Desktop Design Studio, see [RPA Plugin Bundle release notes](https://servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/platform-app-engine/store-rn-plat-app-rpa-plugin-bundle.html).
+ For cumulative release notes information on RPA Desktop Design Studio, see [RPA Plugin Bundle release notes](https://www.servicenow.com/docs/access?context=store-rn-plat-app-rpa-plugin-bundle&family=xanadu&ft:locale=en-US).
 
  If you have previously downloaded the application from the ServiceNow Store and a new version is available, you can update it in your ServiceNow AI Platform instance at **All** &gt; **System Applications** &gt; **All Available Applications**.
 
@@ -551,15 +555,15 @@ Yokohama
 
 </td><td>
 
-Install RPA Hub by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+Install RPA Hub by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
- Install the Now Assist for RPA Hub application to add the generative AI capability and turn on the Robotic Process Automation \(RPA\) bot generation skill to use generative AI to create automations. For more information about these tasks, see [Configure Now Assist for RPA Hub](https://servicenow-staging.fluidtopics.net/access?context=configure-now-assist-rpa-hub&family=yokohama&ft:locale=en-US) and [Turn on the RPA bot generation skill](https://servicenow-staging.fluidtopics.net/access?context=turn-rpa-bot-generation-skill&family=yokohama&ft:locale=en-US).
+ Install the Now Assist for RPA Hub application to add the generative AI capability and turn on the Robotic Process Automation \(RPA\) bot generation skill to use generative AI to create automations. For more information about these tasks, see [Configure ServiceNow Otto for RPA Hub](https://www.servicenow.com/docs/access?context=configure-now-assist-rpa-hub&family=yokohama&ft:locale=en-US) and [Turn on the RPA bot generation skill](https://www.servicenow.com/docs/access?context=turn-rpa-bot-generation-skill&family=yokohama&ft:locale=en-US).
 
- For cumulative release notes information on RPA Hub, see [RPA Hub release notes](https://servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/platform-app-engine/store-rn-plat-app-engine-rpa-hub.html).
+ For cumulative release notes information on RPA Hub, see [RPA Hub release notes](https://www.servicenow.com/docs/access?context=store-rn-plat-app-engine-rpa-hub&family=yokohama&ft:locale=en-US).
 
- For cumulative release notes information on RPA Desktop Design Studio, see [RPA Plugin Bundle release notes](https://servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/platform-app-engine/store-rn-plat-app-rpa-plugin-bundle.html).
+ For cumulative release notes information on RPA Desktop Design Studio, see [RPA Plugin Bundle release notes](https://www.servicenow.com/docs/access?context=store-rn-plat-app-rpa-plugin-bundle&family=yokohama&ft:locale=en-US).
 
- For cumulative release notes information on Now Assist for RPA Hub, see [Now Assist for RPA Hub release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/platform-app-engine/store-rn-plat-app-engine-now-assist-rpa-hub.html).
+ For cumulative release notes information on ServiceNow Otto for RPA Hub, see [Now Assist for RPA Hub release notes](https://www.servicenow.com/docs/access?context=store-rn-plat-app-engine-now-assist-rpa-hub&family=yokohama&ft:locale=en-US).
 
  If you have previously downloaded the application from the ServiceNow Store and a new version is available, you can update it in your ServiceNow AI Platform instance at **All** &gt; **System Applications** &gt; **All Available Applications**.
 
@@ -569,7 +573,7 @@ Zurich
 
 </td><td>
 
-Install RPA Hub by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+Install RPA Hub by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -807,7 +811,7 @@ Xanadu
 
 </td><td>
 
-ServiceNow workspaces don’t support mobile devices. For more information about the list of supported browsers, see [Browser support](https://servicenow-staging.fluidtopics.net/access?context=browser-support&family=xanadu&ft:locale=en-US).
+ServiceNow workspaces don’t support mobile devices. For more information about the list of supported browsers, see [Browser support](https://www.servicenow.com/docs/access?context=browser-support&family=xanadu&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -815,7 +819,7 @@ Yokohama
 
 </td><td>
 
-ServiceNow workspaces don’t support mobile devices. For more information about the list of supported browsers, see [Browser support](https://servicenow-staging.fluidtopics.net/access?context=browser-support&family=yokohama&ft:locale=en-US).
+ServiceNow workspaces don’t support mobile devices. For more information about the list of supported browsers, see [Browser support](https://www.servicenow.com/docs/access?context=browser-support&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -823,7 +827,7 @@ Zurich
 
 </td><td>
 
-ServiceNow workspaces don’t support mobile devices. For more information about the list of supported browsers, see [Browser support](https://servicenow-staging.fluidtopics.net/access?context=browser-support&family=zurich&ft:locale=en-US).
+ServiceNow workspaces don’t support mobile devices. For more information about the list of supported browsers, see [Browser support](https://www.servicenow.com/docs/access?context=browser-support&family=zurich&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Accessibility information
@@ -865,7 +869,7 @@ Zurich
 
 -   **Accessibility improvements**
 
-Accessibility improvements were completed to support WCAG 2.1 Level AA conformance.
+Improvements were completed to support accessibility.
 
 
 </td></tr></tbody>
@@ -887,7 +891,7 @@ Xanadu
 
 </td><td>
 
-RPA Hub supports international languages. For more information, see [Internationalization support for RPA Hub](https://servicenow-staging.fluidtopics.net/access?context=rpa-hub-international-language-support&family=xanadu&ft:locale=en-US).
+RPA Hub supports international languages. For more information, see [Internationalization support for RPA Hub](https://www.servicenow.com/docs/access?context=rpa-hub-international-language-support&family=xanadu&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -895,7 +899,7 @@ Yokohama
 
 </td><td>
 
-RPA Hub supports international languages. For more information, see [Internationalization support for RPA Hub](https://servicenow-staging.fluidtopics.net/access?context=rpa-hub-international-language-support&family=yokohama&ft:locale=en-US).
+RPA Hub supports international languages. For more information, see [Internationalization support for RPA Hub](https://www.servicenow.com/docs/access?context=rpa-hub-international-language-support&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -903,7 +907,7 @@ Zurich
 
 </td><td>
 
-RPA Hub supports international languages. For more information, see [Internationalization support for RPA Hub](https://servicenow-staging.fluidtopics.net/access?context=rpa-hub-international-language-support&family=zurich&ft:locale=en-US).
+RPA Hub supports international languages. For more information, see [Internationalization support for RPA Hub](https://www.servicenow.com/docs/access?context=rpa-hub-international-language-support&family=zurich&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Highlight information
@@ -932,7 +936,7 @@ Xanadu
 -   Manage sensitive and non-sensitive data in two separate fields of a work item.
 -   Use Guided Tours to get quick instructions on how to create queues and configure bot processes.
 
- See [Robotic Process Automation \(RPA\) Hub](https://servicenow-staging.fluidtopics.net/access?context=rpa-main-landing-page&family=xanadu&ft:locale=en-US) for more information.
+ See [Robotic Process Automation \(RPA\) Hub](https://www.servicenow.com/docs/access?context=rpa-main-landing-page&family=xanadu&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -948,7 +952,7 @@ Yokohama
 -   Use Google Gemini and Anthropic Claude on AWS as AI model providers for RPA bot generation skill in addition to Now LLM Service and Azure OpenAI.
 -   Enhanced access controls for RPA bot generation skill.
 
- See [Robotic Process Automation \(RPA\) Hub](https://servicenow-staging.fluidtopics.net/access?context=rpa-main-landing-page&family=yokohama&ft:locale=en-US) for more information.
+ See [Robotic Process Automation \(RPA\) Hub](https://www.servicenow.com/docs/access?context=rpa-main-landing-page&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -956,19 +960,24 @@ Zurich
 
 </td><td>
 
-[Zurich Patch 4](https://servicenow-staging.fluidtopics.net/access?context=zurich-patch-4&family=zurich&ft:locale=en-US)
+[Zurich Patch 7](https://www.servicenow.com/docs/access?context=zurich-patch-7&family=zurich&ft:locale=en-US)
+
+-   You can now selectively define which actions \(components\) are handled within a Try-Catch block and which are handled outside it.
+-   Versions of model provider are now supported for RPA bot generation skill.
+
+ [Zurich Patch 4](https://www.servicenow.com/docs/access?context=zurich-patch-4&family=zurich&ft:locale=en-US)
 
 -   Promote stability with the Long-Term Support \(LTS\) model for generative AI.
 -   Only the sn\_rpa\_fdn.rpa\_admin role can create, update, and delete records in the Robot License Distribution table.
 
- [Zurich Patch 1](https://servicenow-staging.fluidtopics.net/access?context=zurich-patch-1&family=zurich&ft:locale=en-US)
+ [Zurich Patch 1](https://www.servicenow.com/docs/access?context=zurich-patch-1&family=zurich&ft:locale=en-US)
 
 -   Use Google Gemini and Anthropic Claude on AWS as AI model providers for RPA bot generation skill in addition to Now LLM Service and Azure OpenAI.
 -   Use the Python connector to execute custom Python scripts or files as part of an automation workflow.
 -   Use a Smart Card authentication for enhanced security.
 -   Enhanced access controls for RPA bot generation skill.
 
- See [Robotic Process Automation \(RPA\) Hub](https://servicenow-staging.fluidtopics.net/access?context=rpa-main-landing-page&family=zurich&ft:locale=en-US) for more information.
+ See [Robotic Process Automation \(RPA\) Hub](https://www.servicenow.com/docs/access?context=rpa-main-landing-page&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/rn-combined-intro.md)

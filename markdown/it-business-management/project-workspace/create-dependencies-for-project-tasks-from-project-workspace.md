@@ -7,9 +7,9 @@ release: zurich
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Manage Projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Manage projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Add internal project task dependencies from Project Workspace
@@ -26,19 +26,19 @@ Role required: it\_project\_manager
 
 1.  Select a project to open it from the planning page.
 
-    For information on how to navigate to the planning page, see [Access Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/access-new-project-workspace.md).
+    For information on how to navigate to the planning page, see [Access the Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/access-new-project-workspace.md).
 
 2.  Create task dependencies in one of the following ways.
 
-<table id="choicetable_qhm_kty_hsb"><thead><tr><th align="left" id="d185248e86">
+<table id="choicetable_qhm_kty_hsb"><thead><tr><th align="left" id="d191155e89">
 
 Option
 
-</th><th align="left" id="d185248e89">
+</th><th align="left" id="d191155e92">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d185248e95">
+</th></tr></thead><tbody><tr><td id="d191155e98">
 
 **From the data grid**
 
@@ -52,7 +52,7 @@ Use the dependency type-ahead feature.
 4.  Select the lag period to be applied to the dependency.
 
 
-</td></tr><tr><td id="d185248e121">
+</td></tr><tr><td id="d191155e124">
 
 **From the timeline view**
 

@@ -9,7 +9,7 @@ classification: virtual-agent
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Create a Virtual Agent topic, Getting started with Virtual Agent Designer, Build and deploy, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Create a Virtual Agent asset, Getting started with Assistant Designer Asset library, Build and deploy, Virtual Agent, Conversational Interfaces]
 ---
 
 # Insert a header card in a Static Choice or Dynamic Choice control
@@ -22,17 +22,23 @@ Role required: virtual\_agent\_admin or admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Virtual Agent** &gt; **Designer** and open a topic or [create a new one](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md).
+1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Assistant Designer**.
 
-2.  On the Flow tab, drag a Static Choice or a Dynamic Choice user input control onto the canvas.
+2.  Select the **Asset library** tab.
 
-3.  On the Properties sheet, go to **Advanced \(optional\)**, and then expand the **Header card** section.
+3.  Set the topic discovery type toggle switch to **LLM** or **NLU/Keyword** depending on your intended asset or topic.
 
-4.  Slide the **Insert** toggle switch to enable it.
+4.  Open an asset or topic or [create a new one](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md).
+
+5.  On the Flow tab, drag a Static Choice or a Dynamic Choice user input control onto the canvas.
+
+6.  On the Properties sheet, go to **Advanced \(optional\)**, and then expand the **Header card** section.
+
+7.  Slide the **Insert** toggle switch to enable it.
 
     \[Omitted image "va-insert-header-help-yes.png"\] Alt text: Header card section of Dynamic Choice user input control, with Insert toggle and Would you like help radio button enabled.
 
-5.  Under **Would you like help?**, select either **Yes** or **No, I will use a script**.
+8.  Under **Would you like help?**, select either **Yes** or **No, I will use a script**.
 
     -   If you selected **Yes**, select **Add card** and complete the following form fields.
 
@@ -129,8 +135,8 @@ The alphanumeric string at the end of the YouTube URL. For example, in the URL `
             }
         ```
 
-6.  Select **Save**.
+9.  Select **Save**.
 
 
-**Parent Topic:**[Create a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md)
+**Parent Topic:**[Create a Virtual Agent asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md)
 

@@ -5,8 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/create-web-actions.html
 release: zurich
 topic_type: task
-last_updated: "2026-05-25"
+last_updated: "2026-07-23"
 reading_time_minutes: 4
+keywords: [adaptive desktop action, probabilistic desktop action]
 breadcrumb: [Create AI agents, AI Desktop Actions, Enable AI experiences]
 ---
 
@@ -56,15 +57,15 @@ An AI agent named **Web Automation Agent** and agentic workflow named **Web Auto
 
 9.  On the form, fill in the fields.
 
-<table id="choicetable_t3f_bgj_y3c"><thead><tr><th align="left" id="d103063e224">
+<table id="choicetable_t3f_bgj_y3c"><thead><tr><th align="left" id="d119686e227">
 
 Field
 
-</th><th align="left" id="d103063e227">
+</th><th align="left" id="d119686e230">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d103063e233">
+</th></tr></thead><tbody><tr><td id="d119686e236">
 
 **Name**
 
@@ -72,7 +73,7 @@ Description
 
 Provide a unique intuitive name.
 
-</td></tr><tr><td id="d103063e242">
+</td></tr><tr><td id="d119686e245">
 
 **Tool Description**
 
@@ -80,7 +81,7 @@ Provide a unique intuitive name.
 
 Description of the tool's purpose, functionality, inputs, and expected outputs, written in complete sentences. The AI agent uses this description to select the appropriate tool. Explain how an AI agent uses the tool and its inputs — including specific fields or data types — to carry out its role. Include exact input requirements such as format rules, character limits, and valid values. Specify what the tool returns and how the AI agent should use the output.
 
-</td></tr><tr><td id="d103063e251">
+</td></tr><tr><td id="d119686e254">
 
 **Navigation actions**
 
@@ -88,7 +89,7 @@ Description of the tool's purpose, functionality, inputs, and expected outputs, 
 
 Add a list of precise steps that the AI agent must execute on the web page or application effectively.
 
-</td></tr><tr><td id="d103063e260">
+</td></tr><tr><td id="d119686e263">
 
 **Time out**
 
@@ -96,7 +97,7 @@ Add a list of precise steps that the AI agent must execute on the web page or ap
 
 Enter the maximum number of minutes an AI agent should use the web page or application. Default value: 30 mins.
 
-</td></tr><tr><td id="d103063e272">
+</td></tr><tr><td id="d119686e275">
 
 **Execution mode**
 
@@ -106,13 +107,13 @@ Mode of execution for your selected desktop action:-   **Supervised**: Inputs fr
 -   **Autonomous**: Doesn't require any input from your live agent during the execution of this desktop action while the AI agent runs.
 
 
-</td></tr><tr><td id="d103063e293">
+</td></tr><tr><td id="d119686e296">
 
 **Display output**
 
 </td><td>
 
-Permission to display the output of the execution in the Now Assist panel or in Virtual Agent:-   **Yes**
+Permission to display the output of the execution in the ServiceNow Otto panel or in Virtual Agent:-   **Yes**
 -   **No**
 If you want the AI agent to work in Off Glide architecture with AI-native experience, you must turn-on the **Display output** toggle. When the toggle is turned-on, you can add widgets that can be used in assistants built with AI-native experiences. The widget configuration includes:
 
@@ -125,7 +126,7 @@ If you want the AI agent to work in Off Glide architecture with AI-native experi
     -   **No**
 **Note:** The display output as a toggle is exclusively available for the AI-native experience when the Off Glide Conversation Server plugin \(com.glide.cs.offglide\) is installed. If the plugin is not installed, you will continue to access the standard display output options.
 
-</td></tr><tr><td id="d103063e362">
+</td></tr><tr><td id="d119686e365">
 
 **Select an output transformation format**
 
@@ -138,7 +139,7 @@ Style for the LLM to present the results as it passes information between tools 
 -   Custom
 
 
-</td></tr><tr><td id="d103063e388">
+</td></tr><tr><td id="d119686e391">
 
 **Write processing messages for users**
 

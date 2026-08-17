@@ -192,15 +192,15 @@ For example, `Log in to your account` are exact key words in the string `log in 
 
 13. Choose one option to continue.
 
-<table id="choicetable_uyx_fxn_l2b"><thead><tr><th align="left" id="d321467e673">
+<table id="choicetable_uyx_fxn_l2b"><thead><tr><th align="left" id="d325259e673">
 
 Option
 
-</th><th align="left" id="d321467e676">
+</th><th align="left" id="d325259e676">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d321467e682">
+</th></tr></thead><tbody><tr><td id="d325259e682">
 
 **Update**
 
@@ -208,7 +208,7 @@ Description
 
 Update and save your changes to the record.
 
-</td></tr><tr><td id="d321467e691">
+</td></tr><tr><td id="d325259e691">
 
 **Search on Email Server\(s\)**
 
@@ -216,7 +216,7 @@ Update and save your changes to the record.
 
 Initiate a search on the servers with the criteria that you saved on the Email Search Criteria record.
 
-</td></tr><tr><td id="d321467e700">
+</td></tr><tr><td id="d325259e700">
 
 **Delete**
 

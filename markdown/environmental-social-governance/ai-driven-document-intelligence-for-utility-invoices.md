@@ -7,7 +7,7 @@ release: zurich
 topic_type: concept
 last_updated: "2025-09-05"
 reading_time_minutes: 2
-breadcrumb: [Explore, Now Assist for Operational Sustainability, Use, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Explore, ServiceNow Otto, Use, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
 # Document intelligence for utility invoices
@@ -32,12 +32,12 @@ When using Document Intelligence with manual metric definitions, the system only
 
 If your source documents cover irregular date ranges, you can use automated metric definitions, which can map and process data for any date range.
 
-**Parent Topic:**[Exploring Now Assist for Operational Sustainability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/exploring-now-assist-for-esg.md)
+**Parent Topic:**[Exploring ServiceNow Otto for Operational Sustainability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/exploring-now-assist-for-esg.md)
 
 **Related topics**  
 
 
 [Activate the document intelligence for utility invoices skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/activate-the-document-intelligence-for-utility-invoices-skill.md)
 
-[Using Now Assist for Operational Sustainability skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/using-now-assist-for-esg-skills.md)
+[Using ServiceNow Otto for Operational Sustainability skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/using-now-assist-for-esg-skills.md)
 

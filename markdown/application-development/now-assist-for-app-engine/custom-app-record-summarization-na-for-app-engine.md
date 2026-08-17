@@ -1,6 +1,6 @@
 ---
 title: Custom app record summarization skill
-description: The Now Assist for App Engine custom app record summarization skill generates AI summaries for the contents of records in custom applications and tables.
+description: The ServiceNow Otto for App Engine custom app record summarization skill generates AI summaries for the contents of records in custom applications and tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/now-assist-for-app-engine/custom-app-record-summarization-na-for-app-engine.html
 release: zurich
@@ -10,16 +10,16 @@ topic_type: concept
 last_updated: "2025-10-09"
 reading_time_minutes: 4
 keywords: [custom table record summarization, Now Assist for App Engine, AI skill, AI in custom apps, table summary generation]
-breadcrumb: [Explore, Now Assist for App Engine, Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
+breadcrumb: [Explore, ServiceNow Otto for App Engine, Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
 ---
 
 # Custom app record summarization skill
 
-The Now Assist for App Engine custom app record summarization skill generates AI summaries for the contents of records in custom applications and tables.
+The ServiceNow Otto for App Engine custom app record summarization skill generates AI summaries for the contents of records in custom applications and tables.
 
 ## Record summarization overview
 
-Starting with version 28.2.4 of Now Assist for App Engine, you can use the custom app record summarization skill to generate AI summaries for records in custom tables and applications. Record summarization enables you to learn important details and context about a record quickly, helping to save you time and reduce repeated efforts.
+Starting with version 28.2.4 of ServiceNow Otto for App Engine, you can use the custom app record summarization skill to generate AI summaries for records in custom tables and applications. Record summarization enables you to learn important details and context about a record quickly, helping to save you time and reduce repeated efforts.
 
 The custom app record summarization skill is highly configurable, enabling you to define the data, experience, and access for the summaries that Now Assist generates. You can specify the tables and fields that you want Now Assist to summarize. You can also include additional data sources, such as emails and attachments, for Now Assist to use when generating summaries. You can then define which users have access to the summaries and how users interact with the summaries. Learn more about the custom app record summarization skill and how you can configure it to work for your custom applications in the following sections.
 
@@ -29,7 +29,7 @@ The custom app record summarization skill can generate summaries for records in 
 
 You can configure the custom app record summarization skill to summarize as many tables as needed for your custom application. During the configuration process, you define which table or tables you want the skill to summarize. For each table that you select, you must define the fields that Now Assist should include in the summaries and provide additional context about the fields that you selected.
 
-For example, let's say that you want Now Assist for App Engine to summarize the records in a table for your paid time off \(PTO\) request application. You select the table that stores details about each employee's PTO request, such as the dates that the employee is requesting time off from work and the approval status of the request. When you select the fields that you want to include in the summaries that Now Assist generates, you must enter a description for each field. Field descriptions provide additional information and context about the purpose of the field, helping Now Assist to generate summaries that are more accurate. The following table illustrates how to write field descriptions for Now Assist summaries.
+For example, let's say that you want ServiceNow Otto for App Engine to summarize the records in a table for your paid time off \(PTO\) request application. You select the table that stores details about each employee's PTO request, such as the dates that the employee is requesting time off from work and the approval status of the request. When you select the fields that you want to include in the summaries that Now Assist generates, you must enter a description for each field. Field descriptions provide additional information and context about the purpose of the field, helping Now Assist to generate summaries that are more accurate. The following table illustrates how to write field descriptions for Now Assist summaries.
 
 |Field in the PTO request table|Field description|
 |------------------------------|-----------------|
@@ -39,7 +39,7 @@ For example, let's say that you want Now Assist for App Engine to summarize the 
 
 ## Additional data sources
 
-Now Assist for App Engine can include additional data sources when generating a summary of a record, such as:
+ServiceNow Otto for App Engine can include additional data sources when generating a summary of a record, such as:
 
 -   Related tables
 -   Relationships
@@ -54,7 +54,7 @@ For each related table or relationship that you add, you must provide the fields
 
 You can choose where you want record summarization to be available to your application users during the skill configuration process. The display options that you can select are: in-product, Now Assist panel, or both.
 
-**Note:** The display options that you choose applies to every application that uses the Now Assist for App Engine custom app record summarization skill.
+**Note:** The display options that you choose applies to every application that uses the ServiceNow Otto for App Engine custom app record summarization skill.
 
 -   **In-product**
 

@@ -1,20 +1,20 @@
 ---
 title: View or create an interaction for a supplier
-description: Typically, an interaction record is automatically created when you accept a chat through the chat queue in the Source-to-Pay Workspace. However, you can also manually create an interaction from the list page of the Source-to-Pay Workspace. You can link an interaction record to an existing supplier case or can assign a task, which needs a supplier manager's involvement for investigation.
+description: Manually create interaction records in Source-to-Pay Workspace when automatic chat initiation does not occur and link it to a case or task for investigation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/supplier-lifecycle-operations/create-new-interaction.html
 release: zurich
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Interaction Management, Using Source-to-Pay Workspace, Use, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 
 # View or create an interaction for a supplier
 
-Typically, an interaction record is automatically created when you accept a chat through the chat queue in the Source-to-Pay Workspace. However, you can also manually create an interaction from the list page of the Source-to-Pay Workspace. You can link an interaction record to an existing supplier case or can assign a task, which needs a supplier manager's involvement for investigation.
+Manually create interaction records in Source-to-Pay Workspace when automatic chat initiation does not occur and link it to a case or task for investigation.
 
 ## Before you begin
 

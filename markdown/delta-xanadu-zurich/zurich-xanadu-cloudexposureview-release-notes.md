@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-cloudexposureview-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
@@ -54,7 +54,7 @@ Zurich
 
 </td><td>
 
-The Cloud Exposure View is a workspace in the Cloud Security for Cloud Workspace application that is supported by the Unified Security Exposure Management application. Unified Security Exposure Management \(USEM\) and the Cloud Security for Cloud Workspace applications are required. USEM is available to all customers who are entitled to Vulnerability Response. See [Unified Security Exposure Management release notes](https://servicenow-staging.fluidtopics.net/access?context=secops-sem-rn&family=zurich&ft:locale=en-US) for more information.
+The Cloud Exposure View is a workspace in the Cloud Security for Cloud Workspace application that is supported by the Unified Security Exposure Management application. Unified Security Exposure Management \(USEM\) and the Cloud Security for Cloud Workspace applications are required. USEM is available to all customers who are entitled to Vulnerability Response. See [Unified Security Exposure Management release notes](https://www.servicenow.com/docs/access?context=secops-sem-rn&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>## New features
@@ -91,19 +91,22 @@ Zurich
 
 </td><td>
 
--   **[Enhancements to the Wiz Vulnerability Response Integration](https://servicenow-staging.fluidtopics.net/access?context=vr-wiz-exploring-host-cf&family=zurich&ft:locale=en-US)**
+-   **[Enhancements to the Wiz Vulnerability Response Integration](https://www.servicenow.com/docs/access?context=vr-wiz-exploring-host-cf&family=zurich&ft:locale=en-US)**
     -   The Universally Unique Identifier \(UUID\) that identifies detections for the Wiz Host Vulnerability integration will be mapped to a detection key.
 
-**Note:** This change is supported for new customers only.
+**Note:** This enhancement is supported for new customers only.
 
 For existing customers, the detection key for the Wiz Host Vulnerability integration is created using the combination of vulnerability, asset\_id, and proof.
 
     -   Added the source\_id column to the Container Image Finding table \(sn\_vul\_container\_image\_findings\) and mapped the id attribute from the Wiz import to this field on findings records.
+
+**Note:** Perform a full import after upgrading to view the enhancement on container image findings, container image, and container image vulnerabilities records.
+
     -   The image repository name format for new and existing discovered container images has been updated to align with the discovery format. The supported format is registry/repository. A separate finding is created for a repository present in each registry.
-    -   Appended all repositories that are associated with an image to the Repository field on the discovered container image records.
+    -   Appended all repositories that are associated with an image to the Repository field on the Discovered Container Image \[sn\_vul\_container\_image\] table, which can help you see images from specific repositories.
     -   You can configure the **First** parameter for the Wiz Asset Integration to help you resolve 504 errors. You can reduce the page size if you are having memory issues or generating errors. The default value is 500.
     -   The default integration instance parameter for configuring finding keys for the Container Vulnerability Integration includes src\_ci, vulnerability, package, image\_layer, and image\_repository.
--   **[\[Placeholder link text to key bundle-security.vr-cloud-security-exploring\]](https://servicenow-staging.fluidtopics.net/access?context=vr-cloud-security-exploring&family=zurich&ft:locale=en-US)**
+-   **[\[Placeholder link text to key bundle-security.vr-cloud-security-exploring\]](https://www.servicenow.com/docs/access?context=vr-cloud-security-exploring&family=zurich&ft:locale=en-US)**
 
 The Cloud Exposure View module provides a single location for cloud security teams to monitor and act on all their cloud-related security findings from multiple vendors across their cloud environments.
 
@@ -115,7 +118,7 @@ The Cloud Exposure View module provides a single location for cloud security tea
         -   Toxic combinations
         -   Compliance scores
     -   View aggregated security data imported from third-party vendors.
-See [Unified Security Exposure Management release notes](https://servicenow-staging.fluidtopics.net/access?context=secops-sem-rn&family=zurich&ft:locale=en-US) for more information about Unified Security Exposure Management.
+See [Unified Security Exposure Management release notes](https://www.servicenow.com/docs/access?context=secops-sem-rn&family=zurich&ft:locale=en-US) for more information about Unified Security Exposure Management.
 
 
 </td></tr></tbody>
@@ -264,7 +267,7 @@ Zurich
 
 </td><td>
 
-Install the required applications by requesting them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+Install the required applications by requesting them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -453,9 +456,9 @@ Zurich
 -   Configure widgets that display interactive visualizations and filter assets by category for findings, assets, and exceptions.
 -   View panels that link you to lists for more details about your findings.
 -   View aggregated security data imported from third-party vendors.
--   Aggregated data from the Cloud Exposure View can be viewed in the Unified Cloud workspace that is supported by ITOM Cloud Accelerate. See [ITOM Cloud Accelerate release notes](https://servicenow-staging.fluidtopics.net/access?context=itom-cloud-accelerate-rn&family=zurich&ft:locale=en-US) for more information.
+-   Aggregated data from the Cloud Exposure View can be viewed in the Unified Cloud workspace that is supported by ITOM Cloud Accelerate. See [ITOM Cloud Accelerate release notes](https://www.servicenow.com/docs/access?context=itom-cloud-accelerate-rn&family=zurich&ft:locale=en-US) for more information.
 
- See [Exploring Cloud Exposure View](https://servicenow-staging.fluidtopics.net/access?context=vr-cloud-security-exploring&family=zurich&ft:locale=en-US) for more information.
+ See [Exploring Cloud Exposure View](https://www.servicenow.com/docs/access?context=vr-cloud-security-exploring&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/rn-combined-intro.md)

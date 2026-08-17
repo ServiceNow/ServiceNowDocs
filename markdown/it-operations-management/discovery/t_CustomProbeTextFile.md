@@ -1,6 +1,6 @@
 ---
-title: Example custom Discovery probe and sensor: populate a CI with text file values
-description: This custom Discovery probe helps you if you need to read a text file from a Windows computer and populate a CI in the CMDB with the values from the file.
+title: Example: Custom Discovery probe to populate a CI from a text file
+description: This custom Discovery probe reads a text file from a Windows computer and populates a configuration item \(CI\) in the CMDB with the values from the file.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/t\_CustomProbeTextFile.html
 release: zurich
@@ -12,9 +12,9 @@ reading_time_minutes: 2
 breadcrumb: [Discovery probes and sensors, Using Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
-# Example custom Discovery probe and sensor: populate a CI with text file values
+# Example: Custom Discovery probe to populate a CI from a text file
 
-This custom Discovery probe helps you if you need to read a text file from a Windows computer and populate a CI in the CMDB with the values from the file.
+This custom Discovery probe reads a text file from a Windows computer and populates a configuration item \(CI\) in the CMDB with the values from the file.
 
 ## Before you begin
 
@@ -28,25 +28,27 @@ In this example the user wanted to read files created by BGinfo.
 
 ## Procedure
 
-1.  Navigate to **Discovery Definition** &gt; **Probes**, and then click **New**.
+1.  Navigate to **Discovery Definition** &gt; **Probes**.
 
-2.  Complete the following fields:
+2.  Select **New**.
+
+3.  Complete the following fields:
 
     -   Name: Unique and descriptive name for the probe
     -   Probe type: Select **Probe**.
     -   Description: Describe the function of this probe.
     -   Used by Discovery: Select this check box
-    -   ECC queue topic: This is name of the probe the MID server is to run. In this example, we use WMIRunner.
+    -   ECC queue topic: This is name of the probe the MID Server is to run. In this example, we use WMIRunner.
     -   ECC queue name: In this example, we use the descriptive name WMI: BGInfo files.
-3.  Right-click in the header bar and select **Save** from the context menu.
+4.  Right-click in the header bar and select **Save** from the context menu.
 
-4.  Select the Probe Parameters tab in the Probe form, and then click **New**.
+5.  Select the Probe Parameters tab in the Probe form, and then select **New**.
 
-5.  Enter `WMI_GetFiles.js` as the Name of this parameter.
+6.  Enter `WMI_GetFiles.js` as the Name of this parameter.
 
-6.  Copy the script below into the Script field and edit as needed.
+7.  Copy the script below into the Script field and edit as needed.
 
-7.  Click **Submit**.
+8.  Select **Submit**.
 
     ```
     
@@ -66,7 +68,9 @@ In this example the user wanted to read files created by BGinfo.
      }
     ```
 
-8.  Navigate to **Discovery Definition** &gt; **Sensors**, and then click **New**.
+9.  Navigate to **Discovery Definition** &gt; **Sensors**.
+
+10. Select **New**.
 
     Complete the following fields:
 
@@ -76,7 +80,7 @@ In this example the user wanted to read files created by BGinfo.
     -   Description: Describes the function of this sensor.
     -   Script: Copy the script below into the Script field and edit as needed.
     -   Sensor type: Determines how the answer from the probe is processed - in this example JavaScript.
-9.  Click **Submit**.
+11. Select **Submit**.
 
     ```
      

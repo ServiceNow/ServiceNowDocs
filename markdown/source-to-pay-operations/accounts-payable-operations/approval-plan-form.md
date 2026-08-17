@@ -64,3 +64,5 @@ Use the Approval Plan form to view details of the overall invoice approval proce
 
 [Approval Rule form]()
 
+[Jurisdictions main table]()
+

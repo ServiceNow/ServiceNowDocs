@@ -134,7 +134,7 @@ Increase productivity with automated case detail and comment summarization, so a
 
 </td><td>
 
-[Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/now-assist-for-psds.md)
+[Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/sn-otto-for-psds.md)
 
 </td><td>
 

@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2025-07-28"
 reading_time_minutes: 3
-breadcrumb: [Configure, Query Generation, Now Assist in Platform Analytics, Platform Analytics]
+breadcrumb: [Configure, Query Generation, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
 
 # Enable semantic generation for tables in the semantic layer

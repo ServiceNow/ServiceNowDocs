@@ -43,15 +43,15 @@ Role required: it\_project\_manager
 
 2.  Migrate baselines using one of the following options.
 
-<table id="choicetable_v4j_f5z_d1c"><thead><tr><th align="left" id="d50750e165">
+<table id="choicetable_v4j_f5z_d1c"><thead><tr><th align="left" id="d50892e165">
 
 Choice
 
-</th><th align="left" id="d50750e168">
+</th><th align="left" id="d50892e168">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d50750e174">
+</th></tr></thead><tbody><tr><td id="d50892e174">
 
 **Using list actions**
 
@@ -62,7 +62,7 @@ Description
 3.  Select **OK** on the Migrate Financial Baselines confirmation window.
 
 
-</td></tr><tr><td id="d50750e204">
+</td></tr><tr><td id="d50892e204">
 
 **Using related links**
 
@@ -72,7 +72,7 @@ Description
 2.  Select the **Migrate Financial Baselines** related link.
 
 
-</td></tr><tr><td id="d50750e225">
+</td></tr><tr><td id="d50892e225">
 
 **Activate a scheduled job**
 

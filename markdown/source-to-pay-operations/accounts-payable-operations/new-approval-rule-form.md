@@ -138,3 +138,5 @@ Conditions based on the approving object that determine the conditions under whi
 
 [Approval Plan form]()
 
+[Jurisdictions main table]()
+

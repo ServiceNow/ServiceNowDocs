@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-agentexperienceforcsm-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 14
 breadcrumb: [Products combined by family]
 ---
@@ -67,7 +67,7 @@ Yokohama
 
 </td><td>
 
--   **[Chat interaction session tabs](https://servicenow-staging.fluidtopics.net/access?context=csm-workspace-chat-session-tabs&family=yokohama&ft:locale=en-US)**
+-   **[Chat interaction session tabs](https://www.servicenow.com/docs/access?context=csm-workspace-chat-session-tabs&family=yokohama&ft:locale=en-US)**
 
 Use the following features to provide your agents with information about their current chats:
 
@@ -76,19 +76,19 @@ Use the following features to provide your agents with information about their c
     -   Use a counter to display the number of unread chat messages.
     -   Use a separator in the chat window between the older messages and the newer unread messages.
     -   Configure a minimum of one and up to a maximum of three chat SLA threshold timers that alert agents to unread messages in inactive chats. For each level, you can also select a time value and a unique color.
--   **[Voice interaction record page](https://servicenow-staging.fluidtopics.net/access?context=csm-native-voice-record-page&family=yokohama&ft:locale=en-US)**
+-   **[Voice interaction record page](https://www.servicenow.com/docs/access?context=csm-native-voice-record-page&family=yokohama&ft:locale=en-US)**
 
 Enable Contact Center as a Service \(CCaaS\) providers to display native voice integrations in CSM Configurable Workspace that agents can use to handle phone calls.
 
--   **[Interaction wrap-up for call and chat](https://servicenow-staging.fluidtopics.net/access?context=interaction-wrapup-modeless-dialog&family=yokohama&ft:locale=en-US)**
+-   **[Interaction wrap-up for call and chat](https://www.servicenow.com/docs/access?context=interaction-wrapup-modeless-dialog&family=yokohama&ft:locale=en-US)**
 
 Provide agents with enough dedicated time after each call or chat to finalize the interaction details and wrap up their work before starting a new conversation.
 
--   **[Customer history component](https://servicenow-staging.fluidtopics.net/access?context=customer-central&family=yokohama&ft:locale=en-US)**
+-   **[Customer history component](https://www.servicenow.com/docs/access?context=customer-central&family=yokohama&ft:locale=en-US)**
 
 Enable agents to view a customer's activities in the contextual side panel. Agents can search and filter the activities in the list and select a date range. For more information about the Customer history component, see [Next Experience Components documentation](https://developer.servicenow.com/dev.do#!/reference/next-experience/components?&query=&order_by=nameAsc&limit=120&offset=0&categories[]=uib_component&categories[]=uib_macroponent-component&categories[]=uib_facades).
 
--   **[Quick start tests for Customer Service Management](https://servicenow-staging.fluidtopics.net/access?context=quick-start-tests-csm&family=yokohama&ft:locale=en-US)**
+-   **[Quick start tests for Customer Service Management](https://www.servicenow.com/docs/access?context=quick-start-tests-csm&family=yokohama&ft:locale=en-US)**
 
 After upgrades and deployments of new applications or integrations, run quick start tests to verify that Customer Service Management works as expected. If you customized Customer Service Management, copy the quick start tests and configure them for your customizations.
 
@@ -99,27 +99,27 @@ Zurich
 
 </td><td>
 
--   **[CSM centered chat interaction record page](https://servicenow-staging.fluidtopics.net/access?context=csm-centered-chat-interaction-page&family=zurich&ft:locale=en-US)**
+-   **[CSM centered chat interaction record page](https://www.servicenow.com/docs/access?context=csm-centered-chat-interaction-page&family=zurich&ft:locale=en-US)**
 
 Includes a chat component in the center of the record page that provides front-line chat agents with a modernized interaction page layout.
 
--   **[Callback component on the CSM voice interaction record page](https://servicenow-staging.fluidtopics.net/access?context=csm-native-voice-record-page&family=zurich&ft:locale=en-US)**
+-   **[Callback component on the CSM voice interaction record page](https://www.servicenow.com/docs/access?context=csm-native-voice-record-page&family=zurich&ft:locale=en-US)**
 
 Provides agents with the ability to return customer calls and to create interaction records at the time of callback.
 
--   **[Task SLA cards component](https://servicenow-staging.fluidtopics.net/access?context=csm-record-page-sla-card-component&family=zurich&ft:locale=en-US)**
+-   **[Task SLA cards component](https://www.servicenow.com/docs/access?context=csm-record-page-sla-card-component&family=zurich&ft:locale=en-US)**
 
 Use the Task SLA cards component as a standalone component on the Front-line case page. Visual updates to the Task SLA cards component enable agents to see where they are in the lifecycle of multiple task SLAs at a glance.
 
--   **[Task activity timeline preset and controller](https://servicenow-staging.fluidtopics.net/access?context=csm-record-page-timeline-component&family=zurich&ft:locale=en-US)**
+-   **[Task activity timeline preset and controller](https://www.servicenow.com/docs/access?context=csm-record-page-timeline-component&family=zurich&ft:locale=en-US)**
 
 Use the Task activity timeline preset and controller to add the Timeline component as a standalone component on task record pages such as case or incident.
 
--   **[Notifications for agent mentions in records](https://servicenow-staging.fluidtopics.net/access?context=notifications-for-agent-mentions-in-records&family=zurich&ft:locale=en-US)**
+-   **[Notifications for agent mentions in records](https://www.servicenow.com/docs/access?context=notifications-for-agent-mentions-in-records&family=zurich&ft:locale=en-US)**
 
 Receive workspace notifications when agents are mentioned using @ in comments or work notes. Notifications include record details and a direct link for quick access.
 
--   **[Quick start tests for Customer Service Management](https://servicenow-staging.fluidtopics.net/access?context=quick-start-tests-csm&family=zurich&ft:locale=en-US)**
+-   **[Quick start tests for Customer Service Management](https://www.servicenow.com/docs/access?context=quick-start-tests-csm&family=zurich&ft:locale=en-US)**
 
 After upgrades and deployments of new applications or integrations, run quick start tests to verify that Customer Service Management works as expected. If you customized Customer Service Management, copy the quick start tests and configure them for your customizations.
 
@@ -143,26 +143,26 @@ Yokohama
 
 </td><td>
 
--   **[Form template enhancements](https://servicenow-staging.fluidtopics.net/access?context=csm-workspace-form-templates&family=yokohama&ft:locale=en-US)**
+-   **[Form template enhancements](https://www.servicenow.com/docs/access?context=csm-workspace-form-templates&family=yokohama&ft:locale=en-US)**
 
 Use the following form template enhancements to create or edit templates as needed:
 
     -   The **Templates** tab in the configurable side panel displays larger template cards with the template name and an expanded description. Users can view different lists of templates, mark their favorites, and sort templates either alphabetically or by last used.
     -   The template form displays template fields in a clearly labeled form section and displays the line numbers and headings for each template line to improve readability
     -   The template tab header displays "Edit template" when a user opens a template in edit mode.
--   **[Front-line case page integration with knowledge guidance](https://servicenow-staging.fluidtopics.net/access?context=csm-front-line-case-page&family=yokohama&ft:locale=en-US)**
+-   **[Front-line case page integration with knowledge guidance](https://www.servicenow.com/docs/access?context=csm-front-line-case-page&family=yokohama&ft:locale=en-US)**
 
 Enable agents to attach and add links to knowledge articles in comments, work notes, or emails by using modeless dialogs.
 
--   **[Resurface special handling notes](https://servicenow-staging.fluidtopics.net/access?context=c_OnScreenAlerts&family=yokohama&ft:locale=en-US)**
+-   **[Resurface special handling notes](https://www.servicenow.com/docs/access?context=c_OnScreenAlerts&family=yokohama&ft:locale=en-US)**
 
 Display the special handling notes for a case at any time by selecting **Special handling notes** from the More actions menu on the case record action bar.
 
--   **[Customer Central application moved from family to store release](https://servicenow-staging.fluidtopics.net/access?context=customer-central&family=yokohama&ft:locale=en-US)**
+-   **[Customer Central application moved from family to store release](https://www.servicenow.com/docs/access?context=customer-central&family=yokohama&ft:locale=en-US)**
 
 Starting with the Yokohama release, the Customer Central application \(com.sn\_csm\_customer\_central\) has moved to the ServiceNow Store. Any new enhancements to this application are delivered through the Customer Central store app.
 
--   **[Customer Activity Guided Setup now accessible from a new location](https://servicenow-staging.fluidtopics.net/access?context=configure-customer-activity&family=yokohama&ft:locale=en-US)**
+-   **[Customer Activity Guided Setup now accessible from a new location](https://www.servicenow.com/docs/access?context=configure-customer-activity&family=yokohama&ft:locale=en-US)**
 
 Use the following updates in Guided Setup to enhance navigation and access customer history configurations:
 
@@ -170,35 +170,35 @@ Use the following updates in Guided Setup to enhance navigation and access custo
     -   View Activity Contexts, Activity Types, Activity Groups, and Activity Type Templates within Guided Setup. You can also access them in the menu by navigating to **All** &gt; **Customer Central** &gt; **Customer Activity** &gt; **Guided Setup**.
     -   Customer Activity has been renamed to Customer History, maintaining the same functionality.
     -   Access the Business Rule in the Activity Feed where it is now listed independently alongside Activity Types, Activity Groups, and Activity Type Templates for improved accessibility. Previously, it was nested under Activity Types.
--   **[Front-line case page lookup component](https://servicenow-staging.fluidtopics.net/access?context=csm-front-line-case-page&family=yokohama&ft:locale=en-US)**
+-   **[Front-line case page lookup component](https://www.servicenow.com/docs/access?context=csm-front-line-case-page&family=yokohama&ft:locale=en-US)**
 
 The Front-line case page includes the following enhancements:
 
     -   Includes the Consumer lookup component.
     -   Uses advanced search to look up contacts and consumers.
     -   Contact and consumer record cards can be collapsed to display more record space.
--   **[Action bar layout](https://servicenow-staging.fluidtopics.net/access?context=csm-front-line-case-page&family=yokohama&ft:locale=en-US)**
+-   **[Action bar layout](https://www.servicenow.com/docs/access?context=csm-front-line-case-page&family=yokohama&ft:locale=en-US)**
 
 The following interaction record pages include an action bar with a single action layout:
 
     -   CSM Interaction record page
     -   CSM voice interaction record page
--   **[Comment and Work note modeless dialogs](https://servicenow-staging.fluidtopics.net/access?context=csm-front-line-case-page-modeless-dialogs&family=yokohama&ft:locale=en-US)**
+-   **[Comment and Work note modeless dialogs](https://www.servicenow.com/docs/access?context=csm-front-line-case-page-modeless-dialogs&family=yokohama&ft:locale=en-US)**
 
 Create and use form templates that add content to the **Additional comments** and **Work notes** fields on a case record. Automatically display a modeless dialog that includes the content from the form template and then post that content to the activity stream.
 
--   **[Front-line case page contextual side panel](https://servicenow-staging.fluidtopics.net/access?context=csm-front-line-case-page&family=yokohama&ft:locale=en-US)**
+-   **[Front-line case page contextual side panel](https://www.servicenow.com/docs/access?context=csm-front-line-case-page&family=yokohama&ft:locale=en-US)**
 
 The Record Information tab in the contextual side panel includes the Overview and Active SLA cards. The contact card and timeline card have been removed to improve the page load time.
 
--   **[Recommended Actions AI search replaces Agent Assist](https://servicenow-staging.fluidtopics.net/access?context=csm-front-line-case-page&family=yokohama&ft:locale=en-US)**
+-   **[Recommended Actions AI search replaces Agent Assist](https://www.servicenow.com/docs/access?context=csm-front-line-case-page&family=yokohama&ft:locale=en-US)**
 
 Recommended Actions AI search replaces Agent Assist in the contextual side panel for the following record pages included with the CSM Configurable Workspace:
 
     -   CSM default record page
     -   Front-line case page
     -   CSM Interaction record page \(for type = Chat, Video, Walkup, Email\)
--   **[Customer History component features](https://servicenow-staging.fluidtopics.net/access?context=customer-history-component-features&family=yokohama&ft:locale=en-US)**
+-   **[Customer History component features](https://www.servicenow.com/docs/access?context=customer-history-component-features&family=yokohama&ft:locale=en-US)**
 
 Use the following features to provide agents real-time updates and customer history details:
 
@@ -213,7 +213,7 @@ Zurich
 
 </td><td>
 
--   **[Thin compose modeless dialogs](https://servicenow-staging.fluidtopics.net/access?context=csm-front-line-case-page-modeless-dialogs&family=zurich&ft:locale=en-US)**
+-   **[Thin compose modeless dialogs](https://www.servicenow.com/docs/access?context=csm-front-line-case-page-modeless-dialogs&family=zurich&ft:locale=en-US)**
 
 Enable agents to initiate a comment, work note, or email in the activity stream and then open the text in a modeless dialog. This feature is available on the following record pages:
 
@@ -225,7 +225,7 @@ Enable agents to initiate a comment, work note, or email in the activity stream 
     -   Email interaction record page
 -   **Activity Stream enhancements**
     -   Activity Stream layout now automatically adjusts to your device \(laptop, tablet, or mobile\). Hidden content is indicated by \(...\) for better readability.
--   **[Lookup component on CSM Configurable Workspace record pages](https://servicenow-staging.fluidtopics.net/access?context=csm-record-page-lookup-component&family=zurich&ft:locale=en-US)**
+-   **[Lookup component on CSM Configurable Workspace record pages](https://www.servicenow.com/docs/access?context=csm-record-page-lookup-component&family=zurich&ft:locale=en-US)**
 
 Use the Lookup component to look up and link a contact and then verify the contact. The Lookup component replaces the Lookup and Verify component on the CSM Configurable Workspace record pages.
 
@@ -241,7 +241,7 @@ Supports having two forms on a record page.
 
 Updated the bell icon behavior so the notification count accurately reflects the number of unique, unread notifications in real time, eliminating duplicate increments.
 
--   **[Customer History enhancements](https://servicenow-staging.fluidtopics.net/access?context=customer-history-component-features&family=zurich&ft:locale=en-US)**
+-   **[Customer History enhancements](https://www.servicenow.com/docs/access?context=customer-history-component-features&family=zurich&ft:locale=en-US)**
 
 Use the following enhancements to control grouping, appearance, and refresh behavior in customer history:
 
@@ -250,7 +250,7 @@ Use the following enhancements to control grouping, appearance, and refresh beha
     -   Display activities by updated date: A new property enables feeds to surface activities based on the last updated timestamp in Customer History.
     -   Dynamic refresh updates: Customer History feeds now refresh automatically, but only for records in the Customer History activities table and within the current context \(for example, Contact\). Other tables and parent records are not included.
     -   Introduced a new search icon that lets agents show or hide the search bar with a click.
--   **[Improve discoverability of Recommended Actions](https://servicenow-staging.fluidtopics.net/access?context=csm-front-line-case-page&family=zurich&ft:locale=en-US)**
+-   **[Improve discoverability of Recommended Actions](https://www.servicenow.com/docs/access?context=csm-front-line-case-page&family=zurich&ft:locale=en-US)**
 
 Use the following updates to improve the visibility of Recommended Actions across key CSM pages:
 
@@ -263,11 +263,11 @@ Use the following updates to improve the visibility of Recommended Actions acros
         -   CSM centered chat interaction record page
     -   Load Recommended Actions asynchronously to keep the UI responsive while recommendations load.
     -   Enable agents to send relevant KB articles through SMS during voice interactions and messaging-type interactions.
--   **[Default recommendations for Pro customers](https://servicenow-staging.fluidtopics.net/access?context=csm-front-line-case-page&family=zurich&ft:locale=en-US)**
+-   **[Default recommendations for Pro customers](https://www.servicenow.com/docs/access?context=csm-front-line-case-page&family=zurich&ft:locale=en-US)**
 
 Recommendations are now delivered by default for Pro customers when either the Task Intelligence for CSM or the Now Assist for CSM plugin is installed. Agents can view contextual recommendations under the **Suggested Actions** tab, such as similar cases and open incidents, when the case meets the predefined criteria. Agents can link or copy resolutions directly into the current case.
 
--   **[Resurface special handling notes](https://servicenow-staging.fluidtopics.net/access?context=c_OnScreenAlerts&family=zurich&ft:locale=en-US)**
+-   **[Resurface special handling notes](https://www.servicenow.com/docs/access?context=c_OnScreenAlerts&family=zurich&ft:locale=en-US)**
 
 Display the special handling notes at any time by selecting  Special handling notes  from the More actions menu on the case record action bar. This action is now available on records from the following tables:
 
@@ -279,21 +279,21 @@ Display the special handling notes at any time by selecting  Special handling 
     -   Work Order Task
 This applies only to records where special handling notes are configured.
 
--   **[Information session tab enhancements](https://servicenow-staging.fluidtopics.net/access?context=csm-workspace-chat-session-tabs-configure&family=zurich&ft:locale=en-US)**
+-   **[Information session tab enhancements](https://www.servicenow.com/docs/access?context=csm-workspace-chat-session-tabs-configure&family=zurich&ft:locale=en-US)**
 
 Use the following changes to enforce permissions and improve usability of the **Session** tab:
 
     -   Restrict access to unauthorized users with error messages and validate role-based permissions.
     -   Auto-save admin updates to timer and color changes in real time.
     -   Display workspace settings only after the Session tab is enabled.
--   **[Configure Alert Dismissal settings at experience and alert level](https://servicenow-staging.fluidtopics.net/access?context=csm-workspace-chat-session-tabs-configure&family=zurich&ft:locale=en-US)**
+-   **[Configure Alert Dismissal settings at experience and alert level](https://www.servicenow.com/docs/access?context=auto-dismiss-alerts-in-csm-configurable-workspace&family=zurich&ft:locale=en-US)**
 
 Use the following settings to control alert dismissal:
 
     -   Set alerts to auto-dismiss or require manual dismissal.
     -   Configure alert behavior globally or according to alert.
     -   Reduce alert overload while supporting accessibility standards, which helps agents focus on critical alerts.
--   **[ServiceNow Link Manager is available on the Google Chrome, Microsoft Edge, and Mozilla Firefox plugin store](https://servicenow-staging.fluidtopics.net/access?context=csm-workspace-snow-link-manager&family=zurich&ft:locale=en-US)**
+-   **[ServiceNow Link Manager is available on the Google Chrome, Microsoft Edge, and Mozilla Firefox plugin store](https://www.servicenow.com/docs/access?context=csm-workspace-snow-link-manager&family=zurich&ft:locale=en-US)**
 
 Streamline tab management and reduce browser clutter with ServiceNow Link Manager:
 
@@ -301,9 +301,18 @@ Streamline tab management and reduce browser clutter with ServiceNow Link Manage
     -   Provides cross-platform support.
     -   Enables agents to share record links, such as cases, through platforms like Gmail, Microsoft Teams, Microsoft Outlook, and other web tools integrated with ServiceNow. These links open using ServiceNow Link Manager, ensuring the record loads in the correct workspace and context.
     -   Provides a user-friendly interface that is easy to enable and turn off directly from the extension settings in the respective browser.
--   **[Follow records to receive notifications](https://servicenow-staging.fluidtopics.net/access?context=csm-default-record-page&family=zurich&ft:locale=en-US)**
+-   **[Follow records to receive notifications](https://www.servicenow.com/docs/access?context=csm-default-record-page&family=zurich&ft:locale=en-US)**
 
-Select the **Follow** action to receive notifications when comments or work notes are added to a record. The Follow action is available in the More actions menu on the [Front-line case page](https://servicenow-staging.fluidtopics.net/access?context=csm-front-line-case-page&family=zurich&ft:locale=en-US) and the [CSM default record page](https://servicenow-staging.fluidtopics.net/access?context=csm-default-record-page&family=zurich&ft:locale=en-US).
+Select the **Follow** action to receive notifications when comments or work notes are added to a record. The Follow action is available in the More actions menu on the [Front-line case page](https://www.servicenow.com/docs/access?context=csm-front-line-case-page&family=zurich&ft:locale=en-US) and the [CSM default record page](https://www.servicenow.com/docs/access?context=csm-default-record-page&family=zurich&ft:locale=en-US).
+
+-   **Information icon**
+
+Select the information icon on a reference field to display additional information about the record in a pop-up window. Starting with CSM Configurable Workspace Bundle version 5.0, the information displays in a pop-up window with an option to open in a separate tab instead of opening directly in a separate tab. This change applies to the following record pages:
+
+    -   CSM Front-line case page
+    -   CSM default record page
+    -   CSM Interaction record page
+Users can use Cmd+click \(Mac\) or Ctrl+click \(Windows\) when selecting the information icon to use the previous behavior.
 
 
 </td></tr></tbody>
@@ -383,9 +392,9 @@ Yokohama
 
 </td><td>
 
-CSM Configurable Workspace is available with activation of the Customer Service plugin \(com.sn\_customerservice\). For details, see [Activate Customer Service Management](https://servicenow-staging.fluidtopics.net/access?context=t_ActivateCustomerService&family=yokohama&ft:locale=en-US).
+CSM Configurable Workspace is available with activation of the Customer Service plugin \(com.sn\_customerservice\). For details, see [Activate Customer Service Management](https://www.servicenow.com/docs/access?context=t_ActivateCustomerService&family=yokohama&ft:locale=en-US).
 
- Install CSM Configurable Workspace by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+ Install CSM Configurable Workspace by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -393,7 +402,7 @@ Zurich
 
 </td><td>
 
-CSM Configurable Workspace is available with activation of the Customer Service plugin \(com.sn\_customerservice\). For details, see [Activate Customer Service Management](https://servicenow-staging.fluidtopics.net/access?context=t_ActivateCustomerService&family=zurich&ft:locale=en-US).
+CSM Configurable Workspace is available with activation of the Customer Service plugin \(com.sn\_customerservice\). For details, see [Activate Customer Service Management](https://www.servicenow.com/docs/access?context=t_ActivateCustomerService&family=zurich&ft:locale=en-US).
 
  Install CSM Configurable Workspace by requesting it from the ServiceNow Store. 
 
@@ -445,7 +454,7 @@ Yokohama
 
 </td><td>
 
-ServiceNow workspaces don’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge - Chromium or one of the other supported browsers listed in [Browser support](https://servicenow-staging.fluidtopics.net/access?context=browser-support&family=yokohama&ft:locale=en-US).
+ServiceNow workspaces don’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge - Chromium or one of the other supported browsers listed in [Browser support](https://www.servicenow.com/docs/access?context=browser-support&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -453,7 +462,7 @@ Zurich
 
 </td><td>
 
-ServiceNow workspaces don’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge - Chromium or one of the other supported browsers listed in [Browser support](https://servicenow-staging.fluidtopics.net/access?context=browser-support&family=zurich&ft:locale=en-US).
+ServiceNow workspaces don’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge - Chromium or one of the other supported browsers listed in [Browser support](https://www.servicenow.com/docs/access?context=browser-support&family=zurich&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Accessibility information
@@ -538,7 +547,7 @@ Yokohama
 -   Display native voice configurations in CSM Configurable Workspace with the Voice interaction record page that agents can use to handle phone calls.
 -   Dedicate time after each call or chat for agents to finalize interaction details.
 
- See [CSM Configurable Workspace](https://servicenow-staging.fluidtopics.net/access?context=csm-workspaces-configure&family=yokohama&ft:locale=en-US) for more information.
+ See [CSM Configurable Workspace](https://www.servicenow.com/docs/access?context=csm-workspaces-configure&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -551,7 +560,7 @@ Zurich
 -   Provide agents with visibility to all previous customer activity and the ability to filter and search to find specific activities.
 -   Initiate a comment, work note, or email in the activity stream in CSM Configurable Workspace and then open the text in a modeless dialog.
 
- See [CSM Configurable Workspace](https://servicenow-staging.fluidtopics.net/access?context=csm-workspaces-configure&family=zurich&ft:locale=en-US) for more information.
+ See [CSM Configurable Workspace](https://www.servicenow.com/docs/access?context=csm-workspaces-configure&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

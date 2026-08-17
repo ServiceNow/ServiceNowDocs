@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-changemanagement-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
@@ -54,7 +54,7 @@ Zurich
 
 </td><td>
 
-As part of the update to use Flow instead of Progress Workers for conflict detection, the Conflict Checker Progress UI Formatter record references a new UI macro, change\_conflict\_worker\_progress\_gate. This macro checks the **change.conflict.useprogressworker** system property to determine the conflict detection mechanism and then displays the corresponding UI macro to work with either Progress Workers or the Change Management Worker table. For more information, see [Conflict detection](https://servicenow-staging.fluidtopics.net/access?context=c_ConflictDetection&family=zurich&ft:locale=en-US).
+As part of the update to use Flow instead of Progress Workers for conflict detection, the Conflict Checker Progress UI Formatter record references a new UI macro, change\_conflict\_worker\_progress\_gate. This macro checks the **change.conflict.useprogressworker** system property to determine the conflict detection mechanism and then displays the corresponding UI macro to work with either Progress Workers or the Change Management Worker table. For more information, see [Conflict detection](https://www.servicenow.com/docs/access?context=c_ConflictDetection&family=zurich&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## New features
@@ -83,7 +83,7 @@ Yokohama
 
 </td><td>
 
--   **[User role for service desk agents](https://servicenow-staging.fluidtopics.net/access?context=installed-with-cm-itsm-roles&family=yokohama&ft:locale=en-US)**
+-   **[User role for service desk agents](https://www.servicenow.com/docs/access?context=installed-with-cm-itsm-roles&family=yokohama&ft:locale=en-US)**
 
 With the sn\_service\_desk\_agent user role, increase operational efficiency by streamlining the process of asking about, gathering, and verifying information, as well as delivering quick resolutions. This role is designed for tier 1 service desk agents and is accessible when the ITSM Roles plugin \(com.snc.itsm.roles\) installed.
 
@@ -98,19 +98,19 @@ Additionally, with the installation of the **ITSM Gen AI** \(**com.sn.itsm.gen.a
 
 The sn\_service\_desk\_agent user role can be used starting with Service Operations Workspace version 6.1.
 
--   **[Change model Type field](https://servicenow-staging.fluidtopics.net/access?context=t_CreateAChange&family=yokohama&ft:locale=en-US)**
+-   **[Change model Type field](https://www.servicenow.com/docs/access?context=t_CreateAChange&family=yokohama&ft:locale=en-US)**
 
 A new **Model** option has been added to the change model Type field to help users identify a change that is controlled by a change model. **Model** is the default if a Type has not been set for the change request of a certain change model.
 
--   **[No default Risk value for change requests](https://servicenow-staging.fluidtopics.net/access?context=t_CreateAChange&family=yokohama&ft:locale=en-US)**
+-   **[No default Risk value for change requests](https://www.servicenow.com/docs/access?context=t_CreateAChange&family=yokohama&ft:locale=en-US)**
 
 There is no longer a default value for the Risk field on the Change Request table. The Risk value is set to **-- None --** until the risk is evaluated for the change request. This change ensures that no risk value is pre-assigned, allowing for a more accurate assessment before advancing the change
 
--   **[Mandatory field transition condition](https://servicenow-staging.fluidtopics.net/access?context=create-a-change-model&family=yokohama&ft:locale=en-US)**
+-   **[Mandatory field transition condition](https://www.servicenow.com/docs/access?context=create-a-change-model&family=yokohama&ft:locale=en-US)**
 
 Ensure mandatory fields are completed before advancing through states for a change request, as defined by the Change Model. This feature enables change managers to mandate the completion of required fields before states can progress according to the Change Model.
 
--   **[Deny-unless ACLs on core tables](https://servicenow-staging.fluidtopics.net/access?context=features-itsm-enhanced-security-change&family=yokohama&ft:locale=en-US)**
+-   **[Deny-unless ACLs on core tables](https://www.servicenow.com/docs/access?context=features-itsm-enhanced-security-change&family=yokohama&ft:locale=en-US)**
 
 Prevent unauthorized access to change\_request and change\_task tables using deny-unless ACLs. The deny-unless ACLs restrict access on these tables for a non-authenticated user to perform actions such as read, write, delete, or create.
 
@@ -123,17 +123,17 @@ Zurich
 
 </td><td>
 
--   **[Control opening of CAB meetings](https://servicenow-staging.fluidtopics.net/access?context=attend-cab-meeting-using-cab-workbench&family=zurich&ft:locale=en-US)**
+-   **[Control opening of CAB meetings](https://www.servicenow.com/docs/access?context=attend-cab-meeting-using-cab-workbench&family=zurich&ft:locale=en-US)**
 
-Control the opening of a CAB meeting from the CAB Meeting calendar in the CAB Meeting workbench in Service Operations Workspace or in the Core UI through the **sn\_change\_cab.com.snc.change\_management.cab.use\_sow\_meeting** system property. For more information, see [Change Management properties](https://servicenow-staging.fluidtopics.net/access?context=r_ChangeManagementProperties&family=zurich&ft:locale=en-US).
+Control the opening of a CAB meeting from the CAB Meeting calendar in the CAB Meeting workbench in Service Operations Workspace or in the Core UI through the **sn\_change\_cab.com.snc.change\_management.cab.use\_sow\_meeting** system property. For more information, see [Change Management properties](https://www.servicenow.com/docs/access?context=r_ChangeManagementProperties&family=zurich&ft:locale=en-US).
 
--   **[Track conflict detection](https://servicenow-staging.fluidtopics.net/access?context=c_ConflictDetection&family=zurich&ft:locale=en-US)**
+-   **[Track conflict detection](https://www.servicenow.com/docs/access?context=c_ConflictDetection&family=zurich&ft:locale=en-US)**
 
 Track the progress of conflict detection using the Change - Conflict Detection flow \(that runs as a system user\) and the Change Management Worker table instead of Progress Workers. You can choose between the Flow and Progress Worker options by updating the **change.conflict.useprogressworker** system property.
 
 A new UI formatter **change\_conflict\_worker\_progress\_gate.xml** has been introduced to the change request form to replace the existing **change\_request\_conflict\_progress.xml**. This update supports the **change.conflict.useprogressworker** system property when you upgrade to Zurich. The new formatter displays the same Conflict tab but selects the macro version to render the form according to the value of the new system property.
 
--   **[Define the maximum records for conflict detection](https://servicenow-staging.fluidtopics.net/access?context=configure-conflict-properties&family=zurich&ft:locale=en-US)**
+-   **[Define the maximum records for conflict detection](https://www.servicenow.com/docs/access?context=configure-conflict-properties&family=zurich&ft:locale=en-US)**
 
 Limit the maximum number of conflict records that can be generated for each conflict type when conflict detection runs through the **change.conflict.max\_count** system property; create this system property if it is not already present.
 
@@ -173,7 +173,7 @@ Zurich
 
 </td><td>
 
--   **[Propose a standard change template in Service Operations Workspace](https://servicenow-staging.fluidtopics.net/access?context=propose-standard-change-sow&family=zurich&ft:locale=en-US)**
+-   **[Propose a standard change template in Service Operations Workspace](https://www.servicenow.com/docs/access?context=propose-standard-change-sow&family=zurich&ft:locale=en-US)**
 
 As a user with the itil role, you can create a standard change template proposal in Service Operations Workspace.
 
@@ -205,7 +205,7 @@ Yokohama
 
 </td><td>
 
-Change Management workflows have been removed and replaced by flows for new customers. Existing customers that use these workflows are unaffected. The flows are available to both new and existing customers. You can use ServiceNow® Workflow Studio to customize or extend these flows. For more information, see [Flow Designer](https://servicenow-staging.fluidtopics.net/access?context=flow-designer&family=yokohama&ft:locale=en-US).
+Change Management workflows have been removed and replaced by flows for new customers. Existing customers that use these workflows are unaffected. The flows are available to both new and existing customers. You can use ServiceNow® Workflow Studio to customize or extend these flows. For more information, see [Flow Designer](https://www.servicenow.com/docs/access?context=flow-designer&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -468,7 +468,7 @@ Yokohama
 -   Require specified field details to be updated before transitioning the state of a change request by converting existing optional fields to mandatory fields.
 -   Restrict unauthorized access to Change Management tables using deny ACLs.
 
- See [Change Management](https://servicenow-staging.fluidtopics.net/access?context=c_ITILChangeManagement&family=yokohama&ft:locale=en-US) for more information.
+ See [Change Management](https://www.servicenow.com/docs/access?context=c_ITILChangeManagement&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -482,7 +482,7 @@ Zurich
 -   Coral is the new default theme for Next Experience and Core UI, offering a more modern experience.
 
 
- See [Change Management](https://servicenow-staging.fluidtopics.net/access?context=c_ITILChangeManagement&family=zurich&ft:locale=en-US) for more information.
+ See [Change Management](https://www.servicenow.com/docs/access?context=c_ITILChangeManagement&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/rn-combined-intro.md)

@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [LEAP dashboard, automation opportunities, cost savings, operational efficiency]
-breadcrumb: [Using LEAP, Learning Enhanced Automation Platform \(LEAP\), Now Assist for ITOM, IT Operations Management]
+breadcrumb: [Use, Learning Enhanced Automation Platform \(LEAP\), ServiceNow Otto for ITOM, IT Operations Management]
 ---
 
 # Monitor automation opportunities using the LEAP value dashboard
@@ -19,7 +19,7 @@ Use the dashboard to track automation opportunities, cost savings, and operation
 
 ## Before you begin
 
-Role required: admin
+Role required: LEAP admin
 
 ## About this task
 

@@ -9,7 +9,7 @@ classification: ai-control-tower
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [AI systems, Definitions of AI asset inventory, Explore, AI Control Tower, Enable AI experiences]
+breadcrumb: [AI systems, Definitions of AI asset inventory, Explore, AI Control Tower \(legacy\), Enable AI experiences]
 ---
 
 # Example of an AI system

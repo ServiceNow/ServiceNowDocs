@@ -18,7 +18,7 @@ Install the Virtual Agent API app to integrate any chat interface or a bot with 
 
 ## Before you begin
 
-If you're upgrading from a version before version 2 and if authentication is required for your instance, you must revert the customization before upgrading. For these versions, the upgrade skips the Scripted REST Service when authentication is turned on. For more information, see .
+If you're upgrading from a version before version 2 and if authentication is required for your instance, you must revert the customization before upgrading. For these versions, the upgrade skips the Scripted REST Service when authentication is turned on. For more information, see [Revert a customization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/uc-revert-customization.md).
 
 You must meet the following requirements:
 
@@ -45,7 +45,7 @@ The Bot to Bot Control \[sys\_cs\_bot\_to\_bot\_control\] table is installed wit
 
     You can search for the application by its name or ID. If you cannot find the application, you may have to request it from the ServiceNow Store.
 
-    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 3.  Select a version from the list and select **Install**.
 

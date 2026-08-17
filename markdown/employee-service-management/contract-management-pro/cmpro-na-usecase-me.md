@@ -1,25 +1,21 @@
 ---
 title: Create use cases for contract metadata extraction
-description: Create a use case for contract metadata extraction to define the information that you want Now Assist to detect in a document.
+description: Create a use case for contract metadata extraction to define the information that you want AI to detect in a document.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/contract-management-pro/cmpro-na-usecase-me.html
 release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
-keywords: [Use cases for contract metadata extraction, Now Assist use cases, Contract metadata extraction, Now Assist in contract management pro, Now Assist for contract management pro, AI for contract management pro]
-breadcrumb: [Configure metadata extraction, Configure, Now Assist in CM Pro, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+keywords: [Use cases for contract metadata extraction, Now Assist use cases, Contract metadata extraction, Now Assist in contract management pro, AI for contract management pro]
+breadcrumb: [Configure metadata extraction, Configure, Now Assist in Contract Management, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Create use cases for contract metadata extraction
 
-Create a use case for contract metadata extraction to define the information that you want Now Assist to detect in a document.
-
-## About this task
-
-The following video walks you through the process of creating use cases for the contract metadata extraction skill.\[Omitted video\] Description: Video explaining how to create use cases for contract metadata extraction.
+Create a use case for contract metadata extraction to define the information that you want AI to detect in a document.
 
 ## Before you begin
 
@@ -27,19 +23,17 @@ Role required: sn\_cm\_gen\_ai.ai\_contract\_config, sn\_cm\_core.contract\_conf
 
 ## About this task
 
-The CM Pro - Contract Metadata Extraction use case is available with the Now Assist in Contract Management base system. This use case is not editable. For more information about the various fields in the CM Pro - Contract Metadata Extraction use case, see [Contract metadata extraction use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/metadata-extraction-use-case.md).
+The CM Pro - Contract Metadata Extraction use case is available with the base system. This use case is not editable. For more information about the various fields in the CM Pro - Contract Metadata Extraction use case, see [Contract metadata extraction use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/metadata-extraction-use-case.md).
 
 **Note:** If you create your own use case or customize a copy of an available use case, be sure to test it thoroughly to ensure accuracy.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills** to access the **Now Assist Skills** tab of the Now Assist Admin console.
+1.  Navigate to **All** &gt; **Admin Center** &gt; **AI Admin Hub** to access the **AI Skills** tab of the AI Admin Hub console.
 
 2.  Navigate to **Employee** &gt; **CM Pro**.
 
-3.  Select **Activate skill** on the skill that you want to activate.
-
-    \[Omitted image "cmpro-NA-skills.png"\] Alt text: Now Assist skills available for Contract Management Pro.
+3.  Select **Activate skill** on the skill you want to activate.
 
 4.  On the General details page, view the skill details and select **Save and continue**.
 
@@ -85,7 +79,7 @@ LLM provider
 
 </td><td>
 
-Large language model \(LLM\) provider for the use case that is used to extract metadata.**Note:** For contract metadata extraction use cases, select large LLMs such as Now LLM Service Large to ensure more accurate results.
+Large language model \(LLM\) provider for the use case that is used to extract metadata.**Note:** For contract metadata extraction use cases, select large LLMs such as Azure OpenAI GPT to achieve more accurate results.
 
 </td></tr><tr><td>
 
@@ -113,8 +107,6 @@ Displays the skill name for which you’re creating the use case.
     2.  Enter details for the new field.
 
         For more information on the field form, see [Field form for use case setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/document-extraction-single-field-form.md).
-
-        \[Omitted image "cmpro-na-fields-me.png"\] Alt text: Field information for contract metadata extraction.
 
     3.  Select **Save**.
 
@@ -145,14 +137,14 @@ Displays the skill name for which you’re creating the use case.
 
 ## Result
 
-The use case is created for the Contract metadata extraction skill. Now Assist uses the use case to extract metadata from signed contract.
+The use case is created for the Contract metadata extraction skill. AI uses the use case to extract metadata from signed contract.
 
 ## What to do next
 
 [Map a use case for contract metadata extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cmpro-na-usecase-mappings-me.md)
 
 -   **[Contract metadata extraction use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/metadata-extraction-use-case.md)**  
-In contract metadata extraction, use cases specify the information that you want Now Assist to detect in a document.
+In contract metadata extraction, use cases specify the information that you want AI to detect in a document.
 
 **Parent Topic:**[Configuring contract metadata extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-conf-metadata-extraction.md)
 
@@ -165,7 +157,7 @@ In contract metadata extraction, use cases specify the information that you want
 
 [Enable notification for contract metadata extraction]()
 
-[Configure the workspace URL for contract metadata extraction notifications]()
+[Configure the URL for metadata extraction notifications]()
 
 [Configure an extension point to add contract metadata]()
 

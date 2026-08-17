@@ -39,7 +39,7 @@ The ServiceNow® Export to PowerPoint for Strategic Portfolio Management add-in 
 </td></tr></tbody>
 </table>**Important:**
 
--   For more information about the data processing required to generate a project status report within the ServiceNow servers based on your location, see the [KB1170323](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1170323) article in the Now Support Knowledge Base.
+-   For more information about the data processing required to generate a project status report within the ServiceNow servers, see the [KB1170323](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1170323) article in the Now Support Knowledge Base.
 -   Export to PowerPoint is currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. Please check for availability updates in future releases.
 
 ## Troubleshoot and get help

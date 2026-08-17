@@ -7,7 +7,7 @@ release: zurich
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Manage team backlog, Use, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -18,9 +18,17 @@ Edit details of a PI or a Sprint to update details such as name, team capacity, 
 
 ## Before you begin
 
-[Create next PI and Sprint from EAP Backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/create-pi-sprint-eap-backlog.md).
+[Create a Planning Interval or Sprint from EAP Backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/create-pi-sprint-eap-backlog.md).
 
-Role required: sn\_apw\_advanced.eap\_user
+Role required: sn\_apw\_advanced.eap\_user or sn\_apw\_advanced.eap\_scrum\_master
+
+## About this task
+
+Only an EAP scrum master can change the **Start date** and **End date** of an iteration. Users with the EAP user role can update the other iteration details, such as the name and the team capacity.
+
+When you change the start date or end date of an iteration, the change updates the underlying planning calendar entry. The iterations on all other teams that share that entry are updated too, which keeps iteration timelines aligned across teams that plan together. Iterations that are complete or cancelled aren't updated.
+
+Date changes must pass the same rules that apply on creation. For the full list, see .
 
 ## Procedure
 
@@ -30,11 +38,15 @@ Role required: sn\_apw\_advanced.eap\_user
 
 3.  From the Backlog tab of an ART or an Agile Team, select the name of the iteration to open its details in the side panel.
 
-4.  From the side panel, edit details such as Name, Capacity, Committed points and others.
+4.  From the side panel, edit details such as Name, **Start date**, **End date**, Capacity, Committed points and others.
+
+    The **Start date** and **End date** fields are editable only for an EAP scrum master.
 
     \[Omitted image "eap-edit-sprint.png"\] Alt text: Sprint details in the side panel in EAP.
 
 5.  Save changes by selecting **Save**.
+
+    If the new dates conflict with existing iterations or the underlying calendar entry, the changes aren't saved and an error message identifies the conflict.
 
 
 **Parent Topic:**[Manage team backlog in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/using-eap.md)

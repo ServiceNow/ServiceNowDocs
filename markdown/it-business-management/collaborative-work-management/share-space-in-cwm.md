@@ -22,9 +22,13 @@ Invite cross-team members to Collaborative Work Management Spaces to collaborate
 
 Role required: sn\_cwm.cwm\_user
 
+For more information about the two kinds of Spaces and organization-wide sharing, see [Collaborating with Spaces in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/cwm-spaces.md).
+
 ## About this task
 
 Sharing a Space with a user results in them gaining access to all Boards, Docs, and folders within that Space. Use the Share permissions modal from the Space or Board header to manage sharing permissions and access levels to your Space for your team.
+
+**Note:** You can share a Space only with users within your organization. CWM Spaces don't have a separate watch list; the access levels in the following table are the complete sharing model.
 
 ## Procedure
 

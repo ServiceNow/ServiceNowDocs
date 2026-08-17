@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-06-09"
 reading_time_minutes: 2
 keywords: [Discovery, agentic workflow, Now Assist, pattern diagnostic, missing attribute, CMDB, data quality]
-breadcrumb: [Use agentic AI, Now Assist for ITOM, IT Operations Management]
+breadcrumb: [Use agentic AI, ServiceNow Otto for ITOM, IT Operations Management]
 ---
 
 # Pattern diagnostic agentic workflow
@@ -21,7 +21,7 @@ When Discovery runs, it populates CI attributes in the CMDB using both probe-bas
 
 ## Requirements
 
-Now Assist for IT Operations Management \(ITOM\) must be installed on your instance. For more information, see [Install the Now Assist for IT Operations Management \(ITOM\) plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/install-now-assist-itom.md).
+Now Assist for IT Operations Management \(ITOM\) must be installed on your instance. For more information, see [Install the ServiceNow Otto for IT Operations Management \(ITOM\) plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/install-now-assist-itom.md).
 
 Role required: discovery\_admin.
 
@@ -59,5 +59,5 @@ The following scenarios illustrate how the workflow handles different CI and pat
     The workflow investigates a missing `cluster_connection` attribute on an AWS Auto Scaling Group CI. Cloud CIs use an SA-LDC identifier instead of a traditional IP address. The workflow navigates the Hosted on relationship to resolve the SA-LDC identifier and searches logs using the identifier and process ID. It returns a full report with sample CIs investigated, link to CIs, root cause and remediation guidance.
 
 
-**Parent Topic:**[Use agentic AI in Now Assist for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-ai-agent-workflows.md)
+**Parent Topic:**[Use agentic AI in ServiceNow Otto for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-ai-agent-workflows.md)
 

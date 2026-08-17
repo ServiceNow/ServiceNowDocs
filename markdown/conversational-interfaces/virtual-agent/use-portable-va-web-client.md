@@ -32,10 +32,10 @@ The portable chat widget uses an inline frame element \(iframe\). The third-part
 
 Before you begin, do the following:
 
-1.  Activate the custom URL plugin \(com.snc.customurl\) in your instance.
-2.  Add the custom URL \(that you previously purchased and registered\) to your instance.
+1.  [Activate the custom URL plugin \(com.snc.customurl\) in your instance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/activate-custom-url-plugin.md)
+2.  [Add the custom URL \(that you previously purchased and registered\) to your instance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/configure-custom-url.md)
 
-**Note:** To learn more about using custom URLs, see Associating custom URLs to your instance.
+**Note:** To learn more about using custom URLs, see [Associating custom URLs to your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/custom-url.md).
 
 ## Using SSO authentication with the portable Virtual Agent chat widget
 

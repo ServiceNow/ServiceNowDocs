@@ -31,5 +31,3 @@ Administrators can create new reference fields and configure several options for
 |Reference key|A reference key saves a field other than sys\_id as the unique identifier for a reference field.|
 |Enable dynamic creation|When dynamic creation is enabled, entering a nonexistent value in a reference field creates a new record on the referenced table instead of returning an error.|
 
-**Tip:** For troubleshooting information, see the [Reference field is not showing the expected display value when selected or it appears blank \[KB0693859\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0693859) article in the Now Support Knowledge Base.
-

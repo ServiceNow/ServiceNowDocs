@@ -22,7 +22,7 @@ Role required: virtual\_agent\_admin or admin
 
 ## About this task
 
-Use topic categories to group related conversation topics. When your create or update a topic, you can assign one or more categories to which the topic belongs. You can also view your topics by category in Virtual Agent Designer.
+Use topic categories to group related conversation topics. When your create or update a topic, you can assign one or more categories to which the topic belongs. You can also view your topics by category in Assistant Designer Asset library.
 
 For your end users, you can make the custom category label visible in the Topic picker menu so that associated topics are displayed by category.
 
@@ -85,7 +85,7 @@ Option to display the category label in the Topic picker menu for end users. **N
 
     The topic category appears in the following items:
 
-    -   **Category** list collector \(slushbucket\) on the Topic Properties page in Virtual Agent Designer so that you can assign one or more categories to a topic.
+    -   **Category** list collector \(slushbucket\) on the Topic Properties page in Assistant Designer Asset library so that you can assign one or more categories to a topic.
     -   **Category** filter on the Topics page, so that you can view topics by category.
     -   Topic cards on the Topics page, for topics that have assigned categories.
     -   Topic picker menu displayed to end users, if you made the category visible. Topics with multiple categories are displayed in the appropriate categories. Topics without categories are listed in the Others category.
@@ -94,7 +94,7 @@ Option to display the category label in the Topic picker menu for end users. **N
 
 4.  To delete a topic category, open the category record and click **Delete**.
 
-    If there are no topics associated with the category, the category is deleted. It is no longer listed in the **Category** field on the Topics Properties page and in the **Category** filter on the Topics page in Virtual Agent Designer.
+    If there are no topics associated with the category, the category is deleted. It is no longer listed in the **Category** field on the Topics Properties page and in the **Category** filter on the Topics page in Assistant Designer Asset library.
 
 
 **Parent Topic:**[Configuring Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/configure-virtual-agent.md)

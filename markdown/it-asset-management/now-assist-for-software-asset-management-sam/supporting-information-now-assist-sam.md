@@ -1,6 +1,6 @@
 ---
-title: Supporting information for Now Assist for Software Asset Management \(SAM\)
-description: Get a quick overview of the important information that is related to the Now Assist for Software Asset Management \(SAM\) application.
+title: Supporting information for ServiceNow Otto for Software Asset Management \(SAM\)
+description: Get a quick overview of the important information that is related to the ServiceNow Otto for Software Asset Management \(SAM\) application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/now-assist-for-software-asset-management-sam/supporting-information-now-assist-sam.html
 release: zurich
@@ -9,43 +9,20 @@ classification: now-assist-for-software-asset-management-sam
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Explore, Now Assist for Software Asset Management \(SAM\), Software Asset Management, IT Asset Management]
+breadcrumb: [Explore, ServiceNow Otto for Software Asset Management \(SAM\), Software Asset Management, IT Asset Management]
 ---
 
-# Supporting information for Now Assist for Software Asset Management \(SAM\)
+# Supporting information for ServiceNow Otto for Software Asset Management \(SAM\)
 
-Get a quick overview of the important information that is related to the Now Assist for Software Asset Management \(SAM\) application.
+Get a quick overview of the important information that is related to the ServiceNow Otto for Software Asset Management \(SAM\) application.
 
 ## Supported versions
 
-Now Assist for SAM is supported starting with the Yokohama release.
+ServiceNow Otto for SAM is supported starting with the Yokohama release.
 
-## Supported user interfaces
+## Languages supported
 
-The Now Assist for SAM application includes the skill that is listed in the following table.
-
-<table id="table_e4m_4tf_pdc"><thead><tr><th>
-
-Interface
-
-</th><th>
-
-Feature
-
-</th></tr></thead><tbody><tr><td>
-
-Software Asset Workspace
-
-</td><td>
-
--   Publisher compliance summarization
--   Product compliance summarization
--   Recommended actions
-
-</td></tr></tbody>
-</table>## Languages supported
-
-The Now Assist for SAM application supports the following languages:
+The ServiceNow Otto for SAM application supports the following languages:
 
 -   Arabic
 -   Czech
@@ -73,22 +50,22 @@ The Now Assist for SAM application supports the following languages:
 
 ## Application information
 
-Activate the Now Assist for Software Asset Management \(SAM\) store app \(sn\_now\_assist\_sam\) to use the publisher compliance summarization skill.
+Activate the ServiceNow Otto for Software Asset Management \(SAM\) store app \(sn\_now\_assist\_sam\) to use the Software Asset Management skills.
 
 This store app has the following dependencies:
 
 -   Software Asset Management Professional \(com.snc.samp\)
 -   Software Asset Workspace \(sn\_sam\_workspace\)
--   Now Assist for Platform \(sn\_genai\_platform\)
--   Now Assist AI Agents \(sn\_aia\)
+-   ServiceNow Otto for Platform \(sn\_genai\_platform\)
+-   AI Agents \(sn\_aia\)
 -   AI Agents for ITAM \(sn\_itam\_aia\)
 
 Activate the applications in the following order:
 
 -   Software Asset Management Professional
 -   Software Asset Workspace
--   Now Assist for Platform
--   Now Assist for Software Asset Management \(SAM\)
+-   ServiceNow Otto for Platform
+-   ServiceNow Otto for Software Asset Management \(SAM\)
 
-**Parent Topic:**[Exploring Now Assist for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/now-assist-for-software-asset-management-sam/exploring-now-assist-sam.md)
+**Parent Topic:**[Exploring ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/now-assist-for-software-asset-management-sam/exploring-now-assist-sam.md)
 

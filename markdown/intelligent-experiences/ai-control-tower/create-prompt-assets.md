@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 3
 keywords: [Now Assist, generative AI]
-breadcrumb: [Creating AI assets, Use, AI Control Tower, Enable AI experiences]
+breadcrumb: [Creating AI assets, Use, AI Control Tower \(legacy\), Enable AI experiences]
 ---
 
 # Create prompt assets

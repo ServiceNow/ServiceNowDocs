@@ -22,7 +22,7 @@ Role required: ham\_admin
 
 ## About this task
 
-**Important:** Configuring the stockroom is necessary for AI agents to source the hardware asset requests from it. However, to automate your hardware asset requests using the Manage hardware asset requests agentic workflow, you must install the Now Assist for Hardware Asset Management \(HAM\) application. For more details, see [Now Assist for Hardware Asset Management \(HAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/now-assist-for-hardware-asset-management/now-assist-ham.md).
+**Important:** Configuring the stockroom is necessary for AI agents to source the hardware asset requests from it. However, to automate your hardware asset requests using the Manage hardware asset requests agentic workflow, you must install the ServiceNow Otto for Hardware Asset Management \(HAM\) application. For more details, see [ServiceNow Otto for Hardware Asset Management \(HAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/now-assist-for-hardware-asset-management/now-assist-ham.md).
 
 ## Procedure
 

@@ -9,7 +9,7 @@ classification: project-workspace
 topic_type: task
 last_updated: "2026-04-18"
 reading_time_minutes: 2
-breadcrumb: [Manage Projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Manage projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Generate a project plan using project plan generation skill
@@ -20,7 +20,7 @@ Use Project plan generation skill to generate a project plan from natural langua
 
 Role required: it\_project\_manager
 
--   Install Now Assist for Strategic Portfolio Management \(SPM\) plugin.
+-   Install ServiceNow Otto for Strategic Portfolio Management plugin.
 -   To use attachments to generate a project, activate the document intelligence skill. The default LLM is Azure OpenAI. Switching to a different model may affect accuracy.
 
 -   The project plan generation skill is activated by default. For more information on how to activate the skill if it isn't automatically activated or if you want to change the skill configuration, see [Configure Now Assist Admin features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/now-assist-for-strategic-portfolio-management-spm/configuring-na-spm.md).
@@ -30,7 +30,7 @@ Role required: it\_project\_manager
 
 Now Assist scans your project and task details to generate content. Review and edit the output before creating the project. Supported file types are word, pdf, excel, and powerpoint, with a 5 MB file size limit. Only the first five attachments are processed.
 
-For project and task supported column configurations, see [Supported columns for project and task generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/now-assist-for-strategic-portfolio-management-spm/column-configuration-project-tasks.md).
+For project and task supported column configurations, see [Supported columns for project and task generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/column-configuration-project-tasks.md).
 
 ## Procedure
 
@@ -64,18 +64,6 @@ For project and task supported column configurations, see [Supported columns for
 ## Result
 
 The project is created with the generated tasks, including task hierarchy and dates derived from your input.
-
-## Generate a project plan from an Excel file
-
-Input: An excel file with two sheets:
-
--   Sheet 1: Project details such as project name, start and end dates, budget, and key objectives.
--   Sheet 2: 18 tasks with task name, phase, start date, end date, and duration.
-
-Output AI reads the file and creates the following:
-
--   Project record with: Name, description, start and end dates, and business case derived from the key objectives.
--   18 task records with: Task name, description, start and end dates, duration, and state. Fields not present in the file, such as key milestone and time constraint, are auto-populated with default values.
 
 **Parent Topic:**[Managing projects with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/use-projects-pw.md)
 

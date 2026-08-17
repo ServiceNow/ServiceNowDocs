@@ -1,18 +1,18 @@
 ---
-title: Now Assist AI agents capabilities
-description: Lists the features supported by Now Assist AI agents, including configuration options and functional capabilities.
+title: AI agents capabilities
+description: Lists the features supported by AI agents, including configuration options and functional capabilities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/na-aia-capabilities.html
 release: zurich
 topic_type: reference
 last_updated: "2026-02-08"
 reading_time_minutes: 2
-breadcrumb: [AI agents best practices, Explore, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [AI agents best practices, Explore, AI Agent Studio, Enable AI experiences]
 ---
 
-# Now Assist AI agents capabilities
+# AI agents capabilities
 
-Lists the features supported by Now Assist AI agents, including configuration options and functional capabilities.
+Lists the features supported by AI agents, including configuration options and functional capabilities.
 
 ## Invoke conversations with AI Agent Background Channel
 
@@ -30,11 +30,11 @@ You can also see the entire execution steps on the AI Agent Studio Testing page 
 
 The Interactive AI agents reach out to users for information when there is a fallback in the execution process, and the AI agent re-triggers the flow.
 
-The Non-interactive AI agents do not reach out to the user at any fallback stage in the execution process. When the AI agent needs user information, it takes the dynamic prompt approach using the ReAct layer, where the prompt of the ReAct will change based on the execution mode of the AI agent or agentic workflow. Therefore, in the Non-interactive execution, the reach fallback options do not have to collect input from a user as a fallback option. However, the output of the AI agent or agentic workflow will still need to be presented to the user, and in any execution failure scenario, a message in the Now Assist panel or Virtual Agent is shown.
+The Non-interactive AI agents do not reach out to the user at any fallback stage in the execution process. When the AI agent needs user information, it takes the dynamic prompt approach using the ReAct layer, where the prompt of the ReAct will change based on the execution mode of the AI agent or agentic workflow. Therefore, in the Non-interactive execution, the reach fallback options do not have to collect input from a user as a fallback option. However, the output of the AI agent or agentic workflow will still need to be presented to the user, and in any execution failure scenario, a message in the ServiceNow Otto panel or Virtual Agent is shown.
 
 To implement the Non-interactive execution, the **Execution Mode** field is added in the Execution Plans \[sn\_aia\_execution\_plan\] table, where the execution mode can be **Interactive** or **Non Interactive** based on the given runtime parameter.
 
-You can run the AI agents and agentic workflows concurrently in the AI Agent Background Channel and in Non-interactive mode where the background execution allows AI agents to operate with any chat panel like Now Assist panel or Virtual Agent.
+You can run the AI agents and agentic workflows concurrently in the AI Agent Background Channel and in Non-interactive mode where the background execution allows AI agents to operate with any chat panel like ServiceNow Otto panel or Virtual Agent.
 
 ## Multilingual support
 

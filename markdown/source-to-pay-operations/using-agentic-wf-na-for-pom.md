@@ -1,6 +1,6 @@
 ---
-title: Using agentic workflows in Now Assist for Purchase Order Management \(POM\)
-description: Use agentic workflows in Now Assist for Purchase Order Management \(POM\) to track and resolve anomalies or irregularities in the purchase order \(PO\) execution process.
+title: Using agentic workflows in Now Assist for POM
+description: Use agentic workflows in Now Assist for Purchase Order Management to track and resolve anomalies or irregularities in the purchase order \(PO\) execution process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/using-agentic-wf-na-for-pom.html
 release: zurich
@@ -10,11 +10,11 @@ reading_time_minutes: 1
 breadcrumb: [Now Assist for POM, Purchase Order Management, Source-to-Pay Operations, Finance and Supply Chain]
 ---
 
-# Using agentic workflows in Now Assist for Purchase Order Management \(POM\)
+# Using agentic workflows in Now Assist for POM
 
-Use agentic workflows in Now Assist for Purchase Order Management \(POM\) to track and resolve anomalies or irregularities in the purchase order \(PO\) execution process.
+Use agentic workflows in Now Assist for Purchase Order Management to track and resolve anomalies or irregularities in the purchase order \(PO\) execution process.
 
-Use the following agentic workflows that are available with Now Assist for Purchase Order Management \(POM\)
+Use the following agentic workflows that are available with Now Assist for Purchase Order Management
 
 |Available agentic workflows|Description|Available AI agents|
 |---------------------------|-----------|-------------------|
@@ -26,8 +26,5 @@ Use the following agentic workflows that are available with Now Assist for Purch
 -   [Create an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configure-use-case-ai-agents.md)
 -   [Modify an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/modify-aia-use-case.md)
 
-Looking for an AI agent?
-
--   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/find-ai-agents.md).
--   To find agents that might not be installed on your instance, visit the [AI Agent Marketplace](https://store.servicenow.com/store/ai-marketplace) on the ServiceNow Store.
+There might be AI agents installed on your instance that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/find-ai-agents.md).
 

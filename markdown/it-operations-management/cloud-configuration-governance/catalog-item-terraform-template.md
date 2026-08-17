@@ -7,9 +7,9 @@ release: zurich
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Using Cloud Services Catalog Terraform Connector, Cloud Services Catalog Terraform Connector, Support for continuous delivery \(configuration management\), Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
+breadcrumb: [Use, Cloud Services Catalog Terraform Connector, Support for continuous delivery \(configuration management\), Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Create a catalog item from the Terraform template
@@ -18,6 +18,7 @@ Create a catalog item from the Terraform template to request cloud resource prov
 
 ## Before you begin
 
+-   Ensure that the Terraform template contains only one provider. Templates with multiple providers or provider aliases will fail validation.
 -   Ensure that an appropriate Terraform config provider is available. For more information on creating the config provider, see [Create a Terraform Open Source config provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/setup-cpg-terraform-connector-for-terraform-open-source.md) and [Create a Terraform Enterprise or Terraform Cloud config provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/setup-cpg-terraform-connector-for-terraform-enterprise.md).
 -   Ensure that the Terraform template is working \(that is, you can directly use the template with the Terraform system to provision the specified cloud resources\). For more information on Terraform templates, see the [Terraform language documentation](https://www.terraform.io/language).
 -   Ensure that the provider block of the Terraform template adheres to the following syntax:
@@ -78,7 +79,7 @@ Create a catalog item from the Terraform template to request cloud resource prov
         **Note:** Do not hard-code any credential in the Terraform template. Use appropriate Terraform variables to fetch the credentials from the ServiceNow AI Platform.
 
 -   Ensure that the variable definition file \(`variable.tf`, `.tfvars`, or `.tfvars.json`\) contains the definition of the variables used in the provider block.
--   If you are using Terraform Enterprise or Terraform Cloud, verify that the MID Server can connect with Version Control System \(VCS\) accounts provisioned in the Terraform organization.
+-   If you are using Terraform Enterprise or Terraform Cloud, ensure that the MID Server can connect with Version Control System \(VCS\) accounts provisioned in the Terraform organization.
 
     To verify connectivity with the VCS accounts provisioned in the Terraform organization, execute the appropriate curl command on the MID Server.
 

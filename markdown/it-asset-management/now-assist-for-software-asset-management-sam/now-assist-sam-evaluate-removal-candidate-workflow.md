@@ -1,5 +1,5 @@
 ---
-title: Now Assist for Software Asset Management \(SAM\) AI agent collection to evaluate software removal candidate agentic workflow
+title: ServiceNow Otto for Software Asset Management \(SAM\) AI agent collection to evaluate software removal candidate agentic workflow
 description: Use the Evaluate software removal candidate agentic workflow to assess installed or subscription-based software for potential removal by analyzing their usage over a specified period and determining the total number eligible for removal. After user confirmation, the workflow initiates the eligible removal candidate for reclamation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/now-assist-for-software-asset-management-sam/now-assist-sam-evaluate-removal-candidate-workflow.html
@@ -9,14 +9,14 @@ classification: now-assist-for-software-asset-management-sam
 topic_type: concept
 last_updated: "2025-08-05"
 reading_time_minutes: 4
-breadcrumb: [Use agentic workflows, Now Assist for Software Asset Management \(SAM\), Software Asset Management, IT Asset Management]
+breadcrumb: [Use agentic workflows, ServiceNow Otto for Software Asset Management \(SAM\), Software Asset Management, IT Asset Management]
 ---
 
-# Now Assist for Software Asset Management \(SAM\) AI agent collection to evaluate software removal candidate agentic workflow
+# ServiceNow Otto for Software Asset Management \(SAM\) AI agent collection to evaluate software removal candidate agentic workflow
 
 Use the Evaluate software removal candidate agentic workflow to assess installed or subscription-based software for potential removal by analyzing their usage over a specified period and determining the total number eligible for removal. After user confirmation, the workflow initiates the eligible removal candidate for reclamation.
 
-**Important:** This agentic workflow is turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This agentic workflow is turned on by default. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 ## Evaluate software removal candidate overview
 
@@ -25,14 +25,14 @@ Use the Evaluate software removal candidate agentic workflow to identify and eva
 Ensure that you have the following prerequisites for running the Evaluate software removal candidate agentic workflow:
 
 -   Your organization has a software asset management system integrated with AI agents.
--   Access an AI-driven now-asset panel.
+-   Access to the ServiceNow Otto panel.
 -   AI agents have access to reclamation rules, removal candidates, products, and license metric results.
 
 ## Role masking
 
 Roles required: sam\_user.
 
-[Role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/aia-role-masking.md) enables users to limit the roles and privileges of agentic workflows during tool execution. Agentic workflows and their AI agents that get installed with Now Assist applications are assigned pre-defined roles. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. Data access settings must also include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/define-sec-controls-aw.md).
+Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/define-sec-controls-aw.md).
 
 ## Evaluate software removal candidate agentic workflow
 
@@ -65,20 +65,20 @@ Publisher details page- product level
 
 1.  Navigate to the Activity center.
 2.  Select **suggestions** in the **Removal candidates** box in the Activity center.
-3.  Select the sparkle icon on the top-right side of the workspace to open the Now Assist panel.
+3.  Select the Otto icon \[Omitted image "icon-otto-outline-24.svg"\] Alt text:on the top-right side of the workspace to open the ServiceNow Otto panel.
 
-If the Now Assist panel is already open, select the hamburger icon.
+If the panel is already open, select the hamburger icon.
 
-4.  Select **Evaluate removal candidates** in the Active section in the Now Assist panel.
+4.  Select **Evaluate removal candidates** in the Active section in the panel.
 5.  Select a product from a list of products that need reclamation rules, to initiate the agentic workflow.
 
 </td><td>
 
 1.  Navigate to **License usage** &gt; **Publishers** &gt; **Removal candidates tab**
 2.  Select **Evaluate removal candidates**.
-3.  Select the sparkle icon on the top-right side of the workspace to open the Now Assist panel.
+3.  Select the Otto icon \[Omitted image "icon-otto-outline-24.svg"\] Alt text:on the top-right side of the workspace to open the ServiceNow Otto panel.
 
-If the Now Assist panel is already open, select the hamburger icon.
+If the panel is already open, select the hamburger icon.
 
 The chat window shows your products narrowed down to the specific publisher.
 
@@ -88,13 +88,13 @@ The chat window shows your products narrowed down to the specific publisher.
 
 1.  Navigate to **License usage** &gt; **Publishers** &gt; **Removal candidates tab**
 2.  Select **Evaluate removal candidates**.
-3.  Select the sparkle icon on the top-right side of the workspace to open the Now Assist panel.
+3.  Select the Otto icon \[Omitted image "icon-otto-outline-24.svg"\] Alt text: on the top-right side of the workspace to open the ServiceNow Otto panel.
 
-If the Now Assist panel is already open, select the hamburger icon to initiate the agentic workflow.
+If the panel is already open, select the hamburger icon to initiate the agentic workflow.
 
 
 </td></tr></tbody>
-</table>The AI agent initiates a series of checks using multiple criteria, assessing factors such as the product ID, whether it's installed or subscription-based software, and its last usage, among other metrics. If any check fails, the Now Assist panel displays an error message indicating that the workflow can’t continue. If all the checks are successful, a message appears to indicate the number of removal candidates identified for the particular product. You’re then asked if you would like to reclaim the software. If you confirm, the reclamation process gets initiated and the state of the removal candidates changes from **Ready** to **Awaiting User**. You can navigate to the Removal candidates tab in the License Usage view to see the removal candidates and their current state. After the process is complete, you’re informed about all the removal candidates that were successfully reclaimed for the specific product.
+</table>The AI agent initiates a series of checks using multiple criteria, assessing factors such as the product ID, whether it's installed or subscription-based software, and its last usage, among other metrics. If any check fails, the panel displays an error message indicating that the workflow can’t continue. If all the checks are successful, a message appears to indicate the number of removal candidates identified for the particular product. You’re then asked if you would like to reclaim the software. If you confirm, the reclamation process gets initiated and the state of the removal candidates changes from **Ready** to **Awaiting User**. You can navigate to the Removal candidates tab in the License Usage view to see the removal candidates and their current state. After the process is complete, you’re informed about all the removal candidates that were successfully reclaimed for the specific product.
 
 Once a removal candidate has been reclaimed by the agentic workflow, the Activity tab in the removal candidate record is updated with relevant work notes.
 
@@ -104,7 +104,7 @@ Once a removal candidate has been reclaimed by the agentic workflow, the Activit
 |--------|-------------|
 |Software removal candidate evaluation AI agent|Identifies or proposes users for removal from a software product by assessing their usage within a set time frame and ensuring that the total number of eligible candidates for reclamation is notified to the user, while excluding any VIP users.|
 
-**Important:** This AI agent is turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This AI agent is turned on by default. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
-**Parent Topic:**[Using agentic workflows in Now Assist for SAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/now-assist-for-software-asset-management-sam/using-now-assist-sam-ai-agents-usecases.md)
+**Parent Topic:**[Using agentic workflows in ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/now-assist-for-software-asset-management-sam/using-now-assist-sam-ai-agents-usecases.md)
 

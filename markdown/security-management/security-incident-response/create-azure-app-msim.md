@@ -1,5 +1,5 @@
 ---
-title: Register a new application at Azure portal for SharePoint connections
+title: Register an Azure application for SharePoint connections
 description: Register a new application at Azure portal for Microsoft SharePoint integration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/create-azure-app-msim.html
@@ -7,12 +7,13 @@ release: zurich
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [azure, app-registration, sharepoint, integration]
 breadcrumb: [Integrate Major Security Incident Management with Microsoft SharePoint, Integrate, Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
-# Register a new application at Azure portal for SharePoint connections
+# Register an Azure application for SharePoint connections
 
 Register a new application at Azure portal for Microsoft SharePoint integration.
 
@@ -26,8 +27,6 @@ Role required: admin, Azure admin
 
 2.  Navigate to **Azure Services** &gt; **Application Registration** &gt; **New Registration**.
 
-    **Note:** In case if you don't find, navigate to **Azure Services** and search for **App Registration**.
-
 3.  Enter the name of the application.
 
     For example, Microsoft SharePoint graph.
@@ -38,27 +37,29 @@ Role required: admin, Azure admin
 
 6.  Enter ServiceNow AI Platform® instance redirect URL in the allowed redirect URL field.
 
+    **Note:** If sharing one App Registration across all environments, add all three instance redirect URLs here by selecting **Add URL** after each one.
+
     For example, `https://<InstanceName>.service-now.com/oauth_redirect.do`.
 
-7.  Click on **Register** and make sure the page is displayed with **Overview** section.
+7.  Select **Register** and make sure the page is displayed with **Overview** section.
 
 8.  Make a note of the Client ID and Tenant ID from **Essentials** section of the Overview page.
 
 9.  Under **API Permissions**, add the Microsoft Graph permission:
 
-    1.  Click **Add a permission**.
+    1.  Select **Add a permission**.
     2.  Select **Microsoft Graph**.
     3.  Select **Application Permissions**.
     4.  From the **Sites** list, select **Sites.Selected** permission.
-    5.  Click **Add permissions**.
+    5.  Select **Add permissions**.
 10. Under **API Permissions**, add the SharePoint permission:
 
-    1.  Click **Add a permission**.
+    1.  Select **Add a permission**.
     2.  Select **SharePoint**.
     3.  Select **Application Permissions**.
     4.  From the **Sites** list, select the **Sites.Selected** permission.
-    5.  Click **Add permissions**.
-11. After adding the permissions, click on  **Grant admin consent**.
+    5.  Select **Add permissions**.
+11. After adding the permissions, select **Grant admin consent**.
 
     All the permissions are now admin consented.
 

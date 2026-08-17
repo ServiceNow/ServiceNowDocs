@@ -1,6 +1,6 @@
 ---
 title: Creating and publishing product offering versions
-description: As a product catalog manager, you can create and publish the product offering versions that list the improved products and services that you can offer to your customers in a product catalog.
+description: As a product catalog manager, you can create and publish the product offering versions that list enhanced products and services that you can offer to your customers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-media-technology/creating-publishing-product-offering-somt.html
 release: zurich
@@ -12,11 +12,11 @@ breadcrumb: [Configuring product offerings and catalogs, Configure, Sales Custom
 
 # Creating and publishing product offering versions
 
-As a product catalog manager, you can create and publish the product offering versions that list the improved products and services that you can offer to your customers in a product catalog.
+As a product catalog manager, you can create and publish the product offering versions that list enhanced products and services that you can offer to your customers.
 
 ## Overview of product offering versions
 
-You create product offering versions for an existing product that you're improving. You typically create versions of product offerings by combining new versions of product, service, and resource specifications. Proper versioning enables your customer service agents to know what the latest versions of your product and service offerings are when they sell more expensive, complementary, upgraded, or related products to your customers.
+You create product offering versions for an existing product that you're improving. You typically create versions of product offerings by combining new versions of product, service, and resource specifications. Proper versioning enables your customer service agents to know what the latest versions of your product and service offerings are. This helps when they sell more expensive, complementary, upgraded, or related products to your customers.
 
 ## Creating versions of product offerings
 

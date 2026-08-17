@@ -1,5 +1,5 @@
 ---
-title: Using Now Assist for App Engine
+title: Using ServiceNow Otto for App Engine
 description: Enhance custom applications with generative and agentic AI capabilities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/now-assist-for-app-engine/use-now-assist-for-app-engine-enterprise.html
@@ -10,14 +10,14 @@ topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 2
 keywords: [now assist, app engine, AI capability, AI feature, AI product, AI agent, skill, generative AI, genAI, Now Assist for App Engine, custom app, use generative AI]
-breadcrumb: [Now Assist for App Engine, Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
+breadcrumb: [ServiceNow Otto for App Engine, Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
 ---
 
-# Using Now Assist for App Engine
+# Using ServiceNow Otto for App Engine
 
 Enhance custom applications with generative and agentic AI capabilities.
 
-With Now Assist for App Engine, you can enhance your custom applications with several AI capabilities: skills, AI agents, and agentic workflows. You can implement any number and combination of AI capabilities within your custom apps, depending on your app's workflow. To learn more about the types of AI capabilities that you can implement with Now Assist for App Engine, see [AI capabilities for enhancing custom applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/now-assist-for-app-engine/ai-capabilities-with-now-assist-for-app-engine.md).
+With ServiceNow Otto for App Engine, you can enhance your custom applications with several AI capabilities: skills, AI agents, and agentic workflows. You can implement any number and combination of AI capabilities within your custom apps, depending on your app's workflow. To learn more about the types of AI capabilities that you can implement with ServiceNow Otto for App Engine, see [AI capabilities for enhancing custom applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/now-assist-for-app-engine/ai-capabilities-with-now-assist-for-app-engine.md).
 
 Certain app workflows might be well suited for AI agents and agentic workflows. Other workflows might be best handled with skills. To learn about which AI capability might be best for your use case, see [Choosing the right AI capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/now-assist-for-app-engine/choosing-the-right-ai-capability.md).
 
@@ -47,10 +47,10 @@ The following list outlines the process for implementing an AI agent and agentic
 6.  [Evaluate the agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/execute-aia-eval.md) to monitor performance and evaluate it against different benchmarks.
 7.  Use the AI agent or agentic workflow in your custom application.
 
--   **[Summarize a record in-product using Now Assist for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/now-assist-for-app-engine/summarize-record-in-product-na-for-app-engine.md)**  
+-   **[Summarize a record in-product using ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/now-assist-for-app-engine/summarize-record-in-product-na-for-app-engine.md)**  
 Quickly understand the contents of a record in a custom application within Core UI or a custom workspace.
--   **[Summarize a record through chat using Now Assist for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/now-assist-for-app-engine/summarize-record-through-chat-na-for-app-engine.md)**  
+-   **[Summarize a record through chat using ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/now-assist-for-app-engine/summarize-record-through-chat-na-for-app-engine.md)**  
 Quickly understand the contents of a record through a conversation with Now Assist.
 
-**Parent Topic:**[Now Assist for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/now-assist-for-app-engine/add-ai-to-custom-apps-with-now-assist-for-app-engine-enterprise.md)
+**Parent Topic:**[ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/now-assist-for-app-engine/add-ai-to-custom-apps-with-now-assist-for-app-engine-enterprise.md)
 

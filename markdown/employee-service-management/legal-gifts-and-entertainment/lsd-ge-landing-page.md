@@ -7,7 +7,7 @@ release: zurich
 product: Legal Gifts and Entertainment
 classification: legal-gifts-and-entertainment
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -20,7 +20,7 @@ The ServiceNow® Gifts and Entertainment Compliance enables you to manage disclo
 
 <table id="table_rzz_55j_qcc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn how the features and benefits of Gifts and Entertainment Compliance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-gifts-and-entertainment/lsd-ge-overview.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about the features and benefits of Gifts and Entertainment Compliance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-gifts-and-entertainment/lsd-ge-overview.md)
 
 </td><td>
 

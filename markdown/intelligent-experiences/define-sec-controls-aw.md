@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/define-sec-controls-aw.html
 release: zurich
 topic_type: task
-last_updated: "2025-11-23"
+last_updated: "2026-07-21"
 reading_time_minutes: 3
-breadcrumb: [Create an agentic workflow, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Create an agentic workflow, AI Agent Studio, Enable AI experiences]
 ---
 
 # Define security controls for an agentic workflow
@@ -33,7 +33,7 @@ See [Security for AI agents](https://raw.githubusercontent.com/ServiceNow/Servic
     -   Users with specified roles
     -   Authenticated users
     -   Public
-    If you select **Users with specified roles**, you can select exactly which roles can access the agentic workflow. Agentic workflows installed with Now Assist applications and their AI agents might require you to include specific roles. To learn which roles they need, consult the documentation for the AI agent or the agentic workflow that uses the AI agent.
+    If you select **Users with specified roles**, you can select exactly which roles can access the agentic workflow. Agentic workflows installed with AI applications and their AI agents might require you to include specific roles. To learn which roles they need, consult the documentation for the AI agent or the agentic workflow that uses the AI agent.
 
     \[Omitted image "def-user-access-aw.png"\] Alt text: Define user access for an agentic workflow
 

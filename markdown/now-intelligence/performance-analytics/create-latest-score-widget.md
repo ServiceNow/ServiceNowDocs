@@ -8,7 +8,7 @@ product: Performance Analytics
 classification: performance-analytics
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 6
+reading_time_minutes: 5
 breadcrumb: [Score widgets, Performance Analytics widgets, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
@@ -28,7 +28,7 @@ This feature is in maintenance mode and is no longer being augmented or changed.
 
 A latest score visualization shows the latest score and both the absolute and percentage change between this score and a previous score. This visualization is similar to a **Chart** view in an Analytics Hub. You can choose how many scores back to compare to the latest score. You can also display a trend line of absolute or percentage changes in scores.
 
-**Note:** This data visualization is supported on the mobile platform. For more information, see [Displaying KPI Details for the mobile dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/mobile/mobile-reporting-pa-widgets.md) and [Mobile dashboard preview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/mobile/mobile-dashboard-preview.md).
+**Note:** This data visualization is supported on the mobile platform. For more information, see  and .
 
 \[Omitted image "latest-score-widget.png"\] Alt text: Latest score visualization of the percentage of incidents resolved without reassignment
 

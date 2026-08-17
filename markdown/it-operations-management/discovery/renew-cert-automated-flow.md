@@ -1,5 +1,5 @@
 ---
-title: Renew a certificate using automated certificate management
+title: Renew certificates using automated certificate management
 description: Request renewal for a certificate and automatically retrieve the certificate for an application. This maintains secure and uninterrupted services as you extend the validity period of the certificate, preventing potential service disruptions due to expired certificates.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/renew-cert-automated-flow.html
@@ -9,10 +9,10 @@ classification: discovery
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Automated certificate management for TLS certificates, Configuring Certificate Inventory and Management, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
+breadcrumb: [Automated certificate management for TLS certificates, Configure, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
 
-# Renew a certificate using automated certificate management
+# Renew certificates using automated certificate management
 
 Request renewal for a certificate and automatically retrieve the certificate for an application. This maintains secure and uninterrupted services as you extend the validity period of the certificate, preventing potential service disruptions due to expired certificates.
 

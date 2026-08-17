@@ -50,7 +50,7 @@ Workplace Reservation Management enables employees to search, reserve, modify, a
 
 ## Now Assist for Workplace service Delivery
 
-Now Assist for Workplace Service Delivery \(WSD\) elevates your Workplace Services experience with generative AI capabilities. Transform the employee experience by enabling interaction with physical workspaces through generative AI technology.
+ServiceNow Otto for Workplace Service Delivery \(WSD\) elevates your Workplace Services experience with generative AI capabilities. Transform the employee experience by enabling interaction with physical workspaces through generative AI technology.
 
 \[Omitted image "wsd-reserve-a-space-topic-nowassist.png"\] Alt text: Now Assist for WSD conversational interface showing options to reserve a space.
 
@@ -235,7 +235,7 @@ The workplace teams and office receptionists can easily monitor a visitor's arri
 
 The Workplace Services Kiosk provides a seamless check-in, check-out, and self-registration experience for visitors.
 
-[Now Assist for Workplace Service Delivery \(WSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-wsd/now-assist-wsd-landing.md) enhances your ServiceNow® Workplace services experience with generative AI capabilities. Request spaces quickly and intuitively, add workplace services, and guests to a new reservation.
+[ServiceNow Otto for Workplace Service Delivery \(WSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-wsd/now-assist-wsd-landing.md) enhances your ServiceNow® Workplace services experience with generative AI capabilities. Request spaces quickly and intuitively, add workplace services, and guests to a new reservation.
 
 Workplace Services Kiosk provides a new kiosk portal and a UI for Workplace Service Delivery features. The initial August '24 release focuses on Visitor Management Kiosk features, including self check-in, self check-out, and self-registration, which require the Visitor Management App. The February '25 release focuses on Indoor Mapping. Future releases expand capabilities.
 

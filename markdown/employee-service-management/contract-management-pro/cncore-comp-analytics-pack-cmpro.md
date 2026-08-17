@@ -103,9 +103,9 @@ Provides an immediate insight from your existing contract request data.
 
 [Contract request State and Contract document status in Contract Management Pro]()
 
-[Clause Variation form]()
-
 [Signatory roles]()
+
+[Clause Variation form]()
 
 [Contract Configuration form]()
 

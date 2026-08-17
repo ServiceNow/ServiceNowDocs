@@ -1,5 +1,5 @@
 ---
-title: Producing outbound API notifications using the open message bus
+title: Outbound trouble ticket notifications via open message bus
 description: Produce an outbound notification from the ServiceNow instance using the open message bus. Customers can consume the details of the notification from the message bus in their external system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/proactive-service-exp-workflows/product-support-for-technology/trouble-ticket-workflow-using-pub-sub-model.html
@@ -12,7 +12,7 @@ reading_time_minutes: 3
 breadcrumb: [Handling API notifications, Use, Proactive Service Experience Workflows]
 ---
 
-# Producing outbound API notifications using the open message bus
+# Outbound trouble ticket notifications via open message bus
 
 Produce an outbound notification from the ServiceNow instance using the open message bus. Customers can consume the details of the notification from the message bus in their external system.
 

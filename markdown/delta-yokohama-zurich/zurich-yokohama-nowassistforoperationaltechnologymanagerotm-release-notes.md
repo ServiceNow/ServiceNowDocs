@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-nowassistforoperationaltechnologymanagerotm-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
@@ -67,11 +67,11 @@ Yokohama
 
 </td><td>
 
--   **[Search for a related record](https://servicenow-staging.fluidtopics.net/access?context=search-related-records-ot-cmdb-tables-now-assist-otm&family=yokohama&ft:locale=en-US)**
+-   **[Search for a related record](https://www.servicenow.com/docs/access?context=search-related-records-ot-cmdb-tables-now-assist-otm&family=yokohama)**
 
 Use the OT CMDB search function to find an OT configuration item \(CI\) and OT device information in an OT CMDB table.
 
--   **[Upload, validate, and import your OT device inventory spreadsheet using the Import OT device spreadsheet into OT CMDB agentic workflow](https://servicenow-staging.fluidtopics.net/access?context=upload-import-validate-ot-device-inventory-spreadsheet&family=yokohama&ft:locale=en-US)**
+-   **[Upload, validate, and import your OT device inventory spreadsheet using the Import OT device spreadsheet into OT CMDB agentic workflow](https://www.servicenow.com/docs/access?context=upload-import-validate-ot-device-inventory-spreadsheet&family=yokohama)**
 
 Use the Import OT device spreadsheet into OT CMDB agentic workflow to begin the process for uploading, validating, and importing your OT device inventory into ServiceNow.
 
@@ -82,11 +82,11 @@ Zurich
 
 </td><td>
 
--   **[Search for a related record](https://servicenow-staging.fluidtopics.net/access?context=search-related-records-ot-cmdb-tables-now-assist-otm&family=zurich&ft:locale=en-US)**
+-   **[Search for a related record](https://www.servicenow.com/docs/access?context=search-related-records-ot-cmdb-tables-now-assist-otm&family=zurich)**
 
 Use the OT CMDB search function to find an OT configuration item \(CI\) and OT device information in an OT CMDB table.
 
--   **[Upload, validate, and import your OT device inventory spreadsheet using the Import OT device spreadsheet into OT CMDB agentic workflow](https://servicenow-staging.fluidtopics.net/access?context=upload-import-validate-ot-device-inventory-spreadsheet&family=zurich&ft:locale=en-US)**
+-   **[Upload, validate, and import your OT device inventory spreadsheet using the Import OT device spreadsheet into OT CMDB agentic workflow](https://www.servicenow.com/docs/access?context=upload-import-validate-ot-device-inventory-spreadsheet&family=zurich)**
 
 Use the Import OT device spreadsheet into OT CMDB agentic workflow to begin the process for uploading, validating, and importing your OT device inventory into ServiceNow.
 
@@ -110,17 +110,17 @@ Yokohama
 
 </td><td>
 
--   **[Changes to Now Assist usage measurement](https://servicenow-staging.fluidtopics.net/access?context=monitoring-now-assist-usage&family=yokohama&ft:locale=en-US)**
+-   **[Changes to Now Assist usage measurement](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=yokohama)**
 
 Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
--   **[Some Now Assist skills, agents, and agentic workflows are turned on by default](https://servicenow-staging.fluidtopics.net/access?context=now-assist-skills-on-by-default&family=yokohama&ft:locale=en-US)**
+-   **[Some Now Assist skills, agents, and agentic workflows are turned on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&family=yokohama)**
 
 The skills are automatically available to appropriate role users for the application, such as ITIL roles on incident forms or change forms. This change simply activates the skill and does not touch the roles that may be needed to use the skill. The new default behavior works as follows:
 
     -   New customers: When you install a Now Assist product, designated skills and agentic workflows are turned on automatically.
     -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill, agent, or agentic workflow is turned on automatically \(the AI asset was never configured and turned on, then turned off again\). Previously configured skills and agentic workflows that were turned on, then off, remain inactive.
--   **[Role masking](https://servicenow-staging.fluidtopics.net/access?context=aia-role-masking&family=yokohama&ft:locale=en-US)**
+-   **[Role masking](https://www.servicenow.com/docs/access?context=aia-role-masking&family=yokohama)**
 
 </td></tr><tr><td>
 
@@ -128,13 +128,13 @@ Zurich
 
 </td><td>
 
--   **[Changes to Now Assist usage measurement](https://servicenow-staging.fluidtopics.net/access?context=monitoring-now-assist-usage&family=zurich&ft:locale=en-US)**
+-   **[Changes to Now Assist usage measurement](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=zurich)**
 
 
 
 
 -   ****
--   **[Role masking](https://servicenow-staging.fluidtopics.net/access?context=aia-role-masking&family=zurich&ft:locale=en-US)**
+-   **[Role masking](https://www.servicenow.com/docs/access?context=aia-role-masking&family=zurich)**
 
 </td></tr></tbody>
 </table>## Removed
@@ -213,7 +213,7 @@ Yokohama
 
 </td><td>
 
-Now Assist for Operational Technology Manager \(OTM\) is a ServiceNow AI Platform feature that is available with activation of the Operational Technology Manager \(com.sn\_ot\_foundation\). For details, see [Install Operational Technology Manager](https://servicenow-staging.fluidtopics.net/access?context=install-operational-technology-manager&family=yokohama&ft:locale=en-US).
+Now Assist for Operational Technology Manager \(OTM\) is a ServiceNow AI Platform feature that is available with activation of the Operational Technology Manager \(com.sn\_ot\_foundation\). For details, see [Install Operational Technology Manager](https://www.servicenow.com/docs/access?context=install-operational-technology-manager&family=yokohama).
 
 </td></tr><tr><td>
 
@@ -221,7 +221,7 @@ Zurich
 
 </td><td>
 
-Now Assist for Operational Technology Manager \(OTM\) is a ServiceNow AI Platform feature that is available with activation of the Operational Technology Manager \(com.sn\_ot\_foundation\). For details, see [Install Operational Technology Manager](https://servicenow-staging.fluidtopics.net/access?context=install-operational-technology-manager&family=zurich&ft:locale=en-US).
+Now Assist for Operational Technology Manager \(OTM\) is a ServiceNow AI Platform feature that is available with activation of the Operational Technology Manager \(com.sn\_ot\_foundation\). For details, see [Install Operational Technology Manager](https://www.servicenow.com/docs/access?context=install-operational-technology-manager&family=zurich).
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -358,18 +358,18 @@ Yokohama
 
 </td><td>
 
-[Yokohama Patch 11](https://servicenow-staging.fluidtopics.net/access?context=yokohama-patch-11&family=yokohama&ft:locale=en-US)
+[Yokohama Patch 11](https://www.servicenow.com/docs/access?context=yokohama-patch-11&family=yokohama)
 
 -   Review changes to Now Assist usage measurement.
 -   Some Now Assist skills, agents, and agentic workflows are on by default.
 -   Additional role configuration is required for agentic workflows and AI agents included with Now Assist applications.
 
- [Yokohama Patch 10](https://servicenow-staging.fluidtopics.net/access?context=yokohama-patch-10&family=yokohama&ft:locale=en-US)
+ [Yokohama Patch 10](https://www.servicenow.com/docs/access?context=yokohama-patch-10&family=yokohama)
 
 -   Find OT Configuration Management Database \(CMDB\) records more quickly by using the OT CMDB search function.
 -   Simplify the upload, validation, and import of your OT device data by using the Import OT device spreadsheet into OT CMDB agentic workflow.
 
- See [Now Assist for Operational Technology Manager \(OTM\)](https://servicenow-staging.fluidtopics.net/access?context=now-assist-for-otm-landing&family=yokohama&ft:locale=en-US) for more information.
+ See [Now Assist for Operational Technology Manager \(OTM\)](https://www.servicenow.com/docs/access?context=now-assist-for-otm-landing&family=yokohama) for more information.
 
 </td></tr><tr><td>
 
@@ -377,17 +377,17 @@ Zurich
 
 </td><td>
 
-[Zurich Patch 5](https://servicenow-staging.fluidtopics.net/access?context=zurich-patch-5&family=zurich&ft:locale=en-US)
+[Zurich Patch 5](https://www.servicenow.com/docs/access?context=zurich-patch-5&family=zurich)
 
 -   Review changes to Now Assist usage measurement.
 
- [Zurich Patch 4](https://servicenow-staging.fluidtopics.net/access?context=zurich-patch-4&family=zurich&ft:locale=en-US)
+ [Zurich Patch 4](https://www.servicenow.com/docs/access?context=zurich-patch-4&family=zurich)
 
 -   Some Now Assist skills, agents, and agentic workflows are now turned on by default.
 -   Find OT Configuration Management Database \(CMDB\) records more quickly by using the OT CMDB search function.
 -   Simplify the upload, validation, and import of your OT device data by using the Import OT device spreadsheet into OT CMDB agentic workflow.
 
- See [Now Assist for OTM](https://servicenow-staging.fluidtopics.net/access?context=now-assist-for-otm-landing&family=zurich&ft:locale=en-US) for more information.
+ See [Now Assist for OTM](https://www.servicenow.com/docs/access?context=now-assist-for-otm-landing&family=zurich) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

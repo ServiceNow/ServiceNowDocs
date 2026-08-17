@@ -153,7 +153,7 @@ Description
 
 </td><td>
 
-Description about the digital integration. Describe in detail why the integration is being created between two business applications or between an external service provided interface and a business application and what business value it adds.
+Description about the digital integration. Describe why the integration is being created between two business applications or between an external service and a business application. Describe the business value it adds.
 
 </td></tr></tbody>
 </table>Additional fields appear after the digital integration is created. For details on the additional fields, see [Digital integration form in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-update-digital-integration-form.md).

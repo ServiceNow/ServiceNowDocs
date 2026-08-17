@@ -1,18 +1,18 @@
 ---
-title: Enable the Now Assist icon in Care Team Mobile
-description: Set up the Now Assist icon within Care Team Mobile so you can leverage the Request care team assistance agentic workflow in Care Team Mobile.
+title: Enable the ServiceNow Otto icon in Care Team Mobile
+description: Set up the ServiceNow Otto icon within Care Team Mobile so you can leverage the Request care team assistance agentic workflow in Care Team Mobile.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/healthcare-life-sciences/hco-now-assist-enable-icon.html
 release: zurich
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure, Now Assist for Healthcare Operations, Healthcare and Life Sciences]
+breadcrumb: [Configure, ServiceNow Otto for Care Team Operations, Healthcare and Life Sciences]
 ---
 
-# Enable the Now Assist icon in Care Team Mobile
+# Enable the ServiceNow Otto icon in Care Team Mobile
 
-Set up the Now Assist icon within Care Team Mobile so you can leverage the **Request care team assistance** agentic workflow in Care Team Mobile.
+Set up the ServiceNow Otto icon within Care Team Mobile so you can leverage the **Request care team assistance** agentic workflow in Care Team Mobile.
 
 ## Before you begin
 
@@ -30,11 +30,11 @@ Role required: admin
 
 5.  In **Properties**, enter a name for the icon.
 
-    For example, Now Assist for Care Team icon.
+    For example, ServiceNow Otto for Care Team Operations icon.
 
 6.  Enter a display label to identify what this icon displays as for users.
 
-7.  Set **Icon** to **spark-solid \(AIS\)**.
+7.  Set **Icon** to **Sparkmoji \[Otto\]**.
 
 8.  Set **Function** to **Agent Chat**.
 
@@ -44,7 +44,7 @@ Role required: admin
 
 10. Navigate to **All** &gt; **Conversational Interfaces** &gt; **Assistants** &gt; **Manage Assistants**.
 
-11. Select the Now Assist in Virtual Agent assistant \(default\).
+11. Select the ServiceNow Otto for Virtual Agent assistant \(default\).
 
 12. In **Display Experiences**, navigate to the **Mobile Apps** tab.
 
@@ -59,5 +59,5 @@ Role required: admin
 
 ## Result
 
-The Now Assist icon is accessible within Care Team Mobile. Users can select this icon to create support cases using the conversational abilities of Virtual Agent.
+The ServiceNow Otto icon is accessible within Care Team Mobile. Users can select this icon to create support cases using the conversational abilities of Virtual Agent.
 

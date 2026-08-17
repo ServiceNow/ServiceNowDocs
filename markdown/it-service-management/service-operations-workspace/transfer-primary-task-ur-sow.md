@@ -7,7 +7,7 @@ release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Universal Request in Service Operations Workspace, Manage, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -18,7 +18,11 @@ You can transfer a primary ticket to Universal Request, service set \(department
 
 ## Before you begin
 
-Role required: itil, the agents part of the assignment group or the agents on the primary ticket can perform this task.
+A primary task is the ticket \(such as an incident, change request or interaction\) that is linked to a Universal Request. When you open a task from the Universal Request list, and select **Transfer**, the ticket is routed to the selected department or service.
+
+The **Transfer** button appears in the record action bar at the top of the primary task form. If the button is not visible, verify that the Universal Request plugin \(com.snc.universal\_request\) is installed and you have the itil role.
+
+Role required: itil
 
 ## Procedure
 
@@ -44,6 +48,10 @@ Role required: itil, the agents part of the assignment group or the agents on th
 
 7.  Select **Transfer**.
 
+
+## Result
+
+After you select **Transfer**, the primary task is routed to the selected department or service. A new ticket is created for the target department, and the original primary task is linked to it in the Universal Request record under the **Associated Requests** related list.
 
 **Parent Topic:**[Universal Request in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/using-ur-sow.md)
 

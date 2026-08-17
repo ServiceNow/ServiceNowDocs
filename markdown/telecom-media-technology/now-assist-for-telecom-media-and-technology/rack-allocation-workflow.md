@@ -7,7 +7,7 @@ release: zurich
 product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 1
 breadcrumb: [Customer Service Problem Management, Use agentic workflows, Now Assist for TMT, Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -22,6 +22,8 @@ Role required: sn\_ni\_core.dc\_ops\_agent or sn\_ni\_core.inventory\_agent
 
 The rack allocation agentic workflow reserves rack unit space in a datacenter by evaluating placement policies, capacity metrics, and change request requirements to find suitable rack allocations.
 
+Access the rack allocation workflow.
+
 To access the agentic workflow:
 
 1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Create and manage**.
@@ -34,9 +36,9 @@ To access the use case testing page:
 1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Testing**.
 2.  On the Overview page, select **Rack allocation workflow**.
 
-The Rack Allocation Workflow uses the Rack placement AI agent to execute allocation steps. The LLM matches the agent's name and description to workflow steps to select the appropriate agent.
-
 AI agents in the rack allocation workflow.
+
+The Rack Allocation Workflow uses the Rack placement AI agent to execute allocation steps. The LLM matches the agent's name and description to workflow steps to select the appropriate agent.
 
 <table id="table_bhl_3y3_vjc"><thead><tr><th>
 

@@ -1,5 +1,5 @@
 ---
-title: Execution Tracking - Begin Flow Action
+title: Legacy: Execution Tracking - Begin Flow Action
 description: The Execution Tracking - Begin flow action starts the auditing process for a Security Operations Integration flow that operates on observables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/execution-tracking-begin.html
@@ -10,9 +10,13 @@ reading_time_minutes: 1
 breadcrumb: [Common Security Operations integration flows and orchestration activities, Security Operations Integration Reference, Security Operations common functionality, Security Operations]
 ---
 
-# Execution Tracking - Begin Flow Action
+# Legacy: Execution Tracking - Begin Flow Action
 
 The Execution Tracking - Begin flow action starts the auditing process for a Security Operations Integration flow that operates on observables.
+
+**Important:**
+
+This feature is no longer deployed, enhanced, or supported. It has been replaced by Capability Implementation Execution. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base.
 
 The Execution Tracking - Begin flow action can be used with any flow to begin recording the progress of the flow in an audit.
 
@@ -103,7 +107,7 @@ The output variables contain data that can be used in subsequent actions.
 |capabilityExecutionId|System identifier of the audit record.|
 
 -   [Get Supported Security Capabilities action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/get-supported-security-capabilities-activity.md)
--   [Capability Execution Tracking- No Impls action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/execution-tracking-noimpls-activity.md)
+-   [Legacy: Capability Execution Tracking- No Impls action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/execution-tracking-noimpls-activity.md)
 
 **Parent Topic:**[Common Security Operations integration flows and orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/common-wf-activities.md)
 

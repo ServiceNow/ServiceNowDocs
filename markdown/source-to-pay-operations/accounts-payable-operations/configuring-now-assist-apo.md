@@ -1,48 +1,46 @@
 ---
-title: Configure Now Assist for Accounts Payable Operations \(APO\)
-description: If you have the admin role, you can configure the Now Assist for Accounts Payable Operations \(APO\) application so that an accounts payable \(AP\) fulfiller can use the generative AI skills in Source-to-Pay Workspace and in Core UI.
+title: Configure ServiceNow Otto for Accounts Payable Operations \(APO\)
+description: Configure ServiceNow Otto for Accounts Payable Operations so that AP fulfillers can use generative AI skills in the Source-to-Pay Workspace and in Core UI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/accounts-payable-operations/configuring-now-assist-apo.html
 release: zurich
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Now Assist for APO, Accounts Payable Operations, Finance and Supply Chain]
+keywords: [APO, Accounts Payable Operations, Generative AI skills, Invoice data extraction, AI skills, Source-to-Pay Workspace]
+breadcrumb: [ServiceNow Otto for APO, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
-# Configure Now Assist for Accounts Payable Operations \(APO\)
+# Configure ServiceNow Otto for Accounts Payable Operations \(APO\)
 
-If you have the admin role, you can configure the Now Assist for Accounts Payable Operations \(APO\) application so that an accounts payable \(AP\) fulfiller can use the generative AI skills in Source-to-Pay Workspace and in Core UI.
+Configure ServiceNow Otto for Accounts Payable Operations so that AP fulfillers can use generative AI skills in the Source-to-Pay Workspace and in Core UI.
 
 ## APO configuration overview
 
--   [Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/platform-now-assist-landing.md)
+-   [AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/platform-now-assist-landing.md)
 
-    Use the Now Assist Admin console to configure APO. This console contains everything that you need to install the plugin \[sn\_ap\_gen\_ai\] and configure the generative AI skills.
+    Use the AI Admin Hub console to configure APO. This console contains everything that you need to install the plugin \[sn\_ap\_gen\_ai\] and configure the generative AI skills.
 
--   See the [Configuring Now Assist Admin features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configuring-na-landing.md) topic.
+-   See the [Configuring AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configuring-na-landing.md) topic.
 
-    Use the Now Assist Admin console to activate the various Now Assist applications and skills that you’re entitled to.
+    Use the AI Admin Hub console to activate the various ServiceNow Otto applications and skills that you’re entitled to.
 
 
-The following table lists the features and skills that you can access from the Now Assist Admin console.
+The following table lists the features and skills that you can access from the AI Admin Hub console.
 
 |APO features|Skills|
 |------------|------|
 |Purchase order line mapping|Purchase order line mapping with invoice line mapping|
 |Case summarization|Invoice case summarization|
 |Invoice data extraction|Invoice data extraction using DocIntel|
+|Invoice inquiry solution generator|Identify, extract the invoice inquiry details from the invoice data and related records.|
+|Sentiment analysis for invoice case|Analyze and prioritize the invoice inquiry cases based on the response tone.|
+|Accounts payable document classification|Automatically identifies and categorizes supplier sent email attachments as invoice, credit memo, and supporting documents.|
+|Relevant invoice finder|Identify the historically processed invoices that are most relevant to a given invoice using semantic matching.|
+|Email response for invoice case|Automatically draft and manage responses to invoice-related inquiries.|
+|Email response for invoice task|Automatically draft and manage responses to invoice-related inquiries.|
 
 \[Omitted image "now-assist.png"\] Alt text: APO section showing the Case summarization skill.
-
-**Related topics**  
-
-
-[Accounts Payable Invoice Processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/acc-pay-invoice-processing.md)
-
-[Invoice Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/acc-pay-case-mgmt-overview.md)
-
-[Playbook for updating the invoice primary data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/playbooks.md)
 

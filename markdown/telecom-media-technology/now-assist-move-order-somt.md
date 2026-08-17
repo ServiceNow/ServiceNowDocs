@@ -1,5 +1,5 @@
 ---
-title: Now Assist for Sales CRM for Telecommunications AI agent Move order voice AI agent
+title: ServiceNow Otto for Sales Customer Relationship Management for Telecommunications AI agent Move order voice AI agent
 description: Use this agent to automatically create a customer move order capture journey.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-media-technology/now-assist-move-order-somt.html
@@ -7,10 +7,10 @@ release: zurich
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Standalone AI agents, Use agentic workflows, Now Assist for Sales CRM for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [Standalone AI agents, Use agentic workflows, ServiceNow Otto for Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
-# Now Assist for Sales CRM for Telecommunications AI agent Move order voice AI agent
+# ServiceNow Otto for Sales Customer Relationship Management for Telecommunications AI agent Move order voice AI agent
 
 Use this agent to automatically create a customer move order capture journey.
 
@@ -29,9 +29,9 @@ To create a move order, AI agent collects these details:
 -   Product or services to be moved
 -   New service location
 
-To integrate AI agent with supported third-party CCaaS \(Contact Center as a Service\) providers, see [Integrating voice assistant with CCaaS provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/integrating-voice-service-with-ccaas-providers.md).
+To integrate AI agent with supported third-party CCaaS \(Contact Center as a Service\) providers, see .
 
-To add tools and information, see [Add tools and information to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/add-tool-aia.md) for details.
+To add tools and information, see  for details.
 
 Role required: sn\_customerservice.consumer
 

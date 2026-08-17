@@ -22,7 +22,7 @@ Role required: sn\_reco\_template.rationalization\_process\_writer and sn\_grc\_
 
 ## About this task
 
-**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 The "Recommendation of similar control objectives" skill generates recommendations based on the similarity parameters configured which are the names and description. Generative AI searches for similar names and descriptions, which serve as inputs for providing recommendations.
 

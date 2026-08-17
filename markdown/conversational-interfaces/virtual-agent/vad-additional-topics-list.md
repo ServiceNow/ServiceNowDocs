@@ -1,5 +1,5 @@
 ---
-title: Virtual Agent Designer All pre-built topics page
+title: Assistant Designer Asset library All pre-built topics page
 description: When you install pre-built conversations, such as ITSM Virtual Agent, some topics may not appear on the home page unless you install their dependent plugins. This page shows the additional topics that are available.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/vad-additional-topics-list.html
@@ -9,14 +9,14 @@ classification: virtual-agent
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Virtual Agent Designer interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Assistant Designer Asset library interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
 ---
 
-# Virtual Agent Designer All pre-built topics page
+# Assistant Designer Asset library All pre-built topics page
 
 When you install pre-built conversations, such as ITSM Virtual Agent, some topics may not appear on the home page unless you install their dependent plugins. This page shows the additional topics that are available.
 
-For more information about ITSM pre-built topics, see .
+For more information about ITSM pre-built topics, see [ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/itsm-virtual-agent.md).
 
 <table id="table_lrr_c4j_ywb"><thead><tr><th>
 
@@ -32,7 +32,7 @@ Topic
 
 </td><td>
 
-Name of the topic. If its Status is Available to use, select the topic to open it in Virtual Agent Designer.
+Name of the topic. If its Status is Available to use, select the topic to open it in Assistant Designer Asset library.
 
 </td></tr><tr><td>
 
@@ -59,5 +59,5 @@ Status
 Value denoting whether you need to install a spoke or plugin, or if the requirements are met and the topic is available to use.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Virtual Agent Designer interface reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/vad-reference.md)
+</table>**Parent Topic:**[Assistant Designer Asset library interface reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/vad-reference.md)
 

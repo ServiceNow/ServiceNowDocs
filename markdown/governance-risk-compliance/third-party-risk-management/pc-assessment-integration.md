@@ -1,6 +1,6 @@
 ---
 title: Integrating Third-party Risk Management with GRC: Policy and Compliance Management
-description: The GRC: Policy and Compliance Management integration updates the compliance status of controls and control objectives based on the questionnaire responses from a third party or engagement. Third-party risk \(TPR\) managers with the Compliance Manager \[sn\_compliance.manager\] role can associate controls with specific questions, third parties, and engagements.
+description: The GRC: Policy and Compliance Management integration updates the compliance status of controls and control objectives based on the questionnaire responses from a third party or engagement. Compliance managers \[sn\_compliance.manager\] can associate controls and control objectives with specific questions, third parties, and engagements used in Third-party Risk Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/third-party-risk-management/pc-assessment-integration.html
 release: zurich
@@ -14,11 +14,11 @@ breadcrumb: [Integrate, Third-party Risk Management, Governance, Risk, and Compl
 
 # Integrating Third-party Risk Management with GRC: Policy and Compliance Management
 
-The GRC: Policy and Compliance Management integration updates the compliance status of controls and control objectives based on the questionnaire responses from a third party or engagement. Third-party risk \(TPR\) managers with the Compliance Manager \[sn\_compliance.manager\] role can associate controls with specific questions, third parties, and engagements.
+The GRC: Policy and Compliance Management integration updates the compliance status of controls and control objectives based on the questionnaire responses from a third party or engagement. Compliance managers \[sn\_compliance.manager\] can associate controls and control objectives with specific questions, third parties, and engagements used in Third-party Risk Management.
 
-If you have the Policy and Compliance Management application installed, TPR managers with the Compliance Manager role can perform several key tasks that help manage and assess Third-party compliance.
+If you have the Policy and Compliance Management application installed, users with the Compliance Manager role can perform several key tasks that help manage and assess Third-party compliance.
 
--   You can associate third parties and engagements to specific control objectives. This association creates controls for the third party or engagement, establishing a direct connection between them and the compliance management process.
+-   You can associate third parties and engagements to specific control objectives. This association results in controls being applied to the third party or engagement
 
     For more information, see [Manually add a control to a third party or engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-add-controls-tp.md).
 
@@ -37,6 +37,10 @@ When an entity, such as a third party or engagement, is associated with a contro
 In the context of Third-party Risk Management, each question in a questionnaire template can be individually linked to multiple control objectives through a related list. When a questionnaire is sent to a third party and the third party responds with an incorrect answer, the controls associated with the linked control objectives are marked as non-compliant. Conversely, if the third party provides the correct answer, the controls remain compliant.
 
 This feature helps ensure that the compliance status of controls is dynamically updated based on the third party or engagements responses, providing a real-time and accurate assessment of their compliance. Both Policy and Compliance Management users and Third-party risk assessors \[sn\_vdr\_risk\_asmt.vendor\_assessor\] can monitor the status of a control.
+
+**Note:**
+
+Third-party Risk Management consumes compliance objects in a read-only capacity. Controls and control objectives are authored and managed in GRC: Policy and Compliance Management.
 
 For more information on implementing Policy and Compliance Management, see [Implementing Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/policy-compliance-impl-overview.md).
 

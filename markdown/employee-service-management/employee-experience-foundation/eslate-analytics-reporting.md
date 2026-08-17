@@ -30,6 +30,12 @@ UXA automatically captures the following interactions:
 
 The UXA Overview Dashboard visualizes how employees navigate Employee Slate. Administrators use the dashboard to identify common navigation paths and exit points in the experience.
 
+Employee Slate for Now Assist and Employee Slate for Moveworks are separate products, each with its own option in Usage Insights.
+
+Interactions in either product, including button clicks, redirects, and widget selections, are captured and surfaced within Usage Insights.
+
+Employee Slate for Moveworks uses the same widget set available for any other application in Usage Insights.
+
 ## UXA metrics
 
 The UXA dashboard captures and displays the following metrics:
@@ -61,6 +67,26 @@ The UXA dashboard captures and displays the following metrics:
 -   **Users, sessions, events, and pages**
 
     Aggregate counts for each dimension, available as trend data over time.
+
+-   **Retention**
+
+    The number of users who return within a selected period, compared to new users, shown as an overall retention cohort.
+
+-   **Cohort analysis**
+
+    Custom user groups that administrators define for deeper analysis of retention patterns.
+
+-   **Conversion funnels**
+
+    Predefined or custom funnels that track click-through relationships between specific workflows in the Employee Slate interface.
+
+-   **Navigation paths**
+
+    The percentage of users who follow each navigation path through the available journeys in the Employee Slate experience.
+
+-   **Session details**
+
+    Anonymized session-level data, including duration, device count, location count, and underlying events.
 
 
 **Note:** Department-level and business unit filtering for UXA data is not currently available. Check your entitlements to verify whether you have access to advanced UXA filtering when it is available.

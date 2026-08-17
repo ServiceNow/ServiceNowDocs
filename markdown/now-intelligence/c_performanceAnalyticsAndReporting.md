@@ -50,7 +50,7 @@ Explore the many options for showing data in [data visualizations](https://raw.g
 
 ## Now Assist in Platform Analytics
 
-Leverage AI to generate insights into data. Ask for data visualizations in the Now Assist panel.Explore data on your own or with a collaborative group in AI Data Explorer, where you can have not only data visualizations but summaries and conversations.
+Leverage AI to generate insights into data. Ask for data visualizations in the ServiceNow Otto panel.Explore data on your own or with a collaborative group in AI Data Explorer, where you can have not only data visualizations but summaries and conversations.
 
 \[Omitted image "nowass-expl-cover-photo.png"\] Alt text: An exploration in Now Assist Explorer.
 
@@ -89,7 +89,7 @@ Give administrators and other stakeholders the ability to work with real-time da
 -   [Platform Analytics Migration Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/data-migration.md)
 -   [Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/analytics-center-dashboards.md)
 -   [Data visualizations in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/analytics-center-data-visualizations.md)
--   [Use AI to explore data with AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/now-assist-explorer.md)
+-   [Use AI to explore data with AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/ai-data-explorer.md)
 -   [Create visualizations conversationally in the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/analytics-assist-landing-page.md)
 -   [Performance Analytics indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/c_Indicators.md)
 -   [Indicator breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/c_CreatingBreakdowns.md)

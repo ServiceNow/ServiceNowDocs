@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-proactiveserviceexperienceworkflows-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -75,25 +75,25 @@ Zurich
 
 </td><td>
 
--   **[Components](https://servicenow-staging.fluidtopics.net/access?context=components-psew&family=zurich&ft:locale=en-US)**
+-   **[Components](https://www.servicenow.com/docs/access?context=components-psew&family=zurich&ft:locale=en-US)**
 
 The granular admin role enables developers and administrators to complete administrative configuration tasks for Proactive Service Experience Workflows without requiring the full admin role.
 
 
--   **[Components](https://servicenow-staging.fluidtopics.net/access?context=components-product-support-case&family=zurich&ft:locale=en-US)**
+-   **[Components](https://www.servicenow.com/docs/access?context=components-product-support-case&family=zurich&ft:locale=en-US)**
 
 The granular admin role enables developers and administrators to complete administrative configuration tasks for Product Support for Technology without requiring the full admin role.
 
 
--   **[Diagnose and resolve an incident](https://servicenow-staging.fluidtopics.net/access?context=diagnose-reslove-incident-psew&family=zurich&ft:locale=en-US)**
+-   **[Diagnose and resolve an incident](https://www.servicenow.com/docs/access?context=diagnose-reslove-incident-psew&family=zurich&ft:locale=en-US)**
 
 Diagnose the incident in the Proactive Service Experience Workflows and create the resolution task manually to resolve the issue.
 
--   **[Diagnose and resolve a change request](https://servicenow-staging.fluidtopics.net/access?context=diagnose-resolve-case-change-request&family=zurich&ft:locale=en-US)**
+-   **[Diagnose and resolve a change request](https://www.servicenow.com/docs/access?context=diagnose-resolve-case-change-request&family=zurich&ft:locale=en-US)**
 
 Review, diagnose, resolve, and close a change request case for the service-related issue experienced by the customer.
 
--   **[Diagnose and resolve](https://servicenow-staging.fluidtopics.net/access?context=diagnose-resolve-hitechcases&family=zurich&ft:locale=en-US)**
+-   **[Diagnose and resolve](https://www.servicenow.com/docs/access?context=diagnose-resolve-hitechcases&family=zurich&ft:locale=en-US)**
 
 Review, diagnose, resolve, and close the Product Support for Technology Case.
 
@@ -364,7 +364,7 @@ Zurich
 -   Technology Product Support Case application is renamed to Product Support for Technology
 -   Technology Product Support Case application is renamed to Product Support for Technology.
 
- See [Proactive Service Experience Workflows](https://servicenow-staging.fluidtopics.net/access?context=assurance-workflows&family=zurich&ft:locale=en-US) for more information.
+ See [Proactive Service Experience Workflows](https://www.servicenow.com/docs/access?context=assurance-workflows&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

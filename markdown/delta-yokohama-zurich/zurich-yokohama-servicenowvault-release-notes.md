@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-servicenowvault-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -48,11 +48,11 @@ Zurich
 
 To install ServiceNow Vault, the following must be installed:
 
--   [Data Discovery](https://servicenow-staging.fluidtopics.net/access?context=data-discovery-landing&family=zurich&ft:locale=en-US)
--   [Data Privacy](https://servicenow-staging.fluidtopics.net/access?context=data-privacy-landing&family=zurich&ft:locale=en-US)
--   [Data anonymization](https://servicenow-staging.fluidtopics.net/access?context=dps-data-anonymization&family=zurich&ft:locale=en-US)
--   [Field Encryption](https://servicenow-staging.fluidtopics.net/access?context=field-encryption&family=zurich&ft:locale=en-US)
--   [Zero Trust Access](https://servicenow-staging.fluidtopics.net/access?context=session-access&family=zurich&ft:locale=en-US)
+-   [Data Discovery](https://www.servicenow.com/docs/access?context=data-discovery-landing&family=zurich&ft:locale=en-US)
+-   [Data Privacy](https://www.servicenow.com/docs/access?context=data-privacy-landing&family=zurich&ft:locale=en-US)
+-   [Data anonymization](https://www.servicenow.com/docs/access?context=dps-data-anonymization&family=zurich&ft:locale=en-US)
+-   [Field Encryption](https://www.servicenow.com/docs/access?context=field-encryption&family=zurich&ft:locale=en-US)
+-   [Zero Trust Access](https://www.servicenow.com/docs/access?context=session-access&family=zurich&ft:locale=en-US)
 
 </td></tr></tbody>
 </table>## New features
@@ -81,21 +81,21 @@ Zurich
 
 </td><td>
 
--   **[ServiceNow Vault console dashboard](https://servicenow-staging.fluidtopics.net/access?context=vault-dashboard&family=zurich&ft:locale=en-US)**
+-   **[ServiceNow Vault console dashboard](https://www.servicenow.com/docs/access?context=vault-dashboard&family=zurich&ft:locale=en-US)**
     -   Manage and monitor cloud encryption metrics.
     -   Get AI guidance using the Ask Now Assist panel.
     -   Explore more detail for each metric.
 
--   **[ServiceNow Vault console dashboard](https://servicenow-staging.fluidtopics.net/access?context=vault-dashboard&family=zurich&ft:locale=en-US)**
+-   **[ServiceNow Vault console dashboard](https://www.servicenow.com/docs/access?context=vault-dashboard&family=zurich&ft:locale=en-US)**
 
 Monitor your sensitive data in ServiceNow Vault with a comprehensive dashboard. The dashboard view shows metrics from each of the ServiceNow Vault tools and provides easy access to them.
 
--   **[Guided Vault](https://servicenow-staging.fluidtopics.net/access?context=guided-vault&family=zurich&ft:locale=en-US)**
+-   **[Guided Vault](https://www.servicenow.com/docs/access?context=guided-vault&family=zurich&ft:locale=en-US)**
 
 Use guided setup to quickly start using ServiceNow Vault on the following applications:
 
-    -   [Financial Services](https://servicenow-staging.fluidtopics.net/access?context=fso-overview&family=zurich&ft:locale=en-US)
-    -   [Customer Service Management](https://servicenow-staging.fluidtopics.net/access?context=c_CustomerServiceManagement&family=zurich&ft:locale=en-US)
+    -   [Financial Services](https://www.servicenow.com/docs/access?context=fso-overview&family=zurich&ft:locale=en-US)
+    -   [Customer Service Management](https://www.servicenow.com/docs/access?context=c_CustomerServiceManagement&family=zurich&ft:locale=en-US)
 
 </td></tr></tbody>
 </table>## Changes
@@ -211,7 +211,7 @@ Zurich
 
 </td><td>
 
-Install ServiceNow Vault by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+Install ServiceNow Vault by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -356,16 +356,16 @@ Zurich
 
 </td><td>
 
-[Zurich Patch 4](https://servicenow-staging.fluidtopics.net/access?context=zurich-patch-4&family=zurich&ft:locale=en-US)
+[Zurich Patch 4](https://www.servicenow.com/docs/access?context=zurich-patch-4&family=zurich&ft:locale=en-US)
 
 -   Manage and monitor cloud encryption metrics.
 -   Get AI guidance using the Ask Now Assist panel in Vault console.
 
- -   Use guided setup to begin autoclassifying sensitive data within [Financial Services](https://servicenow-staging.fluidtopics.net/access?context=fso-overview&family=zurich&ft:locale=en-US) and [Customer Service Management](https://servicenow-staging.fluidtopics.net/access?context=c_CustomerServiceManagement&family=zurich&ft:locale=en-US) applications.
+ -   Use guided setup to begin autoclassifying sensitive data within [Financial Services](https://www.servicenow.com/docs/access?context=fso-overview&family=zurich&ft:locale=en-US) and [Customer Service Management](https://www.servicenow.com/docs/access?context=c_CustomerServiceManagement&family=zurich&ft:locale=en-US) applications.
 -   Monitor and review critical sensitive data metrics from the centralized ServiceNow Vault Console dashboard.
 -   Navigate between security tools efficiently using the ServiceNow Vault Console dashboard.
 
- See [ServiceNow Vault](https://servicenow-staging.fluidtopics.net/access?context=servicenow-vault-landing&family=zurich&ft:locale=en-US) for more information.
+ See [ServiceNow Vault](https://www.servicenow.com/docs/access?context=servicenow-vault-landing&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

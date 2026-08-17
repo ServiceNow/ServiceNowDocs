@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-employeerelations-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -75,11 +75,11 @@ Xanadu
 
 </td><td>
 
--   **[Create an allegation record for HR Service Delivery Employee Relations in the legacy UI or Agent Workspace](https://servicenow-staging.fluidtopics.net/access?context=hr-er-create-allegation&family=xanadu&ft:locale=en-US)**
+-   **[Create an allegation record for HR Service Delivery Employee Relations in the legacy UI or Agent Workspace](https://www.servicenow.com/docs/access?context=hr-er-create-allegation&family=xanadu&ft:locale=en-US)**
 
 For single-subject Employee Relations cases, the **Subject of Allegation** field in relevant case tabs is automatically filled in with the subject's name.
 
--   **[Create an HR Service Delivery Employee Relations case using the legacy UI](https://servicenow-staging.fluidtopics.net/access?context=create-hr-employee-relations&family=xanadu&ft:locale=en-US), [Create an HR Service Delivery Employee Relations case using Agent Workspace](https://servicenow-staging.fluidtopics.net/access?context=create-hr-er-ws&family=xanadu&ft:locale=en-US), [Anonymously report discrimination](https://servicenow-staging.fluidtopics.net/access?context=arc-report-discrimination&family=xanadu&ft:locale=en-US)**
+-   **[Create an HR Service Delivery Employee Relations case using the legacy UI](https://www.servicenow.com/docs/access?context=create-hr-employee-relations&family=xanadu&ft:locale=en-US), [Create an HR Service Delivery Employee Relations case using Agent Workspace](https://www.servicenow.com/docs/access?context=create-hr-er-ws&family=xanadu&ft:locale=en-US), [Anonymously report discrimination](https://www.servicenow.com/docs/access?context=arc-report-discrimination&family=xanadu&ft:locale=en-US)**
 
 Create cases specifically related to discrimination using Core UI case creation HR Service Delivery Agent Workspace for HR Case Management, or the Anonymous Report Center portal.
 
@@ -230,7 +230,7 @@ Xanadu
 
 </td><td>
 
-Employee Relations is a ServiceNow AI Platform feature that is available with activation of the Employee Relations plugin \(com.sn\_hr\_employee\_relations\). For details, see [Activate Employee Relations](https://servicenow-staging.fluidtopics.net/access?context=activate-hr-employee-relations&family=xanadu&ft:locale=en-US).
+Employee Relations is a ServiceNow AI Platform feature that is available with activation of the Employee Relations plugin \(com.sn\_hr\_employee\_relations\). For details, see [Activate Employee Relations](https://www.servicenow.com/docs/access?context=activate-hr-employee-relations&family=xanadu&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -418,7 +418,7 @@ Xanadu
 -   For single-subject Employee Relations cases, the **Subject of Allegation** field in is automatically filled in with the subject's name.
 -   Report cases directly related to discrimination using Core UI case creation, HR Service Delivery Agent Workspace for HR Case Management, or the Anonymous Report Center portal.
 
- See [Employee Relations cases](https://servicenow-staging.fluidtopics.net/access?context=hr-case-employee-relations&family=xanadu&ft:locale=en-US) for more information.
+ See [Employee Relations cases](https://www.servicenow.com/docs/access?context=hr-case-employee-relations&family=xanadu&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 

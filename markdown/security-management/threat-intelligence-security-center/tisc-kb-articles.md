@@ -7,7 +7,7 @@ release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: reference
-last_updated: "2026-02-26"
+last_updated: "2026-07-31"
 reading_time_minutes: 3
 breadcrumb: [Reference, Threat Intelligence Security Center, Security Operations]
 ---
@@ -20,6 +20,7 @@ The following knowledge base articles provide guidance on TISC concepts, configu
 
 |KB ID|Title|Description|
 |-----|-----|-----------|
+|[KB3141964](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3141964)|Threat Intelligence Security Center \(TISC\) Customer Setup Guide|Describes the configuration steps the administrators should perform after installing the TISC application.|
 |[KB1778603](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1778603)|Knowledge base links for Threat Intelligence Security Center|A consolidated index of all knowledge base articles related to TISC. Use this article as the starting point for locating TISC documentation resources.|
 |[KB1748938](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1748938)|Difference Between Threat Intelligence Security Center \(TISC\) and Threat Intelligence Module in SIR \(SIR-TI\)|Explains the key architectural and functional differences between the standalone TISC product and the Threat Intelligence module available within Security Incident Response \(SIR-TI\).|
 |[KB1778607](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1778607)|How SIR/TI and TISC Integration Works|Describes the integration architecture and data flow between the SIR Threat Intelligence module and the Threat Intelligence Security Center, including synchronization behavior and supported configurations.|

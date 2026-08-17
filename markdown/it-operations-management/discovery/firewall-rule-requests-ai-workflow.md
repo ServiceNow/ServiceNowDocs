@@ -1,6 +1,6 @@
 ---
 title: Firewall rule requests using agentic workflows
-description: The Firewall Management Task Creation agentic workflow provides a path to request one or more firewall rules through natural language prompts in the Now Assist panel.Use the Firewall Management Task Creation agentic workflow to request one or more firewall rules through natural language prompts in the Now Assist panel.Review AI-generated firewall rule requests, evaluate risk analysis, and approve or reject requests with device group assignment.Automatically implement approved firewall rules on Panorama servers through the change management process.
+description: The Firewall Management Task Creation agentic workflow provides a path to request one or more firewall rules through natural language prompts in the ServiceNow Otto panel.Use the Firewall Management Task Creation agentic workflow to request one or more firewall rules through natural language prompts in the ServiceNow Otto panel.Review AI-generated firewall rule requests, evaluate risk analysis, and approve or reject requests with device group assignment.Automatically implement approved firewall rules on Panorama servers through the change management process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/firewall-rule-requests-ai-workflow.html
 release: zurich
@@ -9,13 +9,13 @@ classification: discovery
 topic_type: concept
 last_updated: "2026-07-03"
 reading_time_minutes: 7
-keywords: [firewall, agentic workflow, Now Assist, Panorama, firewall, agentic workflow, Now Assist, rule request, firewall, approval, rule request, device group, firewall, implementation, Panorama, change management]
-breadcrumb: [Using Firewall Audits and Reporting, Firewall Audits and Reporting, ITOM Visibility, IT Operations Management]
+keywords: [firewall, agentic workflow, Servicenow Otto, Panorama, firewall, agentic workflow, Servicenow Otto, rule request, firewall, approval, rule request, device group, firewall, implementation, Panorama, change management]
+breadcrumb: [Use, Firewall Audits and Reporting, ITOM Visibility, IT Operations Management]
 ---
 
 # Firewall rule requests using agentic workflows
 
-The Firewall Management Task Creation agentic workflow provides a path to request one or more firewall rules through natural language prompts in the Now Assist panel.
+The Firewall Management Task Creation agentic workflow provides a path to request one or more firewall rules through natural language prompts in the ServiceNow Otto panel.
 
 ## Multiple rule configuration support
 
@@ -26,19 +26,19 @@ You can request multiple firewall rule configurations in a single conversation w
 The workflow reads your natural-language request, extracts the required parameters—source IP, destination IP, protocol, traffic direction, action, and conformance type—and prompts you for any values you did not provide. Before creating a rule task, the workflow runs a risk analysis based on the request data and the specified conformance framework. When you request multiple rules, the workflow provides individual conformance feedback for each rule, such as "Out of 3 rules, 2 are non-conforming, 1 is conforming." The risk analysis returns one of three levels:
 
 -   **Low:** The workflow creates the rule task and attaches the risk analysis.
--   **Medium or High:** The workflow reports the risk level in the Now Assist panel and asks whether you want to continue. You can choose to proceed with all rules or select specific ones. If you confirm, the workflow creates the rule task and attaches the risk analysis. If you decline, the workflow skips task creation. The created task includes the AI assessment so the approver can evaluate the risk.
+-   **Medium or High:** The workflow reports the risk level in the ServiceNow Otto panel and asks whether you want to continue. You can choose to proceed with all rules or select specific ones. If you confirm, the workflow creates the rule task and attaches the risk analysis. If you decline, the workflow skips task creation. The created task includes the AI assessment so the approver can evaluate the risk.
 
 **Note:** The agentic workflow provides conformance checking and risk analysis. Rule verification and creation on Panorama servers is handled through REST API calls as part of the Firewall Audits and Reporting application.
 
 ## Workflow process
 
-\[Omitted image "image.firewall-rule-request-ai-workflow"\] Alt text: Firewall rule request workflow
+\[Omitted image "firewall-rule-request-ai-workflow.png"\] Alt text: Firewall rule request workflow
 
 **Parent Topic:**[Using Firewall Audits and Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/firewall-audit-report-use.md)
 
 ## Request firewall rules using agentic workflow
 
-Use the Firewall Management Task Creation agentic workflow to request one or more firewall rules through natural language prompts in the Now Assist panel.
+Use the Firewall Management Task Creation agentic workflow to request one or more firewall rules through natural language prompts in the ServiceNow Otto panel.
 
 ### Before you begin
 
@@ -54,15 +54,15 @@ You can request multiple firewall rule configurations in a single conversation. 
 
 **Note:** Starting with version 1.12.0 of Firewall Audits and Reporting, all new firewall rule tasks are created in the Panorama-specific table and display the task type as Panorama.
 
-\[Omitted image "image.firewall-rule-request-now-assist"\] Alt text: Now Assist agentic workflow
+\[Omitted image "firewall-rule-request-now-assist.png"\] Alt text: Servicenow Otto agentic workflow
 
 ### Procedure
 
-1.  Open the Now Assist panel.
+1.  Open the ServiceNow Otto panel.
 
-    The Now Assist panel is available from the header bar of your instance. Select the Now Assist icon to open the chat window.
+    The ServiceNow Otto panel is available from the header bar of your instance. Select the ServiceNow Otto icon to open the chat window.
 
-2.  In the Now Assist chat, type `Create a firewall rule` or a similar phrase to trigger the Firewall Management Task Creation agentic workflow.
+2.  In the ServiceNow Otto chat, type `Create a firewall rule` or a similar phrase to trigger the Firewall Management Task Creation agentic workflow.
 
 3.  Enter your firewall rule request in natural language, including the source IP, destination IP, protocol, traffic direction, and action.
 
@@ -70,7 +70,7 @@ You can request multiple firewall rule configurations in a single conversation. 
 
 4.  Respond to the workflow prompts for any missing information.
 
-5.  Review the workflow response in the Now Assist chat.
+5.  Review the workflow response in the ServiceNow Otto chat.
 
     The response includes the rule task number, the extracted request data, and the risk-analysis summary for each rule configuration. When you request multiple rules, the workflow provides conformance feedback for each rule individually, such as "Out of 3 rules, 2 are non-conforming, 1 is conforming." If any rule has a medium or high risk level, the workflow asks whether you want to continue. You can choose to proceed with all rules or select specific ones. Select **Yes** to create the rule task or **No** to cancel.
 

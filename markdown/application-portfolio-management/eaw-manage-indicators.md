@@ -19,7 +19,7 @@ You can view the list of all capability indicators in the Enterprise Architectur
 -   **[View all application indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-view-all-application-indicators.md)**  
 You can view the list of all application indicators in the Enterprise Architecture Workspace.
 -   **[Regenerate application indicator scores on-demand in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-regenerate-indicator-score.md)**  
-You can update application indicator scores on-demand, to assess the application across various dimensions such as cost, quality, technical risk, business value, to gather real-time insights into the performance of applications and take immediate action, if necessary.
+You can update application indicator scores on-demand to assess applications across dimensions such as cost, quality, technical risk, and business value. This provides real-time insights into application performance.
 -   **[Regenerate capability indicator scores on-demand in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-regenerate-capability-indicator-scores-in-eaw.md)**  
 You can update capability indicator scores on-demand, to gather real-time insights into the performance of business capabilities and take immediate action, if necessary.
 

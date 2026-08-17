@@ -9,7 +9,7 @@ classification: event-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [View alert information, Using Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [View alert information, Use, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Collaborate from within an alert

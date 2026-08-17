@@ -1,6 +1,6 @@
 ---
-title: Analyze security operations metrics agentic workflow
-description: Chat with an AI agent from the Now Assist panel to help you gain insight into how efficiently your security analysts are working with security incidents resolution.
+title: Analyze security operations metrics
+description: Chat with an AI agent from the ServiceNow Otto panel to help you gain insight into how efficiently your security analysts are working with security incidents resolution.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/now-assist-for-security-incident-response-sir/assess-metrics-sir-aiagent.html
 release: zurich
@@ -8,13 +8,13 @@ product: Now Assist for Security Incident Response \(SIR\)
 classification: now-assist-for-security-incident-response-sir
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 4
-breadcrumb: [Analyze security operations metrics, Use agentic workflows, Now Assist for Security Incident Response, Security Operations]
+reading_time_minutes: 3
+breadcrumb: [Analyze security operations, Use agentic workflows, ServiceNow Otto for Security Incident Response \(SIR\), Security Operations]
 ---
 
-# Analyze security operations metrics agentic workflow
+# Analyze security operations metrics
 
-Chat with an AI agent from the Now Assist panel to help you gain insight into how efficiently your security analysts are working with security incidents resolution.
+Chat with an AI agent from the ServiceNow Otto panel to help you gain insight into how efficiently your security analysts are working with security incidents resolution.
 
 ## Before you begin
 
@@ -22,19 +22,19 @@ Role required: sn\_si.manager
 
 ## About this task
 
-**Important:** This agentic workflow is turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This agentic workflow is turned on by default. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 ## Procedure
 
-1.  Select the Now Assist icon \(\[Omitted image "icon-ai-sparkle.png"\] Alt text: Now Assist icon.\) from anywhere in your instance.
+1.  Select the ServiceNow Otto icon \(\[Omitted image "icon-ai-sparkle.png"\] Alt text: ServiceNow Otto icon.\) from anywhere in your instance.
 
-    The Now Assist panel is displayed.
+    The ServiceNow Otto panel is displayed.
 
-2.  Select **Analyze Security Operations Metrics** in the Now Assist panel.
+2.  Select **Analyze Security Operations Metrics** in the panel.
 
 3.  At the prompt, select **Analyze security incident metrics**.
 
-    The Analyze security operations metrics agentic workflow case is on-demand. You can enter any query in natural language, but you might consider using the prompts described in the following table and steps to become familiar with the metrics data that is available and what you can do with it.
+    The Analyze security operations metrics agentic workflow case is on-demand. You can enter any query in natural language. Consider using the prompts described in the following table and steps to be familiar with the metrics data that is available and what you can do with it.
 
 <table id="table_as3_vcb_x2c"><thead><tr><th>
 
@@ -107,5 +107,5 @@ End the conversation.
 11. Modify system properties for the source fields that are used for metric analysis and the value for the outlier factor.
 
     -   sn\_sec\_gen\_ai.aia\_metric\_analysis\_dimensions - The AI agent breaks analysis down based on the following fields when analyzing MTTR and MTTA metrics: **category**, **priority**, **close\_code**, **assigned\_to**, **alert\_sensor**. Users with the sn\_si.manager and sn\_si.admin roles can modify this list.
-    -   sn\_sec\_gen\_ai.aia\_metric\_analysis\_outlier\_factor - This property determines the outlier factor for MTTR and MTTA. The default outlier value is 2. By default, a record is an outlier if its MTTR exceeds 2 times the average time that it takes an assignment group to resolve security incidents for the time range that you requested. Users with the sn\_si.manager and sn\_si.admin roles can modify this value.
+    -   sn\_sec\_gen\_ai.aia\_metric\_analysis\_outlier\_factor - This property determines the outlier factor for MTTR and MTTA. The default outlier value is 2. By default, a record is an outlier if its MTTR exceeds twice the average time an assignment group takes to resolve security incidents for your requested time range. Users with the sn\_si.manager and sn\_si.admin roles can modify this value.
 

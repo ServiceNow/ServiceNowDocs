@@ -1,6 +1,6 @@
 ---
-title: Create financial baselines
-description: Create a financial baseline of a demand, which captures benefit and financial metric information \(snapshot of cost plan, benefit plan, and demand-level financial metrics\) at a particular moment in time.
+title: Create and compare financial baselines for a demand
+description: Create and compare financial baselines to get a snapshot of the demand expenses and compare the planned costs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/strategic-planning/create-compare-financial-baselines-dw.html
 release: zurich
@@ -12,9 +12,9 @@ reading_time_minutes: 1
 breadcrumb: [Manage financials for demands, Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Create financial baselines
+# Create and compare financial baselines for a demand
 
-Create a financial baseline of a demand, which captures benefit and financial metric information \(snapshot of cost plan, benefit plan, and demand-level financial metrics\) at a particular moment in time.
+Create and compare financial baselines to get a snapshot of the demand expenses and compare the planned costs.
 
 ## Before you begin
 
@@ -22,57 +22,60 @@ Role required: it\_demand\_manager
 
 ## About this task
 
-You can create as many financial baselines as necessary and review the financials changes that have been made to the demand since the previous baseline. Any financial baseline doesn’t capture the actual cost component of the demand.
+Multiple financial baselines help review the financials changes that have been made to the demand at different points. Any financial baseline doesn’t capture the actual cost component of the demand.
+
+To create financial baselines, you can also use:
+
+-   The **Create Baseline** option under More Actions in the **Details** tab.
+-   The **Demand Baselines** tab.
 
 ## Procedure
 
-1.  Open a demand from the home page of Next Experience for Demand Management.
+1.  Navigate to **Workspaces** &gt; **Strategic Planning Workspace**.
 
-    For more information, see [Access demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/access-demand-workspace.md).
+2.  Select the Demands icon \[Omitted image "demands-icon.png"\].
 
-2.  Select **Details** from the L-2 \(level 2\) navigation menu.
+3.  Open a demand from the **List** page.
 
-3.  To create a financial baseline of a demand, use either of the options.
+4.  Select **Financials** from the navigation menu.
 
-<table id="choicetable_zvg_42n_1cb"><thead><tr><th align="left" id="d232595e99">
+5.  Create or compare financial baselines.
+
+<table id="choicetable_zvg_42n_1cb"><thead><tr><th align="left" id="d239976e123">
 
 Option
 
-</th><th align="left" id="d232595e102">
+</th><th align="left" id="d239976e126">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d232595e108">
+</th></tr></thead><tbody><tr><td id="d239976e132">
 
-**From the Details page**
-
-</td><td>
-
-Select **Create Baseline** from the More Actions option.
-
-</td></tr><tr><td id="d232595e120">
-
-**From a related list**
+**Create a baseline**
 
 </td><td>
 
-1.  Select **Demand Baselines**.
-2.  Select **New**.
+1.  Select the **Create baseline** button.
 
+Create financial baseline window appears with the Name field is auto-populated with current date. You can edit this field to name your baseline.
+
+\[Omitted image "fin-create-baseline-window.png"\] Alt text: Create financial baseline window with Name and Description fields.
+
+2.  In the Description field, enter a brief description to identify this baseline.
+3.  Select **Save**.
+ A baseline is created capturing the planned costs.
+
+</td></tr><tr><td id="d239976e170">
+
+**Compare baselines**
+
+</td><td>
+
+1.  Select the **Baselines comparison** tab to view the list of baselines.
+2.  Select any two baselines and select the **Compare baselines** button.
+ Comparison view of the selected baselines is displayed. For more details, see [Managing financials for demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/managing-financials-dw.md).
 
 </td></tr></tbody>
-</table>4.  On the Create New Demand Baseline form, fill in the fields.
-
-    |Field|Description|
-    |-----|-----------|
-    |Name|Name of the demand baseline.|
-    |Demand|Demand to which the baseline belongs.|
-    |Description|Description of the demand baseline.|
-
-5.  Select **Save**.
-
-    **Note:** To delete a demand baseline, select the record and select **Delete** from the More Actions option.
-
-    After completing your work on the demand baseline, use the breadcrumb navigation to return to the **Demand Baselines** tab.
+</table>    **Tip:** You can migrate existing financials baselines of your demands from Classic UI to Financials in Next Experience. For more information, see [Migrate financial baselines of demands to Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/migrate-fin-baselines-demands.md).
 
 

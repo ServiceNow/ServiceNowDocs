@@ -20,7 +20,7 @@ Plan, track, and manage work for your teams in the Agile methodology using Sprin
 
 Within the Sprint Planning view of your CWM Board, you can manage your team's backlog, create sprints, plan work into sprints, and execute them seamlessly. All existing work items on your CWM Board are automatically added to the Backlog pane in the Sprint Planning view. This means that whether the work items are old or new, they will all be visible in the Backlog. From this pane, you can easily schedule these items into sprints for execution.
 
-You have the flexibility to create work items of various types, such as Stories, or use any other default and custom work types that are available on your CWM Board. This flexibility ensures that you can tailor your sprint planning to fit the specific needs of your team and projects.
+You have the flexibility to create work items of various types, such as Stories. You can also use any other default and custom work types that are available on your CWM Board. This flexibility ensures that you can tailor your sprint planning to fit the specific needs of your team and projects.
 
 ## Enabling Sprint planning view
 
@@ -32,7 +32,7 @@ From the Views section of the Personalize \(\[Omitted image "icon-personalize.pn
 
 ## Backlog
 
-The Backlog pane displays all unplanned work items, including both newly added and older incomplete tasks. Completed work items are not shown, keeping your focus on what needs to be done. You can add work items directly to the Backlog from this view and use the personalize side panel to show or hide columns within the Backlog pane, customizing the display to suit your needs.
+The Backlog pane displays all unplanned work items, including both newly added and older incomplete tasks. Completed work items are not shown, keeping your focus on what needs to be done. You can add work items directly to the Backlog from this view. You can also use the personalize side panel to show or hide columns within the Backlog pane, customizing the display to suit your needs.
 
 Within the Backlog pane, you can do the following:
 
@@ -76,6 +76,8 @@ Modify the duration, capacity, and dates for a sprint in Collaborative Work Mana
 Delete individual sprints from Sprint planning in Collaborative Work Management so that your Board reflects the changes in your planning priorities.
 -   **[Create work items for sprints in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/create-work-items-for-sprints-in-cwm.md)**  
 Create and add new work items to a sprint directly from the Sprint planning view of Collaborative Work Management.
+-   **[Generate acceptance criteria for stories in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/generate-acceptance-criteria-for-stories-in-cwm.md)**  
+Create clear, comprehensive, and testable acceptance criteria for user stories without writing them manually in Collaborative Work Management \(CWM\). Review and refine suggested options to ensure they meet your requirements.
 -   **[Plan work items into sprints in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/plan-work-items-into-sprints-in-cwm.md)**  
 Schedule stories and other CWM tasks from the backlog into sprints or move work across sprints in Collaborative Work Management.
 -   **[Start or complete a sprint in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/start-a-sprint-in-cwm.md)**  

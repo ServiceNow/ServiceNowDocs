@@ -98,9 +98,9 @@ Slot components such as fan, power, and traffic slots are mapped to the `Slot` c
 
 ## CI relationship structure
 
-The following infographics describes the CI relationships.
+The following infographic describes the CI relationships.
 
-\[Omitted image "image.ci-relationships"\] Alt text: CI relationships structure\[Omitted image "ci-relationship-diagram.png"\] Alt text: CI relationship structure
+\[Omitted image "ci-relationship-diagram.png"\] Alt text: CI relationship structure
 
 ## Example: OLT to ONU Structure
 

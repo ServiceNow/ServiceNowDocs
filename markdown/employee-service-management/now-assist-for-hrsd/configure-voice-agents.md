@@ -1,5 +1,5 @@
 ---
-title: Configure HR Voice AI agents
+title: Configure HR AI voice agents
 description: Enable employees to complete tasks, resolve issues, and access information through a conversational experience.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/now-assist-for-hrsd/configure-voice-agents.html
@@ -7,50 +7,64 @@ release: zurich
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
 topic_type: task
-last_updated: "2025-09-03"
-reading_time_minutes: 1
-breadcrumb: [Configure, Now Assist for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
+last_updated: "2026-03-12"
+reading_time_minutes: 2
+breadcrumb: [Configure, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
-# Configure HR Voice AI agents
+# Configure HR AI voice agents
 
 Enable employees to complete tasks, resolve issues, and access information through a conversational experience.
 
 ## Before you begin
 
-Role required: sn\_voice\_aia.admin or sn\_hr\_voice\_aia.admin
+Role required: sn\_aia\_admin, sn\_voice\_aia.admin, or sn\_hr\_voice\_aia.admin
 
-Install the following plugins:
+Verify you have the following applications installed:
 
--   Now Assist for HR Service Delivery \(HRSD\) plugin \[sn\_hr\_gen\_ai\]
--   Now Assist Voice \[sn\_voice\_aia\]
--   HR Voice AI Agents \[sn\_hr\_voice\_aia\]
+-   [Case and Knowledge Management \[com.sn\_hr\_core\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/activate-case-and-knowledge-management-scoped.md)
+-   ServiceNow Otto for Platform \[sn\_genai\_platform\].
+-   [ServiceNow Otto for HRSD \[sn\_hr\_gen\_ai\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md)
+
+## About this task
+
+HR AI voice agents are conversational agents designed to handle routine employee inquiries and HR transactions through voice interactions. To enable AI voice agent functionality, you must complete configuration steps on the ServiceNow® AI Platform. Then, you will activate the specific HR AI voice agents you want to deploy. If you will enable AI voice agents that use data from third-party apps like Oracle HCM, configure the integration. After activation, you can test agent functionality by calling the assigned telephony number. This validates voice interaction quality, agent responses, and integration workflows before end-user rollout.
 
 ## Procedure
 
-1.  Follow the steps to [Create an AI voice assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/create-an-ai-voice-service.md)
+1.  Perform these steps to configure AI voice agents on the ServiceNow® AI Platform:
 
-2.  Activate the HR voice agents.
+    1.  [Install AI voice agents plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/install-ai-voice-agents-plugins.md):
+
+        -   ServiceNow Otto for Voice \[sn\_voice\_aia\] delivers AI voice capabilities
+        -   HR Voice AI Agents \[sn\_hr\_voice\_aia\] contains AI voice agents for HR Service Delivery
+    2.  [Configure authentication factors for AI voice agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/configuring-authentication-factors-for-ai-voice-agents.md).
+
+    3.  [Integrate with a third-party Contact Center as a Service \(CCaaS\) provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/integrating-voice-service-with-ccaas-providers.md).
+
+    4.  [Create an AI voice assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/create-an-ai-voice-service.md).
+
+2.  Activate the HR AI voice agents:
 
     1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Create and manage** and select the AI agents tab.
 
-    2.  Filter the agents by `Application is HR Voice AI Agents`.
+    2.  Filter the agents by `Application is HR AI Voice Agents`.
 
-    For more information on the HR-specific agents, see [HR Voice AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-voice-ai-agents.md).
+    For more information on the HR-specific agents, see [HR AI voice agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-voice-ai-agents.md).
 
-3.  For the following AI agents, perform these additional configuration steps.
+3.  For the following AI voice agents, perform these additional configuration steps.
 
-<table id="choicetable_skr_2cp_3hc"><thead><tr><th align="left" id="d615385e125">
+<table id="table_kss_zbp_bkc"><thead><tr><th>
 
 AI agent
 
-</th><th align="left" id="d615385e128">
+</th><th>
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d615385e134">
+</th></tr></thead><tbody><tr><td>
 
-**HR Case assistant**
+HR Case assistant
 
 </td><td>
 
@@ -59,9 +73,9 @@ Steps
 3.  Select **Index selected tables**.
 
 
-</td></tr><tr><td id="d615385e176">
+</td></tr><tr><td>
 
-**Employee Details Updater, Holiday Calendar, Retrieve Worker Profile, Time off Requester**
+Employee Details Updater, Holiday Calendar, Retrieve Worker Profile, Time off Requester
 
 </td><td>
 
@@ -75,17 +89,17 @@ Steps
 
 
 </td></tr></tbody>
-</table>
-## What to do next
+</table>4.  Test the execution of the HR AI Voice agents by calling the telephony number to verify that the agent functions the way you expect: .
 
-Test the execution of the HR AI Voice agents by calling the telephony number to verify that the agent functions the way you expect. For more information, see [Test a voice assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/test-a-voice-assistant.md).
+
+## What to do next
 
 Assign roles to admins and users to grant them access to Voice features. See [Components installed with voice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-hrsd/components-installed-voice-agents.md).
 
-**Parent Topic:**[Configure Now Assist for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md)
+**Parent Topic:**[Configure ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md)
 
 **Related topics**  
 
 
-[HR Voice AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-voice-ai-agents.md)
+[HR AI voice agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-voice-ai-agents.md)
 

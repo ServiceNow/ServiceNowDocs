@@ -1,5 +1,5 @@
 ---
-title: Generate publisher compliance summaries by using Now Assist for SAM
+title: Generate publisher compliance summaries by using ServiceNow Otto for SAM
 description: Generate a comprehensive summary for a publisher that covers software deployment, license compliance, configuration health, and optimization. The detailed publisher summary helps you to gain insights into the publisher estate.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/now-assist-for-software-asset-management-sam/summarize-publisher-compliance-now-assist-sam.html
@@ -9,10 +9,10 @@ classification: now-assist-for-software-asset-management-sam
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Use generative AI skills, Now Assist for Software Asset Management \(SAM\), Software Asset Management, IT Asset Management]
+breadcrumb: [Use generative AI skills, ServiceNow Otto for Software Asset Management \(SAM\), Software Asset Management, IT Asset Management]
 ---
 
-# Generate publisher compliance summaries by using Now Assist for SAM
+# Generate publisher compliance summaries by using ServiceNow Otto for SAM
 
 Generate a comprehensive summary for a publisher that covers software deployment, license compliance, configuration health, and optimization. The detailed publisher summary helps you to gain insights into the publisher estate.
 
@@ -22,13 +22,13 @@ Role required: sam\_user
 
 ## About this task
 
-**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 **Note:** The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
 
 Starting with the Zurich Patch 11 release, Google Gemini is the default model provider for the Publisher compliance summarization generative AI skill.
 
-Now Assist for SAM generates the publisher summaries by using reconciliation results, product lifecycle reports, and dashboards such as Discovered inventory, Normalization and content, and Health check.
+ServiceNow Otto for SAM generates the publisher summaries by using reconciliation results, product lifecycle reports, and dashboards such as Discovered inventory, Normalization and content, and Health check.
 
 ## Procedure
 
@@ -40,9 +40,9 @@ Now Assist for SAM generates the publisher summaries by using reconciliation res
 
 4.  On the Publisher details page, select **Summarize**.
 
-    **Note:** If the property, **com.snc.samp.manage.published.products** is set to true in your ServiceNow instance, to view the **Summarize** button, navigate to the License usage view, open the **Published status** filter in the Publishers tab, and select **Clear** to ensure that both **Published** and **Unpublished** options are not selected. The reconciliation results for all publishers appears on the page.
+    **Note:** If the property, **com.snc.samp.manage.published.products** is set to true in your ServiceNow instance, to view the **Summarize** button, navigate to the License usage view, open the **Published status** filter in the Publishers tab, and select **Clear** to ensure that both **Published** and **Unpublished** options aren't selected. The reconciliation results for all publishers appears on the page.
 
-    The Now Assist for SAM application starts generating the summary for the selected publisher. After the summary is compiled, the results of the summary appear under different sections.
+    The ServiceNow Otto for SAM application starts generating the summary for the selected publisher. After the summary is compiled, the results of the summary appear under different sections.
 
     After it's generated, the publisher summary isn’t automatically saved. If you close the **Publisher details** tab where you generated the summary, or if you reload the page, the publisher summary is not available. To regenerate the summary, select **Summarize**.
 
@@ -50,15 +50,15 @@ Now Assist for SAM generates the publisher summaries by using reconciliation res
 
 5.  You can perform the following actions on the generated summary.
 
-<table id="choicetable_swv_41f_f2c"><thead><tr><th align="left" id="d218436e188">
+<table id="choicetable_swv_41f_f2c"><thead><tr><th align="left" id="d219988e188">
 
 Action
 
-</th><th align="left" id="d218436e191">
+</th><th align="left" id="d219988e191">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d218436e197">
+</th></tr></thead><tbody><tr><td id="d219988e197">
 
 **Copy to clipboard icon**
 
@@ -66,7 +66,7 @@ Description
 
 Copies the summary to a clipboard.
 
-</td></tr><tr><td id="d218436e206">
+</td></tr><tr><td id="d219988e206">
 
 **Refresh icon**
 
@@ -74,7 +74,7 @@ Copies the summary to a clipboard.
 
 Regenerates the publisher summary.
 
-</td></tr><tr><td id="d218436e215">
+</td></tr><tr><td id="d219988e215">
 
 **Feedback**
 
@@ -84,5 +84,5 @@ If you found that the summary was helpful, select the helpful icon \[Omitted ima
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using generative AI skills in Now Assist for SAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/now-assist-for-software-asset-management-sam/using-now-assist-sam.md)
+**Parent Topic:**[Using generative AI skills in ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/now-assist-for-software-asset-management-sam/using-now-assist-sam.md)
 

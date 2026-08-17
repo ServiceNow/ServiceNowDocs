@@ -1,6 +1,6 @@
 ---
 title: Run tests for a story in Agile Development 2.0
-description: For a story whose tests are marked ready to be run, run those tests and execute all the test steps using the Sprint Tracking tab of the Agile board in Agile Development 2.0.
+description: For a story whose tests are marked ready to be run, run those tests. Execute all the test steps using the Sprint Tracking tab of the Agile board in Agile Development 2.0.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/agile-development/run-test-plan-within-agile.html
 release: zurich
@@ -14,7 +14,7 @@ breadcrumb: [Use, Agile Development 2.0, Strategic Portfolio Management]
 
 # Run tests for a story in Agile Development 2.0
 
-For a story whose tests are marked ready to be run, run those tests and execute all the test steps using the Sprint Tracking tab of the Agile board in Agile Development 2.0.
+For a story whose tests are marked ready to be run, run those tests. Execute all the test steps using the Sprint Tracking tab of the Agile board in Agile Development 2.0.
 
 ## Before you begin
 

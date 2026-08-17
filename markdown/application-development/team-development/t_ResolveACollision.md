@@ -40,15 +40,15 @@ To confirm that your changes don’t conflict with other development efforts, yo
 
 4.  Review the differences and perform an action.
 
-<table id="choicetable_er4_v12_5s"><thead><tr><th align="left" id="d203438e137">
+<table id="choicetable_er4_v12_5s"><thead><tr><th align="left" id="d204079e137">
 
 Option
 
-</th><th align="left" id="d203438e140">
+</th><th align="left" id="d204079e140">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d203438e146">
+</th></tr></thead><tbody><tr><td id="d204079e146">
 
 **To maintain the local record as the current version**
 
@@ -56,7 +56,7 @@ Action
 
 Select **Use Local Version**. The pulled version is added to the version history for the record.
 
-</td></tr><tr><td id="d203438e158">
+</td></tr><tr><td id="d204079e158">
 
 **To load the version pulled from the parent as the current version**
 
@@ -64,7 +64,7 @@ Select **Use Local Version**. The pulled version is added to the version history
 
 Select **Use Pulled Version**.
 
-</td></tr><tr><td id="d203438e170">
+</td></tr><tr><td id="d204079e170">
 
 **To move a setting from the selected version to update the current version**
 

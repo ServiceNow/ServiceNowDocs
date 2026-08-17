@@ -33,8 +33,8 @@ You can add additional number input attributes to the ones listed. For a complet
 
 To view how different types of sliders display, see [Slider types and their input attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/slider-input-attributes.md).
 
-|Slider containing a reference point|Decorative slider with number a textual indicator|
-|-----------------------------------|-------------------------------------------------|
+|Slider containing a reference point|Decorative slider with number and textual indicator|
+|-----------------------------------|---------------------------------------------------|
 |\[Omitted image "ifs-slider-reference.png"\] Alt text: A slider with a reference point of zero in the center of high and low values.|\[Omitted image "ifs-slider-decorative.png"\] Alt text: A colorful decorative slider with the marker placed in the orange area, indicating that the quality of service is marked as poor.|
 
 ## Procedure

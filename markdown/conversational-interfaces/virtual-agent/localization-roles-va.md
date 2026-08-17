@@ -1,6 +1,6 @@
 ---
 title: Localization roles for Virtual Agent
-description: Assign localization roles according to a user's scope in the localization process. Users may request translations, fulfill translation requests, and edit translations, based on their role.Requests translations for all the Virtual Agent components into one or more languages. Can also view localization insights. The Virtual Agent admin \[virtual\_agent\_admin\] role contains this role by default.Provides translations for the requested Virtual Agent topics. Depending on the flow, duties may include editing the translations in the Localization Framework task, interacting with third parties, and loading, verifying, and publishing translations.Edits the translations directly in Virtual Agent Designer. The NLU admin \[nlu\_admin\] and Virtual Agent admin \[virtual\_agent\_admin\] roles contain this role by default.Contains the localization requestor and localization editor roles by default.
+description: Assign localization roles according to a user's scope in the localization process. Users may request translations, fulfill translation requests, and edit translations, based on their role.Requests translations for all the Virtual Agent components into one or more languages. Can also view localization insights. The Virtual Agent admin \[virtual\_agent\_admin\] role contains this role by default.Provides translations for the requested Virtual Agent topics. Depending on the flow, duties may include editing the translations in the Localization Framework task, interacting with third parties, and loading, verifying, and publishing translations.Edits the translations directly in Assistant Designer Asset library. The NLU admin \[nlu\_admin\] and Virtual Agent admin \[virtual\_agent\_admin\] roles contain this role by default.Contains the localization requestor and localization editor roles by default.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/localization-roles-va.html
 release: zurich
@@ -19,13 +19,13 @@ Assign localization roles according to a user's scope in the localization proces
 The localization process follows this basic flow:
 
 1.  Topics are developed and released in the source language \(for example, English\).
-2.  Topics are translated, either by request or by editing them directly in Virtual Agent Designer.
+2.  Topics are translated, either by request or by editing them directly in Assistant Designer Asset library.
 
-    If you are using NLU models, the models must be translated as well. For more information about that process, see Multilingual model management.
+    If you are using NLU models, the models must be translated as well. For more information about that process, see [Multilingual model management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/multilingual-model-managent.md).
 
 3.  Translations are tested and published.
 
-Virtual Agent role privileges vary with the user's function in this process. These roles are also defined in the Localization Framework. For more information, see Localization Framework roles.
+Virtual Agent role privileges vary with the user's function in this process. These roles are also defined in the Localization Framework. For more information, see [Localization Framework roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/roles-localization-framework.md).
 
 To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
 
@@ -97,7 +97,7 @@ None.
 
 ## Localization editor \[localization\_editor\]
 
-Edits the translations directly in Virtual Agent Designer. The NLU admin \[nlu\_admin\] and Virtual Agent admin \[virtual\_agent\_admin\] roles contain this role by default.
+Edits the translations directly in Assistant Designer Asset library. The NLU admin \[nlu\_admin\] and Virtual Agent admin \[virtual\_agent\_admin\] roles contain this role by default.
 
 ### Contains Roles
 

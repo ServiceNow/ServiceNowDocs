@@ -9,7 +9,7 @@ classification: now-assist-data-kit
 topic_type: concept
 last_updated: "2026-02-11"
 reading_time_minutes: 1
-breadcrumb: [Using Now Assist Data Kit, Now Assist Data Kit, Enable AI experiences]
+breadcrumb: [Using AI Data Kit, AI Data Kit, Enable AI experiences]
 ---
 
 # Labelling

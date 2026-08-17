@@ -18,7 +18,7 @@ HR agents can support long-running SMS conversations with employees using the Co
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## SMS support conversations
 
@@ -26,7 +26,7 @@ SMS support conversations can run long. For this reason, HR Service Delivery wor
 
 For SMS support conversations, in the Workspace Chat panel, when the interaction type is **Messaging**, an interaction sub-type of **SMS** is indicated as **Active SMS**.
 
-For complete details about SMS support conversations, associated service channels, requestor initiated, and agent initiated SMS conversations, refer to [Conversational SMS service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/conversation-sms-service-channel-store-app.md).
+For complete details about SMS support conversations, associated service channels, requestor initiated, and agent initiated SMS conversations, refer to Conversational SMS service channel.
 
 ## SMS support conversations for HR Service Delivery agents
 
@@ -40,7 +40,7 @@ HR AWA agents and managers can view a list of all **In Progress** or **On Hold M
 
 ## Quick actions for agents
 
-Access existing chat-based quick actions for SMS messaging. For details, refer to [Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/ci-agent-chat-exploring.md).
+Access existing chat-based quick actions for SMS messaging. For details, refer to Agent Chat.
 
 ## Conversation desktop notifications
 

@@ -1,22 +1,22 @@
 ---
 title: Working with themes in Next Experience
-description: Themes enable you to tailor the visual experience for your users, helping to update the look and feel to be more like your brand.
+description: Themes let you customize the visual experience to match your brand.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/next-experience-theming.html
 release: zurich
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 5
+reading_time_minutes: 4
 breadcrumb: [Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
 
 # Working with themes in Next Experience
 
-Themes enable you to tailor the visual experience for your users, helping to update the look and feel to be more like your brand.
+Themes let you customize the visual experience to match your brand.
 
 Quickly create, edit, preview, and publish themes to your experiences using Theme Builder. See [Configure Next Experience with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/configuring-next-experience-with-theme-builder.md) for more information.
 
-**Important:** Theming applies to the classic environment in Lists, Forms, and Dashboards. Custom components don't reflect theming.
+**Note:** Theming applies to the classic environment in Lists, Forms, and Dashboards. Custom components don't reflect theming.
 
 ## Theming at a glance
 
@@ -34,13 +34,13 @@ Existing customers upgrading from a previous release will continue to see the th
 
 ## Theme record
 
-This image shows the default Polaris theme, which is read-only. You create your own themes and styles to be used by experiences in your instance by either cloning the Polaris or Coral theme or [by cloning a Theme Builder theme record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/create-custom-theme-using-theme-builder-record.md). If you clone either the Polaris or Coral theme, you also must clone the styles under UX Theme Styles and make changes to those styles, as desired. At least one Core type style must be defined.
+This image shows the default Polaris theme, which is read-only. Polaris and Coral are fixed, base themes and cannot be copied or edited. You create your own themes and styles to be used by experiences in your instance by [copying a Theme Builder theme record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/create-custom-theme-using-theme-builder-record.md). After copying a theme record, you must also copy the styles under UX Theme Styles and modify those styles as needed. At least one Core type style must be defined.
 
 \[Omitted image "comp-theme-overview.png"\] Alt text: Next Experience Polaris UX theme main record with Applicability, Order, Style and Type columns highlighted
 
 ## Theme styles
 
-You can configure a theme to match your company brand look and feel in ServiceNow. When you configure a theme, you adjust the color schemes, fonts, and images of your applications. On the Theme Builder Theme form, you configure Order, Style, and Type settings.
+When you configure a theme, you adjust the color schemes, fonts, and images of your applications. On the Theme Builder Theme form, you configure Order, Style, and Type settings.
 
 -   **Order**
 

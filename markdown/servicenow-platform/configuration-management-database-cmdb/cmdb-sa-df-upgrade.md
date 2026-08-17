@@ -1,6 +1,6 @@
 ---
 title: Managing principal class marking during upgrade
-description: Make sure that existing Hardware Asset Management \(HAM\) CI classes are included as principal classes in Data Foundations during upgrade, without requiring manual configuration.
+description: Make sure that existing Hardware Asset Management \(HAM\) CI classes are included as principal classes in Data Foundations during upgrade, without requiring manual configuration.Review and adjust the CI classes that CMDB success advisor automatically marked as principal classes during upgrade.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-upgrade.html
 release: zurich
@@ -9,6 +9,7 @@ classification: configuration-management-database-cmdb
 topic_type: concept
 last_updated: "2026-02-26"
 reading_time_minutes: 2
+keywords: [principal class marking during upgrade, HAM model category migration, automatic principal class assignment, upgrade impact on CI picker filtering, review principal classes after upgrade, adjust automatically marked classes, CI picker filtering system properties]
 breadcrumb: [Configure, CMDB success advisor, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -36,17 +37,32 @@ The following table shows how principal classes from HAM model categories are ap
 
 ## Recommended actions
 
-1.  Go to CMDB success advisor landing page, and on the Data Foundations card, select **Edit principal classes** to review automatically marked classes.
+Review and confirm the CI classes that were automatically marked as principal classes during upgrade, and adjust CI picker filtering behavior if needed. For instructions, see [Review principal classes marked automatically during upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-upgrade.md).
 
-    See [Manage Data Foundations advisor scope in CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-optimize-dashboard.md).
+## Review principal classes marked automatically during upgrade
 
-2.  Confirm that the marked classes align with your Data Foundations advisor scope. Remove any unwanted classes and add others as needed \(up to 200 principal classes\).
+Review and adjust the CI classes that CMDB success advisor automatically marked as principal classes during upgrade.
+
+### Before you begin
+
+Role required: sn\_cmdb\_admin
+
+### About this task
+
+Automatic principal class marking happens only once during upgrade. Later changes to HAM model categories do not update the principal classes list automatically. Similarly, principal class changes made without using CMDB success advisor, for example through CI Class Manager, are not reflected in the Data Foundations advisor scope automatically.
+
+### Procedure
+
+1.  On the CMDB success advisor landing page, on the Data Foundations card, select **Edit principal classes**.
+
+    Use this to review the classes that were automatically marked as principal classes during upgrade. See [Managing Data Foundations advisor scope in CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-optimize-dashboard.md).
+
+2.  Confirm that the marked classes align with your Data Foundations advisor scope, then remove any unwanted classes and add others as needed.
+
+    You can select up to 200 principal classes.
+
 3.  If CI picker filtering affects users, adjust behavior using the system properties for CMDB success advisor.
 
     See [Principal class tracking in CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-principal-class.md).
 
-
-**Note:**
-
-Automatic principal class marking happens only once during upgrade. Later changes to HAM model categories do not update the principal classes list automatically. Similarly, principal class changes made without using CMDB success advisor, for example through CI Class Manager, are not reflected in the Data Foundations advisor scope automatically.
 

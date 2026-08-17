@@ -1,20 +1,21 @@
 ---
 title: Create KPI performance domains
-description: Create KPI performance domains to classify various KPIs into categories. The KPIs under different performance domains can be viewed in the KPI management tab and the Performance dashboard to measure the supplier performance.
+description: Create KPI performance domains to categorize KPIs into groups visible in the supplier KPI management tab and the Performance dashboard.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/supplier-lifecycle-operations/create-kpi-domain.html
 release: zurich
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [Supplier Relationship, Performance Management, Supplier Lifecycle Operations, Source-to-Pay Workspace, KPI management, Performance dashboard]
 breadcrumb: [Configure Supplier Relationship and Performance Management, Configure, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 
 # Create KPI performance domains
 
-Create KPI performance domains to classify various KPIs into categories. The KPIs under different performance domains can be viewed in the KPI management tab and the Performance dashboard to measure the supplier performance.
+Create KPI performance domains to categorize KPIs into groups visible in the supplier KPI management tab and the Performance dashboard.
 
 ## Before you begin
 

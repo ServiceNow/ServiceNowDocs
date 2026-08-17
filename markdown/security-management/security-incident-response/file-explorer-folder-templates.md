@@ -53,6 +53,10 @@ Role required: sn\_msi.workspace\_admin
 
     If you don't create a sub folder with an appropriate name then the sub folders names are created as **Default** in the **Subfolder Configurations** section. . The same folder structure will be created automatically in the Microsoft SharePoint using the same access privileges that are configured on the **Folder Templates** page.
 
+    Example default sub-folders: Documents, Logs, Legal Docs, System Images.
+
+    **Important:** All users and groups added to a sub-folder must have a valid Microsoft Account to access SharePoint folders.
+
     **Note:**
 
     -   **Root Folder Name** allows field variable names as input, provided they are valid fields in the selected table. The field name must be enclosed in curly braces and is substituted by the field value during the flow execution runtime. For example, the Security Incident SIR001001, if \{number\} variable is configured in the **Root Folder Name** field, then the number is replaced with SIR001001 during the runtime.

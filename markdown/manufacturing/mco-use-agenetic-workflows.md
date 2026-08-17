@@ -18,7 +18,7 @@ Use the MCO AI agents within an agentic workflow to extract relevant data from r
 |---------------------|-----------|-------------------|
 |Execute recall campaigns faster|This workflow enhances the efficiency of recall execution by automatically creating corrective action records and corresponding charge line items using repair documents. The elimination of manual data entry and validation processes reduces cycle time, minimizes errors, and promotes consistency throughout recall operations.|Create recall corrective actions AI agent|
 
-Enable security implementation to execute AI agents and agentic workflows through Access Control Lists \(ACLs\) and user identities. For more information, see [Implement access control in Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/aia-security-implementation.md)
+Enable security implementation to execute AI agents and agentic workflows through Access Control Lists \(ACLs\) and user identities. For more information, see [Implement access control in AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/aia-security-implementation.md)
 
 **Important:** By default, all agent workflow and AI agent records are read-only.
 
@@ -31,7 +31,7 @@ To run the AI agents autonomously, you must first [duplicate the agentic workflo
 **Related topics**  
 
 
-[Explore Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/exploring-ai-agents.md)
+[Explore AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/exploring-ai-agents.md)
 
 [Execute recall campaigns faster Agentic Workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/execute-recall-campaigns.md)
 

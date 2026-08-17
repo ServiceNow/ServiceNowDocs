@@ -29,15 +29,19 @@ In your condition script for the topic, use a context variable to identify the m
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Virtual Agent** &gt; **Designer**.
+1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Assistant Designer**.
 
-2.  On the Virtual Agent Designer home page, select the topic for updating or create a new topic.
+2.  Select the **Asset library** tab.
 
-3.  Navigate to the **Properties** page, and open **Who can access this topic** under Advanced properties.
+3.  Set the discovery type toggle switch to **LLM** or **NLU/Keyword**, depending on which type you're working with.
 
-4.  In the Context section, select **Condition** followed by **Add Condition**.
+4.  Select the topic for updating or create a new topic.
 
-5.  Enter a condition script that identifies the messaging channel \(Slack, Microsoft Teams, Workplace from Facebook, or Facebook Messenger\) from which the topic will be excluded.
+5.  Navigate to the **Properties** page, and open **Who can access this topic** under Advanced properties.
+
+6.  In the Context section, select **Condition** followed by **Add Condition**.
+
+7.  Enter a condition script that identifies the messaging channel \(Slack, Microsoft Teams, Workplace from Facebook, or Facebook Messenger\) from which the topic will be excluded.
 
     You can use the following example script, which contains the **vaContext.deviceType** variable, to identify the messaging channel that excludes the topic: Slack, Microsoft Teams, Workplace, and Facebook Messenger.
 
@@ -50,7 +54,7 @@ In your condition script for the topic, use a context variable to identify the m
     })()
     ```
 
-6.  To save the topic properties, click **Save**.
+8.  To save the topic properties, click **Save**.
 
 
 ## Result

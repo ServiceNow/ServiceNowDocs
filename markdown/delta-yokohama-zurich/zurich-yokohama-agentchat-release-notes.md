@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-agentchat-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 2
 breadcrumb: [Products combined by family]
 ---
@@ -75,7 +75,7 @@ Zurich
 
 </td><td>
 
--   **[Third-party chat integrations](https://servicenow-staging.fluidtopics.net/access?context=ci-agent-chat-using&family=zurich&ft:locale=en-US)**
+-   **[Third-party chat integrations](https://www.servicenow.com/docs/access?context=ci-agent-chat-using&family=zurich&ft:locale=en-US)**
 
 Use the new customer message area for third-party chat integrations to see these features:
 
@@ -198,7 +198,7 @@ Zurich
 
 </td><td>
 
-Agent Chat is a ServiceNow AI Platform feature that is available with activation of the Agent Chat plugin \(com.glide.interaction.awa\). For details, see [Configuring Agent Chat](https://servicenow-staging.fluidtopics.net/access?context=ci-agent-chat-configuring&family=zurich&ft:locale=en-US).
+Agent Chat is a ServiceNow AI Platform feature that is available with activation of the Agent Chat plugin \(com.glide.interaction.awa\). For details, see [Configuring Agent Chat](https://www.servicenow.com/docs/access?context=ci-agent-chat-configuring&family=zurich&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -345,7 +345,7 @@ Zurich
 
 Integrate and use Agent Chat with third-party chat apps.
 
- See [Using Agent Chat](https://servicenow-staging.fluidtopics.net/access?context=ci-agent-chat-using&family=zurich&ft:locale=en-US) for more information.
+ See [Using Agent Chat](https://www.servicenow.com/docs/access?context=ci-agent-chat-using&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

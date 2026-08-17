@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-sitereliabilityoperations-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 2
 breadcrumb: [Products combined by family]
 ---
@@ -330,7 +330,7 @@ Yokohama
 
 Site Reliability Operations and Site Reliability Metrics \(extends SRO\) store applications are replaced with Service Reliability Management application.
 
- See [Service Reliability Management](https://servicenow-staging.fluidtopics.net/access?context=sr-landing-page&family=yokohama&ft:locale=en-US) for more information.
+ See [Service Reliability Management](https://www.servicenow.com/docs/access?context=sr-landing-page&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 

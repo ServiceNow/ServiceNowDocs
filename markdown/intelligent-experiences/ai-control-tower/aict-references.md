@@ -1,5 +1,5 @@
 ---
-title: AI Control Tower reference
+title: AI Control Tower reference \(legacy\)
 description: Reference topics for AI Control Tower.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/ai-control-tower/aict-references.html
@@ -10,10 +10,10 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Now Assist, Gen AI, Generative AI, AI Governance, Now LLM, large language model]
-breadcrumb: [AI Control Tower, Enable AI experiences]
+breadcrumb: [AI Control Tower \(legacy\), Enable AI experiences]
 ---
 
-# AI Control Tower reference
+# AI Control Tower reference \(legacy\)
 
 Reference topics for AI Control Tower.
 
@@ -25,6 +25,8 @@ Certain roles are installed along with the installation of the AI Control Tower.
 Certain tables or fields are installed along with the activation of the AI Control Tower core plugin.
 -   **[AI asset data model attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/ai-asset-data-model-attributes.md)**  
 Additional attributes for the AI asset data model.
+-   **[Evaluation dashboard References](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/ai-eval-references.md)**  
+Reference topics for the Evaluation dashboard.
 
-**Parent Topic:**[AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/ai-control-tower-landing.md)
+**Parent Topic:**[AI Control Tower \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/ai-control-tower-landing.md)
 

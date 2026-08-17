@@ -36,7 +36,7 @@ The Enterprise Architecture Workspace has a consolidated user interface and is d
         -   **Needs Attention**: Lists the tasks that you must act on. You can see the number of tasks for each tab.
             -   The **My Approvals** tab lists the requests that are waiting for your approval.
             -   The **My Requests** tab lists the requests that you have raised.
-            -   The **My Certifications** tab lists the certification tasks that are assigned to you, assigned to any group you belong to, assigned to any group you manage, or assigned to any of your direct reports. You can use this tab to keep your business applications inventory up to date by periodically certifying the data in the business applications table.
+            -   The **My Certifications** tab lists the certification tasks that are assigned to you, any group you belong to, any group you manage, or any of your direct reports. You can use this tab to keep your business applications inventory up to date by periodically certifying the data in the business applications table.
             -   The **Assessments** tab lists the assessments for your applications that help you to evaluate and score your business applications based on qualitative inputs.
         -   **Portfolio Overview and Health**: Helps you to monitor your portfolio and its health. You can also use the filter option to filter for and view specific business applications and business capabilities information. An indicator is displayed on top of the filter icon to show the number of filters applied. You can also clear all applied filters using the **Clear all filters** button.
 
@@ -62,7 +62,7 @@ The Enterprise Architecture Workspace has a consolidated user interface and is d
 
 [Exploring a business portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/manage-business-portfolio.md)
 
-[Gantt view of TPM and TRM lifecycle timelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-gantt-view-of-tpm-and-trm-lifecycle-timelines.md)
+[Gantt view of TLM and TRM lifecycle timelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-gantt-view-of-tpm-and-trm-lifecycle-timelines.md)
 
 [Rationalization of business applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-rationalize-business-applications.md)
 
@@ -76,5 +76,5 @@ The Enterprise Architecture Workspace has a consolidated user interface and is d
 
 [Manage application total cost of ownership \(TCO\) in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-app-tco.md)
 
-[Manage the Technology Portfolio Management \(TPM\) in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-tpm.md)
+[Manage the Technology Lifecycle Management \(TLM\) in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-tpm.md)
 

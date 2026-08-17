@@ -9,7 +9,7 @@ classification: now-assist-for-creator
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Playbook recommendations, Now Assist for Creator, Build workflows]
+breadcrumb: [Playbook recommendations, ServiceNow Otto for Creator, Build workflows]
 ---
 
 # Turn on Playbook recommendations
@@ -19,7 +19,7 @@ Turn on the playbook recommendations skill to get recommendations for the activi
 ## Before you begin
 
 -   Role required: admin
--   Install the Now Assist for Creator application. For more information, see [Install Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/now-assist-for-creator/install-now-assist-for-creator.md).
+-   Install the ServiceNow Otto for Creator application. For more information, see [Install ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/now-assist-for-creator/install-now-assist-for-creator.md).
 
 ## Procedure
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-conversationinsights-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -67,11 +67,11 @@ Yokohama
 
 </td><td>
 
--   **[Inferred CSAT](https://servicenow-staging.fluidtopics.net/access?context=exploring-conversation-insights&family=yokohama&ft:locale=en-US)**
+-   **[Inferred CSAT](https://www.servicenow.com/docs/access?context=exploring-conversation-insights&family=yokohama&ft:locale=en-US)**
 
 Inferred CSAT provides an estimated score computed using AI in real time by analyzing the entire sequence of the conversation.
 
--   **[CSAT factors](https://servicenow-staging.fluidtopics.net/access?context=exploring-conversation-insights&family=yokohama&ft:locale=en-US)**
+-   **[CSAT factors](https://www.servicenow.com/docs/access?context=exploring-conversation-insights&family=yokohama&ft:locale=en-US)**
 
 The following CSAT factors provide explainability to the Inferred CSAT score.
 
@@ -82,7 +82,7 @@ The following CSAT factors provide explainability to the Inferred CSAT score.
     -   Next Steps
     -   Frustration
     -   Transfers and Escalations
--   **[AI Agent Analytics dashboard](https://servicenow-staging.fluidtopics.net/access?context=ai-agent-dashboard&family=yokohama&ft:locale=en-US)**
+-   **[AI Agent Analytics dashboard](https://www.servicenow.com/docs/access?context=ai-agent-dashboard&family=yokohama&ft:locale=en-US)**
 
 The AI Agent Analytics dashboard includes visualizations with Inferred CSAT scores and factors by default.
 
@@ -93,11 +93,11 @@ Zurich
 
 </td><td>
 
--   **[Inferred CSAT](https://servicenow-staging.fluidtopics.net/access?context=exploring-conversation-insights&family=zurich&ft:locale=en-US)**
+-   **[Inferred CSAT](https://www.servicenow.com/docs/access?context=exploring-conversation-insights&family=zurich&ft:locale=en-US)**
 
 Inferred CSAT provides an estimated score computed using AI in real time by analyzing the entire sequence of the conversation.
 
--   **[CSAT factors](https://servicenow-staging.fluidtopics.net/access?context=exploring-conversation-insights&family=zurich&ft:locale=en-US)**
+-   **[CSAT factors](https://www.servicenow.com/docs/access?context=exploring-conversation-insights&family=zurich&ft:locale=en-US)**
 
 The following CSAT factors provide explainability to the Inferred CSAT score.
 
@@ -108,7 +108,7 @@ The following CSAT factors provide explainability to the Inferred CSAT score.
     -   Next Steps
     -   Frustration
     -   Transfers and Escalations
--   **[AI Agent Analytics dashboard](https://servicenow-staging.fluidtopics.net/access?context=ai-agent-dashboard&family=zurich&ft:locale=en-US)**
+-   **[AI Agent Analytics dashboard](https://www.servicenow.com/docs/access?context=ai-agent-dashboard&family=zurich&ft:locale=en-US)**
 
 The AI Agent Analytics dashboard includes visualizations with Inferred CSAT scores and factors by default.
 
@@ -219,7 +219,7 @@ Yokohama
 
 </td><td>
 
-Install Conversation Insights by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+Install Conversation Insights by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -227,7 +227,7 @@ Zurich
 
 </td><td>
 
-Install Conversation Insights by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+Install Conversation Insights by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -368,7 +368,7 @@ Yokohama
 -   Use underlying factors like Resolution, Confusion, Effort, Empathy, Next Steps, Frustration, Transfers, and Escalations to provide explainability to the Inferred CSAT scores.
 -   Leverage the Inferred CSAT framework and Conversation Insights \[sn\_aci\_insights\] table linked to the Conversation \[sys\_cs\_conversation\] table to create adhoc dashboards and workflows for conversational analytics applications.
 
- See [Conversation Insights](https://servicenow-staging.fluidtopics.net/access?context=conversation-insights&family=yokohama&ft:locale=en-US) for more information.
+ See [Conversation Insights](https://www.servicenow.com/docs/access?context=conversation-insights&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -380,7 +380,7 @@ Zurich
 -   Use underlying factors like Resolution, Confusion, Effort, Empathy, Next Steps, Frustration, Transfers, and Escalations to provide explainability to the Inferred CSAT scores.
 -   Leverage the Inferred CSAT framework and Conversation Insights \[sn\_aci\_insights\] table linked to the Conversation \[sys\_cs\_conversation\] table to create adhoc dashboards and workflows for conversational analytics applications.
 
- See [Conversation Insights](https://servicenow-staging.fluidtopics.net/access?context=conversation-insights&family=zurich&ft:locale=en-US) for more information.
+ See [Conversation Insights](https://www.servicenow.com/docs/access?context=conversation-insights&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2025-07-02"
 reading_time_minutes: 1
-breadcrumb: [Configure Model Context Protocol Client, Model Context Protocol Client, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Configure Model Context Protocol Client, Model Context Protocol Client, AI Agent Studio, Enable AI experiences]
 ---
 
 # Test an AI agent
@@ -38,7 +38,7 @@ After you create an AI agent and add an MCP tool to it, test the AI agent to con
 
     \[Omitted image "test-aia-mcp.png"\] Alt text: The Test AI reasoning tab, which includes the search field, the Version drop-down list, and the Task field.
 
-    You’re directed to the **Chat responses** tab, where you can see Now Assist executing operations to test the AI agent.
+    You’re directed to the **Chat responses** tab, where you can see ServiceNow Otto executing operations to test the AI agent.
 
 6.  Complete the testing by selecting **Log in** and authenticating the MCP server.
 

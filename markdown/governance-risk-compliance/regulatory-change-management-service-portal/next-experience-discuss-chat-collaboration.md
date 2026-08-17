@@ -7,7 +7,7 @@ release: zurich
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: concept
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 2
 breadcrumb: [Explore, Regulatory Change Management, Governance, Risk, and Compliance]
 ---
@@ -41,6 +41,4 @@ On a regulatory change management case, select **Discuss** from other options. C
 [Regulatory assessment for a regulatory alert]()
 
 [Regulatory Change Management application in the Compliance Workspace]()
-
-[Exploring Now Assist in Regulatory Change Management \(RCM\)]()
 

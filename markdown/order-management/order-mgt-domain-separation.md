@@ -32,7 +32,7 @@ The order fulfillment module in Order Management supports domain separation at a
 
 ## How domain separation works in Order Management
 
--   Ensure that the account is domain separated according to the domain separation guidelines in Customer Service Management. For more information, see Domain separation and Customer Service Management.
+-   Ensure that the account is domain separated according to the domain separation guidelines in Customer Service Management. For more information, see [Domain separation and Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/domain-separation-customer-service.md).
 -   Customer orders, customer order line items, service orders, service order lines, and order tasks are domain separated using the account name.
 -   If an administrator assigns fulfillment agents and managers to work on customer orders, service orders, and order tasks for a specific domain, they can work on these types of transactions across accounts.
 

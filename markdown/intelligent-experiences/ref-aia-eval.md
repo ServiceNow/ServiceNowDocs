@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-03-18"
 reading_time_minutes: 1
 keywords: [reference]
-breadcrumb: [Evaluate agentic AI assets, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Evaluate agentic AI assets, AI Agent Studio, Enable AI experiences]
 ---
 
 # Reference for agentic evaluations

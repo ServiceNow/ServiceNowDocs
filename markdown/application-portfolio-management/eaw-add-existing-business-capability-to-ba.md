@@ -36,15 +36,15 @@ Role required: sn\_apm.apm\_user
 
 8.  In the Add business capabilities window, add the relevant business capabilities or particular sub capabilities.
 
-<table id="choicetable_dsh_sns_dfc"><thead><tr><th align="left" id="d122485e146">
+<table id="choicetable_dsh_sns_dfc"><thead><tr><th align="left" id="d131081e146">
 
 Options
 
-</th><th align="left" id="d122485e149">
+</th><th align="left" id="d131081e149">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d122485e155">
+</th></tr></thead><tbody><tr><td id="d131081e155">
 
 **Add parent business capabilities to the business application**
 
@@ -56,7 +56,7 @@ In the **Available items** box, select the check box next to a business capabili
 
  \[Omitted image "business-capability-added-to-ba.png"\] Alt text: Selected business capabilities that are to be added to the business application.
 
-</td></tr><tr><td id="d122485e183">
+</td></tr><tr><td id="d131081e183">
 
 **Add specific sub capabilities to the business application**
 

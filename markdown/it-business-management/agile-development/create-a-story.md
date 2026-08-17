@@ -270,7 +270,7 @@ Enhancement associated with the story. This field is a reference field from the 
 
 ## What to do next
 
--   Use the related links and lists of the story to create scrum tasks for this story, or convert this story into an epic or split this story into two stories. For more information, see [Related links and lists for a Story in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/agile-2-0-story-related-lists-related-links.md).
+-   Use the related links and lists of the story to create scrum tasks for this story. You can also convert this story into an epic or split it into two stories. For more information, see [Related links and lists for a Story in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/agile-2-0-story-related-lists-related-links.md).
 -   [Add dependencies for Agile Development 2.0 stories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/Add-dependencies-to-stories.md)
 -   You can create a story with the same details as this story by using the **Insert** or **Insert and Stay** options from the story additional actions \(\[Omitted image "additional-options.png"\] Alt text: Additional actions icon.\).
 

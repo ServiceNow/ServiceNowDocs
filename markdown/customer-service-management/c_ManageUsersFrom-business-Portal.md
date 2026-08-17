@@ -126,15 +126,15 @@ Role required: sn\_customerservice.customer\_admin, sn\_customerservice.partner\
 
 4.  In the Actions list, select one of the following links, as required.
 
-<table id="choicetable_fnc_gct_lrb"><thead><tr><th align="left" id="d169141e764">
+<table id="choicetable_fnc_gct_lrb"><thead><tr><th align="left" id="d168824e764">
 
 Choice
 
-</th><th align="left" id="d169141e767">
+</th><th align="left" id="d168824e767">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d169141e773">
+</th></tr></thead><tbody><tr><td id="d168824e773">
 
 **Disable login**
 
@@ -142,7 +142,7 @@ Description
 
 Disables the login for this contact. When the login is inactive, the contact can’t access the business portal.This link is displayed if the login is enabled.
 
-</td></tr><tr><td id="d169141e785">
+</td></tr><tr><td id="d168824e785">
 
 **Enable login**
 

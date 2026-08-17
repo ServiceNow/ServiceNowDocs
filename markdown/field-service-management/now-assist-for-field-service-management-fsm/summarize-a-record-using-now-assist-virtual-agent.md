@@ -9,7 +9,7 @@ classification: now-assist-for-field-service-management-fsm
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Use generative AI skills, Now Assist for FSM]
+breadcrumb: [Use generative AI skills, ServiceNow Otto for FSM]
 ---
 
 # Summarize a record using Now Assist in Virtual Agent
@@ -43,7 +43,7 @@ You can summarize a record by launching Ask Now Assist from the home screen and 
 6.  Tap the plus icon to begin a new conversation.
 
 
-**Parent Topic:**[Using Now Assist for Field Service Management \(FSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/now-assist-for-field-service-management-fsm/using-now-assist-fsm.md)
+**Parent Topic:**[Using ServiceNow Otto for Field Service Management \(FSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/now-assist-for-field-service-management-fsm/using-now-assist-fsm.md)
 
 ## Summarize a record directly from a work order task record using Now Assist in Virtual Agent
 

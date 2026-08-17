@@ -51,6 +51,8 @@ You can access contract request through the legal request or directly from the L
 
 [Internal review overview]()
 
+[Signature workflow for a request]()
+
 [Cancel a legal request]()
 
 [View and download a signed contract document]()

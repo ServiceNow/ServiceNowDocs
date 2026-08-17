@@ -1,5 +1,5 @@
 ---
-title: Dynamic Translation for Now Assist Actions Genius Results
+title: Dynamic Translation for Actions Genius Results
 description: Dynamic Translation improves the international search experience for Catalog Items and Virtual Agent topics. When Dynamic Translation is activated, AI Search can translate searches into English before matching Catalog Items and Virtual Agent topics for inclusion in Now Assist Actions Genius Result answers, and can translate generated answers into the search user's language.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/dynamic-translation-na-actions-gr.html
@@ -10,10 +10,10 @@ topic_type: concept
 last_updated: "2025-10-03"
 reading_time_minutes: 1
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Now Assist Actions Genius Results, Configuring Now Assist in AI Search, Now Assist in AI Search, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer]
+breadcrumb: [Actions Genius Results, Configuring Now Assist in AI Search, ServiceNow Otto for AI Search, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer]
 ---
 
-# Dynamic Translation for Now Assist Actions Genius Results
+# Dynamic Translation for Actions Genius Results
 
 Dynamic Translation improves the international search experience for Catalog Items and Virtual Agent topics. When Dynamic Translation is activated, AI Search can translate searches into English before matching Catalog Items and Virtual Agent topics for inclusion in Now Assist Actions Genius Result answers, and can translate generated answers into the search user's language.
 
@@ -32,5 +32,5 @@ To read more about the capabilities of Dynamic Translation and learn how to acti
 
 Dynamic Translation works with all languages supported by the ServiceNow AI Platform®.
 
-**Parent Topic:**[Now Assist Actions Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/now-assist-catalog-ordering-gr.md)
+**Parent Topic:**[Actions Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/now-assist-catalog-ordering-gr.md)
 

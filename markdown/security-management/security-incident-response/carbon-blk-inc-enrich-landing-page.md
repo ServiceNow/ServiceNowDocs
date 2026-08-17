@@ -25,8 +25,7 @@ Use the Carbon Black integration to investigate and respond to security incident
 
 ## Understand integration concepts
 
--   [Types of ServiceNow integrations provided](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/c_TypesOfIntegrationsProv.md)
--   [Security Operations workflow triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/workflow-triggers.md)
+[Types of ServiceNow integrations provided](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/c_TypesOfIntegrationsProv.md)
 
 ## Get help from ServiceNow resources
 

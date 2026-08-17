@@ -1,6 +1,6 @@
 ---
 title: Export demands
-description: Export demand records from the Next Experience for Demand Management to share data with stakeholders or perform further analysis outside the platform.
+description: Share data with stakeholders or perform further analysis outside the platform by exporting demand records from Next Experience for Demand Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/strategic-planning/export-demands-dw.html
 release: zurich
@@ -9,12 +9,12 @@ classification: strategic-planning
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Manage demands, Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Export demands
 
-Export demand records from the Next Experience for Demand Management to share data with stakeholders or perform further analysis outside the platform.
+Share data with stakeholders or perform further analysis outside the platform by exporting demand records from Next Experience for Demand Management.
 
 ## Before you begin
 
@@ -22,24 +22,22 @@ Role required: it\_demand\_manager
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Strategic Planning Workspace** &gt; **Demands**.
+1.  Navigate to **Workspaces** &gt; **Strategic Planning Workspace**.
 
-2.  Select the demands that you want to export.
+2.  Select the Demands icon \[Omitted image "demands-icon.png"\].
 
-    You can export all demands on the record page by selecting the check box in the column header.
+3.  Select the demands that you want to export or select the check box in the column header to export all demands.
 
-3.  Select **Export**.
+4.  Select **Export**.
 
-4.  Select the **File Type** as Excel, CSV, JSON, or PDF.
+5.  In the Export dialog box, select the export file type from the **File Type** drop-down list.
 
-    The export file is created in the selected format.
+    The available values are Excel, CSV, JSON, or PDF.
 
-5.  Select the **Delivery Type** as Download or Email.\[Omitted image "demand-export.png"\] Alt text: Fill in the export form to export the demands.
+6.  Determine the delivery type in the **Delivery Type** field.
 
-6.  Provide your preferred email address if you selected Email as the delivery type.
-
+    -   To deliver the export by email, select **Email** and provide an email address in the **Email** field.
+    -   To download the exported data to your system, select **Download**.
 7.  Select **Export**.
-
-    The export file is downloaded on your system or mailed to your provided email addressed.
 
 

@@ -18,9 +18,9 @@ Install the Now Assist in Contract Management plugin \(sn\_cm\_gen\_ai\) and act
 
 ## About this task
 
-Use the Now Assist console to enable Now Assist in Contract Management. This console contains everything that you need to install the plugin and activate the generative AI skills. For additional information, see [Overview tab in Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configuring-now-assist.md).
+Use the Now Assist console to enable Now Assist in Contract Management. This console contains everything that you need to install the plugin and activate the generative AI skills. For additional information, see [Overview tab in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configuring-now-assist.md).
 
-The following skills are available for Contract Management in the Now Assist Admin console.
+The following skills are available for Contract Management in the AI Admin Hub console.
 
 -   Contract metadata extraction
 -   Contract analysis
@@ -33,9 +33,9 @@ Role required: sn\_cm\_gen\_ai.ai\_contract\_admin
 
 1.  Install the Now Assist in Contract Management plugin \(sn\_cm\_gen\_ai\).
 
-    For information about the plugin installation process, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+    For information about the plugin installation process, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 
-2.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Features** to open the **Now Assist Features** tab on the Now Assist Admin console.
+2.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Features** to open the **Now Assist Features** tab on the AI Admin Hub console.
 
 3.  Navigate to **Employee** &gt; **CM Pro**.
 

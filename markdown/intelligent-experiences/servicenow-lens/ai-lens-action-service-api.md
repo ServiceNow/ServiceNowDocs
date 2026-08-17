@@ -7,8 +7,8 @@ release: zurich
 product: ServiceNow Lens
 classification: servicenow-lens
 topic_type: concept
-last_updated: "2025-08-28"
-reading_time_minutes: 5
+last_updated: "2026-08-04"
+reading_time_minutes: 6
 breadcrumb: [Reference, ServiceNow AI Lens, Enable AI experiences]
 ---
 
@@ -22,7 +22,7 @@ This script include provides methods that enable the following:
 
 -   Calls Lens as a back-end service
 -   Analyzes and comprehends data from provided images
--   Gets response from Now Assist as per provided directions
+-   Gets response from AI as per provided directions
 -   Does not require ServiceNow AI Lens desktop app
 
 **Parent Topic:**[ServiceNow AI Lens reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-lens/servicenow-lens-reference.md)
@@ -95,7 +95,7 @@ String
 
 </td><td>
 
-An instruction or question for Now Assist to answer after analyzing the contents of the attachments.Example: `Analyze this production issue and create an incident ticket`
+An instruction or question for AI to answer after analyzing the contents of the attachments.Example: `Analyze this production issue and create an incident ticket`
 
 </td></tr><tr><td>
 
@@ -134,7 +134,9 @@ Object
 
 </td><td>
 
-Additional JSON input parameters that you want to pass in the pre-processing script of the Lens action.Example:
+Additional JSON input parameters that you want to pass in the pre-processing script of the Lens action.**Note:** To use Multi-table schema mapping, you must pass at least one table name key and its corresponding value inside the input JSON. For example, \{ 'tableName': 'sn\_ent\_model,sn\_ent\_asset' \},
+
+Example:
 
 ```
 {
@@ -178,7 +180,7 @@ For more information on the various key-values of the Excel mapping service, see
 
 **Key-values of the Excel auto-mapping services**
 
-    -   **Schema mapping** — Maps Excel column headers to ServiceNow table fields and identifies the field type of each mapped field. Key-values for schema mapping are:
+    -   **Schema mapping** — Maps Excel column headers to ServiceNow table fields and identifies the field type of each mapped field. You can also use this option to map Excel column headers from a single sheet to multiple ServiceNow tables. Key-values for schema mapping are:
 
         -   `mappingStrategy`: Set to `'schema_mapping'`
         -   `rowContextSize`: Number of sample data rows to use for mapping context. Default: `10`.
@@ -204,6 +206,35 @@ gs.info("Lens Response : " + JSON.stringify(response));
   "End Date":        { "type": "glide_date", "mappings": { "1.0": ["due_date"], "0.8": ["expected_start"] } },
   "Project Assigned":{ "type": "string",     "mappings": { "0.8": ["short_description", "task", "description"] } }
 }
+        ```
+
+**Multi-table schema mapping**
+
+Maps Excel column headers from a single sheet to multiple ServiceNow tables simultaneously. ServiceNow AI Lens identifies the relevant fields in each table for each Excel column header and maps the data accordingly.
+
+**Request example**
+
+        ```
+var response = new sn_app_lens_core.AILensActionService().invokeLens(
+    "3290a3dc2b420310d666fe3db891bfb8",
+    ["566997542b46c310a371f33ec891bfbc"],
+    "",
+    {},
+    {
+        'tableName': 'sn_ent_model,sn_ent_asset'
+    },
+    true,
+    {
+        "mappingStrategy": "schema_mapping",
+        "rowContextSize": 5,
+        "randomizeRowOrder": false,
+        "headerRowNumber": 2
+    }
+);
+gs.info("Overall Lens Response " + JSON.stringify(response));
+var res = JSON.parse(response.lensResponse);
+gs.info("Mapped Object" + JSON.stringify(res, null, '   '));
+
         ```
 
     -   **Choice mapping** — For fields identified as Choice type, maps the unique values from the Excel column to the valid choice values in the ServiceNow table field. Key-values for Choice mapping are:
@@ -233,6 +264,35 @@ gs.info("Lens Response : " + JSON.stringify(response));
   } 
 ]
         ```
+
+**Multi-column to single field choice mapping**
+
+Maps multiple Excel column headers and their values to a single ServiceNow field. This is useful when related data from separate columns should be consolidated into one field.
+
+**Request example**
+
+        ```
+var response = new sn_app_lens_core.AILensActionService().invokeLens(
+    "4b50a72c2b694710c18df2086e91bf84",
+    ["e782e364936103105357f1cfb903d682"],
+    "",
+    {},
+    {},
+    true,
+    {
+        "mappingStrategy": "choice_mapping",
+        "columnConfigs": [
+            { "field": "location", "name": "city" },
+            { "field": "location", "name": "zip" },
+            { "field": "location", "name": "state" }
+        ]
+    }
+);
+gs.info("response " + JSON.stringify(response, null, '   '));
+
+        ```
+
+**Note:** Multi-column to single field mapping also works with Reference mapping.
 
     -   **Reference mapping** — Maps Excel cell values to the corresponding ServiceNow reference field records. Key-values for Reference mapping are:
 

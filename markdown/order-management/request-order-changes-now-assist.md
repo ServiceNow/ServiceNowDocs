@@ -1,6 +1,6 @@
 ---
-title: Request order changes using Now Assist Virtual Assistant
-description: Request an expedited delivery, a quantity change, or a shipping location change for your order in natural language using the Now Assist Virtual Assistant on the Business Portal.
+title: Request order changes using ServiceNow Otto Virtual Agent
+description: Request an expedited delivery, a quantity change, or a shipping location change for your order in natural language using the ServiceNow Otto Virtual Agent on the Business Portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/request-order-changes-now-assist.html
 release: zurich
@@ -8,31 +8,31 @@ topic_type: task
 last_updated: "2026-06-04"
 reading_time_minutes: 5
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Use, Now Assist for Order Management]
+breadcrumb: [Use, ServiceNow Otto for Order Management]
 ---
 
-# Request order changes using Now Assist Virtual Assistant
+# Request order changes using ServiceNow Otto Virtual Agent
 
-Request an expedited delivery, a quantity change, or a shipping location change for your order in natural language using the Now Assist Virtual Assistant on the Business Portal.
+Request an expedited delivery, a quantity change, or a shipping location change for your order in natural language using the ServiceNow Otto Virtual Agent on the Business Portal.
 
 ## Before you begin
 
 The following applications must be installed and configured on your ServiceNow instance:
 
--   Now Assist for Platform \(sn\_genai\_platform\)
--   Now Assist for Order Management \(sn\_now\_assist\_om\)
+-   ServiceNow Otto for Platform \(sn\_genai\_platform\)
+-   ServiceNow Otto for Order Management \(sn\_now\_assist\_om\)
 -   Order Case Self Service \(sn\_ord\_case\_ss\)
 
-The scripted extension points that the chat assistant uses to validate order exception requests such as delivery availability, quantity, shipping location, and quote threshold must be configured. For more information, see [Configure scripted extension points for the manage order operations agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/create-atp-api-call.md).
+The scripted extension points that the chat assistant uses to validate order exception requests such as delivery availability, quantity, shipping location, and quote threshold must be configured. For more information, see [Configure scripted extension points for the manage order operations AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/create-atp-api-call.md).
 
 Role required: sn\_customerservice.customer
 
 ## About this task
 
-When you submit a request through the Virtual Assistant, the AI agent performs the following actions behind the scenes to help you quickly and efficiently:
+When you submit a request through the Virtual Agent, the AI agent performs the following actions behind the scenes to help you quickly and efficiently:
 
 -   Checks account information and order history.
--   Validates the intent of the request, which can be an expedited delivery, a quantity change, or a shipping location change. For example, if you enter `expedite`, `change quantity`, or `ship to a different location` in the Virtual Assistant, the AI agent confirms the request type for your open orders.
+-   Validates the intent of the request, which can be an expedited delivery, a quantity change, or a shipping location change. For example, if you enter `expedite`, `change quantity`, or `ship to a different location` in the Virtual Agent, the AI agent confirms the request type for your open orders.
 -   Confirms the order number and your change request.
 -   After you confirm all the requested changes, creates an order case in the ServiceNow CRM and stamps the requested changes on the requested fields of the order case lines.
 -   Calls the configured scripted extension points to validate inventory availability, quantity feasibility, shipping location feasibility, and quote thresholds for the request. For example, the AI agent calls orderExceptionCheckEP to check whether the ordered item is in stock for early delivery, or ThresholdCheckForQuote to determine whether a quantity change requires a quote. If you approve the validation results, the AI agent stamps the approved values on the approved fields of the order case lines.
@@ -42,7 +42,7 @@ When you submit a request through the Virtual Assistant, the AI agent performs t
 
 1.  Log in to the Business Portal.
 
-2.  Launch the Now Assist chat panel by selecting the Now Assist icon \[Omitted image "icon-ai-sparkle.png"\] Alt text:.
+2.  Launch the ServiceNow Otto chat panel by selecting the ServiceNow Otto icon \[Omitted image "icon-otto-outline-24.svg"\] Alt text:.
 
 3.  In natural language, submit a request that you would like for your order.
 
@@ -84,10 +84,10 @@ When you submit a request through the Virtual Assistant, the AI agent performs t
     If you reject the quote, the AI agent offers to connect you to a live agent and the order case remains in progress.
 
 
-**Parent Topic:**[Using Now Assist for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/now-assist-order-management-using.md)
+**Parent Topic:**[Using ServiceNow Otto for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/now-assist-order-management-using.md)
 
 **Related topics**  
 
 
-[Configure Now Assist for Sales Force Automation \(SFA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configure-now-assist-som.md)
+[Configure ServiceNow Otto for Sales Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configure-now-assist-som.md)
 

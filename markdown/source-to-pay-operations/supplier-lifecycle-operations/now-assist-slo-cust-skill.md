@@ -1,6 +1,6 @@
 ---
-title: Customize a Now Assist for Supplier Lifecycle Operations \(SLO\) skill for Case summarization
-description: If you have the admin role, you can customize a Now Assist for Supplier Lifecycle Operations \(SLO\) skill. By customizing a skill, supplier managers can use the generative AI skills in Source-to-Pay Workspace and in Core UI.
+title: Customize a ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) skill for Case summarization
+description: If you have the admin role, you can customize a ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) skill. By customizing a skill, supplier managers can use the generative AI skills in Source-to-Pay Workspace and in Core UI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-cust-skill.html
 release: zurich
@@ -8,14 +8,14 @@ product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 5
+reading_time_minutes: 4
 keywords: [generative AI, gen AI, genai, artificial intelligence]
-breadcrumb: [Configure, Now Assist for SLO, Supplier Lifecycle Operations, Finance and Supply Chain]
+breadcrumb: [Configure, ServiceNow Otto for SLO, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 
-# Customize a Now Assist for Supplier Lifecycle Operations \(SLO\) skill for Case summarization
+# Customize a ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) skill for Case summarization
 
-If you have the admin role, you can customize a Now Assist for Supplier Lifecycle Operations \(SLO\) skill. By customizing a skill, supplier managers can use the generative AI skills in Source-to-Pay Workspace and in Core UI.
+If you have the admin role, you can customize a ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) skill. By customizing a skill, supplier managers can use the generative AI skills in Source-to-Pay Workspace and in Core UI.
 
 ## Before you begin
 
@@ -23,31 +23,25 @@ Role required: admin
 
 ## About this task
 
-From the Now Assist Admin console, you can select the input table, related records, and fields for each input template of the Case summarization skill. You can then configure the prompt headers to include them in the general summary.
+From the AI Admin Hub, you can select the input table, related records, and fields for each input template of the Case summarization skill. You can then configure the prompt headers to include them in the general summary.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Features** to access the **Now Assist Features** tab of the Now Assist Admin console.
+1.  Navigate to **All** &gt; **AI Admin Hub** and select the **AI Skills** tab.
 
-2.  In the **Finance and Supply Chain** workflow group, select **Supplier Lifecycle Operations** to view the skill for the Now Assist for SLO feature.
+2.  In the **Finance and Supply Chain** workflow group, select **Supplier Lifecycle Operations** to view the AI skills for the ServiceNow Otto for SLO features.
 
-3.  Create a copy of the skill and customize the input fields.
+3.  Create a copy of an active skill and customize the input fields.
 
-    1.  On the Case summarization feature card, select **View details**.
+    1.  From the listed active skills, locate the skill that you'd like to copy and select the More actions icon \(\[Omitted image "more\_vertical\_icon.png"\] Alt text: More actions icon.\).
 
-    2.  In the Active skills section, locate the skill that you'd like to copy and select the More actions icon \(\[Omitted image "more\_vertical\_icon.png"\] Alt text: More actions icon.\).
-
-    3.  Select **Make copy**.
-
-        The copy that you make is listed in the Active skills section.
-
-    4.  Select the copied skill from the Active skills section to open it.
+    2.  Select **Make copy**.
 
         A guided setup leads you through the configuration of the general details, input, prompt, availability, display, review, and activation of the customized skill. If you complete the entire walk-through, the skill is activated.
 
 4.  In the General details step, fill in the fields.
 
-    For information about the inputs for each skill, see [Configure skill input for Now Assist for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-skill-input-triggers.md).
+    For information about the inputs for each skill, see [Configure skill input for ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-skill-input-triggers.md).
 
     1.  Enter a name and description for the skill.
 
@@ -110,56 +104,9 @@ Description of the base input field value.
 
     4.  Select **Save and continue** to go to the next step.
 
-6.  Customize the prompt.
+6.  Customize the prompt output.
 
     Review and test the prompt for each input template configuration. You can edit the prompt by adding new predefined sections and reordering them, as needed.
-
-    1.  For each input template state, select the prompt sections from the list of available sections to include in the generated summary.
-
-        To add a section, you must configure the relevant input data prior to this step.
-
-        The available prompt sections that you can select:
-
-        -   **Overview**
-        -   **Actions completed**
-        -   **Next steps**
-        The following table lists the required prompt headers.
-
-<table id="table_av3_xhw_2bc"><thead><tr><th>
-
-Input template state
-
-</th><th>
-
-Required prompt header
-
-</th></tr></thead><tbody><tr><td>
-
-Open
-
-</td><td>
-
--   Overview
--   Actions completed
--   Next steps
-
-
-</td></tr><tr><td>
-
-Closed
-
-</td><td>
-
--   Overview
--   Actions completed
-
-
-</td></tr></tbody>
-</table>    2.  Select **Save** to continue to the test response.
-
-    3.  Select a record in the Test response section, and test the prompt response output format by selecting **Run Test**.
-
-    4.  Select **Save and continue** to go to the next step.
 
 7.  Define how the skill is available to your users.
 
@@ -169,15 +116,21 @@ Closed
 
     2.  Select **Save and continue** to go to the next step.
 
-8.  Configure where to display the supplier case summarization.
+8.  Define who can use the skill using Access control lists \(ACLs\).
 
-    1.  Select **In-product desktop** to display the Now Assist skills on forms and workspaces.
+    Roles selected here will be available in the ‘Select display’ step.
+
+9.  Configure where to display the supplier case summarization.
+
+    1.  Select the **In-product desktop** **Display** toggle to display the AI skill on forms and workspaces.
 
         For the skills that appear in the in-product desktop, select the down arrow to identify the roles that can use the skill.
 
-    2.  Select **Save and continue** to go to the next step.
+    2.  Select the **ServiceNow Otto panel** **Display** toggle to activate the AI skill in the ServiceNow Otto panel.
 
-9.  Review and activate the skill.
+    3.  Select **Save and continue** to go to the next step.
+
+10. Review and activate the skill.
 
     Review your choices and select **Activate** to complete the skill customization.
 
@@ -187,7 +140,7 @@ Closed
 **Related topics**  
 
 
-[Customize Now Assist for Supplier Lifecycle Operations \(SLO\) to use the Virtual Agent chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/cust-now-assist-slo-va.md)
+[Customize ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) to use the Virtual Agent chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/cust-now-assist-slo-va.md)
 
-[Configure skill input for Now Assist for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-skill-input-triggers.md)
+[Configure skill input for ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-skill-input-triggers.md)
 

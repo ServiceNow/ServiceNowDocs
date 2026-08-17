@@ -16,7 +16,9 @@ breadcrumb: [Recommend estimated time to resolve, Implement, HR Predictive Intel
 
 Determine the Estimated Time to Resolve a Case \(ETTR\) for a case by analyzing similar closed cases in the past for better visibility and transparency.
 
-Machine learning predicts the estimated time to resolve a case \(ETTR\) based on attributes of a case such as its short description, category, priority, assignment group, and so on. For more information about configuring the machine learning regression solution definition for ETTR, see [HR PIWB template: Recommend estimated time to resolve](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-piwb-ettr.md)
+**Note:** Support for creating new regression solutions was deprecated in the Washington DC release. You can train and edit any existing solutions, but you can't initiate new ones. The following information is provided for legacy context. For more information see [Create and train a regression solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/create-regression-solution.md).
+
+Machine learning predicts the estimated time to resolve a case \(ETTR\) based on attributes of a case such as its short description, category, priority, and so on. For more information about configuring the machine learning regression solution definition for ETTR, see [HR PIWB template: Recommend estimated time to resolve](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-piwb-ettr.md)
 
 To make predictions, you can use the existing ETTR solution definition or change some of the default settings such as the fields, a filter, and the training frequency.
 

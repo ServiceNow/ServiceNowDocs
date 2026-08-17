@@ -7,7 +7,7 @@ release: zurich
 product: Legal Hold Notification
 classification: legal-hold-notification
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Legal Hold Notification, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -32,6 +32,8 @@ The The ServiceNow® Legal Hold Notification application helps organizations man
 ## Legal Hold Notification workflow
 
 The following workflow outlines the legal hold process, from creating to closing a legal hold notification matter.
+
+\[Omitted image "legal-hold-nitification-workflow.png"\] Alt text: Step-by-step legal hold process workflow from creating to closing a legal hold notification matter.
 
 1.  A legal hold fulfiller submits a legal hold notification matter when a legal hold is issued.
 2.  A group manager or practice area lead assigns the matter owner \(legal hold fulfiller\) to the legal hold matter.

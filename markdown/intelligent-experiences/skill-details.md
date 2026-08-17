@@ -8,18 +8,18 @@ topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 3
 keywords: [Now Assist, Analytics, skills details, dashboard, generative AI, Gen AI, sn\_na\_analytics\_viewer]
-breadcrumb: [Skills performance, Using Now Assist Analytics, Analyzing Now Assist performance, Exploring Now Assist Admin, Now Assist, Enable AI experiences]
+breadcrumb: [Skills performance, Using AI Analytics, Analyzing AI performance, Exploring AI Admin Hub, AI Admin Hub, Enable AI experiences]
 ---
 
 # Skill details
 
 Use the Skill details dashboard page to view usage and performance indicators of a skill.
 
-The Skill details dashboard page contains indicators pertaining to a specific skill. The indicators provide insight into skill usage and performance. Select a skill from the drop-down list to view the indicators. The drop-down lists both active and inactive skills. Each skill has a subtitle that identifies the skill family that it belongs to, for example, ITSM, HR, and so on. Use the date range filter to view skill usage and performance over a certain period. The date range filter selection applies to all visualizations on the page. See [Now Assist Analytics dashboard indicator details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-analytics-dashboard-indicators.md) for information on the data and calculations behind each indicator.
+The Skill details dashboard page contains indicators pertaining to a specific skill. The indicators provide insight into skill usage and performance. Select a skill from the drop-down list to view the indicators. The drop-down lists both active and inactive skills. Each skill has a subtitle that identifies the skill family that it belongs to, for example, ITSM, HR, and so on. Use the date range filter to view skill usage and performance over a certain period. The date range filter selection applies to all visualizations on the page. See [AI Analytics dashboard indicator details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-analytics-dashboard-indicators.md) for information on the data and calculations behind each indicator.
 
 \[Omitted image "naa-flow-generation-skill-details-dashboard.png"\] Alt text: Flow generation skill details dashboard.
 
-The indicators on the Skill details dashboard page provide the following insights. See [Now Assist Analytics dashboard indicator details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-analytics-dashboard-indicators.md) for information on the data and calculations behind each indicator.
+The indicators on the Skill details dashboard page provide the following insights. See [AI Analytics dashboard indicator details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-analytics-dashboard-indicators.md) for information on the data and calculations behind each indicator.
 
 -   Skill engagement trend visualization for a selected period can reveal patterns in skill usage.
 -   Acceptance rate visualization shows how well the skill met the requirements of users who used the skill. A high acceptance rate for a skill is an indicator of good performance. A low acceptance rate among skill users indicates that the skill doesn’t meet the requirements either fully or partially.
@@ -30,7 +30,7 @@ The indicators on the Skill details dashboard page provide the following insight
 
 The indicators on skill details pages might differ based on the skill selected. For example, summarization skills might have different set of indicators compared to generation skills because each skill is mapped to its own dashboard that contains a set of indicators related to the skill.
 
-The Now Assist Analytics dashboard comes with some default skill-to-dashboard mappings to get you started. The default dashboards are visible to users with the Now Assist Analytics Viewer \[sn\_na\_analytics.viewer\] role. You can create your own dashboards and map them to skills. See [Create a dashboard with the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/create-db-in-ac.md) and [Map a skill to a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/map-a-skill-to-a-dashboard.md) for more information on creating custom dashboards and mapping them to skills, respectively.
+The AI Analytics dashboard comes with some default skill-to-dashboard mappings to get you started. The default dashboards are visible to users with the AI Analytics Viewer \[sn\_na\_analytics.viewer\] role. You can create your own dashboards and map them to skills. See [Create a dashboard with the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/create-db-in-ac.md) and [Map a skill to a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/map-a-skill-to-a-dashboard.md) for more information on creating custom dashboards and mapping them to skills, respectively.
 
 The following indicators are for the Flow Generation skill.
 

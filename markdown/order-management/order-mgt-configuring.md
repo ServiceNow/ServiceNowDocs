@@ -24,8 +24,6 @@ Order fulfillment is the process for fulfilling customer orders by using Workflo
 As a provider, you can use Fallout Management to identify, investigate, and resolve order processing issues so that orders can continue processing through to completion.
 -   **[Configuring inflight changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configure-inflight-order-change-mgt.md)**  
 You can use inflight change order management to manage the receipt of changes for customer or service orders that are still in the process of being orchestrated and fulfilled.
--   **[Configuring compatibility rules for horizontal relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/order-mgt-compatibility-management.md)**  
-As a provider, you can use compatibility rules to establish horizontal relationships between the specifications of multiple products, services, or resources.
 -   **[Asynchronous order processing for large customer and consumer orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/asynchronous-order-processing.md)**  
 Asynchronous order processing handles high-volume enterprise and consumer orders without waiting for immediate processing, improving system performance for communications service providers \(CSP\) using Order Management.
 

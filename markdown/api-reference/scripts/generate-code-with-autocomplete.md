@@ -1,20 +1,20 @@
 ---
 title: Generate code with autocomplete
-description: The autocomplete feature of Now Assist for Code provides you with contextually relevant code suggestions.
+description: The autocomplete feature of ServiceNow Otto for Code provides you with contextually relevant code suggestions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/scripts/generate-code-with-autocomplete.html
 release: zurich
 product: Scripts
 classification: scripts
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 1
-breadcrumb: [Use Now Assist for Code, Now Assist for Code, Scripting, API implementation, API implementation and reference]
+breadcrumb: [Use Now Assist for Code, ServiceNow Otto for Code, Scripting, API implementation, API implementation and reference]
 ---
 
 # Generate code with autocomplete
 
-The autocomplete feature of Now Assist for Code provides you with contextually relevant code suggestions.
+The autocomplete feature of ServiceNow Otto for Code provides you with contextually relevant code suggestions.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: authenticated user
 
 ## Procedure
 
-1.  Navigate to any script editor enabled with Now Assist for Code.
+1.  Navigate to any script editor enabled with ServiceNow Otto for Code.
 
     For example, to open a script include form, navigate to **All** &gt; **System Definition** &gt; **Script Includes** and select a script include.
 

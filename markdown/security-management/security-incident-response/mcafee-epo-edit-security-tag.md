@@ -36,15 +36,15 @@ As a user with the sn\_si.admin role, you may prefer to edit the colors and name
 
     In the record that is displayed, edit the fields.
 
-<table id="choicetable_ohy_xpv_bgb"><thead><tr><th align="left" id="d92744e119">
+<table id="choicetable_ohy_xpv_bgb"><thead><tr><th align="left" id="d93575e119">
 
 Field
 
-</th><th align="left" id="d92744e122">
+</th><th align="left" id="d93575e122">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d92744e128">
+</th></tr></thead><tbody><tr><td id="d93575e128">
 
 **Name**
 
@@ -52,7 +52,7 @@ Description
 
 Enter a name for the security tag.
 
-</td></tr><tr><td id="d92744e137">
+</td></tr><tr><td id="d93575e137">
 
 **Color**
 
@@ -60,7 +60,7 @@ Enter a name for the security tag.
 
 Security tag color. Select a color from the choice list.
 
-</td></tr><tr><td id="d92744e146">
+</td></tr><tr><td id="d93575e146">
 
 **Security Tag Group**
 
@@ -68,7 +68,7 @@ Security tag color. Select a color from the choice list.
 
 Enter a name of the security tag group. Click the information icon to view the available groups. Default is Metatag group.
 
-</td></tr><tr><td id="d92744e155">
+</td></tr><tr><td id="d93575e155">
 
 **Enforce restricted access**
 
@@ -76,7 +76,7 @@ Enter a name of the security tag group. Click the information icon to view the a
 
 Select this check box to assign read and write roles needed by users to read or write to records that have this security tag. Default is cleared.
 
-</td></tr><tr><td id="d92744e165">
+</td></tr><tr><td id="d93575e165">
 
 **Order**
 
@@ -84,7 +84,7 @@ Select this check box to assign read and write roles needed by users to read or 
 
 Specify the order the tag appears on forms or within a list. Default is 100.To set the order on the list, enter a value. For example, 100, 200, 300, 400. The tag with the lowest the number is displayed first on the list. The profile with the highest number is displayed last.
 
-</td></tr><tr><td id="d92744e177">
+</td></tr><tr><td id="d93575e177">
 
 **Active**
 
@@ -92,7 +92,7 @@ Specify the order the tag appears on forms or within a list. Default is 100.To s
 
 Turn the tag on or off.
 
-</td></tr><tr><td id="d92744e186">
+</td></tr><tr><td id="d93575e186">
 
 **Description**
 

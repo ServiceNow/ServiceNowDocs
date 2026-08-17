@@ -1,26 +1,26 @@
 ---
 title: Create automated KPI templates
-description: Automated KPI templates can be used to create KPIs that eliminate the dependency on manual input from users. When creating a template for automated KPIs, you can configure the data source and the calculation method.
+description: Create automated KPI templates to eliminate manual data input by configuring data sources and calculation methods.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/supplier-lifecycle-operations/create-auto-kpi-template.html
 release: zurich
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [KPI templates, Configure Supplier Relationship and Performance Management, Configure, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 
 # Create automated KPI templates
 
-Automated KPI templates can be used to create KPIs that eliminate the dependency on manual input from users. When creating a template for automated KPIs, you can configure the data source and the calculation method.
+Create automated KPI templates to eliminate manual data input by configuring data sources and calculation methods.
 
 ## Before you begin
 
-Role required: sn\_kpi.admin or sn\_slm.manager or sn\_slm.admin
+Role required: sn\_kpi.admin or sn\_slm.maSupplier Lifecycle Operations
 
--   Automated KPI templates can be created for **Quantitative** KPI template type only.
+-   SLOSource-to-Pay Workspaceautomated KPI templatesQuantitativePerformance domainCollection frequencyData collection typebe created for **Quantitative** KPI template type only.
 -   You must have access to data tables for extracting information for automated KPI templates.
 -   If the automated KPI collection fails to extract data, manual KPI data collection tasks are created and assigned to the supplier manager.
 

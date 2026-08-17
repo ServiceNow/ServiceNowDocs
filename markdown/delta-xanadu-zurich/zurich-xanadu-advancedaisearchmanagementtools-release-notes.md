@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-advancedaisearchmanagementtools-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
@@ -75,7 +75,7 @@ Xanadu
 
 </td><td>
 
--   **[AI Search Analytics dashboard](https://servicenow-staging.fluidtopics.net/access?context=ai-search-analytics-dashboard&family=xanadu&ft:locale=en-US)**
+-   **[AI Search Analytics dashboard](https://www.servicenow.com/docs/access?context=ai-search-analytics-dashboard&family=xanadu&ft:locale=en-US)**
 
 The **Search application** interactive filter now supports the Mobile Platform search application.
 
@@ -86,12 +86,12 @@ Yokohama
 
 </td><td>
 
--   **[AI Search Analytics analytics dashboard](https://servicenow-staging.fluidtopics.net/access?context=ai-search-analytics-dashboard&family=yokohama&ft:locale=en-US)**
+-   **[AI Search Analytics analytics dashboard](https://www.servicenow.com/docs/access?context=ai-search-analytics-dashboard&family=yokohama&ft:locale=en-US)**
 
 The **Search application** interactive filter now allows analysts to review performance metrics and trends for search applications used in Recommended Actions.
 
 
--   **[AI Search Analytics analytics dashboard](https://servicenow-staging.fluidtopics.net/access?context=ai-search-analytics-dashboard&family=yokohama&ft:locale=en-US)**
+-   **[AI Search Analytics analytics dashboard](https://www.servicenow.com/docs/access?context=ai-search-analytics-dashboard&family=yokohama&ft:locale=en-US)**
 
 The **Search application** interactive filter now allows analysts to review performance metrics and trends for the Mobile Platform search application.
 
@@ -102,12 +102,12 @@ Zurich
 
 </td><td>
 
--   **[AI Search Analytics analytics dashboard](https://servicenow-staging.fluidtopics.net/access?context=ai-search-analytics-dashboard&family=zurich&ft:locale=en-US)**
+-   **[AI Search Analytics analytics dashboard](https://www.servicenow.com/docs/access?context=ai-search-analytics-dashboard&family=zurich&ft:locale=en-US)**
 
 The **Search application** interactive filter now allows analysts to review performance metrics and trends for search applications used in Recommended Actions.
 
 
--   **[AI Search Analytics analytics dashboard](https://servicenow-staging.fluidtopics.net/access?context=ai-search-analytics-dashboard&family=zurich&ft:locale=en-US)**
+-   **[AI Search Analytics analytics dashboard](https://www.servicenow.com/docs/access?context=ai-search-analytics-dashboard&family=zurich&ft:locale=en-US)**
 
 The **Search application** interactive filter now allows analysts to review performance metrics and trends for the Mobile Platform search application.
 
@@ -131,7 +131,7 @@ Xanadu
 
 </td><td>
 
--   **[AI Search Analytics dashboard](https://servicenow-staging.fluidtopics.net/access?context=ai-search-analytics-dashboard&family=xanadu&ft:locale=en-US)**
+-   **[AI Search Analytics dashboard](https://www.servicenow.com/docs/access?context=ai-search-analytics-dashboard&family=xanadu&ft:locale=en-US)**
 
 The **Date range** interactive filter now allows you to access data from the last 180 days, rather than the last 90 days.
 
@@ -142,12 +142,12 @@ Yokohama
 
 </td><td>
 
--   **[AI Search Analytics analytics dashboard](https://servicenow-staging.fluidtopics.net/access?context=ai-search-analytics-dashboard&family=yokohama&ft:locale=en-US)**
+-   **[AI Search Analytics analytics dashboard](https://www.servicenow.com/docs/access?context=ai-search-analytics-dashboard&family=yokohama&ft:locale=en-US)**
 
 The performance metrics, trends, and charts for this dashboard have been refreshed to offer a cleaner visual experience.
 
 
--   **[AI Search Analytics analytics dashboard](https://servicenow-staging.fluidtopics.net/access?context=ai-search-analytics-dashboard&family=yokohama&ft:locale=en-US)**
+-   **[AI Search Analytics analytics dashboard](https://www.servicenow.com/docs/access?context=ai-search-analytics-dashboard&family=yokohama&ft:locale=en-US)**
 
 The **Date range** interactive filter now enables you to access data from the last 180 days, rather than the last 90 days.
 
@@ -158,12 +158,12 @@ Zurich
 
 </td><td>
 
--   **[AI Search Analytics analytics dashboard](https://servicenow-staging.fluidtopics.net/access?context=ai-search-analytics-dashboard&family=zurich&ft:locale=en-US)**
+-   **[AI Search Analytics analytics dashboard](https://www.servicenow.com/docs/access?context=ai-search-analytics-dashboard&family=zurich&ft:locale=en-US)**
 
 The performance metrics, trends, and charts for this dashboard have been refreshed to offer a cleaner visual experience.
 
 
--   **[AI Search Analytics analytics dashboard](https://servicenow-staging.fluidtopics.net/access?context=ai-search-analytics-dashboard&family=zurich&ft:locale=en-US)**
+-   **[AI Search Analytics analytics dashboard](https://www.servicenow.com/docs/access?context=ai-search-analytics-dashboard&family=zurich&ft:locale=en-US)**
 
 The **Date range** interactive filter now enables you to access data from the last 180 days, rather than the last 90 days.
 
@@ -261,7 +261,7 @@ Xanadu
 
 </td><td>
 
-Install Advanced AI Search Management Tools by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
+Install Advanced AI Search Management Tools by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -269,7 +269,7 @@ Yokohama
 
 </td><td>
 
-Install Advanced AI Search Management Tools by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+Install Advanced AI Search Management Tools by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -277,7 +277,7 @@ Zurich
 
 </td><td>
 
-Install Advanced AI Search Management Tools by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+Install Advanced AI Search Management Tools by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -298,7 +298,7 @@ Xanadu
 
 </td><td>
 
-You must have the User Experience Analytics API application installed from the ServiceNow Store in order to use Advanced AI Search Management Tools.
+You must have the Usage Insights API application installed from the ServiceNow Store in order to use Advanced AI Search Management Tools.
 
 </td></tr><tr><td>
 
@@ -306,7 +306,7 @@ Yokohama
 
 </td><td>
 
-You must have the User Experience Analytics API application installed from the ServiceNow Store to use Advanced AI Search Management Tools.
+You must have the Usage Insights API application installed from the ServiceNow Store to use Advanced AI Search Management Tools.
 
 </td></tr><tr><td>
 
@@ -314,7 +314,7 @@ Zurich
 
 </td><td>
 
-You must have the User Experience Analytics API application installed from the ServiceNow Store to use Advanced AI Search Management Tools.
+You must have the Usage Insights API application installed from the ServiceNow Store to use Advanced AI Search Management Tools.
 
 </td></tr></tbody>
 </table>## Browser requirements
@@ -449,7 +449,7 @@ Xanadu
 -   Analyze search trends from the preceding six months using the AI Search Analytics dashboard's **Date range** interactive filter.
 -   Understand your mobile search traffic with support for the Mobile Platform search application in the AI Search Analytics dashboard's **Search application** interactive filter.
 
- See [Advanced AI Search Management Tools](https://servicenow-staging.fluidtopics.net/access?context=adv-ais-mgmt-tools-content-pack&family=xanadu&ft:locale=en-US) for more information.
+ See [Advanced AI Search Management Tools](https://www.servicenow.com/docs/access?context=adv-ais-mgmt-tools-content-pack&family=xanadu&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -457,17 +457,17 @@ Yokohama
 
 </td><td>
 
-[Yokohama Patch 11](https://servicenow-staging.fluidtopics.net/access?context=yokohama-patch-11&family=yokohama&ft:locale=en-US)
+[Yokohama Patch 11](https://www.servicenow.com/docs/access?context=yokohama-patch-11&family=yokohama&ft:locale=en-US)
 
 -   Review performance metrics and trends more easily with an updated and refreshed dashboard UI.
 -   Analyze performance metrics and trends for search applications used in Recommended Actions.
 
- [Yokohama Patch 6](https://servicenow-staging.fluidtopics.net/access?context=yokohama-patch-6&family=yokohama&ft:locale=en-US)
+ [Yokohama Patch 6](https://www.servicenow.com/docs/access?context=yokohama-patch-6&family=yokohama&ft:locale=en-US)
 
 -   Analyze search trends from the preceding six months using the AI Search Analytics dashboard's **Date range** interactive filter.
 -   Understand your mobile search traffic with support for the Mobile Platform search application in the AI Search Analytics dashboard's **Search application** interactive filter.
 
- See [Advanced AI Search Management Tools](https://servicenow-staging.fluidtopics.net/access?context=adv-ais-mgmt-tools-content-pack&family=yokohama&ft:locale=en-US) for more information.
+ See [Advanced AI Search Management Tools](https://www.servicenow.com/docs/access?context=adv-ais-mgmt-tools-content-pack&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -475,17 +475,17 @@ Zurich
 
 </td><td>
 
-[Zurich Patch 4](https://servicenow-staging.fluidtopics.net/access?context=zurich-patch-4&family=zurich&ft:locale=en-US)
+[Zurich Patch 4](https://www.servicenow.com/docs/access?context=zurich-patch-4&family=zurich&ft:locale=en-US)
 
 -   Review performance metrics and trends more easily with an updated and refreshed dashboard UI.
 -   Analyze performance metrics and trends for search applications used in Recommended Actions.
 
- [Zurich Patch 1](https://servicenow-staging.fluidtopics.net/access?context=zurich-patch-1&family=zurich&ft:locale=en-US)
+ [Zurich Patch 1](https://www.servicenow.com/docs/access?context=zurich-patch-1&family=zurich&ft:locale=en-US)
 
 -   Analyze search trends from the preceding six months using the AI Search Analytics dashboard's **Date range** interactive filter.
 -   Understand your mobile search traffic with support for the Mobile Platform search application in the AI Search Analytics dashboard's **Search application** interactive filter.
 
- See [Advanced AI Search Management Tools](https://servicenow-staging.fluidtopics.net/access?context=adv-ais-mgmt-tools-content-pack&family=zurich&ft:locale=en-US) for more information.
+ See [Advanced AI Search Management Tools](https://www.servicenow.com/docs/access?context=adv-ais-mgmt-tools-content-pack&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/rn-combined-intro.md)

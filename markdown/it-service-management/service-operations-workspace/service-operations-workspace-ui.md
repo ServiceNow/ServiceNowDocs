@@ -28,7 +28,7 @@ In Service Operations Workspace, you can access the lists by selecting the list 
 
 An agent can analyze the individual lists of incidents, catalog tasks, requests, problem, and so on, and take appropriate action.
 
-From the **My Lists** tab, an agent can create a separate list or a different version of the existing list. For information about creating a list, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/create-list-sow.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/create-list-sow.md).
+From the **My Lists** tab, an agent can create a separate list or a different version of the existing list. For information about creating a list, see [Create a list in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/create-list-sow.md).
 
 \[Omitted image "list-tab-sow.png"\] Alt text: List tab
 

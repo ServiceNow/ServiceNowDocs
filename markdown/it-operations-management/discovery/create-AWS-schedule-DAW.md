@@ -43,15 +43,15 @@ Role required: discovery\_admin
 
 6.  Choose a MID Server.
 
-<table id="choicetable_bcg_4pg_z2c"><thead><tr><th align="left" id="d250211e222">
+<table id="choicetable_bcg_4pg_z2c"><thead><tr><th align="left" id="d249935e222">
 
 Option
 
-</th><th align="left" id="d250211e225">
+</th><th align="left" id="d249935e225">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d250211e231">
+</th></tr></thead><tbody><tr><td id="d249935e231">
 
 **Use a cluster of MID servers**
 
@@ -59,7 +59,7 @@ Description
 
 Select an existing MID Server. Clusters provide failover protection and load balancing between MID Servers. See [Configure a MID Server cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/t_ConfigureAMIDServerCluster.md) for more information.
 
-</td></tr><tr><td id="d250211e250">
+</td></tr><tr><td id="d249935e250">
 
 **Automatically select a MID server**
 
@@ -67,7 +67,7 @@ Select an existing MID Server. Clusters provide failover protection and load bal
 
 An available MID Server with an Identity and Access Management \(IAM\) role is automatically selected when the Discovery schedule runs. See [Automatic MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-auto-mid-selection.md) for more information.
 
-</td></tr><tr><td id="d250211e278">
+</td></tr><tr><td id="d249935e278">
 
 **Search for a MID server**
 
@@ -87,15 +87,15 @@ Choose a MID Server to run the Discovery schedule. Only MID Servers that are val
 
 9.  Choose whether you want to **Assume an IAM role** or **Use permanent credentials**.
 
-<table id="choicetable_lvl_1hq_jhc"><thead><tr><th align="left" id="d250211e370">
+<table id="choicetable_lvl_1hq_jhc"><thead><tr><th align="left" id="d249935e370">
 
 Option
 
-</th><th align="left" id="d250211e373">
+</th><th align="left" id="d249935e373">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d250211e379">
+</th></tr></thead><tbody><tr><td id="d249935e379">
 
 **Assume an IAM role**
 
@@ -107,7 +107,7 @@ The MID Server temporarily assumes an IAM role using a trust relationship. After
 -   The IAM role must trust the MID Server's account so it can assume the role.
 If these prerequisites aren't met, verification fails. It's best to confirm with your cloud admin that the role and trust relationship are properly configured before proceeding.
 
-</td></tr><tr><td id="d250211e405">
+</td></tr><tr><td id="d249935e405">
 
 **Use permanent credentials**
 

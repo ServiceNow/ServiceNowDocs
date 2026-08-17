@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2026-02-07"
 reading_time_minutes: 1
-breadcrumb: [Configure, Now Assist for Enterprise Architecture \(EA\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Configure, Configure, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
 # Configure AI Data Explorer and Query Generation skills
@@ -29,7 +29,7 @@ Configuring AI Data Explorer and Query Generation skills enables you to use a co
 
 1.  AI Data Explorer skills.
 
-    For information on how to activate AI Data Explorer skills, see [Activate AI Data Explorer skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/activate-now-ass-explorer.md).
+    For information on how to activate AI Data Explorer skills, see [Activate AI Data Explorer skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/activate-aide-explorer.md).
 
     **Note:**
 
@@ -52,7 +52,7 @@ Configuring AI Data Explorer and Query Generation skills enables you to use a co
     For information on how to configure AI Search, see [Configuring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/configuring-ais.md)
 
 
-**Parent Topic:**[Configure Now Assist for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/configure-now-assist-ea.md)
+**Parent Topic:**[Configure ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/configure-now-assist-ea.md)
 
 **Related topics**  
 

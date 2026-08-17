@@ -1,6 +1,6 @@
 ---
 title: Create an AI connection for Salesforce
-description: Create an AI connection for Salesforce in AI Control Tower using the  AI Service Graph Connector for Salesforce \(Version 1.1.0\).
+description: Create an AI connection for Salesforce in AI Control Tower using the  AI Service Graph Connector for Salesforce \(version 1.1.0\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/ai-control-tower/create-ai-connection-for-salesforce.html
 release: zurich
@@ -9,12 +9,12 @@ classification: ai-control-tower
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Salesforce, Service Graph Connectors for AI Control Tower, AI connections, Explore, AI Control Tower, Enable AI experiences]
+breadcrumb: [Salesforce, Service Graph Connectors for AI Control Tower, AI connections, Explore, AI Control Tower \(legacy\), Enable AI experiences]
 ---
 
 # Create an AI connection for Salesforce
 
-Create an AI connection for Salesforce in AI Control Tower using the  AI Service Graph Connector for Salesforce \(Version 1.1.0\).
+Create an AI connection for Salesforce in AI Control Tower using the  AI Service Graph Connector for Salesforce \(version 1.1.0\).
 
 ## Before you begin
 
@@ -24,50 +24,44 @@ Role required: sn\_ai\_disc.discovery\_admin and sn\_cmdb\_int\_util.sgc\_admin
 
 1.  Navigate to **AI Control Tower** &gt; **Configuration** &gt; **AI connections**.
 
-2.  Click **Add**.
+2.  Select **Salesforce** from the available connectors and then select **Create connection**.
 
-3.  Select **Salesforce** from the available connectors.
-
-4.  Click **Create connection**.
-
-5.  Review setup instructions page displays.
+3.  Review setup instructions page displays.
 
     **Note:** Verify to follow all the prerequisite steps.
 
-6.  Create and test connection
+4.  Enter the details on Configure and test connection:
 
-    1.  Enter the **Connection Name**
+    1.  Enter the **Connection Name**.
 
-    2.  Enter the **Connection URL**
+    2.  Enter the **Connection URL**.
 
-    3.  Enter the **OAuth Client ID**
+    3.  Enter the **OAuth Client ID**.
 
-    4.  Enter the **OAuth Token URL**
+    4.  Enter the **OAuth Token URL**.
 
-    5.  Select **Create and test connection**
+    5.  Select **Create and test connection**.
 
-    6.  Select **Continue**
+    6.  Select **Continue**.
 
-7.  Configure import schedule
+5.  Configure import schedule:
 
-    1.  Verify that both the parent-scheduled jobs, Discovery and Execution are active as they’re shipped inactive
+    1.  Verify that both the parent-scheduled jobs, Discovery and Execution are active as they’re shipped inactive.
 
         **Note:** Ensure to execute the Discovery-scheduled job first.
 
-    2.  Select Run according to your preference
+    2.  Select Run according to your preference.
 
     3.  To run frequency by demand, select **Execute now**.
 
         **Note:** This is an optional step as the schedule imports run according to the schedule.
 
-    4.  Select **Continue**
+    4.  Select **Continue**.
 
-8.  Select the **Confirm connection setup** activity to verify whether the connection was configured.
+6.  Select the **Confirm connection setup** activity to verify whether the connection was configured.
 
 
 ## Result
 
-Click **View all connections** to view the newly created connection.
-
-The AI connection for Salesforce is created and configured.
+Select **View all connections** to review the connection details. The created connection appears in the Installed connections list.
 

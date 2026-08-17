@@ -46,7 +46,7 @@ Zurich Patch 3 includes fixes for security-related problems that affected certai
 
     Monitor inbound integration usage requests through the Inbound API Integration Usage dashboard.
 
--   **[Use agentic workflows in Now Assist for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/source-to-pay-operations/agentic-ai-now-assist-spo.md)**
+-   **[Use agentic workflows in ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/source-to-pay-operations/agentic-ai-now-assist-spo.md)**
 
 -   **[View Inbound API Integration Usage dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/view-inbound-api-integration-usage-dashboard.md)**
 

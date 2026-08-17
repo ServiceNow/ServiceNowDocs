@@ -31,7 +31,7 @@ You have two types of insurance product models that you can use:
 1.  Personal insurance model, which is used to represent the insurance products for consumers.
 2.  Commercial insurance model, which is used to represent the insurance products for accounts and contacts.
 
-For more information, see [Expanded Model and Asset Classes Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/enterprise-model-asset-classes-app.md).
+For more information, see .
 
 ## Product types
 

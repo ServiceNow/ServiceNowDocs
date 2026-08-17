@@ -62,6 +62,10 @@ Hover over a bubble in the demand workbench bubble chart to display a summary of
 
 [Create a demand]()
 
+[Identify similar records using AI]()
+
+[Summarize demands with the demand summarization skill]()
+
 [Add details to demands]()
 
 [RIDACs records for a demand]()
@@ -74,9 +78,7 @@ Hover over a bubble in the demand workbench bubble chart to display a summary of
 
 [Train the similarity solution for Demand Management to find similar demands]()
 
-[Identify similar records using Now Assist for Strategic Portfolio Management \(SPM\)]()
+[PPM PIWB template - Find similar demands]()
 
 [Associate AI systems with demands]()
-
-[Summarize demands with demand summarization skill]()
 

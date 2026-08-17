@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/scan-engine-executive-dashboard.html
 release: zurich
 topic_type: concept
-last_updated: "2025-10-22"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Analytics Dashboards, Scan Engine, Platform Health, Using Impact, Impact]
 ---
@@ -49,7 +49,7 @@ Health score
 
 The health score represents the percentage of definition occurrences used across the platform that did not return any findings. It is calculated as:
 
- `1 - (F / D) * 100`
+ `(1 - (F / D)) * 100`
 
  Where F is the number of findings, and D is the number of definition occurrences.
 
@@ -172,7 +172,7 @@ Total resolved findings
     -   **Findings by proposed fix applied**
     -   **Findings that were resolved manually**
 
- **Note:** The Scan Engine property **Track resolved findings** must be active to populate this chart. See [Configure Scan Engine properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/configure-scan-engine-properties.md).
+ **Note:** The Scan Engine property **Track resolved findings** must be active to populate this chart. See [Configure Scan Engine parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/configure-scan-engine-properties.md).
 
 </td></tr><tr><td>
 

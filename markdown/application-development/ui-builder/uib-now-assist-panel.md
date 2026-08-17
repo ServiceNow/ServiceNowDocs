@@ -21,7 +21,7 @@ You can configure Conversational Help in the Now Assist panel to be accessible f
 
 Conversational Help answers questions based on product documentation, but cannot provide guidance specific to what you've configured in your instance.
 
-**Note:** You must install the Now Assist for Creator plugin in the Now Assist Admin console to use the Now Assist panel. For more information, see [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configuring-now-assist.md)
+**Note:** You must install the ServiceNow Otto for Creator plugin in the AI Admin Hub console to use the Now Assist panel. For more information, see [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configuring-now-assist.md)
 
 ## What to ask
 
@@ -43,7 +43,7 @@ Ask questions and get quick answers without leaving UI Builder.
 ### Before you begin
 
 -   Role required: ui\_builder\_admin
--   The Now Assist for Creator plugin is activated
+-   The ServiceNow Otto for Creator plugin is activated
 
 ### About this task
 

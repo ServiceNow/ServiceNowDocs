@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-itomhealth-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
@@ -67,29 +67,29 @@ Yokohama
 
 </td><td>
 
--   **[Pull data from Splunk regularly using the Splunk Polling data input](https://servicenow-staging.fluidtopics.net/access?context=hla-data-input-splunk-polling&family=yokohama&ft:locale=en-US)**
+-   **[Pull data from Splunk regularly using the Splunk Polling data input](https://www.servicenow.com/docs/access?context=hla-data-input-splunk-polling&family=yokohama)**
 
 Fetch data consistently over time by using the Splunk Polling data input, which sends recurring queries \(polls\) to Splunk. Handling most configurations on the HLA side, you need minimal additional stakeholder involvement, enabling swift integration with your existing Splunk setup. This enhancement accelerates proofs of concept \(POCs\) and enables faster iterations using real data.
 
--   **[Use your Splunk data input to ingest pre-processed data from Splunk](https://servicenow-staging.fluidtopics.net/access?context=hla-data-input-splunk&family=yokohama&ft:locale=en-US)**
+-   **[Use your Splunk data input to ingest pre-processed data from Splunk](https://www.servicenow.com/docs/access?context=hla-data-input-splunk&family=yokohama)**
 
 Ingest data from Splunk in a preprocessed, structured format using your existing Splunk data input for streaming log messages to Health Log Analytics with a heavy forwarder.
 
--   **[Create Group automation](https://servicenow-staging.fluidtopics.net/access?context=group-alert-sow-itom&family=yokohama&ft:locale=en-US)**
+-   **[Create Group automation](https://www.servicenow.com/docs/access?context=group-alert-sow-itom&family=yokohama)**
 
 View key details from the Test Automation section, including total alerts, alert groups, ungrouped alerts, and compression, to help track and optimize alert grouping efficiency. Simulate other group types, such as CMDB, ML, and text-based grouping. The simulation processes only alerts that match the condition filter.
 
--   **[Integrate with log data connectors from the Integrations Launchpad](https://servicenow-staging.fluidtopics.net/access?context=hla-data-input-setup-integrations&family=yokohama&ft:locale=en-US)**
+-   **[Integrate with log data connectors from the Integrations Launchpad](https://www.servicenow.com/docs/access?context=hla-data-input-setup-integrations&family=yokohama)**
 
 Set up your log data connectors for HLA from the Event Management Integrations Launchpad in Service Operations Workspace for ITOM. The Integrations Launchpad provides a unified interface for convenient integration with log data connectors that feed raw log data from external sources into your instance. In this release, the Integrations Launchpad enables integration with the following connectors: Elasticsearch, ServiceNow System Logs, UDP, and TCP.
 
 Starting in version 36.0.19, benefit from additional log data integrations for Splunk TCP/UDP, Splunk Poller, MID Server, Apache Kafka, Microsoft Azure Log Analytics, and REST API that can be easily set up through the Integrations Launchpad.
 
--   **[Set up an Amazon Data Firehose integration for real-time log data streaming from multiple sources](https://servicenow-staging.fluidtopics.net/access?context=il-connector-hla-firehose&family=yokohama&ft:locale=en-US)**
+-   **[Set up an Amazon Data Firehose integration for real-time log data streaming from multiple sources](https://www.servicenow.com/docs/access?context=il-connector-hla-firehose&family=yokohama)**
 
 Starting in version 36.0.19, leverage an integration for streaming log data from Amazon Data Firehose directly to the collector service in ITOM Gateway, where it is queued and then processed by Health Log Analytics. This integration doesn't run on a MID Server and can be configured from the Integrations Launchpad.
 
--   **[View links between alerts in Network Traffic-based alert groups](https://servicenow-staging.fluidtopics.net/access?context=el-network-traffic-based-link-view&family=yokohama&ft:locale=en-US)**
+-   **[View links between alerts in Network Traffic-based alert groups](https://www.servicenow.com/docs/access?context=el-network-traffic-based-link-view&family=yokohama)**
 
 Once network traffic correlation is enabled, investigate network traffic alert group details and visualize connections through Link View in Express List®.
 
@@ -121,17 +121,17 @@ Yokohama
 
 </td><td>
 
--   **[Enrich automation](https://servicenow-staging.fluidtopics.net/access?context=enrich-alert-sow-itom&family=yokohama&ft:locale=en-US)**
+-   **[Enrich automation](https://www.servicenow.com/docs/access?context=enrich-alert-sow-itom&family=yokohama)**
 
 Introduced a new section **And finally** that contains two radio buttons that replace the previous **Continue running automations of this type** toggle switch.
 
     -   **Run other enrich alert automations** continues running automations with the same filter conditions.
     -   **Don't run other enrich alert automations** halts additional automations after execution, except those owned by other assignment groups.
--   **[Investigate alerts using Now Assist](https://servicenow-staging.fluidtopics.net/access?context=nai-past-incidents&family=yokohama&ft:locale=en-US)**
+-   **[Investigate alerts using Now Assist](https://www.servicenow.com/docs/access?context=nai-past-incidents&family=yokohama)**
 
 Investigate alerts using Now Assist, which now uses the Retrieval-Augmented Generation \(RAG\) process to enhance alert investigation. This enhancement enables the retrieval of highly relevant past incidents, providing accurate context and actionable insights. Now Assist also notifies users of those involved in past or present efforts to resolve similar issues, promoting collaboration and reducing duplicated efforts.
 
--   **[Component-based alert grouping is deprecated](https://servicenow-staging.fluidtopics.net/access?context=hla-op-log-analytics-alert-types&family=yokohama&ft:locale=en-US)**
+-   **[Component-based alert grouping is deprecated](https://www.servicenow.com/docs/access?context=hla-op-log-analytics-alert-types&family=yokohama)**
 
 Starting in version 36.0.19, component-based alert groups are removed as Health Log Analytics adopts a streamlined, two-tier alert model: Log Analytics Group to Single Alert. It aligns alert representation with the service-level anomalies identified by Health Log Analytics, rather than individual host CIs. The update improves alert visibility, simplifies correlation, and enhances overall alert management efficiency.
 
@@ -221,9 +221,9 @@ Yokohama
 
 </td><td>
 
--   is available with activation of the Event Management plugin \(com.glideapp.itom.snac\). You must purchase a more comprehensive package, ITOM Predictive AIOps, to enable working with Health Log Analytics. For details, see [Event Management setup](https://servicenow-staging.fluidtopics.net/access?context=c_EMConfiguration&family=yokohama&ft:locale=en-US).
--   Install Service Operations Workspace \(ITOM\) by installing the AIOps Experience \[sn\_sow\_aiops\] application from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
--   Install Health Log Analytics by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+-   is available with activation of the Event Management plugin \(com.glideapp.itom.snac\). You must purchase a more comprehensive package, ITOM Predictive AIOps, to enable working with Health Log Analytics. For details, see [Event Management setup](https://www.servicenow.com/docs/access?context=c_EMConfiguration&family=yokohama).
+-   Install Service Operations Workspace \(ITOM\) by installing the AIOps Experience \[sn\_sow\_aiops\] application from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama).
+-   Install Health Log Analytics by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama).
 
 </td></tr><tr><td>
 
@@ -314,7 +314,7 @@ Yokohama
 
 The Service Dashboard and Log Viewer component was updated to support reflow, which enables pages and content to be zoomed up to 400% through your browser settings without loss of content or functionality. Additionally, content can be enlarged without scrolling in two dimensions at a width equivalent to 320 CSS pixels or a height equivalent to 256 CSS pixels.
 
-This enhancement helps users with low vision or who have trouble seeing web content in a browser due to monitor size, device type, poor lighting, or other situations. Reflow can be turned off with a system property for instances, experiences, and pages. See [Reflow for Configurable Workspace](https://servicenow-staging.fluidtopics.net/access?context=auto-reflow&family=yokohama&ft:locale=en-US) for details.
+This enhancement helps users with low vision or who have trouble seeing web content in a browser due to monitor size, device type, poor lighting, or other situations. Reflow can be turned off with a system property for instances, experiences, and pages. See [Reflow for Configurable Workspace](https://www.servicenow.com/docs/access?context=auto-reflow&family=yokohama) for details.
 
 
 </td></tr><tr><td>
@@ -383,7 +383,7 @@ Health Log Analytics highlights:
 
  Event Management highlights:
 
- [Service Operations Workspace for ITOM](https://servicenow-staging.fluidtopics.net/access?context=sow-landing-page-itom&family=yokohama&ft:locale=en-US)
+ [Service Operations Workspace for ITOM](https://www.servicenow.com/docs/access?context=sow-landing-page-itom&family=yokohama)
 
 -   Starting with version 26.3.1, benefit from the new alert grouping based on network traffic correlation:
     -   Use Express List® to investigate network traffic-based alert groups
@@ -396,7 +396,7 @@ Health Log Analytics highlights:
 
  Agent Client Collector highlights:
 
- See [ITOM Health](https://servicenow-staging.fluidtopics.net/access?context=itom-health-landing-page&family=yokohama&ft:locale=en-US) for more information.
+ See [ITOM Health](https://www.servicenow.com/docs/access?context=itom-health-landing-page&family=yokohama) for more information.
 
 </td></tr><tr><td>
 

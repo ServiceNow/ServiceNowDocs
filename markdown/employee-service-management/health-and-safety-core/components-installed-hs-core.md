@@ -810,7 +810,7 @@ AI action suggestion
 
 </td><td>
 
-Staging table that stores all AI-suggested actions that are generated in the Action Planner.This table is installed only when the Now Assist for Health and Safety \(sn\_hs\_gen\_ai\) application is installed on your instance. For more information, see [Generate and manage AI‑suggested safety actions in Action planner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-generate-ai-suggested-actions-in-action-planner.md).
+Staging table that stores all AI-suggested actions that are generated in the Action Planner.This table is installed only when the ServiceNow Otto for Health and Safety \(sn\_hs\_gen\_ai\) application is installed on your instance. For more information, see [Generate and manage AI‑suggested safety actions in Action planner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-generate-ai-suggested-actions-in-action-planner.md).
 
 </td></tr><tr><td>
 

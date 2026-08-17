@@ -28,15 +28,15 @@ Use the **Heating and cooling** workplace service to report temperature issues f
 
 1.  Navigate to the portal from one of the following locations.
 
-<table id="choicetable_presence_dashboard"><thead><tr><th align="left" id="d665178e70">
+<table id="choicetable_presence_dashboard"><thead><tr><th align="left" id="d665103e70">
 
 Location
 
-</th><th align="left" id="d665178e73">
+</th><th align="left" id="d665103e73">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d665178e79">
+</th></tr></thead><tbody><tr><td id="d665103e79">
 
 **Workplace Service Portal**
 
@@ -56,7 +56,7 @@ The portal homepage opens.
 3.  Select **Submit a maintenance request**.
 
 
-</td></tr><tr><td id="d665178e149">
+</td></tr><tr><td id="d665103e149">
 
 **Employee Center**
 

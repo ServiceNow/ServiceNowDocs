@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-03-30"
 reading_time_minutes: 2
 keywords: [AI Data Explorer, Query Generation, protected scope, ACL, RCA]
-breadcrumb: [Configure, Query Generation, Now Assist in Platform Analytics, Platform Analytics]
+breadcrumb: [Configure, Query Generation, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
 
 # Enabling access to protected scope applications for AI Data Explorer and Query Generation

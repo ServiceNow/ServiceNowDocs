@@ -1,29 +1,29 @@
 ---
-title: Exploring Now Assist Center
-description: The ServiceNow Now Assist Center application is a single control hub that brings together other Now Assist capabilities and configuration functions, making it fast and effortless for administrators to set up and manage generative AI solutions from a unified experience.
+title: Exploring AI Admin Center
+description: The ServiceNow AI Admin Center application is a single control hub that brings together other AI capabilities and configuration functions, making it fast and effortless for administrators to set up and manage AI solutions from a unified experience.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/exploring-now-assist-center.html
 release: zurich
 topic_type: concept
-last_updated: "2026-05-27"
+last_updated: "2026-07-30"
 reading_time_minutes: 4
-keywords: [Now Assist, Now Assist Center, Gen AI, Generative AI]
-breadcrumb: [Now Assist Center, Enable AI experiences]
+keywords: [AI Admin Center, Now Assist Center, AI, AI setup]
+breadcrumb: [AI Admin Center, Enable AI experiences]
 ---
 
-# Exploring Now Assist Center
+# Exploring AI Admin Center
 
-The ServiceNow® Now Assist Center application is a single control hub that brings together other Now Assist capabilities and configuration functions, making it fast and effortless for administrators to set up and manage generative AI solutions from a unified experience.
+The ServiceNow® AI Admin Center application is a single control hub that brings together other AI capabilities and configuration functions, making it fast and effortless for administrators to set up and manage AI solutions from a unified experience.
 
-## Now Assist Center overview
+## AI Admin Center overview
 
-Now Assist Center is a unified administration workspace that consolidates the various Now Assist applications into a single, guided, conversational environment.
+AI Admin Center is a unified administration workspace that consolidates the various AI applications into a single, guided, conversational environment.
 
-It provides a centralized location for setup, configuration, navigation, recommendation, and solution‑building capabilities so administrators can activate, manage, and scale generative‑AI solutions quickly and with far less complexity.
+It provides a centralized location for setup, configuration, navigation, recommendation, and solution‑building capabilities so administrators can activate, manage, and scale AI solutions quickly and with far less complexity.
 
-## Now Assist Center users
+## AI Admin Center users
 
-The following table lists the primary users of Now Assist Center.
+The following table lists the primary users of AI Admin Center.
 
 <table id="table_rzv_n21_k3c"><thead><tr><th>
 
@@ -35,11 +35,11 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Now Assist administrators
+AI administrators
 
 </td><td>
 
-Now Assist administrators responsible for organization-wide AI deployment and management
+AI administrators responsible for organization-wide AI deployment and management
 
 </td></tr><tr><td>
 
@@ -58,17 +58,17 @@ AI builders and practitioners
 AI practitioners building and deploying custom AI solutions across ServiceNow workflows
 
 </td></tr></tbody>
-</table>## Now Assist Center workflow
+</table>## AI Admin Center workflow
 
-The following diagram shows the AI adoption activities you can accomplish in Now Assist Center.
+The following diagram shows the AI adoption activities you can accomplish in AI Admin Center.
 
-\[Omitted image "mmasset0022025-now-assist-center-capabilities.png"\] Alt text: List of the Now Assist Center capabilities and their related activities.
+\[Omitted image "mmasset0022025-now-assist-center-capabilities-v2.png"\] Alt text: List of the AI Admin Center capabilities and their related activities.
 
-This diagram shows the following capabilities in Now Assist Center:
+This diagram shows the following capabilities in AI Admin Center:
 
 -   Assess AI readiness
-    -   Take remediation steps
     -   View readiness assessments
+    -   Take remediation steps
 -   Install and configure AI products
     -   Install plugins
     -   Activate skills
@@ -91,16 +91,16 @@ This diagram shows the following capabilities in Now Assist Center:
     -   Set data sharing and use
     -   Set AI content guardrails
 -   Monitor your AI
-    -   View Now Assist skill analytics
+    -   View skill analytics
     -   View AI agent analytics
     -   View assistant analytics
     -   View AI adoption analytics
     -   View recent activations
     -   View business value analytics
 
-## Now Assist Center benefits
+## AI Admin Center benefits
 
-Now Assist Center provides the following benefits.
+AI Admin Center provides the following benefits.
 
 <table id="table_u3s_hpz_q3c"><thead><tr><th>
 
@@ -116,15 +116,15 @@ User
 
 </th></tr></thead><tbody><tr><td>
 
-Accelerate and simplify setup of your AI solutions in a unified experience. The workspace tab structure enables you to work with multiple Now Assist applications without leaving Now Assist Center.
+Accelerate and simplify setup of your AI solutions in a unified experience. The workspace tab structure enables you to work with multiple AI applications without leaving AI Admin Center.
 
 </td><td>
 
-[Now Assist Center workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-workspace.md)
+[AI Admin Center workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-workspace.md)
 
 </td><td>
 
-Now Assist administrator
+AI administrator
 
 </td></tr><tr><td>
 
@@ -132,11 +132,11 @@ Easy-to-use conversational interface to perform common admin tasks, from basic s
 
 </td><td>
 
-[Now Assist Panel in Now Assist Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/using-now-assist-panel-now-assist-center.md)
+[ServiceNow Otto panel in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/using-now-assist-panel-now-assist-center.md)
 
 </td><td>
 
-Now Assist administrator
+AI administrator
 
 </td></tr><tr><td>
 
@@ -148,7 +148,7 @@ Automated assessment of your instance readiness helps you prepare for AI adoptio
 
 </td><td>
 
-Now Assist administrator
+AI administrator
 
 </td></tr><tr><td>
 
@@ -160,7 +160,7 @@ Get started right away with guided quick-start use cases that appear as actionab
 
 </td><td>
 
-Now Assist administrator
+AI administrator
 
 </td></tr><tr><td>
 
@@ -168,11 +168,11 @@ Quickly discover automation opportunities for your instance. AI Agent Advisor an
 
 </td><td>
 
-[Automation discovery with AI Agent Advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-using-ai-agent-advisor.md)
+[Automation opportunity discovery with AI Agent Advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-using-ai-agent-advisor.md)
 
 </td><td>
 
-Now Assist administrator
+AI administrator
 
 </td></tr><tr><td>
 
@@ -184,13 +184,13 @@ Matches identified automation opportunities to existing AI agents on the platfor
 
 </td><td>
 
-Now Assist administrator
+AI administrator
 
  AI developer
 
 </td></tr><tr><td>
 
-Provides centralized access to the broader Now Assist and AI ecosystem within a consistent tabbed workspace experience.
+Provides centralized access to the broader AI ecosystem within a consistent tabbed workspace experience.
 
 </td><td>
 
@@ -198,7 +198,7 @@ Provides centralized access to the broader Now Assist and AI ecosystem within a 
 
 </td><td>
 
-Now Assist administrator
+AI administrator
 
 </td></tr><tr><td>
 
@@ -210,17 +210,17 @@ View performance and usage statistics for your AI implementation.
 
 </td><td>
 
-Now Assist administrator
+AI administrator
 
 </td></tr></tbody>
-</table>-   **[Now Assist Center workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-workspace.md)**  
-Use the Now Assist Center workspace to set up, monitor, and manage your Now Assist solutions.
--   **[AI Agent Advisor in Now Assist Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-ai-agent-advisor.md)**  
+</table>-   **[AI Admin Center workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-workspace.md)**  
+Use the AI Admin Center workspace to set up, monitor, and manage your AI solutions.
+-   **[AI readiness assessments in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-readiness-evaluation.md)**  
+The AI readiness assessment helps to simplify and automate the generative AI and agentic AI implementation assessment process. It automates assessment processes, evaluates data readiness, and provides actionable insights to help you quickly adopt AI capabilities.
+-   **[AI Agent Advisor in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-ai-agent-advisor.md)**  
 AI Agent Advisor automatically discovers automation opportunities in your instance based on actual operational data and helps you to deploy AI agents to implement them.
--   **[Now Assist Readiness Evaluation in Now Assist Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-readiness-evaluation.md)**  
-Now Assist Readiness Evaluation is a solution designed to simplify and automate the agentic AI and Now Assist implementation assessment process. It automates assessment processes, evaluates data readiness, and provides actionable insights to help you quickly adopt AI capabilities.
--   **[Supporting information for Now Assist Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/supporting-information-now-assist-center.md)**  
-Get a quick overview of the important information that is related to the Now Assist Center application.
+-   **[Supporting information for AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/supporting-information-now-assist-center.md)**  
+Get a quick overview of the important information that is related to the AI Admin Center application.
 
-**Parent Topic:**[Now Assist Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-landing-page.md)
+**Parent Topic:**[AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-landing-page.md)
 

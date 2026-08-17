@@ -1,6 +1,6 @@
 ---
-title: Summarize Request Management records by using Now Assist for IT Service Management \(ITSM\)
-description: Summarize all information related to the context of requests to get a consolidated real-time status by using the Request Management summarization skills in the Now Assist for IT Service Management \(ITSM\) application.
+title: Summarize Request Management records by using ServiceNow Otto for IT Service Management \(ITSM\)
+description: Summarize all information related to the context of requests to get a consolidated real-time status by using the Request Management summarization skills in the ServiceNow Otto for IT Service Management \(ITSM\) application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/now-assist-for-it-service-management-itsm/summarize-request-related-skill.html
 release: zurich
@@ -10,12 +10,12 @@ topic_type: task
 last_updated: "2026-04-03"
 reading_time_minutes: 2
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Use generative AI skills, Now Assist for IT Service Management \(ITSM\), IT Service Management]
+breadcrumb: [Use generative AI skills, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 
-# Summarize Request Management records by using Now Assist for IT Service Management \(ITSM\)
+# Summarize Request Management records by using ServiceNow Otto for IT Service Management \(ITSM\)
 
-Summarize all information related to the context of requests to get a consolidated real-time status by using the Request Management summarization skills in the Now Assist for IT Service Management \(ITSM\) application.
+Summarize all information related to the context of requests to get a consolidated real-time status by using the Request Management summarization skills in the ServiceNow Otto for IT Service Management \(ITSM\) application.
 
 ## Before you begin
 
@@ -29,7 +29,7 @@ Summarization for Request Management involves individual skills used to summariz
 -   Requested items
 -   Catalog tasks
 
-These Request Management summarization skills provide you with concise summaries generated from the information entered in the corresponding record fields. For more information about which fields are referenced, see [Skill inputs and triggers for Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-skills.md).
+These Request Management summarization skills provide you with concise summaries generated from the information entered in the corresponding record fields. For more information about which fields are referenced, see [Skill inputs and triggers for ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-skills.md).
 
 ## Procedure
 
@@ -49,15 +49,15 @@ These Request Management summarization skills provide you with concise summaries
 
 3.  When you're finished summarizing a record, you can add the summary to your work notes, copy it, or provide feedback.
 
-<table id="choicetable_h4z_krw_53c"><thead><tr><th align="left" id="d394385e195">
+<table id="choicetable_h4z_krw_53c"><thead><tr><th align="left" id="d396119e195">
 
 Option
 
-</th><th align="left" id="d394385e198">
+</th><th align="left" id="d396119e198">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d394385e204">
+</th></tr></thead><tbody><tr><td id="d396119e204">
 
 **Add summary to work notes**
 
@@ -68,7 +68,7 @@ Procedure
 3.  Select **Save to work notes**.
 
 
-</td></tr><tr><td id="d394385e231">
+</td></tr><tr><td id="d396119e231">
 
 **Expand or collapse**
 
@@ -76,7 +76,7 @@ Procedure
 
 Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: expand card icon.\) to view the complete summary. Select the collapse card icon \(\[Omitted image "icon-collapse.png"\] Alt text: collapse card icon.\) to view a collapsed summary.
 
-</td></tr><tr><td id="d394385e254">
+</td></tr><tr><td id="d396119e254">
 
 **Provide feedback**
 
@@ -84,7 +84,7 @@ Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: expa
 
 If you think that the summary was helpful, select the helpful icon \(\[Omitted image "icon-helpful.png"\] Alt text: Helpful icon.\). If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).**Note:** This feedback improves the generative AI model and can help to improve future versions of this skill.
 
-</td></tr><tr><td id="d394385e277">
+</td></tr><tr><td id="d396119e277">
 
 **Copy summary**
 
@@ -92,7 +92,7 @@ If you think that the summary was helpful, select the helpful icon \(\[Omitted i
 
 If you want to reuse the summary, select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text: Copy to clipboard icon.\).
 
-</td></tr><tr><td id="d394385e293">
+</td></tr><tr><td id="d396119e293">
 
 **View more information about the summary**
 

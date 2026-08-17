@@ -30,9 +30,9 @@ Role required: sn\_ind\_tsm\_core\_noc\_agent
 
     **Note:** You can also access this view by clicking a company \(account\) name account inside the various incident lists or within the incident form in Service Operations Workspace.
 
-4.  In the Account Information page, in the Customer Summary section, review the general customer details for the selected account, such as Active status of the customer, Rank tier, and the number of employees.
+4.  In the Account Information page, in the Customer Summary section, review the general customer details for the selected account.
 
-    If this account has any escalations, you can view it by clicking **View Escalations**. In the Overview section, view the insights into account information.
+    These details include Active status of the customer, Rank tier, and the number of employees. If this account has any escalations, you can view it by clicking **View Escalations**. In the Overview section, view the insights into account information.
 
 <table id="table_em2_fg2_5tb"><thead><tr><th>
 

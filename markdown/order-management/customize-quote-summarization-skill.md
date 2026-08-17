@@ -1,18 +1,18 @@
 ---
-title: Customize a quote summarization skill in Now Assist for Configure, Price, Quote \(CPQ\)
-description: Configure the Now Assist for Configure, Price, Quote \(CPQ\) application so that the agent can use the generative AI skills in the CSM/FSM Configurable Workspace and Business Portal.
+title: Customize a quote summarization skill in ServiceNow Otto for Configure, Price, Quote \(CPQ\)
+description: Configure the ServiceNow Otto for Configure, Price, Quote \(CPQ\) application so that the agent can use the generative AI skills in the CSM/FSM Configurable Workspace and Business Portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/customize-quote-summarization-skill.html
 release: zurich
 topic_type: task
 last_updated: "2026-02-13"
 reading_time_minutes: 4
-breadcrumb: [Configure, Now Assist for CPQ]
+breadcrumb: [Configure, ServiceNow Otto for CPQ]
 ---
 
-# Customize a quote summarization skill in Now Assist for Configure, Price, Quote \(CPQ\)
+# Customize a quote summarization skill in ServiceNow Otto for Configure, Price, Quote \(CPQ\)
 
-Configure the Now Assist for Configure, Price, Quote \(CPQ\) application so that the agent can use the generative AI skills in the CSM/FSM Configurable Workspace and Business Portal.
+Configure the ServiceNow Otto for Configure, Price, Quote \(CPQ\) application so that the agent can use the generative AI skills in the CSM/FSM Configurable Workspace and Business Portal.
 
 ## Before you begin
 
@@ -20,9 +20,9 @@ Role required: admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Now Assist Skills**.
+1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **AI Skills**.
 
-2.  In the **Customer** workflow group, view the skills for Now Assist for CPQ under Sales CRM.
+2.  In the **Customer** workflow group, view the skills for ServiceNow Otto for CPQ under Sales CRM.
 
 3.  Make a copy of an active quote summarization skill by selecting the More actions icon \[Omitted image "more-options.png"\] Alt text: and then select **Make a copy** to create a version that you can customize.
 
@@ -93,9 +93,9 @@ Description of the base input field value.
 
 6.  Customize the prompt output.
 
-    Review and test the default prompt provided. The prompt is fixed and can’t be customized directly within this step or from the Now Assist Admin screen.
+    Review and test the default prompt provided. The prompt is fixed and can’t be customized directly within this step or from the AI Admin Hub screen.
 
-    To customize or create prompts, select **Edit prompt in Now Assist Skill Kit**. You are redirected to the Now Assist Skill Kit, where you can manage prompt configurations for the skill. For more information, see Now Assist Skill Kit.
+    To customize or create prompts, select **Edit prompt in AI Skill Kit**. You are redirected to the AI Skill Kit, where you can manage prompt configurations for the skill. For more information, see [AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skill-kit-landing.md).
 
     1.  Select a record in the Test output section and test the prompt response output format by selecting **Run Test**.
 
@@ -124,7 +124,7 @@ Description of the base input field value.
 
 9.  Configure the **In-product desktop** field to display the quote summarization.
 
-    1.  Display Now Assist skills on the forms and workspaces by selecting the **In-product desktop** field.
+    1.  Display AI skills on the forms and workspaces by selecting the **In-product desktop** field.
 
         For the skills that appear in-product, select the arrow to identify the roles that can use the skill.
 
@@ -137,5 +137,5 @@ Description of the base input field value.
     2.  Generate the quote summary by selecting **Summarize** in a quote.
 
 
-**Parent Topic:**[Configuring Now Assist for Configure, Price, Quote \(CPQ\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configure-now-assist-cpq.md)
+**Parent Topic:**[Configuring ServiceNow Otto for Configure, Price, Quote \(CPQ\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configure-now-assist-cpq.md)
 

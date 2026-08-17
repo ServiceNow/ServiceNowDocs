@@ -7,7 +7,7 @@ release: zurich
 product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Use, Contract Management Pro for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -16,9 +16,9 @@ breadcrumb: [Use, Contract Management Pro for Legal Service Delivery, Integratio
 
 Get your content reviewed by internal teams who have the expertise you need.
 
-A workflow for getting content reviewed by subject matter experts might progress as follows:
+A workflow for getting content reviewed by internal teams might progress as follows:
 
-1.  For self-served contract requests, contract user submits a change request to the fulfiller for the content that needs internal review.
+1.  For non-disclosure agreements, legal user submits a change request to the fulfiller for the content that needs internal review.
 
     **Note:** For third-party contract review requests, the contract user cannot create a change request. Instead, the contract fulfiller creates a task for internal review.
 
@@ -30,9 +30,8 @@ A workflow for getting content reviewed by subject matter experts might progress
 7.  The contract reviewer reviews the document, accept, reject, or proposes edits, and adds comments.
 8.  The contract reviewer completes the review and shares the updated contract document if available.
 9.  The contract fulfiller receives updated document and makes the necessary changes based on the feedback.
-    -   For internal storage - If any changes are required, the contract fulfiller updates and finalizes the document.
-    -   For external storage - Reviewers collaborate on the contract document revision online in real-time. Once the review is complete, the fulfiller can update the document directly online or download it to make updates offline.
-10. Contract fulfiller uploads the finalized document using the **Create revision** option from the Contract Documents tab.
+    -   For internal storage - If any changes are required, a new document version is created after finalizing the document.
+    -   For external storage - Reviewers collaborate on the contract document revision online in real time. Once the review is complete, the fulfiller can finalize the contract document that is available online or create a new offline version with the changes.
 
 The contract request remains in the Awaiting review State until a review task is active.
 
@@ -57,6 +56,8 @@ As a contract fulfiller, cancel a review task irrespective of its state.
 [Contract amendments]()
 
 [Linking parent-child contracts]()
+
+[Signature workflow for a request]()
 
 [Cancel a legal request]()
 

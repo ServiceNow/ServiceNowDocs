@@ -147,7 +147,7 @@ Added topic recommendation
 
 </td><td>
 
-Displays the name of the topic that was added for the recommendation, as well as the date when it was added.Click the open link icon \[Omitted image "icon-open-link.png"\] Alt text: Open link icon. to view the topic in Virtual Agent Designer.
+Displays the name of the topic that was added for the recommendation, as well as the date when it was added.Click the open link icon \[Omitted image "icon-open-link.png"\] Alt text: Open link icon. to view the topic in Assistant Designer Asset library.
 
 </td></tr><tr><td>
 
@@ -155,7 +155,7 @@ Linked topic
 
 </td><td>
 
-Displays the name of the topic that was linked, as well as the date when the recommendation was linked. Click the open link icon \[Omitted image "icon-open-link.png"\] Alt text: Open link icon. to view the associated topic in Virtual Agent Designer. You can also [unlink the topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/unlink-tr-va-topic.md) from the recommendation.
+Displays the name of the topic that was linked, as well as the date when the recommendation was linked. Click the open link icon \[Omitted image "icon-open-link.png"\] Alt text: Open link icon. to view the associated topic in Assistant Designer Asset library. You can also [unlink the topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/unlink-tr-va-topic.md) from the recommendation.
 
 </td></tr></tbody>
 </table>\[Omitted image "tr-example-overlay-card.png"\] Alt text: An overlay card for a topic that has not been added but can be linked to an existing topic.

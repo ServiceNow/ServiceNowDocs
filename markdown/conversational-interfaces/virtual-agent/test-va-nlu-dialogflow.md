@@ -1,6 +1,6 @@
 ---
-title: Test Virtual Agent with Google Dialogflow ES NLU in Virtual Agent Designer
-description: Test topic discovery with Google Dialogflow and Virtual Agent in the Virtual Agent Designer interface.
+title: Test Virtual Agent with Google Dialogflow ES NLU in Assistant Designer Asset library
+description: Test topic discovery with Google Dialogflow and Virtual Agent in the Assistant Designer Asset library interface.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/test-va-nlu-dialogflow.html
 release: zurich
@@ -12,9 +12,9 @@ reading_time_minutes: 1
 breadcrumb: [Configure Google Dialogflow ES as the NLU provider for Virtual Agent, Configure NLU in Virtual Agent, Configure, Virtual Agent, Conversational Interfaces]
 ---
 
-# Test Virtual Agent with Google Dialogflow ES NLU in Virtual Agent Designer
+# Test Virtual Agent with Google Dialogflow ES NLU in Assistant Designer Asset library
 
-Test topic discovery with Google Dialogflow and Virtual Agent in the Virtual Agent Designer interface.
+Test topic discovery with Google Dialogflow and Virtual Agent in the Assistant Designer Asset library interface.
 
 ## Before you begin
 
@@ -30,13 +30,17 @@ Role required: virtual\_agent\_admin or admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Virtual Agent** &gt; **Designer**.
+1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Assistant Designer**.
 
-2.  In the Topics page, click **Test Active Topics**.
+2.  Select the **Asset library** tab.
 
-3.  Type an utterance that should trigger the Google Dialogflow intent that is mapped to the topic.
+3.  Set the topic discovery toggle switch to **NLU/Keyword**.
 
-4.  To test entity slot-filling, do the following:
+4.  Select **Test Topics**.
+
+5.  Type an utterance that should trigger the Google Dialogflow intent that is mapped to the topic.
+
+6.  To test entity slot-filling, do the following:
 
     1.  On the **Flow** tab, add a Text user input node.
 

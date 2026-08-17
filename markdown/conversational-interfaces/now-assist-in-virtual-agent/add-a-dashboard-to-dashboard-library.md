@@ -9,7 +9,7 @@ classification: now-assist-in-virtual-agent
 topic_type: task
 last_updated: "2026-02-17"
 reading_time_minutes: 1
-breadcrumb: [Related dashboards page, Analyzing assistants, Now Assist in Virtual Agent, Conversational Interfaces]
+breadcrumb: [Related dashboards page, Analyzing assistants, ServiceNow Otto for Virtual Agent, Conversational Interfaces]
 ---
 
 # Add a dashboard to dashboard library
@@ -21,8 +21,8 @@ Add a dashboard to the Related Dashboards page in Assistant analytics so that us
 Role required: virtual\_agent\_admin
 
 1.  Ensure you have the dashboard created in Platform Analytics.
-2.  Configure the dashboard visibility in Platform Analytics to include Assistant Designer. See  for more information.
-3.  Share the dashboard with virtual\_agent-admin role. See  for more information.
+2.  Configure the dashboard visibility in Platform Analytics to include Assistant Designer. See [Configure Platform Analytics dashboard details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/config-db-in-ac.md) for more information.
+3.  Share the dashboard with virtual\_agent-admin role. See [Share a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/share-db-in-ac.md) for more information.
 
 ## About this task
 

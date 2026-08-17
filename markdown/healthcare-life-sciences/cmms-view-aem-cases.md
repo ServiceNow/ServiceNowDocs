@@ -56,5 +56,5 @@ The selected medical device AEM case page opens in another tab within Workspace 
 
 A medical device AEM case is a type of medical device case based on a healthcare case that instead is based on a customer service case. Depending on the configurations made by your administrator and your role, additional tabs similar to a customer service case might appear for the medical device AEM case.
 
-For more information on tabs available for a customer service case, see Customer service case form.
+For more information on tabs available for a customer service case, see [Customer service case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/r_CustomerServiceCaseForm.md).
 

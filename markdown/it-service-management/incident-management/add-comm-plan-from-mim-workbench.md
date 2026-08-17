@@ -1,5 +1,5 @@
 ---
-title: Add communication plan from the major incident workbench
+title: Add communication plan in the workbench
 description: You can create a new communication plan or add a new communication task to an existing communication plan from the workbench. This UI action is helpful when you do not have an existing well-defined communication plan in the system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/incident-management/add-comm-plan-from-mim-workbench.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Major incident workbench, Manage major incidents, Incident Management, IT Service Management]
 ---
 
-# Add communication plan from the major incident workbench
+# Add communication plan in the workbench
 
 You can create a new communication plan or add a new communication task to an existing communication plan from the workbench. This UI action is helpful when you do not have an existing well-defined communication plan in the system.
 
@@ -68,7 +68,7 @@ Channels
 
 Option for selecting email, SMS, Slack, or conference as the communication method channel for the plan.
 
- **Note:** To use the SMS channel, the Notify plugin \[com.snc.notify\] must be active and configured with a Twilio integration, and a notify number group must be set up. For more information, see [Activate Incident Management - Major Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-management/activate-major-incident-management-plugin.md).
+ **Note:** To use the SMS channel, the Notify plugin \[com.snc.notify\] must be active and configured with a Twilio integration, and a notify number group must be set up. For more information, see [Activate Major Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-management/activate-major-incident-management-plugin.md).
 
 </td></tr><tr><td>
 

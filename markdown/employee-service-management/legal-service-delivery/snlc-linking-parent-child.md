@@ -42,6 +42,8 @@ To link a contract as a parent, the following conditions must be met:
 
 [Internal review overview]()
 
+[Signature workflow for a request]()
+
 [Cancel a legal request]()
 
 [View and download a signed contract document]()

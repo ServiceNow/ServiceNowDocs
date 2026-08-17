@@ -1,5 +1,5 @@
 ---
-title: Configure data validation using the Data Validation Assist table
+title: Define additional field and record level validations
 description: Create field and record level validations in the Data validation assist table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/acct-lifecycle-events/account-lifecycle-data-valid-assist.html
@@ -10,7 +10,7 @@ reading_time_minutes: 2
 breadcrumb: [Data capture and validation, Set up playbook, Account onboarding, Configure, Customer Success Management]
 ---
 
-# Configure data validation using the Data Validation Assist table
+# Define additional field and record level validations
 
 Create field and record level validations in the Data validation assist table.
 

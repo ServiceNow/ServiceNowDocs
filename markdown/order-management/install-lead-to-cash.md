@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/install-lead-to-cash.html
 release: zurich
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 1
 breadcrumb: [Lead to Cash Core, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
@@ -39,7 +39,7 @@ The following items are installed with Lead to cash core application:
 
     You can search for the application by its name or ID. If you can't find the application, request it from the ServiceNow Store.
 
-    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 3.  In the Application installation dialog box, review the application dependencies.
 
@@ -47,15 +47,15 @@ The following items are installed with Lead to cash core application:
 
 4.  If you want to install demo data, do one of the following depending on your entitlements.
 
-<table id="choicetable_t11_3lj_21c"><thead><tr><th align="left" id="d85158e160">
+<table id="choicetable_t11_3lj_21c"><thead><tr><th align="left" id="d85346e160">
 
 Demo data install task
 
-</th><th align="left" id="d85158e163">
+</th><th align="left" id="d85346e163">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d85158e169">
+</th></tr></thead><tbody><tr><td id="d85346e169">
 
 **If demo data is available and you want to install it**
 
@@ -65,7 +65,7 @@ Description
 2.  Select **Install**.
  **Important:** If you don't load the demo data during installation, it's unavailable to load later.
 
-</td></tr><tr><td id="d85158e199">
+</td></tr><tr><td id="d85346e199">
 
 **If the Load Demo Data option isn’t available but you want demo data**
 

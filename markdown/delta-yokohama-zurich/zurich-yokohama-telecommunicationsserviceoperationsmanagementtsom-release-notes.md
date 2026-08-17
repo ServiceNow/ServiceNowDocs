@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-telecommunicationsserviceoperationsmanagementtsom-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
@@ -67,7 +67,7 @@ Yokohama
 
 </td><td>
 
--   **[Pattern-based direct discovery using CLI and SNMP](https://servicenow-staging.fluidtopics.net/access?context=telecom-discovery-tsom-visibility&family=yokohama&ft:locale=en-US)**
+-   **[Pattern-based direct discovery using CLI and SNMP](https://www.servicenow.com/docs/access?context=telecom-discovery-tsom-visibility&family=yokohama&ft:locale=en-US)**
 
 Use pattern-based direct discovery to do the following tasks:
 
@@ -84,14 +84,14 @@ Use pattern-based direct discovery to do the following tasks:
         -   Juniper MX104
         -   Juniper MX240
         -   Juniper MX480
--   **[Nokia Altiplano SGC integration](https://servicenow-staging.fluidtopics.net/access?context=service-graph-connector-for-nokia-altiplano&family=yokohama&ft:locale=en-US)**
+-   **[Nokia Altiplano SGC integration](https://www.servicenow.com/docs/access?context=service-graph-connector-for-nokia-altiplano&family=yokohama&ft:locale=en-US)**
 
 With Nokia Altiplano SGC integration, you can:
 
     -   Support discovery of physical Gigabit Passive Optical Network \(GPON\) network information by integrating with the Nokia Altiplano Service Graph Connector.
     -   Enable scheduled and on-demand discovery.
     -   Support the multi-instance integration of the Nokia Altiplano Service Graph Connector.
--   **[Discrepancy identification and reconciliation](https://servicenow-staging.fluidtopics.net/access?context=telecom-reconciliation&family=yokohama&ft:locale=en-US)**
+-   **[Discrepancy identification and reconciliation](https://www.servicenow.com/docs/access?context=telecom-reconciliation&family=yokohama&ft:locale=en-US)**
 
 Identify the discrepancies between your inventoried and discovered data in the following cases:
 
@@ -109,7 +109,7 @@ Zurich
 
 </td><td>
 
--   **[Telecom Discovery Builder framework](https://servicenow-staging.fluidtopics.net/access?context=exploring-the-telco-generic-schema-etl-framework&family=zurich&ft:locale=en-US)**
+-   **[Telecom Discovery Builder framework](https://www.servicenow.com/docs/access?context=exploring-the-telco-generic-schema-etl-framework&family=zurich&ft:locale=en-US)**
 
 Leverage a standardized Extract, Transform, Load \(ETL\) framework to streamline the processing and storage of telecom network data on the ServiceNow AI Platform.
 
@@ -124,7 +124,7 @@ Use Telecom Discovery Builder Framework to do the following:
     -   Allocate predefined storage locations for both physical and logical inventory elements.
     -   Maintain consistent data model hierarchies across connectors to support unified network inventory management.
     -   Improve Discovery SGC quality by providing an OOTB Data Source Validation tools.
--   **[Identify and reconcile discrepancies](https://servicenow-staging.fluidtopics.net/access?context=exploring-telecom-reconciliation&family=zurich&ft:locale=en-US)**
+-   **[Identify and reconcile discrepancies](https://www.servicenow.com/docs/access?context=exploring-telecom-reconciliation&family=zurich&ft:locale=en-US)**
 
 Use enhanced discrepancy identification and reconciliation features to keep your discovery data accurate and up to date on the ServiceNow AI Platform. These features give you better control over detected changes and improve overall audit performance.
 
@@ -132,20 +132,20 @@ Use enhanced discrepancy identification and reconciliation features to keep your
     -   Display previous and current attribute values, enabling you to decide whether to accept the new value, retain the old one, or manually raise a remediation task.
     -   Detect discrepancies in logical entities alongside physical entities for comprehensive discrepancy management for newly discovered logical network elements.
     -   Generate audit results using filtering conditions—such as specific IP ranges, device vendors, or port types—to focus on relevant subsets of data and significantly enhance audit performance and usability.
--   **[Fault Management: Events and alerts](https://servicenow-staging.fluidtopics.net/access?context=fault-management-events-and-alerts&family=zurich&ft:locale=en-US)**
+-   **[Fault Management: Events and alerts](https://www.servicenow.com/docs/access?context=fault-management-events-and-alerts&family=zurich&ft:locale=en-US)**
 
 You can monitor your SD-WAN network health and resolve issues faster with automated alerts and event detection.
 
     -   Detect and resolve SD-WAN network issues faster with automated alerts and event monitoring.
     -   Configure customizable event rules to detect SD-WAN device issues in real time.
 
--   **[Added Service Graph Connector for Cisco Meraki and Fortinet](https://servicenow-staging.fluidtopics.net/access?context=configuring-cisco-meraki-service-graph-connector&family=zurich&ft:locale=en-US)**
+-   **[Added Service Graph Connector for Cisco Meraki and Fortinet](https://www.servicenow.com/docs/access?context=configuring-cisco-meraki-service-graph-connector&family=zurich&ft:locale=en-US)**
 
 The following capabilities have been added to Cisco Meraki and Fortinet:
 
     -   Provides a centralized management of physical infrastructure and logical network relationships within the ServiceNow AI Platform®.
     -   Supports automated, telecom-aware discovery and real-time CMDB synchronization, along with visual network mapping, guided setup, and a dashboard for monitoring integration health.
--   **[Granular admin roles](https://servicenow-staging.fluidtopics.net/access?context=exploring-the-telco-generic-schema-etl-framework&family=zurich&ft:locale=en-US)**
+-   **[Granular admin roles](https://www.servicenow.com/docs/access?context=exploring-the-telco-generic-schema-etl-framework&family=zurich&ft:locale=en-US)**
 
 The granular admin role enables developers and administrators to complete administrative configuration tasks for TSOM without requiring the full admin role.
 
@@ -177,7 +177,7 @@ Zurich
 
 </td><td>
 
--   **[Telecom Discovery via Nokia Altiplano](https://servicenow-staging.fluidtopics.net/access?context=service-graph-connector-for-nokia-altiplano&family=zurich&ft:locale=en-US)**
+-   **[Telecom Discovery via Nokia Altiplano](https://www.servicenow.com/docs/access?context=service-graph-connector-for-nokia-altiplano&family=zurich&ft:locale=en-US)**
 
 Nokia Altiplano SGC enables you to do the following:
 
@@ -185,7 +185,7 @@ Nokia Altiplano SGC enables you to do the following:
     -   Enable customers to manage both physical infrastructure and logical network relationships on the ServiceNow AI Platform.
     -   Store logical elements in the CMDB, improving visibility and traceability across the network.
     -   Use the generic Extract, Transform, Load \(ETL\) framework provided by ServiceNow to integrate with Nokia Altiplano, significantly reducing development effort.
--   **[Discrepancy identification](https://servicenow-staging.fluidtopics.net/access?context=discrepancy-identification-types-of-discrepancies&family=zurich&ft:locale=en-US)**
+-   **[Discrepancy identification](https://www.servicenow.com/docs/access?context=discrepancy-identification-types-of-discrepancies&family=zurich&ft:locale=en-US)**
 
 Use the enhanced audit and reconciliation logic to do the following:
 
@@ -271,7 +271,7 @@ Yokohama
 
 </td><td>
 
-Install Telecommunications Service Operations Management by requesting it from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+Install Telecommunications Service Operations Management by requesting it from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -279,7 +279,7 @@ Zurich
 
 </td><td>
 
-Install Telecommunications Service Operations Management applications and plugins by requesting them from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+Install Telecommunications Service Operations Management applications and plugins by requesting them from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -420,7 +420,7 @@ Yokohama
 -   Integrate with the Nokia Altiplano Service Graph Connector to discover the access network.
 -   Handle Discrepancy Identification and Reconciliation between your discovered and inventoried data.
 
- See [Telecommunications Service Operations Management](https://servicenow-staging.fluidtopics.net/access?context=telecom-service-operations-mgt-overview&family=yokohama&ft:locale=en-US) for more information.
+ See [Telecommunications Service Operations Management](https://www.servicenow.com/docs/access?context=telecom-service-operations-mgt-overview&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -432,7 +432,7 @@ Zurich
 -   Discover logical network elements from Nokia Altiplano using the enhanced Service Graph Connector for unified network visibility on the ServiceNow AI Platform.
 -   Detect discrepancies in both logical and physical entities, including attribute value mismatches, and improve audit accuracy using targeted filters.
 
- See [Telecommunications Service Operations Management](https://servicenow-staging.fluidtopics.net/access?context=telecommunications-service-operations-management&family=zurich&ft:locale=en-US) for more information.
+ See [Telecommunications Service Operations Management](https://www.servicenow.com/docs/access?context=telecommunications-service-operations-management&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

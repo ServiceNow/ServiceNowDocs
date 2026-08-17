@@ -1,5 +1,5 @@
 ---
-title: Catalog item generation reference
+title: AI Authoring for Catalog Builder reference
 description: Reference topics provide additional information about configuration properties, roles, and more.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-catalog/catalog-item-generation-reference.html
@@ -7,30 +7,34 @@ release: zurich
 product: Service Catalog
 classification: service-catalog
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [generative AI, Now Assist in Catalog Builder]
-breadcrumb: [Now Assist in Catalog Builder, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+keywords: [generative AI, AI Authoring for Catalog Builder]
+breadcrumb: [AI Authoring for Catalog Builder, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Catalog item generation reference
+# AI Authoring for Catalog Builder reference
 
 Reference topics provide additional information about configuration properties, roles, and more.
 
--   **[Now Assist: Location, catalog, category, and topic functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/setting-location-catalog-category-and-topic-with-now-assist.md)**  
-When creating or editing a catalog item, you can use plain language to assign values for catalog, category, or topic. If the value you provide matches an existing entry, Now Assist automatically applies it to the item. This streamlines the process and reduces manual data entry.
--   **[Now Assist: Fulfillment, access, and portal setting functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/now-assist-fulfillment-access-and-portal-setting-functions.md)**  
-In addition to catalogs, categories, and topics, Now Assist allows you to set three other key fields for a catalog item: Access, Fulfillment flow, and Portal settings. You can configure these simply by describing your requirements in plain language.
--   **[Now Assist: UI policy functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/now-assist-ui-policy-functions.md)**  
-Now Assist can generate UI policies with multiple actions from simple natural language.
+-   **[ServiceNow Otto: Location, catalog, category, and topic functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/setting-location-catalog-category-and-topic-with-now-assist.md)**  
+When creating or editing a catalog item, you can use plain language to assign values for catalog, category, or topic. If the value you provide matches an existing entry, ServiceNow Otto automatically applies it to the item. This streamlines the process and reduces manual data entry.
+-   **[ServiceNow Otto: Fulfillment, access, and portal setting functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/now-assist-fulfillment-access-and-portal-setting-functions.md)**  
+In addition to catalogs, categories, and topics, ServiceNow Otto allows you to set three other key fields for a catalog item: Access, Fulfillment flow, and Portal settings. You can configure these simply by describing your requirements in plain language.
+-   **[ServiceNow Otto: UI policy functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/now-assist-ui-policy-functions.md)**  
+ServiceNow Otto can generate UI policies with multiple actions from simple natural language.
 -   **[Suggestions to describe catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/how-to-describe-catalog-item.md)**  
-Now Assist uses the description that you write to generate a catalog item for you. If you're using Now Assist for creating a catalog item, use these suggestions to describe your catalog item.
+ServiceNow Otto uses the description that you write to generate a catalog item for you. If you're using ServiceNow Otto for creating a catalog item, use these suggestions to describe your catalog item.
 -   **[Catalog item standards for catalog item generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/guidance-for-catalog-item-creation.md)**  
-The Catalog Item Standards knowledge base contains a knowledge base article. This article called Catalog Best Practices, has best practices that help Now Assist provide guidance during catalog item creation in Catalog Builder.
+The Catalog Item Standards knowledge base contains a knowledge base article. This article called Catalog Best Practices, has best practices that help ServiceNow Otto provide guidance during catalog item creation in Catalog Builder.
 -   **[Catalog item generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/now-assist-catalog-item-generation.md)**  
-Use the Catalog item generation skill to create catalog items of your choice using Now Assist.
+Use the Catalog item generation skill to create catalog items of your choice using ServiceNow Otto.
 -   **[Refine content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/now-assist-refine-content.md)**  
-Use the refine content skill to shorten, elaborate, rephrase, or generate content in the fields by using Now Assist.
+Use the refine content skill to shorten, elaborate, rephrase, or generate content in the fields by using ServiceNow Otto.
+-   **[Standard Ticket Page Summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/now-assist-in-standard-ticket-page.md)**  
+The Standard Ticket Page Summarization skill allows you to display summaries generated by ServiceNow Otto, providing overviews of recent activities and ticket details.
+-   **[Catalog item form slot-fill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/catalog-item-form-slot-fill.md)**  
+With the catalog item form slot-fill skill, generative AI can automatically complete catalog item forms based on what users search for.
 
-**Parent Topic:**[Now Assist in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/now-assist-for-catalog-generation.md)
+**Parent Topic:**[AI Authoring for Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/now-assist-for-catalog-generation.md)
 

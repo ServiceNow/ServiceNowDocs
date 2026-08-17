@@ -30,8 +30,6 @@ This section includes the Customer Success Management tables.
 This section includes the Customer Success Management business rules.
 -   **[Customer success management flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-success-flows.md)**  
 This section includes the Customer Success Management flows.
--   **[Customer Success Management glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-glossary.md)**  
-Learn about the terms and concepts that are unique to Customer Success Management.
 
 **Parent Topic:**[Customer Success Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-events-landing.md)
 

@@ -38,6 +38,14 @@ With the Time Card Management feature:
 
 **Note:** The [Time Card Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-administration-and-data-management/t_ActivateTimeCardManagement.md) is required to use time cards. Some of the procedures require the project management feature, which activates time cards automatically. For more information, see [Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/c_ProjectApplicationOverview.md) \(com.snc.financial\_planning\_pmo\).
 
+## Assign a time card user to a project or project task
+
+A user who has only the timecard\_user role, and no project role such as it\_project\_user, can be selected in the **Assigned to** field of a project or project task. This behavior is intentional and lets the user submit time against the assigned task from the Time Sheet Portal.
+
+Being assigned to the record gives the time card user read-only access to it. The user can't edit, close, or reassign the project or project task unless they also have a project role such as it\_project\_user.
+
+**Note:** The Business Stakeholder role includes the timecard\_user role. As a result, a user who has the Business Stakeholder role can also be selected in the **Assigned to** field of a project or project task, with the same read-only access. To stop time card users from appearing in the **Assigned to** field, override the reference qualifier on the **Assigned to** field of the project or project task table.
+
 ## Domain separation in Time Card Management
 
 [Domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-administration-and-data-management/domain-separation-time-card.md) provides complete data isolation for domain-specific users. Time card Management is domain separation compliant at the **Data only** level.

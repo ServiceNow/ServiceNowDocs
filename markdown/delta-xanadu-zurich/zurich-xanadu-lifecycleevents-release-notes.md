@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-lifecycleevents-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -91,7 +91,7 @@ Zurich
 
 </td><td>
 
--   **[Lifecycle Events logging](https://servicenow-staging.fluidtopics.net/access?context=le-logging&family=zurich&ft:locale=en-US)**
+-   **[Lifecycle Events logging](https://www.servicenow.com/docs/access?context=le-logging&family=zurich&ft:locale=en-US)**
 
 Capture events that occur in a Lifecycle Events case by enabling logging for the Lifecycle Events application. Give organization administrators the ability to view the event logs that are generated to identify errors or to acquire information about the processes that ran in a Lifecycle Events case.
 
@@ -242,7 +242,7 @@ Zurich
 
 </td><td>
 
-Install Lifecycle Events by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+Install Lifecycle Events by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -430,7 +430,7 @@ Zurich
 -   Enable logging and use it as a tool to diagnose problems or to acquire pertinent information about the processes that ran in a Lifecycle Events case.
 -   Effectively troubleshoot the root cause of an issue that is adversely affecting a Lifecycle Events case.
 
- See [Lifecycle Events](https://servicenow-staging.fluidtopics.net/access?context=hr-lifecycle-events-landing-page&family=zurich&ft:locale=en-US) for more information.
+ See [Lifecycle Events](https://www.servicenow.com/docs/access?context=hr-lifecycle-events-landing-page&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/rn-combined-intro.md)

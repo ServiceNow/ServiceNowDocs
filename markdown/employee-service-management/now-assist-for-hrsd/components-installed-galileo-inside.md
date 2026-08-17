@@ -1,5 +1,5 @@
 ---
-title: Components installed with Now Assist for HR - Galileo Inside
+title: Components installed with ServiceNow Otto for HRSD – Galileo Inside
 description: Information about the roles and scheduled jobs that are installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/now-assist-for-hrsd/components-installed-galileo-inside.html
@@ -9,10 +9,10 @@ classification: now-assist-for-hrsd
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Reference, Now Assist for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
+breadcrumb: [Reference, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
-# Components installed with Now Assist for HR - Galileo Inside
+# Components installed with ServiceNow Otto for HRSD – Galileo Inside
 
 Information about the roles and scheduled jobs that are installed.
 
@@ -62,5 +62,5 @@ Retrieves data from the Josh Bersin company. The admin first manually executes t
  Subsequently, the system runs the scheduled job monthly to retrieve new data.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Reference for Now Assist for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-hrsd/reference-now-assist-hrsd.md)
+</table>**Parent Topic:**[Reference for ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-hrsd/reference-now-assist-hrsd.md)
 

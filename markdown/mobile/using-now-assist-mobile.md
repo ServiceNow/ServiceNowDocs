@@ -1,18 +1,18 @@
 ---
-title: Using Now Assist for Mobile
-description: Use Now Assist for Mobile to enhance the mobile user experience.
+title: Using ServiceNow Otto for Mobile
+description: Use ServiceNow Otto for Mobile to enhance the mobile user experience.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/mobile/using-now-assist-mobile.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-07-22"
 reading_time_minutes: 1
-breadcrumb: [Now Assist for Mobile, Mobile Platform]
+breadcrumb: [ServiceNow Otto for Mobile, Mobile Platform]
 ---
 
-# Using Now Assist for Mobile
+# Using ServiceNow Otto for Mobile
 
-Use Now Assist for Mobile to enhance the mobile user experience.
+Use ServiceNow Otto® for Mobile to enhance the mobile user experience.
 
 -   **[Generate work order resolution notes on mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/generate-work-order-res-notes.md)**  
 Generate resolution notes in your Mobile app that summarize your work order task record.
@@ -27,7 +27,7 @@ Generate a summary of a record in your Now mobile app using Now Assist.
 -   **[Using the prominent action button](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/using-prominent-action-button.md)**  
 Use the prominent action button to quickly access your Now Assist agent chat no matter where you are in the app.
 -   **[Using Voice Input for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/na-using-voice-to-text.md)**  
-The Voice Input feature allows users to easily transcribe spoken words into written text. Voice-to-text can be accessed directly from the search bar or Now Assist chat.
+The Voice Input feature allows users to easily transcribe spoken words into written text. Voice-to-text can be accessed directly from the search bar or Otto chat.
 -   **[Using People Genius results on mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/using-people-genius-results.md)**  
 Search for people in your organization and view their profiles by entering their name into your search bar.
 -   **[Using Mobile AI Voice Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/using-mobile-ai-voice-agent.md)**  

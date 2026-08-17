@@ -1,22 +1,24 @@
 ---
-title: Install the Chief Information Security Officer \(CISO\) Dashboard
+title: Install the Chief Information Security Officer Dashboard
 description: The Chief Information Security Officer \(CISO\) Dashboard provides a single pane glass view of end-to-end security operations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/install-dashboard-cso.html
 release: zurich
 topic_type: task
-last_updated: "2025-08-18"
+last_updated: "2026-07-31"
 reading_time_minutes: 1
 breadcrumb: [Chief Information Security Officer \(CISO\) Dashboard, Executive dashboard overview, Dashboards, Platform Analytics experience, Platform Analytics]
 ---
 
-# Install the Chief Information Security Officer \(CISO\) Dashboard
+# Install the Chief Information Security Officer Dashboard
 
 The Chief Information Security Officer \(CISO\) Dashboard provides a single pane glass view of end-to-end security operations.
 
 ## Before you begin
 
-Role required: sn\_ciso\_dashboard.admin, sn\_ciso\_dashboard.user
+Role required: admin, platform\_analytics\_admin, sn\_ciso\_dashboard.admin
+
+Consider duplicating this executive dashboard before customizing it. For more information, see [Duplicate a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/duplicate-db.md).
 
 **Note:** The CISO Dashboard application is free from the ServiceNow Store. However, the contents of the dashboard require professional entitlements to the following applications:
 
@@ -48,7 +50,7 @@ Applications:
 
 4.  Navigate to **System applications** &gt; **All available applications**.
 
-5.  Search for and install the CISO Dashboard plugin \(sn\_ciso\_dashboard\).
+5.  Search for and install the CISO Dashboard plugin \(sn\_cisodashboard\).
 
 6.  Assign roles to configure and view the CISO Dashboard.
 
@@ -56,7 +58,7 @@ Applications:
 
         Assign the role sn\_ciso\_dashboard.admin to users or groups who require configuration privileges on the dashboard.
 
-        **Note:** Only users with this role are able to configure the CISO dashboard.
+        **Note:** Only users with this role can configure the CISO dashboard.
 
     -   **CISO Dashboard end users**
 
@@ -64,8 +66,8 @@ Applications:
 
     -   **Viewer**
 
-        Assign the pa\_viewer role to those who need to view Performance Analytics scores.
+        Assign the pa\_viewer role to those who must view Performance Analytics scores.
 
-    Users must log out and log back in to enable their new roles after the admin assigns them. For more information on user roles, see [Exploring user administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/exploring-user-administration.md).
+    Users must log out and log back in to enable their new roles after the admin assigns them. For more information on user roles, see .
 
 

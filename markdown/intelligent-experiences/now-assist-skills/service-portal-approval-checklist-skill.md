@@ -1,5 +1,5 @@
 ---
-title: Requester Approval Checklist skill
+title: Requester Approval Checklist
 description: The Requester Approval Checklist skill in the ServiceNow AI Platform generates a structured checklist by mapping real-time request data against your organization’s knowledge articles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/now-assist-skills/service-portal-approval-checklist-skill.html
@@ -9,16 +9,16 @@ classification: now-assist-skills
 topic_type: concept
 last_updated: "2026-01-14"
 reading_time_minutes: 1
-breadcrumb: [Skills in the Platform workflow, Now Assist skills, Now Assist AI assets, Enable AI experiences]
+breadcrumb: [Skills in the Platform workflow, Skills, AI assets, Enable AI experiences]
 ---
 
-# Requester Approval Checklist skill
+# Requester Approval Checklist
 
 The Requester Approval Checklist skill in the ServiceNow AI Platform® generates a structured checklist by mapping real-time request data against your organization’s knowledge articles.
 
-**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
 
-This skill is available within Now Assist Agents for Requester v3.1 and is designed to provide instant, data-backed decision support across in-product, agentic, and workflow experiences.
+This skill is available within AI Agents for Requester v3.1 and provides instant, data-backed decision support across in-product, agentic, and workflow experiences.
 
 The skill uses information from the following sources to promote accuracy:
 
@@ -58,5 +58,5 @@ The output is presented in a two-step format: Criteria \(what is required\) and 
 
 For more information, see [Platform Approval assistance AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/platform-approval-aia.md) and [Configure Service Portal Approval Configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-approval-assistance-ai-agent.md).
 
-**Parent Topic:**[Now Assist skills in the Platform workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skills/now-assist-on-now-platform.md)
+**Parent Topic:**[Generative AI skills in the Platform workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skills/now-assist-on-now-platform.md)
 

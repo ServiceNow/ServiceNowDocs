@@ -9,7 +9,7 @@ classification: now-assist-for-health-and-safety
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure incident patterns, Configure, Now Assist for Health and Safety, Health and Safety, Employee Service Management]
+breadcrumb: [Configure incident patterns, Configure, ServiceNow Otto for Health and Safety, Health and Safety, Employee Service Management]
 ---
 
 # Configure the generation of incident patterns
@@ -18,7 +18,7 @@ Configure the scheduled jobs that generate the incident patterns from the safety
 
 ## Before you begin
 
-Verify that the application scope is selected as Health and Safety Core. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/c_ApplicationPicker.md).
+Verify that the application scope is selected as Health and Safety Core. For more information, see Application picker.
 
 Role required: sn\_ohs\_im.admin
 

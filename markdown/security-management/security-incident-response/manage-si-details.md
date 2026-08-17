@@ -16,7 +16,7 @@ breadcrumb: [Security Incident Response, Enterprise security case management app
 
 After a security incident has been created, there are numerous types of information that can be added and viewed as your analysis of the issue progresses toward resolution.
 
-**Important:** The latest features in Security Incident Response are exclusively available in the Security Incident Response Workspace. Please install or upgrade to the latest Security Incident Response or Security Incident Response Workspace version to access and leverage features such as Shift-Handover, Risk Score Calculator, etc.
+**Important:** The latest features in Security Incident Response are exclusively available in the Security Incident Response Workspace. Install or upgrade to the latest Security Incident Response \[com.snc.security\_incident\] or Security Incident Response Workspace \[com.snc.security\_incident.workspace\] version from the ServiceNow Store to access features such as Shift-Handover, Risk Score Calculator, etc.
 
 This section describes the following:
 

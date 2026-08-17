@@ -7,16 +7,18 @@ release: zurich
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Express List in SOW for ITOM, Using SOW for ITOM, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
+breadcrumb: [Express List in SOW for ITOM, Use, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
 ---
 
 # Alerts in Service Operations Workspace
 
 The Service Operations Workspace interface displays an alerts list and details on specific alerts.
 
-When clicking an alert in the alerts list, the **Details** tab of the selected alert appears and the issue that caused the alert \(the identified issue\) appears in the alert title. Only the subtabs relevant to the alert appear on the resulting page. For example, the **Alerts in Group** option appears in the **Related records** tab only for alert groups.
+When you click an alert in the alerts list, the **Details** tab of the selected alert appears. The issue that caused the alert appears in the alert title. Only the sub tabs relevant to the alert appear on the resulting page. For example, the **Alerts in Group** option appears in the **Related Records** tab only for alert groups.
+
+View the alerts that Azure grouped into the issue in the alert list. The **Source** column displays `A` for these alerts.\[Omitted image "em-related-record-azure-issue.png"\] Alt text: Azure monitor issue alerts
 
 \[Omitted image "alert-details-tab-sow.png"\] Alt text: Details of an open alert.
 
@@ -56,6 +58,24 @@ Overview tab
 </td><td>
 
 When viewing an alert with an assigned CI, this tab opens when selecting the alert. The information displayed varies depending on the type of alert \(grouped, secondary, or primary\).If you have installed the Health Log Analytics app, alert types include Health Log Analytics alerts and component-based alerts.
+
+</td></tr><tr><td>
+
+Details tab
+
+</td><td>
+
+Shows the alert's core attributes, including its number, configuration item, class, resource, type, severity, state, and full description of the identified issue. Alongside are assignment fields \(assigned to, assignment group, task, parent\) plus the work notes and a chronological Activity log tracking state changes and system events.
+
+</td></tr><tr><td>
+
+Related Records tab
+
+</td><td>
+
+Displays lists of records linked to the alert, grouped into categories: events, impacted services, service offerings, changes, configuration items, remediation tasks, incidents, and similar alerts.**Note:** ServiceNow represents an Azure Issue as a single alert. You can view the alerts that Azure grouped into the Issue in this tab.
+
+\[Omitted image "em-related-record-preview-azure-issue.png"\] Alt text: Azure monitor issue alert
 
 </td></tr></tbody>
 </table>

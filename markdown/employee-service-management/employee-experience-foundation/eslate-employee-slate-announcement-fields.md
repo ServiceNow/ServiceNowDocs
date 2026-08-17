@@ -19,7 +19,7 @@ Field descriptions for creating and configuring Employee Slate announcements.
 
 ## Announcement details
 
-To create an announcement, see [Create an announcement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown).
+To create an announcement, see [Create announcements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown).
 
 <table><thead><tr><th>
 

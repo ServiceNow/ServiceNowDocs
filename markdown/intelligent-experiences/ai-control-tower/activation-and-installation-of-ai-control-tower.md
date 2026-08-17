@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-06-09"
 reading_time_minutes: 1
 keywords: [Now Assist, generative AI]
-breadcrumb: [Configure, AI Control Tower, Enable AI experiences]
+breadcrumb: [Configure, AI Control Tower \(legacy\), Enable AI experiences]
 ---
 
 # Activation and installation of AI Control Tower

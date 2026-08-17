@@ -40,15 +40,15 @@ Role required: sn\_hr\_wfo.admin
 
 6.  In the **Assign learning path** window, assign the learning path to groups or team members.
 
-<table id="choicetable_ksc_2y2_svb"><thead><tr><th align="left" id="d614088e153">
+<table id="choicetable_ksc_2y2_svb"><thead><tr><th align="left" id="d614166e153">
 
 To
 
-</th><th align="left" id="d614088e156">
+</th><th align="left" id="d614166e156">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d614088e162">
+</th></tr></thead><tbody><tr><td id="d614166e162">
 
 **Assign the path to all groups that you directly and additionally manage**
 
@@ -56,7 +56,7 @@ Do this
 
 Select **To my groups**.
 
-</td></tr><tr><td id="d614088e174">
+</td></tr><tr><td id="d614166e174">
 
 **Assign the path to specific groups or team members**
 

@@ -36,7 +36,7 @@ When the chart interaction for a data visualization is set to Go to data, intera
 
 ## Health Log Analytics visualizations
 
-**Go to data** chart interactions from Health Log Analytics data visualizations open the log viewer. For more information, see [Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/hla-landing-page.md).
+**Go to data** chart interactions from Health Log Analytics data visualizations open the log viewer. For more information, see .
 
 **Note:** You cannot create or edit data visualizations for Health Log Analytics from the Platform Analytics experience, but only from the UI Builder.
 

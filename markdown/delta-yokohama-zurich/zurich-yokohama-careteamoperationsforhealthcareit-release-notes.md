@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-careteamoperationsforhealthcareit-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -67,15 +67,15 @@ Yokohama
 
 </td><td>
 
--   **[Healthcare IT case overview](https://servicenow-staging.fluidtopics.net/access?context=hcl-cto-it-case&family=yokohama&ft:locale=en-US)**
+-   **[Healthcare IT case overview](https://www.servicenow.com/docs/access?context=hcl-cto-it-case&family=yokohama&ft:locale=en-US)**
 
 Expand healthcare cases to support custom support requests for your organization’s IT department.
 
--   **[Care Team Portal IT requests](https://servicenow-staging.fluidtopics.net/access?context=requesting-cto-it&family=yokohama&ft:locale=en-US)**
+-   **[Care Team Portal IT requests](https://www.servicenow.com/docs/access?context=requesting-cto-it&family=yokohama&ft:locale=en-US)**
 
 Request support from your organization’s IT department with pre-configured record producers.
 
--   **[Healthcare IT cases and incident synchronization](https://servicenow-staging.fluidtopics.net/access?context=fulfilling-cto-it&family=yokohama&ft:locale=en-US)**
+-   **[Healthcare IT cases and incident synchronization](https://www.servicenow.com/docs/access?context=fulfilling-cto-it&family=yokohama&ft:locale=en-US)**
 
 Care Team Operations for Healthcare IT links Healthcare IT cases and incidents, enabling care teams to get visibility into all IT cases reported by their team while also providing IT support teams with the ability to fulfill cases as incidents
 
@@ -86,7 +86,7 @@ Zurich
 
 </td><td>
 
--   **[Setting up roles and responsibilities in Care Team Operations for Healthcare IT](https://servicenow-staging.fluidtopics.net/access?context=hco-it-set-up-roles-responsibilities&family=zurich&ft:locale=en-US)**
+-   **[Setting up roles and responsibilities in Care Team Operations for Healthcare IT](https://www.servicenow.com/docs/access?context=hco-it-set-up-roles-responsibilities&family=zurich&ft:locale=en-US)**
 
 Roles and responsibilities are updated to allow for more selective user access.
 
@@ -203,7 +203,7 @@ Yokohama
 
 </td><td>
 
-Install Care Team Operations for Healthcare IT by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+Install Care Team Operations for Healthcare IT by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -211,7 +211,7 @@ Zurich
 
 </td><td>
 
-Install Care Team Operations for Healthcare IT by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+Install Care Team Operations for Healthcare IT by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -352,7 +352,7 @@ Yokohama
 -   Create IT support requests from directly within the Care Team Portal.
 -   Gain full visibility into reported IT cases while enabling IT teams to manage and fulfill them as incidents efficiently.
 
- See [Care Team Operations for Healthcare IT](https://servicenow-staging.fluidtopics.net/access?context=hcls-cto-it-app&family=yokohama&ft:locale=en-US) for more information.
+ See [Care Team Operations for Healthcare IT](https://www.servicenow.com/docs/access?context=hcls-cto-it-app&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -362,7 +362,7 @@ Zurich
 
 Assign roles and responsibilities more efficiently with an updated user configuration process.
 
- See [Care Team Operations for Healthcare IT](https://servicenow-staging.fluidtopics.net/access?context=hcls-cto-it-app&family=zurich&ft:locale=en-US) for more information.
+ See [Care Team Operations for Healthcare IT](https://www.servicenow.com/docs/access?context=hcls-cto-it-app&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

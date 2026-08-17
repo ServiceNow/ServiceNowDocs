@@ -26,8 +26,6 @@ Learn about ERP \(Enterprise Resource Planning\) terminology and concepts that a
 
 -   **[connection and credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/gloss-connection-cred-alias-erp.md)**  
 
--   **[custom fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/gloss-custom-fields-erp.md)**  
-
 -   **[entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/gloss-entity-erp.md)**  
 
 -   **[ERP application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/gloss-erp-application.md)**  

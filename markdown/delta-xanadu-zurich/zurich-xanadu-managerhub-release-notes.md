@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-managerhub-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -83,15 +83,15 @@ Yokohama
 
 </td><td>
 
--   **[Know your team members](https://servicenow-staging.fluidtopics.net/access?context=use-mr-mh&family=yokohama&ft:locale=en-US)**
+-   **[Know your team members](https://www.servicenow.com/docs/access?context=use-mr-mh&family=yokohama&ft:locale=en-US)**
 
 View employee availability and schedule conversations with employees using the **Create a conversation** panel if you do not have Microsoft Outlook integration enabled or the **Schedule a conversation** panel if you do.
 
--   **[View employee cards in Skills Expectations section](https://servicenow-staging.fluidtopics.net/access?context=emp-card-mh&family=yokohama&ft:locale=en-US)**
+-   **[View employee cards in Skills Expectations section](https://www.servicenow.com/docs/access?context=emp-card-mh&family=yokohama&ft:locale=en-US)**
 
 Track skill proficiency, assign targeted learning, and view in-depth skill progress bars to monitor employee development by using the **Skill score analysis** panel.
 
--   **[Know your team members](https://servicenow-staging.fluidtopics.net/access?context=use-mr-mh&family=yokohama&ft:locale=en-US)**
+-   **[Know your team members](https://www.servicenow.com/docs/access?context=use-mr-mh&family=yokohama&ft:locale=en-US)**
 
 Enable managers to view all direct and indirect reporting details, daily team stats, and other employee details such as tasks submitted for approval, upcoming time off, and employee profiles.
 
@@ -242,7 +242,7 @@ Yokohama
 
 </td><td>
 
-Install Manager Hub by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+Install Manager Hub by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -431,7 +431,7 @@ Yokohama
 -   Track skill proficiency and assign targeted learning for effective development by using the Kill score analysis panel.
 -   Enable managers to view all direct and indirect reports by using multi-manager reporting to improve team productivity and engagement.
 
- See [Manager Hub](https://servicenow-staging.fluidtopics.net/access?context=manager-hub-overview&family=yokohama&ft:locale=en-US) for more information.
+ See [Manager Hub](https://www.servicenow.com/docs/access?context=manager-hub-overview&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 

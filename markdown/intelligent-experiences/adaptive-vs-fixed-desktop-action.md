@@ -7,6 +7,7 @@ release: zurich
 topic_type: concept
 last_updated: "2026-04-27"
 reading_time_minutes: 3
+keywords: [adaptive desktop action, defined desktop action, deterministic desktop action, probabilistic desktop action]
 breadcrumb: [Explore, AI Desktop Actions, Enable AI experiences]
 ---
 

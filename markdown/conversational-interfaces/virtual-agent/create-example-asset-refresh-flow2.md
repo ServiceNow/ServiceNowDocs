@@ -1,30 +1,30 @@
 ---
 title: Create the Open Incident workflow in the Asset Refresh topic
-description: Each Decision branch introduces additional workflows. After creating our main Asset Refresh workflow, we need to ensure that the user can get help if something goes wrong. In this example, we will help the user create an incident.
+description: Each Decision branch introduces additional workflows. After creating a main Asset Refresh workflow, ensure that the user can get help if something goes wrong. In this example, we will help the user create an incident.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/create-example-asset-refresh-flow2.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-07-24"
 reading_time_minutes: 2
 breadcrumb: [Example Asset Refresh Virtual Agent conversation with notifications, Virtual Agent chat widget interface for NLU, Explore, Virtual Agent, Conversational Interfaces]
 ---
 
 # Create the Open Incident workflow in the Asset Refresh topic
 
-Each Decision branch introduces additional workflows. After creating our main Asset Refresh workflow, we need to ensure that the user can get help if something goes wrong. In this example, we will help the user create an incident.
+Each Decision branch introduces additional workflows. After creating a main Asset Refresh workflow, ensure that the user can get help if something goes wrong. In this example, we will help the user create an incident.
 
 ## Before you begin
 
-[Create the Asset Refresh topic in Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-example-conv-asset-refresh.md)
+[Create the Asset Refresh topic in Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-example-conv-asset-refresh.md)
 
 Role required: virtual\_agent\_admin or admin
 
 ## Procedure
 
-1.  Open the Asset Refresh topic in Virtual Agent Designer.
+1.  Open the Asset Refresh topic in Assistant Designer Asset library.
 
 2.  Return to the **false** decision branch after the Asset Check Boolean question that you asked the user.
 

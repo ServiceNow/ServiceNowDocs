@@ -29,11 +29,15 @@ Role required: virtual\_agent\_admin or admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Virtual Agent** &gt; **Designer**.
+1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Assistant Designer**.
 
-2.  On the home page, select **Create.**
+2.  Select the **Asset library** tab.
 
-3.  On the form, fill in the fields.
+3.  Set the topic discovery type toggle switch to **LLM** or **NLU/Keyword**, depending on the type you want to create.
+
+4.  Select **Create asset** or **Create topic**, depending on your topic discovery type.
+
+5.  On the form, fill in the fields.
 
 <table id="table_dzy_15h_cmb"><thead><tr><th>
 
@@ -49,7 +53,7 @@ Type
 
 </td><td>
 
-List of assets that you can create in Virtual Agent Designer.
+List of assets that you can create in Assistant Designer Asset library.
 
  Choose the type of custom control:
 
@@ -114,11 +118,11 @@ Categories
 List of categories. Categories identify and group related topics, topic blocks, or custom controls. If applicable, choose a category for your control.
 
 </td></tr></tbody>
-</table>4.  Select **Create**.
+</table>6.  Select **Create**.
 
     The **Flow** tab opens and displays an initial flow that contains a custom control node.
 
-5.  Select the **Start** node and define the input parameters to the control.
+7.  Select the **Start** node and define the input parameters to the control.
 
     Topic authors will provide these input parameters and values from the calling topic.
 
@@ -195,7 +199,7 @@ Default value for the variable. This value can be used when previewing the block
 
     4.  Repeat these steps for additional parameters.
 
-6.  Select the **End** node and define the output parameters and values returned from the custom control.
+8.  Select the **End** node and define the output parameters and values returned from the custom control.
 
     Topic authors can use the output value in the calling topic.
 
@@ -207,12 +211,12 @@ Default value for the variable. This value can be used when previewing the block
 
     4.  Select **Save**.
 
-7.  Select the custom control node and complete the property sheet as follows:
+9.  Select the custom control node and complete the property sheet as follows:
 
     -   For a custom input control, fill in the [Custom input properties sheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/custom-input-properties-form.md).
     -   For a secure custom input control, fill in the [Secure custom input properties sheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/secure-custom-input-properties-form.md).
     -   For a custom response control, fill in the [Custom output properties sheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/custom-response-properties-form.md).
-8.  To create the control, select **Save** and then **Publish**.
+10. To create the control, select **Save** and then **Publish**.
 
 
 ## Result

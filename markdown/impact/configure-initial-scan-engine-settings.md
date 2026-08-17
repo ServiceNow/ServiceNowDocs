@@ -82,7 +82,7 @@ Configure Scan Engine properties
 
 </td><td>
 
-Review and adjust settings, as each tab has default settings that can be adjusted. See [Configure Scan Engine properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/configure-scan-engine-properties.md) for more information.
+Review and adjust settings, as each tab has default settings that can be adjusted. See [Configure Scan Engine parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/configure-scan-engine-properties.md) for more information.
 
 </td></tr></tbody>
 </table>3.  Select **Mark as Complete** to enable the next step.

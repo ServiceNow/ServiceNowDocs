@@ -9,7 +9,7 @@ classification: discovery
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Enabling application service maps, Configuring Kubernetes Visibility Agent, Kubernetes discovery using Kubernetes Visibility Agent, Discovery for containerized resources, Discovery, ITOM Visibility, IT Operations Management]
+breadcrumb: [Enabling application service maps, Configure, Kubernetes discovery using Kubernetes Visibility Agent, Discovery for containerized resources, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Enable service maps using service meshes
@@ -24,21 +24,21 @@ Role required: discovery\_admin.
 
 ## About this task
 
-If you use a service mesh, a pod running on every node \(Informer\) communicates with a Prometheus server to get the traffic information. For more information, see [Install Kubernetes Visibility Agent \(KVA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/cnov-deploy-install.md)
+If you use a service mesh, a pod running on every node \(Informer\) communicates with a Prometheus server to get the traffic information. For more information, see [Install Kubernetes Visibility Agent \(KVA\) Informer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/cnov-deploy-install.md)
 
 ## Procedure
 
 -   Set parameters either during Helm chart archive installation or by modifying the Kubernetes YAML file provided by ServiceNow.
 
-<table id="choicetable_cc2_2vk_bgc"><thead><tr><th align="left" id="d505394e87">
+<table id="choicetable_cc2_2vk_bgc"><thead><tr><th align="left" id="d505859e87">
 
 Method
 
-</th><th align="left" id="d505394e90">
+</th><th align="left" id="d505859e90">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d505394e96">
+</th></tr></thead><tbody><tr><td id="d505859e96">
 
 **During Helm installation**
 
@@ -60,7 +60,7 @@ If your Prometheus server URL is not the default one, use the following paramete
 --set connectionsDiscovery.prometheusUrl
 ```
 
-</td></tr><tr><td id="d505394e122">
+</td></tr><tr><td id="d505859e122">
 
 **Modify the `k8s_informer.yaml` script**
 

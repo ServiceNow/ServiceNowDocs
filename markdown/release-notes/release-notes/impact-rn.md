@@ -216,7 +216,7 @@ The Jumpstart Your Document Intelligence Accelerator has been removed.
 
     Strategic Portfolio Management \(SPM\), enables digital transformation by helping you plan, deliver, and track value across different methodologies.
 
--   **[Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/platform-now-assist-landing.md)**
+-   **[AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/platform-now-assist-landing.md)**
 
     Now Assist uses generative AI that enhances user productivity and efficiency through conversation and proactive experiences.
 

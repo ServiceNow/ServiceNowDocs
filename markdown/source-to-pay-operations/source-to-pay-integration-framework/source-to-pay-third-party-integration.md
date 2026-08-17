@@ -7,7 +7,7 @@ release: zurich
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
 topic_type: concept
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 breadcrumb: [Integrations, Source-to-Pay Operations, Finance and Supply Chain]
 ---
@@ -34,7 +34,7 @@ Integrate Source-to-Pay Operations with Oracle EBS to handle sales orders, procu
 
 ## Source-to-Pay integration with SAP Ariba
 
-Integrate Source-to-Pay Operations with SAP Ariba to handle sales orders, procurement, finance, and so on, in Coupa from your ServiceNow instance. For more information, see [Source-to-Pay integration with SAP Ariba](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/source-to-pay-integration-framework/source-to-pay-integration-sap-ariba.md).
+Integrate Source-to-Pay Operations with SAP Ariba to handle sales orders, procurement, finance, and so on, in SAP Ariba from your ServiceNow instance. For more information, see [Source-to-Pay integration with SAP Ariba](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/source-to-pay-integration-framework/source-to-pay-integration-sap-ariba.md).
 
 ## Source-to-Pay integration with Coupa
 

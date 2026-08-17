@@ -32,7 +32,7 @@ Translated Text \[sys\_translated\_text\]
 
 Stores translations for fields with the field type translated\_text or translated\_html \(see the dictionary entry\).The \[sys\_cs\_topic\] table contains the English keywords and topic titles. It pulls translations from the \[sys\_translated\_text\] table.
 
- For details about translating text content into different languages, see Translated text table and Translating text fields.
+ For details about translating text content into different languages, see [Translated text table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/r_TranslatedText.md) and [Translating text fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/c_UseTranslatedText.md).
 
 </td></tr><tr><td>
 

@@ -27,7 +27,7 @@ Role required: admin
 </td></tr></tbody>
 </table>## About this task
 
-The MID Server connects to an instance by using the SOAP web service. To allow authentication with the instance, create a separate user account for each MID Server or share the same account across multiple MID Servers. Grant each MID Server user the mid\_server role, which is required for the MID Server user on any instance on which basic authentication is enabled. The mid\_server role allows the MID Server to access protected tables when strict SOAP security is in place. The system adds the necessary SOAP roles automatically with this role.
+The MID Server connects to an instance by using the SOAP web service. To allow authentication with the instance, create a separate user account for each MID Server for improved security or share the same account across multiple MID Servers. Grant each MID Server user the mid\_server role, which is required for the MID Server user on any instance on which basic authentication is enabled. The mid\_server role allows the MID Server to access protected tables when strict SOAP security is in place. The system adds the necessary SOAP roles automatically with this role.
 
 **Note:** The strict SOAP security feature, enabled by default for any instance that uses basic authentication, protects all tables with Access Control Lists \(ACL\).
 
@@ -57,7 +57,7 @@ User ID
 
 User name for the MID Server user. This name is specified in the **mid.instance.username** parameter of the configuration file that the MID Server installer creates. For details, see [MID Server parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/mid-server/mid-server-parameters.md).
 
- **Note:** Avoid using the same MID Server logged in user across multiple MID Servers.
+ **Note:** To improve security, avoid using the same MID Server logged in user across multiple MID Servers.
 
 </td></tr><tr><td>
 
@@ -81,7 +81,7 @@ Password
 
 </td><td>
 
-Password for the MID Server user. This password is specified in the **mid.instance.password** parameter of the configuration file that the MID Server installer creates.
+Password for the MID Server user. This password is specified in the **mid.instance.password** parameter of the configuration file \(config.xml\) in the agent folder of the MID Server installation directory.
 
 </td></tr></tbody>
 </table>4.  Right-click the header and select **Save**.

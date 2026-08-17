@@ -7,7 +7,7 @@ release: zurich
 product: Legacy Workflow
 classification: legacy-workflow
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-07-10"
 reading_time_minutes: 1
 breadcrumb: [Workflow pause utility, Workflow administration, Classic Workflow, Build workflows]
 ---
@@ -20,7 +20,7 @@ Pause individual workflow contexts. Specify the date and time of day at which th
 
 Install and activate the Workflow Pause Utility plugin.
 
-Role required: Workflow\_admin or workflow\_publisher, workflow\_creator
+Role required: snc\_required\_script\_writer\_permission and either workflow\_admin, workflow\_publisher, or workflow\_creator
 
 ## About this task
 

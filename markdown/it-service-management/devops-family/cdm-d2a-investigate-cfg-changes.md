@@ -1,5 +1,5 @@
 ---
-title: Investigate an alert that involves a change to config data
+title: Investigate config change alerts
 description: A high percentage of alerts occur due to errors in config data. If the chain of events that resulted in an alert includes a change request that involves the same CI as the alert, then you can use a variety of tools to isolate the config changes that might have caused the alert.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/devops-family/cdm-d2a-investigate-cfg-changes.html
@@ -12,7 +12,7 @@ reading_time_minutes: 6
 breadcrumb: [Using DevOps Config, DevOps Config, IT Service Management]
 ---
 
-# Investigate an alert that involves a change to config data
+# Investigate config change alerts
 
 A high percentage of alerts occur due to errors in config data. If the chain of events that resulted in an alert includes a change request that involves the same CI as the alert, then you can use a variety of tools to isolate the config changes that might have caused the alert.
 

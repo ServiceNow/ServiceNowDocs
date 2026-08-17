@@ -61,7 +61,7 @@ Number
 
 </td><td>
 
-Base number for the table. For more information, see Record numbering.
+Base number for the table. For more information, see [Record numbering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/c_ManagingRecordNumbering.md).
 
 </td></tr><tr><td>
 

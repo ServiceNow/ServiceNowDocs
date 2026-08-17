@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-virtualagent-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 9
 breadcrumb: [Products combined by family]
 ---
@@ -67,66 +67,66 @@ Yokohama
 
 </td><td>
 
--   **[Assistant Designer](https://servicenow-staging.fluidtopics.net/access?context=assistant-designer&family=yokohama&ft:locale=en-US)**
+-   **[Assistant Designer](https://www.servicenow.com/docs/access?context=assistant-designer&family=yokohama&ft:locale=en-US)**
 
 Create and manage LLM-based chat and voice assistants within Assistant Designer, a centralized assistant administrator experience. Assistant Designer is comprised of three main areas: Assistants, Asset library \(previously Virtual Agent Designer\), and Analytics.
 
--   **[Conversational settings](https://servicenow-staging.fluidtopics.net/access?context=asset-lib-conv-settings&family=yokohama&ft:locale=en-US)Conversational settings**
+-   **[Conversational settings](https://www.servicenow.com/docs/access?context=asset-lib-conv-settings&family=yokohama&ft:locale=en-US)Conversational settings**
 
 Manage the settings for an asset directly from the Asset library page.
 
 
--   **[Create a Virtual Agent topic](https://servicenow-staging.fluidtopics.net/access?context=create-virtual-agent-topic&family=yokohama&ft:locale=en-US)**
+-   **[Create a Virtual Agent topic](https://www.servicenow.com/docs/access?context=create-virtual-agent-topic&family=yokohama&ft:locale=en-US)**
 
 Start the create flow for all supported conversational LLM assets directly from Virtual Agent Designer.
 
--   **[Assistants in Virtual Agent Designer](https://servicenow-staging.fluidtopics.net/access?context=conversation-designer-virtual-agent&family=yokohama&ft:locale=en-US)**
+-   **[Assistants in Virtual Agent Designer](https://www.servicenow.com/docs/access?context=conversation-designer-virtual-agent&family=yokohama&ft:locale=en-US)**
 
 The Now Assist Panel - Platform \(default\) assistant is now available in Virtual Agent Designer.
 
--   **[AI Connector utility](https://servicenow-staging.fluidtopics.net/access?context=vad-ai-connector-utility&family=yokohama&ft:locale=en-US)**
+-   **[AI Connector utility](https://www.servicenow.com/docs/access?context=vad-ai-connector-utility&family=yokohama&ft:locale=en-US)**
 
-Select AI agents to handle tasks in the AI Connector utility. For more information on AI agents in Virtual Agent Designer, see [Managing AI agents](https://servicenow-staging.fluidtopics.net/access?context=managing-use-cases-ai-agents&family=yokohama&ft:locale=en-US) and [Using AI agents in Virtual Agent topics](https://servicenow-staging.fluidtopics.net/access?context=ai-agent-custom-skill&family=yokohama&ft:locale=en-US).
+Select AI agents to handle tasks in the AI Connector utility. For more information on AI agents in Virtual Agent Designer, see [Managing AI agents](https://www.servicenow.com/docs/access?context=managing-use-cases-ai-agents&family=yokohama&ft:locale=en-US) and [Using AI agents in Virtual Agent topics](https://www.servicenow.com/docs/access?context=ai-agent-custom-skill&family=yokohama&ft:locale=en-US).
 
--   **Virtual Agent Designer [Table bot response control](https://servicenow-staging.fluidtopics.net/access?context=table-bot-response&family=yokohama&ft:locale=en-US)**
+-   **Virtual Agent Designer [Table bot response control](https://www.servicenow.com/docs/access?context=table-bot-response&family=yokohama&ft:locale=en-US)**
 
 Slide the new **Show links for each record** toggle switch to activate links for each record in the output in your Virtual Agent conversation.
 
 -   **Virtual Agent server**
     -   In chatHandshake, set **dynamic\_step\_loader\_enabled** to `true` to send stacked Agentic AI messages to server. Set **dynamic\_step\_loader\_enabled** to `false` to avoid sending messages.
-    -   Pre-chat and post-chat surveys are now available for Anthropic Claude on AWS and Google Gemini LLMs. For more information on surveys, see [Chat surveys](https://servicenow-staging.fluidtopics.net/access?context=ci-conversational-chat-surveys&family=yokohama&ft:locale=en-US).
+    -   Pre-chat and post-chat surveys are now available for Anthropic Claude on AWS and Google Gemini LLMs. For more information on surveys, see [Chat surveys](https://www.servicenow.com/docs/access?context=ci-conversational-chat-surveys&family=yokohama&ft:locale=en-US).
 
--   **[AI Connector Utility](https://servicenow-staging.fluidtopics.net/access?context=vad-ai-connector-utility&family=yokohama&ft:locale=en-US)**
+-   **[AI Connector Utility](https://www.servicenow.com/docs/access?context=vad-ai-connector-utility&family=yokohama&ft:locale=en-US)**
 
 Link custom skills to generative AI to add their functionality to LLM conversations.
 
--   **[AI agents and agentic workflows in Virtual Agent Designer](https://servicenow-staging.fluidtopics.net/access?context=managing-use-cases-ai-agents&family=yokohama&ft:locale=en-US)**
+-   **[AI agents and agentic workflows in Virtual Agent Designer](https://www.servicenow.com/docs/access?context=managing-use-cases-ai-agents&family=yokohama&ft:locale=en-US)**
 
 View AI agents and agentic workflows created in AI Agent Studio in Virtual Agent Designer.
 
--   **[Shorten responses option for bot text response](https://servicenow-staging.fluidtopics.net/access?context=va-text-response&family=yokohama&ft:locale=en-US)**
+-   **[Shorten responses option for bot text response](https://www.servicenow.com/docs/access?context=va-text-response&family=yokohama&ft:locale=en-US)**
 
 For bot text responses, use the **Shorten responses** toggle in Virtual Agent Designer to turn on the **Show more** option in the chat on the user side.
 
 
--   **[Application scope for topics](https://servicenow-staging.fluidtopics.net/access?context=vad-topic-creation-form&family=yokohama&ft:locale=en-US)**
+-   **[Application scope for topics](https://www.servicenow.com/docs/access?context=vad-topic-creation-form&family=yokohama&ft:locale=en-US)**
 
 Select the application scope for topics in Virtual Agent Designer.
 
 
--   **[Synthesized response in Slack conversations](https://servicenow-staging.fluidtopics.net/access?context=slack-synthesized-response&family=yokohama&ft:locale=en-US)**
+-   **[Synthesized response in Slack conversations](https://www.servicenow.com/docs/access?context=slack-synthesized-response&family=yokohama&ft:locale=en-US)**
 
 Generate synthesized responses in Slack conversations with Now Assist.
 
--   **[Virtual Agent feature support in Microsoft Teams conversations](https://servicenow-staging.fluidtopics.net/access?context=va-teams-other-features&family=yokohama&ft:locale=en-US)**
+-   **[Virtual Agent feature support in Microsoft Teams conversations](https://www.servicenow.com/docs/access?context=va-teams-other-features&family=yokohama&ft:locale=en-US)**
 
-Generate synthesized responses in Slack conversations with Now Assist.
+Generate synthesized responses in Microsoft Teams conversations with Now Assist.
 
--   **[Custom skills in Virtual Agent Designer](https://servicenow-staging.fluidtopics.net/access?context=managing-custom-skills&family=yokohama&ft:locale=en-US)**
+-   **[Custom skills in Virtual Agent Designer](https://www.servicenow.com/docs/access?context=managing-custom-skills&family=yokohama&ft:locale=en-US)**
 
-View skills created in Now Assist Skill Kit in Virtual Agent Designer.
+View skills created in AI Skill Kit in Virtual Agent Designer.
 
--   **[Chat surveys](https://servicenow-staging.fluidtopics.net/access?context=ci-conversational-chat-surveys&family=yokohama&ft:locale=en-US)**
+-   **[Chat surveys](https://www.servicenow.com/docs/access?context=ci-conversational-chat-surveys&family=yokohama&ft:locale=en-US)**
 
 Create chat surveys compatible with LLM-enabled user inputs, aside from the Carousel user input.
 
@@ -137,35 +137,35 @@ Zurich
 
 </td><td>
 
--   **[Assistant Designer](https://servicenow-staging.fluidtopics.net/access?context=assistant-designer&family=zurich&ft:locale=en-US)**
+-   **[Assistant Designer](https://www.servicenow.com/docs/access?context=assistant-designer&family=zurich&ft:locale=en-US)**
 
 Create and manage LLM-based chat and voice assistants within Assistant Designer, a centralized assistant administrator experience. Assistant Designer is comprised of three main areas: Assistants, Asset library \(previously Virtual Agent Designer\), and Analytics.
 
--   **[Conversational settings](https://servicenow-staging.fluidtopics.net/access?context=asset-lib-conv-settings&family=zurich&ft:locale=en-US)Conversational settings**
+-   **[Conversational settings](https://www.servicenow.com/docs/access?context=asset-lib-conv-settings&family=zurich&ft:locale=en-US)Conversational settings**
 
 Manage the settings for an asset directly from the Asset library page.
 
 
--   **[Integrating with Google Workspace](https://servicenow-staging.fluidtopics.net/access?context=integrate-with-gsuite&family=zurich&ft:locale=en-US)**
+-   **[Integrating with Google Workspace](https://www.servicenow.com/docs/access?context=integrate-with-gsuite&family=zurich&ft:locale=en-US)**
 
 Integrate Google Workspace chat with the ServiceNow® conversational interface features, including Virtual Agent, Natural Language Understanding \(NLU\), Notifications, and live agents.
 
--   **[AI Connector utility](https://servicenow-staging.fluidtopics.net/access?context=vad-ai-connector-utility&family=zurich&ft:locale=en-US)**
+-   **[AI Connector utility](https://www.servicenow.com/docs/access?context=vad-ai-connector-utility&family=zurich&ft:locale=en-US)**
 
-Select AI agents to handle tasks in the AI Connector utility. For more information on AI agents in Virtual Agent Designer, see [Managing AI agents](https://servicenow-staging.fluidtopics.net/access?context=managing-use-cases-ai-agents&family=zurich&ft:locale=en-US) and [Using AI agents in Virtual Agent topics](https://servicenow-staging.fluidtopics.net/access?context=ai-agent-custom-skill&family=zurich&ft:locale=en-US).
+Select AI agents to handle tasks in the AI Connector utility. For more information on AI agents in Virtual Agent Designer, see [Managing AI agents](https://www.servicenow.com/docs/access?context=managing-use-cases-ai-agents&family=zurich&ft:locale=en-US) and [Using AI agents in Virtual Agent topics](https://www.servicenow.com/docs/access?context=ai-agent-custom-skill&family=zurich&ft:locale=en-US).
 
--   **[Virtual Agent](https://servicenow-staging.fluidtopics.net/access?context=virtual-agent-landing-page&family=zurich&ft:locale=en-US) server**
+-   **[Virtual Agent](https://www.servicenow.com/docs/access?context=virtual-agent-landing-page&family=zurich&ft:locale=en-US) server**
     -   In chatHandshake, set **dynamic\_step\_loader\_enabled** to `true` to send stacked agentic AI messages to the server. Set **dynamic\_step\_loader\_enabled** to `false` to avoid sending messages.
-    -   Pre-chat and post-chat surveys are now available for Anthropic Claude on AWS and Google Gemini large language models \(LLMs\). For more information on surveys, see [Chat surveys](https://servicenow-staging.fluidtopics.net/access?context=ci-conversational-chat-surveys&family=zurich&ft:locale=en-US).
--   **[Create a Virtual Agent topic](https://servicenow-staging.fluidtopics.net/access?context=create-virtual-agent-topic&family=zurich&ft:locale=en-US)**
+    -   Pre-chat and post-chat surveys are now available for Anthropic Claude on AWS and Google Gemini large language models \(LLMs\). For more information on surveys, see [Chat surveys](https://www.servicenow.com/docs/access?context=ci-conversational-chat-surveys&family=zurich&ft:locale=en-US).
+-   **[Create a Virtual Agent asset](https://www.servicenow.com/docs/access?context=create-virtual-agent-topic&family=zurich&ft:locale=en-US)**
 
 Start the create flow for all supported conversational LLM assets directly from Virtual Agent Designer.
 
--   **[Assistants in Virtual Agent Designer](https://servicenow-staging.fluidtopics.net/access?context=conversation-designer-virtual-agent&family=zurich&ft:locale=en-US)**
+-   **[Assistants in Virtual Agent Designer](https://www.servicenow.com/docs/access?context=conversation-designer-virtual-agent&family=zurich&ft:locale=en-US)**
 
 The Now Assist Panel - Platform \(default\) assistant is now available in Virtual Agent Designer.
 
--   **[Integrating Now Assist in Virtual Agent with Microsoft Copilot](https://servicenow-staging.fluidtopics.net/access?context=ms-copilot-na-va&family=zurich&ft:locale=en-US)**
+-   **[Integrating ServiceNow Otto for Virtual Agent with Microsoft Copilot](https://www.servicenow.com/docs/access?context=ms-copilot-na-va&family=zurich&ft:locale=en-US)**
 
 Custom Engine Agent \(CEA\) is replacing the legacy Microsoft bot framework, allowing Microsoft Copilot to discover Virtual Agent, Now Assist, and use multi-turn conversations.
 
@@ -189,16 +189,16 @@ Yokohama
 
 </td><td>
 
--   **[Test assistant options](https://servicenow-staging.fluidtopics.net/access?context=test-llm-topics&family=yokohama&ft:locale=en-US)**
+-   **[Test assistant options](https://www.servicenow.com/docs/access?context=test-llm-topics&family=yokohama&ft:locale=en-US)**
 
 The **Test** button in the Virtual Agent Designer canvas directly opens up the chat widget.
 
 
--   **[Dynamic Translation calls](https://servicenow-staging.fluidtopics.net/access?context=translation-for-now-assist&family=yokohama&ft:locale=en-US)**
+-   **[Dynamic Translation calls](https://www.servicenow.com/docs/access?context=translation-for-now-assist&family=yokohama&ft:locale=en-US)**
 
 For Now Assist, if native translation is enabled, a Dynamic Translation call is only made if an unsupported language for native translation is used.
 
--   **[Table bot response control](https://servicenow-staging.fluidtopics.net/access?context=table-bot-response&family=yokohama&ft:locale=en-US)**
+-   **[Table bot response control](https://www.servicenow.com/docs/access?context=table-bot-response&family=yokohama&ft:locale=en-US)**
 
 Use the new **Show links for each record** toggle switch to activate links for each record in the output in your Virtual Agent conversation.
 
@@ -209,11 +209,16 @@ Zurich
 
 </td><td>
 
--   **[Table bot response control](https://servicenow-staging.fluidtopics.net/access?context=table-bot-response&family=zurich&ft:locale=en-US)**
+-   **[Now Assist &gt; ServiceNow Otto® announcement](https://www.servicenow.com/docs/access?context=sn-ai-implementation-landing&family=zurich&ft:locale=en-US)**
+
+Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+
+
+-   **[Table bot response control](https://www.servicenow.com/docs/access?context=table-bot-response&family=zurich&ft:locale=en-US)**
 
 Use the new **Show links for each record** toggle switch to activate links for each record in the output in your Virtual Agent conversation.
 
--   **[Test assistant options](https://servicenow-staging.fluidtopics.net/access?context=test-llm-topics&family=zurich&ft:locale=en-US)**
+-   **[Test assistant options](https://www.servicenow.com/docs/access?context=test-llm-topics&family=zurich&ft:locale=en-US)**
 
 The **Test** button in the Virtual Agent Designer canvas directly opens up the chat widget.
 
@@ -274,9 +279,9 @@ Zurich
 
 </td><td>
 
--   Starting with the Zurich release, [Sensitive Data Handler](https://servicenow-staging.fluidtopics.net/access?context=ac-sensitive-data-overview&family=zurich&ft:locale=en-US) and the [Sensitive Data Masking capability](https://servicenow-staging.fluidtopics.net/access?context=va-sensitive-data-masking&family=zurich&ft:locale=en-US) are being prepared for future deprecation. They will be hidden and no longer available for installation but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base.
+-   Starting with the Zurich release, [Sensitive Data Handler](https://www.servicenow.com/docs/access?context=ac-sensitive-data-overview&family=zurich&ft:locale=en-US) and Sensitive Data Masking capability are being prepared for future deprecation. They will be hidden and no longer available for installation but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base.
 
-Install the Data Privacy application as a replacement. For more information, see [Data Privacy](https://servicenow-staging.fluidtopics.net/access?context=data-privacy-landing&family=zurich&ft:locale=en-US).
+Install the Data Privacy application as a replacement. For more information, see [Data Privacy](https://www.servicenow.com/docs/access?context=data-privacy-landing&family=zurich&ft:locale=en-US).
 
 -   Starting with the Zurich release, Microsoft LUIS is no longer deployed, enhanced, or supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base.
 
@@ -300,7 +305,7 @@ Yokohama
 
 </td><td>
 
-Virtual Agent is a ServiceNow AI Platform feature that is available with activation of the Glide Virtual Agent plugin \(com.glide.cs.chatbot\), which requires a separate subscription. For details, see [Activate Virtual Agent](https://servicenow-staging.fluidtopics.net/access?context=activate-virtual-agent&family=yokohama&ft:locale=en-US).
+Virtual Agent is a ServiceNow AI Platform feature that is available with activation of the Glide Virtual Agent plugin \(com.glide.cs.chatbot\), which requires a separate subscription. For details, see [Activate Virtual Agent](https://www.servicenow.com/docs/access?context=activate-virtual-agent&family=yokohama&ft:locale=en-US).
 
 **Note:** The Glide Virtual Agent plugin initially installs the Topic Recommendations and Conversational Analytics applications. Subsequent updates to these apps must be installed from the ServiceNow Store.
 
@@ -362,7 +367,7 @@ Yokohama
 
 </td><td>
 
-Virtual Agent supports various browsers, including Google Chrome and Microsoft Edge. For more information, see [Browser support](https://servicenow-staging.fluidtopics.net/access?context=browser-support&family=yokohama&ft:locale=en-US).
+Virtual Agent supports various browsers, including Google Chrome and Microsoft Edge. For more information, see [Browser support](https://www.servicenow.com/docs/access?context=browser-support&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -452,34 +457,34 @@ Yokohama
 
 </td><td>
 
-[Yokohama Patch 7](https://servicenow-staging.fluidtopics.net/access?context=yokohama-patch-11&family=yokohama&ft:locale=en-US)
+[Yokohama Patch 7](https://www.servicenow.com/docs/access?context=yokohama-patch-11&family=yokohama&ft:locale=en-US)
 
 -   Create and manage LLM-based chat and voice assistants within Assistant Designer, a centralized assistant administrator experience.
 
- [Yokohama Patch 6](https://servicenow-staging.fluidtopics.net/access?context=yokohama-patch-6&family=yokohama&ft:locale=en-US)
+ [Yokohama Patch 6](https://www.servicenow.com/docs/access?context=yokohama-patch-6&family=yokohama&ft:locale=en-US)
 
 -   Start the create flow for all supported conversational assets directly from Virtual Agent Designer.
 -   Enhance the user experience with Slack response message streaming capability.
 
- [Yokohama Patch 3](https://servicenow-staging.fluidtopics.net/access?context=yokohama-patch-3&family=yokohama&ft:locale=en-US)
+ [Yokohama Patch 3](https://www.servicenow.com/docs/access?context=yokohama-patch-3&family=yokohama&ft:locale=en-US)
 
 -   View people information in the synthesized response along with people citation when you search a person in Microsoft Teams chat.
 -   AI agent support for Virtual Agent.
 -   View AI agents and agentic workflows in Virtual Agent Designer.
--   Select AI agents to handle tasks in the AI Connector utility. See [AI Connector utility](https://servicenow-staging.fluidtopics.net/access?context=vad-ai-connector-utility&family=yokohama&ft:locale=en-US), [Managing AI agents](https://servicenow-staging.fluidtopics.net/access?context=managing-use-cases-ai-agents&family=yokohama&ft:locale=en-US), and [Using AI agents in Virtual Agent topics](https://servicenow-staging.fluidtopics.net/access?context=ai-agent-custom-skill&family=yokohama&ft:locale=en-US) for more information.
+-   Select AI agents to handle tasks in the AI Connector utility. See [AI Connector utility](https://www.servicenow.com/docs/access?context=vad-ai-connector-utility&family=yokohama&ft:locale=en-US), [Managing AI agents](https://www.servicenow.com/docs/access?context=managing-use-cases-ai-agents&family=yokohama&ft:locale=en-US), and [Using AI agents in Virtual Agent topics](https://www.servicenow.com/docs/access?context=ai-agent-custom-skill&family=yokohama&ft:locale=en-US) for more information.
 
- [Yokohama Patch 1](https://servicenow-staging.fluidtopics.net/access?context=yokohama-patch-1&family=yokohama&ft:locale=en-US)
+ [Yokohama Patch 1](https://www.servicenow.com/docs/access?context=yokohama-patch-1&family=yokohama&ft:locale=en-US)
 
 -   Enhance the user experience with Microsoft Teams response message streaming capability.
 
- [Yokohama Early Availability](https://servicenow-staging.fluidtopics.net/access?context=yokohama-security-notables&family=yokohama&ft:locale=en-US)
+ [Yokohama Early Availability](https://www.servicenow.com/docs/access?context=yokohama-security-notables&family=yokohama&ft:locale=en-US)
 
 -   Enhance the overall voice-based chat experience in Conversational IVR with Now Assist.
 -   Generate synthesized responses in Slack conversations with Now Assist.
 -   Generate synthesized responses in Microsoft Teams conversations with Now Assist.
 -   View custom skills in Virtual Agent Designer.
 
- See [Virtual Agent](https://servicenow-staging.fluidtopics.net/access?context=virtual-agent-landing-page&family=yokohama&ft:locale=en-US) for more information.
+ See [Virtual Agent](https://www.servicenow.com/docs/access?context=virtual-agent-landing-page&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -487,22 +492,26 @@ Zurich
 
 </td><td>
 
-[Zurich Patch 4](https://servicenow-staging.fluidtopics.net/access?context=zurich-patch-4&family=zurich&ft:locale=en-US)
+[Zurich Patch 12](https://www.servicenow.com/docs/access?context=zurich-patch-12&family=zurich&ft:locale=en-US)
+
+-   ServiceNow Otto is the new AI experience brand. This change is reflected in the name of ServiceNow products, including ServiceNow Otto for Virtual Agent and ServiceNow Otto panel. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
+
+ [Zurich Patch 4](https://www.servicenow.com/docs/access?context=zurich-patch-4&family=zurich&ft:locale=en-US)
 
 -   Create and manage LLM-based chat and voice assistants within Assistant Designer, a centralized assistant administrator experience.
--   [Virtual Agent Designer home pageAssistant Designer Asset library](https://servicenow-staging.fluidtopics.net/access?context=vad-topics-page&family=zurich&ft:locale=en-US):
+-   [Assistant Designer Asset library](https://www.servicenow.com/docs/access?context=vad-topics-page&family=zurich&ft:locale=en-US):
     -   View an updated UI for Virtual Agent Designer topics in the new Assistant Designer Asset library page.
     -   Navigate between Assistants, Asset library, and Analytics tabs in the Assistant Designer UI.
     -   Disconnect an LLM Assistant from a given asset with the Actions on Row icon \[Omitted image "image.kebab-menu"\] Alt text:in the Asset library.
     -   See descriptions of each LLM asset type when selecting **Create asset** in the Asset library.
     -   Read a tooltip that appears when you edit an LLM assistant under the Assistans tab and try to promote more than 6 topics associated with an LLM assistant.
 
- [Zurich Patch 1](https://servicenow-staging.fluidtopics.net/access?context=zurich-patch-1&family=zurich&ft:locale=en-US)
+ [Zurich Patch 1](https://www.servicenow.com/docs/access?context=zurich-patch-1&family=zurich&ft:locale=en-US)
 
 -   Google Workspace chat now works with the ServiceNow® conversational interface features, including Virtual Agent, Natural Language Understanding \(NLU\), Notifications, and live agents.
 -   Start the create flow for all supported conversational assets directly from Virtual Agent Designer.
 
- See [Virtual Agent](https://servicenow-staging.fluidtopics.net/access?context=virtual-agent-landing-page&family=zurich&ft:locale=en-US) for more information.
+ See [Virtual Agent](https://www.servicenow.com/docs/access?context=virtual-agent-landing-page&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

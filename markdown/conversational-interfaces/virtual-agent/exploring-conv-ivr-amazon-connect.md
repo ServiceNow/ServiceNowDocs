@@ -7,7 +7,7 @@ release: zurich
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-07-24"
 reading_time_minutes: 1
 breadcrumb: [Conversational IVR with Amazon Connect, Integrating Virtual Agent with Voice channels, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
 ---
@@ -24,7 +24,7 @@ Use this application to build an integration with Amazon Connect. This allows yo
 
 To get started, see [Install Conversational IVR with Amazon Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/install-va-ivr.md).
 
-## Unsupported Virtual Agent Designer controls
+## Unsupported Assistant Designer Asset library controls
 
 Within the Virtual Agent topic flow, there are a few controls that are not supported for Conversational IVR.
 

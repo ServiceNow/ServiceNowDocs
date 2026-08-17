@@ -1,5 +1,5 @@
 ---
-title: Generate recommended actions for a security incident with Now Assist for Security Incident Response
+title: Generate recommended actions
 description: Automatically generate the next steps your analysts can take to help them close a security incident in the Security Incident Response Workspace. The recommended steps are based on existing security incidents and knowledge articles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/now-assist-for-security-incident-response-sir/generate-recommended-actions-now-assist-for-security.html
@@ -9,10 +9,10 @@ classification: now-assist-for-security-incident-response-sir
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Use generative AI skills, Now Assist for Security Incident Response, Security Operations]
+breadcrumb: [Use generative AI skills, ServiceNow Otto for Security Incident Response \(SIR\), Security Operations]
 ---
 
-# Generate recommended actions for a security incident with Now Assist for Security Incident Response
+# Generate recommended actions
 
 Automatically generate the next steps your analysts can take to help them close a security incident in the Security Incident Response Workspace. The recommended steps are based on existing security incidents and knowledge articles.
 
@@ -26,7 +26,7 @@ Roles required: sn\_si.analyst, sn\_si.manager, or sn\_si.basic
 
 ## About this task
 
-**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 ## Procedure
 
@@ -60,7 +60,7 @@ Roles required: sn\_si.analyst, sn\_si.manager, or sn\_si.basic
     -   You leave the page, log out, log back in, and return within one hour to the security incident.
     You must regenerate the actions starting with step 3 to view the them after one hour.
 
-7.  Click on the **Helpful** or **Not helpful** icons to share your feedback on the recommendations.
+7.  Select the **Helpful** or **Not helpful** icons to share your feedback on the recommendations.
 
     **Note:** If you mark a recommendation as **Not Helpful**, then you’ll have the option to add detailed feedback which helps in improving the quality of future recommendations.
 
@@ -74,7 +74,7 @@ Roles required: sn\_si.analyst, sn\_si.manager, or sn\_si.basic
 
 10. Create a response task from the recommended actions.
 
-    By default, the workflow provides you with the option to save the recommended actions to work notes from the cards. If you want to have the option to create a response task from an action card instead of saving them to work notes, you must change the Value field for the **SecOps Recommended Action** \[sn\_sec\_ra.card\_action\_config\] system property.
+    By default, the workflow provides you with the option to save the recommended actions to work notes from the cards. For the option to create a response task from an action card instead of saving them to work notes, change the Value field for the **SecOps Recommended Action** \[sn\_sec\_ra.card\_action\_config\] system property.
 
     1.  As a user with the Security Incident Manager role \[sn\_si.manager\], navigate to sys\_properties.LIST.
 

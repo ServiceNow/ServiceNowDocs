@@ -125,7 +125,7 @@ While key contributor events are also based on KPI Signals, they do not require 
 **Related topics**  
 
 
-[Create a flow with a Proactive Analytics trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/create-flow-proactive-analytics.md)
+[bundle-crworkflow.create-flow-proactive-analytics]
 
 [Indicator targets and thresholds in KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/kpi-details-targets.md)
 

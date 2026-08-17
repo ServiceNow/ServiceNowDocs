@@ -1,6 +1,6 @@
 ---
-title: Skill inputs and triggers for Now Assist for IT Service Management \(ITSM\)
-description: Get a quick overview of the skill inputs and triggers for Now Assist for IT Service Management \(ITSM\). By configuring the inputs or triggers for a skill, you can determine how and when a skill is used.
+title: Skill inputs and triggers for ServiceNow Otto for IT Service Management \(ITSM\)
+description: Get a quick overview of the skill inputs and triggers for ServiceNow Otto for IT Service Management \(ITSM\). By configuring the inputs or triggers for a skill, you can determine how and when a skill is used.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-skills.html
 release: zurich
@@ -10,18 +10,18 @@ topic_type: reference
 last_updated: "2026-03-04"
 reading_time_minutes: 14
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configure, Now Assist for IT Service Management \(ITSM\), IT Service Management]
+breadcrumb: [Configure, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 
-# Skill inputs and triggers for Now Assist for IT Service Management \(ITSM\)
+# Skill inputs and triggers for ServiceNow Otto for IT Service Management \(ITSM\)
 
-Get a quick overview of the skill inputs and triggers for Now Assist for IT Service Management \(ITSM\). By configuring the inputs or triggers for a skill, you can determine how and when a skill is used.
+Get a quick overview of the skill inputs and triggers for ServiceNow Otto for IT Service Management \(ITSM\). By configuring the inputs or triggers for a skill, you can determine how and when a skill is used.
 
-## Now Assist for IT Service Management \(ITSM\) overview
+## ServiceNow Otto for IT Service Management \(ITSM\) overview
 
 Depending on the selected skill, you can configure the inputs or triggers. These settings determine how and when a skill is used. An input identifies the data that is used for a skill, such as the table and fields that are used to generate an incident summary. A trigger initiates an action, such as when the system generates a chat summary.
 
-You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all generative AI skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/exploring-large-language-models.md).
+You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all generative AI skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/exploring-large-language-models.md).
 
 ## Incident sentiment analysis skill
 
@@ -216,7 +216,7 @@ Collaboration chat \[sys\_cs\_collab\_message\]
 
 </td><td>
 
-Payload**Note:** You must manually select the Collaboration chat table as an input data so that this field is used an input for the prompt. For information on choosing input data, see [Customize a Now Assist for IT Service Management \(ITSM\) skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/now-assist-for-it-service-management-itsm/cust-now-assist-itsm-skill.md).
+Payload**Note:** You must manually select the Collaboration chat table as an input data so that this field is used an input for the prompt. For information on choosing input data, see [Customize a ServiceNow Otto for IT Service Management \(ITSM\) skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/now-assist-for-it-service-management-itsm/cust-now-assist-itsm-skill.md).
 
 </td></tr></tbody>
 </table>## Chat summarization skill
@@ -835,7 +835,7 @@ Input fields
 </td></tr></tbody>
 </table>## Change risk assessment answer generator skill
 
-The change risk assessment answer generator skill includes the triggers and inputs that identify when and how a suggested answer is generated for a change risk assessment question. For more information, see [Generate change risk assessment answers by using Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/now-assist-for-it-service-management-itsm/generate-change-risk-assessment-answers-now-assist.md).
+The change risk assessment answer generator skill includes the triggers and inputs that identify when and how a suggested answer is generated for a change risk assessment question. For more information, see [Generate change risk assessment answers by using ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/now-assist-for-it-service-management-itsm/generate-change-risk-assessment-answers-now-assist.md).
 
 You can customize this skill's input data sources and the change request fields it reads. For more information, see [Customize the change risk assessment answer generator skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/now-assist-for-it-service-management-itsm/cust-now-assist-itsm-change-risk-assessment-skill.md).
 
@@ -843,7 +843,7 @@ The following table lists the triggers for the change risk assessment answer gen
 
 |Trigger|Description|
 |-------|-----------|
-|Generate Answers|Selected in the **Generate Risk Assessment Using Now Assist** dialog. Open the dialog by selecting **Risk Assessment** under **Related Links** in Core UI, or by selecting **Assess Risk** in the **Risk Evaluation** section in Service Operations Workspace for ITSM \(version 9.2 or later\).|
+|Generate Answers|Selected in the **Generate Risk Assessment Using Otto** dialog. Open the dialog by selecting **Risk Assessment** under **Related Links** in Core UI, or by selecting **Assess Risk** in the **Risk Evaluation** section in Service Operations Workspace for ITSM \(version 9.2 or later\).|
 
 The following table lists the inputs for the change risk assessment answer generator skill.
 

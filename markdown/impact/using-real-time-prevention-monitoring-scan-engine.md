@@ -21,7 +21,7 @@ How it works:
 -   **Guided Resolution:** Provides details, such as line numbers, impact levels, and steps to resolve found issues.
 -   **Governance:** Supports exception workflows and links to supporting documentation for compliance.
 
-**Note:** Real-Time Prevention must be enabled in the Scan Engine properties page for this feature to function. For more information, refer to [Configure Scan Engine properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/configure-scan-engine-properties.md).
+**Note:** Real-Time Prevention must be enabled in the Scan Engine properties page for this feature to function. For more information, refer to [Configure Scan Engine parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/configure-scan-engine-properties.md).
 
 Findings identified by real-time monitoring can have the following levels.
 

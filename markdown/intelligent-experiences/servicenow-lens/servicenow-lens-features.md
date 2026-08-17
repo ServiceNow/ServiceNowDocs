@@ -7,7 +7,7 @@ release: zurich
 product: ServiceNow Lens
 classification: servicenow-lens
 topic_type: concept
-last_updated: "2025-08-21"
+last_updated: "2026-03-12"
 reading_time_minutes: 6
 breadcrumb: [Explore, ServiceNow AI Lens, Enable AI experiences]
 ---
@@ -20,7 +20,7 @@ ServiceNow AI Lens offers the following features:
 
 -   **Capture data**
 
-    Scan and get actionable insights from visual data such as images, scanned handwritten notes, Excel sheets, web pages, or any document that gives visual data.
+    Scan and get actionable insights from visual data such as images, scanned handwritten notes, Excel sheets, web pages, or any document that provides visual data.
 
     For example, ServiceNow AI Lens can scan an email and auto-fill the fields on the Incident form.
 
@@ -28,21 +28,23 @@ ServiceNow AI Lens offers the following features:
 
 -   **Use ServiceNow AI Lens from your browser or the desktop application**
 
-    Get started with ServiceNow AI Lens directly from your browser — no downloading or installation required. Capture your screen and let ServiceNow AI Lens analyze the contents and auto-fill your form fields. For the full range of capabilities, open the ServiceNow AI Lens desktop application if it is already installed, or download and install it.
+    Get started with ServiceNow AI Lens directly from your browser — no downloading or installation required. Capture your screen or upload one or more files, and let ServiceNow AI Lens analyze the contents and auto-fill your form fields. For the full range of capabilities, open the ServiceNow AI Lens desktop application if it is already installed, or download and install it.
 
     \[Omitted image "lens-feature-lite.png"\] Alt text: Capture browser contents
+
+    \[Omitted image "lens-browser-upload-file-window.png"\] Alt text: Upload files using a browser.
 
 -   **Upload files**
 
     Get actionable insights from the files that you upload. You can upload files by adding or dragging and dropping.
 
-    For example, upload the copies of all the expense bills of all your business trips in the last six months, and instruct to organize all the expense amounts under their respective headings such as food, airfare, cab, and laundry, and show you the preview.
+    For example, upload copies of all expense bills from your business trips in the last six months. Instruct ServiceNow AI Lens to organize the expense amounts under their respective headings such as food, airfare, cab, and laundry.
 
     \[Omitted image "lens-feature-upload-files.png"\] Alt text: File upload window
 
 -   **Provide instructions to analyze data in a specific way**
 
-    Provide instructions to analyze the data in the screenshots or files in a way that you want after selecting the Edit \(\[Omitted image "lens-instructions-icon.png"\] Alt text: Edit icon\) icon and enter additional instructions. For example, you can capture screenshots or upload copies of all the expense bills of all your business trips in the last six months and provide instructions to arrange the expense bill amounts date-wise and expense head-wise.
+    Provide instructions to analyze the data in the screenshots or files after selecting the Edit \(\[Omitted image "lens-instructions-icon.png"\] Alt text: Edit icon\) icon and entering additional instructions. For example, you can capture screenshots or upload copies of expense bills from your business trips in the last six months. Provide instructions to arrange the expense bill amounts by date and expense category.
 
     \[Omitted image "lens-scanner-additional-instructions.png"\] Alt text: Field to provide additional instructions.
 
@@ -56,7 +58,7 @@ ServiceNow AI Lens offers the following features:
 
     \[Omitted image "lens-scanner-multiple-scrnshts-capturd.png"\] Alt text: Icon showing the number of screenshots captured
 
-    \[Omitted image "lens-scanner-analyze-multiple-scrns.png"\] Alt text: Preview window showing consolidated bills
+    \[Omitted image "lens-scanner-analyze-multiple-scrns.png"\] Alt text: Preview window showing consolidated summary.
 
 -   **Launch from ServiceNow instance**
 
@@ -68,9 +70,9 @@ ServiceNow AI Lens offers the following features:
 
 -   **Use Lens actions to customize Lens behavior**
 
-    You can use Lens actions that define Lens behavior depending on how ServiceNow AI Lens is triggered and what context is set. You can define default instructions, trigger options, custom context, transform response logic, and post processing instructions for the Lens execution. With Lens actions, you can customize how a classic form auto-filled using ServiceNow AI Lens or what data must be extracted for preview and post process the LLM response. For more information, see [Customize ServiceNow AI Lens behavior by creating a Lens action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-lens/servicenow-lens-actions.md).
+    You can use Lens actions that define Lens behavior depending on how ServiceNow AI Lens is triggered and what context is set. You can define default instructions, trigger options, custom context, transform response logic, and post processing instructions for the Lens execution. With Lens actions, you can customize how a classic form is auto-filled using ServiceNow AI Lens or what data must be extracted for preview and post process the LLM response. For more information, see [Customize ServiceNow AI Lens behavior by creating a Lens action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-lens/servicenow-lens-actions.md).
 
-    For example, you can define a Lens action that is used when Lens is triggered from an instance to populate a form of a particular table. You can also define form fields that must be populated.
+    For example, you can define a Lens action that is used when Lens is triggered from an instance to populate a form of a particular table. You can also define which form fields must be populated.
 
     \[Omitted image "lens-action-overview.png"\] Alt text: Home screen showing Lens actions
 

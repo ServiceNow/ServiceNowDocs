@@ -38,7 +38,7 @@ Role required: admin
 
 3.  [Complete the prerequisites for converting teams to groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/steps-prior-conversion.md).
 
-    Since migration is performed on a non-production instance first, convert one team to a group, verify if the migration is done successfully for the team, and then perform the same procedure for rest of the teams.
+    Since migration is performed on a non-production instance first, convert one team to a group, verify if the migration is done successfully for the team. Then, perform the same procedure for the rest of the teams.
 
     In the preceding example, all the four records for the Facilities Software Team can be selected at once. Consider the Facilities Software Team team as a sample team.
 

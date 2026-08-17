@@ -34,15 +34,15 @@ In the **Shifts** tab, the shifts are grouped by active and inactive shifts. The
 
 5.  Create a shift.
 
-<table id="choicetable_ynn_t3g_v4b"><thead><tr><th align="left" id="d200832e111">
+<table id="choicetable_ynn_t3g_v4b"><thead><tr><th align="left" id="d200501e111">
 
 To
 
-</th><th align="left" id="d200832e114">
+</th><th align="left" id="d200501e114">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d200832e120">
+</th></tr></thead><tbody><tr><td id="d200501e120">
 
 **Create a work shift**
 
@@ -75,7 +75,7 @@ For example, you can set the earliest start time as 11:00, the latest end time a
         4.  Select **Save**.
 You can view the number of agents for each hour or day on the shift span window.
 
-</td></tr><tr><td id="d200832e238">
+</td></tr><tr><td id="d200501e238">
 
 **Create an on-call shift**
 

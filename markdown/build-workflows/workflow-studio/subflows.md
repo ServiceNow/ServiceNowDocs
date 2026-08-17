@@ -191,7 +191,7 @@ Reasons to use a subflow instead of a flow include:
     -   To configure parallel subflows, launch each subflow without a wait and then use wait for condition to wait for each subflow to be terminal \(complete, error, canceled\)
 -   **Use dynamic flows if you have multiple subflows with similar functionality**
 
-    Dynamic flows let you compartmentalize your processes by applying a template to handle the inputs of multiple similar subflows. Compartmentalization lets you distinguish between subflows that perform similar functions, such as subflows for [IntegrationHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integrationhub.md) spokes.
+    Dynamic flows let you compartmentalize your processes by applying a template to handle the inputs of multiple similar subflows. Compartmentalization lets you distinguish between subflows that perform similar functions, such as subflows for IntegrationHub spokes.
 
 -   **Avoid the 10-item limit in the error-handling-process**
 
@@ -225,7 +225,7 @@ Create a sample flow that dynamically calls subflows for provisioning cloud serv
 -   **[Publish a subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/publish-subflow.md)**  
 Publish a subflow to make it available to other users and to add it to activated flows.
 -   **[Summarize a subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/summarize-a-subflow.md)**  
-Generate a summary of a subflow with Now Assist for Creator.
+Generate a summary of a subflow with ServiceNow Otto for Creator.
 -   **[Subflow history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/subflow-history.md)**  
 View and manage the history of a subflow. See past configurations of a subflow to copy, restore, or remove them.
 -   **[Test a subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/test-subflow.md)**  

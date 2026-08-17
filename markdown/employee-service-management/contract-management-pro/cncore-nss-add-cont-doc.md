@@ -7,7 +7,7 @@ release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Use non-self-served contract request, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
@@ -23,7 +23,7 @@ Role required: sn\_cm\_core.contract\_user
 ## About this task
 
 -   The non self served contract request supports the upload of contract and supporting documents. Only the contract documents are sent for signature.
--   You can attach multiple documents, one document at a time.
+-   You can attach multiple documents, but one document at a time.
 -   You can attach contract documents when the contract request is in Draft state.
 
 ## Procedure
@@ -32,7 +32,7 @@ Role required: sn\_cm\_core.contract\_user
 
 2.  Select a contract request.
 
-3.  In the Contract Document tab, select **Attach Document**.
+3.  In the Contract Document tab, select **Attach document**.
 
 4.  In the Select contract type drop-down, select the type of contract.
 

@@ -4,7 +4,7 @@ description: The ServiceNow Developer Sandboxes application enables your adminis
 locale: en-US
 release: zurich
 topic_type: reference
-last_updated: "2025-12-08"
+last_updated: "2026-07-20"
 reading_time_minutes: 3
 ---
 
@@ -14,6 +14,7 @@ The ServiceNow® Developer Sandboxes application enables your administrators and
 
 ## Developer Sandboxes highlights for the Zurich release
 
+-   Support for Build Agent in sandboxes.
 -   Enable your administrators and delegated developers to request, access, and manage the isolated development environments on top of the same underlying development instance.
 -   Provide developer isolation and parallelism for customer development environments and instances.
 -   View the total, available, and allocated sandboxes in your instance by using the Sandbox Management home dashboard. The dashboard also displays information about each sandbox, including the status, data utilization, owner, when it was last accessed, and when the sandbox was allocated.
@@ -67,7 +68,7 @@ Data generation profiles and templates will no longer available in Developer San
 -   All references to data generation will be removed from sandbox templates.
 -   Sandbox initialization will operate independently of data generation logic.
 
-**Note:** You can use the Now Assist Data Kit instead of data generation profiles.
+**Note:** You can use the AI Data Kit instead of data generation profiles.
 
 ## Activation information
 

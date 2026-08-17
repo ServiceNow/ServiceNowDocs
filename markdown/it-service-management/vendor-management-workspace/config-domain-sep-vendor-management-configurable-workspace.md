@@ -51,15 +51,15 @@ Role required: pa\_data\_collector or admin
 
     1.  Navigate to **Vendor Manager Workspace** &gt; **Vendor Score Metric Models**
     2.  Do any of the following:
-<table id="choicetable_uxc_zhx_5jb"><thead><tr><th align="left" id="d129508e200">
+<table id="choicetable_uxc_zhx_5jb"><thead><tr><th align="left" id="d129600e200">
 
 To
 
-</th><th align="left" id="d129508e203">
+</th><th align="left" id="d129600e203">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d129508e209">
+</th></tr></thead><tbody><tr><td id="d129600e209">
 
 **Configure the Vendor Score Metric Model list**
 
@@ -70,7 +70,7 @@ Do this
 3.  Click **OK**.
 
 
-</td></tr><tr><td id="d129508e242">
+</td></tr><tr><td id="d129600e242">
 
 **Configure a Vendor Score Metric Model form**
 

@@ -19,7 +19,7 @@ Order goods and services by submitting a catalog request from chat. Enter your r
 
 ## Before you begin
 
-A conversational assistant — either Moveworks or Now Assist Chat — is configured on the instance.
+A Moveworks or Now Assist conversational assistant is configured on the instance.
 
 The catalog item you need is published and visible to your user criteria.
 

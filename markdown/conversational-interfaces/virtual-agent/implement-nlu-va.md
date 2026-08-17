@@ -1,6 +1,6 @@
 ---
 title: Implement NLU in Virtual Agent
-description: Create and maintain NLU model groups and intents that map to your conversation topics in Virtual Agent. You can create and edit model groups in NLU Workbench or from topics in Virtual Agent Designer.
+description: Create and maintain NLU model groups and intents that map to your conversation topics in Virtual Agent. You can create and edit model groups in NLU Workbench or from topics in Assistant Designer Asset library.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/implement-nlu-va.html
 release: zurich
@@ -14,7 +14,7 @@ breadcrumb: [Natural Language Understanding \(NLU\) topic discovery in Virtual A
 
 # Implement NLU in Virtual Agent
 
-Create and maintain NLU model groups and intents that map to your conversation topics in Virtual Agent. You can create and edit model groups in NLU Workbench or from topics in Virtual Agent Designer.
+Create and maintain NLU model groups and intents that map to your conversation topics in Virtual Agent. You can create and edit model groups in NLU Workbench or from topics in Assistant Designer Asset library.
 
 ## Before you begin
 
@@ -50,7 +50,7 @@ When authoring conversations for an NLU instance, be aware of the following guid
 
     -   [Add NLU to an existing Virtual Agent keyword topic.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/add-nlu-existing-keyword-topic.md)
     -   Create or map model groups and intents when you [create a new topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md).
-    -   [Preview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-designer-testing.md) and test the pre-built ServiceNow topics in Virtual Agent Designer.
+    -   [Preview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-designer-testing.md) and test the pre-built ServiceNow topics in Assistant Designer Asset library.
 
         Determine whether you want to use any of the topics, then [duplicate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/duplicate-virtual-agent-topic.md) them as needed.
 

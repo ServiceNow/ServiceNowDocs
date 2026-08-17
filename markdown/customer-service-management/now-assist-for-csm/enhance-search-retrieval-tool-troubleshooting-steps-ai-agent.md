@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2
 keywords: [AI Agents, Agentic AI]
-breadcrumb: [Set up the Troubleshooting steps identification AI agent, Configure, Now Assist for CSM, Customer Service Management]
+breadcrumb: [Set up the Troubleshooting steps identification AI agent, Configure, ServiceNow Otto for CSM, Customer Service Management]
 ---
 
 # Configure the Troubleshooting steps identification AI agent to use the Search retrieval tool

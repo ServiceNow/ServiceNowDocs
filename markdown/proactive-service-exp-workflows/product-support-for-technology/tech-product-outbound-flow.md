@@ -1,5 +1,5 @@
 ---
-title: Integrating Product Support for Technology with southbound external systems
+title: Integrating Proactive Service Experience Workflows with southbound external systems
 description: In Proactive Service Experience Workflows, you can submit outbound service test run requests to various external systems by integrating the application with the external southbound systems.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/proactive-service-exp-workflows/product-support-for-technology/tech-product-outbound-flow.html
@@ -12,7 +12,7 @@ reading_time_minutes: 2
 breadcrumb: [Technology Product Support Case, Proactive Service Experience Workflows]
 ---
 
-# Integrating Product Support for Technology with southbound external systems
+# Integrating Proactive Service Experience Workflows with southbound external systems
 
 In Proactive Service Experience Workflows, you can submit outbound service test run requests to various external systems by integrating the application with the external southbound systems.
 
@@ -46,8 +46,8 @@ The integration process for with the external service test management systems is
 
         **Note:**
 
-        -   If the test run is configured as hierarchical in the decision table, the system sends all the child service test runs in the hierarchy to the external system that is configured in the application spoke selector.
-        -   If the test run is configured as non-hierarchical in the decision table, the systems send only the individual test run to the external system that is configured in the application spoke selector.
+        -   If the test run is configured as hierarchical in the decision table, the system sends all the child service test runs in the hierarchy. These test runs are sent to the external system that is configured in the application spoke selector.
+        -   If the test run is configured as non-hierarchical in the decision table, the systems send only the individual test run. The test run is sent to the external system that is configured in the application spoke selector.
         To learn more about spokes, see [Building spokes using Spoke Generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/spoke-builder.md).
 
 3.  If the fulfillment request is successful, a response is received from the external system and is captured in the Test Run table \(sn\_st\_mgmt\_test\).

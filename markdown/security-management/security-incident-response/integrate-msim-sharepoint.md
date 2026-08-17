@@ -16,12 +16,14 @@ breadcrumb: [Integrate, Major Security Incident Management, Security Incident Re
 
 Integrate your Microsoft SharePoint with Major Security Incident Management.
 
--   **[Register a new application at Azure portal for SharePoint connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/create-azure-app-msim.md)**  
+-   **[Register an Azure application for SharePoint connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/create-azure-app-msim.md)**  
 Register a new application at Azure portal for Microsoft SharePoint integration.
 -   **[Use certificates for authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/use-certificate-auth-msim.md)**  
 Request an access token with a certificate credential.
 -   **[Configure Microsoft SharePoint with Major Security Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/config-sharepoint-msim.md)**  
-Set up Major Security Incident Management with Microsoft SharePoint connection.
+Establish a connection between Major Security Incident Management and Microsoft SharePoint to enable document collaboration and management of security incidents.
+-   **[Commands to grant Azure application access to the Microsoft SharePoint site](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/grant-azure-app-access-sharepoint-site-commands.md)**  
+Use one of the following three methods to grant your registered Azure application write access to the Microsoft SharePoint site at the site level, using the Microsoft Graph API.
 
 **Parent Topic:**[Integrating Major Security Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/integrate-with-other-applications.md)
 

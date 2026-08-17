@@ -1,6 +1,6 @@
 ---
-title: Using Now Assist for Security Incident Response generative AI skills
-description: Security analysts can close security incidents quickly from within their flow of work with the generative AI skills supported by Now Assist for Security Incident Response.
+title: Using ServiceNow Otto for Security Incident Response \(SIR\) generative AI skills
+description: Security analysts can close security incidents quickly from within their flow of work with the generative AI skills supported by ServiceNow Otto for Security Incident Response \(SIR\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/now-assist-for-security-incident-response-sir/using-now-assist-for-security.html
 release: zurich
@@ -9,24 +9,24 @@ classification: now-assist-for-security-incident-response-sir
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Now Assist for Security Incident Response, Security Operations]
+breadcrumb: [ServiceNow Otto for Security Incident Response \(SIR\), Security Operations]
 ---
 
-# Using Now Assist for Security Incident Response generative AI skills
+# Using ServiceNow Otto for Security Incident Response \(SIR\) generative AI skills
 
-Security analysts can close security incidents quickly from within their flow of work with the generative AI skills supported by Now Assist for Security Incident Response.
+Security analysts can close security incidents quickly from within their flow of work with the generative AI skills supported by ServiceNow Otto for Security Incident Response \(SIR\).
 
 ## Skills in global domain reuse
 
-By default, all skills exist in the global domain. When you use AI in a domain-separated environment, users are only able to access data in their domain. For example, if a user uses the summarization skill, AI only uses material that exists in the user's domain when generating that summary. Additionally, there is no co-mingling of data for domain-separated instances when using generative AI skills. The data resides only on the instance, and the shared services used for generative AI do not persist any requests \(prompts\) and responses. For more information, see [Domain separation in the Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/domain-separation-in-the-now-assist-admin-console.md). \(Note that global domain is not the same as global scope. For more information, see [Exploring Next Experience pickers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/next-experience-pickers.md).\)
+By default, all skills exist in the global domain. When you use AI in a domain-separated environment, users are only able to access data in their domain. For example, if a user uses the summarization skill, AI only uses material that exists in the user's domain when generating that summary. Additionally, there is no co-mingling of data for domain-separated instances when using generative AI skills. The data resides only on the instance, and the shared services used for generative AI do not persist any requests \(prompts\) and responses. For more information, see [Domain separation in the AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/domain-separation-in-the-now-assist-admin-console.md). \(Note that global domain is not the same as global scope. For more information, see [Exploring Next Experience pickers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/next-experience-pickers.md).\)
 
-AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them and what data they have access to. Ones installed with Now Assist applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. Data access settings must also include these roles. For the instructions to change the security controls, see [Define security controls for an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/define-sec-controls-aia.md).
+AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them and what data they have access to. Ones installed with ServiceNow Otto applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. Data access settings must also include these roles. For the instructions to change the security controls, see [Define security controls for an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/define-sec-controls-aia.md).
 
-**Important:** Some generative AI skills, AI agents, and agentic workflows are turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** Some generative AI skills, AI agents, and agentic workflows are turned on by default. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 **Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
 
-With generative AI skills with Now Assist for Security Incident Response, your security analysts have the option to:
+With generative AI skills with ServiceNow Otto for Security Incident Response \(SIR\), your security analysts have the option to:
 
 -   Summarize security incident details and review the context quickly in a concise, easy-to-read format.
 -   Generate closure \(resolution\) notes.
@@ -34,7 +34,7 @@ With generative AI skills with Now Assist for Security Incident Response, your s
 -   Generate post incident analysis data
 -   Generate performance metrics for your remediation teams.
 
-    This skill is activated for use with an AI agent. See [Analyze security operations metrics agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/now-assist-for-security-incident-response-sir/assess-metrics-sir-aiagent.md) for more information.
+    This skill is activated for use with an AI agent. See [Analyze security operations metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/now-assist-for-security-incident-response-sir/assess-metrics-sir-aiagent.md) for more information.
 
 -   Generate correlation insights to speed up incident investigation.
 -   Generate a quality assessment report of a security incident
@@ -43,9 +43,9 @@ Security managers and analysts can request security incident summaries and closu
 
 -   Security incident records
 -   Security Incident Response Workspace
--   The Now Assist panel.
+-   The ServiceNow Otto panel.
 
-    **Note:** The security incident recommended actions and post-incident analysis skills are not available from the Now Assist panel.
+    **Note:** The security incident recommended actions and post-incident analysis skills are not available from the ServiceNow Otto panel.
 
 
 Security managers and analysts can generate recommended next steps and post-incident analysis data from the following locations:
@@ -59,9 +59,9 @@ Security managers and analysts can request security incident summaries and closu
 
 -   Security incident records
 -   Security Incident Response Workspace
--   The Now Assist panel.
+-   The ServiceNow Otto panel.
 
-    **Note:** The security incident recommended actions and post-incident analysis skills are not available from the Now Assist panel.
+    **Note:** The security incident recommended actions and post-incident analysis skills are not available from the ServiceNow Otto panel.
 
 
 Security managers and analysts can generate recommended next steps and post-incident analysis data from the following locations:
@@ -71,25 +71,25 @@ Security managers and analysts can generate recommended next steps and post-inci
 
 Security managers and analysts can create remediation tasks from generated recommended actions only from security incidents in the Security Incident Response Workspace.
 
-1.  [Summarize a security incident with Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/now-assist-for-security-incident-response-sir/summarize-security-incident-now-assist-sec-incident.md)
+1.  [Summarize a security incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/now-assist-for-security-incident-response-sir/summarize-security-incident-now-assist-sec-incident.md)
 
     Generate a summary for a security incident that includes the underlying issue, incident details, related lists data \(observables\), and key actions already taken.
 
-2.  [Generate recommended actions for a security incident with Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/now-assist-for-security-incident-response-sir/generate-recommended-actions-now-assist-for-security.md)
-3.  [Generate a post-incident analysis for a security incident with Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/now-assist-for-security-incident-response-sir/generate-pia-report-now-assist-security-incident.md)
-4.  [Generate correlation insights in the Now Assist panel with Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/now-assist-for-security-incident-response-sir/generate-correlation-insights-now-assist-for-security.md)
+2.  [Generate recommended actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/now-assist-for-security-incident-response-sir/generate-recommended-actions-now-assist-for-security.md)
+3.  [Generate a post-incident analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/now-assist-for-security-incident-response-sir/generate-pia-report-now-assist-security-incident.md)
+4.  [Generate correlation insights in the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/now-assist-for-security-incident-response-sir/generate-correlation-insights-now-assist-for-security.md)
 5.  [Generate a quality assessment report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/now-assist-for-security-incident-response-sir/na-sir-generate-quality-assessment-report.md) for a security incident
-6.  [Generate closure notes for a security incident with Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/now-assist-for-security-incident-response-sir/generate-closure-notes-si-now-assist-sec-incident.md)
+6.  [Generate closure notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/now-assist-for-security-incident-response-sir/generate-closure-notes-si-now-assist-sec-incident.md)
 
     Automatically generate the closure notes for a security incident.
 
-7.  [Request generative AI skills in the Now Assist panel for Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/now-assist-for-security-incident-response-sir/request-genai-from-now-assist-panel-now-assist-sec-incident.md)
+7.  [Request generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/now-assist-for-security-incident-response-sir/request-genai-from-now-assist-panel-now-assist-sec-incident.md)
 
-    Generate summaries and closure notes from the Now Assist panel.
+    Generate summaries and closure notes from the ServiceNow Otto panel.
 
-    **Note:** The security incident recommended actions and post-incident analysis skills are not available from the Now Assist panel.
+    **Note:** The security incident recommended actions and post-incident analysis skills are not available from the ServiceNow Otto panel.
 
-8.  [Customize a Now Assist for Security Incident Response skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/now-assist-for-security-incident-response-sir/cust-now-assist-security-incident-skill.md)
+8.  [Customize a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/now-assist-for-security-incident-response-sir/cust-now-assist-security-incident-skill.md)
 
     Customize the input fields of a skill to suit the requirements of your environment.
 

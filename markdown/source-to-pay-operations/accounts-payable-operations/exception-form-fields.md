@@ -70,3 +70,5 @@ Invoice exception rules in Accounts Payable Operations define which invoices tri
 
 [Approval Plan form]()
 
+[Jurisdictions main table]()
+

@@ -8,7 +8,7 @@ product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
 last_updated: "2025-01-30"
-reading_time_minutes: 3
+reading_time_minutes: 2
 keywords: [BU configuration, Group contract documents, Uptake steps CM Pro]
 breadcrumb: [Configure CM Pro for your workspace, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
@@ -25,7 +25,7 @@ Role required: admin
 
 **Note:** In Legal Counsel Center and Contract Workspace, the contract documents are grouped based on the contract type, by default.
 
-Customize the Standard Record Page \(SRP\) to display contract documents grouped by contract type in the Contract document tab through UI Builder, a web user interface builder. For more information, see [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/ui-builder-overview.md).
+Customize the Standard Record Page \(SRP\) to display contract documents grouped by contract type in the Contract document tab through UI Builder, a web user interface builder. For more information, see .
 
 \[Omitted image "cmpro-bu-ctypr-grouping-result.png"\] Alt text: Grouping of contract documents
 

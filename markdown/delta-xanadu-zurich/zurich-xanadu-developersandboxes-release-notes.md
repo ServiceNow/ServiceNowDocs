@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-developersandboxes-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -91,29 +91,29 @@ Zurich
 
 </td><td>
 
--   **[Explore](https://servicenow-staging.fluidtopics.net/access?context=exploring-sandboxes&family=zurich&ft:locale=en-US)**
+-   **[Explore](https://www.servicenow.com/docs/access?context=exploring-sandboxes&family=zurich&ft:locale=en-US)**
 
 View the total, available, and allocated sandboxes in your instance by using the Sandbox Management home dashboard. The dashboard also displays information about each sandbox, including the status, data utilization, owner, when the sandbox was last accessed, and when the sandbox was allocated.
 
--   **[Create a sandbox template](https://servicenow-staging.fluidtopics.net/access?context=create-sandbox-template&family=zurich&ft:locale=en-US)**
+-   **[Using sandbox templates](https://www.servicenow.com/docs/access?context=create-sandbox-template&family=zurich&ft:locale=en-US)**
 
 Enable your delegated developers to reuse the data so that they can test their changes without manually inputting the data every time.
 
--   **[Create a Data Generation Profile](https://servicenow-staging.fluidtopics.net/access?context=create-data-generation-profile&family=zurich&ft:locale=en-US)**
+-   **[Create a Data Generation Profile](https://www.servicenow.com/docs/access?context=create-data-generation-profile&family=zurich&ft:locale=en-US)**
 
 Enable your customers to generate the data for testing within the context of developer sandboxes, but also independently of sandboxes.
 
 **Note:** Developer Sandboxes can't copy all the instance data. Data generation profiles enable a statistical sampling of data from selected tables with curated mappings to populate the sandbox with the data needed for building an application.
 
--   **[Allocate a sandbox](https://servicenow-staging.fluidtopics.net/access?context=allocating-sandboxes&family=zurich&ft:locale=en-US)**
+-   **[Allocate a sandbox](https://www.servicenow.com/docs/access?context=allocating-sandboxes&family=zurich&ft:locale=en-US)**
 
 Allocate the sandboxes that were created to your development teams.
 
--   **[Retire sandboxes](https://servicenow-staging.fluidtopics.net/access?context=retire-sandboxes&family=zurich&ft:locale=en-US)**
+-   **[Retire sandboxes](https://www.servicenow.com/docs/access?context=retire-sandboxes&family=zurich&ft:locale=en-US)**
 
 Retire outdated sandboxes to make room for the new sandboxes in your instance.
 
--   **[Automatically backed up update sets](https://servicenow-staging.fluidtopics.net/access?context=dev-sbx-clone-upgrade-info&family=zurich&ft:locale=en-US)**
+-   **[Automatically backed up update sets](https://www.servicenow.com/docs/access?context=dev-sbx-clone-upgrade-info&family=zurich&ft:locale=en-US)**
 
 If you install Developer Sandboxes on an instance after Zurich Patch 5, update sets are automatically backed up when the instance is upgraded.
 
@@ -153,7 +153,10 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **[Upgrade enhancements](https://www.servicenow.com/docs/access?context=dev-sbx-clone-upgrade-info&family=zurich&ft:locale=en-US)**
+
+Automatic backups for upgrades are now working correctly. This issue is related to PRB2017438.
+
 
 </td></tr></tbody>
 </table>## Removed
@@ -449,11 +452,12 @@ Zurich
 
 </td><td>
 
+-   Support for Build Agent in sandboxes.
 -   Enable your administrators and delegated developers to request, access, and manage the isolated development environments on top of the same underlying development instance.
 -   Provide developer isolation and parallelism for customer development environments and instances.
 -   View the total, available, and allocated sandboxes in your instance by using the Sandbox Management home dashboard. The dashboard also displays information about each sandbox, including the status, data utilization, owner, when it was last accessed, and when the sandbox was allocated.
 
- See [Developer Sandboxes](https://servicenow-staging.fluidtopics.net/access?context=sandboxes-landing&family=zurich&ft:locale=en-US) for more information.
+ See [Developer Sandboxes](https://www.servicenow.com/docs/access?context=sandboxes-landing&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/rn-combined-intro.md)

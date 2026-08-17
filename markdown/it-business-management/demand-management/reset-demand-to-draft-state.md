@@ -7,7 +7,7 @@ release: zurich
 product: Demand Management
 classification: demand-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Use, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -22,7 +22,7 @@ Role required: it\_demand\_manager
 
 ## About this task
 
-A demand can be reset to Draft from the Completed, Approved, Screening, or Submitted states, or until an artifact such as a project or enhancement is created from it. The **Reset to Draft** option is unavailable if the demand is in the Qualified state.
+A demand can be reset to Draft from the Completed, Approved, Screening, or Submitted states. This option is unavailable after an artifact such as a project or enhancement is created, or if the demand is in the Qualified state.
 
 ## Procedure
 
@@ -56,6 +56,10 @@ A demand can be reset to Draft from the Completed, Approved, Screening, or Submi
 
 [Create a demand]()
 
+[Identify similar records using AI]()
+
+[Summarize demands with the demand summarization skill]()
+
 [View demands]()
 
 [Add details to demands]()
@@ -68,9 +72,7 @@ A demand can be reset to Draft from the Completed, Approved, Screening, or Submi
 
 [Train the similarity solution for Demand Management to find similar demands]()
 
-[Identify similar records using Now Assist for Strategic Portfolio Management \(SPM\)]()
+[PPM PIWB template - Find similar demands]()
 
 [Associate AI systems with demands]()
-
-[Summarize demands with demand summarization skill]()
 

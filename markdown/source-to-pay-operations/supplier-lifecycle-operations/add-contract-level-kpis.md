@@ -1,20 +1,20 @@
 ---
 title: Create contract-level KPIs from KPI management
-description: You can add contract-level KPIs for a supplier from the KPI management tab of the supplier page. Contract-level KPIs are defined under their respective supplier-level KPIs.
+description: Add contract-level KPIs from supplier KPI management tab to measure performance at contract level.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/supplier-lifecycle-operations/add-contract-level-kpis.html
 release: zurich
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
 topic_type: task
-last_updated: "2025-04-15"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Configure Supplier Relationship and Performance Management, Configure, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 
 # Create contract-level KPIs from KPI management
 
-You can add contract-level KPIs for a supplier from the **KPI management** tab of the supplier page. Contract-level KPIs are defined under their respective supplier-level KPIs.
+Add contract-level KPIs from supplier **KPI management** tab to measure performance at contract level.
 
 ## Before you begin
 

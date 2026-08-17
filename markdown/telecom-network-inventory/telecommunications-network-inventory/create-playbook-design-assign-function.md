@@ -53,7 +53,7 @@ Role required: admin, playbook.admin
 
 4.  Add and configure your trigger.
 
-    To learn more, see .
+    To learn more, see [Add and configure a trigger in a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/add-configure-trigger.md).
 
     1.  Select the more options icon \(\[Omitted image "more-options.png"\] Alt text: More Options Icon and select **Properties**.
 
@@ -165,8 +165,6 @@ Update the system property to add the playbook in the Design and Assign home pag
 
 **Related topics**  
 
-
-[bundle-crworkflow.process-definitions]
 
 [Design and Assign function for your network services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/configure-playbooks-design-assign-function.md)
 

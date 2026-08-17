@@ -40,8 +40,6 @@ My work
 -   Open tasks: Displays a list of all the open tasks assigned to you.
 -   Open interactions: Displays the interactions that are assigned to you.
 
- For more information, see [Create supplier case from Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/create-supplier-case.md).
-
 </td></tr><tr><td>
 
 Review needed

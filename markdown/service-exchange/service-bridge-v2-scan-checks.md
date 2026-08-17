@@ -27,7 +27,7 @@ Service Exchange scan checks provide the following benefits:
 
 Service Exchange provides two main suites, on-demand and scheduled.
 
-Each suite contains multiple child suites and each child suite contains multiple scan checks. For more information on suite and scan checks, see [Instance Scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/hs-landing-page.md).
+Each suite contains multiple child suites and each child suite contains multiple scan checks. For more information on suite and scan checks, see .
 
 -   On-demand suites: On-demand checks can be run as and when required.
 -   Scheduled suites: Scheduled checks run at a scheduled time every day.
@@ -36,7 +36,7 @@ You can also customize when scheduled suites run or assign a scheduled execution
 
 To view the list of Service Exchange supported scan checks, see [List of scan checks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/service-exchange/service-bridge-v2-list-of-scan-checks-in-sb.md).
 
-These Service Exchange scan checks are available through the Service Exchange Health plugin. This plugin is activated when you install or upgrade Service Exchange. You can also activate this plugin manually. For activation instruction, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_ActivateAPlugin.md).
+These Service Exchange scan checks are available through the Service Exchange Health plugin. This plugin is activated when you install or upgrade Service Exchange. You can also activate this plugin manually. For activation instruction, see .
 
 **Note:** The Service Exchange Health plugin is backward compatible. If you're using an older version of the Service Exchange application, you can install this plugin to use its features.
 

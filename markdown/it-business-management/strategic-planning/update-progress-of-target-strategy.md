@@ -7,7 +7,7 @@ release: zurich
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 2
 breadcrumb: [Add a target for goal, Manage enterprise goals, Strategy and Goals, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -34,15 +34,15 @@ Role required: sn\_apw\_advanced.spw\_goal\_user
 
 3.  Update the target for your goal using one of the following methods depending on your board type.
 
-<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d320061e76">
+<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d330070e76">
 
 Option
 
-</th><th align="left" id="d320061e79">
+</th><th align="left" id="d330070e79">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d320061e85">
+</th></tr></thead><tbody><tr><td id="d330070e85">
 
 **From the Goals page**
 
@@ -62,7 +62,7 @@ In the Actual to date column, double click the cell for the target.
 
  Alternatively, you can select the row context menu icon \(\[Omitted image "action-menu-icon.png"\] Alt text: Row context menu icon.\) next to the target that you want to update and then select **Check in actuals**.
 
-</td></tr><tr><td id="d320061e126">
+</td></tr><tr><td id="d330070e126">
 
 **From the Strategy page**
 

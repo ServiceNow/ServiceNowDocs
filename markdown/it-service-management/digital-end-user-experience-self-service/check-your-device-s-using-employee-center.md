@@ -9,7 +9,7 @@ classification: digital-end-user-experience-self-service
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Use, Employee Self-service, Digital End-User Experience, IT Service Management]
+breadcrumb: [Use, Digital End-user Experience Self-service, Digital End-User Experience, IT Service Management]
 ---
 
 # Check device health using Employee Center
@@ -24,15 +24,15 @@ Role required: none
 
 1.  Open Device health check from Employee Center using one of the following options.
 
-<table id="choicetable_lhy_ttn_z2c"><thead><tr><th align="left" id="d449750e75">
+<table id="choicetable_lhy_ttn_z2c"><thead><tr><th align="left" id="d451480e75">
 
 Option
 
-</th><th align="left" id="d449750e78">
+</th><th align="left" id="d451480e78">
 
 Steps to open Device heath check
 
-</th></tr></thead><tbody><tr><td id="d449750e84">
+</th></tr></thead><tbody><tr><td id="d451480e84">
 
 **Hardware or Software pages**
 
@@ -48,7 +48,7 @@ The Device heath check widget appears, displaying device health categories with 
 5.  Select a category to see more details in the Device health check page.
 
 
-</td></tr><tr><td id="d449750e161">
+</td></tr><tr><td id="d451480e161">
 
 **Quick links**
 

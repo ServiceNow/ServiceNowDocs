@@ -1,6 +1,6 @@
 ---
-title: Configure Now Assist for Zero Copy Connector
-description: If you have the admin role, you can configure the Now Assist for Zero Copy Connector application.
+title: Configure ServiceNow Otto for Zero Copy Connector
+description: If you have the admin role, you can configure the ServiceNow Otto for Zero Copy Connector application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/erp-integration-framework/configure-now-assist-for-zero-copy-connectors.html
 release: zurich
@@ -10,12 +10,12 @@ topic_type: task
 last_updated: "2025-11-04"
 reading_time_minutes: 1
 keywords: [Now Assist, agentic AI, generative AI, Gen AI, zero copy connector, erp]
-breadcrumb: [Now Assist for Zero Copy Connector, Zero Copy Connector for ERP overview, Workflow Data Fabric]
+breadcrumb: [ServiceNow Otto for Zero Copy Connector, Zero Copy Connector for ERP overview, Workflow Data Fabric]
 ---
 
-# Configure Now Assist for Zero Copy Connector
+# Configure ServiceNow Otto for Zero Copy Connector
 
-If you have the admin role, you can configure the Now Assist for Zero Copy Connector application.
+If you have the admin role, you can configure the ServiceNow Otto for Zero Copy Connector application.
 
 ## Before you begin
 
@@ -23,18 +23,18 @@ Role required: admin and sn\_erp\_integration.erp\_ai\_user
 
 ## About this task
 
-Use the Now Assist Admin console to configure Now Assist for Zero Copy Connector. For additional information, see [Overview tab in Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configuring-now-assist.md).
+Use the AI Admin Hub console to configure ServiceNow Otto for Zero Copy Connector. For additional information, see [Overview tab in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configuring-now-assist.md).
 
-The following skills are included in Now Assist for Zero Copy Connector:
+The following skills are included in ServiceNow Otto for Zero Copy Connector:
 
 -   ERP data discovery
 -   ERP data query
 
 ## Procedure
 
-1.  Install the Now Assist for Zero Copy Connector plugin \(sn\_erp\_ai\).
+1.  Install the ServiceNow Otto for Zero Copy Connector plugin \(sn\_erp\_ai\).
 
-    For information about the installation process, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+    For information about the installation process, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 
 2.  View the skills by navigating to **All** &gt; **Now Assist admin** &gt; **Skills** and selecting **Other**.
 
@@ -56,7 +56,7 @@ The following skills are included in Now Assist for Zero Copy Connector:
 
         \[Omitted image "image.erp-edit-access3"\] Alt text: Edit ACL modal with roles drop-down list displayed.
 
-        **Note:** The sn\_erp\_integration.erp\_ai\_user role is required for users to work with generative and agentic AI in Now Assist for Zero Copy Connector.
+        **Note:** The sn\_erp\_integration.erp\_ai\_user role is required for users to work with generative and agentic AI in ServiceNow Otto for Zero Copy Connector.
 
     3.  When you're finished, select **Apply**.
 
@@ -66,7 +66,7 @@ The following skills are included in Now Assist for Zero Copy Connector:
 **Related topics**  
 
 
-[Overview tab in Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configuring-now-assist.md)
+[Overview tab in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configuring-now-assist.md)
 
-[Configuring Now Assist Admin features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configuring-na-landing.md)
+[Configuring AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configuring-na-landing.md)
 

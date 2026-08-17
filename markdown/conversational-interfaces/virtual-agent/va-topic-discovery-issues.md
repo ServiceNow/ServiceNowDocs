@@ -9,7 +9,7 @@ classification: virtual-agent
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 12
-breadcrumb: [Debug a Virtual Agent topic, Getting started with Virtual Agent Designer, Build and deploy, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Debug a Virtual Agent topic, Getting started with Assistant Designer Asset library, Build and deploy, Virtual Agent, Conversational Interfaces]
 ---
 
 # Resolve Natural Language Understanding \(NLU\) topic discovery issues
@@ -26,13 +26,13 @@ If a Virtual Agent is not being discovered, check the following:
 
 -   **Is the NLU Model trained and published for the session language?**
 
-    Your topic may not be using the latest changes to your model. For ServiceNow® NLU, see Train and try your NLU model and [Publish a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/publish-virtual-agent-topic.md).
+    Your topic may not be using the latest changes to your model. For ServiceNow® NLU, see [Train and try your NLU model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/test-train-nlu-model.md) and [Publish a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/publish-virtual-agent-topic.md).
 
 -   **Is the Virtual Agent topic published, discoverable, and bound to a published NLU Model and Intent for the session language?**
 
     The topic should be bound to a single model and intent for a given language. Ensure there are no duplicate intents bound to other topics. Make sure that the topic, model, and intent are in the same domain. For more information, see [Publish a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/publish-virtual-agent-topic.md).
 
--   **Are any roles or conditions specified for the Virtual Agent topic on the Properties tab in Virtual Agent Designer?**
+-   **Are any roles or conditions specified for the Virtual Agent topic on the Properties tab in Assistant Designer Asset library?**
 
     If the topic is shown only for certain roles or for certain conditions, this can impede topic discovery. For details, see [Topic Properties tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/vad-topic-properties-tab.md).
 
@@ -48,13 +48,13 @@ If a Virtual Agent is not being discovered, check the following:
         -   Bound to Model A and Intent A for English
         -   Bound to Model A and Intent A for Spanish
         -   NOT bound to a model or intent for French
-        In this scenario, create a French model and intent for the topic. For more information, see Multilingual model management.
+        In this scenario, create a French model and intent for the topic. For more information, see [Multilingual model management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/multilingual-model-managent.md).
 
 -   **Why did a topic variable NOT slot fill?**
 
     Check the following:
 
-    -   The topic's user input node was not configured with an associated entity. Use the **NLU entity** property for the node in Virtual Agent Designer.
+    -   The topic's user input node was not configured with an associated entity. Use the **NLU entity** property for the node in Assistant Designer Asset library.
 
         \[Omitted image "input-node-nlu-entity-field.png"\] Alt text: Specify an existing entity in the NLU entity list.
 
@@ -64,8 +64,8 @@ If a Virtual Agent is not being discovered, check the following:
 
     Do one of the following:
 
-    -   In the Asset library, set the discovery type toggle switch to **NLU/Keyword**, then select **Test NLU/Keyword Topics**. Enter your utterance, and watch the **Analyze test phrases** tab.
-    -   Open the topic in Virtual Agent Designer, then select **Test**. In the Test window, select the **Include topic discovery** check box. Enter your utterance, and watch the **Analyze test phrases** tab.
+    -   In the Asset library, set the discovery type toggle switch to **NLU/Keyword**, then select **Test Topics**. Enter your utterance, and watch the **Analyze test phrases** tab.
+    -   Open the topic in Assistant Designer Asset library, then select **Test**. In the Test window, select the **Include topic discovery** check box. Enter your utterance, and watch the **Analyze test phrases** tab.
     For details, see [Testing NLU/Keyword topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-designer-testing.md). For an understanding of how topic discovery works, see [Natural Language Understanding topic discovery logic in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/how-topic-discovery-works.md).
 
 -   **Is "Setup Topic" the topic in question?**

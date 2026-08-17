@@ -18,7 +18,7 @@ When you create large language model \(LLM\) topics, you provide instructions th
 
 ## Overview of LLM description and instruction guidelines
 
-Topic authors can use plain text wording to tell the LLM how to discover an LLM topic, as well as tell the LLM how to respond. The Virtual Agent Designer interface provides text fields that let you provide both.
+Topic authors can use plain text wording to tell the LLM how to discover an LLM topic, as well as tell the LLM how to respond. The Assistant Designer Asset library interface provides text fields that let you provide both.
 
 -   **Descriptions**
 

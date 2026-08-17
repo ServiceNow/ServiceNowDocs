@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-hermesmessagingservice-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -67,15 +67,15 @@ Yokohama
 
 </td><td>
 
--   **[Topic audit history](https://servicenow-staging.fluidtopics.net/access?context=view-messages-hermes-topic&family=yokohama&ft:locale=en-US)**
+-   **[Topic audit history](https://www.servicenow.com/docs/access?context=view-messages-hermes-topic&family=yokohama&ft:locale=en-US)**
 
 Track changes made to a Hermes topic by viewing the topic's audit information.
 
--   **[Search for messages in a topic](https://servicenow-staging.fluidtopics.net/access?context=view-messages-hermes-topic&family=yokohama&ft:locale=en-US)**
+-   **[Search for messages in a topic](https://www.servicenow.com/docs/access?context=view-messages-hermes-topic&family=yokohama&ft:locale=en-US)**
 
 Filter messages in a topic using keywords or regular expressions in the Hermes Messaging Service topic inspector.
 
--   **[Improved diagnostics](https://servicenow-staging.fluidtopics.net/access?context=run-hermes-messaging-service-diagnostics&family=yokohama&ft:locale=en-US)**
+-   **[Improved diagnostics](https://www.servicenow.com/docs/access?context=run-hermes-messaging-service-diagnostics&family=yokohama&ft:locale=en-US)**
 
 Monitor the health of Hermes components over time.
 
@@ -86,11 +86,11 @@ Zurich
 
 </td><td>
 
--   **[Monitor Hermes data usage](https://servicenow-staging.fluidtopics.net/access?context=monitoring-data-usage-hermes&family=zurich&ft:locale=en-US)**
+-   **[Monitor Hermes data usage](https://www.servicenow.com/docs/access?context=monitoring-data-usage-hermes&family=zurich&ft:locale=en-US)**
 
 Monitor data usage by application and track data usage by topic using the Hermes Usage Dashboard.
 
--   **[Synchronize topic partition count](https://servicenow-staging.fluidtopics.net/access?context=update-topic-hermes&family=zurich&ft:locale=en-US)**
+-   **[Synchronize topic partition count](https://www.servicenow.com/docs/access?context=update-topic-hermes&family=zurich&ft:locale=en-US)**
 
 Verify that the partition count is synchronized between topics in Hermes clusters.
 
@@ -201,7 +201,7 @@ Yokohama
 
 </td><td>
 
-Hermes Messaging Service is a ServiceNow AI Platform feature that is available with activation of the ServiceNow Stream Connect Installer \(com.glide.hub.stream\_connect.installer\) plugin or installation of the Log Export Service application. For details, see [Hermes Messaging Service activation](https://servicenow-staging.fluidtopics.net/access?context=hermes-messaging-service-activation&family=yokohama&ft:locale=en-US).
+Hermes Messaging Service is a ServiceNow AI Platform feature that is available with activation of the ServiceNow Stream Connect Installer \(com.glide.hub.stream\_connect.installer\) plugin or installation of the Log Export Service application. For details, see [Hermes Messaging Service activation](https://www.servicenow.com/docs/access?context=hermes-messaging-service-activation&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -209,7 +209,7 @@ Zurich
 
 </td><td>
 
-Hermes Messaging Service is a ServiceNow AI Platform feature that is available with activation of the ServiceNow Stream Connect Installer \(com.glide.hub.stream\_connect.installer\) plugin or installation of the Log Export Service application. For details, see [Activating Hermes](https://servicenow-staging.fluidtopics.net/access?context=hermes-messaging-service-activation&family=zurich&ft:locale=en-US).
+Hermes Messaging Service is a ServiceNow AI Platform feature that is available with activation of the ServiceNow Stream Connect Installer \(com.glide.hub.stream\_connect.installer\) plugin or installation of the Log Export Service application. For details, see [Activating Hermes](https://www.servicenow.com/docs/access?context=hermes-messaging-service-activation&family=zurich&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -350,7 +350,7 @@ Yokohama
 -   Scan and inspect topic messages using keywords or regular expressions.
 -   Monitor the health of Hermes components over time.
 
- See [Hermes Messaging Service](https://servicenow-staging.fluidtopics.net/access?context=hermes-messaging-service&family=yokohama&ft:locale=en-US) for more information.
+ See [Hermes Messaging Service](https://www.servicenow.com/docs/access?context=hermes-messaging-service&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -361,7 +361,7 @@ Zurich
 -   Monitor Hermes data usage over time.
 -   Verify that topics are synchronized between Hermes clusters.
 
- See [Hermes Messaging Service](https://servicenow-staging.fluidtopics.net/access?context=hermes-messaging-service&family=zurich&ft:locale=en-US) for more information.
+ See [Hermes Messaging Service](https://www.servicenow.com/docs/access?context=hermes-messaging-service&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

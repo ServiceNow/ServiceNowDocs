@@ -9,7 +9,7 @@ classification: process-mining
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Working with process inefficiency highlights using Now Assist, Configuring Now Assist for Process Mining, Now Assist for Process Mining, Using Process Mining, Process Mining, Platform Analytics]
+breadcrumb: [Working with process inefficiency highlights using AI, Configuring ServiceNow Otto for Process Mining, ServiceNow Otto for Process Mining, Using Process Mining, Process Mining, Platform Analytics]
 ---
 
 # Configuring improvement opportunities in Process Mining
@@ -24,5 +24,5 @@ For detailed information about how to generate and view the highlights for impro
 
 There are system properties that determine how process inefficiency work. For information about the system properties, see [Improvement opportunities highlights properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/data-cleanup.md).
 
-**Parent Topic:**[Working with process inefficiency highlights using Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/highlights.md)
+**Parent Topic:**[Working with process inefficiency highlights using AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/highlights.md)
 

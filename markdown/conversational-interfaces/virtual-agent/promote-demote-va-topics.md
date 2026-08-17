@@ -1,6 +1,6 @@
 ---
-title: Promote or demote LLM conversational subflows, actions, and topics in Virtual Agent Designer
-description: Promote assets including conversational subflows, conversational actions, and topics in Virtual Agent Designer, after associating them with a large language model \(LLM\) assistant, to have them suggested to the user by the LLM assistant.
+title: Promote or demote LLM assets in Assistant Designer Asset library
+description: Promote assets including conversational subflows, conversational actions, and topics in Assistant Designer Asset library after associating them with a large language model \(LLM\) assistant. The LLM assistant then suggests them to the user.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/promote-demote-va-topics.html
 release: zurich
@@ -8,24 +8,24 @@ product: Virtual Agent
 classification: virtual-agent
 topic_type: task
 last_updated: "2025-01-30"
-reading_time_minutes: 2
+reading_time_minutes: 3
 keywords: [Promote, Demote, LLM, Large language model, assist, topics, Virtual Agent Designer]
-breadcrumb: [Getting started with Virtual Agent Designer, Build and deploy, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Getting started with Assistant Designer Asset library, Build and deploy, Virtual Agent, Conversational Interfaces]
 ---
 
-# Promote or demote LLM conversational subflows, actions, and topics in Virtual Agent Designer
+# Promote or demote LLM assets in Assistant Designer Asset library
 
-Promote assets including conversational subflows, conversational actions, and topics in Virtual Agent Designer, after associating them with a large language model \(LLM\) assistant, to have them suggested to the user by the LLM assistant.
+Promote assets including conversational subflows, conversational actions, and topics in Assistant Designer Asset library after associating them with a large language model \(LLM\) assistant. The LLM assistant then suggests them to the user.
 
 ## Before you begin
 
-Associate an LLM topic, conversational subflow, or conversational action with an LLM assistant. For more information, see [Create a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md), [Managing conversational subflows in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/managing-conversational-subflows.md), and [Managing conversational actions in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/managing-conversational-actions.md).
+Associate an LLM topic, conversational subflow, or conversational action with an LLM assistant. For more information, see [Create a Virtual Agent asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md), [Managing conversational subflows in Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/managing-conversational-subflows.md), and [Managing conversational actions in Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/managing-conversational-actions.md).
 
 Role required: virtual\_agent\_admin or admin
 
 ## About this task
 
-After you associate a conversational subflow, conversational action, or topic with an LLM assistant, you can promote the asset so that the LLM assistant suggests it to the users. Promoted assets can also be demoted to remove them from the list of suggested assets.
+After you associate a conversational subflow, conversational action, or topic with an LLM assistant, you can promote the asset. When the asset is promoted, the LLM assistant suggests it to the users. Promoted assets can also be demoted to remove them from the list of suggested assets.
 
 System topics, setup topics, topic blocks, custom controls, and small talk topics cannot be promoted.
 
@@ -37,15 +37,19 @@ For more information about LLM assistants, see [LLM assistants](https://raw.gith
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Virtual Agent** &gt; **Designer**.
+1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Assistant Designer**.
 
-2.  From the **Select assistant** drop-down menu, select the LLM assistant that will promote the asset.
+2.  Select the **Asset library** tab.
+
+3.  Set the discovery type togggle switch to **LLM**.
+
+4.  From the **Select assistant** drop-down menu, select the LLM assistant that will promote the asset.
 
     The list of assets reduces to LLM assets associated with the LLM assistant.
 
-3.  Find the asset that you want to promote or demote.
+5.  Find the asset that you want to promote or demote.
 
-4.  Select the Show actions for this row icon \[Omitted image "kebab-menu.png"\] Alt text: Show actions for this row icon., and then select **Promote** to toggle the asset's **Promoted** status.
+6.  Select the Show actions for this row icon \[Omitted image "kebab-menu.png"\] Alt text: Show actions for this row icon., and then select **Promote** to toggle the asset's **Promoted** status.
 
     If the asset is already promoted, the asset has a check mark next to the **Promoted** status. Demoting the asset removes the check mark.
 
@@ -58,5 +62,5 @@ A toast message also appears for four seconds, confirming that the asset has bee
 
 Reorder promoted LLM conversational subflows, actions, and topics in Virtual Agent. For more information, see [Reorder promoted LLM conversational subflows, actions, and topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/sort-promoted-va-topics.md).
 
-**Parent Topic:**[Getting started with Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
+**Parent Topic:**[Getting started with Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
 

@@ -1,6 +1,6 @@
 ---
-title: Now Assist for Configure, Price, Quote \(CPQ\)
-description: Use the ServiceNow Now Assist for Configure, Price, Quote \(CPQ\) application to reduce manual effort, improve consistency, and support faster, more accurate quote creation.
+title: ServiceNow Otto for Configure, Price, Quote \(CPQ\)
+description: Use the ServiceNow ServiceNow Otto for Configure, Price, Quote \(CPQ\) application to reduce manual effort, improve consistency, and support faster, more accurate quote creation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/now-assist-for-cpq-landing.html
 release: zurich
@@ -9,23 +9,23 @@ last_updated: "2026-01-22"
 reading_time_minutes: 3
 ---
 
-# Now Assist for Configure, Price, Quote \(CPQ\)
+# ServiceNow Otto for Configure, Price, Quote \(CPQ\)
 
-Use the ServiceNow® Now Assist for Configure, Price, Quote \(CPQ\) application to reduce manual effort, improve consistency, and support faster, more accurate quote creation.
+Use the ServiceNow® ServiceNow Otto for Configure, Price, Quote \(CPQ\) application to reduce manual effort, improve consistency, and support faster, more accurate quote creation.
 
 ## Get started
 
 <table id="table_m44_xtx_13c" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about Now Assist for Configure, Price, Quote \(CPQ\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/explore-now-assist-cpq.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about ServiceNow Otto for Configure, Price, Quote \(CPQ\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/explore-now-assist-cpq.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the Now Assist for Configure, Price, Quote \(CPQ\) application to get started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configure-now-assist-cpq.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the ServiceNow Otto for Configure, Price, Quote \(CPQ\) application to get started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configure-now-assist-cpq.md)
 
 </td><td>
 
-[Use Now Assist for Configure, Price, Quote \(CPQ\) generative AI\[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:Use the generative AI capabilities offered by Now Assist for Configure, Price, Quote \(CPQ\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-now-assist-cpq.md)
+[Use ServiceNow Otto for Configure, Price, Quote \(CPQ\) generative AI\[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:Use the generative AI capabilities offered by ServiceNow Otto for Configure, Price, Quote \(CPQ\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-now-assist-cpq.md)
 
 </td></tr></tbody>
 </table>**Important:**
@@ -53,10 +53,10 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
--   **[Exploring Now Assist for Configure, Price, Quote \(CPQ\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/explore-now-assist-cpq.md)**  
-With the Now Assist for Configure, Price, Quote \(CPQ\) application, you can use generative AI to summarize quotes and provide immediate, comprehensive visibility into key quote information such as products, pricing, and terms. This functionality reduces errors, accelerates quote creation, and helps teams deliver accurate quotes faster.
--   **[Configuring Now Assist for Configure, Price, Quote \(CPQ\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configure-now-assist-cpq.md)**  
-Configure the Now Assist for Configure, Price, Quote \(CPQ\) application so that your agents can use the generative AI skills in CSM Configurable Workspace and Business Portal.
--   **[Using Now Assist for Configure, Price, Quote \(CPQ\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-now-assist-cpq.md)**  
+-   **[Exploring ServiceNow Otto for Configure, Price, Quote \(CPQ\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/explore-now-assist-cpq.md)**  
+With the ServiceNow Otto for Configure, Price, Quote \(CPQ\) application, you can use generative AI to summarize quotes and provide immediate, comprehensive visibility into key quote information such as products, pricing, and terms. This functionality reduces errors, accelerates quote creation, and helps teams deliver accurate quotes faster.
+-   **[Configuring ServiceNow Otto for Configure, Price, Quote \(CPQ\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configure-now-assist-cpq.md)**  
+Configure the ServiceNow Otto for Configure, Price, Quote \(CPQ\) application so that your agents can use the generative AI skills in CSM Configurable Workspace and Business Portal.
+-   **[Using ServiceNow Otto for Configure, Price, Quote \(CPQ\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-now-assist-cpq.md)**  
 Use agents in an agentic workflow or as standalone agents to achieve specific automated outcomes.
 

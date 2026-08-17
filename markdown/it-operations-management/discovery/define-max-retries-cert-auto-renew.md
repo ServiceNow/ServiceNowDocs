@@ -9,7 +9,7 @@ classification: discovery
 topic_type: task
 last_updated: "2026-01-22"
 reading_time_minutes: 1
-breadcrumb: [Configuring automated certificate renewal, Automated Certificate Renewal, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
+breadcrumb: [Configuring automated certificate renewal, Automated certificate renewal, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
 
 # Define maximum retries allowed for certificate auto-renewal

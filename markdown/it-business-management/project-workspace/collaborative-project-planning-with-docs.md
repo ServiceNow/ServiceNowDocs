@@ -7,9 +7,9 @@ release: zurich
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Manage Projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Manage projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Collaborate on projects using Docs
@@ -24,7 +24,7 @@ Role required: it\_project\_user
 
 1.  Open a project in Project Workspace.
 
-    For more information, see [Access Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/access-new-project-workspace.md).
+    For more information, see [Access the Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/access-new-project-workspace.md).
 
 2.  Open the docs page of the project by selecting **Docs** from the list.
 
@@ -40,12 +40,12 @@ Role required: it\_project\_user
     -   Add meeting notes to record discussions, decisions, action items, and any relevant information discussed during meetings.
     -   Store information related to your tasks, add images or tables, and collaborate in real time using Docs.
     -   Select text and select the Add comments icon from the inline toolbar. Commented text displays with a yellow highlight and underline. You can include hyperlinks by typing or pasting URLs directly into your comment. These links are automatically converted to a clickable format when you post the comment. For more information, see [Add comments to Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/add-comments-to-docs-in-cwm.md).
-    -   Select a commented text to open the comment popover showing the comment thread. The popover closes when you select outside of it.
+    -   Select a commented text to open the comment popover showing the comment thread. The popover closes when you click outside of it.
     -   Mention colleagues using @ in comments and replies to notify them of discussions. For more information, see [Add comments to Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/add-comments-to-docs-in-cwm.md).
     -   If you are the owner of the comment, modify the comment text. Edited comments display an Edited indicator. For more information, see [Manage comments in Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/manage-comments-in-cwm-docs.md).
-    -   Add comments to dynamic data elements, such as references, links, and blocks of text that contain dynamic data. Select once to open the comment popover and select again to navigate to the referenced content.
+    -   Add comments to dynamic data elements, such as references, links, and blocks of text that contain dynamic data. Click once to open the comment popover and click again to navigate to the referenced content.
     -   Turn comment highlights on or off to switch between a marked-up view and a clean reading view. For more information, see [Hide or show comment highlights in Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/hide-comment-highlights-cwm-docs.md).
-    -   Select the more actions menu to delete, copy, or create child pages in the pages section.
+    -   Select the more actions menu to delete, duplicate, or create child pages in the pages section.
     -   Apply rich text paragraph formatting, which includes headings, lists, alignment, and other styling options.
     -   Get notified by email about the following comment activity on a document you are associated with.
 

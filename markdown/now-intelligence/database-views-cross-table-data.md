@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-03-25"
 reading_time_minutes: 1
 keywords: [database views, cross-table data, semantic layer, table configuration]
-breadcrumb: [Tuning the semantic layer, Configure, Query Generation, Now Assist in Platform Analytics, Platform Analytics]
+breadcrumb: [Tuning the semantic layer, Configure, Query Generation, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
 
 # Database views for cross-table data

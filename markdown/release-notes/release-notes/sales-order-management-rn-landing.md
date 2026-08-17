@@ -4,13 +4,23 @@ description: ServiceNow Sales Customer Relationship Management is a set of new a
 locale: en-US
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 4
+last_updated: "2026-07-28"
+reading_time_minutes: 5
 ---
 
 # Sales Customer Relationship Management release notes
 
 ServiceNow® Sales Customer Relationship Management is a set of new and updated applications and features in the Zurich release. These applications enable you to manage the product sales life cycle in your organization, including leads, pre-sales opportunities, sales quote generation, order capture, order fulfillment, and post-sales order changes and renewals.
+
+[Zurich Patch 12](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-12.md)
+
+ServiceNow Otto is the new AI experience brand. This change is reflected in the name of the following ServiceNow products. Your product entitlements remain unchanged. There is no change to functionality or existing customer configurations. Check your entitlements to determine your access to specific features.
+
+|Existing name|New name|
+|-------------|--------|
+|Now Assist for Sales Force Automation \(SFA\)|ServiceNow Otto for Sales Automation|
+|Now Assist for Configure, Price, Quote \(CPQ\)|ServiceNow Otto for Configure, Price, Quote \(CPQ\)|
+|Now Assist for Order Management|ServiceNow Otto for Order Management|
 
 [Zurich Patch 9](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-9.md)
 
@@ -31,12 +41,12 @@ The ServiceNow® Customer Engagement Sequences application enables customer-focu
 The ServiceNow® Business Portal is a self-service web portal that supports your B2B customers by providing integrated access to knowledge articles, community forums, service catalogs, and chatbots. Business Portal was enhanced and updated in the Zurich release.
 -   **[Lead-to-Cash Process Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/lead-cash-process-management-rn.md)**  
 The ServiceNow® Lead-to-Cash Process Management application provides sales managers and contract administrators with a real-time, consolidated view of critical sales data, activities, and status related to sales entities such as opportunities, quotes, and orders. Lead-to-Cash Process Management is a new application in the Zurich release.
--   **[Now Assist for Configure, Price, Quote \(CPQ\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/now-assist-cpq-rn.md)**  
-The ServiceNow® Now Assist for CPQ application brings platform AI capabilities to Sales and Order Management. Now Assist for CPQ is a new application in the Zurich release.
--   **[Now Assist for Order Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/now-assist-order-management-rn.md)**  
-The ServiceNow® Now Assist for Order Management application brings platform AI capabilities to Sales Customer Relationship Management. Now Assist for Order Management is a new application in the Zurich release.
--   **[Now Assist for Sales Force Automation \(SFA\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/now-assist-for-sales-and-order-management-rn.md)**  
-The ServiceNow® Now Assist for Sales Force Automation \(SFA\) application brings platform AI capabilities to Sales Customer Relationship Management. Now Assist for SFA is a new application in the Zurich release.
+-   **[ServiceNow Otto for Configure, Price, Quote \(CPQ\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/now-assist-cpq-rn.md)**  
+The ServiceNow® ServiceNow Otto for CPQ application brings platform AI capabilities to Sales and Order Management. ServiceNow Otto for CPQ is a new application in the Zurich release.
+-   **[ServiceNow Otto for Order Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/now-assist-order-management-rn.md)**  
+The ServiceNow® ServiceNow Otto for Order Management application brings platform AI capabilities to Sales Customer Relationship Management. ServiceNow Otto for Order Management is a new application in the Zurich release.
+-   **[ServiceNow Otto for Sales Automation release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/now-assist-for-sales-and-order-management-rn.md)**  
+The ServiceNow® ServiceNow Otto for Sales Automation application brings platform AI capabilities to Sales Customer Relationship Management. ServiceNow Otto for Sales Automation is a new application in the Zurich release.
 -   **[Opportunity Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/opportunity-management-rn.md)**  
 The ServiceNow® Opportunity Management application enables your sales agents and account executives to create and manage opportunities. These opportunities identify and track potential sales based on identified customer needs. ServiceNow® Opportunity Management is a new application in the Zurich release.
 -   **[Order Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/order-management-rn.md)**  

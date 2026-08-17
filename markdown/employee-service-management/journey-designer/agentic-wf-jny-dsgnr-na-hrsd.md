@@ -1,6 +1,6 @@
 ---
-title: Agentic workflows for Journey designer
-description: Use agentic workflows and Now Assist for HRSD to facilitate and manage employee journeys throughout the different stages of the employee's career. These workflows, powered by a single or team of AI agents, help your organization by automating procedures for managers while simultaneously curating custom experiences for employees.
+title: AI in Journey designer
+description: Use agentic workflows and ServiceNow Otto for HRSD to facilitate and manage employee journeys throughout the different stages of the employee's career. These workflows, powered by a single or team of AI agents, help your organization by automating procedures for managers while simultaneously curating custom experiences for employees.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/journey-designer/agentic-wf-jny-dsgnr-na-hrsd.html
 release: zurich
@@ -12,9 +12,9 @@ reading_time_minutes: 2
 breadcrumb: [Use, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
-# Agentic workflows for Journey designer
+# AI in Journey designer
 
-Use agentic workflows and Now Assist for HRSD to facilitate and manage employee journeys throughout the different stages of the employee's career. These workflows, powered by a single or team of AI agents, help your organization by automating procedures for managers while simultaneously curating custom experiences for employees.
+Use agentic workflows and ServiceNow Otto for HRSD to facilitate and manage employee journeys throughout the different stages of the employee's career. These workflows, powered by a single or team of AI agents, help your organization by automating procedures for managers while simultaneously curating custom experiences for employees.
 
 <table id="table_qz2_z22_1fc"><thead><tr><th>
 
@@ -44,7 +44,7 @@ AI agents used in this agentic workflow:-   Journey information retrieval AI age
 
 </td><td>
 
-Provides an efficient process for helping managers generate personalized onboarding plans for new employees who are joining their organization. The workflow uses Journey designer to create a plan and tasks associated with the employee's onboarding journey. The manager uses Now Assist in Virtual Agent to review, revise, and publish the onboarding ramp-up plan that was curated by the AI agent.
+Provides an efficient process for helping managers generate personalized onboarding plans for new employees who are joining their organization. The workflow uses Journey designer to create a plan and tasks associated with the employee's onboarding journey. The manager uses ServiceNow Otto in Virtual Agent to review, revise, and publish the onboarding ramp-up plan that was curated by the AI agent.
 
 </td></tr></tbody>
 </table>**Important:** By default, all agentic workflows and AI agent records are read only.
@@ -63,10 +63,10 @@ For more information about duplicating an agentic workflow and activating the re
 -   [Activate an agentic workflow template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/activate-aia-use-case.md)
 -   [Modify an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/modify-ai-agent.md)
 
-Looking for an AI agent?
+There might be AI agents installed on your instance that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/find-ai-agents.md).
 
--   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/find-ai-agents.md).
--   To find agents that might not be installed on your instance, visit the [AI Agent Marketplace](https://store.servicenow.com/store/ai-marketplace) on the ServiceNow Store.
+-   **[Offboarding knowledge transfer plan generation agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/offboarding-knowledge-x-agentic-wf.md)**  
+The offboarding knowledge transfer plan generation agentic workflow uses AI agents to identify, categorize, and facilitate the transfer of critical knowledge from departing employees to their managers and team members.
 
 **Parent Topic:**[Using Journey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/using-jny-dsnr.md)
 

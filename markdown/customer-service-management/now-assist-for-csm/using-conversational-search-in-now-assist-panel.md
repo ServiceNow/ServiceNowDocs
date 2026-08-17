@@ -1,6 +1,6 @@
 ---
-title: Using conversational search in Now Assist panel
-description: Get common case-related information from the KBs within the case record by asking questions in the Now Assist panel.
+title: Using conversational search in ServiceNow Otto panel
+description: Get common case-related information from the KBs within the case record by asking questions in the panel.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/now-assist-for-csm/using-conversational-search-in-now-assist-panel.html
 release: zurich
@@ -10,33 +10,33 @@ topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
 keywords: [generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
-breadcrumb: [Use generative AI skills, Now Assist for CSM, Customer Service Management]
+breadcrumb: [Use generative AI skills, ServiceNow Otto for CSM, Customer Service Management]
 ---
 
-# Using conversational search in Now Assist panel
+# Using conversational search in ServiceNow Otto panel
 
-Get common case-related information from the KBs within the case record by asking questions in the Now Assist panel.
+Get common case-related information from the KBs within the case record by asking questions in the panel.
 
-This video provides a walk through of how to get common case-related information from your Knowledge Bases directly within the case record by asking questions in the Now Assist panel.
+This video provides a walk through of how to get common case-related information from your Knowledge Bases directly within the case record by asking questions in the ServiceNow Otto panel.
 
 \[Omitted video\] Description: Now Assist panel Q&amp;A search
 
-Agent Interaction with Now Assist panel and Knowledge Bases \(KBs\): As an agent, you should be able to ask questions within the Now Assist panel \(NAP\) to find any relevant information. If the answer to your question is available in the KBs, it is displayed within the Now Assist panel. Additionally, the sources from where the information is derived is also shown. If the answer is not available within the KB search, you are redirected to the global search experience.
+Agent Interaction with the panel and Knowledge Bases \(KBs\): As an agent, you should be able to ask questions within the panel \(NAP\) to find any relevant information. If the answer to your question is available in the KBs, it is displayed within the panel. Additionally, the sources from where the information is derived is also shown. If the answer is not available within the KB search, you are redirected to the global search experience.
 
 Benefits
 
--   Efficiency: Agents can quickly find answers without leaving the Now Assist panel.
+-   Efficiency: Agents can quickly find answers without leaving the panel.
 -   Transparency: Sources of information are clearly indicated, enhancing trust.
--   Comprehensive Search: If the answer isn't found in the KBs, agents are redirected to a global search to ensure no information is missed.
+-   Comprehensive Search: If the answer isn't found in the KBs, agents are redirected to a global search to make sure no information is missed.
 -   Customer Support: Agents can quickly resolve customer issues by accessing detailed and accurate information and enhancing the customer experience.
 
 To use the feature, do the following:
 
 1.  In Core UI or CSM Workspace, open a case that is assigned to you.
-2.  From the header menu, select the Now Assist icon to open the Now Assist panel.
-3.  In the Now Assist panel, type in a question related to a case.
+2.  From the header menu, select the AI icon to open the panel.
+3.  In the panel, type in a question related to a case.
 
-To get started with configuring the Now Assist Q&amp;A Skill, see the [Configuring Now Assist Admin features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configuring-na-landing.md) instructions.
+To get started with configuring the AI Q&amp;A Skill, see the [Configuring AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configuring-na-landing.md) instructions.
 
-**Parent Topic:**[Using Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
+**Parent Topic:**[Using ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-retailoperations-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -75,15 +75,15 @@ Xanadu
 
 </td><td>
 
--   **[Retail data model](https://servicenow-staging.fluidtopics.net/access?context=rahi-retail-data-model&family=xanadu&ft:locale=en-US)**
+-   **[Retail data model](https://www.servicenow.com/docs/access?context=rahi-retail-data-model&family=xanadu&ft:locale=en-US)**
 
 Optimize retail operations by modeling the hierarchical structure of your retail organization.
 
--   **[Retail case type](https://servicenow-staging.fluidtopics.net/access?context=rahi-retail-case&family=xanadu&ft:locale=en-US)**
+-   **[Retail case type](https://www.servicenow.com/docs/access?context=rahi-retail-case&family=xanadu&ft:locale=en-US)**
 
 Use the retail case type to manage in-store issues effectively.
 
--   **[Store support portal](https://servicenow-staging.fluidtopics.net/access?context=rahi-store-support-portal&family=xanadu&ft:locale=en-US)**
+-   **[Store support portal](https://www.servicenow.com/docs/access?context=rahi-store-support-portal&family=xanadu&ft:locale=en-US)**
 
 Use the Store Support Portal for retail to utilize self-service tools.
 
@@ -234,7 +234,7 @@ Xanadu
 
 </td><td>
 
-Install Retail Operations by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
+Install Retail Operations by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -425,7 +425,7 @@ Xanadu
 -   Optimize efficiency by enabling retail organization teams to request help directly from headquarters when needed through cases, live chat, phone calls, and more.
 -   Increase customer satisfaction by reporting customer issues in-store.
 
- See [Exploring Retail Operations Core](https://servicenow-staging.fluidtopics.net/access?context=rahi-retail-operations-explore&family=xanadu&ft:locale=en-US) for more information.
+ See [Exploring Retail Operations Core](https://www.servicenow.com/docs/access?context=rahi-retail-operations-explore&family=xanadu&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 

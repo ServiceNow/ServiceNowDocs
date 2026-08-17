@@ -40,7 +40,7 @@ The response templates feature automatically activates when Case and Knowledge M
 
 To use response templates in a chat in Agent Workspace for HR Service Delivery, activate: Advanced Work Assignment for HRSD \(com.sn\_hr\_awa\) plugin.
 
-For more information on setting up chat in Virtual Agent, see [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/virtual-agent-landing-page.md).
+For more information on setting up chat in Virtual Agent, see Virtual Agent.
 
 ## How to use response templates with form \(HR case or task\)
 

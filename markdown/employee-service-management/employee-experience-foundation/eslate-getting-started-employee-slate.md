@@ -55,13 +55,17 @@ Employee Slate supports two deployment paths — one with Moveworks and one with
 
 10. Connect the assistant and configure chat branding in [Configure branding and theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/eslate-config-admin-console.md).
 
-11. [Configure the AI widget builder for Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/eslate-configure-ai-widget-builder.md) and build custom widgets as explained in [Create a widget with the AI-powered Widget Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/eslate-create-widget.md).
+11. [Configure browse experience in Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/eslate-configure-browse-experience.md)
 
-12. [Create an announcement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown) for employees to stay engaged with relevant communications.
+12. [Configure knowledge widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/eslate-configure-knowledge-widget.md)
 
-13. [Configure the AI widget builder for Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/eslate-configure-ai-widget-builder.md) to set the scope, the role access, and the chat panel and [Create a widget with the AI-powered Widget Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/eslate-create-widget.md) to build custom widgets.
+13. [Configure the AI widget builder for Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/eslate-configure-ai-widget-builder.md) and build custom widgets as explained in [Create a widget with the AI-powered Widget Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/eslate-create-widget.md).
 
-14. Roll out to employees and configure analytics.
+14. [Create announcements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown) for employees to stay engaged with relevant communications.
+
+15. [Configure the AI widget builder for Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/eslate-configure-ai-widget-builder.md) to set the scope, the role access, and the chat panel and [Create a widget with the AI-powered Widget Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/eslate-create-widget.md) to build custom widgets.
+
+16. Roll out to employees and configure analytics.
 
     Share the portal URL with employees. Track engagement, content performance, and AI assistant quality from [Analytics and reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/eslate-analytics-reporting.md) and check funnels and events from [Configure analytics and reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/es-analytics-events-funnels.md).
 

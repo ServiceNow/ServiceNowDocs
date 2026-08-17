@@ -1,17 +1,17 @@
 ---
-title: AI Agent Studio
+title: AI Agent Studio overview
 description: Create, manage, or test AI agents and agentic workflows so that you can create self-executing workflows to help you achieve your business goals.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/ai-agent-studio.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-07-21"
 reading_time_minutes: 4
 keywords: [Agentic AI, AI agents]
-breadcrumb: [Explore, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Explore, AI Agent Studio, Enable AI experiences]
 ---
 
-# AI Agent Studio
+# AI Agent Studio overview
 
 Create, manage, or test AI agents and agentic workflows so that you can create self-executing workflows to help you achieve your business goals.
 
@@ -19,7 +19,7 @@ Create, manage, or test AI agents and agentic workflows so that you can create s
 
 ## AI Agent Studio overview
 
-With the AI Agent Studio application, you can create, manage, or test AI agents and agentic workflows all in one place. To enable the agentic AI experience, you must first install Now Assist AI agents. For more information, see [Install Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/install-ai-agents-plugins.md).
+With the AI Agent Studio application, you can create, manage, or test AI agents and agentic workflows all in one place. To enable the agentic AI experience, you must first install AI agents. For more information, see [Install ServiceNow Otto AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/install-ai-agents-plugins.md).
 
 The Overview page has three sections where you can find the information that you must understand, begin, and continue developing AI agents and agentic workflows. When you first go to the AI Agent Studio, tour points are available to guide you through the experience.
 
@@ -37,7 +37,7 @@ The following example shows the Overview page of AI Agent Studio.
 
 From the AI Agent Studio Create and manage page, you can create, duplicate, or manage the existing agentic workflows and AI agents. This page has two tabs, one for agentic workflows and one for AI agents. You can edit the columns of the List view to change what information is displayed. You can also search or filter the Lists to find the agentic workflows and AI agents that you're looking for quickly. By selecting the name of the agentic workflow or AI agent, you can open Guided Setup to configure or reconfigure the agentic workflow or AI agent.
 
-The following example shows the AI Agent Studio create and manage page after several Now Assist applications are installed.
+The following example shows the AI Agent Studio create and manage page after several applications are installed.
 
 \[Omitted image "aia-create-manage.png"\] Alt text: AI Agent Studio create and manage page.
 
@@ -53,7 +53,7 @@ The following example shows several execution logs in AI Agent Studio.
 
 From the AI Agent Studio testing page, you can review the different tests for your AI agents and agentic workflows, both manual and automated. You can test the performance of your agentic AI by simulating a single execution manually, or you can use [automated agentic evaluations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/execute-aia-eval.md) for testing multiple executions. Single tests are best for evaluating whether the AI agent or agentic workflow does what you expect it to. Agentic evaluations are better at finding underlying patterns and trends that may not be noticeable one execution at a time.
 
-**Note:** The testing feature does not support the Now Assist panel assistance for live agent interactions. To connect to a live agent, use Now Assist in Virtual Agent instead. Otherwise, during live agent chat sessions, requester and agent users may be logged out unexpectedly due to sessions expiring prematurely.
+**Note:** The testing feature does not support the ServiceNow Otto panel assistance for live agent interactions. To connect to a live agent, use ServiceNow Otto for Virtual Agent instead. Otherwise, during live agent chat sessions, requester and agent users may be logged out unexpectedly due to sessions expiring prematurely.
 
 There are two types of manual tests you can do: **AI agent or agentic workflow** to test execution or **Test access** to test security controls. You can view your executed tests in the two tabs of the testing page. For manual execution tests, you can select the reply button to repeat the test. You can open the full details page of an automated test by selecting the test's name in the list in the **Automated** tab.
 
@@ -65,7 +65,7 @@ The following example shows the inputs for a Generate Resolution Plan agentic wo
 
 ## AI Agent Studio settings
 
-From the AI Agent Studio Settings page, you can enable Now Assist Guardian for your AI agents. By using Now Assist Guardian, you can configure:
+From the AI Agent Studio Settings page, you can enable AI Guardian for your AI agents. By using AI Guardian, you can configure:
 
 -   [Offensiveness detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/enable-aia-na-guardian.md)
 -   [Prompt injection attempt decision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/enable-aia-na-guardian.md)

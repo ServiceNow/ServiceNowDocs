@@ -1,18 +1,18 @@
 ---
-title: Use agentic workflows in Now Assist for Sales Force Automation \(SFA\)
-description: Use the Now Assist for Sales Force Automation \(SFA\) AI agent collection to complete tasks autonomously.
+title: Use agentic workflows in ServiceNow Otto for Sales Automation
+description: Use the ServiceNow Otto for Sales Automation AI agent collection to complete tasks autonomously.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/using-agentic-worklflows-in-lead-management.html
 release: zurich
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 2
-breadcrumb: [Now Assist for SFA]
+reading_time_minutes: 1
+breadcrumb: [ServiceNow Otto for Sales Automation]
 ---
 
-# Use agentic workflows in Now Assist for Sales Force Automation \(SFA\)
+# Use agentic workflows in ServiceNow Otto for Sales Automation
 
-Use the Now Assist for Sales Force Automation \(SFA\) AI agent collection to complete tasks autonomously.
+Use the ServiceNow Otto for Sales Automation AI agent collection to complete tasks autonomously.
 
 The Help nurture new leads agentic workflow works with a team of AI agents to assist you with managing the life cycle of leads, either independently or under supervision.
 
@@ -20,7 +20,7 @@ The Help nurture new leads agentic workflow works with a team of AI agents to as
 
 The prerequisites to use an agentic workflow are as follows:
 
--   Make sure that the Now Assist panel is turned on.
+-   Make sure that the ServiceNow Otto panel is turned on.
 -   Set up the work schedule for sales agents:
     -   Navigate to **All** &gt; **Agent schedule** &gt; **Work schedule**.
     -   Create a work schedule for sales agents.
@@ -66,13 +66,10 @@ To run the AI agents autonomously, you must first [duplicate the agentic workflo
 -   Activate all agents within the agentic workflow.
 -   Activate the trigger to invoke the agentic workflow automatically. The triggers for each agentic workflow must be unique. If you prefer to invoke it manually, activating the trigger isn’t necessary.
 
-Looking for an AI agent?
-
--   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/find-ai-agents.md).
--   To find agents that might not be installed on your instance, visit the [AI Agent Marketplace](https://store.servicenow.com/store/ai-marketplace) on the ServiceNow Store.
+There might be AI agents installed on your instance that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/find-ai-agents.md).
 
 -   **[Help nurture new leads agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/help-nurture-new-leads-agentic-workflow.md)**  
 Use the Help nurture new leads agentic workflow to process the entire lead record process.
 
-**Parent Topic:**[Now Assist for Sales Force Automation \(SFA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/now-assist-for-sales-and-order-management-som.md)
+**Parent Topic:**[ServiceNow Otto for Sales Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/now-assist-for-sales-and-order-management-som.md)
 

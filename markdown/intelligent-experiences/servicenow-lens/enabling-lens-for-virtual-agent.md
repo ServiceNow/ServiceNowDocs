@@ -7,7 +7,7 @@ release: zurich
 product: ServiceNow Lens
 classification: servicenow-lens
 topic_type: concept
-last_updated: "2025-07-28"
+last_updated: "2026-08-04"
 reading_time_minutes: 3
 breadcrumb: [Configure, ServiceNow AI Lens, Enable AI experiences]
 ---
@@ -143,7 +143,7 @@ Role required: admin or delegated developer
 
 ### About this task
 
-Do this procedure when you do not see the Now Assist \[Omitted image "icon-ai-sparkle.png"\] Alt text: icon in the Now Mobile app.
+Do this procedure when you don't see the ServiceNow Otto\[Omitted image "icon-ai-admin-center-otto-panel.png"\] icon in the Now Mobile app.
 
 ### Procedure
 

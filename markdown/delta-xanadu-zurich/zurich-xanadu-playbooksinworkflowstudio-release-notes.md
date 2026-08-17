@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-playbooksinworkflowstudio-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 9
+last_updated: "2026-08-17"
+reading_time_minutes: 11
 breadcrumb: [Products combined by family]
 ---
 
@@ -75,41 +75,41 @@ Xanadu
 
 </td><td>
 
--   **[Variants](https://servicenow-staging.fluidtopics.net/access?context=playbook-variants&family=xanadu&ft:locale=en-US)**
+-   **[Variants](https://www.servicenow.com/docs/access?context=playbook-variants&family=xanadu&ft:locale=en-US)**
 
 Use one playbook for multiple scenarios with variants.
 
--   **[Playbook recommendations](https://servicenow-staging.fluidtopics.net/access?context=playbook-recommendations&family=xanadu&ft:locale=en-US)**
+-   **[Playbook recommendations](https://www.servicenow.com/docs/access?context=playbook-recommendations&family=xanadu&ft:locale=en-US)**
 
 Get suggestions on which activities to replace placeholder activities with.
 
--   **[Re-prompt and preview](https://servicenow-staging.fluidtopics.net/access?context=generate-a-playbook-outline&family=xanadu&ft:locale=en-US)**
+-   **[Re-prompt and preview](https://www.servicenow.com/docs/access?context=generate-a-playbook-outline&family=xanadu&ft:locale=en-US)**
 
 Preview and modify your prompt before building your playbook.
 
--   **[Image to playbook generation](https://servicenow-staging.fluidtopics.net/access?context=generate-a-playbook-outline&family=xanadu&ft:locale=en-US)**
+-   **[Image to playbook generation](https://www.servicenow.com/docs/access?context=generate-a-playbook-outline&family=xanadu&ft:locale=en-US)**
 
 Generate a playbook with out-of-the-box activities from text, an image, or both.
 
--   **[Questionnaire activity](https://servicenow-staging.fluidtopics.net/access?context=questionnaire-activity&family=xanadu&ft:locale=en-US)**
+-   **[Questionnaire activity](https://www.servicenow.com/docs/access?context=questionnaire-activity&family=xanadu&ft:locale=en-US)**
 
 Reference flow glide variable input and output values in an activity's condition builders to collect up to 10 pieces of information from an agent or fulfiller to use later during a playbook run, without requiring an existing table or fields.
 
--   **[Greater access controls](https://servicenow-staging.fluidtopics.net/access?context=user-access-playbooks&family=xanadu&ft:locale=en-US)**
+-   **[Greater access controls](https://www.servicenow.com/docs/access?context=user-access-playbooks&family=xanadu&ft:locale=en-US)**
 
 Better manage access to your playbooks and playbook components.
 
--   **[Archived data enhancements](https://servicenow-staging.fluidtopics.net/access?context=archive-process-executions&family=xanadu&ft:locale=en-US)**
+-   **[Archived data enhancements](https://www.servicenow.com/docs/access?context=archive-process-executions&family=xanadu&ft:locale=en-US)**
 
 Schedule process execution data to be archived, and view the JSON files for your archived data.
 
--   **[Script support for activate, restart, deactivate, and duplicate](https://servicenow.com/docs/bundle/xanadu-release-notes/page/release-notes/now-platform-app-engine/api-rn.html)**
+-   **[Script support for activate, restart, deactivate, and duplicate](https://www.servicenow.com/docs/access?context=api-rn&family=xanadu&ft:locale=en-US)**
 
 Use a script include or business rule that calls the activate, deactivate, restart, or duplicate playbook APIs.
 
--   **[Washington 25.2 release](https://servicenow.com/docs/bundle/washingtondc-release-notes/page/release-notes/now-platform-app-engine/process-automation-designer-rn.html)**
+-   **[Washington 25.2 release](https://www.servicenow.com/docs/access?context=process-automation-designer-rn&family=xanadu&ft:locale=en-US)**
 
-See 25.2 features in the [Washington DC Playbooks release notes](https://servicenow.com/docs/bundle/washingtondc-release-notes/page/release-notes/now-platform-app-engine/process-automation-designer-rn.html):
+See 25.2 features in the [Washington DC Playbooks release notes](https://www.servicenow.com/docs/access?context=process-automation-designer-rn&family=xanadu&ft:locale=en-US):
 
     -   Playbook Assist
 
@@ -119,27 +119,27 @@ Yokohama
 
 </td><td>
 
--   **[Translate playbooks content](https://servicenow-staging.fluidtopics.net/access?context=add-translations-playbooks&family=yokohama&ft:locale=en-US)**
+-   **[Translate playbooks content](https://www.servicenow.com/docs/access?context=add-translations-playbooks&family=yokohama&ft:locale=en-US)**
 
 Add custom translations for labels, descriptions, and UI Layout properties in your playbooks.
 
--   **[Restart playbook activities that end in error](https://servicenow-staging.fluidtopics.net/access?context=restart&family=yokohama&ft:locale=en-US)**
+-   **[Restart playbook activities that end in error](https://www.servicenow.com/docs/access?context=restart&family=yokohama&ft:locale=en-US)**
 
-Configure activities so that end users can restart any activity that ends in an error.
+Configure activities so that end users can restart any activity that ends in an error and variant conditions are automatically re-evaluated when playbooks are restarted.
 
--   **[Support for Retrieval Augmented Generation \(RAG\) with playbook generation](https://servicenow-staging.fluidtopics.net/access?context=playbook-assist&family=yokohama&ft:locale=en-US)**
+-   **[Support for Retrieval Augmented Generation \(RAG\) with playbook generation](https://www.servicenow.com/docs/access?context=playbook-assist&family=yokohama&ft:locale=en-US)**
 
 Generate playbooks from inputs that refer to custom actions, flows, subflows, content from installed spokes, or activity definitions. Include the names of commonly used and recently published actions, subflows, flows, and activity definitions available on your instance in your playbook generation requests.
 
--   **[Generate playbooks with the OpenAI GPT-4o LLM](https://servicenow-staging.fluidtopics.net/access?context=change-default-llm-playbook-generation&family=yokohama&ft:locale=en-US)**
+-   **[Generate playbooks with the OpenAI GPT-4o LLM](https://www.servicenow.com/docs/access?context=change-default-llm-playbook-generation&family=yokohama&ft:locale=en-US)**
 
 Use the OpenAI GPT-4o LLM to generate a playbook from text.
 
--   **[Add more fields in Create Task activities](https://servicenow-staging.fluidtopics.net/access?context=create-task-activity&family=yokohama&ft:locale=en-US)**
+-   **[Add more fields in Create Task activities](https://www.servicenow.com/docs/access?context=create-task-activity&family=yokohama&ft:locale=en-US)**
 
 Add more fields in a more configurable Create Task activity.
 
--   **[Create a checklist directly in Workflow Studio](https://servicenow-staging.fluidtopics.net/access?context=checklist-task-activity&family=yokohama&ft:locale=en-US)**
+-   **[Create a checklist directly in Workflow Studio](https://www.servicenow.com/docs/access?context=checklist-task-activity&family=yokohama&ft:locale=en-US)**
 
 Create a checklist directly in the side panel without needing a checklist template.
 
@@ -150,48 +150,73 @@ Zurich
 
 </td><td>
 
--   **[Set child variants to evaluate later in a playbook](https://servicenow-staging.fluidtopics.net/access?context=set-evaluation-point&family=zurich&ft:locale=en-US)**
+-   **[Set child variants to evaluate later in a playbook](https://www.servicenow.com/docs/access?context=set-evaluation-point&family=zurich&ft:locale=en-US)**
 
 Instead of evaluating immediately after the trigger, set a playbook's child variants to be evaluated after a specific activity in the playbook.
 
--   **[Agentic Playbooks](https://servicenow-staging.fluidtopics.net/access?context=agentic-playbooks&family=zurich&ft:locale=en-US)**
+-   **[Agentic Playbooks](https://www.servicenow.com/docs/access?context=agentic-playbooks&family=zurich&ft:locale=en-US)**
 
 Enable AI agents to assist users with activities during runtime.
 
--   **[Add permissions for playbook authors](https://servicenow-staging.fluidtopics.net/access?context=user-access-playbooks&family=zurich&ft:locale=en-US)**
+-   **[Add permissions for playbook authors](https://www.servicenow.com/docs/access?context=user-access-playbooks&family=zurich&ft:locale=en-US)**
 
 Control which playbook authors can create, edit, and view playbooks in Workflow Studio
 
--   **[Add permissions for runtime users](https://servicenow-staging.fluidtopics.net/access?context=create-process-definition&family=zurich&ft:locale=en-US)**
+-   **[Add permissions for runtime users](https://www.servicenow.com/docs/access?context=create-process-definition&family=zurich&ft:locale=en-US)**
 
-Control whether runtime users can [view a playbook](https://servicenow-staging.fluidtopics.net/access?context=create-process-definition&family=zurich&ft:locale=en-US), [add optional activities](https://servicenow-staging.fluidtopics.net/access?context=optional-activities&family=zurich&ft:locale=en-US), [restart a playbook](https://servicenow-staging.fluidtopics.net/access?context=restart&family=zurich&ft:locale=en-US), and [complete work within specific stages](https://servicenow-staging.fluidtopics.net/access?context=add-configure-stage&family=zurich&ft:locale=en-US).
+Control whether runtime users can [view a playbook](https://www.servicenow.com/docs/access?context=create-process-definition&family=zurich&ft:locale=en-US), [add optional activities](https://www.servicenow.com/docs/access?context=optional-activities&family=zurich&ft:locale=en-US), [restart a playbook](https://www.servicenow.com/docs/access?context=restart&family=zurich&ft:locale=en-US), and [complete work within specific stages](https://www.servicenow.com/docs/access?context=add-configure-stage&family=zurich&ft:locale=en-US).
 
--   **[Create decision branches for stages](https://servicenow-staging.fluidtopics.net/access?context=create-decision-stage&family=zurich&ft:locale=en-US)**
+-   **[Create decision branches for stages](https://www.servicenow.com/docs/access?context=create-decision-stage&family=zurich&ft:locale=en-US)**
 
 Add a decision node between stages to determine which stage to run next, based on runtime conditions.
 
--   **[Set multiple triggers](https://servicenow-staging.fluidtopics.net/access?context=process-automation-designer-triggers&family=zurich&ft:locale=en-US)**
+-   **[Set multiple triggers](https://www.servicenow.com/docs/access?context=process-automation-designer-triggers&family=zurich&ft:locale=en-US)**
 
 Configure a playbook to run based on any one of multiple triggers.
 
--   **[Schedule when a playbook should trigger](https://servicenow-staging.fluidtopics.net/access?context=create-scheduled-trigger-definition&family=zurich&ft:locale=en-US)**
+-   **[Schedule when a playbook should trigger](https://www.servicenow.com/docs/access?context=create-scheduled-trigger-definition&family=zurich&ft:locale=en-US)**
 
 Configure a playbook to run based on a schedule.
 
--   **[Choose your LLM for playbook generation and recommendations](https://servicenow-staging.fluidtopics.net/access?context=change-default-llm-playbook-generation&family=zurich&ft:locale=en-US)**
+-   **[Choose your LLM for playbook generation and recommendations](https://www.servicenow.com/docs/access?context=change-default-llm-playbook-generation&family=zurich&ft:locale=en-US)**
 
 Choose between NowLLM, OpenAI ChatGPT4-o, Gemini, Claude for playbook generation and recommendations.
 
--   **[Route users to stages based on decisions](https://servicenow-staging.fluidtopics.net/access?context=add-configure-stage&family=zurich&ft:locale=en-US)**
+-   **[Route users to stages based on decisions](https://www.servicenow.com/docs/access?context=add-configure-stage&family=zurich&ft:locale=en-US)**
 
 Send runtime users to a stage based off of the trigger record or input that users provide.
 
--   **[Yokohama 27.2 and 27.3 releases](https://servicenow.com/docs/bundle/yokohama-release-notes/page/release-notes/now-platform-app-engine/process-automation-designer-rn.html)**
+-   **[Generate a playbook with a trigger](https://www.servicenow.com/docs/access?context=playbook-assist&family=zurich&ft:locale=en-US)**
 
-See 27.2 and 27.3 features in the [Yokohama Playbooks release notes](https://servicenow.com/docs/bundle/yokohama-release-notes/page/release-notes/now-platform-app-engine/process-automation-designer-rn.html):
+Generate a playbook with both a trigger and activities.
 
-    -   [Generate a playbook with the OpenAI GPT-4o LLM](https://servicenow-staging.fluidtopics.net/access?context=generate-a-playbook-outline&family=zurich&ft:locale=en-US)
-    -   [Retrieval Augmented Generation \(RAG\) for playbooks](https://servicenow-staging.fluidtopics.net/access?context=playbook-assist&family=zurich&ft:locale=en-US)
+
+-   **[Playbook summarization](https://www.servicenow.com/docs/access?context=playbook-summarization&family=zurich&ft:locale=en-US)**
+
+Generate an AI-powered summary of a playbook from the Workflow Studio canvas. The summary covers the playbook's stages, activities, triggers, and inputs, helping you understand quickly about its purpose and flow without reading through each activity individually.
+
+-   **[Use AI skill as an activity](https://www.servicenow.com/docs/access?context=use-ai-skill-as-activity&family=zurich&ft:locale=en-US)**
+
+Add an existing AI skill as an activity in your playbook to run lightweight, focused AI tasks as part of the playbook flow. When the playbook reaches the activity, the skill executes, produces structured outputs, and passes those outputs to subsequent activities automatically.
+
+-   **[Use custom agent in Agentic Playbooks](https://www.servicenow.com/docs/access?context=configure-agentic-playbooks&family=zurich&ft:locale=en-US)**
+
+In addition to the default AI Agents, you can add your custom AI Agent for an activity. Choose how you want to use the AI Agents in the activity- Collaborative or Autonomous.
+
+
+-   **[Playbook generation from a KB article](https://www.servicenow.com/docs/access?context=playbook-generation-from-kb&family=zurich&ft:locale=en-US)**
+
+Generate a playbook directly from an existing knowledge base article to reduce manual effort when creating playbooks for documented processes.
+
+
+-   **[Playbook as an MCP tool](https://www.servicenow.com/docs/access?context=playbook-as-mcp-tool&family=zurich&ft:locale=en-US)**
+
+Expose a playbook as a tool in an MCP server, enabling MCP clients to trigger and execute the playbook through the Model Context Protocol \(MCP\).
+
+-   **[AI agents autonomous support configurations](https://www.servicenow.com/docs/access?context=create-activity-definition&family=zurich&ft:locale=en-US)**
+
+Configure in the activity definition how you want autonomous support from AI agents for that activity. The additional configurations help you gain more control on the activity in a playbook.
+
 
 </td></tr></tbody>
 </table>## Changes
@@ -212,7 +237,7 @@ Xanadu
 
 </td><td>
 
--   **[Updated Roles](https://servicenow-staging.fluidtopics.net/access?context=process-automation-designer-roles&family=xanadu&ft:locale=en-US)**
+-   **[Updated Roles](https://www.servicenow.com/docs/access?context=process-automation-designer-roles&family=xanadu&ft:locale=en-US)**
 
 The pd\_admin role is now playbook.admin.
 
@@ -227,7 +252,7 @@ Yokohama
 
 </td><td>
 
--   **[Change triggers in any playbook](https://servicenow-staging.fluidtopics.net/access?context=duplicate-process&family=yokohama&ft:locale=en-US)**
+-   **[Change triggers in any playbook](https://www.servicenow.com/docs/access?context=duplicate-process&family=yokohama&ft:locale=en-US)**
 
 Edit triggers when you duplicate a playbook, in a variant, etc.
 
@@ -238,24 +263,28 @@ Zurich
 
 </td><td>
 
--   **[Activate playbooks without a trigger](https://servicenow-staging.fluidtopics.net/access?context=process-automation-designer-triggers&family=zurich&ft:locale=en-US)**
+-   **[Activate playbooks without a trigger](https://www.servicenow.com/docs/access?context=process-automation-designer-triggers&family=zurich&ft:locale=en-US)**
 
 Configure and activate playbooks without specifying triggers, so that playbooks are only triggered programmatically.
 
--   **[Implement playbooks that are callable by a scriptable API](https://servicenow-staging.fluidtopics.net/access?context=process-automation-designer-triggers&family=zurich&ft:locale=en-US)**
+-   **[Implement playbooks that are callable by a scriptable API](https://www.servicenow.com/docs/access?context=process-automation-designer-triggers&family=zurich&ft:locale=en-US)**
 
 Configure a playbook that executes with an input object instead of requiring the configuration of a trigger record reference and trigger conditions.
 
--   **[Decision activity enhancements](https://servicenow-staging.fluidtopics.net/access?context=create-a-decision-activity&family=zurich&ft:locale=en-US)**
+-   **[Decision activity enhancements](https://www.servicenow.com/docs/access?context=create-a-decision-activity&family=zurich&ft:locale=en-US)**
 
 User experience improvements to decision activities:
 
-    -   In the Board view, select the branch or Start rule icon on a decision activity card to see a list of dependent activities and branches, and to navigate to them.
+    -   In the Board view, select the branch to see a list of dependent activities and branches, and to navigate to them.
     -   When a decision or one of its branch nodes is selected in Diagram view, the decision and all of its branches are selected, and the side panel opens.
     -   Add parallel activities within decision branches.
--   **[Enter a combination of pills and text in an email body](https://servicenow-staging.fluidtopics.net/access?context=add-configure-activity&family=zurich&ft:locale=en-US)**
+-   **[Enter a combination of pills and text in an email body](https://www.servicenow.com/docs/access?context=add-configure-activity&family=zurich&ft:locale=en-US)**
 
 Enter a combination of text and multiple pills in any rich text / HTML editor container, such as an email body.
+
+-   **[ServiceNow Otto](https://www.servicenow.com/docs/access?context=now-assist-for-creator-landing&family=zurich&ft:locale=en-US)**
+
+ServiceNow Otto is the new AI experience brand. This change is reflected in the name of ServiceNow products, including Playbooks. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
 
 
 </td></tr></tbody>
@@ -356,7 +385,7 @@ The application comes with the app in the Workflow Studio ServiceNow Store app. 
 
  To use the playbook generation feature in Workflow Studio, download the [Now Assist for Creator](https://store.servicenow.com/sn_appstore_store.do#!/store/application/8178fec0ce0431105a7c9305875b2dca) application.
 
- Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
+ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -366,9 +395,9 @@ Yokohama
 
 The application comes with the application can be downloaded for patch fixes.Workflow Studio ServiceNow Store app. Workflow Studio is part of the ServiceNow AI Platform® and is available by default. Get the latest Workflow Studio features by downloading the latest Workflow Studio app in the ServiceNow Store, as well as related applications like the Process Automation Content and Process Automation Experience Demo applications. The
 
- To use the playbook generation feature in Workflow Studio, download the [Now Assist for Creator](https://store.servicenow.com/sn_appstore_store.do#!/store/application/8178fec0ce0431105a7c9305875b2dca) application.
+ To use the playbook generation feature in Workflow Studio, download the [ServiceNow Otto for Creator](https://store.servicenow.com/sn_appstore_store.do#!/store/application/8178fec0ce0431105a7c9305875b2dca) application.
 
- Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -378,9 +407,9 @@ Zurich
 
 The application comes with the application can be downloaded for patch fixes.Workflow Studio ServiceNow Store app. Workflow Studio is part of the ServiceNow AI Platform® and is available by default. Get the latest Workflow Studio features by downloading the latest Workflow Studio app in the ServiceNow Store, as well as related applications like the Process Automation Content and Process Automation Experience Demo applications. The
 
- To use the playbook generation feature in Workflow Studio, download the [Now Assist for Creator](https://store.servicenow.com/sn_appstore_store.do#!/store/application/8178fec0ce0431105a7c9305875b2dca) application.
+ To use the playbook generation feature in Workflow Studio, download the [ServiceNow Otto for Creator](https://store.servicenow.com/sn_appstore_store.do#!/store/application/8178fec0ce0431105a7c9305875b2dca) application.
 
- Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -505,8 +534,10 @@ Zurich
 
 </td><td>
 
--   In Diagram view, navigate between and configure stages and activities [via keyboard](https://servicenow-staging.fluidtopics.net/access?context=keyboard-navigation-in-playbook-diagram-view&family=zurich&ft:locale=en-US).
--   Set the action bar to always show in Diagram view. To learn more, see [View all buttons without hover](https://servicenow-staging.fluidtopics.net/access?context=view-all-buttons-without-hover&family=zurich&ft:locale=en-US).
+-   In Diagram view, navigate between and configure stages and activities [via keyboard](https://www.servicenow.com/docs/access?context=keyboard-navigation-in-playbook-diagram-view&family=zurich&ft:locale=en-US).
+-   Set the action bar to always show in Diagram view. To learn more, see [View all buttons without hover](https://www.servicenow.com/docs/access?context=view-all-buttons-without-hover&family=zurich&ft:locale=en-US).
+-   In Diagram view, use a screen reader to help navigate the designer.
+-   Updated color contrast for activities to meet WCAG standards.
 
 </td></tr></tbody>
 </table>## Localization information
@@ -571,7 +602,7 @@ Xanadu
 -   Collect custom responses from an end user, without requiring an existing table or fields.
 -   Better manage access to your playbooks and playbook components.
 
- See [Exploring playbooks](https://servicenow-staging.fluidtopics.net/access?context=process-automation-designer&family=xanadu&ft:locale=en-US) for more information.
+ See [Exploring playbooks](https://www.servicenow.com/docs/access?context=process-automation-designer&family=xanadu&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -585,7 +616,7 @@ Yokohama
 -   Generate a playbook via API in other ServiceNow applications such as IT Operations Management \(ITOM\).
 -   Generate playbooks from inputs that refer to active actions, flows, subflows, content from installed spokes, or activity definitions.
 
- See [Exploring playbooks](https://servicenow-staging.fluidtopics.net/access?context=process-automation-designer&family=yokohama&ft:locale=en-US) for more information.
+ See [Exploring playbooks](https://www.servicenow.com/docs/access?context=process-automation-designer&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -599,7 +630,7 @@ Zurich
 -   Set child variants to evaluate later in a playbook.
 -   Create decision branches for stages.
 
- See [Playbooks](https://servicenow-staging.fluidtopics.net/access?context=process-automation-designer&family=zurich&ft:locale=en-US) for more information.
+ See [Playbooks](https://www.servicenow.com/docs/access?context=process-automation-designer&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/rn-combined-intro.md)

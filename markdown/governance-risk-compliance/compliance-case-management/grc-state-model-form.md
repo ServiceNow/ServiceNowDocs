@@ -1,5 +1,5 @@
 ---
-title: GRC state model form
+title: GRC State Model form
 description: Use the GRC State Model form to define the workflow states and transition conditions in the Compliance Case Management application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/compliance-case-management/grc-state-model-form.html
@@ -7,12 +7,12 @@ release: zurich
 product: Compliance Case Management
 classification: compliance-case-management
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Create compliance state model, Configure, Compliance Case Management, Governance, Risk, and Compliance]
 ---
 
-# GRC state model form
+# GRC State Model form
 
 Use the GRC State Model form to define the workflow states and transition conditions in the Compliance Case Management application.
 

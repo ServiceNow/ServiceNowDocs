@@ -164,7 +164,7 @@ Test PowerShell Step
 
 </td><td>
 
-Button to test the configured credential for the PowerShell step. For more information, see [Test a credential for the PowerShell step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/test-credential-powershell.md).
+Button to test the configured credential for the PowerShell step. For more information, see Test a credential for the PowerShell step.
 
 </td></tr><tr><td>
 

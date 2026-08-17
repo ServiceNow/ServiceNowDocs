@@ -57,15 +57,15 @@ Asset model with which you want to replace the hardware asset.The list shows the
 </td></tr></tbody>
 </table>4.  Determine where the replacement asset should be sent.
 
-<table id="choicetable_g14_wv2_yxb"><thead><tr><th align="left" id="d294230e143">
+<table id="choicetable_g14_wv2_yxb"><thead><tr><th align="left" id="d296003e143">
 
 Shipping location
 
-</th><th align="left" id="d294230e146">
+</th><th align="left" id="d296003e146">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d294230e152">
+</th></tr></thead><tbody><tr><td id="d296003e152">
 
 **Your location**
 
@@ -73,7 +73,7 @@ Action
 
 In the **Refresh method** field, select **Ship**.**Note:** The form shows your contact details such as your address and phone number. You can change your contact details if necessary.
 
-</td></tr><tr><td id="d294230e169">
+</td></tr><tr><td id="d296003e169">
 
 **Stockroom**
 

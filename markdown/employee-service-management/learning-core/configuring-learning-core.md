@@ -16,6 +16,8 @@ breadcrumb: [Learning Core overview, HR Service Delivery, Employee Service Manag
 
 Set up and configure Learning Core with a learning management system to build a learning content repository.
 
+-   **[Install Learning Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/learning-core/install-learning-core.md)**  
+You can install the Learning Core application \(sn\_lc\) if you have the admin role. The application includes demo data and installs related ServiceNow® Store applications and plugins if they are not already installed.
 -   **[Administration tasks in Learning Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/learning-core/ln-administration.md)**  
 Complete the administrative tasks in Learning Core with the Learning admin \[learning\_admin\] role.
 -   **[Integrating Learning Core with third-party learning management systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/learning-core/setup-learning-third-party-1.md)**  
