@@ -32,7 +32,7 @@ If you are an upgrade customer, you must manually activate the Read only roles f
 
 ## SAFe tables accessible by users with the business stakeholder role
 
-When the read-only roles for SAFe plugin \(com.snc.sdlc.safe\_read\_roles\) is active in your ServiceNow instance along with either the Essential SAFe plugin \(com.snc.sdlc.safe\) or Portfolio SAFe plugin \(com.snc.sdlc.portfolio\_safe\), the user with the business stakeholder role \(sn\_safe\_read\) has read access to the following tables.
+When the read-only roles for SAFe plugin \(com.snc.sdlc.safe\_read\_roles\) is active in your ServiceNow instance along with either the Essential SAFe plugin \(com.snc.sdlc.safe\) or Portfolio SAFe plugin \(com.snc.sdlc.portfolio\_safe\), users with the business stakeholder role \(sn\_safe\_read\) can access the following tables. The role provides read access to these tables.
 
 <table id="table_dqt_pnp_kcb0"><thead><tr><th>
 

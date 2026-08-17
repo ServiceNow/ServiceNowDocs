@@ -9,7 +9,7 @@ classification: accounts-payable-operations
 topic_type: task
 last_updated: "2025-11-03"
 reading_time_minutes: 1
-breadcrumb: [Configure Now Assist for Accounts Payable Operations \(APO\), Now Assist for Accounts Payable Operations \(APO\), Accounts Payable Operations, Finance and Supply Chain]
+breadcrumb: [Configure ServiceNow Otto for Accounts Payable Operations \(APO\), ServiceNow Otto for Accounts Payable Operations \(APO\), Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Configure Invoice case summarization
@@ -24,7 +24,7 @@ Install the Document Intelligence for Accounts Payable Operations Content Pack f
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Features** to access the **Now Assist Features** tab of the Now Assist Admin console.
+1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Features** to access the **Now Assist Features** tab of the AI Admin Hub console.
 
 2.  Expand the **Finance and Supply Chain** workflow group and select **Accounts Payable Operations**.
 
@@ -51,15 +51,15 @@ Install the Document Intelligence for Accounts Payable Operations Content Pack f
 
     6.  Select **Define Availability** and choose one of the following options.
 
-<table id="choicetable_rhm_hxq_1fc"><thead><tr><th align="left" id="d189460e231">
+<table id="choicetable_rhm_hxq_1fc"><thead><tr><th align="left" id="d189361e231">
 
 Option
 
-</th><th align="left" id="d189460e234">
+</th><th align="left" id="d189361e234">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d189460e240">
+</th></tr></thead><tbody><tr><td id="d189361e240">
 
 **Skill is always available**
 
@@ -67,7 +67,7 @@ Description
 
 The skill is always available to users.
 
-</td></tr><tr><td id="d189460e249">
+</td></tr><tr><td id="d189361e249">
 
 **Customize skill availability**
 
@@ -80,15 +80,15 @@ The skill is available only when the certain conditions are met \(default\).Use 
 
     2.  Choose **Select display** to determine where you'd like to display the skill.
 
-<table id="choicetable_fhc_qxq_1fc"><thead><tr><th align="left" id="d189460e285">
+<table id="choicetable_fhc_qxq_1fc"><thead><tr><th align="left" id="d189361e285">
 
 Option
 
-</th><th align="left" id="d189460e288">
+</th><th align="left" id="d189361e288">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d189460e294">
+</th></tr></thead><tbody><tr><td id="d189361e294">
 
 **In-product desktop**
 
@@ -96,7 +96,7 @@ Description
 
 Now Assist skills are displayed on forms and workspaces.
 
-</td></tr><tr><td id="d189460e305">
+</td></tr><tr><td id="d189361e305">
 
 **Now Assist panel**
 

@@ -24,7 +24,7 @@ The agents, tools, and triggers that are associated with the Propose survey resp
 
 ## Prerequisites and setup
 
-To access this workflow, you must have Now Assist for Platform installed on your instance, which you can get if you install any other Now Assist application, such as Now Assist for IT Service Management \(ITSM\).
+To access this workflow, you must have Now Assist for Platform installed on your instance, which you can get if you install any other Now Assist application, such as ServiceNow Otto for IT Service Management \(ITSM\).
 
 You can use this workflow for any survey triggered on the Incident or Request table. For example, this agentic workflow can be used by the Short Customer Satisfaction Survey with Smiley Face when an Incident is closed. You can change existing surveys, and the agentic workflow can still propose answers. The agentic workflow can also be used for custom surveys triggered by the Incident or Request table as long as there’s a trigger associated with the survey. See [Configure a trigger condition for a survey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/t_CreateATriggerCondition.md) for instructions on adding a trigger to a survey.
 

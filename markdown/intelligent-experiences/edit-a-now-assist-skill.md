@@ -23,7 +23,7 @@ Role required: sn\_generative\_ai.nsa\_admin
 
 1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Now Assist Skills**.
 
-    If you’re already in the Now Assist Admin console, select the **Now Assist Skills** tab.
+    If you’re already in the AI Admin Hub console, select the **Now Assist Skills** tab.
 
 2.  Select a workflow on the navigation panel, such as **Technology**.
 

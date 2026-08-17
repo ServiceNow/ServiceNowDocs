@@ -30,15 +30,15 @@ Updating the actual value of a target breakdown automatically updates the actual
 
 1.  Open the target record of the goal using one of the following options.
 
-<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d80090e65">
+<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d79667e65">
 
 Option
 
-</th><th align="left" id="d80090e68">
+</th><th align="left" id="d79667e68">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d80090e74">
+</th></tr></thead><tbody><tr><td id="d79667e74">
 
 **From the Goals and targets tab or Target breakdown side panel**
 
@@ -54,7 +54,7 @@ The target breakdown side panel opens with the **Check-in actuals** window.
 
 Alternatively, you can select the cell in the Actual column of the target breakdown and enter the actual value on the **Goals and targets** tab.
 
-</td></tr><tr><td id="d80090e138">
+</td></tr><tr><td id="d79667e138">
 
 **From the Target breakdowns tab**
 

@@ -44,7 +44,7 @@ Server
 
 </td><td>
 
-Name of the server related to the TRM product.**Note:** This field is available from Technology Portfolio Management \(TPM\) plugin version 1.7.1.
+Name of the server related to the TRM product.**Note:** This field is available from Technology Lifecycle Management \(TLM\) plugin version 1.7.1.
 
 </td></tr><tr><td>
 

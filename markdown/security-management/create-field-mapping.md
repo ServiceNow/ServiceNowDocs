@@ -93,7 +93,7 @@ Description for the field map.
 
 6.  Fill in the fields on the form, as appropriate.
 
-<table id="choicetable_w4v_gmy_tz"><tbody><tr><td id="d148677e243">
+<table id="choicetable_w4v_gmy_tz"><tbody><tr><td id="d150066e243">
 
 **Field**
 
@@ -101,7 +101,7 @@ Description for the field map.
 
 Description
 
-</td></tr><tr><td id="d148677e252">
+</td></tr><tr><td id="d150066e252">
 
 **Store value in a field or a related list**
 
@@ -113,7 +113,7 @@ Select where to find the value. Choices include:-   Add new value into a field i
 
 **Note:** If the destination table does not have any related lists, this field is not displayed.
 
-</td></tr><tr><td id="d148677e275">
+</td></tr><tr><td id="d150066e275">
 
 **Field**
 
@@ -125,7 +125,7 @@ For choice fields, matches are made to existing choices using the underlying cho
 
 For reference fields, an entry is set only when a value matching the display name of the record, or valid`sys_id` is found. For more information, see [Reference fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/c_ReferenceField.md).
 
-</td></tr><tr><td id="d148677e314">
+</td></tr><tr><td id="d150066e314">
 
 **Related list**
 
@@ -133,7 +133,7 @@ For reference fields, an entry is set only when a value matching the display nam
 
 When **Store value in a field or related list** is set to **Link to this value in a related list** or **Link to this value, creating a new record if a matching record does not exist**, this field specifies the related list to add information to.
 
-</td></tr><tr><td id="d148677e335">
+</td></tr><tr><td id="d150066e335">
 
 **Value field**
 
@@ -141,7 +141,7 @@ When **Store value in a field or related list** is set to **Link to this value i
 
 When **Store value in a field or related list** is set to **Link to this value in a related list** or **Link to this value, creating a new record if a matching record does not exist**, this field specifies the field within the table displayed in the related list, that is used to look up and find an existing record. For example, if your related list is **Affected CIs**, this field may contain **Name** or **Fully Qualified Domain Name**, or any other field in the CI record that should be used to look up the CI is added to the **Affected CIs** list.
 
-</td></tr><tr><td id="d148677e370">
+</td></tr><tr><td id="d150066e370">
 
 **Relationship data**
 
@@ -149,7 +149,7 @@ When **Store value in a field or related list** is set to **Link to this value i
 
 When **Store value in a field or related list** is set to **Link to this value in a related list**, a new record is created to link that record \(such as a security incident\) to the value \(a CI, an observable, and so on\). This field specifies any additional information \(field and value pairs\) that should be added to that linking record. For example, adding an observable for a source IP, you can specify that this IP is the source, rather than destination IP. For multiple values, use a ^ separator, for example, type= Source IP^active=true.
 
-</td></tr><tr><td id="d148677e388">
+</td></tr><tr><td id="d150066e388">
 
 **New record data**
 
@@ -157,7 +157,7 @@ When **Store value in a field or related list** is set to **Link to this value i
 
 **When Store value in a field or related list** is set to **Link to this value, creating a new record if a matching record does not exist**, if a related record matching the parsed value is not found, a new record is created. This field specifies the static data to add to that record. For example, for **Affected CIs**, if we cannot find the CI, this setting indicates that a new CI is created\). The value found in the source record is set to the **Value** field in the CI record. You can set additional data – a note indicating why this CI was created, some information about what type of CIs you are working with. A sample would be: `description=Created by malware Incident report^type=autodetect`
 
-</td></tr><tr><td id="d148677e412">
+</td></tr><tr><td id="d150066e412">
 
 **Value separator**
 
@@ -165,7 +165,7 @@ When **Store value in a field or related list** is set to **Link to this value i
 
 When **Store value in a field or related list** is set to **Link to this value in a related list** or **Link to this value, creating a new record if a matching record does not exist**, this field specifies the separator to use for lists of items, commonly a comma or semicolon.
 
-</td></tr><tr><td id="d148677e433">
+</td></tr><tr><td id="d150066e433">
 
 **Value type**
 
@@ -177,7 +177,7 @@ When **Store value in a field or related list** is set to **Add new value into a
 -   **Static value plus source record field value**
 
 
-</td></tr><tr><td id="d148677e467">
+</td></tr><tr><td id="d150066e467">
 
 **Source field**
 
@@ -185,7 +185,7 @@ When **Store value in a field or related list** is set to **Add new value into a
 
 Choose the source field that contains the value to be placed within the destination field or the selected related list.
 
-</td></tr><tr><td id="d148677e476">
+</td></tr><tr><td id="d150066e476">
 
 **Static field**
 
@@ -193,7 +193,7 @@ Choose the source field that contains the value to be placed within the destinat
 
 Static value for the field.
 
-</td></tr><tr><td id="d148677e486">
+</td></tr><tr><td id="d150066e486">
 
 **Value transform**
 
@@ -201,7 +201,7 @@ Static value for the field.
 
 Choose the field value transformation entry to apply. It is used to map choice fields between records, for example, converting the set of **Category** choices for a security incident into the appropriate **Type** field for a Change Request.
 
-</td></tr><tr><td id="d148677e501">
+</td></tr><tr><td id="d150066e501">
 
 **Destination table**
 
@@ -209,7 +209,7 @@ Choose the field value transformation entry to apply. It is used to map choice f
 
 Auto-populated with the destination table.
 
-</td></tr><tr><td id="d148677e510">
+</td></tr><tr><td id="d150066e510">
 
 **Field Mapping**
 
@@ -217,7 +217,7 @@ Auto-populated with the destination table.
 
 Auto-populated with the parent field map.
 
-</td></tr><tr><td id="d148677e519">
+</td></tr><tr><td id="d150066e519">
 
 **Source table**
 

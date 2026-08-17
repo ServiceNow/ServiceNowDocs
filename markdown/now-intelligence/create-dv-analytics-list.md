@@ -1,0 +1,345 @@
+---
+title: Create a list visualization in the Visualization Designer
+description: Create a list of table records that can be drilled down to from chart interactions. List visualizations display table data in columns. By default, the columns match the default list view of the table.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/create-dv-analytics-list.html
+release: yokohama
+topic_type: task
+last_updated: "2026-07-28"
+reading_time_minutes: 8
+breadcrumb: [Create, Data visualizations, Platform Analytics experience, Platform Analytics]
+---
+
+# Create a list visualization in the Visualization Designer
+
+Create a list of table records that can be drilled down to from chart interactions. List visualizations display table data in columns. By default, the columns match the default list view of the table.
+
+## Before you begin
+
+Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. If you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/reporting/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/platform-analytics-roles.md).
+
+## About this task
+
+**Warning:** If you want to change which columns are shown on a new List, first save the visualization. Otherwise, the default columns are removed. Ignore this warning if you do not want to keep any of the default columns.
+
+In the Zurich release, this List replaces the simple list visualization. On migration, all simple lists are migrated to the new List.
+
+**Note:**
+
+-   You can include Spotlight information in a list visualization. Configure the list to display information from the Spotlight \[spotlight\] table. For more information, see [Spotlights on Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/spotlight/spotlights-configurable-workspaces.md). For general information about the Spotlight feature, see [Ranking records with Spotlight](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/spotlight/spotlight.md).
+-   It is not possible to configure auto refresh on the List visualization. To refresh a List visualization on a dashboard, select the More Options icon \[Omitted image "icon-vert-3dot-p.png"\] Alt text: Context menu icon and choose **Refresh**.
+-   The option to show the total number of records is not available in the new List visualization.
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**.
+
+2.  Select **New**.
+
+3.  Select the List \(\[Omitted image "list-outline-24.svg"\] Alt text: List visualization icon\) visualization type from the category labeled **Other**.
+
+4.  Select **Add data source**.
+
+5.  Select a table, using either the dropdown list or the Search sources box.
+
+    You can only select Table data sources, such as the Incident \[incident\] table.
+
+    The list of records for that table appears. It is populated with a default selection of columns depending on the default view of the selected table. You can change the columns in the Columns and rows section. Save the List before changing the column selection.
+
+6.  Configure the **Header and border**. Header and border options are the same for all data sources.
+
+    |Header and border fields|Description|
+    |------------------------|-----------|
+    |Show header|The visualization header, including title and icons.|
+    |Show header separator|Option to display a line separating the header from the rest of the component.|
+    |Chart title|Title of the visualization.|
+    |Title alignment|Choose Start to align the title with the start of line, End to align it with the end of the line, or Center for center alignment.|
+    |Description|A short overview about the visualization that the end user sees.|
+    |Wrap title|Option to wrap long titles onto a second line. If false, displays an ellipsis to truncate long titles.|
+    |Line of truncation|Specify where to truncate long labels with an ellipsis. Options are 1, 2, and 3.|
+    |Show border|Option to display a line around the component.|
+    |Bare|Option to remove padding around data visualization to provide more compact positioning on the page. Only available when **Show border** is turned off.|
+    |Header background color|Specify the color behind the title of the visualization.|
+    |Title color|Specify the text color. The default title color is black, but you can choose a color that contrasts better with the header background.|
+
+7.  Configure the data fields.
+
+<table id="table_list-data"><thead><tr><th>
+
+Data fields
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr id="group-by-heading"><td class="sub-head" colspan="2">
+
+Group by
+
+</td></tr><tr id="row_group-by-field"><td>
+
+Group by \(optional\)
+
+</td><td>
+
+The field to group by. For example, in an incident report grouped by **Assignment group**, all incidents that belong to Software, Service Desk, and Network are placed in separate groups. If the table contains variables or question fields, you have the option to group by one of them at the end of the list of fields.**Note:**
+
+-   It is not possible to group or stack data by the **Tags** field, or by certain field types, such as MEDIUMTEXT.
+-   If you want to group by a field with continuous values, such as date or integer, the values are automatically grouped according to any report ranges that are defined for the data. For more information, see [Report ranges](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/reporting/c_ReportRanges.md).
+
+
+</td></tr><tr id="alternative-group-by"><td>
+
+Add alternative group by
+
+</td><td>
+
+This selection opens a dialog in which you select additional items that the data in the visualization may be grouped by. The viewer of the visualization can then select which of these items to group the data by. The viewer toggles the visibility of the selector in the visualization's More actions menu. In the additional items dialog, you can set whether this selector is visible by default by toggling **Selector visible by default**.If you select a value in **Group by**, that is the default group-by value. You don't have to select a **Group by** value to specify alternative group-by values. In this case, no default group-by value is used.
+
+For more information about the viewer experience selecting from alternative group-by values, see [Select a group-by value in a data visualization as a viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/select-group-runtime.md).
+
+**Important:**
+
+-   Only up to three metrics on one visualization support alternative group-by.
+-   Alternative group-by does not support data binding on the data source
+
+
+</td></tr><tr id="data-update-heading"><td class="sub-head" colspan="2">
+
+Data update
+
+</td></tr><tr id="ac-dv-followfilters"><td>
+
+Follow filters
+
+</td><td>
+
+Follow filters set for a page. When enabled, the visualization displays on a workspace with the filters set by the page. Toggle off to disable a visualization from accepting any filter input.
+
+</td></tr><tr id="ac-dv-showfiltericon"><td>
+
+Show filter icon
+
+</td><td>
+
+Option to show the filter icon and the number of filters impacting the visualization. If a filter is not selected to apply to a visualization, the icon does not show. Toggle off to hide the filter icon and number of filters applied.
+
+</td></tr><tr id="no-data-message-ss-table-uxa"><td class="sub-head" colspan="2">
+
+Info messages
+
+</td></tr><tr id="enable-custom-empty-state"><td>
+
+Set custom message when no data
+
+</td><td>
+
+Option to configure a custom message that displays when no data is returned.
+
+</td></tr><tr id="empty-state-illustration"><td>
+
+Illustration
+
+</td><td>
+
+An illustration to include in the message.
+
+</td></tr><tr id="empty-state-heading"><td>
+
+Heading
+
+</td><td>
+
+Header text of the message that describes why no data was returned.
+
+</td></tr><tr id="empty-state-heading-level"><td>
+
+Heading level
+
+</td></tr><tr id="empty-state-content"><td>
+
+Content
+
+</td><td>
+
+Secondary text of the message that provides additional detail.
+
+</td></tr><tr id="empty-state-alignment"><td>
+
+Alignment
+
+</td><td>
+
+The alignment of the illustration and text in the message.
+
+</td></tr></tbody>
+</table>8.  Configure the presentation fields.
+
+<table id="table_presentation"><thead><tr><th>
+
+Presentation fields
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr id="columns-and-rows"><td class="sub-head" colspan="2">
+
+Columns and rows
+
+</td></tr><tr><td>
+
+Columns
+
+</td><td>
+
+Select the columns from the table that you want to display in the visualization.**Note:** The List shows some columns by default after you select the data source. These columns aren't included as selected columns in the configuration panel until you save the data visualization for the first time. If you add columns without first saving the list data visualization, these default columns are removed.
+
+If you're editing the columns on an existing List visualization, you might see columns on the List but no selected columns in the configuration panel. Manually add the columns that you want to keep. Any columns that you don't add are removed when you apply your changes. This issue occurs only on List visualizations that were created on Zurich before Platform Analytics experience bundle 7.2.1 was installed.
+
+</td></tr><tr><td>
+
+Maximum rows
+
+</td><td>
+
+Specify the maximum number of rows to show. When there are more rows in the visualization, it will be divided into pages \(if **Allow list pagination** is selected in display settings\).
+
+</td></tr><tr><td>
+
+Number of displayed columns
+
+</td><td>
+
+For a view with too many columns, you can set the maximum number that are displayed.
+
+</td></tr><tr><td>
+
+Maximum characters
+
+</td><td>
+
+Specify the number of characters to show in a cell before it is truncated.
+
+</td></tr><tr><td>
+
+Show option to personalize columns
+
+</td><td>
+
+Enable the ability to add, remove, and change the order of columns in the list at runtime.
+
+</td></tr><tr><td>
+
+Disable dotwalk
+
+</td><td>
+
+Disable the dotwalk capability in personalized lists. Available only if Show option to personalize columns is selected.
+
+</td></tr><tr><td>
+
+Show option to drag-and-drop columns
+
+</td><td>
+
+Enable users to reorder the columns at runtime.
+
+</td></tr><tr><td>
+
+Show option to group records
+
+</td><td>
+
+Enable users to group the list by column entries at runtime.
+
+</td></tr><tr><td>
+
+Show column resizing
+
+</td><td>
+
+Enable users to resize column widths at runtime.
+
+</td></tr><tr><td>
+
+Show column filtering
+
+</td><td>
+
+Enable users to apply filters from column headings at runtime.
+
+</td></tr><tr><td>
+
+Show column sorting
+
+</td><td>
+
+Enable users to sort the column values in ascending or descending order at runtime.
+
+</td></tr><tr><td class="sub-head" colspan="2">
+
+Display settings
+
+</td></tr><tr><td>
+
+Show inline editing
+
+</td><td>
+
+Allows users to edit values in the list by double-clicking them. Security restrictions including ACLs apply.**Note:** Users cannot edit fields of the journal\_input type. These fields include the following:
+
+-   Work Notes
+-   Additional Comments
+-   Approval Comments
+-   Change request notes
+-   Problem Notes
+
+
+</td></tr><tr><td>
+
+Show links
+
+</td><td>
+
+Select to show all links in the list. When cleared, reference fields and links render as plain text.
+
+</td></tr><tr><td>
+
+Wrap cell content
+
+</td><td>
+
+Enable multiple lines of text per cell across the table. Text may still be truncated, based on the value of the **Maximum characters** option.
+
+</td></tr><tr><td>
+
+Show 'view all' footer
+
+</td><td>
+
+Enables the user to view all the rows in the visualization, not just the maximum number specified.
+
+</td></tr><tr><td>
+
+Show record count
+
+</td><td>
+
+Show the number of rows in the list \(taking filters into account\) at the top of the visualization.
+
+</td></tr><tr><td>
+
+Allow list pagination
+
+</td><td>
+
+Enables the list to be divided across multiple pages. When cleared, list pagination is hidden.
+
+</td></tr></tbody>
+</table>
+-   **[Create a list visualization with variable columns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-list-dv-with-var-col.md)**  
+You can create a list visualization with variables columns based on a data source or table that has variables associated with it. For example, if an item has a variable called **Storage**, you can create a list report that has a column for the values in this variable.
+
+**Parent Topic:**[Creating data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/creating-data-visualizations.md)
+

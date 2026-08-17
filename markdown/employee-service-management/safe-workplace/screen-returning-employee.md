@@ -32,15 +32,15 @@ The following procedure includes the steps your organization might use in settin
 
 1.  Open the QR code scanning or requirement status page based on the type of device that you're using.
 
-<table id="choicetable_bgv_ws5_r2c"><thead><tr><th align="left" id="d87089e92">
+<table id="choicetable_bgv_ws5_r2c"><thead><tr><th align="left" id="d86481e92">
 
 Platform
 
-</th><th align="left" id="d87089e95">
+</th><th align="left" id="d86481e95">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d87089e101">
+</th></tr></thead><tbody><tr><td id="d86481e101">
 
 **Smartphone or tablet**
 
@@ -48,7 +48,7 @@ Action
 
 From the Now Mobile **Health** screen under the **Health Screening** section, tap **Scan for Entry**.Scan the code that the person presents on their mobile device or on paper. If there is no QR code, enter the user ID in the **User ID** field, for example, `john.smith`.
 
-</td></tr><tr><td id="d87089e131">
+</td></tr><tr><td id="d86481e131">
 
 **Computer**
 
@@ -67,15 +67,15 @@ Navigate to **Employee Health and Safety Status** &gt; **View Employee and Visit
 
 3.  Perform the health screen.
 
-<table id="choicetable_pjf_l3s_zlb"><thead><tr><th align="left" id="d87089e202">
+<table id="choicetable_pjf_l3s_zlb"><thead><tr><th align="left" id="d86481e202">
 
 Platform
 
-</th><th align="left" id="d87089e205">
+</th><th align="left" id="d86481e205">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d87089e211">
+</th></tr></thead><tbody><tr><td id="d86481e211">
 
 **Smartphone or tablet**
 
@@ -83,7 +83,7 @@ Action
 
 Tap **Health Screen** on the Scan for entry page.
 
-</td></tr><tr><td id="d87089e223">
+</td></tr><tr><td id="d86481e223">
 
 **Computer**
 

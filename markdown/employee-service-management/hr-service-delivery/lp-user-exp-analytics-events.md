@@ -1,6 +1,6 @@
 ---
-title: Events related to the Listening Posts surveys on Usage Insights dashboard
-description: The Usage Insights dashboard displays events to understand the users behavior when interacting with the Listening Posts survey widgets.
+title: Events related to the Listening Posts surveys on User Experience Analytics dashboard
+description: The User Experience Analytics dashboard displays events to understand the users behavior when interacting with the Listening Posts survey widgets.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/lp-user-exp-analytics-events.html
 release: yokohama
@@ -12,11 +12,11 @@ reading_time_minutes: 3
 breadcrumb: [User Experience for HR Service Delivery, Integration of HR Service Delivery with ServiceNow applications, HR Service Delivery, Employee Service Management]
 ---
 
-# Events related to the Listening Posts surveys on Usage Insights dashboard
+# Events related to the Listening Posts surveys on User Experience Analytics dashboard
 
-The Usage Insights dashboard displays events to understand the users behavior when interacting with the Listening Posts survey widgets.
+The User Experience Analytics dashboard displays events to understand the users behavior when interacting with the Listening Posts survey widgets.
 
-You can evaluate the successful and unsuccessful attempts of an employee related to the Listening Posts My survey and Take survey widgets by viewing two related events on the Usage Insights dashboard: Successful submissions at survey response and Unsuccessful attempts at survey response. For example, understanding the average time taken by an employee to respond to a survey, or view the number of resignations in the survey process could help you evaluate how to improve the design of future surveys or indicate whether more encouragement is needed to increase employee participation.
+You can evaluate the successful and unsuccessful attempts of an employee related to the Listening Posts My survey and Take survey widgets by viewing two related events on the User Experience Analytics dashboard: Successful submissions at survey response and Unsuccessful attempts at survey response. For example, understanding the average time taken by an employee to respond to a survey, or view the number of resignations in the survey process could help you evaluate how to improve the design of future surveys or indicate whether more encouragement is needed to increase employee participation.
 
 ## Successful submissions at survey response
 

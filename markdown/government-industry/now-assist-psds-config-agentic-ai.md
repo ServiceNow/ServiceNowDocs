@@ -26,7 +26,7 @@ To get started with AI Agents, you must have the sn\_gsm\_ai\_agents plugin inst
 
 1.  Ensure that the Now Assist Panel and AI Search module are both enabled.
 
-    For instructions on how to enable the Now Assist panel and on how to set up AI Search, see [Install and configure Now Assist for Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/now-assist-psds-configuring.md) and [Enabling and configuring AI Search with Now Assist for PSDS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/now-assist-psds-enabling-configuring-ai-search.md).
+    For instructions on how to enable the Now Assist panel and on how to set up AI Search, see [Install and configure ServiceNow Otto for Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/now-assist-psds-configuring.md) and [Enabling and configuring AI Search with ServiceNow Otto for PSDS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/now-assist-psds-enabling-configuring-ai-search.md).
 
 2.  Navigate to **All** &gt; **AI Search** &gt; **Indexed Sources.**.
 

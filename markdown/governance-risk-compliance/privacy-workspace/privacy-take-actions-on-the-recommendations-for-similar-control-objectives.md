@@ -9,7 +9,7 @@ classification: privacy-workspace
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 5
-breadcrumb: [Use Recommendation of similar control objectives skill to generate suggestions, Now Assist for Privacy Management, Privacy Management, Governance, Risk, and Compliance]
+breadcrumb: [Use Recommendation of similar control objectives skill, ServiceNow Otto for Privacy Management, Privacy Management, Governance, Risk, and Compliance]
 ---
 
 # Act on the recommendations for similar control objectives
@@ -26,7 +26,7 @@ For more information on related roles, see [Roles installed with GRC: Policy and
 
 ## About this task
 
-Now Assist for Integrated Risk Management \(IRM\) introduces an AI-powered rationalization workflow that enables privacy managers and analysts to act on recommendations for similar control objectives. This process identifies duplicates, consolidates associations, and creates unified control objectives that are easier to support management and audit.
+ServiceNow Otto for Privacy Management introduces an AI-powered rationalization workflow that enables privacy managers and analysts to act on recommendations for similar control objectives. This process identifies duplicates, consolidates associations, and creates unified control objectives that are easier to support management and audit.
 
 **Important:** Be sure to check AI-generated recommendations for accuracy.
 

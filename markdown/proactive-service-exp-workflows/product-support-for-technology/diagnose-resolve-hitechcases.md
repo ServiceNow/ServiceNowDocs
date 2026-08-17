@@ -9,7 +9,7 @@ classification: product-support-for-technology
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 4
-breadcrumb: [Technology Product Support Case application, Proactive Service Experience Workflows]
+breadcrumb: [Technology Product Support Case, Proactive Service Experience Workflows]
 ---
 
 # Diagnose and resolve a technology product support case

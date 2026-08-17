@@ -9,7 +9,7 @@ classification: event-management
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 6
-breadcrumb: [Alert grouping, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Alert grouping, Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
 ---
 
 # Alert grouping and use cases

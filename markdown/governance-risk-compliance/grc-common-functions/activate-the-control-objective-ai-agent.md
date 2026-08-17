@@ -21,7 +21,7 @@ Enable the Control Objective Change Agent in AI Agent Studio to automate complia
 
 Role required: sn\_grc\_sharegenai.compliance\_library\_aiagent\_user
 
-Install the Now Assist for Integrated Risk Management \(IRM\) plugin \(sn\_irm\_gen\_ai\).
+Install the ServiceNow Otto for Integrated Risk Management \(IRM\) plugin \(sn\_irm\_gen\_ai\).
 
 ## Procedure
 

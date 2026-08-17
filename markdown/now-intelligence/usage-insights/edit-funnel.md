@@ -9,7 +9,7 @@ classification: usage-insights
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Conversion funnels, Using Usage Insights, User Experience Analytics, Platform Analytics]
+breadcrumb: [Conversion funnels, Using User Experience Analytics, User Experience Analytics, Platform Analytics]
 ---
 
 # Edit a conversion funnel
@@ -37,5 +37,5 @@ Role required: Users with the analytics\_viewer, portal\_analytics\_viewer, mobi
 6.  Select **Save** to update the funnel configuration.
 
 
-**Parent Topic:**[Funnel reports in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/funnel-reports-uxa.md)
+**Parent Topic:**[Funnel reports in User Experience Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/funnel-reports-uxa.md)
 

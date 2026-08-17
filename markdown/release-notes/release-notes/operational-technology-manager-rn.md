@@ -5,7 +5,7 @@ locale: en-US
 release: yokohama
 topic_type: reference
 last_updated: "2025-01-30"
-reading_time_minutes: 10
+reading_time_minutes: 9
 ---
 
 # Operational Technology Manager release notes
@@ -67,7 +67,7 @@ See [Operational Technology Manager](https://raw.githubusercontent.com/ServiceNo
     Configure the OT Action-Oriented Landing Page by using the **Sort items** field for your important actions.
 
 
--   **[CMDB OT class model updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/cmdb-ci-class-models-operation-technology.md)**
+-   **CMDB OT class model updates**
 
     Leverage an enhanced OT user experience and make additional configurations for your OT devices with the following CMDB OT class model updates:
 
@@ -216,11 +216,11 @@ See [Operational Technology Manager](https://raw.githubusercontent.com/ServiceNo
 
 ## Activation information
 
-Install Operational Technology Manager by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install Operational Technology Manager by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Related ServiceNow applications and features
 
--   **[CMDB CI Class Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/cmdb-ci-class-models.md)**
+-   ****
 
     The CMDB CI Class Models store application enables Operational Technology Manager to import and classify device data in ServiceNow. The Operational Technology Manager application automatically installs the latest version of the Operational Technology \(OT\) extension classes, available in the CMDB CI Class Models application in the ServiceNow Store.
 

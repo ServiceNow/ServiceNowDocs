@@ -38,7 +38,7 @@ Any record conversation you create in Connect becomes a record feed in Live Feed
 
 2.  Do one of the following actions.
 
-<table id="choicetable_dbk_2s2_wt"><tbody><tr><td id="d464265e94">
+<table id="choicetable_dbk_2s2_wt"><tbody><tr><td id="d464737e94">
 
 **Follow the record**
 
@@ -48,7 +48,7 @@ In the form header, click **Follow**.
 
  The system adds you as a member of the record conversation, but does not open the conversation. You can open the conversation from the Connect sidebar.
 
-</td></tr><tr><td id="d464265e112">
+</td></tr><tr><td id="d464737e112">
 
 **Follow the record and open a chat mini window**
 
@@ -58,7 +58,7 @@ In the form header, click **Follow**.
 2.  Select **Open Connect Mini**.
  The system adds you as a member of the record conversation and opens it in a Connect mini window.
 
-</td></tr><tr><td id="d464265e139">
+</td></tr><tr><td id="d464737e139">
 
 **Follow the record and open the Connect workspace**
 

@@ -1,6 +1,6 @@
 ---
-title: Explore an Zero Copy Connector for ERP content pack
-description: Explore an Zero Copy Connector for ERP content pack to see what it contains, including models and process extensions. Content pack models and process extensions are examples.
+title: Explore an ERP Canvas content pack
+description: Explore an ERP Canvas content pack to see what it contains, including models and process extensions. Content pack models and process extensions are examples.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-integration-framework/erp-canvas-explore-a-content-pack.html
 release: yokohama
@@ -9,12 +9,12 @@ classification: erp-integration-framework
 topic_type: task
 last_updated: "2025-04-16"
 reading_time_minutes: 3
-breadcrumb: [Zero Copy Connector for ERP content packs, Building and managing ERP models to work with ERP data, Using ERP models, extraction tables, and remote tables, Zero Copy Connector for ERP, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [ERP Canvas content packs, Building and managing ERP models to work with ERP data, Using ERP models, extraction tables, and remote tables, ERP Canvas, Building low-code applications, Developing your application, Building applications]
 ---
 
-# Explore an Zero Copy Connector for ERP content pack
+# Explore an ERP Canvas content pack
 
-Explore an Zero Copy Connector for ERP content pack to see what it contains, including models and process extensions. Content pack models and process extensions are examples.
+Explore an ERP Canvas content pack to see what it contains, including models and process extensions. Content pack models and process extensions are examples.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: sn\_erp\_integration.erp\_admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home**.
+1.  Navigate to **All** &gt; **ERP Canvas** &gt; **ERP Canvas Home**.
 
 2.  Open the ERP models page by selecting the ERP models icon \(\[Omitted image "erpc-data-model-icon.png"\] Alt text: ERP model icon\) in the side panel.
 
@@ -113,7 +113,7 @@ Role required: sn\_erp\_integration.erp\_admin
 
 ## What to do next
 
-When you're ready to create an application with a content pack, see [Using Zero Copy Connector for ERP content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-using-content-packs.md).
+When you're ready to create an application with a content pack, see [Using ERP Canvas content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-using-content-packs.md).
 
-**Parent Topic:**[Zero Copy Connector for ERP content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-content-packs.md)
+**Parent Topic:**[ERP Canvas content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-content-packs.md)
 

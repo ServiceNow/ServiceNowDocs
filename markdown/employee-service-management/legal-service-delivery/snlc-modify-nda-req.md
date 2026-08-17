@@ -33,15 +33,15 @@ Note the following:
 
 1.  Open an NDA legal request.
 
-<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d696334e105">
+<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d695685e105">
 
 Method
 
-</th><th align="left" id="d696334e108">
+</th><th align="left" id="d695685e108">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d696334e114">
+</th></tr></thead><tbody><tr><td id="d695685e114">
 
 **__Employee Center__**
 
@@ -51,7 +51,7 @@ Actions
 2.  Select **My Requests** from the header.
 
 
-</td></tr><tr><td id="d696334e144">
+</td></tr><tr><td id="d695685e144">
 
 **__Legal Service Portal__**
 

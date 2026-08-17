@@ -9,7 +9,7 @@ classification: employee-experience-foundation
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Use, Now Assist for Employee Experience, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Use, ServiceNow Otto for Employee Experience, Unified Employee Experience, Employee Service Management]
 ---
 
 # Check your approvals by using Now Assist in Virtual Agent
@@ -34,7 +34,7 @@ Role required: None
 
     To check your to-do approvals, you can enter instructions like `Show my approvals`, `Show my pending approvals`, or `Show me my approvals due today/due this week/due later/due soon`.
 
-    \[Omitted image "uex-nowassist-startmsg.png"\] Alt text: Now Assist for Employee Experience welcome message.
+    \[Omitted image "uex-nowassist-startmsg.png"\] Alt text: ServiceNow Otto for Employee Experience welcome message.
 
 4.  View the list of approvals, under the To-do approvals, by selecting **Start**.
 
@@ -55,7 +55,7 @@ Role required: None
 10. End the chat by selecting **End chat**.
 
 
-**Parent Topic:**[Using Now Assist for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/use-now-assist-for-emp-exp.md)
+**Parent Topic:**[Using ServiceNow Otto for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/use-now-assist-for-emp-exp.md)
 
 **Related topics**  
 

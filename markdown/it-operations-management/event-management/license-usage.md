@@ -9,7 +9,7 @@ classification: event-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
 ---
 
 # View Event Management license usage
@@ -30,15 +30,15 @@ The **Event Management - Node Count Store** job calculates the number of unique 
 
     The table is filled automatically based on the alerts in the system. The user has no permission to edit the table. It is used to calculate the usage of the Event Management licensing.
 
-<table id="choicetable_vkj_tnb_dbb"><thead><tr><th align="left" id="d583284e110">
+<table id="choicetable_vkj_tnb_dbb"><thead><tr><th align="left" id="d584023e110">
 
 Column
 
-</th><th align="left" id="d583284e113">
+</th><th align="left" id="d584023e113">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d583284e119">
+</th></tr></thead><tbody><tr><td id="d584023e119">
 
 **CMDB CI**
 
@@ -46,7 +46,7 @@ Description
 
 The CI that is bound to the alert that is generated from the event. If there is a value for this field, the **Node** field is empty.
 
-</td></tr><tr><td id="d583284e131">
+</td></tr><tr><td id="d584023e131">
 
 **Node**
 
@@ -54,7 +54,7 @@ The CI that is bound to the alert that is generated from the event. If there is 
 
 The string value of the **Node** field of the event. If there is a value for this field, the **CMDB CI** field is empty.
 
-</td></tr><tr><td id="d583284e146">
+</td></tr><tr><td id="d584023e146">
 
 **Type**
 
@@ -65,7 +65,7 @@ One of these values:-   Unknown - A CI has not bound to the generated alert.
 -   PaaS - The source of the event was Platform as a Service.
 
 
-</td></tr><tr><td id="d583284e167">
+</td></tr><tr><td id="d584023e167">
 
 **Is licensable**
 

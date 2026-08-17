@@ -7,14 +7,16 @@ release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: concept
-last_updated: "2025-05-12"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Agent Client Collector installation, Configuring Agent Client Collector Framework, Agent Client Collector Framework, Agent Client Collector, IT Operations Management]
+breadcrumb: [ACC installation, Configuring Agent Client Collector Framework, Agent Client Collector Framework, Agent Client Collector, IT Operations Management]
 ---
 
 # Agent Client Collector system requirements
 
 System requirements are the fundamental specifications and configuration needed to install and run Agent Client Collector \(ACC\) effectively.
+
+Verify that your server's OS and version is supported. For a list of supported OS's and versions [ServiceNow Store Page](https://store.servicenow.com/store/app/bc09636e1be06a50a85b16db234bcbd1)
 
 Before installing the Agent Client Collector, you must do the following:
 

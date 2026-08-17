@@ -1,6 +1,6 @@
 ---
-title: Now Assist for Hardware Asset Management \(HAM\) release notes
-description: The ServiceNow Now Assist for Hardware Asset Management \(HAM\) application brings agentic AI to Hardware Asset Management. Now Assist for Hardware Asset Management \(HAM\) is a new application in the Yokohama release.
+title: ServiceNow Otto for Hardware Asset Management \(HAM\) release notes
+description: The ServiceNow ServiceNow Otto for Hardware Asset Management \(HAM\) application brings agentic AI to Hardware Asset Management. ServiceNow Otto for Hardware Asset Management \(HAM\) is a new application in the Yokohama release.
 locale: en-US
 release: yokohama
 topic_type: reference
@@ -8,11 +8,11 @@ last_updated: "2025-04-04"
 reading_time_minutes: 5
 ---
 
-# Now Assist for Hardware Asset Management \(HAM\) release notes
+# ServiceNow Otto for Hardware Asset Management \(HAM\) release notes
 
-The ServiceNow® Now Assist for Hardware Asset Management \(HAM\) application brings agentic AI to Hardware Asset Management. Now Assist for Hardware Asset Management \(HAM\) is a new application in the Yokohama release.
+The ServiceNow® ServiceNow Otto for Hardware Asset Management \(HAM\) application brings agentic AI to Hardware Asset Management. ServiceNow Otto for Hardware Asset Management \(HAM\) is a new application in the Yokohama release.
 
-## Now Assist for Hardware Asset Management \(HAM\) highlights for the Yokohama release
+## ServiceNow Otto for Hardware Asset Management \(HAM\) highlights for the Yokohama release
 
 [Yokohama Patch 13](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-13.md)- Gain real-time visibility into critical asset data through generative AI-driven asset analysis summaries.
 
@@ -26,11 +26,11 @@ Yokohama Patch 6 - Automate the hardware asset repair process by using an agenti
 
 Yokohama Patch 4 - Automate and streamline your hardware asset request process by using an agentic workflow.
 
-See [Now Assist for Hardware Asset Management \(HAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/now-assist-ham.md) for more information.
+See  for more information.
 
-**Important:** Now Assist for Hardware Asset Management \(HAM\) is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+**Important:** ServiceNow Otto for Hardware Asset Management \(HAM\) is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## Important information for upgrading Now Assist for Hardware Asset Management \(HAM\) to Yokohama
+## Important information for upgrading ServiceNow Otto for Hardware Asset Management \(HAM\) to Yokohama
 
 Only users with the procurement\_user role can access the Help manage hardware asset requests agentic workflow including the following AI agents:
 
@@ -38,62 +38,62 @@ Only users with the procurement\_user role can access the Help manage hardware a
 -   Transfer order creation AI agent
 -   Purchase order creation AI agent
 
-## Now Assist for Hardware Asset Management \(HAM\) features
+## ServiceNow Otto for Hardware Asset Management \(HAM\) features
 
 [Yokohama Patch 13](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-13.md)
 
--   **[Manage your assets with comprehensive and real-time data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/generate-asset-analysis-now-assist-ham.md)**
+-   **Manage your assets with comprehensive and real-time data**
 
     View consolidated asset information through AI-generated analysis summary on the asset record. The AI-generated summary dynamically updates based on the asset state and includes context from any active incidents or tasks. The summary displays the asset life cycle, current assignment and location, audit status, financial metrics, and identifies missing data to support asset management activities.
 
 
 [Yokohama Patch 6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-6.md)
 
--   **[Optimize hardware asset repair process with the suite of AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/now-assist-ham-repair-agent-workflow.md)**
+-   **Optimize hardware asset repair process with the suite of AI agents**
 
     Automate the repair of defective and out-of-warranty hardware assets by using AI agents in the Help repair hardware assets agentic workflow. These AI agents validate the repair tasks, provide detailed troubleshooting and repair instructions, and complete the tasks on receiving user confirmation.
 
 
--   **[Configure ACLs for AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/aia-security-implementation.md)**
+-   **Configure ACLs for AI agents and agentic workflows**
 
     Configure the Access Control Lists for who can discover and trigger AI agents and agentic workflows in their guided setups in AI Agent Studio. You can determine whether an AI agent or agentic workflow behaves as a dynamic user or as an AI user. You can also specify if an AI agent or agentic workflow can be available to all authenticated users or publicly available.
 
 
 [Yokohama Patch 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-4.md)
 
--   **[Optimize hardware asset sourcing with the suite of AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/now-assist-ham-agentic-workflow.md)**
+-   **Optimize hardware asset sourcing with the suite of AI agents**
 
     Automate your hardware asset sourcing by using AI agents in the Help manage hardware asset requests agentic workflow. These AI agents can efficiently handle tasks such as automatically consuming assets from local stock, creating transfer orders, and generating purchase orders. By automating complex and repetitive tasks in the hardware asset request process, AI agents help to reduce manual intervention significantly, speed up request resolution, enhance the productivity of asset managers, and improve operational efficiency.
 
 
 ## Changed in this release
 
--   **[Changes to Now Assist usage measurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/monitoring-now-assist-usage.md)**
+-   **Changes to Now Assist usage measurement**
 
     Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
--   **[Some Now Assist skills are turned on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md)**
+-   **Some Now Assist skills are turned on by default**
 
     The new default behavior works as follows:
 
     -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
     -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
--   **[Configure ACLs for AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/aia-security-implementation.md)**
+-   **Configure ACLs for AI agents and agentic workflows**
 
     Configure the access control lists for who can discover and trigger AI agents and agentic workflows in their guided setups in AI Agent Studio. You can determine whether an AI agent or agentic workflow behaves as a dynamic user or as an AI user. You can also specify if an AI agent or agentic workflow can be available to all authenticated users or publicly available.
 
 
 ## Activation information
 
-Install Now Assist for Hardware Asset Management \(HAM\) by requesting it from the ServiceNow Store.
+Install ServiceNow Otto for Hardware Asset Management \(HAM\) by requesting it from the ServiceNow Store.
 
-**Note:**  To take full advantage of the Now Assist for HAM features, you should upgrade to Yokohama Patch 6 and install the Now Assist for Hardware Asset Management \(HAM\) store application.
+**Note:**  To take full advantage of the ServiceNow Otto for HAM features, you should upgrade to Yokohama Patch 6 and install the ServiceNow Otto for Hardware Asset Management \(HAM\) store application.
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Additional requirements
 
-The Now Assist for Hardware Asset Management \(HAM\) application requires the Hardware Asset Management Pro plus license.
+The ServiceNow Otto for Hardware Asset Management \(HAM\) application requires the Hardware Asset Management Pro plus license.
 
 ## Related ServiceNow applications and features
 
@@ -101,15 +101,15 @@ The Now Assist for Hardware Asset Management \(HAM\) application requires the Ha
 
     Help improve the productivity and efficiency in your organization, deliver better self-service, recommend actions, provide answers, and empower your users to search more effectively.
 
--   **[Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configuring-now-assist.md)**
+-   **AI Admin Hub console**
 
-    Use the Now Assist Admin console for quick and effortless access to the important information that you need to set up, configure, and monitor Now Assist applications and features.
+    Use the AI Admin Hub console for quick and effortless access to the important information that you need to set up, configure, and monitor Now Assist applications and features.
 
--   **[Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-panel-overview.md)**
+-   **Now Assist panel**
 
     Use this conversational interface in ServiceNow® Service Operations Workspace to summarize a chat, an incident, or resolution notes so that you can get the context of this information more quickly.
 
--   **[Now Assist skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills.md)**
+-   **Now Assist skills**
 
     Use the ServiceNow® Now Assist products to provide generative AI skills to meet the needs of users in different workflows, including case or incident summarization, chat summarization, resolution notes generation, and code generation.
 

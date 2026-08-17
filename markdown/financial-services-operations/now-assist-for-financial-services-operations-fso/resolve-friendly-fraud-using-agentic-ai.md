@@ -9,7 +9,7 @@ classification: now-assist-for-financial-services-operations-fso
 topic_type: task
 last_updated: "2025-03-28"
 reading_time_minutes: 2
-breadcrumb: [Using agentic workflows, Now Assist for Financial Services Operations \(FSO\)]
+breadcrumb: [Using agentic workflows, ServiceNow Otto for Financial Services Operations \(FSO\)]
 ---
 
 # Resolve friendly fraud by using agentic AI

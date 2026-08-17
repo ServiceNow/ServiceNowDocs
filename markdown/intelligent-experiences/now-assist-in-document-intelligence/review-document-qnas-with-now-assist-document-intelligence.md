@@ -50,15 +50,15 @@ For more information, see [Document Intelligence workspace with Now Assist](http
 
 4.  Take the appropriate action on the answer.
 
-<table id="choicetable_k5x_lfh_b2c"><thead><tr><th align="left" id="d141975e181">
+<table id="choicetable_k5x_lfh_b2c"><thead><tr><th align="left" id="d140764e181">
 
 Option
 
-</th><th align="left" id="d141975e184">
+</th><th align="left" id="d140764e184">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d141975e190">
+</th></tr></thead><tbody><tr><td id="d140764e190">
 
 **Copy**
 
@@ -66,7 +66,7 @@ Description
 
 Select the **Copy** icon \(\[Omitted image "icon-docintel-na-copy.png"\] Alt text: Copy icon.\) to copy the answer to your clipboard.
 
-</td></tr><tr><td id="d141975e211">
+</td></tr><tr><td id="d140764e211">
 
 **Edit the generated answer**
 
@@ -82,7 +82,7 @@ To change the answer text, do the following:
 
 The question is marked as reviewed.
 
-</td></tr><tr><td id="d141975e259">
+</td></tr><tr><td id="d140764e259">
 
 **Mark the answer as missing in the document**
 
@@ -95,7 +95,7 @@ If there is no text in the document to provide an answer, do the following:
 3.  Select **Save**.
  The answer is hidden. The question is marked as reviewed.
 
-</td></tr><tr><td id="d141975e300">
+</td></tr><tr><td id="d140764e300">
 
 **Mark the answer as reviewed**
 

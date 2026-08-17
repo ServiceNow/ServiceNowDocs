@@ -5,7 +5,7 @@ locale: en-US
 release: yokohama
 topic_type: reference
 last_updated: "2025-01-30"
-reading_time_minutes: 3
+reading_time_minutes: 2
 ---
 
 # App Engine Studio release notes
@@ -16,7 +16,7 @@ The ServiceNow® App Engine Studio \(AES\) application enables creators of varyi
 
 Use the App Readiness and Compliance report in App Engine Management Center \(AEMC\) to check if apps are ready to go live.
 
-See [App Readiness and Compliance Report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/app-readiness-report.md) for more information.
+See App Readiness and Compliance Report for more information.
 
 **Important:** App Engine Studio is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
@@ -24,26 +24,26 @@ See [App Readiness and Compliance Report](https://raw.githubusercontent.com/Serv
 
 Due to a new process for assigning groups in AEMC, the same version of the Application Intake plugin must be activated on each of your instances.
 
-For more information, see [App Readiness and Compliance Report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/app-readiness-report.md).
+For more information, see .
 
 ## New in the Yokohama release
 
--   **[App Readiness and Compliance Report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/app-readiness-report.md)**
+-   ****
 
     As an App Engine Admin, use the App Readiness and Compliance report in AEMC to check if the apps you’re making are ready to go live. You can run an instance scan suite that looks for any issues that can impact app deployments. This feature helps determine if the app is prepared for use in the real world.
 
 
 ## Activation information
 
-Install App Engine Studio by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install App Engine Studio by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Related ServiceNow applications and features
 
--   **[Access Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/c_SNCAccessControl.md)**
+-   **Access Control**
 
     Work with access controls and roles for an application in AES.
 
--   **[Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/catalog-builder.md)**
+-   **Catalog Builder**
 
     Edit the catalog items that you create in AES.
 
@@ -51,11 +51,11 @@ Install App Engine Studio by requesting it from the ServiceNow Store. Visit the 
 
     Control the life cycle of all changes systematically and facilitate changes with minimum disruption to IT services.
 
--   **[Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/manage-cmdb.md)**
+-   **Configuration Management Database \(CMDB\)**
 
     Build logical representations of assets, services, and the relationships between them that comprise the infrastructure of your organization.
 
--   **[Create applications without writing code using Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/creator-studio-landing.md)**
+-   **Create applications without writing code using Creator Studio**
 
     Edit apps built in Creator Studio and add features to customize functionality.
 
@@ -63,19 +63,19 @@ Install App Engine Studio by requesting it from the ServiceNow Store. Visit the 
 
     Add decision rules and use decision tables to decouple decision logic from code.
 
--   **[Email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/c_EmailNotifications.md)**
+-   **Email notifications**
 
     Create and edit email notifications that are automatically sent when a record is created or updated. Email notifications are also used as a reference in flows or can be triggered by an event.
 
--   **[Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/erp-integration-overview.md)**
+-   ****
 
     Simplify the use of Enterprise Resource Planning \(ERP\) data from the system of record, such as SAP.
 
--   **[ERP Semantic Mining \(ERP-CM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/erp-customization-mining-overview.md)**
+-   ****
 
     Find legacy application candidates with custom ERP data that can be replatformed onto the ServiceNow AI Platform.
 
--   **[Flows in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/flows.md)**
+-   **Flows in Workflow Studio**
 
     Edit the flows that you create in AES.
 
@@ -87,19 +87,19 @@ Install App Engine Studio by requesting it from the ServiceNow Store. Visit the 
 
     Add mobile experiences in AES.
 
--   **[Now Assist for app generation in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/sns-now-assist-app-gen-landing.md)**
+-   ****
 
     Create applications through a conversation with generative AI.
 
--   **[Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/process-automation-designer.md)**
+-   **Playbooks**
 
     Edit cross-functional processes and consolidate them into automated task-oriented views.
 
--   **[Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/tb-landing-page.md)**
+-   **Table Builder**
 
     Work with data models in a table format. Table Builder is exclusive to AES.
 
--   **[UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/ui-builder-overview.md)**
+-   **UI Builder**
 
     Edit the experiences that you create in AES.
 
@@ -107,7 +107,7 @@ Install App Engine Studio by requesting it from the ServiceNow Store. Visit the 
 
     Integrate workflow authoring, configuring, and monitoring into a single page experience.
 
--   **[Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/using-workspace-builder.md)**
+-   **Workspace Builder**
 
     Edit and customize workspaces built in AES.
 

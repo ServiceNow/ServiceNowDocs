@@ -10,7 +10,7 @@ topic_type: reference
 last_updated: "2025-12-22"
 reading_time_minutes: 5
 keywords: [CloudWatch, data input, integration, configuration, field, description, ServiceNow, Health Log Analytics, HLA]
-breadcrumb: [Integration configuration field descriptions, Health Log Analytics reference, Health Log Analytics, ITOM AIOps, IT Operations Management]
+breadcrumb: [Integration configuration field descriptions, Health Log Analytics reference, Health Log Analytics, ITOM Health, IT Operations Management]
 ---
 
 # Amazon CloudWatch integration configuration fields

@@ -1,6 +1,6 @@
 ---
-title: Now Assist for Telecommunications, Media and Technology \(TMT\) release notes
-description: The ServiceNow Now Assist for TMT application enriches purpose-built industry workflows with generative AI to supercharge insights, actions, and self-service experiences. Now Assist for TMT was enhanced and updated in the Yokohama release.
+title: ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) release notes
+description: The ServiceNow ServiceNow Otto for TMT application enriches purpose-built industry workflows with generative AI to supercharge insights, actions, and self-service experiences. ServiceNow Otto for TMT was enhanced and updated in the Yokohama release.
 locale: en-US
 release: yokohama
 topic_type: reference
@@ -8,11 +8,11 @@ last_updated: "2025-01-30"
 reading_time_minutes: 7
 ---
 
-# Now Assist for Telecommunications, Media and Technology \(TMT\) release notes
+# ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) release notes
 
-The ServiceNow® Now Assist for TMT application enriches purpose-built industry workflows with generative AI to supercharge insights, actions, and self-service experiences. Now Assist for TMT was enhanced and updated in the Yokohama release.
+The ServiceNow® ServiceNow Otto for TMT application enriches purpose-built industry workflows with generative AI to supercharge insights, actions, and self-service experiences. ServiceNow Otto for TMT was enhanced and updated in the Yokohama release.
 
-## Now Assist for TMT highlights for the Yokohama release
+## ServiceNow Otto for TMT highlights for the Yokohama release
 
 [Yokohama Patch 11](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-11.md)
 
@@ -37,7 +37,7 @@ Yokohama Patch 3
 
 Yokohama Patch 1
 
--   Proactively identify service problems, diagnose, test, and resolve customer issues autonomously using the Now Assist for TMT AI agent collection.
+-   Proactively identify service problems, diagnose, test, and resolve customer issues autonomously using the ServiceNow Otto for TMT AI agent collection.
 
 Yokohama Early Availability
 
@@ -47,9 +47,9 @@ Yokohama Early Availability
 -   Dynamically configure prompts for case summarization.
 -   Automate transformation mapping between provider and consumer instances in Service Exchange.
 
-See [Now Assist for Telecommunications, Media and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/telecom-media-technology/now-assist-spmc.md) for more information.
+See [ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/telecom-media-technology/now-assist-spmc.md) for more information.
 
-**Important:** Now Assist for Telecommunications, Media and Technology \(TMT\) is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+**Important:** ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Yokohama release
 
@@ -102,7 +102,7 @@ See [Now Assist for Telecommunications, Media and Technology \(TMT\)](https://ra
 
     Initiate the consumer registration process using agentic AI to receive step-by-step guidance, including error checks during registration and support for resolving those errors.
 
--   **[Configure ACLs for AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/aia-security-implementation.md)**
+-   **Configure ACLs for AI agents and agentic workflows**
 
     Configure the access control lists for who can discover and trigger AI agents and agentic workflows in their guided setups in AI Agent Studio. You can determine whether an AI agent or agentic workflow behaves as a dynamic user or as an AI user. You can also specify if an AI agent or agentic workflow can be available to all authenticated users or publicly available.
 
@@ -118,7 +118,7 @@ See [Now Assist for Telecommunications, Media and Technology \(TMT\)](https://ra
 
 -   **[Using Telecommunications, Media, and Technology AI agent collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/telecom-media-technology/using-aiagents-usecases.md)**
 
-    Use Now Assist for TMT AI agents to troubleshoot and autonomously resolve customer issues.
+    Use ServiceNow Otto for TMT AI agents to troubleshoot and autonomously resolve customer issues.
 
     |AI agent agentic workflow|Description|
     |-------------------------|-----------|
@@ -127,7 +127,7 @@ See [Now Assist for Telecommunications, Media and Technology \(TMT\)](https://ra
 
 -   **[Dynamic prompt configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/telecom-media-technology/now-assist-tmt-customize.md)**
 
-    Use the Now Assist for Telecommunications, Media and Technology \(TMT\) application to provide concise, context-driven summaries that are specific to each case. Your agents can ensure that critical case details are captured and can provide personalized and informed resolutions.
+    Use the ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) application to provide concise, context-driven summaries that are specific to each case. Your agents can ensure that critical case details are captured and can provide personalized and informed resolutions.
 
 -   **[Enhanced test summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/telecom-media-technology/now-assist-tmt-summarize-test.md)**
 
@@ -139,7 +139,7 @@ See [Now Assist for Telecommunications, Media and Technology \(TMT\)](https://ra
 
 -   **[Knowledge article generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/telecom-media-technology/now-assist-tmt-generate-knowledge-article.md)**
 
-    Select and gather insights and data from multiple similar cases to create an article by using Now Assist for TMT. Use the Now Assist icon \(\[Omitted image "icon-ai-sparkle.png"\] Alt text: Now Assist icon.\), which is accessible as an inline capability to create and refine Knowledge articles.
+    Select and gather insights and data from multiple similar cases to create an article by using ServiceNow Otto for TMT. Use the Now Assist icon \(\[Omitted image "icon-ai-sparkle.png"\] Alt text: Now Assist icon.\), which is accessible as an inline capability to create and refine Knowledge articles.
 
 -   **[Account onboarding case summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/telecom-media-technology/now-assist-tmt-summarize-onboard-case.md)**
 
@@ -160,24 +160,24 @@ See [Now Assist for Telecommunications, Media and Technology \(TMT\)](https://ra
 
 ## Changed in this release
 
--   **[Changes to Now Assist usage measurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/monitoring-now-assist-usage.md)**
+-   **Changes to Now Assist usage measurement**
 
     Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
--   **[Some Now Assist skills are turned on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md)**
+-   **Some Now Assist skills are turned on by default**
 
     The new default behavior works as follows:
 
     -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
     -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
--   **[Configure ACLs for AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/aia-security-implementation.md)**
+-   **Configure ACLs for AI agents and agentic workflows**
 
     Configure the access control lists for who can discover and trigger AI agents and agentic workflows in their guided setups in AI Agent Studio. You can determine whether an AI agent or agentic workflow behaves as a dynamic user or as an AI user. You can also specify if an AI agent or agentic workflow can be available to all authenticated users or publicly available.
 
 
 ## Activation information
 
-Now Assist features are available with activation of the Now Assist for TMT plugin. For more information, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+Now Assist features are available with activation of the ServiceNow Otto for TMT plugin. For more information, see .
 
 ## Related ServiceNow applications and features
 
@@ -185,15 +185,15 @@ Now Assist features are available with activation of the Now Assist for TMT plug
 
     Help improve the productivity and efficiency in your organization, deliver better self-service, recommend actions, provide answers, and empower your users to search more effectively.
 
--   **[Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configuring-now-assist.md)**
+-   ****
 
-    Use the Now Assist Admin console to provide you with quick and effortless access to the important information that you need to set up, configure, and monitor Now Assist applications and features.
+    Use the AI Admin Hub console to provide you with quick and effortless access to the important information that you need to set up, configure, and monitor Now Assist applications and features.
 
--   **[Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-panel-overview.md)**
+-   ****
 
     Use this conversational interface in CSM Configurable Workspace to summarize a chat, a case, or resolution notes so that you can get the context of this information more quickly.
 
--   **[Now Assist skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills.md)**
+-   ****
 
     Use the Now Assist products to provide agentic AI skills to meet the needs of users in different workflows, including case or incident summarization, chat summarization, resolution notes generation, and code generation.
 

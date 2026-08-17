@@ -19,7 +19,7 @@ Gain insights into the page content by summarizing it or improve content quality
 ## Before you begin
 
 -   [Create a Doc in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/collaborative-work-management/create-a-doc-in-cwm.md).
--   Activate the Docs summarization in Collaborative Work Management Now Assist skill. See [Configure Now Assist for Collaborative Work Management \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-collaborative-work-management-cwm/configure-now-assist-for-collaborative-work-management.md).
+-   Activate the Docs summarization in Collaborative Work Management Now Assist skill. See [Configure ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-collaborative-work-management-cwm/configure-now-assist-for-collaborative-work-management.md).
 
 Role required: sn\_cwm\_ai.cwm\_ai\_user
 

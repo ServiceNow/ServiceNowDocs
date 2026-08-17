@@ -31,7 +31,7 @@ For sending notifications via an SMS, a delivery channel must be set up in **Pul
 **Related topics**  
 
 
-[Integrating Listening Posts with Usage Insights]()
+[Integrating Listening Posts with User Experience Analytics]()
 
 [Integrating Listening Posts with Journey designer]()
 

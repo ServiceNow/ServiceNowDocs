@@ -1,6 +1,6 @@
 ---
-title: Summarize the feedback by using Now Assist for Strategic Portfolio Management \(SPM\)
-description: Generate a summary from the name and description of the feedback records so that you can analyze a large volume of feedback quickly without reading each feedback record manually. You can do this task by using the multi feedback summarization skill in the Now Assist for Strategic Portfolio Management \(SPM\) application.
+title: Summarize the feedback by using ServiceNow Otto for Strategic Portfolio Management
+description: Generate a summary from the name and description of the feedback records so that you can analyze a large volume of feedback quickly without reading each feedback record manually. You can do this task by using the multi feedback summarization skill in the ServiceNow Otto for Strategic Portfolio Management application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/feedback-summary-sentiment-topics.html
 release: yokohama
@@ -10,12 +10,12 @@ topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 4
 keywords: [Feedback summarization, Multi summarization skill, Summarize feedback]
-breadcrumb: [Using Now Assist for Strategic Portfolio Management \(SPM\), Now Assist for Strategic Portfolio Management \(SPM\), Strategic Portfolio Management]
+breadcrumb: [Using ServiceNow Otto for Strategic Portfolio Management, ServiceNow Otto for Strategic Portfolio Management, Strategic Portfolio Management]
 ---
 
-# Summarize the feedback by using Now Assist for Strategic Portfolio Management \(SPM\)
+# Summarize the feedback by using ServiceNow Otto for Strategic Portfolio Management
 
-Generate a summary from the name and description of the feedback records so that you can analyze a large volume of feedback quickly without reading each feedback record manually. You can do this task by using the multi feedback summarization skill in the Now Assist for Strategic Portfolio Management \(SPM\) application.
+Generate a summary from the name and description of the feedback records so that you can analyze a large volume of feedback quickly without reading each feedback record manually. You can do this task by using the multi feedback summarization skill in the ServiceNow Otto for Strategic Portfolio Management application.
 
 \[Omitted video\] Description: Multi feedback summarization video.
 
@@ -78,15 +78,15 @@ With the feedback or multi feedback summarization skill, you can get enough deta
 
 5.  When you're finished summarizing the feedback, you can expand or collapse the summary, provide feedback, copy it, or view information about it.
 
-<table id="choicetable_mzf_fyg_y1c"><thead><tr><th align="left" id="d170699e200">
+<table id="choicetable_mzf_fyg_y1c"><thead><tr><th align="left" id="d170289e200">
 
 Option
 
-</th><th align="left" id="d170699e203">
+</th><th align="left" id="d170289e203">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d170699e209">
+</th></tr></thead><tbody><tr><td id="d170289e209">
 
 **Expand or collapse the summary**
 
@@ -94,7 +94,7 @@ Procedure
 
 Select the expand card icon \(\[Omitted image "icon-expand-spm.png"\] Alt text: Expand card icon.\) or the collapse card icon \(\[Omitted image "icon-collapse-spm.png"\] Alt text: Collapse card icon.\) to see more details or fewer summary details.
 
-</td></tr><tr><td id="d170699e230">
+</td></tr><tr><td id="d170289e230">
 
 **More information on summary**
 
@@ -102,7 +102,7 @@ Select the expand card icon \(\[Omitted image "icon-expand-spm.png"\] Alt text: 
 
 If you want to check some details about the summary, select the more info icon \(\[Omitted image "icon-more-information-spm.png"\] Alt text: More information icon.\).
 
-</td></tr><tr><td id="d170699e245">
+</td></tr><tr><td id="d170289e245">
 
 **View more or less summary**
 
@@ -110,7 +110,7 @@ If you want to check some details about the summary, select the more info icon \
 
 Select **View more** or **View less** to see more or less summary information.
 
-</td></tr><tr><td id="d170699e260">
+</td></tr><tr><td id="d170289e260">
 
 **Provide feedback for the summary**
 
@@ -118,7 +118,7 @@ Select **View more** or **View less** to see more or less summary information.
 
 If you think that the summary was helpful, select the helpful icon \(\[Omitted image "icon-helpful-feedback.png"\] Alt text: Helpful icon.\). If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-nt-helpful.png"\] Alt text: Not helpful icon.\).This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d170699e284">
+</td></tr><tr><td id="d170289e284">
 
 **Copy the feedback summary**
 
@@ -126,7 +126,7 @@ If you think that the summary was helpful, select the helpful icon \(\[Omitted i
 
 Select the copy to clipboard icon \(\[Omitted image "icon-copy-spm.png"\] Alt text: Copy to clipboard icon.\) to use the feedback summary information for another purpose, such as pasting it into an email.
 
-</td></tr><tr><td id="d170699e299">
+</td></tr><tr><td id="d170289e299">
 
 **Refresh the summary**
 
@@ -134,7 +134,7 @@ Select the copy to clipboard icon \(\[Omitted image "icon-copy-spm.png"\] Alt te
 
 Select **Refresh** to reload the feedback summary.
 
-</td></tr><tr><td id="d170699e311">
+</td></tr><tr><td id="d170289e311">
 
 **Copy and create epic from summary**
 
@@ -152,5 +152,5 @@ Select **Copy and create epic** to create a planning or non-planning item by usi
     Save time and streamline your work flow by linking the feedback with planning items, which eliminates the need to copy summaries. You can quickly create work items in Feedback and view them in the roadmap.
 
 
-**Parent Topic:**[Using Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/using-now-assist-for-spm.md)
+**Parent Topic:**[Using ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/using-now-assist-for-spm.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Configure email and password resets for the Alumni Center
+title: Configure email and password resets for the Alumni Service Center
 description: Use Notifications, to configure the emails that send the user ID and password reset for your alumni.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/asc-config-email-password.html
@@ -9,10 +9,10 @@ classification: hr-service-delivery
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [System notifications for Alumni Center, Alumni Center, HR Service Delivery, Employee Service Management]
+breadcrumb: [System notifications for Alumni Service Center, Alumni Service Center, HR Service Delivery, Employee Service Management]
 ---
 
-# Configure email and password resets for the Alumni Center
+# Configure email and password resets for the Alumni Service Center
 
 Use **Notifications**, to configure the emails that send the user ID and password reset for your alumni.
 

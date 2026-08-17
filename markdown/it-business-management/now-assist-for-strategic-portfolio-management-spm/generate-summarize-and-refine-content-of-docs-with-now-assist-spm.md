@@ -1,6 +1,6 @@
 ---
-title: Generate and improve Docs content with Now Assist for Strategic Portfolio Management \(SPM\)
-description: Generate content with Now Assist for SPM directly in your Docs using custom prompts. In addition, summarize existing sections, elaborate where needed, and refine drafts to help improve your productivity.
+title: Generate and improve Docs content with ServiceNow Otto for Strategic Portfolio Management
+description: Generate content with ServiceNow Otto for SPM directly in your Docs using custom prompts. In addition, summarize existing sections, elaborate where needed, and refine drafts to help improve your productivity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/generate-summarize-and-refine-content-of-docs-with-now-assist-spm.html
 release: yokohama
@@ -9,12 +9,12 @@ classification: now-assist-for-strategic-portfolio-management-spm
 topic_type: task
 last_updated: "2025-08-26"
 reading_time_minutes: 2
-breadcrumb: [Using Now Assist for Strategic Portfolio Management \(SPM\), Now Assist for Strategic Portfolio Management \(SPM\), Strategic Portfolio Management]
+breadcrumb: [Using ServiceNow Otto for Strategic Portfolio Management, ServiceNow Otto for Strategic Portfolio Management, Strategic Portfolio Management]
 ---
 
-# Generate and improve Docs content with Now Assist for Strategic Portfolio Management \(SPM\)
+# Generate and improve Docs content with ServiceNow Otto for Strategic Portfolio Management
 
-Generate content with Now Assist for SPM directly in your Docs using custom prompts. In addition, summarize existing sections, elaborate where needed, and refine drafts to help improve your productivity.
+Generate content with ServiceNow Otto for SPM directly in your Docs using custom prompts. In addition, summarize existing sections, elaborate where needed, and refine drafts to help improve your productivity.
 
 ## Before you begin
 
@@ -34,15 +34,15 @@ This task will be explained using Project Workspace as the example.
 
 2.  From your Doc, open the page you want to work with and use Now Assist for any of your use cases.
 
-<table id="choicetable_l3j_vx2_lgc"><thead><tr><th align="left" id="d102928e109">
+<table id="choicetable_l3j_vx2_lgc"><thead><tr><th align="left" id="d102521e109">
 
 Choice
 
-</th><th align="left" id="d102928e112">
+</th><th align="left" id="d102521e112">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d102928e118">
+</th></tr></thead><tbody><tr><td id="d102521e118">
 
 **Work with content of the whole page**
 
@@ -58,7 +58,7 @@ Some examples are:
     -   For product teams: **Analyze the customer feedback comments in this Doc, group into top 5 themes, and suggest top 3 enhancements for highest impact.**
  **Note:** Now Assist uses the context from your Doc page to generate a response.
 
-</td></tr><tr><td id="d102928e166">
+</td></tr><tr><td id="d102521e166">
 
 **Refine, elaborate, or improve the existing content within the page.**
 
@@ -74,7 +74,7 @@ Some examples are:
     -   **Rewrite this in a casual tone.**
 \[Omitted image "na-inline-open-text.png"\] Alt text: Now Assist inline prompt for selected content on the page.
 
-</td></tr><tr><td id="d102928e211">
+</td></tr><tr><td id="d102521e211">
 
 **Take assistance on a blank page.**
 
@@ -101,5 +101,5 @@ Some examples are:
     **Important:** Because the output is AI-generated, review it to ensure accuracy.
 
 
-**Parent Topic:**[Using Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/using-now-assist-for-spm.md)
+**Parent Topic:**[Using ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/using-now-assist-for-spm.md)
 

@@ -135,7 +135,7 @@ Full support
 
 </td></tr><tr><td>
 
-Now Assist for Code
+ServiceNow Otto for Code
 
 </td><td>
 

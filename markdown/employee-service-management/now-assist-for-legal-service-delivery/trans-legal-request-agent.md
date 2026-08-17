@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2025-04-04"
 reading_time_minutes: 2
 keywords: [Now Assist, Transfer AI Agents]
-breadcrumb: [Agentic workflow, Now Assist for Legal Service Delivery \(LSD\), Legal Service Delivery, Employee Service Management]
+breadcrumb: [Agentic workflow, ServiceNow Otto for Legal Service Delivery \(LSD\), Legal Service Delivery, Employee Service Management]
 ---
 
 # Triage legal requests agentic workflow
@@ -56,5 +56,5 @@ The agentic workflow conversation can be seen in the Now Assist panel by the leg
     -   If you choose to transfer the general legal request, enter `Yes` and select the send icon \(\[Omitted image "send-chat-icon.png"\] Alt text: Send icon.\) in the panel. When it's transferred, the original request is canceled and a new request is created with the predicted legal category. The agentic conversation is closed after the transfer of the legal request.
     -   If you choose not to transfer the general legal request, enter `No` and select the send icon \(\[Omitted image "send-chat-icon.png"\] Alt text: Send icon.\) in the panel. The general legal request isn’t transferred and the agentic conversation is closed.
 
-**Parent Topic:**[Using agentic workflow in Now Assist for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-legal-service-delivery/agentic-ai-now-assist-lsd.md)
+**Parent Topic:**[Using agentic workflow in ServiceNow Otto for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-legal-service-delivery/agentic-ai-now-assist-lsd.md)
 

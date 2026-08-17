@@ -9,7 +9,7 @@ classification: service-level-objective-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Using SLO Management, Service Level Objective Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Using SLO Management, Service Level Objective Management, ITOM Health, IT Operations Management]
 ---
 
 # Edit a reliability metric

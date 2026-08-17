@@ -1,6 +1,6 @@
 ---
-title: Supporting information for Now Assist for Third-party Risk Management \(TPRM\)
-description: Get a quick overview of the important information that is related to the Now Assist for Third-party Risk Management \(TPRM\) application.
+title: Supporting information for ServiceNow Otto for Third-party Risk Management \(TPRM\)
+description: Get a quick overview of the important information that is related to the ServiceNow Otto for Third-party Risk Management \(TPRM\) application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/third-party-risk-management/supporting-information-now-assist-tprm.html
 release: yokohama
@@ -13,13 +13,13 @@ keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
 breadcrumb: [Exploring, Now Assist, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
 
-# Supporting information for Now Assist for Third-party Risk Management \(TPRM\)
+# Supporting information for ServiceNow Otto for Third-party Risk Management \(TPRM\)
 
-Get a quick overview of the important information that is related to the Now Assist for Third-party Risk Management \(TPRM\) application.
+Get a quick overview of the important information that is related to the ServiceNow Otto for Third-party Risk Management \(TPRM\) application.
 
 ## Supported versions
 
-Now Assist for TPRM is supported starting from the Zurich patch 4 release.
+ServiceNow Otto for TPRM is supported starting from the Zurich patch 4 release.
 
 ## Supported language models
 
@@ -27,9 +27,9 @@ You can use Now LLM Service, Azure OpenAI, Google Gemini, Anthropic Claude on AW
 
 ## Supported user interfaces
 
-The Now Assist for TPRM application skill TPRM Issue Summarization can be accessed in the Vendor Management Workspace and Core UI.
+The ServiceNow Otto for TPRM application skill TPRM Issue Summarization can be accessed in the Vendor Management Workspace and Core UI.
 
 ## Application information
 
-Activate the Now Assist for TPRM \(sn\_tprm\_gen\_ai\) store app.
+Activate the ServiceNow Otto for TPRM \(sn\_tprm\_gen\_ai\) store app.
 

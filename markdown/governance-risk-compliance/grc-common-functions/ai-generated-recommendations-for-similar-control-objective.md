@@ -44,7 +44,7 @@ The Control objective deduplication and rationalization feature is designed to h
 
 **Note:** Only users with sn\_reco\_template.rationalization\_process\_writer and sn\_grc\_shared\_genai.compliance\_gen\_ai\_user can see the option to generate recommendations for similar control objective. This role must be manually assigned to a compliance user.
 
-To generate recommendations for a control objective you must configure Now Assist for integrated risk management and activate the rationalization skill, refer to [Configure Now Assist for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/configure-now-assist-for-irm.md) and [Activate the rationalization skill for control objective](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/activate-the-rationalization-skill-for-control-objective.md) for more information.
+To generate recommendations for a control objective you must configure Now Assist for integrated risk management and activate the rationalization skill, refer to [Configure ServiceNow Otto for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/configure-now-assist-for-irm.md) and [Activate the rationalization skill for control objective](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/activate-the-rationalization-skill-for-control-objective.md) for more information.
 
 ## Viewing recommendations
 

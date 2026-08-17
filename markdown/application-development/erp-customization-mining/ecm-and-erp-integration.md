@@ -1,6 +1,6 @@
 ---
-title: How ERP-CM works with Zero Copy Connector for ERP and remote tables
-description: Zero Copy Connector for ERP enables you to connect to your ERP \(Enterprise Resource Planning\) system of record, and to organize its data.
+title: How ERP-CM works with ERP Canvas and remote tables
+description: ERP Canvas enables you to connect to your ERP \(Enterprise Resource Planning\) system of record, and to organize its data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-customization-mining/ecm-and-erp-integration.html
 release: yokohama
@@ -9,20 +9,20 @@ classification: erp-customization-mining
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Exploring ERP Semantic Mining, ERP Semantic Mining \(ERP-CM\), Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Exploring ERP Customization Mining, ERP Customization Mining \(ERP-CM\), Building low-code applications, Developing your application, Building applications]
 ---
 
-# How ERP-CM works with Zero Copy Connector for ERP and remote tables
+# How ERP-CM works with ERP Canvas and remote tables
 
-Zero Copy Connector for ERP enables you to connect to your ERP \(Enterprise Resource Planning\) system of record, and to organize its data.
+ERP Canvas enables you to connect to your ERP \(Enterprise Resource Planning\) system of record, and to organize its data.
 
-Using Zero Copy Connector for ERP, you can access standard fields for remote tables and ERP extraction tables, while ERP Semantic Mining \(ERP-CM\) enables you to find good candidates for replatforming from the system of record to the ServiceNow AI Platform.
+Using ERP Canvas, you can access standard fields for remote tables and ERP extraction tables, while ERP Customization Mining \(ERP-CM\) enables you to find good candidates for replatforming from the system of record to the ServiceNow AI Platform.
 
 ERP-CM suggests candidates and possible next steps, such as updating remote tables and extraction tables to access ERP data. Remote tables send data to the ServiceNow instance as an attachment, which is then analyzed using AI/ML to identify similar candidates to replatform.
 
-After you've identified candidates to replatform and taken the recommended action in ERP-CM, you need to use only Zero Copy Connector for ERP to access the remote tables and extraction tables. These tables are data sources for building apps, flows, and workspaces.
+After you've identified candidates to replatform and taken the recommended action in ERP-CM, you need to use only ERP Canvas to access the remote tables and extraction tables. These tables are data sources for building apps, flows, and workspaces.
 
-## Using remote tables and extraction tables with Zero Copy Connector for ERP and ERP-CM
+## Using remote tables and extraction tables with ERP Canvas and ERP-CM
 
 You can use a combination of remote tables and extraction tables to retrieve data from your legacy ERP system.
 
@@ -35,5 +35,5 @@ By using a remote table, you can retrieve the data from external sources or from
 
 Use an extraction table to work with large amounts of ERP data. ERP extraction tables regularly save data to a local transform table on the ServiceNow AI Platform, which you can then process and use as the data foundation of a replatformed app.
 
-**Parent Topic:**[Exploring ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/exploring-ecm.md)
+**Parent Topic:**[Exploring ERP Customization Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/exploring-ecm.md)
 

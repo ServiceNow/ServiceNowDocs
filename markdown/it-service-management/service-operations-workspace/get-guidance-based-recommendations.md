@@ -1,5 +1,5 @@
 ---
-title: Get Guidance based recommendations
+title: Get guidance-based recommendations
 description: Get actionable real-time recommendations in the side panel to help address customer issues and resolve issues quickly.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/service-operations-workspace/get-guidance-based-recommendations.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Recommended Actions for ITSM in Service Operations Workspace, Manage, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
-# Get Guidance based recommendations
+# Get guidance-based recommendations
 
 Get actionable real-time recommendations in the side panel to help address customer issues and resolve issues quickly.
 
@@ -41,7 +41,7 @@ For records other than incidents \(such as Incident Tasks, Problems, Problem tas
 
 3.  Select the **Recommendations** icon\(\[Omitted image "recommended-actions-icon.png"\] Alt text: recommended actions icon\) in the contextual side panel.
 
-4.  Select the Recommended actions to review the actionable recommendation cards.\[Omitted image "Using\_RA.png"\] Alt text: Guidance based recommendations
+4.  Select the **Recommended actions** to review the actionable recommendation cards.\[Omitted image "Using\_RA.png"\] Alt text: Guidance based recommendations
 
 5.  Review the Recommended Actions cards and do one of the following:
 

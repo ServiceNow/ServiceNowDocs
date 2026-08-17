@@ -1,6 +1,6 @@
 ---
-title: Exploring Now Assist for IT Service Management \(ITSM\)
-description: With the Now Assist for IT Service Management \(ITSM\) application, your agents can summarize the chat conversations and incident details, generate the incident resolution notes to share with other agents.
+title: Exploring ServiceNow Otto for IT Service Management \(ITSM\)
+description: With the ServiceNow Otto for IT Service Management \(ITSM\) application, your agents can summarize the chat conversations and incident details, generate the incident resolution notes to share with other agents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/now-assist-for-it-service-management-itsm/exploring-now-assist-itsm.html
 release: yokohama
@@ -10,14 +10,14 @@ topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 5
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
-breadcrumb: [Now Assist for IT Service Management \(ITSM\), IT Service Management]
+breadcrumb: [ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 
-# Exploring Now Assist for IT Service Management \(ITSM\)
+# Exploring ServiceNow Otto for IT Service Management \(ITSM\)
 
-With the Now Assist for IT Service Management \(ITSM\) application, your agents can summarize the chat conversations and incident details, generate the incident resolution notes to share with other agents.
+With the ServiceNow Otto for IT Service Management \(ITSM\) application, your agents can summarize the chat conversations and incident details, generate the incident resolution notes to share with other agents.
 
-## Now Assist for IT Service Management \(ITSM\) overview
+## ServiceNow Otto for IT Service Management \(ITSM\) overview
 
 The following generative AI capabilities are available for an agent:
 
@@ -25,9 +25,9 @@ The following generative AI capabilities are available for an agent:
 -   The incident resolution notes provide the context to other agents who might encounter similar incidents.
 -   An interaction chat summary provides the context about the chat conversation to an agent by specifying all points of the handoff, including the Virtual Agent conversation.
 
-## Now Assist for IT Service Management \(ITSM\) skills
+## ServiceNow Otto for IT Service Management \(ITSM\) skills
 
-The Now Assist for ITSM application includes the generative AI skills and features that enable your agents to understand the chat and incident context so that they can propose quicker resolutions to the requester.
+The ServiceNow Otto for ITSM application includes the generative AI skills and features that enable your agents to understand the chat and incident context so that they can propose quicker resolutions to the requester.
 
 -   **Chat summarization**
 
@@ -140,10 +140,10 @@ The Now Assist for ITSM application includes the generative AI skills and featur
 
 An agent can use the Now Assist panel in Service Operations Workspace for ITSM. This conversational interface enables an agent to request a chat summary or incident summary and generate the incident resolution notes. For more information about the Now Assist panel, see [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-panel-overview.md).
 
--   **[Supporting information for Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/now-assist-for-it-service-management-itsm/supporting-information-now-assist-itsm.md)**  
-Get a quick overview of the important information that is related to the Now Assist for IT Service Management \(ITSM\) application.
+-   **[Supporting information for ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/now-assist-for-it-service-management-itsm/supporting-information-now-assist-itsm.md)**  
+Get a quick overview of the important information that is related to the ServiceNow Otto for IT Service Management \(ITSM\) application.
 
-**Parent Topic:**[Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm.md)
+**Parent Topic:**[ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm.md)
 
 **Related topics**  
 

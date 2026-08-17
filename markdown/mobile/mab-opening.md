@@ -30,15 +30,15 @@ For more information about the delegated developer role, see [Delegated developm
 
 2.  Perform one or all of the following actions from the application scope selection screen.
 
-<table id="choicetable_j52_czt_ktb"><thead><tr><th align="left" id="d38650e100">
+<table id="choicetable_j52_czt_ktb"><thead><tr><th align="left" id="d38842e100">
 
 Action
 
-</th><th align="left" id="d38650e103">
+</th><th align="left" id="d38842e103">
 
 Process
 
-</th></tr></thead><tbody><tr><td id="d38650e109">
+</th></tr></thead><tbody><tr><td id="d38842e109">
 
 **Access documentation**
 
@@ -46,7 +46,7 @@ Process
 
 Select **Go to product documentation** to get information about Mobile App Builder and how to use the tool.
 
-</td></tr><tr><td id="d38650e124">
+</td></tr><tr><td id="d38842e124">
 
 **Access Mobile Card Builder**
 
@@ -54,7 +54,7 @@ Select **Go to product documentation** to get information about Mobile App Build
 
 Select **Open Mobile Card Builder** to customize the appearance of the mobile cards you use within Mobile App Builder.
 
-</td></tr><tr><td id="d38650e142">
+</td></tr><tr><td id="d38842e142">
 
 **Select an application scope**
 

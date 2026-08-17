@@ -32,27 +32,27 @@ Yokohama Patch 3
     -   Account Notification
     -   Add LE activity user to Pulse Survey
 
-See [Journey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/jny-dsgnr-landing-page.md) for more information.
+See  for more information.
 
 ## Activation information
 
-Install Journey designer by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install Journey designer by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 **Important:** Journey designer is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## Related ServiceNow applications and features
 
--   **[Journey Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/journey-accelerator.md)**
+-   ****
 
     Define and manage plan types for employee transitions, such as promotions, onboarding, offboarding, and more.
 
 
--   **[Learning Posts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/learning-post-app.md)**
+-   ****
 
     With the ServiceNow Learning Posts application, create an omnichannel learning experience that empowers employees to access the right learning when they need it.
 
 
--   **[Lifecycle Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/hr-lifecycle-events-landing-page.md)**
+-   ****
 
     The Lifecycle Events application helps to facilitate daily activities among various cross-functional processes and departments. It makes completing processes that relate to an employee's daily life more efficient and easier.
 

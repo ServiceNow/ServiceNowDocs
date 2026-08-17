@@ -9,7 +9,7 @@ classification: hr-service-delivery
 topic_type: concept
 last_updated: "2025-11-19"
 reading_time_minutes: 1
-breadcrumb: [Explore, Alumni Center, HR Service Delivery, Employee Service Management]
+breadcrumb: [Explore, Alumni Service Center, HR Service Delivery, Employee Service Management]
 ---
 
 # Alumni job opportunities

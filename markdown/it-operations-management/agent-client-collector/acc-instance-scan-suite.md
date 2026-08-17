@@ -16,14 +16,14 @@ breadcrumb: [Exploring Agent Client Collector Framework, Agent Client Collector 
 
 The Agent Client Collector \(ACC\) health instance scan suite consists of checks that detect anomalies and other issues that might occur on your instance. These checks ensure the overall health and performance of the ACC, proactively identifying potential problems before they impact system operations.
 
-For details on running the ACC health instance scan, see [Run the Agent Client Collector \(ACC\) health instance scan as a scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-instance-scan-run.md).
+For details on running the ACC health instance scan, see [Schedule the Agent Client Collector \(ACC\) health instance scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-instance-scan-run.md).
 
 For details on the ACC health instance scan suite checks, see [Agent Client Collector health instance scan checks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-instance-scan-checks.md).
 
 For details on importing the `global.ACCInstanceScanUtil` script include, see the [Script Include ACCInstanceScanUtil \[KB1630132\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1630132) article in the Now Support Knowledge Base.
 
--   **[Run the Agent Client Collector \(ACC\) health instance scan as a scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-instance-scan-run.md)**  
-Run the **Run \(ACC\) health instance scan** scheduled job to monitor the overall health of the instance receiving data from the Agent Client Collector.
+-   **[Schedule the Agent Client Collector \(ACC\) health instance scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-instance-scan-run.md)**  
+Run the **Run \(ACC\) health instance scan** as a scheduled job to monitor the overall health of the instance receiving data from the Agent Client Collector.
 
 **Parent Topic:**[Exploring Agent Client Collector Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/exploring-agent-client-collector-framework.md)
 

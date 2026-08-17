@@ -24,7 +24,7 @@ Role required: admin
 
 1.  Navigate to the System Properties table:
 
-    -   When you log in to a Now Assist for Code instance for the first time, you’ll see a notification to use GPT-4o with Now Assist for Code.
+    -   When you log in to a ServiceNow Otto for Code instance for the first time, you’ll see a notification to use GPT-4o with ServiceNow Otto for Code.
 
         To turn on the Code Explain and Summarize features, select **Go to turn on GPT-4o**.
 

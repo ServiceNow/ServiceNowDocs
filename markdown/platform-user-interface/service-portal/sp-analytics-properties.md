@@ -1,6 +1,6 @@
 ---
-title: Usage Insights related properties for Service Portal
-description: Use system properties to configure Usage Insights for Service Portal.
+title: User Experience Analytics related properties for Service Portal
+description: Use system properties to configure User Experience Analytics for Service Portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/service-portal/sp-analytics-properties.html
 release: yokohama
@@ -9,12 +9,12 @@ classification: service-portal
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Usage Insights for Service Portal, Analytics and Reporting Solutions for Service Portal, Analyzing portal performance and usage, Service Portal, Configure UIs and portals, Configure user experiences]
+breadcrumb: [User Experience Analytics for Service Portal, Analytics and Reporting Solutions for Service Portal, Analyzing portal performance and usage, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
 
-# Usage Insights related properties for Service Portal
+# User Experience Analytics related properties for Service Portal
 
-Use system properties to configure Usage Insights for Service Portal.
+Use system properties to configure User Experience Analytics for Service Portal.
 
 -   **__glide.analytics.tracking.force\_allowed.portals__**
 
@@ -29,7 +29,7 @@ Use system properties to configure Usage Insights for Service Portal.
     -   Type: string
     -   Default value: none
 
-**Parent Topic:**[Usage Insights for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/service-portal/sp-analytics.md)
+**Parent Topic:**[User Experience Analytics for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/service-portal/sp-analytics.md)
 
 **Related topics**  
 

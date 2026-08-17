@@ -34,7 +34,7 @@ Role required: admin
 
 1.  Ensure that the application scope is set to the Service Graph Connector for Microsoft Defender for IoT \(On-premises Management Console\) application by using the application picker.
 
-    For more information, see .
+    For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/c_ApplicationPicker.md).
 
 2.  Navigate to **All** &gt; **Service Graph Connector Microsoft D4IoT** &gt; **Guided Setup**.
 

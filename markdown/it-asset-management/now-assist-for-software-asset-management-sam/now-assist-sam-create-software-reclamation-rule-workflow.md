@@ -1,5 +1,5 @@
 ---
-title: Now Assist for Software Asset Management \(SAM\) AI agent collection to create software reclamation rule
+title: ServiceNow Otto for Software Asset Management \(SAM\) AI agent collection to create software reclamation rule
 description: Use the Create software reclamation rule agentic workflow to automatically create reclamation rules to aggregate usage records and to identify unused software products that lack reclamation rules but are viable candidates.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/now-assist-for-software-asset-management-sam/now-assist-sam-create-software-reclamation-rule-workflow.html
@@ -9,10 +9,10 @@ classification: now-assist-for-software-asset-management-sam
 topic_type: concept
 last_updated: "2025-08-07"
 reading_time_minutes: 3
-breadcrumb: [Using agentic workflows in Now Assist for SAM, Now Assist for Software Asset Management \(SAM\), Software Asset Management, IT Asset Management]
+breadcrumb: [Using agentic workflows in Now Assist for SAM, ServiceNow Otto for Software Asset Management \(SAM\), Software Asset Management, IT Asset Management]
 ---
 
-# Now Assist for Software Asset Management \(SAM\) AI agent collection to create software reclamation rule
+# ServiceNow Otto for Software Asset Management \(SAM\) AI agent collection to create software reclamation rule
 
 Use the Create software reclamation rule agentic workflow to automatically create reclamation rules to aggregate usage records and to identify unused software products that lack reclamation rules but are viable candidates.
 

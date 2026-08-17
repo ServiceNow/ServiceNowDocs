@@ -7,7 +7,7 @@ release: yokohama
 topic_type: concept
 last_updated: "2025-04-24"
 reading_time_minutes: 1
-breadcrumb: [Exploring Now Assist for Mobile, Now Assist for Mobile, Mobile Platform]
+breadcrumb: [Exploring Otto, ServiceNow Otto for Mobile, Mobile Platform]
 ---
 
 # Now Assist mobile SDK

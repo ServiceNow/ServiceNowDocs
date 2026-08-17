@@ -9,7 +9,7 @@ classification: service-operations-workspace-for-itom-apps
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 5
-breadcrumb: [Alert automation in Service Operations Workspace for ITOM, Using Service Operations Workspace for ITOM, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
+breadcrumb: [Alert automation in Service Operations Workspace for ITOM, Using Service Operations Workspace for ITOM, Service Operations Workspace for ITOM, ITOM Health, IT Operations Management]
 ---
 
 # Create Respond automation
@@ -67,15 +67,15 @@ For users familiar with the classic Event Management experience, this provides a
 
     \[Omitted image "respond-automation-actions.png"\] Alt text: Respond automation actions
 
-<table id="choicetable_cng_cfz_pbc"><thead><tr><th align="left" id="d513447e243">
+<table id="choicetable_cng_cfz_pbc"><thead><tr><th align="left" id="d514013e243">
 
 Action
 
-</th><th align="left" id="d513447e246">
+</th><th align="left" id="d514013e246">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d513447e252">
+</th></tr></thead><tbody><tr><td id="d514013e252">
 
 **Create an incident**
 
@@ -85,7 +85,7 @@ Creates an incident for the alerts that match the specified filter.For details o
 
 To include additional fields in the incident, select **+ Add**.
 
-</td></tr><tr><td id="d513447e275">
+</td></tr><tr><td id="d514013e275">
 
 **Use outbound webhooks to send data to other systems**
 
@@ -97,7 +97,7 @@ Sends notifications to other systems using outbound webhooks. For example, this 
 
  To create an additional property, select **+ Add property**. The property can be any custom key-value pair that you want to include in the webhook payload, such as "Content-Type: application/json" or "Authorization: Bearer &lt;token&gt;".
 
-</td></tr><tr><td id="d513447e303">
+</td></tr><tr><td id="d514013e303">
 
 **Run other response actions**
 

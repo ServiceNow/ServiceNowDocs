@@ -22,11 +22,11 @@ Role requirements: sn\_cmdb\_admin \(CMDB Admin\), sn\_cmdb\_editor \(CMDB Edito
 
 To access the Home view, navigate to **Workspaces** &gt; **CMDB Workspace** and then select **Home** in the CMDB Workspace menu bar.
 
-## Now Assist for CMDB
+## ServiceNow Otto for CMDB
 
-Select the Now Assist icon \[Omitted image "ai-sparkle-cmdb.png"\] Alt text: to access Now Assist for CMDB skills, agents, and agentic workflows.
+Select the Now Assist icon \[Omitted image "ai-sparkle-cmdb.png"\] Alt text: to access ServiceNow Otto for CMDB skills, agents, and agentic workflows.
 
-For more information, see [Now Assist for Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-landing-cmdb.md).
+For more information, see [ServiceNow Otto for Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-landing-cmdb.md).
 
 ## Intelligent Search
 

@@ -38,19 +38,19 @@ Yokohama Patch 13 includes fixes for security-related problems that affected cer
 
 ## Changes in Yokohama Patch 13
 
--   **[Associate a request header with a resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/associate-header-api-resource.md)**
+-   ****
 
     Define which request headers are expected for each resource within a scripted REST API.
 
--   **[Associate query parameters with a resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/AssocQueryParmResource.md)**
+-   ****
 
     Associate scripted REST API query parameters with a resource.
 
--   **[Automatically generate API request definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/autogenerate-api-request-definitions.md)**
+-   ****
 
     Use sample requests made to an API resource to generate request header associations, query parameter associations, and a request schema for that resource.
 
--   **[Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/r_AvailableSystemProperties.md)**
+-   ****
     -   **glide.rest.sampling.enabled**
 
         Enables request sampling from scripted REST API resources. REquest samples can be used to automatically generate definitions for request headers, query parameters, and schemas. General guidance to help limit performance problems is to only enable this property in non-production instances.
@@ -58,35 +58,35 @@ Yokohama Patch 13 includes fixes for security-related problems that affected cer
         -   Type: true \| false
         -   Default value: false
         -   Location: System Property \[sys\_properties\] table
--   **[Define a REST API response header](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/define-scripted-api-response-header.md)**
+-   ****
 
     Define one or more REST API response headers in a REST API.
 
--   **[Define a REST API schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/define-scripted-rest-api-schema.md)**
+-   ****
 
     Specify the expected data structure for requests or responses within a REST API by defining a schema.
 
--   **[Define an API resource response structure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/add-schema-rest-api-response.md)**
+-   ****
 
     Add a schema and relevant response headers to a REST response to define the response's expected data structure.
 
--   **[Define an API resource request structure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/add-schema-rest-api-request.md)**
+-   ****
 
     Add a schema to a REST request record to define the request's expected data structure.
 
--   **[Define available query parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/t_DefineAvailableQueryParameters.md)**
+-   ****
 
     Define available query parameters to control what values a requesting user can pass in the request URI.
 
--   **[Define a scripted REST API request header](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/t_DefineRESTServiceHeaders.md)**
+-   ****
 
     Define scripted REST API request headers to control which headers the API accepts.
 
--   **[Guarded script evaluator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/guarded-script.md)**
+-   ****
 
     The guarded script evaluator enhances instance security by supporting only a restricted scripting language and detecting or rejecting untrusted scripts that use unsupported JavaScript features.
 
--   **[JavaScript APIs supported by guarded script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/guarded-script-allowed-apis.md)**
+-   ****
 
     Review the JavaScript APIs that guarded script supports to help you analyze scripts in the Incompatible Guarded Scripts list and either rewrite them or create an exemption for them.
 
@@ -94,8 +94,8 @@ Yokohama Patch 13 includes fixes for security-related problems that affected cer
 
     For Now Assist new features and changes, see [Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/now-assist-rn-landing.md).
 
--   **[Update scripts incompatible with guarded script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/incompatible-guarded-scripts.md)**
--   **[Script sandbox evaluator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/script-sandbox.md)**
+-   ****
+-   ****
 
     The script sandbox evaluator helps prevent executing untrusted scripts on an instance by limiting the APIs available to scripts.
 
@@ -105,13 +105,13 @@ Yokohama Patch 13 includes fixes for security-related problems that affected cer
     -   When guarded script is in Phase 1: Detection, and a script is sent to the server by an authenticated user.
     For more information about guarded-script exemptions and enforcement phases, see .
 
--   **[Scripted REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/c_CustomWebServices.md)**
+-   ****
 
     Schemas define a structure that can be used for API requests and responses, including data type, expected fields, and formats. You can define multiple schemas within a scripted REST API, which can be used to specify request and response contents of the resources within that API.
 
     Schemas must be defined using [OpenAPI version 3.0.1 format](https://spec.openapis.org/oas/v3.0.1.html).
 
--   **[Script sandbox environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/script-sandbox-environment.md)**
+-   ****
 
     The script sandbox environment is a restricted execution context in which untrusted, client-generated scripts run on the server using one of two evaluators: the guarded script evaluator or the script sandbox evaluator.
 

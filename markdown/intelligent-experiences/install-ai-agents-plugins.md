@@ -26,7 +26,7 @@ To get started with AI agents, you must have:
 -   **Application requirements**: The following store applications and all the dependency applications must be installed and updated:
     -   Now Assist for IT or HRSD \(or other workflows\).
 
-        **Note:** AI agents aren’t standalone applications that you can install directly. To enable AI agents on your instance, you must install and activate other Now Assist applications that include AI agents, such as Now Assist for IT Service Management \(ITSM\) or Now Assist for Customer Service Management \(CSM\).
+        **Note:** AI agents aren’t standalone applications that you can install directly. To enable AI agents on your instance, you must install and activate other Now Assist applications that include AI agents, such as ServiceNow Otto for IT Service Management \(ITSM\) or ServiceNow Otto for Customer Service Management \(CSM\).
 
     -   Now Assist AI Agents store application
 -   AI Search enabled on your instance.
@@ -41,7 +41,7 @@ Role required: sn\_aia.admin
 
 1.  Navigate to **All** &gt; **System Definition** &gt; **Plugins**.
 
-2.  Search for and select a Now Assist application, such as Now Assist for IT Service Management \(ITSM\) or Now Assist for Platform.
+2.  Search for and select a Now Assist application, such as ServiceNow Otto for IT Service Management \(ITSM\) or Now Assist for Platform.
 
 3.  Select **Install**.
 

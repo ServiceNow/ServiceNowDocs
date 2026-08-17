@@ -1,6 +1,6 @@
 ---
-title: Usage Insights client-side storage cookies
-description: To track client-side user activity, Usage Insights uses the SNAnalytics JavaScript SDK that is embedded in Platform Analytics, Core UI, and the Service Portal.
+title: User Experience Analytics client-side storage cookies
+description: To track client-side user activity, User Experience Analytics uses the SNAnalytics JavaScript SDK that is embedded in Platform Analytics, Core UI, and the Service Portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/usage-insights/uxa-tracked-client-cookies.html
 release: yokohama
@@ -12,9 +12,9 @@ reading_time_minutes: 2
 breadcrumb: [Tracked analytics fields and cookies, User privacy, tracking, and consent, Configuring User Experience Analytics, User Experience Analytics, Platform Analytics]
 ---
 
-# Usage Insights client-side storage cookies
+# User Experience Analytics client-side storage cookies
 
-To track client-side user activity, Usage Insights uses the SNAnalytics JavaScript SDK that is embedded in Platform Analytics, Core UI, and the Service Portal.
+To track client-side user activity, User Experience Analytics uses the SNAnalytics JavaScript SDK that is embedded in Platform Analytics, Core UI, and the Service Portal.
 
 The SNAnalytics SDK uses a combination of session storage and local storage variables to keep track of the information required to facilitate the analytics tracking.
 
@@ -36,9 +36,9 @@ The table lists the keys and values stored on session storage.
 
 |Key|Description|
 |---|-----------|
-|srt|Server Response Time. The last time SNAnalytics successfully communicated with the Usage Insights server.|
+|srt|Server Response Time. The last time SNAnalytics successfully communicated with the User Experience Analytics server.|
 |data|Queue of temporary stored analytics data points, which is periodically flushed to the backend.|
-|page|The name of the current page, automatically captured by the Usage Insights server.|
+|page|The name of the current page, automatically captured by the User Experience Analytics server.|
 |tab|Randomly generated unique identifier for the current tab.|
 
 ## Local storage

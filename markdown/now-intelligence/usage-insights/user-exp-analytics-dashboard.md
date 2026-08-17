@@ -1,6 +1,6 @@
 ---
-title: Navigating the Usage Insights application
-description: Understand how to navigate the Usage Insights application, including the All Applications and individual application views.
+title: Navigating the User Experience Analytics application
+description: Understand how to navigate the User Experience Analytics application, including the All Applications and individual application views.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/usage-insights/user-exp-analytics-dashboard.html
 release: yokohama
@@ -9,24 +9,24 @@ classification: usage-insights
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 5
-breadcrumb: [Exploring Usage Insights, User Experience Analytics, Platform Analytics]
+breadcrumb: [Exploring User Experience Analytics, User Experience Analytics, Platform Analytics]
 ---
 
-# Navigating the Usage Insights application
+# Navigating the User Experience Analytics application
 
-Understand how to navigate the Usage Insights application, including the **All Applications** and individual application views.
+Understand how to navigate the User Experience Analytics application, including the **All Applications** and individual application views.
 
-Users with any Usage Insights viewer role can access the application by navigating to **All** &gt; **Platform Analytics** &gt; **User Experience Analytics**..
+Users with any User Experience Analytics viewer role can access the application by navigating to **All** &gt; **Platform Analytics** &gt; **User Experience Analytics**..
 
-Different users have different rights and privileges in the Usage Insights application. For more information, see [Roles installed with Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/components-installed-user-exp-analytics.md).
+Different users have different rights and privileges in the User Experience Analytics application. For more information, see [Roles installed with User Experience Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/components-installed-user-exp-analytics.md).
 
-Counters in the Usage Insights application contain aggregated user numbers.
+Counters in the User Experience Analytics application contain aggregated user numbers.
 
 **Note:** If the tracking consent policy named Disabled is selected user metrics aren't tracked.
 
 ## All Applications view
 
-When you launch Usage Insights, there are two tabs: Overview and Events. The Overview tab allows you to view aggregate usage within a given time frame across all of your tracked applications. There are a number of filters you can configure to see scores for Active users, Sessions, and Average session duration, as well as a list showing usage by individual application. The Events tab enables you to filter a list of tracked user interactions across enabled Usage Insights applications.
+When you launch User Experience Analytics, there are two tabs: Overview and Events. The Overview tab allows you to view aggregate usage within a given time frame across all of your tracked applications. There are a number of filters you can configure to see scores for Active users, Sessions, and Average session duration, as well as a list showing usage by individual application. The Events tab enables you to filter a list of tracked user interactions across enabled User Experience Analytics applications.
 
 \[Omitted image "uxa-overview-tabs.gif"\] Alt text: GIF alternating the Overview and Events tabs of the UXA application
 
@@ -39,8 +39,8 @@ The Analysis menu items provide access to the Retention, Cohort analysis, Conver
 |Module|Description|
 |------|-----------|
 |Retention|Visualizes new users and their rates of return and periods between visits. For more information, see [User retention](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/view-retention-analytics.md).|
-|Cohort analysis|Create and analyze custom cohorts or groups of users separated from other users by similar traits or actions. Analyze how many users perform specific sequences of actions, and how often they return to perform specified actions over a given time. For more information, see [Cohort analysis in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/uxa-cohorts.md).|
-|Conversion funnel|Create funnel reports to analyze user completion rates for a specific task to help you understand if users are finding what they need in a timely fashion. View conversion rates, the number of users progressing from one step to the next and the average time for users to advance to each step and complete the funnel. For more information, see [Funnel reports in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/funnel-reports-uxa.md).|
+|Cohort analysis|Create and analyze custom cohorts or groups of users separated from other users by similar traits or actions. Analyze how many users perform specific sequences of actions, and how often they return to perform specified actions over a given time. For more information, see [Cohort analysis in User Experience Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/uxa-cohorts.md).|
+|Conversion funnel|Create funnel reports to analyze user completion rates for a specific task to help you understand if users are finding what they need in a timely fashion. View conversion rates, the number of users progressing from one step to the next and the average time for users to advance to each step and complete the funnel. For more information, see [Funnel reports in User Experience Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/funnel-reports-uxa.md).|
 |Navigation paths|Visualize and isolate users' journeys through your application, discovering the most and least popular paths. For more information, see [Navigation paths](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/view-navigation-paths.md).|
 
 |Module| |
@@ -158,5 +158,5 @@ You can view basic application usage and event details for all applications with
 |Session Duration|Percentages of sessions segmented by their length/duration.|
 |Hourly Usage|Average number of app launches that occurred at a specific hour of the day over all days.|
 
-**Parent Topic:**[Exploring Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/exploring-user-exp-analytics.md)
+**Parent Topic:**[Exploring User Experience Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/exploring-user-exp-analytics.md)
 

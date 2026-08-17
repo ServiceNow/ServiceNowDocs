@@ -78,5 +78,5 @@ Create workplace entities based on your organization's business structure. Speci
 
 [Location migration]()
 
-[View workplace service usage analytics with Usage Insights]()
+[View workplace service usage analytics with User Experience Analytics]()
 

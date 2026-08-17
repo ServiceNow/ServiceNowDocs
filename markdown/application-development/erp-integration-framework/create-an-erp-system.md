@@ -1,6 +1,6 @@
 ---
-title: Create an ERP system in Zero Copy Connector for ERP
-description: Configure an ERP \(Enterprise Resource Planning\) system in Zero Copy Connector for ERP to organize your connections to the system of record.
+title: Create an ERP system in ERP Canvas
+description: Configure an ERP \(Enterprise Resource Planning\) system in ERP Canvas to organize your connections to the system of record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-integration-framework/create-an-erp-system.html
 release: yokohama
@@ -9,12 +9,12 @@ classification: erp-integration-framework
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Working with ERP systems in Zero Copy Connector for ERP, Configuring Zero Copy Connector for ERP, Zero Copy Connector for ERP, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Working with ERP systems in ERP Canvas, Configuring ERP Canvas, ERP Canvas, Building low-code applications, Developing your application, Building applications]
 ---
 
-# Create an ERP system in Zero Copy Connector for ERP
+# Create an ERP system in ERP Canvas
 
-Configure an ERP \(Enterprise Resource Planning\) system in Zero Copy Connector for ERP to organize your connections to the system of record.
+Configure an ERP \(Enterprise Resource Planning\) system in ERP Canvas to organize your connections to the system of record.
 
 ## Before you begin
 
@@ -22,13 +22,13 @@ Role required: sn\_erp\_integration.erp\_admin
 
 ## About this task
 
-The ERP system is set on the extraction table or remote table. Zero Copy Connector for ERP supports connecting to multiple systems.
+The ERP system is set on the extraction table or remote table. ERP Canvas supports connecting to multiple systems.
 
-Alternatively, you can run Guided Setup. For more information, see [Run Guided Setup for Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-guided-setup.md).
+Alternatively, you can run Guided Setup. For more information, see [Run Guided Setup for ERP Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-guided-setup.md).
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Zero Copy Connector for ERP**.
+1.  Navigate to **All** &gt; **ERP Canvas**.
 
 2.  Open the ERP systems list by selecting the systems icon \(\[Omitted image "erp-systems-icon-sidebar.png"\] Alt text: ERP systems icon\) in the side panel.
 
@@ -40,14 +40,14 @@ Alternatively, you can run Guided Setup. For more information, see [Run Guided S
 
     **Note:** To use the HTTP connection option, you must have an SAP system that is enabled to make an OData connection.
 
-    For a description of the field values, see [Zero Copy Connector for ERP new system field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-create-new-system-descriptions.md).
+    For a description of the field values, see [ERP Canvas new system field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-create-new-system-descriptions.md).
 
 5.  Select **Save**.
 
 
 ## Result
 
-After you create a system, you can view heartbeat and retrieval status on the ERP systems list page. For more information, see [View a list of Zero Copy Connector for ERP systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/view-and-monitor-erp-systems-health.md).
+After you create a system, you can view heartbeat and retrieval status on the ERP systems list page. For more information, see [View a list of ERP Canvas systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/view-and-monitor-erp-systems-health.md).
 
-**Parent Topic:**[Working with ERP systems in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-work-with-systems.md)
+**Parent Topic:**[Working with ERP systems in ERP Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-work-with-systems.md)
 

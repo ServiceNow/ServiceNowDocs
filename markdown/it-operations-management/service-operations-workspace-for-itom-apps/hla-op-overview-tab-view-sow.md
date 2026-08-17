@@ -9,7 +9,7 @@ classification: service-operations-workspace-for-itom-apps
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Using Service Operations Workspace for ITOM Log Analytics, Using Service Operations Workspace for ITOM, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
+breadcrumb: [Using Service Operations Workspace for ITOM Log Analytics, Using Service Operations Workspace for ITOM, Service Operations Workspace for ITOM, ITOM Health, IT Operations Management]
 ---
 
 # Take action on a Health Log Analytics alert from the Overview tab
@@ -45,7 +45,7 @@ Role required: evt\_mgmt\_operator, or evt\_mgmt\_user, or evt\_mgmt\_admin
 The **Overview** tab in the Service Operations Workspace helps you understand Component-based alerts.
 -   **[Overview tab sections for Log Analytics alert groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-ovrvw-tab-log-anltcs-alerts-sow.md)**  
 The **Overview** tab in the Service Operations Workspace helps you understand Log Analytics groups.
--   **[Information on the Overview tab for a Log Analytics alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-ovrvw-tab-single-ci-alerts-sow.md)**  
+-   **[Information on the Log Analytics alert Overview tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-ovrvw-tab-single-ci-alerts-sow.md)**  
 The **Overview** tab in the Service Operations Workspace helps you understand Log Analytics alerts.
 
 **Parent Topic:**[Using Service Operations Workspace for ITOM Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-binder-sow.md)

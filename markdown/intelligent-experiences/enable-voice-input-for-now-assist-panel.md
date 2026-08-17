@@ -32,7 +32,7 @@ The voice input feature is not supported in regulated markets.
 
 1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Now Assist Experiences**.
 
-    If you’re already in the Now Assist Admin console, navigate to the Now Assist Experiences page.
+    If you’re already in the AI Admin Hub console, navigate to the Now Assist Experiences page.
 
 2.  Go to the Now Assist panel tab.
 

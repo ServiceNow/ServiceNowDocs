@@ -9,7 +9,7 @@ classification: service-reliability-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Working with Incidents in SRM, Working with SRM reliability tasks, Using Service Reliability Management, Service Reliability Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Working with Incidents in SRM, Working with SRM reliability tasks, Using Service Reliability Management, Service Reliability Management, ITOM Health, IT Operations Management]
 ---
 
 # Close an SRM incident
@@ -32,15 +32,15 @@ Role required: Responder, Manager, or Administrator
 
 3.  You have two options.
 
-<table id="choicetable_llb_1fq_vyb"><thead><tr><th align="left" id="d529703e97">
+<table id="choicetable_llb_1fq_vyb"><thead><tr><th align="left" id="d530282e97">
 
 Option
 
-</th><th align="left" id="d529703e100">
+</th><th align="left" id="d530282e100">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d529703e106">
+</th></tr></thead><tbody><tr><td id="d530282e106">
 
 **In the incident list view**
 
@@ -50,7 +50,7 @@ Steps
 2.  Select **OK**.
 
 
-</td></tr><tr><td id="d529703e130">
+</td></tr><tr><td id="d530282e130">
 
 **In the incident form**
 

@@ -9,7 +9,7 @@ classification: now-assist-for-software-asset-management-sam
 topic_type: task
 last_updated: "2026-01-30"
 reading_time_minutes: 2
-breadcrumb: [Using Now Assist for Software Asset Management \(SAM\), Now Assist for Software Asset Management \(SAM\), Software Asset Management, IT Asset Management]
+breadcrumb: [Using ServiceNow Otto for Software Asset Management \(SAM\), ServiceNow Otto for Software Asset Management \(SAM\), Software Asset Management, IT Asset Management]
 ---
 
 # Generate troubleshooting guidance for SaaS integrations by using Now Assist for SAM
@@ -32,15 +32,15 @@ Now Assist for SAM generates the troubleshooting guidance for all SaaS integrati
 
 3.  Generate troubleshooting guidance.
 
-<table id="choicetable_azy_b5f_g3c"><thead><tr><th align="left" id="d296013e106">
+<table id="choicetable_azy_b5f_g3c"><thead><tr><th align="left" id="d297418e106">
 
 Integration
 
-</th><th align="left" id="d296013e109">
+</th><th align="left" id="d297418e109">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d296013e115">
+</th></tr></thead><tbody><tr><td id="d297418e115">
 
 **Existing**
 
@@ -54,7 +54,7 @@ An error message is displayed on the Integration Profile form indicating that th
 
 The Now Assist for SAM application generates the troubleshooting details that contain the error summary and suggested resolutions. Each error that's listed in the Error Summary section has a corresponding troubleshooting guidance in the Suggested Resolutions section.
 
-</td></tr><tr><td id="d296013e143">
+</td></tr><tr><td id="d297418e143">
 
 **New**
 
@@ -86,5 +86,5 @@ The Now Assist for SAM application generates the troubleshooting details that co
 5.  After the connection validation is successful, publish the integration profile by selecting **Publish**.
 
 
-**Parent Topic:**[Using Now Assist for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/now-assist-for-software-asset-management-sam/using-now-assist-sam.md)
+**Parent Topic:**[Using ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/now-assist-for-software-asset-management-sam/using-now-assist-sam.md)
 

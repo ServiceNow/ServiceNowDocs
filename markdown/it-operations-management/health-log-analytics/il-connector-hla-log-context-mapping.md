@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-01-08"
 reading_time_minutes: 1
 keywords: [integration, mapping, automatic, log context, ServiceNow, Health Log Analytics, HLA]
-breadcrumb: [Set up integrations from Integrations Launchpad, Setting up Health Log Analytics on your ServiceNow instance, Configuring Health Log Analytics, Health Log Analytics, ITOM AIOps, IT Operations Management]
+breadcrumb: [Set up integrations from Integrations Launchpad, Setting up Health Log Analytics on your ServiceNow instance, Configuring Health Log Analytics, Health Log Analytics, ITOM Health, IT Operations Management]
 ---
 
 # Mapping logs for contextual alerts in Health Log Analytics

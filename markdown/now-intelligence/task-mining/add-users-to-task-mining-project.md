@@ -7,8 +7,8 @@ release: yokohama
 product: Task Mining
 classification: task-mining
 topic_type: task
-last_updated: "2025-06-12"
-reading_time_minutes: 1
+last_updated: "2026-03-12"
+reading_time_minutes: 2
 breadcrumb: [Defining the scope of projects, Use, Task Mining, Platform Analytics]
 ---
 
@@ -28,9 +28,9 @@ All data requests to collect data for the workstation users for a project must b
 
 1.  Navigate to **Workspaces** &gt; **Task Mining Workspace**.
 
-2.  Select the name of the project you want to add workstation users to.
+2.  Navigate to the project you want to add workstation users to.
 
-3.  Select the **Workstation users** tab.
+3.  Select **Workstation users** from the left navigation.
 
     If the workstation user list is empty, no workstation users have been added to this project.
 
@@ -38,19 +38,19 @@ All data requests to collect data for the workstation users for a project must b
 
     1.  Select the workstation user.
 
-    2.  Select the More Actions icon \(\[Omitted image "po-ellipsis-purple.png"\] Alt text: More Actions icon\).
+    2.  Select **Remove**.
 
-    3.  Select **Delete**.
+    \[Omitted image "tm-add-users.png"\] Alt text: Screenshot showing the workstation users interface.
 
 5.  Select **Add users**.
 
-6.  Filter the user list by location or department.
+6.  Filter the user list by location or manager.
 
-7.  Select the workstation users that you want to add to this project, and select **Add**.
+7.  Select the workstation users that you want to add to this project, and select **Add selected users**.
 
-8.  Select **Save**.
+    \[Omitted image "tm-select-users.png"\] Alt text: Screenshot showing adding users to a Task Mining project.
 
-9.  Obtain permission to collect a workstation user's data if no data request has been approved for that user.
+8.  Obtain permission to collect a workstation user's data if no data request has been approved for that user.
 
     **Note:**
 
@@ -62,6 +62,12 @@ All data requests to collect data for the workstation users for a project must b
 
     2.  Select **Request data**.
 
+9.  Select **Save and continue**.
+
+10. Review the project summary before proceeding.
+
+    \[Omitted image "tm-project-summary.png"\] Alt text: Screenshot showing the project summary page.
+
 
 ## Result
 
@@ -69,5 +75,5 @@ A data request is sent to all managers of every workstation user. Once a data re
 
 ## What to do next
 
-Group actions as a task for an Activity analysis. For more information, see [Define user actions for task logging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/task-mining/mine-data.md).
+Generate an analysis of the project data. For more information, see [Generating a project data analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/task-mining/mining-a-task-mining-project.md).
 

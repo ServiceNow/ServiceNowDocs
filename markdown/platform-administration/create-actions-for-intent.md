@@ -34,15 +34,15 @@ Subflows must be created to invoke subflows to associate an action to the intent
 
 5.  Select the **Type** based on the criteria defined for the intent.
 
-<table id="choicetable_ovz_ssv_3hc"><thead><tr><th align="left" id="d304296e112">
+<table id="choicetable_ovz_ssv_3hc"><thead><tr><th align="left" id="d304224e112">
 
 Type
 
-</th><th align="left" id="d304296e115">
+</th><th align="left" id="d304224e115">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d304296e121">
+</th></tr></thead><tbody><tr><td id="d304224e121">
 
 **Subflow Invocation**
 
@@ -50,7 +50,7 @@ Action
 
 Select the **Subflow** tab and select the subflow that must be triggered when the intent is matched. To create subflows see, [Create a subflow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/create-subflow.md)
 
-</td></tr><tr><td id="d304296e136">
+</td></tr><tr><td id="d304224e136">
 
 **Reply Email**
 

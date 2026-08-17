@@ -97,7 +97,7 @@ Customer Service Management is available with activation of the Customer Service
 
 ## Browser requirements
 
-ServiceNow workspaces don’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge - Chromium or one of the other supported browsers listed in [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/browser-support.md).
+ServiceNow workspaces don’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge - Chromium or one of the other supported browsers listed in Browser support.
 
 ## Related ServiceNow applications and features
 
@@ -107,13 +107,13 @@ ServiceNow workspaces don’t support mobile devices, Internet Explorer, or Micr
 
 -   **[Now Assist for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/now-assist-rn.md)**
 
-    Summarize customer chat conversations on interactions, summarize case details, and generate case resolution notes with the ServiceNow® Now Assist for CSM application.
+    Summarize customer chat conversations on interactions, summarize case details, and generate case resolution notes with the ServiceNow® ServiceNow Otto for CSM application.
 
--   **[Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/document-intelligence-landing.md)**
+-   **Document Intelligence**
 
     Extract the data from documents and integrate the data into automation workflows to save time and resources by using the Document Intelligence artificial intelligence \(AI\) solution.
 
--   **[Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/predictive-intelligence-landing.md)**
+-   **Predictive Intelligence**
 
     Improve processes across the platform, such as automatically populating fields when a case is created, categorizing and routing work, and suggesting case resolutions through the Predictive Intelligence artificial intelligence.
 

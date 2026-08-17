@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/r\_ExampleNamespaceIdentifiers.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 1
 breadcrumb: [Namespace identifier, Application scope, Anatomy of an application, Learning about developing on the ServiceNow AI Platform, Building applications]
 ---

@@ -22,7 +22,7 @@ Role required: analytics\_admin
 
 ## About this task
 
-This task details how to set the various tracking consent policy options you have in the Usage Insights Consent Policies page. You have an option to return the policies to the default values. By default, all countries are set to No Consent Required. For a detailed explanation about the types of consent policies available, see [Types of tracking consent policies in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/uxa-tracking-types.md).
+This task details how to set the various tracking consent policy options you have in the User Experience Analytics Consent Policies page. You have an option to return the policies to the default values. By default, all countries are set to No Consent Required. For a detailed explanation about the types of consent policies available, see [Types of tracking consent policies in User Experience Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/uxa-tracking-types.md).
 
 ## Procedure
 
@@ -34,15 +34,15 @@ This task details how to set the various tracking consent policy options you hav
 
 2.  Perform one of the following actions.
 
-<table id="choicetable_dgs_bbb_gyb"><thead><tr><th align="left" id="d61982e96">
+<table id="choicetable_dgs_bbb_gyb"><thead><tr><th align="left" id="d62482e96">
 
 User consent policy options
 
-</th><th align="left" id="d61982e99">
+</th><th align="left" id="d62482e99">
 
  
 
-</th></tr></thead><tbody><tr><td id="d61982e104">
+</th></tr></thead><tbody><tr><td id="d62482e104">
 
 **Action**
 
@@ -50,7 +50,7 @@ User consent policy options
 
 Procedure
 
-</td></tr><tr><td id="d61982e113">
+</td></tr><tr><td id="d62482e113">
 
 **Apply the same tracking consent policy to all countries.
 
@@ -63,7 +63,7 @@ Procedure
 3.  Select the confirmation check box and then select **Apply**.
 
 
-</td></tr><tr><td id="d61982e140">
+</td></tr><tr><td id="d62482e140">
 
 **Return to the default settings.
 
@@ -77,5 +77,5 @@ Procedure
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Types of tracking consent policies in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/uxa-tracking-types.md)
+**Parent Topic:**[Types of tracking consent policies in User Experience Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/uxa-tracking-types.md)
 

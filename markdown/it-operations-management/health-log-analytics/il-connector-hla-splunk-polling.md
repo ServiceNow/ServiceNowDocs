@@ -8,9 +8,9 @@ product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 7
+reading_time_minutes: 6
 keywords: [Splunk Polling, data input, integration, configuration, ServiceNow, Health Log Analytics, HLA]
-breadcrumb: [Set up integrations from Integrations Launchpad, Setting up Health Log Analytics on your ServiceNow instance, Configuring Health Log Analytics, Health Log Analytics, ITOM AIOps, IT Operations Management]
+breadcrumb: [Set up integrations from Integrations Launchpad, Setting up Health Log Analytics on your ServiceNow instance, Configuring Health Log Analytics, Health Log Analytics, ITOM Health, IT Operations Management]
 ---
 
 # Set up a Splunk Poller integration for Health Log Analytics
@@ -92,13 +92,13 @@ You set up integrations through the Integrations Launchpad in Service Operations
 
 10. Select **Test and save** to save the integration to the database and test connectivity.
 
+    If an error is returned, adjust the configuration as suggested in the error message and try again. When the test succeed, continue with the next step.
+
 11. Do one of the following:
 
     -   If you completed all the prerequisites before starting the configuration, select **Activate**.
 
-        In the pop-up window, select **Test &amp; Save** to save the integration to the database and test connectivity. If an error is returned, adjust the configuration as suggested in the error message and then try to activate the integration again.
-
-        When the test is successful, the integration is activated and the **Overview** tab is displayed. On the Integrations Launchpad, the integration tile is available in the **Installed integrations** tab.
+        The integration is activated and the **Overview** tab is displayed. On the Integrations Launchpad, the integration tile is available in the **Installed integrations** tab.
 
     -   If you didn't complete all the prior requirements, select **Save draft**.
 

@@ -77,7 +77,7 @@ ServiceNow has a full series of options available to ServiceNow AI Platform subs
 
 ## Platform Analytics
 
-Distribute and consume Platform Analytics through data visualizations and dashboards with optional filters. Explore KPIs and receive insights into significant events in the data. Use dashboards to create a visual story with Platform Analytics data that you can share with multiple users. Use data visualizations based on table, indicator, or other data in dashboards across the Analytics Center. Administrators can leverage Usage Insights to get information on user engagement with both mobile and web applications, including user population, retention, and behavior. Process Mining helps you discover ways to streamline your business, find bottlenecks and deviations in workflows, filter and compare processes.
+Distribute and consume Platform Analytics through data visualizations and dashboards with optional filters. Explore KPIs and receive insights into significant events in the data. Use dashboards to create a visual story with Platform Analytics data that you can share with multiple users. Use data visualizations based on table, indicator, or other data in dashboards across the Analytics Center. Administrators can leverage User Experience Analytics to get information on user engagement with both mobile and web applications, including user population, retention, and behavior. Process Mining helps you discover ways to streamline your business, find bottlenecks and deviations in workflows, filter and compare processes.
 
 \[Omitted image "platform-analytics-ex-db.png"\] Alt text: Example platform analytics dashboard with four single-score indicator visualizations, a vertical bar table visualization and a donut table visualization
 

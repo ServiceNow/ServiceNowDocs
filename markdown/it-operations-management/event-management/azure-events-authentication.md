@@ -9,7 +9,7 @@ classification: event-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 5
-breadcrumb: [Integrate Azure Monitor as an authenticated data source, Integrate with push connectors, Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Integrate Azure Monitor as an authenticated data source, Integrate with push connectors, Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
 ---
 
 # Integrate Azure Monitor with OAuth authentication
@@ -94,15 +94,15 @@ Configure the Event Management environment for the collection of events from Azu
 
 8.  Enter the `OIDC Metadata URL` according to the Azure token used by the registered application, as shown in the following table.
 
-<table id="choicetable_rbx_wgs_ymb"><thead><tr><th align="left" id="d159011e495">
+<table id="choicetable_rbx_wgs_ymb"><thead><tr><th align="left" id="d157278e495">
 
 Azure token
 
-</th><th align="left" id="d159011e498">
+</th><th align="left" id="d157278e498">
 
 OIDC Metadata URL
 
-</th></tr></thead><tbody><tr><td id="d159011e504">
+</th></tr></thead><tbody><tr><td id="d157278e504">
 
 **V2**
 
@@ -114,7 +114,7 @@ In the OIDC Provider Configuration form, add the following URL to the **OIDC Met
 
  **Note:** If attempting to integrate Azure Gov Cloud with the ServiceNow Azure Monitor Connector, remember to change the claim value to `f1f34126-d4ef-40e1-ad4b-bf5d47b4860d`.
 
-</td></tr><tr><td id="d159011e531">
+</td></tr><tr><td id="d157278e531">
 
 **V1**
 

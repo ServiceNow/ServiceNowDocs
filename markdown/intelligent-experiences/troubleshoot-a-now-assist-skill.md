@@ -1,6 +1,6 @@
 ---
 title: Troubleshoot a Now Assist skill
-description: Run diagnostics for a skill on the Now Assist Admin console and get information about the status of your skill configuration.
+description: Run diagnostics for a skill on the AI Admin Hub console and get information about the status of your skill configuration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/troubleshoot-a-now-assist-skill.html
 release: yokohama
@@ -13,7 +13,7 @@ breadcrumb: [Configuring Now Assist settings and features, Now Assist, Enable AI
 
 # Troubleshoot a Now Assist skill
 
-Run diagnostics for a skill on the Now Assist Admin console and get information about the status of your skill configuration.
+Run diagnostics for a skill on the AI Admin Hub console and get information about the status of your skill configuration.
 
 ## Before you begin
 
@@ -21,13 +21,13 @@ Role required: sn\_generative\_ai.nsa\_admin
 
 ## About this task
 
-Certain skills have diagnostic scripts that you can run from the Now Assist Admin console. These diagnostic scripts check for successful skill execution and setup of the underlying [capability definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/generative-ai-controller/reference-for-generative-ai-controller.md). If you've made a copy of a skill, you will not be able to run diagnostics on the skill copy.
+Certain skills have diagnostic scripts that you can run from the AI Admin Hub console. These diagnostic scripts check for successful skill execution and setup of the underlying [capability definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/generative-ai-controller/reference-for-generative-ai-controller.md). If you've made a copy of a skill, you will not be able to run diagnostics on the skill copy.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Features**.
 
-    If you’re already in the Now Assist Admin console, select the **Now Assist Features** tab.
+    If you’re already in the AI Admin Hub console, select the **Now Assist Features** tab.
 
 2.  In the navigation pane, select the workflow of the skill that you want to troubleshoot, such as **Technology** or **Customer**.
 
@@ -42,7 +42,7 @@ Certain skills have diagnostic scripts that you can run from the Now Assist Admi
 
 ## What to do next
 
-If you have identified any problems with your skill configuration, you can [edit the skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/edit-a-now-assist-skill.md) from the Now Assist Admin console.
+If you have identified any problems with your skill configuration, you can [edit the skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/edit-a-now-assist-skill.md) from the AI Admin Hub console.
 
 If editing the skill does not solve the issue, you can [contact ServiceNow Support](http://www.servicenow.com/support/contact-support.html) for additional help.
 

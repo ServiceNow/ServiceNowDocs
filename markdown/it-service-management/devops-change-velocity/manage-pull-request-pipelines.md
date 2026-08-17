@@ -1,5 +1,5 @@
 ---
-title: Manage Pull Requests \(PR\) or Merge Requests in DevOps Change Velocity
+title: Manage Pull Requests \(PR\) or Merge Requests
 description: Manage Jenkins, GitHub Actions, and Azure DevOps \(ADO\) pipeline’s pull requests for GitHub, Bitbucket, and ADO coding sources from ServiceNow DevOps. You can enable the change approval process on your pull request to control pull request merge approvals from ServiceNow DevOps and monitor pull request details associated with the change request.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/devops-change-velocity/manage-pull-request-pipelines.html
@@ -8,11 +8,11 @@ product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 4
+reading_time_minutes: 3
 breadcrumb: [Accelerate your DevOps change process, DevOps Change Velocity, IT Service Management]
 ---
 
-# Manage Pull Requests \(PR\) or Merge Requests in DevOps Change Velocity
+# Manage Pull Requests \(PR\) or Merge Requests
 
 Manage Jenkins, GitHub Actions, and Azure DevOps \(ADO\) pipeline’s pull requests for GitHub, Bitbucket, and ADO coding sources from ServiceNow DevOps. You can enable the change approval process on your pull request to control pull request merge approvals from ServiceNow DevOps and monitor pull request details associated with the change request.
 
@@ -46,15 +46,15 @@ For ADO pipelines, pull requests can be managed for ADO coding source.
 
 2.  Perform the following steps based on your orchestration tool.
 
-<table id="choicetable_khj_xzd_vyb"><thead><tr><th align="left" id="d388961e221">
+<table id="choicetable_khj_xzd_vyb"><thead><tr><th align="left" id="d390049e221">
 
 Orchestration tool
 
-</th><th align="left" id="d388961e224">
+</th><th align="left" id="d390049e224">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d388961e230">
+</th></tr></thead><tbody><tr><td id="d390049e230">
 
 **Jenkins**
 
@@ -64,7 +64,7 @@ Steps
 2.  Select the **Pull Request Pipeline Tracking Check** option.
 
 
-</td></tr><tr><td id="d388961e257">
+</td></tr><tr><td id="d390049e257">
 
 **GitHub Actions**
 
@@ -75,7 +75,7 @@ Steps
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d388961e290">
+</td></tr><tr><td id="d390049e290">
 
 **ADO**
 

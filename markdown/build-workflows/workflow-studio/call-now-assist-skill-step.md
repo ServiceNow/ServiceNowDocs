@@ -20,9 +20,9 @@ Run a published Now Assist skill from an action. Configure the Now Assist skill 
 
 Available as an Workflow Studio action step. Users with the action\_designer role can create a custom action with one or more action steps.
 
--   **Now Assist Skill Kit requirements**
+-   **AI Skill Kit requirements**
 
-    This step requires the Now Assist Skill Kit. For more information, see [Exploring Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/exploring-now-assist-skill-kit.md).
+    This step requires the AI Skill Kit. For more information, see [Exploring AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/exploring-now-assist-skill-kit.md).
 
 -   **Role requirements**
 

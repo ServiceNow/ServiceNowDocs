@@ -105,7 +105,7 @@ Role required: it\_project\_manager
     1.  Open the project selected while creating the purchase request.
     2.  Select **Financials** from the left menu.
     3.  Locate the cost plan created for the Purchase Order Line.
-    4.  Scroll through the cost plan monthly breakdown, select the row options \[Omitted image "fin-options.png"\] Alt text: Vertical ellipses option to view expense lines for fiscal period in which the purchase order is created and select **View expense lines**.
+    4.  Scroll through the cost plan monthly breakdown, select the option \[Omitted image "fin-options.png"\] Alt text: Vertical ellipses option to view expense lines . Then, for the fiscal period when the purchase order was created, select **View expense lines**.
     5.  In the Expense lines view, select the **Auto generated expense line for cost plan:** option.
     6.  Total expense incurred while generating the purchase order are displayed in the **Amount** field.
 

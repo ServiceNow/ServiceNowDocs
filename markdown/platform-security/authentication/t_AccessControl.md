@@ -1,5 +1,5 @@
 ---
-title: IP Address Access Control
+title: IP address access control
 description: Apply an IP access control to outbound traffic, inbound traffic, or bidirectional traffic. The system only blocks an IP address if a matching Deny rule exists and no matching Allow rule exists. By default, there are no restrictions on access to your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/authentication/t\_AccessControl.html
@@ -12,7 +12,7 @@ reading_time_minutes: 2
 breadcrumb: [IP range based authentication, Authentication, Access Management]
 ---
 
-# IP Address Access Control
+# IP address access control
 
 Apply an IP access control to outbound traffic, inbound traffic, or bidirectional traffic. The system only blocks an IP address if a matching Deny rule exists and no matching Allow rule exists. By default, there are no restrictions on access to your instance.
 
@@ -44,11 +44,11 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-**MID Server traffic**
+MID Server traffic
 
 </td><td>
 
-IP access control rules apply to MID Server outbound connections. When using rules, add the MID Server host IP addresses to allowlist to avoid blocking MID Server traffic. For a list of MID Server IP requirements, see [MID Server system requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/r_MIDServerSystemRequirements.md)
+MID Server outbound connections use the MID Server host IP address and not the instance. When using rules, add the MID Server host IP addresses to allowlist with the **Outbound** direction to avoid blocking MID Server traffic. For a list of MID Server IP requirements, see [MID Server system requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/r_MIDServerSystemRequirements.md)
 
 </td></tr><tr><td>
 
@@ -105,7 +105,31 @@ Range End
 
 Ending range of IP addresses to allow or deny.**Note:** To limit access to specific VPN addresses only, enter a Deny range of **0.0.0.0** through **255.255.255.255** into the **Deny** field, and only enter the specific allowed VPN ranges.
 
+</td></tr><tr><td>
+
+Ports
+
+</td><td>
+
+Comma-separated list of ports to which the access control rule applies. Leave it empty to apply the rule to all ports.
+
+</td></tr><tr><td>
+
+Enforce on MID Server
+
+</td><td>
+
+When selected, applicability of the access control rule to outbound connections from MID Servers in addition to instance-level connections.
+
+</td></tr><tr><td>
+
+Specify ports
+
+</td><td>
+
+When selected, enables the **Ports** field to enter specific ports for the rule.
+
 </td></tr></tbody>
-</table>3.  Click **Submit**.
+</table>3.  Select **Submit**.
 
 

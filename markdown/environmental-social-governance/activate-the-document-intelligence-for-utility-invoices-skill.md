@@ -44,5 +44,5 @@ The document intelligence for utility invoices skill is active and is available 
 -   **[Setup metric definition and entity-mapping records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/setup-metric-definition-and-entity-mapping-records.md)**  
 Configure your environment so that values extracted using the Document Intelligence for Utility Invoices skill are mapped to the correct Environmental, Social, and Governance metrics and entities. This eliminates manual data entry and improves accuracy.
 
-**Parent Topic:**[Configure Now Assist for Operational Sustainability \(formerly ESG\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/configure-now-assist-for-esg.md)
+**Parent Topic:**[Configure ServiceNow Otto for Operational Sustainability \(formerly ESG\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/configure-now-assist-for-esg.md)
 

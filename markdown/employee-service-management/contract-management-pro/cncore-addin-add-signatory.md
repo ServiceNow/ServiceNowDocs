@@ -40,15 +40,15 @@ Role required: sn\_cm\_core.contract\_config and canvas\_user
 
 6.  Add and configure the participant as either an internal or external user.
 
-<table id="choicetable_qfz_dkb_yyb"><thead><tr><th align="left" id="d366875e181">
+<table id="choicetable_qfz_dkb_yyb"><thead><tr><th align="left" id="d366242e181">
 
 Type of signatory
 
-</th><th align="left" id="d366875e184">
+</th><th align="left" id="d366242e184">
 
 Available fields
 
-</th></tr></thead><tbody><tr><td id="d366875e190">
+</th></tr></thead><tbody><tr><td id="d366242e190">
 
 **Internal**
 
@@ -74,7 +74,7 @@ Option to specify the title when the defined participant is an external user.
     -   This field is available only when signing type is AdobeSign or DocuSign.
 
 
-</td></tr><tr><td id="d366875e287">
+</td></tr><tr><td id="d366242e287">
 
 **External**
 

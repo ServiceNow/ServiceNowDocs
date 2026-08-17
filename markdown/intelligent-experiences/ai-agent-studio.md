@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experience
 release: yokohama
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 5
+reading_time_minutes: 4
 keywords: [Agentic AI, AI agents]
 breadcrumb: [Exploring Now Assist AI agents, Now Assist AI agents, Enable AI experiences]
 ---
@@ -65,7 +65,7 @@ The following example shows the inputs for a Generate Resolution Plan agentic wo
 
 ## AI Agent Studio settings
 
-From the AI Agent Studio Settings page, you can enable Now Assist Guardian for your AI agents. By using Now Assist Guardian, you can configure:
+From the AI Agent Studio Settings page, you can enable AI Guardian for your AI agents. By using AI Guardian, you can configure:
 
 -   [Offensiveness detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/enable-aia-na-guardian.md)
 -   [Prompt injection attempt decision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/enable-aia-na-guardian.md)

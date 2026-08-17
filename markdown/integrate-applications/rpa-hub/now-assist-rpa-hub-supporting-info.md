@@ -1,6 +1,6 @@
 ---
-title: Supporting information for Now Assist for RPA Hub
-description: Get a quick overview of the important information that is related to the Now Assist for RPA Hub application.
+title: Supporting information for ServiceNow Otto for RPA Hub
+description: Get a quick overview of the important information that is related to the ServiceNow Otto for RPA Hub application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/rpa-hub/now-assist-rpa-hub-supporting-info.html
 release: yokohama
@@ -10,24 +10,24 @@ topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1
 keywords: [Now Assist, generative AI]
-breadcrumb: [Exploring Now Assist for RPA Hub, Now Assist for RPA Hub, Robotic Process Automation \(RPA\) Hub, Data and Automation]
+breadcrumb: [Exploring ServiceNow Otto for RPA Hub, ServiceNow Otto for RPA Hub, Robotic Process Automation \(RPA\) Hub, Data and Automation]
 ---
 
-# Supporting information for Now Assist for RPA Hub
+# Supporting information for ServiceNow Otto for RPA Hub
 
-Get a quick overview of the important information that is related to the Now Assist for RPA Hub application.
+Get a quick overview of the important information that is related to the ServiceNow Otto for RPA Hub application.
 
 ## Supported versions
 
-Now Assist for RPA Hub 3.2 is supported from Yokohama release 13.1.
+ServiceNow Otto for RPA Hub 3.2 is supported from Yokohama release 13.1.
 
-Now Assist for RPA Hub 2.1 is supported from Xanadu release 10.2.
+ServiceNow Otto for RPA Hub 2.1 is supported from Xanadu release 10.2.
 
 ## Supported user interfaces
 
-To build automations using Now Assist, install the Now Assist for RPA Hub and then activate the RPA bot generation skill. For more information, see [Configure Now Assist for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/configure-now-assist-rpa-hub.md).
+To build automations using Now Assist, install the ServiceNow Otto for RPA Hub and then activate the RPA bot generation skill. For more information, see [Configure ServiceNow Otto for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/configure-now-assist-rpa-hub.md).
 
-The Now Assist for RPA Hub application includes the skills that are listed in the following table.
+The ServiceNow Otto for RPA Hub application includes the skills that are listed in the following table.
 
 |Interface|Skill supported|
 |---------|---------------|
@@ -37,14 +37,14 @@ The Now Assist for RPA Hub application includes the skills that are listed in th
 
 ## Licensing requirements
 
-The Now Assist for RPA Hub application requires a Workflow Data Fabric \(previously known as Automation Engine\) license and a Now Assist for Creator license.
+The ServiceNow Otto for RPA Hub application requires a Workflow Data Fabric \(previously known as Automation Engine\) license and a ServiceNow Otto for Creator license.
 
 ## Application information
 
-Activate the Now Assist for RPA Hub store app \(com.sn\_rpa\_na\) to use the RPA bot generation skill.
+Activate the ServiceNow Otto for RPA Hub store app \(com.sn\_rpa\_na\) to use the RPA bot generation skill.
 
 This store app has the following dependencies:
 
 -   RPA Hub \(com.sn\_rpa\_fdn\)
--   Now Assist for Creator \(com.sn\_now\_creator\)
+-   ServiceNow Otto for Creator \(com.sn\_now\_creator\)
 

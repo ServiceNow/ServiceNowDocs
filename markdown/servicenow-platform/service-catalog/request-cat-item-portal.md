@@ -38,7 +38,7 @@ For information about the SC Catalog Item widget, see [SC Catalog Item widget](h
 
 5.  If required, perform any of these actions.
 
-<table id="choicetable_sly_jsd_5bb"><tbody><tr><td id="d651276e133">
+<table id="choicetable_sly_jsd_5bb"><tbody><tr><td id="d652775e133">
 
 **Add attachments**
 
@@ -46,7 +46,7 @@ For information about the SC Catalog Item widget, see [SC Catalog Item widget](h
 
 To add attachments to the catalog item, click the add attachments icon \(\[Omitted image "IconAddAttachmnt.png"\] Alt text: Icon to add attachment\).You can browse and choose the files, drag the files, or copy and paste them in the Add attachments window.
 
-</td></tr><tr><td id="d651276e150">
+</td></tr><tr><td id="d652775e150">
 
 **Add to Cart**
 
@@ -54,7 +54,7 @@ To add attachments to the catalog item, click the add attachments icon \(\[Omitt
 
 To add the catalog item to the shopping cart, click the Add to Cart icon \(\[Omitted image "IconAddTocart.png"\] Alt text: Icon to add to the cart\).
 
-</td></tr><tr><td id="d651276e165">
+</td></tr><tr><td id="d652775e165">
 
 **Add to Wish List**
 

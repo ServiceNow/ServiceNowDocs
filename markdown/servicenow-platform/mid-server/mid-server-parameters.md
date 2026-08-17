@@ -728,10 +728,16 @@ By default, the MID Server is configured to search for SSH commands in the follo
 
 -   **mid.connection\_cache**
 
-    Specifies whether to cache connections. Set to **false** to disable connection caching. This parameter applies to SSH connections only.
+    Specifies whether to cache connections. To disable connection caching, set **mid.connection\_cache** to **false**. This parameter applies to SSH connections only.
 
     -   Type: true \| false
     -   Default value: true
+    When **mid.connection\_cache** is **true**, each host supports a maximum of 1 connection, and a single connection supports a maximum of 7 parallel requests. To change the number of parallel requests per connection, set the **mid.ssh\_connections\_per\_host** parameter. If you do not define this parameter, the default value is 7.
+
+    When **mid.connection\_cache** is **false**, each host supports up to 3 connections, and each connection handles one request at a time. Because a new connection is created for every request to the same host, this reduces Discovery performance.
+
+    The MID Server closes any connection that remains idle longer than the value set in **mid.ssh.session\_timeout** \(default 5 minutes\).
+
 -   **mid.ssh.disable\_history**
 
     Controls whether the shell session history is saved on the target host and if the `HISTFILE=/dev/null` command is executed. Set this property to **false** to retain history on the target host, ensuring the `HISTFILE=/dev/null` command is not sent to the target device.

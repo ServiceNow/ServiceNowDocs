@@ -95,15 +95,15 @@ Option to auto-correct search query terms to match terms found in the search pro
 
 4.  Apply the custom Search Application Configuration to the AI Search topic block used in a conversation or to a custom chat experience.
 
-<table id="choicetable_csd_xws_wqb"><thead><tr><th align="left" id="d73107e297">
+<table id="choicetable_csd_xws_wqb"><thead><tr><th align="left" id="d71117e297">
 
 Option
 
-</th><th align="left" id="d73107e300">
+</th><th align="left" id="d71117e300">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d73107e306">
+</th></tr></thead><tbody><tr><td id="d71117e306">
 
 **Specify the custom Search Application Configuration in the AI Search topic block used in a conversation**
 
@@ -123,7 +123,7 @@ If you leave this field empty, AI Search uses the default search application con
 
 The AI Search topic block runs the selected search application configuration to generate the customized AI Search experience.
 
-</td></tr><tr><td id="d73107e416">
+</td></tr><tr><td id="d71117e416">
 
 **Use the custom Search Application Configuration in a custom chat experience**
 

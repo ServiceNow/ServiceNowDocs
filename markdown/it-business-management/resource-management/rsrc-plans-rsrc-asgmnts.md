@@ -90,7 +90,7 @@ After migration, we will have the following Operational resource assignments for
 
 ## Migration of cost plans to attribute-based cost plans
 
-When resource plans of a project or demand are migrated to resource assignments, the corresponding financial cost plans based on the resource plans will be migrated to new attribute-based labor costs. Migrate resource plans related link trigger migrates the cost plans along with resource plans migration.
+When resource plans of a project or demand are migrated to resource assignments. The corresponding financial cost plans based on the resource plans are also migrated to new attribute-based labor costs. Migrate resource plans related link trigger migrates the cost plans along with resource plans migration.
 
 Every resource plan has an associated a cost plan with Labor capex as the cost type. While migrating, the [planning attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/planning-attributes.md) of the resource plans are analyzed to create attribute-based cost plans for the unique combination of the three [planning attributes enabled for financials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/planning-attributes.md) \(Employee type, Expense Type, and Role\). After migration, there will be no one-to-one association between resource assignments and attribute-based cost plans.
 
@@ -119,7 +119,7 @@ Migrate the required Operational resource plans to attribute-based Operational r
 -   **[Create operational resource assignments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/create-op-rsrc-asgnmnts-ppm.md)**  
 Create operational resource assignments to allocate a portion of team or resource capacity for operational work such as administration work, meetings, trainings, and so on.
 -   **[Scheduled job to migrate resource plans and cost plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/migrate-rsrc-plan-cost-plan-scheduled-job.md)**  
-Activate the Migrate Resource Plans scheduled job to migrate resource plans, operational resource plans, and cost plans of your projects and demands to resource assignments and attribute-based cost plans.
+Activate the Migrate Resource Plans scheduled job to migrate resource plans, operational resource plans, and cost plans of your projects and demands. This job converts them to resource assignments and attribute-based cost plans.
 
 **Parent Topic:**[Resource Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/c_ResourceManagement.md)
 

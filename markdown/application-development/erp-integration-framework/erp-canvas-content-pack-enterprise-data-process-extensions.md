@@ -1,6 +1,6 @@
 ---
-title: Zero Copy Connector for ERP Enterprise Data Foundation content pack process extensions
-description: The Zero Copy Connector for ERP Enterprise Data Foundation content pack contains process extensions you may need when interacting with an SAP system.
+title: ERP Canvas Enterprise Data Foundation content pack process extensions
+description: The ERP Canvas Enterprise Data Foundation content pack contains process extensions you may need when interacting with an SAP system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-integration-framework/erp-canvas-content-pack-enterprise-data-process-extensions.html
 release: yokohama
@@ -10,12 +10,12 @@ topic_type: reference
 last_updated: "2025-04-16"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, content, pack, content pack, process, extension]
-breadcrumb: [Zero Copy Connector for ERP Enterprise Data Foundation content pack, Zero Copy Connector for ERP content packs, Building and managing ERP models to work with ERP data, Using ERP models, extraction tables, and remote tables, Zero Copy Connector for ERP, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [ERP Canvas Enterprise Data Foundation content pack, ERP Canvas content packs, Building and managing ERP models to work with ERP data, Using ERP models, extraction tables, and remote tables, ERP Canvas, Building low-code applications, Developing your application, Building applications]
 ---
 
-# Zero Copy Connector for ERP Enterprise Data Foundation content pack process extensions
+# ERP Canvas Enterprise Data Foundation content pack process extensions
 
-The Zero Copy Connector for ERP Enterprise Data Foundation content pack contains process extensions you may need when interacting with an SAP system.
+The ERP Canvas Enterprise Data Foundation content pack contains process extensions you may need when interacting with an SAP system.
 
 ## Enterprise Data Foundation content pack process extensions
 
@@ -25,5 +25,5 @@ The Zero Copy Connector for ERP Enterprise Data Foundation content pack contains
 |Search for a material|Search for a material.|
 |Update material details|Update the description of an existing material and, optionally, update attributes such as sales data.|
 
-**Parent Topic:**[Zero Copy Connector for ERP Enterprise Data Foundation content pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-enterprise-data-foundation-content-pack.md)
+**Parent Topic:**[ERP Canvas Enterprise Data Foundation content pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-enterprise-data-foundation-content-pack.md)
 

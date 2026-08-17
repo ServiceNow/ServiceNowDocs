@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2025-12-01"
 reading_time_minutes: 1
 keywords: [Generative AI, Generative AI for Customer Service Management, Generative AI for customer service agents]
-breadcrumb: [Trending topics dashboard, Activate Now Assist Skills, Configure, Now Assist for Customer Service Management \(CSM\), Customer Service Management]
+breadcrumb: [Trending topics dashboard, Activate Now Assist Skills, Configure, ServiceNow Otto for Customer Service Management \(CSM\), Customer Service Management]
 ---
 
 # Change graph visualization

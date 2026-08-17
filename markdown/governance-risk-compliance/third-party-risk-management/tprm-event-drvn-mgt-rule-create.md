@@ -181,7 +181,7 @@ This field appears only if you select the **Recurring** run type.
 
 4.  Specify how the Third-party Risk \(TPR\) assessor \[sn\_vdr\_risk\_asmt.vendor\_assessor\], owner, and contract risk negotiator \[sn\_vdr\_risk\_asmt.contract\_negotiator\] are selected for the engagements or third parties that match the filter conditions.
 
-<table id="choicetable_esz_psj_vzb"><tbody><tr><td id="d265337e469">
+<table id="choicetable_esz_psj_vzb"><tbody><tr><td id="d265298e469">
 
 **Use last**
 
@@ -189,7 +189,7 @@ This field appears only if you select the **Recurring** run type.
 
 Assign the user that most recently performed the function for the engagement.
 
-</td></tr><tr><td id="d265337e478">
+</td></tr><tr><td id="d265298e478">
 
 **Use onboarding**
 
@@ -197,7 +197,7 @@ Assign the user that most recently performed the function for the engagement.
 
 Assign the user that most recently performed the function during onboarding for the engagement.
 
-</td></tr><tr><td id="d265337e487">
+</td></tr><tr><td id="d265298e487">
 
 **Specify now**
 
@@ -205,7 +205,7 @@ Assign the user that most recently performed the function during onboarding for 
 
 When you select this option, a selection box opens to enable you to specify the user.
 
-</td></tr><tr><td id="d265337e496">
+</td></tr><tr><td id="d265298e496">
 
 **Specify later**
 

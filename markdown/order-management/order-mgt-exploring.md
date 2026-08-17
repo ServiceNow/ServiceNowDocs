@@ -16,7 +16,7 @@ Learn more about available features in the Order Management application so that 
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Order Management overview
 
@@ -60,6 +60,6 @@ With the Order Management application, you get an order management system that i
     -   Configure product options for complex products.
     -   Create orders and view products in their shopping carts.
     -   Review the fulfillment process to check the progress of their orders.
-    For more information on setting up the Business Portal, see [Configure the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/configure-business-portal.md).
+    For more information on setting up the Business Portal, see Configure the Business Portal.
 
 

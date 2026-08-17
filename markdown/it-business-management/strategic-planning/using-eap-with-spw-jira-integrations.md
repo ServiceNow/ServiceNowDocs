@@ -17,7 +17,7 @@ breadcrumb: [SPW Jira Integrations, Strategic Planning, Strategic Portfolio Mana
 
 After configuration is complete for SPW Jira Integrations, use Enterprise Agile Planning \(EAP\) to bridge strategy and execution. Plan and schedule work in EAP, let teams deliver in Jira, and see progress and performance flow back to EAP for accurate, real‑time visibility.
 
-Strategic planners such as portfolio managers and product owners can use EAP to define planning intervals and sprints, create and prioritize epics and stories, and assign them to teams. These plans sync to Jira, where delivery teams execute and update work.
+Strategic planners such as portfolio managers and product owners can use EAP to define planning intervals and sprints. They can also create and prioritize epics and stories, and assign them to teams. These plans sync to Jira, where delivery teams execute and update work.
 
 Changes made in Jira such as sprint updates, status changes, or newly scheduled work flow back into EAP, maintaining end‑to‑end visibility without switching tools.
 

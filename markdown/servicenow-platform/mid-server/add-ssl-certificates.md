@@ -59,13 +59,13 @@ When switching to an external TrustStore, import all certificates from the bundl
 
 1.  Open a command prompt and navigate to the folder containing the JRE [keytool](https://docs.oracle.com/javase/6/docs/technotes/tools/solaris/keytool.html).
 
-    This is the location of the JRE you installed. An example path might be: `C:\Program Files\Java\jre1.8.0_161\bin`
+    This is the location of the JRE bundled with the MID Server. An example path might be: `C:\Mid Server\agent\jre\bin`
 
 2.  Import a certificate into the MID Server's cacerts keystore, using this command:
 
-    `keytool -import -alias <certificate alias> -file "<path to certificate>" -keystore "<path to the JRE>\lib\security\cacerts"`
+    `keytool -import -alias <certificate alias> -file "<path to certificate>" -keystore "<path to the MID Server bundled JRE>\lib\security\cacerts"`
 
-    For example, you might enter: `keytool -import -alias MyCA -file "C:\myca.cer" -keystore "C:\Program Files\Java\jre1.8.0_161\lib\security\cacerts"`
+    For example, you might enter: `keytool -import -alias MyCA -file "C:\myca.cer" -keystore "C:\Mid Server\agent\jre\lib\security\cacerts"`
 
     **Note:**
 

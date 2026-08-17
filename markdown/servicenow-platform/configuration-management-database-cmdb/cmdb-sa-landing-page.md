@@ -1,20 +1,21 @@
 ---
 title: Viewing the CMDB success advisor landing page
-description: As a CMDB administrator, you can use the CMDB success advisor landing page to configure and manage data quality dashboards for Data Foundations and Hardware Asset Management \(HAM\).
+description: As a CMDB administrator, you can use the CMDB success advisor landing page to configure and manage data quality dashboards for Data Foundations, Hardware Asset Management \(HAM\), and Software Asset Management \(SAM\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-landing-page.html
 release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-06-09"
-reading_time_minutes: 4
+last_updated: "2026-07-22"
+reading_time_minutes: 5
+keywords: [CMDB success advisor landing page, access CMDB success advisor, CMDB success advisor roles required, advisor cards Data Foundations HAM SAM, CMDB success advisor navigation]
 breadcrumb: [CMDB success advisor, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Viewing the CMDB success advisor landing page
 
-As a CMDB administrator, you can use the CMDB success advisor landing page to configure and manage data quality dashboards for Data Foundations and Hardware Asset Management \(HAM\).
+As a CMDB administrator, you can use the CMDB success advisor landing page to configure and manage data quality dashboards for Data Foundations, Hardware Asset Management \(HAM\), and Software Asset Management \(SAM\).
 
 The CMDB success advisor landing page opens when you select CMDB success advisor in CMDB Workspace or in Service Graph Workspace.
 
@@ -56,19 +57,19 @@ In the Management view, select the **CMDB success advisor** link in the Optimize
 
 </td></tr><tr><td>
 
+Governance view Service Graph Workspace
+
+</td><td>
+
+Navigate to Service Graph Workspace. In the navigation panel, select the **Governance** icon. In the Governance view, select **Get started** \(first visit\) or **View details** \(subsequent visits\).
+
+</td></tr><tr><td>
+
 Insights view in Service Graph Workspace
 
 </td><td>
 
 Navigate to Service Graph Workspace. In the Insights view, select the CMDB success advisor card.**Tip:** Users with the cmdb\_user or cmdb\_editor role can access CMDB success advisor from this entry point and view the Dashboard tab only.
-
-</td></tr><tr><td>
-
-Service Graph Workspace
-
-</td><td>
-
-Navigate to Service Graph Workspace. In the navigation panel, select the **Governance** icon. In the Governance view, select **Get started** \(first visit\) or **View details** \(subsequent visits\).
 
 </td></tr></tbody>
 </table>**Tip:** On first access, select **Get started** in the Get started with CMDB success advisor dialog box, then select **Continue**. Select **Don't show again** to skip the dialog box on future visits.
@@ -77,7 +78,7 @@ Navigate to Service Graph Workspace. In the navigation panel, select the **Gover
 
 From the landing page, you can:
 
--   View and configure the scope for Data Foundations and application-specific advisors including HAM.
+-   View and configure the scope for Data Foundations and application-specific advisors including HAM and Software Asset Management \(SAM\).
 -   Open a product dashboard to review data quality KPIs and trends.
 -   Follow guided steps to define scope, identify issues, and drive CMDB outcomes.
 -   Access resources and FAQs for additional guidance.
@@ -100,12 +101,16 @@ The landing page organizes advisors into the following sections:
 
     -   **Hardware Asset Management \(HAM\)**
 
-        Build trust in asset life cycle data with a healthier CMDB that drives HAM outcomes like improved normalization, compliance, and cost efficiency. Select **Select model categories** to configure your HAM advisor scope for the first time. Select **View insights** to open the HAM advisor dashboard. To update the scope after initial setup, select **Edit model categories** on the HAM advisor dashboard.
+        Build trust in asset life cycle data with a healthier CMDB that drives HAM outcomes like improved normalization, compliance, and cost efficiency. Select **Select model categories** to configure your HAM advisor scope for the first time. Select **View insights** to open the HAM advisor dashboard. To update the scope after initial setup, select **Edit dashboard scope** on the HAM advisor dashboard.
+
+    -   **Software Asset Management \(SAM\)**
+
+        Build trustworthy software asset data with a healthier CMDB that boosts SAM normalization, compliance, and cost-efficient license use. Select **Select software products** to configure your SAM advisor scope for the first time. Select **View insights** to open the SAM advisor dashboard. To update the scope after initial setup, select **Edit dashboard scope** on the SAM advisor dashboard.
 
 
-## Right panel
+## Side panel
 
-The right panel of the landing page provides additional context and links to enable you to get started and learn more.
+The side panel of the landing page provides additional context and links to enable you to get started and learn more.
 
 -   **Take action with CMDB success advisor**
 
@@ -124,10 +129,77 @@ The right panel of the landing page provides additional context and links to ena
 
 Each advisor card shows action buttons that reflect its current state. Cards for application-specific advisors may also show a badge when the required app is not available.
 
-|State|Description|Action|
-|-----|-----------|------|
-|Shows **Set principal classes** or **Select model categories**|The advisor is available but scope has not been configured yet.|Select **Set principal classes** or **Select model categories** to define the scope and set up the advisor dashboard.|
-|Shows **View insights**|The advisor is configured and the dashboard is available.|Select **View insights** to open the dashboard. To update the scope, use **Manage principal classes** on the Data Foundations advisor dashboard or **Edit model categories** on the HAM advisor dashboard.|
-|Needs installation|The app is entitled on your instance but has not been installed.|Select **Learn more** to install the app and gain insights with CMDB success advisor.|
-|Needs entitlement|The app has not been entitled on your instance.|Select **Learn more** to request an entitlement and gain insights with CMDB success advisor.|
+<table><thead><tr><th>
 
+State
+
+</th><th>
+
+Description
+
+</th><th>
+
+Action
+
+</th></tr></thead><tbody><tr><td>
+
+Shows **Set principal classes**, **Select model categories**, or **Select software products**
+
+</td><td>
+
+The advisor is available but scope has not been configured yet.
+
+</td><td>
+
+Select **Set principal classes**, **Select model categories**, or **Select software products** to define the scope and set up the advisor dashboard.
+
+</td></tr><tr><td>
+
+Shows **View insights**
+
+</td><td>
+
+The advisor is configured and the dashboard is available.
+
+</td><td>
+
+Select **View insights** to open the dashboard. To update the scope, use **Manage principal classes** on the Data Foundations advisor dashboard, or **Edit dashboard scope** on the HAM or SAM advisor dashboard.
+
+</td></tr><tr><td>
+
+Needs installation**Note:** Shown for Data Foundations and SAM. For HAM, this state shows as **Pending install** instead.
+
+</td><td>
+
+The app is entitled on your instance but has not been installed.
+
+</td><td>
+
+Select **Learn more** to install the app and gain insights with CMDB success advisor.
+
+</td></tr><tr><td>
+
+Pending install
+
+</td><td>
+
+The HAM app is entitled on your instance but has not been installed.
+
+</td><td>
+
+Select **Learn more** to install the app and gain insights with HAM.
+
+</td></tr><tr><td>
+
+Needs entitlement
+
+</td><td>
+
+The app has not been entitled on your instance.
+
+</td><td>
+
+Select **Learn more** to request an entitlement and gain insights with CMDB success advisor.
+
+</td></tr></tbody>
+</table>

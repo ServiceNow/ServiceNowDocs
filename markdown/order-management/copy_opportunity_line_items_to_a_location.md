@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/copy\_opportunity\_line\_items\_to\_a\_location.html
 release: yokohama
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 1
 breadcrumb: [Location-based transactions for Opportunity Management, Using Opportunity Management, Using Sales Customer Relationship Management applications, Sales Customer Relationship Management]
 ---
@@ -30,15 +30,15 @@ Role required: sales\_agent
 
 5.  In the **Copy line items** dialog box, choose one of the options.
 
-<table id="choicetable_cdb_2hf_zcc"><thead><tr><th align="left" id="d48494e89">
+<table id="choicetable_cdb_2hf_zcc"><thead><tr><th align="left" id="d48362e89">
 
 Option
 
-</th><th align="left" id="d48494e92">
+</th><th align="left" id="d48362e92">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d48494e98">
+</th></tr></thead><tbody><tr><td id="d48362e98">
 
 **Keep original location**
 
@@ -46,7 +46,7 @@ Description
 
 New line items for the selected opportunity are created and the source location is retained.
 
-</td></tr><tr><td id="d48494e107">
+</td></tr><tr><td id="d48362e107">
 
 **Choose new location**
 

@@ -1,6 +1,6 @@
 ---
-title: Use the Now Assist for Sourcing and Procurement Operations \(SPO\) skills in a Virtual Agent chat
-description: Request the contextual generative AI capabilities by using the conversational interface in the Now Assist for Sourcing and Procurement Operations \(SPO\) in a Virtual Agent chat.
+title: Use the ServiceNow Otto for Sourcing and Procurement Operations \(SPO\) skills in a Virtual Agent chat
+description: Request the contextual generative AI capabilities by using the conversational interface in the ServiceNow Otto for Sourcing and Procurement Operations \(SPO\) in a Virtual Agent chat.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-va-using.html
 release: yokohama
@@ -10,16 +10,16 @@ topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 8
 keywords: [generative AI, gen AI, genai, artificial intelligence]
-breadcrumb: [Using Now Assist for Sourcing and Procurement Operations \(SPO\), Now Assist for Sourcing and Procurement Operations \(SPO\), Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Using ServiceNow Otto for Sourcing and Procurement Operations \(SPO\), ServiceNow Otto for Sourcing and Procurement Operations \(SPO\), Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
-# Use the Now Assist for Sourcing and Procurement Operations \(SPO\) skills in a Virtual Agent chat
+# Use the ServiceNow Otto for Sourcing and Procurement Operations \(SPO\) skills in a Virtual Agent chat
 
-Request the contextual generative AI capabilities by using the conversational interface in the Now Assist for Sourcing and Procurement Operations \(SPO\) in a Virtual Agent chat.
+Request the contextual generative AI capabilities by using the conversational interface in the ServiceNow Otto for Sourcing and Procurement Operations \(SPO\) in a Virtual Agent chat.
 
 As a requester, you can use the predefined topics \(chatbot conversations\) that are designed to help you complete common self-service tasks, such as buying a product or knowing the status of a purchase requisition, sourcing request, or procurement case.
 
-As a requester, you can use the Now Assist for SPO skills in a Virtual Agent chat to search against the existing products in the product catalog or to display the available products. You can also inquire about the status of the procurement records, such as sourcing requests, purchase requisitions, procurement cases, and purchase orders.
+As a requester, you can use the ServiceNow Otto for SPO skills in a Virtual Agent chat to search against the existing products in the product catalog or to display the available products. You can also inquire about the status of the procurement records, such as sourcing requests, purchase requisitions, procurement cases, and purchase orders.
 
 To start a conversation, navigate to **All** &gt; **Self-Service** &gt; **Employee Center** and select the Virtual Agent chat icon \(\[Omitted image "open-chat-window-icon.png"\] Alt text: Chat icon.\).
 
@@ -79,7 +79,7 @@ You can choose either to close the conversation or check the status of another r
 
 ## Searching for requests by specifying a time period
 
-The Now Assist for SPO in a Virtual Agent chat also enables you to search for requests by specifying the time period when the request was opened. Here are a few examples:
+The ServiceNow Otto for SPO in a Virtual Agent chat also enables you to search for requests by specifying the time period when the request was opened. Here are a few examples:
 
 -   What's the status of the purchase I made last month
 -   Just send me the status of my purchases made 3 weeks ago
@@ -89,30 +89,30 @@ The Now Assist for SPO in a Virtual Agent chat also enables you to search for re
 
 If the Virtual Agent requires more information to search for your specific request, the following event occurs:
 
--   The Now Assist for SPO in a Virtual Agent chat provides you options to understand your requirement.
+-   The ServiceNow Otto for SPO in a Virtual Agent chat provides you options to understand your requirement.
 
     For example, let's say you want to buy something as shown in the following example.
 
-    \[Omitted image "na\_disambiguation\_input.png"\] Alt text: Now Assist for SPO in a Virtual Agent provides you options to understand your requirement.
+    \[Omitted image "na\_disambiguation\_input.png"\] Alt text: ServiceNow Otto for SPO in a Virtual Agent provides you options to understand your requirement.
 
--   The Now Assist for SPO in a Virtual Agent chat displays the results based on your request:
+-   The ServiceNow Otto for SPO in a Virtual Agent chat displays the results based on your request:
 
-    \[Omitted image "na\_disambiguation\_output.png"\] Alt text: Now Assist for SPO in a Virtual Agent displays the result based on your request.
+    \[Omitted image "na\_disambiguation\_output.png"\] Alt text: ServiceNow Otto for SPO in a Virtual Agent displays the result based on your request.
 
 
 ## When Virtual Agent has no results for your request
 
 If the Virtual Agent is unable to search for your specific request, the following event occurs:
 
--   The Now Assist for SPO in a Virtual Agent chat instructs you to provide more context if the results don't meet your needs.
+-   The ServiceNow Otto for SPO in a Virtual Agent chat instructs you to provide more context if the results don't meet your needs.
 
     `I'm sorry, I couldn't find what you needed. Could you rephrase your request or provide more context?`
 
--   The Now Assist for SPO in a Virtual Agent chat instructs users up to two times to rephrase their request before displaying the following message:
+-   The ServiceNow Otto for SPO in a Virtual Agent chat instructs users up to two times to rephrase their request before displaying the following message:
 
-    \[Omitted image "na-va-unable-find.png"\] Alt text: Now Assist for SPO in a Virtual Agent chat instructs a user twice before displaying this message.
+    \[Omitted image "na-va-unable-find.png"\] Alt text: ServiceNow Otto for SPO in a Virtual Agent chat instructs a user twice before displaying this message.
 
--   If there’s no chat activity for 900 seconds, the Now Assist for SPO in a Virtual Agent chat ends as shown in the following example.
+-   If there’s no chat activity for 900 seconds, the ServiceNow Otto for SPO in a Virtual Agent chat ends as shown in the following example.
 
     \[Omitted image "conv-inactivity.png"\] Alt text: Message shown after prolonged inactivity.
 
@@ -123,20 +123,20 @@ Now Assist in Virtual Agent provides your users with an interactive generative A
 
 As an administrator, you can use the Now Assist in Virtual Agent Analytics dashboard to monitor the performance of Now Assist in Virtual Agent as a self-service deflection tool. To learn more, see . Now Assist in Virtual Agent Analytics calculates the conversation deflection rate that is based on the resolution status associated with Now Assist query responses. For more information, see .
 
-For detailed information on Now Assist in Virtual Agent in general, and Now Assist for SPO in particular, see [Explore Now Assist for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-exploring.md).
+For detailed information on Now Assist in Virtual Agent in general, and ServiceNow Otto for SPO in particular, see [Explore ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-exploring.md).
 
-For information on configuring Now Assist for SPO, see [Configure Now Assist for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/configure-now-assist-for-spo.md).
+For information on configuring ServiceNow Otto for SPO, see [Configure ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/configure-now-assist-for-spo.md).
 
-**Parent Topic:**[Using Now Assist for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-using.md)
+**Parent Topic:**[Using ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-using.md)
 
 **Related topics**  
 
 
-[Summarize a record by using Now Assist for Sourcing and Procurement Operations \(SPO\) in Source-to-Pay Workspace]()
+[Summarize a record by using ServiceNow Otto for Sourcing and Procurement Operations \(SPO\) in Source-to-Pay Workspace]()
 
-[Summarize a record by using Now Assist for Sourcing and Procurement Operations \(SPO\) in Shopping Hub]()
+[Summarize a record by using ServiceNow Otto for Sourcing and Procurement Operations \(SPO\) in Shopping Hub]()
 
-[Request the generative AI capabilites in Now Assist for Sourcing and Procurement Operations \(SPO\) by using Now Assist panel]()
+[Request the generative AI capabilites in ServiceNow Otto for Sourcing and Procurement Operations \(SPO\) by using Now Assist panel]()
 
 [Generate email responses]()
 

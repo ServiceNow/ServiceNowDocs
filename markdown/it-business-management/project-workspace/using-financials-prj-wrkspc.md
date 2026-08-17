@@ -16,9 +16,9 @@ breadcrumb: [Project Workspace, Project Portfolio Management, Strategic Portfoli
 
 Manage budget, cost plans as forecasts, actual expenses as expense lines, generate labor costs, create financial baselines, and view, analyze, and compare the financial performance of your projects at required cadence in Project Workspace.
 
-The comprehensive financials view helps you to understand planned and actual costs, Forecast \(previously EAC - Estimate At Completion\), Remaining Estimates \(previously ETC - Estimate To Completion\), Actual \(previously Actuals to date\), and so on, for the selected item. You can manage cost plans and associate the expense lines and process them to reflect the actuals for a planning item.
+The comprehensive financials view helps you to understand planned and actual costs for the selected item. These costs include Forecast \(previously EAC - Estimate At Completion\), Remaining Estimates \(previously ETC - Estimate To Completion\), Actual \(previously Actuals to date\), and so on. You can manage cost plans and associate the expense lines and process them to reflect the actuals for a planning item.
 
-Export the financials data from Costs and benefits or Baseline comparison view as Microsoft Excel or a CSV file and share it with your stakeholders to review the financial performance of your projects and portfolio.
+Export the financials data from Costs and benefits or Baseline comparison view as Microsoft Excel or a CSV file . Share this file with your stakeholders to review the financial performance of your projects and portfolio.
 
 ## Cost view
 
@@ -188,7 +188,7 @@ The widgets and the header rows are color-coded to help you identify the selecte
 
 **Tip:** Switch between different baselines from the comparison view by selecting the name of a baseline from one of the widgets.
 
-When you compare baselines, you get the list of cost plans with their associated costs types, EAC at full scope, and a breakdown view of actual expenses and planned costs.
+When you compare baselines, you get the list of cost plans with their associated costs types and EAC at full scope. You also get a breakdown view of actual expenses and planned costs.
 
 By default, the time scale of the breakdown view is set to Month.
 
@@ -203,7 +203,7 @@ Let's take an example of the comparison view of two baselines: 2023-10-01, Basel
 
 ## How actuals, planned, and EAC are compared between two baselines captured at different timestamps
 
-For a selected baseline, based on the creation date, the table shows Actuals values for the past fiscal periods from the created date and Planned values for the current and future fiscal periods.
+For a selected baseline, based on the creation date, the table shows Actuals values for the past fiscal periods from the created date . It also shows Planned values for the current and future fiscal periods.
 
 Consider a planning item scoped from July 2023 to June 2024. Baseline A is created on 2023-10-01. If you compare the Current Financials baseline in December 2023 to the baseline captured in October 2023:
 
@@ -238,9 +238,9 @@ For more information on how to allocate, approve, and handle budget for projects
 
 Choose the cost type as the attribute to allocate and approve the budget for individual cost types such as labor, non-labor.
 
-Project managers can view the approved budget at the required time scale by switching to the Budget vs planned display mode. As the work progresses and the actuals are captured, you can compare the budget and actual costs using Budget vs planned display mode and reforecast the planned costs where the actuals are exceeding the budget using the inline edit feature at the required time scale.
+Project managers can view the approved budget at the required time scale by switching to the Budget vs planned display mode. As the work progresses and the actuals are captured, you can compare the budget and actual costs using Budget vs planned display mode . You can also reforecast the planned costs where the actuals exceed the budget using the inline edit feature at the required time scale.
 
-Product managers can compare the latest cost with the approved budget by Capex or Opex, cost types, and for the required time scale at monthly, quarterly, or yearly level. The comparison view provides insights to Product managers to locate any variance at expense type or cost type, and at which fiscal period. Product manager can leverage this information to request for additional budget from the Portfolio manager.
+Product managers can compare the latest cost with the approved budget by Capex or Opex, cost types, for the required time scale at monthly, quarterly, or yearly level. The comparison view provides insights to Product managers to locate any variance at expense type or cost type, and at which fiscal period. Product manager can leverage this information to request for additional budget from the Portfolio manager.
 
 You can [migrate the budget of existing active projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/fin-migrate-budget-project-ppm.md) from the Classic UI to Next Experience. Financials in the Next Experience has new budget data model that facilitates to store the budget at a detailed level by monthly breakdowns and cost types. You can migrate the budget for active projects and demands individually or by bulk using the scheduled job.
 
@@ -250,7 +250,7 @@ You can [migrate the budget of existing active projects](https://raw.githubuserc
 
 Monetary benefit plans capture potential benefits accrued while executing a planning item. Non-monetary benefit plans capture the potential non-financial benefits accrued while executing a planning item. You can create and manage [monetary benefit plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/fin-manage-monetary-benefit-plans-spw.md) and [non-monetary benefit plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/fin-manage-non-monetary-benefit-plans-spw.md) to capture the potential benefits of your planning items.
 
-Instead of switching to and fro from the financials record page to benefit plan tabs, you now have a seamless experience to manage all the cost plans and benefit plans from the Cost and benefits view and can leverage the new financials experience with the side panel and grids for quick forecasting and tracking of monetary benefit plans.
+Instead of switching between the financials record page and benefit plan tabs, you have one experience to manage cost and benefit plans from the Cost and benefits view. You can also leverage the new financials experience with the side panel and grids for quick forecasting and tracking of monetary benefit plans.
 
 ## Simple financials
 
@@ -268,7 +268,7 @@ Select investment currency as an additional currency, which can be different fro
 -   **[Add, edit, or delete cost plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/create-cost-plan-prj-wrkspc.md)**  
 Create a cost plan for a required duration to track your planned and actual expenses. Edit cost plans to adjust your planned expenses and delete any de-scoped forecasts.
 -   **[Manage budget of your projects using Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/fin-manage-budget-pws.md)**  
-Allocate, manage, and approve budget for your projects. Lean budgeting enables you to allocate budget for short planning cycles for different fiscal periods such as monthly, quarterly, or yearly breakdown level rather than allocating the budget to the complete duration of the planning item.
+Allocate, manage, and approve budget for your projects. Lean budgeting allocates budget for short planning cycles across fiscal periods, such as monthly, quarterly, or yearly. This approach differs from allocating budget to the complete duration of a planning item.
 -   **[Add or edit expense lines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/create-expense-line-prj-wrkspc.md)**  
 Create or edit expense lines to capture the actual costs. You can associate the expense lines with a cost plan or create standalone expense lines to record unplanned expenses.
 -   **[Generate labor costs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/gen-labor-costs-prj-wrkspc.md)**  

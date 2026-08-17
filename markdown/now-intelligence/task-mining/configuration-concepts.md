@@ -7,7 +7,7 @@ release: yokohama
 product: Task Mining
 classification: task-mining
 topic_type: concept
-last_updated: "2024-10-04"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Explore, Task Mining, Platform Analytics]
 ---
@@ -31,7 +31,7 @@ The process to categorize activities is as follows:
 
 1.  A Task Mining analyst mines a sample of data of the applications and windows used in your project. Starting with mined data makes categorization easier as you have the exact values used to categorize activities already available in the data.
 
-    For more information, see [Generate a project data analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/task-mining/mine-project-data.md).
+    For more information, see [Run a mining job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/task-mining/mine-project-data.md).
 
 2.  The Task Mining power user creates categorization rules with fixed order values that determine how data from apps and windows is shown on dashboards.
 
@@ -47,12 +47,13 @@ The process to categorize activities is as follows:
 
 ## Predefined categorization rules
 
-Rules are ordered to define which rule applies first. The following four categorization rules can't be changed. These rules are ordered 1,2,3, and MAX. The first three rules apply first by default, and the MAX rule applies last.
+Rules are ordered to define which rule applies first. The following five categorization rules can't be changed. These rules are ordered 1,2,3,4 and MAX. The first four rules apply first by default, and the MAX rule applies last.
 
 1.  **Private**: Defines the activity as non-productive, and is used when the agent is in private mode and used when activities are defined as private.
 2.  **Lock**: Defines the activity as a break, and is used when the workstation is locked.
 3.  **Off**: Defines the activity as off, and is used when the workstation is turned off.
-4.  **MAX**: Applies to uncategorized apps that don’t match any rule and are anonymized by default.
+4.  **Idle**: Defines the activity as idle, and is used on analyses during targeted recordings when the agent is idle.
+5.  **MAX**: Applies to uncategorized apps that don’t match any rule and are anonymized by default.
 
 ## Category and application names
 
@@ -71,4 +72,6 @@ Organizing your activities with categories and application names adds context to
 
 
 [Categorize workstation activities to simplify analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/task-mining/define-default-categorization-rules.md)
+
+[Refine the presentation of your data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/task-mining/preview-data-based-on-categorization-rules.md)
 

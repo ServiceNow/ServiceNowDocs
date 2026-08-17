@@ -7,14 +7,14 @@ release: yokohama
 topic_type: concept
 last_updated: "2025-02-07"
 reading_time_minutes: 6
-breadcrumb: [Using Now Assist Analytics, Analyzing Now Assist performance, Now Assist, Enable AI experiences]
+breadcrumb: [Using AI Analytics, Analyzing Now Assist performance, Now Assist, Enable AI experiences]
 ---
 
 # Now Assist value insights
 
 Gain insights into the value realized from Now Assist skills and features.
 
-The Now Assist value insights dashboard page gives you insights into the estimated productivity gains as a result of using Now Assist skills. The productivity gains are classified into two categories: Estimated Writing Time Saved and Estimated Reading Time Saved. Data points and timestamps from the invoking records are captured and used to perform calculations and approximations for the read and write time saved by users using Now Assist. See [Now Assist Analytics dashboard indicator details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-analytics-dashboard-indicators.md) for information on the data and calculations behind each indicator.
+The Now Assist value insights dashboard page gives you insights into the estimated productivity gains as a result of using Now Assist skills. The productivity gains are classified into two categories: Estimated Writing Time Saved and Estimated Reading Time Saved. Data points and timestamps from the invoking records are captured and used to perform calculations and approximations for the read and write time saved by users using Now Assist. See [AI Analytics dashboard indicator details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-analytics-dashboard-indicators.md) for information on the data and calculations behind each indicator.
 
 ## Estimated writing time saved indicators
 
@@ -118,5 +118,5 @@ The indicators on the Estimated Reading Time Saved dashboard page provide the fo
     \[Omitted image "naa-avg-reading-time-saved-trend-per-record.png"\] Alt text: Average reading time saved trend per user indicator.
 
 
-**Parent Topic:**[Using Now Assist Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/using-now-assist-analytics.md)
+**Parent Topic:**[Using AI Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/using-now-assist-analytics.md)
 

@@ -7,7 +7,7 @@ release: yokohama
 topic_type: task
 last_updated: "2025-11-07"
 reading_time_minutes: 1
-breadcrumb: [Configure, Now Assist for Operational Technology Manager \(OTM\), Operational Technology]
+breadcrumb: [Configure, Operational Technology \(OT\) Manager Foundation, Operational Technology]
 ---
 
 # Edit trigger words for OT CMDB search
@@ -59,5 +59,5 @@ Optionally, you can update the `sn_mfg_common.ot_cmdb_search_trigger_words` syst
 3.  Select **Save**.
 
 
-**Parent Topic:**[Configuring Now Assist for Operational Technology Manager \(OTM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/configuring-na-otm.md)
+**Parent Topic:**[Configuring Operational Technology \(OT\) Manager Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/configuring-na-otm.md)
 

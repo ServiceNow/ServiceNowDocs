@@ -41,15 +41,15 @@ Role required: Impact admin, Platform Owner, Impact Portfolio Owner, and Impact 
 
 5.  In **How do you want to start?**, complete any of the following actions.
 
-<table id="choicetable_vlt_5mw_42c"><thead><tr><th align="left" id="d46837e142">
+<table id="choicetable_vlt_5mw_42c"><thead><tr><th align="left" id="d46832e142">
 
 How do you want to start?
 
-</th><th align="left" id="d46837e145">
+</th><th align="left" id="d46832e145">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d46837e151">
+</th></tr></thead><tbody><tr><td id="d46832e151">
 
 **Create from a Template**
 
@@ -59,7 +59,7 @@ Actions
 2.  Select a template in **Choose a template**.
 
 
-</td></tr><tr><td id="d46837e178">
+</td></tr><tr><td id="d46832e178">
 
 **Create a roadmap manually**
 

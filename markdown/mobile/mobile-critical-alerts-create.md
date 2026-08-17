@@ -1,18 +1,18 @@
 ---
-title: Mobile critical alerts
-description: Send your users critical alerts, even if they set their mobile device to Do Not Disturb or Silent mode. Configure these visual and audio alerts to be sent when an issue needs immediate attention. Example scenarios can be to inform the user of an essential update, or to publicize a major incident that requires a speedy response.
+title: Create mobile critical alerts
+description: Create a critical alert from an existing push notification.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/mobile-critical-alerts-create.html
 release: yokohama
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 4
-breadcrumb: [Mobile push notifications, Considerations before implementation, ServiceNow Mobile Platform configuration detail, Configuring the Mobile Platform, Mobile Platform]
+breadcrumb: [Mobile critical alerts, Mobile push notifications, Considerations before implementation, ServiceNow Mobile Platform configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
 
-# Mobile critical alerts
+# Create mobile critical alerts
 
-Send your users critical alerts, even if they set their mobile device to Do Not Disturb or Silent mode. Configure these visual and audio alerts to be sent when an issue needs immediate attention. Example scenarios can be to inform the user of an essential update, or to publicize a major incident that requires a speedy response.
+Create a critical alert from an existing push notification.
 
 ## Before you begin
 
@@ -20,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-This task describes how to create a critical alert from an existing push notification. To create a push notification from scratch, see [Mobile push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/sg-mobile-push-notifications.md).
+Learn how to create a critical alert from an existing push notification. To create a push notification from scratch, see [Mobile push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/sg-mobile-push-notifications.md).
 
 **Note:**
 
@@ -60,7 +60,7 @@ This task describes how to create a critical alert from an existing push notific
 
 6.  Within the **Push message content** area, define and configure your critical alert.
 
-    For information on how to configure a critical alert, see [Configure code for critical alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/mobile-citical-alert-code.md).
+    For information on how to configure a critical alert, see [Critical alerts from push notifications using JSON code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/mobile-citical-alert-code.md).
 
 7.  Select **Save**.
 
@@ -86,8 +86,5 @@ This task describes how to create a critical alert from an existing push notific
     9.  Select **Save**.
     10. Repeat these steps for each mobile application where you want to add a critical notification.
 
--   **[Configure code for critical alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/mobile-citical-alert-code.md)**  
-You can make a push notification into a critical alert with the addition of some JSON code. Different JSON code is used for iOS and Android operating systems and for the ITSM business unit.
-
-**Parent Topic:**[Mobile push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/sg-mobile-push-notifications.md)
+**Parent Topic:**[Mobile critical alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/critical-alerts1.md)
 

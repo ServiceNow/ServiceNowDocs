@@ -16,7 +16,7 @@ The ServiceNow® Service Level Management application helps to gather service re
 
 Use Workflow Studio to build and automate the workflows for Service Level Management.
 
-See [Service Level Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/service-level-mgmt-landing-page.md) for more information.
+See  for more information.
 
 ## Removed in this release
 

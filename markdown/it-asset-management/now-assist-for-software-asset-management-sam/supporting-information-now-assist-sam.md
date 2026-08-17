@@ -1,6 +1,6 @@
 ---
-title: Supporting information for Now Assist for Software Asset Management \(SAM\)
-description: Get a quick overview of the important information that is related to the Now Assist for Software Asset Management \(SAM\) application.
+title: Supporting information for ServiceNow Otto for Software Asset Management \(SAM\)
+description: Get a quick overview of the important information that is related to the ServiceNow Otto for Software Asset Management \(SAM\) application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/now-assist-for-software-asset-management-sam/supporting-information-now-assist-sam.html
 release: yokohama
@@ -9,43 +9,18 @@ classification: now-assist-for-software-asset-management-sam
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Exploring Now Assist for Software Asset Management \(SAM\), Now Assist for Software Asset Management \(SAM\), Software Asset Management, IT Asset Management]
+breadcrumb: [Exploring ServiceNow Otto for Software Asset Management \(SAM\), ServiceNow Otto for Software Asset Management \(SAM\), Software Asset Management, IT Asset Management]
 ---
 
-# Supporting information for Now Assist for Software Asset Management \(SAM\)
+# Supporting information for ServiceNow Otto for Software Asset Management \(SAM\)
 
-Get a quick overview of the important information that is related to the Now Assist for Software Asset Management \(SAM\) application.
+Get a quick overview of the important information that is related to the ServiceNow Otto for Software Asset Management \(SAM\) application.
 
 ## Supported versions
 
 Now Assist for SAM is supported starting with the Yokohama release.
 
-## Supported user interfaces
-
-The Now Assist for SAM application includes the skills that are listed in the following table.
-
-**Note:** Next Experience must be enabled to use the Now Assist panel. For more information, see [Considerations for activating Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/next-experience-adoption-paths.md).
-
-<table id="table_e4m_4tf_pdc"><thead><tr><th>
-
-Interface
-
-</th><th>
-
-Skill
-
-</th></tr></thead><tbody><tr><td>
-
-Software Asset Workspace
-
-</td><td>
-
--   Publisher compliance summarization
--   Product compliance summarization
--   Recommended actions
-
-</td></tr></tbody>
-</table>## Languages supported
+## Languages supported
 
 The Now Assist for SAM application supports the following languages:
 
@@ -75,7 +50,7 @@ The Now Assist for SAM application supports the following languages:
 
 ## Application information
 
-Activate the Now Assist for Software Asset Management \(SAM\) store app \(sn\_now\_assist\_sam\) to use the product compliance summarization skill, recommended actions skill, publisher compliance summarization skill.
+Activate the ServiceNow Otto for Software Asset Management \(SAM\) store app \(sn\_now\_assist\_sam\) to use the Software Asset Management skills.
 
 This store app has the following dependencies:
 
@@ -90,7 +65,7 @@ Activate the applications in the following order:
 -   Software Asset Management Professional
 -   Software Asset Workspace
 -   Now Assist for Platform
--   Now Assist for Software Asset Management \(SAM\)
+-   ServiceNow Otto for Software Asset Management \(SAM\)
 
-**Parent Topic:**[Exploring Now Assist for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/now-assist-for-software-asset-management-sam/exploring-now-assist-sam.md)
+**Parent Topic:**[Exploring ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/now-assist-for-software-asset-management-sam/exploring-now-assist-sam.md)
 

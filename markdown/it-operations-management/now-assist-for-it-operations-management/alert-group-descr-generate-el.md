@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
 keywords: [generative AI for IT Operations Management, generative AI for ITOM, Express List, alert analysis, alert group, summary, description]
-breadcrumb: [Using skills in Now Assist for ITOM, Now Assist for ITOM, IT Operations Management]
+breadcrumb: [Using skills in ServiceNow Otto for ITOM, ServiceNow Otto for ITOM, IT Operations Management]
 ---
 
 # Generate an alert group description in Express List using Now Assist
@@ -36,5 +36,5 @@ Role required: evt\_mgmt\_operator, evt\_mgmt\_admin
 5.  Restore the original alert group description by selecting the revert icon \(\[Omitted image "icon-revert.png"\] Alt text: Revert icon.\) next to **Update description** and then choosing **Restore**.
 
 
-**Parent Topic:**[Using skills in Now Assist for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-use.md)
+**Parent Topic:**[Using skills in ServiceNow Otto for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-use.md)
 

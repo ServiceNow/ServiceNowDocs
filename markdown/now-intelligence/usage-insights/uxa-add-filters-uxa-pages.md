@@ -1,6 +1,6 @@
 ---
-title: Add user properties as filters to Usage Insights
-description: In addition to the default filters on the pages of the Usage Insights application, you can add filters based on user properties. This allows you to effectively segment your Usage Insights data to develop a deeper understanding of your users and their usage patterns. User properties-based filters are supported as global filters for all pages and objects in the Usage Insights application.
+title: Add user properties as filters to User Experience Analytics
+description: In addition to the default filters on the pages of the User Experience Analytics application, you can add filters based on user properties. This allows you to effectively segment your User Experience Analytics data to develop a deeper understanding of your users and their usage patterns. User properties-based filters are supported as global filters for all pages and objects in the User Experience Analytics application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/usage-insights/uxa-add-filters-uxa-pages.html
 release: yokohama
@@ -12,9 +12,9 @@ reading_time_minutes: 1
 breadcrumb: [User privacy, tracking, and consent, Configuring User Experience Analytics, User Experience Analytics, Platform Analytics]
 ---
 
-# Add user properties as filters to Usage Insights
+# Add user properties as filters to User Experience Analytics
 
-In addition to the default filters on the pages of the Usage Insights application, you can add filters based on user properties. This allows you to effectively segment your Usage Insights data to develop a deeper understanding of your users and their usage patterns. User properties-based filters are supported as global filters for all pages and objects in the Usage Insights application.
+In addition to the default filters on the pages of the User Experience Analytics application, you can add filters based on user properties. This allows you to effectively segment your User Experience Analytics data to develop a deeper understanding of your users and their usage patterns. User properties-based filters are supported as global filters for all pages and objects in the User Experience Analytics application.
 
 ## Before you begin
 
@@ -47,9 +47,9 @@ Role required: admin or analytics\_admin.
 
 ## Result
 
-The field you select is added as an optional filter for all Usage Insights pages including single and cross application overviews, Retention, Cohort, Funnel, Pages, Users, Events, and Sessions. Users can also apply them on Platform Analytics dashboards.
+The field you select is added as an optional filter for all User Experience Analytics pages including single and cross application overviews, Retention, Cohort, Funnel, Pages, Users, Events, and Sessions. Users can also apply them on Platform Analytics dashboards.
 
 **Note:** While the filter is visible immediately, it takes 24-48 hours to synchronize the data with the filter so that it is useful.
 
-**Parent Topic:**[User privacy, tracking, and user consent management in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/user-exp-analytics-track-options.md)
+**Parent Topic:**[User privacy, tracking, and user consent management in User Experience Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/user-exp-analytics-track-options.md)
 

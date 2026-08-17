@@ -1,6 +1,6 @@
 ---
-title: Customer Success Management release notes
-description: The ServiceNow Customer Success Management application helps you to streamline your onboarding process, define and track objectives and outcomes, identify and mitigate risks, and increase renewal rates. Customer Success Management was enhanced and updated in the Yokohama release.
+title: Account Lifecycle Events release notes
+description: The ServiceNow Account Lifecycle Events application helps you to streamline your onboarding process, define and track objectives and outcomes, identify and mitigate risks, and increase renewal rates. Account Lifecycle Events was enhanced and updated in the Yokohama release.
 locale: en-US
 release: yokohama
 topic_type: reference
@@ -8,21 +8,21 @@ last_updated: "2025-01-30"
 reading_time_minutes: 2
 ---
 
-# Customer Success Management release notes
+# Account Lifecycle Events release notes
 
-The ServiceNow® Customer Success Management application helps you to streamline your onboarding process, define and track objectives and outcomes, identify and mitigate risks, and increase renewal rates. Customer Success Management was enhanced and updated in the Yokohama release.
+The ServiceNow® Account Lifecycle Events application helps you to streamline your onboarding process, define and track objectives and outcomes, identify and mitigate risks, and increase renewal rates. Account Lifecycle Events was enhanced and updated in the Yokohama release.
 
-## Customer Success Management highlights for the Yokohama release
+## Account Lifecycle Events highlights for the Yokohama release
 
 -   Define, measure, and track the overall health of an engagement and monitor risk signals and issues.
 -   Manage all customer interactions in a single place and organize them with the touchpoint calendar.​
 -   Create templates to define common success objectives and outcomes and associate them with a product.
--   Use Now Assist for Telecommunications, Media and Technology \(TMT\) to summarize account onboarding cases, engagements, and touchpoints.
+-   Use ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) to summarize account onboarding cases, engagements, and touchpoints.
 -   Integrate your ServiceNow instance with external Customer Relationship Management \(CRM\) platforms during the engagement life cycle.
 
 See [Account Lifecycle Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/acct-lifecycle-events/account-lifecycle-events-landing.md) for more information.
 
-**Important:** Customer Success Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+**Important:** Account Lifecycle Events is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Yokohama release
 
@@ -68,7 +68,7 @@ See [Account Lifecycle Events](https://raw.githubusercontent.com/ServiceNow/Serv
 
 ## Activation information
 
-Install Customer Success Management by requesting it from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install Account Lifecycle Events by requesting it from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Related ServiceNow applications and features
 

@@ -36,7 +36,7 @@ Users that are managers and have Modifier \[sn\_jny.writer\] permission create j
 -   **[Create a journey using Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-designer/create-journey-na.md)**  
 Create and modify journeys for employees using Now Assist.
 -   **[Activate the Journey Summarization for Managers skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-designer/activate-jny-summarization.md)**  
-Activate the Journey Summarization for Managers skill in Now Assist for HRSD using the Now Assist Admin console. Managers use this generative AI skill to produce and view a summary of an employee's journey based on the information that appears on the Journey detail page.
+Activate the Journey Summarization for Managers skill in ServiceNow Otto for HRSD using the AI Admin Hub console. Managers use this generative AI skill to produce and view a summary of an employee's journey based on the information that appears on the Journey detail page.
 -   **[Create a task template in Journey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-designer/jny-dsgnr-create-task-template.md)**  
 Journey owners \(managers\) and mentors create templates of tasks, such as scheduling a meeting or taking a learning course, to assign to employees' journeys.
 -   **[Add task template to journey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-designer/jny-add-task-template-journey.md)**  

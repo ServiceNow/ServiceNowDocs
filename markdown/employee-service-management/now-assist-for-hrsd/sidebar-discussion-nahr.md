@@ -1,6 +1,6 @@
 ---
-title: Summarize a Sidebar discussion by using Now Assist for HR Service Delivery \(HRSD\)
-description: Generate a summary of the Sidebar discussions between agents, requesters, and subject matter experts by using the chat summarization skill in the Now Assist for HR Service Delivery \(HRSD\) application.
+title: Summarize a Sidebar discussion by using ServiceNow Otto for HR Service Delivery \(HRSD\)
+description: Generate a summary of the Sidebar discussions between agents, requesters, and subject matter experts by using the chat summarization skill in the ServiceNow Otto for HR Service Delivery \(HRSD\) application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/now-assist-for-hrsd/sidebar-discussion-nahr.html
 release: yokohama
@@ -9,12 +9,12 @@ classification: now-assist-for-hrsd
 topic_type: task
 last_updated: "2025-03-03"
 reading_time_minutes: 5
-breadcrumb: [Use generative AI skills, Now Assist for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
+breadcrumb: [Use generative AI skills, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
-# Summarize a Sidebar discussion by using Now Assist for HR Service Delivery \(HRSD\)
+# Summarize a Sidebar discussion by using ServiceNow Otto for HR Service Delivery \(HRSD\)
 
-Generate a summary of the Sidebar discussions between agents, requesters, and subject matter experts by using the chat summarization skill in the Now Assist for HR Service Delivery \(HRSD\) application.
+Generate a summary of the Sidebar discussions between agents, requesters, and subject matter experts by using the chat summarization skill in the ServiceNow Otto for HR Service Delivery \(HRSD\) application.
 
 ## Before you begin
 
@@ -28,7 +28,7 @@ You can do these actions by using Sidebar discussion summarization:
 -   Share the Sidebar discussion to the work notes.
 -   Provide feedback for the summary.
 
-**Note:** The Sidebar discussion summarization skill can be found in the **HRSD** tab under the **Employee** group in Now Assist Admin.
+**Note:** The Sidebar discussion summarization skill can be found in the **HRSD** tab under the **Employee** group in AI Admin Hub.
 
 **Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
@@ -52,15 +52,15 @@ You can make a copy of this skill to configure it to meet your business needs. F
 
 4.  After summarizing the Sidebar discussion, you can add it to the case work notes, and provide feedback about it.
 
-<table id="choicetable_vzl_myv_bcc"><thead><tr><th align="left" id="d550969e216">
+<table id="choicetable_vzl_myv_bcc"><thead><tr><th align="left" id="d550305e216">
 
 Option
 
-</th><th align="left" id="d550969e219">
+</th><th align="left" id="d550305e219">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d550969e225">
+</th></tr></thead><tbody><tr><td id="d550305e225">
 
 **Save the summary information by adding it to the case work notes**
 
@@ -71,7 +71,7 @@ Procedure
 3.  Select **Save to Work notes**.
 
 
-</td></tr><tr><td id="d550969e252">
+</td></tr><tr><td id="d550305e252">
 
 **Provide feedback for the summary**
 
@@ -81,30 +81,30 @@ If you'd like to provide feedback, select either the helpful icon \(\[Omitted im
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Use Now Assist for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/use-now-assist-hr.md)
+**Parent Topic:**[Use ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/use-now-assist-hr.md)
 
 **Related topics**  
 
 
-[Summarize a chat conversation by using Now Assist for HR Service Delivery \(HRSD\)]()
+[Summarize a chat conversation by using ServiceNow Otto for HR Service Delivery \(HRSD\)]()
 
-[Generate a chat reply recommendation by using Now Assist for HR Service Delivery \(HRSD\)]()
+[Generate a chat reply recommendation by using ServiceNow Otto for HR Service Delivery \(HRSD\)]()
 
 [Generate a knowledge article from HR Agent Workspace with Now Assist]()
 
 [Generate a knowledge article from multiple cases]()
 
-[Generate an email reply recommendation by using Now Assist for HR Service Delivery \(HRSD\)]()
+[Generate an email reply recommendation by using ServiceNow Otto for HR Service Delivery \(HRSD\)]()
 
-[Summarize an HR case using Now Assist for HRSD]()
+[Summarize an HR case using ServiceNow Otto for HRSD]()
 
-[Generate resolution notes using Now Assist for HRSD]()
+[Generate resolution notes using ServiceNow Otto for HRSD]()
 
 [View employee summary reports]()
 
 [Summarize actions while transferring an HR case]()
 
-[Use Knowledge Graph in Now Assist for HRSD]()
+[Use Knowledge Graph in ServiceNow Otto for HRSD]()
 
 [Use Galileo Inside to answer HR-related questions]()
 
@@ -112,9 +112,9 @@ If you'd like to provide feedback, select either the helpful icon \(\[Omitted im
 
 [Submit an HR request with Gen AI Virtual Agent]()
 
-[Now Assist for HR Service Delivery \(HRSD\) integration with Enterprise Service Management Integrations Framework]()
+[ServiceNow Otto for HR Service Delivery \(HRSD\) integration with Enterprise Service Management Integrations Framework]()
 
-[Detect sensitive topics by using sensitivity detection in Now Assist for HR Service Delivery \(HRSD\)]()
+[Detect sensitive topics by using sensitivity detection in ServiceNow Otto for HR Service Delivery \(HRSD\)]()
 
-[Analyze sentiments in Now Assist for HR Service Delivery \(HRSD\)]()
+[Analyze sentiments in ServiceNow Otto for HR Service Delivery \(HRSD\)]()
 

@@ -25,7 +25,8 @@ Not all visualizations support all output types. Some export options shown in th
 
 | |Supported data visualization export formats|
 |---|-------------------------------------------|
-|Calendar reports, Indicator scorecards, Pivot tables, Geomap|None|
+|Calendar reports, Indicator scorecards, Geomap|None|
+|Pivot tables|PowerPoint, PDF, PNG, JPEG, Embedded PNG|
 |Lists|PDF, Microsoft Excel \(.xls or .xlsx\), Embedded LIST|
 |Other data visualizations|PowerPoint, PDF, PNG, JPEG, Embedded PNG|
 |Non-data visualization dashboard elements, like Headings|Not applicable|

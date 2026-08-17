@@ -9,7 +9,7 @@ classification: health-log-analytics
 topic_type: task
 last_updated: "2025-01-29"
 reading_time_minutes: 1
-breadcrumb: [Health Log Analytics, ITOM AIOps, IT Operations Management]
+breadcrumb: [Health Log Analytics, ITOM Health, IT Operations Management]
 ---
 
 # Start remediation of a Log Analytics alert from the Overview tab
@@ -45,5 +45,5 @@ Role required: evt\_mgmt\_operator, or evt\_mgmt\_user, or evt\_mgmt\_admin
     **Note:** Because some sections on the **Overview** tab show only a portion of the information, many sections include a link that displays different or more complete information.
 
 
-**Parent Topic:**[ITOM AIOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-health-landing-page.md)
+**Parent Topic:**[ITOM Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-health-landing-page.md)
 

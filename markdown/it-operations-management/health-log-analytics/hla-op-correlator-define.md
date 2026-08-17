@@ -9,7 +9,7 @@ classification: health-log-analytics
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Identifying relationships in log data by using log correlators, Health Log Analytics, ITOM AIOps, IT Operations Management]
+breadcrumb: [Use log correlators to find related alerts, Health Log Analytics, ITOM Health, IT Operations Management]
 ---
 
 # Add a log correlator to identify related alerts
@@ -22,21 +22,21 @@ Role required: evt\_mgmt\_operator or evt\_mgmt\_admin
 
 ## About this task
 
-For information about the types and functions of log correlators, see [Identifying relationships in log data by using log correlators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-op-correlator-what-is-a.md).
+For information about the types and functions of log correlators, see [Log correlators for identifying related alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-op-correlator-what-is-a.md).
 
 ## Procedure
 
 1.  Use one of the following methods to add a log correlator.
 
-<table id="choicetable_aks_4jj_dpb"><thead><tr><th align="left" id="d605542e68">
+<table id="choicetable_aks_4jj_dpb"><thead><tr><th align="left" id="d606297e71">
 
 Option
 
-</th><th align="left" id="d605542e71">
+</th><th align="left" id="d606297e74">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d605542e77">
+</th></tr></thead><tbody><tr><td id="d606297e80">
 
 **Add a log correlator for a specific log source**
 
@@ -47,7 +47,7 @@ Procedure
 3.  Click **New**.
 
 
-</td></tr><tr><td id="d605542e116">
+</td></tr><tr><td id="d606297e119">
 
 **Add a log correlator that applies either to all log sources or to only those log sources that become active after you define this log correlator**
 
@@ -69,5 +69,5 @@ The Log correlators related list displays the list of existing log correlators t
 3.  Select **Active** and then click **Submit**.
 
 
-**Parent Topic:**[Identifying relationships in log data by using log correlators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-op-correlator-what-is-a.md)
+**Parent Topic:**[Log correlators for identifying related alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-op-correlator-what-is-a.md)
 

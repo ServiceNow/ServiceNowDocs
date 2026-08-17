@@ -1,6 +1,6 @@
 ---
-title: Manage input parameters for an Zero Copy Connector for ERP model operation
-description: Specify how fields on the ERP \(Enterprise Resource Planning\) system map to input parameters and their values to define the inputs for an operation that reads or updates the system of record from Zero Copy Connector for ERP.
+title: Manage input parameters for an ERP Canvas model operation
+description: Specify how fields on the ERP \(Enterprise Resource Planning\) system map to input parameters and their values to define the inputs for an operation that reads or updates the system of record from ERP Canvas.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-integration-framework/erpc-manage-model-inputs.html
 release: yokohama
@@ -9,12 +9,12 @@ classification: erp-integration-framework
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 5
-breadcrumb: [Building and managing ERP models to work with ERP data, Using ERP models, extraction tables, and remote tables, Zero Copy Connector for ERP, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Building and managing ERP models to work with ERP data, Using ERP models, extraction tables, and remote tables, ERP Canvas, Building low-code applications, Developing your application, Building applications]
 ---
 
-# Manage input parameters for an Zero Copy Connector for ERP model operation
+# Manage input parameters for an ERP Canvas model operation
 
-Specify how fields on the ERP \(Enterprise Resource Planning\) system map to input parameters and their values to define the inputs for an operation that reads or updates the system of record from Zero Copy Connector for ERP.
+Specify how fields on the ERP \(Enterprise Resource Planning\) system map to input parameters and their values to define the inputs for an operation that reads or updates the system of record from ERP Canvas.
 
 ## Before you begin
 
@@ -26,7 +26,7 @@ If you're already in the process of managing a model and ready to specify inputs
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home**.
+1.  Navigate to **All** &gt; **ERP Canvas** &gt; **ERP Canvas Home**.
 
 2.  Open the ERP model page by selecting the ERP model icon \(\[Omitted image "erpc-data-model-icon.png"\] Alt text: ERP model icon\) in the side panel.
 
@@ -36,11 +36,11 @@ If you're already in the process of managing a model and ready to specify inputs
 
 5.  Open a model operation.
 
-    If you do not have a model operation, add one to the model. For more information, see [Add an operation to a model in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erpc-manage-models-read-op.md).
+    If you do not have a model operation, add one to the model. For more information, see [Add an operation to a model in ERP Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erpc-manage-models-read-op.md).
 
 6.  Open an entity.
 
-    If you do not have an entity, add one to the operation. For more information, see [Add a read, update, or create entity to a model in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erpc-add-entity-to-model-op.md)
+    If you do not have an entity, add one to the operation. For more information, see [Add a read, update, or create entity to a model in ERP Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erpc-add-entity-to-model-op.md)
 
 7.  Select **Specify inputs**.
 
@@ -49,7 +49,7 @@ If you're already in the process of managing a model and ready to specify inputs
     -   The Operation parameters section, where you define any default values to use if the operation fails.
     -   The Tables/Function call section, where you define the parameters the operation uses. The Table section appears for read operations, and the Function call section appears for BAPI \(Business Application Programming Interface\) operations.
 
-        **Note:** Mapped value names in inputs and outputs are generated automatically, but you can edit the names manually. For more information, see [Edit input and output mapped value name in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erpc-edit-mapped-value-name-in-model-manager.md).
+        **Note:** Mapped value names in inputs and outputs are generated automatically, but you can edit the names manually. For more information, see [Edit input and output mapped value name in ERP Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erpc-edit-mapped-value-name-in-model-manager.md).
 
     \[Omitted image "erpc-specify-inputs-manager-ys2.png"\] Alt text: Specify input parameters.
 
@@ -64,7 +64,7 @@ If you're already in the process of managing a model and ready to specify inputs
 
     For table read operations, a Tables section appears in the mapped table fields section for each defined table entity. Make sure that you're adding the parameter for the correct table.
 
-    **Note:** It doesn't matter what order you define parameters in. Zero Copy Connector for ERP displays optional parameters in alphabetical order when you save.
+    **Note:** It doesn't matter what order you define parameters in. ERP Canvas displays optional parameters in alphabetical order when you save.
 
     1.  Select **+ New input** below the last-defined parameter in the table.
 
@@ -88,7 +88,7 @@ Field name
 
 </td><td>
 
-Name of the field from the ERP system that you're defining as a parameter. Zero Copy Connector for ERP automatically retrieves fields from the table defined in the operation entity.
+Name of the field from the ERP system that you're defining as a parameter. ERP Canvas automatically retrieves fields from the table defined in the operation entity.
 
 </td></tr><tr><td>
 
@@ -115,13 +115,13 @@ Mapped value
 
 </td><td>
 
-Specific value of the parameter.-   For **Input** parameters, accept the system-generated name or edit the name. For more information about editing mapped values, see [Edit input and output mapped value name in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erpc-edit-mapped-value-name-in-model-manager.md).
+Specific value of the parameter.-   For **Input** parameters, accept the system-generated name or edit the name. For more information about editing mapped values, see [Edit input and output mapped value name in ERP Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erpc-edit-mapped-value-name-in-model-manager.md).
 -   For **Constant** parameters, enter a set value that's always sent for the parameter.
 -   For **Join** parameters, select the field to join the parameter with. For details on creating joins, see [Add joins between ERP tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-add-join-data-model.md).
 
 
 </td></tr></tbody>
-</table>    If you're adding a complex, nested parameter, such as an address that includes several other parameters \(one for street, one for city, one for country\), Zero Copy Connector for ERP automatically identifies that it needs additional related parameters and creates new, nested parameter rows that you must then populate with the related values. You can nest only parameters with **Object** or **Array** as the **Data type**.
+</table>    If you're adding a complex, nested parameter, such as an address that includes several other parameters \(one for street, one for city, one for country\), ERP Canvas automatically identifies that it needs additional related parameters and creates new, nested parameter rows that you must then populate with the related values. You can nest only parameters with **Object** or **Array** as the **Data type**.
 
 11. Specify a **Default value** to be used for the parameter in the newly added **Optional parameter** row in the Output parameters section.
 

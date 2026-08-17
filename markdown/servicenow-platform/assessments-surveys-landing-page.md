@@ -60,7 +60,7 @@ The Assessments and Surveys application helps you create, send, and collect resp
 -   **[Exploring Assessments and Surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/assessments-and-surveys.md)**  
 The Assessments and Surveys application helps you create, send, and collect responses for surveys. The application also helps you evaluate, score, and rank records from any table in the system. Create questionnaires that you can assign to one or more users to assess their knowledge of any subject.
 -   **[Surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/r_SurveyManagementLandingPage.md)**  
-
+With Surveys, you can create, send, and collect responses for basic surveys. If Service Portal is installed, users can access and complete the assigned surveys through the **My Assessments** and **Survey** widget within the portal.
 -   **[Assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/r_Assessments.md)**  
 Use assessments to evaluate, score, and rank records from any table in the system.
 -   **[Installed with Assessments and Surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/r_InstalledWithAssessments.md)**  

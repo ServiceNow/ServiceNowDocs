@@ -26,8 +26,8 @@ You can leverage a few Service Operations Workspace integrations to start operat
 Use the guided tours in Service Operations Workspace for ITSM through a sequence of interactive steps that guide you through a specific concept or process.
 -   **[Add a user-specific quick link on the ITSM landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/add-quick-link.md)**  
 Refer to a URL quickly from the Service Operations Workspace landing page.
--   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/create-list-sow.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/create-list-sow.md)**  
-
+-   **[Create a list in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/create-list-sow.md)**  
+Create a list or use an existing list to create a list.
 -   **[Live Agent chat in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/configure-liveagent-sow.md)**  
 Service Operations Workspace enables agents to work on any incident created using Live Agent chat.
 -   **[Interaction Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/interaction-sow.md)**  

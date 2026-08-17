@@ -1,18 +1,18 @@
 ---
-title: Configure Now Assist for Enterprise Architecture \(EA\)
-description: If you have the admin role, you can configure the Now Assist for Enterprise Architecture \(EA\) to enable generative AI skills in Enterprise Architecture Workspace \(EA\).
+title: Configure ServiceNow Otto for Enterprise Architecture \(EA\)
+description: If you have the admin role, you can configure the ServiceNow Otto for Enterprise Architecture \(EA\) to enable generative AI skills in Enterprise Architecture Workspace \(EA\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/configure-now-assist-ea.html
 release: yokohama
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 3
-breadcrumb: [Now Assist for Enterprise Architecture \(EA\), Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [ServiceNow Otto for Enterprise Architecture \(EA\), Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
-# Configure Now Assist for Enterprise Architecture \(EA\)
+# Configure ServiceNow Otto for Enterprise Architecture \(EA\)
 
-If you have the admin role, you can configure the Now Assist for Enterprise Architecture \(EA\) to enable generative AI skills in Enterprise Architecture Workspace \(EA\).
+If you have the admin role, you can configure the ServiceNow Otto for Enterprise Architecture \(EA\) to enable generative AI skills in Enterprise Architecture Workspace \(EA\).
 
 ## Before you begin
 
@@ -20,11 +20,11 @@ Role required: admin
 
 ## About this task
 
-Use the Now Assist Admin console to configure Now Assist for EA. This console contains everything that you need to activate the plugins and configure the generative AI skills. For additional information, see [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configuring-now-assist.md).
+Use the AI Admin Hub console to configure ServiceNow Otto for EA. This console contains everything that you need to activate the plugins and configure the generative AI skills. For additional information, see [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configuring-now-assist.md).
 
-You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/exploring-large-language-models.md).
+You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/exploring-large-language-models.md).
 
-The following table lists the features and skills that you can access from the Now Assist Admin console.
+The following table lists the features and skills that you can access from the AI Admin Hub console.
 
 |EA feature|Skill|
 |----------|-----|
@@ -33,36 +33,36 @@ The following table lists the features and skills that you can access from the N
 
 **Note:** Now LLM Service is the default provider for this Now Assist application's skills.
 
-The Now Assist for Enterprise Architecture \(EA\) system requirements are as follows:
+The ServiceNow Otto for Enterprise Architecture \(EA\) system requirements are as follows:
 
 -   Now Assist for Platform \(v7.0.1\)
 -   Enterprise Architecture Workspace \(v3.4.0\)
 
 ## Procedure
 
-1.  Install the Now Assist for Enterprise Architecture \(EA\) plugin \(sn\_ea\_gen\_ai\).
+1.  Install the ServiceNow Otto for Enterprise Architecture \(EA\) plugin \(sn\_ea\_gen\_ai\).
 
-    -   For information about the application dependencies, see [Supporting information for Now Assist for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/supporting-info-now-assist-ea.md).
+    -   For information about the application dependencies, see [Supporting information for ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/supporting-info-now-assist-ea.md).
     -   For information about the installation process, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
-2.  Navigate to **Now Assist Admin****Features** to access the **Features** tab of the Now Assist Admin console.
+2.  Navigate to **Now Assist Admin****Features** to access the **Features** tab of the AI Admin Hub console.
 
-    If you’re already in the Now Assist Admin console, you can select the **Now Assist Features** tab on the screen.
+    If you’re already in the AI Admin Hub console, you can select the **Now Assist Features** tab on the screen.
 
 3.  Select the expand row icon \[Omitted image "ExpandIcon.png"\] Alt text: next to **Technology**.
 
 4.  Select **EA**.
 
-5.  Activate and configure the skill for Now Assist for Enterprise Architecture \(EA\).
+5.  Activate and configure the skill for ServiceNow Otto for Enterprise Architecture \(EA\).
 
-<table id="choicetable_wnn_hyf_b2c"><thead><tr><th align="left" id="d34212e300">
+<table id="choicetable_wnn_hyf_b2c"><thead><tr><th align="left" id="d34098e300">
 
 Skill
 
-</th><th align="left" id="d34212e303">
+</th><th align="left" id="d34098e303">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d34212e309">
+</th></tr></thead><tbody><tr><td id="d34098e309">
 
 **ADR Doc Summarization and Actions**
 
@@ -73,7 +73,7 @@ Action
 3.  Go to step 6 and review the details.
 
 
-</td></tr><tr><td id="d34212e340">
+</td></tr><tr><td id="d34098e340">
 
 **Business Application Insights**
 
@@ -85,7 +85,7 @@ Action
 If you want to provide access to more roles, perform the following:
 
     1.  Select the edit icon \[Omitted image "edit-icon.png"\] Alt text:.
-    2.  Verify that your application scope is set to Now Assist for Enterprise Architecture \(EA\). For information on how to change the application scope, see [Select an application from the application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_SelectAnAppFromTheAppPicker.md).
+    2.  Verify that your application scope is set to ServiceNow Otto for Enterprise Architecture \(EA\). For information on how to change the application scope, see [Select an application from the application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_SelectAnAppFromTheAppPicker.md).
     3.  Select the user access level, according to your requirement.
         -   **Any authenticated user**: Selecting this option enables any logged-in user to use the skill.
         -   **Select Roles**: Selecting this option enables you to add specific roles in the **Roles** field.
@@ -102,7 +102,7 @@ The Business application insights skill is activated.
 
     1.  Review the roles than can access the skill. If necessary, select the edit icon \[Omitted image "edit-icon.png"\] Alt text: if you want to add access to more roles.
 
-        You must verify that your application scope is set to Now Assist for Enterprise Architecture \(EA\). For information on how to change the application scope, see [Select an application from the application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_SelectAnAppFromTheAppPicker.md).
+        You must verify that your application scope is set to ServiceNow Otto for Enterprise Architecture \(EA\). For information on how to change the application scope, see [Select an application from the application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_SelectAnAppFromTheAppPicker.md).
 
         **Note:** For the ADR Doc Summarization and Actions skill, the sn\_apm.apm\_user and sn\_apm.apm\_read roles are selected, by default.
 
@@ -120,8 +120,8 @@ The Business application insights skill is activated.
     The skill is configured and activated.
 
 
--   **[Now Assist for Enterprise Architecture \(EA\) access roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/sn-otto-access-roles.md)**  
-The following roles help you to configure and use each Now Assist for Enterprise Architecture \(EA\) skill.
+-   **[ServiceNow Otto for Enterprise Architecture \(EA\) access roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/sn-otto-access-roles.md)**  
+The following roles help you to configure and use each ServiceNow Otto for Enterprise Architecture \(EA\) skill.
 
-**Parent Topic:**[Now Assist for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/now-assist-ea.md)
+**Parent Topic:**[ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/now-assist-ea.md)
 

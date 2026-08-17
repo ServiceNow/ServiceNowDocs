@@ -32,15 +32,15 @@ Role required: itil, problem\_coordinator or higher \(for managing the life cycl
 
 2.  Perform any of the following actions on the problem record page.
 
-<table id="choicetable_ptk_vnq_cbc"><thead><tr><th align="left" id="d410604e93">
+<table id="choicetable_ptk_vnq_cbc"><thead><tr><th align="left" id="d411688e93">
 
 Option
 
-</th><th align="left" id="d410604e96">
+</th><th align="left" id="d411688e96">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d410604e102">
+</th></tr></thead><tbody><tr><td id="d411688e102">
 
 **Create a problem task associated with the problem**
 
@@ -48,7 +48,7 @@ Description
 
 Select **Create problem task**, or select **New** from the **Problem Tasks** tab. For more information about creating a problem task, see [Create a problem task in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/create-problem-task-sow.md).
 
-</td></tr><tr><td id="d410604e129">
+</td></tr><tr><td id="d411688e129">
 
 **Assess a problem**
 
@@ -56,7 +56,7 @@ Select **Create problem task**, or select **New** from the **Problem Tasks** tab
 
 Select **Assess** and fill the mandatory fields.
 
-</td></tr><tr><td id="d410604e141">
+</td></tr><tr><td id="d411688e141">
 
 **Confirm a problem**
 
@@ -64,7 +64,7 @@ Select **Assess** and fill the mandatory fields.
 
 Select **Confirm** to move the problem from the **Assess** state to the **Root Cause Analysis** state.
 
-</td></tr><tr><td id="d410604e159">
+</td></tr><tr><td id="d411688e159">
 
 **Investigate the root cause of a problem**
 
@@ -75,7 +75,7 @@ Select **Confirm** to move the problem from the **Assess** state to the **Root C
 
 For more information about creating a problem task, see [Create a problem task in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/create-problem-task-sow.md).
 
-</td></tr><tr><td id="d410604e190">
+</td></tr><tr><td id="d411688e190">
 
 **Create a change request from the problem**
 
@@ -83,7 +83,7 @@ For more information about creating a problem task, see [Create a problem task i
 
 From the drop-down list next to **Create problem task**, select **Create change request**, or select **New** from the **Fix Tasks** tab.For information about creating a change request, see [Create a change request in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/create-change-sow.md).
 
-</td></tr><tr><td id="d410604e220">
+</td></tr><tr><td id="d411688e220">
 
 **Create an outage associated with the problem**
 
@@ -91,7 +91,7 @@ From the drop-down list next to **Create problem task**, select **Create change 
 
 From the drop-down list next to **Create problem task**, select **Create outage**.
 
-</td></tr><tr><td id="d410604e235">
+</td></tr><tr><td id="d411688e235">
 
 **Create a known error article**
 
@@ -99,7 +99,7 @@ From the drop-down list next to **Create problem task**, select **Create outage*
 
 From the drop-down list next to **Create problem task**, select **Create known error article**.Known error articles document the root cause and the workaround of the problem. For a description of the field values, see [Known error article form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/problem-management/known-error-article-form.md).
 
-</td></tr><tr><td id="d410604e260">
+</td></tr><tr><td id="d411688e260">
 
 **Assign the problem to yourself**
 
@@ -107,7 +107,7 @@ From the drop-down list next to **Create problem task**, select **Create known e
 
 Select **Assign to me**.
 
-</td></tr><tr><td id="d410604e272">
+</td></tr><tr><td id="d411688e272">
 
 **Mark a problem as a duplicate of an existing problem**
 
@@ -115,7 +115,7 @@ Select **Assign to me**.
 
 From the drop-down list next to **Cancel**, select **Mark duplicate** and fill the mandatory fields.
 
-</td></tr><tr><td id="d410604e287">
+</td></tr><tr><td id="d411688e287">
 
 **Cancel a problem**
 
@@ -123,7 +123,7 @@ From the drop-down list next to **Cancel**, select **Mark duplicate** and fill t
 
 Select **Cancel problem** and fill the mandatory fields.
 
-</td></tr><tr><td id="d410604e300">
+</td></tr><tr><td id="d411688e300">
 
 **Delete a problem**
 
@@ -131,7 +131,7 @@ Select **Cancel problem** and fill the mandatory fields.
 
 Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text: more actions icon\) and select **Delete**.
 
-</td></tr><tr><td id="d410604e318">
+</td></tr><tr><td id="d411688e318">
 
 **Create a known error article for a high-impact problem**
 
@@ -146,7 +146,7 @@ Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt tex
 2.  From the **Recommended actions** tab, for the **Create known error article** recommendation, select **Create article**. For a description of the field values, see [Known error article form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/problem-management/known-error-article-form.md).
 
 
-</td></tr><tr><td id="d410604e372">
+</td></tr><tr><td id="d411688e372">
 
 **Attach knowledge articles or records that help a quick resolution of a problem**
 
@@ -156,7 +156,7 @@ Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt tex
 2.  Search for a resource and perform the required action.
 The knowledge articles attached here are displayed in the **Related records** tab.
 
-</td></tr><tr><td id="d410604e398">
+</td></tr><tr><td id="d411688e398">
 
 **Add an attachment to a problem**
 
@@ -164,7 +164,7 @@ The knowledge articles attached here are displayed in the **Related records** ta
 
 From the contextual side panel, select the attachments icon \(\[Omitted image "attachment-icon.png"\] Alt text: attachments icon\).
 
-</td></tr><tr><td id="d410604e413">
+</td></tr><tr><td id="d411688e413">
 
 **Copy the record page URL to easily access the record**
 
@@ -172,7 +172,7 @@ From the contextual side panel, select the attachments icon \(\[Omitted image "a
 
 Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text: more actions icon\) and select **Copy URL**.
 
-</td></tr><tr><td id="d410604e431">
+</td></tr><tr><td id="d411688e431">
 
 **Share a workaround**
 
@@ -180,7 +180,7 @@ Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt tex
 
 Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text: more actions icon\) and select **Share workaround**.
 
-</td></tr><tr><td id="d410604e450">
+</td></tr><tr><td id="d411688e450">
 
 **Share a fix**
 
@@ -188,7 +188,7 @@ Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt tex
 
 Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text: more actions icon\) and select **Share fix**.
 
-</td></tr><tr><td id="d410604e468">
+</td></tr><tr><td id="d411688e468">
 
 **Create templates for reuse**
 
@@ -196,7 +196,7 @@ Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt tex
 
 From the contextual side panel, select the templates icon \(\[Omitted image "template-icon.png"\] Alt text: templates icon\).
 
-</td></tr><tr><td id="d410604e483">
+</td></tr><tr><td id="d411688e483">
 
 **Acknowledge the problem while recognizing there is currently no permanent resolution**
 
@@ -204,7 +204,7 @@ From the contextual side panel, select the templates icon \(\[Omitted image "tem
 
 From the drop-down list next to **Cancel**, select **Accept risk** and fill the mandatory fields.**Note:** You can apply workaround notes to a risk-accepted problem.
 
-</td></tr><tr><td id="d410604e500">
+</td></tr><tr><td id="d411688e500">
 
 **Re-analyze a problem**
 

@@ -1,6 +1,6 @@
 ---
-title: Activate Now Assist skills in Now Assist for IT Operations Management \(ITOM\)
-description: You can activate the Now Assist skills for use in Now Assist for IT Operations Management \(ITOM\).
+title: Activate Now Assist skills in ServiceNow Otto for IT Operations Management \(ITOM\)
+description: You can activate the Now Assist skills for use in ServiceNow Otto for IT Operations Management \(ITOM\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/now-assist-for-it-operations-management/activate-now-assist-skills-itom.html
 release: yokohama
@@ -9,28 +9,28 @@ classification: now-assist-for-it-operations-management
 topic_type: task
 last_updated: "2025-05-05"
 reading_time_minutes: 1
-breadcrumb: [Configuring Now Assist for ITOM, Now Assist for ITOM, IT Operations Management]
+breadcrumb: [Configuring ServiceNow Otto for ITOM, ServiceNow Otto for ITOM, IT Operations Management]
 ---
 
-# Activate Now Assist skills in Now Assist for IT Operations Management \(ITOM\)
+# Activate Now Assist skills in ServiceNow Otto for IT Operations Management \(ITOM\)
 
-You can activate the Now Assist skills for use in Now Assist for IT Operations Management \(ITOM\).
+You can activate the Now Assist skills for use in ServiceNow Otto for IT Operations Management \(ITOM\).
 
 ## Before you begin
 
-Before activating the Now Assist skills, you must install the Now Assist for IT Operations Management \(ITOM\) plugin. For more information, see [Install the Now Assist for IT Operations Management \(ITOM\) plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/install-now-assist-itom.md).
+Before activating the Now Assist skills, you must install the ServiceNow Otto for IT Operations Management \(ITOM\) plugin. For more information, see [Install the Now Assist for IT Operations Management \(ITOM\) plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/install-now-assist-itom.md).
 
 Role required: admin
 
 ## About this task
 
-Activate the Now Assist skills in the Now Assist for IT Operations Management \(ITOM\) plugin to enable generative AI on your instance.
+Activate the Now Assist skills in the ServiceNow Otto for IT Operations Management \(ITOM\) plugin to enable generative AI on your instance.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills**.
 
-    If you’re already in the Now Assist Admin console, select the **Now Assist Skills** tab.
+    If you’re already in the AI Admin Hub console, select the **Now Assist Skills** tab.
 
 2.  On the navigation panel, select **Technology** &gt; **ITOM** to review the skill set.
 
@@ -56,5 +56,5 @@ The Service Mapping Candidate skill provides Now Assist the ability to classify 
 -   **[Activate the Service Mapping Candidates Impact skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/activate-sm-candidates-impact-skill.md)**  
 The Service Mapping Candidates Impact skill analyzes connections and effects on servers. It enables generating an impact summary, using Now Assist. The skill is active by default. If needed, administrators can activate or deactivate the skill.
 
-**Parent Topic:**[Configuring Now Assist for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-configure.md)
+**Parent Topic:**[Configuring ServiceNow Otto for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-configure.md)
 

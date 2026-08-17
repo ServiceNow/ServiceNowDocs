@@ -1,6 +1,6 @@
 ---
-title: Usage Insights related properties
-description: Use system properties to configure Usage Insights in Platform Analytics, ServiceNow Mobile Platform, Service Portal, and the Conversational Analytics area of Virtual Agent.
+title: User Experience Analytics related properties
+description: Use system properties to configure User Experience Analytics in Platform Analytics, ServiceNow Mobile Platform, Service Portal, and the Conversational Analytics area of Virtual Agent.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/usage-insights/all-analytics-properties.html
 release: yokohama
@@ -12,11 +12,11 @@ reading_time_minutes: 1
 breadcrumb: [User Experience Analytics reference, User Experience Analytics, Platform Analytics]
 ---
 
-# Usage Insights related properties
+# User Experience Analytics related properties
 
-Use system properties to configure Usage Insights in Platform Analytics, ServiceNow Mobile Platform, Service Portal, and the Conversational Analytics area of Virtual Agent.
+Use system properties to configure User Experience Analytics in Platform Analytics, ServiceNow Mobile Platform, Service Portal, and the Conversational Analytics area of Virtual Agent.
 
-## General Usage Insights related properties
+## General User Experience Analytics related properties
 
 Use the following system properties in Platform Analytics, ServiceNow Mobile Platform, Service Portal, and the Conversational Analytics area of Virtual Agent.
 
@@ -33,7 +33,7 @@ Use the following system properties in Platform Analytics, ServiceNow Mobile Pla
     -   Type: string
     -   Default value: 2000
 
-## Usage Insights related properties for Service Portal
+## User Experience Analytics related properties for Service Portal
 
 Use the following system properties in the Service Portal only.
 

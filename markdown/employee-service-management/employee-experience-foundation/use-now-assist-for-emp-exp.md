@@ -1,5 +1,5 @@
 ---
-title: Using Now Assist for Employee Experience
+title: Using ServiceNow Otto for Employee Experience
 description: Use the Now Assist in Virtual Agent to quickly check your tasks and approvals.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/employee-experience-foundation/use-now-assist-for-emp-exp.html
@@ -9,10 +9,10 @@ classification: employee-experience-foundation
 topic_type: concept
 last_updated: "2025-03-26"
 reading_time_minutes: 1
-breadcrumb: [Now Assist for Employee Experience, Unified Employee Experience, Employee Service Management]
+breadcrumb: [ServiceNow Otto for Employee Experience, Unified Employee Experience, Employee Service Management]
 ---
 
-# Using Now Assist for Employee Experience
+# Using ServiceNow Otto for Employee Experience
 
 Use the Now Assist in Virtual Agent to quickly check your tasks and approvals.
 
@@ -25,5 +25,5 @@ Stay connected and informed on company updates, events, announcements, and more 
 -   **[View summarization for approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/view-summarization-approvals.md)**  
 Check the generated approval summaries for cases, requested items, and requests for approvals. Based on the trigger selection by your admin, you can see contextual summary of the approval.
 
-**Parent Topic:**[Now Assist for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/now-assisit-employee-exp.md)
+**Parent Topic:**[ServiceNow Otto for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/now-assisit-employee-exp.md)
 

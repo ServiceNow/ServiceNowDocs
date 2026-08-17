@@ -9,7 +9,7 @@ classification: hr-service-delivery
 topic_type: task
 last_updated: "2025-11-19"
 reading_time_minutes: 1
-breadcrumb: [Using your Alumni Center, Alumni Center, HR Service Delivery, Employee Service Management]
+breadcrumb: [Using your Alumni Service Center, Alumni Service Center, HR Service Delivery, Employee Service Management]
 ---
 
 # Alumni job preferences
@@ -22,7 +22,7 @@ Role required: sn\_asc.alumni
 
 ## Procedure
 
-1.  Navigate to **Alumni Center** &gt; **Job opportunities**.
+1.  Navigate to **Alumni Service Center** &gt; **Job opportunities**.
 
 2.  Select **Edit job preferences**.
 

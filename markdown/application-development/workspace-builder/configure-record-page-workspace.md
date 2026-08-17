@@ -350,7 +350,7 @@ Display templates that help reduce the time agents spend responding to requester
 
 9.  Complete any additional changes and configurations.
 
-<table id="choicetable_f3l_vjr_dvb"><tbody><tr><td id="d246417e974">
+<table id="choicetable_f3l_vjr_dvb"><tbody><tr><td id="d246182e974">
 
 **Update the name of the record page**
 
@@ -367,7 +367,7 @@ A preview of the record page appears.
 4.  Select **Save**.
 
 
-</td></tr><tr><td id="d246417e1009">
+</td></tr><tr><td id="d246182e1009">
 
 **Preview the record page in a new browser tab**
 
@@ -375,7 +375,7 @@ A preview of the record page appears.
 
 Select **Preview** in the Workspace Builder header.The record page appears in the workspace. If no data exists for the table, AES displays a page where you can add data to the table.
 
-</td></tr><tr><td id="d246417e1030">
+</td></tr><tr><td id="d246182e1030">
 
 **Delete a record page**
 

@@ -9,7 +9,7 @@ classification: usage-insights
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Cohort analysis, Using Usage Insights, User Experience Analytics, Platform Analytics]
+breadcrumb: [Cohort analysis, Using User Experience Analytics, User Experience Analytics, Platform Analytics]
 ---
 
 # Delete a cohort
@@ -35,5 +35,5 @@ Role required: Users with the analytics\_viewer, portal\_analytics\_viewer, mobi
 5.  Confirm your choice by selecting **Delete**.
 
 
-**Parent Topic:**[Cohort analysis in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/uxa-cohorts.md)
+**Parent Topic:**[Cohort analysis in User Experience Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/uxa-cohorts.md)
 

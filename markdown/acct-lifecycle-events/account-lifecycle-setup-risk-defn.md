@@ -7,7 +7,7 @@ release: yokohama
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 4
-breadcrumb: [Configure customer success, Customer success, Customer Success Management]
+breadcrumb: [Configure customer success, Customer success, Account Lifecycle Events]
 ---
 
 # Setup the engagement risk definition
@@ -85,7 +85,7 @@ Enter a description for the risk definition.
 
 </td></tr><tr><td colspan="2">
 
-`Metric based:` This option is used to create or update risks if a risk threshold is breached. If you are creating a metric based risk definition, select the metric, define the thresholds, set up the template, and specify conditions to define the list of applicable engagements.
+`Metric based:` This option is used to create or update risks if a risk threshold is breached. To create a metric based risk definition, select the metric and define the thresholds. Set up the template and specify conditions to define the list of applicable engagements.
 
 </td></tr><tr><td>
 
@@ -121,7 +121,7 @@ If you select an applicable engagement, this risk definition will be evaluated f
 
 </td></tr><tr><td colspan="2">
 
-`Table based:` This option is used to create or update risks in all records in the matching table and the specified condition. If you are creating table based risk definition, you must select the table, specify the condition, and set up the template with fields and values to generate risks in the specified format.
+`Table based:` This option is used to create or update risks in all records in the matching table and the specified condition. When creating a table based risk definition, select the table and specify the condition. Set up the template with fields and values to generate risks in the specified format.
 
 </td></tr><tr><td>
 
@@ -131,7 +131,7 @@ Source table
 
 Select the source table for which the risk definition is to be created.**Note:** A context mapper must have been defined that associates the source and the context tables. See [Setup the data context engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-setup-metric-data.md) for details.
 
-For example, if you want to define risk signals for a contract, and select Contract as your source table, a context mapping with a Contract to Engagement association must have been defined.
+For example, if you want to define risk signals for a contract, select Contract as your source table. A context mapping with a Contract to Engagement association must have been defined.
 
 </td></tr><tr><td>
 

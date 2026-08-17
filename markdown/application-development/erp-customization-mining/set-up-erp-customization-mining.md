@@ -1,6 +1,6 @@
 ---
-title: Configure a new ERP Semantic Mining connection
-description: Specify the Connections and Credentials alias for ERP Semantic Mining \(ERP-CM\) to connect to the ERP \(Enterprise Resource Planning\) system.
+title: Configure a new ERP Customization Mining connection
+description: Specify the Connections and Credentials alias for ERP Customization Mining \(ERP-CM\) to connect to the ERP \(Enterprise Resource Planning\) system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-customization-mining/set-up-erp-customization-mining.html
 release: yokohama
@@ -9,16 +9,16 @@ classification: erp-customization-mining
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configuring ERP Semantic Mining, ERP Semantic Mining \(ERP-CM\), Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Configuring ERP Customization Mining, ERP Customization Mining \(ERP-CM\), Building low-code applications, Developing your application, Building applications]
 ---
 
-# Configure a new ERP Semantic Mining connection
+# Configure a new ERP Customization Mining connection
 
-Specify the Connections and Credentials alias for ERP Semantic Mining \(ERP-CM\) to connect to the ERP \(Enterprise Resource Planning\) system.
+Specify the Connections and Credentials alias for ERP Customization Mining \(ERP-CM\) to connect to the ERP \(Enterprise Resource Planning\) system.
 
 ## Before you begin
 
-You should install Zero Copy Connector for ERP and add credentials there before you install and configure ERP-CM. For more information, see [Configure the Zero Copy Connector for ERP credentials and connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/set-up-erp-integration-connection.md).
+You should install ERP Canvas and add credentials there before you install and configure ERP-CM. For more information, see [Configure the ERP Canvas credentials and connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/set-up-erp-integration-connection.md).
 
 Role required: sn\_erp\_integration.erp\_admin, sn\_erp\_mining.erp\_admin
 
@@ -32,7 +32,7 @@ Role required: sn\_erp\_integration.erp\_admin, sn\_erp\_mining.erp\_admin
 
     If you have already configured a system connection and want to use a different connection and credential, see [Update an ERP-CM connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/update-ecm-connection.md).
 
-4.  In the Connections and Credentials alias box, choose the credentials you configured in Zero Copy Connector for ERP from the **Select connection &amp; credential alias** field.
+4.  In the Connections and Credentials alias box, choose the credentials you configured in ERP Canvas from the **Select connection &amp; credential alias** field.
 
 5.  Select **Connect**.
 
@@ -45,7 +45,7 @@ Role required: sn\_erp\_integration.erp\_admin, sn\_erp\_mining.erp\_admin
 
 ## What to do next
 
-After the system is connected, you can check the connection status and investigate errors at any time on the Connection status page. For more information, see [Check and troubleshoot the data refresh status for ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/erpcm-check-data-connection.md).
+After the system is connected, you can check the connection status and investigate errors at any time on the Connection status page. For more information, see [Check and troubleshoot the data refresh status for ERP Customization Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/erpcm-check-data-connection.md).
 
-**Parent Topic:**[Configuring ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/configuring-ecm.md)
+**Parent Topic:**[Configuring ERP Customization Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/configuring-ecm.md)
 

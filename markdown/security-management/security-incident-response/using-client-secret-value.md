@@ -34,7 +34,7 @@ Role required: admin
 -   **[Establish a connection using client secret](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/establish-a-connection-using-client-secret.md)**  
 Establish a connection between newly created Microsoft Teams graph application with ServiceNow AI Platform instance.
 -   **[Activate MS Teams chat connector for MS Teams Graph Spoke user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/activate-microsoft-teams-chat-connector-for-existing-users.md)**  
-If you are an existing user, then follow the procedure in this section to activate Microsoft Teams chat connector.
+If you are an existing user, then follow the procedure in this section to activate Microsoft Teams chat connector for MS Teams Graph Spoke user.
 
 **Parent Topic:**[Establish MS Teams Graph connection on ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/msim-micorsoft-team-requirements.md)
 

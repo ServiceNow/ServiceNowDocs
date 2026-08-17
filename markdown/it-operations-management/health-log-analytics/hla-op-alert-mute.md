@@ -9,7 +9,7 @@ classification: health-log-analytics
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Assigning higher or lower significance to an alert, Health Log Analytics, ITOM AIOps, IT Operations Management]
+breadcrumb: [Assigning higher or lower significance to an alert, Health Log Analytics, ITOM Health, IT Operations Management]
 ---
 
 # Mute an unimportant alert

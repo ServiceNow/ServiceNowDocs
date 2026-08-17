@@ -71,15 +71,15 @@ Select **My Assets** in the global header navigation bar of the Employee Center 
 
 2.  Acknowledge after you receive the asset.
 
-<table id="choicetable_rv3_cx5_jfc"><thead><tr><th align="left" id="d94489e223">
+<table id="choicetable_rv3_cx5_jfc"><thead><tr><th align="left" id="d94749e223">
 
 Asset
 
-</th><th align="left" id="d94489e226">
+</th><th align="left" id="d94749e226">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d94489e232">
+</th></tr></thead><tbody><tr><td id="d94749e232">
 
 **Hardware**
 
@@ -99,7 +99,7 @@ Action
     -   Any receive task associated with that asset is automatically closed.
  **Note:** If the details of the asset that you received don't match the information shown in the Receive Asset dialog box, you can raise an issue by selecting the **Raise issue** option. For more details, see [Raise issue related to your asset on the Employee Center portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/report-asset-issue-attestation.md).
 
-</td></tr><tr><td id="d94489e345">
+</td></tr><tr><td id="d94749e345">
 
 **Consumables**
 

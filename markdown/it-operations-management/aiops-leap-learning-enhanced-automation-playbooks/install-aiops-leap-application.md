@@ -1,6 +1,6 @@
 ---
 title: Install AIOps LEAP
-description: You can install the AIOps LEAP application using Now Assist for IT Operations Management \(ITOM\) \(sn\_itom\_gen\_ai\) if you have the admin role. If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application installs related ServiceNow Store applications and plug-ins if they aren’t already installed.
+description: You can install the AIOps LEAP application using ServiceNow Otto for IT Operations Management \(ITOM\) \(sn\_itom\_gen\_ai\) if you have the admin role. If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application installs related ServiceNow Store applications and plug-ins if they aren’t already installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/install-aiops-leap-application.html
 release: yokohama
@@ -9,12 +9,12 @@ classification: aiops-leap-learning-enhanced-automation-playbooks
 topic_type: task
 last_updated: "2025-04-02"
 reading_time_minutes: 1
-breadcrumb: [Configuring AIOps LEAP, AIOps Learning Enhanced Automation Playbook \(LEAP\), Now Assist for ITOM, IT Operations Management]
+breadcrumb: [Configuring AIOps LEAP, AIOps Learning Enhanced Automation Playbook \(LEAP\), ServiceNow Otto for ITOM, IT Operations Management]
 ---
 
 # Install AIOps LEAP
 
-You can install the AIOps LEAP application using Now Assist for IT Operations Management \(ITOM\) \(sn\_itom\_gen\_ai\) if you have the admin role. The application installs related ServiceNow® Store applications and plug-ins if they aren’t already installed.
+You can install the AIOps LEAP application using ServiceNow Otto for IT Operations Management \(ITOM\) \(sn\_itom\_gen\_ai\) if you have the admin role. The application installs related ServiceNow® Store applications and plug-ins if they aren’t already installed.
 
 ## Before you begin
 
@@ -39,13 +39,13 @@ For more information, see [Components installed with AIOps LEAP](https://raw.git
 
 2.  In the search bar, enter `Now Assist for ITOM` and then select **Search**.
 
-3.  Select the Now Assist for ITOM widget and then select **Get** to make this application available for installation on your instance\(s\).
+3.  Select the ServiceNow Otto for ITOM widget and then select **Get** to make this application available for installation on your instance\(s\).
 
-4.  Install the Now Assist for ITOM application.
+4.  Install the ServiceNow Otto for ITOM application.
 
     1.  Navigate to **All** &gt; **System Definition** &gt; **Plugins**.
 
-    2.  Search for Now Assist for IT Operations Management \(ITOM\).
+    2.  Search for ServiceNow Otto for IT Operations Management \(ITOM\).
 
     3.  Select **Install**.
 

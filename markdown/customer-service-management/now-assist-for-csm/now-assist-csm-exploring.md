@@ -1,6 +1,6 @@
 ---
-title: Exploring Now Assist for Customer Service Management \(CSM\)
-description: With the Now Assist for Customer Service Management \(CSM\) application, your agents can use generative AI to summarize the customer chat conversations and case details to get the context of the case. They can also generate the case resolution notes to share with the other agents and wrap up cases faster.
+title: Exploring ServiceNow Otto for Customer Service Management \(CSM\)
+description: With the ServiceNow Otto for Customer Service Management \(CSM\) application, your agents can use generative AI to summarize the customer chat conversations and case details to get the context of the case. They can also generate the case resolution notes to share with the other agents and wrap up cases faster.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/now-assist-for-csm/now-assist-csm-exploring.html
 release: yokohama
@@ -10,14 +10,14 @@ topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 11
 keywords: [generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
-breadcrumb: [Now Assist for Customer Service Management \(CSM\), Customer Service Management]
+breadcrumb: [ServiceNow Otto for Customer Service Management \(CSM\), Customer Service Management]
 ---
 
-# Exploring Now Assist for Customer Service Management \(CSM\)
+# Exploring ServiceNow Otto for Customer Service Management \(CSM\)
 
-With the Now Assist for Customer Service Management \(CSM\) application, your agents can use generative AI to summarize the customer chat conversations and case details to get the context of the case. They can also generate the case resolution notes to share with the other agents and wrap up cases faster.
+With the ServiceNow Otto for Customer Service Management \(CSM\) application, your agents can use generative AI to summarize the customer chat conversations and case details to get the context of the case. They can also generate the case resolution notes to share with the other agents and wrap up cases faster.
 
-## Now Assist for Customer Service Management \(CSM\) overview
+## ServiceNow Otto for Customer Service Management \(CSM\) overview
 
 The following generative AI capabilities are available for an agent:
 
@@ -36,9 +36,9 @@ The following generative AI capabilities are available for an agent:
 
 -   The Portal case form guides requesters through a self-service flow using Genius Results, helping them find solutions and reducing the number of cases created.
 
-## Now Assist for Customer Service Management \(CSM\) skills
+## ServiceNow Otto for Customer Service Management \(CSM\) skills
 
-The Now Assist for CSM application includes the generative AI skills that enable your agents to understand the chat and case context so that they can propose resolutions to the customer more quickly.
+The ServiceNow Otto for CSM application includes the generative AI skills that enable your agents to understand the chat and case context so that they can propose resolutions to the customer more quickly.
 
 -   **Chat summarization**
 
@@ -175,10 +175,10 @@ With the Now Assist Multi-Turn Catalog Requests skill, your customers can engage
 
 Personally identifiable information and other sensitive data can be masked so that it does not appear in generative AI prompts. Placeholder text is sent with the prompt instead, and that placeholder text is replaced with the original text after the response has been received. This two-way masking ensures that your users see the correct values, but the Now LLM Service is not exposed to any sensitive information. For more information, see Multi-turn catalog ordering.
 
--   **[Supporting information for Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/now-assist-for-csm/now-assist-csm-supporting-info.md)**  
-Get a quick overview of the important information that is related to the Now Assist for Customer Service Management \(CSM\) application.
+-   **[Supporting information for ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/now-assist-for-csm/now-assist-csm-supporting-info.md)**  
+Get a quick overview of the important information that is related to the ServiceNow Otto for Customer Service Management \(CSM\) application.
 
-**Parent Topic:**[Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/now-assist-for-csm/now-assist-csm.md)
+**Parent Topic:**[ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/now-assist-for-csm/now-assist-csm.md)
 
 **Related topics**  
 

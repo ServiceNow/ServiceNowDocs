@@ -227,15 +227,15 @@ If you’re using Software Asset Workspace, the option to create the Webex integ
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d39461e835">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d39427e835">
 
 Interface
 
-</th><th align="left" id="d39461e838">
+</th><th align="left" id="d39427e838">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d39461e844">
+</th></tr></thead><tbody><tr><td id="d39427e844">
 
 **Core UI**
 
@@ -246,7 +246,7 @@ Action
 3.  Select **Webex Integration Profile**.
 
 
-</td></tr><tr><td id="d39461e886">
+</td></tr><tr><td id="d39427e886">
 
 **Software Asset Workspace**
 

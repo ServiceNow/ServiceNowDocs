@@ -9,7 +9,7 @@ classification: now-assist-for-it-service-management-itsm
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 6
-breadcrumb: [Configure in Virtual Agent, Configure, Now Assist for IT Service Management \(ITSM\), IT Service Management]
+breadcrumb: [Configure in Virtual Agent, Configure, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 
 # ITSM Virtual Agent pre-built LLM topics

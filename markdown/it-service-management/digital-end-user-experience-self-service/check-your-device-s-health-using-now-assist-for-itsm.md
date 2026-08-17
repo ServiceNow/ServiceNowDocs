@@ -1,6 +1,6 @@
 ---
 title: Check your device’s health using Now Assist for ITSM
-description: Use the Now Assist for ITSM Virtual Agent to monitor your device's performance and diagnose potential issues. DEX Self-service provides information about your device's health and helps you improve it.
+description: Use the ServiceNow Otto for ITSM Virtual Agent to monitor your device's performance and diagnose potential issues. DEX Self-service provides information about your device's health and helps you improve it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/digital-end-user-experience-self-service/check-your-device-s-health-using-now-assist-for-itsm.html
 release: yokohama
@@ -14,13 +14,13 @@ breadcrumb: [Using Digital End-user Experience Self-service, Digital End-user Ex
 
 # Check your device’s health using Now Assist for ITSM
 
-Use the Now Assist for ITSM Virtual Agent to monitor your device's performance and diagnose potential issues. DEX Self-service provides information about your device's health and helps you improve it.
+Use the ServiceNow Otto for ITSM Virtual Agent to monitor your device's performance and diagnose potential issues. DEX Self-service provides information about your device's health and helps you improve it.
 
 ## Before you begin
 
 Confirm that the DEX plugin \(sn\_dex\) is installed.
 
-You must configure the Now Assist for ITSM to access the Check Device health topic in the Virtual Agent chat box.
+You must configure the ServiceNow Otto for ITSM to access the Check Device health topic in the Virtual Agent chat box.
 
 Role required: none
 

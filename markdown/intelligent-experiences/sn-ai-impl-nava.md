@@ -46,7 +46,7 @@ Setting up Now Assist in Virtual Agent requires customizing or creating a new LL
 
 -   **1. Install Now Assist in Virtual Agent**
 
-    You can install it from the Conversational Interfaces admin console once you have installed a Now Assist product such as Now Assist for IT Service Management \(ITSM\).
+    You can install it from the Conversational Interfaces admin console once you have installed a Now Assist product such as ServiceNow Otto for IT Service Management \(ITSM\).
 
     To set up Now Assist in Virtual Agent, you configure an assistant.
 

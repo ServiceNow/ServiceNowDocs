@@ -1,17 +1,17 @@
 ---
 title: Platform Analytics
-description: Optimize processes and increase productivity with the Platform Analytics applications. These applications include Reporting, Performance Analytics, Usage Insights, and Process Mining. Present data through either the Core UI or the Platform Analytics experience.
+description: Optimize processes and increase productivity with the Platform Analytics applications. These applications include Reporting, Performance Analytics, User Experience Analytics, and Process Mining. Present data through either the Core UI or the Platform Analytics experience.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/c\_performanceAnalyticsAndReporting.html
 release: yokohama
 topic_type: concept
 last_updated: "2025-01-30"
-reading_time_minutes: 6
+reading_time_minutes: 7
 ---
 
 # Platform Analytics
 
-Optimize processes and increase productivity with the Platform Analytics applications. These applications include Reporting, Performance Analytics, Usage Insights, and Process Mining. Present data through either the Core UI or the Platform Analytics experience.
+Optimize processes and increase productivity with the Platform Analytics applications. These applications include Reporting, Performance Analytics, User Experience Analytics, and Process Mining. Present data through either the Core UI or the Platform Analytics experience.
 
 ## Get started
 
@@ -31,7 +31,7 @@ Select one of these tiles to learn more about these applications, which help pro
 
 </td></tr><tr><td>
 
-[Usage Insights \[Omitted image "bus-3-person.svg"\] Alt text: Get a dashboard view of how your users work with multiple ServiceNow applications, with full visuals of metrics, interactions, and more.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/user-exp-analytics-landing.md)
+[User Experience Analytics \[Omitted image "bus-3-person.svg"\] Alt text: Get a dashboard view of how your users work with multiple ServiceNow applications, with full visuals of metrics, interactions, and more.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/user-exp-analytics-landing.md)
 
 </td><td>
 
@@ -60,7 +60,7 @@ Learn how to help your business constantly improve. Plan and implement key perfo
 
 \[Omitted image "kpi-details-plain.png"\] Alt text: KPI Details for a Performance Analytics indicator, showing a time series of scores and 6 filters.
 
-## Usage Insights
+## User Experience Analytics
 
 Learn about dashboard-based analytics on the usage of several ServiceNow applications. Administrators can get information on user engagement with both mobile and web applications, including user population, retention, and behavior.
 

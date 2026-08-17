@@ -18,7 +18,7 @@ ServiceNow's Conversational IVR with Amazon Connect enables Conversational Inter
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 Enable your users to initiate an IVR \(Interactive Voice Response\) conversation with your Virtual Agent Agent by building an integration with Amazon Connect. Using the Conversational IVR with Amazon Connect, you can enable a user to have a voice-based conversation with your Virtual Agent using Amazon Connect to help provide this functionality. This integration also provides the user the flexibility to connect with an agent using ServiceNow AWA Advanced Work Assignment \(AWA\) over SoftPhone.
 

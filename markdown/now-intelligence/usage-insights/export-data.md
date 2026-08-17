@@ -9,14 +9,14 @@ classification: usage-insights
 topic_type: concept
 last_updated: "2025-03-03"
 reading_time_minutes: 1
-breadcrumb: [Using Usage Insights, User Experience Analytics, Platform Analytics]
+breadcrumb: [Using User Experience Analytics, User Experience Analytics, Platform Analytics]
 ---
 
 # Exporting data
 
 You can export data records to CSV format. Exporting user and session lists, and other analytics data to CSV is available wherever you see the download icon \(\[Omitted image "csv-download.png"\] Alt text: CSV export download icon.\).
 
--   **Note:** When you download raw data, keep in mind that the internal schema structure that Usage Insights uses can vary between product versions.
+-   **Note:** When you download raw data, keep in mind that the internal schema structure that User Experience Analytics uses can vary between product versions.
 
 -   **Note:** You cannot export data from visualizations that do not have the download icon. Use the Export data button on most Events pages to export data from the entire page in CSV format.
 
@@ -27,5 +27,5 @@ Select the \(\[Omitted image "csv-download.png"\] Alt text: CSV export download 
 
 \[Omitted image "uxa-csv-export.png"\] Alt text: Page with visualizations that can be exported to CSV
 
-**Parent Topic:**[Using Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/using-uxa.md)
+**Parent Topic:**[Using User Experience Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/using-uxa.md)
 

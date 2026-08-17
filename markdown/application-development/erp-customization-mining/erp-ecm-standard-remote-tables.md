@@ -1,6 +1,6 @@
 ---
 title: Standard remote tables for ERP-CM
-description: ERP Semantic Mining \(ERP-CM\) accesses several standard remote tables for ERP \(Enterprise Resource Planning\) data.
+description: ERP Customization Mining \(ERP-CM\) accesses several standard remote tables for ERP \(Enterprise Resource Planning\) data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-customization-mining/erp-ecm-standard-remote-tables.html
 release: yokohama
@@ -9,14 +9,14 @@ classification: erp-customization-mining
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [ERP-CM standard tables and fields, ERP Semantic Mining reference, ERP Semantic Mining \(ERP-CM\), Building low-code applications, Developing your application, Building applications]
+breadcrumb: [ERP-CM standard tables and fields, ERP Customization Mining reference, ERP Customization Mining \(ERP-CM\), Building low-code applications, Developing your application, Building applications]
 ---
 
 # Standard remote tables for ERP-CM
 
-ERP Semantic Mining \(ERP-CM\) accesses several standard remote tables for ERP \(Enterprise Resource Planning\) data.
+ERP Customization Mining \(ERP-CM\) accesses several standard remote tables for ERP \(Enterprise Resource Planning\) data.
 
-The following remote tables are available through Zero Copy Connector for ERP and ERP-CM.
+The following remote tables are available through ERP Canvas and ERP-CM.
 
 |Label|Name|ERP module|
 |-----|----|----------|

@@ -1,6 +1,6 @@
 ---
-title: Enable Usage Insights
-description: You can enable or disable Usage Insights for specific applications on the Usage Insights settings table.
+title: Enable User Experience Analytics
+description: You can enable or disable User Experience Analytics for specific applications on the User Experience Analytics settings table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/usage-insights/config-analytics-settings.html
 release: yokohama
@@ -12,9 +12,9 @@ reading_time_minutes: 1
 breadcrumb: [Configuring User Experience Analytics, User Experience Analytics, Platform Analytics]
 ---
 
-# Enable Usage Insights
+# Enable User Experience Analytics
 
-You can enable or disable Usage Insights for specific applications on the Usage Insights settings table.
+You can enable or disable User Experience Analytics for specific applications on the User Experience Analytics settings table.
 
 ## Before you begin
 
@@ -36,12 +36,12 @@ Role required: analytics\_admin, mobile\_analytics\_admin, web\_analytics\_admin
 
     \[Omitted image "uxa-enable-application.png"\] Alt text: Enable a user experience analytics application
 
-    **Note:** ServiceNow collects basic usage data to improve our products and services even when Usage Insights is disabled.
+    **Note:** ServiceNow collects basic usage data to improve our products and services even when User Experience Analytics is disabled.
 
 
 ## What to do next
 
-Assign a web\_analytics\_viewer or portal\_analytics\_viewer role to users to enable them to view the Usage Insights application.
+Assign a web\_analytics\_viewer or portal\_analytics\_viewer role to users to enable them to view the User Experience Analytics application.
 
 **Parent Topic:**[Configuring User Experience Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/configuring-user-exp-analytics.md)
 

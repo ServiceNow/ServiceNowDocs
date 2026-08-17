@@ -140,5 +140,5 @@ Add approvers to an approval definition. The assigned approvers receive the appr
 
 [Location migration]()
 
-[View workplace service usage analytics with Usage Insights]()
+[View workplace service usage analytics with User Experience Analytics]()
 

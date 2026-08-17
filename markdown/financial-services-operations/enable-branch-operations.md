@@ -49,9 +49,9 @@ The following plugins install the Location manager contributor role and workspac
 -   Financial Services Operations \(FSO\) application plugin - Applicable FSO application plugins install branch operations demo data and add the branch location field on case tables and records.
 -   Financial Services Operations Core application plugin - The Financial Services Operations Core application plugin \(sn\_bom\) is automatically installed when you install an applicable FSO application. The sn\_bom plugin installs the Location manager contributor role \(sn\_bom.location\_manager\_contributor\). The Location manager contributor role enables a personalized Workspace with dashboard for viewing metrics and managing cases. The role can collect and submit case documents, and add staff members to a branch location.
 
-    **Note:** The Business Location plugin must be activated for the sn\_bom.location\_manager\_contributor role to be enabled. For more information, see [Activate business locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/activate-business-location.md)
+    **Note:** The Business Location plugin must be activated for the sn\_bom.location\_manager\_contributor role to be enabled. For more information, see 
 
--   Business Location plugin \(com.snc.business\_location\) - The com.snc.business\_location plugin enables support for banks that interact with customers through branches. The com.snc.business\_location plugin automatically activates the Service Organization plugin \(com.snc.service\_organization\), which enables support for internal branches. For information on activating the Business Location plugin, see [Activate business locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/activate-business-location.md).
+-   Business Location plugin \(com.snc.business\_location\) - The com.snc.business\_location plugin enables support for banks that interact with customers through branches. The com.snc.business\_location plugin automatically activates the Service Organization plugin \(com.snc.service\_organization\), which enables support for internal branches. For information on activating the Business Location plugin, see .
 
 ## Location manager contributor workspace
 
@@ -76,7 +76,7 @@ The Branch Performance Metrics dashboard enables Location managers to get a oper
 |Closed cases|Number of cases closed in the last 30 days for the branch. The number and percentage change in the current period appears under the total percentage.|
 |SLA met|Number and percentage of SLAs met across all FSO cases in the last 30 days for the branch location. The number and percentage change in the current period appears under the total percentage.|
 |SLA breached|Number of SLAs breached across all FSO cases in the last 30 days for the branch location.|
-|CSAT score|Percentage average customer satisfaction across all FSO cases based on surveys completed for the branch location in the last 30 days. The number and percentage change in the current period appears under the total percentage. For more information about CSAT, see [Customer service satisfaction surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/c_CustomerServiceSatisfactionSurvey.md).|
+|CSAT score|Percentage average customer satisfaction across all FSO cases based on surveys completed for the branch location in the last 30 days. The number and percentage change in the current period appears under the total percentage. For more information about CSAT, see .|
 |Trend of SLA met and breached closed cases|Trend of closed cases with SLAs breached vs closed cases with SLAs not breached in last 30 days for the branch, trended weekly.|
 |Trend of closed, open and created cases|Trend of closed cases, open cases, and cases created in the last 30 days for the branch location, trended weekly.|
 

@@ -30,7 +30,7 @@ Now Assist Actions Genius Results display actionable answers showing Catalog Ite
 -   **[Configure AI Search as the source for Ask Now Assist suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/configure-ai-search-source-ask-now-assist-suggestions.md)**  
 Enable term highlighting in enhanced chat's Ask Now Assist suggestions by configuring AI Search as the source for those suggestions.
 -   **[Hybrid search in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/hybrid-search-ais.md)**  
-In hybrid search mode, AI Search blends keyword search and semantic vector search to find knowledge articles, Catalog Items, external content items, and topics that best match the terms and meaning of your search.
+In hybrid search mode, AI Search blends keyword search and semantic vector search to find results that best match the terms and meaning of your search.
 
 **Parent Topic:**[Now Assist in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/now-assist-ais.md)
 

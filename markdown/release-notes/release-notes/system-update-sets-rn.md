@@ -17,7 +17,7 @@ The ServiceNow® System Update Sets application enables administrators to group 
 -   Add specific apps/versions as an app installation instruction in an update set.
 -   Actions and subflows are available for update set operations, such as create, complete, retrieve, preview, and commit.
 
-See [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/system-update-sets.md) for more information.
+See  for more information.
 
 ## Changed in this release
 

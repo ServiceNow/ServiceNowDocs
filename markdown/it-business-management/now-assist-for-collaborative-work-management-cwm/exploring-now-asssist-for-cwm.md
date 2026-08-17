@@ -1,6 +1,6 @@
 ---
-title: Exploring Now Assist for Collaborative Work Management \(CWM\)
-description: Learn more about the generative AI capabilities of Now Assist for CWM and how they can help you save time and improve efficiency for the actions your team performs within the CWM workspace.
+title: Exploring ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM\)
+description: Learn more about the generative AI capabilities of ServiceNow Otto for CWM. These capabilities can help you save time and improve efficiency for the actions your team performs within the CWM workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/now-assist-for-collaborative-work-management-cwm/exploring-now-asssist-for-cwm.html
 release: yokohama
@@ -12,15 +12,15 @@ reading_time_minutes: 5
 breadcrumb: [Now Assist for CWM, Strategic Portfolio Management]
 ---
 
-# Exploring Now Assist for Collaborative Work Management \(CWM\)
+# Exploring ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM\)
 
-Learn more about the generative AI capabilities of Now Assist for CWM and how they can help you save time and improve efficiency for the actions your team performs within the CWM workspace.
+Learn more about the generative AI capabilities of ServiceNow Otto for CWM. These capabilities can help you save time and improve efficiency for the actions your team performs within the CWM workspace.
 
 ## Skills
 
 -   **[CWM Doc generation and insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-collaborative-work-management-cwm/generate-summarize-and-refine-content-of-docs-with-now-assist.md)**
 
-    Generate content with Now Assist for CWM directly in your Docs using custom prompts. In addition, summarize existing sections, elaborate where needed, and refine drafts to help improve your productivity.
+    Generate content with ServiceNow Otto for CWM directly in your Docs using custom prompts. In addition, summarize existing sections, elaborate where needed, and refine drafts to help improve your productivity.
 
     You can interact with Now Assist directly in your Doc to create new content, add context, or improve existing sections. This helps you draft faster, refine ideas, and keep your work relevant without leaving the page.
 
@@ -49,7 +49,7 @@ Learn more about the generative AI capabilities of Now Assist for CWM and how th
         2.  `Write a 3-paragraph blog post explaining why [industry trend] is changing how businesses operate.`
         3.  `Generate an outline for the Instagram campaign tasks for a Hackathon initiative.`
 
-            \[Omitted image "na-blank-page-nacm.png"\] Alt text: Blank CWM Doc page with the Now Assist prompt open in the toolbar, showing the example prompt 'Generate an outline for the Instagram campaign tasks for a Hackathon initiative.'
+            \[Omitted image "na-blank-page-nacm.png"\] Alt text: Blank CWM Doc page with the Now Assist prompt open in the toolbar. The example prompt reads 'Generate an outline for the Instagram campaign tasks for a Hackathon initiative.'
 
     -   **Answer questions in the context of this Doc**
 
@@ -84,11 +84,11 @@ Learn more about the generative AI capabilities of Now Assist for CWM and how th
     -   Remove initial roadblocks to create tasks for a CWM Board.
     -   Save time and increase productivity by automating the task creation process.
 
-You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/exploring-large-language-models.md).
+You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/exploring-large-language-models.md).
 
-## Now Assist Admin console
+## AI Admin Hub console
 
-An administrator can activate and manage Now Assist features and skills for the CWM workspace using the Now Assist Admin console. For more information, see [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configuring-now-assist.md).
+An administrator can activate and manage Now Assist features and skills for the CWM workspace using the AI Admin Hub console. For more information, see [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configuring-now-assist.md).
 
 ## Now Assist panel in CWM workspace
 
@@ -96,9 +96,9 @@ A knowledge worker can use the Now Assist panel in CWM workspace. This conversat
 
 ## What to explore next
 
-To learn more about configuring and using Now Assist for CWM, see:
+To learn more about configuring and using ServiceNow Otto for CWM, see:
 
--   [Configure Now Assist for Collaborative Work Management \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-collaborative-work-management-cwm/configure-now-assist-for-collaborative-work-management.md)
+-   [Configure ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-collaborative-work-management-cwm/configure-now-assist-for-collaborative-work-management.md)
 -   [Generate tasks from Docs in Collaborative Work Management \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-collaborative-work-management-cwm/generate-tasks-cwm-docs-now-assist.md)
--   [Now Assist for Collaborative Work Management \(CWM\) reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-collaborative-work-management-cwm/now-assist-for-cwm-reference.md)
+-   [ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM\) reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-collaborative-work-management-cwm/now-assist-for-cwm-reference.md)
 

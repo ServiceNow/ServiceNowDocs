@@ -1,6 +1,6 @@
 ---
 title: User retention
-description: User retention reports help you understand if your app meets your users' needs and expectations, and enables you to measure how your optimization efforts impact user retention.Understand how Usage Insights calculates user and action retention.
+description: User retention reports help you understand if your app meets your users' needs and expectations, and enables you to measure how your optimization efforts impact user retention.Understand how User Experience Analytics calculates user and action retention.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/usage-insights/view-retention-analytics.html
 release: yokohama
@@ -9,7 +9,7 @@ classification: usage-insights
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 4
-breadcrumb: [Using Usage Insights, User Experience Analytics, Platform Analytics]
+breadcrumb: [Using User Experience Analytics, User Experience Analytics, Platform Analytics]
 ---
 
 # User retention
@@ -37,7 +37,7 @@ View data such as how many new users you have, how many never returned, and how 
 
 3.  Filter the data.
 
-    The default filters are **Aggregation** \(daily, weekly, or monthly\), **Date Range**, and **Country**. For more information on filters in Usage Insights, see [Filtering pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/filter-user-list.md).
+    The default filters are **Aggregation** \(daily, weekly, or monthly\), **Date Range**, and **Country**. For more information on filters in User Experience Analytics, see [Filtering pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/filter-user-list.md).
 
     |KPI|Description|
     |---|-----------|
@@ -55,7 +55,7 @@ View data such as how many new users you have, how many never returned, and how 
 
 ## How retention is calculated
 
-Understand how Usage Insights calculates user and action retention.
+Understand how User Experience Analytics calculates user and action retention.
 
 ### User retention
 

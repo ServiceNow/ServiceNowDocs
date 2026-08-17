@@ -259,7 +259,7 @@ Delete a saved trigger that you no longer need.
 -   **[Delete a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/flow-delete.md)**  
 Delete a flow that you no longer need.
 -   **[Summarize a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/summarize-a-flow.md)**  
-Generate a summary of a flow with Now Assist for Creator.
+Generate a summary of a flow with ServiceNow Otto for Creator.
 -   **[View activated flows for a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/view-activated-flows.md)**  
 View flows with record-based triggers that run on a specific table.
 

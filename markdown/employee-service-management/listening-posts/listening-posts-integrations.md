@@ -18,8 +18,8 @@ Extend Listening Posts capabilities by integrating with other applications.
 
 -   **[Integrating Listening Posts integration with Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/listening-posts/integrate-with-va-lp.md)**  
 Enable an employee to complete a pulse survey from other communication channels such as Virtual Agent, Slack, Microsoft Teams, and chat web client in Employee Center.
--   **[Integrating Listening Posts with Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/listening-posts/lp-apps.md)**  
-Listening Posts integration with Usage Insights provides an interpretation of an employee's journey on the Listening Posts survey widgets. It provides an implicit insight on employee's behavior and their response to pulse surveys.
+-   **[Integrating Listening Posts with User Experience Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/listening-posts/lp-apps.md)**  
+Listening Posts integration with User Experience Analytics provides an interpretation of an employee's journey on the Listening Posts survey widgets. It provides an implicit insight on employee's behavior and their response to pulse surveys.
 -   **[Integrating Listening Posts with Journey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/listening-posts/integrating-li-jny.md)**  
 Use Listening Posts with Journey designer to embed pulse surveys to get insight into employees' experiences and share those insights with managers.
 

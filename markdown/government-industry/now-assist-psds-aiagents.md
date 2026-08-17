@@ -7,7 +7,7 @@ release: yokohama
 topic_type: concept
 last_updated: "2025-11-06"
 reading_time_minutes: 1
-breadcrumb: [Using agentic AI, Now Assist for PSDS, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Using agentic AI, ServiceNow Otto for PSDS, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Standalone AI Agents in Public Sector Digital Services
@@ -16,7 +16,7 @@ Use standalone agents to achieve specific automated outcomes with the Public Sec
 
 **Important:** In the **Define availability** screen for the AI agent, make sure that the **Status** field is enabled to activate the AI agent.
 
-The following table describes the available AI agents in the Now Assist for Public Sector Digital Services \(PSDS\) application.
+The following table describes the available AI agents in the ServiceNow Otto for Public Sector Digital Services \(PSDS\) application.
 
 <table id="table_hzb_sd4_cfc"><thead><tr><th>
 
@@ -45,7 +45,7 @@ There may be AI agents installed with the Now Assist application that are not us
 
 **Note:**
 
-You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/exploring-large-language-models.md).
+You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/exploring-large-language-models.md).
 
 Enable security implementation to execute AI agents and agentic workflows through Access Control Lists \(ACLs\) and user identities. ACLs provide the Run As capability to let agents and agentic workflows execute actions either as a dynamic user or as an AI user. For more information, see [Implement access control in Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/aia-security-implementation.md)
 

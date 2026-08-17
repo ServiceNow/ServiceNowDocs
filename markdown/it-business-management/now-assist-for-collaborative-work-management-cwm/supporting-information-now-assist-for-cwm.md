@@ -1,6 +1,6 @@
 ---
-title: Supporting information for Now Assist for Collaborative Work Management \(CWM\)
-description: Learn about supported versions, user interfaces, and application dependencies of Now Assist for CWM.
+title: Supporting information for ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM\)
+description: Learn about supported versions, user interfaces, and application dependencies of ServiceNow Otto for CWM.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/now-assist-for-collaborative-work-management-cwm/supporting-information-now-assist-for-cwm.html
 release: yokohama
@@ -12,24 +12,24 @@ reading_time_minutes: 1
 breadcrumb: [Explore, Now Assist for CWM, Strategic Portfolio Management]
 ---
 
-# Supporting information for Now Assist for Collaborative Work Management \(CWM\)
+# Supporting information for ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM\)
 
-Learn about supported versions, user interfaces, and application dependencies of Now Assist for CWM.
+Learn about supported versions, user interfaces, and application dependencies of ServiceNow Otto for CWM.
 
 ## Compatible versions
 
-The Now Assist for CWM application is compatible with Yokohama Patch 3 release and later.
+The ServiceNow Otto for CWM application is compatible with Yokohama Patch 3 release and later.
 
 ## Supported user interfaces
 
-The Now Assist for CWM application is supported for Collaborative Work Management version 6.0.0 and later.
+The ServiceNow Otto for CWM application is supported for Collaborative Work Management version 6.0.0 and later.
 
 ## Application information
 
-Installing the latest Now Assist for Collaborative Work Management \(CWM\) store app \(sn\_cwm\_ai\) also installs Now Assist for Platform \(sn\_genai\_platform\).
+Installing the latest ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM\) store app \(sn\_cwm\_ai\) also installs Now Assist for Platform \(sn\_genai\_platform\).
 
 **Related topics**  
 
 
-[Configure Now Assist for Collaborative Work Management \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-collaborative-work-management-cwm/configure-now-assist-for-collaborative-work-management.md)
+[Configure ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-collaborative-work-management-cwm/configure-now-assist-for-collaborative-work-management.md)
 

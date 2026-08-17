@@ -60,15 +60,15 @@ Role required: sn\_cm\_core.contract\_config and canvas\_user
 
 7.  In the **Table display configuration** section, set the display properties to define how the data appears within the table in the contract document and then select **Next**.
 
-<table id="choicetable_cv4_gdw_bcc"><thead><tr><th align="left" id="d500703e287">
+<table id="choicetable_cv4_gdw_bcc"><thead><tr><th align="left" id="d500047e287">
 
 Field
 
-</th><th align="left" id="d500703e290">
+</th><th align="left" id="d500047e290">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d500703e296">
+</th></tr></thead><tbody><tr><td id="d500047e296">
 
 **Sort by**
 
@@ -76,7 +76,7 @@ Description
 
 The criteria by which to sort the data.
 
-</td></tr><tr><td id="d500703e305">
+</td></tr><tr><td id="d500047e305">
 
 **Sorting order**
 
@@ -84,7 +84,7 @@ The criteria by which to sort the data.
 
 Sorts the data either in ascending or descending order.
 
-</td></tr><tr><td id="d500703e314">
+</td></tr><tr><td id="d500047e314">
 
 **Enable hierarchy**
 
@@ -92,7 +92,7 @@ Sorts the data either in ascending or descending order.
 
 Option to group the data based on parent-child relationships.
 
-</td></tr><tr><td id="d500703e323">
+</td></tr><tr><td id="d500047e323">
 
 **Parent field**
 
@@ -100,7 +100,7 @@ Option to group the data based on parent-child relationships.
 
 The parent field for the hierarchy view.This field appears only when **Enable hierarchy** has been selected.
 
-</td></tr><tr><td id="d500703e338">
+</td></tr><tr><td id="d500047e338">
 
 **Hierarchy column\(s\)**
 
@@ -108,7 +108,7 @@ The parent field for the hierarchy view.This field appears only when **Enable hi
 
 The columns for which data should be displayed in the hierarchy view.This field appears only when **Enable hierarchy** has been selected.
 
-</td></tr><tr><td id="d500703e352">
+</td></tr><tr><td id="d500047e352">
 
 **Row indentation**
 

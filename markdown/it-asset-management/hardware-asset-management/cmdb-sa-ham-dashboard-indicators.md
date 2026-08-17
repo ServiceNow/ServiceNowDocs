@@ -7,8 +7,9 @@ release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: reference
-last_updated: "2025-08-12"
-reading_time_minutes: 3
+last_updated: "2026-07-23"
+reading_time_minutes: 4
+keywords: [HAM advisor dashboard indicators, hardware CI normalization status, assets missing CI, CI install status vs asset state mismatch, hardware asset data quality indicators]
 breadcrumb: [Use HAM advisor, Asset and CI management, Exploring Hardware Asset Management, Hardware Asset Management, IT Asset Management]
 ---
 
@@ -26,6 +27,10 @@ Indicators enable viewing of high-level metrics that highlight data quality, com
 
     Total number of hardware assets in the Hardware \[alm\_hardware\] table missing a linked CI from the Hardware \[cmdb\_ci\_hardware\] class, measured daily, where the CI is operational, the asset is actively in use, and no CI is linked to the asset.
 
+-   **CIs by normalization status**
+
+    Total number of CI records from the Hardware \[cmdb\_ci\_hardware\] class, measured daily and grouped by model category and HAM normalization status, based on the Normalized status field on the associated hardware product model.
+
 -   **CI install status vs. asset state matched**
 
     All CI records from the Hardware \[cmdb\_ci\_hardware\] class where the installation status correctly aligns with the expected asset state, promoting accurate and reliable asset management.
@@ -36,11 +41,11 @@ Indicators enable viewing of high-level metrics that highlight data quality, com
 
 -   **CI lifecycle stage vs. asset lifecycle stage matched**
 
-    All CI records from the Hardware \[cmdb\_ci\_hardware\] class with a life cycle stage matched between the CI and its linked asset. This indicator is supported only on instances where the CSDM plugin \(com.snc.cmdb.csdm.activation\) is installed and migrated to life cycle stage.
+    All CI records from the Hardware \[cmdb\_ci\_hardware\] class with a life cycle stage matched between the CI and its linked asset. This indicator is supported only on instances where the CSDM Activation plugin \(com.snc.cmdb.csdm.activation\) is installed and migrated to life cycle stage.
 
 -   **CI lifecycle stage vs. asset lifecycle stage mismatched**
 
-    All CI records from the Hardware \[cmdb\_ci\_hardware\] class with a life cycle stage mismatch between the CI and its linked asset. This indicator is supported only on instances where the CSDM plugin \(com.snc.cmdb.csdm.activation\) is installed and migrated to life cycle stage.
+    All CI records from the Hardware \[cmdb\_ci\_hardware\] class with a life cycle stage mismatch between the CI and its linked asset. This indicator is supported only on instances where the CSDM Activation plugin \(com.snc.cmdb.csdm.activation\) is installed and migrated to life cycle stage.
 
 -   **CIs missing asset**
 
@@ -74,10 +79,6 @@ Indicators enable viewing of high-level metrics that highlight data quality, com
 
     Total number of CI records from the Hardware \[cmdb\_ci\_hardware\] class missing a model number, measured daily, where the CI is not associated with a model ID, or is associated with a model ID that is missing a model number.
 
--   **CIs missing owner**
-
-    Total number of CI records from the Hardware \[cmdb\_ci\_hardware\] class missing an owner, measured daily, where the CI doesn’t have an owner assigned.
-
 -   **CIs missing serial number**
 
     Total number of CI records from the Hardware \[cmdb\_ci\_hardware\] class missing a serial number, measured daily, where the CI doesn’t have a serial number assigned.
@@ -101,6 +102,10 @@ Indicators enable viewing of high-level metrics that highlight data quality, com
 -   **CIs not updated in last 90 days**
 
     Total number of CI records from the Hardware \[cmdb\_ci\_hardware\] class not updated in the last 90 days, measured daily, where the update timestamp is older than 90 days.
+
+-   **Duplicate CIs**
+
+    Total number of CI records from the Hardware \[cmdb\_ci\_hardware\] class identified as duplicates, measured daily, based on the results of the HAM duplicate CI audit process.
 
 -   **Hardware CIs group by**
 

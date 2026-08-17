@@ -9,7 +9,7 @@ classification: service-reliability-management
 topic_type: task
 last_updated: "2025-03-13"
 reading_time_minutes: 1
-breadcrumb: [Configuring ITOM Mobile Agent, ITOM Mobile Agent, Service Reliability Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Configuring ITOM Mobile Agent, ITOM Mobile Agent, Service Reliability Management, ITOM Health, IT Operations Management]
 ---
 
 # Download the ServiceNow Agent app

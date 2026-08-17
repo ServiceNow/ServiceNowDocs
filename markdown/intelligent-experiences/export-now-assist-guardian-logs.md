@@ -1,6 +1,6 @@
 ---
-title: Export Now Assist Guardian logs
-description: Export logs from Now Assist Guardian to get insights into how often different guardrails are being detected and used.
+title: Export AI Guardian logs
+description: Export logs from AI Guardian to get insights into how often different guardrails are being detected and used.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/export-now-assist-guardian-logs.html
 release: yokohama
@@ -11,9 +11,9 @@ keywords: [Export, Now Assist Guardian, logs, Gen AI, Generative AI, admin, offe
 breadcrumb: [Configure general Now Assist settings, Configuring Now Assist settings and features, Now Assist, Enable AI experiences]
 ---
 
-# Export Now Assist Guardian logs
+# Export AI Guardian logs
 
-Export logs from Now Assist Guardian to get insights into how often different guardrails are being detected and used.
+Export logs from AI Guardian to get insights into how often different guardrails are being detected and used.
 
 ## Before you begin
 
@@ -21,7 +21,7 @@ Role required: sn\_generative\_ai.nsa\_admin
 
 ## About this task
 
-Now Assist Guardian logs all three types of guardrails available. Reviewing the logs can help you determine how often offensive content is generated, prompt injection attack attempts occur, or sensitive topics are detected.
+AI Guardian logs all three types of guardrails available. Reviewing the logs can help you determine how often offensive content is generated, prompt injection attack attempts occur, or sensitive topics are detected.
 
 See [Now Assist Guardian](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-guardian.md) for more information.
 

@@ -1,6 +1,6 @@
 ---
-title: Use Now Assist for Accounts Payable Operations \(APO\) in a Virtual Agent chat
-description: Use the conversational interface of Now Assist for Accounts Payable Operations \(APO\) to request contextually relevant generative AI capabilities through a Virtual Agent chat.
+title: Use ServiceNow Otto for Accounts Payable Operations \(APO\) in a Virtual Agent chat
+description: Use the conversational interface of ServiceNow Otto for Accounts Payable Operations \(APO\) to request contextually relevant generative AI capabilities through a Virtual Agent chat.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/accounts-payable-operations/now-assist-apo-va.html
 release: yokohama
@@ -10,12 +10,12 @@ topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 3
 keywords: [generative AI, gen AI, genai, artificial intelligence]
-breadcrumb: [Using Now Assist for Accounts Payable Operations \(APO\), Now Assist for Accounts Payable Operations \(APO\), Accounts Payable Operations, Finance and Supply Chain]
+breadcrumb: [Using ServiceNow Otto for Accounts Payable Operations \(APO\), ServiceNow Otto for Accounts Payable Operations \(APO\), Accounts Payable Operations, Finance and Supply Chain]
 ---
 
-# Use Now Assist for Accounts Payable Operations \(APO\) in a Virtual Agent chat
+# Use ServiceNow Otto for Accounts Payable Operations \(APO\) in a Virtual Agent chat
 
-Use the conversational interface of Now Assist for Accounts Payable Operations \(APO\) to request contextually relevant generative AI capabilities through a Virtual Agent chat.
+Use the conversational interface of ServiceNow Otto for Accounts Payable Operations \(APO\) to request contextually relevant generative AI capabilities through a Virtual Agent chat.
 
 As a fulfiller, you can use the predefined topics \(chatbot conversations\) that are designed to help you complete self-service tasks. You can submit a request, track a request status, or connect to a live agent by using contextual generative AI capabilities.
 
@@ -55,16 +55,16 @@ Now Assist in Virtual Agent provides your users with an interactive generative A
 
 As an administrator, you can use the Now Assist in Virtual Agent Analytics dashboard to monitor the performance of Now Assist in Virtual Agent as a self-service deflection tool. To learn more, see . Now Assist in Virtual Agent Analytics calculates the conversation deflection rate based on the resolution status associated with Now Assist query responses. For more information, see .
 
-For detailed information on Now Assist in Virtual Agent in general, and Now Assist for APO in particular, see [Exploring Now Assist for Accounts Payable Operations \(APO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/accounts-payable-operations/exploring-now-assist-apo.md).
+For detailed information on Now Assist in Virtual Agent in general, and ServiceNow Otto for APO in particular, see [Exploring ServiceNow Otto for Accounts Payable Operations \(APO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/accounts-payable-operations/exploring-now-assist-apo.md).
 
-For information on configuring Now Assist for APO, see [Configure Now Assist for Accounts Payable Operations \(APO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/accounts-payable-operations/configuring-now-assist-apo.md).
+For information on configuring ServiceNow Otto for APO, see [Configure ServiceNow Otto for Accounts Payable Operations \(APO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/accounts-payable-operations/configuring-now-assist-apo.md).
 
-**Parent Topic:**[Using Now Assist for Accounts Payable Operations \(APO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/accounts-payable-operations/using-now-assist-apo.md)
+**Parent Topic:**[Using ServiceNow Otto for Accounts Payable Operations \(APO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/accounts-payable-operations/using-now-assist-apo.md)
 
 **Related topics**  
 
 
-[Summarize a record by using Now Assist for Accounts Payable Operations \(APO\)]()
+[Summarize a record by using ServiceNow Otto for Accounts Payable Operations \(APO\)]()
 
 [Use Invoice inquiry solution generator skill]()
 

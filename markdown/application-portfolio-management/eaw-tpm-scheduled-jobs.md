@@ -1,20 +1,20 @@
 ---
-title: Scheduled jobs for TPM in the EA Workspace
-description: Several types of scheduled jobs are added for Technology Portfolio Management.
+title: Scheduled jobs for TLM in the EA Workspace
+description: Several types of scheduled jobs are added for Technology Lifecycle Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-tpm-scheduled-jobs.html
 release: yokohama
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Activate the Technology Portfolio Management \(TPM\) plugin, Managing the Technology Portfolio Management \(TPM\) in Enterprise Architecture Workspace, Technology Portfolio view, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Activate the Technology Lifecycle Management \(TLM\) plugin, Managing the Technology Lifecycle Management \(TLM\) in Enterprise Architecture Workspace, Technology Portfolio view, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
-# Scheduled jobs for TPM in the EA Workspace
+# Scheduled jobs for TLM in the EA Workspace
 
-Several types of scheduled jobs are added for Technology Portfolio Management.
+Several types of scheduled jobs are added for Technology Lifecycle Management.
 
-The following is the list of scheduled jobs for Technology Portfolio Management \(TPM\) in EA Workspace:
+The following is the list of scheduled jobs for Technology Lifecycle Management \(TLM\) in EA Workspace:
 
 <table id="table_cqf_13p_k1c"><thead><tr><th>
 
@@ -49,7 +49,7 @@ Populate TRM technical debts in the EA Workspace
 Updates the Technical Debt \[sn\_apm\_trm\_standards\_technical\_debt\] table with the latest technical debt data for your software products that is available in the TPM Discovered Technology \[sn\_apm\_tpm\_discovered\_technology\] table.**Note:** The Populate TRM technical debts in the EA Workspace scheduled job will be available only the Software Asset Management \(SAM\) Foundation or Software Asset Management \(SAM\) Professional plugin is installed.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Activate the Technology Portfolio Management \(TPM\) plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-install-tpm.md)
+</table>**Parent Topic:**[Activate the Technology Lifecycle Management \(TLM\) plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-install-tpm.md)
 
 **Related topics**  
 

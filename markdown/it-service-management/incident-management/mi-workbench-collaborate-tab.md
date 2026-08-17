@@ -49,7 +49,7 @@ For information on how to add a collaborative communication task, see [Add a col
 
 [Major Incident workbench — Summary tab]()
 
-[Major Incident workbench — the Post Incident Report tab]()
+[Post Incident Report tab]()
 
 [The Communicate tab in the Major Incident workbench]()
 

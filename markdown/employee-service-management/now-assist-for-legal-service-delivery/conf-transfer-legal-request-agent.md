@@ -1,6 +1,6 @@
 ---
 title: Configuring the Triage legal requests agentic workflow
-description: You can configure the Triage legal requests agentic workflow in the Now Assist for Legal Service Delivery \(LSD\) application to analyze the general legal requests, predict the appropriate legal category, and initiate a transfer when a legal fulfiller or group manager confirms the request.
+description: You can configure the Triage legal requests agentic workflow in the ServiceNow Otto for Legal Service Delivery \(LSD\) application to analyze the general legal requests, predict the appropriate legal category, and initiate a transfer when a legal fulfiller or group manager confirms the request.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/now-assist-for-legal-service-delivery/conf-transfer-legal-request-agent.html
 release: yokohama
@@ -10,16 +10,16 @@ topic_type: concept
 last_updated: "2025-04-04"
 reading_time_minutes: 2
 keywords: [Now Assist, generative AI, Configure AI Agents]
-breadcrumb: [Agentic workflow, Now Assist for Legal Service Delivery \(LSD\), Legal Service Delivery, Employee Service Management]
+breadcrumb: [Agentic workflow, ServiceNow Otto for Legal Service Delivery \(LSD\), Legal Service Delivery, Employee Service Management]
 ---
 
 # Configuring the Triage legal requests agentic workflow
 
-You can configure the Triage legal requests agentic workflow in the Now Assist for Legal Service Delivery \(LSD\) application to analyze the general legal requests, predict the appropriate legal category, and initiate a transfer when a legal fulfiller or group manager confirms the request.
+You can configure the Triage legal requests agentic workflow in the ServiceNow Otto for Legal Service Delivery \(LSD\) application to analyze the general legal requests, predict the appropriate legal category, and initiate a transfer when a legal fulfiller or group manager confirms the request.
 
 You must complete the following tasks to activate and use the Triage legal requests agentic workflow:
 
-1.  Install the Now Assist for Legal Service Delivery \(LSD\) plugin \(sn\_lg\_gen\_ai\).
+1.  Install the ServiceNow Otto for Legal Service Delivery \(LSD\) plugin \(sn\_lg\_gen\_ai\).
 2.  Ensure the Now Assist panel is turned on. For more information, see [Activate Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/activate-now-assist-panel.md).
 3.  Ensure the **Now Assist Panel - Platform \(default\)** assistant in the CI Admin Experience is turned on. For more information, see [Manage LLM virtual agents on the Assistants screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/manage-llm-va.md).
 4.  Configure AI Search. For more information, see [Configuring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/configuring-ais.md).
@@ -37,9 +37,9 @@ You can access the Now Assist panel by navigating to **All** &gt; **Now Assist A
 The skills are available in an active state in the base system and should not be modified.
 
 -   **[Activate the business rule for the Triage legal requests agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-legal-service-delivery/lsd-agentic-config-BR.md)**  
-Activate the business rules for the Triage legal requests agentic workflow in the Now Assist for Legal Service Delivery \(LSD\) application.
+Activate the business rules for the Triage legal requests agentic workflow in the ServiceNow Otto for Legal Service Delivery \(LSD\) application.
 -   **[Add legal request tables for data indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-legal-service-delivery/add-tables-legal-requests.md)**  
-Add the legal request tables to be considered for data indexing for AI Search in the Now Assist for Legal Service Delivery \(LSD\) application. The legal request tables are indexed so that you can get relevant AI Search results for the legal records.
+Add the legal request tables to be considered for data indexing for AI Search in the ServiceNow Otto for Legal Service Delivery \(LSD\) application. The legal request tables are indexed so that you can get relevant AI Search results for the legal records.
 
-**Parent Topic:**[Using agentic workflow in Now Assist for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-legal-service-delivery/agentic-ai-now-assist-lsd.md)
+**Parent Topic:**[Using agentic workflow in ServiceNow Otto for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-legal-service-delivery/agentic-ai-now-assist-lsd.md)
 

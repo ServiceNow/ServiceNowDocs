@@ -8,7 +8,7 @@ product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
 last_updated: "2025-01-30"
-reading_time_minutes: 30
+reading_time_minutes: 28
 keywords: [Amazon, AWS, Cloud, Patterns, Discovery]
 breadcrumb: [Available discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
@@ -19,7 +19,7 @@ Discovery and Service Mapping Patterns uses patterns to discover components of t
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Prerequisites
 
@@ -158,39 +158,6 @@ Datacenters that have already been discovered before upgrading to Discovery and 
 \[Omitted image "aws-datacenter-model-flow.png"\] Alt text: Comparing MID Server property settings and discovered datacenters in schedule and refresh datacenter flows
 
 ## Data collected by Discovery during horizontal discovery
-
--   **Resources discovered using the Amazon AWS - ACL \(LP\) pattern**
-
-    |Field|Description|
-    |-----|-----------|
-    |Name \[name\]|Name of the network access control list \(ACL\).|
-    |Object ID \[object\_id\]|Unique identifier, allocated by Amazon AWS Cloud for this resource.|
-
-    |Field|Description|
-    |-----|-----------|
-    |Name \[name\]|Name of the endpoint.|
-    |Object ID \[object\_id\]|Unique identifier, allocated by Amazon AWS Cloud for this resource.|
-
--   **Resources discovered using the Amazon AWS - Application and Network LB \(LP\) pattern**
-
-    |Field|Description|
-    |-----|-----------|
-    |Name \[name\]|Name of the load balancer.|
-    |Fully Qualified Domain Name \[fqdn\]|IP address of the fully qualified domain name of the load balancer.|
-    |Object ID \[object\_id\]|The Amazon Resource Name \(ARN\) of the load balancer.|
-    |DNS Name \[dns\_name\]|The public DNS name of the load balancer.|
-    |Canonical Hosted Zone Name \[canonical\_hosted\_zone\_name\]|The name of the Amazon Route 53 hosted zone associated with the load balancer.|
-    |Canonical Hosted Zone ID \[canonical\_hosted\_zone\_id\]|The ID of the Amazon Route 53 hosted zone associated with the load balancer.|
-    |State \[state\]|The state of the load balancer.|
-    |Short Description \[short\_description\]|A concatenation of the series of attributes for the load balancers like LB ARN, VPC ID, Type, and Zone.|
-    |Comments \[comments\]|Identifier for internal usage \(deletion strategy\).|
-
-    |Field|Description|
-    |-----|-----------|
-    |Name \[name\]|Name of the Domain Name System \(DNS\).|
-    |Object ID \[object\_id\]|Name of the DNS.|
-    |IP Address \[ip\_address\]|IP address of the DNS.|
-    |Comments \[comments\]|Identifier for internal usage \(deletion strategy\).|
 
 -   **Resources discovered using the Amazon AWS - Availability Zone \(LP\) pattern**
 
@@ -722,25 +689,6 @@ Discovery uses patterns to find events created for Amazon AWS Cloud components. 
 ## CI relationships
 
 The AWS patterns create the following relationships and references to support AWS discovery. References link to records in other tables and don't appear in the CI Relationship \[cmdb\_rel\_ci\] table.
-
--   **Relationships discovered using the Amazon AWS - ACL \(LP\) pattern**
-
-    |CI|Relationship|CI|
-    |---|------------|---|
-    |Network \[cmdb\_ci\_network\]|Contains::Contained by|Network ACL \[cmdb\_ci\_network\_acl\]|
-    |Network ACL \[cmdb\_ci\_network\_acl\]|Hosted on::Hosts|AWS Datacenter \[cmdb\_ci\_aws\_datacenter\]|
-    |Network ACL \[cmdb\_ci\_network\_acl\]|Implement End Point To::Implement End Point From|Network ACL \[cmdb\_ci\_endpoint\_acl\]|
-    |Cloud Subnet \[cmdb\_ci\_cloud\_subnet\]|Use End Point To::Use End Point From|Network ACL \[cmdb\_ci\_endpoint\_acl\]|
-
--   **Relationships discovered using the Amazon AWS - Application and Network \(LP\) pattern**
-
-    |CI|Relationship|CI|
-    |---|------------|---|
-    |Cloud Subnet \[cmdb\_ci\_cloud\_subnet\]|Contains::Contained by|Cloud Load Balancer \[cmdb\_ci\_cloud\_load\_balancer\]|
-    |Availability Zone \[cmdb\_ci\_availability\_zone\]|Contains::Contained by|Cloud Load Balancer \[cmdb\_ci\_cloud\_load\_balancer\]|
-    |Cloud Load Balancer \[cmdb\_ci\_cloud\_load\_balancer\]|Hosted on::Hosts|AWS Datacenter \[cmdb\_ci\_aws\_datacenter\]|
-    |Cloud Load Balancer \[cmdb\_ci\_cloud\_load\_balancer\]|Contains::Contained by|DNS Name \[cmdb\_ci\_dns\_name\]|
-    |Cloud Load Balancer \[cmdb\_ci\_cloud\_load\_balancer\]|Contains::Contained by|Compute Security Group \[cmdb\_ci\_compute\_security\_group\]|
 
 -   **Relationships discovered using the Amazon AWS - Availability Zone \(LP\) pattern**
 

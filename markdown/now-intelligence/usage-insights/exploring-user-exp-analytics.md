@@ -1,6 +1,6 @@
 ---
-title: Exploring Usage Insights
-description: The ServiceNow Usage Insights application enables you to monitor how users interact with your ServiceNow Core UI, Next Experience, Mobile, and Service Portal applications, allowing product managers and applications owners to gain insight into usage and adoption.
+title: Exploring User Experience Analytics
+description: The ServiceNow User Experience Analytics application enables you to monitor how users interact with your ServiceNow Core UI, Next Experience, Mobile, and Service Portal applications, allowing product managers and applications owners to gain insight into usage and adoption.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/usage-insights/exploring-user-exp-analytics.html
 release: yokohama
@@ -12,11 +12,11 @@ reading_time_minutes: 3
 breadcrumb: [User Experience Analytics, Platform Analytics]
 ---
 
-# Exploring Usage Insights
+# Exploring User Experience Analytics
 
-The ServiceNow® Usage Insights application enables you to monitor how users interact with your ServiceNow Core UI, Next Experience, Mobile, and Service Portal applications, allowing product managers and applications owners to gain insight into usage and adoption.
+The ServiceNow® User Experience Analytics application enables you to monitor how users interact with your ServiceNow Core UI, Next Experience, Mobile, and Service Portal applications, allowing product managers and applications owners to gain insight into usage and adoption.
 
-## Usage Insights features
+## User Experience Analytics features
 
 |Feature|Benefit|
 |-------|-------|
@@ -26,10 +26,10 @@ The ServiceNow® Usage Insights application enables you to monitor how users int
 |User, Session, Event, and Page analysis|[Users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/viewing-user-data.md), [Sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/viewing-sessions.md), [Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/view-events.md) \(user interactions\), and [Pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/view-pages.md) are foundational data elements that can be used to isolate users' behavior and gain deeper insights to help you make better product and implementation decisions.|
 |Customizable user consent management|[User privacy, tracking, and consent management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/user-exp-analytics-track-options.md) allows you to configure analytics tracking preferences across all applications and customize consent policies by location to comply with local law and company policies.|
 
--   **[Navigating the Usage Insights application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/user-exp-analytics-dashboard.md)**  
-Understand how to navigate the Usage Insights application, including the **All Applications** and individual application views.
--   **[View Usage Insights data in custom data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/install-user-exp-analytics-par-integration.md)**  
-You can graphically represent Usage Insights data in your custom Next Experience pages and inline dashboards once you install the Usage Insights Performance Analytics Integration  plugin from the  ServiceNow Store.
+-   **[Navigating the User Experience Analytics application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/user-exp-analytics-dashboard.md)**  
+Understand how to navigate the User Experience Analytics application, including the **All Applications** and individual application views.
+-   **[View User Experience Analytics data in custom data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/install-user-exp-analytics-par-integration.md)**  
+You can graphically represent User Experience Analytics data in your custom Next Experience pages and inline dashboards once you install the User Experience Analytics Performance Analytics Integration  plugin from the  ServiceNow Store.
 
 **Parent Topic:**[User Experience Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/user-exp-analytics-landing.md)
 

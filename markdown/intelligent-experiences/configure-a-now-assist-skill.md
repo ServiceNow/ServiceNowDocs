@@ -23,13 +23,13 @@ Role required: sn\_nowassist\_admin.nsa\_admin
 
 Activate the skills that are most relevant to your use cases and business needs. For a full list of available skills, see [Now Assist skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-skills/now-assist-skills.md). After the skills have been activated, they’re accessible across the ServiceNow AI Platform based on the availability and display settings you choose.
 
-Note that the activation procedure discussed in this topic are essentially for out-of-box [Now Assist skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-skills/now-assist-skills.md). The activation process of custom skills in Now Assist Admin console is driven by the approval mandate set in AICT by the AI steward. As Now Assist Admin and AI control tower are integrated, a particular custom skill is blocked or unblocked for activation on Now Assist Admin console based on AICT mandate \(on or off\). The custom skill cannot be activated on Now Assist Admin when the states are 'need review', 'in review' or 'rejected' in AICT.
+Note that the activation procedure discussed in this topic are essentially for out-of-box [Now Assist skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-skills/now-assist-skills.md). The activation process of custom skills in AI Admin Hub console is driven by the approval mandate set in AICT by the AI steward. As AI Admin Hub and AI control tower are integrated, a particular custom skill is blocked or unblocked for activation on AI Admin Hub console based on AICT mandate \(on or off\). The custom skill cannot be activated on AI Admin Hub when the states are 'need review', 'in review' or 'rejected' in AICT.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Now Assist Admin Console** &gt; **Now Assist Skills**.
 
-    If you’re already in the Now Assist Admin console, select the **Now Assist Skills** tab.
+    If you’re already in the AI Admin Hub console, select the **Now Assist Skills** tab.
 
 2.  On the navigation panel, select a workflow, such as **Technology**.
 
@@ -95,9 +95,9 @@ Note that the activation procedure discussed in this topic are essentially for o
 
 Use the Now Assist applications and skills that you've activated.
 
--   **[Configure chat summarization and chat reply recommendation skills in the Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/configure-chat-summarization-in-the-now-assist-admin-console.md)**  
-Define the triggers, inputs, and display location for chat summarization and chat reply recommendation by using the guided setup in the Now Assist Admin console. The activation steps are conceptually same for both the skills.
--   **[Configure email reply recommendation in the Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/configure-email-recommendation.md)**  
+-   **[Configure chat summarization and chat reply recommendation skills in the AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/configure-chat-summarization-in-the-now-assist-admin-console.md)**  
+Define the triggers, inputs, and display location for chat summarization and chat reply recommendation by using the guided setup in the AI Admin Hub console. The activation steps are conceptually same for both the skills.
+-   **[Configure email reply recommendation in the AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/configure-email-recommendation.md)**  
 Configure the email recommendation Now Assist skill to enable agents to draft email replies based on contextual information.
 
 **Parent Topic:**[Configuring Now Assist settings and features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/configuring-na-landing.md)

@@ -9,7 +9,7 @@ classification: now-assist-for-wsd
 topic_type: task
 last_updated: "2025-09-07"
 reading_time_minutes: 2
-breadcrumb: [Configure, Now Assist for Workplace Service Delivery \(WSD\), Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Configure, Now Assist for WSD, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Configure Now Assist in Virtual Agent for Workplace Service Delivery
@@ -18,7 +18,7 @@ Enable your employees to submit a reservation request using a conversational exp
 
 ## About this task
 
-Workplace users can leverage the Now Assist in Virtual Agent by configuring the Now Assist for WSD. Now Assist for Workplace Service Delivery \(WSD\) can be configurted to reserve workplace items, invite visitors, and add extra services. The Now Assist in Virtual Agent application provides conversational experiences for Workplace Service Delivery flows.
+Workplace users can leverage the Now Assist in Virtual Agent by configuring the Now Assist for WSD. Now Assist for WSD can be configured to reserve workplace items, invite visitors, and add extra services. The Now Assist in Virtual Agent application provides conversational experiences for Workplace Service Delivery flows.
 
 For more information about Now Assist in Virtual Agent, see [Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/now-assist-in-va-landing.md).
 
@@ -26,7 +26,7 @@ For more information about Now Assist in Virtual Agent, see [Now Assist in Virtu
 
 Make sure that you have installed the following applications from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home):
 
--   Installing Now Assist for Workplace Service Delivery \(WSD\) activates and installs Now Assist for Platform \(sn\_genai\_platform\)
+-   Installing ServiceNow Otto for Workplace Service Delivery \(WSD\) activates and installs Now Assist for Platform \(sn\_genai\_platform\)
 -   Workplace Reservation Management
 -   Workplace Visitor Management
 
@@ -69,12 +69,12 @@ Role required: admin
 
     **Note:** Selecting the Workplace Service Portal for Now Assist in Virtual Agent replaces the existing NLU experience.
 
--   Use the Virtual Agent to reserve a workplace item, add services, and invite visitors. For more information, see  Using Now Assist in VA to reserve a workplace item .
+-   Use the Virtual Agent to reserve a workplace item, add services, and invite visitors.
 
 **Parent Topic:**[Configuring Now Assist for WSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-wsd/now-assist-wsd-configuring.md)
 
 **Related topics**  
 
 
-[Install Now Assist for Workplace Service Delivery \(WSD\)]()
+[Install Now Assist for WSD]()
 

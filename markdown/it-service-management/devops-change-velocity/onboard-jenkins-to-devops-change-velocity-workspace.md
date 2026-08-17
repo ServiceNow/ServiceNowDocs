@@ -30,15 +30,15 @@ Role required: sn\_devops.admin or sn\_devops.tool\_owner
 
     You can connect a tool from an application if you also know which specific pipelines should be associated and tracked under that application to streamline the setup. This will allow you to easily associate and import data from Jenkins as well.
 
-<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d44059e127">
+<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d44040e127">
 
 Option
 
-</th><th align="left" id="d44059e130">
+</th><th align="left" id="d44040e130">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d44059e136">
+</th></tr></thead><tbody><tr><td id="d44040e136">
 
 **Homepage**
 
@@ -48,7 +48,7 @@ Steps
 2.  From the Connect to a tool modal, select the tool from the appropriate category. For example, if you want to connect to Jenkins as an orchestration tool, you'd select Jenkins under the **Orchestration** category.
 
 
-</td></tr><tr><td id="d44059e166">
+</td></tr><tr><td id="d44040e166">
 
 **Applications module**
 
@@ -60,7 +60,7 @@ Steps
 4.  From the Connect to a tool modal, select the tool from the appropriate category. For example, if you want to connect to Jenkins as an orchestration tool, you'd select Jenkins under the **Orchestration** category.
 
 
-</td></tr><tr><td id="d44059e221">
+</td></tr><tr><td id="d44040e221">
 
 **Tools module**
 

@@ -38,12 +38,6 @@ NowSDK provides the following feature services and associated APIs:
         -   [NowAttachmentService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/NowAttachServiceAndroidInterface.md): This API provides functionality to upload and query file attachments on your ServiceNow instance within your Android application.
         -   [NowGraphQLService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/NowGQLServiceAndroidInterface.md): This API provides functionality that enables you to use GraphQL queries to obtain data from tables within your ServiceNow instance using the ServiceNow REST GraphQL API.
         -   [NowTableService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/NowTableServiceAndroidInterface.md): This API provides functionality that enables you to perform create, read, update, and delete \(CRUD\) operations on existing tables in your ServiceNow instance that get serviced through the ServiceNow REST Table API.
--   NowAnalytics
-
-    Enables you to gather and track usage analytics within your mobile applications.
-
-    -   Primary APIs:
-        -   [NowAnalytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/NowAnalyticsAndroidInterface.md): This API provides functionality to gather user analytics data and store it within the ServiceNow platform for later analysis and tracking.
 -   NowChat
 
     Enables you to embed a native Virtual Agent chat window in your applications. This service includes UI/UX features.

@@ -7,7 +7,7 @@ release: yokohama
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Using ITOM/OT SU Licensing, ITOM/OT SU Licensing and subscriptions, IT Operations Management]
+breadcrumb: [Use, ITOM/OT SU Licensing and subscriptions, IT Operations Management]
 ---
 
 # Check CI count used for ITOM subscriptions
@@ -22,7 +22,7 @@ Role required: sn\_itom\_license.reader
 
 ## About this task
 
-ITOM applications, such as ITOM Visibility, ITOM Discovery, ITOM AIOps, Health Log Analytics, ITOM Cloud Accelerate, and ITOM Optimization provide information on the resources they handle. These resources, called configuration items \(CIs\), are what ITOM applications find, monitor, and store in the CMDB. The ITOM/OT SU Licensing module combines this CI data with the subscription information of your organization to produce statistics on the subscription usage and consumption of the ITOM applications. For more information about the licensing workflow process, see [Data collection and aggregation for licensing process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/data-collection-aggregation-licensing-process.md).
+ITOM applications, such as ITOM Visibility, ITOM Discovery, ITOM Health, Health Log Analytics, ITOM Cloud Accelerate, and ITOM Optimization provide information on the resources they handle. These resources, called configuration items \(CIs\), are what ITOM applications find, monitor, and store in the CMDB. The ITOM/OT SU Licensing module combines this CI data with the subscription information of your organization to produce statistics on the subscription usage and consumption of the ITOM applications. For more information about the licensing workflow process, see [Data collection and aggregation for licensing process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/data-collection-aggregation-licensing-process.md).
 
 This information does not include any statistics on subscriptions purchased in bundles. For complete information on subscriptions, [view subscription statistics for IT Operations Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/view-itom-license-statistics.md).
 

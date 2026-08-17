@@ -1,6 +1,6 @@
 ---
 title: Analyze sentiments in supplier cases
-description: Use the Sentiment Analysis skill in Now Assist for Supplier Lifecycle Operations \(SLO\) to analyze a requester's response and determine the sentiment and sentiment trend associated with a supplier case. You can gauge the urgency of a supplier case and prioritize your responses based on the sentiment analysis.
+description: Use the Sentiment Analysis skill in ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) to analyze a requester's response and determine the sentiment and sentiment trend associated with a supplier case. You can gauge the urgency of a supplier case and prioritize your responses based on the sentiment analysis.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/supplier-lifecycle-operations/slo-analyze-sentiments.html
 release: yokohama
@@ -9,12 +9,12 @@ classification: supplier-lifecycle-operations
 topic_type: task
 last_updated: "2026-02-24"
 reading_time_minutes: 1
-breadcrumb: [Use Now Assist for Supplier Lifecycle Operations \(SLO\), Now Assist for Supplier Lifecycle Operations \(SLO\), Supplier Lifecycle Operations, Finance and Supply Chain]
+breadcrumb: [Use ServiceNow Otto for Supplier Lifecycle Operations \(SLO\), ServiceNow Otto for Supplier Lifecycle Operations \(SLO\), Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 
 # Analyze sentiments in supplier cases
 
-Use the Sentiment Analysis skill in Now Assist for Supplier Lifecycle Operations \(SLO\) to analyze a requester's response and determine the sentiment and sentiment trend associated with a supplier case. You can gauge the urgency of a supplier case and prioritize your responses based on the sentiment analysis.
+Use the Sentiment Analysis skill in ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) to analyze a requester's response and determine the sentiment and sentiment trend associated with a supplier case. You can gauge the urgency of a supplier case and prioritize your responses based on the sentiment analysis.
 
 ## Before you begin
 

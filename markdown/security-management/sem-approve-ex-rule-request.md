@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/sem-approve-ex-rule-request.html
 release: yokohama
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 1
 breadcrumb: [Configuring an exception rule, Configure rules to manage findings, Implement, Unified Security Exposure Management, Security Operations]
 ---
@@ -28,7 +28,7 @@ If you are deploying the VR application for the first time, the flow designer fo
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Security Exposure Management Workspace**.
+1.  Navigate to **Workspaces** &gt; **Security Exposure Management**.
 
 2.  Select **Administration** in the navigation pane.
 
@@ -37,5 +37,7 @@ If you are deploying the VR application for the first time, the flow designer fo
 4.  Select a request from your queue.
 
 5.  Approve or reject the request with and explain why you approved or rejected the request.
+
+    You can review the **Impacted findings** metric on the **Overview** tab to see how many findings match the rule's conditions. Select the count to view the matching findings or refresh it to recalculate based on the latest data.
 
 

@@ -1,6 +1,6 @@
 ---
-title: Summarize a chat conversation by using Now Assist for HR Service Delivery \(HRSD\)
-description: Summarize a Virtual Agent chat history in the Now Assist for HR Service Delivery \(HRSD\) application. You can also summarize an interaction when the chat ends. The summary includes all points of the handoff, including the Virtual Agent conversation.
+title: Summarize a chat conversation by using ServiceNow Otto for HR Service Delivery \(HRSD\)
+description: Summarize a Virtual Agent chat history in the ServiceNow Otto for HR Service Delivery \(HRSD\) application. You can also summarize an interaction when the chat ends. The summary includes all points of the handoff, including the Virtual Agent conversation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-chat.html
 release: yokohama
@@ -9,12 +9,12 @@ classification: now-assist-for-hrsd
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 5
-breadcrumb: [Use generative AI skills, Now Assist for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
+breadcrumb: [Use generative AI skills, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
-# Summarize a chat conversation by using Now Assist for HR Service Delivery \(HRSD\)
+# Summarize a chat conversation by using ServiceNow Otto for HR Service Delivery \(HRSD\)
 
-Summarize a Virtual Agent chat history in the Now Assist for HR Service Delivery \(HRSD\) application. You can also summarize an interaction when the chat ends. The summary includes all points of the handoff, including the Virtual Agent conversation.
+Summarize a Virtual Agent chat history in the ServiceNow Otto for HR Service Delivery \(HRSD\) application. You can also summarize an interaction when the chat ends. The summary includes all points of the handoff, including the Virtual Agent conversation.
 
 ## Before you begin
 
@@ -63,30 +63,30 @@ You can make a copy of this skill to configure it to meet your business needs. F
     **Note:** Generative AI doesn’t override an existing short description that is in the HR case template.
 
 
-**Parent Topic:**[Use Now Assist for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/use-now-assist-hr.md)
+**Parent Topic:**[Use ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/use-now-assist-hr.md)
 
 **Related topics**  
 
 
-[Summarize a Sidebar discussion by using Now Assist for HR Service Delivery \(HRSD\)]()
+[Summarize a Sidebar discussion by using ServiceNow Otto for HR Service Delivery \(HRSD\)]()
 
-[Generate a chat reply recommendation by using Now Assist for HR Service Delivery \(HRSD\)]()
+[Generate a chat reply recommendation by using ServiceNow Otto for HR Service Delivery \(HRSD\)]()
 
 [Generate a knowledge article from HR Agent Workspace with Now Assist]()
 
 [Generate a knowledge article from multiple cases]()
 
-[Generate an email reply recommendation by using Now Assist for HR Service Delivery \(HRSD\)]()
+[Generate an email reply recommendation by using ServiceNow Otto for HR Service Delivery \(HRSD\)]()
 
-[Summarize an HR case using Now Assist for HRSD]()
+[Summarize an HR case using ServiceNow Otto for HRSD]()
 
-[Generate resolution notes using Now Assist for HRSD]()
+[Generate resolution notes using ServiceNow Otto for HRSD]()
 
 [View employee summary reports]()
 
 [Summarize actions while transferring an HR case]()
 
-[Use Knowledge Graph in Now Assist for HRSD]()
+[Use Knowledge Graph in ServiceNow Otto for HRSD]()
 
 [Use Galileo Inside to answer HR-related questions]()
 
@@ -94,9 +94,9 @@ You can make a copy of this skill to configure it to meet your business needs. F
 
 [Submit an HR request with Gen AI Virtual Agent]()
 
-[Now Assist for HR Service Delivery \(HRSD\) integration with Enterprise Service Management Integrations Framework]()
+[ServiceNow Otto for HR Service Delivery \(HRSD\) integration with Enterprise Service Management Integrations Framework]()
 
-[Detect sensitive topics by using sensitivity detection in Now Assist for HR Service Delivery \(HRSD\)]()
+[Detect sensitive topics by using sensitivity detection in ServiceNow Otto for HR Service Delivery \(HRSD\)]()
 
-[Analyze sentiments in Now Assist for HR Service Delivery \(HRSD\)]()
+[Analyze sentiments in ServiceNow Otto for HR Service Delivery \(HRSD\)]()
 

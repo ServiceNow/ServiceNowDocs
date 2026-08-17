@@ -1,5 +1,5 @@
 ---
-title: Now Assist for HRSD Virtual Agent topics
+title: ServiceNow Otto for HRSD Virtual Agent topics
 description: Use the Now Assist Virtual Agent topics in Employee Center to place requests to the configured HCM system, for example, view details of your time-off balance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/now-assist-for-hrsd/now-assist-ohcm.html
@@ -9,10 +9,10 @@ classification: now-assist-for-hrsd
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 3
-breadcrumb: [Now Assist for HR Service Delivery \(HRSD\) integration with Enterprise Service Management Integrations Framework, Use generative AI skills, Now Assist for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
+breadcrumb: [ServiceNow Otto for HR Service Delivery \(HRSD\) integration with Enterprise Service Management Integrations Framework, Use generative AI skills, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
-# Now Assist for HRSD Virtual Agent topics
+# ServiceNow Otto for HRSD Virtual Agent topics
 
 Use the Now Assist Virtual Agent topics in Employee Center to place requests to the configured HCM system, for example, view details of your time-off balance.
 
@@ -106,5 +106,5 @@ You can update personal details in Virtual Agent using one of the following topi
 -   Update Email Address
 -   Update Phone Number
 
-**Parent Topic:**[Now Assist for HR Service Delivery \(HRSD\) integration with Enterprise Service Management Integrations Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/integ-now-assist-hrsd.md)
+**Parent Topic:**[ServiceNow Otto for HR Service Delivery \(HRSD\) integration with Enterprise Service Management Integrations Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/integ-now-assist-hrsd.md)
 

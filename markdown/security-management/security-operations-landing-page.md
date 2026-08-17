@@ -25,7 +25,7 @@ Choose one of these tiles to get started.
 
 </td><td>
 
-[Now Assist for Vulnerability Response\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Learn how Now Assist for Vulnerability Response supports ServiceNow® Generative AI \(GenAI\) skills in the Vulnerability Response Workspace and in the Core UI \(UI16\).](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/now-assist-for-vulnerability-response-vr/now-assist-for-vulnerability-response-landing.md)
+[Now Assist for Vulnerability Response\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Learn how ServiceNow Otto for Unified Security Exposure Management supports ServiceNow® Generative AI \(GenAI\) skills in the Vulnerability Response Workspace and in the Core UI \(UI16\).](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/now-assist-for-vulnerability-response-vr/now-assist-for-vulnerability-response-landing.md)
 
 </td></tr><tr><td>
 

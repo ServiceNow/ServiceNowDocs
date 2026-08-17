@@ -7,7 +7,7 @@ release: yokohama
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Using customer success, Customer success, Customer Success Management]
+breadcrumb: [Using customer success, Customer success, Account Lifecycle Events]
 ---
 
 # Create an opportunity in Microsoft Dynamics CRM

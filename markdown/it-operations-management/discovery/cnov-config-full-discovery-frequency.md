@@ -7,10 +7,10 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Agent Client Collector, Kubernetes, Visibility, discovery, running, Cloud Native Operations for Visibility, CNO for Visibility]
-breadcrumb: [Install Kubernetes Visibility Agent \(KVA\), Configuring Kubernetes Visibility Agent, Kubernetes discovery using Kubernetes Visibility Agent, Discovery for containerized resources, Discovery, ITOM Visibility, IT Operations Management]
+breadcrumb: [Install Kubernetes Visibility Agent \(KVA\) Informer, Configuring Kubernetes Visibility Agent, Kubernetes discovery using Kubernetes Visibility Agent, Discovery for containerized resources, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Change the full discovery frequency in Kubernetes Visibility Agent
@@ -25,6 +25,8 @@ Role required: none
 
 By default, the Informer runs a full discovery every 24 hours \(1440 minutes\). You can change this frequency by performing the following procedure. For example, change the value to 2880 to make Kubernetes Visibility Agent run a full discovery every 48 hours \(2880 minutes\).
 
+**Note:** When the auto-retirement feature is enabled, the system checks for inactive clusters during each full discovery cycle. Clusters with Informers in the Down state that have not been updated for the configured period are automatically retired. For more information, see [Enable automatic retirement for inactive Kubernetes cluster CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/remove-inactive-cis.md).
+
 ## Procedure
 
 1.  Do one of the following:
@@ -35,5 +37,5 @@ By default, the Informer runs a full discovery every 24 hours \(1440 minutes\). 
 
     -   When using the k8s\_informer.yaml: Replace the default value with the required one in the line under FULL\_DISCOVERY\_MIN.
 
-**Parent Topic:**[Install Kubernetes Visibility Agent \(KVA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/cnov-deploy-install.md)
+**Parent Topic:**[Install Kubernetes Visibility Agent \(KVA\) Informer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/cnov-deploy-install.md)
 

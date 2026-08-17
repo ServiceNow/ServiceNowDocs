@@ -18,7 +18,7 @@ Display report data in card format on your portal. You can display the report da
 
 The Retail Core \[com.sn\_retail\_core\] plugin must be activated. For more information, see [Activate Retail Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/retail-industry/rahi-retail-operations-install.md).
 
-The page to which you want to add the widget must exist. For more information, see  Create a page for Configurable Portal widgets.
+The page to which you want to add the widget must exist. For more information, see  [Create a page for Configurable Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/create-page-configurable-portal-widget.md).
 
 Role required: admin
 

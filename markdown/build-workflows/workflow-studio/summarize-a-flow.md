@@ -1,6 +1,6 @@
 ---
 title: Summarize a flow
-description: Generate a summary of a flow with Now Assist for Creator.
+description: Generate a summary of a flow with ServiceNow Otto for Creator.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/build-workflows/workflow-studio/summarize-a-flow.html
 release: yokohama
@@ -14,7 +14,7 @@ breadcrumb: [Create a flow in Workflow Studio, Building flows, Using Workflow St
 
 # Summarize a flow
 
-Generate a summary of a flow with Now Assist for Creator.
+Generate a summary of a flow with ServiceNow Otto for Creator.
 
 ## Before you begin
 
@@ -40,7 +40,7 @@ Role required:
 
 ## Result
 
-Now Assist for Creator generates a summary of the flow. The flow summary also displays its creation date.
+ServiceNow Otto for Creator generates a summary of the flow. The flow summary also displays its creation date.
 
 ## What to do next
 

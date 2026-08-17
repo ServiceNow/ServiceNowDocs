@@ -1,6 +1,6 @@
 ---
 title: Configuring Now Assist for app generation in ServiceNow Studio
-description: Enable the Now Assist for app generation skill in the Now Assist for Creator application so that you can get started with building applications.
+description: Enable the Now Assist for app generation skill in the ServiceNow Otto for Creator application so that you can get started with building applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/servicenow-studio-classic/sns-app-gen-config-landing.html
 release: yokohama
@@ -15,10 +15,10 @@ breadcrumb: [Now Assist for app generation in ServiceNow Studio, Using ServiceNo
 
 # Configuring Now Assist for app generation in ServiceNow Studio
 
-Enable the Now Assist for app generation skill in the Now Assist for Creator application so that you can get started with building applications.
+Enable the Now Assist for app generation skill in the ServiceNow Otto for Creator application so that you can get started with building applications.
 
 -   **[Install Now Assist for app generation in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/sns-app-gen-install.md)**  
-Install the Now Assist for Creator application so that you can get started with creating an application for your organization.
+Install the ServiceNow Otto for Creator application so that you can get started with creating an application for your organization.
 
 **Parent Topic:**[Now Assist for app generation in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/sns-now-assist-app-gen-landing.md)
 

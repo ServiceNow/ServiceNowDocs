@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2025-11-05"
 reading_time_minutes: 6
 keywords: [generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
-breadcrumb: [Agentic AI workflows in CSM, Now Assist for Customer Service Management \(CSM\), Customer Service Management]
+breadcrumb: [Agentic AI workflows in CSM, ServiceNow Otto for Customer Service Management \(CSM\), Customer Service Management]
 ---
 
 # Customer Service Management AI agent collection provide customer 360 insights
@@ -91,7 +91,7 @@ The following tables list the agents that are used in the Provide customer 360 i
 
 ## Use Provide customer 360 insights Agentic Workflow
 
-The Provide customer 360 insights agentic workflow in Now Assist for Customer Service Management \(CSM\) gives agents contextual, GenAI-driven insights about customers directly within a case. By selecting the Now Assist icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Now assist icon. in a case record, agents can access the Now Assist panel that delivers real-time insights based on customer data.
+The Provide customer 360 insights agentic workflow in ServiceNow Otto for Customer Service Management \(CSM\) gives agents contextual, GenAI-driven insights about customers directly within a case. By selecting the Now Assist icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Now assist icon. in a case record, agents can access the Now Assist panel that delivers real-time insights based on customer data.
 
 Agents can ask natural language questions, such as "What products is this customer currently using?" The AI agent responds with accurate, contextually relevant answers and maintains conversational context across multiple questions.
 

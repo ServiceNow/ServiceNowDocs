@@ -22,7 +22,7 @@ Discovery can run on a regular, configurable schedule, or can be launched manual
 
 ## Discovery configuration procedures
 
-Use the following links to configure Discovery for your environment. You do not need to perform all these procedures to run a Discovery. The platform provides many defaults you can use to explore your network that are suitable for most discoveries. To get started quickly with Discovery, you can use Guided Setup, which expedites the setup of a basic Discovery.
+Use the following links to configure Discovery for your environment. You don't need to perform all these procedures to run a Discovery. The platform provides many defaults you can use to explore your network that are suitable for most discoveries. To get started quickly with Discovery, you can use Guided Setup, which expedites the setup of a basic Discovery.
 
 <table id="table_c4r_ztp_2cb"><tbody><tr><td>
 

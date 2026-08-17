@@ -35,15 +35,15 @@ Role required: admin
 
     The following dependent plugins must be installed to support the functionality of Data Collection apps:
 
-<table id="choicetable_jpr_lyl_k2c"><thead><tr><th align="left" id="d49631e108">
+<table id="choicetable_jpr_lyl_k2c"><thead><tr><th align="left" id="d49626e108">
 
 Data Collection Content Pack
 
-</th><th align="left" id="d49631e111">
+</th><th align="left" id="d49626e111">
 
 Dependent plugins
 
-</th></tr></thead><tbody><tr><td id="d49631e117">
+</th></tr></thead><tbody><tr><td id="d49626e117">
 
 **IT Operations Management \(ITOM\)**
 
@@ -51,7 +51,7 @@ Dependent plugins
 
 Event Management Core \(sn\_em\_ai\)
 
-</td></tr><tr><td id="d49631e126">
+</td></tr><tr><td id="d49626e126">
 
 **HR Service Delivery \(HRSD\)
 
@@ -61,7 +61,7 @@ Event Management Core \(sn\_em\_ai\)
 
 Human Resources Scoped App: Core \(com.sn\_hr\_core\)
 
-</td></tr><tr><td id="d49631e138">
+</td></tr><tr><td id="d49626e138">
 
 **Strategic Portfolio Management \(SPM\)
 
@@ -73,7 +73,7 @@ Human Resources Scoped App: Core \(com.sn\_hr\_core\)
 -   Goal Framework \(sn\_gf\)
 
 
-</td></tr><tr><td id="d49631e159">
+</td></tr><tr><td id="d49626e159">
 
 **Application Portfolio Management \(APM\)**
 
@@ -81,7 +81,7 @@ Human Resources Scoped App: Core \(com.sn\_hr\_core\)
 
 Enterprise Architecture \(com.snc.apm\)
 
-</td></tr><tr><td id="d49631e169">
+</td></tr><tr><td id="d49626e169">
 
 **App Engine**
 
@@ -89,7 +89,7 @@ Enterprise Architecture \(com.snc.apm\)
 
 App Engine Studio \(sn\_app\_eng\_studio\)
 
-</td></tr><tr><td id="d49631e178">
+</td></tr><tr><td id="d49626e178">
 
 **Customer Service \(CSM\)**
 
@@ -97,7 +97,7 @@ App Engine Studio \(sn\_app\_eng\_studio\)
 
 Customer Service Management\(com.sn\_customerservice\)
 
-</td></tr><tr><td id="d49631e187">
+</td></tr><tr><td id="d49626e187">
 
 **Security Operations \(SecOps\)
 
@@ -111,7 +111,7 @@ Customer Service Management\(com.sn\_customerservice\)
 -   Vulnerability Response \(sn\_vul\)
 
 
-</td></tr><tr><td id="d49631e214">
+</td></tr><tr><td id="d49626e214">
 
 **Hardware Asset Management \(HAM\)**
 
@@ -119,7 +119,7 @@ Customer Service Management\(com.sn\_customerservice\)
 
 Hardware Asset Management \(sn\_hamp\)
 
-</td></tr><tr><td id="d49631e223">
+</td></tr><tr><td id="d49626e223">
 
 **Software Asset Management \(SAM\)
 
@@ -131,7 +131,7 @@ Hardware Asset Management \(sn\_hamp\)
 -   SaaS License Management plugin \(com.sn\_sam\_saas\_int\)
 
 
-</td></tr><tr><td id="d49631e244">
+</td></tr><tr><td id="d49626e244">
 
 **Integrated Risk Management \(IRM\)
 

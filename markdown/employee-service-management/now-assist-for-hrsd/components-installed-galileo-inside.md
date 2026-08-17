@@ -9,7 +9,7 @@ classification: now-assist-for-hrsd
 topic_type: reference
 last_updated: "2025-04-28"
 reading_time_minutes: 1
-breadcrumb: [Reference for Now Assist for HR Service Delivery \(HRSD\), Now Assist for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
+breadcrumb: [Reference for ServiceNow Otto for HR Service Delivery \(HRSD\), ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
 # Components installed with Galileo Inside

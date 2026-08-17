@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 4
 keywords: [Explore Service Operations Workspace, SOW ITOM, Service Operations Workspace benefits, Service Operations Workspace key features, Service Operations Workspace roles, SOW ITOM roles]
-breadcrumb: [Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
+breadcrumb: [Service Operations Workspace for ITOM, ITOM Health, IT Operations Management]
 ---
 
 # Exploring Service Operations Workspace for ITOM

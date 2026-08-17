@@ -7,7 +7,7 @@ release: yokohama
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Engagement home page, Using customer success, Customer success, Customer Success Management]
+breadcrumb: [Engagement home page, Using customer success, Customer success, Account Lifecycle Events]
 ---
 
 # Success objective record page
@@ -24,6 +24,6 @@ To view this page, follow these steps:
 This page includes the following sections:
 
 -   Header: This section shows the progress, priority, state, the driver category, the number of days left for this objective to be completed, and the planned end date.
--   Success outcomes: The success outcomes associated with the objective. For each objective, you can see the status, value realized \(the current value based on the percentage of the target achieved\), and the number of days left for this outcome to be achieved. Select a success outcome to view the success initiatives associated with it. Click **Edit** to drill down to the Success Outcome page.
+-   Success outcomes: The success outcomes associated with the objective. For each objective, you can see the status and the number of days left for this outcome to be achieved. The value realized shows the current value based on the percentage of the target achieved. Select a success outcome to view the success initiatives associated with it. Click **Edit** to drill down to the Success Outcome page.
 -   Success initiatives: The list of initiatives associated with the selected success outcome. The subject, progress, and the number of days remaining are displayed. Click the **Number** column to drill down to the Success Initiative record page.
 

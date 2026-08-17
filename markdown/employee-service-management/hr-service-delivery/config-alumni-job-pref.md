@@ -9,7 +9,7 @@ classification: hr-service-delivery
 topic_type: task
 last_updated: "2025-11-26"
 reading_time_minutes: 1
-breadcrumb: [Configure, Alumni Center, HR Service Delivery, Employee Service Management]
+breadcrumb: [Configure, Alumni Service Center, HR Service Delivery, Employee Service Management]
 ---
 
 # Configure alumni job preferences

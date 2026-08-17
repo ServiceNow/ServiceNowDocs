@@ -30,7 +30,7 @@ Description
 
 </td><td>
 
-Install the PPM Standard \(com.snc.financial\_planning\_pmo\) plugin. If you're tracking customer projects, you must also activate the Customer Project Management \(com.snc.csm\_ppm\) plugin. For information on setting up Customer Project Management, see [Integrate with Customer Project Management using Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/csm-ppm-configuration.md).
+Install the PPM Standard \(com.snc.financial\_planning\_pmo\) plugin. If you're tracking customer projects, you must also activate the Customer Project Management \(com.snc.csm\_ppm\) plugin. For information on setting up Customer Project Management, see .
 
 **Note:** If you installed the Order Management application before activating the PPM Standard or Customer Project Management plugins, you must repair the Order Management \(com.sn\_ind\_tmt\_orm\) plugin to get the plugin-dependent updates and demo data for the SPM integration.
 

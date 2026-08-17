@@ -18,46 +18,46 @@ The ServiceNow® Employee Center application is a multi-department dynamic porta
 -   Enable employees to seek assistance through virtual or in-person appointments, or by joining walk-up queues for immediate support.
 -   Host live company events seamlessly in the employee portal with streamlined pre-event communications and a drag-and-drop editor for easy content creation.
 
-See [Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/employee-center-landing-page.md) for more information.
+See  for more information.
 
 **Important:** Employee Center is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Yokohama release
 
--   **[Favoriting topic pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/app-launcher-usability.md)**
+-   **Favoriting topic pages**
 
     Enable one-click access for employees to their most frequently accessed topics through topic pages added to the Favorites widget.
 
--   **[Single-click taxonomy sync](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/config-adv-portal-nav-as-menu.md)**
+-   **Single-click taxonomy sync**
 
     Sync taxonomy updates across Advanced Portal Navigation hierarchy levels with one click.
 
--   **[Guided Self-Service enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/gss-guided-self-service-overview.md)**
+-   **Guided Self-Service enhancements**
     -   Admins can provide more detailed answers or guidance to a Guided Self-Service response by adding rich media, including images and videos and formatted text.
     -   Employees can review and edit their previous responses.
     -   Employees can search for and discover Guided Self-Service processes using AI-powered search.
--   **[Enhanced apps discovery and visibility preferences \(Employee Center Pro\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/applauncher-enable-availability.md)**
+-   **Enhanced apps discovery and visibility preferences \(Employee Center Pro\)**
 
     Employees can search for authorized work applications using the AI-powered global search bar.
 
--   **[Appointment booking with HR representative \(Employee Center Pro\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/appointment-booking.md)**
+-   **Appointment booking with HR representative \(Employee Center Pro\)**
 
     Employees can schedule in-person or virtual appointments to get help through a quick link in the Mega Menu or Quick links widget.
 
--   **[Rich Content Editor updates \(Employee Center Pro\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/ec-rich-content.md)**
+-   **Rich Content Editor updates \(Employee Center Pro\)**
 
     Build more visually engaging content in microsites and news through additional formatting elements including bulleted and numbered lists, table or grid layouts, and accordion lists.
 
--   **[Portal shortcuts for content authoring \(Employee Center Pro\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/ec-create-content-widgets.md)**
+-   **Portal shortcuts for content authoring \(Employee Center Pro\)**
 
     Content authors can now easily edit or create news articles and banners using shortcuts in the Content Experiences or News widgets. The system auto-generates publishing plans, streamlining content delivery to the selected widget and reducing the effort needed for configuration.
 
--   **[Integrated experience and service feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/ex-fdback-ovrvw.md) \(Employee Center Pro\)**
+-   ** \(Employee Center Pro\)**
     -   Set a rating threshold that automatically generates a feedback task.
     -   Receive feedback tasks from negative feedback submitted through Now Mobile®.
     -   Receive automated email notifications when feedback tasks are completed.
     -   Track your feedback responses through the Feedback Analytics dashboard for portal, email, Virtual Agent, kiosks, and Now Mobile®.
--   **[Live company events hosting and communications framework \(Employee Center Pro\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/ec-company-events.md)**
+-   **Live company events hosting and communications framework \(Employee Center Pro\)**
 
     Live company events can now be hosted directly in the Employee Center Pro portal, with prebuilt configurations to streamline the pre-event communications and handle traffic surges. Content authors can easily create and share event content using the drag-and-drop Rich Content Editor, combined with mass-publishing capabilities similar to news articles.
 
@@ -65,18 +65,18 @@ See [Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDoc
 
     The Topic content search widget now ranks topics based on user clicks, improving the relevance of search results and making it easier for employees to find their frequently used topics.
 
--   **[Quick start tests for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/quick-start-tests-employee-center.md)**
+-   **Quick start tests for Employee Center**
 
     After upgrades and deployments of new applications or integrations, run quick start tests to verify that Employee Center works as expected. If you customized Employee Center, copy the quick start tests and configure them for your customizations.
 
 
 ## Activation information
 
-Install the Employee Center plugin by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install the Employee Center plugin by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Related ServiceNow applications and features
 
--   **[Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/mobile-employee-experience.md)**
+-   ****
 
     Now Mobile® application enables users to manage and create tasks and access other company resources from their mobile device.
 

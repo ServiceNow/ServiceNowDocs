@@ -1,6 +1,6 @@
 ---
 title: Property settings for Now Assist for CMDB
-description: List of system properties for the agents used by Now Assist for CMDB agents.
+description: List of system properties for the agents used by ServiceNow Otto for CMDB agents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-data-fdn-properties.html
 release: yokohama
@@ -9,12 +9,12 @@ classification: now-assist-for-configuration-management-database-cmdb
 topic_type: reference
 last_updated: "2025-11-08"
 reading_time_minutes: 1
-breadcrumb: [Reference, Now Assist for Configuration Management Database \(CMDB\), CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Reference, ServiceNow Otto for Configuration Management Database \(CMDB\), CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Property settings for Now Assist for CMDB
 
-List of system properties for the agents used by Now Assist for CMDB agents.
+List of system properties for the agents used by ServiceNow Otto for CMDB agents.
 
 ## Property settings
 
@@ -104,5 +104,5 @@ Retrieves knowledge articles from other connector categories, in addition to the
 
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Now Assist for CMDB reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-reference.md)
+</table>**Parent Topic:**[ServiceNow Otto for CMDB reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-reference.md)
 

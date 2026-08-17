@@ -1,6 +1,6 @@
 ---
-title: Using Now Assist for Legal Service Delivery \(LSD\)
-description: If you have a sn\_lg\_gen\_ai.request\_fulfiller role, you can summarize the details of the legal requests and matters with the Now Assist for Legal Service Delivery \(LSD\) application. You can also use Now Assist Q&amp;A Genius capability to get actionable search results from knowledge articles.
+title: Using ServiceNow Otto for Legal Service Delivery \(LSD\)
+description: If you have a sn\_lg\_gen\_ai.request\_fulfiller role, you can summarize the details of the legal requests and matters with the ServiceNow Otto for Legal Service Delivery \(LSD\) application. You can also use Now Assist Q&amp;A Genius capability to get actionable search results from knowledge articles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-using.html
 release: yokohama
@@ -10,19 +10,19 @@ topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
 keywords: [Now Assist, generative AI]
-breadcrumb: [Now Assist for Legal Service Delivery \(LSD\), Legal Service Delivery, Employee Service Management]
+breadcrumb: [ServiceNow Otto for Legal Service Delivery \(LSD\), Legal Service Delivery, Employee Service Management]
 ---
 
-# Using Now Assist for Legal Service Delivery \(LSD\)
+# Using ServiceNow Otto for Legal Service Delivery \(LSD\)
 
-If you have a sn\_lg\_gen\_ai.request\_fulfiller role, you can summarize the details of the legal requests and matters with the Now Assist for Legal Service Delivery \(LSD\) application. You can also use Now Assist Q&amp;A Genius capability to get actionable search results from knowledge articles.
+If you have a sn\_lg\_gen\_ai.request\_fulfiller role, you can summarize the details of the legal requests and matters with the ServiceNow Otto for Legal Service Delivery \(LSD\) application. You can also use Now Assist Q&amp;A Genius capability to get actionable search results from knowledge articles.
 
--   **[Summarize a legal request or matter by using Now Assist for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-summarize-case.md)**  
-Generate a summary from the fields that you selected on the legal request or matter record and quickly understand the request context by using the Legal Request or Legal Matter summarization skill in the Now Assist for Legal Service Delivery \(LSD\) application.
--   **[Use the Now Assist for Legal Service Delivery \(LSD\) capabilities from the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-legal-service-delivery/now-assist-request-gen-ai-cap.md)**  
+-   **[Summarize a legal request or matter by using ServiceNow Otto for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-summarize-case.md)**  
+Generate a summary from the fields that you selected on the legal request or matter record and quickly understand the request context by using the Legal Request or Legal Matter summarization skill in the ServiceNow Otto for Legal Service Delivery \(LSD\) application.
+-   **[Use the ServiceNow Otto for Legal Service Delivery \(LSD\) capabilities from the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-legal-service-delivery/now-assist-request-gen-ai-cap.md)**  
 Use the contextual generative AI capabilities, such as a request summary by using the conversational interface in the Now Assist panel.
--   **[Generate search results using Q&amp;A Genius Results in Now Assist for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-use-genius-result.md)**  
-Generate actionable search results from knowledge article results in Legal Counsel Center, Employee Center, and global search by using Q&amp;A Genius Results in Now Assist for Legal Service Delivery \(LSD\).
+-   **[Generate search results using Q&amp;A Genius Results in ServiceNow Otto for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-use-genius-result.md)**  
+Generate actionable search results from knowledge article results in Legal Counsel Center, Employee Center, and global search by using Q&amp;A Genius Results in ServiceNow Otto for Legal Service Delivery \(LSD\).
 
-**Parent Topic:**[Now Assist for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-landing.md)
+**Parent Topic:**[ServiceNow Otto for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-landing.md)
 

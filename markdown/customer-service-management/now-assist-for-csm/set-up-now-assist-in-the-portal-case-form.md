@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2025-12-05"
 reading_time_minutes: 3
 keywords: [Generative AI, Generative AI for Customer Service Management, record producer, portal case form, AI Search Assist]
-breadcrumb: [Configure, Now Assist for Customer Service Management \(CSM\), Customer Service Management]
+breadcrumb: [Configure, ServiceNow Otto for Customer Service Management \(CSM\), Customer Service Management]
 ---
 
 # Set up Now Assist in the portal case form

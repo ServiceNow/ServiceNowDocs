@@ -51,5 +51,7 @@ Role required: virtual\_agent\_admin or admin
 
 ## What to do next
 
+For help with installation, see [Solving installation and configuration issues with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-install-config-checklist.md).
+
 See [Brand an assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/now-assist-in-virtual-agent/brand-assistant.md).
 

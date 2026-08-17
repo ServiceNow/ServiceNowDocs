@@ -1,6 +1,6 @@
 ---
-title: Summarize a service problem case using Now Assist for Telecommunications, Media and Technology \(TMT\)
-description: Generate a summary from the fields that you selected on the service problem case record. Quickly understand the case context by using the service problem case summarization skill in the Now Assist for TMT application.
+title: Summarize a service problem case using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
+description: Generate a summary from the fields that you selected on the service problem case record. Quickly understand the case context by using the service problem case summarization skill in the ServiceNow Otto for TMT application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-summarize-case.html
 release: yokohama
@@ -9,12 +9,12 @@ classification: now-assist-for-telecom-media-and-technology
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 3
-breadcrumb: [Using Now Assist for Telecommunications, Media and Technology \(TMT\), Now Assist for Telecommunications, Media and Technology \(TMT\), Telecommunications, Media, and Technology]
+breadcrumb: [Using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\), ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\), Telecommunications, Media, and Technology]
 ---
 
-# Summarize a service problem case using Now Assist for Telecommunications, Media and Technology \(TMT\)
+# Summarize a service problem case using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
 
-Generate a summary from the fields that you selected on the service problem case record. Quickly understand the case context by using the service problem case summarization skill in the Now Assist for TMT application.
+Generate a summary from the fields that you selected on the service problem case record. Quickly understand the case context by using the service problem case summarization skill in the ServiceNow Otto for TMT application.
 
 ## Before you begin
 
@@ -55,15 +55,15 @@ If there is enough data, the Service Problem Case summary component displays the
 
 4.  After you're finished summarizing a service problem case, manage the results.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d26405e168">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d26369e168">
 
 Option
 
-</th><th align="left" id="d26405e171">
+</th><th align="left" id="d26369e171">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d26405e177">
+</th></tr></thead><tbody><tr><td id="d26369e177">
 
 **View more or less summary details**
 
@@ -73,7 +73,7 @@ Procedure
 -   To see fewer summary details, select the View less icon \(\[Omitted image "icon-collapse.png"\] Alt text: Collapse card icon.\).
 
 
-</td></tr><tr><td id="d26405e207">
+</td></tr><tr><td id="d26369e207">
 
 **Provide feedback for the summary**
 
@@ -83,7 +83,7 @@ Procedure
 -   If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).
  This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d26405e240">
+</td></tr><tr><td id="d26369e240">
 
 **Copy the case summary**
 
@@ -91,7 +91,7 @@ Procedure
 
 Select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text: Copy to clipboard icon.\) to use the service problem case summary information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d26405e255">
+</td></tr><tr><td id="d26369e255">
 
 **View the information about the case summary**
 
@@ -101,5 +101,5 @@ To check some details about the summary, select the more info icon \(\[Omitted i
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using Now Assist for Telecommunications, Media and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spm-using.md)
+**Parent Topic:**[Using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spm-using.md)
 

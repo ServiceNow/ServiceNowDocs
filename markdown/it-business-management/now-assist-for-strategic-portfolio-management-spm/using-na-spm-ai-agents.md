@@ -1,5 +1,5 @@
 ---
-title: Using AI agent or agentic workflows in Now Assist for Strategic Portfolio Management \(SPM\)
+title: Using AI agent or agentic workflows in ServiceNow Otto for Strategic Portfolio Management
 description: Use the AI agents for SPM to monitor project tasks autonomously.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/using-na-spm-ai-agents.html
@@ -10,10 +10,10 @@ topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
 keywords: [AI Agents, Agentic AI]
-breadcrumb: [Now Assist for Strategic Portfolio Management \(SPM\), Strategic Portfolio Management]
+breadcrumb: [ServiceNow Otto for Strategic Portfolio Management, Strategic Portfolio Management]
 ---
 
-# Using AI agent or agentic workflows in Now Assist for Strategic Portfolio Management \(SPM\)
+# Using AI agent or agentic workflows in ServiceNow Otto for Strategic Portfolio Management
 
 Use the AI agents for SPM to monitor project tasks autonomously.
 

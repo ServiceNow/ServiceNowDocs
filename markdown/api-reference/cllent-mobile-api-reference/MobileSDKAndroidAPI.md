@@ -34,8 +34,6 @@ The FieldWriteOptions class provides functions that set the options for updating
 The Filter class provides the ability to configure filters that define the data to return in the return results of a REST endpoint query.
 -   **[NotSupportedPushError class - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/NotSupportedPushErrorAndroidAPI.md)**  
 A function from the NotSupportedPushError class is thrown when the NowPushSDK cannot process the push notification request. When this type of error is thrown, you must parse and handle the push notification outside of the MobileSDK framework.
--   **[NowAnalyticsSDK interface - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/NowAnalyticsAndroidInterface.md)**  
-The NowAnalyticsSDK interface provides functions that enable you to configure analytics properties, user settings, and events for managing a collection of user analytics data.
 -   **[NowAPIService interface - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/NowAPIServiceAndroidInterface.md)**  
 The NowAPIService interface provides the ability to perform requests on a specified ServiceNow REST API.
 -   **[NowAttachment class - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/NowAttachmentAndroidAPI.md)**  

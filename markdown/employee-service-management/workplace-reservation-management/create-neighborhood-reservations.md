@@ -32,15 +32,15 @@ Role required: sn\_wsd\_core.workplace\_user
 
 1.  Select any of the following context menu navigation options to make a neighborhood reservation.
 
-<table id="choicetable_prt_yr3_smb"><thead><tr><th align="left" id="d707627e78">
+<table id="choicetable_prt_yr3_smb"><thead><tr><th align="left" id="d706978e78">
 
 Location
 
-</th><th align="left" id="d707627e81">
+</th><th align="left" id="d706978e81">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d707627e87">
+</th></tr></thead><tbody><tr><td id="d706978e87">
 
 **Application navigation filter**
 
@@ -48,7 +48,7 @@ Steps
 
 Navigate to **All** &gt; **Workplace Reservation Management** &gt; **Portal** &gt; **New Reservation**.
 
-</td></tr><tr><td id="d707627e111">
+</td></tr><tr><td id="d706978e111">
 
 **From Employee Center Portal**
 

@@ -9,7 +9,7 @@ classification: event-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Monitor service health, Using Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Monitor service health, Using Event Management, Event Management, ITOM Health, IT Operations Management]
 ---
 
 # Monitor alerts for an application services
@@ -30,15 +30,15 @@ Role required: evt\_mgmt\_admin, evt\_mgmt\_operator, or evt\_mgmt\_user
 
 3.  Do one or more of the following.
 
-<table id="choicetable_manualservices"><thead><tr><th align="left" id="d125168e110">
+<table id="choicetable_manualservices"><thead><tr><th align="left" id="d124265e110">
 
 Option
 
-</th><th align="left" id="d125168e113">
+</th><th align="left" id="d124265e113">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d125168e119">
+</th></tr></thead><tbody><tr><td id="d124265e119">
 
 **View alert details for a CI**
 
@@ -48,7 +48,7 @@ In the service map:1.  Click a CI tile.
 2.  Below the map, click the **Alerts** tab and review the listed alerts.
 
 
-</td></tr><tr><td id="d125168e140">
+</td></tr><tr><td id="d124265e140">
 
 **View impact on the CI parent**
 
@@ -59,7 +59,7 @@ In the service map:1.  Click a CI tile.
 3.  Adjust the impact rules as necessary.
 
 
-</td></tr><tr><td id="d125168e164">
+</td></tr><tr><td id="d124265e164">
 
 **Change the map display, map layout, or map indicators**
 
@@ -69,7 +69,7 @@ In the service map header:1.  Click the menu icon.
 2.  Configure the appropriate settings.
 
 
-</td></tr><tr><td id="d125168e182">
+</td></tr><tr><td id="d124265e182">
 
 **Navigate to another application services**
 
@@ -85,7 +85,7 @@ In the service map header:1.  Click the down arrow next to the service name or t
 -   **Warning**: Blue \(lowest severity\).
 
 
-</td></tr><tr><td id="d125168e232">
+</td></tr><tr><td id="d124265e232">
 
 **View properties for a CI**
 

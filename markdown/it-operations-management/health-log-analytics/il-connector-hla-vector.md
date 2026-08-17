@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-01-26"
 reading_time_minutes: 5
 keywords: [ServiceNow, Health Log Analytics, HLA, Vector Agent, integration, configuration]
-breadcrumb: [Set up integrations from Integrations Launchpad, Setting up Health Log Analytics on your ServiceNow instance, Configuring Health Log Analytics, Health Log Analytics, ITOM AIOps, IT Operations Management]
+breadcrumb: [Set up integrations from Integrations Launchpad, Setting up Health Log Analytics on your ServiceNow instance, Configuring Health Log Analytics, Health Log Analytics, ITOM Health, IT Operations Management]
 ---
 
 # Set up a Vector Agent integration for Health Log Analytics
@@ -69,9 +69,7 @@ You set up integrations through the Integrations Launchpad in Service Operations
 
     -   If you completed all the prerequisites before starting the configuration, select **Activate**.
 
-        In the pop-up window, select **Test &amp; Save** to save the integration to the database and test connectivity. If an error is returned, adjust the configuration as suggested in the error message and then try to activate the integration again.
-
-        When the test is successful, the integration is activated and the **Overview** tab is displayed. On the Integrations Launchpad, the integration tile is available in the **Installed integrations** tab.
+        The integration is activated and the **Overview** tab is displayed. On the Integrations Launchpad, the integration tile is available in the **Installed integrations** tab.
 
     -   If you didn't complete all the prior requirements, select **Save draft**.
 

@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
 keywords: [generative AI for IT Operations Management, generative AI for ITOM, create an incident, alert, Express List, Now Assist]
-breadcrumb: [Using skills in Now Assist for ITOM, Now Assist for ITOM, IT Operations Management]
+breadcrumb: [Using skills in ServiceNow Otto for ITOM, ServiceNow Otto for ITOM, IT Operations Management]
 ---
 
 # Create an incident from an alert with Now Assist in Express List
@@ -42,5 +42,5 @@ Role required: evt\_mgmt\_operator, evt\_mgmt\_admin
 4.  View the created incident by selecting **View incident** in the confirmation message or on the alert preview panel.
 
 
-**Parent Topic:**[Using skills in Now Assist for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-use.md)
+**Parent Topic:**[Using skills in ServiceNow Otto for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-use.md)
 

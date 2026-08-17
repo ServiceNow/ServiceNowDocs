@@ -1,5 +1,5 @@
 ---
-title: Exploring Telecom Discrepancy Identification and Reconciliation
+title: Telecom Discrepancy Identification and Reconciliation
 description: Telecom Discrepancy Identification &amp; Reconciliation solution is designed to confirm the accuracy and consistency of network resource data between network systems and inventory management databases, such as CMDB/TNI.These system properties are part of the TSOM Visibility plugin \(sn\_tsom\_core\) and control the Telecom Discrepancy Identification &amp; Reconciliation log \(TSOM CMDB Audit\). The TSOM Visibility plugin serves as an enabler for the TSOM Visibility applications, containing logic that is shared across the Telecom Discovery and Telecom Discrepancy Identification &amp; Reconciliation solution.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-service-ops/telecom-visibility/exploring-telecom-reconciliation.html
@@ -12,7 +12,7 @@ reading_time_minutes: 8
 breadcrumb: [Telecom Discrepancy Identification and Reconciliation, TSOM Visibility, Telecommunications Service Operations Management]
 ---
 
-# Exploring Telecom Discrepancy Identification and Reconciliation
+# Telecom Discrepancy Identification and Reconciliation
 
 Telecom Discrepancy Identification &amp; Reconciliation solution is designed to confirm the accuracy and consistency of network resource data between network systems and inventory management databases, such as CMDB/TNI.
 
@@ -41,9 +41,9 @@ For more information, see [CMDB Identification and Reconciliation \(IRE\)](https
 CMDB Compliance is a toolset that enables administrators to certify CMDB data for accuracy and identify discrepancies detected during compliance audits. It can also automatically generate and assign Follow-on Tasks for failed audit records, which serve as tasks to trigger an appropriate remediation subflow to correct discrepancies. CMDB Compliance Audits form the foundation of our Telecom Discrepancy Identification &amp; Reconciliation.
 
 -   CMDB Compliance runs audits as a post-processing rule, identifying anomalies \(discrepancies\) in the CMDB.
--   CMDB Compliance creates a Follow-On Task for each Audit Record in a failed state \(the failed state is the result of an audit finding an anomaly or discrepancy in the CMDB\). A remediation flow can be designed and triggered for each Follow-On Task to address and resolve the discrepancy.
+-   CMDB Compliance creates a Follow-On Task for each Audit Record in a failed state. The failed state results from an audit finding an anomaly or discrepancy in the CMDB. A remediation flow can be designed and triggered for each Follow-On Task to address and resolve the discrepancy.
 
-The logic for Telecom Discrepancy Identification &amp; Reconciliation, as well as the example remediation subflows, are included in the Yokohama release and will be installed automatically with the TSOM Visibility plugin.
+The logic for Telecom Discrepancy Identification &amp; Reconciliation, as well as the example remediation subflows, are included in the Yokohama release. They are installed automatically with the TSOM Visibility plugin.
 
 For more information on the general CMDB Compliance toolset, see [CMDB Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/c_Compliance.md).
 
@@ -54,7 +54,7 @@ There are two key discrepancy categories that can be detected between Inventory 
 -   Entities that exist in the Inventory but don’t exist in the Network.
 -   Entities that exist both in the network and in the inventory but differ in their hierarchy.
 
-Discrepancy identification in TSOM Visibility relies on using CMDB Compliance \(Certification Audits\) and has extended it by adding specific logic that uses model relationships and information to identify mismatches.
+Discrepancy identification in TSOM Visibility relies on using CMDB Compliance \(Certification Audits\). It extends this capability by adding specific logic that uses model relationships and information to identify mismatches.
 
 **Note:** The current release focuses on the identification and reconciliation of discrepancies at the physical resource layer. In the upcoming release, this functionality is extended to include support for the logical resource layer and attributes as well.
 
@@ -72,7 +72,7 @@ The following discrepancy types \(Audit Results\) can be found for Parent CI and
 3.  CI model not found–\(the ‘Model ID’ field isn’t set or data is invalid\). Generated in case a corresponding CI model isn’t found. If a CI model isn’t found, the next validations \(4-6\) are irrelevant because they rely on CI models. In case a CI model is found, the audit will continue to the next validations \(4-6\).
 4.  Slots occupied discrepancy-Generated in case a Card occupies an incorrect number of Slots.
 5.  Model relationships not defined-relevant only if TNI is installed. Generated if the audit is unable to find a relationship between Parent and child CI models in the Network Model Relationships table.
-6.  Incorrect number of relationships - relevant only if TNI is installed. Generated if the audit finds that the number of discovered child CI records exceeds the maximum number of its corresponding Parent CI record in the model relationship **Count** field in the Network Model Relationship table.
+6.  Incorrect number of relationships - relevant only if TNI is installed. Generated if the audit finds that the number of discovered child CI records exceeds the maximum number of its corresponding Parent CI record. The maximum is defined in the model relationship **Count** field in the Network Model Relationship table.
 
 For more information on the general Follow-on Tasks feature, see Building Subflows.
 
@@ -126,7 +126,7 @@ When the Service Operation CMDB Compliance Audit runs, it identifies this discre
     For more information on UI actions, see [Defining UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/c_UIActions.md).
 
 
-For this example, the Remediate UI action \(triggered by the **Remediate**\) calls the Execute TSOM CI Decommission subflow to address and resolve the discrepancy specified in the Follow-On Task TASK0020215. Additionally, we must decommission an old Card40, which will be executed automatically by calling the subflow ‘TSOM Decommission Card’.
+For this example, the Remediate UI action \(triggered by the **Remediate**\) calls the Execute TSOM CI Decommission subflow. This subflow addresses and resolves the discrepancy specified in the Follow-On Task TASK0020215. Additionally, we must decommission an old Card40, which will be executed automatically by calling the subflow ‘TSOM Decommission Card’.
 
 Once the remediation is successfully completed, work notes are generated with the remediation results in the Follow-On Task window \(TASK0020215\).
 
@@ -138,7 +138,7 @@ This example subflow is shipped with the solution. Users can define custom remed
 
 **Parent Topic:**[Telecom Discrepancy Identification and Reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-service-ops/telecom-visibility/telecom-reconciliation.md)
 
-## System Properties Affecting Telecom Discrepancy Identification &amp; Reconciliation
+## System properties for discrepancy identification
 
 These system properties are part of the TSOM Visibility plugin \(sn\_tsom\_core\) and control the Telecom Discrepancy Identification &amp; Reconciliation log \(TSOM CMDB Audit\). The TSOM Visibility plugin serves as an enabler for the TSOM Visibility applications, containing logic that is shared across the Telecom Discovery and Telecom Discrepancy Identification &amp; Reconciliation solution.
 
@@ -283,5 +283,5 @@ The TSOM CMDB Audit \(Telecom Discrepancy Identification &amp; Reconciliation\) 
 </td></tr></tbody>
 </table>### Configure Reconciliation
 
-See [Configure Telecom Discrepancy Identification and Reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-service-ops/telecom-visibility/configure-telecom-reconciliation.md).
+See [Configure telecom discrepancy reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-service-ops/telecom-visibility/configure-telecom-reconciliation.md).
 

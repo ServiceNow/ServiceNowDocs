@@ -1,6 +1,6 @@
 ---
-title: Create a snapshot to share and save data in ERP Semantic Mining
-description: Export and import ERP Semantic Mining base data to save and share.
+title: Create a snapshot to share and save data in ERP Customization Mining
+description: Export and import ERP Customization Mining base data to save and share.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-customization-mining/create-a-snapshot-to-share-and-save-data.html
 release: yokohama
@@ -9,12 +9,12 @@ classification: erp-customization-mining
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 3
-breadcrumb: [Configuring ERP Semantic Mining, ERP Semantic Mining \(ERP-CM\), Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Configuring ERP Customization Mining, ERP Customization Mining \(ERP-CM\), Building low-code applications, Developing your application, Building applications]
 ---
 
-# Create a snapshot to share and save data in ERP Semantic Mining
+# Create a snapshot to share and save data in ERP Customization Mining
 
-Export and import ERP Semantic Mining base data to save and share.
+Export and import ERP Customization Mining base data to save and share.
 
 ## Before you begin
 
@@ -30,7 +30,7 @@ Role required: admin
 
 4.  Select **Export data**.
 
-    A check is performed automatically prior to exporting. For details about the process, see [ERP Semantic Mining snapshot prerequisite check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/erpcm-snapshot-prerequisite-check.md).
+    A check is performed automatically prior to exporting. For details about the process, see [ERP Customization Mining snapshot prerequisite check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/erpcm-snapshot-prerequisite-check.md).
 
     If another export is in progress, an export unavailable message is displayed. Select **OK** and view the **Snapshots** tab to monitor the progress.
 
@@ -89,5 +89,5 @@ Role required: admin
         \[Omitted image "erpcm-snapshot-complete.png"\] Alt text: All tasks list with import tasks listed as completed.
 
 
-**Parent Topic:**[Configuring ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/configuring-ecm.md)
+**Parent Topic:**[Configuring ERP Customization Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/configuring-ecm.md)
 

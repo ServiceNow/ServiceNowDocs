@@ -28,6 +28,8 @@ The **Collaborate** menu item is available only when the Connect Support plugin 
 
 Users who do not have profile pictures are represented by an avatar with their initials. Administrators can upload a profile picture in a user record which displays if there is no Live Feed photo.
 
+**Note:** This procedure requires the **Live Feed** \(Connect\) module to be enabled in your instance.
+
 ## Procedure
 
 1.  Navigate to **All** &gt; **Collaborate** &gt; **Live Feed**.
@@ -42,6 +44,10 @@ Users who do not have profile pictures are represented by an avatar with their i
     -   Point to the existing picture \(or tap the photo in the smartphone or tablet interface\) to display the **Upload a picture** link. Select the link, navigate to the location of the photo you want to use, and then select **Open**.
     \[Omitted image "ProfileCamera.png"\] Alt text: Profile record
 
+
+## What to do next
+
+If **Live Feed** is not enabled in your instance, the administrators can upload a profile picture for any user. Navigate to **All** &gt; **User Administration** &gt; **Users**, open the user record, and upload an image to the **Photo** field.
 
 **Related topics**  
 

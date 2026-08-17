@@ -139,7 +139,7 @@ Activate the EA Workspace plugin
 
 </td></tr><tr><td>
 
-Activate the Technology Portfolio Management \(TPM\) plugin
+Activate the Technology Lifecycle Management \(TLM\) plugin
 
 </td><td align="center">
 

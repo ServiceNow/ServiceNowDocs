@@ -7,7 +7,7 @@ release: yokohama
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: concept
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 breadcrumb: [Explore, Portfolio Planning in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -40,7 +40,7 @@ For more information on integration of CWM with Strategic Planning, see [Connect
 
 ## Strategic Planning with Enterprise Architecture Workspace
 
-Using the Business Capability lens, enterprise architects can plan, prioritize, and roadmap the work based on business capabilities or business applications. For information on ServiceNow Enterprise Architecture Workspace, see Enterprise Architecture Workspace.
+Using the Business Capability lens, enterprise architects can plan, prioritize, and roadmap the work based on business capabilities or business applications. For information on ServiceNow Enterprise Architecture Workspace, see [Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-portfolio-management/ea-workspace.md).
 
 ## Strategic Planning with Digital Portfolio Management
 

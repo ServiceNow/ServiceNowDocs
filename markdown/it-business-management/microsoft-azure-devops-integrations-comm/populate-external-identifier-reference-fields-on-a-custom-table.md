@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-You can display references of ID, key, Azure DevOps project, and the project URL on your custom table form by adding an External Identifier reference field to your custom table and then adding the table to the Populate External Identifier Reference business rule.
+You can display references of ID, key, Azure DevOps project, and the project URL on your custom table form. To do so, add an External Identifier reference field to your custom table, and then add the table to the Populate External Identifier Reference business rule.
 
 ## Procedure
 

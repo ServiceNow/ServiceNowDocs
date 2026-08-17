@@ -1,6 +1,6 @@
 ---
-title: Generate targets for a goal using Now Assist for SPM
-description: Generate measurable targets for your goals in Strategic Planning Workspace using Now Assist for SPM.
+title: Generate targets for a goal using ServiceNow Otto for SPM
+description: Generate measurable targets for your goals in Strategic Planning Workspace using ServiceNow Otto for SPM.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/scenario-planning-in-spw/generate-targets-for-goal-spw.html
 release: yokohama
@@ -12,9 +12,9 @@ reading_time_minutes: 2
 breadcrumb: [Manage goals, Portfolio Planning in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Generate targets for a goal using Now Assist for SPM
+# Generate targets for a goal using ServiceNow Otto for SPM
 
-Generate measurable targets for your goals in Strategic Planning Workspace using Now Assist for SPM.
+Generate measurable targets for your goals in Strategic Planning Workspace using ServiceNow Otto for SPM.
 
 ## Before you begin
 

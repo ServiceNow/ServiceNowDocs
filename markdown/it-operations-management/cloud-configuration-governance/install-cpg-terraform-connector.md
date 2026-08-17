@@ -1,6 +1,6 @@
 ---
-title: Install Cloud Services Catalog Terraform Connector
-description: You can install the Cloud Services Catalog Terraform Connector application \(com.sn\_cmp\_terraform\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:
+title: Install Cloud Provisioning and Governance: Terraform Connector
+description: You can install the Cloud Provisioning and Governance: Terraform Connector application \(com.sn\_cmp\_terraform\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/cloud-configuration-governance/install-cpg-terraform-connector.html
 release: yokohama
@@ -9,12 +9,12 @@ classification: cloud-configuration-governance
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Configuring Cloud Services Catalog Terraform Connector, Cloud Services Catalog Terraform Connector, Support for continuous delivery \(configuration management\), Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Optimization, IT Operations Management]
+breadcrumb: [Configuring Cloud Provisioning and Governance: Terraform Connector, Cloud Provisioning and Governance: Terraform Connector, Support for continuous delivery \(configuration management\), Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Optimization, IT Operations Management]
 ---
 
-# Install Cloud Services Catalog Terraform Connector
+# Install Cloud Provisioning and Governance: Terraform Connector
 
-You can install the Cloud Services Catalog Terraform Connector application \(com.sn\_cmp\_terraform\) if you have the admin role.
+You can install the Cloud Provisioning and Governance: Terraform Connector application \(com.sn\_cmp\_terraform\) if you have the admin role.
 
 ## Before you begin
 
@@ -28,7 +28,7 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **System Applications** &gt; **All Available Applications** &gt; **All**.
 
-2.  Find the Cloud Services Catalog Terraform Connector application \(com.sn\_cmp\_terraform\) using the filter criteria and search bar.
+2.  Find the Cloud Provisioning and Governance: Terraform Connector application \(com.sn\_cmp\_terraform\) using the filter criteria and search bar.
 
     You can search for the application by its name or ID. If you cannot find the application, you might have to request it from the ServiceNow Store.
 
@@ -45,6 +45,6 @@ Role required: admin
 
 ## What to do next
 
--   If you want to use Cloud Services Catalog Terraform Connector with Terraform Open Source, [Create a Terraform Open Source config provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/setup-cpg-terraform-connector-for-terraform-open-source.md).
--   If you want to use Cloud Services Catalog Terraform Connector with Terraform Enterprise, [Create a Terraform Enterprise or Terraform Cloud config provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/setup-cpg-terraform-connector-for-terraform-enterprise.md).
+-   If you want to use Cloud Provisioning and Governance: Terraform Connector with Terraform Open Source, [Create a Terraform Open Source config provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/setup-cpg-terraform-connector-for-terraform-open-source.md).
+-   If you want to use Cloud Provisioning and Governance: Terraform Connector with Terraform Enterprise, [Create a Terraform Enterprise or Terraform Cloud config provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/setup-cpg-terraform-connector-for-terraform-enterprise.md).
 

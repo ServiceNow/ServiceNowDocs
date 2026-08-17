@@ -1,6 +1,6 @@
 ---
 title: Configure Virtual Agent topics for HR Service Delivery Advanced Integration with Oracle HCM
-description: Complete the configuration steps to enable your employees place requests to the Oracle system using the Now Assist for HRSD Virtual Agent topics in Employee Center.
+description: Complete the configuration steps to enable your employees place requests to the Oracle system using the ServiceNow Otto for HRSD Virtual Agent topics in Employee Center.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/config-oracle-va.html
 release: yokohama
@@ -14,7 +14,7 @@ breadcrumb: [HR Service Delivery Advanced Integration with Oracle HCM, Integrati
 
 # Configure Virtual Agent topics for HR Service Delivery Advanced Integration with Oracle HCM
 
-Complete the configuration steps to enable your employees place requests to the Oracle system using the Now Assist for HRSD Virtual Agent topics in Employee Center.
+Complete the configuration steps to enable your employees place requests to the Oracle system using the ServiceNow Otto for HRSD Virtual Agent topics in Employee Center.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: flow\_designer, decision\_table\_admin, sn\_hr\_integr\_fw.admin,
 
 ## Procedure
 
-1.  Install the HR Service Delivery Advanced Integration with Oracle HCM, Now Assist for HRSD, and Enterprise Service Management Integrations Framework \(v3.6\) applications from ServiceNow Store.
+1.  Install the HR Service Delivery Advanced Integration with Oracle HCM, ServiceNow Otto for HRSD, and Enterprise Service Management Integrations Framework \(v3.6\) applications from ServiceNow Store.
 
 2.  Configure the [Oracle HCM Cloud Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/oracle-hcm.md) to pull data from Oracle system.
 
@@ -36,7 +36,7 @@ Role required: flow\_designer, decision\_table\_admin, sn\_hr\_integr\_fw.admin,
 
 5.  Create a Virtual Agent topic block:
 
-    **Note:** The Virtual Agent topics are available by default with the Now Assist for HRSD scope.
+    **Note:** The Virtual Agent topics are available by default with the ServiceNow Otto for HRSD scope.
 
     1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Virtual Agent** &gt; **Designer**.
     2.  From the **LLM Assistant** list, select **Now Assist in Virtual Agent**.

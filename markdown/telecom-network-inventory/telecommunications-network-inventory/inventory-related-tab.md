@@ -290,7 +290,7 @@ Vendor Catalog Items
 
 </td><td>
 
-List of all vendor catalogs of this inventory. To learn more, see Vendor Catalog Items.
+List of all vendor catalogs of this inventory. To learn more, see [Vendor Catalog Items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/c_ManageVendorCatalogItems.md).
 
 </td></tr><tr><td>
 

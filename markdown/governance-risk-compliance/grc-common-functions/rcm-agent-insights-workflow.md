@@ -44,7 +44,7 @@ You can activate it by selecting **Get analysis** from the Ask Now Assist action
 
 By reducing manual research and supporting decision-making, the workflow helps organizations address compliance requirements across multiple regulatory frameworks while providing a structured approach for accuracy, scalability, and operational efficiency.
 
-For more information, see [Use agentic AI in Now Assist for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/use-agentic-ai-in-risk-sustainability.md), [Activate the get regulatory analysis agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/activate-rcm-agent-workflow.md), and [Analyze and enrich regulatory alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/get-rcm-reg-insight.md).
+For more information, see [Use agentic AI in ServiceNow Otto for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/use-agentic-ai-in-risk-sustainability.md), [Activate the get regulatory analysis agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/activate-rcm-agent-workflow.md), and [Analyze and enrich regulatory alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/get-rcm-reg-insight.md).
 
 ## Benefits of the workflow
 
@@ -109,7 +109,7 @@ sn\_grc\_reg\_change.user and sn\_grc\_comp\_genai.reg\_change\_ai\_agent\_user
 
 [Exploring Now Assist in Regulatory Change Management \(RCM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/regulatory-change-management-service-portal/rcm-exploring-now-assist-for-irm.md)
 
-[Supporting information for Now Assist for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/now-assist-irm-supporting-info.md)
+[Supporting information for ServiceNow Otto for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/now-assist-irm-supporting-info.md)
 
 [Analyze and enrich regulatory alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/get-rcm-reg-insight.md)
 

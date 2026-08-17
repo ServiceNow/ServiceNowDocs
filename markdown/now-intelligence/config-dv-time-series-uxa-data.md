@@ -1,6 +1,6 @@
 ---
-title: Usage Insights data options for time series visualizations
-description: The following Data configuration options are available for all time series type visualizations of Usage Insights data.
+title: User Experience Analytics data options for time series visualizations
+description: The following Data configuration options are available for all time series type visualizations of User Experience Analytics data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/config-dv-time-series-uxa-data.html
 release: yokohama
@@ -10,9 +10,9 @@ reading_time_minutes: 6
 breadcrumb: [Time series visualizations, Create, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
 
-# Usage Insights data options for time series visualizations
+# User Experience Analytics data options for time series visualizations
 
-The following Data configuration options are available for all time series type visualizations of Usage Insights data.
+The following Data configuration options are available for all time series type visualizations of User Experience Analytics data.
 
 <table id="table_wqy_sjr_qtb"><thead><tr><th>
 
@@ -28,7 +28,7 @@ Data source
 
 </td><td>
 
-You have selected a Usage Insights data source in [Create time series visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-time-series-ac.md).
+You have selected a User Experience Analytics data source in [Create time series visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-time-series-ac.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -120,7 +120,7 @@ Event property \[eventPropertyValue\]
 
 </td><td>
 
-List of properties to choose from for Usage Insights Event sources that have properties.
+List of properties to choose from for User Experience Analytics Event sources that have properties.
 
  **Note:** Only applies to Events metrics.
 

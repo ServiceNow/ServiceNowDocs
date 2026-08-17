@@ -1,6 +1,6 @@
 ---
-title: Configure skills in a domain for Now Assist for Customer Service Management \(CSM\)
-description: Activate the skills with different skill configurations in each domain in the Now Assist for Customer Service Management \(CSM\) application.
+title: Configure skills in a domain for ServiceNow Otto for Customer Service Management \(CSM\)
+description: Activate the skills with different skill configurations in each domain in the ServiceNow Otto for Customer Service Management \(CSM\) application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/now-assist-for-csm/configure-skills-in-domain-for-now-assist-for-csm.html
 release: yokohama
@@ -10,12 +10,12 @@ topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 2
 keywords: [generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
-breadcrumb: [Domain separation in Now Assist for Customer Service Management \(CSM\), Configure, Now Assist for Customer Service Management \(CSM\), Customer Service Management]
+breadcrumb: [Domain separation in ServiceNow Otto for Customer Service Management \(CSM\), Configure, ServiceNow Otto for Customer Service Management \(CSM\), Customer Service Management]
 ---
 
-# Configure skills in a domain for Now Assist for Customer Service Management \(CSM\)
+# Configure skills in a domain for ServiceNow Otto for Customer Service Management \(CSM\)
 
-Activate the skills with different skill configurations in each domain in the Now Assist for Customer Service Management \(CSM\) application.
+Activate the skills with different skill configurations in each domain in the ServiceNow Otto for Customer Service Management \(CSM\) application.
 
 ## Before you begin
 
@@ -35,7 +35,7 @@ By default, the skill configurations in the domains inherit the settings from th
 
 2.  Navigate to **All** &gt; **Now Assist Admin Console** &gt; **Features** &gt; **Features**.
 
-3.  In the Now Assist Admin console, select the global skill configuration to activate it within the current domain and to set up its own unique skill configuration.
+3.  In the AI Admin Hub console, select the global skill configuration to activate it within the current domain and to set up its own unique skill configuration.
 
     As shown in the following example, a modal pop-up window confirms that the skill configuration is being edited in the current domain. This action creates a skill configuration that overrides the existing global configuration. The active skill configuration in use is derived from the global domain and shares the same name as the global skill configuration.
 

@@ -30,7 +30,7 @@ You can deactivate the item from either the list view or the record.
 
 2.  Complete one of the following steps.
 
-<table id="choicetable_pxn_313_wt"><tbody><tr><td id="d202943e92">
+<table id="choicetable_pxn_313_wt"><tbody><tr><td id="d203184e92">
 
 **Deactivate from the list view**
 
@@ -38,7 +38,7 @@ You can deactivate the item from either the list view or the record.
 
 Select the check box next to one or more items in the record list and click **Deactivate** below the list.
 
-</td></tr><tr><td id="d202943e104">
+</td></tr><tr><td id="d203184e104">
 
 **Deactivate from the record**
 

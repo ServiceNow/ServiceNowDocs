@@ -9,7 +9,7 @@ classification: employee-experience-foundation
 topic_type: task
 last_updated: "2025-09-08"
 reading_time_minutes: 2
-breadcrumb: [Use, Now Assist for Employee Experience, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Use, ServiceNow Otto for Employee Experience, Unified Employee Experience, Employee Service Management]
 ---
 
 # Check company news and events
@@ -49,7 +49,7 @@ Role required: none
     If the event requires RSVP, select **Yes** or **No**. If you have already specified your RSVP, you can also edit it.
 
 
-**Parent Topic:**[Using Now Assist for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/use-now-assist-for-emp-exp.md)
+**Parent Topic:**[Using ServiceNow Otto for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/use-now-assist-for-emp-exp.md)
 
 **Related topics**  
 

@@ -98,7 +98,7 @@ Create and manage plan configurations that are based on a plan type. Plan config
 -   **[Setup the Journey designer version 2 plan configuration review and approval process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-designer/jny-dsgnr-plan-config-admin.md)**  
 ServiceNow administrators configure the Journey designer plan configuration feature and process.
 -   **[Enable the Now Assist Journey generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-designer/enable-jny-gen.md)**  
-Enable the Journey generation skill in Now Assist for HRSD using the Now Assist Admin console.
+Enable the Journey generation skill in ServiceNow Otto for HRSD using the AI Admin Hub console.
 -   **[Create and manage stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-designer/jny-create-manage-stages.md)**  
 Create and manage stages that are contained inside a plan. Stages contain tasks or to-do lists for managers, mentors, or employees to complete.
 -   **[Add stage configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-designer/jny-create-stage-configuration.md)**  

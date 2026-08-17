@@ -1,6 +1,6 @@
 ---
-title: Now Assist for IT Operations Management \(ITOM\)
-description: Use the ServiceNow Now Assist for IT Operations Management \(ITOM\) application to analyze alerts in Event Management. Alert analyses include a human-readable brief of the alert and technical information to help you investigate the alert more effectively.
+title: ServiceNow Otto for IT Operations Management \(ITOM\)
+description: Use the ServiceNow ServiceNow Otto for IT Operations Management \(ITOM\) application to analyze alerts in Event Management. Alert analyses include a human-readable brief of the alert and technical information to help you investigate the alert more effectively.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/now-assist-for-it-operations-management/now-assist-itom.html
 release: yokohama
@@ -13,9 +13,9 @@ keywords: [generative AI for IT Operations Management, generative AI for ITOM, a
 breadcrumb: [IT Operations Management]
 ---
 
-# Now Assist for IT Operations Management \(ITOM\)
+# ServiceNow Otto for IT Operations Management \(ITOM\)
 
-Use the ServiceNow® Now Assist for IT Operations Management \(ITOM\) application to analyze alerts in Event Management. Alert analyses include a human-readable brief of the alert and technical information to help you investigate the alert more effectively.
+Use the ServiceNow® ServiceNow Otto for IT Operations Management \(ITOM\) application to analyze alerts in Event Management. Alert analyses include a human-readable brief of the alert and technical information to help you investigate the alert more effectively.
 
 ## Get started
 
@@ -51,13 +51,13 @@ Use the ServiceNow® Now Assist for IT Operations Management \(ITOM\) applicatio
 -   Some Now Assist products/features are currently available only for customers in some regions. Be sure to check for availability updates in future releases.
 -   Some AI products and skills are not available in Regulated Markets. For more information, see [KB2593939: Regulated Markets AI Products/Skills Not Available](https://support.servicenow.com/kb?id=kb_article_view&sys_kb_id=e8d7cc82475aba90b7832920326d4362). Be sure to check for availability updates in future releases.
 
-You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/exploring-large-language-models.md).
+You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/exploring-large-language-models.md).
 
-**Note:** Currently, Now Assist for ITOM only analyzes tag-based, rule-based, and Log Analytics alert groups. For all other alert group types, it only analyzes the parent alert.
+**Note:** Currently, ServiceNow Otto for ITOM only analyzes tag-based, rule-based, and Log Analytics alert groups. For all other alert group types, it only analyzes the parent alert.
 
 ## Dependencies
 
-For a list of Now Assist for IT Operations Management \(ITOM\) plugin dependencies, see [Applications installed with Now Assist for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/app-now-assist-itom.md).
+For a list of ServiceNow Otto for IT Operations Management \(ITOM\) plugin dependencies, see [Applications installed with ServiceNow Otto for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/app-now-assist-itom.md).
 
 ## Troubleshoot and get help
 
@@ -69,7 +69,7 @@ For a list of Now Assist for IT Operations Management \(ITOM\) plugin dependenci
 
 This application uses artificial intelligence \(AI\) and machine learning, which are rapidly evolving fields of study that generate predictions based on patterns in data. As a result, this application may not always produce accurate, complete, or appropriate information. Furthermore, there is no guarantee that this application has been fully trained or tested for your use case. To mitigate these issues, it is your responsibility to test and evaluate your use of this application for accuracy, harm, and appropriateness for your use case, employ human oversight of output, and refrain from relying solely on AI-generated outputs for decision-making purposes. This is especially important if you choose to deploy this application in areas with consequential impacts such as healthcare, finance, legal, employment, security, or infrastructure. You agree to abide by [ServiceNow’s AI Acceptable Use Policy](https://www.servicenow.com/ai-acceptable-use-policy.html), which may be updated by ServiceNow.
 
-**Important:** Don't use Now Assist for ITOM for critical security alerts.
+**Important:** Don't use ServiceNow Otto for ITOM for critical security alerts.
 
 ## Data processing
 
@@ -84,5 +84,5 @@ For more information, see the [Now Assist documentation](https://raw.githubuserc
 **Related topics**  
 
 
-[Exploring Now Assist for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/alert-summary-now-assist.md)
+[Exploring ServiceNow Otto for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/alert-summary-now-assist.md)
 

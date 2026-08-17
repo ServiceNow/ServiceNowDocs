@@ -9,7 +9,7 @@ classification: usage-insights
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Using Usage Insights, User Experience Analytics, Platform Analytics]
+breadcrumb: [Using User Experience Analytics, User Experience Analytics, Platform Analytics]
 ---
 
 # Filtering pages
@@ -18,11 +18,11 @@ Drill down into usage data with standard and custom filters.
 
 Users with the analytics\_viewer, portal\_analytics\_viewer, mobile\_analytics\_viewer, core\_ui\_analytics\_viewer, now\_experience\_analytics\_viewer roles can filter pages that they have access to.
 
-Most pages in the Usage Insights application have visible default filters and an option to add other standard filters. To add additional user-related fields, see [Add user properties as filters to Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/uxa-add-filters-uxa-pages.md).
+Most pages in the User Experience Analytics application have visible default filters and an option to add other standard filters. To add additional user-related fields, see [Add user properties as filters to User Experience Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/uxa-add-filters-uxa-pages.md).
 
 ## Default filters
 
-On each page of Usage Insights, there are several default filters for constraining the information on the page. Most pages have filters for date range, user type, and country.
+On each page of User Experience Analytics, there are several default filters for constraining the information on the page. Most pages have filters for date range, user type, and country.
 
 \[Omitted image "uxa-indiv-app-filters.png"\] Alt text: Default filters for the individual application view in User Experience Analytics
 
@@ -47,7 +47,7 @@ The available additional filters are:
 -   Department
 -   VIP
 
-In addition to the default filters on the pages of the  Usage Insights application, you can add filters based on user properties. See [Add user properties as filters to Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/uxa-add-filters-uxa-pages.md) for details.
+In addition to the default filters on the pages of the  User Experience Analytics application, you can add filters based on user properties. See [Add user properties as filters to User Experience Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/uxa-add-filters-uxa-pages.md) for details.
 
-**Parent Topic:**[Using Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/using-uxa.md)
+**Parent Topic:**[Using User Experience Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/using-uxa.md)
 

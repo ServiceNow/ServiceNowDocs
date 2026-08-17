@@ -9,7 +9,7 @@ classification: privacy-workspace
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Now Assist for Privacy Management, Privacy Management, Governance, Risk, and Compliance]
+breadcrumb: [ServiceNow Otto for Privacy Management, Privacy Management, Governance, Risk, and Compliance]
 ---
 
 # Use Risk assessment summarization skill to generate summary
@@ -20,7 +20,7 @@ Use Risk assessment summarization skill to generate a risk assessment summary th
 
 **Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
-Install the Now Assist for Privacy Management application to generate a risk assessment summary. For more information, see [Install Now Assist for Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/privacy-install-now-assist.md).
+Install the ServiceNow Otto for Privacy Management application to generate a risk assessment summary. For more information, see [Install ServiceNow Otto for Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/privacy-install-now-assist.md).
 
 Role required: The sn\_prm\_gen\_ai.user role must be assigned manually to your role to generate the risk assessment summary.
 

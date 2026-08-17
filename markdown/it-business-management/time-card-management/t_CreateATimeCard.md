@@ -52,15 +52,15 @@ Time cards can be created automatically or manually.
 
 1.  Create the time card using one of the following options.
 
-<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d146601e207">
+<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d146189e207">
 
 Option
 
-</th><th align="left" id="d146601e210">
+</th><th align="left" id="d146189e210">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d146601e216">
+</th></tr></thead><tbody><tr><td id="d146189e216">
 
 **From the Time Sheet Portal**
 
@@ -70,7 +70,7 @@ Steps
 2.  Open the week on the **Calendar** for which you want to create the time card.
 
 
-</td></tr><tr><td id="d146601e246">
+</td></tr><tr><td id="d146189e246">
 
 **From a Time sheet related list**
 
@@ -80,7 +80,7 @@ Steps
 2.  In the **Time Cards** related list, click **New**.
 
 
-</td></tr><tr><td id="d146601e270">
+</td></tr><tr><td id="d146189e270">
 
 **From a Time sheet related link**
 

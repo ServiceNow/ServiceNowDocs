@@ -1,18 +1,18 @@
 ---
-title: Customize a case summarization skill in Now Assist for Public Sector Digital Services \(PSDS\)
-description: If you have the admin role, you can customize the case summarization skill in the Now Assist for Public Sector Digital Services \(PSDS\) application so that government service agents can use the generative AI skills in CSM Configurable Workspace and in Public Sector Digital Services Core UI.
+title: Customize a case summarization skill in ServiceNow Otto for Public Sector Digital Services \(PSDS\)
+description: If you have the admin role, you can customize the case summarization skill in the ServiceNow Otto for Public Sector Digital Services \(PSDS\) application so that government service agents can use the generative AI skills in CSM Configurable Workspace and in Public Sector Digital Services Core UI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/now-assist-psds-customize-case-summ.html
 release: yokohama
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 6
-breadcrumb: [Configure, Now Assist for PSDS, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Configure, ServiceNow Otto for PSDS, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Customize a case summarization skill in Now Assist for Public Sector Digital Services \(PSDS\)
+# Customize a case summarization skill in ServiceNow Otto for Public Sector Digital Services \(PSDS\)
 
-If you have the admin role, you can customize the case summarization skill in the Now Assist for Public Sector Digital Services \(PSDS\) application so that government service agents can use the generative AI skills in CSM Configurable Workspace and in Public Sector Digital Services Core UI.
+If you have the admin role, you can customize the case summarization skill in the ServiceNow Otto for Public Sector Digital Services \(PSDS\) application so that government service agents can use the generative AI skills in CSM Configurable Workspace and in Public Sector Digital Services Core UI.
 
 ## About this task
 
@@ -26,7 +26,7 @@ Role required: admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Features** to access the **Now Assist Features** tab of the Now Assist Admin console.
+1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Features** to access the **Now Assist Features** tab of the AI Admin Hub console.
 
 2.  In the dropdown, select **Customer** &gt; **PSDS**.
 
@@ -34,7 +34,7 @@ Role required: admin
 
 3.  On the Government case feature card, select **View Details**, then select **Case Summarization** under Active Skills.
 
-    By default, the case summarization skill is activated for Now Assist for PSDS. If it is not active, select **Activate Skill** in the All available Chat skills section of the case recommendation card.
+    By default, the case summarization skill is activated for ServiceNow Otto for PSDS. If it is not active, select **Activate Skill** in the All available Chat skills section of the case recommendation card.
 
 4.  In the Active skills section, locate the **Government case summarization** skill.
 
@@ -48,7 +48,7 @@ Role required: admin
 
 7.  In the General details step, fill in the fields.
 
-    For information about the inputs and triggers for each skill, see [Skill inputs and triggers for Now Assist for Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/now-assist-psds-skill-inputs.md).
+    For information about the inputs and triggers for each skill, see [Skill inputs and triggers for ServiceNow Otto for Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/now-assist-psds-skill-inputs.md).
 
     1.  Enter a name and description for the skill.
 

@@ -10,22 +10,22 @@ topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 6
 keywords: [Now Assist, generative AI]
-breadcrumb: [Exploring Now Assist for RPA Hub, Now Assist for RPA Hub, Robotic Process Automation \(RPA\) Hub, Data and Automation]
+breadcrumb: [Exploring ServiceNow Otto for RPA Hub, ServiceNow Otto for RPA Hub, Robotic Process Automation \(RPA\) Hub, Data and Automation]
 ---
 
 # Robotic Process Automation \(RPA\) bot generation
 
 Use the RPA bot generation skill to create automations, activities, and automation logic additions from text instructions and preview options. RPA developer \(sn\_rpa\_fdn.rpa\_developer\) or RPA admin \(sn\_rpa\_fdn.rpa\_admin\) roles are required to use this skill.
 
-These roles contain the Now Assist Admin user role \(sn\_nowassist\_admin.user\).
+These roles contain the AI Admin Hub user role \(sn\_nowassist\_admin.user\).
 
 ## Activation
 
-Install the Now Assist for RPA Hub application from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website. For more information, see [Configure Now Assist for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/configure-now-assist-rpa-hub.md).
+Install the ServiceNow Otto for RPA Hub application from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website. For more information, see [Configure ServiceNow Otto for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/configure-now-assist-rpa-hub.md).
 
 Then, turn on the RPA bot generation skill to use generative AI for creating automations and activities, and extending automation logic. For more information, see [Turn on the RPA bot generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/turn-rpa-bot-generation-skill.md).
 
-You must have a subscription for Now Assist for Creator and RPA Hub applications. For more information, see [Supporting information for Now Assist for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/now-assist-rpa-hub-supporting-info.md).
+You must have a subscription for ServiceNow Otto for Creator and RPA Hub applications. For more information, see [Supporting information for ServiceNow Otto for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/now-assist-rpa-hub-supporting-info.md).
 
 ## Example instructions
 

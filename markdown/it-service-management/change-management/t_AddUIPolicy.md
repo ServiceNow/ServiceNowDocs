@@ -7,7 +7,7 @@ release: yokohama
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Tutorial: add a new change management state, Reference section for Change Management, Change Management, IT Service Management]
 ---
@@ -26,7 +26,7 @@ Role required: admin
 
 2.  Open the form context menu and select **Configure** &gt; **UI Policies**.
 
-3.  Click **New**.
+3.  Select **New**.
 
 4.  Enter the following values on the **UI Policy** form.
 
@@ -67,7 +67,7 @@ Conditions
 
     The **UI Policy Actions** related list appears.
 
-6.  Click **New** in the **UI Policy Actions** related list.
+6.  Select **New** in the **UI Policy Actions** related list.
 
 7.  Enter the following values.
 
@@ -77,9 +77,7 @@ Conditions
     |Mandatory|True|
     |Visible|True|
 
-8.  Click **Submit** to create the UI Policy action and return to the **UI Policy** form.
-
-    \[Omitted image "NewStateTutUIPolicy1.png"\] Alt text: New UI policy record
+8.  Select **Submit** to create the UI Policy action and return to the **UI Policy** form.
 
 
 **Parent Topic:**[Tutorial: add a new change management state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/t_AddNewStateTutorial.md)

@@ -1,6 +1,6 @@
 ---
-title: Configuring Now Assist for Security Incident Response
-description: The Now Assist for Security Incident Response application is supported in the Security Incident Response Workspace and in the legacy Core UI \(UI16\). Use the guided setup in the Now Assist Admin console to configure Now Assist for Security Incident Response.
+title: Configuring ServiceNow Otto for Security Incident Response \(SIR\)
+description: The ServiceNow Otto for Security Incident Response \(SIR\) application is supported in the Security Incident Response Workspace and in the legacy Core UI \(UI16\). Use the guided setup in the AI Admin Hub console to configure ServiceNow Otto for Security Incident Response \(SIR\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/now-assist-for-security-incident-response-sir/configuring-now-assist-for-security-operations.html
 release: yokohama
@@ -9,24 +9,24 @@ classification: now-assist-for-security-incident-response-sir
 topic_type: concept
 last_updated: "2026-01-15"
 reading_time_minutes: 2
-breadcrumb: [Now Assist for Security Incident Response, Security Operations]
+breadcrumb: [ServiceNow Otto for Security Incident Response \(SIR\), Security Operations]
 ---
 
-# Configuring Now Assist for Security Incident Response
+# Configuring ServiceNow Otto for Security Incident Response \(SIR\)
 
-The Now Assist for Security Incident Response application is supported in the Security Incident Response Workspace and in the legacy Core UI \(UI16\). Use the guided setup in the Now Assist Admin console to configure Now Assist for Security Incident Response.
+The ServiceNow Otto for Security Incident Response \(SIR\) application is supported in the Security Incident Response Workspace and in the legacy Core UI \(UI16\). Use the guided setup in the AI Admin Hub console to configure ServiceNow Otto for Security Incident Response \(SIR\).
 
 ## Configuration overview
 
 By sharing data with the ServiceNow® AI development program, you provide relevant data to help improve prediction accuracy, user experience, tailor products to your business needs, and reduce hallucinations for your activated Now Assist skills.
 
-You can opt out of an ServiceNow instance from sharing data from the Now Assist Admin console. See [Opt out of data sharing for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md). Repeat the opt-out process for all instances that use the Now Assist functionality.
+You can opt out of an ServiceNow instance from sharing data from the AI Admin Hub console. See [Opt out of data sharing for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md). Repeat the opt-out process for all instances that use the Now Assist functionality.
 
-Use the Now Assist Admin console to configure Now Assist for Security Incident Response. This console contains everything to install the applications and configure the generative AI skills. For additional information, see [Configuring Now Assist settings and features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configuring-na-landing.md).
+Use the AI Admin Hub console to configure ServiceNow Otto for Security Incident Response \(SIR\). This console contains everything to install the applications and configure the generative AI skills. For additional information, see [Configuring Now Assist settings and features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configuring-na-landing.md).
 
-**Note:** When you update the Now Assist for Security Incident Response applications, its dependency applications are automatically updated.
+**Note:** When you update the ServiceNow Otto for Security Incident Response \(SIR\) applications, its dependency applications are automatically updated.
 
-The following table lists the features and skills that you can access from the Now Assist Admin console.
+The following table lists the features and skills that you can access from the AI Admin Hub console.
 
 <table id="table_igy_kpc_1cc"><thead><tr><th>
 
@@ -38,7 +38,7 @@ Security incident skills
 
 </th></tr></thead><tbody><tr><td rowspan="5">
 
-Now Assist for Security Incident Response
+ServiceNow Otto for Security Incident Response \(SIR\)
 
 </td><td>
 
@@ -69,13 +69,13 @@ Security Incident Quality Assessment
 </td></tr></tbody>
 </table>1.  [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 
-    Install the Now Assist for Security Incident Response application \(sn\_sec\_gen\_ai\) and Security Incident Response Core \[sn\_si\] applications.
+    Install the ServiceNow Otto for Security Incident Response \(SIR\) application \(sn\_sec\_gen\_ai\) and Security Incident Response Core \[sn\_si\] applications.
 
     **Note:**
 
-    When you update the Now Assist for Security Incident Response application, its dependency applications are automatically updated.
+    When you update the ServiceNow Otto for Security Incident Response \(SIR\) application, its dependency applications are automatically updated.
 
-2.  [Configure a skill for Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/now-assist-for-security-incident-response-sir/activate-skills-for-now-assist-security-incident.md)
+2.  [Configure a skill for ServiceNow Otto for Security Incident Response \(SIR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/now-assist-for-security-incident-response-sir/activate-skills-for-now-assist-security-incident.md)
 
     You can deactivate, configure, and reactivate generative AI skills and agentic workflows in the Guided Setup.
 

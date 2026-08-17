@@ -1,6 +1,6 @@
 ---
-title: Configure the Zero Copy Connector for ERP credentials and connection
-description: Connect Zero Copy Connector for ERP to a system of record \(such as SAP\) directly or using a load balancer to enable access to the ERP \(Enterprise Resource Planning\) system. You must select an existing, configured connection when you set up an ERP system.
+title: Configure the ERP Canvas credentials and connection
+description: Connect ERP Canvas to a system of record \(such as SAP\) directly or using a load balancer to enable access to the ERP \(Enterprise Resource Planning\) system. You must select an existing, configured connection when you set up an ERP system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-integration-framework/set-up-erp-integration-connection.html
 release: yokohama
@@ -9,26 +9,26 @@ classification: erp-integration-framework
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Configuring Zero Copy Connector for ERP, Zero Copy Connector for ERP, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Configuring ERP Canvas, ERP Canvas, Building low-code applications, Developing your application, Building applications]
 ---
 
-# Configure the Zero Copy Connector for ERP credentials and connection
+# Configure the ERP Canvas credentials and connection
 
-Connect Zero Copy Connector for ERP to a system of record \(such as SAP\) directly or using a load balancer to enable access to the ERP \(Enterprise Resource Planning\) system. You must select an existing, configured connection when you set up an ERP system.
+Connect ERP Canvas to a system of record \(such as SAP\) directly or using a load balancer to enable access to the ERP \(Enterprise Resource Planning\) system. You must select an existing, configured connection when you set up an ERP system.
 
 ## Before you begin
 
-You must first create the alias for Zero Copy Connector for ERP. For more information, see [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/connection-alias.md).
+You must first create the alias for ERP Canvas. For more information, see [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/connection-alias.md).
 
 Role required: admin
 
 ## About this task
 
-Zero Copy Connector for ERP and ERP-CM currently support ECC \(minimum SAP Netweaver 7.31\) and S/4HANA SAP systems.
+ERP Canvas and ERP-CM currently support ECC \(minimum SAP Netweaver 7.31\) and S/4HANA SAP systems.
 
-**Note:** The credentials you specify for the Zero Copy Connector for ERP connection must match the service user credentials in the system of record.
+**Note:** The credentials you specify for the ERP Canvas connection must match the service user credentials in the system of record.
 
-Alternatively, you can run Guided Setup. For more information, see [Run Guided Setup for Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-guided-setup.md).
+Alternatively, you can run Guided Setup. For more information, see [Run Guided Setup for ERP Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-guided-setup.md).
 
 ## Procedure
 
@@ -40,18 +40,18 @@ Alternatively, you can run Guided Setup. For more information, see [Run Guided S
 
     |Option|Description|
     |------|-----------|
-    |**Create an RFC connection and credential**|Select a **Configuration Template** \(for example, Zero Copy Connector for ERP SAP\) and then select **Create New Connection &amp; Credential** from the Related Links.|
+    |**Create an RFC connection and credential**|Select a **Configuration Template** \(for example, ERP Canvas SAP\) and then select **Create New Connection &amp; Credential** from the Related Links.|
     |**Create an HTTP connection and credential \(for OData to connect an external client to SAP\)**|Select **New**.|
 
 4.  On the form, fill in the fields.
 
     You must specify a connection and login credential to be used simultaneously. That is, the connection you configure uses the defined login credentials for the connection.
 
-    For a description of the field values, see [Zero Copy Connector for ERP connection and credentials field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-system-connection-form-details.md). If you're creating an HTTP connection, see [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/create-https-connection.md) for field and MID Server details.
+    For a description of the field values, see [ERP Canvas connection and credentials field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-system-connection-form-details.md). If you're creating an HTTP connection, see [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/create-https-connection.md) for field and MID Server details.
 
-5.  Set up the Zero Copy Connector for ERP connection.
+5.  Set up the ERP Canvas connection.
 
-    1.  Navigate to **All** &gt; **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home**.
+    1.  Navigate to **All** &gt; **ERP Canvas** &gt; **ERP Canvas Home**.
 
     2.  Open the ERP systems list by selecting the systems icon \(\[Omitted image "erp-systems-icon-sidebar.png"\] Alt text: ERP systems icon\) in the side panel.
 
@@ -66,5 +66,5 @@ Alternatively, you can run Guided Setup. For more information, see [Run Guided S
     6.  Select the selection icon \(\[Omitted image "selection-check-icon.png"\] Alt text: Selection icon\).
 
 
-**Parent Topic:**[Configuring Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-integration-configuration-overview.md)
+**Parent Topic:**[Configuring ERP Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-integration-configuration-overview.md)
 

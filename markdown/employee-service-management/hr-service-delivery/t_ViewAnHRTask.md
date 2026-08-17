@@ -442,15 +442,15 @@ Enter notes about the case to correspond with other HR agents. These notes are n
     -   Click **View Responses** to view the feedback submitted by an employee via the form sent through the HR task of type **Collect Employee Input**.
 5.  Perform any of the following actions.
 
-<table id="choicetable_fp3_2wv_rr"><thead><tr><th align="left" id="d191855e1024">
+<table id="choicetable_fp3_2wv_rr"><thead><tr><th align="left" id="d191236e1024">
 
 Action
 
-</th><th align="left" id="d191855e1027">
+</th><th align="left" id="d191236e1027">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d191855e1033">
+</th></tr></thead><tbody><tr><td id="d191236e1033">
 
 **Assign to me**
 
@@ -458,7 +458,7 @@ Description
 
 Click
 
-</td></tr><tr><td id="d191855e1042">
+</td></tr><tr><td id="d191236e1042">
 
 **Close a task**
 
@@ -466,7 +466,7 @@ Click
 
 Enter information in the **Work notes** field and other fields as needed, and change the **State** to **Closed Complete**.**Note:** All HR tasks must be closed before the parent HR case can be closed.
 
-</td></tr><tr><td id="d191855e1063">
+</td></tr><tr><td id="d191236e1063">
 
 **Clone task**
 
@@ -474,7 +474,7 @@ Enter information in the **Work notes** field and other fields as needed, and ch
 
 Click the **Clone Task** related link. Enter the new task information in the task form and click **Update**.
 
-</td></tr><tr><td id="d191855e1078">
+</td></tr><tr><td id="d191236e1078">
 
 **Cancel the task**
 
@@ -482,7 +482,7 @@ Click the **Clone Task** related link. Enter the new task information in the tas
 
 Click **Cancel Task** in the form header.
 
-</td></tr><tr><td id="d191855e1091">
+</td></tr><tr><td id="d191236e1091">
 
 **Review the progress of sibling tasks**
 
@@ -490,7 +490,7 @@ Click **Cancel Task** in the form header.
 
 The **Sibling Tasks** tab shows all tasks under the same case. Click a task number to see the details.
 
-</td></tr><tr><td id="d191855e1103">
+</td></tr><tr><td id="d191236e1103">
 
 **HR Document Acknowledgement**
 

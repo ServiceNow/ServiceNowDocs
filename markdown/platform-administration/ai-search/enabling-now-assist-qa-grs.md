@@ -33,7 +33,7 @@ The [Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNow
 
 The AI Search for Next Experience application must be installed and enabled on your instance. For more information about the application, see [AI Search for Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/ais-next-experience-app.md).
 
-The Now Assist for Search application must be installed on your instance. For details on installing this application from the Now Assist Admin console, see [Install Now Assist in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/install-now-assist-ais.md).
+The Now Assist for Search application must be installed on your instance. For details on installing this application from the AI Admin Hub console, see [Install Now Assist in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/install-now-assist-ais.md).
 
 Role required: ais\_admin
 
@@ -41,7 +41,7 @@ Role required: ais\_admin
 
 As a search administrator, you can enable agentic AI model answer generation for Knowledge article results in global searches by adding the Now Assist Q&amp;A Genius Result configuration to the Next Experience Search Configuration search profile used by [AI Search for Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/ais-next-experience-app.md).
 
-**Note:** Linking the Now Assist Q&amp;A Genius Result configuration to the Next Experience Search Configuration search profile changes the status of the Now Assist Q&amp;A Genius Results skill to **Active** in the Now Assist Admin console. The skill remains active as long as any search profile includes a link to the Now Assist Q&amp;A Genius Result configuration.
+**Note:** Linking the Now Assist Q&amp;A Genius Result configuration to the Next Experience Search Configuration search profile changes the status of the Now Assist Q&amp;A Genius Results skill to **Active** in the AI Admin Hub console. The skill remains active as long as any search profile includes a link to the Now Assist Q&amp;A Genius Result configuration.
 
 When you enable Now Assist Q&amp;A Genius Results in global search, they're enabled for all users.
 
@@ -111,5 +111,5 @@ Specify the evaluation order for the Now Assist Q&amp;A Genius Result configurat
 
 The Now Assist Q&amp;A Genius Result configuration is enabled for global searches.
 
-In the Now Assist Admin console, the status for the Now Assist Q&amp;A Genius Results skill is **Active**.
+In the AI Admin Hub console, the status for the Now Assist Q&amp;A Genius Results skill is **Active**.
 

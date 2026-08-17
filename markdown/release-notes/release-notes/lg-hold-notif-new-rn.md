@@ -18,50 +18,50 @@ The ServiceNow® Legal Hold Notification application helps organizations manage 
 -   Enhance custodian engagement by sending them legal hold notifications and reminders to ensure timely acknowledgment and accountability throughout the legal hold process.
 -   Reduce legal risk compliance with a controlled closure process. When the legal hold is officially closed, the Legal Hold Notification application stores detailed information about the preserved data.
 
-See [Legal Hold Notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/lg-hold-notif-landing-page.md) for more information.
+See  for more information.
 
 **Important:** Legal Hold Notification is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## Legal Hold Notification features
 
--   **[Legal hold matter management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/lg-hold-notif-landing-page.md)**
+-   **Legal hold matter management**
 
     Manage legal hold matters by submitting, updating, tracking, and closing them through a streamlined process that reduces effort and ensures organizational compliance.
 
 
--   **[Submitting legal hold matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/submit-lg-hold-notif-matter.md)**
+-   **Submitting legal hold matter**
 
     Submit a legal hold matter to initiate the data preservation process when a legal hold is issued.
 
 
--   **[Issuing legal hold notice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/issue-lg-hold-notif-matter.md)**
+-   **Issuing legal hold notice**
 
     Issue a legal hold notice to custodians to initiate timely data preservation, ensure accountability, and reduce the risk of data loss.
 
 
--   **[Legal hold notice acknowledgement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/acknow-lg-hold-notif.md)**
+-   **Legal hold notice acknowledgement**
 
     Record custodian acknowledgments of legal hold notices to confirm their responsibility to preserve data and ensure accountability.
 
 
--   **[Assign new custodians](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/add-new-custodian-lg-hold-notif.md)**
+-   **Assign new custodians**
 
     Assign newly identified custodians to existing legal hold matters to ensure comprehensive and up-to-date data preservation.
 
 
--   **[Acknowledge reminders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/send-reminder-for-acknowledgment.md)**
+-   **Acknowledge reminders**
 
     Send reminders to custodians who haven’t acknowledged legal hold notices to ensure accountability in data preservation.
 
 
--   **[Closing legal hold matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/close-lg-hold-notif-matter.md)**
+-   **Closing legal hold matter**
 
     Close a legal hold matter once the hold is lifted to complete the data preservation life cycle.
 
 
 ## Activation information
 
-Install Legal Hold Notification by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install Legal Hold Notification by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Browser requirements
 
@@ -69,15 +69,15 @@ The Legal Hold Notification application works with the latest stable versions of
 
 ## Related ServiceNow applications and features
 
--   **[Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/legal-management-overview.md)**
+-   ****
 
     Connect employees and legal teams through a unified platform with intelligent workflows, streamlining legal requests and managing complex matters efficiently via the Legal Counsel Center.
 
--   **[Legal Service Delivery Practice Applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/lsd-practice-app-landing.md)**
+-   ****
 
     Legal practice applications in the Legal Service Delivery suite provide solutions for the specific needs of different legal practice areas.
 
--   **[Now Assist for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/now-assist-lsd-landing.md)**
+-   ****
 
     Summarize a legal request or legal matter to understand the context, refresh the summary, and post the summary to the work notes.
 

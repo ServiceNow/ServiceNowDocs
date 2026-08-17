@@ -109,5 +109,5 @@ Stores modified records that are pushed from a ServiceNow application into a thi
 
 [Widgets to display tasks from a third-party system]()
 
-[Now Assist for HR Service Delivery \(HRSD\) Virtual Agent topic mapping for Enterprise Service Management Integrations Framework]()
+[ServiceNow Otto for HR Service Delivery \(HRSD\) Virtual Agent topic mapping for Enterprise Service Management Integrations Framework]()
 

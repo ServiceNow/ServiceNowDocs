@@ -26,15 +26,15 @@ Role required: it\_project\_manager
 
 2.  Migrate baselines using one of the following options.
 
-<table id="choicetable_v4j_f5z_d1c"><thead><tr><th align="left" id="d162189e85">
+<table id="choicetable_v4j_f5z_d1c"><thead><tr><th align="left" id="d161779e85">
 
 Choice
 
-</th><th align="left" id="d162189e88">
+</th><th align="left" id="d161779e88">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d162189e94">
+</th></tr></thead><tbody><tr><td id="d161779e94">
 
 **Using list actions**
 
@@ -45,7 +45,7 @@ Description
 3.  On the migrate budget confirmation window, select **OK**.
 
 
-</td></tr><tr><td id="d162189e124">
+</td></tr><tr><td id="d161779e124">
 
 **Using related links**
 
@@ -56,7 +56,7 @@ Description
 3.  On the migrate budget confirmation window, select **OK**.
 
 
-</td></tr><tr><td id="d162189e151">
+</td></tr><tr><td id="d161779e151">
 
 **Activate a scheduled job**
 

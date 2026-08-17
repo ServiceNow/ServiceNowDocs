@@ -487,7 +487,7 @@ Classifies the prompts, or instructions, that are given to AI models to generate
 
 You must request the Expanded Model and Asset Classes application from the ServiceNow Store.
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all available applications and for information about submitting requests to the Store. For cumulative release notes information for all released applications, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all available applications and for information about submitting requests to the Store. For cumulative release notes information for all released applications, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 1.  From a web browser, go to the [ServiceNow Store](https://store.servicenow.com/).
 2.  Log in using your HI credentials.

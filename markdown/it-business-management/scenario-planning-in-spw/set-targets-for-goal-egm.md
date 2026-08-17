@@ -31,21 +31,21 @@ A SMART target can be defined as S = Specific, M = Measurable, A = Attainable, R
 -   Only the owner or contributors of the goal can create targets for the goal.
 -   You can also restrict the access for a target record to the specific users by enabling the **Confidential** field on the Target form if the ServiceNow® ESG Management application is installed.
 
-**Note:** You can generate a target using the Target generation skill, if the Now Assist for SPM application is installed. For details, see [Generate targets for a goal using Now Assist for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/generate-targets-for-goal-spw.md).
+**Note:** You can generate a target using the Target generation skill, if the ServiceNow Otto for SPM application is installed. For details, see [Generate targets for a goal using ServiceNow Otto for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/generate-targets-for-goal-spw.md).
 
 ## Procedure
 
 1.  Create a target for a goal using one of the following options.
 
-<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d237547e121">
+<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d237174e121">
 
 Option
 
-</th><th align="left" id="d237547e124">
+</th><th align="left" id="d237174e124">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d237547e130">
+</th></tr></thead><tbody><tr><td id="d237174e130">
 
 **From the Goals view**
 
@@ -57,7 +57,7 @@ Steps
 4.  Next to the goal that you want to create a target for, select the row context menu icon \(\[Omitted image "action-menu-icon.png"\] Alt text: Row context menu icon.\) and select **Add target**.
 
 
-</td></tr><tr><td id="d237547e178">
+</td></tr><tr><td id="d237174e178">
 
 **From the Targets tab**
 

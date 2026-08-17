@@ -7,7 +7,7 @@ release: yokohama
 product: Task Mining
 classification: task-mining
 topic_type: task
-last_updated: "2025-05-16"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Configure, Task Mining, Platform Analytics]
 ---
@@ -35,7 +35,7 @@ The Event Field Replacement Value anonymization value affects the output of this
 
 1.  Navigate to **Workspaces** &gt; **Task Mining Workspace**.
 
-2.  Select the Configuration icon\(\[Omitted image "task-mining-configuration-icon.png"\] Alt text: Task Mining Configuration icon\).
+2.  Select the Configuration icon \[Omitted image "task-mining-configuration-icon.png"\].
 
 3.  Select **Event Filter**.
 

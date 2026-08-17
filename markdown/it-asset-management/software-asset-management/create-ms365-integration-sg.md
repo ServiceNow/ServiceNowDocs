@@ -40,7 +40,7 @@ Complete the steps in the [Request Software Asset Management](https://raw.github
 3.  Integrate with an inventory tool for installation usage data.
 
     -   For integrating with Microsoft SCCM, complete the steps in the [Service Graph Connector for Microsoft SCCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/cmdb-integration-sccm.md) topic and all subtopics.
-    -   For integrating with ServiceNow Agent Client Collector \(ACC\), complete the steps in the [Agent Client Collector installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/acc-installation.md) topic and all subtopics.
+    -   For integrating with ServiceNow Agent Client Collector \(ACC\), complete the steps in the [Agent Client Collector Installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/acc-installation.md) topic and all subtopics.
 
         **Note:** ServiceNow Agent Client Collector \(ACC\) is a separately licensed IT Operations Management \(ITOM\) product. For details, contact your ServiceNow account executive.
 

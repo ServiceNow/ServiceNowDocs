@@ -1,6 +1,6 @@
 ---
-title: Configure Now Assist for Strategic Portfolio Management \(SPM\)
-description: If you have the admin role, you can configure the Now Assist for Strategic Portfolio Management \(SPM\) application to enable generative AI skills in Strategic Planning, Project Workspace, Demand Management, or Enterprise Agile Planning.
+title: Configure ServiceNow Otto for Strategic Portfolio Management
+description: If you have the admin role, you can configure the ServiceNow Otto for Strategic Portfolio Management application to enable generative AI skills in Strategic Planning, Project Workspace, Demand Management, or Enterprise Agile Planning.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/configure-now-assist-for-spm.html
 release: yokohama
@@ -10,12 +10,12 @@ topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 3
 keywords: [Now Assist for SPM configuration, Now Assist for SPM features and skills, Choose inputs, Activate and configure the skills, Project Gen AI Docs, Multi feedback summarization, Conversational experiences for demand creation]
-breadcrumb: [Now Assist for Strategic Portfolio Management \(SPM\), Strategic Portfolio Management]
+breadcrumb: [ServiceNow Otto for Strategic Portfolio Management, Strategic Portfolio Management]
 ---
 
-# Configure Now Assist for Strategic Portfolio Management \(SPM\)
+# Configure ServiceNow Otto for Strategic Portfolio Management
 
-If you have the admin role, you can configure the Now Assist for Strategic Portfolio Management \(SPM\) application to enable generative AI skills in Strategic Planning, Project Workspace, Demand Management, or Enterprise Agile Planning.
+If you have the admin role, you can configure the ServiceNow Otto for Strategic Portfolio Management application to enable generative AI skills in Strategic Planning, Project Workspace, Demand Management, or Enterprise Agile Planning.
 
 ## Before you begin
 
@@ -27,7 +27,7 @@ Role required: admin
 
 ## About this task
 
-The following table lists the features and skills that you can access from the Now Assist Admin console.
+The following table lists the features and skills that you can access from the AI Admin Hub console.
 
 <table id="table_u5z_gfb_fbc"><thead><tr><th>
 
@@ -90,7 +90,7 @@ Product idea, Demand, Epic, Project, Capability, Feature, or Story
 Refine records
 
 </td></tr></tbody>
-</table>The Now Assist for SPM application and conversational experiences for demand creation system requirements are as follows:
+</table>The ServiceNow Otto for SPM application and conversational experiences for demand creation system requirements are as follows:
 
 -   Now Assist for Platform
 -   Strategic Planning
@@ -100,9 +100,9 @@ Refine records
 
 ## Procedure
 
-1.  Install the Now Assist for Strategic Portfolio Management \(SPM\) plugin \(sn\_spm\_gen\_ai\).
+1.  Install the ServiceNow Otto for Strategic Portfolio Management plugin \(sn\_spm\_gen\_ai\).
 
-    -   For information about the application dependencies, see [Supporting information for Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/supporting-info-now-assist-spm.md).
+    -   For information about the application dependencies, see [Supporting information for ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/supporting-info-now-assist-spm.md).
     -   For information about the installation process, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 2.  Navigate to **Now Assist Admin** &gt; **Now Assist Skills**.
 
@@ -110,15 +110,15 @@ Refine records
 
 4.  Choose your Now Assist skill and activate it.
 
-<table id="choicetable_vkp_mtx_mhc"><thead><tr><th align="left" id="d230194e326">
+<table id="choicetable_vkp_mtx_mhc"><thead><tr><th align="left" id="d229821e326">
 
 Option
 
-</th><th align="left" id="d230194e329">
+</th><th align="left" id="d229821e329">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d230194e335">
+</th></tr></thead><tbody><tr><td id="d229821e335">
 
 **Skill tiles with Turn on option**
 
@@ -133,7 +133,7 @@ Steps
 4.  Select **Turn on** to activate the skill.
 
 
-</td></tr><tr><td id="d230194e371">
+</td></tr><tr><td id="d229821e371">
 
 **Skill tiles with Activate skill option**
 
@@ -141,7 +141,7 @@ Steps
 
 1.  Select **Activate skill**
 2.  **Choose inputs**:
-    -   Review the data source, such as the tables and fields. The inputs for most skills are selected by default and can't be modified. For information about the inputs for each skill, see [Skill inputs for Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/skill-inputs-for-now-assist-for-spm.md).
+    -   Review the data source, such as the tables and fields. The inputs for most skills are selected by default and can't be modified. For information about the inputs for each skill, see [Skill inputs for ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/skill-inputs-for-now-assist-for-spm.md).
 
 \[Omitted image "inputs-feedback.png"\] Alt text: Choose inputs for the multi feedback summarization skill in the Choose Input screen.
 
@@ -172,9 +172,9 @@ The skill is configured and activated.
 **Related topics**  
 
 
-[Using Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/using-now-assist-for-spm.md)
+[Using ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/using-now-assist-for-spm.md)
 
-[Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configuring-now-assist.md)
+[AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configuring-now-assist.md)
 
 [Configuring Now Assist settings and features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configuring-na-landing.md)
 

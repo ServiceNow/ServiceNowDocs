@@ -1,6 +1,6 @@
 ---
 title: Calibrate fingerprint-based discovery
-description: Fine-tune discovering applications based on processes, if the discovery results are not satisfactory.Fingerprint-based discovery relies on Predictive Intelligence for generating suggestions for discovery. If the Application Fingerprints dashboard does not display any suggestions, ensure that the Predictive Intelligence is configured correctly.Adjust definitions of process-based suggestions before starting discovery. Typically, you need to fine-tune automatically generated suggestions if the accuracy is less than 100%. Predictive Intelligence creates suggestions and provides the accuracy estimate for each suggestion. The lack of accuracy may result in the failure to discover required applications or the discovery of wrong applications in addition to the correctly discovered applications.Fine-tune the regular expression in the classifier rule to make discovery results more precise. Predictive Intelligence extracts regular expressions from processes and assigns them to classifier rules as part of creating suggestions. If you are not satisfied with the discovery results or the suggestion accuracy is lower than 100%, modify the regular expression.By default, the fingerprint-based discovery is enabled. Disable application discovery based on processes, if Predictive Intelligence does not generate enough processes.
+description: Fine-tune discovering applications based on processes, if the discovery results are not satisfactory.Fingerprint-based discovery relies on Predictive Intelligence for generating suggestions for discovery. If the Application Fingerprints dashboard does not display any suggestions, verify that the Predictive Intelligence is configured correctly.Adjust definitions of process-based suggestions before starting discovery. Typically, you need to fine-tune automatically generated suggestions if the accuracy is less than 100%. Predictive Intelligence creates suggestions and provides the accuracy estimate for each suggestion. The lack of accuracy may result in the failure to discover required applications or the discovery of wrong applications in addition to the correctly discovered applications.Fine-tune the regular expression in the classifier rule to make discovery results more precise. Predictive Intelligence extracts regular expressions from processes and assigns them to classifier rules as part of creating suggestions. If you're not satisfied with the discovery results or the suggestion accuracy is lower than 100%, modify the regular expression.By default, the fingerprint-based discovery is enabled. Disable application discovery based on processes, if Predictive Intelligence does not generate enough processes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/discovery/calibrate-process-based-discovery.html
 release: yokohama
@@ -18,9 +18,9 @@ Fine-tune discovering applications based on processes, if the discovery results 
 
 Modify default settings for fingerprint-based discovery if this feature does not generate any suggestions or does not generate. In addition, you may also fine-tune the generated suggestions to make them relevant and useful.
 
-## Ensure that the fingerprint-based discovery generates suggestions
+## Verify fingerprint-based discovery generates suggestions
 
-Fingerprint-based discovery relies on Predictive Intelligence for generating suggestions for discovery. If the **Application Fingerprints** dashboard does not display any suggestions, ensure that the Predictive Intelligence is configured correctly.
+Fingerprint-based discovery relies on Predictive Intelligence for generating suggestions for discovery. If the **Application Fingerprints** dashboard does not display any suggestions, verify that the Predictive Intelligence is configured correctly.
 
 ### Before you begin
 
@@ -34,7 +34,7 @@ If the **Application Fingerprints** dashboard does not display any suggestions, 
 
 ### Procedure
 
-1.  Ensure that Predictive Intelligence is installed and active.
+1.  Verify that Predictive Intelligence is installed and active.
 
     1.  Navigate to **System Definition** &gt; **Plugins**.
 
@@ -44,21 +44,21 @@ If the **Application Fingerprints** dashboard does not display any suggestions, 
 
         \[Omitted image "pi-installed.png"\] Alt text: Checking the Predictive Intelligence plugin status
 
-        If Predictive Intelligence is not installed, click the **Install** button.
+        If Predictive Intelligence is not installed, select the **Install** button.
 
-    4.  Click the **Predictive Intelligence** tile.
+    4.  Select the **Predictive Intelligence** tile.
 
     5.  On the Predictive Intelligence form, verify that the **Status** is **Active**.
 
-        If the status is **Inactive**, click the **Activate/Repair** link under **Related Links**.
+        If the status is **Inactive**, select the **Activate/Repair** link under **Related Links**.
 
-2.  Ensure that the scheduled job controlling the fingerprint-based discovery, is enabled and configured correctly.
+2.  Verify that the scheduled job controlling the fingerprint-based discovery, is enabled and configured correctly.
 
     1.  Navigate to **System Definition** &gt; **Scheduled Jobs**.
 
     2.  Select the **Applications suggestion - ITOM Autodisco** scheduled job from the list.
 
-    3.  Ensure that the **Active** check box is selected.
+    3.  Confirm that the **Active** check box is selected.
 
     4.  Check that the discovery frequency is set to one hour as shown in the following example:
 
@@ -141,9 +141,9 @@ Role required: discovery\_admin
 9.  If you are not sure how to change the classifier rule, fine-tune it after performing the initial discovery as described in [Adjust regular expression used for fingerprint-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/calibrate-process-based-discovery.md).
 
 
-## Adjust regular expression used for fingerprint-based discovery
+## Adjust the regular expression for fingerprint-based discovery
 
-Fine-tune the regular expression in the classifier rule to make discovery results more precise. Predictive Intelligence extracts regular expressions from processes and assigns them to classifier rules as part of creating suggestions. If you are not satisfied with the discovery results or the suggestion accuracy is lower than 100%, modify the regular expression.
+Fine-tune the regular expression in the classifier rule to make discovery results more precise. Predictive Intelligence extracts regular expressions from processes and assigns them to classifier rules as part of creating suggestions. If you're not satisfied with the discovery results or the suggestion accuracy is lower than 100%, modify the regular expression.
 
 ### Before you begin
 
@@ -153,11 +153,11 @@ Role required: discovery\_admin
 
 1.  Navigate to **All** &gt; **Application** &gt; **Module**.
 
-2.  Click **Discover Application**.
+2.  Select **Discover Application**.
 
     The fingerprint-based discovery finds the application and creates a CI class, a classifier, and a pattern.
 
-3.  On the **Application Suggestions** list, click the newly created process classifier.
+3.  On the **Application Suggestions** list, select the newly created process classifier.
 
     The Process Classification form opens.
 
@@ -167,9 +167,9 @@ Role required: discovery\_admin
 
     In this example, it is **."-DweblogicName=."**
 
-5.  Click **Padlock** icon \[Omitted image "lock-icon.png"\] Alt text: Padlock icon next to **Test with**.
+5.  Select **Padlock** icon \[Omitted image "lock-icon.png"\] Alt text: Padlock icon next to **Test with**.
 
-6.  Click the **Look up** icon \[Omitted image "SearchIconHeisenberg.png"\] Alt text: Search icon to select the server on which you want to test additional regular expressions.
+6.  Select the **Look up** icon \[Omitted image "SearchIconHeisenberg.png"\] Alt text: Search icon to select the server on which you want to test additional regular expressions.
 
     The list of all discovered servers opens.
 

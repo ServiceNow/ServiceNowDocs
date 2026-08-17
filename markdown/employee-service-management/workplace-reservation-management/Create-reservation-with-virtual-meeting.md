@@ -26,15 +26,15 @@ Role required: sn\_wsd\_core.workplace\_user
 
 1.  Navigate to the Make a Reservation page from any of the following starting points.
 
-<table id="choicetable_oxk_tfj_zsb"><thead><tr><th align="left" id="d164009e68">
+<table id="choicetable_oxk_tfj_zsb"><thead><tr><th align="left" id="d163390e68">
 
 Location
 
-</th><th align="left" id="d164009e71">
+</th><th align="left" id="d163390e71">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d164009e77">
+</th></tr></thead><tbody><tr><td id="d163390e77">
 
 **From application navigator**
 
@@ -42,7 +42,7 @@ Steps
 
 Navigate to **Workplace Reservation Management** &gt; **Portal** &gt; **New Reservation**.
 
-</td></tr><tr><td id="d164009e98">
+</td></tr><tr><td id="d163390e98">
 
 **Employee Center**
 

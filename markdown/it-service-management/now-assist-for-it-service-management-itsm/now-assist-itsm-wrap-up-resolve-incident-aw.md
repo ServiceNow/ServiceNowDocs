@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2025-08-18"
 reading_time_minutes: 6
 keywords: [Now Assist, agentic AI, generative AI, Gen AI]
-breadcrumb: [Agentic AI in the Incident Management application, Use agentic AI in IT Service Management, Now Assist for IT Service Management \(ITSM\), IT Service Management]
+breadcrumb: [Agentic AI in the Incident Management application, Use agentic AI in IT Service Management, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 
 # IT Service Management AI agent collection Wrap-up and resolve incident agentic workflow
@@ -91,10 +91,10 @@ To use the Wrap-up and resolve incident agentic workflow, you must confirm or pe
 1.  The Now Assist for IT Service Management plugin \(sn\_itsm\_gen\_ai\) plugin is installed and configured.
 2.  Navigate to **All** &gt; **Now Assist admin** &gt; **Skills** and enable the following skills and options:
 
-    1.  On the **Now Assist skills** tab, select **ITSM** and then activate the Resolution notes generation and KB generation skill. For more information, see [Skill inputs and triggers for Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-skills.md).
+    1.  On the **Now Assist skills** tab, select **ITSM** and then activate the Resolution notes generation and KB generation skill. For more information, see [Skill inputs and triggers for ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-skills.md).
     2.  On the **Now Assist Experience** tab, enable the Now Assist panel for users.
     3.  Select the **CI Admin console** link, and then enable the Now Assist panel.
-    For more information, see [Configure Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/now-assist-for-it-service-management-itsm/configure-now-assist-for-itsm.md).
+    For more information, see [Configure ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/now-assist-for-it-service-management-itsm/configure-now-assist-for-itsm.md).
 
 
 ## Use the Wrap-up and resolve incident agentic workflow

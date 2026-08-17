@@ -49,7 +49,7 @@ No data on the Evaluations tab
 
 </td><td>
 
-Verify that the Conversation Evaluator \[sn\_na\_conv\_eval\] plugin is active. Also verify that the Smooth Flowing Conversation Chat Eval skill is active in the Now Assist Admin console. \(This skill may appear in the Platform workflow or in the Other workflow, depending on your instance.\)
+Verify that the Conversation Evaluator \[sn\_na\_conv\_eval\] plugin is active. Also verify that the Smooth Flowing Conversation Chat Eval skill is active in the AI Admin Hub console. \(This skill may appear in the Platform workflow or in the Other workflow, depending on your instance.\)
 
 </td></tr><tr><td>
 
@@ -163,7 +163,7 @@ Now Assist panel
 
 </td><td>
 
-Options for Now Assist panel are grayed out in the Now Assist Admin console
+Options for Now Assist panel are grayed out in the AI Admin Hub console
 
 </td><td>
 
@@ -187,7 +187,7 @@ Now Assist setup
 
 </td><td>
 
-The Q&amp;A results skill is not in the Now Assist Admin console
+The Q&amp;A results skill is not in the AI Admin Hub console
 
 </td><td>
 
@@ -205,7 +205,7 @@ Features/skills are missing or generally not working
 
 -   Verify that all of your Now Assist plugins are up to date. For details, see [Install an update to a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_InstallUpdates.md).
 -   Verify that version and dependency requirements are met. For details, see [Evaluating version requirements and dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/versions-dependencies.md).
--   For skills, verify that they are active in the Now Assist Admin console. For details, see [Activate a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/configure-a-now-assist-skill.md).
+-   For skills, verify that they are active in the AI Admin Hub console. For details, see [Activate a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/configure-a-now-assist-skill.md).
 -   Verify that the user has the correct role for the skill.
 -   Try clearing the cookies and cache in the web browser.
 -   Try repairing Generative AI Controller. For details, see [Repair a ServiceNow application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/repair-app.md).
@@ -220,7 +220,7 @@ Can't edit a skill
 
 </td><td>
 
-Verify that you have the Now Assist Admin role: sn\_nowassist\_admin.nsa\_admin.
+Verify that you have the AI Admin Hub role: sn\_nowassist\_admin.nsa\_admin.
 
  You can edit a skill or make a copy of a skill to edit. For details, see [Edit a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/edit-a-now-assist-skill.md) and [Make a copy of a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/make-a-copy-of-a-now-assist-skill.md).
 
@@ -266,7 +266,7 @@ Now Assist skills are not available in Legacy Workspace. Upgrade to Service Oper
 
 </td></tr><tr><td>
 
-Now Assist for Code
+ServiceNow Otto for Code
 
 </td><td>
 
@@ -280,7 +280,7 @@ Don't see code suggestions
 
 </td></tr><tr><td>
 
-Now Assist for Creator
+ServiceNow Otto for Creator
 
 </td><td>
 
@@ -288,16 +288,16 @@ Skills not available or not working
 
 </td><td>
 
--   Verify that the skill is active in the Now Assist Admin console.
+-   Verify that the skill is active in the AI Admin Hub console.
 -   Verify that the user has the appropriate role. Any authenticated builder can use the related active skill.
 
 </td></tr><tr><td>
 
-Now Assist Skill Kit
+AI Skill Kit
 
 </td><td>
 
-Now Assist Skill Kit is not visible on my instance
+AI Skill Kit is not visible on my instance
 
 </td><td>
 
@@ -306,7 +306,7 @@ Now Assist Skill Kit is not visible on my instance
 
 </td></tr><tr><td>
 
-Now Assist Skill Kit
+AI Skill Kit
 
 </td><td>
 

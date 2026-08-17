@@ -75,3 +75,5 @@ The following Security Operations applications are the standard Security Inciden
 
 [Major Security Incident Management roles]()
 
+[Environment reference for MSIM setup]()
+

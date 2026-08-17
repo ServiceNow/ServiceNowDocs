@@ -1,5 +1,5 @@
 ---
-title: Configure an SNC connection in Zero Copy Connector for ERP
+title: Configure an SNC connection in ERP Canvas
 description: Learn how to set up SNC, including preparing the environment, configuring the SAP system, and testing the configuration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-integration-framework/erpc-configure-an-snc-connection-in-erp-canvas.html
@@ -9,10 +9,10 @@ classification: erp-integration-framework
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Use an SNC connection in Zero Copy Connector for ERP, Configuring Zero Copy Connector for ERP, Zero Copy Connector for ERP, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Use an SNC connection in ERP Canvas, Configuring ERP Canvas, ERP Canvas, Building low-code applications, Developing your application, Building applications]
 ---
 
-# Configure an SNC connection in Zero Copy Connector for ERP
+# Configure an SNC connection in ERP Canvas
 
 Learn how to set up SNC, including preparing the environment, configuring the SAP system, and testing the configuration.
 
@@ -37,7 +37,7 @@ Confirm that you have the following:
 
 4.  Complete the form.
 
-    For information about the fields, see [Configure the Zero Copy Connector for ERP credentials and connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/set-up-erp-integration-connection.md).
+    For information about the fields, see [Configure the ERP Canvas credentials and connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/set-up-erp-integration-connection.md).
 
 5.  Restart the MID server to apply the changes.
 
@@ -77,5 +77,5 @@ Confirm that you have the following:
 -   Check the SNC PSE for validity and correct DN entries. For more information, see [Creating or Replacing a PSE](https://help.sap.com/doc/saphelp_nw73ehp1/7.31.19/en-US/59/6b653a0c52425fe10000000a114084/content.htm?no_cache=true) on the SAP help site.
 -   Confirm that the SAP clients are properly configured to use SNC. For more information, see [Configuring MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/configure-mid-server.md).
 
-**Parent Topic:**[Use an SNC connection in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erpc-use-an-snc-connection-in-erp-canvas.md)
+**Parent Topic:**[Use an SNC connection in ERP Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erpc-use-an-snc-connection-in-erp-canvas.md)
 

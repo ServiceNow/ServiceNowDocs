@@ -1,69 +1,118 @@
 ---
 title: Self-service for Customer Service Management
-description: With the Customer Service Management application, you can provide service for your customers through self-service portals that are integrated with knowledge articles, community forums, service catalogs, and chatbots.
+description: With the Customer Service Management \(CSM\) application, you can provide service for your customers through web applications that hosts self-service capabilities like knowledge articles, community forums, service catalogs, case management, and chat.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/self-service-options-csm-customers.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 3
+last_updated: "2026-03-12"
+reading_time_minutes: 6
 breadcrumb: [Exploring Customer Service Management, Customer Service Management]
 ---
 
 # Self-service for Customer Service Management
 
-With the Customer Service Management application, you can provide service for your customers through self-service portals that are integrated with knowledge articles, community forums, service catalogs, and chatbots.
+With the Customer Service Management \(CSM\) application, you can provide service for your customers through web applications that hosts self-service capabilities like knowledge articles, community forums, service catalogs, case management, and chat.
 
-## Customer and consumer self-service portals
+Self-service in CSM empowers customers to resolve issues independently through intuitive digital experiences. It reduces dependency on support agents and improves overall satisfaction. Users can find information, resolve issues, and request assistance through web applications. The platform provides access to knowledge articles, virtual agents, communities, and case management. It helps customers get the support they need quickly, reduces the workload on service agents, and improves overall service efficiency.
 
-By using the Service Portal application, you can create portals that empower your customers to resolve issues and submit cases and requests for themselves. To help direct customers to the right portal resources, you can also activate the Virtual Agent application for Customer Service Management.
+Self-service in CSM offers the following benefits:
 
-## Portal types
+-   **Reduces agent workload**
 
-You can configure three types of portals to support your customers and consumers:
+    Self-service enables customers to resolve common issues on their own using knowledge articles, guided help, and virtual agents. This reduces the volume of incoming cases and enables support agents to focus on more complex, high-value interactions.
 
--   [Customer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/use-the-customer-portal.md): Supports your business-to-business \(B2B\) customers
--   [Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/use-the-business-portal.md): Supports your business-to-business \(B2B\) customers and is built using configurable widgets
--   [Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/use-consumer-service-portal.md): Supports your business-to-consumer \(B2C\) customers
+-   **Seamless access to self-service support channels**
 
-All portals offer the same self-service and Virtual Agent assistance features.
+    Customers can access support anytime through an intuitive portal, virtual agent, or knowledge base. Immediate access to information and automated assistance leads to faster resolution times and a more seamless support experience.
 
-## Self-service on portals
+-   **Lowers support costs**
 
--   **Service catalog**
+    By shifting routine inquiries and requests to self-service channels, organizations can reduce the demand for live agent support. It decreases operational costs while maintaining high service quality and efficiency.
 
-    With the Service Catalog application, you can create service catalogs where customers can request items, such as service and product offerings. You can enable customers to request items from the portal by associating one or more service catalogs with the portal. Customers can also track the status of open requests from the portal.
+-   **Provides consistent and accurate answers**
 
-    To learn more about Service catalog, see [Service catalog integration with the Customer and Consumer Service Portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/service-catalog-request-integration.md).
+    Centralized knowledge management ensures that all customers receive standardized and verified information. Knowledge articles and automated workflows deliver accurate, up-to-date solutions, minimizing confusion and repetitive requests.
 
--   **Knowledge base**
+-   **Enhances overall customer experience**
 
-    With the Knowledge Management application, you can create knowledge bases with articles to share information with customers on the portal. Customers can search the knowledge bases for information, such as troubleshooting or task resolutions, to resolve issues and answer questions.
-
-    To learn more about searching the Knowledge base, see [Search the knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/t_SearchTheKnowledgeBase.md).
-
--   **Community**
-
-    With the Communities application, you can create forums for agents and customers to connect, engage, and collaborate with each other. On the portal, customers can search for community content that could provide the solutions and answers that they need.
-
-    To learn more about communities, see [Communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/communities/servicenow-communities.md).
-
--   **Chat**
-
-    With the Virtual Agent platform, you can design and build automated conversations that help your customers get the help that they need.
-
-    As customers answer questions and select options presented by Virtual Agent, they’re directed to a self-service resource.
-
-    If customers want to chat with an agent, Virtual Agent hands them off to a live agent. To provide this resource, use the Connect Support feature.
-
-    To learn more about chat, see [Configuring the chat channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/c_ChatFeature.md).
-
--   **Engagement Messenger**
-
-    With the [Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/engagement-center.md), your customers can easily access the information or services they need from your third-party web applications, even if they’re located outside of the ServiceNow environment.
-
-    To learn more about [Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/engagement-center.md), see [Set up Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/setting-up-engagement-messenger.md).
+    Self-service offers a user-friendly interface that empowers customers to take control of their support journey. By providing multiple, easy-to-use channels and faster resolutions, organizations can strengthen customer trust, loyalty, and engagement.
 
 
-To get started with the portals, see [Configure the Customer and Consumer Service Portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/customer-self-service-and-omnichannel-engagement/configure-csm-service-portals.md) and [Configure Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/customer-self-service-and-omnichannel-engagement/configure-business-portal.md).
+## Web Embeddables
+
+With Web Embeddables you can embed web components into external websites outside the ServiceNow environment. These components enable interaction with the platform through dedicated APIs that support real-time data exchange and provide functionality without requiring users to access the ServiceNow interface. To learn more about Web Embeddables, see .
+
+Web Embeddables offer the following benefits:
+
+-   Seamless user experience: Embedding components onto third-party websites enables you to access them without leaving the current site. You don't need to switch between multiple websites. This maintains a consistent user experience and enhances engagement.
+-   Configuration: Configure the components to fit the specific needs of your website ensuring that the embedded components synchronize with other components on your website. This flexibility enables you to tailor the user experience according to your business requirements.
+-   Reusability: The ability to modify the global code and component code enables you to reconfigure the components without developing new functionalities from scratch.
+-   Low code configuration: Manage updates to data, event handlers, and the presentation of your components with minimal coding. Configure the component code enables you to trigger updates across your component with minimal effort.
+
+## Self-service portals
+
+Use the Service Portal web application to create portals that empower your customers to resolve issues and submit cases and requests for themselves. To help direct customers to the right portal resources, you can also activate the Virtual Agent application for Customer Service Management.
+
+## Self-service portal types
+
+You can configure four types of portals. The Business Portal and Consumer Portal are enhanced portals built on configurable widgets, while the Customer Service Portal and Consumer Service Portal are standard portals. New implementations should use the enhanced portals.
+
+**Note:** The Business Portal and Consumer Portal plugins are installed automatically when customers install the Customer Service Portal and Consumer Service Portal plugins respectively.
+
+The following table describes the four self-service portals:
+
+|Portal|Description|
+|------|-----------|
+|[Customer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/use-the-customer-portal.md)|Supports your business-to-business \(B2B\) customers|
+|[Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/use-the-business-portal.md)|Supports your business-to-business \(B2B\) customers and is built using configurable widgets. The Business Portal is an enhanced version of the Customer Service Portal.|
+|[Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/use-consumer-service-portal.md)|Supports your business-to-consumer \(B2C\) customers|
+|Consumer Portal|Supports your business-to-consumer \(B2C\) customers and is built using configurable widgets. The Consumer Portal is an enhanced version of the Consumer Service Portal.|
+
+All the portals offer the same self-service and Virtual Agent assistance features.
+
+**Note:** Existing customers can migrate to the Business Portal \(B2B\) or the Consumer Portal \(B2C\) to experience enhanced features.
+
+-   **Self-service on portals**
+
+    You can configure your self-service portals with the following features:
+
+    \[Omitted image "self-service-portal.png"\] Alt text: Infographic displaying various options for self-service. For the text description, refer to the column in the Self-service on portals table.
+
+    To get started with the portals, see [Configure the Customer and Consumer Service Portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/customer-self-service-and-omnichannel-engagement/configure-csm-service-portals.md) and [Configure Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/customer-self-service-and-omnichannel-engagement/configure-business-portal.md).
+
+
+## Engagement Messenger
+
+With the [Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/engagement-center.md) web application, your customers can easily access the information or services they need from your third-party web applications, even if they're located outside of the ServiceNow environment.
+
+To learn more about [Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/engagement-center.md), see [Set up Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/setting-up-engagement-messenger.md).
+
+## Service catalog
+
+With the Service Catalog capability, you can create service catalogs where customers can request items, such as service and product offerings. You can enable customers to request items from the portal by associating one or more service catalogs with the portal. Customers can also track the status of open requests from the portal.
+
+To learn more about Service catalog, see [Service catalog integration with the Customer and Consumer Service Portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/service-catalog-request-integration.md).
+
+## Knowledge base
+
+With the Knowledge Management capability, you can create knowledge bases with articles to share information with customers on the portal. Customers can search the knowledge bases for information, such as troubleshooting or task resolutions, to resolve issues and answer questions.
+
+To learn more about searching the Knowledge base, see [Search the knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/t_SearchTheKnowledgeBase.md).
+
+## Chat
+
+With the Virtual Agent platform capability, you can design and build automated conversations that help your customers get the help that they need.
+
+As customers answer questions and select options presented by Virtual Agent, they're directed to a self-service resource.
+
+If customers want to chat with an agent, Virtual Agent hands them off to a live agent. To provide this resource, use the Connect Support feature.
+
+To learn more about chat, see [Configuring the chat channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/c_ChatFeature.md).
+
+## Community
+
+With the Communities capability, you can create forums for agents and customers to connect, engage, and collaborate with each other. On the portal, customers can search for community content that could provide the solutions and answers that they need.
+
+To learn more about communities, see [Communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/communities/servicenow-communities.md).
 

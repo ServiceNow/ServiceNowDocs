@@ -48,15 +48,15 @@ You can close any task that belongs to the following task types:
 
 7.  On the Repair task input form screen, enter the result of your task.
 
-<table id="choicetable_g14_wv2_yxb"><thead><tr><th align="left" id="d320788e168">
+<table id="choicetable_g14_wv2_yxb"><thead><tr><th align="left" id="d322261e168">
 
 Task
 
-</th><th align="left" id="d320788e171">
+</th><th align="left" id="d322261e171">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d320788e177">
+</th></tr></thead><tbody><tr><td id="d322261e177">
 
 **Troubleshoot asset**
 
@@ -67,7 +67,7 @@ In the **Troubleshoot result** field, select any of the following:-   **Repairab
 -   **Redeployable**
 
 
-</td></tr><tr><td id="d320788e203">
+</td></tr><tr><td id="d322261e203">
 
 **Repair asset**
 
@@ -78,7 +78,7 @@ In the **Repair result** field, select any of the following: -   **Repaired**
 -   **Redeployable**
 
 
-</td></tr><tr><td id="d320788e229">
+</td></tr><tr><td id="d322261e229">
 
 **Evaluate asset**
 

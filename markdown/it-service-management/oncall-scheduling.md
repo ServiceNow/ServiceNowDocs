@@ -16,18 +16,161 @@ Dashboard providing view into the performance of On-call Escalations handled by 
 
 KPIs for On-Call Scheduling.
 
-|Data Visualization|Description|KPI \(Performance Analytics Indicator\)|
-|------------------|-----------|---------------------------------------|
-|Active escalations \(by priority and acknowledgement status\)|Priority wise distribution of on-call escalations based on their escalation status.|Active Escalations|
-|Acknowledged escalations \(by level, shift and groups\)|Distribution of acknowledged escalations based on level/shift/groups.|Acknowledged Escalations|
-|Acknowledged escalations \(by channel\)|Number of acknowledged escalations in a specified period of time.|Acknowledged Escalations|
-|Acknowledged escalations level \(by user\)|Displays the average level at which the user acknowledges the escalation.|Acknowledged escalations level|
-|Escalations not acknowledged \(by level, shift and groups\)|Distribution of escalations that are not acknowledged by level/shift/groups.|Unacknowledged Escalations|
-|Contact attempts acknowledged|Total count of contact attempts acknowledged based on level and contact attempts.|Count of Contact Attempts Acknowledged|
-|% Escalations acknowledged \(by groups\)|Percentage of the escalations that are acknowledged.|% of Acknowledged Escalations|
-|% Escalations not acknowledged \(by groups\)|Percentage of the escalations that are not acknowledged.|% of Unacknowledged Escalations|
-|Mean time to acknowledge an escalation \(by group\)|Mean time to acknowledge an escalation based on escalation level.|Average Escalation Acknowledgment|
-|Mean time to acknowledge an escalation \(by level\)|Mean time to acknowledge an escalation based on escalation level.|Average Level Acknowledgment|
-|Average time to acknowledge escalation notification|Average time taken to acknowledge the escalation notification.|Average time to acknowledge escalation notification|
-|Total On-call hours \(by user\)|Total number of hours the user was available for On-call.|Total On-call hours|
+<table id="table_rnl_k2t_c1c"><thead><tr><th>
 
+Data Visualization
+
+</th><th>
+
+Description
+
+</th><th>
+
+KPI \(Performance Analytics Indicator\)
+
+</th></tr></thead><tbody><tr><td>
+
+Active escalations \(by priority and acknowledgement status\)
+
+</td><td>
+
+Priority wise distribution of on-call escalations based on their escalation status.
+
+</td><td>
+
+Active Escalations
+
+</td></tr><tr><td>
+
+Acknowledged escalations \(by level, shift and groups\)
+
+</td><td>
+
+Distribution of acknowledged escalations based on level/shift/groups.
+
+</td><td>
+
+Acknowledged Escalations
+
+</td></tr><tr><td>
+
+Acknowledged escalations \(by channel\)
+
+</td><td>
+
+Number of acknowledged escalations in a specified period of time.
+
+</td><td>
+
+Acknowledged Escalations
+
+</td></tr><tr><td>
+
+Acknowledged escalations level \(by user\)
+
+</td><td>
+
+Displays the average level at which the user acknowledges the escalation.**Note:** Data is displayed only for users who are members of an on-call group. If a user has not been added to an on-call group, no data appears for this indicator.
+
+</td><td>
+
+Acknowledged escalations level
+
+</td></tr><tr><td>
+
+Escalations not acknowledged \(by level, shift and groups\)
+
+</td><td>
+
+Distribution of escalations that are not acknowledged by level/shift/groups.
+
+</td><td>
+
+Unacknowledged Escalations
+
+</td></tr><tr><td>
+
+Contact attempts acknowledged
+
+</td><td>
+
+Total count of contact attempts acknowledged based on level and contact attempts.
+
+</td><td>
+
+Count of Contact Attempts Acknowledged
+
+</td></tr><tr><td>
+
+% Escalations acknowledged \(by groups\)
+
+</td><td>
+
+Percentage of the escalations that are acknowledged.
+
+</td><td>
+
+% of Acknowledged Escalations
+
+</td></tr><tr><td>
+
+% Escalations not acknowledged \(by groups\)
+
+</td><td>
+
+Percentage of the escalations that are not acknowledged.
+
+</td><td>
+
+% of Unacknowledged Escalations
+
+</td></tr><tr><td>
+
+Mean time to acknowledge an escalation \(by group\)
+
+</td><td>
+
+Mean time to acknowledge an escalation based on escalation level.
+
+</td><td>
+
+Average Escalation Acknowledgment
+
+</td></tr><tr><td>
+
+Mean time to acknowledge an escalation \(by level\)
+
+</td><td>
+
+Mean time to acknowledge an escalation based on escalation level.
+
+</td><td>
+
+Average Level Acknowledgment
+
+</td></tr><tr><td>
+
+Average time to acknowledge escalation notification
+
+</td><td>
+
+Average time taken to acknowledge the escalation notification.
+
+</td><td>
+
+Average time to acknowledge escalation notification
+
+</td></tr><tr><td>
+
+Total On-call hours \(by user\)
+
+</td><td>
+
+Total number of hours the user was available for On-call.
+
+</td><td>
+
+Total On-call hours
+
+</td></tr></tbody>
+</table>

@@ -1,5 +1,5 @@
 ---
-title: Now Assist for Software Asset Management \(SAM\) AI agent collection to help manage software asset request agentic workflow
+title: ServiceNow Otto for Software Asset Management \(SAM\) AI agent collection to help manage software asset request agentic workflow
 description: Use the Help manage software request agentic workflow to fulfill a software request by either allocating the available entitlements or generating a purchase order for the software model.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/now-assist-for-software-asset-management-sam/now-assist-sam-fulfill-sw-asset-requests-workflow.html
@@ -9,10 +9,10 @@ classification: now-assist-for-software-asset-management-sam
 topic_type: concept
 last_updated: "2025-03-24"
 reading_time_minutes: 4
-breadcrumb: [Using agentic workflows in Now Assist for SAM, Now Assist for Software Asset Management \(SAM\), Software Asset Management, IT Asset Management]
+breadcrumb: [Using agentic workflows in Now Assist for SAM, ServiceNow Otto for Software Asset Management \(SAM\), Software Asset Management, IT Asset Management]
 ---
 
-# Now Assist for Software Asset Management \(SAM\) AI agent collection to help manage software asset request agentic workflow
+# ServiceNow Otto for Software Asset Management \(SAM\) AI agent collection to help manage software asset request agentic workflow
 
 Use the Help manage software request agentic workflow to fulfill a software request by either allocating the available entitlements or generating a purchase order for the software model.
 
@@ -62,7 +62,7 @@ To automatically trigger the Help manage software request workflow for sourcing 
     1.  Once the request is approved, the procurement\_user role navigates to the Procurement module that resides in the Asset Workspace. If the Hardware Asset Management application is installed, the name of the workspace changes to Hardware Asset Workspace.
     2.  The procurement\_user role selects the Items tab in the Procurement module and selects a value in the **Assigned to** field for the requested item.
 
-        **Note:** The itil, the procurement\_user, and the now\_assist\_panel\_user roles have access to the Now Assist panel. The fulfiller needs the itil and procurement\_user roles if you have the Now Assist for IT Service Management \(ITSM\) store application installed. If you have the Now Assist for Software Asset Management \(SAM\) store application but not the Now Assist for IT Service Management \(ITSM\) store application, then the fulfiller requires the itil, procurement\_user, and now\_assist\_panel\_user roles to fulfill the request via the Now Assist panel trigger.
+        **Note:** The itil, the procurement\_user, and the now\_assist\_panel\_user roles have access to the Now Assist panel. The fulfiller needs the itil and procurement\_user roles if you have the ServiceNow Otto for IT Service Management \(ITSM\) store application installed. If you have the ServiceNow Otto for Software Asset Management \(SAM\) store application but not the ServiceNow Otto for IT Service Management \(ITSM\) store application, then the fulfiller requires the itil, procurement\_user, and now\_assist\_panel\_user roles to fulfill the request via the Now Assist panel trigger.
 
     The procurement\_user role gets notified in the Now Assist panel that the software request is getting fulfilled.
 

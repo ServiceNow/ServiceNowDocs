@@ -9,7 +9,7 @@ classification: health-log-analytics
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Health Log Analytics, ITOM AIOps, IT Operations Management]
+breadcrumb: [Health Log Analytics, ITOM Health, IT Operations Management]
 ---
 
 # Exploring Health Log Analytics
@@ -23,5 +23,5 @@ Health Log Analytics collects logs streaming into your ServiceNow instance from 
 -   **[How Health Log Analytics generates alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-op-anomalies-detecting.md)**  
 Health Log Analytics identifies patterns in your log data and learns pattern behavior. When HLA's AI engine detects anomalous behavior, it sends an event to the ServiceNow Event Management application. As an operator, you can use these predictive alerts to handle emerging IT issues before they impact users.
 
-**Parent Topic:**[ITOM AIOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-health-landing-page.md)
+**Parent Topic:**[ITOM Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-health-landing-page.md)
 

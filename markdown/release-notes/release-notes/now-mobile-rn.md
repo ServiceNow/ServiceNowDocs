@@ -16,13 +16,13 @@ The ServiceNow® Now Mobile® application enables your users and employees to su
 
 Get personalized search results with the Now Assist genius results search functionality in Now Mobile®.
 
-See [Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/mobile-employee-experience.md) for more information.
+See  for more information.
 
 **Important:** Now Mobile® is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Yokohama release
 
--   **[Now Assist genius results in Now Mobile®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/na-qa-mobile.md)**
+-   ****
 
     Now Assist genius results in Now Mobile® provides a personalized way of using the search functionality as opposed to the traditional AI Search experience.
 
@@ -33,11 +33,11 @@ See [Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs
 
 ## Activation information
 
-Install Now Mobile® by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install Now Mobile® by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Related ServiceNow applications and features
 
--   **[Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/employee-center-landing-page.md)**
+-   ****
 
     The Employee Center portal is a standard multi-department dynamic portal for service delivery, and employee engagement. Employee Center mobile capabilities enable employees to stay connected regardless of when, where, and how they’re working.
 

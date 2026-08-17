@@ -9,7 +9,7 @@ classification: service-observability
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 4
-breadcrumb: [Customize dashboard templates, Configuring Service Observability, Service Observability, ITOM AIOps, IT Operations Management]
+breadcrumb: [Customize dashboard templates, Configuring Service Observability, Service Observability, ITOM Health, IT Operations Management]
 ---
 
 # Edit APM data charts on Service Observability dashboard templates

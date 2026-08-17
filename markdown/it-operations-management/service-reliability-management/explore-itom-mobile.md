@@ -9,7 +9,7 @@ classification: service-reliability-management
 topic_type: concept
 last_updated: "2025-03-13"
 reading_time_minutes: 3
-breadcrumb: [ITOM Mobile Agent, Service Reliability Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [ITOM Mobile Agent, Service Reliability Management, ITOM Health, IT Operations Management]
 ---
 
 # Exploring ITOM Mobile Agent

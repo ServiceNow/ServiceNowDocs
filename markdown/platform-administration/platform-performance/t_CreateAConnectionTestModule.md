@@ -24,15 +24,15 @@ Role required: admin
 
 1.  Perform the appropriate action for your version of the UI.
 
-<table id="choicetable_bbq_5lz_hfc"><thead><tr><th align="left" id="d62050e54">
+<table id="choicetable_bbq_5lz_hfc"><thead><tr><th align="left" id="d62054e54">
 
 UI version
 
-</th><th align="left" id="d62050e57">
+</th><th align="left" id="d62054e57">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d62050e63">
+</th></tr></thead><tbody><tr><td id="d62054e63">
 
 **Core UI**
 
@@ -42,7 +42,7 @@ Steps
 2.  Open the application menu to which you want to add the module, for example, **System Diagnostics**.
 
 
-</td></tr><tr><td id="d62050e94">
+</td></tr><tr><td id="d62054e94">
 
 **UI15**
 

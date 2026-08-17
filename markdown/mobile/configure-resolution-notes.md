@@ -7,7 +7,7 @@ release: yokohama
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configuring Now Assist for Mobile, Now Assist for Mobile, Mobile Platform]
+breadcrumb: [Configuring Otto, ServiceNow Otto for Mobile, Mobile Platform]
 ---
 
 # Configure mobile resolution notes generation
@@ -51,5 +51,5 @@ Make sure that Now Assist is enabled in the instance. For more information, see 
 8.  Select **Save**.
 
 
-**Parent Topic:**[Configuring Now Assist for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/configuring-now-assist-mobile.md)
+**Parent Topic:**[Configuring Otto for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/configuring-now-assist-mobile.md)
 

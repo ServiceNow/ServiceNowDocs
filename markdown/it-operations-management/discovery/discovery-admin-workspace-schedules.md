@@ -18,7 +18,7 @@ The Schedules page provides a single place to monitor Discovery performance, eff
 
 To access the Discovery Admin Workspace Schedules page, navigate to **Workspaces** &gt; **Discovery Admin Workspace** &gt; **Schedules**.
 
-**Note:** The capabilities described here are available in Discovery Admin Workspace v1.13.0 or later. Specific version requirements are noted for individual features where applicable.
+**Note:** The capabilities described here are available starting with Discovery Admin Workspace v1.13.0. Specific version requirements are noted for individual features where applicable.
 
 ## Key features
 
@@ -36,7 +36,7 @@ To access the Discovery Admin Workspace Schedules page, navigate to **Workspaces
 
     **Note:** You can configure the time scale reflected in the displayed counts on the [Settings]() page.
 
-    Select the **More options** icon \(\[Omitted image "icon-menu-sow.png"\]\), then select **Refresh** to refresh the data for each visualization in this section.
+    Select the **More Options** icon \(\[Omitted image "icon-menu-sow.png"\]\), then select **Refresh** to refresh the data for each visualization in this section.
 
 <table id="table_cb2_yjv_fsb"><thead><tr><th>
 
@@ -133,9 +133,9 @@ Displays the count of all Discovery errors by category.Select a category to add 
 
     Provides a centralized view for monitoring and managing IP‑based Discovery schedules and coverage.
 
-    Depending on your IPv6 IP Address Management \(IPAM\) integration, items that require attention are displayed, such as Discovery schedules that were auto created from IPAM that require activation. If you haven't enabled auto-created Discovery schedules via IPAM, select **Review in Settings** to access the [Discovery Admin Workspace Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/discovery-admin-workspace-setup.md) page. When auto‑created schedules are enabled, a notification displays the number of Discovery schedules that require activation. Select **View and activate schedules** to open the Auto‑created schedules page. For details on activating these schedules, see [Activate auto-created Discovery schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/activate-auto-disco-schedule.md). For more information about IPv6 IPAM integration, see [IPAM Discovery integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/ipv6-ipam-disco-integration.md).
+    Depending on your IPv6 IP Address Management \(IPAM\) integration, items that require attention are displayed. These items include IPs not covered by Discovery schedules and schedules that were auto-created from IPAM that require activation. If you haven't enabled auto-created Discovery schedules via IPAM, select **Review in Settings** to access the [Discovery Admin Workspace Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/discovery-admin-workspace-setup.md) page. When auto‑created schedules are enabled, a notification displays the number of Discovery schedules that require activation. Select **View and activate schedules** to open the Auto‑created schedules page. For details on activating these schedules, see [Activate auto-created Discovery schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/activate-auto-disco-schedule.md). For more information about IPv6 IPAM integration, see [IPAM Discovery integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/ipv6-ipam-disco-integration.md).
 
-    IP resources are available via Additional information. Select the **All IP range sets** to access the Discovery Range Sets \[discovery\_range\] table.
+    Select **All IP range sets** to access the Discovery Range Sets \[discovery\_range\] table.
 
     Select a Discovery schedule from the table to view extensive details and update schedule field parameters. For more information, see [Discovery Admin Workspace schedule details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/c_daw-disco-schedule-details.md).
 

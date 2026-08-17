@@ -1,5 +1,5 @@
 ---
-title: Certificate generation through Cert-Manager Integration
+title: Certificate generation through Kubernetes cert-manager
 description: Request a certificate through Kubernetes cert-manager using the ServiceNow External Issuer \(sn-external-issuer\) and save the certificate and its related information securely within the Kubernetes cluster as a secret. In Kubernetes, a secret is an object that allows you to store and manage sensitive information, such as passwords, API keys, and certificates.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/discovery/cert-mngr-integration.html
@@ -9,10 +9,10 @@ classification: discovery
 topic_type: concept
 last_updated: "2025-10-29"
 reading_time_minutes: 2
-breadcrumb: [Configuring Certificate Inventory and Management, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
+breadcrumb: [Configure, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
 
-# Certificate generation through Cert-Manager Integration
+# Certificate generation through Kubernetes cert-manager
 
 Request a certificate through Kubernetes cert-manager using the ServiceNow External Issuer \(sn-external-issuer\) and save the certificate and its related information securely within the Kubernetes cluster as a secret. In Kubernetes, a secret is an object that allows you to store and manage sensitive information, such as passwords, API keys, and certificates.
 

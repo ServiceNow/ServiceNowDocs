@@ -90,5 +90,5 @@ The favorites option is enabled for employees to set any workplace location as t
 
 [Location migration]()
 
-[View workplace service usage analytics with Usage Insights]()
+[View workplace service usage analytics with User Experience Analytics]()
 

@@ -41,7 +41,7 @@ Role required: change\_manager or admin
 
 2.  Select one of the following options.
 
-<table id="choicetable_kz3_j3d_3t"><tbody><tr><td id="d73236e115">
+<table id="choicetable_kz3_j3d_3t"><tbody><tr><td id="d73254e115">
 
 **Run conflict detection automatically after changes to Configuration item, Planned start date, Planned end date, or State when a change request is updated**
 
@@ -53,7 +53,7 @@ When selected, runs conflict detection automatically when a change to one or mor
 -   **State**
 
 
-</td></tr><tr><td id="d73236e143">
+</td></tr><tr><td id="d73254e143">
 
 **Enable the scheduled change conflict checker**
 

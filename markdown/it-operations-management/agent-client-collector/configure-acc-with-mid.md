@@ -7,7 +7,7 @@ release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2025-07-08"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Configuring Agent Client Collector with a MID Server, Configuring Agent Client Collector Framework, Agent Client Collector Framework, Agent Client Collector, IT Operations Management]
 ---
@@ -31,7 +31,17 @@ Running a command validates that a connection can be made with the specified par
 
 ## Procedure
 
-1.  Run the following command in a terminal window: `acc gateway mid <flags>`.
+1.  In a terminal window, navigate to the Agent Client Collector installation location:
+
+    -   Linux: `/usr/share/servicenow/agent-client-collector/bin/`
+
+    -   macOS: `/opt/servicenow/agent-client-collector/bin`
+
+    -   Windows: `C:\Program Files\ServiceNow\agent-client-collector\bin`
+
+2.  Run the following command: `acc gateway mid <flags>`.
+
+    For example \(replace with your actual values\): `acc gateway mid -a fbhsbnxdbshs635oo -b wss://1.2.3.4:8800`.
 
     The available flags appear in the following table:
 
@@ -96,7 +106,7 @@ N/A
 Explains what the specified command does.
 
 </td></tr></tbody>
-</table>2.  Restart the agent for the configuration settings to be entered into the `acc.yml` file.
+</table>3.  Restart the agent for the configuration settings to be entered into the `acc.yml` file.
 
 
 **Parent Topic:**[Configuring Agent Client Collector with a MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-configuring-with-mid.md)

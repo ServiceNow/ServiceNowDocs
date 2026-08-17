@@ -37,5 +37,3 @@ Assign the usage\_admin role to at least one person in your organization. Only a
 5.  Select **Update**.
 
 
-**Parent Topic:**[Configuring Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/configuring-subscription-management-v2.md)
-

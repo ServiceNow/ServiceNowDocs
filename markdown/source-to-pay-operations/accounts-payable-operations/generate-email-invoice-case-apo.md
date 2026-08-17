@@ -9,7 +9,7 @@ classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-03-05"
 reading_time_minutes: 1
-breadcrumb: [Using Now Assist for Accounts Payable Operations \(APO\), Now Assist for Accounts Payable Operations \(APO\), Accounts Payable Operations, Finance and Supply Chain]
+breadcrumb: [Using ServiceNow Otto for Accounts Payable Operations \(APO\), ServiceNow Otto for Accounts Payable Operations \(APO\), Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Generate email response for invoice case
@@ -51,14 +51,14 @@ The Email response for invoice case skill uses invoice case details such as case
     The email response is generated for the invoice case.
 
 
-**Parent Topic:**[Using Now Assist for Accounts Payable Operations \(APO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/accounts-payable-operations/using-now-assist-apo.md)
+**Parent Topic:**[Using ServiceNow Otto for Accounts Payable Operations \(APO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/accounts-payable-operations/using-now-assist-apo.md)
 
 **Related topics**  
 
 
-[Summarize a record by using Now Assist for Accounts Payable Operations \(APO\)]()
+[Summarize a record by using ServiceNow Otto for Accounts Payable Operations \(APO\)]()
 
-[Use Now Assist for Accounts Payable Operations \(APO\) in a Virtual Agent chat]()
+[Use ServiceNow Otto for Accounts Payable Operations \(APO\) in a Virtual Agent chat]()
 
 [Use Invoice inquiry solution generator skill]()
 

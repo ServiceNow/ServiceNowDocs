@@ -1,38 +1,40 @@
 ---
 title: Close resolved incident
-description: Close an resolved incident when the user is satisfied with the provided resolution.
+description: Close a resolved incident when the user is satisfied with the provided resolution.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/service-operations-workspace/close-resolved-incident-sow.html
 release: yokohama
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2025-04-08"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Incident Management in Service Operations Workspace, Operate, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Close resolved incident
 
-Close an resolved incident when the user is satisfied with the provided resolution.
+Close a resolved incident when the user is satisfied with the provided resolution.
 
 ## Before you begin
 
-Role required: itil\_admin
+Role required: itil\_admin or admin
 
 ## Procedure
 
-1.  Navigate to **Service Operations Workspace** &gt; **List** &gt; **Incident**.
+1.  Navigate to **Workspace Experience** &gt; **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  In the Incident section, select **Resolved**.
+2.  From the left navigation, select **List** &gt; **Incident**.
+
+3.  In the Incident section, select **Resolved**.
 
     List of incidents with **Resolved** state is displayed.
 
-3.  Open an incident record with **Resolved** state.
+4.  Open an incident record with **Resolved** state.
 
     For more information on viewing and updating incident information and resolution, see [View and update incident information on the Overview tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/view-update-inc-overview-tab.md).
 
-4.  Select **Close**.
+5.  Select **Close**.
 
 
 ## Result

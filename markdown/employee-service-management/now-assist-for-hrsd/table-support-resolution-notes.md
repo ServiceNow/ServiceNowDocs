@@ -9,7 +9,7 @@ classification: now-assist-for-hrsd
 topic_type: task
 last_updated: "2026-03-01"
 reading_time_minutes: 1
-breadcrumb: [Configure resolution notes, Configure, Now Assist for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
+breadcrumb: [Configure resolution notes, Configure, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
 # Extend table support for resolution notes generation
@@ -33,5 +33,5 @@ Role required: sn\_hr\_core.admin
 5.  Select **Save**.
 
 
-**Parent Topic:**[Configure resolution notes generation for Now Assist for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/resolution-notes-nacm-config.md)
+**Parent Topic:**[Configure resolution notes generation for ServiceNow Otto for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/resolution-notes-nacm-config.md)
 

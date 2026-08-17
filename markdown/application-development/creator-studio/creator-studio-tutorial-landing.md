@@ -7,7 +7,7 @@ release: yokohama
 product: Creator Studio
 classification: creator-studio
 topic_type: concept
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 14
 breadcrumb: [Creator Studio, Building no-code applications, Developing your application, Building applications]
 ---
@@ -125,7 +125,7 @@ Role required: Creator Studio User
 
 ### About this task
 
-You can also use Now Assist for Creator on the **Build with Now Assist** tab to customize a form. But for this tutorial, you will manually enter questions.
+You can also use ServiceNow Otto for Creator on the **Build with Now Assist** tab to customize a form. But for this tutorial, you will manually enter questions.
 
 ### Procedure
 

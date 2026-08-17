@@ -33,15 +33,15 @@ For more information about catalog item templates and catalog items, see [Catalo
 
 1.  Open Catalog Builder from the application navigator or from an intake form.
 
-<table id="choicetable_umx_jtg_cvb"><thead><tr><th align="left" id="d564857e82">
+<table id="choicetable_umx_jtg_cvb"><thead><tr><th align="left" id="d564189e82">
 
 Option
 
-</th><th align="left" id="d564857e85">
+</th><th align="left" id="d564189e85">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d564857e91">
+</th></tr></thead><tbody><tr><td id="d564189e91">
 
 **From an Intake form**
 
@@ -51,7 +51,7 @@ Steps
 2.  Click the **Edit in Catalog Builder** related link.
 
 
-</td></tr><tr><td id="d564857e118">
+</td></tr><tr><td id="d564189e118">
 
 **From the application navigator**
 

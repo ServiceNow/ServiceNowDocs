@@ -1,6 +1,6 @@
 ---
 title: Playbook Assist roles
-description: The following roles are installed for use with the Now Assist for Creator playbook generation skill.
+description: The following roles are installed for use with the ServiceNow Otto for Creator playbook generation skill.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/build-workflows/workflow-studio/playbook-assist-roles.html
 release: yokohama
@@ -14,7 +14,7 @@ breadcrumb: [Playbook Assist reference, Playbook generation, Exploring playbooks
 
 # Playbook Assist roles
 
-The following roles are installed for use with the Now Assist for Creator playbook generation skill.
+The following roles are installed for use with the ServiceNow Otto for Creator playbook generation skill.
 
 You can grant users entitlement to the applications that you purchase on the ServiceNow AI Platform by allocating subscriptions in Subscription Management. You allocate subscriptions by adding one or more groups with measured roles to a product subscription.
 

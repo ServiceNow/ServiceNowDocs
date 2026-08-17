@@ -18,17 +18,17 @@ The ServiceNow® Conversation Insights application delivers Inferred customer sa
 -   Use underlying factors like Resolution, Confusion, Effort, Empathy, Next Steps, Frustration, Transfers, and Escalations to provide explainability to the Inferred CSAT scores.
 -   Leverage the Inferred CSAT framework and Conversation Insights \[sn\_aci\_insights\] table linked to the Conversation \[sys\_cs\_conversation\] table to create adhoc dashboards and workflows for conversational analytics applications.
 
-See [Conversation Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/conversation-insights.md) for more information.
+See Conversation Insights for more information.
 
 **Important:** Conversation Insights is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## Conversation Insights features
 
--   **[Inferred CSAT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/exploring-conversation-insights.md)**
+-   **Inferred CSAT**
 
     Inferred CSAT provides an estimated score computed using AI in real time by analyzing the entire sequence of the conversation.
 
--   **[CSAT factors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/exploring-conversation-insights.md)**
+-   **CSAT factors**
 
     The following CSAT factors provide explainability to the Inferred CSAT score.
 
@@ -39,18 +39,18 @@ See [Conversation Insights](https://raw.githubusercontent.com/ServiceNow/Service
     -   Next Steps
     -   Frustration
     -   Transfers and Escalations
--   **[AI Agent Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/ai-agent-dashboard.md)**
+-   **AI Agent Analytics dashboard**
 
     The AI Agent Analytics dashboard includes visualizations with Inferred CSAT scores and factors by default.
 
 
 ## Activation information
 
-Install Conversation Insights by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install Conversation Insights by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Related ServiceNow applications and features
 
--   **[AI Agent Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/ai-agent-dashboard.md)**
+-   ****
 
     Track the AI agent use and efficiency gain on your instance through the AI Agent Analytics dashboard. The dashboard can reveal trends in how AI agents are used to improve the time to resolution and the number of tasks closed.
 

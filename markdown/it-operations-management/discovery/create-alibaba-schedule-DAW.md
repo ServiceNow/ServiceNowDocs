@@ -7,7 +7,7 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-07-27"
 reading_time_minutes: 3
 keywords: [Discovery, Admin, Workspace]
 breadcrumb: [Discovery for Alibaba Cloud, Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
@@ -23,9 +23,9 @@ Verify the following:
 
 -   You have at least one validated MID Server with a status of **Up**. The MID Server must reach the IP ranges that you intend to discover. You can install the MID Server by using [Use MID Server guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/use-mid-server-guidedsetup.md) or by manually downloading and running the installer. For details, see the MID Server installation instructions for [Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/t_InstallAMIDServerOnLinux.md) and [Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/mid-server-install-prereqs.md).
 -   The MID Server used for Cloud Discovery is configured with the Cloud Management capability.
--   You have configured an Alibaba Cloud Random Access Memory \(RAM\) user or RAM role in the Alibaba Cloud console that has the necessary permissions so that the MID Server can access the cloud resources you plan to discover.
+-   You have configured a Alibaba Cloud Random Access Memory \(RAM\) user or RAM role in the Alibaba Cloud console. The RAM user or role must have the permissions required for the MID Server to access the cloud resources you plan to discover.
 -   You have created suitable Alibaba Cloud API credentials in the ServiceNow AI Platform. For more information, see [Create Alibaba Cloud API Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/create-alibaba-cloud-api-credentials.md).
--   You're using Discovery Admin Workspace v1.13.0.
+-   You're using Discovery Admin Workspace v1.13.0 or later.
 
 Role required: discovery\_admin
 
@@ -56,7 +56,7 @@ Role required: discovery\_admin
     |Option|Description|
     |------|-----------|
     |**Existing cloud account**|Select an existing cloud account on your instance. Once an account is selected, the **Account name**, **Account ID**, **Discover GovCloud regions**, and **Datacenter URL** fields auto-populate.|
-    |**New cloud account**|Add a new cloud account to your instance by entering an account name and ID.|
+    |**New cloud account**|Add a cloud account to your instance by entering an account name and ID.|
 
     Even if the cloud account was previously verified, you can reverify if policies or permissions may have changed by selecting **Verify information.**
 

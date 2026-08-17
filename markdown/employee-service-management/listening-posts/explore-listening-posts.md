@@ -30,7 +30,7 @@ Learn more about Listening Posts before you start using it for creating simple p
     -   Apply filters and gain insights based on a country, a department, or other parameters.
     -   Identify problem areas by drilling down to survey questions with lower scores.
     -   Track channels through which pulse surveys are taken by employees. For example, Virtual Agent or SMS.
-    -   Interpret the journey of an employee on the Listening Posts survey widgets. Gain an implicit insight on the behavior of employees and their responses to pulse surveys. For more information, see [Integrate with Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/listening-posts/lp-apps.md).
+    -   Interpret the journey of an employee on the Listening Posts survey widgets. Gain an implicit insight on the behavior of employees and their responses to pulse surveys. For more information, see [Integrate with User Experience Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/listening-posts/lp-apps.md).
 -   **Enable a voluntary survey**
 
     Enable employees to share their feedback anytime by accessing the voluntary feedback survey on Employee Center.

@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 2
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
-breadcrumb: [Configure, Now Assist for IT Service Management \(ITSM\), IT Service Management]
+breadcrumb: [Configure, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 
 # Configure Now Assist in Virtual Agent for ITSM
@@ -48,12 +48,12 @@ Although the following catalog item question types are supported in the conversa
 -   Attachment
 -   Multiple choice question with more than 10 choices
 
-## Now Assist features supported in Now Assist for ITSM Virtual Agent
+## Now Assist features supported in ServiceNow Otto for ITSM Virtual Agent
 
 |Feature|Topic Reference|
 |-------|---------------|
 |Upload file formats such as text, PDF, Word \(.doc, .docx\) and image files such as JPEG and PNG.|[Upload documents in a chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/upload-documents-na-va.md).|
-|Combine AI Search with generative AI chat skills to speed up issue resolution and reduce deflection to a live agent using Now Assist for ITSM in Virtual Agent.|[Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/nava-enhanced-chat.md)|
+|Combine AI Search with generative AI chat skills to speed up issue resolution and reduce deflection to a live agent using ServiceNow Otto for ITSM in Virtual Agent.|[Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/nava-enhanced-chat.md)|
 |Use the structured and unstructured data from ServiceNow records, knowledge bases, and external sources to enhance the performance of Now Assist in Virtual Agent, AI agents, and generative AI skills using Knowledge Graph.|[Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/knowledge-graph-landing.md)|
 |Define crawl settings for external content connectors to crawl source systems and send it to AI Search for indexing.|[Configuring External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/configuring-ext-cont-connectors.md)|
 |Monitor your device's performance and diagnose potential issues.|[Check your device’s health using Now Assist for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-end-user-experience-self-service/check-your-device-s-health-using-now-assist-for-itsm.md)|

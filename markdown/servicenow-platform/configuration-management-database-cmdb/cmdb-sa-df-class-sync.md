@@ -8,7 +8,8 @@ product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
 last_updated: "2026-05-19"
-reading_time_minutes: 1
+reading_time_minutes: 2
+keywords: [principal class sync, out-of-sync principal classes, Data Foundations advisor notification, CI Class Manager principal class discrepancy, resolve principal class sync]
 breadcrumb: [Manage advisor scope, Advisor setup, Use Data Foundations advisor, CMDB success advisor, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -18,7 +19,7 @@ When other tools or processes add or remove principal classes outside the adviso
 
 ## About principal class sync
 
-The principal classes you select in the advisor define the Data Foundations advisor scope. The CMDB also stores principal class status at the class level, and other tools and processes, such as the CI Class Manager or the principal class recommendations agent, can change it. When tools or processes change principal class designations outside the advisor, the advisor scope and the principal class state in the CMDB can diverge.
+The principal classes you select in the advisor define the Data Foundations advisor scope. The CMDB also stores principal class status at the class level. Other tools and processes, such as the CI Class Manager or the principal class recommendations agent, can change it. When tools or processes change principal class designations outside the advisor, the advisor scope and the principal class state in the CMDB can diverge.
 
 Examples of changes that can cause an out-of-sync state:
 
@@ -35,11 +36,11 @@ If a discrepancy exists, the Data Foundations advisor displays two types of noti
 
 -   **Dashboard notification**
 
-    An info notification banner appears on the Data Foundations advisor dashboard. Select **Manage principal classes** to open the **Set principal classes** dialog box.
+    An info notification banner appears on the Data Foundations advisor dashboard. Select **Manage principal classes** to open the Set principal classes dialog box.
 
 -   **Inline alert in the Set principal classes dialog box**
 
-    When you open the **Set principal classes** dialog box from the advisor, an inline info alert appears at the top of the dialog box with the message about principal classes being out of sync. Select **Show more** to expand the alert and see the list of classes that other tools added or removed outside the advisor. Select **Show less** to collapse the list.
+    When you open the Set principal classes dialog box from the advisor, an inline info alert appears with the message about principal classes being out of sync. Select **Show more** to expand the alert and see the list of classes that other tools added or removed outside the advisor. Select **Show less** to collapse the list.
 
 
 ## Resolving an out-of-sync state

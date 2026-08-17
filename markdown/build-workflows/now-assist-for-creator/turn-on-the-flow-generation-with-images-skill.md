@@ -18,16 +18,16 @@ Turn on the flow generation with images skill to use generative AI to create flo
 
 ## Before you begin
 
--   Install the Now Assist for Creator application
+-   Install the ServiceNow Otto for Creator application
 -   Role required: admin
 
 ## About this task
 
-**Important:** This skill requires a separate subscription to Now Assist for Creator.
+**Important:** This skill requires a separate subscription to ServiceNow Otto for Creator.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Features**.
+1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Features**.
 
 2.  In the workflow list, select **Creator**.
 

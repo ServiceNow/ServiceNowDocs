@@ -1,5 +1,5 @@
 ---
-title: Using Now Assist for Software Asset Management \(SAM\)
+title: Using ServiceNow Otto for Software Asset Management \(SAM\)
 description: If you have a Software Asset Management manager role, you can use generative AI capabilities to streamline your daily Software Asset Management workflow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/now-assist-for-software-asset-management-sam/using-now-assist-sam.html
@@ -9,10 +9,10 @@ classification: now-assist-for-software-asset-management-sam
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Now Assist for Software Asset Management \(SAM\), Software Asset Management, IT Asset Management]
+breadcrumb: [ServiceNow Otto for Software Asset Management \(SAM\), Software Asset Management, IT Asset Management]
 ---
 
-# Using Now Assist for Software Asset Management \(SAM\)
+# Using ServiceNow Otto for Software Asset Management \(SAM\)
 
 If you have a Software Asset Management manager role, you can use generative AI capabilities to streamline your daily Software Asset Management workflow.
 
@@ -29,5 +29,5 @@ Automatically generate user resolution rules to ensure accurate mapping of incom
 -   **[Extract entitlements from software contracts using Now Assist for SAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/now-assist-for-software-asset-management-sam/extract-entitlements-from-contracts-now-assist-sam.md)**  
 Reduce manual effort by leveraging generative AI to automatically create entitlements by extracting information from software contracts.
 
-**Parent Topic:**[Now Assist for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/now-assist-for-software-asset-management-sam/now-assist-sam.md)
+**Parent Topic:**[ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/now-assist-for-software-asset-management-sam/now-assist-sam.md)
 

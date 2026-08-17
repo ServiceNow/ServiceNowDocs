@@ -83,7 +83,7 @@ Password
 
 </td><td>
 
-Password for the MID Server user. This password is specified in the **mid.instance.password** parameter of the configuration file that the MID Server installer creates.
+Password for the MID Server user. This password is specified in the **mid.instance.password** parameter of the configuration file \(config.xml\) in the agent folder of the MID Server installation directory.
 
 </td></tr><tr><td>
 

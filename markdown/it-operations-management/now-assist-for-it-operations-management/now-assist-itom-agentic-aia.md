@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 3
 keywords: [AI Agents, agentic AI]
-breadcrumb: [Using agentic workflows in Now Assist for ITOM, Now Assist for ITOM, IT Operations Management]
+breadcrumb: [Using agentic workflows in ServiceNow Otto for ITOM, ServiceNow Otto for ITOM, IT Operations Management]
 ---
 
 # Analyze alert impact agentic workflow
@@ -43,7 +43,7 @@ The Analyze alert impact page lets you manage the agentic workflow, including de
 
 ## AI agents used in the analyze alert impact agentic workflow
 
-The analyze alert impact agentic workflow uses observability AI agents to gather information from alerts and request insights. The observability AI agents require additional configuration. For more information, see [Configuring agents and skills for Now Assist for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/itom-ai-agent-configuration.md).
+The analyze alert impact agentic workflow uses observability AI agents to gather information from alerts and request insights. The observability AI agents require additional configuration. For more information, see [Configuring agents and skills for ServiceNow Otto for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/itom-ai-agent-configuration.md).
 
 **Important:** Before using the analyze alert impact agentic workflow, activate its AI agents. In AI Agent Studio, find the agents in Create and manage, and turn on the AI agents in the Select channels and status screen.
 
@@ -74,7 +74,7 @@ In AI Agent Studio, you get notified when the analysis is generated. You can the
 -   **[Use the analyze alert impact agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-use-aia.md)**  
 Learn how to use the analyze alert impact agentic workflow in the Now Assist panel. The agentic workflow helps you investigate an alert and get the context that you need to respond efficiently.
 
-**Parent Topic:**[Using agentic workflows in Now Assist for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-ai-agent-workflows.md)
+**Parent Topic:**[Using agentic workflows in ServiceNow Otto for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-ai-agent-workflows.md)
 
 **Previous topic:**[Triage and analyze alerts agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/itom-alert-triage-agentic-workflow.md)
 

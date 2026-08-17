@@ -1,5 +1,5 @@
 ---
-title: Skill inputs and triggers for Now Assist for Public Sector Digital Services \(PSDS\)
+title: Skill inputs and triggers for ServiceNow Otto for Public Sector Digital Services \(PSDS\)
 description: Use the inputs and triggers for each skill to configure how and when a skill is used.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/now-assist-psds-skill-inputs.html
@@ -7,10 +7,10 @@ release: yokohama
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Configure, Now Assist for PSDS, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Configure, ServiceNow Otto for PSDS, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Skill inputs and triggers for Now Assist for Public Sector Digital Services \(PSDS\)
+# Skill inputs and triggers for ServiceNow Otto for Public Sector Digital Services \(PSDS\)
 
 Use the inputs and triggers for each skill to configure how and when a skill is used.
 

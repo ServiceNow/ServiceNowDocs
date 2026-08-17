@@ -1,6 +1,6 @@
 ---
 title: Specifying where the ERP system data is saved
-description: Data that Zero Copy Connector for ERP retrieves from ERP \(Enterprise Resource Planning\) systems can be used in remote tables, extraction tables, and added to flows as data pills in Workflow Studio.
+description: Data that ERP Canvas retrieves from ERP \(Enterprise Resource Planning\) systems can be used in remote tables, extraction tables, and added to flows as data pills in Workflow Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-integration-framework/erpc-call-response-data.html
 release: yokohama
@@ -9,12 +9,12 @@ classification: erp-integration-framework
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Building and managing ERP models to work with ERP data, Using ERP models, extraction tables, and remote tables, Zero Copy Connector for ERP, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Building and managing ERP models to work with ERP data, Using ERP models, extraction tables, and remote tables, ERP Canvas, Building low-code applications, Developing your application, Building applications]
 ---
 
 # Specifying where the ERP system data is saved
 
-Data that Zero Copy Connector for ERP retrieves from ERP \(Enterprise Resource Planning\) systems can be used in remote tables, extraction tables, and added to flows as data pills in Workflow Studio.
+Data that ERP Canvas retrieves from ERP \(Enterprise Resource Planning\) systems can be used in remote tables, extraction tables, and added to flows as data pills in Workflow Studio.
 
 ## Adding retrieved data to remote tables and extraction tables
 
@@ -25,8 +25,8 @@ Use the JSON contents of the **Response** in a flow's output to save the ERP dat
 
 When you add mapped fields or parameters as outputs and successfully read or update the ERP system, each parameter appears as a field that you can then add to a remote table or an extraction table. Manage the fields for the remote table or extraction table to add the retrieved parameters. For more information, see the following topics:
 
--   [Customize fields for an ERP remote table in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-build-remote-table.md)
--   [Select fields for an extraction table in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erpc-select-extraction-table-fields.md)
+-   [Customize fields for an ERP remote table in ERP Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-build-remote-table.md)
+-   [Select fields for an extraction table in ERP Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erpc-select-extraction-table-fields.md)
 
 ## Using retrieved ERP data in flows
 

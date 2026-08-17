@@ -47,7 +47,7 @@ The Diagnostics page helps you prioritize and address errors and anomalies in IP
 4.  [Discovery Admin Workspace Content 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/discovery-workspace-content-360.md)  
 The Content 360 page enables you to discover applications and evaluate application suggestions based on machine learning or crowd-sourced resources. Then, create configuration items with a single click.
 5.  [Discovery Admin Workspace Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/discovery-admin-workspace-insights.md)  
-The Insights page provides access to specialized widgets, dashboards, and reports to leverage your organization's IT operations management and infrastructure monitoring, taking advantage of Discovery's capabilities for improved operational visibility and infrastructure health.
+The Insights page provides widgets, dashboards, and reports for IT operations management and infrastructure monitoring. Use these tools to improve operational visibility and infrastructure health.
 6.  [Discovery Admin Workspace Tuning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/discovery-admin-workspace-tuning.md)  
 The Tuning page enables you to validate your existing configurations and resolve configuration issues.
 7.  [Discovery Admin Workspace Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/discovery-admin-workspace-setup.md)  

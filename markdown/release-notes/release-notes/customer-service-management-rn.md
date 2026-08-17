@@ -25,7 +25,7 @@ See [Case management for Customer Service Management](https://raw.githubusercont
 
     Use the Case Management for Invoice Operations application \(com.sn\_csm\_invoice\) to create cases for multiple invoices or for specific invoice lines. Agents can use these cases to process invoice-related services such as invoice disputes or requested corrections.
 
--   **[Process mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/process-mining.md)**
+-   **Process mining**
 
     Use the following features to find process improvement opportunities:
 
@@ -38,7 +38,7 @@ See [Case management for Customer Service Management](https://raw.githubusercont
 
 ## Changed in this release
 
--   **[Process mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/process-config-builder.md)**
+-   **Process mining**
 
     Use the process mining enhancements to improve processes as needed:
 
@@ -59,19 +59,19 @@ Customer Service Management is available with activation of the Customer Service
 
 ## Browser requirements
 
-ServiceNow workspaces don’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge - Chromium or one of the other supported browsers listed in [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/browser-support.md).
+ServiceNow workspaces don’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge - Chromium or one of the other supported browsers listed in Browser support.
 
 ## Related ServiceNow applications and features
 
 -   **[Now Assist for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/now-assist-csm.md)**
 
-    Use the ServiceNow® Now Assist for CSM application to summarize customer chat conversations on interactions, summarize case details, and generate case resolution notes.
+    Use the ServiceNow® ServiceNow Otto for CSM application to summarize customer chat conversations on interactions, summarize case details, and generate case resolution notes.
 
 -   **[Communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/servicenow-communities.md)**
 
     From the Customer Service Portal and Consumer Service Portal, enable your customers to connect, engage, and collaborate by using the ServiceNow® Communities application. Customer Service agents can create cases from the community discussion threads and resolve cases by using the community content.
 
--   **[Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/cim-landing-page.md)**
+-   **Continual Improvement Management**
 
     Use ServiceNow® Continual Improvement Management to request improvement opportunities. You can implement phases and tasks to meet performance goals, track progress, and measure success. You can also view, create, and associate improvement initiatives from within the Process Mining application.
 
@@ -79,7 +79,7 @@ ServiceNow workspaces don’t support mobile devices, Internet Explorer, or Micr
 
     The Customer Project Management plugin \(com.snc.csm\_ppm\) enables you to create projects for a customer account by using the ServiceNow® Project Portfolio Suite with Financials application. It also gives end users visibility into their projects from the Customer Service Portal. This plugin requires the Project Portfolio Suite with Financials plugin \(com.snc.financial\_planning\_pmo\).
 
--   **[Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/c_EM.md)**
+-   **Event Management**
 
     Customer Service Management provides an integration with ServiceNow® IT Operations Management Event Management. This integration enables you to create cases proactively from alerts either manually or through automation. Customer service agents can track the accounts and the corresponding install base items that are affected by the alert. Agents can also track the operational status of an account's install base to better correlate customer issues and provide faster responses.
 
@@ -94,15 +94,15 @@ ServiceNow workspaces don’t support mobile devices, Internet Explorer, or Micr
 
     Workflow Studio components enable you to invoke flows or subflows that are designed as part of a workflow and to find out the output or execution status of the flows or subflows.
 
--   **[Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/knowledge-management.md)**
+-   ****
 
     From the Customer Service Portal and Consumer Service Portal, enable your customers to search for shared information by using the ServiceNow® Knowledge Management application. Customer service agents can resolve cases with the knowledge content.
 
--   **[Process Automation Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/process-automation-designer.md)**
+-   **Process Automation Designer**
 
     Customer Service Management provides an integration with the ServiceNow® Playbooks application. This integration provides the ability to configure processes such as playbooks.
 
--   **[Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/process-mining.md)**
+-   ****
 
     ServiceNow® Process Mining helps analysts and process owners analyze the effectiveness of their business processes. Create automated business process flows from your data so that you can monitor and more quickly discover inefficiencies in your processes.
 
@@ -110,7 +110,7 @@ ServiceNow workspaces don’t support mobile devices, Internet Explorer, or Micr
 
     Customer Service Management includes integrations with the following ServiceNow® Service Management applications: [Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/csm-integration-sm-incident.md), [Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/csm-integration-sm-problem.md), [Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/csm-integration-sm-change.md), and [Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/csm-integration-sm-request.md). With these integrations, you can create incident, problem, change, and request records from customer service cases. Customers can also submit requests from the Customer Service Portal.
 
--   **[Next Experience UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/ui-builder-overview.md)**
+-   **Next Experience UI Builder**
 
     Next Experience UI Builder is a low-code web user interface builder that enables developers to build pages for workspace and portal web-based experiences. Use the base system and custom web components to build your pages.
 
@@ -118,7 +118,7 @@ ServiceNow workspaces don’t support mobile devices, Internet Explorer, or Micr
 
     Manage and maintain the productivity of your workforce from a single application using ServiceNow® Workforce Optimization for Customer Service. With this application, you can help to route work to members of your team, manage your team's skills and schedules, and monitor their performance.
 
--   **[Workspace UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/workspace-landing-page.md)**
+-   **Workspace UI**
 
     ServiceNow® Workspace is a graphical user interface that puts multiple tools on one page, including the tools that agents use to find, research, and resolve issues. CSM Configurable Workspace is a customer service-specific implementation that provides agents with the tools that they need to respond to customers and to resolve cases.
 

@@ -9,7 +9,7 @@ classification: now-assist-for-security-incident-response-sir
 topic_type: concept
 last_updated: "2025-04-02"
 reading_time_minutes: 1
-breadcrumb: [Use agentic workflows, Now Assist for Security Incident Response, Security Operations]
+breadcrumb: [Use agentic workflows, ServiceNow Otto for Security Incident Response \(SIR\), Security Operations]
 ---
 
 # Security Incident Response AI agent collection for the Analyze security operations metrics agentic workflow

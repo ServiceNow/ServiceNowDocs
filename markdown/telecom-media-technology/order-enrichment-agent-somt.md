@@ -1,5 +1,5 @@
 ---
-title: Now Assist for Sales CRM for Telecommunications AI agent collection Order Enrichment AI agent
+title: ServiceNow Otto for Sales Customer Relationship Management for Telecommunications AI agent collection Order Enrichment AI agent
 description: Use the Order Enrichment AI agent to collect customer order information, identify if the order needs enrichment, and create enrichment tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-media-technology/order-enrichment-agent-somt.html
@@ -7,10 +7,10 @@ release: yokohama
 topic_type: concept
 last_updated: "2025-10-29"
 reading_time_minutes: 1
-breadcrumb: [Standalone agents in SOMT, Use agentic workflows, Now Assist for Sales CRM for Telecommunications, Telecommunications, Media, and Technology]
+breadcrumb: [Standalone agents in SOMT, Use agentic workflows, ServiceNow Otto for Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology]
 ---
 
-# Now Assist for Sales CRM for Telecommunications AI agent collection Order Enrichment AI agent
+# ServiceNow Otto for Sales Customer Relationship Management for Telecommunications AI agent collection Order Enrichment AI agent
 
 Use the Order Enrichment AI agent to collect customer order information, identify if the order needs enrichment, and create enrichment tasks.
 
@@ -22,7 +22,7 @@ Given a top Order Line Item \(OLI\) finds all tasks needed to enrich it and all 
 
 For each top order line item \(OLI\) and its child OLIs, the Order Enrichment Agent uses historical data from similar orders to determine which enrichment tasks are required.
 
-To activate the Group Action Framework \(GAF\), see [Activate Group Action Framework for Now Assist for Sales CRM for Telecommunications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-media-technology/activate-group-action-framework-somt.md).
+To activate the Group Action Framework \(GAF\), see [Activate Group Action Framework for ServiceNow Otto for Sales Customer Relationship Management for Telecommunications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-media-technology/activate-group-action-framework-somt.md).
 
 If needed, the outcome of the order tasks can be modified by the agent.
 

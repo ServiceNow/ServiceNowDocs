@@ -1,6 +1,6 @@
 ---
-title: Customize a Now Assist for Field Service Management \(FSM\) work order task summarization skill
-description: If you have the admin role, you can customize the Now Assist for FSM work order task summarization skill so that agents can use the generative AI skills in CSM/FSM Configurable Workspace and in Core UI.
+title: Customize a ServiceNow Otto for Field Service Management \(FSM\) work order task summarization skill
+description: If you have the admin role, you can customize the ServiceNow Otto for FSM work order task summarization skill so that agents can use the generative AI skills in CSM/FSM Configurable Workspace and in Core UI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/now-assist-for-field-service-management-fsm/cust-now-assist-fsm-wot-summarization-skill.html
 release: yokohama
@@ -9,12 +9,12 @@ classification: now-assist-for-field-service-management-fsm
 topic_type: task
 last_updated: "2025-07-07"
 reading_time_minutes: 5
-breadcrumb: [Customizing a skill, Configure Now Assist for Field Service Management \(FSM\), Now Assist for Field Service Management \(FSM\)]
+breadcrumb: [Customizing a skill, Configure ServiceNow Otto for Field Service Management \(FSM\), ServiceNow Otto for Field Service Management \(FSM\)]
 ---
 
-# Customize a Now Assist for Field Service Management \(FSM\) work order task summarization skill
+# Customize a ServiceNow Otto for Field Service Management \(FSM\) work order task summarization skill
 
-If you have the admin role, you can customize the Now Assist for FSM work order task summarization skill so that agents can use the generative AI skills in CSM/FSM Configurable Workspace and in Core UI.
+If you have the admin role, you can customize the ServiceNow Otto for FSM work order task summarization skill so that agents can use the generative AI skills in CSM/FSM Configurable Workspace and in Core UI.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: wm\_admin
 
 ## About this task
 
-From the Now Assist Admin console, you can select the input tables, related lists, and fields for each input template of the work order task summarization skill.
+From the AI Admin Hub console, you can select the input tables, related lists, and fields for each input template of the work order task summarization skill.
 
 ## Procedure
 
@@ -30,9 +30,9 @@ From the Now Assist Admin console, you can select the input tables, related list
 
 2.  Select the **Now Assist Skills** tab.
 
-3.  In the **Customer** workflow group, select **FSM** to view the skills for the Now Assist for FSM features.
+3.  In the **Customer** workflow group, select **FSM** to view the skills for the ServiceNow Otto for FSM features.
 
-4.  Activate and copy the Now Assist for FSM work order task summarization skill for customization.
+4.  Activate and copy the ServiceNow Otto for FSM work order task summarization skill for customization.
 
     1.  On the work order task summarization feature card, select **View details**.
 
@@ -52,7 +52,7 @@ From the Now Assist Admin console, you can select the input tables, related list
 
 5.  In the General details step, fill in the fields.
 
-    For information about the inputs and triggers for each skill, see [Skill inputs for Now Assist for Field Service Management \(FSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/now-assist-for-field-service-management-fsm/now-assist-fsm-skill-inputs.md).
+    For information about the inputs and triggers for each skill, see [Skill inputs for ServiceNow Otto for Field Service Management \(FSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/now-assist-for-field-service-management-fsm/now-assist-fsm-skill-inputs.md).
 
     1.  Enter a name and description for the skill.
 

@@ -1,17 +1,17 @@
 ---
 title: Telecommunications, Media, and Technology
-description: The ServiceNow Telecommunications, Media, and Technology \(TMT\) product suite brings together customer care, operations, order management, and partner ecosystems so that service providers can scale their business to capitalize on the fast-growing “everything-as-a-service" opportunity.
+description: The ServiceNow Telecommunications, Media, and Technology \(TMT\) product suite brings together customer care, operations, order management, and partner ecosystems. Service providers can scale their business to capitalize on the fast-growing “everything-as-a-service" opportunity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-media-technology/telecom-media-tech-landing.html
 release: yokohama
 topic_type: concept
 last_updated: "2025-01-30"
-reading_time_minutes: 1
+reading_time_minutes: 2
 ---
 
 # Telecommunications, Media, and Technology
 
-The ServiceNow® Telecommunications, Media, and Technology \(TMT\) product suite brings together customer care, operations, order management, and partner ecosystems so that service providers can scale their business to capitalize on the fast-growing “everything-as-a-service" opportunity.
+The ServiceNow® Telecommunications, Media, and Technology \(TMT\) product suite brings together customer care, operations, order management, and partner ecosystems. Service providers can scale their business to capitalize on the fast-growing “everything-as-a-service" opportunity.
 
 <table id="table_cry_rvq_pvb" class="nav-card"><tbody><tr><td>
 
@@ -50,4 +50,14 @@ The ServiceNow® Telecommunications, Media, and Technology \(TMT\) product suite
 [Telecommunications Service Operations Management\[Omitted image "bus-siem-tmt.svg"\] Alt text: Proactively monitor the health of your networks and services to prevent downtime.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/telecom-service-ops/telecom-service-operations-mgt-overview.md)
 
 </td></tr></tbody>
-</table>
+</table>## Additional resources
+
+-   Learn more about what's new and changed, see the [Telecommunications, Media, and Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/technology-industry-rn-landing.md).
+-   Learn about Customer Service Management at [Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/c_CustomerServiceManagement.md)
+-   Log in to your ServiceNow® account and find additional information about implementing and deploying Telecommunications, Media, and Technology features at the [Best Practices Library](https://mynow.servicenow.com/now/best-practices/home).
+-   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/now-learning-get-certified?id=amap_detail&achievement_id=3436f09887952e9024e0bb39dabb3504&s=1&ssa=3).
+-   Find useful resources related to your role and explore general guidelines at [ServiceNow Impact](https://www.servicenow.com/success.html).
+-   Connect with Telecommunications, Media, and Technology users at the ServiceNow Community:
+    -   [Telecommunications](https://www.servicenow.com/community/telecom/ct-p/telecommunication) users.
+    -   [Technology Providers](https://www.servicenow.com/community/technology-provider/ct-p/technology).
+

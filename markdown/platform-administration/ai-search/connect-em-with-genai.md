@@ -28,7 +28,7 @@ Role required: admin
 
 3.  Verify that **Definition Table** field is prepopulated with sys\_one\_extend\_capability\_definition.
 
-4.  In the **Definition** field, select the search icon \(\[Omitted image "Banner\_GlobalTextSearchIcon.png"\] Alt text: Lookup documents using list.\)to select the definition document.
+4.  In the **Definition** field, select the search icon \[Omitted image "Banner\_GlobalTextSearchIcon.png"\] Alt text: Lookup documents using list.to select the definition document.
 
     1.  In the **Table name** field, select One API System Executor \[one\_api\_system\_executor\].
 

@@ -41,11 +41,11 @@ Now Assist for Spoke Generation v1.6.0 is the latest version.
 
 The spoke generation skill offers generative AI capabilities to build spokes. This skill is installed with the Now Assist for Creator \(sn\_now\_creator\) application. You can install this application from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
-After installing the Now Assist for Creator \(sn\_now\_creator\) application, activate the Spoke Generation skill in the [Now Assist for Creator feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/now-assist-for-creator/now-assist-for-creator-landing.md) from the Now Assist Admin console.
+After installing the Now Assist for Creator \(sn\_now\_creator\) application, activate the Spoke Generation skill in the [ServiceNow Otto for Creator feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/now-assist-for-creator/now-assist-for-creator-landing.md) from the AI Admin Hub console.
 
-\[Omitted image "creator-skill-now-assist.png"\] Alt text: Spoke Generation skill inNow Assist Admin console.
+\[Omitted image "creator-skill-now-assist.png"\] Alt text: Spoke Generation skill inAI Admin Hub console.
 
--   For information about the Now Assist Admin console, see [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configuring-now-assist.md).
+-   For information about the AI Admin Hub console, see [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configuring-now-assist.md).
 -   For steps to activate the required skill, see [Activate a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configure-a-now-assist-skill.md).
 
 **Important:** Some Now Assist products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Please check for availability updates in future releases.

@@ -9,7 +9,7 @@ classification: discovery
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Manual flow for certificate requests, Configuring Certificate Inventory and Management, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
+breadcrumb: [Manual flow for certificate requests, Configure, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
 
 # Create a renewal certificate request

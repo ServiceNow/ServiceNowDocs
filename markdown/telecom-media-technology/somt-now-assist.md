@@ -1,6 +1,6 @@
 ---
-title: Now Assist for Sales CRM for Telecommunications
-description: Use the ServiceNow Now Assist for Sales CRM for Telecommunications application to automate enrichment and fulfillment tasks. This helps customers introduce new offerings without the need to build complex subflows. These AI Agents automatically suggest new tasks based on similarities with previous orders and also provide flexibility by auto-correcting the agent’s inputs related to new tasks.
+title: ServiceNow Otto for Sales Customer Relationship Management for Telecommunications
+description: Use the ServiceNow ServiceNow Otto for Sales Customer Relationship Management for Telecommunications application to automate enrichment and fulfillment tasks. This helps customers introduce new offerings without the need to build complex subflows. These AI Agents automatically suggest new tasks based on similarities with previous orders and also provide flexibility by auto-correcting the agent’s inputs related to new tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-media-technology/somt-now-assist.html
 release: yokohama
@@ -10,9 +10,9 @@ reading_time_minutes: 2
 breadcrumb: [Telecommunications, Media, and Technology]
 ---
 
-# Now Assist for Sales CRM for Telecommunications
+# ServiceNow Otto for Sales Customer Relationship Management for Telecommunications
 
-Use the ServiceNow® Now Assist for Sales CRM for Telecommunications application to automate enrichment and fulfillment tasks. This helps customers introduce new offerings without the need to build complex subflows. These AI Agents automatically suggest new tasks based on similarities with previous orders and also provide flexibility by auto-correcting the agent’s inputs related to new tasks.
+Use the ServiceNow® ServiceNow Otto for Sales Customer Relationship Management for Telecommunications application to automate enrichment and fulfillment tasks. This helps customers introduce new offerings without the need to build complex subflows. These AI Agents automatically suggest new tasks based on similarities with previous orders and also provide flexibility by auto-correcting the agent’s inputs related to new tasks.
 
 **Important:**
 

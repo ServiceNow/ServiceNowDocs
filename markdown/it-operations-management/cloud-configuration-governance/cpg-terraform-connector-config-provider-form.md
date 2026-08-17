@@ -1,5 +1,5 @@
 ---
-title: Cloud Services Catalog Terraform Connector Create Config Provider form reference
+title: Cloud Provisioning and Governance: Terraform Connector Create Config Provider form reference
 description: Cloud Provisioning and Governance uses the config provider to interact with the Terraform deployment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/cloud-configuration-governance/cpg-terraform-connector-config-provider-form.html
@@ -9,10 +9,10 @@ classification: cloud-configuration-governance
 topic_type: reference
 last_updated: "2026-03-25"
 reading_time_minutes: 2
-breadcrumb: [Cloud Services Catalog Terraform Connector reference, Cloud Services Catalog Terraform Connector, Support for continuous delivery \(configuration management\), Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Optimization, IT Operations Management]
+breadcrumb: [Cloud Provisioning and Governance: Terraform Connector reference, Cloud Provisioning and Governance: Terraform Connector, Support for continuous delivery \(configuration management\), Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Optimization, IT Operations Management]
 ---
 
-# Cloud Services Catalog Terraform Connector Create Config Provider form reference
+# Cloud Provisioning and Governance: Terraform Connector Create Config Provider form reference
 
 Cloud Provisioning and Governance uses the config provider to interact with the Terraform deployment.
 
@@ -101,5 +101,5 @@ Supported Terraform Open Source CLI version installed in the Terraform server.Fo
  Starting with Cloud Provisioning and Governance: Terraform Connector version 1.5.2, version 1.0.0 is deprecated. The deprecated version represents Terraform Open Source CLI version 0.11 and 0.12.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Cloud Services Catalog Terraform Connector reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/cpg-terraform-connector-reference.md)
+</table>**Parent Topic:**[Cloud Provisioning and Governance: Terraform Connector reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/cpg-terraform-connector-reference.md)
 

@@ -201,7 +201,7 @@ Enterprise architect
 
 </td><td>
 
-Plan, prioritize, and roadmap the work based on your business capabilities or business applications.This lens can be used only if the ServiceNow® Enterprise Architecture Workspace is installed.
+Plan, prioritize, and roadmap the work based on your business capabilities or business applications.This lens can be used only if the [ServiceNow® Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-portfolio-management/ea-workspace.md) is installed.
 
 </td></tr><tr><td>
 

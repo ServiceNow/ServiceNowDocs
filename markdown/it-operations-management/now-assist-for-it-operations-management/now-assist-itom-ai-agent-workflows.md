@@ -1,5 +1,5 @@
 ---
-title: Using agentic workflows in Now Assist for IT Operations Management \(ITOM\)
+title: Using agentic workflows in ServiceNow Otto for IT Operations Management \(ITOM\)
 description: Use the IT Operations Management \(ITOM\) agentic workflows to complete tasks autonomously.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-ai-agent-workflows.html
@@ -10,10 +10,10 @@ topic_type: concept
 last_updated: "2025-08-21"
 reading_time_minutes: 3
 keywords: [AI Agents, Agentic AI]
-breadcrumb: [Now Assist for ITOM, IT Operations Management]
+breadcrumb: [ServiceNow Otto for ITOM, IT Operations Management]
 ---
 
-# Using agentic workflows in Now Assist for IT Operations Management \(ITOM\)
+# Using agentic workflows in ServiceNow Otto for IT Operations Management \(ITOM\)
 
 Use the IT Operations Management \(ITOM\) agentic workflows to complete tasks autonomously.
 
@@ -126,7 +126,7 @@ Manage alerts AI agent
 
 ## AI model providers
 
-You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/exploring-large-language-models.md).
+You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/exploring-large-language-models.md).
 
 ## Security
 
@@ -139,7 +139,7 @@ Looking for an AI agent?
 -   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/find-ai-agents.md).
 -   To find agents that might not be installed on your instance, visit the [AI Agent Marketplace](https://store.servicenow.com/store/ai-marketplace) on the ServiceNow Store.
 
-Visit the following links to learn about the Now Assist for ITOM agentic workflows.
+Visit the following links to learn about the ServiceNow Otto for ITOM agentic workflows.
 
 1.  [Triage and analyze alerts agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/itom-alert-triage-agentic-workflow.md)  
 Use the Triage and analyze alerts agentic workflow to complete preliminary alert tasks and analysisfor alerts.
@@ -150,5 +150,5 @@ The Analyze potential impact agentic workflow analyzes how a change request migh
 4.  [Manage alerts autonomously agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/itom-autonomous-operator-workflow.md)  
 Enhance IT operations with AI-driven, autonomous alert management using the manage alerts autonomously agentic workflow.
 
-**Parent Topic:**[Now Assist for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/now-assist-itom.md)
+**Parent Topic:**[ServiceNow Otto for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/now-assist-itom.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Use Recommendation of similar control objectives skill to generate suggestions
+title: Use Recommendation of similar control objectives skill
 description: The "Recommendation of similar control objectives" skill generates recommendations by identifying, deduplicating, and rationalizing similar control objectives within the compliance library. This enables identification of redundant control objectives, making it easier to maintain a clean and efficient compliance library.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/privacy-workspace/privacy-generate-recommendation-for-a-new-control-objective.html
@@ -9,10 +9,10 @@ classification: privacy-workspace
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Now Assist for Privacy Management, Privacy Management, Governance, Risk, and Compliance]
+breadcrumb: [ServiceNow Otto for Privacy Management, Privacy Management, Governance, Risk, and Compliance]
 ---
 
-# Use Recommendation of similar control objectives skill to generate suggestions
+# Use Recommendation of similar control objectives skill
 
 The "Recommendation of similar control objectives" skill generates recommendations by identifying, deduplicating, and rationalizing similar control objectives within the compliance library. This enables identification of redundant control objectives, making it easier to maintain a clean and efficient compliance library.
 

@@ -1,6 +1,6 @@
 ---
-title: Zero Copy Connector for ERP clone model field descriptions
-description: The Clone ERP \(Enterprise Resource Planning\) model form in Zero Copy Connector for ERP enables you to clone an ERP model so you can edit the new model.
+title: ERP Canvas clone model field descriptions
+description: The Clone ERP \(Enterprise Resource Planning\) model form in ERP Canvas enables you to clone an ERP model so you can edit the new model.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-integration-framework/erp-canvas-clone-model-fields.html
 release: yokohama
@@ -9,14 +9,14 @@ classification: erp-integration-framework
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Zero Copy Connector for ERP field descriptions, Zero Copy Connector for ERP reference, Zero Copy Connector for ERP, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [ERP Canvas field descriptions, ERP Canvas reference, ERP Canvas, Building low-code applications, Developing your application, Building applications]
 ---
 
-# Zero Copy Connector for ERP clone model field descriptions
+# ERP Canvas clone model field descriptions
 
-The Clone ERP \(Enterprise Resource Planning\) model form in Zero Copy Connector for ERP enables you to clone an ERP model so you can edit the new model.
+The Clone ERP \(Enterprise Resource Planning\) model form in ERP Canvas enables you to clone an ERP model so you can edit the new model.
 
-For process details, see [Clone an ERP model in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-clone-data-model.md).
+For process details, see [Clone an ERP model in ERP Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-clone-data-model.md).
 
 <table id="table_hsv_q2v_2yb"><thead><tr><th>
 
@@ -48,7 +48,7 @@ ERP system
 
 </td><td>
 
-ERP system the ERP model connects to.The connected ERP system enables access to information about fields and tables and interaction between the model and the connected ERP system. For more information, see [Create an ERP system in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/create-an-erp-system.md) and [View a list of Zero Copy Connector for ERP systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/view-and-monitor-erp-systems-health.md).
+ERP system the ERP model connects to.The connected ERP system enables access to information about fields and tables and interaction between the model and the connected ERP system. For more information, see [Create an ERP system in ERP Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/create-an-erp-system.md) and [View a list of ERP Canvas systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/view-and-monitor-erp-systems-health.md).
 
 </td></tr><tr><td>
 
@@ -83,5 +83,5 @@ ERP softwares
 Supportability of the model. This field is mandatory because it determines which models can be used with a system. When you create or update a model and specify an ERP system, the software linked to that system is automatically added to this field. You can select additional options from the list. The list contains SAP major versions and does not include patch versions. When a model is exported, the ERP software information specified here is included.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Zero Copy Connector for ERP field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-field-descriptions.md)
+</table>**Parent Topic:**[ERP Canvas field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-field-descriptions.md)
 

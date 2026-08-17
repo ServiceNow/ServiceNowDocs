@@ -8,8 +8,8 @@ product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
 last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Configuring Cloud Services Catalog Terraform Connector, Cloud Services Catalog Terraform Connector, Support for continuous delivery \(configuration management\), Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Optimization, IT Operations Management]
+reading_time_minutes: 2
+breadcrumb: [Configuring Cloud Provisioning and Governance: Terraform Connector, Cloud Provisioning and Governance: Terraform Connector, Support for continuous delivery \(configuration management\), Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Optimization, IT Operations Management]
 ---
 
 # Create a Terraform Enterprise or Terraform Cloud config provider
@@ -18,7 +18,7 @@ Create Terraform Enterprise or Terraform Cloud config provider in Cloud Provisio
 
 ## Before you begin
 
--   Ensure that a supported Terraform Enterprise or Terraform Cloud version is in use. Cloud Services Catalog Terraform Connector supports the following Terraform versions:
+-   Ensure that a supported Terraform Enterprise or Terraform Cloud version is in use. Cloud Provisioning and Governance: Terraform Connector supports the following Terraform versions:
     -   Terraform Enterprise versions 1.1.9 and 1.2.0
     -   Terraform Cloud versions 1.1.9 and 1.2.0
 -   To use a minor or patch version of the Terraform Enterprise or Terraform Cloud, ensure that the minor or patch version is added to the workload config provider. For more information, see [Add support for minor or patch versions of the Terraform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/terraform-use-minor-patch-version-cli.md).
@@ -49,7 +49,7 @@ Role required: admin
 
     3.  On the form, fill in the fields.
 
-        For a description of the form fields, see [Cloud Services Catalog Terraform Connector Create Config Provider form reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/cpg-terraform-connector-config-provider-form.md).
+        For a description of the form fields, see [Cloud Provisioning and Governance: Terraform Connector Create Config Provider form reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/cpg-terraform-connector-config-provider-form.md).
 
     4.  Select **Submit**.
 

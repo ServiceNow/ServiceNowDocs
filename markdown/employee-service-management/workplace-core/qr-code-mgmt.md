@@ -73,5 +73,5 @@ View, update, or print the already generated QR codes in the application. Before
 
 [Location migration]()
 
-[View workplace service usage analytics with Usage Insights]()
+[View workplace service usage analytics with User Experience Analytics]()
 

@@ -16,7 +16,20 @@ breadcrumb: [Receive assets, Procurement, Asset Management, IT Service Managemen
 
 A consumable asset is one that is purchased in quantity and distributed. It is assigned to the consumable model category, and the asset record tracks the quantity that is available and total cost. When consumable assets are received, they are merged into an existing consumable record, if available.
 
-For the records to merge, the consumable cannot be listed on an active transfer order and the **Model**, **Location**, **Model Category**, **Stockroom**, **Status**, and **Substatus** fields on the asset record must match.
+For records to merge, the consumable can't be listed on an active transfer order. When a record is eligible for merge, the merge process identifies an existing consumable record that matches on all of the following base fields:
+
+-   Model
+-   Location
+-   Model category
+-   Stockroom
+-   Install status
+-   Substatus
+-   Parent
+-   Asset function
+-   Assigned to
+-   Domain \(for multi-domain instances\)
+-   Active-to \(matched as true, or as false-or-empty\)
+-   Planned-for-disposal \(matched as false or empty\)
 
 If consumables are merged into an existing consumable record, the cost of the additional consumables received is added to that of the existing consumables in the record. For example, if 50 computer keyboards arrive and 20 keyboards of the same model exists in the receiving stockroom, the two records are merged showing 70 keyboards in the stockroom with a combined total cost.
 

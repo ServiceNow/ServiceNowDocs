@@ -195,11 +195,11 @@ For more information about chat summarization, see [Now Assist skills](https://r
 
 Quickly learn the details of a case or incident by reading a case summarization. The summarization gives you enough details about the interaction so that your requester doesn't have to repeat the same information to you.
 
-You can generate a case or incident summarization from the Now Assist panel for Now Assist for CSM, Now Assist for HRSD, or Now Assist for ITSM:
+You can generate a case or incident summarization from the Now Assist panel for ServiceNow Otto for CSM, ServiceNow Otto for HRSD, or ServiceNow Otto for ITSM:
 
--   For Now Assist for CSM, select **Summarize record** or enter `summarize a record` in the **Ask Now Assist to** field.
--   For Now Assist for HRSD, select **Summarize record** or enter `summarize a record` in the **Ask Now Assist to** field.
--   For Now Assist for ITSM, select **Summarize incident** or enter `summarize an incident` in the **Ask Now Assist to** field.
+-   For ServiceNow Otto for CSM, select **Summarize record** or enter `summarize a record` in the **Ask Now Assist to** field.
+-   For ServiceNow Otto for HRSD, select **Summarize record** or enter `summarize a record` in the **Ask Now Assist to** field.
+-   For ServiceNow Otto for ITSM, select **Summarize incident** or enter `summarize an incident` in the **Ask Now Assist to** field.
 
 For more information about case or incident summarization, see [Now Assist skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-skills/now-assist-skills.md).
 

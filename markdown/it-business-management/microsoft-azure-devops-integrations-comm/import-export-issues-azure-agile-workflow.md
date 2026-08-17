@@ -8,7 +8,7 @@ product: Microsoft Azure DevOps Integrations Comm
 classification: microsoft-azure-devops-integrations-comm
 topic_type: reference
 last_updated: "2025-01-30"
-reading_time_minutes: 5
+reading_time_minutes: 4
 breadcrumb: [Microsoft Azure DevOps Integration for Agile Development, Integrate, Agile Development 2.0, Strategic Portfolio Management]
 ---
 
@@ -20,8 +20,8 @@ To enable import and export of work items between Agile Development 2.0 and Azur
 
 ## Importing to Agile Development 2.0 from Azure DevOps
 
--   When you create a work item of type epic in Azure DevOps, an epic is created for the assignment group according to the team integration settings that you configured.
--   When you create a work item of type story in Azure DevOps, a story is created for the assignment group according to the team integration settings that you configured.
+-   When you create a work item of type epic in Azure DevOps, an epic is created for the assignment group according to the team integration settings.
+-   When you create a work item of type story in Azure DevOps, a story is created for the assignment group according to the team integration settings.
 
     The relationship between the story and its epic is retained as it is in Azure DevOps.
 
@@ -39,7 +39,7 @@ To enable import and export of work items between Agile Development 2.0 and Azur
 -   When you delete a work item in Azure DevOps, the corresponding record is deleted in Agile Development 2.0.
 -   When you delete an iteration in Azure DevOps, the corresponding sprint is deleted in the Agile Development 2.0.
 
-    **Note:** To delete records in the Agile Development 2.0, set the **Can Delete** field to **true** in the Application access of the respective tables. For details, see Table design and runtime settings.
+    **Note:** To delete records in the Agile Development 2.0, set the **Can Delete** field to **true** in the Application access of the respective tables. For details, see [Table design and runtime settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/r_TableApplicationAccessFields.md).
 
 -   When you restore a work item from recycle bin in Azure DevOps, a corresponding record is created in Agile Development 2.0 according to its team integration settings.
 
@@ -49,14 +49,14 @@ To enable import and export of work items between Agile Development 2.0 and Azur
 
 ## Exporting from Agile Development to Azure DevOps
 
--   When you create an epic for an assignment group, it is exported as a work item to the area in Azure DevOps according to the team integration settings that you configured.
--   When you create a story for an assignment group, it is exported as a work item to the area in Azure DevOps according to the team integration settings that you configured.
+-   When you create an epic for an assignment group, it is exported as a work item to the area in Azure DevOps according to the team integration settings.
+-   When you create a story for an assignment group, it is exported as a work item to the area in Azure DevOps according to the team integration settings.
 
     The relationship between the story and its epic is retained in Azure DevOps.
 
 -   When you add an attachment to a story or an epic, the same attachment is added to the corresponding work item in Azure DevOps.
--   When you update the assignment group of an existing story in the Agile Development 2.0, the work item is recreated for the Azure DevOps area that is associated with the updated assignment group.
--   When you create a sprint for an assignment group in Agile Development 2.0, it is exported to Azure DevOps under its backlog iteration as per the team integration settings.
+-   When you update the assignment group of an existing story in Agile Development 2.0, the work item is recreated. It is recreated for the Azure DevOps area associated with the updated assignment group.
+-   When you create a sprint for an assignment group in Agile Development 2.0, it is exported to Azure DevOps under its backlog iteration per the team integration settings.
 -   When you delete a sprint for an assignment group in Agile Development 2.0, it unlinks the sprint selection from the team's iteration in Azure DevOps.
 -   When you update a work item in Agile Development 2.0, only the fields that are updated are sent to Azure DevOps as a part of the payload
 

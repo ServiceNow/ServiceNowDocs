@@ -16,11 +16,11 @@ The ServiceNow® On-Call Scheduling application helps you verify that dedicated 
 
 Control whether an on-call schedule or shift record link in all major on-call email notifications redirects you to Service Operations Workspace \(SOW\) or to the classic UI16 interface in On-Call Scheduling.
 
-See [On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/c_OnCallScheduling.md) for more information.
+See  for more information.
 
 ## Changed in this release
 
--   **[Email redirection behavior for links in major on-call schedule email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/create-update-schedule-oncall.md)**
+-   **Email redirection behavior for links in major on-call schedule email notification**
 
     In all major on-call schedule or shift email notifications, you can now decide where the links to an on-call schedule or shift record are redirected. Instead of an on-call schedule or shift record automatically opening in the classic UI16 interface in On-Call Scheduling, the record can be opened in SOW. The on-call schedule or shift record link in an email notification opens in SOW only if the following conditions are met:
 
@@ -32,7 +32,7 @@ See [On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNow
 
 ## Activation information
 
-On-Call Scheduling is available with activation of the ServiceNow AI Platform On-Call Scheduling plugin \(com.snc.on\_call\_rotation\). For details, see [Activate On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/t_ActivateOnCallScheduling.md). Activating this plugin activates the following third-party libraries:
+On-Call Scheduling is available with activation of the ServiceNow AI Platform On-Call Scheduling plugin \(com.snc.on\_call\_rotation\). For details, see . Activating this plugin activates the following third-party libraries:
 
 -   FullCalendar library
 -   DHTMLX scheduler
@@ -41,15 +41,15 @@ On-Call Scheduling is available with activation of the ServiceNow AI Platform On
 
 ## Related ServiceNow applications and features
 
--   **[Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/notify-landing-page.md)**
+-   ****
 
     In addition to emails, you can send on-call escalation notifications as SMS alerts and voice calls. Engage on-call escalation in ServiceNow® Notify conference calls.
 
--   **[ITSM Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/itsm-mobile-agent.md)**
+-   ****
 
     Access the upcoming shifts and time-off requests of team members in the ServiceNow® ITSM Mobile Agent app. Send On-Call Scheduling escalation notifications as mobile push notifications.
 
--   **[Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/sow-landing-page.md)**
+-   ****
 
     Identify available On-Call Scheduling members of a support group who can be contacted to resolve an issue in ServiceNow® Service Operations Workspace.
 

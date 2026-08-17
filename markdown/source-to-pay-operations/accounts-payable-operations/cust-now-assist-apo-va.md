@@ -1,6 +1,6 @@
 ---
-title: Customize Now Assist for Accounts Payable Operations \(APO\) to use the Virtual Agent chat
-description: If you have the admin role, you can configure the Now Assist for Accounts Payable Operations \(APO\) application so that the supplier contacts can use the generative AI skills in Source-to-Pay Workspace and in Core UI.
+title: Customize ServiceNow Otto for Accounts Payable Operations \(APO\) to use the Virtual Agent chat
+description: If you have the admin role, you can configure the ServiceNow Otto for Accounts Payable Operations \(APO\) application so that the supplier contacts can use the generative AI skills in Source-to-Pay Workspace and in Core UI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/accounts-payable-operations/cust-now-assist-apo-va.html
 release: yokohama
@@ -10,12 +10,12 @@ topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
 keywords: [generative AI, gen AI, genai, artificial intelligence]
-breadcrumb: [Configure Now Assist for Accounts Payable Operations \(APO\), Now Assist for Accounts Payable Operations \(APO\), Accounts Payable Operations, Finance and Supply Chain]
+breadcrumb: [Configure ServiceNow Otto for Accounts Payable Operations \(APO\), ServiceNow Otto for Accounts Payable Operations \(APO\), Accounts Payable Operations, Finance and Supply Chain]
 ---
 
-# Customize Now Assist for Accounts Payable Operations \(APO\) to use the Virtual Agent chat
+# Customize ServiceNow Otto for Accounts Payable Operations \(APO\) to use the Virtual Agent chat
 
-If you have the admin role, you can configure the Now Assist for Accounts Payable Operations \(APO\) application so that the supplier contacts can use the generative AI skills in Source-to-Pay Workspace and in Core UI.
+If you have the admin role, you can configure the ServiceNow Otto for Accounts Payable Operations \(APO\) application so that the supplier contacts can use the generative AI skills in Source-to-Pay Workspace and in Core UI.
 
 ## Before you begin
 
@@ -25,13 +25,13 @@ Install the Document Intelligence for Accounts Payable Operations Content Pack f
 
 ## About this task
 
-Use the Now Assist Admin console to configure Now Assist for APO. This console contains everything that you need to install the plugins and configure the generative AI skills. For additional information, see [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configuring-now-assist.md).
+Use the AI Admin Hub console to configure ServiceNow Otto for APO. This console contains everything that you need to install the plugins and configure the generative AI skills. For additional information, see [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configuring-now-assist.md).
 
 ## Procedure
 
-1.  Install the Now Assist for Accounts Payable Operations \(APO\) plugin \(com.snc.sn\_ap\_gen\_ai\).
+1.  Install the ServiceNow Otto for Accounts Payable Operations \(APO\) plugin \(com.snc.sn\_ap\_gen\_ai\).
 
-    -   For information about the plugin dependencies and plugin activation order, see [Supporting information for Now Assist for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-supporting-info.md).
+    -   For information about the plugin dependencies and plugin activation order, see [Supporting information for ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-supporting-info.md).
     -   For information about the installation process, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 2.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Assistants**.
 

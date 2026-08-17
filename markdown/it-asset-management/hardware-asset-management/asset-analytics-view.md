@@ -122,9 +122,7 @@ The Asset performance tab provides details on the average values of the followin
 
 By default, the **Model category** filter is applied to the KPI reports. To further narrow down and focus on specific data, you can also select any one of the following filters:
 
--   **Domain**
 -   **Location**
--   **Classification**
 -   **Model**
 
 **Note:** You can apply a maximum of two filters to any KPI report.

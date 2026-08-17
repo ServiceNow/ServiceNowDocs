@@ -1,5 +1,5 @@
 ---
-title: Generate an email reply recommendation by using Now Assist for HR Service Delivery \(HRSD\)
+title: Generate an email reply recommendation by using ServiceNow Otto for HR Service Delivery \(HRSD\)
 description: Generate an email reply that is based on the case and email context by using the Now Assist icon. With email reply recommendations, agents can create quick emails or responses, helping minimize errors and ramp up productivity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/now-assist-for-hrsd/email-recommendation-nahr.html
@@ -9,10 +9,10 @@ classification: now-assist-for-hrsd
 topic_type: task
 last_updated: "2025-03-03"
 reading_time_minutes: 5
-breadcrumb: [Use generative AI skills, Now Assist for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
+breadcrumb: [Use generative AI skills, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
-# Generate an email reply recommendation by using Now Assist for HR Service Delivery \(HRSD\)
+# Generate an email reply recommendation by using ServiceNow Otto for HR Service Delivery \(HRSD\)
 
 Generate an email reply that is based on the case and email context by using the Now Assist icon. With email reply recommendations, agents can create quick emails or responses, helping minimize errors and ramp up productivity.
 
@@ -29,7 +29,7 @@ An agent can do these actions by using the Now Assist icon:
 -   Refine the recommendation by elaborating or shortening the response.
 -   Availability of email template recommendations while composing an email.
 
-**Note:** The email reply recommendation skill can be found in the **HRSD** tab under the **Employee** group in Now Assist Admin.
+**Note:** The email reply recommendation skill can be found in the **HRSD** tab under the **Employee** group in AI Admin Hub.
 
 **Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
@@ -41,15 +41,15 @@ You can make a copy of this skill to configure it to meet your business needs. F
 
 2.  Choose how to compose an email.
 
-<table id="choicetable_tbz_hyv_bcc"><thead><tr><th align="left" id="d191343e128">
+<table id="choicetable_tbz_hyv_bcc"><thead><tr><th align="left" id="d190724e128">
 
 Method
 
-</th><th align="left" id="d191343e131">
+</th><th align="left" id="d190724e131">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d191343e137">
+</th></tr></thead><tbody><tr><td id="d190724e137">
 
 **Compose email from More actions**
 
@@ -62,7 +62,7 @@ Description
 5.  Get a recommendation that is based on the existing context.
 
 
-</td></tr><tr><td id="d191343e188">
+</td></tr><tr><td id="d190724e188">
 
 **Compose an email from Activity stream**
 
@@ -76,15 +76,15 @@ Description
 </td></tr></tbody>
 </table>3.  In the email message window, either type a response, or leave blank, and then select the Now Assist \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon for Now Assist..
 
-<table id="choicetable_e5x_3yv_bcc"><thead><tr><th align="left" id="d191343e239">
+<table id="choicetable_e5x_3yv_bcc"><thead><tr><th align="left" id="d190724e239">
 
 Email message window
 
-</th><th align="left" id="d191343e242">
+</th><th align="left" id="d190724e242">
 
 Now Assist icon
 
-</th></tr></thead><tbody><tr><td id="d191343e251">
+</th></tr></thead><tbody><tr><td id="d190724e251">
 
 **Typed response**
 
@@ -94,7 +94,7 @@ Provides the option to refine your response:-   Elaborate
 -   Shorten
 
 
-</td></tr><tr><td id="d191343e268">
+</td></tr><tr><td id="d190724e268">
 
 **Left blank**
 
@@ -102,7 +102,7 @@ Provides the option to refine your response:-   Elaborate
 
 Generates a recommended email reply that is based on the context of the email up to this point.
 
-</td></tr><tr><td id="d191343e277">
+</td></tr><tr><td id="d190724e277">
 
 **Use template**
 
@@ -118,30 +118,30 @@ Shows email template recommendations while composing an email.
 6.  Select **Send Email** or discard the draft if you don’t like the recommendation.
 
 
-**Parent Topic:**[Use Now Assist for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/use-now-assist-hr.md)
+**Parent Topic:**[Use ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/use-now-assist-hr.md)
 
 **Related topics**  
 
 
-[Summarize a chat conversation by using Now Assist for HR Service Delivery \(HRSD\)]()
+[Summarize a chat conversation by using ServiceNow Otto for HR Service Delivery \(HRSD\)]()
 
-[Summarize a Sidebar discussion by using Now Assist for HR Service Delivery \(HRSD\)]()
+[Summarize a Sidebar discussion by using ServiceNow Otto for HR Service Delivery \(HRSD\)]()
 
-[Generate a chat reply recommendation by using Now Assist for HR Service Delivery \(HRSD\)]()
+[Generate a chat reply recommendation by using ServiceNow Otto for HR Service Delivery \(HRSD\)]()
 
 [Generate a knowledge article from HR Agent Workspace with Now Assist]()
 
 [Generate a knowledge article from multiple cases]()
 
-[Summarize an HR case using Now Assist for HRSD]()
+[Summarize an HR case using ServiceNow Otto for HRSD]()
 
-[Generate resolution notes using Now Assist for HRSD]()
+[Generate resolution notes using ServiceNow Otto for HRSD]()
 
 [View employee summary reports]()
 
 [Summarize actions while transferring an HR case]()
 
-[Use Knowledge Graph in Now Assist for HRSD]()
+[Use Knowledge Graph in ServiceNow Otto for HRSD]()
 
 [Use Galileo Inside to answer HR-related questions]()
 
@@ -149,9 +149,9 @@ Shows email template recommendations while composing an email.
 
 [Submit an HR request with Gen AI Virtual Agent]()
 
-[Now Assist for HR Service Delivery \(HRSD\) integration with Enterprise Service Management Integrations Framework]()
+[ServiceNow Otto for HR Service Delivery \(HRSD\) integration with Enterprise Service Management Integrations Framework]()
 
-[Detect sensitive topics by using sensitivity detection in Now Assist for HR Service Delivery \(HRSD\)]()
+[Detect sensitive topics by using sensitivity detection in ServiceNow Otto for HR Service Delivery \(HRSD\)]()
 
-[Analyze sentiments in Now Assist for HR Service Delivery \(HRSD\)]()
+[Analyze sentiments in ServiceNow Otto for HR Service Delivery \(HRSD\)]()
 

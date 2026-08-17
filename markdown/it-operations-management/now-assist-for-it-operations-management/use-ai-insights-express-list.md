@@ -9,7 +9,7 @@ classification: now-assist-for-it-operations-management
 topic_type: task
 last_updated: "2025-12-22"
 reading_time_minutes: 4
-breadcrumb: [Manage alerts autonomously agentic workflow, Using agentic workflows in Now Assist for ITOM, Now Assist for ITOM, IT Operations Management]
+breadcrumb: [Manage alerts autonomously agentic workflow, Using agentic workflows in ServiceNow Otto for ITOM, ServiceNow Otto for ITOM, IT Operations Management]
 ---
 
 # Review AI generated alert information and insights in Express List
@@ -18,13 +18,13 @@ Access alert information in Express List that is consolidated autonomously by AI
 
 ## Before you begin
 
-For this feature, you must have Now Assist for IT Operations Management \(ITOM\) installed on your instance. For more information about installing Now Assist plugins, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+For this feature, you must have ServiceNow Otto for IT Operations Management \(ITOM\) installed on your instance. For more information about installing Now Assist plugins, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 
 [Role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/aia-role-masking.md) enables users to limit the roles and privileges of agentic workflows during tool execution. Agentic workflows and their AI agents that get installed with Now Assist applications are assigned pre-defined roles. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. Data access settings must also include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/define-sec-controls-aw.md).
 
 **Note:**
 
-If you use observability tools with Event Management, configure the relevant observability skills so the workflow can include information from those tools. See [Configuring agents and skills for Now Assist for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/itom-ai-agent-configuration.md).
+If you use observability tools with Event Management, configure the relevant observability skills so the workflow can include information from those tools. See [Configuring agents and skills for ServiceNow Otto for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/itom-ai-agent-configuration.md).
 
 Role required: evt\_mgmt\_admin, evt\_mgmt\_operator
 
@@ -32,7 +32,7 @@ Role required: evt\_mgmt\_admin, evt\_mgmt\_operator
 
 The manage alerts autonomously workflow investigates alerts, summarizes alert-related reports, and stores structured insights with key findings for use in Express List. For more information about the manage alerts autonomously agentic workflow, see [Manage alerts autonomously agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/itom-autonomous-operator-workflow.md).
 
-**Note:** Currently, Now Assist for ITOM only supports tag-based, CMDB, Log Analytics, Mixed, and Network Traffic-based alert groups. For all other alert group types, it only analyzes the parent alert.
+**Note:** Currently, ServiceNow Otto for ITOM only supports tag-based, CMDB, Log Analytics, Mixed, and Network Traffic-based alert groups. For all other alert group types, it only analyzes the parent alert.
 
 There are several ways to explore AI insights in Express List.
 
@@ -56,15 +56,15 @@ For information about configuring this workflow, see [Configure the manage alert
 
 3.  Review the AI insights through the following options.
 
-<table id="choicetable_qzt_n1y_thc"><thead><tr><th align="left" id="d200772e237">
+<table id="choicetable_qzt_n1y_thc"><thead><tr><th align="left" id="d199700e237">
 
 Review AI insights
 
-</th><th align="left" id="d200772e240">
+</th><th align="left" id="d199700e240">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d200772e246">
+</th></tr></thead><tbody><tr><td id="d199700e246">
 
 **Check for the AI Insights badge for alert status**
 
@@ -74,7 +74,7 @@ Procedure
 -   If insights aren't available for an alert, you can initiate the process manually. Details for generating insights are in the following options.
 
 
-</td></tr><tr><td id="d200772e269">
+</td></tr><tr><td id="d199700e269">
 
 **Search for alerts with AI Insights information and key words**
 
@@ -82,7 +82,7 @@ Procedure
 
 Search for content with the free text search. For more information, see [Find alert records in Express List using text search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-operations-workspace-for-itom-apps/el-free-text-search.md).
 
-</td></tr><tr><td id="d200772e285">
+</td></tr><tr><td id="d199700e285">
 
 **Filter using AI Insights filter attribute**
 
@@ -90,7 +90,7 @@ Search for content with the free text search. For more information, see [Find al
 
 Filter using the **Insights** attribute with a minimum string of two characters. For more information, see [Filtering the alert display in the Express List pane](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-operations-workspace-for-itom-apps/filter-express-list.md).
 
-</td></tr><tr><td id="d200772e304">
+</td></tr><tr><td id="d199700e304">
 
 **Review AI insights in the preview panel**
 
@@ -101,7 +101,7 @@ Filter using the **Insights** attribute with a minimum string of two characters.
 -   If data isn’t available for this alert, you can initiate the process by selecting **Generate**.
 
 
-</td></tr><tr><td id="d200772e347">
+</td></tr><tr><td id="d199700e347">
 
 **Review AI Insights in the alert record overview**
 

@@ -1,18 +1,18 @@
 ---
 title: Customer success roles
-description: Roles added with Customer Success Management.
+description: Roles added with Account Lifecycle Events.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/acct-lifecycle-events/account-lifecycle-success-roles.html
 release: yokohama
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 5
-breadcrumb: [Customer Success Management reference, Customer Success Management]
+breadcrumb: [Account Lifecycle Events reference, Account Lifecycle Events]
 ---
 
 # Customer success roles
 
-Roles added with Customer Success Management.
+Roles added with Account Lifecycle Events.
 
 <table id="table_bhl_hlg_dcc"><thead><tr><th>
 
@@ -1070,7 +1070,7 @@ sn\_acct\_lc.agent
 
 </td><td>
 
-This is the onboarding agent role that includes permissions to access Customer Success Management tables and plugins.
+This is the onboarding agent role that includes permissions to access Account Lifecycle Events tables and plugins.
 
 </td><td>
 
@@ -1080,5 +1080,5 @@ This is the onboarding agent role that includes permissions to access Customer S
 -   sn\_acct\_lc.squad\_member\_write
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Customer Success Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-reference.md)
+</table>**Parent Topic:**[Account Lifecycle Events reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-reference.md)
 

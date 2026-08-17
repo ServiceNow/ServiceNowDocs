@@ -1,6 +1,6 @@
 ---
-title: ERP Semantic Mining roles
-description: Administrators assign roles to give team members permission to configure or use ERP Semantic Mining \(ERP-CM\).
+title: ERP Customization Mining roles
+description: Administrators assign roles to give team members permission to configure or use ERP Customization Mining \(ERP-CM\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-customization-mining/erp-personas-roles.html
 release: yokohama
@@ -9,12 +9,12 @@ classification: erp-customization-mining
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configuring ERP Semantic Mining, ERP Semantic Mining \(ERP-CM\), Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Configuring ERP Customization Mining, ERP Customization Mining \(ERP-CM\), Building low-code applications, Developing your application, Building applications]
 ---
 
-# ERP Semantic Mining roles
+# ERP Customization Mining roles
 
-Administrators assign roles to give team members permission to configure or use ERP Semantic Mining \(ERP-CM\).
+Administrators assign roles to give team members permission to configure or use ERP Customization Mining \(ERP-CM\).
 
 **Important:** When you assign ERP-CM roles to a user, you must include the scope. For example, assign the `sn_erp_mining.erp_admin` role, not just `erp_admin`.
 
@@ -52,7 +52,7 @@ sn\_erp\_mining.erp\_user
 
 </td><td>
 
-Grants the user read access on all tables needed for ERP Semantic Mining, as well as some field-level write access in the sn\_erp\_mining\_app\_candidate table.
+Grants the user read access on all tables needed for ERP Customization Mining, as well as some field-level write access in the sn\_erp\_mining\_app\_candidate table.
 
 </td><td>
 
@@ -60,5 +60,5 @@ Contains the following roles:-   sn\_erp\_integration.erp\_data\_pill
 -   sn\_erp\_integration.erp\_user
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configuring ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/configuring-ecm.md)
+</table>**Parent Topic:**[Configuring ERP Customization Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/configuring-ecm.md)
 

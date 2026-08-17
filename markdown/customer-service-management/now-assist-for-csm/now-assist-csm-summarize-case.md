@@ -1,6 +1,6 @@
 ---
-title: Summarize a case by using Now Assist for Customer Service Management \(CSM\)
-description: Generate a summary from the fields that you selected on the case record and quickly understand the case context by using the case summarization skill in the Now Assist for Customer Service Management \(CSM\) application.
+title: Summarize a case by using ServiceNow Otto for Customer Service Management \(CSM\)
+description: Generate a summary from the fields that you selected on the case record and quickly understand the case context by using the case summarization skill in the ServiceNow Otto for Customer Service Management \(CSM\) application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/now-assist-for-csm/now-assist-csm-summarize-case.html
 release: yokohama
@@ -10,12 +10,12 @@ topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 3
 keywords: [generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
-breadcrumb: [Use, Now Assist for Customer Service Management \(CSM\), Customer Service Management]
+breadcrumb: [Use, ServiceNow Otto for Customer Service Management \(CSM\), Customer Service Management]
 ---
 
-# Summarize a case by using Now Assist for Customer Service Management \(CSM\)
+# Summarize a case by using ServiceNow Otto for Customer Service Management \(CSM\)
 
-Generate a summary from the fields that you selected on the case record and quickly understand the case context by using the case summarization skill in the Now Assist for Customer Service Management \(CSM\) application.
+Generate a summary from the fields that you selected on the case record and quickly understand the case context by using the case summarization skill in the ServiceNow Otto for Customer Service Management \(CSM\) application.
 
 ## Before you begin
 
@@ -57,15 +57,15 @@ If there is enough data, the Case summary component displays the **Summarize** b
 
 3.  When you're finished summarizing a case, you can add it to the case work notes, expand or collapse it, provide feedback, copy it, or view information about it.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d135911e185">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d135703e185">
 
 Option
 
-</th><th align="left" id="d135911e188">
+</th><th align="left" id="d135703e188">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d135911e194">
+</th></tr></thead><tbody><tr><td id="d135703e194">
 
 **Save the summary information by adding it to the case work notes**
 
@@ -76,7 +76,7 @@ Procedure
 3.  Select **Save to Work notes**.
 
 
-</td></tr><tr><td id="d135911e221">
+</td></tr><tr><td id="d135703e221">
 
 **Expand or collapse the summary**
 
@@ -84,7 +84,7 @@ Procedure
 
 Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: Expand card icon.\) or the collapse card icon \(\[Omitted image "icon-collapse.png"\] Alt text: Collapse card icon.\) to see more details or fewer summary details.
 
-</td></tr><tr><td id="d135911e242">
+</td></tr><tr><td id="d135703e242">
 
 **Provide feedback for the summary**
 
@@ -92,7 +92,7 @@ Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: Expa
 
 If you think that the summary was helpful, select the helpful icon \(\[Omitted image "icon-helpful.png"\] Alt text: Helpful icon.\). If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d135911e265">
+</td></tr><tr><td id="d135703e265">
 
 **Copy the case summary**
 
@@ -100,7 +100,7 @@ If you think that the summary was helpful, select the helpful icon \(\[Omitted i
 
 Select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text: Copy to clipboard icon.\) to use the case summary information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d135911e281">
+</td></tr><tr><td id="d135703e281">
 
 **View the information about the case summary**
 
@@ -110,5 +110,5 @@ If you want to check some details about the summary, select the more info icon \
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
+**Parent Topic:**[Using ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
 

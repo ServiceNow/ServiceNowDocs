@@ -1,6 +1,6 @@
 ---
-title: Zero Copy Connector for ERP Use ERP Data action details for flows
-description: After you're done creating and managing your model in Zero Copy Connector for ERP, go to Workflow Studio and use the Use ERP Data action to test your model's inputs and outputs. You can then build a flow with the action to incorporate ERP \(Enterprise Resource Planning\) data into the ServiceNow AI Platform.
+title: ERP Canvas Use ERP Data action details for flows
+description: After you're done creating and managing your model in ERP Canvas, go to Workflow Studio and use the Use ERP Data action to test your model's inputs and outputs. You can then build a flow with the action to incorporate ERP \(Enterprise Resource Planning\) data into the ServiceNow AI Platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-integration-framework/erp-canvas-flow-reference-2.html
 release: yokohama
@@ -9,18 +9,18 @@ classification: erp-integration-framework
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 3
-breadcrumb: [Zero Copy Connector for ERP reference, Zero Copy Connector for ERP, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [ERP Canvas reference, ERP Canvas, Building low-code applications, Developing your application, Building applications]
 ---
 
-# Zero Copy Connector for ERP Use ERP Data action details for flows
+# ERP Canvas Use ERP Data action details for flows
 
-After you're done creating and managing your model in Zero Copy Connector for ERP, go to Workflow Studio and use the Use ERP Data action to test your model's inputs and outputs. You can then build a flow with the action to incorporate ERP \(Enterprise Resource Planning\) data into the ServiceNow AI Platform.
+After you're done creating and managing your model in ERP Canvas, go to Workflow Studio and use the Use ERP Data action to test your model's inputs and outputs. You can then build a flow with the action to incorporate ERP \(Enterprise Resource Planning\) data into the ServiceNow AI Platform.
 
 For information on using the Use ERP Data action to retrieve ERP data, see [Building flows to read or update the ERP system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-build-flow-operation.md).
 
 ## Roles and availability
 
-Available as part of Zero Copy Connector for ERP.
+Available as part of ERP Canvas.
 
 -   **Role requirements**
 
@@ -35,31 +35,31 @@ Provide a value for each input that your action needs. To add dynamic values, yo
 
     Data type: **Dynamic Choice**
 
-    Name of the ERP model that contains the read or update operation. The model must already be created, and have the read or update operation defined in Zero Copy Connector for ERP. For more information, see [Managing how models read and update the ERP system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erpc-managing-models-read.md).
+    Name of the ERP model that contains the read or update operation. The model must already be created, and have the read or update operation defined in ERP Canvas. For more information, see [Managing how models read and update the ERP system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erpc-managing-models-read.md).
 
 -   **ModelOperation**
 
     Data type: **Dynamic Choice**
 
-    Whether to **Read** or **Update** the ERP system. The read or update entity must already be defined in Zero Copy Connector for ERP. For more information, see [Add a read, update, or create entity to a model in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erpc-add-entity-to-model-op.md).
+    Whether to **Read** or **Update** the ERP system. The read or update entity must already be defined in ERP Canvas. For more information, see [Add a read, update, or create entity to a model in ERP Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erpc-add-entity-to-model-op.md).
 
 -   **Mandatory Field\(s\)**
 
     Data type: **Dynamic Template**
 
-    Fields that are required for the operation. Fields must already be defined as required input parameters when you manage the model in Zero Copy Connector for ERP. For more information, see [Manage input parameters for an Zero Copy Connector for ERP model operation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erpc-manage-model-inputs.md).
+    Fields that are required for the operation. Fields must already be defined as required input parameters when you manage the model in ERP Canvas. For more information, see [Manage input parameters for an ERP Canvas model operation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erpc-manage-model-inputs.md).
 
 -   **Optional Field\(s\)**
 
     Data type: **Dynamic Template**
 
-    Fields that are optional for the operation. Fields must already be defined as optional input parameters when you managed the model. For more information, see [Manage input parameters for an Zero Copy Connector for ERP model operation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erpc-manage-model-inputs.md).
+    Fields that are optional for the operation. Fields must already be defined as optional input parameters when you managed the model. For more information, see [Manage input parameters for an ERP Canvas model operation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erpc-manage-model-inputs.md).
 
 -   **System**
 
     Data type: **Reference**
 
-    Name of the connected ERP system. For more information, see [Working with ERP systems in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-work-with-systems.md).
+    Name of the connected ERP system. For more information, see [Working with ERP systems in ERP Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-work-with-systems.md).
 
 
 ## Outputs
@@ -91,5 +91,5 @@ You can use these outputs as inputs for other items.
     Requested data that's returned from the ERP system. For more information, see [Choose output parameters for an ERP model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-manage-outputs.md).
 
 
-**Parent Topic:**[Zero Copy Connector for ERP reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-integration-reference.md)
+**Parent Topic:**[ERP Canvas reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-integration-reference.md)
 

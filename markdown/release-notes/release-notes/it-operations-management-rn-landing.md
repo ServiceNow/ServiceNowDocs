@@ -19,7 +19,7 @@ The ServiceNow® ITOM Optimization application automates the cloud workflows tha
 -   **[ITOM Visibility release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/itom-visibility-rn.md)**  
 The ServiceNow® ITOM Visibility application provides a unified, connected view of your entire IT infrastructure and the services that it supports. ITOM Visibility was enhanced and updated in the Yokohama release.
 -   **[Now Assist for IT Operations Management \(ITOM\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/now-assist-for-itom-rn.md)**  
-The ServiceNow® Now Assist for ITOM application brings generative AI to ITOM. Now Assist for ITOM was enhanced and updated in the Yokohama release.
+The ServiceNow® ServiceNow Otto for ITOM application brings generative AI to ITOM. ServiceNow Otto for ITOM was enhanced and updated in the Yokohama release.
 -   **[AIOps LEAP release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/aiops-leap-rn.md)**  
 The ServiceNow® AIOps LEAP application uses AI driven insights to create standard and dynamic playbooks for quick incident resolution management. AIOps LEAP is a new application in the Yokohama release.
 

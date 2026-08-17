@@ -55,7 +55,7 @@ In this example, three records are created, even though there are four sections 
 -   **[Create email parsers in Security Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/parsing-emails.md)**  
 Email Parsing creates Security Operations records from your email for security, vulnerability, and observables to expedite threat response and remediation.
 -   **[Edit email records in Security Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/edit-email-records.md)**  
-Add or create transforms in your existing email event records.
+Edit transforms in your existing email event records.
 
 **Parent Topic:**[Security Operations email processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/email-processing.md)
 

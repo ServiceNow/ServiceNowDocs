@@ -5,7 +5,7 @@ locale: en-US
 release: yokohama
 topic_type: reference
 last_updated: "2025-02-11"
-reading_time_minutes: 16
+reading_time_minutes: 15
 keywords: [Agentic AI, Now Assist AI Agents]
 ---
 
@@ -55,11 +55,11 @@ The ServiceNow® Now Assist AI agents application provides solutions that can pe
 -   Define agentic workflows with an execution plan for automatically resolving the incoming cases and incidents.
 -   Use the Now Assist panel to communicate with the agent during issue resolution.
 -   Clone existing AI agents and agentic workflows to save time and avoid manual configuration.
--   Enable Now Assist Guardian to automatically identify and block offensive messages.
+-   Enable AI Guardian to automatically identify and block offensive messages.
 -   View the usage and performance of your AI agents with the AI agent analytics dashboard.
 -   Enable multiple conversations for AI agents on the Now Assist panel.
 
-See [Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/na-ai-agents.md) for more information.
+See  for more information.
 
 For the Platform Now Assist release notes, see [Now Assist release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/now-assist-rn.md).
 
@@ -67,27 +67,27 @@ For the Platform Now Assist release notes, see [Now Assist release notes](https:
 
 ## Now Assist AI agents features
 
--   **[Configure role masking for AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/aia-role-masking.md)**
+-   **Configure role masking for AI agents and agentic workflows**
 
     Role masking restricts access to specific roles based on configuration to verify that agentic workflows, AI agents, and tools run within the boundaries of the roles configured to meet their business needs while reducing the risk of unauthorized access to the agents and the agentic data.
 
--   **[Add AI agent learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/agent-learning.md)**
+-   **Add AI agent learning**
 
     Enhance AI agent learning through episodic memory, enabling AI agents to improve by learning from past successful interactions.
 
--   **[Select channels and access for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/channels-access-aw.md)**
+-   ****
 
     Create and update UI actions for workflow executions and display handling. You can specify conditions for the display of the UI actions.
 
--   **[Add a desktop action to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/add-desktop-action-ai-agent.md)**
+-   ****
 
     Add Desktop action as a tool to an AI agent to perform desktop automation for repetitive tasks.
 
--   **[Configuring Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configuring-ai-agents.md)**
+-   ****
 
     Support multilingual conversations for AI agents across languages.
 
--   **[Manually test the execution of an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/test-ai-agent.md) and [Manually test the execution of an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/test-aia-use-case.md)**
+-   ** and **
 
     The testing page on AI Agent Studio has two testing options:
 
@@ -95,88 +95,88 @@ For the Platform Now Assist release notes, see [Now Assist release notes](https:
     -   Automated evaluation
     Observe the different versions of an AI agent behavior in manual tests and in automated evaluations using the **Manual tests** and **Automated tests** tabs.
 
--   **[Test user access to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/test-aia-access.md) and [Test user access to an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/test-aw-access.md)**
+-   ** and **
 
     Test how an AI agent or agentic workflow completes a task and if it enables users permission to access it.
 
--   **[Model Context Protocol Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/mcp-client.md)**
+-   ****
     -   Authorization upgrades to support segregation of Resource Server and Authentication Server through Protected Resource Metadata \(PRM\).
     -   Use the **mcp\_guardian\_check** property to enable guardian checks for MCP Client when there’s an MCP tool call.
     -   Supervise the pagination with mouse device support to show large number of services from an MCP server through the **sn\_mcp\_client.cursor.max\_iterations** system property.
     -   Add a title field for human-friendly display names that can be used as a programmatic identifier.
--   **[Use in-product experiences for agentic workflows on forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/in-product-agentic-ai.md)**
+-   **Use in-product experiences for agentic workflows on forms**
 
     In the Core UI and workspaces, you can use UI and declarative actions to run agentic workflows. You can also see the presence, progress, and output of agentic workflows performed on a record. The execution details for each agentic workflow include who is supervising the workflow, estimated and total time taken, processing messages, and step history.
 
--   **[Review and approve requests and tickets with the Approval Assistance AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/platform-approval-aia.md)**
+-   **Review and approve requests and tickets with the Approval Assistance AI agent**
 
     You can use the new approval assistance AI agent to view all pending approval requests and access detailed information about them. You can then approve requests and tickets and make updates to them from Now Assist in Virtual Agent.
 
--   **[Configure email notification alerts for AI agent and agentic workflow executions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/config-aia-notifications.md)**
+-   **Configure email notification alerts for AI agent and agentic workflow executions**
 
     Configure alert email notifications for unexpected or undesired behavior from AI agents and agentic workflows. You can configure the thresholds for triggering the alerts on the Agent Properties table, and you can add or update the recipients of the email notifications from the Notifications table.
 
--   **[Create an external AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/create-external-aia.md)**
+-   ****
 
     Create new external AI agents that connect to third-party agentic AI systems. Use Agent2Agent protocol or integrate agents manually to configure them in AI Agent Studio to use in the ServiceNow agentic AI system.
 
--   **[Add a Knowledge Graph to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/add-knowledge-graph.md)**
+-   ****
 
     Use Enterprise Graph \(Small\) as a resource to create a Knowledge Graph tool for an AI agent in the AI Agent Studio.
 
 
--   **[AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/ai-agent-studio.md)**
+-   ****
 
     View and troubleshoot the agentic workflow and AI agent executions on AI Agent Studio.
 
--   **[Configuring Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configuring-ai-agents.md) - Dynamic Orchestrator**
+-   ** - Dynamic Orchestrator**
 
     Maps the right agents for an agentic workflow with Dynamic Orchestrator for better performance and accuracy of the agentic workflow execution.
 
--   **[View analytics for customer satisfaction with AI interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/ai-agent-dashboard.md)**
+-   **View analytics for customer satisfaction with AI interactions**
 
     Multiple new metrics have been added to the AI Agent Analytics dashboard, accessible from the AI Agent Studio to provide insight into average customer satisfaction and customer satisfaction with the best and worst performing agentic workflows and agents.
 
--   **[New third-party AI model provider options available for all Now Assist applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/exploring-large-language-models.md)**
+-   **New third-party AI model provider options available for all Now Assist applications**
 
     Google Gemini and AWS Claude are available for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
 
--   **[Add tools and information to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/add-tool-aia.md)**
+-   ****
 
     The output transformation strategy for an AI agent output now contains a new option called **Custom**.
 
     With Custom output transformation strategy, a **Transformation Instructions** field with a text area is enabled for the user to provide their specific instructions for refining the output as per the agentic workflow. The instructions will also ensure that the transformation is done as per the user's need.
 
--   **[Configuring Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configuring-ai-agents.md) - AI Agent Background Channel**
+-   ** - AI Agent Background Channel**
 
     Invoke the agentic conversations from the Workspace or Core UI via the AI Agent Background channel, that is associated with the AI Agent Background Provider, to execute the AI agents and agentic workflows.
 
--   **[Configuring Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configuring-ai-agents.md) - Interactive and non interactive AI agents**
+-   ** - Interactive and non interactive AI agents**
 
     Run AI agents and agentic workflows execution in one of the following ways:
 
     -   **Interactive Mode**: AI agents reach out to the user for information during fallback.
     -   **Non interactive Mode**: AI agents do not reach out to the user during fallback but send the execution output to the user.
 
--   **[Select Virtual Agent as a display option for AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configure-next-best-action-agent.md)**
+-   **Select Virtual Agent as a display option for AI agents**
 
     Choose to display AI agent output in Virtual Agent. You can also discover AI agents in Virtual Agent conversations.
 
--   **[Disable citations in AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/aia-hide-citations.md)**
+-   ****
 
     Disable citations for specific agentic workflows or AI agents in AI Agent Studio where citations are not required or involve confidential information.
 
--   **[Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configure-next-best-action-agent.md)**
+-   ****
     -   **Long term memory**: Add or delete categories for AI agents to store and retrieve memories.
     -   Additional tools available while creating an AI agent.
         -   Knowledge graph
         -   File retrieval
--   **[Evaluate agentic workflows and AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/execute-aia-eval.md)**
+-   ****
 
     In Now Assist Skill Kit, you can execute evaluation runs for your agentic workflows. You can select evaluation plans and the execution log datasets to judge whether your agentic workflows are consistently completing tasks and using the correct tools.
 
 
--   **[Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configure-next-best-action-agent.md)**
+-   ****
 
     Create an AI agent to assist your live agents while resolving cases, incidents, or tasks:
 
@@ -191,7 +191,7 @@ For the Platform Now Assist release notes, see [Now Assist release notes](https:
         -   Search retrieval
         -   Subflow
         -   Web search
--   **[Create an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configure-use-case-ai-agents.md)**
+-   ****
 
     Create an agentic workflow with an execution plan to solve complex tasks with Now Assist. You can also do the following tasks:
 
@@ -199,119 +199,119 @@ For the Platform Now Assist release notes, see [Now Assist release notes](https:
     -   Create triggers when creating an agentic workflow that calls the AI agent when a condition or objective is observed.
     -   Test an agentic workflow before execution.
     -   Resolve record-based cases with AI agents.
--   **[Enable Now Assist Guardian in AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/enable-aia-na-guardian.md)**
+-   ****
 
-    Enable Now Assist Guardian in AI agents to automatically identify and block offensive messages that are sent by human agents.
+    Enable AI Guardian in AI agents to automatically identify and block offensive messages that are sent by human agents.
 
--   **[Multiple conversations in Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/multiple-conversations-aia.md)**
+-   ****
 
     Enable live agents to interact with multiple AI agent conversations through the Now Assist panel.
 
--   **[AI Agent Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/ai-agent-dashboard.md)**
+-   ****
 
     Analyze the performance, efficiency gain, and usage of AI agents through preconfigured dashboards.
 
 
 ## UI changes
 
--   **[Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configure-next-best-action-agent.md)**
+-   ****
 
     The guided setups for creating an AI agent and agentic workflow have been updated.
 
--   **[Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/define-sec-controls-aw.md) and [Define security controls for an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/define-sec-controls-aia.md)**
+-   ** and **
 
     New security configuration UI pages have been added in the AI Agent Studio application to configure security controls for agentic workflows and AI agents for role masking.
 
 
--   **[Follow new guided setups for agentic workflows and AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configure-use-case-ai-agents.md)**
+-   **Follow new guided setups for agentic workflows and AI agents**
 
     The new steps for the guided setups for AI voice agents and agentic workflows includes additional help text and guidance for writing LLM instructions to help improve outcome and task completion.
 
--   **[Manually test the execution of an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/test-ai-agent.md)**
+-   ****
 
     The tab names on the AI Agent Studio testing page have been renamed. The **Test scenario** tab is renamed to **Test AI reasoning** tab and the **Output** tab to **Chat responses** tab.
 
 
 [Yokohama Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-3.md)
 
--   **[Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/na-ai-agents.md) - The phrase "use case" has been updated to "agentic workflow".**
+-   ** - The phrase "use case" has been updated to "agentic workflow".**
 
     In AI Agent Studio, the phrase "use case" in the UI has been replaced with the phrase "agentic workflow" on all screens.
 
--   **[Tools visible when testing AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/test-ai-agent.md)**
+-   **Tools visible when testing AI agents**
 
     When testing an AI agent, individual tool processes are now visible in the testing window, enabling you to track tool use, successes, or failures when trying out new AI agents.
 
--   **[Use data picker for value overrides in AI agent tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configure-next-best-action-agent.md)**
+-   **Use data picker for value overrides in AI agent tools**
 
     When creating or modifying tools for AI agents, you can now use a data picker in value override fields. This helps ensure that information in records fields is transferred between tools.
 
 
 ## Changed in this release
 
--   **[Changes to Now Assist usage measurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/monitoring-now-assist-usage.md)**
+-   **Changes to Now Assist usage measurement**
 
     Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
--   **[Some Now Assist skills are turned on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md)**
+-   **Some Now Assist skills are turned on by default**
 
     The new default behavior works as follows:
 
     -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
     -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
--   **[Configure ACLs for AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/aia-security-implementation.md)**
+-   **Configure ACLs for AI agents and agentic workflows**
 
     Configure the access control lists for who can discover and trigger AI agents and agentic workflows in their guided setups in AI Agent Studio. You can determine whether an AI agent or agentic workflow behaves as a dynamic user or as an AI user. You can also specify if an AI agent or agentic workflow can be available to all authenticated users or publicly available.
 
--   **[Platform Request status AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/ticket-status-aia.md)**
+-   ****
 
     The request status AI agent provides an AI-generated summary of the most recent comments from the AI agent or other people working on a ticket. You can add attachments to an open ticket or incident to support a request action. To find more information about an open ticket, you can ask the request status AI agent follow-up questions based on previous answers from the agent.
 
--   **[Configuring Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configuring-ai-agents.md)**
+-   ****
 
     Run AI agents and agentic workflows concurrently in AI Agent Background Channel and in Non-interactive mode.
 
--   **[Add a Knowledge Graph to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/add-knowledge-graph.md)**
+-   ****
 
     The Global Graph resource for creating a Knowledge Graph tool has been renamed to Enterprise Graph.
 
 
 [Yokohama Patch 8](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-8.md)
 
--   **[Confirm your web search tool provider data policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/add-web-search-ai-agent.md)**
+-   **Confirm your web search tool provider data policies**
 
     If you select Google as your web search provider for web search AI agent tools, Google will use [Grounding with Google Search](https://cloud.google.com/vertex-ai/generative-ai/docs/grounding/grounding-with-google-search), offered under a Global Standard deployment, and data may be routed to places outside of regions specified on your ServiceNow instance as a result. Consult your organization's data policies before enabling AI agents with web search tools that use Google as the provider.
 
 
--   **[Add version control to instructions sent to the LLM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/version-control.md)**
+-   **Add version control to instructions sent to the LLM**
 
     You can review multiple versions of instructions sent to the LLM when designing your AI agents or agentic workflows. You can choose which version is active to help with testing or evaluating the success of an AI agent or agentic workflow to compare against other versions. Versions are named and ordered by time created for organizational purposes.
 
--   **[Duplicate and edit existing tools when creating new AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/add-tool-aia.md)**
+-   **Duplicate and edit existing tools when creating new AI agents**
 
     When adding a tool to an AI agent, you can select an existing tool instead of creating a new tool from scratch. After an existing tool is added, you can make changes to suit the specific AI agent’s needs.
 
--   **[Now Assist AI agents reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/na-aia-reference.md)**
+-   ****
 
     The **sn\_aia.enable\_agent\_tool\_input\_value\_overrides** system property is migrated to the \[sn\_aia\_property\] agent system property.
 
 
--   **[Monitor more AI agent analytics in the AI Agent Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/ai-agent-dashboard.md)**
+-   **Monitor more AI agent analytics in the AI Agent Analytics dashboard**
 
     Two new pages have been added to the AI Agent Analytics dashboard, giving administrators more indicators, visualizations, and breakdowns to track AI agent performance and usage.
 
--   **[Exploring Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/exploring-ai-agents.md)**
+-   ****
 
     Impersonation in Now Assist records transactions done by an AI agent in the name of the AI agent who executes the agentic workflow.
 
 
 ## Activation information
 
-Now Assist in AI agents is available with activation of any Now Assist plugin from the ServiceNow Store. For more information about the prerequisites for using Now Assist, see [Install Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/install-ai-agents-plugins.md).
+Now Assist in AI agents is available with activation of any Now Assist plugin from the ServiceNow Store. For more information about the prerequisites for using Now Assist, see .
 
 ## Additional requirements
 
-You must first install the supported Now Assist version of ServiceNow to be able to use the Now Assist AI agents. For more information, see [Install Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/install-ai-agents-plugins.md).
+You must first install the supported Now Assist version of ServiceNow to be able to use the Now Assist AI agents. For more information, see .
 
 Enable the Next Experience UI Framework before you can use the Now Assist panel.
 
@@ -321,11 +321,11 @@ Now Assist AI agents supports various browsers, including Google Chrome and Micr
 
 ## Accessibility information
 
--   **[Voice Input for Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-panel-overview.md)**
+-   **Voice Input for Now Assist AI agents**
 
-    Administrators can enable an optional voice input setting for the Now Assist panel in the Now Assist Admin console. This feature gives users a voice-to-text input option to access the Now Assist skills in the panel in any supported language. For more information, see [Enable voice input for Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/enable-voice-input-for-now-assist-panel.md).
+    Administrators can enable an optional voice input setting for the Now Assist panel in the AI Admin Hub console. This feature gives users a voice-to-text input option to access the Now Assist skills in the panel in any supported language. For more information, see Enable voice input for Now Assist panel.
 
-    Once enabled, the Enable voice input for the Now Assist panel option is available in individual user accessibility preferences. See [Configure Next Experience accessibility preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/next-experience-accessibility-preferences.md) for more information.
+    Once enabled, the Enable voice input for the Now Assist panel option is available in individual user accessibility preferences. See Configure Next Experience accessibility preferences for more information.
 
     Voice-to-text input can help users with mobility impairments access generative AI skills without using a keyboard. This feature can also be useful to blind or low-vision users, neurodivergent users, non-native language speakers, or mobile users on the go, such as field service agents.
 
@@ -336,21 +336,21 @@ Now Assist AI agents is built on the GPT-4o-based framework and supports localiz
 
 ## Related ServiceNow applications and features
 
--   **[Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-panel-overview.md)**
+-   ****
 
     With the ServiceNow®Now Assist panel, you can get assistance from generative AI experiences to solve customer issues faster. Use this conversational interface to summarize a chat, case, or incident, get help, or generate resolution notes so that you can get the context of this information more quickly.
 
--   **[Generative AI Controller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/generative-ai-controller.md)**
+-   **Generative AI Controller**
 
     The ServiceNow® Generative AI Controller lets you integrate third-party large language models \(LLMs\) with your workflows.
 
--   **[AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/overview-ais.md)**
+-   ****
 
     The ServiceNow® AI Search application provides a consumer-grade search engine for Service Portal, Now Mobile, and Virtual Agent. Intelligent query features help you quickly find the answers you need.
 
--   **[Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skill-kit-landing.md)**
+-   ****
 
-    Use the ServiceNow® Now Assist Skill Kit to create and publish custom prompts and skills for Now Assist. Creating custom skills and prompts enables you to have greater flexibility with Now Assist's generative AI capabilities.
+    Use the ServiceNow® AI Skill Kit to create and publish custom prompts and skills for Now Assist. Creating custom skills and prompts enables you to have greater flexibility with Now Assist's generative AI capabilities.
 
 
 **Parent Topic:**[Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/now-assist-rn-landing.md)

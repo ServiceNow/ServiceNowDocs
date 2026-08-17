@@ -86,5 +86,5 @@ Update a knowledge base article at any time. Retire a published article or repub
 
 [Location migration]()
 
-[View workplace service usage analytics with Usage Insights]()
+[View workplace service usage analytics with User Experience Analytics]()
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Configure Microsoft Teams, Configure, Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -24,7 +24,7 @@ Role required: sn\_msi.workspace\_admin
 
 1.  Navigate to **Major Security Incident Management** &gt; **Chat Channel** &gt; **Channel Templates**.
 
-2.  On the Chat Channel Configuration form, click **New** in the form header.
+2.  On the Chat Channel Configuration form, select **New** in the form header.
 
 3.  On the form, fill in the fields.
 
@@ -79,17 +79,21 @@ Major Security Incident \(sn\_msi\_incident\).
 </td></tr></tbody>
 </table>    \[Omitted image "channel-templates-config.png"\] Alt text: Chat Team Configuration
 
-4.  Click **Submit**.
+4.  Select **Submit**.
 
 5.  Navigate to Chat Channel Configuration section.
 
-6.  Click **New** to create a new Chat Channel Configuration.
+6.  Select **New** to create a new Chat Channel Configuration.
 
 7.  Enter the **Chat Team Configuration** and **Channel Name**.
 
     **Note:** The new channel that you had created here will be your channel name in Microsoft Teams as well. You can search for the same channel and add your conversations.
 
 8.  Add the **Channel Users** and **Channel User Groups** from the lookup list.
+
+    Default channels may include: Executive, Technical, Legal.
+
+    **Important:** All users and groups added to a channel template must have a valid Microsoft Account.
 
 9.  **Submit** the new chat channel configuration record.
 

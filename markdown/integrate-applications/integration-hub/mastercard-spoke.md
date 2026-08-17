@@ -1,6 +1,6 @@
 ---
 title: Mastercard Spoke
-description: Integrate ServiceNow instance with your Mastercard account to enable access to Mastercard's API suite, Mastercom and Mastercom Extended, for card dispute resolution. This integration enables you to perform tasks such as searching transactions, creating claims, and processing chargebacks.
+description: Integrate ServiceNow instance with your Mastercard account to enable access to Mastercard’s Mastercom API Suite \(MCOM\) and Mastercom Extended APIs \(MCOM Extended\) for card dispute resolution. This integration enables you to perform tasks such as searching transactions, creating claims, and processing chargebacks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/integration-hub/mastercard-spoke.html
 release: yokohama
@@ -8,17 +8,17 @@ product: Integration Hub
 classification: integration-hub
 topic_type: concept
 last_updated: "2025-01-30"
-reading_time_minutes: 8
+reading_time_minutes: 9
 breadcrumb: [Integration Hub available spokes, Building integrations in Integration Hub, Integration Hub, Data and Automation]
 ---
 
 # Mastercard Spoke
 
-Integrate ServiceNow instance with your Mastercard account to enable access to Mastercard's API suite, Mastercomand Mastercom Extended, for card dispute resolution. This integration enables you to perform tasks such as searching transactions, creating claims, and processing chargebacks.
+Integrate ServiceNow instance with your Mastercard account to enable access to Mastercard’s Mastercom API Suite \(MCOM\) and Mastercom Extended APIs \(MCOM Extended\) for card dispute resolution. This integration enables you to perform tasks such as searching transactions, creating claims, and processing chargebacks.
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Subscription information
 
@@ -42,6 +42,8 @@ Mastercard Spoke enables a flow designer to build workflows using actions that i
 -   Monitor disputes throughout the dispute lifecycle
 -   Expedite the end-to-end dispute management process
 -   Manage disputes for cleared Single Message System original transactions with Mastercom Extended
+
+**Note:** The Mastercom API \(MCOM\) handles disputes for Dual Message System transactions, while the Mastercom Extended API \(MCOM Extended\) handles disputes for Single Message System transactions, which are primarily PIN debit and ATM transactions \(such as Cirrus and Maestro\). For more information, see the [Mastercard developer documentation](https://developer.mastercard.com/mastercom-extended/documentation/support/).
 
 ## Spoke requirements
 

@@ -18,7 +18,7 @@ Add input choices and define conditions and results in a decision table for the 
 
 ## Before you begin
 
-View [Now Assist for HR Service Delivery \(HRSD\) Virtual Agent topic mapping for Enterprise Service Management Integrations Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/esm-framework-mapping.md).
+View [ServiceNow Otto for HR Service Delivery \(HRSD\) Virtual Agent topic mapping for Enterprise Service Management Integrations Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/esm-framework-mapping.md).
 
 Role required: decision\_table\_admin, sn\_hr\_integr\_fw.admin
 

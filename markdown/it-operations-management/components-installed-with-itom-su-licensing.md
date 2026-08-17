@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/components-installed-with-itom-su-licensing.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [ITOM/OT SU Licensing Reference, ITOM/OT SU Licensing and subscriptions, IT Operations Management]
+breadcrumb: [Reference, ITOM/OT SU Licensing and subscriptions, IT Operations Management]
 ---
 
 # Components installed with ITOM/OT SU Licensing
@@ -25,7 +25,7 @@ Several types of components are installed with activation of the ITOM/OT SU Lice
 |Event Management - Node Count Store|Calculates the node count used in Event Management.|
 |ITOMHealthCIReporterWithOTOMCountITOMStore|Compiles the list of licensable CIs for ITOM.|
 |ITOMHealthCIReporterWithOTOMCountOTOMStore|Compiles the list of licensable CIs for Operational Technology Management \(OTM\).|
-|ITOM Health Licensing Usage Count Store|Calculates the daily CI count for ITOM AIOps.|
+|ITOM Health Licensing Usage Count Store|Calculates the daily CI count for ITOM Health.|
 |ITOM Optimization Licensing Usage Count Store|Calculates the daily CI count for ITOM Optimization.|
 |ITOM Licensing Optimization CI Listing Store|Compiles the list of licensable CIs for ITOM Optimization.|
 |OTOM Licensing Visibility CI Listing Store|Compiles the list of licensable CIs for ITOM Visibility \(OTM\).|

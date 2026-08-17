@@ -20,7 +20,7 @@ You can use the Now Assist Virtual Agent topics in Employee Center to place requ
 
 To access and use the Virtual Agent topics, verify the following:
 
--   [Configure the Now Assist for HRSD Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/config-va-topics.md)
+-   [Configure the ServiceNow Otto for HRSD Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/config-va-topics.md)
 -   Have one of the following roles: sn\_hr\_sp.admin , sn\_hr\_sp.esc\_admin
 
 ## Available Spoke Subflows for Virtual Agent topics for HR Service Delivery Integration with SuccessFactors

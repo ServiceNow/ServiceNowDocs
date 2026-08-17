@@ -9,7 +9,7 @@ classification: supplier-lifecycle-operations
 topic_type: concept
 last_updated: "2025-11-06"
 reading_time_minutes: 1
-breadcrumb: [AI driven supplier onboarding, Use Now Assist for Supplier Lifecycle Operations \(SLO\), Now Assist for Supplier Lifecycle Operations \(SLO\), Supplier Lifecycle Operations, Finance and Supply Chain]
+breadcrumb: [AI driven supplier onboarding, Use ServiceNow Otto for Supplier Lifecycle Operations \(SLO\), ServiceNow Otto for Supplier Lifecycle Operations \(SLO\), Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 
 # Supplier document strategy generator AI agent

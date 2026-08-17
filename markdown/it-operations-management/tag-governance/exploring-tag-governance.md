@@ -62,7 +62,7 @@ View-only permissions:-   Monitor reports from audit runs
 
 ## Exploring
 
--   **[Discovery's contribution to Tag Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/tag-governance/tag-governance-and-discovery.md)**
+-   **[Discovering tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/tag-governance/tag-governance-and-discovery.md)**
 
     The Discovery and Cloud Discovery features discover all resources in the CMDB as well as cloud resources from cloud providers such as Amazon AWS Cloud, Microsoft Azure Cloud, and Google Cloud Platform \(GCP\).
 

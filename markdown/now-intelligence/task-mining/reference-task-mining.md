@@ -7,7 +7,7 @@ release: yokohama
 product: Task Mining
 classification: task-mining
 topic_type: concept
-last_updated: "2024-08-06"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Task Mining, Platform Analytics]
 ---
@@ -22,8 +22,10 @@ Several types of components are installed with the Task Mining application, incl
 Key terms used in Task Mining.
 -   **[Data collected by Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/task-mining/data-management.md)**  
 Task Mining collects workstation and user categories of data.
--   **[Agent configuration records in Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/task-mining/agent-system-configuration-records.md)**  
-Agent configuration records manage the behavior of the workstation agent.
+-   **[Task Mining agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/task-mining/task-mining-agent-features-and-workarounds.md)**  
+The Task Mining agent is a service installed on a user's workstation that captures workstation logs for active windows only. Task Mining agent user-initiated recording supports mouse actions, hotkeys, and authentication integrations.
+-   **[Agent and system configuration records in Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/task-mining/agent-system-configuration-records.md)**  
+Configuration records manage the behavior of the workstation agent and Task Mining environment.
 -   **[Categorization rule form in Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/task-mining/categorization-rules.md)**  
 Organize and add context to your data by grouping similar workstation activities with user-friendly category names. Categorization rules have a fixed order value that determines how information from apps and windows is shown on an analysis.
 -   **[System configuration form in Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/task-mining/system-configuration-form.md)**  

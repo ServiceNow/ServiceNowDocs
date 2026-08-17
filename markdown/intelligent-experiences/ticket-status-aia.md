@@ -34,7 +34,7 @@ The tools and triggers that are associated with the Request status AI agent are 
 
 ## Prerequisites and setup
 
-To access this AI agent, you must have Now Assist Agent for Requester installed on your instance, which is installed with Now Assist for Platform. You can get Now Assist for Platform when you install any other Now Assist application, such as Now Assist for IT Service Management \(ITSM\).
+To access this AI agent, you must have Now Assist Agent for Requester installed on your instance, which is installed with Now Assist for Platform. You can get Now Assist for Platform when you install any other Now Assist application, such as ServiceNow Otto for IT Service Management \(ITSM\).
 
 To configure which actions are available, a user with the admin or sp\_admin role can configure the Standard Ticket configuration for a table. In the Standard Ticket actions related list, you can add, change, or remove actions. All actions available from the Standard Ticket configuration can be used by the Request status AI agent. See Configure actions for standard ticket page for more information.
 

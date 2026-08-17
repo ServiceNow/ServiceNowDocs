@@ -1,6 +1,6 @@
 ---
-title: Configure Now Assist for HR Service Delivery \(HRSD\)
-description: If you have the admin role, you can configure the Now Assist for HR Service Delivery \(HRSD\) application so that your agents can use the generative AI capabilities in Agent Workspace for HR Case Management and Core UI.
+title: Configure ServiceNow Otto for HR Service Delivery \(HRSD\)
+description: If you have the admin role, you can configure the ServiceNow Otto for HR Service Delivery \(HRSD\) application so that your agents can use the generative AI capabilities in Agent Workspace for HR Case Management and Core UI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.html
 release: yokohama
@@ -9,18 +9,18 @@ classification: now-assist-for-hrsd
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 4
-breadcrumb: [Now Assist for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
+breadcrumb: [ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
-# Configure Now Assist for HR Service Delivery \(HRSD\)
+# Configure ServiceNow Otto for HR Service Delivery \(HRSD\)
 
-If you have the admin role, you can configure the Now Assist for HR Service Delivery \(HRSD\) application so that your agents can use the generative AI capabilities in Agent Workspace for HR Case Management and Core UI.
+If you have the admin role, you can configure the ServiceNow Otto for HR Service Delivery \(HRSD\) application so that your agents can use the generative AI capabilities in Agent Workspace for HR Case Management and Core UI.
 
 Role required: sn\_hr\_core.admin
 
-Use the Now Assist Admin console to configure Now Assist for HR Service Delivery \(HRSD\). This console contains everything that you need to install the plugins and configure the generative AI skills. For additional information, see [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configuring-now-assist.md).
+Use the AI Admin Hub console to configure ServiceNow Otto for HR Service Delivery \(HRSD\). This console contains everything that you need to install the plugins and configure the generative AI skills. For additional information, see [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configuring-now-assist.md).
 
-The following list contains skills that you can access from the Now Assist Admin console.
+The following list contains skills that you can access from the AI Admin Hub console.
 
 -   Chat reply recommendation
 -   Chat summarization
@@ -40,10 +40,10 @@ Now LLM Service is currently the only provider for this Now Assist application's
 
 1.  Install the Now Assist for HR Service Delivery \(HRSD\) plugin \(sn\_hr\_gen\_ai\).
 
-    **Note:** For information about the plugin dependencies and plugin activation order, see [Supporting information for Now Assist for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/support-info-hr-assist.md).For information about the installation process, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+    **Note:** For information about the plugin dependencies and plugin activation order, see [Supporting information for ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/support-info-hr-assist.md).For information about the installation process, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 
-2.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills** to access the **Now Assist Skills** tab of the Now Assist Admin console.
-3.  Activate and configure the skills for the Now Assist for HR Service Delivery \(HRSD\) features.
+2.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills** to access the **Now Assist Skills** tab of the AI Admin Hub console.
+3.  Activate and configure the skills for the ServiceNow Otto for HR Service Delivery \(HRSD\) features.
 
     **Note:** These features are grouped under the **Employee** workflow group. Each feature has its associated skills.
 
@@ -63,28 +63,28 @@ Common configuration components include the following:
 
 Saving and activating the configuration setup process is the same across all Now Assist skills.
 
--   **[Skill inputs and triggers for Now Assist for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-skill-inputs.md)**  
-Get a quick overview of the skill inputs and triggers for Now Assist for HR Service Delivery \(HRSD\). By configuring the inputs or triggers for a skill, you can determine how and when a skill is used.
--   **[RCA approvals for Now Assist for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/run-rca-now-assist-hrsd.md)**  
-After you install Now Assist for HR Service Delivery \(HRSD\), you might encounter Restricted Caller Access \(RCA\) approval messages requesting for an update in the access request.
+-   **[Skill inputs and triggers for ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-skill-inputs.md)**  
+Get a quick overview of the skill inputs and triggers for ServiceNow Otto for HR Service Delivery \(HRSD\). By configuring the inputs or triggers for a skill, you can determine how and when a skill is used.
+-   **[RCA approvals for ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/run-rca-now-assist-hrsd.md)**  
+After you install ServiceNow Otto for HR Service Delivery \(HRSD\), you might encounter Restricted Caller Access \(RCA\) approval messages requesting for an update in the access request.
 -   **[Restrict Now Assist capabilities for employee relations cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/restrict-now-assist-skills-er-cases.md)**  
 Restrict the Now Assist capabilities for your employee relations cases and define the availability.
--   **[Customize the Now Assist for HRSD skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/customize-nahr-skill.md)**  
+-   **[Customize the ServiceNow Otto for HRSD skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/customize-nahr-skill.md)**  
 Customize a Now Assist skill so you can experiment with skill settings and configure the skill to fit your business needs.
 -   **[Configure attachment summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/configue-attachment-summary.md)**  
-Customize the case summarization skill in Now Assist for HRSD to include summaries of case attachments.
--   **[Configure resolution notes generation for Now Assist for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/resolution-notes-nacm-config.md)**  
+Customize the case summarization skill in ServiceNow Otto for HRSD to include summaries of case attachments.
+-   **[Configure resolution notes generation for ServiceNow Otto for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/resolution-notes-nacm-config.md)**  
 Configure the resolution notes generation skill to create concise summaries of case resolutions and enable agents to use the Now Assist context menu to elaborate or shorten the notes.
 -   **[Configure sensitivity detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/config-na-sd-filters.md)**  
 Configure sensitivity detection in the Now Assist for HR Service Delivery \(HRSD\) application.
 -   **[Configure Gen AI Virtual Agent for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/use-genai-ec.md)**  
 Enable your requesters to have a streamlined, conversational experience that is based on generative AI as they submit a catalog item request in Virtual Agent. By offering this generative AI experience, your organization can increase self-service and reduce operating costs.
--   **[Configure the Now Assist for HRSD Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/config-va-topics.md)**  
-Complete the configuration steps to enable your employees place requests to the Human Capital Management \(HCM\) system using the Now Assist for HRSD Virtual Agent topics in Employee Center.
+-   **[Configure the ServiceNow Otto for HRSD Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/config-va-topics.md)**  
+Complete the configuration steps to enable your employees place requests to the Human Capital Management \(HCM\) system using the ServiceNow Otto for HRSD Virtual Agent topics in Employee Center.
 -   **[Configure HCM agents for HR Service Delivery AI Agent Collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/configure-hcm-agents.md)**  
 Enable your employees to place requests to the Human Capital Management \(HCM\) system using the HR Service Delivery AI agent collection.
 -   **[Configure Now Assist AI Helper – Galileo Inside](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/configuring-galileo-inside.md)**  
 Enable users to access functionality and benefits of the Now Assist AI Helper – Galileo Inside \[sn\_hr\_na\_galileo\] plugin by completing a short installation and configuration process.
 
-**Parent Topic:**[Now Assist for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/now-assist-hrsd.md)
+**Parent Topic:**[ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/now-assist-hrsd.md)
 

@@ -1,6 +1,6 @@
 ---
-title: Requirements for installing Zero Copy Connector for ERP
-description: Before you install Zero Copy Connector for ERP, you must complete several configurations, on both the ERP \(Enterprise Resource Planning\) system and on the ServiceNow AI Platform.
+title: Requirements for installing ERP Canvas
+description: Before you install ERP Canvas, you must complete several configurations, on both the ERP \(Enterprise Resource Planning\) system and on the ServiceNow AI Platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-integration-framework/erpc-prereqs-for-installation.html
 release: yokohama
@@ -9,39 +9,39 @@ classification: erp-integration-framework
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 3
-breadcrumb: [Configuring Zero Copy Connector for ERP, Zero Copy Connector for ERP, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Configuring ERP Canvas, ERP Canvas, Building low-code applications, Developing your application, Building applications]
 ---
 
-# Requirements for installing Zero Copy Connector for ERP
+# Requirements for installing ERP Canvas
 
-Before you install Zero Copy Connector for ERP, you must complete several configurations, on both the ERP \(Enterprise Resource Planning\) system and on the ServiceNow AI Platform.
+Before you install ERP Canvas, you must complete several configurations, on both the ERP \(Enterprise Resource Planning\) system and on the ServiceNow AI Platform.
 
 ## Licensing
 
-You must have a license and get entitlement to Zero Copy Connector for ERP for installation. For more information, see [Licensing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/licensing.md).
+You must have a license and get entitlement to ERP Canvas for installation. For more information, see [Licensing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/licensing.md).
 
 ## ServiceNow AI Platform plugins
 
-The following plugins and servers are required for installing Zero Copy Connector for ERP:
+The following plugins and servers are required for installing ERP Canvas:
 
 -   Integration Hub plugin \(for more information, see [Request Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/request-ih-overview.md)\)
 -   Financial Services Remote Tables plugin \(for more information, see [Activate the remote tables plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/activate-remote-tables-plugin.md)\)
--   MID Server: The MID Server must be configured to install Zero Copy Connector for ERP. See the following section for more information.
+-   MID Server: The MID Server must be configured to install ERP Canvas. See the following section for more information.
 
 ## MID Server requirements
 
 Communicating with the system of record through a MID Server requires a valid connection and credential alias.
 
-**Note:** The credentials you specify for the Zero Copy Connector for ERP connection must match the service user credentials in the system of record.
+**Note:** The credentials you specify for the ERP Canvas connection must match the service user credentials in the system of record.
 
-Zero Copy Connector for ERP and ERP-CM currently support ECC \(minimum SAP Netweaver 7.31\) and S/4HANA SAP systems.
+ERP Canvas and ERP-CM currently support ECC \(minimum SAP Netweaver 7.31\) and S/4HANA SAP systems.
 
 Navigate to **All** &gt; **MID Server** &gt; **Servers**, select a MID Server, and add the following:
 
-1.  In the **Supported applications** tab, edit the list to include Zero Copy Connector for ERP.
-2.  In the **Capabilities** tab, in addition to **ALL**, edit the list to include Zero Copy Connector for ERP.
+1.  In the **Supported applications** tab, edit the list to include ERP Canvas.
+2.  In the **Capabilities** tab, in addition to **ALL**, edit the list to include ERP Canvas.
 
-    \[Omitted image "erpc-mid-server-capabilities.png"\] Alt text: MID server record related lists with capabilities tab displayed showing Zero Copy Connector for ERP.
+    \[Omitted image "erpc-mid-server-capabilities.png"\] Alt text: MID server record related lists with capabilities tab displayed showing ERP Canvas.
 
 
 For more information, see [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/mid-server-landing.md).
@@ -106,7 +106,7 @@ For more information on spoke integration, see [SAP ECC RFC Spoke](https://raw.g
 
 ## SAP configuration
 
-You must configure the JCO connector before you install Zero Copy Connector for ERP. For more information, see [Installing the SAP Java Connection \(JCo\)](https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/00f68c2e08b941f081002fd3691d86a7/ffe3b941e82641bc97b76ce522423d83.html) on the SAP Help Portal.
+You must configure the JCO connector before you install ERP Canvas. For more information, see [Installing the SAP Java Connection \(JCo\)](https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/00f68c2e08b941f081002fd3691d86a7/ffe3b941e82641bc97b76ce522423d83.html) on the SAP Help Portal.
 
 You must add the DuckDB JDBC jar as a MID Server jar. For more information and to download, see [DuckDB JDBC Driver 1.1.1](https://mvnrepository.com/artifact/org.duckdb/duckdb_jdbc/1.1.1) on the Maven web site.
 
@@ -116,5 +116,5 @@ Additionally, you need the following on your ERP system:
 -   SAP S/4HANA \(all versions supported\)
 -   SAP Java Connector
 
-**Parent Topic:**[Configuring Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-integration-configuration-overview.md)
+**Parent Topic:**[Configuring ERP Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-integration-configuration-overview.md)
 

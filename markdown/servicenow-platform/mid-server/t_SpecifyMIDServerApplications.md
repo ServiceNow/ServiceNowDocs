@@ -8,7 +8,7 @@ product: MID Server
 classification: mid-server
 topic_type: task
 last_updated: "2025-01-30"
-reading_time_minutes: 5
+reading_time_minutes: 6
 breadcrumb: [MID Server selection, Configuring MID Servers, Configuring MID Server, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -89,7 +89,7 @@ Cloud Management
 
 </td><td>
 
-N/A
+Cloud Management uses the MID Server for cloud resource discovery, and provisioning and orchestration. Cloud Management uses the same default MID Server selection mechanism as other applications, matching on application, capability, and IP range. Because cloud provider endpoints are public IP addresses, most MID Servers are configured to allow all IP ranges or a range that covers these endpoints, so in practice the application and capability match determine MID Server selection.
 
 </td></tr></tbody>
 </table>## Procedure

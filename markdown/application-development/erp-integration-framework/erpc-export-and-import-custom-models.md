@@ -1,5 +1,5 @@
 ---
-title: Export and import custom models in Zero Copy Connector for ERP
+title: Export and import custom models in ERP Canvas
 description: Move a custom ERP model from one instance to another by exporting and importing a remote update set.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-integration-framework/erpc-export-and-import-custom-models.html
@@ -9,10 +9,10 @@ classification: erp-integration-framework
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 3
-breadcrumb: [Building and managing ERP models to work with ERP data, Using ERP models, extraction tables, and remote tables, Zero Copy Connector for ERP, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Building and managing ERP models to work with ERP data, Using ERP models, extraction tables, and remote tables, ERP Canvas, Building low-code applications, Developing your application, Building applications]
 ---
 
-# Export and import custom models in Zero Copy Connector for ERP
+# Export and import custom models in ERP Canvas
 
 Move a custom ERP model from one instance to another by exporting and importing a remote update set.
 
@@ -43,7 +43,7 @@ Note the following when exporting and importing custom ERP models:
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home**.
+1.  Navigate to **All** &gt; **ERP Canvas** &gt; **ERP Canvas Home**.
 
 2.  On the **Models** page, select the custom model to export.
 
@@ -89,7 +89,7 @@ Note the following when exporting and importing custom ERP models:
 
     9.  When the local copy is created, select **Close**.
 
-7.  Navigate to **All** &gt; **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home**.
+7.  Navigate to **All** &gt; **ERP Canvas** &gt; **ERP Canvas Home**.
 
 8.  On the **ERP Models** page, find and open the model you imported.
 

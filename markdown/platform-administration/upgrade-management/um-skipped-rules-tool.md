@@ -1,5 +1,5 @@
 ---
-title: Upgrade Skipped Record Rules Editor tool in Upgrade Console
+title: Upgrade Skipped Record Rules Editor tool in Upgrade Management
 description: Create skipped record rules, based on your specified conditions, to define customizations post-upgrade. Subsequently, execute these rules to resolve skipped records during or after the upgrade process, either automatically or on demand.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/upgrade-management/um-skipped-rules-tool.html
@@ -9,10 +9,10 @@ classification: upgrade-management
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Upgrade Console tools, Using Upgrade Console, Upgrade Console, Upgrade, Administer the ServiceNow AI Platform]
+breadcrumb: [Upgrade Management tools, Using Upgrade Management, Upgrade Management, Upgrade, Administer the ServiceNow AI Platform]
 ---
 
-# Upgrade Skipped Record Rules Editor tool in Upgrade Console
+# Upgrade Skipped Record Rules Editor tool in Upgrade Management
 
 Create skipped record rules, based on your specified conditions, to define customizations post-upgrade. Subsequently, execute these rules to resolve skipped records during or after the upgrade process, either automatically or on demand.
 
@@ -21,22 +21,22 @@ Create skipped record rules based on your set conditions to define your customiz
 -   **[Execute a skipped record rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-management/um-execute-skipped-record-rule.md)**  
 Run skipped record rules based on your set conditions to resolve skipped records in an upgrade. The rules either execute automatically during an upgrade or can run on demand after an upgrade.
 
-**Parent Topic:**[Upgrade Console tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-management/um-tools.md)
+**Parent Topic:**[Upgrade Management tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-management/um-tools.md)
 
 **Related topics**  
 
 
-[ATF Test Generator and Cloud Runner tool in Upgrade Console]()
+[ATF Test Generator and Cloud Runner tool in Upgrade Management]()
 
-[Cloning tool in Upgrade Console]()
+[Cloning tool in Upgrade Management]()
 
-[Upgrade History tool in Upgrade Console]()
+[Upgrade History tool in Upgrade Management]()
 
-[Upgrade Monitor tool in Upgrade Console]()
+[Upgrade Monitor tool in Upgrade Management]()
 
-[Now Support in Upgrade Console]()
+[Now Support in Upgrade Management]()
 
-[Upgrade Preview tool in Upgrade Console]()
+[Upgrade Preview tool in Upgrade Management]()
 
-[Upgrade Plans tool in Upgrade Console]()
+[Upgrade Plans tool in Upgrade Management]()
 

@@ -1,6 +1,6 @@
 ---
 title: Generate a knowledge article from HR Agent Workspace with Now Assist
-description: Create drafts of knowledge articles that are based on the case descriptions with Now Assist for HR Service Delivery \(HRSD\). Generating article content with generative AI enables you to write efficiently as you address user concerns.
+description: Create drafts of knowledge articles that are based on the case descriptions with ServiceNow Otto for HR Service Delivery \(HRSD\). Generating article content with generative AI enables you to write efficiently as you address user concerns.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/now-assist-for-hrsd/gen-kb-now-assisthr.html
 release: yokohama
@@ -9,12 +9,12 @@ classification: now-assist-for-hrsd
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 5
-breadcrumb: [Use generative AI skills, Now Assist for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
+breadcrumb: [Use generative AI skills, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
 # Generate a knowledge article from HR Agent Workspace with Now Assist
 
-Create drafts of knowledge articles that are based on the case descriptions with Now Assist for HR Service Delivery \(HRSD\). Generating article content with generative AI enables you to write efficiently as you address user concerns.
+Create drafts of knowledge articles that are based on the case descriptions with ServiceNow Otto for HR Service Delivery \(HRSD\). Generating article content with generative AI enables you to write efficiently as you address user concerns.
 
 ## Before you begin
 
@@ -25,14 +25,14 @@ Create drafts of knowledge articles that are based on the case descriptions with
     -   Latest version of Agent Workspace for HR Case Management \[sn\_hr\_agent\_ws\]
     -   Human Resources Scoped App: Lifecycle Events \[com.sn\_hr\_lifecycle\_events\]
     -   Human Resources Scoped App: Employee Relations \[com.sn\_hr\_employee\_relations\]
--   Activate the KB generation skill from the Now Assist Admin console. For more information, see [.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md)
+-   Activate the KB generation skill from the AI Admin Hub console. For more information, see [.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md)
 
 Role required:
 
 -   sn\_hr\_core.case\_reader and sn\_hr\_core.kb\_writer roles to view the **Create Knowledge** option on the HR Case \[sn\_hr\_core\_case\] and its extended tables.
 -   sn\_hr\_le.case\_reader and sn\_hr\_core.kb\_writer roles to view the **Create Knowledge** option on HR Lifecycle Events Cases.
 -   sn\_hr\_er.case\_reader, sn\_hr\_core.kb\_writer roles to view the **Create Knowledge** option on employee relations cases.
--   You should also have the required role for the knowledge base that you selected in the Now Assist Admin configuration.
+-   You should also have the required role for the knowledge base that you selected in the AI Admin Hub configuration.
 
 ## About this task
 
@@ -60,15 +60,15 @@ You can make a copy of this skill to configure it to meet your business needs. F
 
 7.  Select one of the following in the **Use AI to draft this article?** modal.
 
-<table id="choicetable_cql_m25_vcc"><thead><tr><th align="left" id="d366467e240">
+<table id="choicetable_cql_m25_vcc"><thead><tr><th align="left" id="d365834e240">
 
 Option
 
-</th><th align="left" id="d366467e243">
+</th><th align="left" id="d365834e243">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d366467e249">
+</th></tr></thead><tbody><tr><td id="d365834e249">
 
 **Yes, draft with Now Assist**
 
@@ -76,7 +76,7 @@ Description
 
 Use Now Assist to draft an article based on task details.You can review and edit the article before it is published.
 
-</td></tr><tr><td id="d366467e260">
+</td></tr><tr><td id="d365834e260">
 
 **No, write it myself**
 
@@ -94,30 +94,30 @@ Draft the article manually.
 10. View, save, or publish the article by using the UI actions on the screen.
 
 
-**Parent Topic:**[Use Now Assist for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/use-now-assist-hr.md)
+**Parent Topic:**[Use ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/use-now-assist-hr.md)
 
 **Related topics**  
 
 
-[Summarize a chat conversation by using Now Assist for HR Service Delivery \(HRSD\)]()
+[Summarize a chat conversation by using ServiceNow Otto for HR Service Delivery \(HRSD\)]()
 
-[Summarize a Sidebar discussion by using Now Assist for HR Service Delivery \(HRSD\)]()
+[Summarize a Sidebar discussion by using ServiceNow Otto for HR Service Delivery \(HRSD\)]()
 
-[Generate a chat reply recommendation by using Now Assist for HR Service Delivery \(HRSD\)]()
+[Generate a chat reply recommendation by using ServiceNow Otto for HR Service Delivery \(HRSD\)]()
 
 [Generate a knowledge article from multiple cases]()
 
-[Generate an email reply recommendation by using Now Assist for HR Service Delivery \(HRSD\)]()
+[Generate an email reply recommendation by using ServiceNow Otto for HR Service Delivery \(HRSD\)]()
 
-[Summarize an HR case using Now Assist for HRSD]()
+[Summarize an HR case using ServiceNow Otto for HRSD]()
 
-[Generate resolution notes using Now Assist for HRSD]()
+[Generate resolution notes using ServiceNow Otto for HRSD]()
 
 [View employee summary reports]()
 
 [Summarize actions while transferring an HR case]()
 
-[Use Knowledge Graph in Now Assist for HRSD]()
+[Use Knowledge Graph in ServiceNow Otto for HRSD]()
 
 [Use Galileo Inside to answer HR-related questions]()
 
@@ -125,11 +125,11 @@ Draft the article manually.
 
 [Submit an HR request with Gen AI Virtual Agent]()
 
-[Now Assist for HR Service Delivery \(HRSD\) integration with Enterprise Service Management Integrations Framework]()
+[ServiceNow Otto for HR Service Delivery \(HRSD\) integration with Enterprise Service Management Integrations Framework]()
 
-[Detect sensitive topics by using sensitivity detection in Now Assist for HR Service Delivery \(HRSD\)]()
+[Detect sensitive topics by using sensitivity detection in ServiceNow Otto for HR Service Delivery \(HRSD\)]()
 
-[Analyze sentiments in Now Assist for HR Service Delivery \(HRSD\)]()
+[Analyze sentiments in ServiceNow Otto for HR Service Delivery \(HRSD\)]()
 
 [Now Assist in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/now-assist-knowledge-management.md)
 

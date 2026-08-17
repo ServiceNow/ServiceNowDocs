@@ -40,7 +40,7 @@ The available detection policy providers are:
 
 -   **Policy Customer Script**
 
-    A custom script that can be loaded onto the ServiceNow Platform to determine the user’s consent policy and return one of the policy names from the Usage Insights Consent Policy table \[sys\_analytics\_detection\_policy\_provider\].
+    A custom script that can be loaded onto the ServiceNow Platform to determine the user’s consent policy and return one of the policy names from the User Experience Analytics Consent Policy table \[sys\_analytics\_detection\_policy\_provider\].
 
     **Note:** If a customer script is defined but the Active field isn't selected, the next priority in the Order table is activated.
 
@@ -53,7 +53,7 @@ The available detection policy providers are:
 
 1.  Navigate to **All** &gt; **Platform Analytics Administration** &gt; **UX Analytics settings** &gt; **Detection Policy Providers**.
 
-    The Usage Insights Detection Policy Providers page displays.
+    The User Experience Analytics Detection Policy Providers page displays.
 
 2.  Select any of the detection policy providers to update its Active status and change the order in which the policy is enforced.
 
@@ -61,13 +61,13 @@ The available detection policy providers are:
 
 3.  Select either **Country Customer Script** or **Policy Customer Script** and enter a script to determine either the user’s location or the user’s consent policy, and to return a value.
 
-    **Note:** You can use the system property **glide.analytics.consent.script\_timeout** to define the run time of the script. For more information, see [Usage Insights related properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/all-analytics-properties.md).
+    **Note:** You can use the system property **glide.analytics.consent.script\_timeout** to define the run time of the script. For more information, see [User Experience Analytics related properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/all-analytics-properties.md).
 
     For more information on using scripts, see [JavaScript syntax editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/c_SyntaxEditor.md).
 
 
--   **[View and update Usage Insights consent tracking policies for individual countries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/uxa-view-policy-country.md)**  
+-   **[View and update User Experience Analytics consent tracking policies for individual countries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/uxa-view-policy-country.md)**  
 View the consent tracking policy for all countries or select a country to update its existing policy.
 
-**Parent Topic:**[User privacy, tracking, and user consent management in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/user-exp-analytics-track-options.md)
+**Parent Topic:**[User privacy, tracking, and user consent management in User Experience Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/user-exp-analytics-track-options.md)
 

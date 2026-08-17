@@ -7,7 +7,7 @@ release: yokohama
 topic_type: task
 last_updated: "2025-11-21"
 reading_time_minutes: 2
-breadcrumb: [Configure, Now Assist for Order Management]
+breadcrumb: [Configure, ServiceNow Otto for Order Management]
 ---
 
 # Configure ATP API for the manage order operations agent
@@ -87,10 +87,10 @@ Input: The getAvailability function takes order number of the Customer order rec
 
 9.  Validate your implementation by requesting order changes from the Business Portal using the Now Assist Virtual Assistant.
 
-    For more information, see [Request order changes using Now Assist for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/request-order-changes-now-assist.md).
+    For more information, see [Request order changes using ServiceNow Otto for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/request-order-changes-now-assist.md).
 
 
-**Parent Topic:**[Configuring Now Assist for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/now-assist-for-order-management-configuring.md)
+**Parent Topic:**[Configuring ServiceNow Otto for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/now-assist-for-order-management-configuring.md)
 
 **Related topics**  
 

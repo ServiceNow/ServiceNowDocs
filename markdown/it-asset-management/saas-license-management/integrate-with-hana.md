@@ -143,15 +143,15 @@ If you’re using Software Asset Workspace, the option to create the SAP S/4HANA
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d51482e658">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d51448e658">
 
 Interface
 
-</th><th align="left" id="d51482e661">
+</th><th align="left" id="d51448e661">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d51482e667">
+</th></tr></thead><tbody><tr><td id="d51448e667">
 
 **Core UI**
 
@@ -162,7 +162,7 @@ Action
 3.  Select **SAP S4Hana Cloud Integration Profile**.
 
 
-</td></tr><tr><td id="d51482e709">
+</td></tr><tr><td id="d51448e709">
 
 **Software Asset Workspace**
 

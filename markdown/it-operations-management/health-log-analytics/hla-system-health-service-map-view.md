@@ -9,7 +9,7 @@ classification: health-log-analytics
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Viewing Health Log Analytics system health alerts on the service map, Health Log Analytics, ITOM AIOps, IT Operations Management]
+breadcrumb: [Viewing Health Log Analytics system health alerts on the service map, Health Log Analytics, ITOM Health, IT Operations Management]
 ---
 
 # Identify Health Log Analytics system health issues on the service map

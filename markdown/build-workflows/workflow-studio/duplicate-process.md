@@ -44,7 +44,7 @@ Make a copy of an existing playbook with the same trigger, stages, activities, a
 
 5.  Fill in the playbook properties.
 
-<table id="choicetable_ndc_pgy_5lb"><tbody><tr><td id="d149386e217">
+<table id="choicetable_ndc_pgy_5lb"><tbody><tr><td id="d148725e217">
 
 **Label**
 
@@ -52,7 +52,7 @@ Make a copy of an existing playbook with the same trigger, stages, activities, a
 
 Enter a unique, user-facing name for your playbook. This name appears during playbook runtime.
 
-</td></tr><tr><td id="d149386e232">
+</td></tr><tr><td id="d148725e232">
 
 **Application**
 
@@ -60,7 +60,7 @@ Enter a unique, user-facing name for your playbook. This name appears during pla
 
 Choose an application scope that you want your playbook to run in. Selecting **Global** lets your playbook run in any application scope. For more information, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/c_ApplicationScope.md).
 
-</td></tr><tr><td id="d149386e254">
+</td></tr><tr><td id="d148725e254">
 
 **Description**
 
@@ -68,7 +68,7 @@ Choose an application scope that you want your playbook to run in. Selecting **G
 
 Optionally, enter some descriptive details about your playbook.
 
-</td></tr><tr><td id="d149386e266">
+</td></tr><tr><td id="d148725e266">
 
 **Trigger type**
 
@@ -76,7 +76,7 @@ Optionally, enter some descriptive details about your playbook.
 
 Specify what causes your trigger to fire.
 
-</td></tr><tr><td id="d149386e275">
+</td></tr><tr><td id="d148725e275">
 
 **Table**
 

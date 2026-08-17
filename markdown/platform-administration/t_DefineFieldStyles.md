@@ -26,7 +26,7 @@ The CSS lets you change the following attributes of a field.
 -   Change the font attributes \(bold, italics, underline\).
 -   Change the padding and alignment of text.
 
-You can define field styles for tables and database views that are in the same scope as the field style and for other tables that have at least one field in the same scope as the field style. Field styles defined for a table don’t apply to database views that include the table. Create separate field styles for database views.
+You can define field styles for tables and database views in the same scope as the field style. You can also define field styles for other tables that have at least one field in the same scope. Field styles defined for a table don’t apply to database views that include the table. Create separate field styles for database views.
 
 **Note:** Field styles aren’t applied to comments and work notes fields used with the activity formatter. Background color for these fields can be set using the **glide.ui.activity\_stream.style.comments** and **glide.ui.activity\_stream.style.work\_notes** system properties located in the sys\_properties table.
 
@@ -70,9 +70,9 @@ Value
 
 </td><td>
 
-The exact value or script-based-condition required to apply the style.**Note:** The value only affects list field styles when the field isn’t read-only. The value affects both list and forms if the field is read-only.
+The exact value or script-based-condition required to apply the style.**Note:** Leave the **Value** field empty to apply field styles to UI16 forms. Specify a value in the **Value** field to apply field styles to UI16 lists.
 
-To apply field styles to forms only, leave the value field empty.
+Field styles aren't supported for Workspaces.
 
 </td></tr><tr><td>
 

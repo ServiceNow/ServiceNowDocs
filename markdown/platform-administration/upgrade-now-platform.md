@@ -33,5 +33,5 @@ See [Upgrade Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs
 
 Keep your instance running smoothly during and after upgrading. ServiceNow AI Platform® Upgrades and Conversions tools make the process easy, with information on upgrades, patches, and releases, as well as options for backups, post-upgrade instance testing, and migration from ServiceNow® Express List to the Service Management platform.
 
-See [Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-management/um-landing-page.md).
+See [Upgrade Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-management/um-landing-page.md).
 

@@ -1,6 +1,6 @@
 ---
 title: User Experience Analytics for mobile applications
-description: Usage Insights helps you understand usage and adoption of your mobile applications.
+description: User Experience Analytics helps you understand usage and adoption of your mobile applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/mobile-analytics.html
 release: yokohama
@@ -12,13 +12,13 @@ breadcrumb: [Building mobile apps, Mobile Platform]
 
 # User Experience Analytics for mobile applications
 
-Usage Insights helps you understand usage and adoption of your mobile applications.
+User Experience Analytics helps you understand usage and adoption of your mobile applications.
 
 \[Omitted video\] Description: Video showing how to navigate and use User Experience Analytics
 
-This video shows you how to analyze the user experience within your applications using Usage Insights.
+This video shows you how to analyze the user experience within your applications using User Experience Analytics.
 
-The ServiceNow® Usage Insights application provides views for monitoring key performance indicators of users of your web and mobile applications built with the ServiceNow mobile platform and web assets. Visualize metrics and interactions to better understand the user experience, and create more intuitive journeys for your users.
+The ServiceNow® User Experience Analytics application provides views for monitoring key performance indicators of users of your web and mobile applications built with the ServiceNow mobile platform and web assets. Visualize metrics and interactions to better understand the user experience, and create more intuitive journeys for your users.
 
 There are two mobile applications with the primary difference being the personas they serve.
 

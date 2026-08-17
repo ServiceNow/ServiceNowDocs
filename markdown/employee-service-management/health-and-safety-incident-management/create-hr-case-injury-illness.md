@@ -35,15 +35,15 @@ Role required: sn\_ohs\_im.manager, sn\_ohs\_im.agent, or sn\_ohs\_im.operations
 
 3.  Open an injury and illness record to add the HR case to.
 
-<table id="choicetable_HRcase"><thead><tr><th align="left" id="d74860e155">
+<table id="choicetable_HRcase"><thead><tr><th align="left" id="d74261e155">
 
 Option
 
-</th><th align="left" id="d74860e158">
+</th><th align="left" id="d74261e158">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d74860e164">
+</th></tr></thead><tbody><tr><td id="d74261e164">
 
 **From a safety incident**
 
@@ -55,7 +55,7 @@ Steps
 4.  In the **Add injury and illness** activity, select the injury and illness report to add the case to.
 
 
-</td></tr><tr><td id="d74860e200">
+</td></tr><tr><td id="d74261e200">
 
 **From an injury and illness list**
 

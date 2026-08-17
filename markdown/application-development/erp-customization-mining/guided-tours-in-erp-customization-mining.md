@@ -1,6 +1,6 @@
 ---
-title: Guided tours in ERP Semantic Mining
-description: Learn about ERP Semantic Mining guided tours, including how to access and take them to build your knowledge of ERP Semantic Mining.
+title: Guided tours in ERP Customization Mining
+description: Learn about ERP Customization Mining guided tours, including how to access and take them to build your knowledge of ERP Customization Mining.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-customization-mining/guided-tours-in-erp-customization-mining.html
 release: yokohama
@@ -9,12 +9,12 @@ classification: erp-customization-mining
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Exploring ERP Semantic Mining, ERP Semantic Mining \(ERP-CM\), Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Exploring ERP Customization Mining, ERP Customization Mining \(ERP-CM\), Building low-code applications, Developing your application, Building applications]
 ---
 
-# Guided tours in ERP Semantic Mining
+# Guided tours in ERP Customization Mining
 
-Learn about ERP Semantic Mining guided tours, including how to access and take them to build your knowledge of ERP Semantic Mining.
+Learn about ERP Customization Mining guided tours, including how to access and take them to build your knowledge of ERP Customization Mining.
 
 ## What guided tours are
 
@@ -22,7 +22,7 @@ Guided tours are part of the default ServiceNow platform. There are guided tours
 
 Tours contain interactive steps to help train and teach users. Some tours show various features in the user interface, such as an overview of a home page. Other tours help complete a task, such as configuring a connection or working with candidate details. For more information about what guided tours are and how to create them, see [Exploring Guided Tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/exploring-guided-tours.md).
 
-## How to access and use ERP Semantic Mining guided tours
+## How to access and use ERP Customization Mining guided tours
 
 To start a tour, select the **Show help** icon \[Omitted image "Banner\_HelpIcon.png"\] and then select **Take a Tour**.
 
@@ -40,15 +40,15 @@ For more information, select the **View detailed documentation** link on any tou
 
 At the end of the guided tour, select **Complete**.
 
-## ERP Semantic Mining guided tour locations
+## ERP Customization Mining guided tour locations
 
 |Guided tour name|Start page|Path to start page|
 |----------------|----------|------------------|
-|Exploring mining results and candidates|ERP Semantic Mining home page|Navigate to ERP Semantic Mining|
-|ERP Semantic Mining Candidates|ERP Semantic Mining Candidates page|Navigate to ERP Semantic Mining and select the Candidates icon \[Omitted image "erpcm-candidates-icon.png"\]|
-|Configuring ERP Semantic Mining|ERP Semantic Mining Configuration page|Navigate to ERP Semantic Mining and select the Configuration icon \[Omitted image "configuration-alias-icon.png"\]|
-|Export snapshot|ERP Semantic Mining Configuration page|Navigate to ERP Semantic Mining and select the Configuration icon \[Omitted image "configuration-alias-icon.png"\]|
-|Import snapshot|ERP Semantic Mining Configuration page|Navigate to ERP Semantic Mining and select the Configuration icon \[Omitted image "configuration-alias-icon.png"\]|
+|Exploring mining results and candidates|ERP Customization Mining home page|Navigate to ERP Customization Mining|
+|ERP Customization Mining Candidates|ERP Customization Mining Candidates page|Navigate to ERP Customization Mining and select the Candidates icon \[Omitted image "erpcm-candidates-icon.png"\]|
+|Configuring ERP Customization Mining|ERP Customization Mining Configuration page|Navigate to ERP Customization Mining and select the Configuration icon \[Omitted image "configuration-alias-icon.png"\]|
+|Export snapshot|ERP Customization Mining Configuration page|Navigate to ERP Customization Mining and select the Configuration icon \[Omitted image "configuration-alias-icon.png"\]|
+|Import snapshot|ERP Customization Mining Configuration page|Navigate to ERP Customization Mining and select the Configuration icon \[Omitted image "configuration-alias-icon.png"\]|
 
-**Parent Topic:**[Exploring ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/exploring-ecm.md)
+**Parent Topic:**[Exploring ERP Customization Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/exploring-ecm.md)
 

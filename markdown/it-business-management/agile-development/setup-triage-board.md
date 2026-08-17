@@ -1,6 +1,6 @@
 ---
 title: Set up a triage board in Agile Development 2.0
-description: Set up your own triage board to view and manage records that are important to your product, such as problems, incident tasks, defects, or change requests at one place easily.
+description: Set up your own triage board to view and manage records that are important to your product. These records include problems, incident tasks, defects, or change requests, viewable at one place easily.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/agile-development/setup-triage-board.html
 release: yokohama
@@ -14,7 +14,7 @@ breadcrumb: [Use, Agile Development 2.0, Strategic Portfolio Management]
 
 # Set up a triage board in Agile Development 2.0
 
-Set up your own triage board to view and manage records that are important to your product, such as problems, incident tasks, defects, or change requests at one place easily.
+Set up your own triage board to view and manage records that are important to your product. These records include problems, incident tasks, defects, or change requests, viewable at one place easily.
 
 ## Before you begin
 

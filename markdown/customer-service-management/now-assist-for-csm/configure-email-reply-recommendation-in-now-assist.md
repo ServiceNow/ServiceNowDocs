@@ -9,7 +9,7 @@ classification: now-assist-for-csm
 topic_type: task
 last_updated: "2025-06-02"
 reading_time_minutes: 2
-breadcrumb: [Activate Now Assist Skills, Configure, Now Assist for Customer Service Management \(CSM\), Customer Service Management]
+breadcrumb: [Activate Now Assist Skills, Configure, ServiceNow Otto for Customer Service Management \(CSM\), Customer Service Management]
 ---
 
 # Configure email recommendation

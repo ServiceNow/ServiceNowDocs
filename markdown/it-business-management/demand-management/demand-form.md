@@ -38,8 +38,8 @@ Category
 
 </td><td>
 
-Category of the demand:-   Strategic: For demands for plans, such as projects or stories.
--   Operational: For demands for operational work, such as changes or defects.
+Category of the demand:-   Strategic: For demands for plans, such as projects or stories. These demands go through strategic evaluation and prioritization regardless of scope, from large initiatives, such as a project or epic, to smaller, well-defined changes, such as a story.
+-   Operational: For demands for operational work, such as changes or defects. These demands address business-as-usual work that doesn't require strategic evaluation or prioritization.
 
 </td></tr><tr><td>
 
@@ -72,6 +72,8 @@ If the Strategic Planning application is active, the EAP Epic, EAP Feature, and 
 If the Essential SAFe or Portfolio SAFe features are active, the SAFe Story, SAFe Feature, and SAFe Epic options are available.
 
 The No Conversion option enables you to use your demand to fund a large project that includes one or more projects, epic, or programs.
+
+A story represents a smaller strategic change that a product manager has scoped narrowly enough that it doesn't need further decomposition into an epic with child stories.
 
 The selections in the **Category** and **Type** field also determine the fields that are displayed in the Assessment Data section.
 

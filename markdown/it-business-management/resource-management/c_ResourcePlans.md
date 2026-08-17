@@ -138,7 +138,7 @@ You can request a resource plan using one of the following options:
 
     The number of working days is calculated based on the users schedule for a user resource or the default schedule for group resources. The default schedule is taken from the Default Schedule Name property.
 
-    For example, say that the average daily FTE for a group is 40 hours, the resource plan period is from September 1 to September 10, and the FTE is 0.5.
+    For example, say that the average daily FTE for a group is 40 hours. The resource plan period is from September 1 to September 10, and the FTE is 0.5.
 
     Assuming 8 working days during the plan period, planned hours = `40 * 8 * 0.5` =160 hours.
 
@@ -178,7 +178,7 @@ Request a change to the resource plan to modify a resource plan after you’ve s
 -   **[Recalculate costs of a resource plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/recalculate-resource-costs.md)**  
 Recalculate the resource costs of an individual resource plan for a project or demand whenever the hourly rates change in the associated rate model.
 -   **[Update cost plan related to a resource plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/t_UpdateRelatedCostPlan.md)**  
-If a resource plan is associated to a project, project task, or demand and has a related cost plan, then a requester or a resource manager can update the related cost plan after updating the resource plan.
+If a resource plan is associated to a project, project task, or demand and has a related cost plan. Then, a requester or a resource manager can update the related cost plan after updating the resource plan.
 -   **[Complete a resource plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/t_CloseAResourcePlan.md)**  
 After all associated tasks and projects are complete or canceled, a resource manager can move the resource plan to the **Complete** state, which closes it.
 -   **[Cancel a resource plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/t_CancelAResourcePlan.md)**  
@@ -196,7 +196,7 @@ Reduce the duration of an allocated or confirmed resource plan and deallocate re
 -   **[Time zones in resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/c_TimeZonesInResourcePlans.md)**  
 Time zones are important in resource management when the users and groups doing the resource tasks are located in different locations.
 -   **[Associate a time card with a resource plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/t_AssocATimeCardWithAResourcePlan.md)**  
-If one resource is allocated to identically named tasks in two resource plans, use the following procedure to specify the resource plan the time card should be allocated to.
+If one resource is allocated to identically named tasks in two resource plans. Use the following procedure to specify the resource plan the time card should be allocated to.
 
 **Parent Topic:**[Resource Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/c_ResourceManagement.md)
 

@@ -18,7 +18,7 @@ Now Assist in Knowledge Management enhances the agent experience by using artifi
 
 ## Generating knowledge articles
 
-You can generate knowledge articles in Now Assist for Customer Service Management \(CSM\), Now Assist for IT Service Management \(ITSM\), Now Assist for HR Service Delivery \(HRSD\), and Now Assist for Field Service Management \(FSM\). For more information, review the following.
+You can generate knowledge articles in ServiceNow Otto for Customer Service Management \(CSM\), ServiceNow Otto for IT Service Management \(ITSM\), ServiceNow Otto for HR Service Delivery \(HRSD\), and ServiceNow Otto for Field Service Management \(FSM\). For more information, review the following.
 
 -   [Generate a knowledge article from the CSM Configurable Workspace and classic environment with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/Now-Assist-generate-article-csm-workspace.md).
 -   [Generate a knowledge article from the Service Operations Workspace for ITSM and classic environment by using Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/Now-Assist-generate-article-SOW-itsm.md).

@@ -1,6 +1,6 @@
 ---
-title: Customize a case summarization skill in Now Assist for Customer Service Management \(CSM\)
-description: If you have the admin role, you can customize a Now Assist for Customer Service Management \(CSM\) skill so that agents can use the generative AI skills in CSM Configurable Workspace and in Core UI.
+title: Customize a case summarization skill in ServiceNow Otto for Customer Service Management \(CSM\)
+description: If you have the admin role, you can customize a ServiceNow Otto for Customer Service Management \(CSM\) skill so that agents can use the generative AI skills in CSM Configurable Workspace and in Core UI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/now-assist-for-csm/customize-a-now-assist-for-csm-skill.html
 release: yokohama
@@ -9,12 +9,12 @@ classification: now-assist-for-csm
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 7
-breadcrumb: [Configure, Now Assist for Customer Service Management \(CSM\), Customer Service Management]
+breadcrumb: [Configure, ServiceNow Otto for Customer Service Management \(CSM\), Customer Service Management]
 ---
 
-# Customize a case summarization skill in Now Assist for Customer Service Management \(CSM\)
+# Customize a case summarization skill in ServiceNow Otto for Customer Service Management \(CSM\)
 
-If you have the admin role, you can customize a Now Assist for Customer Service Management \(CSM\) skill so that agents can use the generative AI skills in CSM Configurable Workspace and in Core UI.
+If you have the admin role, you can customize a ServiceNow Otto for Customer Service Management \(CSM\) skill so that agents can use the generative AI skills in CSM Configurable Workspace and in Core UI.
 
 ## Before you begin
 
@@ -22,15 +22,15 @@ Role required: admin
 
 ## About this task
 
-From the Now Assist Admin console, you can select the input table, related records, and fields for each input template of the case summarization skill, and then configure the prompt headers to include them in the general summary.
+From the AI Admin Hub console, you can select the input table, related records, and fields for each input template of the case summarization skill, and then configure the prompt headers to include them in the general summary.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Features** to access the **Now Assist Features** tab of the Now Assist Admin console.
+1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Features** to access the **Now Assist Features** tab of the AI Admin Hub console.
 
-2.  In the **Customer** workflow group, view the skills for the Now Assist for CSM features.
+2.  In the **Customer** workflow group, view the skills for the ServiceNow Otto for CSM features.
 
-3.  Activate and copy the Now Assist for CSM feature case summarization skill for customization.
+3.  Activate and copy the ServiceNow Otto for CSM feature case summarization skill for customization.
 
     1.  On the feature card that is associated with the skill that you would like to activate, select **View details**.
 

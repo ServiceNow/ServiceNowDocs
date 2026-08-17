@@ -27,7 +27,7 @@ WSD provides digital entities and automation tools to enhance and streamline wor
 
 \[Omitted image "wsd-landing-page-many-products.png"\] Alt text: Workplace Service Delivery application.
 
-## Intelligent routing of workplace requests with Now Assist for WSD
+## Intelligent routing of workplace requests with ServiceNow Otto for WSD
 
 With WSD you can optimize workplace operations with smart building integrations. Workplace Service Delivery AI agents can assist and act autonomously to resolve issues and make decisions. AI agents can autonomously block a meeting room in case of an emergency maintenance request and move your existing meetings from the blocked location to a new one by interacting with your environment. AI agents use Out-of-the-box ServiceNow AI Platform® capabilities. Enhance employee self-service requests with Generative AI for improving workplace productivity, enhanced employee experience, and reduced case deflections.
 

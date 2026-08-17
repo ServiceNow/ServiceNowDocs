@@ -7,7 +7,7 @@ release: yokohama
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [ITOM/OT SU Licensing Reference, ITOM/OT SU Licensing and subscriptions, IT Operations Management]
+breadcrumb: [Reference, ITOM/OT SU Licensing and subscriptions, IT Operations Management]
 ---
 
 # ITOM/OT SU Licensing dashboard
@@ -57,7 +57,7 @@ Description
 </th></tr></thead><tbody><tr><td>
 
 -   ITOM Visibility
--   ITOM AIOps
+-   ITOM Health
 -   Health Log Analytics
 -   ITOM Cloud Accelerate
 -   ITOM Discovery

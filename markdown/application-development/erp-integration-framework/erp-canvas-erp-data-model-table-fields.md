@@ -1,6 +1,6 @@
 ---
-title: Zero Copy Connector for ERP ERP model table field descriptions
-description: The Entity fields tab for an ERP \(Enterprise Resource Planning\) model in Zero Copy Connector for ERP displays the table fields that are included in the ERP model.
+title: ERP Canvas ERP model table field descriptions
+description: The Entity fields tab for an ERP \(Enterprise Resource Planning\) model in ERP Canvas displays the table fields that are included in the ERP model.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-integration-framework/erp-canvas-erp-data-model-table-fields.html
 release: yokohama
@@ -9,16 +9,16 @@ classification: erp-integration-framework
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Zero Copy Connector for ERP field descriptions, Zero Copy Connector for ERP reference, Zero Copy Connector for ERP, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [ERP Canvas field descriptions, ERP Canvas reference, ERP Canvas, Building low-code applications, Developing your application, Building applications]
 ---
 
-# Zero Copy Connector for ERP ERP model table field descriptions
+# ERP Canvas ERP model table field descriptions
 
-The **Entity fields** tab for an ERP \(Enterprise Resource Planning\) model in Zero Copy Connector for ERP displays the table fields that are included in the ERP model.
+The **Entity fields** tab for an ERP \(Enterprise Resource Planning\) model in ERP Canvas displays the table fields that are included in the ERP model.
 
-For process details, see [Add a read, update, or create entity to a model in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erpc-add-entity-to-model-op.md).
+For process details, see [Add a read, update, or create entity to a model in ERP Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erpc-add-entity-to-model-op.md).
 
-Zero Copy Connector for ERP automatically scans the linked ERP system to retrieve the latest entity data. However, you can select the refresh icon to update the data on demand.
+ERP Canvas automatically scans the linked ERP system to retrieve the latest entity data. However, you can select the refresh icon to update the data on demand.
 
 <table id="table_m1n_l3v_2yb"><thead><tr><th>
 
@@ -89,5 +89,5 @@ Updated
 Date and time the field was most recently saved.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Zero Copy Connector for ERP field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-field-descriptions.md)
+</table>**Parent Topic:**[ERP Canvas field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-field-descriptions.md)
 

@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2025-04-27"
 reading_time_minutes: 1
 keywords: [AI Agents, agentic AI]
-breadcrumb: [Configuring Now Assist for ITOM, Now Assist for ITOM, IT Operations Management]
+breadcrumb: [Configuring ServiceNow Otto for ITOM, ServiceNow Otto for ITOM, IT Operations Management]
 ---
 
 # Activate Now Assist AI agents for IT Operations Management \(ITOM\)
@@ -19,7 +19,7 @@ Activate Now Assist AI agents associated with the Triage and analyze alerts agen
 
 ## Before you begin
 
-Before activating the Now Assist AI agents, you must install the Now Assist for IT Operations Management \(ITOM\) plugin. For more information, see [Install the Now Assist for IT Operations Management \(ITOM\) plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/install-now-assist-itom.md).
+Before activating the Now Assist AI agents, you must install the ServiceNow Otto for IT Operations Management \(ITOM\) plugin. For more information, see [Install the Now Assist for IT Operations Management \(ITOM\) plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/install-now-assist-itom.md).
 
 To get started with AI agents, you must have:
 
@@ -60,5 +60,5 @@ Role required: admin
 
 To access AI agents in the Now Assist panel, you must enable the panel. For more information, see [Activate Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
-**Parent Topic:**[Configuring Now Assist for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-configure.md)
+**Parent Topic:**[Configuring ServiceNow Otto for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-configure.md)
 

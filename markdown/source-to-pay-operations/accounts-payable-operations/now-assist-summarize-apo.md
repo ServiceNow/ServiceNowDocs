@@ -1,6 +1,6 @@
 ---
-title: Summarize a record by using Now Assist for Accounts Payable Operations \(APO\)
-description: Summarize invoice and inquiry cases to learn about their status, progress, and action items by using the record summarization skill in the Now Assist for Accounts Payable Operations \(APO\) application.
+title: Summarize a record by using ServiceNow Otto for Accounts Payable Operations \(APO\)
+description: Summarize invoice and inquiry cases to learn about their status, progress, and action items by using the record summarization skill in the ServiceNow Otto for Accounts Payable Operations \(APO\) application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/accounts-payable-operations/now-assist-summarize-apo.html
 release: yokohama
@@ -9,12 +9,12 @@ classification: accounts-payable-operations
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 3
-breadcrumb: [Using Now Assist for Accounts Payable Operations \(APO\), Now Assist for Accounts Payable Operations \(APO\), Accounts Payable Operations, Finance and Supply Chain]
+breadcrumb: [Using ServiceNow Otto for Accounts Payable Operations \(APO\), ServiceNow Otto for Accounts Payable Operations \(APO\), Accounts Payable Operations, Finance and Supply Chain]
 ---
 
-# Summarize a record by using Now Assist for Accounts Payable Operations \(APO\)
+# Summarize a record by using ServiceNow Otto for Accounts Payable Operations \(APO\)
 
-Summarize invoice and inquiry cases to learn about their status, progress, and action items by using the record summarization skill in the Now Assist for Accounts Payable Operations \(APO\) application.
+Summarize invoice and inquiry cases to learn about their status, progress, and action items by using the record summarization skill in the ServiceNow Otto for Accounts Payable Operations \(APO\) application.
 
 ## Before you begin
 
@@ -35,15 +35,15 @@ You can use these record summarization skills in either Core UI or Source-to-Pay
 
 3.  Generate a summary for either an invoice case record or an inquiry case record.
 
-<table id="choicetable_x5b_1vk_pdc"><thead><tr><th align="left" id="d77271e108">
+<table id="choicetable_x5b_1vk_pdc"><thead><tr><th align="left" id="d77172e108">
 
 Option
 
-</th><th align="left" id="d77271e111">
+</th><th align="left" id="d77172e111">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d77271e117">
+</th></tr></thead><tbody><tr><td id="d77172e117">
 
 **Generate a summary for the invoice case record.**
 
@@ -54,7 +54,7 @@ Procedure
 3.  Open an invoice record and select **Cases**.
 
 
-</td></tr><tr><td id="d77271e155">
+</td></tr><tr><td id="d77172e155">
 
 **Generate a summary for the inquiry case record.**
 
@@ -85,15 +85,15 @@ Procedure
     -   **Next steps**: Lists the actions that the AP fulfillers must take next.
 6.  When you finish summarizing a record, you can add it to the work notes, expand or collapse it, provide feedback, copy it, or view information about it.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d77271e264">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d77172e264">
 
 Option
 
-</th><th align="left" id="d77271e267">
+</th><th align="left" id="d77172e267">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d77271e273">
+</th></tr></thead><tbody><tr><td id="d77172e273">
 
 **Save the summary information by adding it to the recorded work notes**
 
@@ -104,7 +104,7 @@ Procedure
 3.  Select **Save to work notes**.\[Omitted image "sharetoworknotes-apo.png"\] Alt text: Save to work notes dialog box.
 
 
-</td></tr><tr><td id="d77271e305">
+</td></tr><tr><td id="d77172e305">
 
 **Expand or collapse the summary**
 
@@ -112,7 +112,7 @@ Procedure
 
 Select the expanded card icon \(\[Omitted image "icon-expand.png"\] Alt text: Expand card icon.\) or the collapse card icon \(\[Omitted image "icon-collapse.png"\] Alt text: Collapse card icon.\) to see more details or fewer summary details.
 
-</td></tr><tr><td id="d77271e326">
+</td></tr><tr><td id="d77172e326">
 
 **Provide feedback for the summary**
 
@@ -120,7 +120,7 @@ Select the expanded card icon \(\[Omitted image "icon-expand.png"\] Alt text: Ex
 
 If you think that the summary was helpful, select the helpful icon \(\[Omitted image "icon-helpful.png"\] Alt text: Helpful icon.\). If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).This feedback improves the generative AI model and can help to improve the future versions of this skill.
 
-</td></tr><tr><td id="d77271e349">
+</td></tr><tr><td id="d77172e349">
 
 **Copy the record summary**
 
@@ -128,7 +128,7 @@ If you think that the summary was helpful, select the helpful icon \(\[Omitted i
 
 Select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text: Copy to clipboard icon.\) to use the record summary information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d77271e365">
+</td></tr><tr><td id="d77172e365">
 
 **View the information about the record summary**
 
@@ -138,12 +138,12 @@ If you want to check some details about the summary, select the more info icon \
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using Now Assist for Accounts Payable Operations \(APO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/accounts-payable-operations/using-now-assist-apo.md)
+**Parent Topic:**[Using ServiceNow Otto for Accounts Payable Operations \(APO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/accounts-payable-operations/using-now-assist-apo.md)
 
 **Related topics**  
 
 
-[Use Now Assist for Accounts Payable Operations \(APO\) in a Virtual Agent chat]()
+[Use ServiceNow Otto for Accounts Payable Operations \(APO\) in a Virtual Agent chat]()
 
 [Use Invoice inquiry solution generator skill]()
 

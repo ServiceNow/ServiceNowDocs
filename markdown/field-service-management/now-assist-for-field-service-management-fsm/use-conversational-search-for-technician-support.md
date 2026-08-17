@@ -9,7 +9,7 @@ classification: now-assist-for-field-service-management-fsm
 topic_type: task
 last_updated: "2025-04-16"
 reading_time_minutes: 1
-breadcrumb: [Using Now Assist for Field Service Management \(FSM\), Now Assist for Field Service Management \(FSM\)]
+breadcrumb: [Using ServiceNow Otto for Field Service Management \(FSM\), ServiceNow Otto for Field Service Management \(FSM\)]
 ---
 
 # Use conversational search for technician support
@@ -47,5 +47,5 @@ You can use natural language processing to pose questions in your own words and 
 7.  Tap the plus icon to begin a new conversation.
 
 
-**Parent Topic:**[Using Now Assist for Field Service Management \(FSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/now-assist-for-field-service-management-fsm/using-now-assist-fsm.md)
+**Parent Topic:**[Using ServiceNow Otto for Field Service Management \(FSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/now-assist-for-field-service-management-fsm/using-now-assist-fsm.md)
 

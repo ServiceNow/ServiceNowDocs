@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management
 release: yokohama
 topic_type: concept
 last_updated: "2025-01-30"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Strategic Portfolio Management]
 ---
 
@@ -20,7 +20,7 @@ Access the business planning entities, goals, business units, enterprise strateg
 
 ## Business planning portal for the business planner
 
-As a business planner, you can do various tasks from the business planning portal such as view, create, and update the business entities to achieve business goals. In addition, the Business Planner can . .
+As a business planner, you can do various tasks from the business planning portal such as view, create, and update the business entities to achieve business goals. In addition, the Business Planner can . [Use capability map for planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-portfolio-management/view-capability-based-planning.md).
 
 **Note:** The role of a business planner involves only planning and managing the entities to achieve the business goal. It doesn't deal with the business applications or technologies that support the business.
 
@@ -30,7 +30,7 @@ The business planning portal helps the business planner to view and create goals
 
 -   **Number of capabilities**
 
-    Displays the number of capabilities that have been created. Click to view the list of capabilities defined for the business enterprise.  if the existing capabilities don't conform to your business plan.
+    Displays the number of capabilities that have been created. Click to view the list of capabilities defined for the business enterprise. [Create and relate a business capability to an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-portfolio-management/create-a-business-capability.md) if the existing capabilities don't conform to your business plan.
 
     If you have installed Enterprise Architecture \(formerly APM\), then the **Map** link is available. Click **Map** to launch the capability map.
 
@@ -46,7 +46,7 @@ The business planning portal helps the business planner to view and create goals
 
 -   **No. of goals**
 
-    View the number of goals created to achieve a business plan. You can relate goals to many enterprise and business unit strategies. Similarly, more than one enterprise and business unit strategies can be related to more than one goal. Click a goal from the list to update its status and assign a task to it. You can also create a goal for an application strategy.
+    View the number of goals created to achieve a business plan. You can relate goals to many enterprise and business unit strategies. Similarly, more than one enterprise and business unit strategies can be related to more than one goal. Click a goal from the list to update its status and assign a task to it. You can also [create a goal for an application strategy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-portfolio-management/create-a-goal.md).
 
 -   **Recent Activity**
 

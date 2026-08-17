@@ -9,7 +9,7 @@ classification: cloud-configuration-governance
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Create a Terraform Enterprise or Terraform Cloud config provider, Configuring Cloud Services Catalog Terraform Connector, Cloud Services Catalog Terraform Connector, Support for continuous delivery \(configuration management\), Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Optimization, IT Operations Management]
+breadcrumb: [Create a Terraform Enterprise or Terraform Cloud config provider, Configuring Cloud Provisioning and Governance: Terraform Connector, Cloud Provisioning and Governance: Terraform Connector, Support for continuous delivery \(configuration management\), Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Optimization, IT Operations Management]
 ---
 
 # Create API key credentials for the Terraform account and the supported VCS account
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-An API key credential is a secured record in the ServiceNow AI Platform that stores an API key such as Terraform Enterprise, Terraform Cloud, or VCS account API key. Cloud Services Catalog Terraform Connector uses the API key credential to connect with the account and discover its resources.
+An API key credential is a secured record in the ServiceNow AI Platform that stores an API key such as Terraform Enterprise, Terraform Cloud, or VCS account API key. Cloud Provisioning and Governance: Terraform Connector uses the API key credential to connect with the account and discover its resources.
 
 ## Procedure
 
@@ -38,7 +38,7 @@ An API key credential is a secured record in the ServiceNow AI Platform that sto
 
 5.  On the form, fill in the fields.
 
-    For description of the form fields, see [Cloud Services Catalog Terraform Connector API Key Credentials form reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/cpg-terraform-connector-api-key-credentials-form-reference.md).
+    For description of the form fields, see [Cloud Provisioning and Governance: Terraform Connector API Key Credentials form reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/cpg-terraform-connector-api-key-credentials-form-reference.md).
 
 6.  Select **Submit**.
 

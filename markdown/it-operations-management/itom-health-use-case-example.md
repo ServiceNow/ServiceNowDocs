@@ -1,5 +1,5 @@
 ---
-title: ITOM AIOps use case
+title: ITOM Health use case
 description: Modern organizations are turning to artificial intelligence \(AI\) technologies within IT operations \(AIOps\) to tackle the escalating volumes and diversity of data. AIOps platforms offer solutions for analyzing data, automating processes, and predicting issues preemptively, addressing the growing complexity of IT environments.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/itom-health-use-case-example.html
@@ -7,14 +7,14 @@ release: yokohama
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [ITOM AIOps, IT Operations Management]
+breadcrumb: [ITOM Health, IT Operations Management]
 ---
 
-# ITOM AIOps use case
+# ITOM Health use case
 
 Modern organizations are turning to artificial intelligence \(AI\) technologies within IT operations \(AIOps\) to tackle the escalating volumes and diversity of data. AIOps platforms offer solutions for analyzing data, automating processes, and predicting issues preemptively, addressing the growing complexity of IT environments.
 
-Key features of the ITOM AIOps use case include:
+Key features of the ITOM Health use case include:
 
 -   Ingesting events and metrics through base-system integrations with chosen monitoring systems.
 -   Processing events and metrics to create alerts.
@@ -26,9 +26,9 @@ Key features of the ITOM AIOps use case include:
 
 Application service maps are instrumental for Network Operations Center \(NOC\) operators located at central hubs as they facilitate precise prediction of root cause alerts and correlation of these alerts with discovered topology data. This correlation enables accurate prediction of service impact, allowing for effective impact analysis to determine the effect on application services, visualized within the application service map.
 
-## Products that add value to ITOM AIOps
+## Products that add value to ITOM Health
 
-In the context of ITOM AIOps, which focuses on maintaining the health and performance of IT systems and infrastructure, there are several ServiceNow products that can add significant value:
+In the context of ITOM Health, which focuses on maintaining the health and performance of IT systems and infrastructure, there are several ServiceNow products that can add significant value:
 
 -   **Discovery**
 
@@ -40,10 +40,10 @@ In the context of ITOM AIOps, which focuses on maintaining the health and perfor
 
 -   **Service Portfolio Management**
 
-    Service Portfolio Management \(SPM\) offers the associated product model, while Software Asset Management \(SAM\) and Hardware Asset Management \(HAM\) provide life-cycle data for Technology Portfolio Management \(TPM\). Together, they enable comprehensive management of IT assets, ensuring effective utilization, compliance, and optimization throughout their life cycles.
+    Service Portfolio Management \(SPM\) offers the associated product model, while Software Asset Management \(SAM\) and Hardware Asset Management \(HAM\) provide life-cycle data for Technology Lifecycle Management \(TLM\). Together, they enable comprehensive management of IT assets, ensuring effective utilization, compliance, and optimization throughout their life cycles.
 
 
-## Products that benefit from ITOM AIOps
+## Products that benefit from ITOM Health
 
 -   **Incident Management**
 
@@ -51,6 +51,6 @@ In the context of ITOM AIOps, which focuses on maintaining the health and perfor
 
 -   **Customer Service Management \(CSM\)**
 
-    Customer Service Management \(CSM\) systems benefit from ITOM AIOps by utilizing application service impact data to identify affected users promptly, enhancing customer support efficiency and satisfaction.
+    Customer Service Management \(CSM\) systems benefit from ITOM Health by utilizing application service impact data to identify affected users promptly, enhancing customer support efficiency and satisfaction.
 
 

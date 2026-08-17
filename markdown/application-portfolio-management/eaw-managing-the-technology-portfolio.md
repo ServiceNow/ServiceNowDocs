@@ -43,9 +43,9 @@ You can also assign an owner to a TRM category, to ensure clear accountability a
 
 Each product in the TRM library is associated with a set of life-cycle phases with a start and end date. The life-cycle phases could be approved, unapproved, approved with constraints, Divest, and evaluation.
 
-The TPM home page fetches all the business applications that are being used in your organization. It helps to review the status of the software that is being used. You can understand if any business application is using the software that is not part of the TRM or a software version that is not approved for production. For more information, see [TRM lifecycle timelines on Gantt chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-trm-lifecycle-timelines-on-gantt-chart.md).
+The TLM home page fetches all the business applications that are being used in your organization. It helps to review the status of the software that is being used. You can understand if any business application is using the software that is not part of the TRM or a software version that is not approved for production. For more information, see [TRM lifecycle timelines on Gantt chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-trm-lifecycle-timelines-on-gantt-chart.md).
 
-The TRM module uses a similar module to TPM to search in the TRM library. You can view the software that is part of the TRM library, and initiate a request to add the software or software version to the TRM library.
+The TRM module uses a similar module to TLM to search in the TRM library. You can view the software that is part of the TRM library, and initiate a request to add the software or software version to the TRM library.
 
 You can also use the TRM with the Software Asset Management \(SAM\) plugin. This plugin helps you to fetch or select the products and versions for the TRM library. You can also define your own software products when the Software Asset Management integration module isn’t available for your instance.
 
@@ -74,7 +74,7 @@ You can remove the product capabilities associated with Technology Reference Mod
 -   **[Export Technology Reference Model product category data to Excel or CSV](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-export-trm-prod-cat-data.md)**  
 Export the Technology Reference Model \(TRM\) list view data to Microsoft Excel or CSV so that you can use the data to share with stakeholders and prepare for analysis.
 -   **[Run a job to sync TRM product names in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-schedule-job-sync-trm-product-names.md)**  
-Run a scheduled job to sync the names of Technology Reference Model \(TRM\) products with the names of their linked Software Asset Management \(SAM\) software products.
+Run a scheduled job to sync the names of Technology Reference Model \(TRM\) products with the names of their linked Software Asset Management \(ServiceNow Otto for SAM\) software products.
 -   **[Working with TRM lifecycle with wildcard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-trm-wildcard-to-create-technical-debts.md)**  
 You can use Technology Reference Model \(TRM\) lifecycles with wildcards to update multiple TRM software product lifecycles simultaneously without having to specify the exact minor version details of individual TRM software products.
 -   **[Manage TRM technical debt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-manage-trm-technical-debt.md)**  

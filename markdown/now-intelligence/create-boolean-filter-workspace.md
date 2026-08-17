@@ -32,7 +32,7 @@ The filter applies to all elements on the same dashboard or the same dashboard t
 
 2.  Set custom display labels in place of 'True' and 'False,' such as 'Yes' and 'No.'
 
-3.  In **Data to filter**, specify a table field, indicator breakdown, or Usage Insights property to filter.
+3.  In **Data to filter**, specify a table field, indicator breakdown, or User Experience Analytics property to filter.
 
     You can add any number of targets to the filter. Select either a table and field or all indicators with a particular breakdown. If you select a table, you can also select to apply the filter to the hierarchy of related tables: Parents, children, siblings, and any [database views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/performance-analytics-glossary.md) that contain the table.
 

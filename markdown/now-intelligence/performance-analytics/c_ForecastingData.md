@@ -89,7 +89,7 @@ The highest meaningful value of a forecast score. If a score higher than this va
 </td></tr></tbody>
 </table>5.  Select which scores to base the forecast on.
 
-<table id="choicetable_jhq_bkr_5xb"><tbody><tr><td id="d201536e306">
+<table id="choicetable_jhq_bkr_5xb"><tbody><tr><td id="d204952e306">
 
 **All scores**
 
@@ -97,7 +97,7 @@ The highest meaningful value of a forecast score. If a score higher than this va
 
 All the scores that have been collected for this indicator
 
-</td></tr><tr><td id="d201536e315">
+</td></tr><tr><td id="d204952e315">
 
 **Previous periods**
 
@@ -105,7 +105,7 @@ All the scores that have been collected for this indicator
 
 The number of data periods before the present to base forecasts on. These data periods are the same length as the ones in **Periods to forecast**.If you select Previous periods, also specify the number of periods in the **Periods** field.
 
-</td></tr><tr><td id="d201536e332">
+</td></tr><tr><td id="d204952e332">
 
 **Fixed start**
 
@@ -161,7 +161,7 @@ As Seasonal, but includes a trend as an explanatory variable.
 
 </td></tr><tr><td>
 
-Seasonal Trend Loess \(STL\)
+Seasonal Trend Loss \(STL\)
 
 </td><td>
 

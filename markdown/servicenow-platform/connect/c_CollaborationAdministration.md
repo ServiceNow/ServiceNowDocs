@@ -64,15 +64,15 @@ To create record conversations, users must have access to the **Follow** button 
 
 2.  Perform the appropriate action for the list version.
 
-<table id="choicetable_g3c_qhc_mv"><thead><tr><th align="left" id="d552776e273">
+<table id="choicetable_g3c_qhc_mv"><thead><tr><th align="left" id="d553193e273">
 
 Version
 
-</th><th align="left" id="d552776e276">
+</th><th align="left" id="d553193e276">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d552776e282">
+</th></tr></thead><tbody><tr><td id="d553193e282">
 
 **List v3**
 
@@ -82,7 +82,7 @@ Action
 2.  In the Configure window, click **Dictionary**.
 
 
-</td></tr><tr><td id="d552776e306">
+</td></tr><tr><td id="d553193e306">
 
 **List v2**
 

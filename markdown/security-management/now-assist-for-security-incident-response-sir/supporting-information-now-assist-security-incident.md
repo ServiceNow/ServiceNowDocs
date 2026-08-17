@@ -1,6 +1,6 @@
 ---
-title: Supporting information for Now Assist for Security Incident Response
-description: Get a quick overview of the important information that is related to the Now Assist for Security Incident Response application.
+title: Supporting information for ServiceNow Otto for Security Incident Response \(SIR\)
+description: Get a quick overview of the important information that is related to the ServiceNow Otto for Security Incident Response \(SIR\) application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/now-assist-for-security-incident-response-sir/supporting-information-now-assist-security-incident.html
 release: yokohama
@@ -10,16 +10,16 @@ topic_type: concept
 last_updated: "2026-01-15"
 reading_time_minutes: 1
 keywords: [Now Assist Security Operations]
-breadcrumb: [Explore, Now Assist for Security Incident Response, Security Operations]
+breadcrumb: [Explore, ServiceNow Otto for Security Incident Response \(SIR\), Security Operations]
 ---
 
-# Supporting information for Now Assist for Security Incident Response
+# Supporting information for ServiceNow Otto for Security Incident Response \(SIR\)
 
-Get a quick overview of the important information that is related to the Now Assist for Security Incident Response application.
+Get a quick overview of the important information that is related to the ServiceNow Otto for Security Incident Response \(SIR\) application.
 
 ## Supported versions
 
-Version 3.0 of Now Assist for Security Incident Response supports:
+Version 3.0 of ServiceNow Otto for Security Incident Response \(SIR\) supports:
 
 -   Security Operations UI Components, v1.0.1
 -   Recommended Actions for Security Operations, v1.0.1
@@ -29,7 +29,7 @@ Version 3.0 of Now Assist for Security Incident Response supports:
 
 ## Supported user interfaces
 
-The Now Assist for Security Incident Response includes the generative AI skills listed in the following table.
+The ServiceNow Otto for Security Incident Response \(SIR\) includes the generative AI skills listed in the following table.
 
 <table id="table_ugm_mqv_zbc"><thead><tr><th>
 

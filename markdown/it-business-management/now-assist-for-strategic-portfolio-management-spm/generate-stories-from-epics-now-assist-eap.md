@@ -1,5 +1,5 @@
 ---
-title: Generate stories for work items in EAP using Now Assist for SPM
+title: Generate stories for work items in EAP using ServiceNow Otto for SPM
 description: Breakdown epics and features into stories using the Now Assist panel in the Enterprise Agile Planning \(EAP\) workspace. Based on the work item details, Now Assist generates stories.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/generate-stories-from-epics-now-assist-eap.html
@@ -9,16 +9,16 @@ classification: now-assist-for-strategic-portfolio-management-spm
 topic_type: task
 last_updated: "2025-08-26"
 reading_time_minutes: 2
-breadcrumb: [Using Now Assist for Strategic Portfolio Management \(SPM\), Now Assist for Strategic Portfolio Management \(SPM\), Strategic Portfolio Management]
+breadcrumb: [Using ServiceNow Otto for Strategic Portfolio Management, ServiceNow Otto for Strategic Portfolio Management, Strategic Portfolio Management]
 ---
 
-# Generate stories for work items in EAP using Now Assist for SPM
+# Generate stories for work items in EAP using ServiceNow Otto for SPM
 
 Breakdown epics and features into stories using the Now Assist panel in the Enterprise Agile Planning \(EAP\) workspace. Based on the work item details, Now Assist generates stories.
 
 ## Before you begin
 
-Activate the Agile story generation skill for Enterprise Agile Planning. See [Configure Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/configure-now-assist-for-spm.md).
+Activate the Agile story generation skill for Enterprise Agile Planning. See [Configure ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/configure-now-assist-for-spm.md).
 
 Role required: sn\_apw\_advanced.eap\_user or sn\_apw\_advanced.eap\_read\_only, with now\_assist\_panel\_user
 
@@ -50,7 +50,7 @@ If you have custom roles that require access to this skill, update the ACLs for 
 
     \[Omitted image "eap-na-stories-work-item-number.png"\] Alt text: Now Assist asking for epic or feature number before generating stories.
 
-    The number of initial story recommendations that you see depend on the input data settings for this skill. You can work with your admin to modify this number. For more information, see [Skill inputs for Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/skill-inputs-for-now-assist-for-spm.md).
+    The number of initial story recommendations that you see depend on the input data settings for this skill. You can work with your admin to modify this number. For more information, see [Skill inputs for ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/skill-inputs-for-now-assist-for-spm.md).
 
 7.  Go through the story recommendations and choose to confirm, combine, split, remove any of the stories, or choose **Others** to suggest modifications or create more stories.
 
@@ -61,5 +61,5 @@ If you have custom roles that require access to this skill, update the ACLs for 
     Now Assist creates stories with the confirmed recommendations. The newly created stories are displayed in the Stories tab of the epic and feature details page.
 
 
-**Parent Topic:**[Using Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/using-now-assist-for-spm.md)
+**Parent Topic:**[Using ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/using-now-assist-for-spm.md)
 

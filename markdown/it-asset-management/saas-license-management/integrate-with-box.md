@@ -134,15 +134,15 @@ If you’re using Software Asset Workspace, the option to create the Box integra
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d121522e495">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d121792e495">
 
 Interface
 
-</th><th align="left" id="d121522e498">
+</th><th align="left" id="d121792e498">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d121522e504">
+</th></tr></thead><tbody><tr><td id="d121792e504">
 
 **Core UI**
 
@@ -153,7 +153,7 @@ Action
 3.  Select **Box Integration Profile**.
 
 
-</td></tr><tr><td id="d121522e546">
+</td></tr><tr><td id="d121792e546">
 
 **Software Asset Workspace**
 

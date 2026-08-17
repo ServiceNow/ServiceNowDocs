@@ -1,18 +1,18 @@
 ---
 title: Account onboarding users and roles
-description: An overview of the tasks that can be performed by the different Customer Success Management users and their required roles and user criteria.
+description: An overview of the tasks that can be performed by the different Account Lifecycle Events users and their required roles and user criteria.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/acct-lifecycle-events/account-lifecycle-user-personas.html
 release: yokohama
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Customer Success Management reference, Customer Success Management]
+breadcrumb: [Account Lifecycle Events reference, Account Lifecycle Events]
 ---
 
 # Account onboarding users and roles
 
-An overview of the tasks that can be performed by the different Customer Success Management users and their required roles and user criteria.
+An overview of the tasks that can be performed by the different Account Lifecycle Events users and their required roles and user criteria.
 
 |Users|Description|Roles|
 |-----|-----------|-----|
@@ -23,5 +23,5 @@ An overview of the tasks that can be performed by the different Customer Success
 |ServiceNow admin/developer \(customer\)|Responsible for the managing customer's ServiceNow instance and setting up the Service Exchange application.|sn\_customerservice.customer\_manager|
 |Foundational Data SME \(Subject matter expert\)|Responsible for providing necessary information like contact information, and locations. Ensures that the data meets the format required by the provider organization.|sn\_customerservice.customer|
 
-**Parent Topic:**[Customer Success Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-reference.md)
+**Parent Topic:**[Account Lifecycle Events reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-reference.md)
 

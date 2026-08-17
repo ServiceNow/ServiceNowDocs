@@ -7,7 +7,7 @@ release: yokohama
 topic_type: topic
 last_updated: "2022-08-11"
 reading_time_minutes: 1
-breadcrumb: [Troubleshoot synthetic monitors, Synthetic monitoring reference, Synthetic monitoring, ITOM AIOps, IT Operations Management]
+breadcrumb: [Troubleshoot synthetic monitors, Synthetic monitoring reference, Synthetic monitoring, ITOM Health, IT Operations Management]
 ---
 
 # OAuth issues

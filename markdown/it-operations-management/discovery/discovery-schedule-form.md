@@ -7,7 +7,7 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 10
 breadcrumb: [Discovery reference, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -186,7 +186,7 @@ Quick ranges
 
 </td><td>
 
-Define IP addresses and address ranges to scan by entering IP addresses in multiple formats \(network, range, or list\) in a single, comma-delimited string. For more information, see [Create a Quick IP range for a Discovery schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/discovery-ip-address-configuration.md).
+Define IP addresses and address ranges to scan by entering IP addresses in multiple formats \(network, range, or list\) in a single, comma-delimited string. For more information, see [Create a Quick IP range for a Discovery schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/t_CreateAQuickRange.md).
 
 </td></tr><tr><td>
 

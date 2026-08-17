@@ -24,7 +24,7 @@ Role required: analytics\_admin
 
 1.  Navigate to **All**.
 
-2.  In the navigator, enter `sys_analytics_user_consent_decision.list` to open the Usage Insights User Consent Decisions page.
+2.  In the navigator, enter `sys_analytics_user_consent_decision.list` to open the User Experience Analytics User Consent Decisions page.
 
 3.  Review the data that applies to your users’ tracking selections.
 
@@ -36,8 +36,8 @@ Role required: analytics\_admin
 
     Users who fall under an Explicit Opt In or Notice consent policy receive an annual opt-in or notice message based on the date set in the User Consent Decision record.
 
-    See [How users consent to tracking in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/user-exp-analytics-user-set.md) for information on how users manually update their preference.
+    See [How users consent to tracking in User Experience Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/user-exp-analytics-user-set.md) for information on how users manually update their preference.
 
 
-**Parent Topic:**[Types of tracking consent policies in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/uxa-tracking-types.md)
+**Parent Topic:**[Types of tracking consent policies in User Experience Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/uxa-tracking-types.md)
 

@@ -35,7 +35,7 @@ By default, transactions are flagged for friendly fraud if they:
 
 The dispute agent can decline requests, issue credits, or proceed with chargebacks, along with modifying communication templates for customer interaction.
 
-Dispute agents can also use the Help resolve friendly fraud disputes agentic workflow in Now Assist for FSO to provide suggested actions and draft customer responses.
+Dispute agents can also use the Help resolve friendly fraud disputes agentic workflow in ServiceNow Otto for FSO to provide suggested actions and draft customer responses.
 
 ## Procedure
 
@@ -61,21 +61,21 @@ Dispute agents can also use the Help resolve friendly fraud disputes agentic wor
 
 8.  The transaction details along with the **Evidence** are displayed.
 
-    If the Friendly fraud AI Agent in Now Assist for FSO is enabled and is triggered based on the rules in the agentic workflow, then the AI agent provides a recommendation for the dispute along with a valid reason. The AI agent guides the dispute agent using the Now Assist panel to select the appropriate action and provide the reasons for the selection of options.
+    If the Friendly fraud AI Agent in ServiceNow Otto for FSO is enabled and is triggered based on the rules in the agentic workflow, then the AI agent provides a recommendation for the dispute along with a valid reason. The AI agent guides the dispute agent using the Now Assist panel to select the appropriate action and provide the reasons for the selection of options.
 
-    For more information, see [Using agentic workflows in Now Assist for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/now-assist-for-financial-services-operations-fso/using-ai-agent-use-cases-in-now-assist-for-fso.md).
+    For more information, see [Using agentic workflows in ServiceNow Otto for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/now-assist-for-financial-services-operations-fso/using-ai-agent-use-cases-in-now-assist-for-fso.md).
 
 9.  Select one of the following options.
 
-<table id="choicetable_z24_15n_52c"><thead><tr><th align="left" id="d93081e231">
+<table id="choicetable_z24_15n_52c"><thead><tr><th align="left" id="d92672e231">
 
 Action
 
-</th><th align="left" id="d93081e234">
+</th><th align="left" id="d92672e234">
 
 Result
 
-</th></tr></thead><tbody><tr><td id="d93081e240">
+</th></tr></thead><tbody><tr><td id="d92672e240">
 
 **Decline dispute transaction**
 
@@ -85,7 +85,7 @@ Result
 2.  The next activity **Customer communication** is displayed. See [Customer communication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/resolve-fraud-customer-communication.md).
 
 
-</td></tr><tr><td id="d93081e270">
+</td></tr><tr><td id="d92672e270">
 
 **Issue credit and write-off**
 
@@ -99,7 +99,7 @@ The **Issue credit** activity is displayed.
 3.  Provide the final credit and select **Close task**. The task is marked as **Closed Complete.**
 .
 
-</td></tr><tr><td id="d93081e306">
+</td></tr><tr><td id="d92672e306">
 
 **Proceed with dispute**
 
@@ -114,7 +114,7 @@ The **Report fraud** activity is displayed. Follow the further steps to resolve 
 **Related topics**  
 
 
-[Now Assist for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/now-assist-for-financial-services-operations-fso/now-assist-for-financial-services-operations.md)
+[ServiceNow Otto for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/now-assist-for-financial-services-operations-fso/now-assist-for-financial-services-operations.md)
 
 [Resolve friendly fraud by using agentic AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/now-assist-for-financial-services-operations-fso/resolve-friendly-fraud-using-agentic-ai.md)
 

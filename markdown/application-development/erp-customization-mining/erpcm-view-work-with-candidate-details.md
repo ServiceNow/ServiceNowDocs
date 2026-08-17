@@ -1,6 +1,6 @@
 ---
 title: View and work with candidate details in ERP-CM
-description: View and edit candidate details and recommended actions in ERP Semantic Mining \(ERP-CM\). Analyze ERP \(Enterprise Resource Planning\) system scan results, linked ERP models, usage, and similar candidates.
+description: View and edit candidate details and recommended actions in ERP Customization Mining \(ERP-CM\). Analyze ERP \(Enterprise Resource Planning\) system scan results, linked ERP models, usage, and similar candidates.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-customization-mining/erpcm-view-work-with-candidate-details.html
 release: yokohama
@@ -9,12 +9,12 @@ classification: erp-customization-mining
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 4
-breadcrumb: [Finding and working with candidates to replatform, ERP Semantic Mining \(ERP-CM\), Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Finding and working with candidates to replatform, ERP Customization Mining \(ERP-CM\), Building low-code applications, Developing your application, Building applications]
 ---
 
 # View and work with candidate details in ERP-CM
 
-View and edit candidate details and recommended actions in ERP Semantic Mining \(ERP-CM\). Analyze ERP \(Enterprise Resource Planning\) system scan results, linked ERP models, usage, and similar candidates.
+View and edit candidate details and recommended actions in ERP Customization Mining \(ERP-CM\). Analyze ERP \(Enterprise Resource Planning\) system scan results, linked ERP models, usage, and similar candidates.
 
 ## Before you begin
 
@@ -103,13 +103,13 @@ Additional information about the candidate.
 
     |Field|Description|
     |-----|-----------|
-    |Model type|ERP model relevant to the candidate. This model can be a standard ERP model \(which you work with in Zero Copy Connector for ERP\), a workflow, or a custom business area.|
+    |Model type|ERP model relevant to the candidate. This model can be a standard ERP model \(which you work with in ERP Canvas\), a workflow, or a custom business area.|
     |Relevant for implementation|Whether the ERP model is required for replatforming.|
     |Module|ERP business area for the model on the system of record, such as **Sales**.|
     |Table names|Names of the tables in the ERP model on the ERP system.|
     |Updated|Date and time the list was most recently updated.|
 
-    You can note which ERP models to work with in Zero Copy Connector for ERP.
+    You can note which ERP models to work with in ERP Canvas.
 
 7.  Check the number of system users that use the candidate application by selecting the **Usage** tab.
 
@@ -128,7 +128,7 @@ After you work with the candidate details and identify similar candidates, you c
 
 -   [Check candidate recommendations in ERP-CM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/erpcm-work-with-recommendations.md).
 -   [Save potential candidates to replatform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/erpcm-find-candidates.md).
--   Continue building remote table and extraction tables in the relevant ERP model in Zero Copy Connector for ERP, making the data available on the ServiceNow AI Platform. For more information, see [Using ERP models, extraction tables, and remote tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/work-with-erp-systems-connections-and-remote-tables.md).
+-   Continue building remote table and extraction tables in the relevant ERP model in ERP Canvas, making the data available on the ServiceNow AI Platform. For more information, see [Using ERP models, extraction tables, and remote tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/work-with-erp-systems-connections-and-remote-tables.md).
 
 **Note:**
 

@@ -8,7 +8,7 @@ product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
 last_updated: "2025-01-30"
-reading_time_minutes: 12
+reading_time_minutes: 11
 breadcrumb: [HR Administration, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
@@ -39,8 +39,6 @@ To create a universal response template that is available for all channels, assi
 The response templates feature automatically activates when Case and Knowledge Management activates. See [Activate response templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/activate-templated-snippets.md).
 
 To use response templates in a chat in Agent Workspace for HR Service Delivery, activate: Advanced Work Assignment for HRSD \(com.sn\_hr\_awa\) plugin.
-
-For more information, see [Advanced Work Assignment \(AWA\) for HR Service Delivery Agent Workspace overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/awa-hr-overview.md) and Setting up Workspace Agent Chat.
 
 For more information on setting up chat in Virtual Agent, see [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/virtual-agent-landing-page.md).
 
@@ -423,6 +421,6 @@ Role required: sn\_hr\_core.case\_writer
 
 5.  Once copied, you can paste the content to a field on the form, such as to **Comments**, or into an email that you send to the employee.
 
-    **Note:** For information on using response templates in HR Agent Workspace, see [Use Response templates on an HR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/agent-ws-hr-response-template.md).
+    **Note:** For information on using response templates in HR Agent Workspace, see [Response templates in Agent Workspace for HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-response-template.md).
 
 

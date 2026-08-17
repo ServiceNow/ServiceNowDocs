@@ -1,6 +1,6 @@
 ---
-title: Generate the resolution notes for a service problem case using Now Assist for Telecommunications, Media and Technology \(TMT\)
-description: Generate the resolution notes for a service problem case by using the resolution notes generation skill in the Now Assist for TMT application.
+title: Generate the resolution notes for a service problem case using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
+description: Generate the resolution notes for a service problem case by using the resolution notes generation skill in the ServiceNow Otto for TMT application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-generate-resolution.html
 release: yokohama
@@ -9,12 +9,12 @@ classification: now-assist-for-telecom-media-and-technology
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Using Now Assist for Telecommunications, Media and Technology \(TMT\), Now Assist for Telecommunications, Media and Technology \(TMT\), Telecommunications, Media, and Technology]
+breadcrumb: [Using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\), ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\), Telecommunications, Media, and Technology]
 ---
 
-# Generate the resolution notes for a service problem case using Now Assist for Telecommunications, Media and Technology \(TMT\)
+# Generate the resolution notes for a service problem case using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
 
-Generate the resolution notes for a service problem case by using the resolution notes generation skill in the Now Assist for TMT application.
+Generate the resolution notes for a service problem case by using the resolution notes generation skill in the ServiceNow Otto for TMT application.
 
 ## Before you begin
 
@@ -63,5 +63,5 @@ You can also generate resolution information on demand from the Now Assist panel
 -   The case moves to the Resolved state.
 -   The resolution is proposed to the customer.
 
-**Parent Topic:**[Using Now Assist for Telecommunications, Media and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spm-using.md)
+**Parent Topic:**[Using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spm-using.md)
 

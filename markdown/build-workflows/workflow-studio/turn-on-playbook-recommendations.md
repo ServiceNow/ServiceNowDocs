@@ -19,9 +19,9 @@ Turn on the playbook recommendations skill to get recommendations for the activi
 ## Before you begin
 
 -   Role required: admin
--   Install the Now Assist for Creator application.
+-   Install the ServiceNow Otto for Creator application.
 
-    **Important:** The playbook recommendations skill requires a separate subscription to Now Assist for Creator.
+    **Important:** The playbook recommendations skill requires a separate subscription to ServiceNow Otto for Creator.
 
 
 ## Procedure

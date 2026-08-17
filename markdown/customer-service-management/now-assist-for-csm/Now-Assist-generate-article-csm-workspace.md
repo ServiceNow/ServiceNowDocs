@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 5
 keywords: [generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
-breadcrumb: [Use, Now Assist for Customer Service Management \(CSM\), Customer Service Management]
+breadcrumb: [Use, ServiceNow Otto for Customer Service Management \(CSM\), Customer Service Management]
 ---
 
 # Generate a knowledge article from the CSM Configurable Workspace and classic environment with Now Assist
@@ -31,7 +31,7 @@ Ensure that [Configure knowledge generation](https://raw.githubusercontent.com/S
 Make sure that your administrator enables Now Assist experience on the **Create Article** page to ensure that the following knowledge base generation criteria is configured:
 
 -   The KB generation skill is activated.
--   In the Now Assist Admin console, ensure that the following criteria are in place:
+-   In the AI Admin Hub console, ensure that the following criteria are in place:
     -   Specify the table record and input fields.
     -   Specify the conditions for the skill availability from the list of attributes.
     -   Display the knowledge base generation feature In-product and specify the Now Assist panel.
@@ -65,7 +65,7 @@ The Create Knowledge UI action is available to the customer service agents who h
 
 4.  In the Create article modal, select a knowledge base and an Article template, if displayed.
 
-    **Note:** If no options are displayed, the default template selected by your administrator in the Now Assist Admin console is used.
+    **Note:** If no options are displayed, the default template selected by your administrator in the AI Admin Hub console is used.
 
 5.  Select **Create Article**.
 
@@ -105,7 +105,7 @@ The Create Knowledge UI action is available to the customer service agents who h
     **Note:** Now Assist icon \[Omitted image "icon-ai-sparkle.png"\] is also available for the published KB articles.
 
 
-**Parent Topic:**[Using Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
+**Parent Topic:**[Using ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
 
 **Related topics**  
 

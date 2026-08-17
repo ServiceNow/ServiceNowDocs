@@ -79,7 +79,7 @@ The following widgets are available, showing various metrics:
 
 ## Evaluations
 
-Each conversation is evaluated on eight different metrics. For each of these metrics, there’s a separate skill. You can view these skills in Now Assist Skill Kit under **Custom skills**.
+Each conversation is evaluated on eight different metrics. For each of these metrics, there’s a separate skill. You can view these skills in AI Skill Kit under **Custom skills**.
 
 For more information about each metric, see [Evaluation metrics and calculations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/ai-eval-metrics.md).
 
@@ -100,7 +100,7 @@ The following Now Assist custom skills are used:
 
 The default provider for these skills is Now LLM. You can change the provider to Azure OpenAI, Google Gemini or AWS Claude. Azure OpenAI has been observed to improve results in certain scenarios.
 
-For more information about Now Assist Skill Kit, see [Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-skill-kit/now-assist-skill-kit-landing.md).
+For more information about AI Skill Kit, see [AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-skill-kit/now-assist-skill-kit-landing.md).
 
 **Process of evaluation**
 

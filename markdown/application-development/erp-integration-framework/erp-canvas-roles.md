@@ -1,6 +1,6 @@
 ---
-title: Zero Copy Connector for ERP roles
-description: Administrators assign roles to give team members permission to configure or use Zero Copy Connector for ERP.
+title: ERP Canvas roles
+description: Administrators assign roles to give team members permission to configure or use ERP Canvas.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-integration-framework/erp-canvas-roles.html
 release: yokohama
@@ -9,20 +9,20 @@ classification: erp-integration-framework
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configuring Zero Copy Connector for ERP, Zero Copy Connector for ERP, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Configuring ERP Canvas, ERP Canvas, Building low-code applications, Developing your application, Building applications]
 ---
 
-# Zero Copy Connector for ERP roles
+# ERP Canvas roles
 
-Administrators assign roles to give team members permission to configure or use Zero Copy Connector for ERP.
+Administrators assign roles to give team members permission to configure or use ERP Canvas.
 
-**Important:** When you assign Zero Copy Connector for ERP \(Enterprise Resource Planning\) roles to a user, you must include the scope. For example, assign the `sn_erp_mining.erp_admin` role, not just `erp_admin`.
+**Important:** When you assign ERP Canvas \(Enterprise Resource Planning\) roles to a user, you must include the scope. For example, assign the `sn_erp_mining.erp_admin` role, not just `erp_admin`.
 
 For more on assigning roles, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AssignARoleToAUser.md).
 
 To learn more about managing per-user subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
 
-## Zero Copy Connector for ERP roles
+## ERP Canvas roles
 
 **Note:** All required roles are the same across development and production instances. However, only sn\_erp\_integration.erp\_user is required to read data in a production instance.
 
@@ -105,7 +105,7 @@ Contains sn\_erp\_integration.erp\_data\_pill and all Financial Services Remote 
 </td></tr></tbody>
 </table>## Additional ERP data model roles
 
-If users need access to work with specific ERP data models, such as purchasing or invoices, assign them the following roles and access for Zero Copy Connector for ERP.
+If users need access to work with specific ERP data models, such as purchasing or invoices, assign them the following roles and access for ERP Canvas.
 
 <table id="table_qh1_fwr_bwb"><thead><tr><th>
 
@@ -265,5 +265,5 @@ sap\_vendor\_user
 sn\_erp\_integration\_st\_sap\_vendor
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configuring Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-integration-configuration-overview.md)
+</table>**Parent Topic:**[Configuring ERP Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-integration-configuration-overview.md)
 

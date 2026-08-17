@@ -1,6 +1,6 @@
 ---
 title: Generate a Now Assist summary of past related incidents
-description: View a Now Assist summary of past incidents on the same or related Configuration Items \(CIs\) and strategies used to resolve them.
+description: View a Now Assist summary of past incidents related to the current alert, including strategies used to resolve them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/now-assist-for-it-operations-management/nai-analyze-past-incidents.html
 release: yokohama
@@ -9,18 +9,18 @@ classification: now-assist-for-it-operations-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Accelerate alert resolution with past incident analysis, Using skills in Now Assist for ITOM, Now Assist for ITOM, IT Operations Management]
+breadcrumb: [Accelerate alert resolution with past incident analysis, Using skills in ServiceNow Otto for ITOM, ServiceNow Otto for ITOM, IT Operations Management]
 ---
 
 # Generate a Now Assist summary of past related incidents
 
-View a Now Assist summary of past incidents on the same or related Configuration Items \(CIs\) and strategies used to resolve them.
+View a Now Assist summary of past incidents related to the current alert, including strategies used to resolve them.
 
 ## Before you begin
 
 -   Install the ITOM plugin in the Now Assist feature. For more information, see [Install the Now Assist for IT Operations Management \(ITOM\) plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/install-now-assist-itom.md).
 -   Ensure that the Alert investigation skill is active. For more information, see [Install the Now Assist for IT Operations Management \(ITOM\) plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/install-now-assist-itom.md).
--   View important information about the ServiceNow® Now Assist for IT Operations Management \(ITOM\) application in [Now Assist for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/now-assist-itom.md).
+-   View important information about the ServiceNow® ServiceNow Otto for IT Operations Management \(ITOM\) application in [ServiceNow Otto for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/now-assist-itom.md).
 
 For comprehensive information about the Now Assist panel, see [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-panel-overview.md).
 

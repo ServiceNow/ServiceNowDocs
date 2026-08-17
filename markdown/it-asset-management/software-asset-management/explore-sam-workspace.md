@@ -8,7 +8,7 @@ product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
 last_updated: "2025-01-30"
-reading_time_minutes: 7
+reading_time_minutes: 8
 breadcrumb: [Software Asset Management, IT Asset Management]
 ---
 
@@ -29,6 +29,8 @@ For releases prior to Yokohama, if you activated the older Software Asset Manage
 **Note:** After the Software Asset Workspace is activated, the menus in the classic Software Asset Management application are hidden for the features that have been moved to the Software Asset Workspace.
 
 For detailed information on configuring and using the Software Asset workspace, refer to [Configuring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/Config-sam-workspace.md) and [Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/sam-workspace.md).
+
+To keep your Software Asset Management data accurate and aligned with data quality guidelines, you can use the CMDB success advisor for SAM. For more information, see [Using CMDB success advisor for SAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/cmdb-sa-sam-use.md).
 
 ## Using the classic Software Asset Management application
 

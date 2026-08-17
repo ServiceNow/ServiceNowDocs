@@ -1,5 +1,5 @@
 ---
-title: Generate a Major Incident email content recommendation by using Now Assist for IT Service Management \(ITSM\)
+title: Generate a Major Incident email content recommendation by using ServiceNow Otto for IT Service Management \(ITSM\)
 description: Create a draft version of an email to communicate with stakeholders on a major incident using an email template. You can complete field values in the template using an AI-generated response. Use different GenAI variables in the template types for efficient communication with the requesters.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-mim-email-recommendation.html
@@ -10,16 +10,16 @@ topic_type: task
 last_updated: "2025-03-24"
 reading_time_minutes: 1
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
-breadcrumb: [Use generative AI skills, Now Assist for IT Service Management \(ITSM\), IT Service Management]
+breadcrumb: [Use generative AI skills, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 
-# Generate a Major Incident email content recommendation by using Now Assist for IT Service Management \(ITSM\)
+# Generate a Major Incident email content recommendation by using ServiceNow Otto for IT Service Management \(ITSM\)
 
 Create a draft version of an email to communicate with stakeholders on a major incident using an email template. You can complete field values in the template using an AI-generated response. Use different GenAI variables in the template types for efficient communication with the requesters.
 
 ## Before you begin
 
-**Note:** An admin must activate the Incident Management - Major Incident Management plugin \(com.snc.incident.mim\) installed to enable the Major Incident Management email content recommendation skill. For more information on activating the plugin, see [Activate Incident Management - Major Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/incident-management/activate-major-incident-management-plugin.md).
+**Note:** An admin must activate the Incident Management - Major Incident Management plugin \(com.snc.incident.mim\) installed to enable the Major Incident Management email content recommendation skill. For more information on activating the plugin, see [Activate Major Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/incident-management/activate-major-incident-management-plugin.md).
 
 Role required: major\_incident\_manager
 

@@ -1,6 +1,6 @@
 ---
 title: Create an activity with Now Assist
-description: Create activities from text instructions and preview options by using the Now Assist for RPA Hub application. Activities provide modularity to an automation project in RPA Desktop Design Studio.
+description: Create activities from text instructions and preview options by using the ServiceNow Otto for RPA Hub application. Activities provide modularity to an automation project in RPA Desktop Design Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/rpa-hub/create-activity-now-assist.html
 release: yokohama
@@ -10,24 +10,24 @@ topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 5
 keywords: [Now Assist, generative AI]
-breadcrumb: [Using Now Assist for RPA Hub, Now Assist for RPA Hub, Robotic Process Automation \(RPA\) Hub, Data and Automation]
+breadcrumb: [Using ServiceNow Otto for RPA Hub, ServiceNow Otto for RPA Hub, Robotic Process Automation \(RPA\) Hub, Data and Automation]
 ---
 
 # Create an activity with Now Assist
 
-Create activities from text instructions and preview options by using the Now Assist for RPA Hub application. Activities provide modularity to an automation project in RPA Desktop Design Studio.
+Create activities from text instructions and preview options by using the ServiceNow Otto for RPA Hub application. Activities provide modularity to an automation project in RPA Desktop Design Studio.
 
 ## Before you begin
 
 Set up the RPA Desktop Design Studio application and add the ServiceNow instance details. For more information, see [Set up RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/set-up-rpa-studio.md).
 
-To access the Now Assist for RPA Hub feature in RPA Desktop Design Studio, perform the following steps:
+To access the ServiceNow Otto for RPA Hub feature in RPA Desktop Design Studio, perform the following steps:
 
--   Install the Now Assist for RPA Hub application to add the generative AI capability. For more information, see [Configure Now Assist for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/configure-now-assist-rpa-hub.md).
+-   Install the ServiceNow Otto for RPA Hub application to add the generative AI capability. For more information, see [Configure ServiceNow Otto for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/configure-now-assist-rpa-hub.md).
 -   Turn on the RPA bot generation skill to use the generative AI capability. For more information, see [Turn on the RPA bot generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/turn-rpa-bot-generation-skill.md).
 -   After activating the RPA bot generation skill, relaunch the RPA Desktop Design Studio application to apply the modified settings.
 
-If you skip these steps, the Now Assist for RPA Hub feature doesn’t appear in RPA Desktop Design Studio.
+If you skip these steps, the ServiceNow Otto for RPA Hub feature doesn’t appear in RPA Desktop Design Studio.
 
 Familiarize yourself with the RPA bot generation skill concepts. For more information, see [Robotic Process Automation \(RPA\) bot generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/rpa-bot-generation.md).
 
@@ -81,15 +81,15 @@ To create an activity manually, see [Create and use an activity in RPA Desktop D
 
     \[Omitted image "new-activity-options.png"\] Alt text: New activity window displays the options to regenerate a preview, clear a workflow, cancel an automation, or add an activity.
 
-<table id="choicetable_tkm_2nn_4dc"><thead><tr><th align="left" id="d569988e350">
+<table id="choicetable_tkm_2nn_4dc"><thead><tr><th align="left" id="d570231e350">
 
 Option
 
-</th><th align="left" id="d569988e353">
+</th><th align="left" id="d570231e353">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d569988e359">
+</th></tr></thead><tbody><tr><td id="d570231e359">
 
 **Regenerate preview**
 
@@ -97,7 +97,7 @@ Procedure
 
 If the generated automation preview doesn’t meet your needs, you can update the Now Assist instructions, and select **Regenerate preview**.Each time you build or rebuild an automation, the operation counts as an assist tracked by your Now Assist subscription. To track your Now Assist usage, see [Monitoring Now Assist usage in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/monitoring-now-assist-usage.md).
 
-</td></tr><tr><td id="d569988e386">
+</td></tr><tr><td id="d570231e386">
 
 **Clear**
 
@@ -105,7 +105,7 @@ If the generated automation preview doesn’t meet your needs, you can update th
 
 If you want to clear the workflow that was created by the Now Assist instructions, select **Clear** and then select **Yes** in the Confirm clear automation window.
 
-</td></tr><tr><td id="d569988e404">
+</td></tr><tr><td id="d570231e404">
 
 **Cancel**
 
@@ -113,7 +113,7 @@ If you want to clear the workflow that was created by the Now Assist instruction
 
 If you want to stop creating an automation and return to the design surface, select **Cancel**. In the Confirm cancel window, select **Yes** to return to the previous screen.The added content isn’t saved.
 
-</td></tr><tr><td id="d569988e421">
+</td></tr><tr><td id="d570231e421">
 
 **Add activity**
 

@@ -33,15 +33,15 @@ To compare a version to the current version of an object:
 
 2.  On the Compare to Current page, review the fields that differ.
 
-<table id="choicetable_er4_v12_5s"><thead><tr><th align="left" id="d135956e128">
+<table id="choicetable_er4_v12_5s"><thead><tr><th align="left" id="d135732e128">
 
 Option
 
-</th><th align="left" id="d135956e131">
+</th><th align="left" id="d135732e131">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d135956e137">
+</th></tr></thead><tbody><tr><td id="d135732e137">
 
 **To resolve the differences by choosing the previous version**
 
@@ -51,7 +51,7 @@ Action
 -   For a version of an object: Click **Use Local Version** to maintain the local record as the current version. The pulled version is added to the version history for the record.
 
 
-</td></tr><tr><td id="d135956e161">
+</td></tr><tr><td id="d135732e161">
 
 **To resolve the differences by modifying the current version and saving the merged changes__Note:__ Some types of record do not support this method. See [Limitations on updating records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/team-development/r_LimitationsOnResolvingCollisions.md) for more information.
 

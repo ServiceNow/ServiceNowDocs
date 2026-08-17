@@ -8,7 +8,7 @@ product: Configuration Compliance
 classification: configuration-compliance
 topic_type: concept
 last_updated: "2025-01-30"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Configuration Compliance, Unified Security Exposure Management, Security Operations]
 ---
 
@@ -27,7 +27,7 @@ Third-party integrations import configuration assessment findings, policies, tes
 The Configuration Compliance application supports the following third-party integrations:
 
 -   Starting with v14.11, drive remediation for security gaps in your enterprise assets identified by the Security Posture Control application by publishing findings as test results in the Configuration Compliance application. The Security Posture Control application and its supported applications are available with separate subscriptions from the ServiceNow® Store. See [Security Posture Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/spc-landing.md) for more information.
--   [Microsoft Defender for Cloud Integration for Security Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/vulnerability-response/cc_asc_overview.md)
+-   [Understanding the Microsoft Defender for Cloud integrations for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/vulnerability-response/cc_asc_overview.md)
 -   [Palo Alto Prisma Cloud Vulnerability Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/container-vulnerability-response/pcc-integration.md)
 -   [Qualys integration with Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/configuration-compliance/Qualys-cc-Integration.md)
 -   The Tenable.io product of the [Tenable Vulnerability Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/vulnerability-response/tenableIntegration.md)

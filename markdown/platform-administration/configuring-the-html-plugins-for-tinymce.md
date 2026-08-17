@@ -354,7 +354,9 @@ Enabled plugins
 
 
 </td></tr></tbody>
-</table>3.  Make changes \(add/remove\) in the enabled plugins property.
+</table>    **Note:** PowerPaste is a standard plugin that is enabled by default. Unlike other HTML plugins listed here, PowerPaste can't be added or removed.
+
+3.  Make changes \(add/remove\) in the enabled plugins property.
 
 4.  Select save.
 

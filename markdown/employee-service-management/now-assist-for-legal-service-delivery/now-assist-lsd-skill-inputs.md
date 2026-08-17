@@ -1,6 +1,6 @@
 ---
-title: Skill inputs for Now Assist for Legal Service Delivery \(LSD\)
-description: Get a quick overview of the skill inputs for Now Assist for Legal Service Delivery \(LSD\) so that you can configure how and when a skill is used.
+title: Skill inputs for ServiceNow Otto for Legal Service Delivery \(LSD\)
+description: Get a quick overview of the skill inputs for ServiceNow Otto for Legal Service Delivery \(LSD\) so that you can configure how and when a skill is used.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-skill-inputs.html
 release: yokohama
@@ -10,12 +10,12 @@ topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
 keywords: [Now Assist, generative AI]
-breadcrumb: [Configure, Now Assist for Legal Service Delivery \(LSD\), Legal Service Delivery, Employee Service Management]
+breadcrumb: [Configure, ServiceNow Otto for Legal Service Delivery \(LSD\), Legal Service Delivery, Employee Service Management]
 ---
 
-# Skill inputs for Now Assist for Legal Service Delivery \(LSD\)
+# Skill inputs for ServiceNow Otto for Legal Service Delivery \(LSD\)
 
-Get a quick overview of the skill inputs for Now Assist for Legal Service Delivery \(LSD\) so that you can configure how and when a skill is used.
+Get a quick overview of the skill inputs for ServiceNow Otto for Legal Service Delivery \(LSD\) so that you can configure how and when a skill is used.
 
 Depending on the selected skill, you can configure inputs. An input identifies the data that is used for a skill, such as the table and fields that are used to generate a summary.
 
@@ -142,5 +142,5 @@ Approvers
 -   Approving
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configure Now Assist for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-configuring.md)
+</table>**Parent Topic:**[Configure ServiceNow Otto for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-configuring.md)
 

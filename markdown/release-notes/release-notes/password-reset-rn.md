@@ -17,11 +17,11 @@ The ServiceNow® Password Reset application enables you to set up your end users
 -   Enhanced security for all client-callable script includes by switching off the sandbox mode.
 -   Enhanced security access for Password Reset tables.
 
-See [Password Reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/password-reset-landing-page.md) for more information.
+See  for more information.
 
 ## New in the Yokohama release
 
--   **[Deny ACLs for Password Reset Access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/r_InstalledWithPasswordReset.md)**
+-   **Deny ACLs for Password Reset Access**
 
     Enhance the security of Password Reset related tables by restricting access to non-authenticated users through Deny ACLs.
 

@@ -79,7 +79,7 @@ The ScopedSessionDomain script include that contains client-side methods that pr
 -   **[ScriptLoader - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_ScriptLoaderAPI.md)**  
 The ScriptLoader API provides methods to load scripts asynchronously.
 -   **[SNAnalytics - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/SNAnalyticsClientAPI.md)**  
-The SNAnalytics API provides methods to push custom analytics data \(events, pages, and user properties\) to the Usage Insights for Service Portal dashboard.
+The SNAnalytics API provides methods to push custom analytics data \(events, pages, and user properties\) to the User Experience Analytics for Service Portal dashboard.
 -   **[spAriaUtil - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/spAriaUtil-API.md)**  
 The spAriaUtil API provides methods to show messages on a screen reader.
 -   **[spContextManager - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/spContextManagerAPI.md)**  

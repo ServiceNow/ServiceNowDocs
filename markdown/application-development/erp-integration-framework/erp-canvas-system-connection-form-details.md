@@ -1,6 +1,6 @@
 ---
-title: Zero Copy Connector for ERP connection and credentials field descriptions
-description: The Connection and Credential Alias modal contains connection and credential details that specify how Zero Copy Connector for ERP connects to the ERP \(Enterprise Resource Planning\) system.
+title: ERP Canvas connection and credentials field descriptions
+description: The Connection and Credential Alias modal contains connection and credential details that specify how ERP Canvas connects to the ERP \(Enterprise Resource Planning\) system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-integration-framework/erp-canvas-system-connection-form-details.html
 release: yokohama
@@ -9,14 +9,14 @@ classification: erp-integration-framework
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Zero Copy Connector for ERP field descriptions, Zero Copy Connector for ERP reference, Zero Copy Connector for ERP, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [ERP Canvas field descriptions, ERP Canvas reference, ERP Canvas, Building low-code applications, Developing your application, Building applications]
 ---
 
-# Zero Copy Connector for ERP connection and credentials field descriptions
+# ERP Canvas connection and credentials field descriptions
 
-The Connection and Credential Alias modal contains connection and credential details that specify how Zero Copy Connector for ERP connects to the ERP \(Enterprise Resource Planning\) system.
+The Connection and Credential Alias modal contains connection and credential details that specify how ERP Canvas connects to the ERP \(Enterprise Resource Planning\) system.
 
-For process details, see [Configure an SNC connection in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erpc-configure-an-snc-connection-in-erp-canvas.md).
+For process details, see [Configure an SNC connection in ERP Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erpc-configure-an-snc-connection-in-erp-canvas.md).
 
 ## Connection Information field descriptions
 
@@ -154,5 +154,5 @@ Client Personal Security Environment \(PSE\) name. \(Mandatory if **SNC Connecti
 |Password|Password to authenticate and log in to the system of record.|
 |Credential Name|Alias or name for the login credential.|
 
-**Parent Topic:**[Zero Copy Connector for ERP field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-field-descriptions.md)
+**Parent Topic:**[ERP Canvas field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-field-descriptions.md)
 

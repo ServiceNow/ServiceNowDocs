@@ -18,7 +18,7 @@ ServiceNow® Telecom Discovery solution builds on proven technologies within the
 
 \[Omitted image "exploring-telecom-discovery.png"\] Alt text: telecom network.
 
-The TSOM Visibility Plugins can be seamlessly used alongside the ITOM Visibility to enhance infrastructure discovery and visibility. By integrating these plugins, organizations can leverage TSOMs advanced Telecommunications Discovery Patterns and Service Graph Connectors \(SGC\) with ITOM's capabilities, enabling comprehensive identification and mapping of network components, services, and configurations. This combined approach confirms an accurate and enriched data population within the CMDB, providing a unified and detailed view of IT and telecom network resources.
+The TSOM Visibility Plugins can be seamlessly used alongside the ITOM Visibility to enhance infrastructure discovery and visibility. By integrating these plugins, organizations can leverage TSOMs advanced Telecommunications Discovery Patterns and Service Graph Connectors \(SGC\) with ITOM's capabilities. This enables comprehensive identification and mapping of network components, services, and configurations. This combined approach confirms an accurate and enriched data population within the CMDB, providing a unified and detailed view of IT and telecom network resources.
 
 **TSOM Visibility Plugins:**
 
@@ -55,7 +55,7 @@ For more information, see [Telecom Discrepancy Identification and Reconciliation
 ServiceNow provides customers and partners with the capability to create and modify Service Graph Connectors and Telecommunications Discovery Patterns. To simplify this process, ServiceNow has developed a set of **no-code/low-code UI-based design tools**. These tools enable users to customize and extend Service Graph Connectors and Patterns without needing deep coding expertise, confirming flexibility, and faster deployment of tailored solutions for specific network environments.
 
 -   **[Telecom Discovery using Telecommunications Discovery Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-service-ops/telecom-visibility/telecom-discovery-using-telecommunication-discovery-pattern.md)**  
-The new Telecommunication Discovery Patterns \(also known as TSOM Patterns\) include patterns for discovering standalone xNFs, enabling the discovery of standalone network elements without a management system, using SNMP, CLI, and NETCONF \(roadmap\) protocols.
+The new Telecommunication Discovery Patterns \(also known as TSOM Patterns\) include patterns for discovering standalone xNFs. These patterns enable the discovery of standalone network elements without a management system, using SNMP, CLI, and NETCONF \(roadmap\) protocols.
 -   **[Telecom Discovery using Service Graph Connectors \(SGC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-service-ops/telecom-visibility/telecom-discovery-using-service-graph-connector.md)**  
 Service Graph Connectors are predefined integrations that ingest data into the Configuration Management Database \(CMDB\) from third-party sources \(for example, northbound APIs of EMS/NMS/Controllers, which manage various xNFs\) across different network domains, while enabling a structured, telecom-model-aligned view of network resources and services.
 

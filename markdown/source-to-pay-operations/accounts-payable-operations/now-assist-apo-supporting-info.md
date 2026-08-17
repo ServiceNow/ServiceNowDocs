@@ -1,6 +1,6 @@
 ---
-title: Supporting information for Now Assist for Accounts Payable Operations \(APO\)
-description: Get a quick overview of the important information that is related to the Now Assist for Accounts Payable Operations \(APO\) application.
+title: Supporting information for ServiceNow Otto for Accounts Payable Operations \(APO\)
+description: Get a quick overview of the important information that is related to the ServiceNow Otto for Accounts Payable Operations \(APO\) application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/accounts-payable-operations/now-assist-apo-supporting-info.html
 release: yokohama
@@ -9,20 +9,20 @@ classification: accounts-payable-operations
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Exploring Now Assist for Accounts Payable Operations \(APO\), Now Assist for Accounts Payable Operations \(APO\), Accounts Payable Operations, Finance and Supply Chain]
+breadcrumb: [Exploring ServiceNow Otto for Accounts Payable Operations \(APO\), ServiceNow Otto for Accounts Payable Operations \(APO\), Accounts Payable Operations, Finance and Supply Chain]
 ---
 
-# Supporting information for Now Assist for Accounts Payable Operations \(APO\)
+# Supporting information for ServiceNow Otto for Accounts Payable Operations \(APO\)
 
-Get a quick overview of the important information that is related to the Now Assist for Accounts Payable Operations \(APO\) application.
+Get a quick overview of the important information that is related to the ServiceNow Otto for Accounts Payable Operations \(APO\) application.
 
 ## Supported versions
 
-The Now Assist for APO application is supported starting with Yokohama.
+The ServiceNow Otto for APO application is supported starting with Yokohama.
 
 ## Supported user interfaces
 
-The Now Assist for APO application includes the skills that are listed in the following table.
+The ServiceNow Otto for APO application includes the skills that are listed in the following table.
 
 <table id="table_odd_d2y_wyb"><thead><tr><th>
 
@@ -62,7 +62,7 @@ Record summarization involves invoice case summarization and inquiry case summar
 </td></tr></tbody>
 </table>## Application information
 
-Activate the Now Assist for APO store app \(sn\_ap\_gen\_ai\) to use the Case summarization skills.
+Activate the ServiceNow Otto for APO store app \(sn\_ap\_gen\_ai\) to use the Case summarization skills.
 
 This store app has the following dependencies:
 
@@ -71,7 +71,7 @@ Now Assist for Platform \(com.sn.now.platform\)
 Activate the applications in the following order:
 
 1.  Now Assist for Platform \(sn\_genai\_platform\)
-2.  Now Assist for APO \(sn\_ap\_gen\_ai\)
+2.  ServiceNow Otto for APO \(sn\_ap\_gen\_ai\)
 
-For more information, see [Configure Now Assist for Accounts Payable Operations \(APO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/accounts-payable-operations/configuring-now-assist-apo.md).
+For more information, see [Configure ServiceNow Otto for Accounts Payable Operations \(APO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/accounts-payable-operations/configuring-now-assist-apo.md).
 

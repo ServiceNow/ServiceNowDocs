@@ -9,7 +9,7 @@ classification: now-assist-for-it-operations-management
 topic_type: task
 last_updated: "2025-12-04"
 reading_time_minutes: 2
-breadcrumb: [Configuring agents and skills for Now Assist for ITOM, Configuring Now Assist for ITOM, Now Assist for ITOM, IT Operations Management]
+breadcrumb: [Configuring agents and skills for ServiceNow Otto for ITOM, Configuring ServiceNow Otto for ITOM, ServiceNow Otto for ITOM, IT Operations Management]
 ---
 
 # Configure the Datadog analysis AI agent
@@ -20,7 +20,7 @@ Configure the Datadog analysis AI agent to use the Datadog observability skill i
 
 Before configuring the Datadog analysis AI agent, you must do the following:
 
--   [Install Now Assist for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+-   [Install ServiceNow Otto for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 -   [Integrate Datadog platform events with Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/datadog-events-webhook.md).
 -   Copy your Datadog API key and application key.
 
@@ -36,15 +36,15 @@ Role required: connection\_admin and credential\_admin
 
 4.  On the form, fill in the fields.
 
-<table id="choicetable_uv4_x44_gfc"><thead><tr><th align="left" id="d341450e142">
+<table id="choicetable_uv4_x44_gfc"><thead><tr><th align="left" id="d340417e142">
 
 Field
 
-</th><th align="left" id="d341450e145">
+</th><th align="left" id="d340417e145">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d341450e151">
+</th></tr></thead><tbody><tr><td id="d340417e151">
 
 **Connection Name**
 
@@ -52,7 +52,7 @@ Description
 
 Name of your Datadog connection. This name helps you identify it later. For example, `Datadog analysis AI agent connection`.
 
-</td></tr><tr><td id="d341450e168">
+</td></tr><tr><td id="d340417e168">
 
 **Connection URL**
 
@@ -60,7 +60,7 @@ Name of your Datadog connection. This name helps you identify it later. For exam
 
 URL of your Datadog instance. Datadog URLs follow this format: `https://api.datadoghq.com`.
 
-</td></tr><tr><td id="d341450e186">
+</td></tr><tr><td id="d340417e186">
 
 **Datadog API key**
 
@@ -68,7 +68,7 @@ URL of your Datadog instance. Datadog URLs follow this format: `https://api.data
 
 Your Datadog API key.
 
-</td></tr><tr><td id="d341450e200">
+</td></tr><tr><td id="d340417e200">
 
 **Datadog Application key**
 
@@ -88,7 +88,7 @@ Activate the Datadog analysis AI agent to use it in the manage alerts autonomous
 
 To learn more about using the Datadog analysis AI agent in the manage alerts autonomously agentic workflow, see [Manage alerts autonomously agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/itom-autonomous-operator-workflow.md).
 
-**Parent Topic:**[Configuring agents and skills for Now Assist for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/itom-ai-agent-configuration.md)
+**Parent Topic:**[Configuring agents and skills for ServiceNow Otto for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/itom-ai-agent-configuration.md)
 
 **Related topics**  
 

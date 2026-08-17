@@ -1,6 +1,6 @@
 ---
-title: Configure Now Assist for Accounts Payable Operations \(APO\)
-description: If you have the admin role, you can configure the Now Assist for Accounts Payable Operations \(APO\) application so that an accounts payable \(AP\) fulfiller can use the generative AI skills in Source-to-Pay Workspace and in Core UI.
+title: Configure ServiceNow Otto for Accounts Payable Operations \(APO\)
+description: If you have the admin role, you can configure the ServiceNow Otto for Accounts Payable Operations \(APO\) application so that an accounts payable \(AP\) fulfiller can use the generative AI skills in Source-to-Pay Workspace and in Core UI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/accounts-payable-operations/configuring-now-assist-apo.html
 release: yokohama
@@ -9,25 +9,25 @@ classification: accounts-payable-operations
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Now Assist for Accounts Payable Operations \(APO\), Accounts Payable Operations, Finance and Supply Chain]
+breadcrumb: [ServiceNow Otto for Accounts Payable Operations \(APO\), Accounts Payable Operations, Finance and Supply Chain]
 ---
 
-# Configure Now Assist for Accounts Payable Operations \(APO\)
+# Configure ServiceNow Otto for Accounts Payable Operations \(APO\)
 
-If you have the admin role, you can configure the Now Assist for Accounts Payable Operations \(APO\) application so that an accounts payable \(AP\) fulfiller can use the generative AI skills in Source-to-Pay Workspace and in Core UI.
+If you have the admin role, you can configure the ServiceNow Otto for Accounts Payable Operations \(APO\) application so that an accounts payable \(AP\) fulfiller can use the generative AI skills in Source-to-Pay Workspace and in Core UI.
 
 ## APO configuration overview
 
 -   [Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/platform-now-assist-landing.md)
 
-    Use the Now Assist Admin console to configure APO. This console contains everything that you need to install the plugin \[sn\_ap\_gen\_ai\] and configure the generative AI skills.
+    Use the AI Admin Hub console to configure APO. This console contains everything that you need to install the plugin \[sn\_ap\_gen\_ai\] and configure the generative AI skills.
 
 -   See the [Configuring Now Assist settings and features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configuring-na-landing.md) topic.
 
-    Use the Now Assist Admin console to activate the various Now Assist applications and skills that you’re entitled to.
+    Use the AI Admin Hub console to activate the various Now Assist applications and skills that you’re entitled to.
 
 
-The following table lists the features and skills that you can access from the Now Assist Admin console.
+The following table lists the features and skills that you can access from the AI Admin Hub console.
 
 |APO features|Skills|
 |------------|------|

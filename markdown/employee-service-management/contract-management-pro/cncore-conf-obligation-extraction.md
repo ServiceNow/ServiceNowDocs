@@ -1,6 +1,6 @@
 ---
 title: Configuring contract obligation extraction
-description: Configure and map use cases for the contract obligation extraction skill in the Now Assist Admin console to automatically extract key contractual obligations from signed contracts.
+description: Configure and map use cases for the contract obligation extraction skill in the AI Admin Hub console to automatically extract key contractual obligations from signed contracts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/contract-management-pro/cncore-conf-obligation-extraction.html
 release: yokohama
@@ -15,7 +15,7 @@ breadcrumb: [Configure, Now Assist in CM Pro, Contract Management Pro, Employee 
 
 # Configuring contract obligation extraction
 
-Configure and map use cases for the contract obligation extraction skill in the Now Assist Admin console to automatically extract key contractual obligations from signed contracts.
+Configure and map use cases for the contract obligation extraction skill in the AI Admin Hub console to automatically extract key contractual obligations from signed contracts.
 
 -   **[Create use cases for contract obligation extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-na-use-case-obext.md)**  
 Create obligation extraction use cases to specify the types of key contractual obligation you want Now Assist to detect and extract from contract documents.

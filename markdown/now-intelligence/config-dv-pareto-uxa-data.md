@@ -1,6 +1,6 @@
 ---
-title: Usage Insights for pareto bar visualizations
-description: When you select a Usage Insights data source for a Pareto bar visualization the following Data configuration options are available.
+title: User Experience Analytics for pareto bar visualizations
+description: When you select a User Experience Analytics data source for a Pareto bar visualization the following Data configuration options are available.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/config-dv-pareto-uxa-data.html
 release: yokohama
@@ -10,9 +10,9 @@ reading_time_minutes: 5
 breadcrumb: [Pareto bar visualizations, Create, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
 
-# Usage Insights for pareto bar visualizations
+# User Experience Analytics for pareto bar visualizations
 
-When you select a Usage Insights data source for a Pareto bar visualization the following Data configuration options are available.
+When you select a User Experience Analytics data source for a Pareto bar visualization the following Data configuration options are available.
 
 **Important:** Pareto visualizations are only suitable for Events data, not Users or Sessions. Only Events have a value to group by.
 
@@ -34,7 +34,7 @@ Data source
 
 </td><td>
 
-You have selected a Usage Insights data source in [Create a horizontal or vertical bar data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-bar-ac.md).
+You have selected a User Experience Analytics data source in [Create a horizontal or vertical bar data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-bar-ac.md).
 
  **Note:** Only one data source can be defined for pareto at any given time.
 
@@ -128,7 +128,7 @@ Event property
 
 </td><td>
 
-Properties of the event in the Usage Insights data source.
+Properties of the event in the User Experience Analytics data source.
 
 **Note:** Only applies to Events metrics, in which case it is required.
 

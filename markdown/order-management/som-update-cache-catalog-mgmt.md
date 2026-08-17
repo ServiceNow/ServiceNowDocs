@@ -22,15 +22,15 @@ Role required: sn\_prd\_pm.product-catalog\_admin, sn\_prd\_pm.product-catalog\_
 
 1.  Navigate to the record that you updated.
 
-<table id="choicetable_tty_nql_p1c"><thead><tr><th align="left" id="d32723e59">
+<table id="choicetable_tty_nql_p1c"><thead><tr><th align="left" id="d32593e59">
 
 Feature change
 
-</th><th align="left" id="d32723e62">
+</th><th align="left" id="d32593e62">
 
 Navigate to
 
-</th></tr></thead><tbody><tr><td id="d32723e68">
+</th></tr></thead><tbody><tr><td id="d32593e68">
 
 **Unit of Measure \(UOM\) for a product offering**
 
@@ -40,7 +40,7 @@ Navigate to
 2.  Select the product offering record that you just updated.
 
 
-</td></tr><tr><td id="d32723e98">
+</td></tr><tr><td id="d32593e98">
 
 **Product offering catalog changes-   Catalog to category
 -   Category to sub-category

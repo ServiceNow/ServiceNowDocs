@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2025-08-18"
 reading_time_minutes: 3
 keywords: [generative AI, generative AI for Customer Service Management, generative AI for customer service agents, generative AI, generative AI for Customer Service Management, generative AI for customer service agents, generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
-breadcrumb: [Activate Now Assist Skills, Configure, Now Assist for Customer Service Management \(CSM\), Customer Service Management]
+breadcrumb: [Activate Now Assist Skills, Configure, ServiceNow Otto for Customer Service Management \(CSM\), Customer Service Management]
 ---
 
 # Configure Suggested Steps Generation
@@ -99,7 +99,7 @@ Learn how to enable the suggested steps generation in the CSM Workspace after sk
 
 Role required: admin
 
-After activating the Suggested steps generation feature in the Now Assist Admin console, follow the steps outlined to make the skill available in CSM Configurable Workspace.
+After activating the Suggested steps generation feature in the AI Admin Hub console, follow the steps outlined to make the skill available in CSM Configurable Workspace.
 
 ### Procedure
 

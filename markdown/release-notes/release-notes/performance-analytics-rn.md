@@ -19,11 +19,11 @@ The ServiceNow®   Performance Analytics application is an in-platform process
 -   Identify process patterns and potential bottlenecks before they occur.
 -   Continually visualize historical and real-time process statistics in role-based dashboards. The dashboards enable individual stakeholders to make informed decisions.
 
-See [Performance Analytics \(Indicator data sources\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/pa-overview.md) for more information.
+See  for more information.
 
 ## New in the Yokohama release
 
--   **[Apply multiple levels of breakdown to an indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/multi-level-breakdowns.md)**
+-   **Apply multiple levels of breakdown to an indicator**
 
     Migrate indicators from traditional Performance Analytics architecture to change data capture \(CDC\)-based data snapshots. This new architecture allows for more than two levels of breakdown to apply to an indicator. RaptorDB Professional is required, and not all indicators qualify for migration.
 
@@ -40,11 +40,11 @@ To use the new data snapshots feature, your instance must be on the RaptorDB Pro
 
 ## Related ServiceNow applications and features
 
--   **[Platform Analytics experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/par-workspace.md)**
+-   ****
 
     The ServiceNow® Platform Analytics experience provides a single center for consuming the data from all Platform Analytics products, including Performance Analytics.
 
--   **[Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/process-mining.md)**
+-   ****
 
     Process Mining helps analysts and process owners quickly analyze and optimize their business processes. Use Process Mining with Platform Analytics insights to optimize your indicator data sources.
 

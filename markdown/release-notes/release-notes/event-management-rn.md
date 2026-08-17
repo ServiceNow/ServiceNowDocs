@@ -25,19 +25,19 @@ The ServiceNow® Event Management application helps you to identify health issue
     -   Seamlessly integrate monitoring data from multiple sources into Metric Intelligence.
     -   Improve anomaly detection and alerting with real-time metric ingestion.
 
-See [Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/c_EM.md) for more information.
+See  for more information.
 
 ## New in the Yokohama release
 
--   **[Group alerts using network traffic-based grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/network-traffic-correlation-grouping.md)**
+-   **Group alerts using network traffic-based grouping**
 
     Group alerts efficiently with network traffic-based alert grouping, which uses discovered TCP connections with ML Service Mapping to correlate alerts on host CIs that have network traffic connections between them.
 
--   **[View links between alerts in network traffic-based alert groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/el-network-traffic-based-link-view.md)**
+-   **View links between alerts in network traffic-based alert groups**
 
     Once a network traffic correlation is enabled, investigate network traffic alert group details and visualize connections through Link View in Express List®.
 
--   **[New role for team level operators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/r_InstalledWithEventManagement.md)**
+-   **New role for team level operators**
 
     Enhance team-level control over alert management with the evt\_team\_operator role. This role enables operators to manage Event Management operations within their assigned team, including reading and writing alerts, making configuration changes,updating Alert Automation, and setting up new integrations in the Integrations Launchpad.
 
@@ -52,7 +52,7 @@ See [Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDo
 
 ## Changed in this release
 
--   **[Property name changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/enable-alert-grouping.md)**
+-   **Property name changes**
 
     **Enable CMDB Correlation for Alert Aggregation \( CMDB groups\)** \(**sa\_analytics.agg.query\_cmdb\_correlation\_enabled**\) has been renamed **Enable CMDB correlation**.
 
@@ -62,19 +62,19 @@ See [Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDo
 
     **Use all CMDB relations for CMDB group correlation. This property impacts both CMDB group correlation and Alert Similarity on the Alert form** \(**evt\_mgmt.related\_cis\_get\_all\_relation\_types**\) has been renamed **Use all CMDB relations for CMDB group correlation**.
 
--   **[Pull connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/t_EMConfigureConnectorInstance.md)**
+-   **Pull connectors**
 
     Simplifying the setup for Out-of-the-Box \(OOTB\) event rules that come with the pull connectors that have not yet been activated, deactivated, or modified, the Apply additional matching rules option is now enabled by default. If a rule has been previously applied, you must set this option manually.
 
 
 ## Activation information
 
-Event Management is available with activation of the Event Management plugin \(com.glideapp.itom.snac\). For details, see [Request Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/t_EMActivatePlugin.md).
+Event Management is available with activation of the Event Management plugin \(com.glideapp.itom.snac\). For details, see .
 
 ## Related ServiceNow applications and features
 
--   **[Metric Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/agent-workspace-ops-intelligence.md)**
+-   ****
 
-    ServiceNow® Agent Workspace for [Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/operational-metrics.md) provides a central interface that enables you to view the health of a CI associated with an alert. Health details for a CI include various metric charts with control bounds and aggregations for single score charts.
+    ServiceNow® Agent Workspace for  provides a central interface that enables you to view the health of a CI associated with an alert. Health details for a CI include various metric charts with control bounds and aggregations for single score charts.
 
 

@@ -32,15 +32,15 @@ Role required: sn\_shift\_planning.admin
 
 5.  Do any of the following.
 
-<table id="choicetable_oxp_qm1_xwb"><thead><tr><th align="left" id="d221762e97">
+<table id="choicetable_oxp_qm1_xwb"><thead><tr><th align="left" id="d222111e97">
 
 To
 
-</th><th align="left" id="d221762e100">
+</th><th align="left" id="d222111e100">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d221762e106">
+</th></tr></thead><tbody><tr><td id="d222111e106">
 
 **Verify user access for all your groups**
 
@@ -48,7 +48,7 @@ Do this
 
 Select **All my groups**.
 
-</td></tr><tr><td id="d221762e118">
+</td></tr><tr><td id="d222111e118">
 
 **Specific groups and team members**
 

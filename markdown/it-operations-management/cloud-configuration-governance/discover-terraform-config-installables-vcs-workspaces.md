@@ -9,7 +9,7 @@ classification: cloud-configuration-governance
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 4
-breadcrumb: [Configuring Cloud Services Catalog Terraform Connector, Cloud Services Catalog Terraform Connector, Support for continuous delivery \(configuration management\), Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Optimization, IT Operations Management]
+breadcrumb: [Configuring Cloud Provisioning and Governance: Terraform Connector, Cloud Provisioning and Governance: Terraform Connector, Support for continuous delivery \(configuration management\), Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Optimization, IT Operations Management]
 ---
 
 # Run the IaC Discovery
@@ -25,7 +25,7 @@ Role required: sn.cmp.cloud\_service\_designer
 
 ## About this task
 
-Depending on the configuration provider, Cloud Services Catalog Terraform Connector discovers the following resources from the Terraform environment:
+Depending on the configuration provider, Cloud Provisioning and Governance: Terraform Connector discovers the following resources from the Terraform environment:
 
 -   **Terraform Open Source**
 
@@ -41,7 +41,7 @@ Depending on the configuration provider, Cloud Services Catalog Terraform Connec
 
         Terraform Cloud uses agents and agent pools to communicate with on-premise infrastructure. Deploy agents in the same network as your infrastructure to establish a connection between the infrastructure and Terraform Cloud. For more information on agents and agent pools, see [Terraform Cloud agents](https://www.terraform.io/cloud-docs/agents).
 
-        Cloud Services Catalog Terraform Connector discovers the agent pools created in the Terraform Cloud. You can view the discovered agents in the Config Management module for your config provider. On the catalog order form, an agent pool filter enables you select an active agent to communicate with the private VMware infrastructure.
+        Cloud Provisioning and Governance: Terraform Connector discovers the agent pools created in the Terraform Cloud. You can view the discovered agents in the Config Management module for your config provider. On the catalog order form, an agent pool filter enables you select an active agent to communicate with the private VMware infrastructure.
 
         **Note:** You can see agent pools option in the config management form and the catalog order form when the following conditions are met:
 
@@ -49,7 +49,7 @@ Depending on the configuration provider, Cloud Services Catalog Terraform Connec
         -   You have VMware templates for Terraform Enterprise.
     -   Cfg installables: Terraform templates stored in the repositories of the VCS account provisioned the Terraform organization.
 
-        **Note:** To discover the Terraform templates from the VCS, Cloud Services Catalog Terraform Connector requires the API key credentials of the VCS account.
+        **Note:** To discover the Terraform templates from the VCS, Cloud Provisioning and Governance: Terraform Connector requires the API key credentials of the VCS account.
 
 
 ## Procedure
@@ -66,7 +66,7 @@ Depending on the configuration provider, Cloud Services Catalog Terraform Connec
 
     **Note:** You can't cancel the IaC Discovery job after triggering it.
 
-5.  To use Cloud Services Catalog Terraform Connector with Terraform Enterprise or Terraform Cloud, discover the Terraform templates stored in the provisioned VCS.
+5.  To use Cloud Provisioning and Governance: Terraform Connector with Terraform Enterprise or Terraform Cloud, discover the Terraform templates stored in the provisioned VCS.
 
     1.  Select the **Tfe Vcs** tab.
 
@@ -80,7 +80,7 @@ Depending on the configuration provider, Cloud Services Catalog Terraform Connec
 
 6.  Create an Infrastructure as Code \(Iac\) discovery schedule.
 
-    IaC discovery schedule helps to discover new Terraform templates, workspaces, agent pools, and VCS branches for the specified config provider. It also detects changes in the already discovered Terraform templates. When Cloud Services Catalog Terraform Connector detects a change in the template variable or the template metadata, it automatically creates IaC change tasks for the affected catalog items.
+    IaC discovery schedule helps to discover new Terraform templates, workspaces, agent pools, and VCS branches for the specified config provider. It also detects changes in the already discovered Terraform templates. When Cloud Provisioning and Governance: Terraform Connector detects a change in the template variable or the template metadata, it automatically creates IaC change tasks for the affected catalog items.
 
     1.  On the Cloud Admin portal, navigate to **Manage** &gt; **IaC Discovery**.
 
@@ -135,8 +135,8 @@ Frequency of schedule execution.Configure the schedule execution frequency in th
 ## What to do next
 
 -   [Use multiple repositories structure with Terraform Connector app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/use-multiple-repositories-structure-with-terraform-connector.md) with IaC Discovery
--   If Cloud Services Catalog Terraform Connector discovers new Terraform templates that you want to use for cloud resource provisioning, create a catalog item from the discovered template. For more information, see [Create a catalog item from the Terraform template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/catalog-item-terraform-template.md).
--   If Cloud Services Catalog Terraform Connector has discovered changes in an existing template, take one of the following actions to resolve the associated IaC change task:
+-   If Cloud Provisioning and Governance: Terraform Connector discovers new Terraform templates that you want to use for cloud resource provisioning, create a catalog item from the discovered template. For more information, see [Create a catalog item from the Terraform template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/catalog-item-terraform-template.md).
+-   If Cloud Provisioning and Governance: Terraform Connector has discovered changes in an existing template, take one of the following actions to resolve the associated IaC change task:
 
     -   Update the affected catalog item per the updated Terraform template.
     -   Deactivate the affected catalog item, and then create a catalog item per the updated template.

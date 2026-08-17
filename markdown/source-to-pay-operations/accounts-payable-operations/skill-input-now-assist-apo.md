@@ -1,5 +1,5 @@
 ---
-title: Skill inputs for Now Assist for Accounts Payable Operations \(APO\)
+title: Skill inputs for ServiceNow Otto for Accounts Payable Operations \(APO\)
 description: You can configure some of the inputs for a generative AI skill. Inputs permit you to determine how and when a skill is used.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/accounts-payable-operations/skill-input-now-assist-apo.html
@@ -9,10 +9,10 @@ classification: accounts-payable-operations
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configure Now Assist for Accounts Payable Operations \(APO\), Now Assist for Accounts Payable Operations \(APO\), Accounts Payable Operations, Finance and Supply Chain]
+breadcrumb: [Configure ServiceNow Otto for Accounts Payable Operations \(APO\), ServiceNow Otto for Accounts Payable Operations \(APO\), Accounts Payable Operations, Finance and Supply Chain]
 ---
 
-# Skill inputs for Now Assist for Accounts Payable Operations \(APO\)
+# Skill inputs for ServiceNow Otto for Accounts Payable Operations \(APO\)
 
 You can configure some of the inputs for a generative AI skill. Inputs permit you to determine how and when a skill is used.
 
@@ -24,7 +24,7 @@ You can modify the inputs, but you can't modify a skill's data source. The data 
 
 ## Skills for Now Assist for APO
 
-The Now Assist for APO application includes the invoice case summarization skill.
+The ServiceNow Otto for APO application includes the invoice case summarization skill.
 
 **Important:** These Now Assist skills are now turned on by default. The skills will be automatically available to appropriate role users for the application. This change simply activates the skills and does not touch the roles that are needed to use them. The new default behavior works as follows:
 
@@ -45,7 +45,7 @@ The Now Assist for APO application includes the invoice case summarization skill
 
 The inputs for the invoice case summarization skill identify the table and fields that are used when the summary is generated for an invoice case.
 
-The following table lists the inputs for the case summarization from the Choose input for procurement case page in the Now Assist Admin console.
+The following table lists the inputs for the case summarization from the Choose input for procurement case page in the AI Admin Hub console.
 
 <table id="table_qcd_hl2_pdc"><thead><tr><th>
 

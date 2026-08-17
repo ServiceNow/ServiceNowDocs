@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
 keywords: [Now Assist, generative AI]
-breadcrumb: [Now Assist for Privacy Management, Privacy Management, Governance, Risk, and Compliance]
+breadcrumb: [ServiceNow Otto for Privacy Management, Privacy Management, Governance, Risk, and Compliance]
 ---
 
 # Use Issue summarization skill to summarize an issue

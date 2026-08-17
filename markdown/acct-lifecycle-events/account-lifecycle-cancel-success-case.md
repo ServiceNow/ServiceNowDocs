@@ -7,7 +7,7 @@ release: yokohama
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Create a success case playbook, Configure customer success, Customer success, Customer Success Management]
+breadcrumb: [Create a success case playbook, Configure customer success, Customer success, Account Lifecycle Events]
 ---
 
 # Close or cancel a success case

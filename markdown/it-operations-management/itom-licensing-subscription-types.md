@@ -7,7 +7,7 @@ release: yokohama
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Exploring ITOM/OT SU Licensing, ITOM/OT SU Licensing and subscriptions, IT Operations Management]
+breadcrumb: [Explore, ITOM/OT SU Licensing and subscriptions, IT Operations Management]
 ---
 
 # ITOM/OT SU Licensing subscription types

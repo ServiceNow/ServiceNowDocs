@@ -34,15 +34,15 @@ When a DLP analyst performs the Download evidence files for DLP Incidents action
 
 3.  Select the preferred storage type.
 
-<table id="choicetable_yhz_yvv_tcc"><thead><tr><th align="left" id="d179006e98">
+<table id="choicetable_yhz_yvv_tcc"><thead><tr><th align="left" id="d180882e98">
 
 Field
 
-</th><th align="left" id="d179006e101">
+</th><th align="left" id="d180882e101">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d179006e107">
+</th></tr></thead><tbody><tr><td id="d180882e107">
 
 **Evidence file storage**
 
@@ -50,7 +50,7 @@ Description
 
 Option to enable the evidence file storage.
 
-</td></tr><tr><td id="d179006e116">
+</td></tr><tr><td id="d180882e116">
 
 **Storage type**
 
@@ -61,7 +61,7 @@ Option to select the preferred storage type. You can use either internal or exte
 
 This storage provides a flexibility to manage the evidence files, allows you to choose the preferred storage method. Internal storage offers quick access within the application, while external storage supports both Blob storage and Amazon S3 storage options and allows the increased capacity and backup options. When you select this storage type, a new field is displayed: **External File Storage Source**.
 
-</td></tr><tr><td id="d179006e142">
+</td></tr><tr><td id="d180882e142">
 
 **External File Storage Source**
 

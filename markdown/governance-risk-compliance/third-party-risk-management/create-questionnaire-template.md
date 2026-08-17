@@ -67,15 +67,15 @@ A set of related questions within a questionnaire template.**Note:** There can b
     -   **Workspaces** &gt; **Vendor Management Workspace**, select the list icon \[Omitted image "ws-list-icon.png"\] Alt text: and then navigate to **Assessment setup** &gt; **Questionnaire Templates**.
 2.  Complete one of the following options to create a new template or copy an existing template.
 
-<table id="choicetable_ctx_vmr_g2c"><thead><tr><th align="left" id="d257017e205">
+<table id="choicetable_ctx_vmr_g2c"><thead><tr><th align="left" id="d256978e205">
 
 Option
 
-</th><th align="left" id="d257017e208">
+</th><th align="left" id="d256978e208">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d257017e214">
+</th></tr></thead><tbody><tr><td id="d256978e214">
 
 **Create a new template**
 
@@ -93,7 +93,7 @@ Any other templates associated with this template are shown as related links or 
 
 .
 
-</td></tr><tr><td id="d257017e254">
+</td></tr><tr><td id="d256978e254">
 
 **Copy and customize an existing template**
 

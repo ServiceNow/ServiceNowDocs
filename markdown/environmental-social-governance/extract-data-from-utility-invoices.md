@@ -63,5 +63,5 @@ Role required: sn\_esg\_gen\_ai.docintel\_user
     The fields extracted by AI must be verified for accuracy before use.
 
 
-**Parent Topic:**[Using Now Assist for Operational Sustainability \(formerly ESG\) skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/using-now-assist-for-esg-skills.md)
+**Parent Topic:**[Using ServiceNow Otto for Operational Sustainability \(formerly ESG\) skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/using-now-assist-for-esg-skills.md)
 

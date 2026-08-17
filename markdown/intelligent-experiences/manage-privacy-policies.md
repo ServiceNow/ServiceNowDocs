@@ -23,13 +23,13 @@ Role required: now\_assist\_data\_privacy\_admin
 
 1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Settings**.
 
-    If you’re already in the Now Assist Admin console, select the **Settings** tab.
+    If you’re already in the AI Admin Hub console, select the **Settings** tab.
 
 2.  In the Settings panel, select the **Data sharing and processing** &gt; **Privacy policies** tab.
 
     \[Omitted image "now-assist-admin-privacy-policies.png"\] Alt text: Privacy policies under Data sharing and processing, in Now Assist settings tab.
 
-3.  Select **View detail** to view the data policies applicable to Now Assist Admin
+3.  Select **View detail** to view the data policies applicable to AI Admin Hub
 
 4.  Select **Edit in Data Privacy** to be routed to Data Privacy studio.
 

@@ -7,8 +7,8 @@ release: yokohama
 product: Task Mining
 classification: task-mining
 topic_type: concept
-last_updated: "2024-08-06"
-reading_time_minutes: 1
+last_updated: "2026-03-12"
+reading_time_minutes: 2
 breadcrumb: [Task Mining, Platform Analytics]
 ---
 
@@ -50,5 +50,8 @@ These configuration tasks must be performed on each instance being used. After i
 
     Assign roles to control access to features, capabilities, and data in the Task Mining application.
 
--   ****
+
+## Task Mining agent installation
+
+The Task Mining agent is a service installed on workstations that logs certain events from desktop applications after a data request is submitted by a Task Mining analyst or power user and approved by a manager. For more information, see [Install the Task Mining agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/task-mining/install-agent.md).
 

@@ -9,7 +9,7 @@ classification: service-reliability-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 3
-breadcrumb: [Working with SRM services, Using Service Reliability Management, Service Reliability Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Working with SRM services, Using Service Reliability Management, Service Reliability Management, ITOM Health, IT Operations Management]
 ---
 
 # Add a service to SRM
@@ -45,15 +45,15 @@ When you add a technical service to SRM, you also add its Technical Service Offe
 
 3.  In the Add services for your teams modal, you can either create a service or add existing services.
 
-<table id="choicetable_m3m_brg_n1c"><thead><tr><th align="left" id="d113606e148">
+<table id="choicetable_m3m_brg_n1c"><thead><tr><th align="left" id="d112619e148">
 
 Option
 
-</th><th align="left" id="d113606e151">
+</th><th align="left" id="d112619e151">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d113606e157">
+</th></tr></thead><tbody><tr><td id="d112619e157">
 
 **Create a new service**
 
@@ -64,7 +64,7 @@ Steps
 3.  Select **Next**.
 
 
-</td></tr><tr><td id="d113606e195">
+</td></tr><tr><td id="d112619e195">
 
 **Select existing services**
 

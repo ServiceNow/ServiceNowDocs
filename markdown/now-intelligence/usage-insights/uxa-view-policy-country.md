@@ -1,5 +1,5 @@
 ---
-title: View and update Usage Insights consent tracking policies for individual countries
+title: View and update User Experience Analytics consent tracking policies for individual countries
 description: View the consent tracking policy for all countries or select a country to update its existing policy.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/usage-insights/uxa-view-policy-country.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Define how to detect your user's location, User privacy, tracking, and consent, Configuring User Experience Analytics, User Experience Analytics, Platform Analytics]
 ---
 
-# View and update Usage Insights consent tracking policies for individual countries
+# View and update User Experience Analytics consent tracking policies for individual countries
 
 View the consent tracking policy for all countries or select a country to update its existing policy.
 

@@ -1,5 +1,5 @@
 ---
-title: Now Assist Analytics dashboard indicator details
+title: AI Analytics dashboard indicator details
 description: Indicator details help you understand the data and calculations behind an indicator that is presented in the form of a visualization on the dashboard.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/now-assist-analytics-dashboard-indicators.html
@@ -8,14 +8,14 @@ topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 12
 keywords: [Now Assist Analytics, indicators, Platform Analytics Administration, GenAI, Generative AI]
-breadcrumb: [Now Assist Analytics reference, Analyzing Now Assist performance, Now Assist, Enable AI experiences]
+breadcrumb: [AI Analytics reference, Analyzing Now Assist performance, Now Assist, Enable AI experiences]
 ---
 
-# Now Assist Analytics dashboard indicator details
+# AI Analytics dashboard indicator details
 
 Indicator details help you understand the data and calculations behind an indicator that is presented in the form of a visualization on the dashboard.
 
-Now Assist Analytics indicators contain the following details: indicator type, data source, calculation, available breakdowns, unit, and so on.
+AI Analytics indicators contain the following details: indicator type, data source, calculation, available breakdowns, unit, and so on.
 
 To access these indicators, navigate to **Platform Analytics Administration** &gt; **Indicators**. You must have the Now Assist Analytics Admin \[sn\_na\_analytics\_admin\] role to access the indicators.
 
@@ -86,7 +86,7 @@ These indicators collect data at a daily frequency. Data is only available for d
 |Executed successfully|Formula|Generative AI Usage Log\[sys\_gen\_ai\_usage\_log\]|\(Count of custom skill executions with status Completed/Count of custom skill executions\)x100|By Skills Config|Daily|%|2|
 |Skills feedback|Automated|Generative AI Usage Log\[sys\_gen\_ai\_usage\_log\]|Count|By Feedback, By Skills Config|Daily|\#|0|
 
-## Now Assist Guardian offensive content guardrail indicator details
+## AI Guardian offensive content guardrail indicator details
 
 |Visualization|Indicator type|Indicator source table|Calculation|Available breakdowns|Frequency|Unit|Precision|
 |-------------|--------------|----------------------|-----------|--------------------|---------|----|---------|
@@ -96,7 +96,7 @@ These indicators collect data at a daily frequency. Data is only available for d
 |Categories of offensive content|Automated|Generative AI Metric\[sys\_generative\_ai\_metric\]|Count of offensive content occurrences grouped by categories|By Offensiveness Type, By Skills Config|Daily|\#|0|
 |Offensive content occurrences by skill|Automated|Generative AI Metric\[sys\_generative\_ai\_metric\]|Count of offensive content occurrences grouped by skill|By Gen AI metric value, By Skills Config|Daily|\#|0|
 
-## Now Assist Guardian prompt injection guardrail indicator details
+## AI Guardian prompt injection guardrail indicator details
 
 |Visualization|Indicator type|Indicator source table|Calculation|Available breakdowns|Frequency|Unit|Precision|
 |-------------|--------------|----------------------|-----------|--------------------|---------|----|---------|

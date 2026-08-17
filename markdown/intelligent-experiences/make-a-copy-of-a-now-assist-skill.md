@@ -21,7 +21,7 @@ Role required: sn\_nowassist\_admin.nsa\_admin
 
 ## About this task
 
-The skills that come with the Now Assist applications have default configurations that are optimized to serve the most common use cases. If you want to change the skill settings, you can edit a skill with the Now Assist Admin console or you can create a copy of the skill. Creating a copy leaves the original skill configuration intact in case you want to use it later or want to create another copy from the original. You can activate and configure the copies of the skills by using the same guided setup as the default skills.
+The skills that come with the Now Assist applications have default configurations that are optimized to serve the most common use cases. If you want to change the skill settings, you can edit a skill with the AI Admin Hub console or you can create a copy of the skill. Creating a copy leaves the original skill configuration intact in case you want to use it later or want to create another copy from the original. You can activate and configure the copies of the skills by using the same guided setup as the default skills.
 
 **Note:** The 'Make a copy' feature is not available for all Now Assist skills.
 
@@ -31,7 +31,7 @@ The skills that come with the Now Assist applications have default configuration
 
 1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Now Assist Skills**.
 
-    If you’re already in the Now Assist Admin console, select the **Now Assist Skills** tab.
+    If you’re already in the AI Admin Hub console, select the **Now Assist Skills** tab.
 
 2.  In the navigation pane, select the workflow of the skill that you want to copy, such as Technology or Customer.
 
@@ -62,8 +62,8 @@ Continue the steps in the guided setup to activate the skill. For more informati
 
 If you're making a copy of the case or incident summarization skill and would like to learn more about your options, see the [documentation for configuring record summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/configure-case-or-incident-summarization-in-the-now-assist-admin-console.md).
 
--   **[Configure case or incident summarization in the Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/configure-case-or-incident-summarization-in-the-now-assist-admin-console.md)**  
-Configure case or incident summarization by using the guided setup in the Now Assist Admin console. You can choose the input tables and fields as well as customize the prompt output for copies of the record summarization skills.
+-   **[Configure case or incident summarization in the AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/configure-case-or-incident-summarization-in-the-now-assist-admin-console.md)**  
+Configure case or incident summarization by using the guided setup in the AI Admin Hub console. You can choose the input tables and fields as well as customize the prompt output for copies of the record summarization skills.
 
 **Parent Topic:**[Configuring Now Assist settings and features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/configuring-na-landing.md)
 

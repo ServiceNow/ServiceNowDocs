@@ -1,6 +1,6 @@
 ---
 title: Add a web search
-description: Add a web search as a tool in Now Assist Skill Kit. Adding a web search as a tool enables you to add search results to your prompt.
+description: Add a web search as a tool in AI Skill Kit. Adding a web search as a tool enables you to add search results to your prompt.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/now-assist-skill-kit/add-web-search.html
 release: yokohama
@@ -10,12 +10,12 @@ topic_type: task
 last_updated: "2025-02-25"
 reading_time_minutes: 2
 keywords: [web search, Websearch, web search skill, web search tool]
-breadcrumb: [Add a tool, Create a prompt, Using Now Assist Skill Kit, Now Assist Skill Kit, Enable AI experiences]
+breadcrumb: [Add a tool, Create a prompt, Using AI Skill Kit, AI Skill Kit, Enable AI experiences]
 ---
 
 # Add a web search
 
-Add a web search as a tool in Now Assist Skill Kit. Adding a web search as a tool enables you to add search results to your prompt.
+Add a web search as a tool in AI Skill Kit. Adding a web search as a tool enables you to add search results to your prompt.
 
 ## Before you begin
 
@@ -25,7 +25,7 @@ To use web search as a tool, you must bring your own search engine API key and c
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Skill Kit** &gt; **Home**.
+1.  Navigate to **All** &gt; **AI Skill Kit** &gt; **Home**.
 
 2.  Create a skill or select the skill that you want to add web search to.
 
@@ -45,7 +45,7 @@ To use web search as a tool, you must bring your own search engine API key and c
 
 10. On the Tool inputs form, fill in the fields.
 
-    \[Omitted image "nask-web-search.png"\] Alt text: Add a web search tool page in Now Assist Skill Kit.
+    \[Omitted image "nask-web-search.png"\] Alt text: Add a web search tool page in AI Skill Kit.
 
 <table id="table_itg_hm5_m2c"><thead><tr><th>
 

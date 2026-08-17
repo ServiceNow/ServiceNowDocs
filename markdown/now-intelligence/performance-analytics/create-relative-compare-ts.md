@@ -40,15 +40,15 @@ For example, this visualization shows the change of the total number of open inc
 
 5.  Specify which indicators to include in the visualization with one of the following options.
 
-<table id="choicetable_pm3_bj1_kt"><thead><tr><th align="left" id="d66082e125">
+<table id="choicetable_pm3_bj1_kt"><thead><tr><th align="left" id="d66618e125">
 
 Option
 
-</th><th align="left" id="d66082e128">
+</th><th align="left" id="d66618e128">
 
 Note
 
-</th></tr></thead><tbody><tr><td id="d66082e134">
+</th></tr></thead><tbody><tr><td id="d66618e134">
 
 **Indicator group**
 
@@ -56,7 +56,7 @@ Note
 
 If you select an indicator group, you cannot select a single indicator.**Warning:** This option is not currently functional. Specify a single indicator and additional widget indicators.
 
-</td></tr><tr><td id="d66082e146">
+</td></tr><tr><td id="d66618e146">
 
 **Indicator**
 

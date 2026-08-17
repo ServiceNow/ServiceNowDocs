@@ -40,15 +40,15 @@ The Activity Stream screen tracks and shows all the information related to a wor
 
 7.  Add a document, image, or comment.
 
-<table id="choicetable_pqc_s44_lvb"><thead><tr><th align="left" id="d99738e109">
+<table id="choicetable_pqc_s44_lvb"><thead><tr><th align="left" id="d99559e109">
 
 Item to be added
 
-</th><th align="left" id="d99738e112">
+</th><th align="left" id="d99559e112">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d99738e118">
+</th></tr></thead><tbody><tr><td id="d99559e118">
 
 **Attach a document**
 
@@ -58,7 +58,7 @@ Actions
 2.  Select a document to add to your work order task.
 
 
-</td></tr><tr><td id="d99738e142">
+</td></tr><tr><td id="d99559e142">
 
 **Add an image**
 
@@ -68,7 +68,7 @@ Actions
 2.  Select an image to upload.
 
 
-</td></tr><tr><td id="d99738e166">
+</td></tr><tr><td id="d99559e166">
 
 **Add a photo**
 
@@ -78,7 +78,7 @@ Actions
 2.  Capture the image to include in your work order task.
 
 
-</td></tr><tr><td id="d99738e190">
+</td></tr><tr><td id="d99559e190">
 
 **Add a comment**
 

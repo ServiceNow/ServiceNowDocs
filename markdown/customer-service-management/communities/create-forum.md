@@ -146,7 +146,7 @@ The knowledge base used for harvesting community discussions to knowledge articl
         -   **Permission**: **Question &amp; Answer Read**.
     3.  In the **Approval Workflow for Membership** field, perform one of the following options.
 
-<table id="choicetable_qcd_dlc_t1b"><tbody><tr><td id="d144976e348">
+<table id="choicetable_qcd_dlc_t1b"><tbody><tr><td id="d144768e348">
 
 **Leave the __Approval Workflow for Membership__ field blank.**
 
@@ -154,7 +154,7 @@ The knowledge base used for harvesting community discussions to knowledge articl
 
 Membership requests to the forum are automatically approved.
 
-</td></tr><tr><td id="d144976e360">
+</td></tr><tr><td id="d144768e360">
 
 **Select the preconfigured approval workflow __Forum Membership Approval__.**
 
@@ -162,7 +162,7 @@ Membership requests to the forum are automatically approved.
 
 A task is created and sent to the community or forum administrator for approval.
 
-</td></tr><tr><td id="d144976e372">
+</td></tr><tr><td id="d144768e372">
 
 **Select a workflow that you have created.**
 

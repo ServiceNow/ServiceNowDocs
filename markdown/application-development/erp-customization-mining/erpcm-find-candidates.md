@@ -1,6 +1,6 @@
 ---
 title: Save potential candidates to replatform
-description: Use ERP Semantic Mining \(ERP-CM\) to save ERP \(Enterprise Resource Planning\) app candidates to replatform.
+description: Use ERP Customization Mining \(ERP-CM\) to save ERP \(Enterprise Resource Planning\) app candidates to replatform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-customization-mining/erpcm-find-candidates.html
 release: yokohama
@@ -9,16 +9,16 @@ classification: erp-customization-mining
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Finding and working with candidates to replatform, ERP Semantic Mining \(ERP-CM\), Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Finding and working with candidates to replatform, ERP Customization Mining \(ERP-CM\), Building low-code applications, Developing your application, Building applications]
 ---
 
 # Save potential candidates to replatform
 
-Use ERP Semantic Mining \(ERP-CM\) to save ERP \(Enterprise Resource Planning\) app candidates to replatform.
+Use ERP Customization Mining \(ERP-CM\) to save ERP \(Enterprise Resource Planning\) app candidates to replatform.
 
 ## Before you begin
 
-Admins must first configure the connection to the ERP system in Zero Copy Connector for ERP. For more information, see [Working with ERP systems in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-work-with-systems.md).
+Admins must first configure the connection to the ERP system in ERP Canvas. For more information, see [Working with ERP systems in ERP Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-work-with-systems.md).
 
 Role required: sn\_erp\_mining.erp\_user
 
@@ -55,7 +55,7 @@ Selecting a candidate as a potential candidate changes the candidate status from
 
 ## What to do next
 
-After you identify candidates, use Zero Copy Connector for ERP to view custom fields in remote and extraction tables, and add them to your ERP model. For more information, see [Building and managing ERP models to work with ERP data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/work-with-erp-data-models.md).
+After you identify candidates, use ERP Canvas to view custom fields in remote and extraction tables, and add them to your ERP model. For more information, see [Building and managing ERP models to work with ERP data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/work-with-erp-data-models.md).
 
 ERP-CM also recommends possible next steps for each candidate. For more information, see [Check candidate recommendations in ERP-CM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/erpcm-work-with-recommendations.md).
 

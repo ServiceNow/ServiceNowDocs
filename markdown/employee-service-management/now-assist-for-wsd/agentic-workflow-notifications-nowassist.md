@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2025-09-07"
 reading_time_minutes: 5
 keywords: [Now Assist panel]
-breadcrumb: [Use, Now Assist for Workplace Service Delivery \(WSD\), Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Use, Now Assist for WSD, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Review notifications in the Now Assist panel
@@ -19,7 +19,7 @@ Review notifications by AI agents in the Now Assist panel.
 
 ## Before you begin
 
-Workplace Event Planners can review the notifications and help AI agents take appropriate actions for blocking a space, moving any existing reservations to a new location, or for updating an existing reservation's date, time, or duration.
+Workplace Event Planners can review the notifications and help AI agents take appropriate actions. Actions include blocking a space, moving existing reservations to a new location, or updating a reservation's date, time, or duration.
 
 Role required: now\_assist\_panel\_role, sn\_wsd\_rsv.reservation\_planner, sn\_wsd\_case.case\_writer
 

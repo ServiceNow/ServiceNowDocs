@@ -23,7 +23,7 @@ The Yokohama release includes new products.
     -   [ServiceNow Add-in for Microsoft 365 release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/sn-addin-for-ms365-rn.md)
 -   **Enterprise Architecture**
 
-    [Now Assist for Enterprise Architecture \(EA\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/now-assist-for-ea-rn.md)
+    [ServiceNow Otto for Enterprise Architecture \(EA\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/now-assist-for-ea-rn.md)
 
 -   **Healthcare and Life Sciences**
     -   [Care Team Operations for Biomed release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/cto-biomed-rn.md)

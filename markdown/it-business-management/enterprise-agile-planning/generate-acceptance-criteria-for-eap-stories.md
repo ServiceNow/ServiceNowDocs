@@ -1,5 +1,5 @@
 ---
-title: Generate acceptance criteria for stories using Now Assist for Strategic Portfolio Management \(SPM\)
+title: Generate acceptance criteria for stories using ServiceNow Otto for Strategic Portfolio Management
 description: Create clear, comprehensive, and testable acceptance criteria for user stories without writing them manually in Enterprise Agile Planning \(EAP\). Review and refine suggested options to ensure they meet your requirements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/enterprise-agile-planning/generate-acceptance-criteria-for-eap-stories.html
@@ -12,18 +12,18 @@ reading_time_minutes: 1
 breadcrumb: [Manage team backlog, Use, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Generate acceptance criteria for stories using Now Assist for Strategic Portfolio Management \(SPM\)
+# Generate acceptance criteria for stories using ServiceNow Otto for Strategic Portfolio Management
 
 Create clear, comprehensive, and testable acceptance criteria for user stories without writing them manually in Enterprise Agile Planning \(EAP\). Review and refine suggested options to ensure they meet your requirements.
 
 ## Before you begin
 
-Ensure that Now Assist for SPM is installed in your instance and that the following two skills are active:
+Ensure that ServiceNow Otto for SPM is installed in your instance and that the following two skills are active:
 
 -   Acceptance criteria generation
 -   Refine records
 
-For more information, see [Configure Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/configure-now-assist-for-spm.md).
+For more information, see [Configure ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/configure-now-assist-for-spm.md).
 
 Role required: sn\_apw\_advanced.eap\_user
 

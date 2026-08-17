@@ -9,7 +9,7 @@ classification: hr-service-delivery
 topic_type: task
 last_updated: "2025-11-27"
 reading_time_minutes: 1
-breadcrumb: [Using your Alumni Center, Alumni Center, HR Service Delivery, Employee Service Management]
+breadcrumb: [Using your Alumni Service Center, Alumni Service Center, HR Service Delivery, Employee Service Management]
 ---
 
 # Add other employment details
@@ -22,7 +22,7 @@ Role required: sn\_asc.alumni
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Alumni Center** &gt; **Profile**.
+1.  Navigate to **All** &gt; **Alumni Service Center** &gt; **Profile**.
 
     **Note:** Select your name to see the profile option.
 

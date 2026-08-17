@@ -7,7 +7,7 @@ release: yokohama
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 7
-breadcrumb: [Customer Success Management reference, Customer Success Management]
+breadcrumb: [Account Lifecycle Events reference, Account Lifecycle Events]
 ---
 
 # Customer success business rules
@@ -88,7 +88,7 @@ This section includes the customer success business rules.
 |Abort if invalid template|Engagement Risk Definition|Aborts if risk template set for the risk definition is invalid|
 |Abort if duplicate record found|Risk Threshold Override|Aborts if similar record already exists|
 |Abort if no context mapper for risk def|Engagement Risk Definition|Aborts if risk definition is table type and no active mapper exists with the table selected in risk definition as the source and engagement as context|
-|Abort if color or range validation fails|Color Banding|Aborts if duplicate color exists for a record of the same type or max value is lesser than min value or if the given min-max range already overlaps with another existing record of the same type.|
+|Abort if color or range validation fails|Color Banding|Aborts if a duplicate color exists for a record of the same type. Aborts if the max value is less than the min value. Aborts if the given min-max range overlaps with another existing record of the same type.|
 |Abort if global min-max range is invalid|Color Banding|Aborts if global band has min less than 0 and max greater than 100|
 |Limit \# of global health definition to 1|Engagement Health Definition|Ensures there is at most 1 global health definition in system|
 |Unique engagement health definition|Engagement Health Definition|Ensures each health definition is unique|
@@ -102,5 +102,5 @@ This section includes the customer success business rules.
 |Avoid duplicate customer team|Applicable Customer Team|Aborts if similar record already exists|
 |Avoid duplicate account team|Applicable Account Team|Aborts if similar record already exists|
 
-**Parent Topic:**[Customer Success Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-reference.md)
+**Parent Topic:**[Account Lifecycle Events reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-reference.md)
 

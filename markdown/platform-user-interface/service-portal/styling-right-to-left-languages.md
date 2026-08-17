@@ -24,7 +24,7 @@ You can also provide your own CSS for right-to-left languages to override the au
 
 **Note:** Base system portals besides Service Portal \(/sp\) and custom portals might need additional CSS customization to mirror the direction of a portal for right-to-left languages completely.
 
-To track how many users view a portal in a right-to-left language, see the PortalPageLoad event in Usage Insights for Service Portal. For more information about available events, see [Service Portal events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/service-portal/sp-analytics-events.md).
+To track how many users view a portal in a right-to-left language, see the PortalPageLoad event in User Experience Analytics for Service Portal. For more information about available events, see [Service Portal events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/service-portal/sp-analytics-events.md).
 
 -   **[Mirror the portal direction for right-to-left languages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/service-portal/mirror-portal-direction-right-to-left-languages.md)**  
 Mirror the direction of a portal's user interface for right-to-left languages by enabling the necessary CSS.

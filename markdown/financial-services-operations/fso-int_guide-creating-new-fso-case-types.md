@@ -14,7 +14,7 @@ breadcrumb: [Using case types and service definitions in FSO, Using the develope
 
 If you need a new case type that can't be extended from an existing application, you can create one by extending the FSO Base Case \(sn\_bom\_case\) table.
 
-Creating a case type involves creating roles, modules, workspaces, and other required entities. For additional information on case types, see [Customer Service Case Types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/customer-service-case-types.md).
+Creating a case type involves creating roles, modules, workspaces, and other required entities. For additional information on case types, see Customer Service Case Types.
 
 Here’s a list of questions that you may consider when evaluating whether you must create a case type in FSO. This isn’t an exhaustive list, and you should conduct further analysis based on your individual requirements and use cases.
 

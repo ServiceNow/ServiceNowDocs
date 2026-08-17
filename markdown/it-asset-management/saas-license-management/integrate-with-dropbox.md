@@ -138,15 +138,15 @@ If you’re using Software Asset Workspace, the option to create the Dropbox int
 
 2.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d296193e472">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d297598e472">
 
 Interface
 
-</th><th align="left" id="d296193e475">
+</th><th align="left" id="d297598e475">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d296193e481">
+</th></tr></thead><tbody><tr><td id="d297598e481">
 
 **Core UI**
 
@@ -157,7 +157,7 @@ Action
 3.  Select **Dropbox Integration Profile**.
 
 
-</td></tr><tr><td id="d296193e523">
+</td></tr><tr><td id="d297598e523">
 
 **Software Asset Workspace**
 

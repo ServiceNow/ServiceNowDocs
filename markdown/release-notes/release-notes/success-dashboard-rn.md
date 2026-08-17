@@ -16,7 +16,7 @@ The ServiceNow® ITSM Success Dashboard application provides insights into the I
 
 Experience the all new KPIs introduced for the Now Assist under Productivity moments per user in ITSM Success Dashboard to understand the benefits of using Now Assist features like Change Summarization, Change Risk Explanation, and Knowledge Article generation.
 
-See [ITSM Success Dashboard indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/success-dashboard-indicator-landing.md) for more information.
+See  for more information.
 
 **Important:** ITSM Success Dashboard is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
@@ -28,15 +28,15 @@ See [ITSM Success Dashboard indicators](https://raw.githubusercontent.com/Servic
 
 ## Activation information
 
-Install ITSM Success Dashboard by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install ITSM Success Dashboard by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Related ServiceNow applications and features
 
--   **[Benchmarks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/benchmarks-landing.md)**
+-   ****
 
     The ServiceNow® Benchmarks application provides instant visibility into your key performance indicators \(KPIs\) and trends, as well as comparative insight relative to industry averages of your peers and to the industry top performers.
 
--   **[Performance Analytics \(Indicator data sources\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/pa-overview.md)**
+-   ****
 
     The ServiceNow® Performance Analytics application is an in-platform solution that enables organizations to
 
@@ -45,7 +45,7 @@ Install ITSM Success Dashboard by requesting it from the ServiceNow Store. Visit
     -   Answer key business questions
     -   Help increase quality
     -   Reduce the costs of service delivery
--   **[HR Success Dashboard indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/success-dashboard-landing.md)**
+-   ****
 
     HR Success Dashboard indicators provide performance insights to the HR leadership team and process owners. You can measure the performance of the HR implementation using the different KPIs.
 

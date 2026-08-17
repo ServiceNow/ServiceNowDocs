@@ -31,15 +31,15 @@ Dependencies for free-form roadmaps are available only if the roadmap's source t
 
 1.  Navigate to **Workspaces** &gt; **Strategic Planning Workspace** &gt; **Portfolio Planning** and open your roadmap.
 
-<table id="choicetable_vwv_t4z_5wb"><thead><tr><th align="left" id="d201906e96">
+<table id="choicetable_vwv_t4z_5wb"><thead><tr><th align="left" id="d201533e96">
 
 Roadmap type
 
-</th><th align="left" id="d201906e99">
+</th><th align="left" id="d201533e99">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d201906e105">
+</th></tr></thead><tbody><tr><td id="d201533e105">
 
 **Portfolio plan roadmap**
 
@@ -49,7 +49,7 @@ Navigation
 2.  From the Planning section, select **Roadmap**.
 
 
-</td></tr><tr><td id="d201906e126">
+</td></tr><tr><td id="d201533e126">
 
 **Free-form roadmap**
 
@@ -68,15 +68,15 @@ From the Free-form Roadmaps tab, select a roadmap.
 
 4.  From the side panel, locate your dependency and use the More actions icon \(\[Omitted image "icon-more-actions.png"\] Alt text: More actions icon.\) to edit or delete.
 
-<table id="choicetable_syp_cn3_2tb"><thead><tr><th align="left" id="d201906e183">
+<table id="choicetable_syp_cn3_2tb"><thead><tr><th align="left" id="d201533e183">
 
 Choice
 
-</th><th align="left" id="d201906e186">
+</th><th align="left" id="d201533e186">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d201906e192">
+</th></tr></thead><tbody><tr><td id="d201533e192">
 
 **Edit dependency**
 
@@ -87,7 +87,7 @@ Steps
 
 For field information, see [Dependency form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/dependency-form.md).
 
-</td></tr><tr><td id="d201906e228">
+</td></tr><tr><td id="d201533e228">
 
 **Delete dependency**
 

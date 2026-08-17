@@ -22,7 +22,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Microsoft Dynamics CRM spoke v1.10.0 is the latest version.
+Microsoft Dynamics CRM spoke v1.10.1 is the latest version.
 
 ## Spoke dependencies
 

@@ -1,6 +1,6 @@
 ---
 title: Tutorial part 4: Restrict data and collaborate with other developers
-description: Learn how to restrict data usage with business rules and also how to add collaborators to your application.Restrict data access in your application by adding business rules with Now Assist for Code generation.Learn how to add collaborators to your app in ServiceNow Studio.
+description: Learn how to restrict data usage with business rules and also how to add collaborators to your application.Restrict data access in your application by adding business rules with ServiceNow Otto for Code generation.Learn how to add collaborators to your app in ServiceNow Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/servicenow-studio-classic/lab-4-restrict-data-and-collaborate.html
 release: yokohama
@@ -20,7 +20,7 @@ Learn how to restrict data usage with business rules and also how to add collabo
 
 ## Restrict data using business rules and code generation
 
-Restrict data access in your application by adding business rules with Now Assist for Code generation.
+Restrict data access in your application by adding business rules with ServiceNow Otto for Code generation.
 
 ### Before you begin
 

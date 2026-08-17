@@ -1,6 +1,6 @@
 ---
 title: Start or complete iterations in EAP
-description: Start an iteration of a Sprint or PI so that your team can start working and tracking progress of work, and after your team finishes the assigned work, mark this iteration as complete, directly from the Backlog in Enterprise Agile Planning.
+description: Start an iteration of a Sprint or PI so that your team can start working and tracking progress of work. After your team finishes the assigned work, mark this iteration as complete, directly from the Backlog in Enterprise Agile Planning.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/enterprise-agile-planning/start-or-complete-iteration-in-eap.html
 release: yokohama
@@ -14,7 +14,7 @@ breadcrumb: [Manage team backlog, Use, Enterprise Agile Planning, Strategic Plan
 
 # Start or complete iterations in EAP
 
-Start an iteration of a Sprint or PI so that your team can start working and tracking progress of work, and after your team finishes the assigned work, mark this iteration as complete, directly from the Backlog in Enterprise Agile Planning.
+Start an iteration of a Sprint or PI so that your team can start working and tracking progress of work. After your team finishes the assigned work, mark this iteration as complete, directly from the Backlog in Enterprise Agile Planning.
 
 ## Before you begin
 

@@ -9,7 +9,7 @@ classification: event-management
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Event Management reference, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Event Management reference, Event Management, ITOM Health, IT Operations Management]
 ---
 
 # Connector domain metadata

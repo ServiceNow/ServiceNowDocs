@@ -1,6 +1,6 @@
 ---
-title: Cloud Services Catalog Terraform Connector
-description: Use the ServiceNow Cloud Services Catalog Terraform Connector to generate catalog items from the Terraform templates and use them to provision and manage resources in various clouds.
+title: Cloud Provisioning and Governance: Terraform Connector
+description: Use the ServiceNow Cloud Provisioning and Governance: Terraform Connector to generate catalog items from the Terraform templates and use them to provision and manage resources in various clouds.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/cloud-configuration-governance/cpg-terraform-connector-landing-page.html
 release: yokohama
@@ -12,23 +12,23 @@ reading_time_minutes: 1
 breadcrumb: [Support for continuous delivery \(configuration management\), Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Optimization, IT Operations Management]
 ---
 
-# Cloud Services Catalog Terraform Connector
+# Cloud Provisioning and Governance: Terraform Connector
 
-Use the ServiceNow® Cloud Services Catalog Terraform Connector to generate catalog items from the Terraform templates and use them to provision and manage resources in various clouds.
+Use the ServiceNow® Cloud Provisioning and Governance: Terraform Connector to generate catalog items from the Terraform templates and use them to provision and manage resources in various clouds.
 
 ## Get started
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore \[Omitted image "icon-explore.png"\] Alt text: Explore the Cloud Services Catalog Terraform Connector app. Learn about the Cloud Services Catalog Terraform Connector application.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/exploring-cpg-terraform-connector.md)
+[Explore \[Omitted image "icon-explore.png"\] Alt text: Explore the Cloud Provisioning and Governance: Terraform Connector app. Learn about the Cloud Provisioning and Governance: Terraform Connector application.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/exploring-cpg-terraform-connector.md)
 
 </td><td>
 
-[Configure \[Omitted image "icon-set-up.png"\] Alt text: Configure the Cloud Services Catalog Terraform Connector app. Plan and configure your implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/configure-cpg-terraform-connector.md)
+[Configure \[Omitted image "icon-set-up.png"\] Alt text: Configure the Cloud Provisioning and Governance: Terraform Connector app. Plan and configure your implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/configure-cpg-terraform-connector.md)
 
 </td></tr><tr><td>
 
-[Use \[Omitted image "icon-workspace.png"\] Alt text: Use the Cloud Services Catalog Terraform Connector app. Use the Cloud Services Catalog Terraform Connector app to discover resources from the Terraform environment, create catalog items, and maintain them.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/using-ccg-terraform-connector.md)
+[Use \[Omitted image "icon-workspace.png"\] Alt text: Use the Cloud Provisioning and Governance: Terraform Connector app. Use the Cloud Provisioning and Governance: Terraform Connector app to discover resources from the Terraform environment, create catalog items, and maintain them.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/using-ccg-terraform-connector.md)
 
 </td><td>
 

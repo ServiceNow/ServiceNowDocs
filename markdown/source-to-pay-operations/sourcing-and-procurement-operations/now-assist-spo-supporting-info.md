@@ -1,6 +1,6 @@
 ---
-title: Supporting information for Now Assist for Sourcing and Procurement Operations \(SPO\)
-description: Get a quick overview of the important information that is related to the Now Assist for Sourcing and Procurement Operations \(SPO\) application.
+title: Supporting information for ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)
+description: Get a quick overview of the important information that is related to the ServiceNow Otto for Sourcing and Procurement Operations \(SPO\) application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-supporting-info.html
 release: yokohama
@@ -10,20 +10,20 @@ topic_type: concept
 last_updated: "2026-03-06"
 reading_time_minutes: 1
 keywords: [Supporting information for Now Assist for SPO]
-breadcrumb: [Explore Now Assist for Sourcing and Procurement Operations \(SPO\), Now Assist for Sourcing and Procurement Operations \(SPO\), Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Explore ServiceNow Otto for Sourcing and Procurement Operations \(SPO\), ServiceNow Otto for Sourcing and Procurement Operations \(SPO\), Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
-# Supporting information for Now Assist for Sourcing and Procurement Operations \(SPO\)
+# Supporting information for ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)
 
-Get a quick overview of the important information that is related to the Now Assist for Sourcing and Procurement Operations \(SPO\) application.
+Get a quick overview of the important information that is related to the ServiceNow Otto for Sourcing and Procurement Operations \(SPO\) application.
 
 ## Supported versions
 
-Now Assist for SPO is supported starting with Xanadu.
+ServiceNow Otto for SPO is supported starting with Xanadu.
 
 ## Supported user interfaces
 
-The Now Assist for SPO application includes the skills that are listed in the following table.
+The ServiceNow Otto for SPO application includes the skills that are listed in the following table.
 
 <table id="table_odd_d2y_wyb"><thead><tr><th>
 
@@ -94,7 +94,7 @@ Core UI
 </td></tr></tbody>
 </table>## Application information
 
-Activate the Now Assist for SPO store app \(sn\_spend\_gen\_ai\) to use the Conversational intake experience and Record summarization skills.
+Activate the ServiceNow Otto for SPO store app \(sn\_spend\_gen\_ai\) to use the Conversational intake experience and Record summarization skills.
 
 This store app has the following dependencies:
 
@@ -107,7 +107,7 @@ Activate the applications in the following order:
 1.  Now Assist for Platform \(sn\_genai\_platform\)
 2.  Sourcing and Purchasing Automation \(com.snc.sn\_pr\)
 3.  Now Assist for FSC Common \(sn\_fsc\_genai\)
-4.  Now Assist for Sourcing and Procurement Operations \(SPO\) \(sn\_spend\_gen\_ai\)
+4.  ServiceNow Otto for Sourcing and Procurement Operations \(SPO\) \(sn\_spend\_gen\_ai\)
 
-For more information, see [Configure Now Assist for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/configure-now-assist-for-spo.md).
+For more information, see [Configure ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/configure-now-assist-for-spo.md).
 

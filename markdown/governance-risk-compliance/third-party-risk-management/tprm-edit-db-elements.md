@@ -35,15 +35,15 @@ You can edit the details of dashboards created in the in-line editor and in the 
 
 3.  Perform any of the following actions.
 
-<table id="choicetable_gv3_q3r_g5"><thead><tr><th align="left" id="d179798e109">
+<table id="choicetable_gv3_q3r_g5"><thead><tr><th align="left" id="d179773e109">
 
 Action
 
-</th><th align="left" id="d179798e112">
+</th><th align="left" id="d179773e112">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d179798e118">
+</th></tr></thead><tbody><tr><td id="d179773e118">
 
 **Add an element**
 
@@ -58,7 +58,7 @@ You can also select **Add new element** on any selected dashboard element to see
 4.  Drag to move the widget or resize it.
 
 
-</td></tr><tr><td id="d179798e162">
+</td></tr><tr><td id="d179773e162">
 
 **Save a data visualization to the Visualization Library**
 
@@ -72,7 +72,7 @@ You can also select **Add new element** on any selected dashboard element to see
 6.  Select **Add to library**.
 The data visualization is available in the Visualization library for use on other dashboards.
 
-</td></tr><tr><td id="d179798e216">
+</td></tr><tr><td id="d179773e216">
 
 **Delete an element from the dashboard**
 
@@ -83,7 +83,7 @@ The data visualization is available in the Visualization library for use on othe
 3.  In the header, select the more actions menu icon \[Omitted image "context-menu-db-element-ac.png"\] Alt text: and select **Delete**.
  **Note:** There’s no confirmation message. The widget disappears from the dashboard.
 
-</td></tr><tr><td id="d179798e251">
+</td></tr><tr><td id="d179773e251">
 
 **Configure an element**
 
@@ -100,7 +100,7 @@ The data visualization is available in the Visualization library for use on othe
     -   [Simple List component reference](https://developer.servicenow.com/dev.do#!/reference/now-experience/xanadu/shared-components/now-record-list-connected-snapshot/uib-setup)
  **Note:** If you change a visualization from the Visualization Library, you have the choice to save the change only to the dashboard or to the element in the library. When you change an element in the library, the change is reflected everywhere the element is used. When you change only in the dashboard, you create a copy of the visualization that exists only in that dashboard.
 
-</td></tr><tr><td id="d179798e317">
+</td></tr><tr><td id="d179773e317">
 
 **Move an element between tabs**
 
@@ -111,7 +111,7 @@ When you have multiple tabs, you can move elements from tab to another or to the
 3.  When you choose **Move to a different tab**, choose the tab and select **Move**.
 
 
-</td></tr><tr><td id="d179798e357">
+</td></tr><tr><td id="d179773e357">
 
 **Add filters to the dashboard**
 
@@ -121,7 +121,7 @@ Filters let users filter data for all report widgets on a dashboard that follow 
 
  For more information, see [Filters in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/interactive-filters-workspace.md).
 
-</td></tr><tr><td id="d179798e376">
+</td></tr><tr><td id="d179773e376">
 
 **Configure a data visualization to follow or not follow filters**
 
@@ -134,7 +134,7 @@ Data visualizations follow filters by default. A data visualization follows filt
 5.  To show a filter icon \[Omitted image "filter-outline-24.svg"\] Alt text: on the data visualization when it follows an interactive filter, select the **Show filter icon**.
 
 
-</td></tr><tr><td id="d179798e421">
+</td></tr><tr><td id="d179773e421">
 
 **Enable chart interaction**
 
@@ -150,7 +150,7 @@ Choose what happens when a user selects a visualization or one of its segments. 
 5.  Select **Go to URL** to open a specified web page.
 
 
-</td></tr><tr><td id="d179798e467">
+</td></tr><tr><td id="d179773e467">
 
 **View the description of a dashboard element**
 

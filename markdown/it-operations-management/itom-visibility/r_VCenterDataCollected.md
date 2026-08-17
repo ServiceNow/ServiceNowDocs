@@ -705,7 +705,7 @@ Exports to::Imports from
 Disk \[cmdb\_ci\_disk\]
 
 </td></tr></tbody>
-</table>\* These relationships are part of Software Asset Management \(SAM\) use case.
+</table>\* These relationships are part of Software Asset Management \(ServiceNow Otto for SAM\) use case.
 
 † The relationships between the listed server CIs and the ESX Server and VM Instance are created by the business rule "Virtual Computer Check." The server CI must be discovered after the vCenter is discovered to trigger the business rule and create the relationships.
 

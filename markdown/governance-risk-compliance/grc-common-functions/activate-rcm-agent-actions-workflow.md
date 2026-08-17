@@ -19,7 +19,7 @@ Configure and activate the generate regulatory action plan agentic workflow. Thi
 
 ## Before you begin
 
-Install the Now Assist for IRM plugin \(sn\_irm\_gen\_ai\).
+Install the ServiceNow Otto for IRM plugin \(sn\_irm\_gen\_ai\).
 
 The regulatory alert recommendation skill and a regulatory alert with impacted areas defined are required to generate an action plan. For more information, see [AI-generated recommendations for a regulatory alert skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/recommendations-for-a-regulatory-alert.md).
 

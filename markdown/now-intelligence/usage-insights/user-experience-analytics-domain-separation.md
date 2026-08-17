@@ -1,6 +1,6 @@
 ---
-title: Domain separation in Usage Insights
-description: If any conkeyrefs are broken, re-add them from the doc/source/reuse/domain-separation/domain-separation-overview.dita file.In the short description, edit the first sentence to state whether domain separation is supported or not and add the application name. Keep the conkeyref at the end that describes domain separation.Domain separation is not supported for the Usage Insights application.
+title: Domain separation in User Experience Analytics
+description: If any conkeyrefs are broken, re-add them from the doc/source/reuse/domain-separation/domain-separation-overview.dita file.In the short description, edit the first sentence to state whether domain separation is supported or not and add the application name. Keep the conkeyref at the end that describes domain separation.Domain separation is not supported for the User Experience Analytics application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/usage-insights/user-experience-analytics-domain-separation.html
 release: yokohama
@@ -12,9 +12,9 @@ reading_time_minutes: 1
 breadcrumb: [User Experience Analytics reference, User Experience Analytics, Platform Analytics]
 ---
 
-# Domain separation in Usage Insights
+# Domain separation in User Experience Analytics
 
-Domain separation is not supported for the Usage Insights application.
+Domain separation is not supported for the User Experience Analytics application.
 
 ## Support level: No support
 

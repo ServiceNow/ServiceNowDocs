@@ -1,5 +1,5 @@
 ---
-title: Activate Group Action Framework for Now Assist for Telecommunications, Media and Technology \(TMT\)
+title: Activate Group Action Framework for ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
 description: Activate Group Action Framework \(GAF\) to enable Now Assist AI agents to collect information about the related records across your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-media-technology/now-assist-for-telecom-media-and-technology/activate-group-action-framework.html
@@ -9,10 +9,10 @@ classification: now-assist-for-telecom-media-and-technology
 topic_type: task
 last_updated: "2025-04-24"
 reading_time_minutes: 1
-breadcrumb: [Analyze network incidents, Customer Service Problem Management agentic workflows, Use agentic workflows, Now Assist for Telecommunications, Media and Technology \(TMT\), Telecommunications, Media, and Technology]
+breadcrumb: [Analyze network incidents, Customer Service Problem Management agentic workflows, Use agentic workflows, ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\), Telecommunications, Media, and Technology]
 ---
 
-# Activate Group Action Framework for Now Assist for Telecommunications, Media and Technology \(TMT\)
+# Activate Group Action Framework for ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
 
 Activate Group Action Framework \(GAF\) to enable Now Assist AI agents to collect information about the related records across your instance.
 

@@ -34,7 +34,7 @@ When business rule logic identifies a claim case as a 'close proximity' claim- a
 
 3.  Open the task from the special investigation tasks list.
 
-<table id="choicetable_bn1_2hs_25b"><tbody><tr><td id="d73694e90">
+<table id="choicetable_bn1_2hs_25b"><tbody><tr><td id="d73285e90">
 
 **From the Special Investigation tasks list**
 

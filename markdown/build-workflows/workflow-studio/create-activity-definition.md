@@ -32,15 +32,15 @@ Specify the action or subflow you want an activity to run. Configure the inputs 
 
 2.  Fill in the Activity Definition form fields.
 
-<table id="choicetable_ndc_pgy_5lb"><thead><tr><th align="left" id="d171598e173">
+<table id="choicetable_ndc_pgy_5lb"><thead><tr><th align="left" id="d170937e173">
 
 Field
 
-</th><th align="left" id="d171598e176">
+</th><th align="left" id="d170937e176">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d171598e182">
+</th></tr></thead><tbody><tr><td id="d170937e182">
 
 **Label**
 
@@ -50,7 +50,7 @@ Enter a unique name for your activity.
 
  This name appears in the playbook in both the Workflow Studio Playbooks builder as well as during playbook runtime.
 
-</td></tr><tr><td id="d171598e209">
+</td></tr><tr><td id="d170937e209">
 
 **Table**
 
@@ -60,7 +60,7 @@ Select a table whose records the activity can access as inputs. When adding inpu
 
  **Note:** The table specified for a playbook's triggering input record overrides the activity definition table at design time. See [Triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/process-automation-designer-triggers.md)
 
-</td></tr><tr><td id="d171598e253">
+</td></tr><tr><td id="d170937e253">
 
 **Description**
 
@@ -68,7 +68,7 @@ Select a table whose records the activity can access as inputs. When adding inpu
 
 Optionally, enter some descriptive details about your activity.
 
-</td></tr><tr><td id="d171598e262">
+</td></tr><tr><td id="d170937e262">
 
 **Accessible From**
 
@@ -78,7 +78,7 @@ Choose one of the following options:-   **All application scopes** - You can add
 -   **This application scope only** - You can only add this activity to playbooks within the same application scope specified in the **Application** field.
 
 
-</td></tr><tr><td id="d171598e291">
+</td></tr><tr><td id="d170937e291">
 
 **Required Roles**
 

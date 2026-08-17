@@ -1,6 +1,6 @@
 ---
-title: Now Assist for Hardware Asset Management \(HAM\)
-description: Use the Now Assist for Hardware Asset Management \(HAM\) application to streamline and automate the hardware asset request process and the repair process with the agentic workflows.
+title: ServiceNow Otto for Hardware Asset Management \(HAM\)
+description: Use the ServiceNow Otto for Hardware Asset Management \(HAM\) application to streamline and automate the hardware asset request process and the repair process with the agentic workflows.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/now-assist-for-hardware-asset-management/now-assist-ham.html
 release: yokohama
@@ -13,9 +13,9 @@ keywords: [AI Agents, Agentic AI]
 breadcrumb: [Hardware Asset Management, IT Asset Management]
 ---
 
-# Now Assist for Hardware Asset Management \(HAM\)
+# ServiceNow Otto for Hardware Asset Management \(HAM\)
 
-Use the Now Assist for Hardware Asset Management \(HAM\) application to streamline and automate the hardware asset request process and the repair processwith the agentic workflows.
+Use the ServiceNow Otto for Hardware Asset Management \(HAM\) application to streamline and automate the hardware asset request process and the repair processwith the agentic workflows.
 
 Watch this short video for an introduction to the agentic AI for Hardware Asset Management application.
 
@@ -25,19 +25,19 @@ Watch this short video for an introduction to the agentic AI for Hardware Asset 
 
 <table id="table_esh_mkr_w2c" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about Now Assist for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/now-assist-for-hardware-asset-management/exploring-now-assist-ham.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about ServiceNow Otto for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/now-assist-for-hardware-asset-management/exploring-now-assist-ham.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the Now Assist for HAM application to get started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/now-assist-for-hardware-asset-management/configuring-now-assist-ham.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the ServiceNow Otto for HAM application to get started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/now-assist-for-hardware-asset-management/configuring-now-assist-ham.md)
 
 </td></tr><tr><td>
 
-[Use generative AI skills\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Use generative AI capabilities offered by Now Assist for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/now-assist-for-hardware-asset-management/now-assist-ham-agent-ai.md)
+[Use generative AI skills\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Use generative AI capabilities offered by ServiceNow Otto for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/now-assist-for-hardware-asset-management/now-assist-ham-agent-ai.md)
 
 </td><td>
 
-[Use Hardware Asset Management AI agent collection\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Use agentic workflows in Now Assist for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/now-assist-for-hardware-asset-management/now-assist-ham-agentic-workflow.md)
+[Use Hardware Asset Management AI agent collection\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Use agentic workflows in ServiceNow Otto for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/now-assist-for-hardware-asset-management/now-assist-ham-agentic-workflow.md)
 
 </td></tr></tbody>
 </table>**Important:**

@@ -1,6 +1,6 @@
 ---
-title: Now Assist for Creator \[now.assist.creator\] role
-description: This role grants users access to Now Assist for Creator skills.
+title: ServiceNow Otto for Creator \[now.assist.creator\] role
+description: This role grants users access to ServiceNow Otto for Creator skills.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/build-workflows/now-assist-for-creator/creator-roles-1.html
 release: yokohama
@@ -12,9 +12,9 @@ reading_time_minutes: 1
 breadcrumb: [Now Assist for Creator, Build workflows]
 ---
 
-# Now Assist for Creator \[now.assist.creator\] role
+# ServiceNow Otto for Creator \[now.assist.creator\] role
 
-This role grants users access to Now Assist for Creator skills.
+This role grants users access to ServiceNow Otto for Creator skills.
 
 ## Contains roles
 

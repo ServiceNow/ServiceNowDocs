@@ -1,5 +1,5 @@
 ---
-title: Analyze your hardware assets by using Now Assist for HAM
+title: Analyze your hardware assets by using ServiceNow Otto for HAM
 description: View consolidated asset data and identify key action items with the comprehensive AI-generated analysis summary.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/now-assist-for-hardware-asset-management/generate-asset-analysis-now-assist-ham.html
@@ -10,10 +10,10 @@ topic_type: task
 last_updated: "2026-02-03"
 reading_time_minutes: 1
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Use generative AI skills, Now Assist for Hardware Asset Management \(HAM\), Hardware Asset Management, IT Asset Management]
+breadcrumb: [Use generative AI skills, ServiceNow Otto for Hardware Asset Management \(HAM\), Hardware Asset Management, IT Asset Management]
 ---
 
-# Analyze your hardware assets by using Now Assist for HAM
+# Analyze your hardware assets by using ServiceNow Otto for HAM
 
 View consolidated asset data and identify key action items with the comprehensive AI-generated analysis summary.
 

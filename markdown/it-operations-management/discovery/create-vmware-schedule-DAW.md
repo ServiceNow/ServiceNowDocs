@@ -7,7 +7,7 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-07-27"
 reading_time_minutes: 4
 keywords: [Discovery, Admin, Workspace]
 breadcrumb: [Discovery for VMware Cloud, Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
@@ -23,9 +23,9 @@ Verify the following:
 
 -   You have at least one validated MID Server with a status of **Up**. The MID Server must reach the IP ranges that you intend to discover. You can install the MID Server by using [Use MID Server guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/use-mid-server-guidedsetup.md) or by manually downloading and running the installer. For details, see the MID Server installation instructions for [Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/t_InstallAMIDServerOnLinux.md) and [Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/mid-server-install-prereqs.md).
 -   The MID Server used for Cloud Discovery is configured with the Cloud Management capability.
--   You have configured a vSphere user in the VMware vSphere Client with the roles and permissions required so that the MID Server can access the selected cloud resources you plan to discover.
+-   Configure a vSphere user in the VMware vSphere Client with the required roles and permissions. This grants the MID Server access to the cloud resources you plan to discover.
 -   You have created suitable credentials in the ServiceNow AI Platform to connect with the vSphere user that you want to use for discovery. For more information, see [Discovery for VMware Cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/vmware-cloud-discovery.md).
--   You're using Discovery Admin Workspace v1.13.0.
+-   You're using Discovery Admin Workspace v1.13.0 or later.
 
 Role required: discovery\_admin
 
@@ -53,15 +53,15 @@ Role required: discovery\_admin
 
 8.  Select a cloud account.
 
-<table id="choicetable_bbl_3zw_zgc"><thead><tr><th align="left" id="d290596e307">
+<table id="choicetable_bbl_3zw_zgc"><thead><tr><th align="left" id="d289396e307">
 
 Option
 
-</th><th align="left" id="d290596e310">
+</th><th align="left" id="d289396e310">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d290596e316">
+</th></tr></thead><tbody><tr><td id="d289396e316">
 
 **Existing cloud account**
 
@@ -69,13 +69,13 @@ Description
 
 Select an existing cloud account on your instance. Once an account is selected, the **Account name**, **UUID**, and **URL** fields auto-populate.
 
-</td></tr><tr><td id="d290596e334">
+</td></tr><tr><td id="d289396e334">
 
 **New cloud account**
 
 </td><td>
 
-Add a new cloud account to your instance by entering an account name, UUID, and URL.**Note:**
+Add a cloud account to your instance by entering an account name, UUID, and URL.**Note:**
 
 -   You can access the UUID in the VMware vSphere Client via **VMs** &gt; **Manage Columns** &gt; **UUID**
 -   Example URL: `https://<openstack dns>:<port>`

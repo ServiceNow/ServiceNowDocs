@@ -1,6 +1,6 @@
 ---
 title: Configure Telecommunications Discovery \(TSOM\) Patterns
-description: This document outlines the dependencies, requirements, and installation steps necessary for setting up Telecommunications Discovery Patterns \(also known as TSOM Patterns\) in TSOM Visibility in ServiceNow.The process of obtaining and installing the Telecommunications Discovery Patterns in TSOM.In order to support the TSOM Visibility solution, we have modified the CMBD CI Class Models store application, introducing updates to the IRE Identification Rules for the following telecom CIs.
+description: This document outlines the dependencies, requirements, and installation steps necessary for setting up Telecommunications Discovery Patterns \(also known as TSOM Patterns\) in TSOM Visibility in ServiceNow.The process of obtaining and installing the Telecommunications Discovery Patterns in TSOM.To support the TSOM Visibility solution, the CMBD CI Class Models store application was modified. Updates were introduced to the IRE Identification Rules for the following telecom CIs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-service-ops/telecom-visibility/configuring-telecommunications-discovery-patterns.html
 release: yokohama
@@ -24,7 +24,7 @@ Role required: admin
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Dependencies and Requirements
 
@@ -93,9 +93,9 @@ Role required: admin
 
 ## TSOM Visibility Installation Disclaimer
 
-In order to support the TSOM Visibility solution, we have modified the CMBD CI Class Models store application, introducing updates to the IRE Identification Rules for the following telecom CIs.
+To support the TSOM Visibility solution, the CMBD CI Class Models store application was modified. Updates were introduced to the IRE Identification Rules for the following telecom CIs.
 
-For more information about CMBD CI Class Models store application, see CMDB CI Class Models.
+For more information about CMBD CI Class Models store application, see [CMDB CI Class Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/cmdb-ci-class-models.md).
 
 -   **Interface Cards**
 -   **Slots**
@@ -104,9 +104,9 @@ For more information about CMBD CI Class Models store application, see CMDB CI C
 
 TSOM Visibility requires CMDB CI Class Models Version 1.69.0 \(**sn\_cmdb\_ci\_class**\).
 
-If you install any of the TSOM Visibility applications \(**sn\_sgc\_altiplano\_connector**, **sn\_tsom\_patterns**, or the **sn\_tsom\_core** plugin\), the CMDB CI Class Models store application is automatically updated \(or installed\) to Version 1.69.0.
+If you install any of the TSOM Visibility applications \(**sn\_sgc\_altiplano\_connector**, **sn\_tsom\_patterns**, or the **sn\_tsom\_core** plugin\), the system automatically updates the CMDB CI Class Models store application. The application is updated \(or installed\) to Version 1.69.0.
 
 **Note:** An administrator can still upgrade the CMDB CI Class Models store application to Version 1.69.0 at their discretion, regardless of whether their Yokohama instance has TSOM Visibility or even if their instance is on a pre-Yokohama release \(for example, Washington DC or Xanadu\).
 
-**IMPORTANT!** If an administrator deploys CMDB CI Class Models Version 1.69.0—whether or not TSOM Visibility is installed—any customized IRE identification rules applied to one or more of the above-mentioned telecom CIs may be affected. These rules will require careful validation to ensure proper functionality.
+**IMPORTANT!** If an administrator deploys CMDB CI Class Models Version 1.69.0, any customized IRE identification rules applied to one or more of the above-mentioned telecom CIs may be affected. This applies whether or not TSOM Visibility is installed. These rules will require careful validation to ensure proper functionality.
 

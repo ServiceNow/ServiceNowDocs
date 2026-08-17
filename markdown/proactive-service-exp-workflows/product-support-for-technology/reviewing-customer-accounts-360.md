@@ -26,7 +26,7 @@ As a technical support agent, you can collect information related to tasks, esca
 -   How many tasks are being closed, by type, and how many are being opened on a rolling 12-week basis.
 -   Specific knowledge articles and catalog items developed for the account. With this information, your agents can gain the insights into what the customer or partner wants and what actions need to be taken.
 
-The data visualized inside of Operations Account 360 view inside of Service Operations Workspace is derived from task records where the company value equals to the account selected when this view is launched. Knowledge Articles and Catalog Items are exception to this as.
+The data visualized inside of Operations Account 360 view inside of the Service Operations Workspace is derived from task records. The company value equals to the account selected when this view is launched. Knowledge Articles and Catalog Items are exception to this as.
 
 Additionally, the Operations Account 360 View only works for company records with the class value equals to account. Company records with the class value of company shows the traditional default workspace view of Service Operations Workspace.
 

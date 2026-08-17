@@ -18,7 +18,7 @@ When your organization can't comply with a vulnerability management or security 
 
 Use the Security Exposure Management workspace to limit the duration of an exception request and add a questionnaire to the exception or false positive request. You can also request an exception using the GRC: Policy and Compliance Management integration.
 
-Role required: sn\_vul\_exception.admin
+Role required: sn\_sec\_exception.admin
 
 ## About this task
 
@@ -75,9 +75,4 @@ The exception approver requires the reason for the exception request.
 
 8.  Select **Save**.
 
-
-**Related topics**  
-
-
-[sem-exception-ques-scenarios]
 

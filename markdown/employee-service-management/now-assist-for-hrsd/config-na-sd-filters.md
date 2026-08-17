@@ -9,7 +9,7 @@ classification: now-assist-for-hrsd
 topic_type: task
 last_updated: "2025-09-17"
 reading_time_minutes: 4
-breadcrumb: [Configure, Now Assist for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
+breadcrumb: [Configure, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
 # Configure sensitivity detection
@@ -49,26 +49,26 @@ Configurations are available on the Now Assist Admin Panel settings as part of N
 
 When an employee enters one of the configured sensitive phrases, the virtual agent offers to either redirect the employee to a live agent, create a case, or if the virtual agent incorrectly identifies a sensitive topic, the employee can select to proceed with the interaction.
 
-**Parent Topic:**[Configure Now Assist for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md)
+**Parent Topic:**[Configure ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md)
 
 **Related topics**  
 
 
-[Skill inputs and triggers for Now Assist for HR Service Delivery \(HRSD\)]()
+[Skill inputs and triggers for ServiceNow Otto for HR Service Delivery \(HRSD\)]()
 
-[RCA approvals for Now Assist for HR Service Delivery \(HRSD\)]()
+[RCA approvals for ServiceNow Otto for HR Service Delivery \(HRSD\)]()
 
 [Restrict Now Assist capabilities for employee relations cases]()
 
-[Customize the Now Assist for HRSD skills]()
+[Customize the ServiceNow Otto for HRSD skills]()
 
 [Configure attachment summary]()
 
-[Configure resolution notes generation for Now Assist for HRSD]()
+[Configure resolution notes generation for ServiceNow Otto for HRSD]()
 
 [Configure Gen AI Virtual Agent for HRSD]()
 
-[Configure the Now Assist for HRSD Virtual Agent topics]()
+[Configure the ServiceNow Otto for HRSD Virtual Agent topics]()
 
 [Configure HCM agents for HR Service Delivery AI Agent Collection]()
 
@@ -76,7 +76,7 @@ When an employee enters one of the configured sensitive phrases, the virtual age
 
 [bundle-platai.add-semantic-filtering-for-sensitive-information]
 
-[Detect sensitive topics by using sensitivity detection in Now Assist for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-sensitivity-detection.md)
+[Detect sensitive topics by using sensitivity detection in ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-sensitivity-detection.md)
 
 [Sensitivity detection configuration tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/reference-sd-config-tables.md)
 

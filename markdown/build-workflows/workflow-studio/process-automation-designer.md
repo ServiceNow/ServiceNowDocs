@@ -92,7 +92,7 @@ Understand how Workflow Studio Playbooks work in the ServiceNow AI Platform® to
 -   **[Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/exploring-process-automation-designer.md)**  
 Playbooks are a component in Workflow Studio. Workflow Studio gives you a streamlined way to author, configure, and monitor playbooks, flows, subflows, actions, and decision tables in one place.
 -   **[Playbook generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/playbook-assist-landing.md)**  
-Use Now Assist to generate playbooks from text directions or images. For example, you can enter directions to generate a playbook outline for managing customer support cases. Playbook Assist is part of the Now Assist for Creator application.
+Use Now Assist to generate playbooks from text directions or images. For example, you can enter directions to generate a playbook outline for managing customer support cases. Playbook Assist is part of the ServiceNow Otto for Creator application.
 -   **[Getting started with Process Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/getting-started-process-automation.md)**  
 Learn how Process Automation applications can help you use the ServiceNow AI Platform® to transform your manual business processes into digitized, automated workflows.
 -   **[Domain separation and Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/process-automation-designer-domain-separation.md)**  

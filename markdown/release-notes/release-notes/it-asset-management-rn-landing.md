@@ -18,10 +18,10 @@ The ServiceNow® Enterprise Asset Management application manages the entire life
 The ServiceNow® Hardware Asset Management application provides advanced workflow, automation, and mobile capabilities to track and manage your technology asset environment. Hardware Asset Management was enhanced and updated in the Yokohama release.
 -   **[Software Asset Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/software-asset-management-rn.md)**  
 The ServiceNow® Software Asset Management application systematically tracks, evaluates, and manages the cost, utilization, compliance, and optimization for software and SaaS applications. The Software Asset Management application was enhanced and updated in the Yokohama release.
--   **[Now Assist for Hardware Asset Management \(HAM\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/now-assist-for-ham-rn.md)**  
-The ServiceNow® Now Assist for Hardware Asset Management \(HAM\) application brings agentic AI to Hardware Asset Management. Now Assist for Hardware Asset Management \(HAM\) is a new application in the Yokohama release.
--   **[Now Assist for Software Asset Management \(SAM\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/now-assist-for-sam-rn.md)**  
-The ServiceNow® Now Assist for Software Asset Management \(SAM\) application brings generative AI to IT Asset Management. Now Assist for SAM is a new application in the Yokohama release.
+-   **[ServiceNow Otto for Hardware Asset Management \(HAM\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/now-assist-for-ham-rn.md)**  
+The ServiceNow® ServiceNow Otto for Hardware Asset Management \(HAM\) application brings agentic AI to Hardware Asset Management. ServiceNow Otto for Hardware Asset Management \(HAM\) is a new application in the Yokohama release.
+-   **[ServiceNow Otto for Software Asset Management \(SAM\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/now-assist-for-sam-rn.md)**  
+The ServiceNow® ServiceNow Otto for Software Asset Management \(SAM\) application brings generative AI to IT Asset Management. Now Assist for SAM is a new application in the Yokohama release.
 
 **Parent Topic:**[Features and changes by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/new-features-changes.md)
 

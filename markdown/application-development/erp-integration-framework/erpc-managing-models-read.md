@@ -1,6 +1,6 @@
 ---
 title: Managing how models read and update the ERP system
-description: After you create an ERP \(Enterprise Resource Planning\) model in Zero Copy Connector for ERP, you can specify how it reads and updates the ERP system using parameters.
+description: After you create an ERP \(Enterprise Resource Planning\) model in ERP Canvas, you can specify how it reads and updates the ERP system using parameters.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-integration-framework/erpc-managing-models-read.html
 release: yokohama
@@ -9,12 +9,12 @@ classification: erp-integration-framework
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 6
-breadcrumb: [Building and managing ERP models to work with ERP data, Using ERP models, extraction tables, and remote tables, Zero Copy Connector for ERP, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Building and managing ERP models to work with ERP data, Using ERP models, extraction tables, and remote tables, ERP Canvas, Building low-code applications, Developing your application, Building applications]
 ---
 
 # Managing how models read and update the ERP system
 
-After you create an ERP \(Enterprise Resource Planning\) model in Zero Copy Connector for ERP, you can specify how it reads and updates the ERP system using parameters.
+After you create an ERP \(Enterprise Resource Planning\) model in ERP Canvas, you can specify how it reads and updates the ERP system using parameters.
 
 When creating a read or update operation, first add the operation. Then define operation entities and parameters in the following tabs of the ERP model manager page.
 
@@ -24,7 +24,7 @@ When creating a read or update operation, first add the operation. Then define o
 
 ## Read and update operations for ERP system
 
-Zero Copy Connector for ERP contacts the ERP system using read and update operations.
+ERP Canvas contacts the ERP system using read and update operations.
 
 -   You can use a table read, a BAPI, or OData to read the ERP system.
 -   You must use a BAPI or OData for update operations.
@@ -37,23 +37,23 @@ An entityis the foundation of how the operation accesses the ERP system to read 
 
 When you add an entity to an operation, you must specify the following information:
 
--   How Zero Copy Connector for ERP retrieves data from or sends updates to the ERP system.
+-   How ERP Canvas retrieves data from or sends updates to the ERP system.
     -   For read operations, you must specify whether you're reading tables on the ERP system or using a pre-defined BAPI to read the system.
     -   For update operations, you must use a BAPI.
 -   The name of the table to read or BAPI to use.
 
-For instructions on adding entities, see [Add an operation to a model in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erpc-manage-models-read-op.md).
+For instructions on adding entities, see [Add an operation to a model in ERP Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erpc-manage-models-read-op.md).
 
 ## Managing operation input parameters
 
-After you specify the operation's tables or BAPI, Zero Copy Connector for ERP automatically populates the **Specify inputs** tab with the required input parameters.
+After you specify the operation's tables or BAPI, ERP Canvas automatically populates the **Specify inputs** tab with the required input parameters.
 
-Zero Copy Connector for ERP uses parameters as part of the method/function call to define and map data that's passed to the ERP system.
+ERP Canvas uses parameters as part of the method/function call to define and map data that's passed to the ERP system.
 
 -   The Output parameters section is where you enter optional default values for parameters that are used to query the ERP system. If no input value is provided when querying the model, the **Default value** for each parameter is used as a fallback. Default values can also be utilized for mapping constants.
--   The Tables \(for read operations\)/Function call \(for BAPI operations\) section is where you define and map fields from the ERP system that Zero Copy Connector for ERP sends as parameters in the operation. When you select a field, use the automap functionality to automatically update its **Mapped value** and add a row for the parameter to the Output parameters section. If you define a `Constant` as the **Type** and enter the constant value in the **Mapped value** field, mapped inputs can act as filter criteria. You can add and nest as many related parameters as needed.
+-   The Tables \(for read operations\)/Function call \(for BAPI operations\) section is where you define and map fields from the ERP system that ERP Canvas sends as parameters in the operation. When you select a field, use the automap functionality to automatically update its **Mapped value** and add a row for the parameter to the Output parameters section. If you define a `Constant` as the **Type** and enter the constant value in the **Mapped value** field, mapped inputs can act as filter criteria. You can add and nest as many related parameters as needed.
 
-    If you're adding a complex, nested parameter, such as an address that includes several other parameters \(one for street, one for city, one for country\), Zero Copy Connector for ERP automatically identifies that it needs additional related parameters and creates new, nested parameter rows that you must then populate with the related values. You can nest only parameters with **Object** or **Array** as the **Data type**.
+    If you're adding a complex, nested parameter, such as an address that includes several other parameters \(one for street, one for city, one for country\), ERP Canvas automatically identifies that it needs additional related parameters and creates new, nested parameter rows that you must then populate with the related values. You can nest only parameters with **Object** or **Array** as the **Data type**.
 
 
 The available data types for parameters are:
@@ -73,9 +73,9 @@ An example use case is running a sales order BAPI to find out what items are in 
 
 Another example would be adding a parameter for **Order billing dates** in the Table fields \(for table read operations\)/Function call \(for BAPI operations\) section. Then build a flow in Workflow Studio that enables you to specify a date or date range to retrieve all orders from that time period.
 
-**Note:** It doesn't matter what order you define parameters in. Zero Copy Connector for ERP displays optional parameters in alphabetical order when you save.
+**Note:** It doesn't matter what order you define parameters in. ERP Canvas displays optional parameters in alphabetical order when you save.
 
-For instructions on managing inputs, see [Manage input parameters for an Zero Copy Connector for ERP model operation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erpc-manage-model-inputs.md).
+For instructions on managing inputs, see [Manage input parameters for an ERP Canvas model operation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erpc-manage-model-inputs.md).
 
 ## Selecting outputs for a read operation
 
@@ -87,8 +87,8 @@ For instructions on managing outputs, see [Choose output parameters for an ERP m
 
 When you add mapped fields or parameters as outputs and successfully read or update the ERP system, each parameter appears as a field that you can then add to a remote table or an extraction table. Manage the fields for the remote table or extraction table to add the retrieved parameters. For more information, see the following topics:
 
--   [Customize fields for an ERP remote table in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-build-remote-table.md)
--   [Select fields for an extraction table in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erpc-select-extraction-table-fields.md)
+-   [Customize fields for an ERP remote table in ERP Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-build-remote-table.md)
+-   [Select fields for an extraction table in ERP Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erpc-select-extraction-table-fields.md)
 
 ## Building flows to call the ERP system
 

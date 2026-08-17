@@ -1,6 +1,6 @@
 ---
-title: Domain separation in the Now Assist Admin console
-description: If any conkeyrefs are broken, re-add them from the doc/source/reuse/domain-separation/domain-separation-overview.dita file.In the short description, edit the first sentence to state whether domain separation is supported or not and add the application name. Keep the conkeyref at the end that describes domain separation.Domain separation is supported for the Now Assist Admin console. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
+title: Domain separation in the AI Admin Hub console
+description: If any conkeyrefs are broken, re-add them from the doc/source/reuse/domain-separation/domain-separation-overview.dita file.In the short description, edit the first sentence to state whether domain separation is supported or not and add the application name. Keep the conkeyref at the end that describes domain separation.Domain separation is supported for the AI Admin Hub console. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/domain-separation-in-the-now-assist-admin-console.html
 release: yokohama
@@ -11,9 +11,9 @@ keywords: [Domain Separation, Now Assist Admin, console, Generative AI, Gen AI]
 breadcrumb: [Now Assist reference, Now Assist, Enable AI experiences]
 ---
 
-# Domain separation in the Now Assist Admin console
+# Domain separation in the AI Admin Hub console
 
-Domain separation is supported for the Now Assist Admin console. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
+Domain separation is supported for the AI Admin Hub console. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 
 ## Support level: Basic
 
@@ -27,9 +27,9 @@ Sample use case: When a service provider \(SP\) uses chat to respond to a tenant
 
 For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/domain-separated-apps.md).
 
-In the Now Assist Admin console, generative AI capabilities are organized into skills. Each skill can be configured differently for each domain or you can create a variant of a skill for a domain. By default, all skills exist in the global domain.
+In the AI Admin Hub console, generative AI capabilities are organized into skills. Each skill can be configured differently for each domain or you can create a variant of a skill for a domain. By default, all skills exist in the global domain.
 
-## How domain separation works in the Now Assist Admin console
+## How domain separation works in the AI Admin Hub console
 
 You must enable domain separation on your instance first before you can use it for Now Assist skills.
 

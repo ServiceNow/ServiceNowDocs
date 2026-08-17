@@ -35,15 +35,15 @@ In this example, a report on the **Foundation** tab indicates that most named pr
 
 To view detailed information on the impact of a metric and for details on working on issues, select the appropriate **Remediation playbook URL**.
 
--   **Named product models without product**
+-   **Named Product Models without Product Owners**
 
     For details, see [Products and product models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/foundation-domain.md).
 
--   **Locations without parents**
+-   **Locations without Parents**
 
     You can create a hierarchy of location data using the Parent attribute to match your reporting requirements. Missing parent locations break the structure. See [Location table \[cmn\_location\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-implement-foundation-stage.md).
 
--   **Business units without companies**
+-   **Business Units without Companies**
 
     The hierarchy of your business is populated in the Business Unit table with a reference to the parent company. A business unit is a part of your organization that is responsible for specific operations, such as finance, human resources \(HR\), or IT. A hierarchy within a business unit is common. For large multinational organizations, you may have business units that identify independent regional operations and the specific operations within the region.
 

@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experience
 release: yokohama
 topic_type: task
 last_updated: "2025-01-30"
-reading_time_minutes: 1
+reading_time_minutes: 2
 keywords: [Activate, Now Assist, panel, skills, admin, experiences]
 breadcrumb: [Configuring Now Assist settings and features, Now Assist, Enable AI experiences]
 ---
@@ -31,7 +31,7 @@ To learn more about the Now Assist panel, and how it can assist your agents, see
 
 1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Now Assist Experiences**.
 
-    If you’re already in Now Assist Admin, select the **Now Assist Experiences** tab.
+    If you’re already in AI Admin Hub, select the **Now Assist Experiences** tab.
 
 2.  Select **Now Assist panel**.
 
@@ -54,11 +54,13 @@ To learn more about the Now Assist panel, and how it can assist your agents, see
 
 ## What to do next
 
+For help with installation, see [Solving installation and configuration issues with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-install-config-checklist.md).
+
 To see Now Assist panel in action for Now Assist applications, see the following topics:
 
--   [Summarize a chat conversation by using Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/now-assist-csm-summarize-chat.md)
--   [Summarize a Sidebar discussion by using Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/now-assist-itsm-sidebar-discussion.md)
--   [Summarize an issue using Now Assist for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/summarize-an-issue.md)
+-   [Summarize a chat conversation by using ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/now-assist-csm-summarize-chat.md)
+-   [Summarize a Sidebar discussion by using ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/now-assist-itsm-sidebar-discussion.md)
+-   [Summarize an issue using ServiceNow Otto for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/summarize-an-issue.md)
 -   [Generate a knowledge article from HR Agent Workspace with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/gen-kb-now-assisthr.md)
 
 **Parent Topic:**[Configuring Now Assist settings and features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/configuring-na-landing.md)

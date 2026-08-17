@@ -1,5 +1,5 @@
 ---
-title: Generate a chat reply recommendation by using Now Assist for Customer Service Management \(CSM\)
+title: Generate a chat reply recommendation by using ServiceNow Otto for Customer Service Management \(CSM\)
 description: Generate a reply based on the context of the chat conversation using Now Assist icon. Chat reply recommendations can help provide agents with quick replies to common questions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/now-assist-for-csm/generate-chat-reply-recommendations.html
@@ -10,10 +10,10 @@ topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 2
 keywords: [generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
-breadcrumb: [Use, Now Assist for Customer Service Management \(CSM\), Customer Service Management]
+breadcrumb: [Use, ServiceNow Otto for Customer Service Management \(CSM\), Customer Service Management]
 ---
 
-# Generate a chat reply recommendation by using Now Assist for Customer Service Management \(CSM\)
+# Generate a chat reply recommendation by using ServiceNow Otto for Customer Service Management \(CSM\)
 
 Generate a reply based on the context of the chat conversation using Now Assist icon. Chat reply recommendations can help provide agents with quick replies to common questions.
 
@@ -46,15 +46,15 @@ You can do these actions by using the Now Assist icon:
 
     \[Omitted image "now-assist-chat-reply-recommendation.png"\] Alt text: Modal that shows a chat recommendation from the agent.
 
-<table id="choicetable_nbt_cxv_bcc"><thead><tr><th align="left" id="d32447e158">
+<table id="choicetable_nbt_cxv_bcc"><thead><tr><th align="left" id="d32231e158">
 
 Chat message window
 
-</th><th align="left" id="d32447e161">
+</th><th align="left" id="d32231e161">
 
 Now Assist icon
 
-</th></tr></thead><tbody><tr><td id="d32447e169">
+</th></tr></thead><tbody><tr><td id="d32231e169">
 
 **Typed response**
 
@@ -71,7 +71,7 @@ Provides the option to refine your response:
 -   Sympathetic
 
 
-</td></tr><tr><td id="d32447e203">
+</td></tr><tr><td id="d32231e203">
 
 **Left blank**
 
@@ -91,7 +91,7 @@ Generates a recommended reply that is based on the context of the conversation u
 7.  End the chat by selecting **End Chat**.
 
 
-**Parent Topic:**[Using Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
+**Parent Topic:**[Using ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
 
 **Related topics**  
 

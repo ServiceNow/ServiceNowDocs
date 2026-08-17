@@ -20,8 +20,8 @@ The ServiceNow®   Performance Analytics application is an in-platform process
 The ServiceNow® Platform Analytics experience provides a single center for consuming the data from all Platform Analytics products. Platform Analytics experience was enhanced and updated in the Yokohama release.
 -   **[Process Mining release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/process-optimization-rn.md)**  
 The ServiceNow® Process Mining application enables analysts and process owners to view their business processes, analyze them, and make decisions that improve their processes. Process Mining was enhanced and updated in the Yokohama release.
--   **[Usage Insights release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/user-experience-analytics-rn.md)**  
-The ServiceNow® Usage Insights application enables you to monitor usage analytics of Next Experience web applications as well as Virtual Agent, ServiceNow mobile, and Service Portal applications. Usage Insights was enhanced and updated in the Yokohama release.
+-   **[User Experience Analytics release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/user-experience-analytics-rn.md)**  
+The ServiceNow® User Experience Analytics application enables you to monitor usage analytics of Next Experience web applications as well as Virtual Agent, ServiceNow mobile, and Service Portal applications. User Experience Analytics was enhanced and updated in the Yokohama release.
 
 **Parent Topic:**[Features and changes by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/new-features-changes.md)
 

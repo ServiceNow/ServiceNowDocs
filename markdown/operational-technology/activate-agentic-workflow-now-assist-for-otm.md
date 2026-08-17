@@ -1,18 +1,18 @@
 ---
 title: Activate the Import OT device spreadsheet into OT CMDB agentic workflow
-description: You must activate the agentic workflow from the AI Agent Studio. The Now Assist for OTM agent included with the application and used in the agentic workflows are activated by default.
+description: You must activate the agentic workflow from the AI Agent Studio. The OT Manager Foundation agent included with the application and used in the agentic workflows are activated by default.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/operational-technology/activate-agentic-workflow-now-assist-for-otm.html
 release: yokohama
 topic_type: task
 last_updated: "2025-11-07"
 reading_time_minutes: 1
-breadcrumb: [Configure, Now Assist for Operational Technology Manager \(OTM\), Operational Technology]
+breadcrumb: [Configure, Operational Technology \(OT\) Manager Foundation, Operational Technology]
 ---
 
 # Activate the Import OT device spreadsheet into OT CMDB agentic workflow
 
-You must activate the agentic workflow from the AI Agent Studio. The Now Assist for OTM agent included with the application and used in the agentic workflows are activated by default.
+You must activate the agentic workflow from the AI Agent Studio. The OT Manager Foundation agent included with the application and used in the agentic workflows are activated by default.
 
 ## Before you begin
 
@@ -47,5 +47,5 @@ Role required: sn\_aia.admin
     3.  In the **Toggle display** screen, select the **Status** toggle if the toggle isn't already selected.
 
 
-**Parent Topic:**[Configuring Now Assist for Operational Technology Manager \(OTM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/configuring-na-otm.md)
+**Parent Topic:**[Configuring Operational Technology \(OT\) Manager Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/configuring-na-otm.md)
 

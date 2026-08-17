@@ -1,5 +1,5 @@
 ---
-title: Exploring Now Assist for Strategic Portfolio Management \(SPM\)
+title: Exploring ServiceNow Otto for Strategic Portfolio Management
 description: Use ServiceNow Now Assist skills and AI agents in multiple SPM workspaces to transform Strategic Portfolio Management \(SPM\) into a continuous value engine-embedding intelligence across every stage and to provide optimize resources and smarter investments resulting in delivering continuous value.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/exploring-now-assist-for-spm.html
@@ -10,16 +10,16 @@ topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 7
 keywords: [Explore Now Assist for SPM, Now Assist for SPM overview, Now Assist for SPM skills, Feedback summarization, Multi feedback summarization, Project Doc Summarization and Actions, Planning Item Doc Summarization and Actions, or EAP Doc Summarization and Actions]
-breadcrumb: [Now Assist for Strategic Portfolio Management \(SPM\), Strategic Portfolio Management]
+breadcrumb: [ServiceNow Otto for Strategic Portfolio Management, Strategic Portfolio Management]
 ---
 
-# Exploring Now Assist for Strategic Portfolio Management \(SPM\)
+# Exploring ServiceNow Otto for Strategic Portfolio Management
 
 Use ServiceNow® Now Assist skills and AI agents in multiple SPM workspaces to transform Strategic Portfolio Management \(SPM\) into a continuous value engine-embedding intelligence across every stage and to provide optimize resources and smarter investments resulting in delivering continuous value.
 
 ## Skills
 
-The Now Assist for SPM application includes the generative AI skills and features that enable your product, project, portfolio, and demand managers to leverage Now Assist skills so that they can streamline their processes and workflows.
+The ServiceNow Otto for SPM application includes the generative AI skills and features that enable your product, project, portfolio, and demand managers to leverage Now Assist skills so that they can streamline their processes and workflows.
 
 -   **[Target generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/generate-targets-for-goal.md)**
 
@@ -88,29 +88,29 @@ The Now Assist for SPM application includes the generative AI skills and feature
     -   Answer contextual questions in the chat to auto-populate the relevant fields in the Demand form.
     If Microsoft Teams and Mobile are enabled as a display location for Now Assist in Virtual Agent, users can use the conversational experience to create a demand in those applications too.
 
-    **Note:** This skill is available within the Platform category of the Now Assist Admin console.
+    **Note:** This skill is available within the Platform category of the AI Admin Hub console.
 
 
-## Now Assist Admin console
+## AI Admin Hub console
 
-An administrator can use the Now Assist Admin console in Strategic Planning Workspace to activate and manage Now Assist features and skills in Workspace. For more information about the Now Assist Admin console, see [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configuring-now-assist.md).
+An administrator can use the AI Admin Hub console in Strategic Planning Workspace to activate and manage Now Assist features and skills in Workspace. For more information about the AI Admin Hub console, see [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configuring-now-assist.md).
 
 ## AI agents
 
-The ServiceNow AI agents use LLMs \(Large Language Models\) to process tasks, from basic responses to complex problem-solving and optimize the live agent workflows. For more information on Now Assist AI agents, see [Using AI agent or agentic workflows in Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/using-na-spm-ai-agents.md).
+The ServiceNow AI agents use LLMs \(Large Language Models\) to process tasks, from basic responses to complex problem-solving and optimize the live agent workflows. For more information on Now Assist AI agents, see [Using AI agent or agentic workflows in ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/using-na-spm-ai-agents.md).
 
 **Related topics**  
 
 
 [Exploring Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/exploring-now-assist-platform.md)
 
-[Configure Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/configure-now-assist-for-spm.md)
+[Configure ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/configure-now-assist-for-spm.md)
 
-[Using Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/using-now-assist-for-spm.md)
+[Using ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/using-now-assist-for-spm.md)
 
-[Using AI agent or agentic workflows in Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/using-na-spm-ai-agents.md)
+[Using AI agent or agentic workflows in ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/using-na-spm-ai-agents.md)
 
-[Now Assist for SPM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/now-assist-spm-reference.md)
+[ServiceNow Otto for SPM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/now-assist-spm-reference.md)
 
 [AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/ai-agent-studio.md)
 

@@ -10,7 +10,7 @@ topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 2
 keywords: [Service Operations Workspace ITOM subscriptions]
-breadcrumb: [ITOM AIOps, IT Operations Management]
+breadcrumb: [ITOM Health, IT Operations Management]
 ---
 
 # Service Operations Workspace for ITOM
@@ -21,7 +21,7 @@ By centralizing workflows, it enhances collaboration, facilitates efficient task
 
 \[Omitted image "home-tab-sow.png"\] Alt text: Home page information.
 
-For information regarding subscriptions for ITOM Service Operations Workspace, check the ITOM AIOps subscription at [Subscription for ITOM Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-license-module.md).
+For information regarding subscriptions for ITOM Service Operations Workspace, check the ITOM Health subscription at [Subscription for ITOM Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-license-module.md).
 
 When setting up the Service Operations Workspace, it's crucial to configure both IT Operations Management \(ITOM\) for managing alerts and IT Service Management \(ITSM\) for resolving incidents and delivering services. This integrated setup ensures access to the full range of features, facilitating comprehensive management of IT operations and service quality.
 
@@ -29,7 +29,7 @@ To know about the ITSM features, see [Service Operations Workspace for ITSM](htt
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Get started
 

@@ -1,18 +1,18 @@
 ---
-title: Customize an order summarization skill in Now Assist for Order Management
-description: If you have the admin role, you can configure the Now Assist for Order Management application so that your order agent and fulfilment agent can use the generative AI skills in CSM Configurable Workspace and in Platform.
+title: Customize an order summarization skill in ServiceNow Otto for Order Management
+description: If you have the admin role, you can configure the ServiceNow Otto for Order Management application so that your order agent and fulfilment agent can use the generative AI skills in CSM Configurable Workspace and in Platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/customize-order-summarization-skill-now-assist-order-management.html
 release: yokohama
 topic_type: task
 last_updated: "2025-11-12"
 reading_time_minutes: 4
-breadcrumb: [Configure, Now Assist for Order Management]
+breadcrumb: [Configure, ServiceNow Otto for Order Management]
 ---
 
-# Customize an order summarization skill in Now Assist for Order Management
+# Customize an order summarization skill in ServiceNow Otto for Order Management
 
-If you have the admin role, you can configure the Now Assist for Order Management application so that your order agent and fulfilment agent can use the generative AI skills in CSM Configurable Workspace and in Platform.
+If you have the admin role, you can configure the ServiceNow Otto for Order Management application so that your order agent and fulfilment agent can use the generative AI skills in CSM Configurable Workspace and in Platform.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Now Assist Skills**.
 
-2.  In the **Customer** workflow group, view the skills for the Now Assist for Order Management under SOM.
+2.  In the **Customer** workflow group, view the skills for the ServiceNow Otto for Order Management under SOM.
 
 3.  Copy the Order Summarization skill for customization.
 
@@ -151,5 +151,5 @@ Description of the base input field value.
     Select **Summarize** in an order to generate the order summary.
 
 
-**Parent Topic:**[Configuring Now Assist for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/now-assist-for-order-management-configuring.md)
+**Parent Topic:**[Configuring ServiceNow Otto for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/now-assist-for-order-management-configuring.md)
 

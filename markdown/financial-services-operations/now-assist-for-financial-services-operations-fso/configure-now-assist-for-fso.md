@@ -1,6 +1,6 @@
 ---
-title: Configure case summarization in Now Assist for Financial Services Operations \(FSO\)
-description: If you have the admin role, you can configure the Now Assist for Financial Services Operations \(FSO\) application so that your agents can use case summarization skills in Financial Services Workspace and Core UI.
+title: Configure case summarization in ServiceNow Otto for Financial Services Operations \(FSO\)
+description: If you have the admin role, you can configure the ServiceNow Otto for Financial Services Operations \(FSO\) application so that your agents can use case summarization skills in Financial Services Workspace and Core UI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/now-assist-for-financial-services-operations-fso/configure-now-assist-for-fso.html
 release: yokohama
@@ -10,12 +10,12 @@ topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 2
 keywords: [configuring generative AI for financial services operations, configuring generative AI for FSO]
-breadcrumb: [Configuring Now Assist for FSO, Now Assist for Financial Services Operations \(FSO\)]
+breadcrumb: [Configuring ServiceNow Otto for FSO, ServiceNow Otto for Financial Services Operations \(FSO\)]
 ---
 
-# Configure case summarization in Now Assist for Financial Services Operations \(FSO\)
+# Configure case summarization in ServiceNow Otto for Financial Services Operations \(FSO\)
 
-If you have the admin role, you can configure the Now Assist for Financial Services Operations \(FSO\) application so that your agents can use case summarization skills in Financial Services Workspace and Core UI.
+If you have the admin role, you can configure the ServiceNow Otto for Financial Services Operations \(FSO\) application so that your agents can use case summarization skills in Financial Services Workspace and Core UI.
 
 ## Before you begin
 
@@ -23,9 +23,9 @@ Role required: admin
 
 ## About this task
 
-Use the Now Assist Admin console to configure Now Assist for FSO. This console contains what you need to install the plugins and configure the generative AI skills. For additional information, see [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configuring-now-assist.md).
+Use the AI Admin Hub console to configure ServiceNow Otto for FSO. This console contains what you need to install the plugins and configure the generative AI skills. For additional information, see [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configuring-now-assist.md).
 
-The following table lists the case summarization skills that you can access from the Now Assist Admin console.
+The following table lists the case summarization skills that you can access from the AI Admin Hub console.
 
 |Area|Skills|
 |----|------|
@@ -38,17 +38,17 @@ Now LLM Service is currently the only provider for this Now Assist application's
 
 ## Procedure
 
-1.  Install the Now Assist for Financial Services Operations \(FSO\) plugin \(sn\_fso\_gen\_ai\).
+1.  Install the ServiceNow Otto for Financial Services Operations \(FSO\) plugin \(sn\_fso\_gen\_ai\).
 
     -   For information about the plugin dependencies and plugin activation order, see [Application information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/now-assist-for-financial-services-operations-fso/supporting-information-for-now-assist-for-financial-services-operations-fso.md).
     -   For information about the installation process, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
-2.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills** to access the **Now Assist Skills** tab of the Now Assist Admin console.
+2.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills** to access the **Now Assist Skills** tab of the AI Admin Hub console.
 
 3.  Select the **Customer** &gt; **FSO** workflow group.
 
 4.  On the feature card that is associated with the skill you would like to activate, select **View details**.
 
-    \[Omitted image "now-assist-fso-activate-summarization.png"\] Alt text: Now Assist for FSO summarization skills are in the Customer &gt; FSO workflow group. Select View details to review and activate skills.
+    \[Omitted image "now-assist-fso-activate-summarization.png"\] Alt text: ServiceNow Otto for FSO summarization skills are in the Customer &gt; FSO workflow group. Select View details to review and activate skills.
 
 5.  On the tile for your skill, select **Activate skill**.
 
@@ -56,7 +56,7 @@ Now LLM Service is currently the only provider for this Now Assist application's
 
     The input table fields are read-only.
 
-    For information about the inputs for each skill, see [Skill inputs for Now Assist for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/now-assist-for-financial-services-operations-fso/skill-inputs-and-triggers-for-now-assist-for-financial-services-operations-fso.md).
+    For information about the inputs for each skill, see [Skill inputs for ServiceNow Otto for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/now-assist-for-financial-services-operations-fso/skill-inputs-and-triggers-for-now-assist-for-financial-services-operations-fso.md).
 
 7.  After you review the inputs for the selected skill, select **Save and continue** to go to the next step.
 

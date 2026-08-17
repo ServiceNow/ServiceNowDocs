@@ -7,7 +7,7 @@ release: yokohama
 product: Task Mining
 classification: task-mining
 topic_type: task
-last_updated: "2024-08-28"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Configure, Task Mining, Platform Analytics]
 ---
@@ -35,5 +35,5 @@ For detailed information about roles that are installed with Task Mining, see [C
 
 ## What to do next
 
-Users responsible for installing Task Mining agents must be a part of the Task Mining Agent Install group with roles itil, sn\_tm\_core.service\_user, and agent\_client\_collector\_admin to install the Task Mining agent. For more information, see [Installing Task Mining agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/task-mining/install-agent.md).
+Users responsible for installing Task Mining agents must be a part of the Task Mining Agent Install group with roles itil, sn\_tm\_core.service\_user, and agent\_client\_collector\_admin to install the Task Mining agent. For more information, see [Install the Task Mining agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/task-mining/install-agent.md).
 

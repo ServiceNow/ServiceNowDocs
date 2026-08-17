@@ -19,7 +19,7 @@ Configure and activate the report a GRC issue AI agent to guide employees in rep
 
 ## Before you begin
 
-Install the Now Assist for Integrated Risk Management \(IRM\) plugin \(sn\_irm\_gen\_ai\), and ensure that they are upto date.
+Install the ServiceNow Otto for Integrated Risk Management \(IRM\) plugin \(sn\_irm\_gen\_ai\), and ensure that they are upto date.
 
 Role required: sn\_nowassist\_admin.nsa\_admin or sn\_aia.admin.
 

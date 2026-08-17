@@ -62,15 +62,15 @@ For more information about the features and actions that you can perform in the 
 
 5.  Perform your changes.
 
-<table id="choicetable_g2k_xbt_v1c"><thead><tr><th align="left" id="d344258e222">
+<table id="choicetable_g2k_xbt_v1c"><thead><tr><th align="left" id="d343623e222">
 
 Action
 
-</th><th align="left" id="d344258e225">
+</th><th align="left" id="d343623e225">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d344258e231">
+</th></tr></thead><tbody><tr><td id="d343623e231">
 
 **To edit the case's form fields**
 
@@ -82,7 +82,7 @@ In the **Details** tab, do the following:1.  Edit the field that you want to cha
 2.  Select **Save** to update the changes.
 
 
-</td></tr><tr><td id="d344258e296">
+</td></tr><tr><td id="d343623e296">
 
 **To add a comment or work notes**
 
@@ -95,7 +95,7 @@ In the **Details** tab, do the following:1.  Go to the **Compose &amp; Activity*
 5.  Select **Save** to update the changes.
 
 
-</td></tr><tr><td id="d344258e339">
+</td></tr><tr><td id="d343623e339">
 
 **To view the activities performed on the case until the current date**
 
@@ -103,7 +103,7 @@ In the **Details** tab, do the following:1.  Go to the **Compose &amp; Activity*
 
 In the **Details** tab, go to the **Activity** panel.
 
-</td></tr><tr><td id="d344258e354">
+</td></tr><tr><td id="d343623e354">
 
 **To view the __Requested for__employee details or send an email to them**
 
@@ -121,7 +121,7 @@ If no employee is specified in the **Requested for** field, then the employee de
     3.  To send the email, select **Send email**.
 You can also view draft emails using the **View drafts** option.
 
-</td></tr><tr><td id="d344258e413">
+</td></tr><tr><td id="d343623e413">
 
 **To view knowledge base articles related to the case**
 
@@ -133,7 +133,7 @@ Select the Knowledge Articles \(\[Omitted image "casemgmt-knowledgeicon.png"\] A
 -   To mark the article as useful, select **Helpful**.
 
 
-</td></tr><tr><td id="d344258e454">
+</td></tr><tr><td id="d343623e454">
 
 **To view or upload attachments to the case**
 
@@ -143,7 +143,7 @@ Select the Attachment icon \(\[Omitted image "casemgmt-attachementicon.png"\] Al
 -   To upload a file, select **Select**.
 
 
-</td></tr><tr><td id="d344258e483">
+</td></tr><tr><td id="d343623e483">
 
 **To view the template of the case or add a template**
 
@@ -158,7 +158,7 @@ To create a template, refer to:
 -   [Create a Workplace task template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-case-management/wsd-task-template.md)
 
 
-</td></tr><tr><td id="d344258e544">
+</td></tr><tr><td id="d343623e544">
 
 **To view the workplace location specified in the case; To view the 'From' and 'To' location of a move case; To view the asset location of a maintenance case**
 
@@ -172,7 +172,7 @@ Select the Location icon \(\[Omitted image "casemgmt-locationicon.png"\] Alt tex
 -   For a maintenance case, the **Workplace location** panel displays the location of the asset specified in the case. If an asset isn’t specified, then the workplace location selected in the case is specified.
 
 
-</td></tr><tr><td id="d344258e605">
+</td></tr><tr><td id="d343623e605">
 
 **To view the fulfilment instructions**
 
@@ -180,7 +180,7 @@ Select the Location icon \(\[Omitted image "casemgmt-locationicon.png"\] Alt tex
 
 Select the Fulfilment Instructions icon \(\[Omitted image "casemgmt-fulfimenticon.png"\] Alt text: Fulfilment instructions icon.\).To add fulfilment instructions, refer to [Add Fulfillment instructions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-case-management/add-fulfillment-instructions.md).
 
-</td></tr><tr><td id="d344258e629">
+</td></tr><tr><td id="d343623e629">
 
 **To view or add checklist items**
 
@@ -191,7 +191,7 @@ Select the Checklist icon \(\[Omitted image "casemgmt-checklisticon.png"\] Alt t
 -   Add a checklist item if necessary. If there are no checklist items, you can add them.
 
 
-</td></tr><tr><td id="d344258e655">
+</td></tr><tr><td id="d343623e655">
 
 **To view the child cases or add a child case**
 
@@ -201,7 +201,7 @@ Go to the **Child Cases** tab.1.  View the child cases created with the case. Pe
 2.  To create a child case, select **New**. Refer to [Create a child case and a child task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-central/create-a-child-case-and-a-child-task-casemgmtworkspace.md).
 
 
-</td></tr><tr><td id="d344258e685">
+</td></tr><tr><td id="d343623e685">
 
 **To view the child tasks or add a child task**
 
@@ -211,7 +211,7 @@ Go to the **Child Tasks** tab.-   View the child tasks created with the case. Pe
 -   To create a child case, select **New**. Refer to [Create a child case and a child task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-central/create-a-child-case-and-a-child-task-casemgmtworkspace.md).
 
 
-</td></tr><tr><td id="d344258e715">
+</td></tr><tr><td id="d343623e715">
 
 **To view the details of approvers**
 
@@ -219,7 +219,7 @@ Go to the **Child Tasks** tab.-   View the child tasks created with the case. Pe
 
 Go to the **Approvers** tab.
 
-</td></tr><tr><td id="d344258e727">
+</td></tr><tr><td id="d343623e727">
 
 **To view the case SLAs and add an SLA**
 
@@ -229,7 +229,7 @@ Go to the **Case SLAs** tab.-   View the SLA details associated with the case.
 -   Select **New** to add an SLA.
 To create the SLA definition, refer to [Create an SLA Definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-case-management/create-sla-defn-case-mgmt.md).
 
-</td></tr><tr><td id="d344258e759">
+</td></tr><tr><td id="d343623e759">
 
 **To view the attached knowledge base articles**
 
@@ -237,7 +237,7 @@ To create the SLA definition, refer to [Create an SLA Definition](https://raw.gi
 
 Go to the **Attached Knowledge** tab. View or add articles.
 
-</td></tr><tr><td id="d344258e771">
+</td></tr><tr><td id="d343623e771">
 
 **To view the knowledge base articles viewed by the user**
 
@@ -245,7 +245,7 @@ Go to the **Attached Knowledge** tab. View or add articles.
 
 Go to the **KB Articles Read by User** tab. View or add articles.
 
-</td></tr><tr><td id="d344258e784">
+</td></tr><tr><td id="d343623e784">
 
 **To view the related cases**
 
@@ -253,7 +253,7 @@ Go to the **KB Articles Read by User** tab. View or add articles.
 
 Go to the **Related cases** tab. View the cases or add a case if necessary. Refer to [Create a child case and a child task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-central/create-a-child-case-and-a-child-task-casemgmtworkspace.md).
 
-</td></tr><tr><td id="d344258e803">
+</td></tr><tr><td id="d343623e803">
 
 **For a maintenance case, to view the associated workplace cases**
 
@@ -261,7 +261,7 @@ Go to the **Related cases** tab. View the cases or add a case if necessary. Refe
 
 Go to the **Workplace Cases** tab. View the cases or add a case if necessary. Refer to [Create a child case and a child task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-central/create-a-child-case-and-a-child-task-casemgmtworkspace.md).
 
-</td></tr><tr><td id="d344258e822">
+</td></tr><tr><td id="d343623e822">
 
 **To view the workplace service items requested with the case**
 

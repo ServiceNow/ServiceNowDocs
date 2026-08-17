@@ -1,6 +1,6 @@
 ---
 title: Analytics admin \[analytics\_admin\]
-description: View the settings within Usage Insights in the application navigator and control the Usage Insights settings for each mobile, web, and service portal application. Assigned users can create funnel and cohort reports within the Usage Insights application.
+description: View the settings within User Experience Analytics in the application navigator and control the User Experience Analytics settings for each mobile, web, and service portal application. Assigned users can create funnel and cohort reports within the User Experience Analytics application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/usage-insights/uxa-role-1.html
 release: yokohama
@@ -9,12 +9,12 @@ classification: usage-insights
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Roles installed with Usage Insights, User Experience Analytics reference, User Experience Analytics, Platform Analytics]
+breadcrumb: [Roles installed with User Experience Analytics, User Experience Analytics reference, User Experience Analytics, Platform Analytics]
 ---
 
 # Analytics admin \[analytics\_admin\]
 
-View the settings within Usage Insights in the application navigator and control the Usage Insights settings for each mobile, web, and service portal application. Assigned users can create funnel and cohort reports within the Usage Insights application.
+View the settings within User Experience Analytics in the application navigator and control the User Experience Analytics settings for each mobile, web, and service portal application. Assigned users can create funnel and cohort reports within the User Experience Analytics application.
 
 ## Contains Roles
 
@@ -26,9 +26,9 @@ List of roles contained within the role.
 -   sdk\_analytics\_admin
 -   web\_analytics\_admin
 
--   Can view the settings within Usage Insights in the application navigator.
--   Can control the Usage Insights settings for each mobile, web, and service portal application.
--   Have **admin** role permissions to be able to create funnel and cohort reports within Usage Insights.
+-   Can view the settings within User Experience Analytics in the application navigator.
+-   Can control the User Experience Analytics settings for each mobile, web, and service portal application.
+-   Have **admin** role permissions to be able to create funnel and cohort reports within User Experience Analytics.
 
 ## Groups
 
@@ -38,5 +38,5 @@ Analytics admin \[analytics\_admin\] is included in the Analytics settings manag
 
 **Note:** Avoid granting an admin role when more specialized roles are available.
 
-**Parent Topic:**[Roles installed with Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/components-installed-user-exp-analytics.md)
+**Parent Topic:**[Roles installed with User Experience Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/components-installed-user-exp-analytics.md)
 

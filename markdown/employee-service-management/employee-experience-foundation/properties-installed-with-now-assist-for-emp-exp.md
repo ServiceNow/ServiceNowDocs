@@ -1,6 +1,6 @@
 ---
-title: Properties installed with Now Assist for Employee Experience
-description: Properties available with the Now Assist for Employee Experience application.
+title: Properties installed with ServiceNow Otto for Employee Experience
+description: Properties available with the ServiceNow Otto for Employee Experience application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/employee-experience-foundation/properties-installed-with-now-assist-for-emp-exp.html
 release: yokohama
@@ -9,14 +9,14 @@ classification: employee-experience-foundation
 topic_type: reference
 last_updated: "2025-09-08"
 reading_time_minutes: 1
-breadcrumb: [Reference, Now Assist for Employee Experience, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Reference, ServiceNow Otto for Employee Experience, Unified Employee Experience, Employee Service Management]
 ---
 
-# Properties installed with Now Assist for Employee Experience
+# Properties installed with ServiceNow Otto for Employee Experience
 
-Properties available with the Now Assist for Employee Experience application.
+Properties available with the ServiceNow Otto for Employee Experience application.
 
-These properties are available for Now Assist for Employee Experience. The properties are listed in the System Properties \[sys\_properties\] table. To access the table, enter `sys_properties.list` in the navigation context-menu filter.
+These properties are available for ServiceNow Otto for Employee Experience. The properties are listed in the System Properties \[sys\_properties\] table. To access the table, enter `sys_properties.list` in the navigation context-menu filter.
 
 <table id="table_cqn_gcl_kmb"><thead><tr><th>
 
@@ -45,5 +45,5 @@ Set the portal that you want to use for the To-do configuration. To set multiple
 -   Default value: esc
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Now Assist for Employee Experience reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/reference-now-assist-for-emp-exp.md)
+</table>**Parent Topic:**[ServiceNow Otto for Employee Experience reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/reference-now-assist-for-emp-exp.md)
 

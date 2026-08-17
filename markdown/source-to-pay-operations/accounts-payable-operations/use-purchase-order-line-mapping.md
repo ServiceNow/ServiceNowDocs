@@ -9,7 +9,7 @@ classification: accounts-payable-operations
 topic_type: task
 last_updated: "2025-11-04"
 reading_time_minutes: 1
-breadcrumb: [Using Now Assist for Accounts Payable Operations \(APO\), Now Assist for Accounts Payable Operations \(APO\), Accounts Payable Operations, Finance and Supply Chain]
+breadcrumb: [Using ServiceNow Otto for Accounts Payable Operations \(APO\), ServiceNow Otto for Accounts Payable Operations \(APO\), Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Use purchase order line mapping
@@ -31,14 +31,14 @@ Role required: admin
     The Now Assist skill maps the invoice lines with purchase order lines.
 
 
-**Parent Topic:**[Using Now Assist for Accounts Payable Operations \(APO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/accounts-payable-operations/using-now-assist-apo.md)
+**Parent Topic:**[Using ServiceNow Otto for Accounts Payable Operations \(APO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/accounts-payable-operations/using-now-assist-apo.md)
 
 **Related topics**  
 
 
-[Summarize a record by using Now Assist for Accounts Payable Operations \(APO\)]()
+[Summarize a record by using ServiceNow Otto for Accounts Payable Operations \(APO\)]()
 
-[Use Now Assist for Accounts Payable Operations \(APO\) in a Virtual Agent chat]()
+[Use ServiceNow Otto for Accounts Payable Operations \(APO\) in a Virtual Agent chat]()
 
 [Use Invoice inquiry solution generator skill]()
 

@@ -43,20 +43,20 @@ Yokohama Patch 9 includes fixes for security-related problems that affected cert
     For Now Assist new features and changes, see [Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/now-assist-rn-landing.md).
 
 
--   **[Show borders between search result cards in portal search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/show-borders-search-result-cards-portal-search.md)**
+-   ****
 
     Display borders between search result cards on the search results page for portal search applications.
 
--   **[Show borders between search result cards in global search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/show-borders-search-result-cards-global-search.md)**
+-   ****
 
     Display borders between search result cards on the global search results page.
 
 
--   **[Show borders between search result cards in portal search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/show-borders-search-result-cards-portal-search.md)**
+-   ****
 
     Display borders between search result cards on the search results page for portal search applications.
 
--   **[Show borders between search result cards in global search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/show-borders-search-result-cards-global-search.md)**
+-   ****
 
     Display borders between search result cards on the global search results page.
 

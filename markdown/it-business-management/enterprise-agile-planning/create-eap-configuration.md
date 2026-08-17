@@ -79,7 +79,7 @@ Select this option to sync iterations such as Planning Intervals and Sprints wit
 
 6.  Select the team levels that you want to have in your configuration.
 
-    Based on the team levels that you enable here, you can add only those entities to your Agile structure. For example, if you didn’t enable **Solution Train** team level in the configuration, you can’t add any solution trains to your Agile structure and you can’t plan work for any solution trains from the Backlog or Planning board.
+    Based on the team levels that you enable here, you can add only those entities to your Agile structure. For example, if you didn’t enable **Solution Train** team level in the configuration, you can’t add any solution trains to your Agile structure. You also can’t plan work for any solution trains from the Backlog or Planning board.
 
 7.  Select the default work item type to be available at each team level and its planning calendar.
 

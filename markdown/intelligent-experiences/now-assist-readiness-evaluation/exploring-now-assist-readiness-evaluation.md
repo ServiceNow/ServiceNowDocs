@@ -23,11 +23,11 @@ The Now Assist Readiness Evaluation app is a solution designed to simplify and a
 
 The following list details what agentic solutions for Now Assist are evaluated and assessed after the necessary scheduled jobs have run.
 
--   **Agentic AI for Now Assist for IT Service Management \(ITSM\)**
+-   **Agentic AI for ServiceNow Otto for IT Service Management \(ITSM\)**
 
     Evaluates whether customizations on ITSM-related parent tables \(such as Incident and Task\) may interfere with AI agent behavior, task execution, or decision-making. Two use cases are available to select: **Categorize Incidents** and **Generate Change Request Plans**. The assessment identifies and flags high-risk customizations to help promote seamless agent operations and stable instance performance. Each finding includes interactive hyperlinks to the impacted records, enabling you to review, validate, and address potential issues without navigating away from the dashboard.
 
--   **Agentic AI for Now Assist for Customer Service Management \(CSM\)**
+-   **Agentic AI for ServiceNow Otto for Customer Service Management \(CSM\)**
 
     Assesses whether customizations on CSM-specific tables \(such as Case and Interaction\) impact AI agent functionality. The assessment evaluates data completeness, field modifications, and scripting issues that may hinder agent-driven tasks and offers targeted estimated remediation to maintain agent efficacy. Each assessment finding includes interactive hyperlinks to the affected records, enabling you to navigate, validate, and resolve issues directly from the dashboard.
 
@@ -42,15 +42,15 @@ The following list details what generative AI Now Assist products are evaluated 
 
     This feature checks if Virtual Agent is live, tracks active topics and catalog items, and identifies barriers to conversational functionality. The assessment highlights opportunities to convert non-conversational items to conversational ones and tracks automation in catalog items, along with estimated remediation efforts.
 
--   **Now Assist for IT Service Management \(ITSM\)**
+-   **ServiceNow Otto for IT Service Management \(ITSM\)**
 
     This feature reviews customizations and configurations in the Incident and Task tables, such as fields, UI actions, and scripts. The assessment highlights changes made, tracks data completeness, and provides key metrics to improve accuracy and consistency in ITSM processes. The assessment also specifies the estimated remediation effort required and reports the language used in the instance.
 
--   **Now Assist for Customer Service Management \(CSM\)**
+-   **ServiceNow Otto for Customer Service Management \(CSM\)**
 
     This feature reviews customizations in the Case and Task tables, tracks changes to fields, and monitors data completeness for key fields. The assessment provides insights into past cases and field-filling percentages, helping improve data accuracy in Customer Service Management. The assessment also reports the estimated remediation effort needed and the language used in the instance.
 
--   **Now Assist for HR Service Delivery \(HRSD\)**
+-   **ServiceNow Otto for HR Service Delivery \(HRSD\)**
 
     This feature analyzes customizations in the HR Core Case and Task tables, tracking field-level changes and promoting data completeness for critical fields. The assessment provides insights into historical HR Core cases, including field population percentages, to enhance data accuracy in HRSD processes. Additionally, the feature identifies estimated remediation efforts required and reports the languages used within the instance.
 

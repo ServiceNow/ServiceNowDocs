@@ -22,7 +22,7 @@ The agents, tools, and triggers that are associated with the Identify ways to im
 
 ## Prerequisites and setup
 
-To access this workflow, you must have Now Assist for Platform installed on your instance, which you can get if you install any other Now Assist application, such as Now Assist for IT Service Management \(ITSM\).
+To access this workflow, you must have Now Assist for Platform installed on your instance, which you can get if you install any other Now Assist application, such as ServiceNow Otto for IT Service Management \(ITSM\).
 
 Because this agentic workflow relies on survey data, you must have Assessment records associated with task tables to analyze.
 

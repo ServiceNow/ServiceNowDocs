@@ -1,5 +1,5 @@
 ---
-title: Explore Upgrade Monitor in Upgrade Console
+title: Explore Upgrade Monitor in Upgrade Management
 description: The Upgrade Monitor module is a powerful tool for scheduling upgrades, monitoring their progress, and analyzing post-upgrade results, including conflict resolution.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/upgrade-management/um-upgrade-monitor-explore.html
@@ -9,10 +9,10 @@ classification: upgrade-management
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 3
-breadcrumb: [Upgrade Console summary, Exploring Upgrade Console, Upgrade Console, Upgrade, Administer the ServiceNow AI Platform]
+breadcrumb: [Upgrade Management summary, Exploring Upgrade Management, Upgrade Management, Upgrade, Administer the ServiceNow AI Platform]
 ---
 
-# Explore Upgrade Monitor in Upgrade Console
+# Explore Upgrade Monitor in Upgrade Management
 
 The Upgrade Monitor module is a powerful tool for scheduling upgrades, monitoring their progress, and analyzing post-upgrade results, including conflict resolution.
 
@@ -66,5 +66,5 @@ You do not need to reconcile the skipped list on any instances you later upgrade
 
 For details on reconciling conflicts, see [Process the skipped records list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-management/um-process-skipped-records.md).
 
-See [Upgrade Monitor tool in Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-management/um-upgrade-monitor-tool.md) for more information.
+See [Upgrade Monitor tool in Upgrade Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-management/um-upgrade-monitor-tool.md) for more information.
 

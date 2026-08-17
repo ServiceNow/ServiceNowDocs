@@ -1,5 +1,5 @@
 ---
-title: Configure the graph questionnaire Now Assist for Telecommunications, Media and Technology \(TMT\)
+title: Configure the graph questionnaire ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
 description: Configure the graph questionnaire to add or modify the new queries to retrieve the knowledge graph data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-configure-graph-questionnaire.html
@@ -9,10 +9,10 @@ classification: now-assist-for-telecom-media-and-technology
 topic_type: task
 last_updated: "2025-08-02"
 reading_time_minutes: 1
-breadcrumb: [Configure, Now Assist for Telecommunications, Media and Technology \(TMT\), Telecommunications, Media, and Technology]
+breadcrumb: [Configure, ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\), Telecommunications, Media, and Technology]
 ---
 
-# Configure the graph questionnaire Now Assist for Telecommunications, Media and Technology \(TMT\)
+# Configure the graph questionnaire ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
 
 Configure the graph questionnaire to add or modify the new queries to retrieve the knowledge graph data.
 

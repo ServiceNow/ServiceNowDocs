@@ -14,8 +14,8 @@ Enterprise Architecture \(formerly Application Portfolio Management\) has new an
 
 -   **[Enterprise Architecture \(formerly Application Portfolio Management\) Release Notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/enterprise-architecture-rn.md)**  
 The ServiceNow® Enterprise Architecture application unites strategic and operational teams, enabling organizations to achieve their business objectives.Enterprise Architecture was enhanced and updated in the Yokohama release.
--   **[Now Assist for Enterprise Architecture \(EA\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/now-assist-for-ea-rn.md)**  
-The ServiceNow® Now Assist for Enterprise Architecture \(EA\) application introduces generative AI skills into the Enterprise Architecture Workspace. You can summarize Architectural Decision Records \(ADR\) in the Enterprise Architecture Workspace. Now Assist for Enterprise Architecture \(EA\) is a new application in the Yokohama release.
+-   **[ServiceNow Otto for Enterprise Architecture \(EA\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/now-assist-for-ea-rn.md)**  
+The ServiceNow® ServiceNow Otto for Enterprise Architecture \(EA\) application introduces generative AI skills into the Enterprise Architecture Workspace. You can summarize Architectural Decision Records \(ADR\) in the Enterprise Architecture Workspace. ServiceNow Otto for Enterprise Architecture \(EA\) is a new application in the Yokohama release.
 
 **Parent Topic:**[Features and changes by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/new-features-changes.md)
 

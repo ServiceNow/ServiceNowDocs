@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/yokohama/retail-industry/rahi-r
 release: yokohama
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Retail]
 ---
 
@@ -23,7 +23,7 @@ For more information on store inquiry cases, see the following:
 -   [Manage a store inquiry case from a mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/retail-industry/rahi-retail-fulfill-retail-store-service-case-mobile.md)
 -   [Track a store inquiry case from a Retail mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/retail-industry/rahi-retail-tract-store-inquiry-case-retail-mobile-app.md)
 -   [Resolve a store inquiry support request in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/retail-industry/rahi-retail-fulfill-retail-store-service-workspace.md)
--   [Store inquiry case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/retail-industry/rahi-retail-retail-store-services.md)
+-   
 
 -   **[Create a store inquiry case from the Retail portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/retail-industry/rahi-retail-create-store-service-portal.md)**  
 Create a retail store inquiry case from the Retail portal to report issues on behalf of the store that you are associated with.

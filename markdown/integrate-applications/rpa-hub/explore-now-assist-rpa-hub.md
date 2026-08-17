@@ -1,6 +1,6 @@
 ---
-title: Exploring Now Assist for RPA Hub
-description: With the Now Assist for RPA Hub application, your RPA Desktop Design Studio users can create and edit automations, activities, and automation logic additions from text instructions and preview options.
+title: Exploring ServiceNow Otto for RPA Hub
+description: With the ServiceNow Otto for RPA Hub application, your RPA Desktop Design Studio users can create and edit automations, activities, and automation logic additions from text instructions and preview options.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/rpa-hub/explore-now-assist-rpa-hub.html
 release: yokohama
@@ -10,26 +10,26 @@ topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 3
 keywords: [Now Assist, generative AI]
-breadcrumb: [Now Assist for RPA Hub, Robotic Process Automation \(RPA\) Hub, Data and Automation]
+breadcrumb: [ServiceNow Otto for RPA Hub, Robotic Process Automation \(RPA\) Hub, Data and Automation]
 ---
 
-# Exploring Now Assist for RPA Hub
+# Exploring ServiceNow Otto for RPA Hub
 
-With the Now Assist for RPA Hub application, your RPA Desktop Design Studio users can create and edit automations, activities, and automation logic additions from text instructions and preview options.
+With the ServiceNow Otto for RPA Hub application, your RPA Desktop Design Studio users can create and edit automations, activities, and automation logic additions from text instructions and preview options.
 
-## Now Assist for RPA Hub overview
+## ServiceNow Otto for RPA Hub overview
 
-The Now Assist for RPA Hub application offers generative AI capabilities to transform your automation development process. The following generative AI capabilities are available for RPA Desktop Design Studio users:
+The ServiceNow Otto for RPA Hub application offers generative AI capabilities to transform your automation development process. The following generative AI capabilities are available for RPA Desktop Design Studio users:
 
 -   Build simple, brand-new automations quickly and efficiently.
 -   Easily add new activities to existing automations, ensuring modularity and scalability.
 -   Enhance the automation logic with text instructions, either in an empty activity or by selecting a component in an existing one.
 
-Both new and experienced users can develop and build faster automation by using the Now Assist for RPA Hub application.
+Both new and experienced users can develop and build faster automation by using the ServiceNow Otto for RPA Hub application.
 
-## Now Assist for RPA Hub skills
+## ServiceNow Otto for RPA Hub skills
 
-The Now Assist for RPA Hub application includes the generative AI skills that enable RPA Desktop Design Studio users to create or edit automations, activities, and add automation logic from text instructions and preview options.
+The ServiceNow Otto for RPA Hub application includes the generative AI skills that enable RPA Desktop Design Studio users to create or edit automations, activities, and add automation logic from text instructions and preview options.
 
 -   **RPA bot generation skill**
 

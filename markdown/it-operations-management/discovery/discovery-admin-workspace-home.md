@@ -7,7 +7,7 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 5
 breadcrumb: [Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -18,13 +18,13 @@ The Discovery Admin Workspace Home page features tools to help you identify and 
 
 To access the Discovery Admin Workspace, navigate to **Workspaces** &gt; **Discovery Admin Workspace**.
 
-**Note:** The capabilities described here are available in Discovery Admin Workspace v1.17.0. Specific version requirements are noted for individual features where applicable.
+**Note:** The capabilities described here are available starting with Discovery Admin Workspace v1.17.0. Specific version requirements are noted for individual features where applicable.
 
 ## Quick overview
 
 View the status of discovery using data counts and identify any irregularities that might impact discovery. For detailed information, select the appropriate tile.
 
-Select the **More options** icon \(\[Omitted image "icon-menu-sow.png"\] Alt text: More options icon\), then select **Refresh** to refresh the data for each visualization in this section.
+Select the **More Options** icon \(\[Omitted image "icon-menu-sow.png"\]\), then select **Refresh** to refresh the data for each visualization in this section.
 
 **Note:** You can configure the time scale reflected in the displayed counts on the [Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/discovery-admin-workspace-setup.md) page.
 

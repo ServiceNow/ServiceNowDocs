@@ -1,6 +1,6 @@
 ---
-title: Install Now Assist for Privacy Management
-description: Install Now Assist for Privacy Management to .
+title: Install ServiceNow Otto for Privacy Management
+description: Install ServiceNow Otto for Privacy Management to .
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/privacy-workspace/privacy-install-now-assist.html
 release: yokohama
@@ -9,12 +9,12 @@ classification: privacy-workspace
 topic_type: task
 last_updated: "2025-11-27"
 reading_time_minutes: 1
-breadcrumb: [Now Assist for Privacy Management, Privacy Management, Governance, Risk, and Compliance]
+breadcrumb: [ServiceNow Otto for Privacy Management, Privacy Management, Governance, Risk, and Compliance]
 ---
 
-# Install Now Assist for Privacy Management
+# Install ServiceNow Otto for Privacy Management
 
-Install Now Assist for Privacy Management to .
+Install ServiceNow Otto for Privacy Management to .
 
 ## Before you begin
 

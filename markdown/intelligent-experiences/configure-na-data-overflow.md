@@ -20,7 +20,7 @@ Role required: sn\_generative\_ai.data\_steward
 
 ## About this task
 
-By default, Now Assist data is handled in ServiceNow datacenters. During periods of high network traffic, data can be "burst" to Microsoft Azure datacenters to help keep consistent load times and avoid capacity overflow errors. Users with the data steward role can opt out of or into this behavior from the Now Assist Admin console.
+By default, Now Assist data is handled in ServiceNow datacenters. During periods of high network traffic, data can be "burst" to Microsoft Azure datacenters to help keep consistent load times and avoid capacity overflow errors. Users with the data steward role can opt out of or into this behavior from the AI Admin Hub console.
 
 Data processing is not supported in regulated markets.
 

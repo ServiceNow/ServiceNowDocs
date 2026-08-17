@@ -7,7 +7,7 @@ release: yokohama
 product: Task Mining
 classification: task-mining
 topic_type: task
-last_updated: "2024-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Configure, Task Mining, Platform Analytics]
 ---
@@ -30,7 +30,7 @@ Role required: sn\_tm\_core.power\_user, sn\_tm\_core.admin
 
 1.  Navigate to **Workspaces** &gt; **Task Mining Workspace**.
 
-2.  Select the Configuration icon\(\[Omitted image "task-mining-configuration-icon.png"\] Alt text: Task Mining Configuration icon\).
+2.  Select the Configuration icon \[Omitted image "task-mining-configuration-icon.png"\].
 
 3.  Under **Configuration**, select **Notifications**.
 

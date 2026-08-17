@@ -19,7 +19,7 @@ The ServiceNow® Privacy Management application enables you to manage your organ
 -   Implement information Object \(IO\) categories such as biometric data, to align with regulatory classifications and bridge the gap between requirements and user understanding.
 -   Empower privacy case analysts to perform assessments on privacy cases using the Smart Assessment Engine
 
-See [Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/privacy-management.md) for more information.
+See  for more information.
 
 **Important:** Privacy Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
@@ -29,7 +29,7 @@ See [Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNow
 
     Leverage criticality factors to evaluate the initial risks associated with processing activities. Integrate these factors into privacy assessments and automatically generate a criticality score upon assessment approval. These factors are also added to processing activities, enabling you to make updates at any time. Integrating these factors in a privacy assessment eliminates the need for a separate criticality assessment. This consolidation reduces the workload for the privacy teams.
 
--   **[Smart assessments in Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/smart-assessments-in-privacy-management.md)**
+-   ****
 
     Use the new and improved assessment experience that enables:
 
@@ -37,32 +37,32 @@ See [Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNow
     -   building the assessment questionnaire
     This new experience enables responders to update all the necessary details within the assessments, eliminating the need to update the processing activity separately.
 
--   **[Configure information object categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/configure-information-object-categories.md)**
+-   ****
 
     Implement Information object categories to tag and classify information objects effectively. For example, attributes like iris scans and fingerprints are often referred to as biometric data, or email addresses and phone numbers can be tagged as contact information. Information object categories enable you to categorize these information objects under these broader classifications. This approach is useful in the following ways:
 
     -   Enhances compliance with regulations such as GDPR, CCPA, and so on by accurately capturing and tracking required data categories.
     -   Improves clarity for business users, ensuring they can easily identify and work with terms they’re familiar with while adhering to regulatory standards.
     -   Streamlines data governance by creating a structured framework that supports both regulatory needs and business operations.
--   **[Smart assessment for privacy case management action tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/accept-a-case-task.md)**
+-   **Smart assessment for privacy case management action tasks**
 
     Use the new assessment experience of Smart Assessment Engine for privacy case action tasks. Only when an action task moves from the **Draft** to the **Assigned** state, the assessment can be sent. To use the smart assessment, a new property called enable\_smart\_assessments \(sn\_grc\_case\_mgmt.enable\_smart\_assessments\) is introduced with the default value as **true**.
 
 
 ## Changed in this release
 
--   **[Tagging of information object tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/tag-io-with-pi.md)**
+-   **Tagging of information object tags**
 
     Use the **Data classification** field to tag information objects instead of using the tag icon.
 
--   **[Initiating privacy assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/send-privacy-asmt-from-pa.md)**
+-   **Initiating privacy assessment**
 
     When you initiate a privacy assessment from either an entity or a processing activity, you’re no longer redirected to the **Create new privacy assessment form**, instead, a new pop-up window appears where you can specify all the assessment details.
 
 
 ## Activation information
 
-Install Privacy Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install Privacy Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 **Parent Topic:**[Governance, Risk, and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/grc-rn-landing.md)
 

@@ -68,5 +68,5 @@ Define building time zones, change the capacity of an arrival schedule, and set 
 
 [Location migration]()
 
-[View workplace service usage analytics with Usage Insights]()
+[View workplace service usage analytics with User Experience Analytics]()
 

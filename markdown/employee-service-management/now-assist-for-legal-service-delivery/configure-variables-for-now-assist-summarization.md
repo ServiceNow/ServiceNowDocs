@@ -9,7 +9,7 @@ classification: now-assist-for-legal-service-delivery
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Customize a summarization skill in Now Assist for Legal Service Delivery \(LSD\), Configure, Now Assist for Legal Service Delivery \(LSD\), Legal Service Delivery, Employee Service Management]
+breadcrumb: [Customize a summarization skill in ServiceNow Otto for Legal Service Delivery \(LSD\), Configure, ServiceNow Otto for Legal Service Delivery \(LSD\), Legal Service Delivery, Employee Service Management]
 ---
 
 # Configure variables for Now Assist summarization
@@ -36,15 +36,15 @@ Role required: admin or sn\_lg\_ops.legal\_admin
 
 6.  Add a single variable or multiple variables to an intake form of the practice area.
 
-<table id="choicetable_f5z_wwd_w2c"><thead><tr><th align="left" id="d215256e123">
+<table id="choicetable_f5z_wwd_w2c"><thead><tr><th align="left" id="d214632e123">
 
 Option
 
-</th><th align="left" id="d215256e126">
+</th><th align="left" id="d214632e126">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d215256e132">
+</th></tr></thead><tbody><tr><td id="d214632e132">
 
 **Add a single variable**
 
@@ -55,7 +55,7 @@ Steps
 3.  Select the variable to add.
 
 
-</td></tr><tr><td id="d215256e159">
+</td></tr><tr><td id="d214632e159">
 
 **Add multiple variables**
 
@@ -83,7 +83,7 @@ All the selected variables are added to the intake form of the practice area.
 
 You can add variables to the intake forms of other practice areas by repeating the steps in this procedure.
 
-To summarize a legal request or legal matter, see [Summarize a legal request or matter by using Now Assist for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-summarize-case.md).
+To summarize a legal request or legal matter, see [Summarize a legal request or matter by using ServiceNow Otto for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-summarize-case.md).
 
-**Parent Topic:**[Customize a summarization skill in Now Assist for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-customize-skill.md)
+**Parent Topic:**[Customize a summarization skill in ServiceNow Otto for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-customize-skill.md)
 

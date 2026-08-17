@@ -147,7 +147,7 @@ Average Processing Time\(s\)
 
 </td><td>
 
-Average time needed to process the jobs.
+Average time in seconds needed to process the jobs.
 
 </td></tr><tr><td>
 
@@ -155,7 +155,7 @@ Total Processing Time\(s\)
 
 </td><td>
 
-Total time needed to process the jobs.
+Total time in seconds needed to process the jobs.
 
 </td></tr></tbody>
 </table>

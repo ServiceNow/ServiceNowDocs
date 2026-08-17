@@ -20,7 +20,7 @@ The ServiceNow® Playbooks builder within the ServiceNow® Workflow Studio appli
 -   Generate a playbook via API in other ServiceNow applications such as IT Operations Management \(ITOM\).
 -   Generate playbooks from inputs that refer to active actions, flows, subflows, content from installed spokes, or activity definitions.
 
-See [Exploring playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/process-automation-designer.md) for more information.
+See  for more information.
 
 **Important:** Workflow Studio is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
@@ -30,15 +30,15 @@ After you upgrade to Yokohama, update the Workflow Studio application in the Ser
 
 ## New in the Yokohama release
 
--   **[Translate playbooks content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/add-translations-playbooks.md)**
+-   **Translate playbooks content**
 
     Add custom translations for labels, descriptions, and UI Layout properties in your playbooks.
 
--   **[Restart playbook activities that end in error](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/restart.md)**
+-   **Restart playbook activities that end in error**
 
     Configure activities so that end users can restart any activity that ends in an error and variant conditions are automatically re-evaluated when playbooks are restarted.
 
--   **[Support for Retrieval Augmented Generation \(RAG\) with playbook generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/playbook-assist.md)**
+-   **Support for Retrieval Augmented Generation \(RAG\) with playbook generation**
 
     Generate playbooks from inputs that refer to custom actions, flows, subflows, content from installed spokes, or activity definitions. Include the names of commonly used and recently published actions, subflows, flows, and activity definitions available on your instance in your playbook generation requests.
 
@@ -46,11 +46,11 @@ After you upgrade to Yokohama, update the Workflow Studio application in the Ser
 
     Use the OpenAI GPT-4o LLM to generate a playbook from text.
 
--   **[Add more fields in Create Task activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/create-task-activity.md)**
+-   **Add more fields in Create Task activities**
 
     Add more fields in a more configurable Create Task activity.
 
--   **[Create a checklist directly in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/checklist-task-activity.md)**
+-   **Create a checklist directly in Workflow Studio**
 
     Create a checklist directly in the side panel without needing a checklist template.
 
@@ -78,9 +78,9 @@ After you upgrade to Yokohama, update the Workflow Studio application in the Ser
 
 The application comes with the Workflow Studio ServiceNow Store app. Workflow Studio is part of the ServiceNow AI Platform® and is available by default. Get the latest Workflow Studio features by downloading the latest Workflow Studio app in the ServiceNow Store, as well as related applications like the Process Automation Content and Process Automation Experience Demo applications. The application can be downloaded for patch fixes.
 
-To use the playbook generation feature in Workflow Studio, download the [Now Assist for Creator](https://store.servicenow.com/sn_appstore_store.do#!/store/application/8178fec0ce0431105a7c9305875b2dca) application.
+To use the playbook generation feature in Workflow Studio, download the [ServiceNow Otto for Creator](https://store.servicenow.com/sn_appstore_store.do#!/store/application/8178fec0ce0431105a7c9305875b2dca) application.
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Localization information
 
@@ -92,7 +92,7 @@ Using OpenAI LLMs for playbook generation is not available in the APAC region.
 
     ServiceNow® Workflow Studio consolidates , Workflow Studio, Action Designer, Integration Hub integrations, and ServiceNow® Decision Builder into one design environment. Author, configure, and monitor all of your workflows in a streamlined experience.
 
--   **[Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/exploring-flows.md)**
+-   **Flow Designer**
 
     ServiceNow® Workflow Studio enables process owners to automate approvals, tasks, notifications, and record operations without having to code. You can use the Workflow Studio design environment to author flows and actions and to view the results they produce.
 

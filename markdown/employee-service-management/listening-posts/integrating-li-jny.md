@@ -85,5 +85,5 @@ Lifecycle Events. The steps for both options are provided below:
 
 [Integrating Listening Posts integration with Virtual Agent]()
 
-[Integrating Listening Posts with Usage Insights]()
+[Integrating Listening Posts with User Experience Analytics]()
 

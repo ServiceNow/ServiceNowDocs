@@ -36,7 +36,7 @@ You can configure the following functionality.
 
 2.  Set the following properties as desired.
 
-<table id="choicetable_q1v_qzc_nw"><tbody><tr><td id="d75225e95">
+<table id="choicetable_q1v_qzc_nw"><tbody><tr><td id="d75266e95">
 
 **Disable the ability to copy a change request**
 
@@ -44,7 +44,7 @@ You can configure the following functionality.
 
 Set **Enable Copy Change feature** \(**com.snc.change\_request.enable\_copy**\) to `false`.
 
-</td></tr><tr><td id="d75225e113">
+</td></tr><tr><td id="d75266e113">
 
 **Disable the ability to copy an attachment**
 
@@ -52,7 +52,7 @@ Set **Enable Copy Change feature** \(**com.snc.change\_request.enable\_copy**\) 
 
 Set **Copy attachments from originating change** \(**com.snc.change\_request.attach.enable\_copy**\) to `false`.
 
-</td></tr><tr><td id="d75225e134">
+</td></tr><tr><td id="d75266e134">
 
 **Disable the ability to copy the attachments from the change task**
 
@@ -62,7 +62,7 @@ This system property is located in the \[sys\_properties\] table.Set the **Enabl
 
  **Note:** If the ability to copy attachments is enabled, the attachment appears on the copy of the change request only after it is saved.
 
-</td></tr><tr><td id="d75225e158">
+</td></tr><tr><td id="d75266e158">
 
 **Configure attributes to be copied**
 
@@ -70,7 +70,7 @@ This system property is located in the \[sys\_properties\] table.Set the **Enabl
 
 Edit the list of values in **List of attributes \(comma-separated\) that will be copied from the originating change** \(**com.snc.change\_request.copy.attributes**\) to remove or add more attributes. For example, to prevent the **Assigned to** attribute from being copied, remove the `assigned_to` value from the list of attributes in the property text box.
 
-</td></tr><tr><td id="d75225e182">
+</td></tr><tr><td id="d75266e182">
 
 **Configure related lists to be copied**
 
@@ -85,7 +85,7 @@ This system property is located in the \[sys\_properties\] table. The following 
 
  **Note:** You can configure this property to control the copy functionality of the **Affected CIs**, **Impacted Services/CIs**, and **Change Tasks** related lists. You cannot add any other related list to this property.
 
-</td></tr><tr><td id="d75225e237">
+</td></tr><tr><td id="d75266e237">
 
 **Configure attributes of the default related lists to be copied**
 

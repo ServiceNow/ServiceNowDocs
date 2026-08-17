@@ -36,7 +36,7 @@ Role required: admin
 
 5.  In the **API type** field, select **system**.
 
-6.  In the **API** field, select the search icon \(\[Omitted image "Banner\_GlobalTextSearchIcon.png"\] Alt text: Lookup documents using list.\) to select the document.
+6.  In the **API** field, select the search icon \[Omitted image "Banner\_GlobalTextSearchIcon.png"\] Alt text: Lookup documents using list. to select the document.
 
     1.  In the **Table name** field, select the One API System Executor \[one\_api\_system\_executor\] table.
 

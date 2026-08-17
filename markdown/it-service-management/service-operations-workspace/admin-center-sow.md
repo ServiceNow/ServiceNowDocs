@@ -7,7 +7,7 @@ release: yokohama
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 2
 breadcrumb: [Configure, Service Operations Workspace for ITSM, IT Service Management]
 ---

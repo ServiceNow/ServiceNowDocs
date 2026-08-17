@@ -9,7 +9,7 @@ classification: event-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Monitor service health, Using Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Monitor service health, Using Event Management, Event Management, ITOM Health, IT Operations Management]
 ---
 
 # View discovered service history

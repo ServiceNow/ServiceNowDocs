@@ -38,15 +38,15 @@ Role required: sn\_rpa\_fdn.rpa\_release\_manager, sn\_rpa\_fdn.rpa\_developer, 
 
 3.  Create an attended configuration record from either the menu list or from an attended bot process record's related list.
 
-<table id="choicetable_fr4_mn2_vzb"><thead><tr><th align="left" id="d399847e149">
+<table id="choicetable_fr4_mn2_vzb"><thead><tr><th align="left" id="d400061e149">
 
 Option
 
-</th><th align="left" id="d399847e152">
+</th><th align="left" id="d400061e152">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d399847e158">
+</th></tr></thead><tbody><tr><td id="d400061e158">
 
 **Create an attended configuration record from the menu list**
 
@@ -56,7 +56,7 @@ Action
 2.  Select **New**.
 
 
-</td></tr><tr><td id="d399847e188">
+</td></tr><tr><td id="d400061e188">
 
 **Create an attended configuration record from an attended bot process record's related list**
 

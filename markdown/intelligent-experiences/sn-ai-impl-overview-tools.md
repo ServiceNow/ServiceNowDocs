@@ -23,7 +23,7 @@ The following infographic illustrates the components of the Now Assist experienc
 
 AI governance is defined by your organization and then implemented on the platform using AI Control Tower. AI Control Tower is designed to scale with your organization’s AI maturity. It enables end-to-end life cycle management of AI agents and models, from intake and evaluation to deployment and optimization. It also acts as a bridge between governance committees and implementation teams, ensuring that policy decisions are translated into technical configurations and operational controls. The platform includes the AI Risk and Compliance application, which comes with pre-built content aligned to the EU AI Act and NIST AI Risk Management Framework \(AI RMF\), helping organizations accelerate compliance and implement responsible AI practices from day one. For more information, see [AI governance for Now Assist on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/sn-ai-impl-governance.md).
 
-For real-time guardrail enforcement for AI interactions, you can use Now Assist Guardian to monitor and mitigate risks related to offensive content, sensitive topics, and security threats in generative AI outputs. Admins can configure these guardrails directly in the Now Assist Admin console, and logs are available to track detection events and guide decisions about blocking or escalation.
+For real-time guardrail enforcement for AI interactions, you can use AI Guardian to monitor and mitigate risks related to offensive content, sensitive topics, and security threats in generative AI outputs. Admins can configure these guardrails directly in the AI Admin Hub console, and logs are available to track detection events and guide decisions about blocking or escalation.
 
 Roles and responsibilities:
 
@@ -41,20 +41,20 @@ Roles and responsibilities:
 
 -   **[Now Assist Admin \[sn\_nowassist\_admin.nsa\_admin\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/roles-installed-with-now-assist-admin.md)**
 
-    The Now Assist admin is responsible for enabling and managing the Now Assist Guardian guardrails within the Now Assist Admin console. This includes configuring detection settings for offensiveness, prompt injection, and sensitive topics, as well as monitoring logs to assess harmful or malicious AI outputs. The admin can toggle guardrails on or off, choose actions like “Block and Log,” and tailor the configuration to match organizational risk tolerance and use cases.
+    The Now Assist admin is responsible for enabling and managing the AI Guardian guardrails within the AI Admin Hub console. This includes configuring detection settings for offensiveness, prompt injection, and sensitive topics, as well as monitoring logs to assess harmful or malicious AI outputs. The admin can toggle guardrails on or off, choose actions like “Block and Log,” and tailor the configuration to match organizational risk tolerance and use cases.
 
 
 For more information about these tools, see:
 
 -   [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/ai-control-tower-landing.md)
 -   [AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/ai-risk-and-compliance.md)
--   [Now Assist Guardian](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-guardian.md)
+-   [AI Guardian](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-guardian.md)
 
 ## Data management
 
 You know the old saying, "Garbage in, garbage out?" Poor, incomplete, or unstructured data can lead to poor AI outcomes. To prepare your data for AI implementation, see [Data readiness for implementing Now Assist on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/sn-ai-impl-data-readiness.md).
 
-Now Assist provides several tools to help you manage data and provide user context on your instance. The Now Assist Data Kit helps organizations manage AI training data on their ServiceNow instance. It provides a centralized workspace to curate, generate, cleanse, and evaluate datasets, including importing data from tables, adding ground truth, and creating derived datasets. It supports synthetic data generation—up to 1,000 records at a time—and includes tools to anonymize sensitive information for privacy compliance. Integrated with the Now Assist Skill Kit, it enables teams to test custom AI skills and measure performance.
+Now Assist provides several tools to help you manage data and provide user context on your instance. The AI Data Kit helps organizations manage AI training data on their ServiceNow instance. It provides a centralized workspace to curate, generate, cleanse, and evaluate datasets, including importing data from tables, adding ground truth, and creating derived datasets. It supports synthetic data generation—up to 1,000 records at a time—and includes tools to anonymize sensitive information for privacy compliance. Integrated with the AI Skill Kit, it enables teams to test custom AI skills and measure performance.
 
 Knowledge Graph makes AI in Now Assist more personal by using structured enterprise data to tailor responses to each user. It helps AI understand context, such as a user’s role, location, or assigned assets, making answers more relevant and accurate. It also supports intelligent slot-filling, automatically pulling in known information to streamline conversations and reduce repetitive questions. This results in faster, more personalized, and trustworthy AI interactions.
 
@@ -62,7 +62,7 @@ Roles and responsibilities:
 
 -   **[Now Assist Data Kit admin \[sn\_data\_kit.admin\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-data-kit/data-kit-admin-role.md)**
 
-    This role is required to create, update, and publish datasets in Now Assist Data Kit.
+    This role is required to create, update, and publish datasets in AI Data Kit.
 
 -   **[Knowledge Graph admin \[kg\_admin\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/knowledge-graph/knowledge-graph-roles.md)**
 
@@ -71,7 +71,7 @@ Roles and responsibilities:
 
 For more information about these tools, see:
 
--   [Now Assist Data Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-data-kit/now-assist-data-kit-landing.md)
+-   [AI Data Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-data-kit/now-assist-data-kit-landing.md)
 -   [Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/knowledge-graph/knowledge-graph-landing.md)
 -   [Now Assist Readiness Evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-readiness-evaluation/now-assist-readiness-evaluation-landing-page.md)
 
@@ -104,7 +104,7 @@ For more information about these tools, see:
 
 Now Assist product plugins provide workflow-specific, generative AI skills that are tailored to specific use cases. For example, a skill might summarize a customer chat, suggest next steps in a workflow, or generate resolution notes for a task. For a list of available skills by product, see [Now Assist skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-skills/now-assist-skills.md).
 
-Use the Now Assist Admin console to install and configure Now Assist plugins, as well as perform the following tasks:
+Use the AI Admin Hub console to install and configure Now Assist plugins, as well as perform the following tasks:
 
 -   Set up and configure skills to align with your business processes.
 -   Monitor and analyze usage, including adoption rates and performance metrics across the platform.
@@ -113,7 +113,7 @@ Use the Now Assist Admin console to install and configure Now Assist plugins, as
 -   Manage large language models \(LLMs\).
 -   Configure translation for Now Assist.
 
-If you need to customize or adapt existing skills, you can use the Now Assist Skill Kit to build, customize, and test generative AI skills that are tailored to your organization’s workflows. With features like a prompt editor, visual builder, and evaluation tools, it helps you fine-tune performance and ensure quality. It also integrates with the Now Assist Data Kit and Now Assist Guardian for testing and governance, making it a flexible and secure way to extend AI across the ServiceNow platform.
+If you need to customize or adapt existing skills, you can use the AI Skill Kit to build, customize, and test generative AI skills that are tailored to your organization’s workflows. With features like a prompt editor, visual builder, and evaluation tools, it helps you fine-tune performance and ensure quality. It also integrates with the AI Data Kit and AI Guardian for testing and governance, making it a flexible and secure way to extend AI across the ServiceNow platform.
 
 Roles and responsibilities:
 
@@ -123,18 +123,18 @@ Roles and responsibilities:
 
 -   **[Skill Kit admin \[sn\_skill\_builder.admin\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-skill-kit/na-skill-kit-roles.md)**
 
-    This role is required to create, update, and publish skills in Now Assist Skill Kit.
+    This role is required to create, update, and publish skills in AI Skill Kit.
 
 
 For more information about these tools and features, see:
 
--   [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/configuring-now-assist.md)
+-   [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/configuring-now-assist.md)
     -   [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-panel-overview.md)
     -   [Manage large language models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/manage-large-language-models.md)
     -   [Analyzing Now Assist performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-analytics.md)
     -   [Multilingual service for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/translation-for-now-assist.md)
-    -   [Now Assist for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/mobile/now-assist-mobile-landing.md)
--   [Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-skill-kit/now-assist-skill-kit-landing.md)
+    -   [ServiceNow Otto for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/mobile/now-assist-mobile-landing.md)
+-   [AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-skill-kit/now-assist-skill-kit-landing.md)
 
 ## Agentic AI
 
@@ -145,7 +145,7 @@ Use AI Agent Studio to perform the following tasks:
 -   Build or modify AI agents and agentic workflows using intuitive list views and guided setup tools.
 -   Simulate tasks and view execution logic to refine agent behavior.
 -   Access execution logs and version control to track performance and changes.
--   Use the Settings page to enable Now Assist Guardian for runtime safety, including detection of offensive content and prompt injection.
+-   Use the Settings page to enable AI Guardian for runtime safety, including detection of offensive content and prompt injection.
 -   Use the AI Agent Analytics dashboard to view usage stats, efficiency gains, and execution volume to help measure value.
 
 The Model Context Protocol \(MCP\) client enables you to access the Model Context Protocol tools that are hosted externally and published using an MCP Server. MCP facilitates communication between an AI host application \(like AI Agent Studio\) and one or more MCP servers that expose specific capabilities such as tools.
@@ -207,7 +207,7 @@ Roles and responsibilities:
 
 -   **[Now Assist Admin \[sn\_nowassist\_admin.nsa\_admin\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/roles-installed-with-now-assist-admin.md)**
 
-    This role is required to turn on and configure the Now Assist panel in the Now Assist Admin console.
+    This role is required to turn on and configure the Now Assist panel in the AI Admin Hub console.
 
 
 For more information about these tools, see:
@@ -218,6 +218,6 @@ For more information about these tools, see:
     -   [Integrating Now Assist in Virtual Agent with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/integrating-now-assist-va-msteams.md)
     -   [Using Now Assist in Virtual Agent conversations with Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/na-va-llm-slack.md)
     -   
--   [Now Assist for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/mobile/now-assist-mobile-landing.md)
+-   [ServiceNow Otto for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/mobile/now-assist-mobile-landing.md)
 -   [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-panel-overview.md)
 

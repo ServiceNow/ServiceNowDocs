@@ -1,6 +1,6 @@
 ---
-title: Suggested steps generation in Now Assist for IT Service Management \(ITSM\)
-description: Generate suggested steps automatically by analyzing clusters of closed incidents with similar incident resolution in the Now Assist for IT Service Management \(ITSM\) application.
+title: Suggested steps generation in ServiceNow Otto for IT Service Management \(ITSM\)
+description: Generate suggested steps automatically by analyzing clusters of closed incidents with similar incident resolution in the ServiceNow Otto for IT Service Management \(ITSM\) application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/now-assist-for-it-service-management-itsm/resolution-steps-generation-now-assist-itsm.html
 release: yokohama
@@ -10,12 +10,12 @@ topic_type: task
 last_updated: "2025-03-21"
 reading_time_minutes: 1
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
-breadcrumb: [Use generative AI skills, Now Assist for IT Service Management \(ITSM\), IT Service Management]
+breadcrumb: [Use generative AI skills, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 
-# Suggested steps generation in Now Assist for IT Service Management \(ITSM\)
+# Suggested steps generation in ServiceNow Otto for IT Service Management \(ITSM\)
 
-Generate suggested steps automatically by analyzing clusters of closed incidents with similar incident resolution in the Now Assist for IT Service Management \(ITSM\) application.
+Generate suggested steps automatically by analyzing clusters of closed incidents with similar incident resolution in the ServiceNow Otto for IT Service Management \(ITSM\) application.
 
 ## Before you begin
 

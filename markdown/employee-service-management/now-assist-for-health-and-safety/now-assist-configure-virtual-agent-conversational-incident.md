@@ -9,7 +9,7 @@ classification: now-assist-for-health-and-safety
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Configure settings, Now Assist for Health and Safety, Health and Safety, Employee Service Management]
+breadcrumb: [Configure settings, ServiceNow Otto for Health and Safety, Health and Safety, Employee Service Management]
 ---
 
 # Configure Now Assist in virtual agent for Conversational AI Health and Safety Incident Report
@@ -70,5 +70,5 @@ Role required: admin
 
 The Now Assist panel is enabled for the Employee center.
 
-**Parent Topic:**[Configuring Now Assist for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-configuring.md)
+**Parent Topic:**[Configuring ServiceNow Otto for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-configuring.md)
 

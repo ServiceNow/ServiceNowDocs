@@ -53,15 +53,15 @@ Role required: sn\_wsd\_spcmgmt.space\_planner, sn\_wsd\_spcmgmt.scenario\_reade
     -   When you select a bar or space to view the number of allocated spaces, the borders of the selected bar or space are highlighted.
 5.  Edit the stack plan based on your requirement.
 
-<table id="choicetable_ej5_fmc_kfc"><thead><tr><th align="left" id="d159500e195">
+<table id="choicetable_ej5_fmc_kfc"><thead><tr><th align="left" id="d158881e195">
 
 Action
 
-</th><th align="left" id="d159500e198">
+</th><th align="left" id="d158881e198">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d159500e204">
+</th></tr></thead><tbody><tr><td id="d158881e204">
 
 **Zoom in or out on the stack plan**
 
@@ -69,7 +69,7 @@ Steps
 
 Use the zoom options \(\[Omitted image "zoom-options.png"\] Alt text: Zoom options.\) on the stack plan.
 
-</td></tr><tr><td id="d159500e219">
+</td></tr><tr><td id="d158881e219">
 
 **Resize a bar**
 
@@ -86,7 +86,7 @@ This step is applicable if the Group by option is Workplace Entity.
 
 5.  Select **Apply**, then save the scenario.
 
-</td></tr><tr><td id="d159500e265">
+</td></tr><tr><td id="d158881e265">
 
 **Move a bar to a different floor**
 
@@ -109,7 +109,7 @@ This field is applicable if the Group by option is Workplace Entity.
 
 6.  Select **Apply**, then save the scenario.
 
-</td></tr><tr><td id="d159500e334">
+</td></tr><tr><td id="d158881e334">
 
 **Drag a bar to a different floor**
 

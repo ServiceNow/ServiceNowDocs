@@ -1,5 +1,5 @@
 ---
-title: Using agentic workflows in Now Assist for Financial Services Operations \(FSO\)
+title: Using agentic workflows in ServiceNow Otto for Financial Services Operations \(FSO\)
 description: Use FSO agentic workflows and AI agents to improve and enhance financial services processes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/now-assist-for-financial-services-operations-fso/using-ai-agent-use-cases-in-now-assist-for-fso.html
@@ -10,10 +10,10 @@ topic_type: concept
 last_updated: "2025-03-24"
 reading_time_minutes: 1
 keywords: [friendly fraud AI agent, friendly fraud agentic AI, friendly fraud agentic workflow]
-breadcrumb: [Now Assist for Financial Services Operations \(FSO\)]
+breadcrumb: [ServiceNow Otto for Financial Services Operations \(FSO\)]
 ---
 
-# Using agentic workflows in Now Assist for Financial Services Operations \(FSO\)
+# Using agentic workflows in ServiceNow Otto for Financial Services Operations \(FSO\)
 
 Use FSO agentic workflows and AI agents to improve and enhance financial services processes.
 

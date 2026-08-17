@@ -1,6 +1,6 @@
 ---
-title: Supporting information for Now Assist for Supplier Lifecycle Operations \(SLO\)
-description: Get a quick overview of the important information that is related to the Now Assist for Supplier Lifecycle Operations \(SLO\) application.
+title: Supporting information for ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)
+description: Get a quick overview of the important information that is related to the ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-supporting-info.html
 release: yokohama
@@ -10,20 +10,20 @@ topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1
 keywords: [generative AI, gen AI, genai, artificial intelligence]
-breadcrumb: [Explore Now Assist for Supplier Lifecycle Operations \(SLO\), Now Assist for Supplier Lifecycle Operations \(SLO\), Supplier Lifecycle Operations, Finance and Supply Chain]
+breadcrumb: [Explore ServiceNow Otto for Supplier Lifecycle Operations \(SLO\), ServiceNow Otto for Supplier Lifecycle Operations \(SLO\), Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 
-# Supporting information for Now Assist for Supplier Lifecycle Operations \(SLO\)
+# Supporting information for ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)
 
-Get a quick overview of the important information that is related to the Now Assist for Supplier Lifecycle Operations \(SLO\) application.
+Get a quick overview of the important information that is related to the ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) application.
 
 ## Supported versions
 
-Now Assist for SLO is supported starting with the Xanadu release.
+ServiceNow Otto for SLO is supported starting with the Xanadu release.
 
 ## Supported user interfaces
 
-The Now Assist for SLO application includes the skills that are listed in the following table.
+The ServiceNow Otto for SLO application includes the skills that are listed in the following table.
 
 |Interface|Skill|
 |---------|-----|
@@ -33,7 +33,7 @@ The Now Assist for SLO application includes the skills that are listed in the fo
 
 ## Application information
 
-Activate the Now Assist for SLO store app \(com.snc.sn\_supplier\_gen\_ai\) to use the Case summarization skill.
+Activate the ServiceNow Otto for SLO store app \(com.snc.sn\_supplier\_gen\_ai\) to use the Case summarization skill.
 
 This store app has the following dependencies:
 
@@ -44,7 +44,7 @@ Activate the applications in the following order:
 
 1.  Now Assist for Platform \(sn\_genai\_platform\)
 2.  Supplier Lifecycle Operations \(com.snc.sn\_supplier\_mgmt\)
-3.  Now Assist for Supplier Lifecycle Operations \(SLO\) \(com.snc.sn\_supplier\_gen\_ai\)
+3.  ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) \(com.snc.sn\_supplier\_gen\_ai\)
 
-For more information, see [Configure Now Assist for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-configuring.md).
+For more information, see [Configure ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-configuring.md).
 

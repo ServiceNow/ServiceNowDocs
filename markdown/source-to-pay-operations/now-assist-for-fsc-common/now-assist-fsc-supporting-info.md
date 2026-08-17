@@ -1,6 +1,6 @@
 ---
 title: Supporting information for Now Assist for Common Finance and Supply Chain features
-description: Get a quick overview of the important information that is related to the Now Assist for Sourcing and Procurement Operations \(SPO\) application.
+description: Get a quick overview of the important information that is related to the ServiceNow Otto for Sourcing and Procurement Operations \(SPO\) application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/now-assist-for-fsc-common/now-assist-fsc-supporting-info.html
 release: yokohama
@@ -14,7 +14,7 @@ breadcrumb: [Explore, Now Assist for Common Finance and Supply Chain features, N
 
 # Supporting information for Now Assist for Common Finance and Supply Chain features
 
-Get a quick overview of the important information that is related to the Now Assist for Sourcing and Procurement Operations \(SPO\) application.
+Get a quick overview of the important information that is related to the ServiceNow Otto for Sourcing and Procurement Operations \(SPO\) application.
 
 ## Supported versions
 
@@ -34,7 +34,7 @@ To use Now Assist for Common Finance and Supply Chain features, you need the rol
 
 |Role|Description|
 |----|-----------|
-|admin|Installs the Now Assist for SPO, Now Assist for SLO, or Now Assist for APO plugins, and activates the Purchase order summarization for fulfillers skill.|
+|admin|Installs the ServiceNow Otto for SPO, ServiceNow Otto for SLO, or ServiceNow Otto for APO plugins, and activates the Purchase order summarization for fulfillers skill.|
 |sn\_fsc\_genai.now\_assist\_fulfiller|Generates summaries for purchase orders in the Source-to-Pay Workspace workspace.|
 
 ## Licensing requirements
@@ -47,11 +47,11 @@ The Now Assist for FSC Common store app \(sn\_fsc\_genai\) includes the Purchase
 
 To use Now Assist for FSC Common \(sn\_fsc\_genai\) with SPO, SLO, or APO, install the corresponding plugins as required:
 
--   Now Assist for SPO \(sn\_spend\_gen\_ai\).
+-   ServiceNow Otto for SPO \(sn\_spend\_gen\_ai\).
 
-    Now Assist for SLO \(sn\_supplier\_gen\_ai\)
+    ServiceNow Otto for SLO \(sn\_supplier\_gen\_ai\)
 
--   Now Assist for APO \(sn\_ap\_gen\_ai\)
+-   ServiceNow Otto for APO \(sn\_ap\_gen\_ai\)
 
 
 For more information, see [Configuring Now Assist for Common Finance and Supply Chain features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/now-assist-for-fsc-common/configure-now-assist-fsc.md).

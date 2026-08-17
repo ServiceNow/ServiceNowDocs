@@ -7,7 +7,7 @@ release: yokohama
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Synthetic monitoring reference, Synthetic monitoring, ITOM AIOps, IT Operations Management]
+breadcrumb: [Synthetic monitoring reference, Synthetic monitoring, ITOM Health, IT Operations Management]
 ---
 
 # Synthetic monitoring Landing Page

@@ -1,6 +1,6 @@
 ---
-title: Suggested steps generation in Now Assist for Customer Service Management \(CSM\)
-description: Generate suggested steps automatically by analyzing clusters of closed cases with similar case resolution in the Now Assist for Customer Service Management \(CSM\) application.
+title: Suggested steps generation in ServiceNow Otto for Customer Service Management \(CSM\)
+description: Generate suggested steps automatically by analyzing clusters of closed cases with similar case resolution in the ServiceNow Otto for Customer Service Management \(CSM\) application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/now-assist-for-csm/suggested-steps-generation-in-now-assist-for-customer-service-management-csm.html
 release: yokohama
@@ -10,12 +10,12 @@ topic_type: task
 last_updated: "2025-04-01"
 reading_time_minutes: 1
 keywords: [generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
-breadcrumb: [Use, Now Assist for Customer Service Management \(CSM\), Customer Service Management]
+breadcrumb: [Use, ServiceNow Otto for Customer Service Management \(CSM\), Customer Service Management]
 ---
 
-# Suggested steps generation in Now Assist for Customer Service Management \(CSM\)
+# Suggested steps generation in ServiceNow Otto for Customer Service Management \(CSM\)
 
-Generate suggested steps automatically by analyzing clusters of closed cases with similar case resolution in the Now Assist for Customer Service Management \(CSM\) application.
+Generate suggested steps automatically by analyzing clusters of closed cases with similar case resolution in the ServiceNow Otto for Customer Service Management \(CSM\) application.
 
 ## Before you begin
 
@@ -42,5 +42,5 @@ If suggested steps are enabled for an open case, you can generate and display t
     \[Omitted image "suggested-steps.png"\] Alt text: Suggested steps by Now Assist to resolve the issue
 
 
-**Parent Topic:**[Using Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
+**Parent Topic:**[Using ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
 

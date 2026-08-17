@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
 keywords: [Now Assist, generative AI]
-breadcrumb: [Configure in Virtual Agent, Configure, Now Assist for IT Service Management \(ITSM\), IT Service Management]
+breadcrumb: [Configure in Virtual Agent, Configure, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 
 # Customize a Now Assist Virtual Agent topic

@@ -1,6 +1,6 @@
 ---
 title: Configure the Generate closure notes UI action
-description: Add generative AI-specific functionality to the task closure screens by configuring the Generate closure notes UI action that is included with the Now Assist for Field Service Management \(FSM\) application.
+description: Add generative AI-specific functionality to the task closure screens by configuring the Generate closure notes UI action that is included with the ServiceNow Otto for Field Service Management \(FSM\) application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/now-assist-for-field-service-management-fsm/configure-close-ui-actions.html
 release: yokohama
@@ -9,12 +9,12 @@ classification: now-assist-for-field-service-management-fsm
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configure Now Assist for Field Service Management \(FSM\), Now Assist for Field Service Management \(FSM\)]
+breadcrumb: [Configure ServiceNow Otto for Field Service Management \(FSM\), ServiceNow Otto for Field Service Management \(FSM\)]
 ---
 
 # Configure the Generate closure notes UI action
 
-Add generative AI-specific functionality to the task closure screens by configuring the Generate closure notes UI action that is included with the Now Assist for Field Service Management \(FSM\) application.
+Add generative AI-specific functionality to the task closure screens by configuring the Generate closure notes UI action that is included with the ServiceNow Otto for Field Service Management \(FSM\) application.
 
 ## Before you begin
 
@@ -24,7 +24,7 @@ Role required: wm\_admin
 
 The Field Service Management application includes Close complete and Close incomplete parameter screens that agents can use to close work order tasks.
 
-The Now Assist for FSM application includes generative AI-specific functionality that agents can use to generate work order task closure summaries.
+The ServiceNow Otto for FSM application includes generative AI-specific functionality that agents can use to generate work order task closure summaries.
 
 ## Procedure
 

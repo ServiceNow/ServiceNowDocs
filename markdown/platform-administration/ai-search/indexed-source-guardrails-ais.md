@@ -42,7 +42,7 @@ A ServiceNow® employee can modify guardrail settings for your instance as follo
 
 **Note:** Changes to your instance's guardrail settings may take up to 24 hours to be reflected in AI Search's indexing behavior.
 
-## Indexing and search performance
+## Search performance considerations for indexing
 
 Search performance for AI Search is affected by several customer-controlled factors related to content indexing. Changes to these factors can impact search performance as follows.
 

@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2025-12-16"
 reading_time_minutes: 1
 keywords: [Generate description, Find processes, Classify application service candidates, Now Assist skill, Now Assist, Gen AI, generative AI, ITOM, IT Operations management]
-breadcrumb: [Activate Now Assist skills in Now Assist for IT Operations Management \(ITOM\), Configuring Now Assist for ITOM, Now Assist for ITOM, IT Operations Management]
+breadcrumb: [Activate Now Assist skills in ServiceNow Otto for IT Operations Management \(ITOM\), Configuring ServiceNow Otto for ITOM, ServiceNow Otto for ITOM, IT Operations Management]
 ---
 
 # Activate the Service Mapping Candidate skill
@@ -28,7 +28,7 @@ The Service Mapping Candidate skill provides names for processes and application
 
 ## Before you begin
 
-Before activating the Now Assist skills, you must install the Now Assist for IT Operations Management \(ITOM\) plugin. For more information, see [Install the Now Assist for IT Operations Management \(ITOM\) plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/install-now-assist-itom.md).
+Before activating the Now Assist skills, you must install the ServiceNow Otto for IT Operations Management \(ITOM\) plugin. For more information, see [Install the Now Assist for IT Operations Management \(ITOM\) plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/install-now-assist-itom.md).
 
 You must configure the following settings:
 
@@ -64,5 +64,5 @@ Role required: admin
 3.  On the Service Mapping Candidate tile, select **Activate**.
 
 
-**Parent Topic:**[Activate Now Assist skills in Now Assist for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/activate-now-assist-skills-itom.md)
+**Parent Topic:**[Activate Now Assist skills in ServiceNow Otto for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/activate-now-assist-skills-itom.md)
 

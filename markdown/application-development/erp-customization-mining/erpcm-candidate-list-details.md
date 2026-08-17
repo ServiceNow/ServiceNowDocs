@@ -1,6 +1,6 @@
 ---
 title: ERP-CM candidate list field descriptions
-description: The candidate list in ERP Semantic Mining \(ERP-CM\) displays information on the basic details for each candidate.
+description: The candidate list in ERP Customization Mining \(ERP-CM\) displays information on the basic details for each candidate.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-customization-mining/erpcm-candidate-list-details.html
 release: yokohama
@@ -9,12 +9,12 @@ classification: erp-customization-mining
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [ERP-CM field descriptions, ERP Semantic Mining reference, ERP Semantic Mining \(ERP-CM\), Building low-code applications, Developing your application, Building applications]
+breadcrumb: [ERP-CM field descriptions, ERP Customization Mining reference, ERP Customization Mining \(ERP-CM\), Building low-code applications, Developing your application, Building applications]
 ---
 
 # ERP-CM candidate list field descriptions
 
-The candidate list in ERP Semantic Mining \(ERP-CM\) displays information on the basic details for each candidate.
+The candidate list in ERP Customization Mining \(ERP-CM\) displays information on the basic details for each candidate.
 
 For process details, see [Browse an overview of candidates in ERP-CM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/erpcm-view-home-page-overview.md).
 
@@ -51,7 +51,7 @@ Potential
 Evaluation of how well a candidate is suited for replatforming.The value represents how well the remote tables and extraction tables for the candidate match an application.
 
 -   A high potential indicates that ERP-CM can immediately use remote tables and extraction tables that match the ERP model for the application candidate without making additional changes.
--   A low potential indicates that the application candidate matches few of the remote tables and extraction tables in the ERP models in Zero Copy Connector for ERP.
+-   A low potential indicates that the application candidate matches few of the remote tables and extraction tables in the ERP models in ERP Canvas.
 
 **Note:** This column is available only on the candidates list on the Candidates page, not on the home page.
 
@@ -77,7 +77,7 @@ ERP models
 
 </td><td>
 
-Number of ERP models the candidates belongs to.ERP models are configured in Zero Copy Connector for ERP. An ERP model functions as a staging area that contains all potential fields you can add to remote and extraction tables, and read and update operations. You can then use the tables and queried data as a data source on the ServiceNow AI Platform. For more information, see [Building and managing ERP models to work with ERP data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/work-with-erp-data-models.md).
+Number of ERP models the candidates belongs to.ERP models are configured in ERP Canvas. An ERP model functions as a staging area that contains all potential fields you can add to remote and extraction tables, and read and update operations. You can then use the tables and queried data as a data source on the ServiceNow AI Platform. For more information, see [Building and managing ERP models to work with ERP data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/work-with-erp-data-models.md).
 
 **Note:** This column is available only on the candidates list on the Candidates page, not on the home page.
 

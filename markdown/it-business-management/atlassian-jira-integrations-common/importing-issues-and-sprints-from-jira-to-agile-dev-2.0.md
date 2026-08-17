@@ -22,7 +22,7 @@ You can import existing issues from Jira projects as stories and epics, and exis
 
 From version 2.0.1, you can proceed to import issues from a Jira project directly after discovering projects from Jira. You do not have to create team integration settings. However, the imported issues are not associated to any assignment group in Agile Development 2.0. You can manually assign these issues to an assignment group later.
 
-If you want your imported issues to be assigned to an assignment group automatically, you can create team integration settings for your Jira project by associating it to an Agile 2.0 assignment group and then proceed to import the issues. This setting ensures that any imported issues that belong to a Jira project are assigned to its associated assignment group.
+If you want your imported issues to be assigned to an assignment group automatically, you can create team integration settings for your Jira project. To do so, associate it with an Agile 2.0 assignment group, and then import the issues. This setting ensures that any imported issues that belong to a Jira project are assigned to its associated assignment group.
 
 ## Importing sprints
 

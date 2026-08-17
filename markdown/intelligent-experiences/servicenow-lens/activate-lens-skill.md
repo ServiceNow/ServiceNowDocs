@@ -24,7 +24,7 @@ Activate the ServiceNow AI Lens skill to use generative AI to scan and analyze v
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Now Assist Skills**.
+1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Now Assist Skills**.
 
 2.  In the workflow list, select **Platform**.
 

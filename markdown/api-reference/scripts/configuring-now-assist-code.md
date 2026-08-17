@@ -17,7 +17,7 @@ breadcrumb: [Now Assist for code generation, Scripting, API implementation, API 
 Configure how developers can use code generation on an instance.
 
 -   **[Install Now Assist for code generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/install-now-assist-code-app.md)**  
-Install the ServiceNow® Now Assist for Creator application from the ServiceNow® Store to get Now Assist for code generation.
+Install the ServiceNow® ServiceNow Otto for Creator application from the ServiceNow® Store to get Now Assist for code generation.
 -   **[Enable Code Explain and Summarize](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/enable-code-explain-and-summarize.md)**  
 Enable the Code Explain and Code Summarize features by changing the default model of your instance from NowLLM to Azure OpenAI.
 -   **[Tracking AI-generated code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/tracking-ai-generated-code.md)**  

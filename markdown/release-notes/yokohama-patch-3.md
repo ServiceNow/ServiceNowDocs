@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/yokohama
 release: yokohama
 topic_type: reference
 last_updated: "2025-05-01"
-reading_time_minutes: 80
+reading_time_minutes: 79
 breadcrumb: [Available patches and hotfixes, Learn about the Yokohama release, Yokohama release notes]
 ---
 
@@ -38,11 +38,11 @@ Yokohama Patch 3 includes fixes for security-related problems that affected cert
 
 ## Changes in Yokohama Patch 3
 
--   **[Activate indexing of catalog variable content on Catalog Item records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/activate-catalog-variable-indexing.md)**
+-   ****
 
     Activate indexing of searchable content from variables on Catalog Item records. Configure the set of Catalog Items eligible for catalog variable indexing and the set of variables to index.
 
--   **[AI Search system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/system-properties-ais.md)**
+-   ****
 
     **glide.ais.ingestion.catalog\_variables\_filter\_query**: Encoded query string for a query that Catalog Item records must satisfy to be eligible for catalog variable content indexing.
 
@@ -60,7 +60,7 @@ Yokohama Patch 3 includes fixes for security-related problems that affected cert
 
 
 
--   **[Variable types supported by AI Search indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/variable-types-ais-index.md)**
+-   ****
 
     Service Catalog variable types indexed from Catalog Items.
 

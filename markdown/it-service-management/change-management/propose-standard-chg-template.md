@@ -8,7 +8,7 @@ product: Change Management
 classification: change-management
 topic_type: task
 last_updated: "2025-01-30"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Create a standard change task template, Standard change catalog, Configure, Change Management, IT Service Management]
 ---
 
@@ -24,6 +24,19 @@ Role required: itil, admin
 
 As an IT technician, you can propose a new change template for a change request that you frequently create. This new template is later sent for approval to the change management team, which reviews the request and approves the template as part of the approval process.
 
+**Tip:** In Service Operations Workspace, select the \[Omitted image "list-gray.png"\] Alt text: List icon, and then select **Change Standard Templates** to propose new template. For more information, see 
+
+## Roles for standard change proposals
+
+The following roles apply to standard change proposal templates:
+
+-   `itil`: Submit a new standard change proposal template.
+-   `change_manager`: Review and approve the submitted proposals.
+-   `sn_change_write`: Create and edit standard change templates.
+-   `admin`: Perform all standard change proposal actions.
+
+For the complete role list, see [Components installed with ITSM Roles - Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/installed-with-cm-itsm-roles.md).
+
 ## Procedure
 
 1.  You can propose a standard change template by navigating to **Change** &gt; **Standard Change** &gt; **Standard Change Catalog** &gt; **Template Management** &gt; **Propose a new Standard Change Template** and filling in the fields on the form.
@@ -33,6 +46,7 @@ As an IT technician, you can propose a new change template for a change request 
     |Short description|Short description of the standard change proposal template.|
     |Requester|User who requests the standard change template.|
     |Category|Category under which the template is published. For example, Server Standard Changes.|
+    |Assigned to|User assigned to change requests created from the standard change template.|
     |Configuration item|Configuration item affected by change requests created from the standard change template.|
     |Sample Change Requests|Change requests provided as samples for the change that you propose. The Change Management team reviews the requests as a part of the approval process.|
     |Change Request values|Default field values applied to change requests created from the standard change template. The available fields are governed by the catalog properties. For more information, see[Configure standard change catalog properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/t_ConfigureTheStandardChangeCatalog.md)|

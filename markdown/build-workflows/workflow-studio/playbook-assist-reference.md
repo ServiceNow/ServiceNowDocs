@@ -17,7 +17,7 @@ breadcrumb: [Playbook generation, Exploring playbooks, Exploring Workflow Studio
 Reference topics provide additional information about configuration properties, roles, and more.
 
 -   **[Playbook Assist roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/playbook-assist-roles.md)**  
-The following roles are installed for use with the Now Assist for Creator playbook generation skill.
+The following roles are installed for use with the ServiceNow Otto for Creator playbook generation skill.
 
 **Parent Topic:**[Playbook generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/playbook-assist-landing.md)
 

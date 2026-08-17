@@ -9,7 +9,7 @@ classification: cloud-configuration-governance
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Using Cloud Services Catalog Terraform Connector, Cloud Services Catalog Terraform Connector, Support for continuous delivery \(configuration management\), Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Optimization, IT Operations Management]
+breadcrumb: [Using Cloud Provisioning and Governance: Terraform Connector, Cloud Provisioning and Governance: Terraform Connector, Support for continuous delivery \(configuration management\), Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Optimization, IT Operations Management]
 ---
 
 # Map credentials between Cloud Provisioning and Governance and Terraform
@@ -18,7 +18,7 @@ Map credential types and service account fields between Cloud Provisioning and G
 
 ## Before you begin
 
-The latest Cloud Services Catalog Terraform Connector must be installed from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/application/9b04ffc20b1323002530a387b6673a1d/).
+The latest Cloud Provisioning and Governance: Terraform Connector must be installed from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/application/9b04ffc20b1323002530a387b6673a1d/).
 
 Role required: sn\_cmp.cloud\_admin, admin
 
@@ -74,5 +74,5 @@ Use the Credential Mapping module to perform credential and service account mapp
     You have mapped the field values that you added under the Credential Mapping and Service Account Mapping related lists to the Terraform provider.
 
 
-**Parent Topic:**[Using Cloud Services Catalog Terraform Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/using-ccg-terraform-connector.md)
+**Parent Topic:**[Using Cloud Provisioning and Governance: Terraform Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/using-ccg-terraform-connector.md)
 

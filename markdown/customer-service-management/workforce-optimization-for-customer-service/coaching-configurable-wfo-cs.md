@@ -184,15 +184,15 @@ The Coaching Overview screen displays the average quality of the tasks that were
 
 3.  Do any of the following.
 
-<table id="choicetable_k5z_rpq_pnb"><thead><tr><th align="left" id="d137391e635">
+<table id="choicetable_k5z_rpq_pnb"><thead><tr><th align="left" id="d137183e635">
 
 To
 
-</th><th align="left" id="d137391e638">
+</th><th align="left" id="d137183e638">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d137391e644">
+</th></tr></thead><tbody><tr><td id="d137183e644">
 
 **Perform adhoc assessments**
 
@@ -204,7 +204,7 @@ Do this
 4.  Click the plus \(+\) icon.
 
 
-</td></tr><tr><td id="d137391e680">
+</td></tr><tr><td id="d137183e680">
 
 **Use assessments triggered by coaching opportunities**
 
@@ -342,15 +342,15 @@ You can view skills for all users grouped by assignment group and the overall sk
 
 4.  Add a skill or skill level.
 
-<table id="choicetable_ufk_1hx_nlb"><thead><tr><th align="left" id="d137391e1009">
+<table id="choicetable_ufk_1hx_nlb"><thead><tr><th align="left" id="d137183e1009">
 
 To
 
-</th><th align="left" id="d137391e1012">
+</th><th align="left" id="d137183e1012">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d137391e1018">
+</th></tr></thead><tbody><tr><td id="d137183e1018">
 
 **Add a skill**
 
@@ -361,7 +361,7 @@ Do this
 3.  Click **OK**.
 The skill gets automatically added to the agent.
 
-</td></tr><tr><td id="d137391e1048">
+</td></tr><tr><td id="d137183e1048">
 
 **Update a skill level**
 

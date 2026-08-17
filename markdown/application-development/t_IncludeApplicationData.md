@@ -35,7 +35,7 @@ The application data only includes the version of the records that existed when 
 
 4.  For **Load When**, select when the application record includes application data.
 
-<table id="choicetable_amy_wdd_br"><tbody><tr><td id="d52141e127">
+<table id="choicetable_amy_wdd_br"><tbody><tr><td id="d51932e127">
 
 **__New Install and Upgrades__**
 
@@ -43,7 +43,7 @@ The application data only includes the version of the records that existed when 
 
 Includes application data whenever the application is installed or upgraded.
 
-</td></tr><tr><td id="d52141e139">
+</td></tr><tr><td id="d51932e139">
 
 **__New Install__**
 
@@ -51,7 +51,7 @@ Includes application data whenever the application is installed or upgraded.
 
 Includes application data only when the application is installed.
 
-</td></tr><tr><td id="d52141e151">
+</td></tr><tr><td id="d51932e151">
 
 **__New Install with Demo Data__**
 

@@ -18,7 +18,7 @@ Configure an agent registration key so that you can deploy MID-less Agent Client
 
 ## Before you begin
 
-Install the plugins necessary for deploying MID-less Agent Client Collector, as described in [Agent Client Collector installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-installation.md).
+Install the plugins necessary for deploying MID-less Agent Client Collector, as described in [Agent Client Collector Installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-installation.md).
 
 Role required: agent\_client\_collector\_admin
 

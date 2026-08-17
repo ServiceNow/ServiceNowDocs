@@ -9,7 +9,7 @@ classification: service-reliability-management
 topic_type: reference
 last_updated: "2025-03-19"
 reading_time_minutes: 1
-breadcrumb: [Using ITOM Mobile Agent, ITOM Mobile Agent, Service Reliability Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Using ITOM Mobile Agent, ITOM Mobile Agent, Service Reliability Management, ITOM Health, IT Operations Management]
 ---
 
 # Managing incidents and major incidents on mobile

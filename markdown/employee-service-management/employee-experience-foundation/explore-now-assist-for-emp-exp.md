@@ -1,6 +1,6 @@
 ---
-title: Explore Now Assist for Employee Experience
-description: With the Now Assist for Employee Experience application, your employees can use Now Assist in Virtual Agent to quickly check the status of their work through conversations.
+title: Explore ServiceNow Otto for Employee Experience
+description: With the ServiceNow Otto for Employee Experience application, your employees can use Now Assist in Virtual Agent to quickly check the status of their work through conversations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/employee-experience-foundation/explore-now-assist-for-emp-exp.html
 release: yokohama
@@ -9,26 +9,26 @@ classification: employee-experience-foundation
 topic_type: concept
 last_updated: "2025-09-08"
 reading_time_minutes: 3
-breadcrumb: [Now Assist for Employee Experience, Unified Employee Experience, Employee Service Management]
+breadcrumb: [ServiceNow Otto for Employee Experience, Unified Employee Experience, Employee Service Management]
 ---
 
-# Explore Now Assist for Employee Experience
+# Explore ServiceNow Otto for Employee Experience
 
-With the Now Assist for Employee Experience application, your employees can use Now Assist in Virtual Agent to quickly check the status of their work through conversations.
+With the ServiceNow Otto for Employee Experience application, your employees can use Now Assist in Virtual Agent to quickly check the status of their work through conversations.
 
-## Now Assist for Employee Experience overview
+## ServiceNow Otto for Employee Experience overview
 
 Your employees can use the Now Assist in Virtual Agent, which is powered by generative AI chat capabilities, to engage in an interactive conversational experience. They can check the status of their tasks and approvals and also submit a catalog task.
 
-\[Omitted image "uex-nowassist-startmsg.png"\] Alt text: Now Assist for Employee Experience welcome message.
+\[Omitted image "uex-nowassist-startmsg.png"\] Alt text: ServiceNow Otto for Employee Experience welcome message.
 
-The Now Assist for Employee Experience enables your employees to check the following options:
+The ServiceNow Otto for Employee Experience enables your employees to check the following options:
 
 -   **My Tasks**
 
     An employee can view the status of their tasks. They can check their assigned, pending, or open tasks. Depending on their query, the Now Assist in Virtual Agent shows the details of the tasks and lets them open a task for more information by using the Task center.
 
-    The Now Assist for Employee Experience supports the following tasks by default:
+    The ServiceNow Otto for Employee Experience supports the following tasks by default:
 
     -   HR tasks like submitting a catalog request
     -   Survey tasks
@@ -42,7 +42,7 @@ The Now Assist for Employee Experience enables your employees to check the follo
 
     The employee's manager can directly approve or reject an approval. Depending on the query, the chat lets a manager approve or reject a task directly.
 
-    The Now Assist for Employee Experience supports the following approvals by default:
+    The ServiceNow Otto for Employee Experience supports the following approvals by default:
 
     -   Catalog request approvals
     -   Change request approvals
@@ -54,7 +54,7 @@ The Now Assist for Employee Experience enables your employees to check the follo
 
 Use the Request, Requested item, and Case summarization skill for approvals to create useful summaries so that the approver users can understand the context quickly.
 
-For more information, see [Activate Now Assist for Employee Experience skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/activate-now-assist-skills-uex.md).
+For more information, see [Activate ServiceNow Otto for Employee Experience skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/activate-now-assist-skills-uex.md).
 
 ## Expanded Now Assist search
 
@@ -71,7 +71,7 @@ For more information about the AI agent, see [Company News &amp; Events AI Agent
 -   Get an overview of the Now Assist framework.
 -   Discover the Now Assist panel.
 -   Explore the Now Assist skills available.
--   Activate and configure a Now Assist skill using the Now Assist Admin console.
+-   Activate and configure a Now Assist skill using the AI Admin Hub console.
 -   Analyze and monitor Now Assist skill usage and performance.
 
 For more information about an agentic workflow and activating the required components, see the following topics:
@@ -81,17 +81,17 @@ For more information about an agentic workflow and activating the required compo
 -   [Modify an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/modify-ai-agent.md)
 -   [Implement access control in Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/aia-security-implementation.md)
 
--   **[Supporting information for Now Assist for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/supporting-info-for-now-assist-for-emp-expe.md)**  
-Get a quick overview of the key information related to the Now Assist for Employee Experience.
+-   **[Supporting information for ServiceNow Otto for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/supporting-info-for-now-assist-for-emp-expe.md)**  
+Get a quick overview of the key information related to the ServiceNow Otto for Employee Experience.
 
-**Parent Topic:**[Now Assist for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/now-assisit-employee-exp.md)
+**Parent Topic:**[ServiceNow Otto for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/now-assisit-employee-exp.md)
 
 **Related topics**  
 
 
 [Configuring Now Assist settings and features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configuring-na-landing.md)
 
-[Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configuring-now-assist.md)
+[AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configuring-now-assist.md)
 
 [bundle-platai.now-assist-case-summary]
 

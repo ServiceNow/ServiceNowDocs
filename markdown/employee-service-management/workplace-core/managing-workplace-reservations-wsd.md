@@ -93,5 +93,5 @@ Review pending workplace reservation requests from employees in Workplace Core a
 
 [Location migration]()
 
-[View workplace service usage analytics with Usage Insights]()
+[View workplace service usage analytics with User Experience Analytics]()
 

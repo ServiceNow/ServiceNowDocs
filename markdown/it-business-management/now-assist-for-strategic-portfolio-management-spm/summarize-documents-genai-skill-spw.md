@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 3
 keywords: [Summarize the content with gen ai doc skill, Now Assist skill, Now Assist, Gen AI, Generative AI, Strategic Portfolio Management, SPM]
-breadcrumb: [Using Now Assist for Strategic Portfolio Management \(SPM\), Now Assist for Strategic Portfolio Management \(SPM\), Strategic Portfolio Management]
+breadcrumb: [Using ServiceNow Otto for Strategic Portfolio Management, ServiceNow Otto for Strategic Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Generate the summary for selected or complete content
@@ -35,15 +35,15 @@ Minimize the time that you spend reading documents, meeting notes, project repor
 
 2.  From the **Docs** tab, perform one of these actions according to your requirements.
 
-<table id="choicetable_iwk_4nw_1dc"><thead><tr><th align="left" id="d252167e135">
+<table id="choicetable_iwk_4nw_1dc"><thead><tr><th align="left" id="d251794e135">
 
 Gen AI actions
 
-</th><th align="left" id="d252167e138">
+</th><th align="left" id="d251794e138">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d252167e144">
+</th></tr></thead><tbody><tr><td id="d251794e144">
 
 **Summarize**
 
@@ -59,7 +59,7 @@ Summarize the selected text from the **Docs** tab:
 2.  Select **Done**.
 
 
-</td></tr><tr><td id="d252167e193">
+</td></tr><tr><td id="d251794e193">
 
 **Elaborate**
 
@@ -67,7 +67,7 @@ Summarize the selected text from the **Docs** tab:
 
 Elaborate the selected text by selecting **Elaborate**.
 
-</td></tr><tr><td id="d252167e205">
+</td></tr><tr><td id="d251794e205">
 
 **Shorten**
 
@@ -75,7 +75,7 @@ Elaborate the selected text by selecting **Elaborate**.
 
 Shorten the selected text by selecting **Shorten**.
 
-</td></tr><tr><td id="d252167e217">
+</td></tr><tr><td id="d251794e217">
 
 **Insert below**
 
@@ -88,15 +88,15 @@ Add the generated summary after the selected content by selecting **Insert below
 
 3.  When you're finished summarizing the content in Docs, you can provide feedback, copy, or view information about it.
 
-<table id="choicetable_q5t_p5h_1dc"><thead><tr><th align="left" id="d252167e244">
+<table id="choicetable_q5t_p5h_1dc"><thead><tr><th align="left" id="d251794e244">
 
 Option
 
-</th><th align="left" id="d252167e247">
+</th><th align="left" id="d251794e247">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d252167e253">
+</th></tr></thead><tbody><tr><td id="d251794e253">
 
 **Provide feedback for the summary**
 
@@ -104,7 +104,7 @@ Procedure
 
 If you think that the summary was helpful, select the helpful icon \(\[Omitted image "icon-helpful-feedback.png"\] Alt text: Helpful icon.\). If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-nt-helpful.png"\] Alt text: Not helpful icon.\).This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d252167e276">
+</td></tr><tr><td id="d251794e276">
 
 **More information on summary**
 
@@ -112,7 +112,7 @@ If you think that the summary was helpful, select the helpful icon \(\[Omitted i
 
 If you want to check some details about the summary, select the more info icon \(\[Omitted image "icon-more-information-spm.png"\] Alt text: More information icon.\).
 
-</td></tr><tr><td id="d252167e291">
+</td></tr><tr><td id="d251794e291">
 
 **Copy the Docs summary**
 
@@ -125,12 +125,12 @@ Select the copy to clipboard icon \(\[Omitted image "icon-copy-spm.png"\] Alt te
 
     **Note:** Because the information in these fields is AI generated, it's a good idea to review the text and make sure it's accurate.
 
-    Only an administrator can activate the Now Assist skills. For more information, see [Configure Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/configure-now-assist-for-spm.md).
+    Only an administrator can activate the Now Assist skills. For more information, see [Configure ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/configure-now-assist-for-spm.md).
 
     The Planning item doc summarization skill checks the doc content to determine if enough information is available to generate a summary. If there isn't enough content to summarize, you can add more content and retry.
 
     **Note:** The **Summarize** button is visible only if the Planning item doc summarization skill is active. If the selected text exceeds the token limit for Now Assist, the Planning item doc summarization skill can't be executed. If there is more content to summarize, you can remove some content and retry.
 
 
-**Parent Topic:**[Using Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/using-now-assist-for-spm.md)
+**Parent Topic:**[Using ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/using-now-assist-for-spm.md)
 

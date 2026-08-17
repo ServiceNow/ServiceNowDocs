@@ -60,5 +60,5 @@ Review the workplace reservations and the reservation requests made for the shif
 
 [Location migration]()
 
-[View workplace service usage analytics with Usage Insights]()
+[View workplace service usage analytics with User Experience Analytics]()
 

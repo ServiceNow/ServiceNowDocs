@@ -7,8 +7,9 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-07-22"
 reading_time_minutes: 1
+keywords: [Supported business outcomes, CMDB success advisor outcomes, Data Foundations HAM SAM outcomes, choosing a CMDB success advisor outcome]
 breadcrumb: [CMDB success advisor, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -28,16 +29,22 @@ CMDB success advisor helps improve CMDB data quality by aligning data quality ef
 
 [Hardware Asset Management\[Omitted image "bus-asset.svg"\] Alt text:Identify missing hardware asset data and improve normalization rates.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/cmdb-sa-ham-use.md)
 
+</td></tr><tr><td>
+
+[Software Asset Management \(SAM\)\[Omitted image "bus-contract.svg"\] Alt text:Identify software install data quality issues and improve licensing compliance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/cmdb-sa-sam-use.md)
+
 </td></tr></tbody>
 </table>## Choosing your CMDB success advisor outcome
 
-Use the following table to get the right CMDB success advisor guidance for your organization's goals. Each outcome activates a dedicated advisory experience with its own scope, KPI dashboard, issue detection, and guided remediation. Start with one outcome and expand to the other at any time. Run both simultaneously when goals overlap.
+Use the following table to get the right CMDB success advisor guidance for your organization's goals. Each outcome activates a dedicated advisory experience with its own scope, KPI dashboard, issue detection, and guided remediation. Start with one outcome and expand to others at any time. Run multiple outcomes simultaneously when goals overlap.
 
 |Organization goal|Recommended outcome|
 |-----------------|-------------------|
 |Improve integration coverage for your most critical CI classes|Data Foundations|
-|Track and fix missing serial numbers, model IDs, and locations for hardware|HAM|
+|Track and resolve missing serial numbers, model IDs, and locations for hardware|HAM|
 |Support asset life cycle management and financial reporting accuracy|HAM|
 |Eliminate duplicate hardware records and asset and CI state mismatches|HAM|
-|Improve both data quality and hardware asset accuracy|Both: Data Foundations and HAM can run simultaneously|
+|Track and resolve software installs missing edition, version, or cloud license details|SAM|
+|Eliminate installs on duplicate CIs and verify virtual server-to-host CI relationships for licensing compliance|SAM|
+|Improve data quality across multiple outcomes|Data Foundations, HAM, and SAM can run simultaneously|
 

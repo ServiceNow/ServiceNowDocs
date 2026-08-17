@@ -9,7 +9,7 @@ classification: now-assist-for-security-incident-response-sir
 topic_type: task
 last_updated: "2025-08-21"
 reading_time_minutes: 2
-breadcrumb: [Generate SIR Shift Handover Report, Use agentic workflows, Now Assist for Security Incident Response, Security Operations]
+breadcrumb: [Generate SIR Shift Handover Report, Use agentic workflows, ServiceNow Otto for Security Incident Response \(SIR\), Security Operations]
 ---
 
 # Add security incident to shift handover report

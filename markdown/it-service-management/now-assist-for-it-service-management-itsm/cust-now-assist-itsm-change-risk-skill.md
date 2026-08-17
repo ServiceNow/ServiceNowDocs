@@ -1,6 +1,6 @@
 ---
-title: Customize a Now Assist for IT Service Management \(ITSM\) change risk explanation skill
-description: Enhance the efficiency to explain the risk of a change request by adding input fields and custom fields. You can also add more information to generate the explanation the using Now Assist for ITSM.
+title: Customize a ServiceNow Otto for IT Service Management \(ITSM\) change risk explanation skill
+description: Enhance the efficiency to explain the risk of a change request by adding input fields and custom fields. You can also add more information to generate the explanation the using ServiceNow Otto for ITSM.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/now-assist-for-it-service-management-itsm/cust-now-assist-itsm-change-risk-skill.html
 release: yokohama
@@ -10,12 +10,12 @@ topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 6
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
-breadcrumb: [Configure, Now Assist for IT Service Management \(ITSM\), IT Service Management]
+breadcrumb: [Configure, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 
-# Customize a Now Assist for IT Service Management \(ITSM\) change risk explanation skill
+# Customize a ServiceNow Otto for IT Service Management \(ITSM\) change risk explanation skill
 
-Enhance the efficiency to explain the risk of a change request by adding input fields and custom fields. You can also add more information to generate the explanation the using Now Assist for ITSM.
+Enhance the efficiency to explain the risk of a change request by adding input fields and custom fields. You can also add more information to generate the explanation the using ServiceNow Otto for ITSM.
 
 ## Before you begin
 
@@ -49,7 +49,7 @@ Role required: sn\_nowassist\_admin.nsa\_admin
 
 5.  In the General details step, fill in the fields.
 
-    For information about the inputs and triggers for each skill, see [Skill inputs and triggers for Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-skills.md).
+    For information about the inputs and triggers for each skill, see [Skill inputs and triggers for ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-skills.md).
 
     1.  Enter a name and description for the skill.
 

@@ -1,20 +1,20 @@
 ---
 title: Generate code with autocomplete
-description: The autocomplete feature of Now Assist for Code provides you with contextually relevant code suggestions.
+description: The autocomplete feature of ServiceNow Otto for Code provides you with contextually relevant code suggestions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/scripts/generate-code-with-autocomplete.html
 release: yokohama
 product: Scripts
 classification: scripts
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 1
 breadcrumb: [Now Assist for code generation, Scripting, Building pro-code applications, Developing your application, Building applications]
 ---
 
 # Generate code with autocomplete
 
-The autocomplete feature of Now Assist for Code provides you with contextually relevant code suggestions.
+The autocomplete feature of ServiceNow Otto for Code provides you with contextually relevant code suggestions.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: now.assist.creator
 
 ## Procedure
 
-1.  Navigate to any script enabled with Now Assist for Code.
+1.  Navigate to any script enabled with ServiceNow Otto for Code.
 
 2.  Start coding in the script editor.
 

@@ -9,7 +9,7 @@ classification: agent-client-collector
 topic_type: task
 last_updated: "2025-04-09"
 reading_time_minutes: 2
-breadcrumb: [Agent Client Collector installation, Configuring Agent Client Collector Framework, Agent Client Collector Framework, Agent Client Collector, IT Operations Management]
+breadcrumb: [ACC installation, Configuring Agent Client Collector Framework, Agent Client Collector Framework, Agent Client Collector, IT Operations Management]
 ---
 
 # Perform high-volume Agent Client Collector upgrade

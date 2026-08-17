@@ -9,7 +9,7 @@ classification: upgrade-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Access guided setup for Upgrade Console, Configuring Upgrade Console, Upgrade Console, Upgrade, Administer the ServiceNow AI Platform]
+breadcrumb: [Access guided setup for Upgrade Management, Configuring Upgrade Management, Upgrade Management, Upgrade, Administer the ServiceNow AI Platform]
 ---
 
 # Implement pre-upgrade activities
@@ -64,7 +64,7 @@ Role required: admin
     -   Identify periods of low activity by reviewing and analyzing usage patterns and data.
     -   Ensure all relevant people are in agreement with the scheduled upgrade time.
 
-**Parent Topic:**[Access guided setup for Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-management/um-guided-tour-implement.md)
+**Parent Topic:**[Access guided setup for Upgrade Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-management/um-guided-tour-implement.md)
 
 **Related topics**  
 

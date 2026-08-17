@@ -26,15 +26,15 @@ Review [Stages and activities](https://raw.githubusercontent.com/ServiceNow/Serv
 
 1.  Add a stage.
 
-<table id="choicetable_z1g_1yz_21c"><thead><tr><th align="left" id="d39554e78">
+<table id="choicetable_z1g_1yz_21c"><thead><tr><th align="left" id="d38886e78">
 
 View
 
-</th><th align="left" id="d39554e81">
+</th><th align="left" id="d38886e81">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d39554e87">
+</th></tr></thead><tbody><tr><td id="d38886e87">
 
 **Diagram**
 
@@ -44,7 +44,7 @@ Steps
 2.  In the mini-picker, select the dotted square icon. \[Omitted image "diagram-stage-icon.png"\] Alt text: Square dotted stage icon in Diagram view mini-picker.
 
 
-</td></tr><tr><td id="d39554e116">
+</td></tr><tr><td id="d38886e116">
 
 **Board**
 
@@ -98,7 +98,7 @@ Choose when you want your stage to start running. Options include:-   **When pro
 
         **Warning:** Changing the advanced property fields of an activity can potentially break your automation. Make sure you understand how the playbook and its activities flow before you make changes.
 
-<table id="choicetable_ffz_mct_vlb"><tbody><tr><td id="d39554e260">
+<table id="choicetable_ffz_mct_vlb"><tbody><tr><td id="d38886e260">
 
 **Display order**
 
@@ -108,7 +108,7 @@ When there are multiple stages running at the same time, define the order in whi
 
 \[Omitted image "playbook-parallel-example.png"\] Alt text: Parallel paths example
 
-</td></tr><tr><td id="d39554e285">
+</td></tr><tr><td id="d38886e285">
 
 **Start with delay**
 

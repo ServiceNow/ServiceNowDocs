@@ -26,15 +26,15 @@ Role required: approver\_user
 
 1.  Navigate to a reservation approval task.
 
-<table id="choicetable_dpt_bjp_zlb"><thead><tr><th align="left" id="d457883e71">
+<table id="choicetable_dpt_bjp_zlb"><thead><tr><th align="left" id="d457235e71">
 
 Application
 
-</th><th align="left" id="d457883e74">
+</th><th align="left" id="d457235e74">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d457883e80">
+</th></tr></thead><tbody><tr><td id="d457235e80">
 
 **Now Mobile**
 
@@ -89,5 +89,5 @@ In the Now Mobile app, open a task from the My Tasks section.
 
 [Location migration]()
 
-[View workplace service usage analytics with Usage Insights]()
+[View workplace service usage analytics with User Experience Analytics]()
 

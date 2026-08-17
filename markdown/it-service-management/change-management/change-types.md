@@ -8,7 +8,7 @@ product: Change Management
 classification: change-management
 topic_type: concept
 last_updated: "2025-01-30"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Exploring Change Management, Change Management, IT Service Management]
 ---
 
@@ -40,10 +40,18 @@ Change Management supports the three types of service changes ITIL describes —
 
     Any service change that is not a standard change or an emergency change.
 
+    A normal change differs from a standard change in its approval path. Unlike a standard change, which is pre-approved and bypasses Change Advisory Board \(CAB\) authorization, a normal change requires assessment, peer or technical approval, and CAB authorization before implementation.
+
     Normal change requests follow a prescriptive process which requires two levels of approval before being implemented, reviewed, and closed. These changes require a full range of assessments and authorizations such as peer or technical approval, change management, and Change Advisory Board \(CAB\) authorization, to ensure completeness, accuracy, and the least possible disruption to service. These changes are most often scheduled outside of defined change blackout windows or during defined maintenance windows. The normal type is used to implement beneficial change for any change to a service that is not a standard or emergency change.
 
 
 The following table summarizes about the three change types:
+
+|Change type|Pre-approved|Required CAB|Typical use|
+|-----------|------------|------------|-----------|
+|Standard|Yes|No|Low-risk, repeatable changes with a proven history of success.|
+|Normal|No|Yes|Any change that isn't standard or emergency and requires full assessment.|
+|Emergency|No|Yes|High-priority changes that resolve a major incident or apply a security patch.|
 
 **Parent Topic:**[Exploring Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/exploring-change-management.md)
 

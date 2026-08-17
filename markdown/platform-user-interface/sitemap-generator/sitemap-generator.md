@@ -20,7 +20,7 @@ Use the ServiceNow® Sitemap Generator application to define and automatically g
 
 You can activate the Sitemap Generator application \(sn\_ux\_seo\_sitemap\) from your instance. For more information, see [Activate Sitemap Generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/sitemap-generator/activate-sitemap-generator.md).
 
-You can also activate Sitemap Generator from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+You can also activate Sitemap Generator from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Sitemap requirements
 

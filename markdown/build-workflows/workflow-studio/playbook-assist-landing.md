@@ -1,6 +1,6 @@
 ---
 title: Playbook generation
-description: Use Now Assist to generate playbooks from text directions or images. For example, you can enter directions to generate a playbook outline for managing customer support cases. Playbook Assist is part of the Now Assist for Creator application.
+description: Use Now Assist to generate playbooks from text directions or images. For example, you can enter directions to generate a playbook outline for managing customer support cases. Playbook Assist is part of the ServiceNow Otto for Creator application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/build-workflows/workflow-studio/playbook-assist-landing.html
 release: yokohama
@@ -14,7 +14,7 @@ breadcrumb: [Exploring playbooks, Exploring Workflow Studio, Workflow Studio, Bu
 
 # Playbook generation
 
-Use Now Assist to generate playbooks from text directions or images. For example, you can enter directions to generate a playbook outline for managing customer support cases. Playbook Assist is part of the Now Assist for Creator application.
+Use Now Assist to generate playbooks from text directions or images. For example, you can enter directions to generate a playbook outline for managing customer support cases. Playbook Assist is part of the ServiceNow Otto for Creator application.
 
 ## Get started
 
@@ -54,9 +54,9 @@ ServiceNow collects and uses the inputs, outputs, and edits to outputs of this a
 For more information, see the [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/platform-now-assist-landing.md).
 
 -   **[Exploring Now Assist for Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/playbook-assist.md)**  
-Use Now Assist to generate playbooks from text directions or images. For example, you can enter directions to generate a playbook outline for managing customer support cases. Playbook Assist is part of the Now Assist for Creator application.
+Use Now Assist to generate playbooks from text directions or images. For example, you can enter directions to generate a playbook outline for managing customer support cases. Playbook Assist is part of the ServiceNow Otto for Creator application.
 -   **[Configuring Playbook Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/configuring-playbook-assist.md)**  
-Enable Playbook Assist skills in the Now Assist for Creator application so that you can get started with building playbooks faster.
+Enable Playbook Assist skills in the ServiceNow Otto for Creator application so that you can get started with building playbooks faster.
 -   **[Generate a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/generate-a-playbook-outline.md)**  
 Generate a playbook with Now Assist by providing text directions or image.
 -   **[Playbook recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/playbook-recommendations.md)**  

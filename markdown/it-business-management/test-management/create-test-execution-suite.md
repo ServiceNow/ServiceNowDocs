@@ -1,6 +1,6 @@
 ---
 title: Create a test execution suite in Test Management 2.0
-description: Create a short test plan when the testing effort is minimal and you do not want to go through the overhead of creating a test plan and a test cycle for a test execution suite.
+description: Create a short test plan when the testing effort is minimal. You can also use it when you want to avoid the overhead of creating a test plan and a test cycle for a test execution suite.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/test-management/create-test-execution-suite.html
 release: yokohama
@@ -14,7 +14,7 @@ breadcrumb: [Testing using Test Management 2.0, Test Management 2.0, Test Manage
 
 # Create a test execution suite in Test Management 2.0
 
-Create a short test plan when the testing effort is minimal and you do not want to go through the overhead of creating a test plan and a test cycle for a test execution suite.
+Create a short test plan when the testing effort is minimal. You can also use it when you want to avoid the overhead of creating a test plan and a test cycle for a test execution suite.
 
 ## Before you begin
 

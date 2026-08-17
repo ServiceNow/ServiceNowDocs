@@ -58,7 +58,7 @@ To maximize its impact, Now Assist in AI Search should be activated before Now A
     -   [Enabling and configuring AI Search in ServiceNow AI Platform® applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/enable-configure-apps-ais.md)
 -   **5. Install Now Assist in AI Search**
 
-    Install a Now Assist product in the Now Assist Admin console.
+    Install a Now Assist product in the AI Admin Hub console.
 
     See: [Install Now Assist in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/install-now-assist-ais.md)
 

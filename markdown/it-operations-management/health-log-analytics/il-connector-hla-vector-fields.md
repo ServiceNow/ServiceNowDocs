@@ -10,7 +10,7 @@ topic_type: reference
 last_updated: "2026-01-26"
 reading_time_minutes: 1
 keywords: [Vector Agent, data input, integration, configuration, field, description, ServiceNow, Health Log Analytics, HLA]
-breadcrumb: [Integration configuration field descriptions, Health Log Analytics reference, Health Log Analytics, ITOM AIOps, IT Operations Management]
+breadcrumb: [Integration configuration field descriptions, Health Log Analytics reference, Health Log Analytics, ITOM Health, IT Operations Management]
 ---
 
 # Vector Agent integration configuration fields

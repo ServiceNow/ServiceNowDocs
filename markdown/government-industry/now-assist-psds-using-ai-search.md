@@ -1,18 +1,18 @@
 ---
-title: Using AI Search in Now Assist for Public Sector Digital Services \(PSDS\)
-description: Agents can search for information with single turn Q&amp;A using the AI Search feature in Now Assist for Public Sector Digital Services \(PSDS\).
+title: Using AI Search in ServiceNow Otto for Public Sector Digital Services \(PSDS\)
+description: Agents can search for information with single turn Q&amp;A using the AI Search feature in ServiceNow Otto for Public Sector Digital Services \(PSDS\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/now-assist-psds-using-ai-search.html
 release: yokohama
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Use, Now Assist for PSDS, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Use, ServiceNow Otto for PSDS, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Using AI Search in Now Assist for Public Sector Digital Services \(PSDS\)
+# Using AI Search in ServiceNow Otto for Public Sector Digital Services \(PSDS\)
 
-Agents can search for information with single turn Q&amp;A using the AI Search feature in Now Assist for Public Sector Digital Services \(PSDS\).
+Agents can search for information with single turn Q&amp;A using the AI Search feature in ServiceNow Otto for Public Sector Digital Services \(PSDS\).
 
 The Now Assist in AI Search application uses Now LLM Service to extract actionable Q&amp;A Genius Result answers from the knowledge articles that are found in the Service Portal, Virtual Agent, Employee Center, and global searches. By using this application, an agent can improve the customer's experience by retrieving the relevant content from the knowledge base and generating concise answers. For more information, see [Now Assist in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/now-assist-ais.md).
 
@@ -28,7 +28,7 @@ Agents can use AI Search to pose a query directly in the search bar in the CSM C
 
 A search application configuration specifies the search engine and the settings to use for search in a ServiceNow AI Platform application. The **\[CSM AIS\] Configurable Workspace Search Config** search application configuration is provided with the CSM Configurable Workspace store app. To access this configuration, navigate to **AI Search &gt; Search Experience &gt; Search Applications.**
 
-An admin can define and customize the source tables and knowledge bases that the Now Assist AI Search indexes data from by customizing the search profiles within the search application configuration for Now Assist for Public Sector Digital Services \(PSDS\).
+An admin can define and customize the source tables and knowledge bases that the Now Assist AI Search indexes data from by customizing the search profiles within the search application configuration for ServiceNow Otto for Public Sector Digital Services \(PSDS\).
 
-For more information on search application configurations, see [Search application configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/defining-search-app-cfgs-ais.md). For more information on how to set up and customize AI Search for use with Now Assist for Public Sector Digital Services \(PSDS\), see [Enabling and configuring AI Search with Now Assist for PSDS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/now-assist-psds-enabling-configuring-ai-search.md).
+For more information on search application configurations, see [Search application configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/defining-search-app-cfgs-ais.md). For more information on how to set up and customize AI Search for use with ServiceNow Otto for Public Sector Digital Services \(PSDS\), see [Enabling and configuring AI Search with ServiceNow Otto for PSDS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/now-assist-psds-enabling-configuring-ai-search.md).
 

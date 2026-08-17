@@ -30,7 +30,7 @@ You can view a calendar for a specific user, and not for all users in a group.
 
 2.  Do one of the following options.
 
-<table id="choicetable_g3t_jz2_zs"><tbody><tr><td id="d152574e86">
+<table id="choicetable_g3t_jz2_zs"><tbody><tr><td id="d152162e86">
 
 **From the User list**
 
@@ -38,7 +38,7 @@ You can view a calendar for a specific user, and not for all users in a group.
 
 Right-click a user name in the Users list and select **View Calendar**.
 
-</td></tr><tr><td id="d152574e98">
+</td></tr><tr><td id="d152162e98">
 
 **From the User form**
 

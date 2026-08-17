@@ -7,7 +7,7 @@ release: yokohama
 product: Cloud Services Catalog
 classification: cloud-services-catalog
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Integrating Azure DevOps and the Continuous Integration-Continuous Deployment pipeline, Configuring Cloud Services Catalog, Cloud Services Catalog, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -26,11 +26,21 @@ Role required: none
 
 2.  Add the **API key** credential that you created with the Personal Access Token \(PAT\) credential.
 
-3.  Prefix the Personal Access Token \(PAT\) credential with straight quotes \(':'\) and encode to a base64 format.
+    For more information on setting PAT privileges, see [Azure DevOps permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-services-catalog/ado-permissions.md).
 
-4.  Prefix the encoded format string with a Basic string.
+3.  Prefix the Personal Access Token \(PAT\) with a colon and encode it to base64 format.
 
-    For example, Basic encoded base 64\(:PAT\).
+    1.  Add a colon before your PAT value.
+
+        Format: `:PAT`
+
+    2.  Encode the string to base64 format.
+
+        The result is an encoded string.
+
+4.  Prefix the encoded base64 string with `Basic` \(include a space after Basic\).
+
+    Format: `Basic (encoded_base64_string)`
 
 5.  Add a required alias.
 

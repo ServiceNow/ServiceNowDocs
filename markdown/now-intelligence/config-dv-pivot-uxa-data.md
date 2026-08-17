@@ -1,6 +1,6 @@
 ---
-title: Usage Insights data options for pivot table visualizations
-description: When you select a Usage Insights data source for a pivot table visualization, the following Data configuration options are available.
+title: User Experience Analytics data options for pivot table visualizations
+description: When you select a User Experience Analytics data source for a pivot table visualization, the following Data configuration options are available.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/config-dv-pivot-uxa-data.html
 release: yokohama
@@ -10,9 +10,9 @@ reading_time_minutes: 2
 breadcrumb: [Pivot table visualization, Create, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
 
-# Usage Insights data options for pivot table visualizations
+# User Experience Analytics data options for pivot table visualizations
 
-When you select a Usage Insights data source for a pivot table visualization, the following Data configuration options are available.
+When you select a User Experience Analytics data source for a pivot table visualization, the following Data configuration options are available.
 
 **Important:** Pivot table visualizations are only suitable for Events data, not Users or Sessions. Only Events have a value to group by.
 
@@ -34,7 +34,7 @@ Data source
 
 </td><td>
 
-You have selected a Usage Insights data source, Events application, in [Create a pivot table visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-pivot-ac.md).
+You have selected a User Experience Analytics data source, Events application, in [Create a pivot table visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-pivot-ac.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -66,7 +66,7 @@ Columns
 
 </td><td>
 
-Properties of the event in a Usage Insights data source.
+Properties of the event in a User Experience Analytics data source.
 
 **Note:** Available only for Events metrics, in which case it is mandatory.
 

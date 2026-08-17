@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
-breadcrumb: [Use generative AI skills, Now Assist for IT Service Management \(ITSM\), IT Service Management]
+breadcrumb: [Use generative AI skills, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 
 # Use self-service to deflect incidents in a ServiceNow portal using Now Assist
@@ -33,15 +33,15 @@ Role required: none
 
 4.  Resolve the issue or track it with an incident.
 
-<table id="choicetable_awv_vsq_4dc"><thead><tr><th align="left" id="d271978e116">
+<table id="choicetable_awv_vsq_4dc"><thead><tr><th align="left" id="d272428e116">
 
 To
 
-</th><th align="left" id="d271978e119">
+</th><th align="left" id="d272428e119">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d271978e125">
+</th></tr></thead><tbody><tr><td id="d272428e125">
 
 **Track the issue with an incident**
 
@@ -61,7 +61,7 @@ You can also select the Add attachments icon and add files related to the issue.
 
 The incident is created and automatically assigned to you. If you aren’t ready to create the incident, select **Save as Draft** to submit it later.
 
-</td></tr><tr><td id="d271978e172">
+</td></tr><tr><td id="d272428e172">
 
 **Resolve the issue**
 

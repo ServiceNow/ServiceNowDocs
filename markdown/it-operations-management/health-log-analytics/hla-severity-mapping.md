@@ -10,7 +10,7 @@ topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 1
 keywords: [Health Log Analytics, HLA, severity words, severity values, log severity]
-breadcrumb: [Health Log Analytics reference, Health Log Analytics, ITOM AIOps, IT Operations Management]
+breadcrumb: [Health Log Analytics reference, Health Log Analytics, ITOM Health, IT Operations Management]
 ---
 
 # Health Log Analytics severity mapping

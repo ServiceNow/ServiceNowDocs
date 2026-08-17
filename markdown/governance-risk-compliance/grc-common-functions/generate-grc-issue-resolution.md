@@ -21,7 +21,7 @@ Optimize a GRC issue resolution plan by using the Optimize GRC issue resolution 
 
 Role required: sn\_grc\_genai.issue\_user or sn\_irm\_gen\_ai.user
 
-Activate the Issue Summarization skill. For more information, see [Activate Now Assist skills in Now Assist for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/activate-na-skills-in-irm.md).
+Activate the Issue Summarization skill. For more information, see [Activate Now Assist skills in ServiceNow Otto for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/activate-na-skills-in-irm.md).
 
 ## About this task
 

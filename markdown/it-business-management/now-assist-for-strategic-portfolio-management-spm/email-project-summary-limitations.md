@@ -10,7 +10,7 @@ topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 1
 keywords: [Project insights generation skill, Column restriction, Date selection criteria]
-breadcrumb: [Reference, Now Assist for Strategic Portfolio Management \(SPM\), Strategic Portfolio Management]
+breadcrumb: [Reference, ServiceNow Otto for Strategic Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Additional information on Project summary generation skill

@@ -1,6 +1,6 @@
 ---
 title: Agentic AI for Public Sector Digital Services
-description: Two Now Assist for Public Sector Digital Services \(PSDS\) AI Agents are available for use with the Help Manage Public Information Requests workflow, as part of the Public Sector Digital Services AI Agent Collection.
+description: Two ServiceNow Otto for Public Sector Digital Services \(PSDS\) AI Agents are available for use with the Help Manage Public Information Requests workflow, as part of the Public Sector Digital Services AI Agent Collection.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/agentic-ai-psds-explore.html
 release: yokohama
@@ -12,7 +12,7 @@ breadcrumb: [Explore, Public Sector Digital Services \(PSDS\)]
 
 # Agentic AI for Public Sector Digital Services
 
-Two Now Assist for Public Sector Digital Services \(PSDS\) AI Agents are available for use with the **Help Manage Public Information Requests** workflow, as part of the Public Sector Digital Services AI Agent Collection.
+Two ServiceNow Otto for Public Sector Digital Services \(PSDS\) AI Agents are available for use with the **Help Manage Public Information Requests** workflow, as part of the Public Sector Digital Services AI Agent Collection.
 
 The Now Assist AI Agents are entities that mimic human-like intelligence by using large language models \(LLMs\). AI agents can perform tasks that range from simple automated responses to complex problem solving. By using AI agents, you can help reduce the workloads of your live agents and help increase their productivity.
 

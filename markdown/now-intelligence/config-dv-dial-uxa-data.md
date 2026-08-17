@@ -1,6 +1,6 @@
 ---
-title: Usage Insights data options for dial visualizations
-description: When you select a Usage Insights data source for a dial visualization, the following Data configuration options are available.
+title: User Experience Analytics data options for dial visualizations
+description: When you select a User Experience Analytics data source for a dial visualization, the following Data configuration options are available.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/config-dv-dial-uxa-data.html
 release: yokohama
@@ -10,9 +10,9 @@ reading_time_minutes: 3
 breadcrumb: [Dial visualization, Create, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
 
-# Usage Insights data options for dial visualizations
+# User Experience Analytics data options for dial visualizations
 
-When you select a Usage Insights data source for a dial visualization, the following Data configuration options are available.
+When you select a User Experience Analytics data source for a dial visualization, the following Data configuration options are available.
 
 <table id="table_wqy_sjr_qtb"><thead><tr><th>
 
@@ -28,7 +28,7 @@ Data source
 
 </td><td>
 
-You have selected a Usage Insights data source in [Create a dial visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-dial-ac.md).
+You have selected a User Experience Analytics data source in [Create a dial visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-dial-ac.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 

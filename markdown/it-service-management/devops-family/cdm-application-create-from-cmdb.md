@@ -140,7 +140,7 @@ Service in the CMDB that is configured by the data in snapshots of the deployabl
 
 ## What to do next
 
-The application is not yet structured to accept config data, so the next step is to add the data structure. See [Add the nodes that will contain config data to a new CDM application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/devops-family/cdm-data-structure-add-for-upload.md).
+The application is not yet structured to accept config data, so the next step is to add the data structure. See [Add nodes with config data to CDM application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/devops-family/cdm-data-structure-add-for-upload.md).
 
 **Related topics**  
 

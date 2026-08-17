@@ -22,7 +22,7 @@ The configuration of CSPM requires setting up the following applications to mana
 
 -   **Service Test Management**
 
-    Enables you to define and manage various tests that help diagnose service problems. By using this application, service teams can confirm that they have robust testing procedures in place, which are critical for identifying the root causes of issues and implementing timely solutions.
+    Enables you to define and manage various tests that help diagnose service problems. By using this application, service teams can confirm that they have robust testing procedures in place. These procedures are critical for identifying the root causes of issues and implementing timely solutions.
 
 
 As an administrator, follow these steps to configure the Customer Service Problem Management:

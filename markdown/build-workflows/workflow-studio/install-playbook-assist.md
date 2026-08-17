@@ -1,6 +1,6 @@
 ---
 title: Install Playbook Assist
-description: Install the Now Assist for Creator application to add the Playbook Assist generative AI capability to your playbooks.
+description: Install the ServiceNow Otto for Creator application to add the Playbook Assist generative AI capability to your playbooks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/build-workflows/workflow-studio/install-playbook-assist.html
 release: yokohama
@@ -14,36 +14,36 @@ breadcrumb: [Configuring Playbook Assist, Playbook generation, Exploring playboo
 
 # Install Playbook Assist
 
-Install the Now Assist for Creator application to add the Playbook Assist generative AI capability to your playbooks.
+Install the ServiceNow Otto for Creator application to add the Playbook Assist generative AI capability to your playbooks.
 
 ## Before you begin
 
--   Review the [Now Assist for Creator](https://store.servicenow.com/sn_appstore_store.do#!/store/application/8178fec0ce0431105a7c9305875b2dca) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
+-   Review the [ServiceNow Otto for Creator](https://store.servicenow.com/sn_appstore_store.do#!/store/application/8178fec0ce0431105a7c9305875b2dca) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
 -   Enable Next Experience. For information about activating Next Experience, see [Considerations for activating Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/next-experience-adoption-paths.md).
 -   Role required: admin
 
 ## Procedure
 
-1.  Navigate to the [Now Assist for Creator](https://store.servicenow.com/sn_appstore_store.do#!/store/application/8178fec0ce0431105a7c9305875b2dca) application on the ServiceNow Store.
+1.  Navigate to the [ServiceNow Otto for Creator](https://store.servicenow.com/sn_appstore_store.do#!/store/application/8178fec0ce0431105a7c9305875b2dca) application on the ServiceNow Store.
 
-    **Important:** Now Assist for Creator requires a separate subscription.
+    **Important:** ServiceNow Otto for Creator requires a separate subscription.
 
-2.  On the Now Assist for Creator application page, select **Request App**.
+2.  On the ServiceNow Otto for Creator application page, select **Request App**.
 
 3.  After approval has been granted, navigate to **All** &gt; **System Applications** &gt; **All Available Applications**.
 
-4.  Find the Now Assist for Creator application \(sn\_now\_creator\) by using the filter criteria and search bar.
+4.  Find the ServiceNow Otto for Creator application \(sn\_now\_creator\) by using the filter criteria and search bar.
 
 5.  Select **Install**.
 
 
 ## Result
 
-Now Assist for Creator is installed on the instance.
+ServiceNow Otto for Creator is installed on the instance.
 
 ## What to do next
 
-Configure Now Assist for Creator to turn on the Playbook Assist skills. Grant the now.assist.creator role to each user that you want to use Playbook Assist skills.
+Configure ServiceNow Otto for Creator to turn on the Playbook Assist skills. Grant the now.assist.creator role to each user that you want to use Playbook Assist skills.
 
 **Parent Topic:**[Configuring Playbook Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/configuring-playbook-assist.md)
 

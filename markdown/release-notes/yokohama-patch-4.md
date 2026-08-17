@@ -78,7 +78,7 @@ Yokohama Patch 4 includes fixes for security-related problems that affected cert
 
     Navigate to the child offering in the product hierarchy, which displays the offering summary page.
 
--   **[Identity Type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_CreateAUser.md)**
+-   **Identity Type**
 
     Use the Identity Type define the correct identity type while creating a user. You can select **Human**, **Machine**, or **AI Agent** based on the user identity.
 

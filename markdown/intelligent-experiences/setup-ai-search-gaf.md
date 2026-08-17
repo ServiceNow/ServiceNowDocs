@@ -25,7 +25,7 @@ GAF is a feature on the Now Platform that clusters and indexes related records a
 
 Now Assist in AI Search is the foundation for GAF's optimized prediction feature. AI Search is the backup search for certain workflows, and if it is not enabled and ready, GAF will not return any results.
 
-You must index every table for each workflow or application you'd like to configure GAF for. For example, if you are configuring GAF for Now Assist for IT Service Management \(ITSM\), you must index the Incident and related tables.
+You must index every table for each workflow or application you'd like to configure GAF for. For example, if you are configuring GAF for ServiceNow Otto for IT Service Management \(ITSM\), you must index the Incident and related tables.
 
 ## Procedure
 
@@ -41,7 +41,7 @@ You must index every table for each workflow or application you'd like to config
 
 4.  Search the Now Assist Skill Config table for action strategy skills by searching **Name** is `*action strategy`, and select the action strategy skill for the application you want to configure.
 
-    For example, if you are configuring GAF for Now Assist for ITSM, select the GAF ITSM action strategy record.
+    For example, if you are configuring GAF for ServiceNow Otto for ITSM, select the GAF ITSM action strategy record.
 
     \[Omitted image "gaf-action-strategy.png"\] Alt text: Now Assist Skill Config table filtered for skill configs with name contains action strategy
 

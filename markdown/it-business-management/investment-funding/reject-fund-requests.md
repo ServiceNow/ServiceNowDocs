@@ -36,7 +36,7 @@ Role required: sn\_invst\_pln\_v2.investment\_user
 
 6.  Click the **Allocate Funds** drop-down list and select **Reject**.
 
-7.  Select an investment, and click **Clear** from the**Allocate Funds** drop-down list to remove the planning state funding requests that are for past funding periods or non-editable funding periods from your list.
+7.  Select an investment, and click **Clear** from the **Allocate Funds** drop-down list to remove the planning-state funding requests that are for past funding periods or non-editable funding periods from your list.
 
 
 **Parent Topic:**[Investment Funding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/investment-funding/investment-funding-overview.md)

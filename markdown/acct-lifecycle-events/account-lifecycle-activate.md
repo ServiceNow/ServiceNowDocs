@@ -1,18 +1,18 @@
 ---
-title: Activate Customer Success Management
-description: The Customer Success Management \(com.sn\_acct\_lc\) plugin is available as a separate subscription. This plugin activates related plugins, if they aren’t already active.
+title: Activate Account Lifecycle Events
+description: The Account Lifecycle Events \(com.sn\_acct\_lc\) plugin is available as a separate subscription. This plugin activates related plugins, if they aren’t already active.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/acct-lifecycle-events/account-lifecycle-activate.html
 release: yokohama
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Exploring Customer Success Management, Customer Success Management]
+breadcrumb: [Exploring Account Lifecycle Events, Account Lifecycle Events]
 ---
 
-# Activate Customer Success Management
+# Activate Account Lifecycle Events
 
-The Customer Success Management \(com.sn\_acct\_lc\) plugin is available as a separate subscription. This plugin activates related plugins, if they aren’t already active.
+The Account Lifecycle Events \(com.sn\_acct\_lc\) plugin is available as a separate subscription. This plugin activates related plugins, if they aren’t already active.
 
 ## Before you begin
 
@@ -20,7 +20,7 @@ Role required: sn\_customerservice.customer\_admin
 
 ## About this task
 
-The Customer Success Management plugin activates these related plugins, if they aren’t already active.
+The Account Lifecycle Events plugin activates these related plugins, if they aren’t already active.
 
 |Plugin|Description|
 |------|-----------|

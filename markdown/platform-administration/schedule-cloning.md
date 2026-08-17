@@ -40,15 +40,15 @@ Instead of manually cloning instances, you can schedule cloning that happens aut
 
 4.  Enter values in the following fields to schedule automatic clones.
 
-<table id="choicetable_wdr_dfs_fhb"><thead><tr><th align="left" id="d286378e138">
+<table id="choicetable_wdr_dfs_fhb"><thead><tr><th align="left" id="d286302e138">
 
 Field
 
-</th><th align="left" id="d286378e141">
+</th><th align="left" id="d286302e141">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d286378e147">
+</th></tr></thead><tbody><tr><td id="d286302e147">
 
 **Clone frequency**
 
@@ -58,7 +58,7 @@ Defines how often this target automatically receives clone data and the maximum 
 -   Twice a week – The maximum number of occurrences is 13.
 -   Monthly – The maximum number of occurrences is 7.
 
-</td></tr><tr><td id="d286378e177">
+</td></tr><tr><td id="d286302e177">
 
 **No. of occurrences**
 

@@ -1,5 +1,5 @@
 ---
-title: Inputs and triggers for Now Assist for Security Incident Response
+title: Inputs and triggers for ServiceNow Otto for Security Incident Response \(SIR\)
 description: You can configure some of the inputs or triggers for a generative AI skill. Inputs or triggers permit you to determine how and when a skill is used.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/now-assist-for-security-incident-response-sir/input-triggers-now-assist-security-incident.html
@@ -10,10 +10,10 @@ topic_type: reference
 last_updated: "2026-01-15"
 reading_time_minutes: 2
 keywords: [Now Assist Security Operations]
-breadcrumb: [Configure, Now Assist for Security Incident Response, Security Operations]
+breadcrumb: [Configure, ServiceNow Otto for Security Incident Response \(SIR\), Security Operations]
 ---
 
-# Inputs and triggers for Now Assist for Security Incident Response
+# Inputs and triggers for ServiceNow Otto for Security Incident Response \(SIR\)
 
 You can configure some of the inputs or triggers for a generative AI skill. Inputs or triggers permit you to determine how and when a skill is used.
 
@@ -25,7 +25,7 @@ You can modify inputs and triggers, but you can't modify a skill's data source. 
 
 ## Security incident summarization skill
 
-Inputs for the security incident summarization skill identify the table and fields used when a security incident summary is generated. The following table lists the inputs for the Security Incident summarization skill from the Choose Input page in the Now Assist Admin console.
+Inputs for the security incident summarization skill identify the table and fields used when a security incident summary is generated. The following table lists the inputs for the Security Incident summarization skill from the Choose Input page in the AI Admin Hub console.
 
 <table id="table_arz_fk3_1cc"><thead><tr><th>
 
@@ -71,7 +71,7 @@ Related Input tables
 </td></tr></tbody>
 </table>## Resolution notes generation skill
 
-Inputs for the Resolution notes generation skill identify the table and fields that are used when the resolution notes are generated for a security incident. The following table lists the inputs for the resolution notes generation skill from the Choose Input page in the Now Assist Admin console.
+Inputs for the Resolution notes generation skill identify the table and fields that are used when the resolution notes are generated for a security incident. The following table lists the inputs for the resolution notes generation skill from the Choose Input page in the AI Admin Hub console.
 
 <table id="table_il3_sfj_1cc"><thead><tr><th>
 

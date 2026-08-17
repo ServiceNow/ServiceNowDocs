@@ -62,5 +62,5 @@ Associate work areas and spaces with a shift in Workplace Core so that they are 
 
 [Location migration]()
 
-[View workplace service usage analytics with Usage Insights]()
+[View workplace service usage analytics with User Experience Analytics]()
 

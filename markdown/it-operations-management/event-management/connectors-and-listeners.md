@@ -9,7 +9,7 @@ classification: event-management
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 14
-breadcrumb: [Event Management Integrations, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Event Management Integrations, Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
 ---
 
 # Configure Event Management connectors

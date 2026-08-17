@@ -26,15 +26,15 @@ Role required: pps\_admin, sn\_align\_core.apw\_admin
 
 2.  Use the following options to create or edit a planning attribute.
 
-<table id="choicetable_bwd_pjg_cxb"><thead><tr><th align="left" id="d41577e76">
+<table id="choicetable_bwd_pjg_cxb"><thead><tr><th align="left" id="d41114e76">
 
 Option
 
-</th><th align="left" id="d41577e79">
+</th><th align="left" id="d41114e79">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d41577e85">
+</th></tr></thead><tbody><tr><td id="d41114e85">
 
 **To create an attribute**
 
@@ -54,7 +54,7 @@ The attribute is created and the planning attributes screen is displayed.
 6.  Set the planning attribute to active using the **Active** option to enable it for resource or financial planning.
 
 
-</td></tr><tr><td id="d41577e136">
+</td></tr><tr><td id="d41114e136">
 
 **To update an attribute**
 

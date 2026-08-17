@@ -56,5 +56,5 @@ Your chosen model with the Amazon Bedrock provider will be used for custom skill
 
 ## What to do next
 
-You can create custom skills with the Amazon Bedrock provider in Now Assist Skill Kit and perform step 6 to set the new model.
+You can create custom skills with the Amazon Bedrock provider in AI Skill Kit and perform step 6 to set the new model.
 

@@ -73,5 +73,5 @@ Set the location type of a location by creating a dictionary override of the tab
 
 [QR code management]()
 
-[View workplace service usage analytics with Usage Insights]()
+[View workplace service usage analytics with User Experience Analytics]()
 

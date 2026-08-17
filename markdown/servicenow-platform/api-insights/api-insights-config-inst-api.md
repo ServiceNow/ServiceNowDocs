@@ -39,18 +39,17 @@ Configure API import options to bring custom and ServiceNow APIs from your Servi
     |Option|Description|
     |------|-----------|
     |All custom APIs|Imports all custom-developed APIs within the instance.|
-    |ServiceNow APIs|Imports predefined ServiceNow APIs within the instance.|
-    |Active in last|Imports only APIs based on recent activity, available for scripted APIs only.|
+    |ServiceNow APIs|Imports predefined ServiceNow APIs within the instance. [Learn more](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/api-insights/api-insights-config-inst-api.md).|
+    |Active in last|Imports only APIs based on recent activity, available for scripted APIs only. [Learn more](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/api-insights/api-insights-config-inst-api.md).|
 
-    1.  If you select the **ServiceNow APIs** check box, select **Select APIs** and then manage the APIs to import.
+    -   If you select the **ServiceNow APIs** option, select **Select APIs** and then manage the APIs to import.
 
         |Action|Description|
         |------|-----------|
         |Add ServiceNow APIs|On the Select ServiceNow APIs page, select **Add to import list**. Then, on the Add to import list page, select the check box for APIs from the All ServiceNow APIs list and select **Add selected**.|
         |Remove any selected ServiceNow APIs|On the Select ServiceNow APIs page, select the check box for APIs from the Selected APIs list, and select **Remove from import list**.|
 
-    2.  If you select the **Active in last** option, enter the number of days in the **Days** field to import only APIs that have been active in the specified timeframe.
-
+    -   If you select the **Active in last** option, enter the number of days in the **Days** field to import only APIs that have been active in the specified time frame.
 5.  On the Select ServiceNow APIs page, select **Done**.
 
 6.  On the Configure API import page, select **Save configuration**.

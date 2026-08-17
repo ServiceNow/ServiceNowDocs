@@ -1,6 +1,6 @@
 ---
 title: ERP-CM task list field descriptions
-description: The task list in ERP Semantic Mining \(ERP-CM\) displays information on connection tasks for the ERP \(Enterprise Resource Planning\) system.
+description: The task list in ERP Customization Mining \(ERP-CM\) displays information on connection tasks for the ERP \(Enterprise Resource Planning\) system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-customization-mining/erpcm-task-list-details.html
 release: yokohama
@@ -9,14 +9,14 @@ classification: erp-customization-mining
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [ERP-CM field descriptions, ERP Semantic Mining reference, ERP Semantic Mining \(ERP-CM\), Building low-code applications, Developing your application, Building applications]
+breadcrumb: [ERP-CM field descriptions, ERP Customization Mining reference, ERP Customization Mining \(ERP-CM\), Building low-code applications, Developing your application, Building applications]
 ---
 
 # ERP-CM task list field descriptions
 
-The task list in ERP Semantic Mining \(ERP-CM\) displays information on connection tasks for the ERP \(Enterprise Resource Planning\) system.
+The task list in ERP Customization Mining \(ERP-CM\) displays information on connection tasks for the ERP \(Enterprise Resource Planning\) system.
 
-For process details, see [Check and troubleshoot the data refresh status for ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/erpcm-check-data-connection.md).
+For process details, see [Check and troubleshoot the data refresh status for ERP Customization Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/erpcm-check-data-connection.md).
 
 <table id="table_z5t_tcd_bwb"><thead><tr><th>
 

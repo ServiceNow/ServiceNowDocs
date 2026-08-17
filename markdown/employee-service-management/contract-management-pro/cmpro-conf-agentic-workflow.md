@@ -32,7 +32,7 @@ Complete the following steps to configure agentic workflows in Contract Manageme
 
     For more information, see [Configuring user access and data permissions for AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-conf-users-ai-agents.md).
 
-6.  Ensure that Contract metadata extraction and Contract obligation extraction skills are configured and activated in Now Assist Admin console.
+6.  Ensure that Contract metadata extraction and Contract obligation extraction skills are configured and activated in AI Admin Hub console.
 
     For more information, see [Configuring contract metadata extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-conf-metadata-extraction.md) and [Configuring contract obligation extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-conf-obligation-extraction.md).
 

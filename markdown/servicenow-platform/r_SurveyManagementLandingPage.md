@@ -1,6 +1,6 @@
 ---
 title: Surveys
-description: 
+description: With Surveys, you can create, send, and collect responses for basic surveys. If Service Portal is installed, users can access and complete the assigned surveys through the My Assessments and Survey widget within the portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/r\_SurveyManagementLandingPage.html
 release: yokohama
@@ -11,6 +11,8 @@ breadcrumb: [Assessments and Surveys, Exploring Service Administration, Service 
 ---
 
 # Surveys
+
+With Surveys, you can create, send, and collect responses for basic surveys. If Service Portal is installed, users can access and complete the assigned surveys through the **My Assessments** and **Survey** widget within the portal.
 
 Two versions of the application are supported, Surveys, which is the latest version, and Legacy Surveys. Survey improves the user interface and extends the capabilities of the Legacy Surveys application.
 
@@ -29,6 +31,8 @@ There are many options for advanced configuration in Surveys:
 -   Save anonymous survey responses.
 -   Convert survey responses to numerical scores and view them on scorecards.
 -   Deactivate a survey for maintenance or to retire it without deleting it.
+
+**Important:** In the Service Portal, users can only submit surveys; they cannot create or edit survey content. Only the Administrators can create survey content in the Admin interface.
 
 **Note:** Because surveys use the same tables and other back-end components as assessments, you may see assessment elements such as table and field names in certain places throughout the survey feature.
 

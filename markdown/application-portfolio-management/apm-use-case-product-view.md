@@ -56,7 +56,7 @@ The Enterprise Architecture home page organizes many of the CSDM tables used by 
 
     Use metrics to measure the usability, cost, quality, performance, and risk of applications.
 
-    For more information about technology portfolio management and how it relates to business applications, see [Managing the Technology Portfolio Management \(TPM\) in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-tpm.md).
+    For more information about technology portfolio management and how it relates to business applications, see [Managing the Technology Lifecycle Management \(TLM\) in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-tpm.md).
 
 
 -   **[Enterprise Architecture \(formerly Application Portfolio Management\) and CSDM tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/apm-use-case.md)**  

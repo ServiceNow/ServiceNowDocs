@@ -22,7 +22,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-The Slack spoke v1.9.2 is the latest version.
+The Slack spoke v1.9.3 is the latest version.
 
 ## Slack account requirements
 

@@ -1,6 +1,6 @@
 ---
-title: Select fields for an extraction table in Zero Copy Connector for ERP
-description: Add or remove fields for an extraction table in Zero Copy Connector for ERP. For example, you may want to remove fields with sensitive information, such as birthdays.
+title: Select fields for an extraction table in ERP Canvas
+description: Add or remove fields for an extraction table in ERP Canvas. For example, you may want to remove fields with sensitive information, such as birthdays.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-integration-framework/erpc-select-extraction-table-fields.html
 release: yokohama
@@ -9,12 +9,12 @@ classification: erp-integration-framework
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Extracting and transforming data in Zero Copy Connector for ERP, Using ERP models, extraction tables, and remote tables, Zero Copy Connector for ERP, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Extracting and transforming data in ERP Canvas, Using ERP models, extraction tables, and remote tables, ERP Canvas, Building low-code applications, Developing your application, Building applications]
 ---
 
-# Select fields for an extraction table in Zero Copy Connector for ERP
+# Select fields for an extraction table in ERP Canvas
 
-Add or remove fields for an extraction table in Zero Copy Connector for ERP. For example, you may want to remove fields with sensitive information, such as birthdays.
+Add or remove fields for an extraction table in ERP Canvas. For example, you may want to remove fields with sensitive information, such as birthdays.
 
 ## Before you begin
 
@@ -27,7 +27,7 @@ Role required:
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home**.
+1.  Navigate to **All** &gt; **ERP Canvas** &gt; **ERP Canvas Home**.
 
 2.  Open the ERP extraction tables page by selecting the ERP extraction tables icon \(\[Omitted image "erpc-extraction-table-icon.png"\] Alt text: ERP extraction tables navigation icon\) in the side panel.
 
@@ -48,5 +48,5 @@ Role required:
 5.  Confirm that the fields appear correctly as columns on the extraction table by selecting the **Extraction table fields** tab.
 
 
-**Parent Topic:**[Extracting and transforming data in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-extraction-tables.md)
+**Parent Topic:**[Extracting and transforming data in ERP Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-extraction-tables.md)
 

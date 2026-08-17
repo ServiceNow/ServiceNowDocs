@@ -9,7 +9,7 @@ classification: upgrade-management
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Upgrade Management references, Upgrade Console, Upgrade, Administer the ServiceNow AI Platform]
+breadcrumb: [Upgrade Management references, Upgrade Management, Upgrade, Administer the ServiceNow AI Platform]
 ---
 
 # Upgrade Management Console roles

@@ -89,13 +89,7 @@ Script files synchronized with the MID Server are stored on the instance in the 
 
 When the MID Server first connects to the instance, the instance creates a directory called `\scripts` in the MID Server root. The instance then creates a parent directory in the path `\scripts\<parent name>` using definitions from the ecc\_agent\_script\_file table. Finally, the instance creates the script files themselves inside the parent directory using the records from the ecc\_agent\_script\_file table.
 
-The record for the parent directory looks like this:
-
-\[Omitted image "MIDServerScriptFileSync.png"\] Alt text: MID Server script file
-
-The instance creates each script file in the parent directory on the MID Server using the record Name from the ecc\_agent\_script\_file table as the file name and the Script field payload as the file contents. A script file record looks like this:
-
-\[Omitted image "MIDServerScriptFileSync2.png"\] Alt text: script file example
+The instance creates each script file in the parent directory on the MID Server using the record Name from the ecc\_agent\_script\_file table as the file name and the Script field payload as the file contents.
 
 The synchronization of the script file continues to work as if the script was manually added to the form.
 

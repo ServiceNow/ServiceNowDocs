@@ -20,68 +20,68 @@ The ServiceNow® Service Reliability Management \(SRM\) application helps your o
 -   Starting in version 6.4, track, manage, and visualize service performance with the Service reliability dashboard.
 -   Starting in version 6.4, get timely error budget updates that reflect the impact of ongoing, open alerts.
 
-See [Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/sr-landing-page.md) for more information.
+See  for more information.
 
 **Important:** SRM is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Yokohama release
 
--   **[Enhance monitoring for distributed teams with Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/express-list.md)**
+-   **Enhance monitoring for distributed teams with Express List**
 
     Improve monitoring with Express List. Express List replaces the **Alerts** tab and helps distributed SRM teams focus on the services, priorities, or alerts that matter to them.
 
--   **[Track SLO update history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/sr-edit-sli-slo.md)**
+-   **Track SLO update history**
 
     View and track SLO update history with new naming conventions. Edited SLOs now receive unique names, such as Uptime \(1\) or Uptime \(2\), instead of keeping their original names. This update improves clarity and helps you distinguish between versions.
 
--   **[Add SLOs to change approval policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/sr-add-change-approval-slos.md)**
+-   **Add SLOs to change approval policies**
 
     Define change approval policies to approve updates or modifications in your system. You can now add the following policy inputs, helping you integrate critical information into the approval process:
 
     -   SLO with the lowest percentage of error budget remaining
     -   SLO with the highest burn rate
--   **[Assign teams to TSOs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/sr-add-service.md)**
+-   **Assign teams to TSOs**
 
     Manage your services effectively by assigning teams to TSOs. TSOs, which are specific components within a parent technical service, can now be used in the SRM service list. Assigning SRM teams to TSOs helps decentralized teams focus on the services they’re responsible for.
 
--   **[Stay connected and keep services reliable with ITOM Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/itom-mobile-landing.md)**
+-   **Stay connected and keep services reliable with ITOM Mobile Agent**
 
     Starting in version 6.3, use ITOM Mobile Agent to access SRM features on iOS and Android devices. With ITOM Mobile Agent, you can track alerts, manage incidents, and work on tasks on the go. You can also manage on-call schedules by checking shifts, requesting time off, and filling gaps.
 
--   **[Create SLIs on configuration items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/sr-create-slo-sli.md)**
+-   **Create SLIs on configuration items**
 
     Starting in version 6.3, filter an SLI to a specific configuration item within the parent service hierarchy. This feature lets you monitor the individual components of a service, helping you accurately track service health and identify root causes faster.
 
--   **[Keep teams informed with notification destinations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/create-notification-destination.md)**
+-   **Keep teams informed with notification destinations**
 
     Starting in version 6.4, send notifications about error budget policy violations to notification destinations. The first supported destination is Microsoft Teams, which lets you post details in specific channels and link back to SRM for further investigation.
 
--   **[Monitor service reliability in a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/sr-service-dashboard-visualizations.md)**
+-   **Monitor service reliability in a dashboard**
 
     Starting in version 6.4, use the Service reliability dashboard to monitor and manage service performance. The dashboard offers multiple visualizations to help you track error budgets, monitor SLOs, and identify issues across your services. Starting in version 6.4.1, you can select charts to access further details and use the new SLO table to monitor reliability.
 
--   **[Customize team approval settings with more flexibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/sr-add-approval-teams.md)**
+-   **Customize team approval settings with more flexibility**
 
     Starting in version 6.4, customize team governance with more flexibility and less manual effort. You can assign different approval teams for new and existing team requests. The customization options are also fully available in the Service Operations Workspace Admin Center and no longer require manual setup in the Catalog Builder.
 
 
 ## UI changes
 
--   **[Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/express-list.md)**
+-   **Express List**
 
     The Express List icon \(\[Omitted image "express-list1.png"\] Alt text: Express List icon\) is now in the navigation pane.
 
--   **[Integrations Launchpad](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/integrations-launchpad.md)**
+-   **Integrations Launchpad**
 
     The Integrations Launchpad icon \(\[Omitted image "integrations-launchpad.png"\] Alt text: Integrations Launchpad icon\) is now in the navigation pane.
 
     **Note:** Starting in version 6.3, the custom Integrations Launchpad in SRM was replaced with the official Service Operations Workspace version. This change promotes consistency across applications and gives you immediate access to the latest SOW updates.
 
--   **[New banner for configuring SLIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/sr-create-slo-sli.md)**
+-   **New banner for configuring SLIs**
 
     Starting in version 6.3, when you set up an SLI, a new information banner shows how many configuration items are associated with your service. To set up an effective SLI for your system, select **View CIs in service map** to see how the service and configuration items relate.
 
--   **[Service import improvements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/sr-add-service.md)**
+-   **Service import improvements**
 
     Starting in version 6.3, the service import flow includes the following updates:
 
@@ -94,15 +94,15 @@ The **Alerts** tab has been removed from the Reliability tasks page.
 
 ## Activation information
 
-Install SRM or ITOM Mobile Agent by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install SRM or ITOM Mobile Agent by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Related ServiceNow applications and features
 
--   **[Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/sow-landing-page-itom.md)**
+-   **Service Operations Workspace**
 
     Use SRM in Service Operations Workspace to manage SLOs alongside other IT Operations Management workflows.
 
--   **[Alert automation in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/sow-itom-alert-automation.md)**
+-   **Alert automation in Service Operations Workspace**
 
     Work with alert automation to respond to alerts, improve service reliability, and scale staff resources.
 

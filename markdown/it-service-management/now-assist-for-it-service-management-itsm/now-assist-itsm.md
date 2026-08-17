@@ -1,6 +1,6 @@
 ---
-title: Now Assist for IT Service Management \(ITSM\)
-description: Use the ServiceNow Now Assist for IT Service Management \(ITSM\) application to summarize the incident information, generate incident resolution notes, and summarize the chat for an interaction. You can enable your agents to understand the chat and incident context so that they can propose quicker resolutions to your requesters.
+title: ServiceNow Otto for IT Service Management \(ITSM\)
+description: Use the ServiceNow ServiceNow Otto for IT Service Management \(ITSM\) application to summarize the incident information, generate incident resolution notes, and summarize the chat for an interaction. You can enable your agents to understand the chat and incident context so that they can propose quicker resolutions to your requesters.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm.html
 release: yokohama
@@ -13,9 +13,9 @@ keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
 breadcrumb: [IT Service Management]
 ---
 
-# Now Assist for IT Service Management \(ITSM\)
+# ServiceNow Otto for IT Service Management \(ITSM\)
 
-Use the ServiceNow® Now Assist for IT Service Management \(ITSM\) application to summarize the incident information, generate incident resolution notes, and summarize the chat for an interaction. You can enable your agents to understand the chat and incident context so that they can propose quicker resolutions to your requesters.
+Use the ServiceNow® ServiceNow Otto for IT Service Management \(ITSM\) application to summarize the incident information, generate incident resolution notes, and summarize the chat for an interaction. You can enable your agents to understand the chat and incident context so that they can propose quicker resolutions to your requesters.
 
 ## Get started
 

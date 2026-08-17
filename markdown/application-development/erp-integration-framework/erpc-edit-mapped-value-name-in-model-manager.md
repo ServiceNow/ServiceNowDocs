@@ -1,5 +1,5 @@
 ---
-title: Edit input and output mapped value name in Zero Copy Connector for ERP
+title: Edit input and output mapped value name in ERP Canvas
 description: Manually edit mapped value field names for input and output when managing models.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-integration-framework/erpc-edit-mapped-value-name-in-model-manager.html
@@ -9,20 +9,20 @@ classification: erp-integration-framework
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 3
-breadcrumb: [Building and managing ERP models to work with ERP data, Using ERP models, extraction tables, and remote tables, Zero Copy Connector for ERP, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Building and managing ERP models to work with ERP data, Using ERP models, extraction tables, and remote tables, ERP Canvas, Building low-code applications, Developing your application, Building applications]
 ---
 
-# Edit input and output mapped value name in Zero Copy Connector for ERP
+# Edit input and output mapped value name in ERP Canvas
 
 Manually edit mapped value field names for input and output when managing models.
 
 In ERP model manager, the mapped value name in inputs and outputs is system-generated automatically. Edit the value manually as needed. Specify a unique value. You can revert to the system-generated name at any time.
 
-Let's step through an example. In Zero Copy Connector for ERP, create a model. For more information, see [Add a new ERP model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erpc-add-new-data-model.md).
+Let's step through an example. In ERP Canvas, create a model. For more information, see [Add a new ERP model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erpc-add-new-data-model.md).
 
-On the new model, select **Manage Model** and add a read operation. For more information, see [Add an operation to a model in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erpc-manage-models-read-op.md).
+On the new model, select **Manage Model** and add a read operation. For more information, see [Add an operation to a model in ERP Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erpc-manage-models-read-op.md).
 
-On the read operation, add a read table entity, for example, on the T005 Countries table. For more information, see [Add a read, update, or create entity to a model in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erpc-add-entity-to-model-op.md).
+On the read operation, add a read table entity, for example, on the T005 Countries table. For more information, see [Add a read, update, or create entity to a model in ERP Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erpc-add-entity-to-model-op.md).
 
 \[Omitted image "erpc-mapped-value-example1.png"\] Alt text: Add entity options.
 

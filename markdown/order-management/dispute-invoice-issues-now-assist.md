@@ -7,7 +7,7 @@ release: yokohama
 topic_type: task
 last_updated: "2026-01-28"
 reading_time_minutes: 1
-breadcrumb: [AI agents in Order Management, Use, Now Assist for Order Management]
+breadcrumb: [AI agents in Order Management, Use, ServiceNow Otto for Order Management]
 ---
 
 # dispute invoice issues now assist

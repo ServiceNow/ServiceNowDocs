@@ -1,6 +1,6 @@
 ---
 title: Flow generation
-description: Use Now Assist for Creator to create a flow or subflow from a text description.
+description: Use ServiceNow Otto for Creator to create a flow or subflow from a text description.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/build-workflows/now-assist-for-creator/flow-generation-landing.html
 release: yokohama
@@ -14,7 +14,7 @@ breadcrumb: [Now Assist for Creator, Build workflows]
 
 # Flow generation
 
-Use Now Assist for Creator to create a flow or subflow from a text description.
+Use ServiceNow Otto for Creator to create a flow or subflow from a text description.
 
 \[Omitted video\] Description: Create a flow with Now Assist
 
@@ -28,7 +28,7 @@ This video demonstrates creating a flow from a text description.
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Activate the Now Assist for Creator plugin and the flow generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/now-assist-for-creator/turn-on-the-flow-generation-skill.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Activate the ServiceNow Otto for Creator plugin and the flow generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/now-assist-for-creator/turn-on-the-flow-generation-skill.md)
 
 </td></tr><tr><td>
 
@@ -36,7 +36,7 @@ This video demonstrates creating a flow from a text description.
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about Now Assist for Creator roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/now-assist-for-creator/creator-roles-1.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about ServiceNow Otto for Creator roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/now-assist-for-creator/creator-roles-1.md)
 
 </td></tr></tbody>
 </table>**Important:**

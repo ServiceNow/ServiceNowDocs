@@ -1,6 +1,6 @@
 ---
 title: Build Agent
-description: Starting with Yokohama Patch 11, Build Agent is available with Now Assist for Creator. Use Build Agent for creating and updating ServiceNow applications.
+description: Starting with Yokohama Patch 11, Build Agent is available with ServiceNow Otto for Creator. Use Build Agent for creating and updating ServiceNow applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/build-agent.html
 release: yokohama
@@ -12,7 +12,7 @@ breadcrumb: [Use AI capabilities in custom applications, Developing your applica
 
 # Build Agent
 
-Starting with Yokohama Patch 11, Build Agent is available with Now Assist for Creator. Use Build Agent for creating and updating ServiceNow applications.
+Starting with Yokohama Patch 11, Build Agent is available with ServiceNow Otto for Creator. Use Build Agent for creating and updating ServiceNow applications.
 
 **Note:** Build Agent currently doesn't support the Global scope or global applications.
 

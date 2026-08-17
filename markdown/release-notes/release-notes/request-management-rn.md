@@ -18,11 +18,11 @@ The ServiceNow® Request Management application enables catalog items to be requ
 -   Restrict unauthorized access to the Request Management tables using deny ACLs.
 -   Quickly determine whether a configuration item \(CI\) is available to be added to the **Configuration item** field in the Requested item form by searching the an alphabetized list of available CIs rather than having to first find the CI class list.
 
-See [Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/c_RequestManagement.md) for more information.
+See  for more information.
 
 ## New in the Yokohama release
 
--   **[User role for service desk agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/req-mgmnt-roles-instld-itsm.md)**
+-   **User role for service desk agents**
 
     Improve operational efficiency by providing level 1 or tier 1 service desk agents with access to change, incident, problem, and request records by assigning the sn\_service\_desk\_agent user role.
 
@@ -30,7 +30,7 @@ See [Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNow
 
     The sn\_service\_desk\_agent user role is available starting with Service Operations Workspace version 6.1.
 
--   **[Enhanced security model adoption for Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/request-management-architecture.md)**
+-   **Enhanced security model adoption for Request Management**
 
     Prevent unauthorized access to request-related tables using deny ACLs. Non-authenticated user cannot perform any actions such as read, write, delete, create, or report view.
 
@@ -39,7 +39,7 @@ See [Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNow
 
 ## Changed in this release
 
--   **[Sorting configuration items in requested item forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/create-request-workspace.md)**
+-   **Sorting configuration items in requested item forms**
 
     The list of configuration items \(CIs\) displayed for the **Configuration item** field in the Requested item form is now displayed and sorted based on the CI names in alphabetical order instead of sorting by CI class and then presenting the CI names in alphabetical order within a class. This change means you can determine whether a particular CI is available more quickly.
 

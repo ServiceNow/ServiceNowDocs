@@ -26,15 +26,15 @@ Role required: itil or admin
 
 1.  Perform one of the following actions to start creating a change request.
 
-<table id="choicetable_vrd_rrt_tsb"><thead><tr><th align="left" id="d177380e55">
+<table id="choicetable_vrd_rrt_tsb"><thead><tr><th align="left" id="d177567e55">
 
 Option
 
-</th><th align="left" id="d177380e58">
+</th><th align="left" id="d177567e58">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d177380e64">
+</th></tr></thead><tbody><tr><td id="d177567e64">
 
 **From any change list**
 
@@ -50,7 +50,7 @@ Description
 2.  Select **New**.
 
 
-</td></tr><tr><td id="d177380e98">
+</td></tr><tr><td id="d177567e98">
 
 **From an incident**
 
@@ -60,7 +60,7 @@ Description
 2.  From the record page, select **Create change request**.
 
 
-</td></tr><tr><td id="d177380e119">
+</td></tr><tr><td id="d177567e119">
 
 **From an interaction**
 
@@ -70,7 +70,7 @@ Description
 2.  From the record page, select the drop-down beside **Create incident** and select **Create change**.
 
 
-</td></tr><tr><td id="d177380e143">
+</td></tr><tr><td id="d177567e143">
 
 **From a problem**
 
@@ -87,7 +87,7 @@ Description
 
     For information about change models, see [Change models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/change-models.md).
 
-<table id="choicetable_ty1_knn_n3b"><tbody><tr><td id="d177380e206">
+<table id="choicetable_ty1_knn_n3b"><tbody><tr><td id="d177567e206">
 
 **Normal**
 
@@ -95,7 +95,7 @@ Description
 
 Any service change that is not a pre-approved change or an emergency change.
 
-</td></tr><tr><td id="d177380e215">
+</td></tr><tr><td id="d177567e215">
 
 **Pre-approved**
 
@@ -103,7 +103,7 @@ Any service change that is not a pre-approved change or an emergency change.
 
 A pre-authorized change that is low risk, relatively common, and follows a specified procedure or work instruction.
 
-</td></tr><tr><td id="d177380e224">
+</td></tr><tr><td id="d177567e224">
 
 **Emergency**
 
@@ -111,7 +111,7 @@ A pre-authorized change that is low risk, relatively common, and follows a speci
 
 An emergency change that bypasses group and peer review and approval, and goes straight to the authorization state for approval by the CAB approval group.
 
-</td></tr><tr><td id="d177380e233">
+</td></tr><tr><td id="d177567e233">
 
 **DevOps or DevOps Simplified**
 

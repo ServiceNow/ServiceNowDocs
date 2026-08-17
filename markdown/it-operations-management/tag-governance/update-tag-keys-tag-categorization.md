@@ -9,7 +9,7 @@ classification: tag-governance
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Using Tag Governance, Tag Governance, ITOM Visibility, IT Operations Management]
+breadcrumb: [Use, Tag Governance, ITOM Visibility, IT Operations Management]
 ---
 
 # Add or delete tag keys for Tag Categorization
@@ -36,15 +36,15 @@ Role required: tag\_governance\_admin
 
 4.  Under **CI tag keys**, either add a tag key or delete an existing tag key.
 
-<table id="choicetable_dvx_hzd_5fc"><thead><tr><th align="left" id="d562925e139">
+<table id="choicetable_dvx_hzd_5fc"><thead><tr><th align="left" id="d563500e139">
 
 Action
 
-</th><th align="left" id="d562925e142">
+</th><th align="left" id="d563500e142">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d562925e148">
+</th></tr></thead><tbody><tr><td id="d563500e148">
 
 **Add a tag key**
 
@@ -52,12 +52,12 @@ Steps
 
 1.  Double-click the empty row under **Tag key**, where you see **Insert a new row**.
 2.  In the field, add a key name.
-3.  Select the check mark icon \(\[Omitted image "icon-check-mark.png"\] Alt text: Check mark\) to save the tag key.
+3.  Select the check mark icon \(\[Omitted image "icon-check-mark.png"\]\) to save the tag key.
 4.  Repeat the previous steps to add more tag keys.
 5.  Select **Update** to save your changes.
 
 
-</td></tr><tr><td id="d562925e188">
+</td></tr><tr><td id="d563500e186">
 
 **Delete a tag key**
 

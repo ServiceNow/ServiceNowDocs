@@ -86,8 +86,8 @@ See the analytics about usage, technical, geographic, events, retention, and mor
 
 -   **[View user metrics related to Listening Posts surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/lp-analytics-appsee.md)**  
 View user experiences while taking pulse surveys to better understand overall employee interaction with a survey.
--   **[Events related to the Listening Posts surveys on Usage Insights dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/lp-user-exp-analytics-events.md)**  
-The Usage Insights dashboard displays events to understand the users behavior when interacting with the Listening Posts survey widgets.
+-   **[Events related to the Listening Posts surveys on User Experience Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/lp-user-exp-analytics-events.md)**  
+The User Experience Analytics dashboard displays events to understand the users behavior when interacting with the Listening Posts survey widgets.
 
 **Parent Topic:**[Integration of HR Service Delivery with ServiceNow applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/integrate-hr-platform-apps.md)
 

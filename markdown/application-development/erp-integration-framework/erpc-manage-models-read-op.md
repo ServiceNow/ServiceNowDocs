@@ -1,6 +1,6 @@
 ---
-title: Add an operation to a model in Zero Copy Connector for ERP
-description: Add an operation to an ERP \(Enterprise Resource Planning\) model in Zero Copy Connector for ERP to define how it retrieves data from or writes data to the ERP system, or creates a new instance of the business object.
+title: Add an operation to a model in ERP Canvas
+description: Add an operation to an ERP \(Enterprise Resource Planning\) model in ERP Canvas to define how it retrieves data from or writes data to the ERP system, or creates a new instance of the business object.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-integration-framework/erpc-manage-models-read-op.html
 release: yokohama
@@ -9,12 +9,12 @@ classification: erp-integration-framework
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Building and managing ERP models to work with ERP data, Using ERP models, extraction tables, and remote tables, Zero Copy Connector for ERP, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Building and managing ERP models to work with ERP data, Using ERP models, extraction tables, and remote tables, ERP Canvas, Building low-code applications, Developing your application, Building applications]
 ---
 
-# Add an operation to a model in Zero Copy Connector for ERP
+# Add an operation to a model in ERP Canvas
 
-Add an operation to an ERP \(Enterprise Resource Planning\) model in Zero Copy Connector for ERP to define how it retrieves data from or writes data to the ERP system, or creates a new instance of the business object.
+Add an operation to an ERP \(Enterprise Resource Planning\) model in ERP Canvas to define how it retrieves data from or writes data to the ERP system, or creates a new instance of the business object.
 
 ## Before you begin
 
@@ -28,7 +28,7 @@ Role required: sn\_erp\_integration.erp\_admin, sn\_erp\_integration.erp\_user
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home**.
+1.  Navigate to **All** &gt; **ERP Canvas** &gt; **ERP Canvas Home**.
 
 2.  Open the ERP model page by selecting the ERP model icon \(\[Omitted image "erpc-data-model-icon.png"\] Alt text: ERP model icon\) in the side panel.
 
@@ -56,7 +56,7 @@ The foundation of the operation is created.
 
 ## What to do next
 
-Next, you must add the read or update entity to the operation. For more information, see [Add a read, update, or create entity to a model in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erpc-add-entity-to-model-op.md)
+Next, you must add the read or update entity to the operation. For more information, see [Add a read, update, or create entity to a model in ERP Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erpc-add-entity-to-model-op.md)
 
 You can select the delete icon \(\[Omitted image "trash-outline-24.svg"\] Alt text: Delete icon\) on the operation's card to remove any operations you don't need, or to start over.
 

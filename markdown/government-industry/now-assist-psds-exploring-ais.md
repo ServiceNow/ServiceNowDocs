@@ -1,5 +1,5 @@
 ---
-title: AI Search for Now Assist for Public Sector Digital Services \(PSDS\)
+title: AI Search for ServiceNow Otto for Public Sector Digital Services \(PSDS\)
 description: The AI Search index stores data from Platform records, Knowledge Base articles, or external sources, and makes that data available for agents to search in the CSM Configurable Workspace. An admin can configure where the data is pulled from. Search query features use ServiceNow AI Platform technologies to improve the search user experience.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/now-assist-psds-exploring-ais.html
@@ -7,10 +7,10 @@ release: yokohama
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Explore, Now Assist for PSDS, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Explore, ServiceNow Otto for PSDS, Public Sector Digital Services \(PSDS\)]
 ---
 
-# AI Search for Now Assist for Public Sector Digital Services \(PSDS\)
+# AI Search for ServiceNow Otto for Public Sector Digital Services \(PSDS\)
 
 The AI Search index stores data from Platform records, Knowledge Base articles, or external sources, and makes that data available for agents to search in the CSM Configurable Workspace. An admin can configure where the data is pulled from. Search query features use ServiceNow AI Platform technologies to improve the search user experience.
 

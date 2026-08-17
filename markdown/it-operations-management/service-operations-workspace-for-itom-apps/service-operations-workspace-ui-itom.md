@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 2
 keywords: [Access Service Operations Workspace ITOM, Service Operations Workspace ITOM Home page]
-breadcrumb: [Exploring Service Operations Workspace for ITOM, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
+breadcrumb: [Exploring Service Operations Workspace for ITOM, Service Operations Workspace for ITOM, ITOM Health, IT Operations Management]
 ---
 
 # Service Operations Workspace for ITOM user interface

@@ -23,22 +23,22 @@ Cloud Services Catalog highlight:
 
 Performance enhancements for the predefined catalog items in CSC Content Pack.
 
-See [Cloud Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/cloud-governance.md) for more information.
+See  for more information.
 
 **Important:** ITOM Cloud Accelerate is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Yokohama release
 
--   **[Cloud Account Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/cam-landing.md)**
+-   ****
 
     Cloud Account Management is the first feature from ITOM Cloud Accelerate in the Cloud Workspace application that brings together ServiceNow cloud solutions in a unified experience as part of the Cloud Governance Suite.
 
 
 ## Changed in this release
 
--   **[Cloud Services Catalog Terraform Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/cpg-terraform-connector-landing-page.md)**
+-   ****
 
-    Cloud Provisioning and Governance: Terraform Connector has been renamed Cloud Services Catalog Terraform Connector
+    Cloud Provisioning and Governance: Terraform Connector has been renamed Cloud Provisioning and Governance: Terraform Connector
 
 
 ## Deprecations
@@ -48,19 +48,19 @@ See [Cloud Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDo
 
 ## Activation information
 
-The ITOM Cloud Accelerate features are available as an application at [Cloud Accelerate](https://store.servicenow.com/sn_appstore_store.do#!/store/search?listingtype=allintegrations%253Bancillary_app%253Bcertified_apps%253Bcontent%253Bindustry_solution%253Boem%253Butility%253Btemplate%253Bgenerative_ai%253Bsnow_solution&q=cloud%20governance), which is available on the ServiceNow Store. Contact your ServiceNow sales representative to procure the ITOM Cloud Accelerate entitlement. For details, see [Request the Cloud Provisioning and Governance application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/request-plugin-cloud-mgt.md).
+The ITOM Cloud Accelerate features are available as an application at [Cloud Accelerate](https://store.servicenow.com/sn_appstore_store.do#!/store/search?listingtype=allintegrations%253Bancillary_app%253Bcertified_apps%253Bcontent%253Bindustry_solution%253Boem%253Butility%253Btemplate%253Bgenerative_ai%253Bsnow_solution&q=cloud%20governance), which is available on the ServiceNow Store. Contact your ServiceNow sales representative to procure the ITOM Cloud Accelerate entitlement. For details, see .
 
 ## Related ServiceNow applications and features
 
--   **[Cloud Configuration Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/exploring-cloud-configuration-governance.md)**
+-   **Cloud Configuration Governance**
 
-    The [Cloud Configuration Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/exploring-cloud-configuration-governance.md) application provides a set of ready-to-use policies that enable you to check the configuration settings of cloud resources in your organization identify configuration violations.
+    The Cloud Configuration Governance application provides a set of ready-to-use policies that enable you to check the configuration settings of cloud resources in your organization identify configuration violations.
 
--   **[Cloud Action Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/exploring-cloud-actions-library.md)**
+-   **Cloud Action Library**
 
-    The [Cloud Action Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/exploring-cloud-actions-library.md) provides ready-to-use actions and subflows that enable you to interact with the cloud resources of the organization.
+    The Cloud Action Library provides ready-to-use actions and subflows that enable you to interact with the cloud resources of the organization.
 
--   **Third-party products that integrate with the [Cloud Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/csc-home.md) Cloud Services Catalog application**
+-   **Third-party products that integrate with the Cloud Service Catalog Cloud Services Catalog application**
 
     Extend the capabilities of ITOM Cloud Accelerate and its connectors by integrating the following third-party products with it:
 

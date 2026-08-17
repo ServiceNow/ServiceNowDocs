@@ -5,16 +5,16 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/itom-health-use-case-trouble.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Applying the CSDM guidelines to ITOM AIOps, ITOM AIOps, IT Operations Management]
+breadcrumb: [Applying the CSDM guidelines to ITOM AIOps, ITOM Health, IT Operations Management]
 ---
 
 # ITOM AIOps considerations for CSDM framework
 
 ITOM AIOps aligns with CSDM framework to ensure standardized data management and optimize IT operations.
 
-Key considerations for implementing ITOM AIOps for CSDM framework include the following.
+Key considerations for implementing ITOM Health for CSDM framework include the following.
 
 -   **Identifying necessary Configuration Items \(CIs\) for optimal Event Management benefits**
 
@@ -26,6 +26,6 @@ Key considerations for implementing ITOM AIOps for CSDM framework include the fo
 
 -   **Recognizing common use cases for the Dynamic CI Group service**
 
-    In Event Management \(EM\), the Dynamic CI Group service functions as a logical grouping mechanism for Configuration Items \(CIs\), offering technology or service owners insight into the health status of the grouped entities.
+    In Event Management \(EM\), the Dynamic CI Group service functions as a logical grouping mechanism for Configuration Items \(CIs\). It offers technology or service owners insight into the health status of the grouped entities.
 
 

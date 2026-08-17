@@ -71,9 +71,9 @@ The ServiceNow IDE is an implementation of Visual Studio Code for the Web on the
 
     Use app summarization to quickly review the contents of an application in ServiceNow Studio.
 
--   **[Leverage AI agents and skills in custom applications with Now Assist for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/now-assist-for-app-engine/use-now-assist-for-app-engine-enterprise.md)**
+-   **[Leverage AI agents and skills in custom applications with ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/now-assist-for-app-engine/use-now-assist-for-app-engine-enterprise.md)**
 
-    Enhance App Engine applications with AI agents and skills using Now Assist for App Engine.
+    Enhance App Engine applications with AI agents and skills using ServiceNow Otto for App Engine.
 
 -   **[Generate scripts with AI-powered code generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/generate-code.md)**
 
@@ -116,7 +116,7 @@ Build low-code apps quickly, with more creators and less complexity. Safely scal
 
 -   **[Supercharge app development with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/sns-now-assist-app-gen-landing.md)**
 
-    Create apps and app files quickly using the generative AI capabilities available with Now Assist for Creator in ServiceNow Studio.
+    Create apps and app files quickly using the generative AI capabilities available with ServiceNow Otto for Creator in ServiceNow Studio.
 
 -   **[Access organized app metadata using the ServiceNow Studio file navigator taxonomy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/servicenow-studio-file-navigator-taxonomy.md)**
 

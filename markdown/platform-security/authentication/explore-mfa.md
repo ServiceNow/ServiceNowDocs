@@ -46,7 +46,7 @@ You can use MFA along with the following:
 **Related topics**  
 
 
-[MFA verification methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/mfa-methods.md)
+[Multi-factor authentication verification methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/mfa-methods.md)
 
 [Multi-factor Authentication system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/mfa-properties.md)
 

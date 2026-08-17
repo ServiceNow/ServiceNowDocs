@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 5
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
-breadcrumb: [Use generative AI skills, Now Assist for IT Service Management \(ITSM\), IT Service Management]
+breadcrumb: [Use generative AI skills, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 
 # Generate a knowledge article from the Service Operations Workspace for ITSM and classic environment by using Now Assist
@@ -40,7 +40,7 @@ To generate a knowledge article for an incident, the incident must be in the res
     |Application name|Plugin ID|
     |----------------|---------|
     |Service Operations Workspace ITSM Applications|sn\_sow\_itsm\_cont|
-    |Now Assist for IT Service Management \(ITSM\)|sn\_itsm\_gen\_ai|
+    |ServiceNow Otto for IT Service Management \(ITSM\)|sn\_itsm\_gen\_ai|
     |Service Operations Workspace Core|sn\_sow|
     |Record Page for Service Operations Workspace|sn\_sow\_record|
     |Service Operations Workspace ITSM Common|sn\_sow\_itsm\_common|
@@ -51,8 +51,8 @@ To generate a knowledge article for an incident, the incident must be in the res
 
 To enable an agent to see the Now Assist experience on the Create Article page, configure the following knowledge base generation criteria:
 
--   Install the knowledge skills. For more information, see [Configure Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/now-assist-for-it-service-management-itsm/configure-now-assist-for-itsm.md).
--   Make sure that the following criteria are in place in the Now Assist Admin console:
+-   Install the knowledge skills. For more information, see [Configure ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/now-assist-for-it-service-management-itsm/configure-now-assist-for-itsm.md).
+-   Make sure that the following criteria are in place in the AI Admin Hub console:
     -   Specify the table record and input fields.
     -   Specify the conditions for the skill availability from the list of attributes.
     -   Specify that the knowledge base generation feature for the In-product or Now Assist panel is displayed.
@@ -95,7 +95,7 @@ In the Service Operations Workspace for ITSM and classic environment, you can 
     -   In the **Core UI**, the content from the incident's **Additional comments** field is populated in the article body of the standard template.
     -   In the **Service Operations Workspace**, if the UI action does not include a template popup picker, the content from the incident's **Description** and **Resolution notes** fields are populated in the article body of the standard template.
     -   In the **Service Operations Workspace**, if the UI action includes a template popup picker, the content from the incident's **Description**, **Resolution notes**, and **Additional comments** fields are populated in the article body of the standard template.
-    The Knowledge Base is selected based on your administrator's configuration in the Now Assist Admin console.
+    The Knowledge Base is selected based on your administrator's configuration in the AI Admin Hub console.
 
 5.  Select **Create article**.
 

@@ -1,6 +1,6 @@
 ---
-title: Obtaining ERP Semantic Mining statistics and mining analysis
-description: Use the ERP Semantic Mining home page dashboard to obtain statistics about candidates and info to help you troubleshoot.
+title: Obtaining ERP Customization Mining statistics and mining analysis
+description: Use the ERP Customization Mining home page dashboard to obtain statistics about candidates and info to help you troubleshoot.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-customization-mining/erpcm-obtaining-statistics-and-mining-analysis.html
 release: yokohama
@@ -9,14 +9,14 @@ classification: erp-customization-mining
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 3
-breadcrumb: [Finding and working with candidates to replatform, ERP Semantic Mining \(ERP-CM\), Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Finding and working with candidates to replatform, ERP Customization Mining \(ERP-CM\), Building low-code applications, Developing your application, Building applications]
 ---
 
-# Obtaining ERP Semantic Mining statistics and mining analysis
+# Obtaining ERP Customization Mining statistics and mining analysis
 
-Use the ERP Semantic Mining home page dashboard to obtain statistics about candidates and info to help you troubleshoot.
+Use the ERP Customization Mining home page dashboard to obtain statistics about candidates and info to help you troubleshoot.
 
-View statistics, metrics, and debug information for ERP Semantic Mining on the dashboard. Open links to related ERP Semantic Mining properties, logs, events, and editors.
+View statistics, metrics, and debug information for ERP Customization Mining on the dashboard. Open links to related ERP Customization Mining properties, logs, events, and editors.
 
 You must have the sn\_erp\_mining.erp\_user role to view the dashboard.
 
@@ -39,9 +39,9 @@ This tab contains information about candidates.
 |Application candidates per module|Donut|Number of application candidates for each module by number and percentage.|
 |Application candidates by potential|Donut|Number of application candidates for each module by number and percentage.|
 |Users of application candidates per module|Bar|Type of user of application candidates by module. User type is based on the number of different application candidates accessed. Users are defined as Light \(uses few apps\), Moderate \(uses multiple apps\), and Power \(uses the most apps\). Note that frequency of use is not part of the calculation.|
-|Application candidates per model|Bar|Number of application candidates that have a matching model in Zero Copy Connector for ERP.|
+|Application candidates per model|Bar|Number of application candidates that have a matching model in ERP Canvas.|
 |Application candidates per CRUD operation type|Column|Number of application candidates by CRUD \(create, update, read, delete\) type for different models.|
-|Application types|Column|Candidates by model type, such as a standard ERP model \(which you work with in Zero Copy Connector for ERP\), a workflow, or a custom business area.|
+|Application types|Column|Candidates by model type, such as a standard ERP model \(which you work with in ERP Canvas\), a workflow, or a custom business area.|
 
 ## Selected potential candidates tab
 
@@ -111,7 +111,7 @@ ERP models
 
 </td><td>
 
-Number of ERP models the potential candidate belongs to.ERP models are configured in Zero Copy Connector for ERP. An ERP model functions as a staging area that contains all potential fields you can add to remote and extraction tables, and read and update operations. You can then use the tables and queried data as a data source. For more information, see [Building and managing ERP models to work with ERP data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/work-with-erp-data-models.md).
+Number of ERP models the potential candidate belongs to.ERP models are configured in ERP Canvas. An ERP model functions as a staging area that contains all potential fields you can add to remote and extraction tables, and read and update operations. You can then use the tables and queried data as a data source. For more information, see [Building and managing ERP models to work with ERP data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/work-with-erp-data-models.md).
 
 </td></tr><tr><td>
 

@@ -26,7 +26,7 @@ This topic refers to Reporting in the Core UI. If your instance is migrated to P
 
 1.  Follow one of these paths.
 
-<table id="choicetable_urt_hlc_5w"><tbody><tr><td id="d175304e75">
+<table id="choicetable_urt_hlc_5w"><tbody><tr><td id="d177705e75">
 
 **Create a report**
 
@@ -34,7 +34,7 @@ This topic refers to Reporting in the Core UI. If your instance is migrated to P
 
 Navigate to **Reports** &gt; **Create New**.
 
-</td></tr><tr><td id="d175304e93">
+</td></tr><tr><td id="d177705e93">
 
 **Edit an existing report**
 
@@ -42,7 +42,7 @@ Navigate to **Reports** &gt; **Create New**.
 
 Navigate to **Reports** &gt; **View / Run** and click the edit icon \(\[Omitted image "Pencil.png"\] Alt text: The edit icon\) beside the report name.
 
-</td></tr><tr><td id="d175304e115">
+</td></tr><tr><td id="d177705e115">
 
 **Create a report on a dashboard**
 
@@ -50,7 +50,7 @@ Navigate to **Reports** &gt; **View / Run** and click the edit icon \(\[Omitted 
 
 Navigate to the dashboard where you want to add the report, click the Add Widgets icon \(\[Omitted image "AddWidgetButton.png"\] Alt text: Plus sign button\), and select **Reports**.
 
-</td></tr><tr><td id="d175304e133">
+</td></tr><tr><td id="d177705e133">
 
 **Edit a report on a dashboard**
 

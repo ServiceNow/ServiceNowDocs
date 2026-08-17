@@ -9,7 +9,7 @@ classification: now-assist-for-configuration-management-database-cmdb
 topic_type: task
 last_updated: "2026-01-14"
 reading_time_minutes: 4
-breadcrumb: [Use generative AI skills, Now Assist for Configuration Management Database \(CMDB\), CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Use generative AI skills, ServiceNow Otto for Configuration Management Database \(CMDB\), CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Fix SGC import set issues with the Now Assist SGC diagnosis skill
@@ -38,15 +38,15 @@ When a Now Assist for SGC skill is enabled, the Now Assist icon \[Omitted image 
 
     **Note:** If Now Assist doesn't recognize the entered text, it displays a list of the Service Graph Connectors installed on your instance by their discovery source names, such as `SG-Infoblox`. You can then select a connector for further diagnosis.
 
-<table id="choicetable_x5w_r4d_zcc"><thead><tr><th align="left" id="d210916e197">
+<table id="choicetable_x5w_r4d_zcc"><thead><tr><th align="left" id="d210371e197">
 
 Option
 
-</th><th align="left" id="d210916e200">
+</th><th align="left" id="d210371e200">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d210916e206">
+</th></tr></thead><tbody><tr><td id="d210371e206">
 
 **Connector name**
 
@@ -58,7 +58,7 @@ After you enter a connector name, you can select a data source that is associate
 
 \[Omitted image "now-assist-sgc-diagnose-connector.png"\] Alt text: Diagnosing a failed import set with a connector name.
 
-</td></tr><tr><td id="d210916e242">
+</td></tr><tr><td id="d210371e242">
 
 **Data source name**
 
@@ -68,7 +68,7 @@ Data source name for a connector to diagnose. For example, `SG-Infoblox IP Addre
 
 \[Omitted image "now-assist-sgc-diagnose-data-source.png"\] Alt text: Diagnosing a failed import set with a data source name.
 
-</td></tr><tr><td id="d210916e262">
+</td></tr><tr><td id="d210371e262">
 
 **Import set**
 

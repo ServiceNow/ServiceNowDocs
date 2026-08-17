@@ -15,11 +15,11 @@ breadcrumb: [Configuring Now Assist settings and features, Now Assist, Enable AI
 
 Use the Now Assist analytics and monitoring tools in the Overview page to review the summaries, skill usage information, and issues that need your attention.
 
-## Now Assist Admin Overview page
+## AI Admin Hub Overview page
 
 After you activate and begin using the skills, you can measure their usage over time with graphs that display important metrics. The console Overview page contains the information about skill performance, including the task completion over time, and a summary of which skills are active or available.
 
-The following example shows the Now Assist Admin Overview page.
+The following example shows the AI Admin Hub Overview page.
 
 \[Omitted image "now-assist-home.png"\] Alt text: Now Assist Admin Overview page with plugins, skills installed, and the Now Assist journey checklist.
 

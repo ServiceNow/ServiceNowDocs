@@ -1,6 +1,6 @@
 ---
-title: Now Assist Admin roles
-description: Certain roles are required to use Now Assist Admin functionality.This user can create and update the Now Assist Admin experience by editing and configuring skills.This user role can access the console and view skills, but can't configure or edit.Users who have access to the Now Assist panel.
+title: AI Admin Hub roles
+description: Certain roles are required to use AI Admin Hub functionality.This user can create and update the AI Admin Hub experience by editing and configuring skills.This user role can access the console and view skills, but can't configure or edit.Users who have access to the Now Assist panel.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/roles-installed-with-now-assist-admin.html
 release: yokohama
@@ -11,15 +11,15 @@ keywords: [Now Assist Admin, roles, Generative AI, Gen AI, Now Assist Admin, edi
 breadcrumb: [Now Assist reference, Now Assist, Enable AI experiences]
 ---
 
-# Now Assist Admin roles
+# AI Admin Hub roles
 
-Certain roles are required to use Now Assist Admin functionality.
+Certain roles are required to use AI Admin Hub functionality.
 
 **Parent Topic:**[Now Assist reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-reference-landing.md)
 
 ## Now Assist Admin \[sn\_nowassist\_admin.nsa\_admin\]
 
-This user can create and update the Now Assist Admin experience by editing and configuring skills.
+This user can create and update the AI Admin Hub experience by editing and configuring skills.
 
 ### Contains Roles
 
@@ -37,7 +37,7 @@ None.
 
 Avoid granting an admin role when more specialized roles are available.
 
-## Now Assist Admin console user \[sn\_nowassist\_admin.user\]
+## AI Admin Hub console user \[sn\_nowassist\_admin.user\]
 
 This user role can access the console and view skills, but can't configure or edit.
 

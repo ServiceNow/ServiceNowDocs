@@ -1,5 +1,5 @@
 ---
-title: Use agentic AI in Now Assist for IT Service Management \(ITSM\)
+title: Use agentic AI in ServiceNow Otto for IT Service Management \(ITSM\)
 description: Use the IT Service Management AI agents within an agentic workflow to complete tasks autonomously.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-ai-agents-use-cases.html
@@ -10,10 +10,10 @@ topic_type: concept
 last_updated: "2025-10-03"
 reading_time_minutes: 1
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
-breadcrumb: [Now Assist for IT Service Management \(ITSM\), IT Service Management]
+breadcrumb: [ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 
-# Use agentic AI in Now Assist for IT Service Management \(ITSM\)
+# Use agentic AI in ServiceNow Otto for IT Service Management \(ITSM\)
 
 Use the IT Service Management AI agents within an agentic workflow to complete tasks autonomously.
 

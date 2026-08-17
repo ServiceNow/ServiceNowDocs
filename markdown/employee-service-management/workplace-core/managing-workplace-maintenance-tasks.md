@@ -105,5 +105,5 @@ Apply the archival policy for Workplace Core to archive old table records.
 
 [Location migration]()
 
-[View workplace service usage analytics with Usage Insights]()
+[View workplace service usage analytics with User Experience Analytics]()
 

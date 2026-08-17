@@ -1,5 +1,5 @@
 ---
-title: Types of tracking consent policies in Usage Insights
+title: Types of tracking consent policies in User Experience Analytics
 description: There are five types of tracking consent policies that you can define for individual countries. This option provides you with the flexibility to define tracking policies according to your own compliance requirements, applicable country requirements, and even according to users or roles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/usage-insights/uxa-tracking-types.html
@@ -12,7 +12,7 @@ reading_time_minutes: 3
 breadcrumb: [User privacy, tracking, and consent, Configuring User Experience Analytics, User Experience Analytics, Platform Analytics]
 ---
 
-# Types of tracking consent policies in Usage Insights
+# Types of tracking consent policies in User Experience Analytics
 
 There are five types of tracking consent policies that you can define for individual countries. This option provides you with the flexibility to define tracking policies according to your own compliance requirements, applicable country requirements, and even according to users or roles.
 
@@ -24,7 +24,7 @@ The default consent policies are set to No Consent Required for all countries/gr
 
 -   **Disabled**
 
-    Selecting **Disabled** as the user consent policy has the same effect as an end user opting out: individual-level tracking is not displayed in Usage Insights tracked applications and usage metrics aren't obtained from these users. Aggregate data collection continues.
+    Selecting **Disabled** as the user consent policy has the same effect as an end user opting out: individual-level tracking is not displayed in User Experience Analytics tracked applications and usage metrics aren't obtained from these users. Aggregate data collection continues.
 
 -   **Explicit opt-in**
 
@@ -43,7 +43,7 @@ The default consent policies are set to No Consent Required for all countries/gr
 
 -   Every country’s consent policy is set to **No Consent Required** by default. However, users can opt in or out of ServiceNow applications individually in application settings. If you want to provide opt-in messages or notices to users when they log in, you must configure tracking consent policies.
 -   When consent policies are updated to display a notice or require opt-ins, capturing detailed user and session data may be impacted due to individual opt-outs. Aggregated metrics will continue to reflect the total user base, including those who have opted out of individual session tracking.
--   Counters in the Usage Insights application contain aggregated user numbers.
+-   Counters in the User Experience Analytics application contain aggregated user numbers.
 -   If a country’s tracking consent policy is set to **Disabled**, user metrics aren't tracked and aggregate data collection continues.
 -   If a country’s consent policy is set to **Explicit Opt-In** or **Notice**, individual users are asked for consent yearly. Their existing tracking preference expires every 365 days.
 -   Analytics administrators can choose to store additional user properties. See [Add user properties as filters to User Experience Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/uxa-add-filters-uxa-pages.md) for more information.
@@ -56,9 +56,9 @@ Edit the texts for Notice and Explicit Opt-in consent policies from the default 
 -   **[View users' consent management policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/uxa-view-user-decision.md)**  
 View and analyze details regarding users and their tracking selection preferences.
 -   **[Configure link to your privacy policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/uxa-config-link-privacy-policy.md)**  
-The privacy policy link is shown when Usage Insights is enabled and users choose to enable or disable tracking.
+The privacy policy link is shown when User Experience Analytics is enabled and users choose to enable or disable tracking.
 -   **[Tracking controls and data collection behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/uxa-tracking-controls-and-data-collection-behavior.md)**  
-Understand what happens when you opt out of the consent pop-up in the Usage Insights UI
+Understand what happens when you opt out of the consent pop-up in the User Experience Analytics UI
 
-**Parent Topic:**[User privacy, tracking, and user consent management in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/user-exp-analytics-track-options.md)
+**Parent Topic:**[User privacy, tracking, and user consent management in User Experience Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/user-exp-analytics-track-options.md)
 

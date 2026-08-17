@@ -7,7 +7,7 @@ release: yokohama
 product: Task Mining
 classification: task-mining
 topic_type: concept
-last_updated: "2024-10-08"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
 breadcrumb: [Explore, Task Mining, Platform Analytics]
 ---
@@ -71,4 +71,9 @@ These data privacy measures safeguard the data collected, reduce the risk of exp
 -   Automatic deletion of data that is not linked to an active project for analysis is deleted after a specified amount of time, so that unused data doesn’t remain in the system indefinitely.
 -   Restricted access so only authorized users can create and modify Task Mining projects or view or manipulate project data.
 -   The ability to mask specific activity details such as application names, window titles, and URLs.
+
+**Related topics**  
+
+
+[Data collected by Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/task-mining/data-management.md)
 

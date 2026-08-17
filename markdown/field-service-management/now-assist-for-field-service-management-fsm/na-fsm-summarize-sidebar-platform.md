@@ -1,6 +1,6 @@
 ---
 title: Summarize a Sidebar discussion
-description: Generate a summary of the Sidebar discussions between agents, dispatchers, and subject matter experts by using the Sidebar summarization skill in the Now Assist for Field Service Management \(FSM\) application.On the Mobile Agent application, generate a summary of the Sidebar discussions between agents, dispatchers, and subject matter experts by using the Sidebar summarization skill in the Now Assist for Field Service Management \(FSM\) application.
+description: Generate a summary of the Sidebar discussions between agents, dispatchers, and subject matter experts by using the Sidebar summarization skill in the ServiceNow Otto for Field Service Management \(FSM\) application.On the Mobile Agent application, generate a summary of the Sidebar discussions between agents, dispatchers, and subject matter experts by using the Sidebar summarization skill in the ServiceNow Otto for Field Service Management \(FSM\) application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/now-assist-for-field-service-management-fsm/na-fsm-summarize-sidebar-platform.html
 release: yokohama
@@ -9,12 +9,12 @@ classification: now-assist-for-field-service-management-fsm
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 3
-breadcrumb: [Using Now Assist for Field Service Management \(FSM\), Now Assist for Field Service Management \(FSM\)]
+breadcrumb: [Using ServiceNow Otto for Field Service Management \(FSM\), ServiceNow Otto for Field Service Management \(FSM\)]
 ---
 
 # Summarize a Sidebar discussion
 
-Generate a summary of the Sidebar discussions between agents, dispatchers, and subject matter experts by using the Sidebar summarization skill in the Now Assist for Field Service Management \(FSM\) application.
+Generate a summary of the Sidebar discussions between agents, dispatchers, and subject matter experts by using the Sidebar summarization skill in the ServiceNow Otto for Field Service Management \(FSM\) application.
 
 ## Before you begin
 
@@ -64,15 +64,15 @@ You can do these actions using Sidebar summarization:
 
 10. After summarizing the Sidebar discussion, you can add it to the work notes, and provide feedback about it.
 
-<table id="choicetable_vzl_myv_bcc"><thead><tr><th align="left" id="d87263e284">
+<table id="choicetable_vzl_myv_bcc"><thead><tr><th align="left" id="d87084e284">
 
 Option
 
-</th><th align="left" id="d87263e287">
+</th><th align="left" id="d87084e287">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d87263e293">
+</th></tr></thead><tbody><tr><td id="d87084e293">
 
 **Save the summary information by adding it to the work notes**
 
@@ -83,7 +83,7 @@ Procedure
 3.  Select **Save to Work notes**.
 
 
-</td></tr><tr><td id="d87263e320">
+</td></tr><tr><td id="d87084e320">
 
 **Provide feedback for the summary**
 
@@ -93,11 +93,11 @@ If you'd like to provide feedback, select either the helpful icon \(\[Omitted im
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using Now Assist for Field Service Management \(FSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/now-assist-for-field-service-management-fsm/using-now-assist-fsm.md)
+**Parent Topic:**[Using ServiceNow Otto for Field Service Management \(FSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/now-assist-for-field-service-management-fsm/using-now-assist-fsm.md)
 
 ## Summarize a Sidebar discussion on the Now Mobile Agent application
 
-On the Mobile Agent application, generate a summary of the Sidebar discussions between agents, dispatchers, and subject matter experts by using the Sidebar summarization skill in the Now Assist for Field Service Management \(FSM\) application.
+On the Mobile Agent application, generate a summary of the Sidebar discussions between agents, dispatchers, and subject matter experts by using the Sidebar summarization skill in the ServiceNow Otto for Field Service Management \(FSM\) application.
 
 ### Before you begin
 

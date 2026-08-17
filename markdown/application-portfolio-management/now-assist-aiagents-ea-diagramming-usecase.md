@@ -7,7 +7,7 @@ release: yokohama
 topic_type: concept
 last_updated: "2025-03-07"
 reading_time_minutes: 3
-breadcrumb: [Use AI agent agentic workflow, Now Assist for Enterprise Architecture \(EA\), Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Use AI agent agentic workflow, ServiceNow Otto for Enterprise Architecture \(EA\), Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
 # Enterprise Architecture AI agent diagramming agentic workflow
@@ -58,7 +58,7 @@ However, in the Define key requirements page, in the **Define who can access thi
 
 To add access to more roles, perform the following:
 
-1.  Set your application scope to Now Assist for Enterprise Architecture \(EA\). For information on how to change the application scope, see [Select an application from the application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_SelectAnAppFromTheAppPicker.md).
+1.  Set your application scope to ServiceNow Otto for Enterprise Architecture \(EA\). For information on how to change the application scope, see [Select an application from the application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_SelectAnAppFromTheAppPicker.md).
 2.  Select the edit icon \(\[Omitted image "edit-icon.png"\] Alt text: Edit icon.\).
 3.  On the Access Control page, in the **Requires role** section, select **Insert new row**.
 
@@ -101,5 +101,5 @@ To view information on how to create AI agents and agentic workflows and how to 
 -   [Manually test the execution of an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/test-ai-agent.md)
 -   [Manually test the execution of an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/test-aia-use-case.md)
 
-**Parent Topic:**[Using AI agent agentic workflow in Now Assist for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/using-na-ea-ai-agents.md)
+**Parent Topic:**[Using AI agent agentic workflow in ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/using-na-ea-ai-agents.md)
 

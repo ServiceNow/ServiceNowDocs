@@ -28,15 +28,15 @@ Recipients lists should be pre-defined in the Recipients Lists submodule. For mo
 
 3.  Perform any of the following steps.
 
-<table id="choicetable_jnl_df2_5fb"><thead><tr><th align="left" id="d481495e84">
+<table id="choicetable_jnl_df2_5fb"><thead><tr><th align="left" id="d481995e84">
 
 Option
 
-</th><th align="left" id="d481495e87">
+</th><th align="left" id="d481995e87">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d481495e93">
+</th></tr></thead><tbody><tr><td id="d481995e93">
 
 **From Platform**
 
@@ -47,7 +47,7 @@ Description
 3.  Click **Submit**.
 
 
-</td></tr><tr><td id="d481495e126">
+</td></tr><tr><td id="d481995e126">
 
 **From Survey Designer**
 

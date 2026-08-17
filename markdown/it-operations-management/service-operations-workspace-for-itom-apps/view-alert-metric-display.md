@@ -9,7 +9,7 @@ classification: service-operations-workspace-for-itom-apps
 topic_type: task
 last_updated: "2025-06-30"
 reading_time_minutes: 2
-breadcrumb: [Express List in the Service Operations Workspace for ITOM, Using Service Operations Workspace for ITOM, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
+breadcrumb: [Express List in the Service Operations Workspace for ITOM, Using Service Operations Workspace for ITOM, Service Operations Workspace for ITOM, ITOM Health, IT Operations Management]
 ---
 
 # View anomaly alert metric data on the preview panel in Express List
@@ -32,15 +32,15 @@ Role required: evt\_mgmt\_operator, evt\_mgmt\_admin
 
 4.  Choose where to view the anomaly chart.
 
-<table id="choicetable_kfx_rzl_33c"><thead><tr><th align="left" id="d684956e106">
+<table id="choicetable_kfx_rzl_33c"><thead><tr><th align="left" id="d685458e106">
 
 Option
 
-</th><th align="left" id="d684956e109">
+</th><th align="left" id="d685458e109">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d684956e115">
+</th></tr></thead><tbody><tr><td id="d685458e115">
 
 **View the chart in the preview panel**
 
@@ -51,7 +51,7 @@ Procedure
 
 A chart with a visual representation of the anomaly appears.
 
-</td></tr><tr><td id="d684956e138">
+</td></tr><tr><td id="d685458e138">
 
 **View the chart in the alert record**
 

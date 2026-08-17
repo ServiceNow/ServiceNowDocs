@@ -1,6 +1,6 @@
 ---
 title: Exploring Knowledge Center
-description: The Knowledge Center Knowledge Center helps in the effective management of knowledge articles by using an intuitive interface. Beyond traditional knowledge bases, the Knowledge Center provides actionable insights and identifies gaps so that your content stays relevant and accurate.
+description: The Knowledge Center helps in the effective management of knowledge articles by using an intuitive interface. Beyond traditional knowledge bases, the Knowledge Center provides actionable insights and identifies gaps so that your content stays relevant and accurate.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/exploring-knowledge-center.html
 release: yokohama
@@ -12,7 +12,7 @@ breadcrumb: [Knowledge Center, Manage content capabilities, Extend ServiceNow AI
 
 # Exploring Knowledge Center
 
-The Knowledge Center Knowledge Center helps in the effective management of knowledge articles by using an intuitive interface. Beyond traditional knowledge bases, the Knowledge Center provides actionable insights and identifies gaps so that your content stays relevant and accurate.
+The Knowledge Center helps in the effective management of knowledge articles by using an intuitive interface. Beyond traditional knowledge bases, the Knowledge Center provides actionable insights and identifies gaps so that your content stays relevant and accurate.
 
 ## Benefits
 

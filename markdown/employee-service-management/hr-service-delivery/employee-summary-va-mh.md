@@ -20,7 +20,7 @@ Activate and use the Employee Summary Virtual Agent topic to access employee con
 
 To access and use the Employee Summary reports topic, the following plugins must me activated:
 
--   Now Assist for HR Service Delivery \(HRSD\) \(sn\_hr\_gen\_ai\)
+-   ServiceNow Otto for HR Service Delivery \(HRSD\) \(sn\_hr\_gen\_ai\)
 
 The following plugins are optional:
 

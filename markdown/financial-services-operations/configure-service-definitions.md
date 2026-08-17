@@ -42,7 +42,7 @@ Service definitions are configured for both cases and tasks for each service in 
     |Sys ID|System-generated unique identifier for the service definition.|
     |Task type|Table associated with the service definition. Select a case or task table based on the service.|
 
-    When you create a service definition, the Service Definition form displays information about the service definition configuration. This record stores the details of the service provided to customers. For more information about the other fields, see [Service Definition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/service-definition-form-fields.md).
+    When you create a service definition, the Service Definition form displays information about the service definition configuration. This record stores the details of the service provided to customers. For more information about the other fields, see .
 
 4.  Click **Submit** or **Update**.
 

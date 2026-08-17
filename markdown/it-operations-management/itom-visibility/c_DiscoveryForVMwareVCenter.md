@@ -49,7 +49,7 @@ After classifying vCenter, Discovery launches the VMware - vCenter Datacenters p
 
 ## VMWare credentials
 
-To access vCenter with a domain account, specify the domain with the user name in the credential record using a supported format, such as **Domain\\UserName**. The VMware credentials must have a read-only role in vCenter. For Software Asset Management \(SAM\) tracking, the credentials also require the "Assign license" privilege in vCenter, also known as the License Admin privilege.
+To access vCenter with a domain account, specify the domain with the user name in the credential record using a supported format, such as **Domain\\UserName** or **username@domain**. The VMware credentials must have a read-only role in vCenter. For Software Asset Management \(SAM\) tracking, the credentials also require the "Assign license" privilege in vCenter, also known as the License Admin privilege.
 
 **Important:** Windows credentials aren't necessary for vCenter Discovery when valid [VMware credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/r_VMwareCredentialsForm.md) are used.
 

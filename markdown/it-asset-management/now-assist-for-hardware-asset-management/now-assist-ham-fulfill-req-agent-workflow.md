@@ -1,5 +1,5 @@
 ---
-title: Now Assist for Hardware Asset Management \(HAM\) AI agent collection Help manage hardware asset requests agentic workflow
+title: ServiceNow Otto for Hardware Asset Management \(HAM\) AI agent collection Help manage hardware asset requests agentic workflow
 description: Use the Help manage hardware asset requests agentic workflow, driven by AI agents, to handle your employees' hardware asset requests automatically. The AI agents fulfill requests by either consuming the available local stock, or by generating transfer orders or purchase orders.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/now-assist-for-hardware-asset-management/now-assist-ham-fulfill-req-agent-workflow.html
@@ -10,10 +10,10 @@ topic_type: concept
 last_updated: "2025-04-02"
 reading_time_minutes: 7
 keywords: [AI Agents, agentic AI]
-breadcrumb: [Use agentic workflows, Now Assist for Hardware Asset Management \(HAM\), Hardware Asset Management, IT Asset Management]
+breadcrumb: [Use agentic workflows, ServiceNow Otto for Hardware Asset Management \(HAM\), Hardware Asset Management, IT Asset Management]
 ---
 
-# Now Assist for Hardware Asset Management \(HAM\) AI agent collection Help manage hardware asset requests agentic workflow
+# ServiceNow Otto for Hardware Asset Management \(HAM\) AI agent collection Help manage hardware asset requests agentic workflow
 
 Use the Help manage hardware asset requests agentic workflow, driven by AI agents, to handle your employees' hardware asset requests automatically. The AI agents fulfill requests by either consuming the available local stock, or by generating transfer orders or purchase orders.
 
@@ -21,7 +21,7 @@ Use the Help manage hardware asset requests agentic workflow, driven by AI agent
 
 The AI agents in the Help manage hardware asset requests agentic workflow help to speed up request resolution, improve operational efficiency, and enhance user satisfaction. This agentic workflow processes and fulfills requests for hardware, consumables, bundles, and pallets.
 
-**Note:** The itil, the procurement\_user, and the now\_assist\_panel\_user roles have access to the Now Assist panel. The fulfiller needs the itil and procurement\_user roles if you have the Now Assist for IT Service Management \(ITSM\) store application installed. If you have the Now Assist for Hardware Asset Management \(HAM\) store application but not the Now Assist for IT Service Management \(ITSM\) store application, then the fulfiller requires the itil, procurement\_user, and now\_assist\_panel\_user roles to fulfill the request via the Now Assist panel trigger.
+**Note:** The itil, the procurement\_user, and the now\_assist\_panel\_user roles have access to the Now Assist panel. The fulfiller needs the itil and procurement\_user roles if you have the ServiceNow Otto for IT Service Management \(ITSM\) store application installed. If you have the ServiceNow Otto for Hardware Asset Management \(HAM\) store application but not the ServiceNow Otto for IT Service Management \(ITSM\) store application, then the fulfiller requires the itil, procurement\_user, and now\_assist\_panel\_user roles to fulfill the request via the Now Assist panel trigger.
 
 -   **Auto-sourcing scenarios**
 
@@ -154,10 +154,10 @@ Sources the requested item by either creating a purchase order autonomously or a
 -   Navigate to **All** &gt; **AI Agent Studio** &gt; **Create and manage**.
 -   Select **Help manage hardware asset requests**.
 
-**Parent Topic:**[Using agentic workflows in Now Assist for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/now-assist-for-hardware-asset-management/now-assist-ham-agentic-workflow.md)
+**Parent Topic:**[Using agentic workflows in ServiceNow Otto for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/now-assist-for-hardware-asset-management/now-assist-ham-agentic-workflow.md)
 
 **Related topics**  
 
 
-[Now Assist for Hardware Asset Management \(HAM\) AI agent collection Help repair hardware assets agentic workflow]()
+[ServiceNow Otto for Hardware Asset Management \(HAM\) AI agent collection Help repair hardware assets agentic workflow]()
 

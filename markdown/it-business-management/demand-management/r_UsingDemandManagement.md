@@ -78,7 +78,6 @@ An accepted idea creates a demand record and the demand manager submits the dema
 -   **Screen**: The demand is moved to the screening state.
 -   **Qualify** The demand is moved to the qualified state.
 -   **Defer**: The demand is moved to the deferred state.
--   **Incomplete**: The demand is moved to the incomplete state.
 -   **Reset to Draft**: The demand is moved back to the draft state.
 -   **Delete**: The demand record is deleted.
 
@@ -153,10 +152,6 @@ The demand is moved to the completed state.After reviewing the record, select on
 -   Checks off the states that a demand has passed through.
 -   Leaves empty the states that have been skipped.
 
-In this example, the demand is in the **Approved** state. It passed through the **Draft**, **Submitted**, and **Qualified** states but skipped the **Screening** state.
-
-\[Omitted image "DemandProcessFlowIndicator.png"\] Alt text: Demand process flow indicator
-
 -   **[Assess demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/c_AssessingDemands.md)**  
 The Demand Management application comes with two demand visualization tools that can aid decision makers with demand assessment.
 -   **[Create a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/t_CreatingDemands.md)**  
@@ -177,7 +172,7 @@ As the demand manager, you can move and resize bubbles in the bubble chart.
 Train the Similar Demands solution definition included within the Predictive Intelligence for PPM capability to find related demands when creating a demand.
 -   **[PPM PIWB template - Find similar demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/ppm-piwb-demand.md)**  
 Use a guided template that walks you through training the Similar Demands solution definition for finding similar demands.
--   **[Identify similar records using Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/identify-similar-demands.md)**  
+-   **[Identify similar records using ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/identify-similar-demands.md)**  
 Detect similar demand records using the identify similar records Now Assist skill. This skill detects similar demand records based on contextual similarity in the name, description, and business case content.
 
 **Parent Topic:**[Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/c_DemandManagement.md)

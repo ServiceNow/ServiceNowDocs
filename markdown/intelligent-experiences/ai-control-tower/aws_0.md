@@ -1,6 +1,6 @@
 ---
 title: AI Service Graph Connector for Amazon
-description: Use the  AI Service Graph Connector for Amazon to create AI connections to discover and import AI assets such as AI systems, agents, models, prompts, tools, and datasets as well as usage data for these AI assets into AI Control Tower. This usage information is consumed by the AI Control Tower's value dashboard.
+description: Use the  AI Service Graph Connector for Amazon to create AI connections to discover and import AI assets such as AI systems, agents, models, prompts, tools, and datasets into AI Control Tower. The usage information is tracked is consumed by the AI Control Tower's value dashboard.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/ai-control-tower/aws\_0.html
 release: yokohama
@@ -14,7 +14,7 @@ breadcrumb: [Service Graph Connectors for AI Control Tower, AI connections, Expl
 
 # AI Service Graph Connector for Amazon
 
-Use the  AI Service Graph Connector for Amazon to create AI connections to discover and import AI assets such as AI systems, agents, models, prompts, tools, and datasets as well as usage data for these AI assets into AI Control Tower. This usage information is consumed by the AI Control Tower's value dashboard.
+Use the  AI Service Graph Connector for Amazon to create AI connections to discover and import AI assets such as AI systems, agents, models, prompts, tools, and datasets into AI Control Tower. The usage information is tracked is consumed by the AI Control Tower's value dashboard.
 
 ## Download apps from the Store
 
@@ -33,11 +33,9 @@ Roles required in the ServiceNow environment:
 -   sn\_ai\_disc.discovery\_admin
 -   sn\_cmdb\_int\_util.sgc\_admin
 
-## Prerequisites from AWS
+## AWS Prerequisites
 
 Role required: IAM user
-
-**AWS Prerequisites**
 
 Before proceeding, confirm you have:
 
@@ -45,7 +43,7 @@ Before proceeding, confirm you have:
 -   IAM Credentials: AWS Access Key ID and Secret Access Key with read permissions for the services you plan to migrate
 -   Service Access- API access enabled for Amazon Bedrock, Amazon SageMaker, Amazon CloudWatch, and Amazon Bedrock AgentCore
 
-**Required IAM Permissions**
+Required IAM Permissions
 
 Your IAM user role or role needs these permissions.
 
@@ -54,7 +52,7 @@ Your IAM user role or role needs these permissions.
 -   Amazon CloudWatch: logs:DescribeLogGroups, logs:DescribeLogStreams, cloudwatch:GetMetricData
 -   Amazon Bedrock AgentCore: bedrock:ListAgents, bedrock:GetAgent
 
-**AWS Setup documentation**
+AWS Setup documentation
 
 Use these AWS resources to set up credentials and enable services:
 
@@ -64,21 +62,21 @@ Use these AWS resources to set up credentials and enable services:
 -   [Amazon CloudWatch- Setup Guide](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/GettingSetup.html)
 -   [Amazon SageMaker- Get Started](https://docs.aws.amazon.com/sagemaker/latest/dg/gs.html)
 
-## Data mapping
+## Data Mapping
 
 The following table lists the data sources, the staging tables, and the target tables  CMDB CI classes and non-CMDB  classes where data is stored for a  AWS  project.
 
 <table id="table_jc1_m2r_l3c"><tbody><tr><td>
 
-**Data Source**
+Data Source
 
 </td><td>
 
-**Staging Table**
+Staging Table
 
 </td><td>
 
-**Target Table**
+Target Table
 
 </td></tr><tr><td>
 

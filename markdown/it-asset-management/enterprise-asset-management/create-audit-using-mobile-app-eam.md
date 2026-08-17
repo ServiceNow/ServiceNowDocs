@@ -29,15 +29,15 @@ Role required: sn\_eam.enterprise\_admin or sn\_eam.enterprise\_asset\_manager
 
 3.  Select the audit that you want to perform.
 
-<table id="choicetable_bpk_mvc_whc"><thead><tr><th align="left" id="d73961e78">
+<table id="choicetable_bpk_mvc_whc"><thead><tr><th align="left" id="d74145e78">
 
 Audit type
 
-</th><th align="left" id="d73961e81">
+</th><th align="left" id="d74145e81">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d73961e87">
+</th></tr></thead><tbody><tr><td id="d74145e87">
 
 **To perform stockroom audits**
 
@@ -48,7 +48,7 @@ Action
 3.  Tap **New stockroom audit**.
 
 
-</td></tr><tr><td id="d73961e116">
+</td></tr><tr><td id="d74145e116">
 
 **To perform location audits**
 

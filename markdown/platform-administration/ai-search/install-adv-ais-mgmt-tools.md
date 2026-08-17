@@ -18,7 +18,7 @@ Activate the content pack ServiceNow® Store application for the Platform Analyt
 
 ## Before you begin
 
-The Usage Insights API application from the ServiceNow Store must be activated in your instance.
+The User Experience Analytics API application from the ServiceNow Store must be activated in your instance.
 
 Role required: admin
 

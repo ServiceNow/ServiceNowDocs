@@ -1,6 +1,6 @@
 ---
 title: Activate the business rule for the Triage legal requests agentic workflow
-description: Activate the business rules for the Triage legal requests agentic workflow in the Now Assist for Legal Service Delivery \(LSD\) application.
+description: Activate the business rules for the Triage legal requests agentic workflow in the ServiceNow Otto for Legal Service Delivery \(LSD\) application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/now-assist-for-legal-service-delivery/lsd-agentic-config-BR.html
 release: yokohama
@@ -9,12 +9,12 @@ classification: now-assist-for-legal-service-delivery
 topic_type: task
 last_updated: "2025-04-16"
 reading_time_minutes: 1
-breadcrumb: [Configuring the Triage legal requests agentic workflow, Agentic workflow, Now Assist for Legal Service Delivery \(LSD\), Legal Service Delivery, Employee Service Management]
+breadcrumb: [Configuring the Triage legal requests agentic workflow, Agentic workflow, ServiceNow Otto for Legal Service Delivery \(LSD\), Legal Service Delivery, Employee Service Management]
 ---
 
 # Activate the business rule for the Triage legal requests agentic workflow
 
-Activate the business rules for the Triage legal requests agentic workflow in the Now Assist for Legal Service Delivery \(LSD\) application.
+Activate the business rules for the Triage legal requests agentic workflow in the ServiceNow Otto for Legal Service Delivery \(LSD\) application.
 
 ## Before you begin
 
@@ -53,7 +53,7 @@ By default, the script include in this business rule contains the sys\_id of the
 
 ## Result
 
-The Triage legal requests agentic workflow is activated for Now Assist for Legal Service Delivery \(LSD\).
+The Triage legal requests agentic workflow is activated for ServiceNow Otto for Legal Service Delivery \(LSD\).
 
 **Parent Topic:**[Configuring the Triage legal requests agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-legal-service-delivery/conf-transfer-legal-request-agent.md)
 

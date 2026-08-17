@@ -18,9 +18,9 @@ The SNMobileAnalytics API provides methods that you can call within a WebView us
 
 To use these methods within your mobile application, you must first call the installJavascriptInterface\(\) method, which exposes these JavaScript methods to the associated WebView.
 
-Refer to [NowAnalyticsService - installJavascriptInterface\(into webView: WKWebView\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/NowAnalyticsServiceiOSProtocol.md) for the iOS implementation.
+Refer to  for the iOS implementation.
 
-Refer to [NowAnalyticsSDK - installJavascriptInterface\(webView: WebView\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/NowAnalyticsAndroidInterface.md) for the Android implementation.
+Refer to  for the Android implementation.
 
 **Parent Topic:**[Mobile SDK API reference - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/MobileSDKiOSAPI.md)
 

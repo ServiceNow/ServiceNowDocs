@@ -1,6 +1,6 @@
 ---
 title: Enable the Now Assist Journey generation skill
-description: Enable the Journey generation skill in Now Assist for HRSD using the Now Assist Admin console.
+description: Enable the Journey generation skill in ServiceNow Otto for HRSD using the AI Admin Hub console.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/journey-designer/enable-jny-gen.html
 release: yokohama
@@ -14,7 +14,7 @@ breadcrumb: [Configure Journey designer features, Installation and configuration
 
 # Enable the Now Assist Journey generation skill
 
-Enable the Journey generation skill in Now Assist for HRSD using the Now Assist Admin console.
+Enable the Journey generation skill in ServiceNow Otto for HRSD using the AI Admin Hub console.
 
 ## Before you begin
 

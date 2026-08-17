@@ -71,7 +71,7 @@ Controls for filtering, managing, testing, creating, and deleting Virtual Agent 
         -   **Topics**: Button to view only basic LLM topics.
         -   **Subflows**: Button to view only conversational subflows.
         -   **Actions**: Button to view only conversational actions.
-        -   **Custom skills**: Button to view custom skills from Now Assist Skill Kit.
+        -   **Custom skills**: Button to view custom skills from AI Skill Kit.
     -   **AI agents**: Button to view list of AI agents. For more information, see [Exploring Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/exploring-ai-agents.md).
     -   **Agentic workflows**: Button to view list of Agentic workflows. For more information, see [Now Assist agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/sn-aia-use-cases-list.md).
     -   NLU controls:

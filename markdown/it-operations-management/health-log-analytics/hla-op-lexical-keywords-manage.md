@@ -9,7 +9,7 @@ classification: health-log-analytics
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Influencing anomaly detection with lexical keywords, Health Log Analytics, ITOM AIOps, IT Operations Management]
+breadcrumb: [Influencing anomaly detection with lexical keywords, Health Log Analytics, ITOM Health, IT Operations Management]
 ---
 
 # View the lexical keywords that generate alerts

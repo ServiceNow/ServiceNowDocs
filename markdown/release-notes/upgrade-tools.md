@@ -18,7 +18,7 @@ Learn about ServiceNow products and tools that can improve your upgrade experien
 
 Use these ServiceNow products to automate parts of your upgrade testing and manage your upgrades from one central place.
 
--   **[Automated Test Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/automated-test-framework.md)**
+-   **Automated Test Framework**
 
     The Automated Test Framework \(ATF\) enables you to create and run automated tests to confirm that your instance works after making a change. For example, after an upgrade, during application development, or when deploying instance configurations with update sets. Review failed test results to identify the changes that caused the failure and the changes that you should review.
 
@@ -26,7 +26,7 @@ Use these ServiceNow products to automate parts of your upgrade testing and mana
 
     \[Omitted image "atf-executionorder.png"\] Alt text: Automated Test Framework test steps
 
--   **[Upgrade Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/uc-landing-page.md)**
+-   **Upgrade Center**
 
     Use ServiceNow® Upgrade Center to plan and manage your upgrades. Use the Upgrade Preview module to explore different release versions available to you and gain insights about the experience of an upgrade without actually upgrading your instance. You can also monitor the status of any ongoing upgrade and view the summary of your latest upgrade with the new Upgrade Monitor module. The Upgrade Center also features an Upgrade visual task board \(VTB\) to manage post-upgrade skips. A separate Upgrade History module can be used to view all your past upgrades.
 

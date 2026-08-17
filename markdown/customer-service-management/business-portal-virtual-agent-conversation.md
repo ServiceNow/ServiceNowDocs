@@ -46,15 +46,15 @@ ServiceNow NLU enables discovery of the chatbot topics based on either the keywo
 
 4.  Use
 
-<table id="choicetable_cfq_4xm_rgb"><thead><tr><th align="left" id="d272407e124">
+<table id="choicetable_cfq_4xm_rgb"><thead><tr><th align="left" id="d272318e124">
 
 To
 
-</th><th align="left" id="d272407e127">
+</th><th align="left" id="d272318e127">
 
 Follow these steps
 
-</th></tr></thead><tbody><tr><td id="d272407e133">
+</th></tr></thead><tbody><tr><td id="d272318e133">
 
 **Check the status of a case**
 
@@ -74,7 +74,7 @@ Follow these steps
     -   Contact an agent.
 
 
-</td></tr><tr><td id="d272407e181">
+</td></tr><tr><td id="d272318e181">
 
 **Get help with a product**
 
@@ -94,7 +94,7 @@ Enter a keyword for your issue. The chatbot returns a list of related knowledge 
 -   Contact an agent
 
 
-</td></tr><tr><td id="d272407e224">
+</td></tr><tr><td id="d272318e224">
 
 **Get help**
 
@@ -102,7 +102,7 @@ Enter a keyword for your issue. The chatbot returns a list of related knowledge 
 
 If you’re an anonymous user not logged in to the application, enter keywords for your issue. The chatbot returns a list of related knowledge articles that have been made public. If there are no matching articles that would help resolve the issue, you can choose to be transferred to a live agent.
 
-</td></tr><tr><td id="d272407e236">
+</td></tr><tr><td id="d272318e236">
 
 **Submit Request**
 
@@ -118,7 +118,7 @@ If you’re an anonymous user not logged in to the application, enter keywords f
 3.  Select the link displayed and exit the virtual agent if you do not have any further request.
 
 
-</td></tr><tr><td id="d272407e278">
+</td></tr><tr><td id="d272318e278">
 
 **Create Case**
 
@@ -133,7 +133,7 @@ Creates a case from Virtual Agent. You need the following fields to create a cas
 -   consumer\_sys\_id
 The values of these can be empty. If the account, contact, and consumer fields are empty, the logged-in user details are populated. The topic block returns the variable case\_sys\_id from the topic block.
 
-</td></tr><tr><td id="d272407e308">
+</td></tr><tr><td id="d272318e308">
 
 **Update Case**
 

@@ -1,6 +1,6 @@
 ---
 title: Add a new ERP model
-description: Add an ERP \(Enterprise Resource Planning\) model in Zero Copy Connector for ERP to create a data set that contains ERP tables from the system of record, and enables you to read and send updates to the ERP system.
+description: Add an ERP \(Enterprise Resource Planning\) model in ERP Canvas to create a data set that contains ERP tables from the system of record, and enables you to read and send updates to the ERP system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-integration-framework/erpc-add-new-data-model.html
 release: yokohama
@@ -9,12 +9,12 @@ classification: erp-integration-framework
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Building and managing ERP models to work with ERP data, Using ERP models, extraction tables, and remote tables, Zero Copy Connector for ERP, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Building and managing ERP models to work with ERP data, Using ERP models, extraction tables, and remote tables, ERP Canvas, Building low-code applications, Developing your application, Building applications]
 ---
 
 # Add a new ERP model
 
-Add an ERP \(Enterprise Resource Planning\) model in Zero Copy Connector for ERP to create a data set that contains ERP tables from the system of record, and enables you to read and send updates to the ERP system.
+Add an ERP \(Enterprise Resource Planning\) model in ERP Canvas to create a data set that contains ERP tables from the system of record, and enables you to read and send updates to the ERP system.
 
 ## Before you begin
 
@@ -26,7 +26,7 @@ An ERP model functions as a staging area that contains all potential fields you 
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home**.
+1.  Navigate to **All** &gt; **ERP Canvas** &gt; **ERP Canvas Home**.
 
 2.  Open the ERP models page by selecting the ERP models icon \(\[Omitted image "erpc-data-model-icon.png"\] Alt text: ERP model icon\) in the side panel.
 
@@ -34,7 +34,7 @@ An ERP model functions as a staging area that contains all potential fields you 
 
 4.  On the new model tab, fill in the fields.
 
-    For a description of the field values, see [Zero Copy Connector for ERP new model field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-new-model-descriptions.md).
+    For a description of the field values, see [ERP Canvas new model field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-new-model-descriptions.md).
 
 5.  Select **Save**.
 

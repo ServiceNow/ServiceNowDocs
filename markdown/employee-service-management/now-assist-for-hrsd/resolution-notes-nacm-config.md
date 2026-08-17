@@ -1,5 +1,5 @@
 ---
-title: Configure resolution notes generation for Now Assist for HRSD
+title: Configure resolution notes generation for ServiceNow Otto for HRSD
 description: Configure the resolution notes generation skill to create concise summaries of case resolutions and enable agents to use the Now Assist context menu to elaborate or shorten the notes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/now-assist-for-hrsd/resolution-notes-nacm-config.html
@@ -9,10 +9,10 @@ classification: now-assist-for-hrsd
 topic_type: task
 last_updated: "2025-11-28"
 reading_time_minutes: 3
-breadcrumb: [Configure, Now Assist for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
+breadcrumb: [Configure, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
-# Configure resolution notes generation for Now Assist for HRSD
+# Configure resolution notes generation for ServiceNow Otto for HRSD
 
 Configure the resolution notes generation skill to create concise summaries of case resolutions and enable agents to use the Now Assist context menu to elaborate or shorten the notes.
 
@@ -40,48 +40,46 @@ Role required: sn\_hr\_core.admin
 
     You can modify the rule conditions to determine when the input template is used. Additional data sources can be added via related tables as well.
 
-7.  NASK.
-
-8.  Select **Define availability** to customize how and when the skill capability is active and accessible.
+7.  Select **Define availability** to customize how and when the skill capability is active and accessible.
 
     -   Select **Skill is always available** so no restrictions are placed on when a skill is available.
     -   Select **Customize skill availability** to define conditions and use the condition builder to configure fields and values.
-9.  Select **Define access** to determine who can access this skill.
+8.  Select **Define access** to determine who can access this skill.
 
-10. Select **Display** to determine where the skill appears.
+9.  Select **Display** to determine where the skill appears.
 
     -   Select **In-product desktop** to display Now Assist skills on forms and workspaces. Then, select the roles for whom the skill will be displayed.
     -   Select **Now Assist panel** to display Now Assist skills in the Now Assist panel.
-11. After selecting **Review and activate** to examine changes, select **Activate** to turn on the skill and complete the configuration.
+10. After selecting **Review and activate** to examine changes, select **Activate** to turn on the skill and complete the configuration.
 
-12. In the Successfully activated pop-up window, select **Go to Now Assist context menu**.
+11. In the Successfully activated pop-up window, select **Go to Now Assist context menu**.
 
-13. Review the details.
+12. Review the details.
 
-14. Review the actions for the context menu trigger button and dialog.
+13. Review the actions for the context menu trigger button and dialog.
 
-15. In the Define access window, define who has access to the skill.
+14. In the Define access window, define who has access to the skill.
 
-16. In the Select display window, enable **In-product desktop**.
+15. In the Select display window, enable **In-product desktop**.
 
-17. Select **Review and activate** to examine changes, then select **Activate**.
+16. Select **Review and activate** to examine changes, then select **Activate**.
 
 
 -   **[Extend table support for resolution notes generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/table-support-resolution-notes.md)**  
 Extend table support for the resolution notes generation skill to include additional data sources.
 
-**Parent Topic:**[Configure Now Assist for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md)
+**Parent Topic:**[Configure ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md)
 
 **Related topics**  
 
 
-[Skill inputs and triggers for Now Assist for HR Service Delivery \(HRSD\)]()
+[Skill inputs and triggers for ServiceNow Otto for HR Service Delivery \(HRSD\)]()
 
-[RCA approvals for Now Assist for HR Service Delivery \(HRSD\)]()
+[RCA approvals for ServiceNow Otto for HR Service Delivery \(HRSD\)]()
 
 [Restrict Now Assist capabilities for employee relations cases]()
 
-[Customize the Now Assist for HRSD skills]()
+[Customize the ServiceNow Otto for HRSD skills]()
 
 [Configure attachment summary]()
 
@@ -89,7 +87,7 @@ Extend table support for the resolution notes generation skill to include additi
 
 [Configure Gen AI Virtual Agent for HRSD]()
 
-[Configure the Now Assist for HRSD Virtual Agent topics]()
+[Configure the ServiceNow Otto for HRSD Virtual Agent topics]()
 
 [Configure HCM agents for HR Service Delivery AI Agent Collection]()
 

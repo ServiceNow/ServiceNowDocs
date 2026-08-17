@@ -1,21 +1,21 @@
 ---
-title: Generate targets for a goal in Strategic Planning Workspace using Now Assist for SPM
-description: Generate measurable targets for your goals in Strategic Planning Workspace using Now Assist for SPM.
+title: Generate targets for a goal in Strategic Planning Workspace using ServiceNow Otto for SPM
+description: Generate measurable targets for your goals in Strategic Planning Workspace using ServiceNow Otto for SPM.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/generate-targets-for-goal.html
 release: yokohama
 product: Now Assist for Strategic Portfolio Management \(SPM\)
 classification: now-assist-for-strategic-portfolio-management-spm
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 2
 keywords: [Target generation, Now Assist skill, Now Assist, Gen AI, Generative AI, Email project summary, Strategic Portfolio Management, SPM]
-breadcrumb: [Using Now Assist for Strategic Portfolio Management \(SPM\), Now Assist for Strategic Portfolio Management \(SPM\), Strategic Portfolio Management]
+breadcrumb: [Using ServiceNow Otto for Strategic Portfolio Management, ServiceNow Otto for Strategic Portfolio Management, Strategic Portfolio Management]
 ---
 
-# Generate targets for a goal in Strategic Planning Workspace using Now Assist for SPM
+# Generate targets for a goal in Strategic Planning Workspace using ServiceNow Otto for SPM
 
-Generate measurable targets for your goals in Strategic Planning Workspace using Now Assist for SPM.
+Generate measurable targets for your goals in Strategic Planning Workspace using ServiceNow Otto for SPM.
 
 ## Before you begin
 
@@ -66,7 +66,7 @@ The target progress records are automatically created when you save the target p
 
 [Update the progress of the target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/update-progress-of-target-egm.md) manually if the target isn’t enabled for target automation.
 
-**Parent Topic:**[Using Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/using-now-assist-for-spm.md)
+**Parent Topic:**[Using ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/using-now-assist-for-spm.md)
 
 **Related topics**  
 

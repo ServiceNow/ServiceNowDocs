@@ -23,7 +23,7 @@ Only standard and KCS templates are available when generating Knowledge articles
 To see the Now Assist experience on the Create Article page, the following Knowledge generation criteria should be configured:
 
 -   Confirm that the KB generation skills are installed.
--   In Now Assist Admin confirm with your admin that the following criteria are in place:
+-   In AI Admin Hub confirm with your admin that the following criteria are in place:
     -   The table record and input fields must be specified.
     -   The conditions for skill availability must be specified from the list of attributes.
     -   The display of the KB generation feature In-product or Now Assist panel must be specified.

@@ -1,6 +1,6 @@
 ---
 title: ERP-CM candidate scan results field descriptions
-description: On a candidate record in ERP Semantic Mining \(ERP-CM\) the ERP scan results tab displays information about the latest scan of the ERP \(Enterprise Resource Planning\) system.
+description: On a candidate record in ERP Customization Mining \(ERP-CM\) the ERP scan results tab displays information about the latest scan of the ERP \(Enterprise Resource Planning\) system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-customization-mining/erpcm-candidate-scan-results-descriptions.html
 release: yokohama
@@ -9,12 +9,12 @@ classification: erp-customization-mining
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [ERP-CM field descriptions, ERP Semantic Mining reference, ERP Semantic Mining \(ERP-CM\), Building low-code applications, Developing your application, Building applications]
+breadcrumb: [ERP-CM field descriptions, ERP Customization Mining reference, ERP Customization Mining \(ERP-CM\), Building low-code applications, Developing your application, Building applications]
 ---
 
 # ERP-CM candidate scan results field descriptions
 
-On a candidate record in ERP Semantic Mining \(ERP-CM\) the **ERP scan results** tab displays information about the latest scan of the ERP \(Enterprise Resource Planning\) system.
+On a candidate record in ERP Customization Mining \(ERP-CM\) the **ERP scan results** tab displays information about the latest scan of the ERP \(Enterprise Resource Planning\) system.
 
 For process details, see [View and work with candidate details in ERP-CM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/erpcm-view-work-with-candidate-details.md).
 
@@ -32,7 +32,7 @@ ERP model
 
 </td><td>
 
-Relevant ERP model that the candidate uses, which is configured in Zero Copy Connector for ERP.Select an ERP model to open the model in Zero Copy Connector for ERP.
+Relevant ERP model that the candidate uses, which is configured in ERP Canvas.Select an ERP model to open the model in ERP Canvas.
 
 </td></tr><tr><td>
 
@@ -40,7 +40,7 @@ Closest ERP model/Extensible model
 
 </td><td>
 
-The suggested closest matching ERP model that you can add the table to in Zero Copy Connector for ERP.This column is helpful for custom tables, which aren't part of a standard ERP model and therefore won't have a table listed in the **ERP model** column. Select an ERP model to open the model in Zero Copy Connector for ERP.
+The suggested closest matching ERP model that you can add the table to in ERP Canvas.This column is helpful for custom tables, which aren't part of a standard ERP model and therefore won't have a table listed in the **ERP model** column. Select an ERP model to open the model in ERP Canvas.
 
 </td></tr><tr><td>
 

@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2025-08-22"
 reading_time_minutes: 4
 keywords: [Now Assist, agentic AI, generative AI, Gen AI]
-breadcrumb: [Agentic AI in the Change Management application, Use agentic AI in IT Service Management, Now Assist for IT Service Management \(ITSM\), IT Service Management]
+breadcrumb: [Agentic AI in the Change Management application, Use agentic AI in IT Service Management, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 
 # IT Service Management AI agent collection assess quality of a change request agentic workflow

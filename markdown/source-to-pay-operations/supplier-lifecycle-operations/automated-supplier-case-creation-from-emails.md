@@ -9,7 +9,7 @@ classification: supplier-lifecycle-operations
 topic_type: concept
 last_updated: "2026-02-09"
 reading_time_minutes: 2
-breadcrumb: [Use Now Assist for Supplier Lifecycle Operations \(SLO\), Now Assist for Supplier Lifecycle Operations \(SLO\), Supplier Lifecycle Operations, Finance and Supply Chain]
+breadcrumb: [Use ServiceNow Otto for Supplier Lifecycle Operations \(SLO\), ServiceNow Otto for Supplier Lifecycle Operations \(SLO\), Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 
 # Automate supplier case creation from emails

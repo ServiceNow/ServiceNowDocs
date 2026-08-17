@@ -43,7 +43,7 @@ Role required: admin
 
     Review the read-only fields for more information.
 
-    -   **Input Table**: The record type used for KB generation. For example, the value is **case** for Now Assist for CSM.
+    -   **Input Table**: The record type used for KB generation. For example, the value is **case** for ServiceNow Otto for CSM.
     -   **Input Fields**: The fields from which information is gathered to draft the Knowledge article. Based on the Input Table, the Input Fields can be configured. Together, they serve as an input to Now LLM Service from the case or incident where the article is created.
     -   **Default Knowledge Base for Now Assist panel**: The Knowledge Base in which the Now Assist panel generates the article.
     \[Omitted image "NAConfig\_Chooseinput.png"\] Alt text: Choose the table records and input fields to generate a knowledge article.
@@ -72,9 +72,9 @@ Your skill is configured.
 **Related topics**  
 
 
-[Skill inputs and triggers for Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/now-assist-itsm-skills.md)
+[Skill inputs and triggers for ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/now-assist-itsm-skills.md)
 
-[Skill inputs and triggers for Now Assist for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/now-assist-hrsd-skill-inputs.md)
+[Skill inputs and triggers for ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/now-assist-hrsd-skill-inputs.md)
 
-[Skill inputs for Now Assist for Field Service Management \(FSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/field-service-management/now-assist-fsm-skill-inputs.md)
+[Skill inputs for ServiceNow Otto for Field Service Management \(FSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/field-service-management/now-assist-fsm-skill-inputs.md)
 

@@ -9,7 +9,7 @@ classification: telecommunications-service-operations-management
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Handling the external events using Telecommunications API notification, Telecommunications Service Operations Management]
+breadcrumb: [Handling external events using Telecommunications API, Telecommunications Service Operations Management]
 ---
 
 # Telecommunications API notification user roles
@@ -58,5 +58,5 @@ Role that enables with the following permissions:-   Create and read access to t
 -   Change the status of registration to deregister a topic subscription.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Handling the external events using Telecommunications API notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-service-ops/telecommunications-service-operations-management/telecommunications-api-notification.md)
+</table>**Parent Topic:**[Handling external events using Telecommunications API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-service-ops/telecommunications-service-operations-management/telecommunications-api-notification.md)
 

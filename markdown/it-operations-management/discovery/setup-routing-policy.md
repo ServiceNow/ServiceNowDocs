@@ -9,7 +9,7 @@ classification: discovery
 topic_type: task
 last_updated: "2025-09-09"
 reading_time_minutes: 3
-breadcrumb: [Automated certificate management for TLS certificates, Configuring Certificate Inventory and Management, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
+breadcrumb: [Automated certificate management for TLS certificates, Configure, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
 
 # Set up routing policy for automated certificate management
@@ -57,7 +57,7 @@ The routing policy decides which CA must be contacted for certificate operations
 
 4.  The following options may occur.
 
-<table id="choicetable_ccx_lnc_nqb"><tbody><tr><td id="d89072e186">
+<table id="choicetable_ccx_lnc_nqb"><tbody><tr><td id="d87886e186">
 
 **If a single routing policy matches**
 
@@ -68,7 +68,7 @@ Verify the following conditions: -   Validate the subject common name using the 
 -   Check for duplicate Certificate Request is allowed flag in the Routing Policy table.
 
 
-</td></tr><tr><td id="d89072e207">
+</td></tr><tr><td id="d87886e207">
 
 **If multiple routing policies are eligible**
 
@@ -76,7 +76,7 @@ Verify the following conditions: -   Validate the subject common name using the 
 
 The task is assigned to the default approver group.
 
-</td></tr><tr><td id="d89072e216">
+</td></tr><tr><td id="d87886e216">
 
 **If there is no routing policy found**
 
@@ -84,7 +84,7 @@ The task is assigned to the default approver group.
 
 The task is assigned to the default approver group.
 
-</td></tr><tr><td id="d89072e225">
+</td></tr><tr><td id="d87886e225">
 
 **If single policy matches and approval needed flag is true**
 

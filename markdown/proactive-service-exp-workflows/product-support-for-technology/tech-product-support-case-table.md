@@ -9,7 +9,7 @@ classification: product-support-for-technology
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 4
-breadcrumb: [Technology Product Support Case application, Proactive Service Experience Workflows]
+breadcrumb: [Technology Product Support Case, Proactive Service Experience Workflows]
 ---
 
 # Tech Product Support Case table
@@ -166,7 +166,7 @@ Install base
 
 </td><td>
 
-The Install base field helps you track which products and services have been purchased by a customer, how they have been installed or provisioned, along with the detailed configuration for each installed item.
+The Install base field helps you track which products and services have been purchased by a customer, how they have been installed or provisioned. It also tracks the detailed configuration for each installed item.
 
 </td></tr><tr><td>
 

@@ -37,7 +37,7 @@ OpenAI
 
 </td><td>
 
-Gemini**Note:** Gemini is the default web search AI provider in the AI Search answers OneExtend capability. If you selected Gemini as the LLM provider in Now Assist Admin and you want to use Gemini as your web search AI provider, you don’t need to configure the AI Search answers OneExtend capability.
+Gemini**Note:** Gemini is the default web search AI provider in the AI Search answers OneExtend capability. If you selected Gemini as the LLM provider in AI Admin Hub and you want to use Gemini as your web search AI provider, you don’t need to configure the AI Search answers OneExtend capability.
 
 </td></tr><tr><td>
 
@@ -72,15 +72,15 @@ Azure**Note:** Azure doesn’t currently support web search.
 
 6.  Complete one of the following actions based on the following scenarios.
 
-<table id="choicetable_qlm_kmw_xfc"><thead><tr><th align="left" id="d37419e196">
+<table id="choicetable_qlm_kmw_xfc"><thead><tr><th align="left" id="d37401e196">
 
 Scenario
 
-</th><th align="left" id="d37419e199">
+</th><th align="left" id="d37401e199">
 
 Action required
 
-</th></tr></thead><tbody><tr><td id="d37419e205">
+</th></tr></thead><tbody><tr><td id="d37401e205">
 
 **Connection is available**
 
@@ -88,7 +88,7 @@ Action required
 
 If a connection is already available within the Connections related list, continue to the next step.
 
-</td></tr><tr><td id="d37419e214">
+</td></tr><tr><td id="d37401e214">
 
 **Connection isn’t available and must be created**
 

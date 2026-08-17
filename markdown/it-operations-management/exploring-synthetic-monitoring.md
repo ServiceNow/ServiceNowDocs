@@ -7,7 +7,7 @@ release: yokohama
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Synthetic monitoring, ITOM AIOps, IT Operations Management]
+breadcrumb: [Synthetic monitoring, ITOM Health, IT Operations Management]
 ---
 
 # Exploring synthetic monitoring

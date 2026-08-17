@@ -1,6 +1,6 @@
 ---
 title: Guided tours in ERP Canvas
-description: Learn about Zero Copy Connector for ERP guided tours, including how to access and take them to build your knowledge of Zero Copy Connector for ERP.
+description: Learn about ERP Canvas guided tours, including how to access and take them to build your knowledge of ERP Canvas.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-integration-framework/guided-tours-in-erp-canvas.html
 release: yokohama
@@ -9,12 +9,12 @@ classification: erp-integration-framework
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Exploring Zero Copy Connector for ERP, Zero Copy Connector for ERP, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Exploring ERP Canvas, ERP Canvas, Building low-code applications, Developing your application, Building applications]
 ---
 
 # Guided tours in ERP Canvas
 
-Learn about Zero Copy Connector for ERP guided tours, including how to access and take them to build your knowledge of Zero Copy Connector for ERP.
+Learn about ERP Canvas guided tours, including how to access and take them to build your knowledge of ERP Canvas.
 
 ## What guided tours are
 
@@ -22,7 +22,7 @@ Guided tours are part of the default ServiceNow platform. There are guided tours
 
 Tours contain interactive steps to help train and teach users. Some tours show various features in the user interface, such as an overview of a home page. Other tours help complete a task, such as configuring a connection or working with candidate details. For more information about what guided tours are and how to create them, see [Exploring Guided Tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/exploring-guided-tours.md).
 
-## How to access and use Zero Copy Connector for ERP guided tours
+## How to access and use ERP Canvas guided tours
 
 To start a tour, select the **Show help** icon \[Omitted image "Banner\_HelpIcon.png"\] and then select **Take a Tour**.
 
@@ -38,7 +38,7 @@ For more information, select the **View detailed documentation** link on any tou
 
 At the end of the guided tour, select **Complete**.
 
-## Zero Copy Connector for ERP guided tour locations
+## ERP Canvas guided tour locations
 
 <table id="table_qrl_pdh_zdc"><thead><tr><th>
 
@@ -54,11 +54,11 @@ Path to start page
 
 </th></tr></thead><tbody><tr><td>
 
-How to use Zero Copy Connector for ERP
+How to use ERP Canvas
 
 </td><td>
 
-Zero Copy Connector for ERP models list page
+ERP Canvas models list page
 
 </td><td>
 
@@ -70,7 +70,7 @@ How to use and manage ERP models
 
 </td><td>
 
-Zero Copy Connector for ERP individual model page
+ERP Canvas individual model page
 
 </td><td>
 
@@ -82,7 +82,7 @@ Add model operation
 
 </td><td>
 
-Zero Copy Connector for ERP manage model page
+ERP Canvas manage model page
 
 </td><td>
 
@@ -94,7 +94,7 @@ Add entity**Note:** In this tour, move through the steps fairly quickly as the v
 
 </td><td>
 
-Zero Copy Connector for ERP manage model page
+ERP Canvas manage model page
 
 </td><td>
 
@@ -106,7 +106,7 @@ How to use remote tables
 
 </td><td>
 
-Zero Copy Connector for ERP individual remote table page
+ERP Canvas individual remote table page
 
 </td><td>
 
@@ -118,12 +118,12 @@ How to use extraction tables
 
 </td><td>
 
-Zero Copy Connector for ERP individual extraction page
+ERP Canvas individual extraction page
 
 </td><td>
 
 Navigate to **ERP Canvas** &gt; **ERP Canvas Home**, select the Extraction tables icon \[Omitted image "erpc-extraction-table-icon.png"\], and select an extraction table
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Exploring Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/exploring-erp-integration.md)
+</table>**Parent Topic:**[Exploring ERP Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/exploring-erp-integration.md)
 

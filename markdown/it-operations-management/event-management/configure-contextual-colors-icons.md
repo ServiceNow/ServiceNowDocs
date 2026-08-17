@@ -9,7 +9,7 @@ classification: event-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Configure email notification on application service severity change, Application services in Event Management, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Configure email notification on application service severity change, Application services in Event Management, Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
 ---
 
 # Configure contextual colors and icons

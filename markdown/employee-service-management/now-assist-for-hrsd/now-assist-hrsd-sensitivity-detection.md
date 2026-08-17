@@ -1,6 +1,6 @@
 ---
-title: Detect sensitive topics by using sensitivity detection in Now Assist for HR Service Delivery \(HRSD\)
-description: Detect and fix sensitive topics that relate to your employee relation cases by using the sensitivity detection capability in the Now Assist for HR Service Delivery \(HRSD\) application.
+title: Detect sensitive topics by using sensitivity detection in ServiceNow Otto for HR Service Delivery \(HRSD\)
+description: Detect and fix sensitive topics that relate to your employee relation cases by using the sensitivity detection capability in the ServiceNow Otto for HR Service Delivery \(HRSD\) application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-sensitivity-detection.html
 release: yokohama
@@ -9,12 +9,12 @@ classification: now-assist-for-hrsd
 topic_type: task
 last_updated: "2025-09-17"
 reading_time_minutes: 5
-breadcrumb: [Use generative AI skills, Now Assist for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
+breadcrumb: [Use generative AI skills, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
-# Detect sensitive topics by using sensitivity detection in Now Assist for HR Service Delivery \(HRSD\)
+# Detect sensitive topics by using sensitivity detection in ServiceNow Otto for HR Service Delivery \(HRSD\)
 
-Detect and fix sensitive topics that relate to your employee relation cases by using the sensitivity detection capability in the Now Assist for HR Service Delivery \(HRSD\) application.
+Detect and fix sensitive topics that relate to your employee relation cases by using the sensitivity detection capability in the ServiceNow Otto for HR Service Delivery \(HRSD\) application.
 
 ## Before you begin
 
@@ -32,7 +32,7 @@ This capability helps you detect sensitive cases such as the harassment complain
 
 **Note:**
 
-The store or app client should automatically take care of all the dependencies when you install Now Assist for HRSD. You must install Now Assist for HRSD version 5.0.7.
+The store or app client should automatically take care of all the dependencies when you install ServiceNow Otto for HRSD. You must install ServiceNow Otto for HRSD version 5.0.7.
 
 ## Procedure
 
@@ -65,32 +65,32 @@ The store or app client should automatically take care of all the dependencies w
 
 The Sensitive Phrases are automatically detected so that your group can properly handle sensitive cases.
 
-**Parent Topic:**[Use Now Assist for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/use-now-assist-hr.md)
+**Parent Topic:**[Use ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/use-now-assist-hr.md)
 
 **Related topics**  
 
 
-[Summarize a chat conversation by using Now Assist for HR Service Delivery \(HRSD\)]()
+[Summarize a chat conversation by using ServiceNow Otto for HR Service Delivery \(HRSD\)]()
 
-[Summarize a Sidebar discussion by using Now Assist for HR Service Delivery \(HRSD\)]()
+[Summarize a Sidebar discussion by using ServiceNow Otto for HR Service Delivery \(HRSD\)]()
 
-[Generate a chat reply recommendation by using Now Assist for HR Service Delivery \(HRSD\)]()
+[Generate a chat reply recommendation by using ServiceNow Otto for HR Service Delivery \(HRSD\)]()
 
 [Generate a knowledge article from HR Agent Workspace with Now Assist]()
 
 [Generate a knowledge article from multiple cases]()
 
-[Generate an email reply recommendation by using Now Assist for HR Service Delivery \(HRSD\)]()
+[Generate an email reply recommendation by using ServiceNow Otto for HR Service Delivery \(HRSD\)]()
 
-[Summarize an HR case using Now Assist for HRSD]()
+[Summarize an HR case using ServiceNow Otto for HRSD]()
 
-[Generate resolution notes using Now Assist for HRSD]()
+[Generate resolution notes using ServiceNow Otto for HRSD]()
 
 [View employee summary reports]()
 
 [Summarize actions while transferring an HR case]()
 
-[Use Knowledge Graph in Now Assist for HRSD]()
+[Use Knowledge Graph in ServiceNow Otto for HRSD]()
 
 [Use Galileo Inside to answer HR-related questions]()
 
@@ -98,9 +98,9 @@ The Sensitive Phrases are automatically detected so that your group can properly
 
 [Submit an HR request with Gen AI Virtual Agent]()
 
-[Now Assist for HR Service Delivery \(HRSD\) integration with Enterprise Service Management Integrations Framework]()
+[ServiceNow Otto for HR Service Delivery \(HRSD\) integration with Enterprise Service Management Integrations Framework]()
 
-[Analyze sentiments in Now Assist for HR Service Delivery \(HRSD\)]()
+[Analyze sentiments in ServiceNow Otto for HR Service Delivery \(HRSD\)]()
 
 [Configure sensitivity detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/config-na-sd-filters.md)
 

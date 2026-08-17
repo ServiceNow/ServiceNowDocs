@@ -20,7 +20,7 @@ The Create a reservation agent helps employees find a space for reservation. The
 
 **Note:** Desks reservations are supported by the Workplace collaboration agent.
 
-When providing suggestions for collaboration, the Collaboration agent prioritizes the Employee Presence Exceptions data first, then it checks for Employee Presence Routine, and lastly, it considers your current reservations. It gives priority to Employee Presence Exceptions data over Employee Presence Routine and current reservations in the system. If employee's current reservation data and location in available and no workplace presence information is there, the agent prioritizes employee's current reservations over workplace location while suggesting spaces for collaboration. For more information, see [Workplace Concierge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-concierge/workplace-concierge-feat.md).
+When providing suggestions for collaboration, the Collaboration agent uses the following priority order: Employee Presence Exceptions data, Employee Presence Routine, and your current reservations. If an employee's current reservation data and location are available but no workplace presence information exists, the agent prioritizes the employee's current reservations over workplace location. The agent uses this prioritization when suggesting spaces for collaboration. For more information, see [Workplace Concierge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-concierge/workplace-concierge-feat.md).
 
 Your collaborators can be categorized as:
 
@@ -37,7 +37,7 @@ The workplace collaboration agent improves employee's reservation and collaborat
 -   When multiple collaborators with same name exists, the collaboration agent asks employees to select their preferred collaborator from a list of similar names. The collaboration agent makes suggestions and tries to find your preferred collaborator. For example, if there are two Abel in your organization, but you frequently collaborate with Abel Tuter, the collaboration agent selects Abel Tuter as your preferred collaborator.
 -   Provides ability to change the workplace preferences of an employee \(remote to in-office and vice versa\). If employees change their remote day to in-office day, an exception is created by the application in the Employee Presence Exceptions table.
 
-**Note:** If you are planning to sit near a colleague, and if your colleague has a desk reservation for one hour and doesn't have an All day reservation, you can make a reservation for one-hour only. If an employee doesn't have any Employee Presence Exceptions and has no reservations made for a day while in office, the collaboration agent prioritizes the employee's workplace profile location and spaces around that location is suggested to the employee for collaboration.
+**Note:** If you're planning to sit near a colleague, and if your colleague has a desk reservation for one hour and doesn't have an All day reservation, you can make a reservation for one-hour only. If an employee doesn't have any Employee Presence Exceptions and has no reservations made for a day while in office, the collaboration agent prioritizes the employee's workplace profile location and spaces around that location is suggested to the employee for collaboration.
 
 **Related topics**  
 

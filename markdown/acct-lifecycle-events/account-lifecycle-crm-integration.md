@@ -7,14 +7,14 @@ release: yokohama
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 3
-breadcrumb: [Configure customer success, Customer success, Customer Success Management]
+breadcrumb: [Configure customer success, Customer success, Account Lifecycle Events]
 ---
 
 # Integrating with Microsoft Dynamics CRM
 
 Integrating your ServiceNow instance with the Microsoft Dynamics CRM platform enables seamless data exchange and process synchronization between the two platforms. This integration is done through the Microsoft Dynamics CRM spoke.
 
-By enabling integration of the Microsoft Dynamics CRM platform during the engagement lifecycle you can track renewals, assess risks, and create renewal opportunities. The Microsoft Dynamics CRM integration is available with the Customer Success Management application and can be configured to work with other CRM platforms.
+By enabling integration of the Microsoft Dynamics CRM platform during the engagement lifecycle you can track renewals, assess risks, and create renewal opportunities. The Microsoft Dynamics CRM integration is available with the Account Lifecycle Events application and can be configured to work with other CRM platforms.
 
 The following use cases are supported:
 
@@ -61,7 +61,7 @@ To set up the integration, follow these steps:
 
 3.  Update the `getRiskSysIdFromCRMRequest()` function in the `DynamicsCRMTaskUpdateHandlerUtilOOB` script include to handle the task updates from Microsoft Dynamics CRM by processing the input parameters and updating the associated risk signal record.
 
-    The Process Task Update Event demo action can be further configured and added as part of sub flow which you would need to create and add it in the decision table \(Dynamics CRM Webhook Decision Policy\) of Microsoft Dynamics CRM Spoke.
+    The Process Task Update Event demo action can be further configured and added as part of a sub flow. Create the sub flow and add it to the decision table \(Dynamics CRM Webhook Decision Policy\) of Microsoft Dynamics CRM Spoke.
 
 4.  \(Optional\) You can optionally configure an UI action to create a CRM task in your ServiceNow instance.
 5.  Use the `AleCRMUtilOOB` script include to interact with CRM platforms like Microsoft Dynamics CRM.

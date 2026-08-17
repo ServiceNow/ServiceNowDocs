@@ -26,8 +26,8 @@ The ServiceNow Add-in for Microsoft 365 provides an extensible framework to invo
 The ServiceNow® Journey designer application enables managers and employees to create and track journeys. Journeys include transition plans, such as promotions, offboarding, onboarding, and role changes for employees. Journey designer was enhanced and updated in the Yokohama release.
 -   **[Now Mobile release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/now-mobile-rn.md)**  
 The ServiceNow® Now Mobile® application enables your users and employees to submit incidents and requests, manage tasks, and access company resources from anywhere. Now Mobile® was enhanced and updated in the Yokohama release.
--   **[Now Assist for Workplace Service Delivery \(WSD\) Release Notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/wsd-rn-landing.md)**  
-The ServiceNow® Workplace Service Delivery application improves the employee workplace experience by automating workplace management and provides a single platform for all workplace services. Now Assist for Workplace Service Delivery \(WSD\) is enhanced and updated in the Yokohama release.
+-   **[ServiceNow Otto for Workplace Service Delivery \(WSD\) Release Notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/wsd-rn-landing.md)**  
+The ServiceNow® Workplace Service Delivery application improves the employee workplace experience by automating workplace management and provides a single platform for all workplace services. ServiceNow Otto for Workplace Service Delivery \(WSD\) is enhanced and updated in the Yokohama release.
 
 **Parent Topic:**[Features and changes by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/new-features-changes.md)
 

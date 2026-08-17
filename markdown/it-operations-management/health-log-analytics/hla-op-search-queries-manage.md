@@ -9,7 +9,7 @@ classification: health-log-analytics
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Reviewing the logs for an alert on the Log viewer, Health Log Analytics, ITOM AIOps, IT Operations Management]
+breadcrumb: [Reviewing alert logs on the Log viewer, Health Log Analytics, ITOM Health, IT Operations Management]
 ---
 
 # Define, save, and share a search of log data

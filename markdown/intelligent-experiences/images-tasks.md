@@ -22,7 +22,7 @@ The agents, tools, and triggers that are associated with the process images for 
 
 ## Prerequisites and setup
 
-To access this workflow, you must have Now Assist for Platform installed on your instance, which you can get if you install any other Now Assist application, such as Now Assist for IT Service Management \(ITSM\).
+To access this workflow, you must have Now Assist for Platform installed on your instance, which you can get if you install any other Now Assist application, such as ServiceNow Otto for IT Service Management \(ITSM\).
 
 Users must have the **sn\_uxc\_gen\_ai.platform\_ai\_image\_processor** role to invoke the agentic workflow.
 

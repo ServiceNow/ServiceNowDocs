@@ -18,26 +18,26 @@ The ServiceNow® Hermes Messaging Service application enables you to integrate y
 -   Scan and inspect topic messages using keywords or regular expressions.
 -   Monitor the health of Hermes components over time.
 
-See [Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/hermes-messaging-service.md) for more information.
+See  for more information.
 
 ## New in the Yokohama release
 
--   **[Topic audit history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/view-messages-hermes-topic.md)**
+-   **Topic audit history**
 
     Track changes made to a Hermes topic by viewing the topic's audit information.
 
--   **[Search for messages in a topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/view-messages-hermes-topic.md)**
+-   **Search for messages in a topic**
 
     Filter messages in a topic using keywords or regular expressions in the Hermes Messaging Service topic inspector.
 
--   **[Improved diagnostics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/run-hermes-messaging-service-diagnostics.md)**
+-   **Improved diagnostics**
 
     Monitor the health of Hermes components over time.
 
 
 ## Activation information
 
-Hermes Messaging Service is a ServiceNow AI Platform feature that is available with activation of the ServiceNow Stream Connect Installer \(com.glide.hub.stream\_connect.installer\) plugin or installation of the Log Export Service application. For details, see [Hermes Messaging Service activation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/hermes-messaging-service-activation.md).
+Hermes Messaging Service is a ServiceNow AI Platform feature that is available with activation of the ServiceNow Stream Connect Installer \(com.glide.hub.stream\_connect.installer\) plugin or installation of the Log Export Service application. For details, see .
 
 ## Related ServiceNow applications and features
 
@@ -45,11 +45,11 @@ Hermes Messaging Service is a ServiceNow AI Platform feature that is available w
 
     Produce Apache Kafka messages from your ServiceNow instance using Workflow Studio, and then consume the messages in an external application. You can also produce Apache Kafka messages from an external application and then consume the messages in your ServiceNow instance using a variety of consumers with Stream Connect.
 
--   **[Exploring Log Export Service \(LES\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/les-landing-page.md)**
+-   ****
 
     Export log data securely to your external data lake for reporting, auditing, or regulatory purposes using Hermes Messaging Service with the Log Export Service.
 
--   **[Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/instance-data-replication.md)**
+-   ****
 
     Improve the performance and processing efficiency of Instance Data Replication by upgrading the replication sets that you created prior to the Washington DC release to use Hermes Messaging Service.
 

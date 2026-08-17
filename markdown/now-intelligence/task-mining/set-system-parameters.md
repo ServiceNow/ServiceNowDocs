@@ -7,7 +7,7 @@ release: yokohama
 product: Task Mining
 classification: task-mining
 topic_type: task
-last_updated: "2024-08-28"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Configure, Task Mining, Platform Analytics]
 ---
@@ -30,16 +30,21 @@ Role required: sn\_tm\_core.power\_user, sn\_tm\_core.admin
 
 1.  Navigate to **Workspaces** &gt; **Task Mining Workspace**.
 
-2.  Select the Configuration icon\(\[Omitted image "task-mining-configuration-icon.png"\] Alt text: Task Mining Configuration icon\).
+2.  Select the Configuration icon \[Omitted image "task-mining-configuration-icon.png"\].
 
 3.  Under **Configuration**, select **Agent**.
 
 4.  Select the Task Mining agent configuration record that you want to modify.
 
-    For information on the agent configuration records, see [Agent configuration records in Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/task-mining/agent-system-configuration-records.md).
+    For information on the agent configuration records, see [Agent and system configuration records in Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/task-mining/agent-system-configuration-records.md).
 
 5.  Modify the **Value** field.
 
 6.  Select **Save**.
 
+
+**Related topics**  
+
+
+[Agent and system configuration records in Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/task-mining/agent-system-configuration-records.md)
 

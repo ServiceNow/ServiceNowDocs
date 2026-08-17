@@ -97,9 +97,9 @@ The following plugins are installed with Service Request Playbook \(com.sn\_gsm\
 -   Playbooks for Customer Service Management \(com.sn\_csm\_playbook\)
 -   \(Optional\) Geo Map \(sn\_geo\_map\)
 
-## Plugins installed with Now Assist for Public Sector Digital Services \(PSDS\)
+## Plugins installed with ServiceNow Otto for Public Sector Digital Services \(PSDS\)
 
-The following plugins are installed with Now Assist for Public Sector Digital Services \(PSDS\) \(com.sn\_psds\_gen\_ai\):
+The following plugins are installed with ServiceNow Otto for Public Sector Digital Services \(PSDS\) \(com.sn\_psds\_gen\_ai\):
 
 Now Assist Platform \(com.sn\_genai\_platform\)
 

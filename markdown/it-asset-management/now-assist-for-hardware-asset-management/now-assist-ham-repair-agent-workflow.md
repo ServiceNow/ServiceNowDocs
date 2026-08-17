@@ -1,5 +1,5 @@
 ---
-title: Now Assist for Hardware Asset Management \(HAM\) AI agent collection Help repair hardware assets agentic workflow
+title: ServiceNow Otto for Hardware Asset Management \(HAM\) AI agent collection Help repair hardware assets agentic workflow
 description: Use the Help repair hardware assets agentic workflow, driven by AI agents, to handle the repair requests of defective and out-of-warranty hardware assets automatically. These AI agents validate the repair tasks, provide detailed troubleshooting and repair steps, and finally close the relevant tasks after receiving user confirmation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/now-assist-for-hardware-asset-management/now-assist-ham-repair-agent-workflow.html
@@ -10,10 +10,10 @@ topic_type: concept
 last_updated: "2025-08-18"
 reading_time_minutes: 7
 keywords: [AI Agents, agentic AI]
-breadcrumb: [Use agentic workflows, Now Assist for Hardware Asset Management \(HAM\), Hardware Asset Management, IT Asset Management]
+breadcrumb: [Use agentic workflows, ServiceNow Otto for Hardware Asset Management \(HAM\), Hardware Asset Management, IT Asset Management]
 ---
 
-# Now Assist for Hardware Asset Management \(HAM\) AI agent collection Help repair hardware assets agentic workflow
+# ServiceNow Otto for Hardware Asset Management \(HAM\) AI agent collection Help repair hardware assets agentic workflow
 
 Use the Help repair hardware assets agentic workflow, driven by AI agents, to handle the repair requests of defective and out-of-warranty hardware assets automatically. These AI agents validate the repair tasks, provide detailed troubleshooting and repair steps, and finally close the relevant tasks after receiving user confirmation.
 
@@ -125,10 +125,10 @@ The Help repair hardware assets agentic workflow uses specific AI agents to vali
 |Evaluate asset AI agent|Performs a web search and provides a detailed evaluation guide to help the technician identify the issue on the asset. Updates the troubleshooting task with the details received from the technician and then closes the task.|
 |Repair asset AI agent|Performs a web search and provides detailed repair steps to help the technician resolve the issue identified on the asset. Updates the repair task with the details received from the technician and then closes the task.|
 
-**Parent Topic:**[Using agentic workflows in Now Assist for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/now-assist-for-hardware-asset-management/now-assist-ham-agentic-workflow.md)
+**Parent Topic:**[Using agentic workflows in ServiceNow Otto for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/now-assist-for-hardware-asset-management/now-assist-ham-agentic-workflow.md)
 
 **Related topics**  
 
 
-[Now Assist for Hardware Asset Management \(HAM\) AI agent collection Help manage hardware asset requests agentic workflow]()
+[ServiceNow Otto for Hardware Asset Management \(HAM\) AI agent collection Help manage hardware asset requests agentic workflow]()
 

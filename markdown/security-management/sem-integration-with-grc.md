@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/sem-integration-with-grc.html
 release: yokohama
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 1
 breadcrumb: [Configure Exception Management for Security Exposure Management, Implement, Unified Security Exposure Management, Security Operations]
 ---
@@ -16,9 +16,15 @@ Request policy exceptions using the GRC policy exception management capability i
 
 ## Before you begin
 
-Before you can use the Policy Exception Integration to request policy exceptions, you must download the GRC: Policy and Compliance Management application from the ServiceNow Store.
+Download the GRC: Policy and Compliance Management application from the ServiceNow Store to use the Policy Exception Integration to request policy exceptions.
 
-Role required: sn\_vul.remediation\_owner
+Role required: sn\_vul.remediation\_owner and one of the following:
+
+-   sn\_grc.business\_user \(GRC business user\)
+-   sn\_grc.business\_user\_lite \(GRC business user – lite\)
+-   sn\_compliance.policy\_exception\_employee\_user
+
+**Note:** Check your entitlements to determine whether you have access to these roles.
 
 ## Procedure
 

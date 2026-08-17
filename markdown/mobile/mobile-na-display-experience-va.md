@@ -7,7 +7,7 @@ release: yokohama
 topic_type: concept
 last_updated: "2025-04-24"
 reading_time_minutes: 2
-breadcrumb: [Now Assist in the Virtual Agent mobile client, Exploring Now Assist for Mobile, Now Assist for Mobile, Mobile Platform]
+breadcrumb: [Otto in Virtual Agent, Exploring Otto, ServiceNow Otto for Mobile, Mobile Platform]
 ---
 
 # Mobile Now Assist display experience for Virtual Agent

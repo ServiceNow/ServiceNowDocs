@@ -1,6 +1,6 @@
 ---
-title: Alumni Center
-description: The Alumni Center is your dedicated hub to stay connected with the organization after your tenure.
+title: Alumni Service Center
+description: The Alumni Service Center is your dedicated hub to stay connected with the organization after your tenure.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/alumni-service-center.html
 release: yokohama
@@ -12,13 +12,13 @@ reading_time_minutes: 3
 breadcrumb: [HR Service Delivery, Employee Service Management]
 ---
 
-# Alumni Center
+# Alumni Service Center
 
-The Alumni Center is your dedicated hub to stay connected with the organization after your tenure.
+The Alumni Service Center is your dedicated hub to stay connected with the organization after your tenure.
 
-## Benefits of an Alumni Center
+## Benefits of an Alumni Service Center
 
-The Alumni Center portal provides the following benefits to the alumni and organization:
+The Alumni Service Center portal provides the following benefits to the alumni and organization:
 
 -   **Alumni**
     -   Alumni can conveniently retrieve payroll information, tax documents, and employment verification letters without manual requests or delays. This self-service capability saves time and ensures secure access to sensitive data.
@@ -33,13 +33,13 @@ The Alumni Center portal provides the following benefits to the alumni and organ
 
 ## Content analytics
 
-The Alumni Center provides a separate content analytics tracking profile. For more information, see [Create a Content Analytics tracking profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/ecpro-content-analytics-setup.md).
+The Alumni Service Center provides a separate content analytics tracking profile. For more information, see [Create a Content Analytics tracking profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/ecpro-content-analytics-setup.md).
 
 ## Employee to alumni transition
 
 A personal email is required to transition from an employee to an alumnus.
 
-You can perform this transition for individuals or in bulk. To access the Alumni Center, users must have one of the following roles:
+You can perform this transition for individuals or in bulk. To access the Alumni Service Center, users must have one of the following roles:
 
 -   \[sn\_asc.admin\]
 -   \[sn\_asc.manager\]
@@ -53,13 +53,13 @@ You can perform this transition for individuals or in bulk. To access the Alumni
 
 When an employee transitions to an alumnus, and you're using Unrestricted User \(UU\) licensing, you’ll want to avoid inflating user counts when providing services to your alumni. Ensure that the following parameters are updated in the \[sys\_user\] table.
 
--   If you have HRSD Enterprise, with HR or unrestricted users, and you use Alumni Center, you need to make users inactive in the \[sys\_user\] table as part of the offboarding process. Once the record is inactivated, it won't be counted in the UU count.
+-   If you have HRSD Enterprise, with HR or unrestricted users, and you use Alumni Service Center, you need to make users inactive in the \[sys\_user\] table as part of the offboarding process. Once the record is inactivated, it won't be counted in the UU count.
 
-    **Note:** The Alumni Center offboarding workflow creates a new alumni record in the Alumni Users \[sn\_asc\_user\] table that provides alumni access to the Alumni Center services and resources when the User \[sys\_user\] profile is inactive.
+    **Note:** The Alumni Service Center offboarding workflow creates a new alumni record in the Alumni Users \[sn\_asc\_user\] table that provides alumni access to the Alumni Service Center services and resources when the User \[sys\_user\] profile is inactive.
 
--   If you have HRSD Professional, with HR or unrestricted users, and are providing alumni services outside of Alumni Center, to help prevent former employees from being included in the UU count, you need to create a custom alumni table. The custom alumni table extends the \[sys\_user\] table. When an employee leaves the organization, you can change the user class of the employee in the \[sys\_user\] table from **User** to the sys class name that corresponds to the custom alumni table.
+-   If you have HRSD Professional, with HR or unrestricted users, and are providing alumni services outside of Alumni Service Center, to help prevent former employees from being included in the UU count, you need to create a custom alumni table. The custom alumni table extends the \[sys\_user\] table. When an employee leaves the organization, you can change the user class of the employee in the \[sys\_user\] table from **User** to the sys class name that corresponds to the custom alumni table.
 
-    **Note:** Creating a custom alumni table to service alumni outside of Alumni Center is considered a custom implementation. Refer to [Create a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_CreateATable.md) for more information.
+    **Note:** Creating a custom alumni table to service alumni outside of Alumni Service Center is considered a custom implementation. Refer to [Create a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_CreateATable.md) for more information.
 
 
 For additional information, see the [DEF1000205 \| HR User \[KB1125071\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1125071) article in the Now Support Knowledge Base.

@@ -24,7 +24,7 @@ Role required: sn\_apw\_advanced.eap\_admin
 
 ## About this task
 
-The Planning board for an EAP team shows only those work items that are enabled in its default configuration. For example, for a Solution Train with Full Configuration, the Backlog and Planning board show only Capabilities by default. If your product managers or team members want to switch between viewing other work item types such as Features, Epics, or Stories, you can enable it by updating the team-level configuration details.
+The Planning board for an EAP team shows only those work items that are enabled in its default configuration. For example, for a Solution Train with Full Configuration, the Backlog and Planning board show only Capabilities by default. If your product managers or team members want to switch between viewing other work item types such as Features, Epics, or Stories,. You can enable it by updating the team-level configuration details.
 
 This task provides guidance on updating the **Planning work types** or **Backlog work types** fields for your Agile teams in the Enterprise agile configuration details table \[sn\_apw\_advanced\_eap\_configuration\_detail\].
 

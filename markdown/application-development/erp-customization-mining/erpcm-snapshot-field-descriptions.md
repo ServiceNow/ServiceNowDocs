@@ -1,6 +1,6 @@
 ---
-title: ERP Semantic Mining snapshot field descriptions
-description: In ERP Semantic Mining \(ERP-CM\), the Configuration page Snapshots tab displays information about import and export snapshots.
+title: ERP Customization Mining snapshot field descriptions
+description: In ERP Customization Mining \(ERP-CM\), the Configuration page Snapshots tab displays information about import and export snapshots.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-customization-mining/erpcm-snapshot-field-descriptions.html
 release: yokohama
@@ -9,14 +9,14 @@ classification: erp-customization-mining
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [ERP-CM field descriptions, ERP Semantic Mining reference, ERP Semantic Mining \(ERP-CM\), Building low-code applications, Developing your application, Building applications]
+breadcrumb: [ERP-CM field descriptions, ERP Customization Mining reference, ERP Customization Mining \(ERP-CM\), Building low-code applications, Developing your application, Building applications]
 ---
 
-# ERP Semantic Mining snapshot field descriptions
+# ERP Customization Mining snapshot field descriptions
 
-In ERP Semantic Mining \(ERP-CM\), the **Configuration** page **Snapshots** tab displays information about import and export snapshots.
+In ERP Customization Mining \(ERP-CM\), the **Configuration** page **Snapshots** tab displays information about import and export snapshots.
 
-For process details, see [Create a snapshot to share and save data in ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/create-a-snapshot-to-share-and-save-data.md).
+For process details, see [Create a snapshot to share and save data in ERP Customization Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/create-a-snapshot-to-share-and-save-data.md).
 
 |Column|Definition|
 |------|----------|

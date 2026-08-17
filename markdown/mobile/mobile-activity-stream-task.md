@@ -32,15 +32,15 @@ An activity stream enables you to communicate with other users about the work do
 
 2.  Tap an icon displayed within the ribbon in the record title bar to post items to the activity stream.
 
-<table id="choicetable_l4z_wt4_bpb"><thead><tr><th align="left" id="d117880e80">
+<table id="choicetable_l4z_wt4_bpb"><thead><tr><th align="left" id="d118194e80">
 
 Activity stream item
 
-</th><th align="left" id="d117880e83">
+</th><th align="left" id="d118194e83">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d117880e89">
+</th></tr></thead><tbody><tr><td id="d118194e89">
 
 **Text**
 
@@ -52,7 +52,7 @@ Procedure
 4.  Tap **Post** to save your message in the activity stream.
 
 
-</td></tr><tr><td id="d117880e122">
+</td></tr><tr><td id="d118194e122">
 
 **Files**
 
@@ -64,7 +64,7 @@ Procedure
 
 An upload screen opens, detailing the upload progress of the files you selected. In cases where files fail to upload, you are presented with information detailing the reason for the unsuccessful post.
 
-</td></tr><tr><td id="d117880e154">
+</td></tr><tr><td id="d118194e154">
 
 **Multimedia files**
 
@@ -76,7 +76,7 @@ An upload screen opens, detailing the upload progress of the files you selected.
 
 An upload screen opens, detailing the upload progress of the multimedia files you selected. In cases where files fail to upload, you are presented with information detailing the reason for the unsuccessful post.
 
-</td></tr><tr><td id="d117880e186">
+</td></tr><tr><td id="d118194e186">
 
 **Captured photo or video**
 

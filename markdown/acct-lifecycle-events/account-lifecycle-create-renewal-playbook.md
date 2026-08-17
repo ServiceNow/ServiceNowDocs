@@ -7,7 +7,7 @@ release: yokohama
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 3
-breadcrumb: [Configure customer success, Customer success, Customer Success Management]
+breadcrumb: [Configure customer success, Customer success, Account Lifecycle Events]
 ---
 
 # Create a renewal playbook
@@ -52,7 +52,7 @@ Role required: sn\_acct\_lc.ale\_success\_agent
 
         **Note:**
 
-        -   This activity creates an internal play task which is displayed as a worknote in the Activity Stream. Click on the internal play task link to view the record. When you click **Send Email**, the status of this task is set to `Closed`, and the Closure code and Close notes fields are updated to indicate that the email has been sent.
+        -   This activity creates an internal play task which is displayed as a worknote in the Activity Stream. Click on the internal play task link to view the record. When you click **Send Email**, the status of this task is set to `Closed`. The Closure code and Close notes fields are updated to indicate that the email has been sent.
         -   If you click **Skip email**, the status of the internal play task is set to `Canceled` and the internal play task is canceled.
     -   Create opportunity: In this activity, you can create a new opportunity for your contract. This activity creates an internal play task. Update the task details as required to move to the next stage. Click **Open record** to view the internal play task. Review the opportunity details, update the status to Closed or Canceled, and click **Close** this activity and move on to the next stage.
 12. In the `Track Opportunity` phase, review the contract details.

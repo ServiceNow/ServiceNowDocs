@@ -1,6 +1,6 @@
 ---
-title: Zero Copy Connector for ERP and ERP-CM glossary
-description: Learn about ERP \(Enterprise Resource Planning\) terminology and concepts that apply to Zero Copy Connector for ERP and ERP Semantic Mining \(ERP-CM\).
+title: ERP Canvas and ERP-CM glossary
+description: Learn about ERP \(Enterprise Resource Planning\) terminology and concepts that apply to ERP Canvas and ERP Customization Mining \(ERP-CM\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-integration-framework/erp-integration-glossary.html
 release: yokohama
@@ -9,12 +9,12 @@ classification: erp-integration-framework
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Zero Copy Connector for ERP reference, Zero Copy Connector for ERP, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [ERP Canvas reference, ERP Canvas, Building low-code applications, Developing your application, Building applications]
 ---
 
-# Zero Copy Connector for ERP and ERP-CM glossary
+# ERP Canvas and ERP-CM glossary
 
-Learn about ERP \(Enterprise Resource Planning\) terminology and concepts that apply to Zero Copy Connector for ERP and ERP Semantic Mining \(ERP-CM\).
+Learn about ERP \(Enterprise Resource Planning\) terminology and concepts that apply to ERP Canvas and ERP Customization Mining \(ERP-CM\).
 
 -   **[BAPI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/gloss-bapi.md)**  
 
@@ -24,7 +24,7 @@ Learn about ERP \(Enterprise Resource Planning\) terminology and concepts that a
 
 -   **[connection and credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/gloss-connection-cred-alias-erp.md)**  
 
--   **[custom fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/gloss-custom-fields-erp.md)**  
+-   **[]()**  
 
 -   **[entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/gloss-entity-erp.md)**  
 
@@ -51,7 +51,7 @@ Learn about ERP \(Enterprise Resource Planning\) terminology and concepts that a
 -   **[system of record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/gloss-system-of-record-erp.md)**  
 
 
-**Parent Topic:**[Zero Copy Connector for ERP reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-integration-reference.md)
+**Parent Topic:**[ERP Canvas reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-integration-reference.md)
 
-**Parent Topic:**[ERP Semantic Mining reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/erp-customization-mining-ref.md)
+**Parent Topic:**[ERP Customization Mining reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/erp-customization-mining-ref.md)
 

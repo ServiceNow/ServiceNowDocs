@@ -1,5 +1,5 @@
 ---
-title: Use agentic AI in Now Assist for Public Sector Digital Services \(PSDS\)
+title: Use agentic AI in ServiceNow Otto for Public Sector Digital Services \(PSDS\)
 description: Use AI agents to achieve specific automated outcomes with the Public Sector Digital Services AI Agent Collection application. ​
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/now-assist-psds-agentic-ai.html
@@ -7,16 +7,16 @@ release: yokohama
 topic_type: concept
 last_updated: "2025-11-06"
 reading_time_minutes: 2
-breadcrumb: [Now Assist for PSDS, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [ServiceNow Otto for PSDS, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Use agentic AI in Now Assist for Public Sector Digital Services \(PSDS\)
+# Use agentic AI in ServiceNow Otto for Public Sector Digital Services \(PSDS\)
 
 Use AI agents to achieve specific automated outcomes with the Public Sector Digital Services AI Agent Collection application. ​
 
-AI Agents are configurable through the AI Agent Studio. The AI Agent Studio is available to administrators as part of the Now Assist for Public Sector Digital Services \(PSDS\) offering. The AI Agent Studio allows admins to configure, test, and manage AI agents using natural language and prebuilt workflows. These agents can automate tasks like fee estimation and information request handling.
+AI Agents are configurable through the AI Agent Studio. The AI Agent Studio is available to administrators as part of the ServiceNow Otto for Public Sector Digital Services \(PSDS\) offering. The AI Agent Studio allows admins to configure, test, and manage AI agents using natural language and prebuilt workflows. These agents can automate tasks like fee estimation and information request handling.
 
-This table describes the use cases in Now Assist for Public Sector Digital Services \(PSDS\).
+This table describes the use cases in ServiceNow Otto for Public Sector Digital Services \(PSDS\).
 
 |Use case|Description|
 |--------|-----------|
@@ -28,7 +28,7 @@ Find information such as the Large Language Models \(LLM\) supported in Now Assi
 
 **Note:**
 
--   You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/exploring-large-language-models.md).
+-   You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/exploring-large-language-models.md).
 
 -   For the Now LLM Service updates, see [Now LLM Service updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-llm-model-updates.md).
 

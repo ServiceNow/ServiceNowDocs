@@ -1,5 +1,5 @@
 ---
-title: Get started with Data Foundations advisor dashboard setup
+title: Getting started with Data Foundations advisor dashboard setup
 description: The Data Foundations advisor dashboard can be configured automatically on installation or upgrade, or manually through the CMDB success advisor landing page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-get-started.html
@@ -9,10 +9,11 @@ classification: configuration-management-database-cmdb
 topic_type: concept
 last_updated: "2026-06-09"
 reading_time_minutes: 1
+keywords: [Data Foundations advisor dashboard setup, automatic dashboard configuration, manual dashboard setup, principal class scope selection, CMDB Advisor Auto Setup scheduled job]
 breadcrumb: [Advisor setup, Use Data Foundations advisor, CMDB success advisor, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Get started with Data Foundations advisor dashboard setup
+# Getting started with Data Foundations advisor dashboard setup
 
 The Data Foundations advisor dashboard can be configured automatically on installation or upgrade, or manually through the CMDB success advisor landing page.
 
@@ -28,7 +29,7 @@ Role required: sn\_cmdb\_admin
 
 When you install or upgrade CMDB success advisor, the **CMDB Advisor - Auto Setup** on-demand scheduled job can automatically configure the Data Foundations advisor dashboard if all eligibility conditions are met. Open the CMDB success advisor landing page to confirm the dashboard setup state before proceeding manually.
 
-For more information on eligibility conditions and the auto-setup process, see [Automatic dashboard setup for Data Foundations in CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-auto-setup.md).
+For more information about eligibility conditions and the auto-setup process, see [Automatic dashboard setup for Data Foundations in CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-auto-setup.md).
 
 ## Manual setup
 

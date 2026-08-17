@@ -7,7 +7,7 @@ release: yokohama
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Create an internal play playbook record, Create an internal play playbook, Configure customer success, Customer success, Customer Success Management]
+breadcrumb: [Create an internal play playbook record, Create an internal play playbook, Configure customer success, Customer success, Account Lifecycle Events]
 ---
 
 # Create an internal play task

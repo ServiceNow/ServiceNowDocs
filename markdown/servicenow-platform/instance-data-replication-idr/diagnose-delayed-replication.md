@@ -26,7 +26,7 @@ Role required: admin
 
 1.  To view the time lag on a producer instance, navigate to **Instance Data Replication** &gt; **Monitoring Dashboard**, and check the Active Producer Replication Sets for the following details.
 
-<table id="choicetable_mkm_wmd_skb"><tbody><tr><td id="d80597e70">
+<table id="choicetable_mkm_wmd_skb"><tbody><tr><td id="d79072e70">
 
 **Name**
 
@@ -34,7 +34,7 @@ Role required: admin
 
 Name of the producer replication set.
 
-</td></tr><tr><td id="d80597e79">
+</td></tr><tr><td id="d79072e79">
 
 **Replication Queue Reading Lag**
 
@@ -42,7 +42,7 @@ Name of the producer replication set.
 
 Time between a record change on the producer instance and the moment it is sent over the outbound replication queue.
 
-</td></tr><tr><td id="d80597e88">
+</td></tr><tr><td id="d79072e88">
 
 **Status**
 
@@ -50,7 +50,7 @@ Time between a record change on the producer instance and the moment it is sent 
 
 Status of a replication set, either active or in error.
 
-</td></tr><tr><td id="d80597e97">
+</td></tr><tr><td id="d79072e97">
 
 **Status Message**
 
@@ -58,7 +58,7 @@ Status of a replication set, either active or in error.
 
 Message that describes the error status.
 
-</td></tr><tr><td id="d80597e106">
+</td></tr><tr><td id="d79072e106">
 
 **Message Queue Version**
 
@@ -80,7 +80,7 @@ Version of the Message Queue. Either V1 \(Legacy\) or V2 \(Hermes\)
 
 2.  To view the time lag on a consumer instance, navigate to **Instance Data Replication** &gt; **Monitoring Dashboard** and check the Active Consumer Replication Sets for the following details.
 
-<table id="choicetable_pgt_f12_skb"><tbody><tr><td id="d80597e165">
+<table id="choicetable_pgt_f12_skb"><tbody><tr><td id="d79072e165">
 
 **Name**
 
@@ -88,7 +88,7 @@ Version of the Message Queue. Either V1 \(Legacy\) or V2 \(Hermes\)
 
 Name of the consumer replication set.
 
-</td></tr><tr><td id="d80597e174">
+</td></tr><tr><td id="d79072e174">
 
 **Data Lag**
 
@@ -96,7 +96,7 @@ Name of the consumer replication set.
 
 Time between a record change on the producer instance and the moment it is recorded in the consumer instance.
 
-</td></tr><tr><td id="d80597e183">
+</td></tr><tr><td id="d79072e183">
 
 **Network Lag**
 
@@ -104,7 +104,7 @@ Time between a record change on the producer instance and the moment it is recor
 
 Time between a record change logs in the outbound replication queue and the moment it is recorded in the consumer instance.
 
-</td></tr><tr><td id="d80597e192">
+</td></tr><tr><td id="d79072e192">
 
 **Status**
 
@@ -112,7 +112,7 @@ Time between a record change logs in the outbound replication queue and the mome
 
 Status of a replication set, either active or in error.
 
-</td></tr><tr><td id="d80597e201">
+</td></tr><tr><td id="d79072e201">
 
 **Status Message**
 
@@ -120,7 +120,7 @@ Status of a replication set, either active or in error.
 
 Message that describes the error status.
 
-</td></tr><tr><td id="d80597e211">
+</td></tr><tr><td id="d79072e211">
 
 **Message Queue Version**
 

@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
 keywords: [ServiceNow, Health Log Analytics, HLA, content packs, activate]
-breadcrumb: [Health Log Analytics content packs for quicker time to value, Setting up Health Log Analytics on your ServiceNow instance, Configuring Health Log Analytics, Health Log Analytics, ITOM AIOps, IT Operations Management]
+breadcrumb: [Health Log Analytics content packs for quicker time to value, Setting up Health Log Analytics on your ServiceNow instance, Configuring Health Log Analytics, Health Log Analytics, ITOM Health, IT Operations Management]
 ---
 
 # Activate a content pack in Health Log Analytics

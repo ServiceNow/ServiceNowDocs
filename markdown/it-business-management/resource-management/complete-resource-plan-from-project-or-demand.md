@@ -24,7 +24,7 @@ Role required: it\_project\_manager or it\_demand\_manager
 
 ## About this task
 
-When a project or a project task moves to Closed Complete, Closed Incomplete or Closed Skipped state, the system prompts a message on the project and project task forms, and in the planning console for completing the Allocated resource plans if the following conditions is met.
+When a project or project task moves to Closed Complete, Closed Incomplete or Closed Skipped state, the system prompts a message on the project and project task forms. This message also appears in the planning console for completing the Allocated resource plans if the following conditions are met.
 
 -   Corresponding resource plan is in the Allocated state.
 -   Resource plan start date is less than or equal to the project or task actual end date.
@@ -35,7 +35,7 @@ A similar message for completing the resource plans appears on the Demand form w
 
 1.  Open a project, task, or demand record in the Closed state.
 
-<table id="choicetable_en2_dhy_bcb"><tbody><tr><td id="d99083e73">
+<table id="choicetable_en2_dhy_bcb"><tbody><tr><td id="d98649e82">
 
 **Open a Closed project record**
 
@@ -46,7 +46,7 @@ A similar message for completing the resource plans appears on the Demand form w
 3.  Select the **Details** tab to display the project form.
 
 
-</td></tr><tr><td id="d99083e109">
+</td></tr><tr><td id="d98649e118">
 
 **Open a Closed project task record**
 
@@ -57,7 +57,7 @@ A similar message for completing the resource plans appears on the Demand form w
 3.  In the **Project Tasks** related list, open the project task record in the Closed state.
 
 
-</td></tr><tr><td id="d99083e145">
+</td></tr><tr><td id="d98649e154">
 
 **Open a Closed project in Planning Console**
 
@@ -68,7 +68,7 @@ A similar message for completing the resource plans appears on the Demand form w
 3.  Select the **Planning** tab to display the project in planning console.
 
 
-</td></tr><tr><td id="d99083e181">
+</td></tr><tr><td id="d98649e190">
 
 **Open a Closed or Deferred demand record**
 

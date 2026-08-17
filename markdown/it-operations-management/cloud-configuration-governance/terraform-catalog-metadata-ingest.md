@@ -9,7 +9,7 @@ classification: cloud-configuration-governance
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Using Cloud Services Catalog Terraform Connector, Cloud Services Catalog Terraform Connector, Support for continuous delivery \(configuration management\), Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Optimization, IT Operations Management]
+breadcrumb: [Using Cloud Provisioning and Governance: Terraform Connector, Cloud Provisioning and Governance: Terraform Connector, Support for continuous delivery \(configuration management\), Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Optimization, IT Operations Management]
 ---
 
 # Associate the Terraform input parameters with the Cloud Provisioning and Governance catalog item
@@ -22,7 +22,7 @@ Role required: cloud\_designer
 
 ## About this task
 
-Cloud Services Catalog Terraform Connector supports this capability for Terraform Open Source, Terraform Enterprise, and Terraform Cloud.
+Cloud Provisioning and Governance: Terraform Connector supports this capability for Terraform Open Source, Terraform Enterprise, and Terraform Cloud.
 
 **Important:** When you use Terraform templates to create catalog items, the Location value specifies the datacenter or region to provision the configuration items and stacks. Use the metadata file to map other variables based on discovered resources, networks, profiles, pools and filters, and so on.
 
@@ -67,5 +67,5 @@ For more information on binding a parameter to a resource pool, see [Bind a para
     \[Omitted image "catalog-item-fields-metadata.png"\] Alt text: Auto-populated values on Provision tab
 
 
-**Parent Topic:**[Using Cloud Services Catalog Terraform Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/using-ccg-terraform-connector.md)
+**Parent Topic:**[Using Cloud Provisioning and Governance: Terraform Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/using-ccg-terraform-connector.md)
 

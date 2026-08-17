@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 2
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
-breadcrumb: [Use agentic AI in IT Service Management, Now Assist for IT Service Management \(ITSM\), IT Service Management]
+breadcrumb: [Use agentic AI in IT Service Management, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 
 # Using the IT Service Management Now Assist Voice AI agents
@@ -19,7 +19,7 @@ Use the Voice AI agents to create and manage tickets for any IT service-related 
 
 ## Managing IT-related issues using Voice AI agents
 
-Using the Now Assist for ITSM Voice AI agents, you can do the following:
+Using the ServiceNow Otto for ITSM Voice AI agents, you can do the following:
 
 -   Create incidents and manage tickets using voice calls.
 -   Use generic queries such as, "Is there an update to my ticket from yesterday?" or "What's the status of my VPN ticket?" and get responses in the context of your questions.

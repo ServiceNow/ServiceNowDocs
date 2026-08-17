@@ -1,6 +1,6 @@
 ---
 title: Reviewing your agentic AI assessment
-description: This automated assessment process evaluates potential implementation impacts and provides actionable insights for agentic AI in Now Assist for IT Service Management \(ITSM\) and Now Assist for Customer Service Management \(CSM\).
+description: This automated assessment process evaluates potential implementation impacts and provides actionable insights for agentic AI in ServiceNow Otto for IT Service Management \(ITSM\) and ServiceNow Otto for Customer Service Management \(CSM\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/now-assist-readiness-evaluation/reviewing-agentic-ai-assesment.html
 release: yokohama
@@ -15,7 +15,7 @@ breadcrumb: [Use, Now Assist Readiness Evaluation, Enable AI experiences]
 
 # Reviewing your agentic AI assessment
 
-This automated assessment process evaluates potential implementation impacts and provides actionable insights for agentic AI in Now Assist for IT Service Management \(ITSM\) and Now Assist for Customer Service Management \(CSM\).
+This automated assessment process evaluates potential implementation impacts and provides actionable insights for agentic AI in ServiceNow Otto for IT Service Management \(ITSM\) and ServiceNow Otto for Customer Service Management \(CSM\).
 
 Navigate to **Workspaces** &gt; **Now Assist Readiness Evaluation** and select the agentic\_AI assessment icon \[Omitted image "agentic-ai-icon.png"\] Alt text: to review your agentic AI assessment.
 

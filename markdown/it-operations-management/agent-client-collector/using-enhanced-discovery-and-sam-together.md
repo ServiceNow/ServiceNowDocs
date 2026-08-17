@@ -7,7 +7,7 @@ release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 7
 keywords: [Agent Client Collector, Agent Client Collector for Visibility, ACC for Visibility]
 breadcrumb: [Using Agent Client Collector for Visibility Content, Agent Client Collector for Visibility Content, Agent Client Collector, IT Operations Management]
@@ -19,9 +19,7 @@ Agent Client Collector for Visibility Content \(ACC-VC\) collects installed soft
 
 ACC-VC can capture the last accessed time for the software or applications that are installed on the target via push-based Discovery. This information along with the target CI reference, is added to the Software Update \[samp\_sw\_usage\] table.
 
-Starting in ACC-VC version 2.2.0, SAM Basic metering is supported for Windows and macOS.
-
-Starting in ACC-VC version 3.3.0, SAM total usage metrics is supported for Windows and macOS.
+SAM Basic metering and SAM total usage metrics are supported for both Windows and macOS.
 
 The software usage records are domain separated. The records are populated with the domain of the MID Server that is used for the agent-based Discovery for the target.
 
@@ -68,7 +66,7 @@ For the list of software in the payload, query the Software Discovery Model \[cm
 
 Use the **sn\_acc\_vis\_content.disable\_sam\_reclamation\_rules\_for\_licensable\_softwares** property to define reclamation rules for licensable software, as follows:
 
--   **True**: Disable invoking reclamation rules for licensable software. SAM usage continues for all licensable software and for non-licensable software with defined reclamation rules.
+-   **True**: SAM usage is stored for all licensable software \(with or without defined reclamation rules\), and for any non-licensable software that has a reclamation rule defined.
 -   **False**: Store SAM usage according to defined reclamation rules.
 
 Common applications supported include:
@@ -87,7 +85,7 @@ SAM total usage metrics allows you to measure total usage time and total usage c
 
 Osquery provides a daemon executable which can run as a service, called Osqueryd. Osqueryd needs to be manually deployed for SAM total usage metrics to work properly. Each Osqueryd deployment requires the osquery.conf file, optional external packs, and initialization flags \(configured in osquery.flags file\) provided when starting the service. In return, the daemon service runs scheduled queries on the host and logs it into a local file system.
 
-**Note:** Osquery supports filesystem-based logging by default. This configuration is provided in the osquery.conf file on any fresh Osquery installation.
+**Note:** Osquery supports filesystem-based logging by default. This configuration is provided in the osquery.conf file on any fresh Osquery installation. Osquery is not needed from an implementation or configuration viewpoint for basic metering. Total Usage metrics requires osqueryd to be installed separately.
 
 Domain information can be collected during the data collection. This can help large organizations with multiple employee directories map software to the correct user. Currently, this is supported for Windows only. To map the software usage/assigned\_to with the correct user in a domain separated environment, use the system property \[sn\_acc\_vis\_content.column\_name\_for\_user\_mapping\] with a valid field name. By default, the value of this system property is empty which means it only validates the username and not the domain. You can use either of the following formats to validate username and domain: username@domain or domain\\username.
 
@@ -163,8 +161,8 @@ Optionally, you can enhance efficiency by using non-osqueryd data collection whe
 To perform non-osqueryd data collection:
 
 1.  Ensure that the following permissions are configured for the relevant OS:
-    -   Windows: Either NT AUTHORITY\\SYSTEM or admin
-    -   Linux and macOS: root
+    -   Windows: The ACC service must run as the Local System account. Set the ACC service's Log On As value to **Local System**.
+    -   macOS: The `servicenow` user must be able to run osqueryi without a password. For information about `servicenow` user permissions for osqueryi, see .
 2.  On the System Properties page \(**All** &gt; **System properties** &gt; **All properties**\), set the **sn\_acc\_vis\_content.enable\_sam\_collection\_without\_osqueryd** property to **true**.
 
     **Note:** Enable this property only when all agents are version 4.1.0 or later.

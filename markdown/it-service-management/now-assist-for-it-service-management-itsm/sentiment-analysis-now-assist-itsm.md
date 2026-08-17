@@ -1,6 +1,6 @@
 ---
-title: Analyze sentiments in Now Assist for IT Service Management \(ITSM\)
-description: Make informed decisions on incidents based on requester's sentiment and the reasoning behind it in the Now Assist for IT Service Management \(ITSM\) application.
+title: Analyze sentiments in ServiceNow Otto for IT Service Management \(ITSM\)
+description: Make informed decisions on incidents based on requester's sentiment and the reasoning behind it in the ServiceNow Otto for IT Service Management \(ITSM\) application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/now-assist-for-it-service-management-itsm/sentiment-analysis-now-assist-itsm.html
 release: yokohama
@@ -10,12 +10,12 @@ topic_type: task
 last_updated: "2025-03-18"
 reading_time_minutes: 1
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
-breadcrumb: [Use generative AI skills, Now Assist for IT Service Management \(ITSM\), IT Service Management]
+breadcrumb: [Use generative AI skills, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 
-# Analyze sentiments in Now Assist for IT Service Management \(ITSM\)
+# Analyze sentiments in ServiceNow Otto for IT Service Management \(ITSM\)
 
-Make informed decisions on incidents based on requester's sentiment and the reasoning behind it in the Now Assist for IT Service Management \(ITSM\) application.
+Make informed decisions on incidents based on requester's sentiment and the reasoning behind it in the ServiceNow Otto for IT Service Management \(ITSM\) application.
 
 ## Before you begin
 
@@ -25,15 +25,15 @@ Role required: itil
 
 1.  Navigate to the incident list or incident form in the Core UI or in Service Operations Workspace for ITSM.
 
-<table id="choicetable_svt_mlg_w2c"><thead><tr><th align="left" id="d377040e88">
+<table id="choicetable_svt_mlg_w2c"><thead><tr><th align="left" id="d378082e88">
 
 To
 
-</th><th align="left" id="d377040e91">
+</th><th align="left" id="d378082e91">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d377040e97">
+</th></tr></thead><tbody><tr><td id="d378082e97">
 
 **Navigate in Core UI**
 
@@ -55,7 +55,7 @@ The incident form view appears.
 
 **Note:** If the **Sentiment** field does not appear, you must configure the form layout. For more information, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/configure-form-layout.md) and add the **Sentiment** field.
 
-</td></tr><tr><td id="d377040e170">
+</td></tr><tr><td id="d378082e170">
 
 **Navigate in Service Operations Workspace for ITSM**
 

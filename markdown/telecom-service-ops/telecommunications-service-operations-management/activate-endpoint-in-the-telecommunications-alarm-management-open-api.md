@@ -1,5 +1,5 @@
 ---
-title: Activate the endpoint of the Telecommunications Alarm Management Open API connection
+title: Activate Telecom Alarm Management endpoint
 description: Activate the endpoint of the Telecommunications Alarm Management Open API connection. By activating the endpoint, you receive the incoming notifications from the external system for the topic that you registered.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-service-ops/telecommunications-service-operations-management/activate-endpoint-in-the-telecommunications-alarm-management-open-api.html
@@ -9,10 +9,10 @@ classification: telecommunications-service-operations-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Handling the external events using Telecommunications API notification, Telecommunications Service Operations Management]
+breadcrumb: [Handling external events using Telecommunications API, Telecommunications Service Operations Management]
 ---
 
-# Activate the endpoint of the Telecommunications Alarm Management Open API connection
+# Activate Telecom Alarm Management endpoint
 
 Activate the endpoint of the Telecommunications Alarm Management Open API connection. By activating the endpoint, you receive the incoming notifications from the external system for the topic that you registered.
 
@@ -38,5 +38,5 @@ You activate the subscribed endpoints of the Telecommunications Alarm Management
 4.  Select **Activate**.
 
 
-**Parent Topic:**[Handling the external events using Telecommunications API notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-service-ops/telecommunications-service-operations-management/telecommunications-api-notification.md)
+**Parent Topic:**[Handling external events using Telecommunications API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-service-ops/telecommunications-service-operations-management/telecommunications-api-notification.md)
 

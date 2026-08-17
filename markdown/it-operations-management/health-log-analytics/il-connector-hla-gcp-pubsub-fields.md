@@ -10,7 +10,7 @@ topic_type: reference
 last_updated: "2025-08-26"
 reading_time_minutes: 4
 keywords: [GCP PubSub, data input, integration, configuration, field, description, ServiceNow, Health Log Analytics, HLA]
-breadcrumb: [Integration configuration field descriptions, Health Log Analytics reference, Health Log Analytics, ITOM AIOps, IT Operations Management]
+breadcrumb: [Integration configuration field descriptions, Health Log Analytics reference, Health Log Analytics, ITOM Health, IT Operations Management]
 ---
 
 # GCP PubSub integration configuration fields

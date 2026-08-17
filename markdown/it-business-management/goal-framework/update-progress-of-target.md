@@ -28,15 +28,15 @@ Role required: sn\_gf.goal\_user
 
 1.  Open the target record of the goal using one of the following options.
 
-<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d217280e59">
+<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d216907e59">
 
 Option
 
-</th><th align="left" id="d217280e62">
+</th><th align="left" id="d216907e62">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d217280e68">
+</th></tr></thead><tbody><tr><td id="d216907e68">
 
 **From the Targets related list**
 
@@ -47,7 +47,7 @@ Steps
 3.  In the Quantitative Targets or Qualitative Targets related list, click **New**.
 
 
-</td></tr><tr><td id="d217280e101">
+</td></tr><tr><td id="d216907e101">
 
 **From the Targets module**
 

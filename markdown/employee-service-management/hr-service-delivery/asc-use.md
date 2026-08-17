@@ -1,6 +1,6 @@
 ---
-title: Using your Alumni Center
-description: Company alumni or former employees use the Alumni Center to obtain information or maintain communication with your former company.
+title: Using your Alumni Service Center
+description: Company alumni or former employees use the Alumni Service Center to obtain information or maintain communication with your former company.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/asc-use.html
 release: yokohama
@@ -9,14 +9,14 @@ classification: hr-service-delivery
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Alumni Center, HR Service Delivery, Employee Service Management]
+breadcrumb: [Alumni Service Center, HR Service Delivery, Employee Service Management]
 ---
 
-# Using your Alumni Center
+# Using your Alumni Service Center
 
-Company alumni or former employees use the Alumni Center to obtain information or maintain communication with your former company.
+Company alumni or former employees use the Alumni Service Center to obtain information or maintain communication with your former company.
 
-## Accessing the Alumni Center website
+## Accessing the Alumni Service Center website
 
 Role required: alumni \(sn\_asc.alumni\).
 

@@ -1,6 +1,6 @@
 ---
 title: Submit a dispute case with Disputes intake via Virtual Agent
-description: Create a new dispute case using the Disputes intake via Virtual Agent skill in the Now Assist for Financial Services Operations \(FSO\) application. Customers can interact with a Virtual Agent chat, which collects and infers details from customer responses.
+description: Create a new dispute case using the Disputes intake via Virtual Agent skill in the ServiceNow Otto for Financial Services Operations \(FSO\) application. Customers can interact with a Virtual Agent chat, which collects and infers details from customer responses.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/now-assist-for-financial-services-operations-fso/submit-dispute-case-disputes-intake-via-virtual-agent.html
 release: yokohama
@@ -9,12 +9,12 @@ classification: now-assist-for-financial-services-operations-fso
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Using generative AI, Now Assist for Financial Services Operations \(FSO\)]
+breadcrumb: [Using generative AI, ServiceNow Otto for Financial Services Operations \(FSO\)]
 ---
 
 # Submit a dispute case with Disputes intake via Virtual Agent
 
-Create a new dispute case using the Disputes intake via Virtual Agent skill in the Now Assist for Financial Services Operations \(FSO\) application. Customers can interact with a Virtual Agent chat, which collects and infers details from customer responses.
+Create a new dispute case using the Disputes intake via Virtual Agent skill in the ServiceNow Otto for Financial Services Operations \(FSO\) application. Customers can interact with a Virtual Agent chat, which collects and infers details from customer responses.
 
 ## Before you begin
 

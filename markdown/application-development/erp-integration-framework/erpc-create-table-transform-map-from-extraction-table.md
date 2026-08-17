@@ -1,6 +1,6 @@
 ---
 title: Create a table transform map from an extraction table
-description: In Zero Copy Connector for ERP, create a table transform map from an extraction table and map the source fields with target fields.
+description: In ERP Canvas, create a table transform map from an extraction table and map the source fields with target fields.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-integration-framework/erpc-create-table-transform-map-from-extraction-table.html
 release: yokohama
@@ -8,25 +8,25 @@ product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: task
 last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [Extracting and transforming data in Zero Copy Connector for ERP, Using ERP models, extraction tables, and remote tables, Zero Copy Connector for ERP, Building low-code applications, Developing your application, Building applications]
+reading_time_minutes: 2
+breadcrumb: [Extracting and transforming data in ERP Canvas, Using ERP models, extraction tables, and remote tables, ERP Canvas, Building low-code applications, Developing your application, Building applications]
 ---
 
 # Create a table transform map from an extraction table
 
-In Zero Copy Connector for ERP, create a table transform map from an extraction table and map the source fields with target fields.
+In ERP Canvas, create a table transform map from an extraction table and map the source fields with target fields.
 
 ## Before you begin
 
 Role required: admin
 
-Confirm that you have an extraction table associated with a model containing output parameters. For more information, see [Add a new ERP extraction table in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-add-new-extraction-table.md) and [Choose output parameters for an ERP model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-manage-outputs.md).
+Confirm that you have an extraction table associated with a model containing output parameters. For more information, see [Add a new ERP extraction table in ERP Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-add-new-extraction-table.md) and [Choose output parameters for an ERP model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-manage-outputs.md).
 
 **Note:** The following procedure always generates a new transform map and new staging table. To modify an existing transform map or an existing staging table, navigate to the record and update manually. Transform maps are in **System Import Sets** &gt; **Administration** &gt; **Transform Maps** and staging tables are in **System Definition** &gt; **Tables**.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home**.
+1.  Navigate to **All** &gt; **ERP Canvas** &gt; **ERP Canvas Home**.
 
 2.  Open the ERP extraction tables page by selecting the ERP extraction tables icon \(\[Omitted image "erpc-extraction-table-icon.png"\] Alt text: ERP extraction tables navigation icon\) in the side panel.
 
@@ -54,7 +54,7 @@ Confirm that you have an extraction table associated with a model containing out
 
 8.  Select **Save**.
 
-    The import set staging table and a transform map that can be used by Zero Copy Connector for ERP to push the data into the destination table are generated. The extraction table record opens. A confirmation message is displayed stating that the staging table was generated and there’s a link to the transform map.
+    The import set staging table and a transform map that can be used by ERP Canvas to push the data into the destination table are generated. The extraction table record opens. A confirmation message is displayed stating that the staging table was generated and there’s a link to the transform map.
 
 9.  Select the link at the top to open the transform map.
 
@@ -67,5 +67,5 @@ Confirm that you have an extraction table associated with a model containing out
 11. To view the transform map at any time, select the link in **Table transform map link**.
 
 
-**Parent Topic:**[Extracting and transforming data in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-extraction-tables.md)
+**Parent Topic:**[Extracting and transforming data in ERP Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-extraction-tables.md)
 

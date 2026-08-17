@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Explore, Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -19,8 +19,6 @@ Review the following information before you start working with Major Security In
 Role required: sn\_msi.workspace\_admin.
 
 For an easy installation and configuration of the Major Security Incident Management application, you may have to verify if the following plugins are activated.
-
-**Important:** An update set \([KB1289784](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1289784)\) is available within the Major Security Incident Management Quick Start Guide to help users with an easy configuration set up, you need to import the update set after you complete the application installation. Follow the procedure detailed in the Quick Start Guide \(Step 2\) under the Supporting documents section within the MSIM application, which is on ServiceNow Store.
 
 <table id="table_k5l_nk1_rpb"><thead><tr><th>
 
@@ -36,7 +34,7 @@ Before you begin with the application, ensure that you have the required depende
 
 </td><td>
 
-As a first step, install:-   [ServiceNow IntegrationHub Installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/request-ih-overview.md) \(com.glide.hub.integrations\)
+Install:-   [ServiceNow IntegrationHub Installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/request-ih-overview.md) \(com.glide.hub.integrations\)
 -   ServiceNow® Integration Hub Runtime \(com.glide.hub.integration.runtime\).
 -   ServiceNow® Integration Hub Action Step - REST \(com.glide.hub.action\_step.rest\)
 -   ServiceNow® Integration Hub Action Template - Data Stream \(com.glide.hub.action\_type.datastream\)
@@ -52,8 +50,12 @@ Verify that you have required access to install Microsoft SharePoint Spoke and M
 
 Before you install Microsoft SharePoint Spoke and Microsoft Teams Graph Spoke, make sure you have required access to the ServiceNow Integration Hub applications.**Note:** Microsoft SharePoint Spoke and Microsoft Teams Graph spoke are dependent applications to ServiceNow® Integration Hub applications.
 
+Microsoft SharePoint Spoke version 1.1.2 is required for Graph and REST connections.
+
 </td></tr></tbody>
-</table>**Parent Topic:**[Exploring Major Security Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/exploring-major-security-incident-management.md)
+</table>**Important:** After you install the Major Security Incident Management application, import the update set to integrate Microsoft SharePoint and Microsoft Teams with ServiceNow using certificate credentials. For more information, see [KB1289784](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1289784).
+
+**Parent Topic:**[Exploring Major Security Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/exploring-major-security-incident-management.md)
 
 **Related topics**  
 
@@ -63,4 +65,6 @@ Before you install Microsoft SharePoint Spoke and Microsoft Teams Graph Spoke, m
 [Checklist for MSIM setup]()
 
 [Major Security Incident Management roles]()
+
+[Environment reference for MSIM setup]()
 

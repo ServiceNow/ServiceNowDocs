@@ -9,7 +9,7 @@ classification: supplier-lifecycle-operations
 topic_type: task
 last_updated: "2026-02-16"
 reading_time_minutes: 1
-breadcrumb: [Automate supplier case creation from emails, Use Now Assist for Supplier Lifecycle Operations \(SLO\), Now Assist for Supplier Lifecycle Operations \(SLO\), Supplier Lifecycle Operations, Finance and Supply Chain]
+breadcrumb: [Automate supplier case creation from emails, Use ServiceNow Otto for Supplier Lifecycle Operations \(SLO\), ServiceNow Otto for Supplier Lifecycle Operations \(SLO\), Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 
 # Deactivate Create supplier case from email inbound action

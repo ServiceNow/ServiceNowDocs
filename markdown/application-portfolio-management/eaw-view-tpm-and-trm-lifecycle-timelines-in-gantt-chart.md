@@ -1,6 +1,6 @@
 ---
 title: View TPM and TRM lifecycle timelines on the Gantt chart
-description: Use the Gantt chart to view and track Technology Portfolio Management \(TPM\) and Technology Reference Model \(TRM\) lifecycle timelines.
+description: Use the Gantt chart to view and track Technology Lifecycle Management \(TLM\) and Technology Reference Model \(TRM\) lifecycle timelines.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-view-tpm-and-trm-lifecycle-timelines-in-gantt-chart.html
 release: yokohama
@@ -12,7 +12,7 @@ breadcrumb: [Gantt view of TPM and TRM lifecycle timelines, Enterprise Architect
 
 # View TPM and TRM lifecycle timelines on the Gantt chart
 
-Use the Gantt chart to view and track Technology Portfolio Management \(TPM\) and Technology Reference Model \(TRM\) lifecycle timelines.
+Use the Gantt chart to view and track Technology Lifecycle Management \(TLM\) and Technology Reference Model \(TRM\) lifecycle timelines.
 
 ## Before you begin
 
@@ -30,17 +30,17 @@ Role required: sn\_apm.apm\_analyst
 
 4.  Select **All**.
 
-5.  Select the business application that you want to view the TPM and TRM lifecycle timelines for.
+5.  Select the business application that you want to view the TLM and TRM lifecycle timelines for.
 
 6.  Select **More** if you don't see the **Lifecycle Timelines** tab.
 
 7.  Select **Lifecycle Timelines**.
 
-    The Gantt chart appears for TPM and shows the business applications along with their application services.
+    The Gantt chart appears for TLM and shows the business applications along with their application services.
 
     **Note:**
 
-    By default, the TPM view is displayed.
+    By default, the TLM view is displayed.
 
 8.  Next to the business application and its associated application services, select the expand row icon \(\[Omitted image "ExpandIcon.png"\] Alt text: Expand row icon.\) to see the lifecycle timeline bars in the Gantt chart.
 

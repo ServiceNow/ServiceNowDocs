@@ -30,15 +30,15 @@ Role required: sn\_risk.manager and sn\_compliance.manager
 
 3.  Continue with one of the following options.
 
-<table id="choicetable_y2l_kdz_pv"><thead><tr><th align="left" id="d312218e91">
+<table id="choicetable_y2l_kdz_pv"><thead><tr><th align="left" id="d312180e91">
 
 Option
 
-</th><th align="left" id="d312218e94">
+</th><th align="left" id="d312180e94">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d312218e100">
+</th></tr></thead><tbody><tr><td id="d312180e100">
 
 **Add an existing control**
 
@@ -49,7 +49,7 @@ Description
 3.  Select **Add relationship**.
  **Note:** The controls displayed after selecting the **Add** button are limited to controls where the entity of control matches the risk entity. If there are no eligible controls that can be related to the risk, the **Add** button isn’t displayed on the Controls related list.
 
-</td></tr><tr><td id="d312218e139">
+</td></tr><tr><td id="d312180e139">
 
 **Add a new control**
 
@@ -60,7 +60,7 @@ Description
 3.  Select **Submit**.
 
 
-</td></tr><tr><td id="d312218e176">
+</td></tr><tr><td id="d312180e176">
 
 **Inherit common controls**
 

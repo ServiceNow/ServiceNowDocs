@@ -1,6 +1,6 @@
 ---
 title: Health tab in AI Control Tower
-description: Monitor the performance of guardrails enabled through Now Assist Guardian.
+description: Monitor the performance of guardrails enabled through AI Guardian.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/ai-control-tower/aict-health-tab.html
 release: yokohama
@@ -15,7 +15,7 @@ breadcrumb: [AI Control Tower Home, AI Control Tower dashboard, Explore, AI Cont
 
 # Health tab in AI Control Tower
 
-Monitor the performance of guardrails enabled through Now Assist Guardian.
+Monitor the performance of guardrails enabled through AI Guardian.
 
 The Health tab in the AI Control Tower dashboard helps you monitor and evaluate the effectiveness of offensive content and prompt injection guardrails active on your ServiceNow AI assets.
 
@@ -68,7 +68,7 @@ Apply the filters on the dashboard to view guardrail activity for skills in a da
 
 -   **Categories of offensive content**
 
-    This area of the dashboard shows a breakdown of offensive content occurrences by the categories. If content is deemed to be offensive under more than one category, for example, toxic and defamatory, the occurrence is counted individually toward both the categories. For more information on offensive content categories, see [Now Assist Guardian](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-guardian.md).
+    This area of the dashboard shows a breakdown of offensive content occurrences by the categories. If content is deemed to be offensive under more than one category, for example, toxic and defamatory, the occurrence is counted individually toward both the categories. For more information on offensive content categories, see [AI Guardian](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-guardian.md).
 
     \[Omitted image "aict-health-categories-offensive-content.png"\] Alt text: Visualization showing the categories of offensive content.
 

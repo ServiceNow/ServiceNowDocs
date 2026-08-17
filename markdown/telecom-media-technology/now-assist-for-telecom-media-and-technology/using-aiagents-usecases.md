@@ -1,6 +1,6 @@
 ---
-title: Using agentic workflows in Now Assist for Telecommunications, Media and Technology \(TMT\)
-description: Use the Now Assist for TMT agentic workflows to complete tasks autonomously.
+title: Using agentic workflows in ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
+description: Use the ServiceNow Otto for TMT agentic workflows to complete tasks autonomously.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-media-technology/now-assist-for-telecom-media-and-technology/using-aiagents-usecases.html
 release: yokohama
@@ -9,12 +9,12 @@ classification: now-assist-for-telecom-media-and-technology
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Now Assist for Telecommunications, Media and Technology \(TMT\), Telecommunications, Media, and Technology]
+breadcrumb: [ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\), Telecommunications, Media, and Technology]
 ---
 
-# Using agentic workflows in Now Assist for Telecommunications, Media and Technology \(TMT\)
+# Using agentic workflows in ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
 
-Use the Now Assist for TMT agentic workflows to complete tasks autonomously.
+Use the ServiceNow Otto for TMT agentic workflows to complete tasks autonomously.
 
 <table id="table_lxk_lck_h2c"><thead><tr><th>
 

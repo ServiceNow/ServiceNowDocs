@@ -1,5 +1,5 @@
 ---
-title: Customize a Now Assist for Security Incident Response skill
+title: Customize a ServiceNow Otto for Security Incident Response \(SIR\) skill
 description: Customize some of the input fields of a generative AI skill to suit the requirements of your environment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/now-assist-for-security-incident-response-sir/cust-now-assist-security-incident-skill.html
@@ -10,10 +10,10 @@ topic_type: task
 last_updated: "2026-01-15"
 reading_time_minutes: 3
 keywords: [Now Assist Security Operations]
-breadcrumb: [Configure, Now Assist for Security Incident Response, Security Operations]
+breadcrumb: [Configure, ServiceNow Otto for Security Incident Response \(SIR\), Security Operations]
 ---
 
-# Customize a Now Assist for Security Incident Response skill
+# Customize a ServiceNow Otto for Security Incident Response \(SIR\) skill
 
 Customize some of the input fields of a generative AI skill to suit the requirements of your environment.
 

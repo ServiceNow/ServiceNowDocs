@@ -1,5 +1,5 @@
 ---
-title: Identify risks for an entity using Now Assist for IRM
+title: Identify risks for an entity using ServiceNow Otto for IRM
 description: Identify and consolidate risks using the Risk Suggestion AI agent through a conversational assistant. This feature helps streamline risk discovery, eliminate duplicates, and provide a comprehensive list of risks relevant to the entity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/grc-common-functions/identify-risks-for-entity.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Agentic workflows, Use agentic AI, Now Assist, Common GRC features, Governance, Risk, and Compliance]
 ---
 
-# Identify risks for an entity using Now Assist for IRM
+# Identify risks for an entity using ServiceNow Otto for IRM
 
 Identify and consolidate risks using the Risk Suggestion AI agent through a conversational assistant. This feature helps streamline risk discovery, eliminate duplicates, and provide a comprehensive list of risks relevant to the entity.
 
@@ -22,8 +22,8 @@ Role required: sn\_grc\_sharegenai.risk\_suggestion\_aiagent\_user
 
 Make sure that the following prerequisites are met to use this feature:
 
--   Now Assist for IRM and any Workspace must be installed.
--   Suggest potential risks workflow and Risk Suggestion AI agent must be activated. For more, refer to [Activate agentic workflows in Now Assist for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/activate-agentic-workflows.md).
+-   ServiceNow Otto for IRM and any Workspace must be installed.
+-   Suggest potential risks workflow and Risk Suggestion AI agent must be activated. For more, refer to [Activate agentic workflows in ServiceNow Otto for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/activate-agentic-workflows.md).
 
 ## Procedure
 

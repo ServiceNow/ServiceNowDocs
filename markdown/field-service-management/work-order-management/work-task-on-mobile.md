@@ -40,15 +40,15 @@ Administrators can enable push notifications in Studio. For information on setti
 
 5.  Perform any of the following actions.
 
-<table id="choicetable_jsf_24s_4fb"><thead><tr><th align="left" id="d137054e117">
+<table id="choicetable_jsf_24s_4fb"><thead><tr><th align="left" id="d136888e117">
 
 Option
 
-</th><th align="left" id="d137054e120">
+</th><th align="left" id="d136888e120">
 
 Details
 
-</th></tr></thead><tbody><tr><td id="d137054e126">
+</th></tr></thead><tbody><tr><td id="d136888e126">
 
 **To start traveling to the job site**
 
@@ -66,7 +66,7 @@ Perform one of the following actions:-   To record your travel start time using 
     -   The **Start Travel** button transforms into**Check-In** before initiating check-in actions. The **Check-In** option is visible only when the `Enable/Disable Onsite Arrival Check-in for Agents` property is enabled. For more information, see [Global domain configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/t_ConfigureFieldService.md).
 
 
-</td></tr><tr><td id="d137054e200">
+</td></tr><tr><td id="d136888e200">
 
 **To check-in at job site before starting work**
 
@@ -79,7 +79,7 @@ Tap **Check-In** after reaching the destination.**Note:**
 -   A notification is sent to the customer, informing them that the agent has arrived on-site and is ready to begin the work. For more information, see [Customer notifications for work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/Configuring-cust-exp.md).
 
 
-</td></tr><tr><td id="d137054e241">
+</td></tr><tr><td id="d136888e241">
 
 **To start directly working on the task with automatic check-in**
 
@@ -99,7 +99,7 @@ Perform one of the following actions:-   To record the work start time using the
 -   Tap **Quick Actions** and update your status to **On break** if you want to take a break from the task or **Off Shift** if you are out of your shift time.
 
 
-</td></tr><tr><td id="d137054e305">
+</td></tr><tr><td id="d136888e305">
 
 **To change the expected start or estimated end time for the task**
 

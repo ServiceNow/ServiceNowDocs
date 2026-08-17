@@ -20,22 +20,22 @@ The ServiceNow® Upgrade Center application helps you plan and manage your upgra
 -   View all your past upgrades in the Upgrade History module.
 -   Accelerate your upgrades using the Upgrade Plan feature.
 
-See [Upgrade Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/uc-landing-page.md) for more information.
+See  for more information.
 
 ## New in the Yokohama release
 
--   **[Upgrade Preview enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/uc-preview-module.md)**
+-   **Upgrade Preview enhancements**
 
     Enhance your upgrade preview experience with the new Application Upgrade Preview and Predicted Schema Changes cards. You can also monitor the status of the preview process from the Upgrade Preview page.
 
--   **[Upgrade Management Console experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/um-landing-page.md)**
+-   **Upgrade Management Console experience**
 
     Use the new Upgrade Management Console experience to access all the relevant information and tools required for a cohesive upgrade on your instance.
 
 
 ## Changed in this release
 
--   **[Upgrade Plan enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/uc-upgrade-plan.md)**
+-   **Upgrade Plan enhancements**
 
     Experience a seamless upgrade on your instance with the Upgrade Plan, offering the option to either include or bypass skipped records and customizations during its building.
 

@@ -1,21 +1,21 @@
 ---
-title: Install Kubernetes Visibility Agent \(KVA\)
-description: You can install Kubernetes Visibility Agent using either a Helm chart or the Kubernetes YAML file.
+title: Install Kubernetes Visibility Agent \(KVA\) Informer
+description: You can install Kubernetes Visibility Agent Informer using either a Helm chart or the Kubernetes YAML file.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/discovery/cnov-deploy-install.html
 release: yokohama
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 5
-keywords: [Agent Client Collector, Kubernetes, Visibility, installation, deployment, Cloud Native Operations for Visibility, CNO for Visibility]
+last_updated: "2026-03-12"
+reading_time_minutes: 6
+keywords: [Agent Client Collector, Kubernetes Visibility Agent Informer, Informer, Kubernetes, Visibility, installation, deployment, Cloud Native Operations for Visibility, CNO for Visibility]
 breadcrumb: [Configuring Kubernetes Visibility Agent, Kubernetes discovery using Kubernetes Visibility Agent, Discovery for containerized resources, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
-# Install Kubernetes Visibility Agent \(KVA\)
+# Install Kubernetes Visibility Agent \(KVA\) Informer
 
-You can install Kubernetes Visibility Agent using either a Helm chart or the Kubernetes YAML file.
+You can install Kubernetes Visibility Agent Informer using either a Helm chart or the Kubernetes YAML file.
 
 ## Before you begin
 
@@ -23,13 +23,15 @@ Role required: none
 
 ## About this task
 
-This procedure describes the standard Kubernetes Visibility Agent installation process. Typically, you would use a Helm chart to perform the installation, but you can also configure and run the Kubernetes YAML file provided by ServiceNow.
+This procedure describes the standard Kubernetes Visibility Agent Informer installation process. Typically, you would use a Helm chart to perform the installation, but you can also configure and run the Kubernetes YAML file provided by ServiceNow.
+
+Kubernetes Visibility Agent supports Helm 4. Existing releases created with Helm 3 can be upgraded to Helm 4.
 
 ## Procedure
 
-1.  Install Kubernetes Visibility Agent using either a Helm chart or the Kubernetes YAML file provided by ServiceNow.
+1.  Install Kubernetes Visibility Agent Informer using either a Helm chart or the Kubernetes YAML file provided by ServiceNow.
 
-    -   Install Kubernetes Visibility Agent using a Helm chart.
+    -   Install Kubernetes Visibility Agent Informer using a Helm chart.
 
         1.  Edit the Helm install command.
             1.  In the following command, replace NAMESPACE, INSTANCE\_NAME, and CLUSTER\_NAME with the relevant values and replace the HELM\_URL with the URL of the most recent version, provided in the [Kubernetes Visibility Agent \(formerly CNO for Visibility\) Helm Chart and Kubernetes YAML file releases \[KB1564347\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1564347) article in the Now Support Knowledge Base.
@@ -56,17 +58,25 @@ This procedure describes the standard Kubernetes Visibility Agent installation p
                     --set bringIngressAddresses=true --set bringNodeExternalIPs=true --set discoverK8sServiceExternalIps=true --set openShift=true
                     ```
 
+                -   Upgrading Existing Kubernetes Visibility Agent Informer from Helm 3 to Helm 4: When Helm 4 is installed on your system and you want to migrate an existing Kubernetes Visibility Agent Informer from Helm 3 to Helm 4, use the Server-Side Apply flag:
+
+                    ```
+                    helm upgrade k8s-informer <CHART_URL> --server-side=true [other flags] -n $NAMESPACE
+                    ```
+
+                    The `--server-side=true` flag explicitly migrates the Informer to Helm 4's Server-Side Apply model for improved conflict resolution.
+
             2.  In the command, configure additional settings as needed:
-                -   [Configure the memory limit of the Informer pod](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/cnov-config-informer-memory.md)
+                -   [Informer Pod memory limit and memory request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/cnov-config-informer-memory.md)
                 -   [Change the full discovery frequency in Kubernetes Visibility Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/cnov-config-full-discovery-frequency.md)
                 -   [Deactivate continuous discovery in Kubernetes Visibility Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/cnov-config-continuous-discovery-off.md)
-                -   Suppress frequent changes in the Kubernetes cluster to reduce the load on your instance. When this feature is active, the Informer does not report changes above the configured threshold rate back to the instance. For more information, see the [Suppressing frequent changes in Kubernetes clusters reported by Kubernetes Visibility Agent \(formerly CNO for visibility\) \[KB1580745\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1580745) article in the Now Support Knowledge Base.
+                -   Suppress frequent changes in the Kubernetes cluster to reduce the load on your instance. When this feature is active, the Informer does not report changes before the configured threshold rate back to the instance. For more information, see the [Suppressing frequent changes in Kubernetes clusters reported by Kubernetes Visibility Agent \(formerly CNO for visibility\) \[KB1580745\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1580745) article in the Now Support Knowledge Base.
                 -   Control the maximum number of full discoveries that informers can run on multiple clusters at the same time. For more information, see the [Scheduling Full Discoveries in Kubernetes Visibility Agent \(formerly CNO for Visibility\) \[KB1580250\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1580250) article in the Now Support Knowledge Base.
                 -   [Enabling application service maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/enabling-application-service-maps.md)
         2.  Run the command.
-    -   Install Kubernetes Visibility Agent using the Kubernetes YAML file.
-        1.  Download the Kubernetes YAML zip file provided in the [Kubernetes Visibility Agent \(formerly CNO for Visibility\) Helm Chart and Kubernetes YAML file releases \[KB1564347\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1564347) article in the Now Support Knowledge Base.
-        2.  Extract the k8s\_informer.yaml and EULA.pdf files from the zip file.
+    -   Install Kubernetes Visibility Agent Informer using the Kubernetes YAML file.
+        1.  Download the Kubernetes YAML ZIP file provided in the [Kubernetes Visibility Agent \(formerly CNO for Visibility\) Helm Chart and Kubernetes YAML file releases \[KB1564347\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1564347) article in the Now Support Knowledge Base.
+        2.  Extract the k8s\_informer.yaml and EULA.pdf files from the ZIP file.
         3.  Edit the k8s\_informer.yaml file.
             -   Change the value of ACCEPT\_EULA to `"Y"`, as follows:
 
@@ -103,7 +113,7 @@ Kubernetes Visibility Agent is deployed on the Kubernetes cluster and begins to 
 
 For information about Kubernetes Visibility Agent administration and troubleshooting, see the [Administrating and Troubleshooting Kubernetes Visibility Agent \(formerly CNO for Visibility\) \[KB1532614\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1532614) article in the Now Support Knowledge Base.
 
--   **[Configure the memory limit of the Informer pod](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/cnov-config-informer-memory.md)**  
+-   **[Informer Pod memory limit and memory request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/cnov-config-informer-memory.md)**  
 Set the memory limit of the Kubernetes Visibility Agent Informer pod.
 -   **[Change the full discovery frequency in Kubernetes Visibility Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/cnov-config-full-discovery-frequency.md)**  
 Customize how often you want the Kubernetes Visibility Agent Informer to run a full discovery.
@@ -113,8 +123,8 @@ Switch off continuous discovery by Kubernetes Visibility Agent if all you need i
 Make the Kubernetes Visibility Agent Informer populate the relevant field in the cmdb\_ci\_kubernetes\_cluster CI to display the Kubernetes cluster version.
 -   **[Create a cmdb\_ci\_linux\_server CI for each Kubernetes node](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/cnov-config-linux-server-ci.md)**  
 Configure if you want the Kubernetes Visibility Agent Informer to create a cmdb\_ci\_linux\_server CI for each Kubernetes node.
--   **[Retain inactive namespace CIs for audits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/remove-inactive-cis.md)**  
-If required by your corporate standards, retain inactive namespace configuration items \(CIs\) for reference and auditing purposes with the option to delete them manually later.
+-   **[Enable automatic retirement for inactive Kubernetes cluster CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/remove-inactive-cis.md)**  
+Enable automatic retirement to update the status of inactive Kubernetes cluster configuration items \(CIs\) and all associated resources during full discovery cycles, so your CMDB reflects only active infrastructure.
 -   **[Define include and exclude lists of Labels and Annotations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/cnov-config-annotations-allowed.md)**  
 In Kubernetes Visibility Agent, define include and exclude lists of Labels and Annotations in Kubernetes resources that the Informer pulls into the Configuration Management Database \(CMDB\).
 -   **[Add custom Labels and Annotations to Kubernetes resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/cnov-config-add-custom-labels.md)**  

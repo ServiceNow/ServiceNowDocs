@@ -38,17 +38,17 @@ Yokohama Patch 7 includes fixes for security-related problems that affected cert
 
 ## Changes in Yokohama Patch 7
 
--   **[Create an endpoint for clients to access the instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/t_CreateEndpointforExternalClients.md)**
+-   ****
     -   Token Format: Format of the token to generate. The format determines the structure of a token and the information it includes.
     -   Subject Claim: Field in the User \(sys\_user\) table that's used to populate the value of the subject \(sub\) claim of a JWT token. The sub claim is a piece of information that identifies the subject, or user, of the JWT token. This field only applies if the **Token Format** is JWT.
--   **[Create an OAuth JWT API endpoint for external clients \(machine to machine integration\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/create-jwt-endpoint.md)**
+-   ****
     -   Token Format: Format of the token to generate. The format determines the structure of a token and the information it includes.
     -   Subject Claim: Field in the User \(sys\_user\) table that's used to populate the value of the subject \(sub\) claim of a JWT token. The sub claim is a piece of information that identifies the subject, or user, of the JWT token. This field only applies if the **Token Format** is JWT.
--   **[Create an HTTP classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/create-an-http-classifier.md)**
+-   ****
 
     Starting in YP7, the HTTP Classify probe no longer attempts credentials over the HTTP protocol by default. To override this behavior, you can enable **mid.http\_classy.allow\_credentials\_over\_http**. However, enabling this setting can expose credentials to man-in-the-middle \(MitM\) attacks. Therefore, it’s strongly recommended to keep this property set to **false** and use HTTPS whenever possible.
 
--   **[MID Server properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/r_MIDServerProperties.md)**
+-   ****
     -   **mid.http\_classy.allow\_credentials\_over\_http**
 
         Enables the HTTP Classify probe to send credentials over the HTTP protocol during discovery.
@@ -57,7 +57,7 @@ Yokohama Patch 7 includes fixes for security-related problems that affected cert
         -   Default value: false
         **Warning:** Enabling this setting can expose credentials to security risks, such as man-in-the-middle \(MitM\) attacks. Therefore, it’s strongly recommended to keep this property set to **false** and use HTTPS whenever possible.
 
-    -   **[Run discovery through an HTTP or HTTPS REST call](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/run-http-discovery.md)**
+    -   ****
 
         Starting in YP7, the HTTP Classify probe no longer attempts credentials over the HTTP protocol by default. To override this behavior, you can enable **mid.http\_classy.allow\_credentials\_over\_http**. However, enabling this setting can expose credentials to man-in-the-middle \(MitM\) attacks. Therefore, it’s strongly recommended to keep this property set to **false** and use HTTPS whenever possible.
 

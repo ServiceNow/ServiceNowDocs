@@ -154,15 +154,15 @@ Role required: admin
 
     -   In Workspace, this option appears in the Recalculate target date section
     -   In Classic view, use the **Target recalculation method** field.
-<table id="choicetable_bb3_q3b_fhc"><thead><tr><th align="left" id="d416600e496">
+<table id="choicetable_bb3_q3b_fhc"><thead><tr><th align="left" id="d420344e496">
 
 Choice
 
-</th><th align="left" id="d416600e499">
+</th><th align="left" id="d420344e499">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d416600e505">
+</th></tr></thead><tbody><tr><td id="d420344e505">
 
 **Default calculation**
 
@@ -170,7 +170,7 @@ Description
 
 Recalculates the RT date using the standard formula \(Target from \(date\) + Target \(days\)\), based on the rule that currently matches the finding's risk rating. The Field change time-based recalculated date is not applied.
 
-</td></tr><tr><td id="d416600e514">
+</td></tr><tr><td id="d420344e514">
 
 **Recalculate from risk change date**
 
@@ -178,7 +178,7 @@ Recalculates the RT date using the standard formula \(Target from \(date\) + Tar
 
 Updates the Remediation Target date to: Field change time + Target \(days\) based on the new risk rating.
 
-</td></tr><tr><td id="d416600e523">
+</td></tr><tr><td id="d420344e523">
 
 **Recalculate from risk change date and always set to earliest target date**
 
@@ -186,7 +186,7 @@ Updates the Remediation Target date to: Field change time + Target \(days\) base
 
 Compares the existing RT date with Field change time + Target \(days\) and applies the earlier date.
 
-</td></tr><tr><td id="d416600e532">
+</td></tr><tr><td id="d420344e532">
 
 **Recalculate from risk change date and set to earliest target date only when risk rating increases**
 
@@ -261,15 +261,15 @@ Previously, applying rules to all records was necessary to obtain the latest ass
 
 5.  In the Re-evaluate update remediation properties modal, select the properties that you want to update for the selected records.
 
-<table id="choicetable_rdp_tfq_1cc"><thead><tr><th align="left" id="d416600e978">
+<table id="choicetable_rdp_tfq_1cc"><thead><tr><th align="left" id="d420344e978">
 
 Field
 
-</th><th align="left" id="d416600e981">
+</th><th align="left" id="d420344e981">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d416600e989">
+</th></tr></thead><tbody><tr><td id="d420344e989">
 
 **Record selection**
 
@@ -279,7 +279,7 @@ Description
 -   **All items**: Updates all the records in the list.
 
 
-</td></tr><tr><td id="d416600e1012">
+</td></tr><tr><td id="d420344e1012">
 
 **Assignments**
 
@@ -287,7 +287,7 @@ Description
 
 Updates the assignments in the **Assignment Group** field according to the latest Assignment Rules.
 
-</td></tr><tr><td id="d416600e1024">
+</td></tr><tr><td id="d420344e1024">
 
 **Risk score**
 
@@ -295,7 +295,7 @@ Updates the assignments in the **Assignment Group** field according to the lates
 
 Updates the risk score in the **Risk score** field as per the latest Risk Score Rules.
 
-</td></tr><tr><td id="d416600e1037">
+</td></tr><tr><td id="d420344e1037">
 
 **Remediation tasks**
 
@@ -303,7 +303,7 @@ Updates the risk score in the **Risk score** field as per the latest Risk Score 
 
 Updates the remediation tasks according to the latest Remediation task rules.
 
-</td></tr><tr><td id="d416600e1048">
+</td></tr><tr><td id="d420344e1048">
 
 **Exceptions**
 
@@ -311,7 +311,7 @@ Updates the remediation tasks according to the latest Remediation task rules.
 
 Updates the deferral status of the records according to the latest Exception rules.For more information on how the deferral status of the records is updated, see [Re-evaluating the exceptions for selected records in the Security Exposure Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/sem-exception-rules-scenarios.md).
 
-</td></tr><tr><td id="d416600e1070">
+</td></tr><tr><td id="d420344e1070">
 
 **Remediation target date**
 

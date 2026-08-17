@@ -9,7 +9,7 @@ classification: now-assist-for-security-incident-response-sir
 topic_type: task
 last_updated: "2025-04-22"
 reading_time_minutes: 4
-breadcrumb: [Analyze security operations metrics, Use agentic workflows, Now Assist for Security Incident Response, Security Operations]
+breadcrumb: [Analyze security operations metrics, Use agentic workflows, ServiceNow Otto for Security Incident Response \(SIR\), Security Operations]
 ---
 
 # Analyze security operations metrics agentic workflow
@@ -18,7 +18,7 @@ Chat with an AI agent from the Now Assist panel to help you gain insight into ho
 
 ## Before you begin
 
-You must activate the Now Assist Security operations metrics analysis skill before you can use the AI agents with the Analyze security operations metrics agentic workflow. For more information, see [Configure a skill for Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/now-assist-for-security-incident-response-sir/activate-skills-for-now-assist-security-incident.md).
+You must activate the Now Assist Security operations metrics analysis skill before you can use the AI agents with the Analyze security operations metrics agentic workflow. For more information, see [Configure a skill for ServiceNow Otto for Security Incident Response \(SIR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/now-assist-for-security-incident-response-sir/activate-skills-for-now-assist-security-incident.md).
 
 Role required: sn\_si.manager
 
